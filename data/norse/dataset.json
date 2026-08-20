@@ -1368,6 +1368,666 @@
     "messenger-trickster",
     "primordial-adversary"
    ]
+  },
+  {
+   "id": "fenrir",
+   "name": "Fenrir",
+   "sanskrit": "Fenrir",
+   "category": "monster",
+   "era": "Age of the Aesir",
+   "role": "The wolf who will swallow Odin",
+   "wikipedia": "Fenrir",
+   "portrait": "portraits/norse/fenrir.webp",
+   "epithets": [
+    "Fenrisulfr",
+    "The Wolf",
+    "Hropt's Bane"
+   ],
+   "domains": [
+    "the bound thing that will break loose",
+    "betrayed trust",
+    "the death of Odin"
+   ],
+   "symbols": [
+    "the fetter Gleipnir",
+    "the sword propping his jaws",
+    "Tyr's severed hand"
+   ],
+   "mount": null,
+   "abode": "Bound on an island until the end",
+   "festivals": [],
+   "worship": "",
+   "bio": "Raised among the gods, tricked into a fetter he could not break, and freed at Ragnarok to kill Odin.",
+   "longBio": "Fenrir is brought up in Asgard because Odin would rather have him where he can be seen, and only Tyr is brave enough to feed him. He grows so fast that the gods decide to bind him, and twice they present a chain as a test of strength, which he snaps and enjoys. The third fetter, Gleipnir, is made by dwarfs from six impossible things - the noise of a cat's footfall, a woman's beard, a mountain's roots, a bear's sinews, a fish's breath, a bird's spittle - and is thin as silk. Fenrir is suspicious and demands a pledge: a hand in his mouth. Tyr gives his, knowing. The fetter holds; the hand is bitten off. A sword is set upright in his jaws to hold them open, and his drool makes a river. At Ragnarok he breaks free and swallows Odin, and Vidar tears him apart.",
+   "variantTraditions": "The gods' handling of Fenrir is what makes him what they feared: they raise him, deceive him and maim him, and he kills Odin. The sources present this without comment.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "jormungandr",
+   "name": "Jormungandr",
+   "sanskrit": "Jormungandr",
+   "category": "monster",
+   "era": "Age of the Aesir",
+   "role": "The serpent that encircles the world",
+   "wikipedia": "Jörmungandr",
+   "portrait": "portraits/norse/jormungandr.webp",
+   "epithets": [
+    "The Midgard Serpent",
+    "The World-Encircler",
+    "Thor's Bane"
+   ],
+   "domains": [
+    "the encircling sea",
+    "the poison at the end",
+    "the enemy Thor cannot finally survive"
+   ],
+   "symbols": [
+    "the serpent biting its own tail",
+    "venom"
+   ],
+   "mount": null,
+   "abode": "The ocean surrounding Midgard",
+   "festivals": [],
+   "worship": "",
+   "bio": "Thrown into the sea by Odin, he grew until he circled the world and could bite his own tail.",
+   "longBio": "Odin throws the infant serpent into the deep ocean, and there it grows until it surrounds all the lands and grips its own tail. Thor meets it twice. Once at Utgard, where he is challenged to lift a grey cat and manages one paw off the ground - and is told afterwards that the cat was the serpent and that the onlookers were terrified when the sky was touched. Once fishing with the giant Hymir, using an ox head for bait, when he hooks it and hauls it up until they are face to face and he reaches for his hammer, and Hymir cuts the line in terror. At Ragnarok they meet a third time. Thor kills it and walks nine paces before the venom brings him down.",
+   "variantTraditions": "Whether Thor killed the serpent at the fishing trip in an older version, and Snorri softened it, has been argued from the way some skaldic poems describe the scene.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "hel",
+   "name": "Hel",
+   "sanskrit": "Hel",
+   "category": "monster",
+   "era": "Age of the Aesir",
+   "role": "Queen of the dead who did not fall in battle",
+   "wikipedia": "Hel (mythology)",
+   "portrait": "portraits/norse/hel.webp",
+   "epithets": [
+    "Half-Blue",
+    "Lady of the Ninth World",
+    "Ruler of Niflhel"
+   ],
+   "domains": [
+    "the ordinary dead",
+    "sickness and old age",
+    "the unfought death"
+   ],
+   "symbols": [
+    "a face half living and half corpse",
+    "the hall Eljudnir",
+    "the dish Hunger"
+   ],
+   "mount": null,
+   "abode": "Eljudnir in Niflheim",
+   "festivals": [],
+   "worship": "",
+   "bio": "Half a living woman and half a corpse, ruling everyone who dies of sickness or age.",
+   "longBio": "Odin casts Hel down into Niflheim and gives her authority over the ninth world and over everyone sent to her - and that is nearly everyone, since only the battle-slain go elsewhere. She is described as half flesh-coloured and half blue-black, with a grim and downcast look. Her hall is Eljudnir, her dish is Hunger, her knife is Famine, her threshold is Stumbling-Block. Her realm is not a place of punishment and there is no judgment at its gate: a good farmer who dies in bed and a bad one arrive alike. Her one great moment is the ransom of Baldr, when she agrees to release him if every thing in the world weeps, and one giantess refuses - so she keeps him. She has a legal cast of mind, and she is not cheated.",
+   "variantTraditions": "The Christian Hell and the Norse Hel share an etymology but not a concept; Snorri's description may have absorbed some later colouring.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge"
+   ]
+  },
+  {
+   "id": "nidhogg",
+   "name": "Nidhogg",
+   "sanskrit": "Nidhoggr",
+   "category": "monster",
+   "era": "Primordial",
+   "role": "The serpent gnawing at the root of the world tree",
+   "wikipedia": "Níðhöggr",
+   "portrait": "portraits/norse/nidhogg.webp",
+   "epithets": [
+    "The Malice-Striker",
+    "The Corpse-Tearer"
+   ],
+   "domains": [
+    "decay",
+    "the slow undermining of the world",
+    "the punishment of oathbreakers"
+   ],
+   "symbols": [
+    "the gnawed root",
+    "dark feathers",
+    "corpses in the wings"
+   ],
+   "mount": null,
+   "abode": "Hvergelmir, beneath the third root of Yggdrasil",
+   "festivals": [],
+   "worship": "",
+   "bio": "The dragon chewing the root of Yggdrasil from below, and feeding on the worst of the dead.",
+   "longBio": "The world tree is under attack from every side: a stag eats the leaves, goats browse the branches, and beneath the third root Nidhogg gnaws steadily at the wood. The squirrel Ratatoskr runs up and down carrying insults between him and the eagle at the top, which is the tradition's one moment of pure comedy about the structure of the universe. Nidhogg also chews the corpses of the dead in Nastrond, the shore of the dead, where oathbreakers and murderers go - one of very few places where Norse sources describe anything like moral punishment after death. In the last stanza of Voluspa, after the new world has risen and the seeress is finishing, Nidhogg flies over carrying corpses in his wings, and then she sinks. It is a deeply unsettling place to end.",
+   "variantTraditions": "The final Nidhogg stanza's position in Voluspa varies between manuscripts, and whether it belongs to the new world or the old is genuinely unclear.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "garmr",
+   "name": "Garmr",
+   "sanskrit": "Garmr",
+   "category": "monster",
+   "era": "Ragnarok",
+   "role": "The hound at the mouth of the cave",
+   "wikipedia": "Garmr",
+   "portrait": "portraits/norse/garmr.webp",
+   "epithets": [
+    "The Howling One",
+    "Best of Hounds"
+   ],
+   "domains": [
+    "the guarding of the road to Hel",
+    "the howl that announces the end"
+   ],
+   "symbols": [
+    "the blood-caked chest",
+    "the chain",
+    "the cave mouth Gnipahellir"
+   ],
+   "mount": null,
+   "abode": "Gnipahellir, before the road to Hel",
+   "festivals": [],
+   "worship": "",
+   "bio": "A blood-stained hound bound before the cave, whose howling marks each stage of Ragnarok.",
+   "longBio": "Garmr is chained before the cave Gnipahellir on the road to Hel, and Voluspa uses his howling as its refrain: now Garmr howls loud before Gnipahellir, the fetter will break and the wolf run free. The line recurs to mark the stages of the ending, so the dog is effectively the poem's clock. At Ragnarok he breaks loose and fights Tyr, and the two kill each other - which is a fittingly bleak outcome for the god who already lost a hand to a bound wolf. Some scholars think Garmr and Fenrir are the same creature under two names, since both are bound, both break free, and the accounts of who fights whom differ between sources.",
+   "variantTraditions": "Snorri pairs Garmr with Tyr; Voluspa's phrasing is ambiguous enough that the Garmr-is-Fenrir reading has real support.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "fafnir",
+   "name": "Fafnir",
+   "sanskrit": "Fafnir",
+   "category": "monster",
+   "era": "Heroic",
+   "role": "The dwarf who became a dragon over gold",
+   "wikipedia": "Fáfnir",
+   "portrait": "portraits/norse/fafnir.webp",
+   "epithets": [
+    "The Serpent",
+    "Keeper of the Hoard"
+   ],
+   "domains": [
+    "greed",
+    "the cursed hoard",
+    "transformation by avarice"
+   ],
+   "symbols": [
+    "the helm of terror",
+    "the gold",
+    "the serpent's track to the water"
+   ],
+   "mount": null,
+   "abode": "Gnitaheath, lying on his gold",
+   "festivals": [],
+   "worship": "",
+   "bio": "He killed his father for the cursed gold, turned into a dragon guarding it, and was killed by Sigurd.",
+   "longBio": "Odin, Loki and Hoenir kill an otter that is really Hreidmar's son, and Hreidmar demands the skin be filled and covered with gold. Loki takes the hoard from the dwarf Andvari, including a ring Andvari curses as he loses it. Fafnir and his brother Regin then kill their father for the gold; Fafnir takes it all, goes out to Gnitaheath, and becomes a dragon lying on it. Regin, wanting it back, raises Sigurd and sends him to kill his brother. Sigurd digs a pit in the serpent's track and stabs upward as it passes over. Dying, Fafnir speaks at length with his killer - warning him that the gold is cursed and will destroy him too, which is exactly what happens.",
+   "variantTraditions": "The Volsunga Saga and the eddic poems Reginsmal and Fafnismal differ in detail; the Nibelungenlied recasts the whole story with different names.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "norns",
+   "name": "The Norns",
+   "sanskrit": "Nornir",
+   "category": "fate",
+   "era": "Primordial",
+   "role": "Urd, Verdandi and Skuld, who carve what will happen",
+   "wikipedia": "Norns",
+   "portrait": "portraits/norse/norns.webp",
+   "epithets": [
+    "Urd, What Became",
+    "Verdandi, What Is Becoming",
+    "Skuld, What Shall Be"
+   ],
+   "domains": [
+    "fate",
+    "the shaping of every life",
+    "the tending of the world tree"
+   ],
+   "symbols": [
+    "the well of Urd",
+    "carved staves",
+    "the white clay poured on the tree"
+   ],
+   "mount": null,
+   "abode": "The well of Urd, at a root of Yggdrasil",
+   "festivals": [],
+   "worship": "",
+   "bio": "Three maidens at the well who set the law and choose the lives of the children of men.",
+   "longBio": "The Norns live beneath the ash by the well of Urd, and Voluspa says flatly that they made laws and chose lives for the children of men and set fate. Their names read as a tense sequence - what became, what is becoming, what shall be - though whether that neat scheme is original or a later reading of ordinary names is disputed. They cut marks on wooden staves. They also tend Yggdrasil, drawing water from the well and mixing it with the white clay of the bank to pour over the tree so it does not rot, which means the same beings who fix fate are also the maintenance crew for the universe. There are further norns besides these three, of the Aesir, the elves and the dwarfs, who attend births and account for why lives differ so much.",
+   "variantTraditions": "The three-Norn scheme is often compared with the Greek Moirai and the Latin Parcae; the parallel is real but the direction of any influence is unknown.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "fate-time"
+   ]
+  },
+  {
+   "id": "valkyries",
+   "name": "The Valkyries",
+   "sanskrit": "Valkyrjur",
+   "category": "valkyrie",
+   "era": "Age of the Aesir",
+   "role": "Choosers of the slain",
+   "wikipedia": "Valkyrie",
+   "portrait": "portraits/norse/valkyries.webp",
+   "epithets": [
+    "Choosers of the Slain",
+    "Odin's Maids",
+    "Shield-Maidens"
+   ],
+   "domains": [
+    "the choosing of who dies in battle",
+    "the serving of mead in Valhalla",
+    "the fate of armies"
+   ],
+   "symbols": [
+    "the spear and shield",
+    "the horse",
+    "the mead horn",
+    "the swan cloak"
+   ],
+   "mount": null,
+   "abode": "Valhalla, and the battlefield",
+   "festivals": [],
+   "worship": "",
+   "bio": "They choose who falls, carry the chosen to Valhalla, and pour for them there.",
+   "longBio": "The name means chooser of the slain, and it is meant literally: they do not merely collect the dead, they decide who dies. Odin sends them to every battle and they allot victory. In Valhalla they carry mead to the einherjar. Some are Odin's daughters and some are mortal princesses, and the boundary is porous - Brynhildr is a valkyrie punished with mortality for awarding victory to the wrong king. The eddic poem Darradarljod shows them at a loom weaving with human entrails, weighted with severed heads, deciding a battle in Ireland as they work, which is a considerably darker picture than the later romantic one. Their names are mostly plain nouns of violence: Battle, Tumult, Shrieker, Spear-Bearer.",
+   "variantTraditions": "The valkyries of skaldic verse and the swan-maidens of the heroic poems may be two originally distinct traditions merged.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "war",
+    "death-judge",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "sleipnir",
+   "name": "Sleipnir",
+   "sanskrit": "Sleipnir",
+   "category": "beast",
+   "era": "Age of the Aesir",
+   "role": "Odin's eight-legged horse",
+   "wikipedia": "Sleipnir",
+   "portrait": "portraits/norse/sleipnir.webp",
+   "epithets": [
+    "The Sliding One",
+    "Best of Horses"
+   ],
+   "domains": [
+    "travel between the worlds",
+    "speed",
+    "the road to Hel"
+   ],
+   "symbols": [
+    "eight legs",
+    "runes cut on his teeth"
+   ],
+   "mount": null,
+   "abode": "Asgard",
+   "festivals": [],
+   "worship": "",
+   "bio": "The best of horses, borne by Loki as a mare, who can carry a rider to the land of the dead and back.",
+   "longBio": "A builder offers to wall Asgard in three seasons for the sun, the moon and Freyja, and the gods accept on Loki's advice, believing it impossible. The builder's stallion Svadilfari hauls stone at such a rate that the work will finish early, and the gods turn on Loki, who solves it by becoming a mare in season and luring the stallion away for a night. The wall goes unfinished, the builder turns out to be a giant and is killed. Loki afterwards bears a grey foal with eight legs. Sleipnir can carry a rider over sea and air, and Hermod rides him down to Hel and back, which no other horse could do. Runes are cut on his teeth. He is the clearest case in the tradition of something valuable coming out of Loki's misconduct.",
+   "variantTraditions": "Eight-legged horses appear on Gotland picture stones, so the image is older than Snorri even if his account of the parentage is his own.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "huginn",
+   "name": "Huginn and Muninn",
+   "sanskrit": "Huginn ok Muninn",
+   "category": "beast",
+   "era": "Age of the Aesir",
+   "role": "Thought and Memory, Odin's ravens",
+   "wikipedia": "Huginn and Muninn",
+   "portrait": "portraits/norse/huginn.webp",
+   "epithets": [
+    "Thought and Memory",
+    "Odin's Ravens"
+   ],
+   "domains": [
+    "intelligence gathering",
+    "thought",
+    "memory"
+   ],
+   "symbols": [
+    "two ravens on the shoulders"
+   ],
+   "mount": null,
+   "abode": "Odin's shoulders, and everywhere else",
+   "festivals": [],
+   "worship": "",
+   "bio": "Two ravens who fly over the world each day and report; Odin fears losing Memory more.",
+   "longBio": "Huginn and Muninn sit on Odin's shoulders, fly out at dawn over all the worlds, and return at breakfast to tell him what they have seen, which is one of the reasons he is called Raven-God. Grimnismal contains a remarkable admission: Odin says he fears Huginn may not come back, but that he fears more for Muninn - he worries about losing Thought, and worries more about losing Memory. For a god defined by the accumulation of knowledge that is a very precise anxiety. Ravens follow armies to feed on the dead, so the connection between Odin, ravens and battle is grounded in something people actually watched happen, and raven banners were carried by Viking-age fleets.",
+   "variantTraditions": "The names are transparent Old Norse abstractions, which has led some scholars to suspect they are a poetic device that Snorri hardened into two individual birds.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "messenger-trickster",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "ratatoskr",
+   "name": "Ratatoskr",
+   "sanskrit": "Ratatoskr",
+   "category": "beast",
+   "era": "Primordial",
+   "role": "The squirrel who carries insults up and down the world tree",
+   "wikipedia": "Ratatoskr",
+   "portrait": "portraits/norse/ratatoskr.webp",
+   "epithets": [
+    "The Drill-Tooth",
+    "The Bearer of Slander"
+   ],
+   "domains": [
+    "malicious gossip",
+    "the traffic between the top and bottom of the world"
+   ],
+   "symbols": [
+    "the squirrel running the trunk"
+   ],
+   "mount": null,
+   "abode": "The trunk of Yggdrasil",
+   "festivals": [],
+   "worship": "",
+   "bio": "He runs between the eagle at the top of the tree and the dragon at its root, relaying their abuse.",
+   "longBio": "An eagle sits in the branches of Yggdrasil with a hawk between its eyes, and Nidhogg gnaws at the root below, and Ratatoskr runs up and down the trunk carrying what each says about the other. Grimnismal gives him a single stanza and Snorri repeats it, and that is the entire body of evidence, but it is one of the most memorable images in the whole corpus: the axis of the universe has a squirrel on it, making trouble for its own sake. The detail also does real work, since it explains why the dragon keeps chewing - he is being needled about it. His name is usually read as drill-tooth or bore-tooth, though the second element has also been argued to mean tusk or even traveller.",
+   "variantTraditions": "The etymology of the name is genuinely unsettled, and proposals range from drill-tooth to a borrowing meaning rat-tusk.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "brokkr",
+   "name": "Brokkr and Eitri",
+   "sanskrit": "Brokkr ok Eitri",
+   "category": "dwarf",
+   "era": "Age of the Aesir",
+   "role": "The brothers who forged Mjollnir",
+   "wikipedia": "Brokkr",
+   "portrait": "portraits/norse/brokkr.webp",
+   "epithets": [
+    "The Smiths of Svartalfheim"
+   ],
+   "domains": [
+    "smithing",
+    "the making of the gods' treasures"
+   ],
+   "symbols": [
+    "the bellows",
+    "the anvil",
+    "the awl and thong"
+   ],
+   "mount": null,
+   "abode": "Svartalfheim",
+   "festivals": [],
+   "worship": "",
+   "bio": "They made Thor's hammer, Odin's ring and Freyr's boar, and won Loki's head in the wager.",
+   "longBio": "Loki, having already commissioned Sif's golden hair from the sons of Ivaldi, provokes a wager by telling Brokkr and Eitri that no dwarf could match those gifts, staking his own head. Eitri works the forge and Brokkr the bellows, and Loki turns into a fly and bites Brokkr three times to spoil the work - on the hand, the neck, and finally the eyelid, so that blood runs into his eye and he pauses for a moment to wipe it. That instant is why the hammer Mjollnir has a short handle. The gods judge it the greatest treasure regardless, and Brokkr wins. Loki argues that he staked his head but not his neck, and the dwarfs settle for sewing his lips shut, which is the tradition's idea of a proportionate remedy.",
+   "variantTraditions": "The story is Snorri's; the eddic poems refer to the treasures without narrating how they were made.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "andvari",
+   "name": "Andvari",
+   "sanskrit": "Andvari",
+   "category": "dwarf",
+   "era": "Heroic",
+   "role": "The dwarf whose cursed ring destroys everyone who holds it",
+   "wikipedia": "Andvari",
+   "portrait": "portraits/norse/andvari.webp",
+   "epithets": [
+    "The Careful One",
+    "The Pike"
+   ],
+   "domains": [
+    "gold",
+    "the curse laid on treasure",
+    "the hoard"
+   ],
+   "symbols": [
+    "the ring Andvaranaut",
+    "the pike shape",
+    "the waterfall"
+   ],
+   "mount": null,
+   "abode": "A waterfall, in the shape of a pike",
+   "festivals": [],
+   "worship": "",
+   "bio": "Robbed of his gold by Loki, he cursed the last ring, and the curse works through generations.",
+   "longBio": "Andvari lives as a pike in a waterfall and has a hoard. Loki, needing gold to pay Hreidmar for the otter's skin, borrows Ran's net and catches him, and demands everything. Andvari surrenders it but tries to keep back one ring, Andvaranaut, which can breed more gold; Loki takes that too. As he goes, Andvari curses the ring and all the gold so that it will destroy whoever owns it. It then does so, methodically and without exception: Hreidmar is murdered by his sons, Fafnir turns into a dragon, Regin is killed by Sigurd, Sigurd is murdered, Gunnar and Hogni die for it, Gudrun's children are killed, and Atli is murdered in his bed. Nobody in the whole cycle who touches the gold survives it.",
+   "variantTraditions": "Wagner's Alberich and the ring cycle descend from Andvari by way of the Nibelungenlied, with substantial reworking.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wealth-fortune",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "regin",
+   "name": "Regin",
+   "sanskrit": "Reginn",
+   "category": "dwarf",
+   "era": "Heroic",
+   "role": "Sigurd's foster-father and treacherous smith",
+   "wikipedia": "Regin",
+   "portrait": "portraits/norse/regin.webp",
+   "epithets": [
+    "The Smith",
+    "Foster-Father of Sigurd"
+   ],
+   "domains": [
+    "smithing",
+    "the reforging of the sword",
+    "betrayal planned in advance"
+   ],
+   "symbols": [
+    "the sword Gram",
+    "the roasting heart"
+   ],
+   "mount": null,
+   "abode": "The court of the Danish kings",
+   "festivals": [],
+   "worship": "",
+   "bio": "He raised Sigurd to kill his own brother for the gold, and intended to kill him afterwards.",
+   "longBio": "Regin fosters Sigurd and works on him steadily to send him against Fafnir, his own brother, for the hoard. He forges swords that Sigurd breaks on the anvil, until Sigurd brings the fragments of his father's sword Gram and Regin reforges those into a blade that splits the anvil and cuts a floating wool tuft in the river. He advises the pit-and-stab method, then asks Sigurd to roast Fafnir's heart for him. Sigurd burns his thumb testing it, puts it in his mouth, and instantly understands the speech of birds - who are discussing, overhead, Regin's intention to kill him as soon as he has the gold. Sigurd cuts off his head. The birds are correct, and the warning arrives by the same accident that made the treachery possible.",
+   "variantTraditions": "The overheard birds appear in Fafnismal and in the Volsunga Saga; the number of birds and what they say varies.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "sigurd",
+   "name": "Sigurd",
+   "sanskrit": "Sigurdr",
+   "category": "hero",
+   "era": "Heroic",
+   "role": "Dragon-slayer of the Volsung line",
+   "wikipedia": "Sigurd",
+   "portrait": "portraits/norse/sigurd.webp",
+   "epithets": [
+    "The Dragon-Slayer",
+    "Fafnir's Bane",
+    "Sigurd Sigmundarson"
+   ],
+   "domains": [
+    "heroism",
+    "the cursed hoard",
+    "the broken oath and its consequences"
+   ],
+   "symbols": [
+    "the sword Gram",
+    "the horse Grani",
+    "the helm of terror",
+    "the ring Andvaranaut"
+   ],
+   "mount": null,
+   "abode": "The court of the Gjukungs",
+   "festivals": [],
+   "worship": "",
+   "bio": "The greatest hero of the north: he killed Fafnir, woke Brynhildr, was made to forget her, and died for it.",
+   "longBio": "Sigurd is born after his father Sigmund's death and raised by Regin, who reforges Sigmund's broken sword for him. He kills Fafnir, takes the gold, tastes the heart, learns of Regin's treachery from the birds and kills him. Riding on, he finds a wall of flame with an armoured sleeper inside - Brynhildr, a valkyrie whom Odin has punished with sleep and mortality - wakes her, and they swear themselves to each other. Then he reaches the Gjukungs, whose queen gives him a drink that erases the memory, and he marries Gudrun. Worse, he helps Gunnar win Brynhildr by taking Gunnar's shape and riding the flames himself. When Brynhildr learns of the deception she has him murdered, then kills herself and is burned on his pyre.",
+   "variantTraditions": "The Nibelungenlied recasts him as Siegfried with a different ending, and Wagner drew on both. The Norse version is older and considerably harsher.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "brynhildr",
+   "name": "Brynhildr",
+   "sanskrit": "Brynhildr",
+   "category": "hero",
+   "era": "Heroic",
+   "role": "The valkyrie punished with sleep, and Sigurd's ruin",
+   "wikipedia": "Brynhildr",
+   "portrait": "portraits/norse/brynhildr.webp",
+   "epithets": [
+    "The Mail-Coated",
+    "Sigrdrifa, Victory-Bringer"
+   ],
+   "domains": [
+    "broken oath",
+    "wounded honour",
+    "vengeance against the man she loves"
+   ],
+   "symbols": [
+    "the wall of flame",
+    "the mail she is cut out of",
+    "the pyre"
+   ],
+   "mount": null,
+   "abode": "Hindarfjall, and afterwards the hall of the Gjukungs",
+   "festivals": [],
+   "worship": "",
+   "bio": "A valkyrie who gave victory to the wrong king, was put to sleep behind fire, and destroyed the man who woke her.",
+   "longBio": "Brynhildr awards victory in a battle to the king Odin had not chosen, and Odin punishes her: he pricks her with a sleep-thorn, encloses her in a wall of flame, and declares she will marry a mortal. Sigurd rides through and wakes her, and they exchange oaths. Then he is made to forget. He returns in Gunnar's shape, rides the fire a second time on Gunnar's behalf, and she marries Gunnar believing he did it. She learns the truth in a quarrel with Gudrun over precedence at the river. Her response is not grief but calculation: she goads Gunnar into having Sigurd killed by telling him Sigurd broke faith, and when it is done she laughs once, then stabs herself and asks to be burned on the same pyre with a drawn sword between them.",
+   "variantTraditions": "The Volsunga Saga, the eddic poems and the Nibelungenlied give substantially different accounts of her identity and motive.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "sigmund",
+   "name": "Sigmund",
+   "sanskrit": "Sigmundr",
+   "category": "hero",
+   "era": "Heroic",
+   "role": "The Volsung who drew the sword from the tree",
+   "wikipedia": "Sigmund",
+   "portrait": "portraits/norse/sigmund.webp",
+   "epithets": [
+    "The Volsung",
+    "Sword-Drawer"
+   ],
+   "domains": [
+    "endurance",
+    "the family sword",
+    "vengeance across a generation"
+   ],
+   "symbols": [
+    "the sword Gram",
+    "the barrow",
+    "the wolf skin"
+   ],
+   "mount": null,
+   "abode": "The forest, and afterwards the Volsung hall",
+   "festivals": [],
+   "worship": "",
+   "bio": "He alone pulled Odin's sword from the tree, survived the massacre of his family, and died when Odin shattered it.",
+   "longBio": "A one-eyed stranger drives a sword into the trunk of the tree growing through the Volsung hall and says whoever draws it may keep it; only Sigmund can. His brother-in-law Siggeir, refused the sword, kills his father and captures his ten brothers, who are eaten one by one by a she-wolf in the stocks until Sigmund alone escapes by a trick of his sister's. He lives as an outlaw in the forest for years, plotting, and eventually burns Siggeir in his hall. Much later, an old man in a wide hat steps into a battle and holds up a spear; Sigmund strikes it and Gram shatters, and he takes his death wound - Odin has come to collect him. He tells his wife to keep the fragments for the son she is carrying, who is Sigurd.",
+   "variantTraditions": "The Volsunga Saga is the fullest source; Beowulf refers to a dragon-slaying by Sigemund, which suggests the material circulated in England in a different arrangement.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "gudrun",
+   "name": "Gudrun",
+   "sanskrit": "Gudrun",
+   "category": "hero",
+   "era": "Heroic",
+   "role": "Sigurd's widow, who avenged him on her own family",
+   "wikipedia": "Gudrún",
+   "portrait": "portraits/norse/gudrun.webp",
+   "epithets": [
+    "Gjuki's Daughter",
+    "The Avenger"
+   ],
+   "domains": [
+    "grief",
+    "vengeance",
+    "the destruction of a house from inside"
+   ],
+   "symbols": [
+    "the bloodied sheets",
+    "the burning hall",
+    "the cup"
+   ],
+   "mount": null,
+   "abode": "The hall of the Gjukungs, then of Atli",
+   "festivals": [],
+   "worship": "",
+   "bio": "Married to Sigurd by a drink of forgetting, she outlived his murder and destroyed everyone responsible.",
+   "longBio": "Gudrun marries Sigurd after her mother's potion erases Brynhildr from his memory, and it is her boast at the river about whose husband is the greater that triggers the whole catastrophe. When Sigurd is murdered in his bed she is so struck she cannot weep until a woman uncovers the body and makes her look at it. She is afterwards married to Atli, who kills her brothers Gunnar and Hogni for the gold. Her revenge is total and calculated: she kills her two sons by Atli, serves him their hearts and their blood in cups made of their skulls, tells him what he has eaten, stabs him, and burns the hall with everyone in it. Then she walks into the sea, which will not drown her.",
+   "variantTraditions": "The German tradition reverses her entirely: Kriemhild in the Nibelungenlied destroys her brothers to avenge her husband, where Gudrun destroys her husband to avenge her brothers.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion"
+   ]
   }
  ],
  "links": []
