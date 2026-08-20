@@ -130,9 +130,27 @@ function edgeSampleSvg(type, w) {
 
 /* ---------------- boot ---------------- */
 
+/* Every script here is deferred, so they execute in order -- but this .then is
+   a microtask, and the microtask queue drains BETWEEN deferred scripts. On a
+   fast or cached response the boot could therefore run before vault.js had
+   defined Vault. Waiting on DOMContentLoaded (which fires only after all
+   deferred scripts have executed) closes that race without delaying the
+   fetches, which still start immediately. */
+const domReady = new Promise(resolve => {
+  /* NOT "loading": readyState is already "interactive" while deferred scripts
+     run, and DOMContentLoaded fires only after the last of them. Testing for
+     "loading" here would resolve immediately and wait for nothing. */
+  if (document.readyState === "complete") {
+    resolve();
+  } else {
+    document.addEventListener("DOMContentLoaded", resolve, { once: true });
+  }
+});
+
 Promise.all([
   fetch("/data/pantheons.json").then(r => r.json()),
-  fetch("/data/archetypes.json").then(r => r.json())
+  fetch("/data/archetypes.json").then(r => r.json()),
+  domReady
 ]).then(([manifest, arch]) => {
   APP.manifest = manifest.pantheons;
   APP.archetypes = arch.archetypes;

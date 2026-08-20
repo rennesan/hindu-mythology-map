@@ -38,6 +38,26 @@
    "destination": "/greek/index.html"
   },
   {
+   "source": "/egyptian/:path*",
+   "destination": "/egyptian/index.html"
+  },
+  {
+   "source": "/norse/:path*",
+   "destination": "/norse/index.html"
+  },
+  {
+   "source": "/chinese/:path*",
+   "destination": "/chinese/index.html"
+  },
+  {
+   "source": "/aztec/:path*",
+   "destination": "/aztec/index.html"
+  },
+  {
+   "source": "/japanese/:path*",
+   "destination": "/japanese/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }

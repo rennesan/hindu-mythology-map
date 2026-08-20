@@ -31,16 +31,26 @@
    "label": "Egyptian",
    "sublabel": "Ancient Egyptian",
    "accent": "#c8a25a",
-   "status": "planned",
-   "blurb": "The Ennead and the Ogdoad, the Osiris cycle, the solar barque, and the weighing of the heart."
+   "status": "live",
+   "blurb": "The Ennead and the Ogdoad, the Osiris cycle, the solar barque, and the weighing of the heart.",
+   "figures": 74,
+   "stories": 30,
+   "links": 145,
+   "levels": 6,
+   "cover": "portraits/egyptian/ra.webp"
   },
   {
    "id": "norse",
    "label": "Norse",
    "sublabel": "Old Norse & Germanic",
    "accent": "#8fa8b8",
-   "status": "planned",
-   "blurb": "Ymir and the giants, the Aesir and Vanir, Yggdrasil and the nine worlds, and the long road to Ragnarok."
+   "status": "live",
+   "blurb": "Ymir and the giants, the Aesir and Vanir, Yggdrasil and the nine worlds, and the long road to Ragnarok.",
+   "figures": 53,
+   "stories": 32,
+   "links": 131,
+   "levels": 6,
+   "cover": "portraits/norse/odin.webp"
   },
   {
    "id": "mesopotamian",
@@ -55,24 +65,39 @@
    "label": "Chinese",
    "sublabel": "Classical & Daoist",
    "accent": "#c96a6a",
-   "status": "planned",
-   "blurb": "Pangu and Nuwa, the Jade Emperor's celestial bureaucracy, the Eight Immortals, and the beasts of the Shanhaijing."
+   "status": "live",
+   "blurb": "Pangu and Nuwa, the Jade Emperor's celestial bureaucracy, the Eight Immortals, and the beasts of the Shanhaijing.",
+   "figures": 48,
+   "stories": 26,
+   "links": 101,
+   "levels": 6,
+   "cover": "portraits/chinese/nuwa.webp"
   },
   {
    "id": "aztec",
    "label": "Aztec",
    "sublabel": "Mexica & Nahua",
    "accent": "#9fb87a",
-   "status": "planned",
-   "blurb": "Ometeotl and the Five Suns, Quetzalcoatl and Tezcatlipoca, and the ritual calendar that ordered the world."
+   "status": "live",
+   "blurb": "Ometeotl and the Five Suns, Quetzalcoatl and Tezcatlipoca, and the ritual calendar that ordered the world.",
+   "figures": 32,
+   "stories": 16,
+   "links": 75,
+   "levels": 6,
+   "cover": "portraits/aztec/quetzalcoatl.webp"
   },
   {
    "id": "japanese",
    "label": "Japanese",
    "sublabel": "Shinto & folklore",
    "accent": "#d98383",
-   "status": "planned",
-   "blurb": "The kami of the Kojiki and Nihon Shoki, Amaterasu and the imperial line, and the yokai of later folklore."
+   "status": "live",
+   "blurb": "The kami of the Kojiki and Nihon Shoki, Amaterasu and the imperial line, and the yokai of later folklore.",
+   "figures": 36,
+   "stories": 23,
+   "links": 81,
+   "levels": 6,
+   "cover": "portraits/japanese/amaterasu.webp"
   },
   {
    "id": "celtic",
