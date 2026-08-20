@@ -1,0 +1,134 @@
+{
+ "archetypes": [
+  {
+   "key": "supreme-source",
+   "label": "Supreme Source",
+   "blurb": "The ultimate ground of being behind and above the named gods."
+  },
+  {
+   "key": "creator",
+   "label": "Creator",
+   "blurb": "The power that brings the ordered world into existence."
+  },
+  {
+   "key": "preserver",
+   "label": "Preserver",
+   "blurb": "The power that maintains the world and restores its order."
+  },
+  {
+   "key": "destroyer",
+   "label": "Destroyer / Transformer",
+   "blurb": "The power that dissolves the world so it can be remade."
+  },
+  {
+   "key": "sky-thunder",
+   "label": "Sky Father / Thunderer",
+   "blurb": "Ruler of the sky who wields storm and lightning."
+  },
+  {
+   "key": "sun",
+   "label": "Sun",
+   "blurb": "The solar deity or the sun's driver."
+  },
+  {
+   "key": "moon",
+   "label": "Moon",
+   "blurb": "The lunar deity and keeper of the month."
+  },
+  {
+   "key": "dawn",
+   "label": "Dawn",
+   "blurb": "The deity of first light."
+  },
+  {
+   "key": "fire",
+   "label": "Fire",
+   "blurb": "Fire as god, and as the channel between mortals and gods."
+  },
+  {
+   "key": "wind-storm",
+   "label": "Wind & Storm",
+   "blurb": "The moving air, breath and tempest."
+  },
+  {
+   "key": "sea-waters",
+   "label": "Sea & Waters",
+   "blurb": "Ocean, river and the cosmic waters."
+  },
+  {
+   "key": "earth-mother",
+   "label": "Earth & Mother Goddess",
+   "blurb": "The earth, and the mother of divine lineages."
+  },
+  {
+   "key": "death-judge",
+   "label": "Death & Judgment",
+   "blurb": "The lord of the dead who judges what a life earned."
+  },
+  {
+   "key": "war",
+   "label": "War & Battle",
+   "blurb": "The deity who leads and decides battle."
+  },
+  {
+   "key": "wisdom-craft",
+   "label": "Wisdom, Craft & Learning",
+   "blurb": "Knowledge, speech, artifice and the making of things."
+  },
+  {
+   "key": "love-desire",
+   "label": "Love & Desire",
+   "blurb": "Attraction, passion and the force that couples the world."
+  },
+  {
+   "key": "wealth-fortune",
+   "label": "Wealth & Fortune",
+   "blurb": "Prosperity, treasure and good luck."
+  },
+  {
+   "key": "healer",
+   "label": "Healing & Medicine",
+   "blurb": "The restorer of health, and the origin of medicine."
+  },
+  {
+   "key": "messenger-trickster",
+   "label": "Messenger & Trickster",
+   "blurb": "The go-between who carries word and stirs events."
+  },
+  {
+   "key": "serpent-dragon",
+   "label": "Serpent & Dragon",
+   "blurb": "The great serpent: cosmic support, or cosmic obstruction."
+  },
+  {
+   "key": "primordial-adversary",
+   "label": "Primordial Adversary",
+   "blurb": "The power that opposes the gods and the order they keep."
+  },
+  {
+   "key": "divine-beast",
+   "label": "Divine Beast & Mount",
+   "blurb": "The animal that carries or serves a god."
+  },
+  {
+   "key": "hero-champion",
+   "label": "Mortal Hero & Champion",
+   "blurb": "The mortal (or part-divine) figure whose deeds carry the epic."
+  },
+  {
+   "key": "sage-seer",
+   "label": "Sage & Seer",
+   "blurb": "The visionary who receives, transmits or authors sacred knowledge."
+  },
+  {
+   "key": "king-ruler",
+   "label": "Sacred King & Ruler",
+   "blurb": "Kingship as a sacred office within the mythic order."
+  },
+  {
+   "key": "fate-time",
+   "label": "Fate & Time",
+   "blurb": "Time, destiny and the reckoning of deeds."
+  }
+ ]
+}

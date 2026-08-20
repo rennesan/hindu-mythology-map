@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hindu Mythology Relationship Map</title>
-<meta name="description" content="An interactive museum of Hindu mythology: 117 figures, their relationships, story cycles, and primary sources.">
+<title>World Mythologies — Relationship Maps</title>
+<meta name="description" content="Interactive maps of world mythology: figures, their relationships, story cycles, hierarchies and primary sources.">
 <script>
 /* Apply saved theme before first paint to avoid a flash */
 (function () {
@@ -25,18 +25,20 @@
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="topbar">
-  <div class="brand">
+  <a class="brand" href="#/" id="brand-link">
     <span class="brand-glyph" aria-hidden="true">&#2384;</span>
     <div class="brand-text">
-      <h1 class="brand-title">Hindu Mythology</h1>
-      <p class="brand-sub">A Relationship Map</p>
+      <h1 class="brand-title" id="brand-title">Hindu Mythology</h1>
+      <p class="brand-sub" id="brand-sub">A Relationship Map</p>
     </div>
-  </div>
+  </a>
 
   <nav class="tabs" aria-label="Views">
-    <a href="#/map" class="tab" data-view="map" aria-current="page">Map</a>
-    <a href="#/stories" class="tab" data-view="stories">Stories</a>
-    <a href="#/index" class="tab" data-view="index">Index</a>
+    <a href="#/hindu/map" class="tab" data-view="map">Map</a>
+    <a href="#/hindu/stories" class="tab" data-view="stories">Stories</a>
+    <a href="#/hindu/hierarchy" class="tab" data-view="hierarchy">Hierarchy</a>
+    <a href="#/hindu/chart" class="tab" data-view="chart">Chart</a>
+    <a href="#/compare" class="tab" data-view="compare">Compare</a>
     <button type="button" class="tab tab-btn" id="about-btn">About</button>
   </nav>
 
@@ -48,6 +50,10 @@
              aria-autocomplete="list" aria-controls="search-list">
       <ul id="search-list" role="listbox" aria-label="Search suggestions" hidden></ul>
     </div>
+    <button type="button" id="chart-tray-btn" class="icon-btn tray-btn" aria-label="Open the chart selection">
+      <span aria-hidden="true">&#9776;</span>
+      <span class="tray-count" id="tray-count" hidden>0</span>
+    </button>
     <button type="button" id="theme-toggle" class="icon-btn" aria-pressed="false">
       <span class="theme-icon-dark" aria-hidden="true">&#9790;</span>
       <span class="theme-icon-light" aria-hidden="true">&#9788;</span>
@@ -58,58 +64,165 @@
 
 <main id="main">
 
-  <!-- ======================= MAP VIEW ======================= -->
-  <section id="view-map" class="view" aria-label="Relationship map">
+  <!-- ======================= LANDING ======================= -->
+  <section id="view-landing" class="view scroll-view" hidden aria-label="Choose a mythology">
+    <div class="view-inner">
+      <header class="view-head">
+        <h2 class="view-title">World Mythologies</h2>
+        <p class="view-lede">Each tradition is mapped the same way: every figure, every relationship between them, the story cycles they appear in, and the primary texts that carry those stories. Choose where to begin.</p>
+      </header>
+      <div class="pantheon-grid" id="pantheon-grid"></div>
+    </div>
+  </section>
 
-    <div class="filterbar" role="group" aria-label="Graph filters">
-      <div class="filter-group" data-filter="era">
-        <button type="button" class="filter-btn" aria-expanded="false" aria-controls="pop-era">
-          Era <span class="filter-count" hidden></span><span class="caret" aria-hidden="true"></span>
-        </button>
-        <div class="filter-pop" id="pop-era" hidden></div>
+  <!-- ======================= MAP VIEW (six lenses) ======================= -->
+  <section id="view-map" class="view" aria-label="Relationship map" hidden>
+
+    <div class="lensbar">
+      <div class="lens-switch" role="tablist" aria-label="View lens">
+        <button type="button" class="lens-btn" data-lens="map" role="tab" aria-selected="true">Map</button>
+        <button type="button" class="lens-btn" data-lens="mindmap" role="tab" aria-selected="false">Mind Map</button>
+        <button type="button" class="lens-btn" data-lens="outline" role="tab" aria-selected="false">Outline</button>
+        <button type="button" class="lens-btn" data-lens="cards" role="tab" aria-selected="false">Cards</button>
+        <button type="button" class="lens-btn" data-lens="table" role="tab" aria-selected="false">Table</button>
+        <button type="button" class="lens-btn" data-lens="figure" role="tab" aria-selected="false">Figure</button>
       </div>
-      <div class="filter-group" data-filter="category">
-        <button type="button" class="filter-btn" aria-expanded="false" aria-controls="pop-category">
-          Category <span class="filter-count" hidden></span><span class="caret" aria-hidden="true"></span>
-        </button>
-        <div class="filter-pop" id="pop-category" hidden></div>
+
+      <div class="filterbar" role="group" aria-label="Graph filters">
+        <div class="filter-group" data-filter="era">
+          <button type="button" class="filter-btn" aria-expanded="false" aria-controls="pop-era">
+            Era <span class="filter-count" hidden></span><span class="caret" aria-hidden="true"></span>
+          </button>
+          <div class="filter-pop" id="pop-era" hidden></div>
+        </div>
+        <div class="filter-group" data-filter="category">
+          <button type="button" class="filter-btn" aria-expanded="false" aria-controls="pop-category">
+            Category <span class="filter-count" hidden></span><span class="caret" aria-hidden="true"></span>
+          </button>
+          <div class="filter-pop" id="pop-category" hidden></div>
+        </div>
+        <div class="filter-group" data-filter="rel">
+          <button type="button" class="filter-btn" aria-expanded="false" aria-controls="pop-rel">
+            Relationships <span class="filter-count" hidden></span><span class="caret" aria-hidden="true"></span>
+          </button>
+          <div class="filter-pop" id="pop-rel" hidden></div>
+        </div>
+        <button type="button" id="filter-reset" class="filter-reset" hidden>Reset filters</button>
+        <button type="button" id="filter-mode" class="filter-reset mode-btn"
+                aria-pressed="false" title="Switch between filter menus and a full button row">Button row</button>
+        <button type="button" id="expand-btn" class="filter-reset expand-btn">Expand</button>
+        <p class="filter-status" id="filter-status" role="status"></p>
       </div>
-      <div class="filter-group" data-filter="rel">
-        <button type="button" class="filter-btn" aria-expanded="false" aria-controls="pop-rel">
-          Relationships <span class="filter-count" hidden></span><span class="caret" aria-hidden="true"></span>
-        </button>
-        <div class="filter-pop" id="pop-rel" hidden></div>
-      </div>
-      <button type="button" id="filter-reset" class="filter-reset" hidden>Reset filters</button>
-      <p class="filter-status" id="filter-status" role="status"></p>
+
+      <!-- inline filter row (alternative to the menus above) -->
+      <div class="filterrow" id="filterrow" role="group" aria-label="Filters" hidden></div>
     </div>
 
-    <div class="graph-stage">
-      <svg id="graph" role="application" aria-roledescription="relationship graph"
-           aria-label="Force-directed map of mythological figures. Use Tab to move between figures, Enter to open one, Escape to close. The Index view offers the same data as a table.">
-      </svg>
+    <div class="lens-stage" id="lens-stage">
 
-      <div class="graph-loading" id="graph-loading" role="status">
-        <span class="loading-ring" aria-hidden="true"></span> Preparing the map...
-      </div>
-
-      <div class="zoom-tools" role="group" aria-label="Zoom controls">
-        <button type="button" id="zoom-in" class="zoom-btn" aria-label="Zoom in">+</button>
-        <button type="button" id="zoom-out" class="zoom-btn" aria-label="Zoom out">&minus;</button>
-        <button type="button" id="zoom-fit" class="zoom-btn zoom-fit" aria-label="Reset view">&#8634;</button>
-      </div>
-
-      <details class="legend" id="legend">
-        <summary>Legend</summary>
-        <div class="legend-body">
-          <h3 class="legend-h">Relationships</h3>
-          <ul class="legend-rels" id="legend-rels"></ul>
-          <h3 class="legend-h">Categories</h3>
-          <ul class="legend-cats" id="legend-cats"></ul>
+      <!-- Map lens -->
+      <div class="lens-pane" data-pane="map">
+        <div class="graph-stage">
+          <svg id="graph" role="application" aria-roledescription="relationship graph"
+               aria-label="Force-directed map of mythological figures. Use Tab to move between figures, Enter to open one, Escape to close. The Table and Outline lenses offer the same data without the graph.">
+          </svg>
+          <div class="graph-loading" id="graph-loading" role="status">
+            <span class="loading-ring" aria-hidden="true"></span> Preparing the map...
+          </div>
+          <div class="zoom-tools" role="group" aria-label="Zoom controls">
+            <button type="button" id="zoom-in" class="zoom-btn" aria-label="Zoom in">+</button>
+            <button type="button" id="zoom-out" class="zoom-btn" aria-label="Zoom out">&minus;</button>
+            <button type="button" id="zoom-fit" class="zoom-btn zoom-fit" aria-label="Reset view">&#8634;</button>
+          </div>
+          <details class="legend" id="legend">
+            <summary>Legend</summary>
+            <div class="legend-body">
+              <h3 class="legend-h">Relationships</h3>
+              <ul class="legend-rels" id="legend-rels"></ul>
+              <h3 class="legend-h">Categories</h3>
+              <ul class="legend-cats" id="legend-cats"></ul>
+            </div>
+          </details>
         </div>
-      </details>
+      </div>
 
-      <!-- ================= FIGURE PANEL ================= -->
+      <!-- Mind Map lens -->
+      <div class="lens-pane" data-pane="mindmap" hidden>
+        <div class="mm-stage" id="mm-stage">
+          <svg id="mindmap" role="img" aria-label="Mind map tree of the pantheon, rooted at its source figure. This lens draws a tree, so cross-links between branches are not shown; the Map lens shows every relationship."></svg>
+          <p class="mm-hint">Scroll to zoom, drag to pan, click to drill in. Tree view: cross-links are not drawn here.</p>
+          <div class="zoom-tools" role="group" aria-label="Mind map zoom">
+            <button type="button" id="mm-in" class="zoom-btn" aria-label="Zoom in">+</button>
+            <button type="button" id="mm-out" class="zoom-btn" aria-label="Zoom out">&minus;</button>
+            <button type="button" id="mm-fit" class="zoom-btn" aria-label="Reset view">&#8634;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Outline lens -->
+      <div class="lens-pane scroll-pane" data-pane="outline" hidden>
+        <div class="pane-inner">
+          <div class="outline-tools">
+            <button type="button" class="ghost-btn" id="outline-expand">Expand all</button>
+            <button type="button" class="ghost-btn" id="outline-collapse">Collapse all</button>
+            <p class="pane-note">Tree view: each figure appears once, under the figure it descends from. The Map lens shows every relationship.</p>
+          </div>
+          <div id="outline-root" class="outline-root"></div>
+        </div>
+      </div>
+
+      <!-- Cards lens -->
+      <div class="lens-pane scroll-pane" data-pane="cards" hidden>
+        <div class="pane-inner">
+          <div class="cards-tools">
+            <div class="cat-filter" id="cards-cats" role="group" aria-label="Filter cards by category"></div>
+            <label class="sort-select">Sort
+              <select id="cards-sort">
+                <option value="category">by category</option>
+                <option value="name">by name</option>
+                <option value="era">by era</option>
+                <option value="links">by connections</option>
+              </select>
+            </label>
+          </div>
+          <div class="figure-cards" id="cards-grid"></div>
+        </div>
+      </div>
+
+      <!-- Table lens -->
+      <div class="lens-pane scroll-pane" data-pane="table" hidden>
+        <div class="pane-inner">
+          <div class="table-wrap">
+            <table class="index-table" id="index-table">
+              <caption class="visually-hidden">All figures with category, era, role, mount and abode</caption>
+              <thead>
+                <tr>
+                  <th scope="col"><span class="visually-hidden">Portrait</span></th>
+                  <th scope="col"><button type="button" class="sort-btn" data-sort="name">Name</button></th>
+                  <th scope="col"><button type="button" class="sort-btn" data-sort="category">Category</button></th>
+                  <th scope="col"><button type="button" class="sort-btn" data-sort="era">Era</button></th>
+                  <th scope="col">Role</th>
+                  <th scope="col">Mount</th>
+                  <th scope="col">Abode</th>
+                </tr>
+              </thead>
+              <tbody id="index-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Figure lens -->
+      <div class="lens-pane scroll-pane" data-pane="figure" hidden>
+        <div class="pane-inner figure-lens-inner">
+          <label class="sort-select figure-picker-wrap">Figure
+            <select id="figure-picker" aria-label="Choose a figure"></select>
+          </label>
+          <article id="figure-full" class="figure-full"></article>
+        </div>
+      </div>
+
+      <!-- Figure side panel (map lens) -->
       <aside id="panel" class="panel" aria-label="Figure details" hidden tabindex="-1">
         <div class="panel-scroll">
           <button type="button" class="panel-close icon-btn" id="panel-close" aria-label="Close panel">&times;</button>
@@ -120,53 +233,103 @@
     </div>
   </section>
 
-  <!-- ======================= STORIES VIEW ======================= -->
+  <!-- ======================= STORIES ======================= -->
   <section id="view-stories" class="view scroll-view" hidden aria-label="Story cycles">
     <div class="view-inner">
       <header class="view-head">
         <h2 class="view-title">Story Cycles</h2>
-        <p class="view-lede">The great narratives, from Vedic hymn to Puranic epic. Every story lists its cast and the primary texts that carry it.</p>
+        <p class="view-lede" id="stories-lede"></p>
         <div class="story-filter" role="group" aria-label="Filter stories by era" id="story-eras"></div>
       </header>
       <div class="stories-grid" id="stories-grid"></div>
     </div>
   </section>
 
-  <!-- ======================= INDEX VIEW ======================= -->
-  <section id="view-index" class="view scroll-view" hidden aria-label="Index of all figures">
-    <div class="view-inner">
+  <!-- ======================= HIERARCHY ======================= -->
+  <section id="view-hierarchy" class="view scroll-view" hidden aria-label="Divine system hierarchy">
+    <div class="view-inner wide-inner">
       <header class="view-head">
-        <h2 class="view-title">Index of Figures</h2>
-        <p class="view-lede">All 117 figures in one table. Click a column heading to sort, or open any figure for its full entry.</p>
+        <h2 class="view-title" id="hier-title">Divine System Hierarchy</h2>
+        <p class="view-lede" id="hier-structure"></p>
+        <p class="hier-mechanism" id="hier-mechanism"></p>
+        <button type="button" class="ghost-btn print-btn" id="hier-print">Print this diagram</button>
       </header>
+      <div id="hier-levels" class="hier-levels"></div>
+    </div>
+  </section>
+
+  <!-- ======================= CHART BUILDER ======================= -->
+  <section id="view-chart" class="view scroll-view" hidden aria-label="Relationship chart builder">
+    <div class="view-inner wide-inner">
+      <header class="view-head">
+        <h2 class="view-title">Relationship Chart</h2>
+        <p class="view-lede">Build a poster-style chart from the figures you choose. Add figures from any panel or card, or start from one of the presets below. The chart tiers itself by rank and draws every relationship between the figures you picked.</p>
+      </header>
+
+      <div class="chart-controls">
+        <div class="chart-presets" id="chart-presets" role="group" aria-label="Chart presets"></div>
+        <div class="chart-actions">
+          <label class="chk"><input type="checkbox" id="chart-groups" checked> Group boxes</label>
+          <label class="chk"><input type="checkbox" id="chart-notes" checked> Edge notes</label>
+          <label class="chk"><input type="checkbox" id="chart-frame" checked> Ornamental frame</label>
+          <button type="button" class="ghost-btn" id="chart-clear">Clear</button>
+          <button type="button" class="ghost-btn" id="chart-svg">Download SVG</button>
+          <button type="button" class="ghost-btn" id="chart-png">Download PNG</button>
+          <button type="button" class="ghost-btn" id="chart-print">Print</button>
+        </div>
+      </div>
+
+      <p class="chart-warn" id="chart-warn" hidden></p>
+      <div class="chart-stage" id="chart-stage"></div>
+    </div>
+  </section>
+
+  <!-- ======================= COMPARE ======================= -->
+  <section id="view-compare" class="view scroll-view" hidden aria-label="Comparative matrix">
+    <div class="view-inner wide-inner">
+      <header class="view-head">
+        <h2 class="view-title">Comparative Matrix</h2>
+        <p class="view-lede">How the mapped traditions answer the same questions, and which figures occupy the same role in each. Every mythology added to the site becomes another column here.</p>
+      </header>
+      <p class="compare-note" id="compare-note" hidden></p>
+
+      <h3 class="section-h">1. Structural &amp; philosophical foundations</h3>
       <div class="table-wrap">
-        <table class="index-table" id="index-table">
-          <caption class="visually-hidden">All mythological figures with category, era, role, mount and abode</caption>
-          <thead>
-            <tr>
-              <th scope="col"><span class="visually-hidden">Portrait</span></th>
-              <th scope="col"><button type="button" class="sort-btn" data-sort="name">Name</button></th>
-              <th scope="col"><button type="button" class="sort-btn" data-sort="category">Category</button></th>
-              <th scope="col"><button type="button" class="sort-btn" data-sort="era">Era</button></th>
-              <th scope="col">Role</th>
-              <th scope="col">Mount</th>
-              <th scope="col">Abode</th>
-            </tr>
-          </thead>
-          <tbody id="index-tbody"></tbody>
+        <table class="compare-table" id="compare-structure">
+          <caption class="visually-hidden">Structural and philosophical comparison of the mapped mythologies</caption>
+        </table>
+      </div>
+
+      <h3 class="section-h">2. Pantheon archetypes &amp; equivalences</h3>
+      <div class="table-wrap">
+        <table class="compare-table archetype-table" id="compare-archetypes">
+          <caption class="visually-hidden">Which figure fills each archetypal role in each mythology</caption>
         </table>
       </div>
     </div>
   </section>
 </main>
 
-<!-- ======================= ABOUT DIALOG ======================= -->
+<!-- ======================= CHART TRAY ======================= -->
+<aside id="chart-tray" class="chart-tray" hidden aria-label="Chart selection">
+  <div class="tray-head">
+    <h2 class="tray-title">Chart selection</h2>
+    <button type="button" class="icon-btn" id="tray-close" aria-label="Close the chart selection">&times;</button>
+  </div>
+  <div class="tray-body" id="tray-body"></div>
+  <div class="tray-foot">
+    <button type="button" class="ghost-btn" id="tray-clear">Clear all</button>
+    <a class="solid-btn" href="#/hindu/chart" id="tray-open">Open the chart</a>
+  </div>
+</aside>
+
+<!-- ======================= ABOUT ======================= -->
 <dialog id="about-dialog" class="about" aria-labelledby="about-title">
   <button type="button" class="panel-close icon-btn" id="about-close" aria-label="Close about">&times;</button>
   <div id="about-content"></div>
 </dialog>
 
-<!-- Portrait lightbox -->
+<!-- ======================= PORTRAIT LIGHTBOX ======================= -->
 <dialog id="lightbox" class="lightbox" aria-label="Expanded portrait">
   <button type="button" class="panel-close icon-btn" id="lightbox-close" aria-label="Close expanded portrait">&times;</button>
   <img id="lightbox-img" src="" alt="">
@@ -175,5 +338,9 @@
 
 <script src="js/d3.v7.min.js"></script>
 <script src="js/app.js" defer></script>
+<script src="js/graph.js" defer></script>
+<script src="js/lenses.js" defer></script>
+<script src="js/diagrams.js" defer></script>
+<script src="js/chart.js" defer></script>
 </body>
 </html>

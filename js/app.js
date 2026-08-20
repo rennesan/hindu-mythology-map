@@ -1,24 +1,27 @@
 /* ============================================================
-   Hindu Mythology Relationship Map — v2 front end
-   All content comes from data/dataset.json. Portraits are local.
+   World Mythologies — v3 core
+   Loads a pantheon content pack, routes, and renders the shared
+   chrome: search, filters, figure panel, stories, about.
+   All content comes from data/<pantheon>/dataset.json.
    ============================================================ */
 "use strict";
 
-/* ---------------- constants ---------------- */
+/* ---------------- shared constants ---------------- */
 
 const CAT_COLORS = {
   cosmic: "#a78bfa", trimurti: "#eab308", tridevi: "#ec4899",
   deva: "#3b82f6", goddess: "#fb7185", avatar: "#2dd4bf",
   sage: "#a3e635", human: "#cd8b4a", asura: "#dc2626",
-  naga: "#16a34a", celestial: "#67e8f9", vahana: "#f97316"
+  naga: "#16a34a", celestial: "#67e8f9", vahana: "#f97316",
+  titan: "#c084fc", olympian: "#eab308", giant: "#dc2626", nymph: "#67e8f9"
 };
 const CAT_LABELS = {
   cosmic: "Cosmic principle", trimurti: "Trimurti", tridevi: "Tridevi",
   deva: "Deva", goddess: "Goddess", avatar: "Avatar", sage: "Sage",
   human: "Human", asura: "Asura", naga: "Naga",
-  celestial: "Celestial", vahana: "Vahana (mount)"
+  celestial: "Celestial", vahana: "Vahana (mount)",
+  titan: "Titan", olympian: "Olympian", giant: "Giant", nymph: "Nymph"
 };
-const ERAS = ["Cosmic", "Vedic", "Puranic", "Epic-Ramayana", "Epic-Mahabharata"];
 const ERA_LABELS = {
   "Cosmic": "Cosmic", "Vedic": "Vedic", "Puranic": "Puranic",
   "Epic-Ramayana": "Ramayana", "Epic-Mahabharata": "Mahabharata"
@@ -30,8 +33,6 @@ const REL_LABELS = {
   form: "Form or aspect", enemy: "Adversary", devotee: "Devotee",
   mount: "Mount", guru: "Guru", foster: "Foster parent", ally: "Ally"
 };
-/* Group headings in the figure panel, phrased from the selected figure's side.
-   out = selected figure is the link's source, in = selected figure is the target. */
 const REL_GROUPS = {
   parent:  { out: "Children",        in: "Parents" },
   consort: { out: "Consorts",        in: "Consorts" },
@@ -45,40 +46,39 @@ const REL_GROUPS = {
   foster:  { out: "Foster children", in: "Foster parents" },
   ally:    { out: "Allies",          in: "Allies" }
 };
-const REL_ORDER = ["avatar", "form", "consort", "parent", "foster", "sibling", "guru", "devotee", "mount", "ally", "enemy"];
+const REL_ORDER = ["avatar", "form", "consort", "parent", "foster", "sibling",
+                   "guru", "devotee", "mount", "ally", "enemy"];
 
-/* ---------------- state ---------------- */
+const LENSES = ["map", "mindmap", "outline", "cards", "table", "figure"];
 
-let DATA = null;
-let byId = new Map();
-let storyById = new Map();
-let nodes = [], links = [];
-let neighborSets = new Map();   // id -> Set of neighbor ids
-let selectedId = null;
-let currentView = "map";
-let lastFocusEl = null;
+/* ---------------- app state ---------------- */
 
-const filters = {
-  era: new Set(),        // empty = all
-  category: new Set(),
-  rel: new Set()
+const APP = {
+  manifest: null,
+  archetypes: null,
+  packs: {},            // id -> dataset (cached)
+  data: null,           // active dataset
+  pid: null,            // active pantheon id
+  byId: new Map(),
+  storyById: new Map(),
+  neighbors: new Map(),
+  nodes: [], links: [],
+  selectedId: null,
+  view: "map",
+  lens: "map",
+  filters: { era: new Set(), category: new Set(), rel: new Set() },
+  chart: new Set(),     // ids selected for the chart
+  lastFocusEl: null,
+  built: {}             // lens -> true once first built
 };
-
-/* d3 handles */
-let svg, gRoot, gLinks, gNodes, sim, zoomBehavior;
-let nodeSel, edgeSel;
 
 /* ---------------- utilities ---------------- */
 
 const $ = (s, el) => (el || document).querySelector(s);
 const $$ = (s, el) => Array.from((el || document).querySelectorAll(s));
 
-function store(key, val) {
-  try { localStorage.setItem(key, val); } catch (e) { /* private mode etc. */ }
-}
-function readStore(key) {
-  try { return localStorage.getItem(key); } catch (e) { return null; }
-}
+function store(key, val) { try { localStorage.setItem(key, val); } catch (e) { /* private mode */ } }
+function readStore(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
 
 function esc(s) {
   return String(s == null ? "" : s)
@@ -87,172 +87,30 @@ function esc(s) {
 }
 
 function shortName(e) { return e.name.split(" (")[0]; }
-
-function portraitPath(e) { return "portraits/" + e.id + ".webp"; }
+function catLabel(c) { return CAT_LABELS[c] || c; }
+function catColor(c) { return CAT_COLORS[c] || "#9aa0aa"; }
+function eraLabel(x) { return ERA_LABELS[x] || x; }
+function portraitPath(e) { return e.portrait; }
+function entity(id) { return APP.byId.get(id); }
 
 function wikiUrl(e) {
   return "https://en.wikipedia.org/wiki/" + encodeURIComponent(e.wikipedia.replace(/ /g, "_"));
 }
 
-/* black or white letter depending on the disc color's luminance */
 function letterInk(hex) {
   const n = parseInt(hex.slice(1), 16);
   const r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
-  const lum = 0.2126 * r + 0.7152 * g + 0.0722 * b;
-  return lum > 150 ? "#1c1608" : "#fdf8ec";
+  return (0.2126 * r + 0.7152 * g + 0.0722 * b) > 150 ? "#1c1608" : "#fdf8ec";
+}
+
+function degree(id) {
+  const s = APP.neighbors.get(id);
+  return s ? s.size : 0;
 }
 
 function nodeRadius(e) {
-  const deg = neighborSets.get(e.id) ? neighborSets.get(e.id).size : 0;
-  return Math.max(17, Math.min(34, 15 + deg * 1.15));
+  return Math.max(17, Math.min(34, 15 + degree(e.id) * 1.15));
 }
-
-/* ---------------- boot ---------------- */
-
-fetch("data/dataset.json")
-  .then(r => {
-    if (!r.ok) throw new Error("dataset fetch failed: " + r.status);
-    return r.json();
-  })
-  .then(d => {
-    DATA = d;
-    indexData();
-    buildLegend();
-    buildFilters();
-    buildGraph();
-    buildStories();
-    buildIndexTable();
-    buildAbout();
-    wireChrome();
-    handleRoute();
-    $("#graph-loading").remove();
-  })
-  .catch(err => {
-    const el = $("#graph-loading");
-    if (el) el.textContent = "The dataset could not be loaded. Please reload the page.";
-    console.error(err);
-  });
-
-function indexData() {
-  DATA.entities.forEach(e => byId.set(e.id, e));
-  DATA.stories.forEach(s => storyById.set(s.id, s));
-  nodes = DATA.entities.map(e => ({ ...e }));
-  links = DATA.links.map(l => ({ ...l, source: l.from, target: l.to }));
-
-  DATA.entities.forEach(e => neighborSets.set(e.id, new Set()));
-  DATA.links.forEach(l => {
-    neighborSets.get(l.from).add(l.to);
-    neighborSets.get(l.to).add(l.from);
-  });
-
-  /* mark parallel edges between the same pair so they can curve apart */
-  const pairCount = new Map();
-  links.forEach(l => {
-    const k = [l.from, l.to].sort().join("|");
-    pairCount.set(k, (pairCount.get(k) || 0) + 1);
-  });
-  const pairSeen = new Map();
-  links.forEach(l => {
-    const k = [l.from, l.to].sort().join("|");
-    const n = pairCount.get(k);
-    if (n > 1) {
-      const i = pairSeen.get(k) || 0;
-      pairSeen.set(k, i + 1);
-      l.curve = (i - (n - 1) / 2) * 22; /* perpendicular offset in px */
-    } else {
-      l.curve = 0;
-    }
-  });
-}
-
-/* ---------------- theme ---------------- */
-
-function applyTheme(t) {
-  document.documentElement.setAttribute("data-theme", t);
-  store("hm-theme", t);
-  $("#theme-toggle").setAttribute("aria-pressed", t === "light" ? "true" : "false");
-}
-
-/* ---------------- chrome: tabs, theme, about, esc ---------------- */
-
-function wireChrome() {
-  $("#theme-toggle").addEventListener("click", () => {
-    const cur = document.documentElement.getAttribute("data-theme");
-    applyTheme(cur === "dark" ? "light" : "dark");
-  });
-  $("#theme-toggle").setAttribute("aria-pressed",
-    document.documentElement.getAttribute("data-theme") === "light" ? "true" : "false");
-
-  $("#about-btn").addEventListener("click", () => $("#about-dialog").showModal());
-  $("#about-close").addEventListener("click", () => $("#about-dialog").close());
-
-  $("#lightbox-close").addEventListener("click", () => $("#lightbox").close());
-  $("#lightbox").addEventListener("click", ev => {
-    if (ev.target === $("#lightbox")) $("#lightbox").close();
-  });
-
-  $("#panel-close").addEventListener("click", () => clearSelection(true));
-
-  document.addEventListener("keydown", ev => {
-    if (ev.key === "Escape") {
-      /* native <dialog> handles its own Escape; do not also close the panel */
-      if ($("#lightbox").open || $("#about-dialog").open) return;
-      if (!$("#search-list").hidden) { closeSearchList(); return; }
-      const openPop = $$(".filter-pop").find(p => !p.hidden);
-      if (openPop) { closeFilterPops(); return; }
-      if (selectedId) clearSelection(true);
-    }
-  });
-
-  window.addEventListener("hashchange", handleRoute);
-  wireSearch();
-}
-
-/* ---------------- routing ---------------- */
-
-function handleRoute() {
-  const h = location.hash || "#/map";
-  const parts = h.replace(/^#\/?/, "").split("/");
-  const head = parts[0] || "map";
-
-  if (head === "figure" && parts[1] && byId.has(parts[1])) {
-    showView("map");
-    selectFigure(parts[1], { fromRoute: true });
-  } else if (head === "stories" || head === "story") {
-    showView("stories");
-    if (head === "story" && parts[1]) {
-      const card = document.getElementById("story-" + parts[1]);
-      if (card) {
-        card.scrollIntoView({ block: "start", behavior: "smooth" });
-        card.focus({ preventScroll: true });
-      }
-    }
-  } else if (head === "index") {
-    showView("index");
-  } else {
-    showView("map");
-    if (selectedId) clearSelection(false);
-  }
-}
-
-function showView(name) {
-  currentView = name;
-  ["map", "stories", "index"].forEach(v => {
-    $("#view-" + v).hidden = v !== name;
-  });
-  $$(".tab[data-view]").forEach(t => {
-    if (t.dataset.view === name) t.setAttribute("aria-current", "page");
-    else t.removeAttribute("aria-current");
-  });
-  if (name === "map" && sim) sim.restart();
-}
-
-function goTo(hash) {
-  if (location.hash === hash) handleRoute();
-  else location.hash = hash;
-}
-
-/* ---------------- legend ---------------- */
 
 function edgeSampleSvg(type, w) {
   const width = w || 44;
@@ -263,38 +121,329 @@ function edgeSampleSvg(type, w) {
     marker + "</svg>";
 }
 
-function buildLegend() {
-  $("#legend-rels").innerHTML = Object.keys(DATA.relationshipTypes).map(t =>
-    "<li>" + edgeSampleSvg(t) + "<span>" + esc(REL_LABELS[t] || t) + "</span></li>"
-  ).join("");
-  $("#legend-cats").innerHTML = Object.keys(CAT_COLORS)
-    .filter(c => DATA.entities.some(e => e.category === c))
-    .map(c =>
-      '<li><span class="cat-swatch" style="background:' + CAT_COLORS[c] + '"></span><span>' +
-      esc(CAT_LABELS[c] || c) + "</span></li>"
-    ).join("");
-  if (window.matchMedia("(min-width: 701px)").matches) $("#legend").open = true;
+/* ---------------- boot ---------------- */
+
+Promise.all([
+  fetch("data/pantheons.json").then(r => r.json()),
+  fetch("data/archetypes.json").then(r => r.json())
+]).then(([manifest, arch]) => {
+  APP.manifest = manifest.pantheons;
+  APP.archetypes = arch.archetypes;
+  buildLanding();
+  wireChrome();
+  return handleRoute();
+}).catch(err => {
+  const el = $("#graph-loading");
+  if (el) el.textContent = "The data could not be loaded. Please reload the page.";
+  console.error(err);
+});
+
+/* Load (and cache) one pantheon pack, then index it as the active pantheon. */
+function loadPantheon(pid) {
+  if (APP.pid === pid) return Promise.resolve();
+  const done = d => {
+    APP.packs[pid] = d;
+    APP.data = d;
+    APP.pid = pid;
+    indexData();
+    resetForPantheon();
+    return d;
+  };
+  if (APP.packs[pid]) return Promise.resolve(done(APP.packs[pid]));
+  return fetch("data/" + pid + "/dataset.json")
+    .then(r => { if (!r.ok) throw new Error("pack " + pid + ": " + r.status); return r.json(); })
+    .then(done);
 }
 
-/* ---------------- filters ---------------- */
+function indexData() {
+  const d = APP.data;
+  APP.byId = new Map();
+  APP.storyById = new Map();
+  APP.neighbors = new Map();
+  d.entities.forEach(e => { APP.byId.set(e.id, e); APP.neighbors.set(e.id, new Set()); });
+  d.stories.forEach(s => APP.storyById.set(s.id, s));
+  d.links.forEach(l => {
+    if (APP.neighbors.has(l.from)) APP.neighbors.get(l.from).add(l.to);
+    if (APP.neighbors.has(l.to)) APP.neighbors.get(l.to).add(l.from);
+  });
 
-function buildFilters() {
-  buildFilterPop("era", ERAS.map(e => ({ value: e, label: ERA_LABELS[e] })));
-  buildFilterPop("category",
-    Object.keys(CAT_LABELS).filter(c => DATA.entities.some(e => e.category === c))
-      .map(c => ({ value: c, label: CAT_LABELS[c], swatch: CAT_COLORS[c] })));
-  buildFilterPop("rel",
-    Object.keys(DATA.relationshipTypes).map(t => ({ value: t, label: REL_LABELS[t] || t, edge: t })));
+  APP.nodes = d.entities.map(e => ({ ...e }));
+  APP.links = d.links.map(l => ({ ...l, source: l.from, target: l.to }));
 
-  $("#filter-reset").addEventListener("click", () => {
-    filters.era.clear(); filters.category.clear(); filters.rel.clear();
-    $$(".filter-pop input[type=checkbox]").forEach(cb => { cb.checked = false; });
-    applyFilters();
+  /* curve parallel edges apart */
+  const count = new Map(), seen = new Map();
+  APP.links.forEach(l => {
+    const k = [l.from, l.to].sort().join("|");
+    count.set(k, (count.get(k) || 0) + 1);
+  });
+  APP.links.forEach(l => {
+    const k = [l.from, l.to].sort().join("|");
+    const n = count.get(k);
+    if (n > 1) {
+      const i = seen.get(k) || 0;
+      seen.set(k, i + 1);
+      l.curve = (i - (n - 1) / 2) * 22;
+    } else l.curve = 0;
+  });
+}
+
+/* Everything that must be rebuilt when the active pantheon changes. */
+function resetForPantheon() {
+  APP.selectedId = null;
+  APP.built = {};
+  APP.filters.era.clear();
+  APP.filters.category.clear();
+  APP.filters.rel.clear();
+  $("#panel").hidden = true;
+
+  const meta = APP.data.meta || { label: APP.pid, sublabel: "" };
+  $("#brand-title").textContent = meta.label + " Mythology";
+  $("#brand-sub").textContent = "A Relationship Map";
+  document.title = meta.label + " Mythology — Relationship Map";
+  $$(".tab[data-view]").forEach(t => {
+    const v = t.dataset.view;
+    if (v !== "compare") t.setAttribute("href", "#/" + APP.pid + "/" + v);
+  });
+  $("#tray-open").setAttribute("href", "#/" + APP.pid + "/chart");
+
+  buildLegend();
+  buildFilters();
+  buildStories();
+  buildAbout();
+  GraphLens.build();
+  Lenses.reset();
+  Hierarchy.build();
+  ChartBuilder.reset();
+  restoreChartSelection();
+}
+
+/* ---------------- routing ---------------- */
+
+const LEGACY = new Set(["map", "stories", "story", "index", "figure", "hierarchy", "chart"]);
+
+function handleRoute() {
+  const raw = (location.hash || "").replace(/^#\/?/, "");
+  const parts = raw.split("/").filter(Boolean);
+
+  if (parts[0] === "compare") {
+    const first = APP.manifest[0].id;
+    return loadPantheon(APP.pid || first).then(() => {
+      Compare.build();
+      showView("compare");
+    });
+  }
+
+  /* legacy v2 routes: #/map, #/figure/x ... -> first pantheon */
+  if (parts.length === 0 || LEGACY.has(parts[0])) {
+    const pid = APP.manifest[0].id;
+    if (parts.length === 0) {
+      if (APP.manifest.length > 1) { showView("landing"); return Promise.resolve(); }
+      location.replace("#/" + pid + "/map");
+      return Promise.resolve();
+    }
+    location.replace("#/" + pid + "/" + parts.join("/"));
+    return Promise.resolve();
+  }
+
+  const pid = parts[0];
+  if (!APP.manifest.some(p => p.id === pid)) {
+    location.replace("#/");
+    return Promise.resolve();
+  }
+  const head = parts[1] || "map";
+  const arg = parts[2];
+
+  return loadPantheon(pid).then(() => {
+    switch (head) {
+      case "figure":
+        if (arg && APP.byId.has(arg)) { showView("map"); selectFigure(arg); }
+        else { showView("map"); }
+        break;
+      case "stories":
+        showView("stories");
+        break;
+      case "story":
+        showView("stories");
+        if (arg) {
+          const card = document.getElementById("story-" + arg);
+          if (card) { card.scrollIntoView({ block: "start", behavior: "smooth" }); card.focus({ preventScroll: true }); }
+        }
+        break;
+      case "index":
+        showView("map"); setLens("table");
+        break;
+      case "hierarchy":
+        showView("hierarchy");
+        break;
+      case "chart":
+        showView("chart"); ChartBuilder.render();
+        break;
+      default:
+        showView("map");
+        if (APP.selectedId) clearSelection(false);
+    }
+  });
+}
+
+function showView(name) {
+  APP.view = name;
+  ["landing", "map", "stories", "hierarchy", "chart", "compare"].forEach(v => {
+    const el = $("#view-" + v);
+    if (el) el.hidden = v !== name;
+  });
+  $$(".tab[data-view]").forEach(t => {
+    if (t.dataset.view === name) t.setAttribute("aria-current", "page");
+    else t.removeAttribute("aria-current");
+  });
+  if (name === "map") Lenses.onShow(APP.lens);
+}
+
+function goTo(hash) {
+  if (location.hash === hash) handleRoute();
+  else location.hash = hash;
+}
+function figureHash(id) { return "#/" + APP.pid + "/figure/" + id; }
+
+/* ---------------- landing ---------------- */
+
+function buildLanding() {
+  $("#pantheon-grid").innerHTML = APP.manifest.map(p =>
+    '<a class="pantheon-card" href="#/' + esc(p.id) + '/map">' +
+      '<img src="' + esc(p.cover) + '" alt="" loading="lazy" width="96" height="96">' +
+      '<h3 class="pantheon-name">' + esc(p.label) + "</h3>" +
+      '<p class="pantheon-sub">' + esc(p.sublabel || "") + "</p>" +
+      '<p class="pantheon-blurb">' + esc(p.blurb || "") + "</p>" +
+      '<p class="pantheon-stats">' + p.figures + " figures &middot; " + p.stories + " stories</p>" +
+    "</a>"
+  ).join("") +
+  (APP.manifest.length < 2
+    ? '<div class="pantheon-card is-soon"><span class="soon-glyph" aria-hidden="true">&#10022;</span>' +
+      '<h3 class="pantheon-name">More traditions</h3>' +
+      '<p class="pantheon-blurb">Greek, Norse, Egyptian and Roman packs are planned. Each one arrives as a full map with its own portraits and sourced stories, and joins the comparative matrix automatically.</p></div>'
+    : "");
+}
+
+/* ---------------- chrome ---------------- */
+
+function wireChrome() {
+  $("#theme-toggle").addEventListener("click", () => {
+    const cur = document.documentElement.getAttribute("data-theme");
+    const next = cur === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    store("hm-theme", next);
+    $("#theme-toggle").setAttribute("aria-pressed", next === "light" ? "true" : "false");
+    if (APP.view === "chart") ChartBuilder.render();
+  });
+  $("#theme-toggle").setAttribute("aria-pressed",
+    document.documentElement.getAttribute("data-theme") === "light" ? "true" : "false");
+
+  $("#about-btn").addEventListener("click", () => $("#about-dialog").showModal());
+  $("#about-close").addEventListener("click", () => $("#about-dialog").close());
+  $("#lightbox-close").addEventListener("click", () => $("#lightbox").close());
+  $("#lightbox").addEventListener("click", ev => {
+    if (ev.target === $("#lightbox")) $("#lightbox").close();
+  });
+  $("#panel-close").addEventListener("click", () => clearSelection(true));
+
+  /* lens switcher */
+  $$(".lens-btn").forEach(b => b.addEventListener("click", () => setLens(b.dataset.lens)));
+  const savedLens = readStore("hm-lens");
+  if (savedLens && LENSES.includes(savedLens)) APP.lens = savedLens;
+
+  $("#expand-btn").addEventListener("click", toggleExpand);
+
+  $("#filter-mode").addEventListener("click", () => {
+    applyFilterMode(readStore("hm-filtermode") === "inline" ? "menus" : "inline");
+    Lenses.onResize();
+  });
+
+  document.addEventListener("keydown", ev => {
+    if (ev.key === "Escape") {
+      if ($("#lightbox").open || $("#about-dialog").open) return;
+      if (!$("#search-list").hidden) { closeSearchList(); return; }
+      if (document.body.classList.contains("is-expanded")) { toggleExpand(); return; }
+      if (!$("#chart-tray").hidden) { closeTray(); return; }
+      const openPop = $$(".filter-pop").find(p => !p.hidden);
+      if (openPop) { closeFilterPops(); return; }
+      if (APP.selectedId && APP.view === "map") clearSelection(true);
+    }
   });
 
   document.addEventListener("click", ev => {
     if (!ev.target.closest(".filter-group")) closeFilterPops();
+    if (!ev.target.closest(".search")) closeSearchList();
   });
+
+  window.addEventListener("hashchange", handleRoute);
+  wireSearch();
+  wireTray();
+}
+
+function setLens(lens) {
+  if (!LENSES.includes(lens)) return;
+  APP.lens = lens;
+  store("hm-lens", lens);
+  $$(".lens-btn").forEach(b => b.setAttribute("aria-selected", b.dataset.lens === lens ? "true" : "false"));
+  $$(".lens-pane").forEach(p => { p.hidden = p.dataset.pane !== lens; });
+  $(".filterbar").classList.toggle("rel-hidden", lens !== "map");
+  if (APP.view === "map") Lenses.onShow(lens);
+}
+
+function toggleExpand() {
+  const on = document.body.classList.toggle("is-expanded");
+  $("#expand-btn").textContent = on ? "Restore" : "Expand";
+  const el = $("#view-map");
+  if (on && el.requestFullscreen) el.requestFullscreen().catch(() => { /* denied is fine */ });
+  else if (!on && document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(() => {});
+  requestAnimationFrame(() => requestAnimationFrame(() => Lenses.onResize()));
+}
+
+/* ---------------- legend ---------------- */
+
+function buildLegend() {
+  const types = Object.keys(APP.data.relationshipTypes);
+  $("#legend-rels").innerHTML = types.map(t =>
+    "<li>" + edgeSampleSvg(t) + "<span>" + esc(REL_LABELS[t] || t) + "</span></li>"
+  ).join("");
+  const cats = presentCategories();
+  $("#legend-cats").innerHTML = cats.map(c =>
+    '<li><span class="cat-swatch" style="background:' + catColor(c) + '"></span><span>' +
+    esc(catLabel(c)) + "</span></li>"
+  ).join("");
+  if (window.matchMedia("(min-width: 701px)").matches) $("#legend").open = true;
+}
+
+function presentCategories() {
+  const seen = [];
+  APP.data.entities.forEach(e => { if (!seen.includes(e.category)) seen.push(e.category); });
+  return seen;
+}
+function presentEras() {
+  const seen = [];
+  APP.data.entities.forEach(e => { if (!seen.includes(e.era)) seen.push(e.era); });
+  return seen;
+}
+
+/* ---------------- filters ---------------- */
+
+function filterItems(kind) {
+  if (kind === "era") return presentEras().map(e => ({ value: e, label: eraLabel(e) }));
+  if (kind === "category") return presentCategories().map(c => ({ value: c, label: catLabel(c), swatch: catColor(c) }));
+  return Object.keys(APP.data.relationshipTypes).map(t => ({ value: t, label: REL_LABELS[t] || t, edge: t }));
+}
+
+function buildFilters() {
+  ["era", "category", "rel"].forEach(k => buildFilterPop(k, filterItems(k)));
+  buildFilterRow();
+  applyFilterMode(readStore("hm-filtermode") === "inline" ? "inline" : "menus");
+
+  const reset = $("#filter-reset");
+  reset.onclick = () => {
+    APP.filters.era.clear(); APP.filters.category.clear(); APP.filters.rel.clear();
+    syncFilterControls();
+    applyFilters();
+  };
+  applyFilters();
 }
 
 function buildFilterPop(kind, items) {
@@ -306,31 +455,30 @@ function buildFilterPop(kind, items) {
     let deco = "";
     if (it.swatch) deco = '<span class="cat-swatch" style="background:' + it.swatch + '"></span>';
     if (it.edge) deco = edgeSampleSvg(it.edge, 30);
-    return '<label>' +
-      '<input type="checkbox" value="' + esc(it.value) + '">' + deco +
+    return '<label><input type="checkbox" value="' + esc(it.value) + '">' + deco +
       "<span>" + esc(it.label) + "</span></label>";
   }).join("") +
   '<div class="pop-actions"><button type="button" data-act="all">Select all</button>' +
   '<button type="button" data-act="none">Clear</button></div>';
 
-  btn.addEventListener("click", () => {
+  btn.onclick = () => {
     const open = pop.hidden;
     closeFilterPops();
     if (open) { pop.hidden = false; btn.setAttribute("aria-expanded", "true"); }
-  });
-
-  pop.addEventListener("change", () => {
-    const set = filters[kind];
+  };
+  pop.onchange = () => {
+    const set = APP.filters[kind];
     set.clear();
     $$("input[type=checkbox]", pop).forEach(cb => { if (cb.checked) set.add(cb.value); });
+    syncFilterControls();
     applyFilters();
-  });
-  pop.addEventListener("click", ev => {
+  };
+  pop.onclick = ev => {
     const act = ev.target.dataset && ev.target.dataset.act;
     if (!act) return;
     $$("input[type=checkbox]", pop).forEach(cb => { cb.checked = act === "all"; });
     pop.dispatchEvent(new Event("change"));
-  });
+  };
 }
 
 function closeFilterPops() {
@@ -338,291 +486,131 @@ function closeFilterPops() {
   $$(".filter-btn").forEach(b => b.setAttribute("aria-expanded", "false"));
 }
 
+/* ---- inline filter row: the same three filters as one row of buttons ---- */
+
+const ROW_SECTIONS = [
+  { kind: "era", label: "Era" },
+  { kind: "category", label: "Category" },
+  { kind: "rel", label: "Links" }
+];
+
+function buildFilterRow() {
+  const row = $("#filterrow");
+  row.innerHTML = ROW_SECTIONS.map(sec =>
+    '<div class="frow-sec">' +
+      '<span class="frow-label">' + esc(sec.label) + "</span>" +
+      filterItems(sec.kind).map(it =>
+        '<button type="button" class="frow-chip" data-kind="' + sec.kind + '" data-value="' +
+        esc(it.value) + '" aria-pressed="false">' +
+        (it.swatch ? '<span class="cat-swatch" style="background:' + it.swatch + '"></span>' : "") +
+        esc(it.label) + "</button>"
+      ).join("") +
+    "</div>"
+  ).join("");
+
+  row.onclick = ev => {
+    const chip = ev.target.closest(".frow-chip");
+    if (!chip) return;
+    const set = APP.filters[chip.dataset.kind];
+    if (set.has(chip.dataset.value)) set.delete(chip.dataset.value);
+    else set.add(chip.dataset.value);
+    syncFilterControls();
+    applyFilters();
+  };
+}
+
+/* Keep menus and row showing the same state, whichever was used. */
+function syncFilterControls() {
+  $$(".filter-pop input[type=checkbox]").forEach(cb => {
+    const kind = cb.closest(".filter-group").dataset.filter;
+    cb.checked = APP.filters[kind].has(cb.value);
+  });
+  $$(".frow-chip").forEach(chip => {
+    chip.setAttribute("aria-pressed",
+      APP.filters[chip.dataset.kind].has(chip.dataset.value) ? "true" : "false");
+  });
+}
+
+function applyFilterMode(mode) {
+  const inline = mode === "inline";
+  store("hm-filtermode", mode);
+  $("#filterrow").hidden = !inline;
+  $$(".filter-group").forEach(g => { g.hidden = inline; });
+  const btn = $("#filter-mode");
+  btn.setAttribute("aria-pressed", inline ? "true" : "false");
+  btn.textContent = inline ? "Filter menus" : "Button row";
+  if (inline) closeFilterPops();
+  syncFilterControls();
+}
+
 function nodeVisible(e) {
-  if (filters.era.size && !filters.era.has(e.era)) return false;
-  if (filters.category.size && !filters.category.has(e.category)) return false;
+  const f = APP.filters;
+  if (f.era.size && !f.era.has(e.era)) return false;
+  if (f.category.size && !f.category.has(e.category)) return false;
   return true;
 }
 function edgeVisible(l) {
-  if (filters.rel.size && !filters.rel.has(l.type)) return false;
-  return nodeVisible(byId.get(l.from)) && nodeVisible(byId.get(l.to));
+  if (APP.filters.rel.size && !APP.filters.rel.has(l.type)) return false;
+  return nodeVisible(entity(l.from)) && nodeVisible(entity(l.to));
 }
+function visibleEntities() { return APP.data.entities.filter(nodeVisible); }
 
 function applyFilters() {
-  let shown = 0;
-  nodeSel.classed("is-hidden", d => {
-    const v = nodeVisible(d);
-    if (v) shown++;
-    return !v;
-  });
-  edgeSel.classed("is-hidden", d => !edgeVisible(d));
+  const shown = visibleEntities().length;
+  GraphLens.applyFilters();
+  Lenses.applyFilters();
 
   ["era", "category", "rel"].forEach(kind => {
     const group = $('.filter-group[data-filter="' + kind + '"]');
     const badge = $(".filter-count", group);
-    const n = filters[kind].size;
+    const n = APP.filters[kind].size;
     badge.hidden = n === 0;
     badge.textContent = n;
   });
-  const active = filters.era.size + filters.category.size + filters.rel.size > 0;
+  const active = APP.filters.era.size + APP.filters.category.size + APP.filters.rel.size > 0;
   $("#filter-reset").hidden = !active;
   $("#filter-status").textContent = active
-    ? "Showing " + shown + " of " + nodes.length + " figures"
-    : nodes.length + " figures, " + links.length + " relationships";
+    ? "Showing " + shown + " of " + APP.data.entities.length + " figures"
+    : APP.data.entities.length + " figures, " + APP.data.links.length + " relationships";
 
-  if (selectedId && !nodeVisible(byId.get(selectedId))) clearSelection(false);
-  else refreshDimming();
+  if (APP.selectedId && !nodeVisible(entity(APP.selectedId))) clearSelection(false);
+  else GraphLens.refreshDimming();
 }
 
-/* ---------------- graph ---------------- */
+/* ---------------- selection ---------------- */
 
-function buildGraph() {
-  const stage = $(".graph-stage");
-  const W = () => stage.clientWidth;
-  const H = () => stage.clientHeight;
-
-  svg = d3.select("#graph");
-  const defs = svg.append("defs");
-  Object.keys(DATA.relationshipTypes).forEach(t => {
-    if (!REL_DIRECTIONAL.has(t)) return;
-    defs.append("marker")
-      .attr("id", "arrow-" + t)
-      .attr("viewBox", "0 0 10 10")
-      .attr("refX", 9).attr("refY", 5)
-      .attr("markerWidth", 7).attr("markerHeight", 7)
-      .attr("orient", "auto-start-reverse")
-      .append("path")
-      .attr("class", "m-" + t)
-      .attr("d", "M0,0 L10,5 L0,10 Z");
-  });
-
-  gRoot = svg.append("g");
-  gLinks = gRoot.append("g").attr("aria-hidden", "true");
-  gNodes = gRoot.append("g");
-
-  /* zoom + pan */
-  zoomBehavior = d3.zoom()
-    .scaleExtent([0.2, 5])
-    .on("zoom", ev => gRoot.attr("transform", ev.transform))
-    .on("start", () => svg.classed("grabbing", true))
-    .on("end", () => svg.classed("grabbing", false));
-  svg.call(zoomBehavior).on("dblclick.zoom", null);
-
-  $("#zoom-in").addEventListener("click", () => svg.transition().duration(200).call(zoomBehavior.scaleBy, 1.45));
-  $("#zoom-out").addEventListener("click", () => svg.transition().duration(200).call(zoomBehavior.scaleBy, 1 / 1.45));
-  $("#zoom-fit").addEventListener("click", () => fitView(450));
-
-  /* edges as paths */
-  edgeSel = gLinks.selectAll("path")
-    .data(links)
-    .join("path")
-    .attr("class", d => "edge " + d.type)
-    .attr("marker-end", d => REL_DIRECTIONAL.has(d.type) ? "url(#arrow-" + d.type + ")" : null);
-  edgeSel.append("title").text(d => edgeDescription(d));
-
-  /* nodes: portrait in a category-colored ring */
-  nodeSel = gNodes.selectAll("g")
-    .data(nodes, d => d.id)
-    .join("g")
-    .attr("class", "node")
-    .attr("tabindex", 0)
-    .attr("role", "button")
-    .attr("aria-label", d => shortName(d) + ", " + d.role + ". Press Enter for details.");
-
-  nodeSel.append("circle")
-    .attr("class", "halo")
-    .attr("r", d => nodeRadius(d) + 7);
-  nodeSel.append("circle")
-    .attr("class", "ring")
-    .attr("r", d => nodeRadius(d) + 2.5)
-    .attr("stroke", d => CAT_COLORS[d.category] || "#999");
-
-  /* letter medallion: category-colored disc with the figure's initial */
-  nodeSel.append("circle")
-    .attr("class", "medallion")
-    .attr("r", d => nodeRadius(d))
-    .attr("fill", d => CAT_COLORS[d.category] || "#999");
-
-  nodeSel.append("text")
-    .attr("class", "initial")
-    .attr("dy", "0.36em")
-    .attr("fill", d => letterInk(CAT_COLORS[d.category] || "#999"))
-    .style("font-size", d => Math.round(nodeRadius(d) * 1.05) + "px")
-    .text(d => shortName(d).charAt(0));
-
-  nodeSel.append("circle")
-    .attr("class", "focus-ring")
-    .attr("r", d => nodeRadius(d) + 11);
-
-  nodeSel.append("text")
-    .attr("class", "nlabel")
-    .attr("y", d => nodeRadius(d) + 15)
-    .text(d => shortName(d));
-
-  /* interactions */
-  nodeSel.on("click", (ev, d) => {
-    if (ev.defaultPrevented) return;
-    lastFocusEl = ev.currentTarget;
-    goTo("#/figure/" + d.id);
-  });
-  nodeSel.on("keydown", (ev, d) => {
-    if (ev.key === "Enter" || ev.key === " ") {
-      ev.preventDefault();
-      lastFocusEl = ev.currentTarget;
-      goTo("#/figure/" + d.id);
-    }
-  });
-
-  nodeSel.call(d3.drag()
-    .on("start", (ev, d) => {
-      if (!ev.active) sim.alphaTarget(0.25).restart();
-      d.fx = d.x; d.fy = d.y;
-    })
-    .on("drag", (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
-    .on("end", (ev, d) => {
-      if (!ev.active) sim.alphaTarget(0);
-      d.fx = null; d.fy = null;
-    }));
-
-  /* simulation: tuned from the v1 mechanics that worked, scaled for portraits */
-  sim = d3.forceSimulation(nodes)
-    .force("link", d3.forceLink(links).id(d => d.id)
-      .distance(l => l.type === "avatar" ? 130 : (l.type === "parent" ? 112 : 100))
-      .strength(0.3))
-    .force("charge", d3.forceManyBody().strength(-520))
-    .force("center", d3.forceCenter(W() / 2, H() / 2))
-    .force("collide", d3.forceCollide().radius(d => nodeRadius(d) + 20))
-    .force("x", d3.forceX(W() / 2).strength(0.05))
-    .force("y", d3.forceY(H() / 2).strength(0.06))
-    .on("tick", tick);
-
-  /* settle the layout before first paint so it does not fly around */
-  sim.stop();
-  for (let i = 0; i < 180; i++) sim.tick();
-  tick();
-  sim.alpha(0.15).restart();
-  fitView(0);
-
-  window.addEventListener("resize", () => {
-    sim.force("center", d3.forceCenter(W() / 2, H() / 2));
-    sim.force("x", d3.forceX(W() / 2).strength(0.05));
-    sim.force("y", d3.forceY(H() / 2).strength(0.06));
-    sim.alpha(0.12).restart();
-  });
-
-  applyFilters();
-}
-
-function tick() {
-  edgeSel.attr("d", d => {
-    const sx = d.source.x, sy = d.source.y, tx = d.target.x, ty = d.target.y;
-    const dx = tx - sx, dy = ty - sy;
-    const dist = Math.hypot(dx, dy) || 1;
-    const ux = dx / dist, uy = dy / dist;
-    const rs = nodeRadius(d.source) + 3;
-    const rt = nodeRadius(d.target) + (REL_DIRECTIONAL.has(d.type) ? 10 : 3);
-    const x1 = sx + ux * rs, y1 = sy + uy * rs;
-    const x2 = tx - ux * rt, y2 = ty - uy * rt;
-    if (!d.curve) return "M" + x1 + "," + y1 + "L" + x2 + "," + y2;
-    const mx = (x1 + x2) / 2 - uy * d.curve;
-    const my = (y1 + y2) / 2 + ux * d.curve;
-    return "M" + x1 + "," + y1 + "Q" + mx + "," + my + " " + x2 + "," + y2;
-  });
-  nodeSel.attr("transform", d => "translate(" + d.x + "," + d.y + ")");
-}
-
-function edgeDescription(l) {
-  const s = shortName(byId.get(l.from)), t = shortName(byId.get(l.to));
-  const map = {
-    parent: s + " is a parent of " + t,
-    consort: s + " and " + t + " are consorts",
-    sibling: s + " and " + t + " are siblings",
-    avatar: t + " is an avatar of " + s,
-    form: t + " is a form of " + s,
-    enemy: s + " and " + t + " are adversaries",
-    devotee: s + " is a devotee of " + t,
-    mount: s + " is the mount of " + t,
-    guru: s + " is the guru of " + t,
-    foster: s + " is a foster parent of " + t,
-    ally: s + " and " + t + " are allies"
-  };
-  let out = map[l.type] || (s + " - " + l.type + " - " + t);
-  if (l.note) out += " (" + l.note + ")";
-  return out;
-}
-
-function fitView(duration) {
-  const stage = $(".graph-stage");
-  const vis = nodes.filter(nodeVisible);
-  if (!vis.length) return;
-  const pad = 60;
-  const xs = vis.map(d => d.x), ys = vis.map(d => d.y);
-  const minX = Math.min(...xs) - pad, maxX = Math.max(...xs) + pad;
-  const minY = Math.min(...ys) - pad, maxY = Math.max(...ys) + pad;
-  const w = stage.clientWidth, h = stage.clientHeight;
-  const k = Math.min(2, 0.95 / Math.max((maxX - minX) / w, (maxY - minY) / h));
-  const tx = w / 2 - k * (minX + maxX) / 2;
-  const ty = h / 2 - k * (minY + maxY) / 2;
-  const t = d3.zoomIdentity.translate(tx, ty).scale(k);
-  (duration ? svg.transition().duration(duration) : svg).call(zoomBehavior.transform, t);
-}
-
-function centerOnNode(d) {
-  const stage = $(".graph-stage");
-  const w = stage.clientWidth, h = stage.clientHeight;
-  const isMobile = window.matchMedia("(max-width: 700px)").matches;
-  /* leave room for the panel: right side on desktop, bottom sheet on mobile */
-  const cx = isMobile ? w / 2 : Math.max(w * 0.32, (w - 430) / 2);
-  const cy = isMobile ? h * 0.3 : h / 2;
-  const k = Math.max(1.05, d3.zoomTransform(svg.node()).k);
-  const t = d3.zoomIdentity.translate(cx - k * d.x, cy - k * d.y).scale(k);
-  svg.transition().duration(500).call(zoomBehavior.transform, t);
-}
-
-/* ---------------- selection / focus mode ---------------- */
-
-function selectFigure(id, opts) {
-  opts = opts || {};
-  selectedId = id;
-  refreshDimming();
-  renderPanel(byId.get(id));
+function selectFigure(id) {
+  APP.selectedId = id;
+  GraphLens.refreshDimming();
+  const e = entity(id);
+  if (APP.lens === "figure") {
+    Lenses.showFigure(id);
+    return;
+  }
+  $("#panel-content").innerHTML = figureHtml(e, { panel: true });
+  wireFigureBody($("#panel-content"), e);
   const panel = $("#panel");
   panel.hidden = false;
-  const d = nodes.find(n => n.id === id);
-  if (d && currentView === "map") centerOnNode(d);
+  if (APP.lens === "map") GraphLens.center(id);
+  if (APP.lens === "mindmap") MindMapLens.focus(id);
   panel.focus({ preventScroll: true });
   $(".panel-scroll").scrollTop = 0;
 }
 
 function clearSelection(updateHash) {
-  selectedId = null;
+  APP.selectedId = null;
   $("#panel").hidden = true;
-  refreshDimming();
-  if (updateHash && location.hash.startsWith("#/figure/")) {
-    history.pushState("", document.title, location.pathname + "#/map");
+  GraphLens.refreshDimming();
+  if (updateHash && location.hash.indexOf("/figure/") > -1) {
+    history.pushState("", document.title, location.pathname + "#/" + APP.pid + "/map");
   }
-  if (lastFocusEl && document.contains(lastFocusEl)) {
-    lastFocusEl.focus();
-    lastFocusEl = null;
+  if (APP.lastFocusEl && document.contains(APP.lastFocusEl)) {
+    APP.lastFocusEl.focus();
+    APP.lastFocusEl = null;
   }
 }
 
-function refreshDimming() {
-  if (!selectedId) {
-    nodeSel.classed("is-dim", false).classed("is-selected", false);
-    edgeSel.classed("is-dim", false).classed("is-lit", false);
-    return;
-  }
-  const nb = neighborSets.get(selectedId) || new Set();
-  nodeSel
-    .classed("is-selected", d => d.id === selectedId)
-    .classed("is-dim", d => d.id !== selectedId && !nb.has(d.id));
-  edgeSel
-    .classed("is-lit", d => d.from === selectedId || d.to === selectedId)
-    .classed("is-dim", d => d.from !== selectedId && d.to !== selectedId);
-}
-
-/* ---------------- figure panel ---------------- */
+/* ---------------- figure rendering (shared by panel and Figure lens) ---------------- */
 
 function chipHtml(text, swatchColor) {
   const sw = swatchColor ? '<span class="cat-swatch" style="background:' + swatchColor + '"></span>' : "";
@@ -635,27 +623,48 @@ function listSection(title, items) {
     '<ul class="fig-list">' + items.map(i => "<li>" + esc(i) + "</li>").join("") + "</ul></section>";
 }
 
-function renderPanel(e) {
-  const rels = collectRelations(e.id);
-  const relHtml = REL_ORDER.map(type => {
-    const groups = rels[type];
-    if (!groups) return "";
-    return Object.keys(groups).map(heading => {
-      const entries = groups[heading];
-      return '<div class="rel-group">' +
-        '<h4 class="rel-type-h">' + edgeSampleSvg(type, 30) + esc(heading) + "</h4>" +
-        '<div class="rel-links">' + entries.map(en => {
-          const o = byId.get(en.id);
-          return '<a class="rel-chip" href="#/figure/' + esc(o.id) + '">' +
-            '<img src="' + portraitPath(o) + '" alt="" loading="lazy" width="24" height="24">' +
-            "<span>" + esc(shortName(o)) + "</span>" +
-            (en.note ? '<span class="rel-note">' + esc(en.note) + "</span>" : "") +
-            "</a>";
-        }).join("") + "</div></div>";
-    }).join("");
-  }).join("");
+function collectRelations(id) {
+  const out = {};
+  APP.data.links.forEach(l => {
+    if (l.from !== id && l.to !== id) return;
+    const dirKey = l.from === id ? "out" : "in";
+    const otherId = l.from === id ? l.to : l.from;
+    const heading = (REL_GROUPS[l.type] || { out: l.type, in: l.type })[dirKey];
+    out[l.type] = out[l.type] || {};
+    out[l.type][heading] = out[l.type][heading] || [];
+    out[l.type][heading].push({ id: otherId, note: l.note });
+  });
+  return out;
+}
 
-  const stories = (e.storyIds || []).map(id => storyById.get(id)).filter(Boolean);
+function figureHtml(e, opts) {
+  opts = opts || {};
+  const rels = collectRelations(e.id);
+  const relHtml = REL_ORDER.concat(Object.keys(rels).filter(t => REL_ORDER.indexOf(t) < 0))
+    .map(type => {
+      const groups = rels[type];
+      if (!groups) return "";
+      return Object.keys(groups).map(heading => {
+        const entries = groups[heading];
+        return '<div class="rel-group">' +
+          '<h4 class="rel-type-h">' + edgeSampleSvg(type, 30) + esc(heading) + "</h4>" +
+          '<div class="rel-links">' + entries.map(en => {
+            const o = entity(en.id);
+            if (!o) return "";
+            return '<a class="rel-chip" href="' + figureHash(o.id) + '">' +
+              '<img src="' + esc(portraitPath(o)) + '" alt="" loading="lazy" width="24" height="24">' +
+              "<span>" + esc(shortName(o)) + "</span>" +
+              (en.note ? '<span class="rel-note">' + esc(en.note) + "</span>" : "") +
+              "</a>";
+          }).join("") + "</div></div>";
+      }).join("");
+    }).join("");
+
+  const stories = (e.storyIds || []).map(id => APP.storyById.get(id)).filter(Boolean);
+  const arch = (e.archetypes || []).map(k => {
+    const a = APP.archetypes.find(x => x.key === k);
+    return a ? a.label : k;
+  });
 
   const quickFacts = [];
   if (e.mount) quickFacts.push(["Mount", e.mount]);
@@ -663,23 +672,30 @@ function renderPanel(e) {
   if (quickFacts.length === 1) quickFacts[0][2] = true;
   if (e.festivals && e.festivals.length) quickFacts.push(["Festivals", e.festivals.join(", "), true]);
 
-  $("#panel-content").innerHTML =
-    '<header class="fig-hero">' +
+  const inChart = APP.chart.has(e.id);
+
+  return '<header class="fig-hero">' +
       '<div class="fig-hero-text">' +
         '<h2 class="fig-name">' + esc(e.name) + "</h2>" +
         '<p class="fig-sanskrit" lang="sa">' + esc(e.sanskrit || "") + "</p>" +
         '<p class="fig-role">' + esc(e.role) + "</p>" +
         '<div class="fig-chips">' +
-          chipHtml(CAT_LABELS[e.category] || e.category, CAT_COLORS[e.category]) +
-          chipHtml(ERA_LABELS[e.era] || e.era) +
+          chipHtml(catLabel(e.category), catColor(e.category)) +
+          chipHtml(eraLabel(e.era) + " era") +
         "</div>" +
       "</div>" +
-      '<button type="button" class="fig-portrait-btn" aria-label="Expand the portrait of ' + esc(shortName(e)) + '">' +
-        '<img class="fig-portrait" src="' + portraitPath(e) + '" alt="Portrait of ' + esc(shortName(e)) + '" width="120" height="120">' +
+      '<button type="button" class="fig-portrait-btn" data-lightbox="' + esc(e.id) + '" aria-label="Expand the portrait of ' + esc(shortName(e)) + '">' +
+        '<img class="fig-portrait" src="' + esc(portraitPath(e)) + '" alt="Portrait of ' + esc(shortName(e)) + '" width="120" height="120">' +
         '<span class="fig-expand-hint" aria-hidden="true">&#8599;</span>' +
       "</button>" +
     "</header>" +
     '<div class="fig-body">' +
+      '<div class="chart-add-row">' +
+        '<button type="button" class="chart-add' + (inChart ? " is-in" : "") + '" data-chart-add="' + esc(e.id) + '">' +
+          (inChart ? "In your chart" : "Add to chart") + "</button>" +
+        '<button type="button" class="ghost-btn small" data-chart-web="' + esc(e.id) + '">' +
+          "Add with relations</button>" +
+      "</div>" +
       (quickFacts.length
         ? '<dl class="fig-quickfacts">' + quickFacts.map(f =>
             '<div class="qf' + (f[2] ? " qf-wide" : "") + '"><dt>' + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd></div>"
@@ -703,85 +719,73 @@ function renderPanel(e) {
         : "") +
       (stories.length
         ? '<section class="fig-section"><h3 class="fig-h">Appears In</h3><ul class="story-link-list">' +
-          stories.map(s =>
-            '<li><button type="button" class="story-link" data-story="' + esc(s.id) + '">' + esc(s.title) + "</button></li>"
-          ).join("") + "</ul></section>"
+          stories.map(s => '<li><a class="story-link" href="#/' + esc(APP.pid) + '/story/' + esc(s.id) + '">' +
+            esc(s.title) + "</a></li>").join("") + "</ul></section>"
+        : "") +
+      (arch.length
+        ? '<section class="fig-section"><h3 class="fig-h">Archetypes</h3>' +
+          '<div class="fig-chips left">' + arch.map(a => chipHtml(a)).join("") + "</div>" +
+          '<p class="pane-note">Used by the <a href="#/compare">comparative matrix</a> to line this figure up with its counterparts in other traditions.</p></section>'
         : "") +
       '<a class="fig-wiki" href="' + wikiUrl(e) + '" target="_blank" rel="noopener">Read more on Wikipedia <span aria-hidden="true">&#8599;</span></a>' +
     "</div>";
-
-  $$(".story-link", $("#panel-content")).forEach(btn => {
-    btn.addEventListener("click", () => goTo("#/story/" + btn.dataset.story));
-  });
-
-  $(".fig-portrait-btn", $("#panel-content")).addEventListener("click", () => openLightbox(e));
 }
 
-/* ---------------- portrait lightbox ---------------- */
+/* Attach handlers to a rendered figure body (panel or Figure lens). */
+function wireFigureBody(root, e) {
+  const lb = $(".fig-portrait-btn", root);
+  if (lb) lb.addEventListener("click", () => openLightbox(e));
+  const add = $("[data-chart-add]", root);
+  if (add) add.addEventListener("click", () => {
+    toggleChart(add.dataset.chartAdd);
+    const on = APP.chart.has(add.dataset.chartAdd);
+    add.classList.toggle("is-in", on);
+    add.textContent = on ? "In your chart" : "Add to chart";
+  });
+  const web = $("[data-chart-web]", root);
+  if (web) web.addEventListener("click", () => {
+    const id = web.dataset.chartWeb;
+    const ids = [id].concat(Array.from(APP.neighbors.get(id) || []));
+    ChartBuilder.addMany(ids);
+    web.textContent = "Added " + ids.length + " figures";
+    setTimeout(() => { web.textContent = "Add with relations"; }, 2200);
+  });
+}
 
 function openLightbox(e) {
-  const lb = $("#lightbox");
   $("#lightbox-img").src = portraitPath(e);
   $("#lightbox-img").alt = "Portrait of " + shortName(e) + ", full illustration";
-  $("#lightbox-caption").textContent = shortName(e) + " - original illustration in classical Indian miniature style";
-  lb.showModal();
-}
-
-/* Group this figure's links: type -> heading -> [{id, note}] */
-function collectRelations(id) {
-  const out = {};
-  DATA.links.forEach(l => {
-    if (l.from !== id && l.to !== id) return;
-    const dirKey = l.from === id ? "out" : "in";
-    const otherId = l.from === id ? l.to : l.from;
-    const heading = REL_GROUPS[l.type][dirKey];
-    out[l.type] = out[l.type] || {};
-    out[l.type][heading] = out[l.type][heading] || [];
-    out[l.type][heading].push({ id: otherId, note: l.note });
-  });
-  return out;
+  $("#lightbox-caption").textContent = shortName(e) + " - original illustration, " +
+    (APP.data.meta ? APP.data.meta.label : "") + " pantheon";
+  $("#lightbox").showModal();
 }
 
 /* ---------------- search ---------------- */
 
+let searchItems = [], searchActive = -1;
+
+function closeSearchList() {
+  const list = $("#search-list");
+  if (!list) return;
+  list.hidden = true;
+  $("#search-combo").setAttribute("aria-expanded", "false");
+  $("#search-input").removeAttribute("aria-activedescendant");
+  searchActive = -1;
+}
+
 function wireSearch() {
   const input = $("#search-input");
   const list = $("#search-list");
-  const combo = $("#search-combo");
-  let items = [];
-  let active = -1;
-
-  function closeList() {
-    list.hidden = true;
-    combo.setAttribute("aria-expanded", "false");
-    input.removeAttribute("aria-activedescendant");
-    active = -1;
-  }
-  window.closeSearchList = closeList;
 
   function pick(id) {
-    closeList();
+    closeSearchList();
     input.value = "";
-    goTo("#/figure/" + id);
-  }
-
-  function render(matches) {
-    items = matches;
-    if (!matches.length) {
-      list.innerHTML = '<li class="s-empty" role="option" aria-disabled="true">No figures match</li>';
-    } else {
-      list.innerHTML = matches.map((e, i) =>
-        '<li id="s-opt-' + i + '" role="option" data-id="' + esc(e.id) + '" aria-selected="false">' +
-        '<img src="' + portraitPath(e) + '" alt="" loading="lazy" width="34" height="34">' +
-        '<span><span class="s-name">' + esc(shortName(e)) + '</span><br><span class="s-role">' + esc(e.role) + "</span></span></li>"
-      ).join("");
-    }
-    list.hidden = false;
-    combo.setAttribute("aria-expanded", "true");
+    Lenses.clearQuery();
+    goTo(figureHash(id));
   }
 
   function setActive(i) {
-    active = i;
+    searchActive = i;
     $$("li", list).forEach((li, j) => li.setAttribute("aria-selected", j === i ? "true" : "false"));
     if (i >= 0) {
       input.setAttribute("aria-activedescendant", "s-opt-" + i);
@@ -792,158 +796,214 @@ function wireSearch() {
 
   input.addEventListener("input", () => {
     const q = input.value.trim().toLowerCase();
-    if (q.length < 1) { closeList(); return; }
-    const scored = [];
-    DATA.entities.forEach(e => {
-      const name = e.name.toLowerCase();
-      let score = -1;
-      if (name.startsWith(q)) score = 0;
-      else if (name.includes(q)) score = 1;
-      else if (e.role.toLowerCase().includes(q)) score = 2;
-      else if ((e.epithets || []).some(ep => ep.toLowerCase().includes(q))) score = 3;
-      if (score >= 0) scored.push([score, e]);
-    });
-    scored.sort((a, b) => a[0] - b[0] || a[1].name.localeCompare(b[1].name));
-    render(scored.slice(0, 8).map(s => s[1]));
+    Lenses.setQuery(q);
+    if (!APP.data || q.length < 1) { closeSearchList(); return; }
+    searchItems = matchEntities(q).slice(0, 8);
+    if (!searchItems.length) {
+      list.innerHTML = '<li class="s-empty" role="option" aria-disabled="true">No figures match</li>';
+    } else {
+      list.innerHTML = searchItems.map((e, i) =>
+        '<li id="s-opt-' + i + '" role="option" data-id="' + esc(e.id) + '" aria-selected="false">' +
+        '<img src="' + esc(portraitPath(e)) + '" alt="" loading="lazy" width="34" height="34">' +
+        '<span><span class="s-name">' + esc(shortName(e)) + '</span><br><span class="s-role">' +
+        esc(e.role) + "</span></span></li>"
+      ).join("");
+    }
+    list.hidden = false;
+    $("#search-combo").setAttribute("aria-expanded", "true");
     setActive(-1);
   });
 
   input.addEventListener("keydown", ev => {
-    if (list.hidden) return;
-    if (ev.key === "ArrowDown") { ev.preventDefault(); setActive(Math.min(items.length - 1, active + 1)); }
-    else if (ev.key === "ArrowUp") { ev.preventDefault(); setActive(Math.max(0, active - 1)); }
-    else if (ev.key === "Enter") {
+    if (ev.key === "Enter") {
       ev.preventDefault();
-      if (active >= 0 && items[active]) pick(items[active].id);
-      else if (items.length === 1) pick(items[0].id);
+      if (searchActive >= 0 && searchItems[searchActive]) { pick(searchItems[searchActive].id); return; }
+      const q = input.value.trim().toLowerCase();
+      if (!q) return;
+      const first = matchEntities(q)[0];
+      if (!first) return;
+      /* per-lens Enter behavior */
+      if (APP.view === "map" && APP.lens !== "map") { Lenses.gotoMatch(first.id); closeSearchList(); }
+      else pick(first.id);
+      return;
     }
+    if (list.hidden) return;
+    if (ev.key === "ArrowDown") { ev.preventDefault(); setActive(Math.min(searchItems.length - 1, searchActive + 1)); }
+    else if (ev.key === "ArrowUp") { ev.preventDefault(); setActive(Math.max(0, searchActive - 1)); }
   });
 
   list.addEventListener("click", ev => {
     const li = ev.target.closest("li[data-id]");
     if (li) pick(li.dataset.id);
   });
-
-  document.addEventListener("click", ev => {
-    if (!ev.target.closest(".search")) closeList();
-  });
 }
 
-/* ---------------- stories view ---------------- */
+function matchEntities(q) {
+  if (!APP.data) return [];
+  const scored = [];
+  APP.data.entities.forEach(e => {
+    const name = e.name.toLowerCase();
+    let score = -1;
+    if (name.startsWith(q)) score = 0;
+    else if (name.includes(q)) score = 1;
+    else if (e.role.toLowerCase().includes(q)) score = 2;
+    else if ((e.epithets || []).some(ep => ep.toLowerCase().includes(q))) score = 3;
+    else if ((e.domains || []).some(d => d.toLowerCase().includes(q))) score = 4;
+    if (score >= 0) scored.push([score, e]);
+  });
+  scored.sort((a, b) => a[0] - b[0] || a[1].name.localeCompare(b[1].name));
+  return scored.map(s => s[1]);
+}
+
+/* ---------------- stories ---------------- */
 
 let storyEraFilter = null;
 
 function buildStories() {
-  const eras = Array.from(new Set(DATA.stories.map(s => s.era)));
-  const eraOrder = ERAS.filter(e => eras.includes(e));
+  storyEraFilter = null;
+  const d = APP.data;
+  $("#stories-lede").textContent = d.stories.length +
+    " narratives, each with its cast and the primary texts that carry it.";
+  const eras = presentEras().filter(e => d.stories.some(s => s.era === e));
   $("#story-eras").innerHTML =
     '<button type="button" class="era-chip" data-era="" aria-pressed="true">All eras</button>' +
-    eraOrder.map(e =>
-      '<button type="button" class="era-chip" data-era="' + esc(e) + '" aria-pressed="false">' + esc(ERA_LABELS[e] || e) + "</button>"
-    ).join("");
-
-  $("#story-eras").addEventListener("click", ev => {
+    eras.map(e => '<button type="button" class="era-chip" data-era="' + esc(e) + '" aria-pressed="false">' +
+      esc(eraLabel(e)) + "</button>").join("");
+  $("#story-eras").onclick = ev => {
     const btn = ev.target.closest(".era-chip");
     if (!btn) return;
     storyEraFilter = btn.dataset.era || null;
-    $$(".era-chip", $("#story-eras")).forEach(b =>
-      b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
+    $$(".era-chip", $("#story-eras")).forEach(b => b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
     renderStories();
-  });
-
+  };
   renderStories();
 }
 
 function renderStories() {
-  const list = DATA.stories.filter(s => !storyEraFilter || s.era === storyEraFilter);
+  const list = APP.data.stories.filter(s => !storyEraFilter || s.era === storyEraFilter);
   $("#stories-grid").innerHTML = list.map(s => {
-    const cast = s.cast.map(id => byId.get(id)).filter(Boolean);
+    const cast = s.cast.map(id => entity(id)).filter(Boolean);
     return '<article class="story-card" id="story-' + esc(s.id) + '" tabindex="-1" aria-labelledby="st-' + esc(s.id) + '">' +
       '<div class="story-card-h">' +
         '<h3 class="story-title" id="st-' + esc(s.id) + '">' + esc(s.title) + "</h3>" +
-        '<span class="story-era">' + esc(ERA_LABELS[s.era] || s.era) + "</span>" +
+        '<span class="story-era">' + esc(eraLabel(s.era)) + "</span>" +
       "</div>" +
       '<p class="story-summary">' + esc(s.summary) + "</p>" +
       '<div class="story-cast" role="group" aria-label="Cast of ' + esc(s.title) + '">' +
-        cast.map(c =>
-          '<a class="cast-chip" href="#/figure/' + esc(c.id) + '">' +
-          '<img src="' + portraitPath(c) + '" alt="" loading="lazy" decoding="async" width="26" height="26">' +
-          "<span>" + esc(shortName(c)) + "</span></a>"
-        ).join("") +
+        cast.map(c => '<a class="cast-chip" href="' + figureHash(c.id) + '">' +
+          '<img src="' + esc(portraitPath(c)) + '" alt="" loading="lazy" decoding="async" width="26" height="26">' +
+          "<span>" + esc(shortName(c)) + "</span></a>").join("") +
+      "</div>" +
+      '<div class="story-foot">' +
+        '<button type="button" class="ghost-btn small" data-cast="' + esc(s.id) + '">Add this cast to the chart</button>' +
       "</div>" +
       '<div class="story-sources"><h4 class="story-sources-h">Sources</h4><ul>' +
-        s.sources.map(src =>
-          '<li><a href="' + esc(src.url) + '" target="_blank" rel="noopener">' + esc(src.book) + "</a>" +
-          ' <span class="src-loc">' + esc(src.location) + " &middot; " + esc(src.translation) + "</span></li>"
-        ).join("") +
+        s.sources.map(src => '<li><a href="' + esc(src.url) + '" target="_blank" rel="noopener">' +
+          esc(src.book) + "</a> " + '<span class="src-loc">' + esc(src.location) +
+          " &middot; " + esc(src.translation) + "</span></li>").join("") +
       "</ul></div></article>";
   }).join("");
-}
 
-/* ---------------- index view ---------------- */
-
-let sortKey = "name", sortAsc = true;
-
-function buildIndexTable() {
-  renderIndexRows();
-  $$(".sort-btn").forEach(btn => {
+  $$("[data-cast]", $("#stories-grid")).forEach(btn => {
     btn.addEventListener("click", () => {
-      const key = btn.dataset.sort;
-      if (sortKey === key) sortAsc = !sortAsc;
-      else { sortKey = key; sortAsc = true; }
-      renderIndexRows();
+      const s = APP.storyById.get(btn.dataset.cast);
+      s.cast.forEach(id => { if (APP.byId.has(id)) APP.chart.add(id); });
+      saveChartSelection();
+      updateTray();
+      btn.textContent = "Added " + s.cast.length + " figures";
+      setTimeout(() => { btn.textContent = "Add this cast to the chart"; }, 2200);
     });
   });
 }
 
-function renderIndexRows() {
-  const rows = DATA.entities.slice().sort((a, b) => {
-    const av = (a[sortKey] || "").toLowerCase(), bv = (b[sortKey] || "").toLowerCase();
-    return (av < bv ? -1 : av > bv ? 1 : 0) * (sortAsc ? 1 : -1);
-  });
-  $$("th", $("#index-table")).forEach(th => th.removeAttribute("aria-sort"));
-  const activeBtn = $('.sort-btn[data-sort="' + sortKey + '"]');
-  if (activeBtn) activeBtn.closest("th").setAttribute("aria-sort", sortAsc ? "ascending" : "descending");
+/* ---------------- chart selection tray ---------------- */
 
-  $("#index-tbody").innerHTML = rows.map(e =>
-    "<tr>" +
-    '<td><img class="idx-portrait" src="' + portraitPath(e) + '" alt="" loading="lazy" decoding="async" width="40" height="40"></td>' +
-    '<th scope="row"><button type="button" class="idx-name-btn" data-id="' + esc(e.id) + '">' + esc(e.name) + '</button>' +
-      '<div class="idx-sanskrit" lang="sa">' + esc(e.sanskrit || "") + "</div></th>" +
-    '<td><span class="idx-cat"><span class="cat-swatch" style="background:' + (CAT_COLORS[e.category] || "#999") + '"></span>' +
-      esc(CAT_LABELS[e.category] || e.category) + "</span></td>" +
-    "<td>" + esc(ERA_LABELS[e.era] || e.era) + "</td>" +
-    '<td class="idx-muted">' + esc(e.role) + "</td>" +
-    '<td class="idx-muted">' + esc(e.mount || "-") + "</td>" +
-    '<td class="idx-muted">' + esc(e.abode || "-") + "</td>" +
-    "</tr>"
-  ).join("");
+function chartKey() { return "hm-chart-" + APP.pid; }
 
-  $$(".idx-name-btn", $("#index-tbody")).forEach(btn => {
-    btn.addEventListener("click", () => goTo("#/figure/" + btn.dataset.id));
+function saveChartSelection() { store(chartKey(), JSON.stringify(Array.from(APP.chart))); }
+
+function restoreChartSelection() {
+  APP.chart = new Set();
+  try {
+    const raw = readStore(chartKey());
+    if (raw) JSON.parse(raw).forEach(id => { if (APP.byId.has(id)) APP.chart.add(id); });
+  } catch (e) { /* ignore malformed */ }
+  updateTray();
+}
+
+function toggleChart(id) {
+  if (APP.chart.has(id)) APP.chart.delete(id);
+  else APP.chart.add(id);
+  saveChartSelection();
+  updateTray();
+  if (APP.view === "chart") ChartBuilder.render();
+}
+
+function updateTray() {
+  const n = APP.chart.size;
+  const badge = $("#tray-count");
+  badge.hidden = n === 0;
+  badge.textContent = n;
+  $$("[data-chart-add]").forEach(b => {
+    const on = APP.chart.has(b.dataset.chartAdd);
+    b.classList.toggle("is-in", on);
+    if (b.classList.contains("chart-add")) b.textContent = on ? "In your chart" : "Add to chart";
   });
+  $$(".card-add").forEach(b => b.setAttribute("aria-pressed", APP.chart.has(b.dataset.id) ? "true" : "false"));
+  renderTray();
+}
+
+function renderTray() {
+  const body = $("#tray-body");
+  if (!APP.chart.size) {
+    body.innerHTML = '<p class="tray-empty">Nothing chosen yet. Add figures from any panel, card or story, or open the Chart view and start from a preset.</p>';
+    return;
+  }
+  body.innerHTML = '<ul class="tray-list">' + Array.from(APP.chart).map(id => {
+    const e = entity(id);
+    if (!e) return "";
+    return '<li><img src="' + esc(portraitPath(e)) + '" alt="" loading="lazy" width="30" height="30">' +
+      '<span class="tray-name">' + esc(shortName(e)) + "</span>" +
+      '<button type="button" class="tray-remove" data-remove="' + esc(id) + '" aria-label="Remove ' +
+      esc(shortName(e)) + ' from the chart">&times;</button></li>';
+  }).join("") + "</ul>";
+  $$("[data-remove]", body).forEach(b => b.addEventListener("click", () => toggleChart(b.dataset.remove)));
+}
+
+function openTray() { $("#chart-tray").hidden = false; document.body.classList.add("tray-open"); }
+function closeTray() { $("#chart-tray").hidden = true; document.body.classList.remove("tray-open"); }
+
+function wireTray() {
+  $("#chart-tray-btn").addEventListener("click", () => {
+    if ($("#chart-tray").hidden) openTray(); else closeTray();
+  });
+  $("#tray-close").addEventListener("click", closeTray);
+  $("#tray-clear").addEventListener("click", () => {
+    APP.chart.clear(); saveChartSelection(); updateTray();
+    if (APP.view === "chart") ChartBuilder.render();
+  });
+  $("#tray-open").addEventListener("click", closeTray);
 }
 
 /* ---------------- about ---------------- */
 
 function buildAbout() {
-  const b = DATA.books || {};
+  const d = APP.data;
+  const b = d.books || {};
   $("#about-content").innerHTML =
-    "<h2>" + esc(DATA.title) + "</h2>" +
-    "<p>" + esc(DATA.description) + "</p>" +
+    "<h2 id='about-title'>" + esc(d.title) + "</h2>" +
+    "<p>" + esc(d.description) + "</p>" +
     '<div class="about-stats">' +
-      '<div class="stat"><b>' + DATA.entities.length + "</b><span>Figures</span></div>" +
-      '<div class="stat"><b>' + DATA.links.length + "</b><span>Relationships</span></div>" +
-      '<div class="stat"><b>' + DATA.stories.length + "</b><span>Stories</span></div>" +
+      '<div class="stat"><b>' + d.entities.length + "</b><span>Figures</span></div>" +
+      '<div class="stat"><b>' + d.links.length + "</b><span>Relationships</span></div>" +
+      '<div class="stat"><b>' + d.stories.length + "</b><span>Stories</span></div>" +
       '<div class="stat"><b>' + Object.keys(b).length + "</b><span>Source books</span></div>" +
     "</div>" +
     "<h3>Primary texts</h3><ul>" +
-    Object.keys(b).map(k =>
-      '<li><a href="' + esc(b[k].u) + '" target="_blank" rel="noopener">' + esc(b[k].t) + "</a> " +
-      '<span class="idx-muted">' + esc(b[k].tr) + "</span></li>"
-    ).join("") + "</ul>" +
+    Object.keys(b).map(k => '<li><a href="' + esc(b[k].u) + '" target="_blank" rel="noopener">' +
+      esc(b[k].t) + "</a> " + '<span class="idx-muted">' + esc(b[k].tr) + "</span></li>").join("") + "</ul>" +
     "<h3>General references</h3><ul>" +
-    (DATA.sources || []).map(s => "<li>" + esc(s) + "</li>").join("") + "</ul>" +
-    "<h3>Portraits</h3><p>" + esc(DATA.portraitNote) + "</p>" +
-    "<p>Dataset compiled " + esc(DATA.generated || "") + ". Built by Quiddity Innovations.</p>";
+    (d.sources || []).map(s => "<li>" + esc(s) + "</li>").join("") + "</ul>" +
+    "<h3>Portraits</h3><p>" + esc(d.portraitNote) + "</p>" +
+    "<p>Dataset compiled " + esc(d.generated || "") + ". Built by Quiddity Innovations.</p>";
 }
