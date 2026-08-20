@@ -1354,6 +1354,904 @@
     "wisdom-craft",
     "sage-seer"
    ]
+  },
+  {
+   "id": "mut",
+   "name": "Mut",
+   "sanskrit": "mwt",
+   "category": "deity",
+   "era": "Solar",
+   "role": "Mother goddess; consort of Amun at Thebes",
+   "wikipedia": "Mut",
+   "portrait": "portraits/egyptian/mut.webp",
+   "epithets": [
+    "The Mother",
+    "Lady of Isheru",
+    "Mistress of the Nine Bows"
+   ],
+   "domains": [
+    "motherhood",
+    "queenship",
+    "the protection of the king"
+   ],
+   "symbols": [
+    "the vulture headdress",
+    "the double crown",
+    "the lioness head"
+   ],
+   "mount": null,
+   "abode": "Isheru, her precinct at Karnak",
+   "festivals": [],
+   "worship": "The Mut precinct at Karnak, with its horseshoe lake, held hundreds of Sekhmet statues and hosted a festival of drunkenness of its own.",
+   "bio": "Consort of Amun and mother of Khonsu, forming the Theban triad.",
+   "longBio": "Mut's name is simply the word for mother, written with the vulture sign, and she rose alongside Amun as Thebes rose. With Amun and their son Khonsu she forms the Theban triad, the family group that anchored the city's theology, and her precinct at Karnak surrounds a crescent-shaped sacred lake called the Isheru. Like Hathor and Sekhmet she has a leonine aspect and appears as one of the forms of the raging Eye of Ra that must be pacified. The vulture headdress she wears became the standard headgear of Egyptian queens, which is the point: Mut is queenship as an institution, and the living queen participates in her. Hatshepsut and later rulers built substantially in her precinct.",
+   "variantTraditions": "Mut displaced Amaunet as Amun's consort without Amaunet being removed from the Ogdoad; both arrangements coexisted.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "khonsu",
+   "name": "Khonsu",
+   "sanskrit": "ḫnsw",
+   "category": "deity",
+   "era": "Solar",
+   "role": "The traveller; moon god of Thebes",
+   "wikipedia": "Khonsu",
+   "portrait": "portraits/egyptian/khonsu.webp",
+   "epithets": [
+    "The Traveller",
+    "Pathfinder",
+    "Embracer",
+    "Defender"
+   ],
+   "domains": [
+    "the moon",
+    "the passage of time",
+    "healing and exorcism"
+   ],
+   "symbols": [
+    "the lunar disc and crescent",
+    "the sidelock of youth",
+    "the crook and flail"
+   ],
+   "mount": null,
+   "abode": "Karnak, in his own temple",
+   "festivals": [],
+   "worship": "",
+   "bio": "Moon god and third member of the Theban triad, credited with healing and driving out spirits.",
+   "longBio": "Khonsu's name comes from a verb meaning to cross or traverse, describing the moon's journey across the night sky. Son of Amun and Mut, he completes the Theban triad and has a well-preserved temple within the Karnak complex. His reputation was as a healer and an expeller of hostile spirits, and the Bentresh Stela records a story in which his image is sent to a foreign court to cure a princess possessed by a spirit - a text probably composed centuries after the reign it claims to describe, but which shows exactly what people expected of him. In earlier material he has a much fiercer character, appearing in the Pyramid Texts as a bloodthirsty deity who helps the king devour other gods, a side that faded entirely later.",
+   "variantTraditions": "The Bentresh Stela is a pious fiction of the Late Period presented as a New Kingdom document; the ferocity of the Pyramid Text Khonsu is hard to reconcile with the later healer.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "moon",
+    "healer"
+   ]
+  },
+  {
+   "id": "aten",
+   "name": "The Aten",
+   "sanskrit": "jtn",
+   "category": "solar",
+   "era": "Historical",
+   "role": "The visible disc of the sun",
+   "wikipedia": "Aten",
+   "portrait": "portraits/egyptian/aten.webp",
+   "epithets": [
+    "The Living Disc",
+    "The Sole God",
+    "Lord of Rays"
+   ],
+   "domains": [
+    "the physical sun",
+    "light as the source of all life"
+   ],
+   "symbols": [
+    "the disc with rays ending in hands",
+    "the ankh offered to the royal family"
+   ],
+   "mount": null,
+   "abode": "The sky, and Akhetaten",
+   "festivals": [],
+   "worship": "Open-air temples at Akhetaten with no roof and no cult statue, so that the sun itself fell on the offerings. Abandoned within a generation.",
+   "bio": "The sun-disc itself, briefly raised by Akhenaten to be the only god of Egypt.",
+   "longBio": "The Aten begins as an ordinary word for the sun's disc and as a minor aspect of the solar cult, then becomes the centre of the most radical episode in Egyptian religious history. Amenhotep IV renamed himself Akhenaten, moved the capital to a new city at Akhetaten, and promoted the Aten as the sole deity, closing temples and having the name of Amun chiselled out across Egypt. The Aten is never shown as a person or animal, only as a disc whose rays end in small hands holding the ankh, and those hands reach only the royal family - the king was the sole intermediary, which made the theology and the politics the same move. The Great Hymn to the Aten is a genuinely remarkable poem about a god who makes the chick speak in the egg and gives every land its own Nile in the sky. After Akhenaten's death everything was reversed and his city abandoned.",
+   "variantTraditions": "Whether Atenism was true monotheism or the elevation of one god above others is debated, as is the frequently drawn comparison between the Great Hymn and Psalm 104.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sun",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "min",
+   "name": "Min",
+   "sanskrit": "mnw",
+   "category": "deity",
+   "era": "Creation",
+   "role": "God of fertility, the eastern desert and virility",
+   "wikipedia": "Min",
+   "portrait": "portraits/egyptian/min.webp",
+   "epithets": [
+    "Bull of His Mother",
+    "Lord of the Eastern Desert",
+    "Chief of Heaven"
+   ],
+   "domains": [
+    "male fertility",
+    "the harvest",
+    "desert roads and mining expeditions"
+   ],
+   "symbols": [
+    "the raised flail",
+    "the two plumes",
+    "the lettuce",
+    "the ithyphallic form"
+   ],
+   "mount": null,
+   "abode": "Coptos and Akhmim",
+   "festivals": [
+    "The Festival of the Coming Forth of Min, at the start of the harvest"
+   ],
+   "worship": "",
+   "bio": "Ancient fertility god shown ithyphallic, patron of the eastern desert routes and of the harvest.",
+   "longBio": "Min is among the oldest attested Egyptian gods, appearing on Predynastic objects, and he is depicted with unvarying directness: mummiform, one arm raised holding a flail, erect. His domain is generative force, and the tall romaine lettuce sacred to him was eaten as an aphrodisiac because of the milky sap it exudes. His cities, Coptos and Akhmim, sat at the head of the desert roads to the Red Sea, so he also became the protector of mining and quarrying expeditions into the eastern desert. His great festival came at the start of the harvest: the king cut the first sheaf of emmer in his presence, tying the god's fertility directly to the year's grain and to the king's own potency. He is frequently fused with Amun as Amun-Min.",
+   "variantTraditions": "Greek writers identified him with Pan, and Akhmim was called Panopolis; Min is also merged with Horus in some contexts as Min-Horus.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "love-desire",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "neith",
+   "name": "Neith",
+   "sanskrit": "njt",
+   "category": "deity",
+   "era": "Creation",
+   "role": "Goddess of weaving, war and the primeval waters",
+   "wikipedia": "Neith",
+   "portrait": "portraits/egyptian/neith.webp",
+   "epithets": [
+    "Opener of the Ways",
+    "Mistress of the Bow",
+    "She Who Came First"
+   ],
+   "domains": [
+    "weaving",
+    "war and the hunt",
+    "creation",
+    "the protection of the dead"
+   ],
+   "symbols": [
+    "crossed arrows on a shield",
+    "the red crown",
+    "the weaver's shuttle"
+   ],
+   "mount": null,
+   "abode": "Sais in the Delta",
+   "festivals": [],
+   "worship": "Sais was her city, and the Twenty-Sixth Dynasty made it the capital, raising her cult to national prominence.",
+   "bio": "One of the oldest goddesses: weaver, warrior, and in some accounts the creator of the world.",
+   "longBio": "Neith is attested from the First Dynasty and combines domains that later gods divide: she weaves, which in Egyptian thought is close to creating, and she is a warrior with bow and arrows. At Sais her theology made her the primeval creator who emerged from Nun and brought the world into being, weaving it as she wove linen, and who created Ra as her son - a claim as absolute as anything at Heliopolis or Memphis. She arbitrates in the Contendings of Horus and Set, sending a letter to the tribunal proposing that the throne go to Horus and Set be compensated with two foreign goddesses. As one of the four protective goddesses she guards the canopic jars with Isis, Nephthys and Serqet, and the mummy wrappings themselves fall under her as goddess of weaving.",
+   "variantTraditions": "The Greeks identified Neith with Athena, and Plato's Timaeus has the Atlantis story reported by priests at Sais, her city.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "war",
+    "wisdom-craft",
+    "creator",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "seshat",
+   "name": "Seshat",
+   "sanskrit": "sšꜣt",
+   "category": "deity",
+   "era": "Creation",
+   "role": "Goddess of writing, measurement and records",
+   "wikipedia": "Seshat",
+   "portrait": "portraits/egyptian/seshat.webp",
+   "epithets": [
+    "She Who Scrivens",
+    "Mistress of the House of Books",
+    "Lady of Builders"
+   ],
+   "domains": [
+    "record-keeping",
+    "the measuring of buildings",
+    "the counting of years",
+    "libraries"
+   ],
+   "symbols": [
+    "the seven-pointed emblem above her head",
+    "the palm rib notched for years",
+    "a leopard-skin robe"
+   ],
+   "mount": null,
+   "abode": "The House of Life, and the foundation of every temple",
+   "festivals": [],
+   "worship": "",
+   "bio": "Female counterpart of Thoth, who measures out temple foundations and records the years of a reign.",
+   "longBio": "Seshat performs the stretching of the cord, the ritual in which the king and the goddess mark out the ground plan of a new temple with pegs and a measuring line aligned to the stars - the moment a building becomes possible - and she appears in that scene from the earliest dynasties onward. She also writes the king's name on the leaves of the ished tree and notches a palm rib to record the years granted to his reign, and she keeps the inventory of foreign booty. Her emblem is a seven-pointed star or rosette beneath a bow shape whose meaning has never been established. She is variously called the daughter, sister or consort of Thoth, and where he is the inventor of writing she is the keeper of what is written.",
+   "variantTraditions": "The reading of her headdress emblem is unsolved; suggestions range from a papyrus plant to a star to a stylised bow, and none is secure.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "khnum",
+   "name": "Khnum",
+   "sanskrit": "ẖnmw",
+   "category": "deity",
+   "era": "Creation",
+   "role": "The potter who shapes bodies on his wheel",
+   "wikipedia": "Khnum",
+   "portrait": "portraits/egyptian/khnum.webp",
+   "epithets": [
+    "Lord of the Cataract",
+    "The Divine Potter",
+    "Maker of Bodies"
+   ],
+   "domains": [
+    "the source of the inundation",
+    "the shaping of bodies and the ka",
+    "pottery"
+   ],
+   "symbols": [
+    "the ram's head with wavy horns",
+    "the potter's wheel",
+    "the water jar"
+   ],
+   "mount": null,
+   "abode": "Elephantine, at the first cataract",
+   "festivals": [],
+   "worship": "Elephantine and Esna were his centres, with a triad of Khnum, Satis and Anuket governing the cataract region.",
+   "bio": "Ram-headed god who moulds each child and its ka on a potter's wheel before birth.",
+   "longBio": "Khnum guards the cataract at Aswan where the Nile was believed to enter Egypt, and the annual inundation was thought to issue from caverns under his control - a position of extraordinary practical importance, since the flood decided whether the country ate. His other role is intimate rather than national: he forms each human being on a potter's wheel out of Nile clay, shaping the body and the ka together and placing them in the mother's womb, which appears in temple birth scenes where he moulds the infant king and the royal ka side by side. The Famine Stela on Sehel Island records a seven-year famine ended when Djoser restored Khnum's temple, a text carved in the Ptolemaic period but claiming Old Kingdom authority.",
+   "variantTraditions": "The Famine Stela is a Ptolemaic composition asserting an ancient land grant to the priesthood, not a contemporary Third Dynasty record.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "creator",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "wadjet",
+   "name": "Wadjet",
+   "sanskrit": "wꜣḏyt",
+   "category": "protector",
+   "era": "Creation",
+   "role": "Cobra goddess of Lower Egypt",
+   "wikipedia": "Wadjet",
+   "portrait": "portraits/egyptian/wadjet.webp",
+   "epithets": [
+    "The Green One",
+    "Lady of Flame",
+    "Eye of Ra"
+   ],
+   "domains": [
+    "the protection of the king",
+    "Lower Egypt",
+    "the uraeus that spits fire at enemies"
+   ],
+   "symbols": [
+    "the rearing cobra",
+    "the red crown",
+    "the papyrus stem"
+   ],
+   "mount": null,
+   "abode": "Buto in the Delta",
+   "festivals": [],
+   "worship": "",
+   "bio": "The cobra who rears on the king's brow, patron of Lower Egypt and half of the Two Ladies.",
+   "longBio": "Wadjet is the uraeus, the rearing cobra worn at the front of the royal headdress, and her function is direct: she spits fire at whoever approaches the king with harm in mind. As patron of Lower Egypt she pairs with Nekhbet the vulture of Upper Egypt to form the Two Ladies, one of the five great titles of every pharaoh and the clearest statement of the unified kingdom in the royal titulary. She is counted among the forms of the Eye of Ra, which is what gives her the fire. In the Osiris story she is one of those who shelter Isis and the infant Horus in the marshes of Chemmis. Her name means the green one, from the papyrus that grew across her Delta homeland.",
+   "variantTraditions": "The wedjat eye of Horus and the goddess Wadjet are etymologically related and often conflated in amulet contexts, though they are distinct.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "war"
+   ]
+  },
+  {
+   "id": "nekhbet",
+   "name": "Nekhbet",
+   "sanskrit": "nḫbt",
+   "category": "protector",
+   "era": "Creation",
+   "role": "Vulture goddess of Upper Egypt",
+   "wikipedia": "Nekhbet",
+   "portrait": "portraits/egyptian/nekhbet.webp",
+   "epithets": [
+    "The White One of Nekhen",
+    "Mother of Mothers",
+    "She of the Wide Wings"
+   ],
+   "domains": [
+    "the protection of the king",
+    "Upper Egypt",
+    "childbirth and nursing"
+   ],
+   "symbols": [
+    "the white vulture",
+    "the white crown",
+    "the shen ring in her talons"
+   ],
+   "mount": null,
+   "abode": "Nekheb, modern El Kab",
+   "festivals": [],
+   "worship": "",
+   "bio": "The vulture of Upper Egypt, who with Wadjet forms the Two Ladies of the royal titulary.",
+   "longBio": "Nekhbet spreads her wings above the king in protection, often shown hovering over the throne clutching the shen ring of eternity. As patron of Upper Egypt she is the southern half of the Two Ladies, and the vulture and cobra heads appear side by side on the royal brow when both kingdoms are meant. Her association with vultures gave her a maternal character rather than a grim one, since Egyptians observed the bird's attentive care of its young, and she is called mother of mothers and shown as a nurse to the king. The vulture headdress worn by queens is hers. Her city Nekheb sits opposite Nekhen, Hierakonpolis, one of the oldest centres of kingship in Egypt, which explains her closeness to the throne.",
+   "variantTraditions": "The Greeks identified her with Eileithyia, the goddess of childbirth, and called her city Eileithyiaspolis.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "earth-mother",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "serqet",
+   "name": "Serqet",
+   "sanskrit": "srqt",
+   "category": "protector",
+   "era": "Osirian",
+   "role": "Scorpion goddess of venom and breathing",
+   "wikipedia": "Serket",
+   "portrait": "portraits/egyptian/serqet.webp",
+   "epithets": [
+    "She Who Causes the Throat to Breathe",
+    "Lady of the Beautiful Tent"
+   ],
+   "domains": [
+    "scorpion and snake venom",
+    "healing from stings",
+    "the protection of the dead"
+   ],
+   "symbols": [
+    "the scorpion on her head",
+    "outstretched protective arms"
+   ],
+   "mount": null,
+   "abode": "Beside the canopic chest",
+   "festivals": [],
+   "worship": "",
+   "bio": "Goddess of venomous stings, who both causes and cures them, and one of the four canopic guardians.",
+   "longBio": "Serqet's name means she who causes the throat to breathe, which reads either as a description of what she does for the healed or of the constriction she inflicts, and Egyptian religion is comfortable with both meanings at once: the power over venom is the power to withhold it. Her priests were practising physicians and magicians who treated scorpion stings, a serious hazard in a country where scorpions are common. She is one of the four goddesses - with Isis, Nephthys and Neith - who guard the canopic jars and the corners of the sarcophagus, and she watches over Qebehsenuef. She also appears among the goddesses who protect Isis and the infant Horus in the marshes, sending seven scorpions to accompany them.",
+   "variantTraditions": "Her scorpion is usually shown without its sting and claws, apparently to render the image safe to have nearby.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "healer",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "hapi",
+   "name": "Hapi",
+   "sanskrit": "ḥꜥpj",
+   "category": "deity",
+   "era": "Creation",
+   "role": "God of the inundation",
+   "wikipedia": "Hapi",
+   "portrait": "portraits/egyptian/hapi.webp",
+   "epithets": [
+    "Lord of the River",
+    "Father of the Gods",
+    "Bringer of Abundance"
+   ],
+   "domains": [
+    "the annual flood",
+    "abundance",
+    "the fertility of the black land"
+   ],
+   "symbols": [
+    "a heavy blue-green body with pendulous breasts",
+    "papyrus and lotus",
+    "laden offering tables"
+   ],
+   "mount": null,
+   "abode": "The caverns at the cataract from which the flood was believed to issue",
+   "festivals": [],
+   "worship": "",
+   "bio": "The inundation personified: a well-fed figure with heavy breasts and a swollen belly, bringing abundance.",
+   "longBio": "Hapi is not the Nile itself but the flood - the annual rise that laid new silt across the fields and decided whether Egypt would eat. He is shown as a man with blue or green skin, a swollen belly and heavy breasts, because he nourishes, and the androgyny is deliberate rather than accidental. In scenes of the union of the Two Lands, two Hapi figures tie the papyrus and lotus together around the sema sign, binding Upper and Lower Egypt with the river that runs through both. He had no great temple, being honoured instead at the cataract and by offerings thrown into the water as the flood began, and hymns to him survive in numbers that reflect how much depended on him. His exact source was unknown and was said to lie in caverns guarded by Khnum.",
+   "variantTraditions": "Hapi shares his name with one of the four sons of Horus, who is a different figure entirely.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sea-waters",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "wepwawet",
+   "name": "Wepwawet",
+   "sanskrit": "wp-wꜣwt",
+   "category": "chthonic",
+   "era": "Osirian",
+   "role": "Opener of the ways",
+   "wikipedia": "Wepwawet",
+   "portrait": "portraits/egyptian/wepwawet.webp",
+   "epithets": [
+    "Opener of the Ways",
+    "Lord of Abydos",
+    "He of the Standard"
+   ],
+   "domains": [
+    "the opening of roads",
+    "military advance",
+    "leading the dead into the underworld"
+   ],
+   "symbols": [
+    "the standing grey jackal or wolf",
+    "the mace and bow",
+    "the shedshed standard"
+   ],
+   "mount": null,
+   "abode": "Asyut, and Abydos",
+   "festivals": [],
+   "worship": "",
+   "bio": "A jackal god who goes ahead: before the army, before the king, and before the dead.",
+   "longBio": "Wepwawet's name is a job description - opener of the ways - and it applies at every scale. His standard was carried in front of the king in procession and at the head of the army, clearing the road. In the funerary sphere he opens the way into the underworld for the dead, and his image presides over the Opening of the Mouth ceremony that restored the mummy's senses. At Abydos he led the great procession of Osiris. He is easily confused with Anubis, being also canine, but he is usually shown standing rather than couchant and coloured grey or white rather than black, and Greek visitors called his city Lycopolis, wolf-city, because they took him for a wolf.",
+   "variantTraditions": "Whether Wepwawet is a jackal or a wolf was already unclear in antiquity; the two were sometimes treated as one god with Anubis and sometimes kept separate.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "divine-beast",
+    "death-judge",
+    "war"
+   ]
+  },
+  {
+   "id": "sokar",
+   "name": "Sokar",
+   "sanskrit": "skr",
+   "category": "chthonic",
+   "era": "Osirian",
+   "role": "Falcon god of the Memphite necropolis",
+   "wikipedia": "Sokar",
+   "portrait": "portraits/egyptian/sokar.webp",
+   "epithets": [
+    "Lord of the Mysterious Region",
+    "He of Rosetau",
+    "Ptah-Sokar-Osiris"
+   ],
+   "domains": [
+    "the necropolis",
+    "the dark hours of the underworld",
+    "craftsmanship in metal"
+   ],
+   "symbols": [
+    "the falcon head on a mummiform body",
+    "the henu barque",
+    "the Rosetau passages"
+   ],
+   "mount": null,
+   "abode": "Rosetau, the Memphite necropolis",
+   "festivals": [
+    "The Festival of Sokar, with the henu barque dragged in procession"
+   ],
+   "worship": "",
+   "bio": "Hawk-headed lord of the Memphite cemetery and of the deepest hours of the night journey.",
+   "longBio": "Sokar governs the necropolis at Saqqara, which takes its name from him, and the region called Rosetau, understood as the entrance to the underworld passages. In the Book of the Underworld he presides over the fourth and fifth hours of the night, the darkest and most difficult stretch of the sun's journey, a sandy region the barque must be dragged through rather than sailed. He is a god of the dead but also, through his Memphite association with Ptah, a patron of metalworking. Fused into the composite Ptah-Sokar-Osiris, he appears in enormous numbers of small painted wooden statues placed in tombs of the Late Period. His festival involved dragging his henu barque, a boat mounted on a sledge, around the walls.",
+   "variantTraditions": "The three-part fusion Ptah-Sokar-Osiris merges creator, necropolis and resurrection into one funerary figure and is late; the three were originally distinct.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "nefertum",
+   "name": "Nefertum",
+   "sanskrit": "nfr-tm",
+   "category": "deity",
+   "era": "Creation",
+   "role": "The lotus at the sun's first rising",
+   "wikipedia": "Nefertem",
+   "portrait": "portraits/egyptian/nefertum.webp",
+   "epithets": [
+    "Lord of Perfume",
+    "The Lotus at the Nose of Ra",
+    "Protector of the Two Lands"
+   ],
+   "domains": [
+    "perfume and scent",
+    "the blue lotus",
+    "beauty",
+    "healing"
+   ],
+   "symbols": [
+    "the blue lotus headdress",
+    "twin plumes",
+    "the menat"
+   ],
+   "mount": null,
+   "abode": "Memphis, with Ptah and Sekhmet",
+   "festivals": [],
+   "worship": "",
+   "bio": "The blue lotus from which the sun first rose, and god of perfume.",
+   "longBio": "One creation account has the newborn sun rise from a blue lotus floating on the primeval waters, and Nefertum is that lotus. He completes the Memphite triad as the son of Ptah and Sekhmet, and is shown as a youth with a lotus blossom on his head, often flanked by two tall plumes. Because the blue lotus is intensely fragrant and opens at dawn to close at dusk, he is also the god of perfume and of the scented unguents Egyptians used heavily, and one text calls him the lotus at the nose of Ra - the flower the sun god holds to breathe. His character is gentle and his mother's is not, which is a pairing the Memphite theology seems to have found productive rather than contradictory.",
+   "variantTraditions": "In some accounts his mother is Bastet or Wadjet rather than Sekhmet, following whichever local goddess was Ptah's consort.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "love-desire",
+    "healer",
+    "sun"
+   ]
+  },
+  {
+   "id": "heqet",
+   "name": "Heqet",
+   "sanskrit": "ḥqt",
+   "category": "protector",
+   "era": "Creation",
+   "role": "Frog goddess of birth",
+   "wikipedia": "Heqet",
+   "portrait": "portraits/egyptian/heqet.webp",
+   "epithets": [
+    "She Who Hastens the Birth",
+    "Lady of the Birth Bricks"
+   ],
+   "domains": [
+    "childbirth",
+    "the final stages of labour",
+    "the quickening of life"
+   ],
+   "symbols": [
+    "the frog",
+    "the frog-headed woman",
+    "the birth brick"
+   ],
+   "mount": null,
+   "abode": "Qus and Antinoopolis",
+   "festivals": [],
+   "worship": "",
+   "bio": "Frog-headed midwife of the gods, who breathes life into the body Khnum has shaped.",
+   "longBio": "Egyptians watched the Nile fill with frogs as the inundation receded and read the animal as a sign of abundant new life, so the goddess of the last stage of birth is a frog. Heqet works alongside Khnum: he moulds the child on his wheel, and she gives it life and hastens the delivery. In the Westcar Papyrus she and a group of goddesses disguise themselves as travelling musicians to attend the birth of three future kings, which is one of the very few Egyptian narratives to show a birth in domestic detail. Amulets and wands carrying her image were used by women in labour, and her name appears on ivory knives meant to cut a protective circle around the birthing bed.",
+   "variantTraditions": "The much later Coptic association of the frog with resurrection may or may not descend from Heqet; the connection is asserted more often than demonstrated.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "healer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "meskhenet",
+   "name": "Meskhenet",
+   "sanskrit": "msḫnt",
+   "category": "protector",
+   "era": "Creation",
+   "role": "Goddess of the birthing brick and of destiny",
+   "wikipedia": "Meskhenet",
+   "portrait": "portraits/egyptian/meskhenet.webp",
+   "epithets": [
+    "She of the Birth Brick",
+    "Who Speaks the Fate"
+   ],
+   "domains": [
+    "childbirth",
+    "the fate declared at birth",
+    "the ka"
+   ],
+   "symbols": [
+    "the birth brick with a human head",
+    "a headdress of two curled cow's uterus symbols"
+   ],
+   "mount": null,
+   "abode": "At the birthing bricks, and at the judgment",
+   "festivals": [],
+   "worship": "",
+   "bio": "The brick Egyptian women squatted on to give birth, personified, who speaks each child's destiny.",
+   "longBio": "Egyptian women gave birth crouched on a pair of mud bricks, and Meskhenet is that brick made a goddess, shown either as a brick with a woman's head or as a woman wearing a curious two-pronged emblem. Her role goes beyond assisting: she declares the child's fate at the moment of birth, so that the shape of a life is spoken over it at the beginning. In the Westcar Papyrus she attends the births of the three kings and announces the kingship of each as it is born. She reappears at the other end of life, standing near the scales at the judgment, where she can testify to what the person was allotted - a neat closing of the circle, since the goddess who spoke the destiny is present when it is assessed.",
+   "variantTraditions": "Meskhenet is sometimes multiplied into four goddesses, one for each of the bricks or for each stage of the birth.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "fate-time",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "renenutet",
+   "name": "Renenutet",
+   "sanskrit": "rnnwtt",
+   "category": "protector",
+   "era": "Creation",
+   "role": "Cobra goddess of the harvest and of nursing",
+   "wikipedia": "Renenutet",
+   "portrait": "portraits/egyptian/renenutet.webp",
+   "epithets": [
+    "Lady of Fertile Fields",
+    "Nourishing Snake",
+    "She Who Gives the Name"
+   ],
+   "domains": [
+    "the harvest",
+    "the granary",
+    "nursing infants",
+    "the naming of a child"
+   ],
+   "symbols": [
+    "the rearing cobra",
+    "the cobra-headed woman nursing a child"
+   ],
+   "mount": null,
+   "abode": "The threshing floor and the granary",
+   "festivals": [
+    "A harvest festival at the threshing floor, giving her name to the month Pharmuthi"
+   ],
+   "worship": "",
+   "bio": "The cobra of the harvest, who guards the granary and nurses the newborn.",
+   "longBio": "Snakes gathered in Egyptian granaries and threshing floors hunting rodents, and Renenutet is that observed fact turned into the goddess who protects the stored grain. Her festival fell at harvest, when offerings were made at the threshing floor, and her image guarded granaries and wine presses. Her second domain follows from the first: she nourishes, and so she suckles infants and is present at the giving of a name, which in Egyptian thought is part of what makes a person real. She is sometimes given as the mother of Nehebkau, and in a funerary context she can appear as the linen bandages that wrap the mummy. The month of Pharmuthi, and modern Coptic Parmoute, carries her name.",
+   "variantTraditions": "Her name is variously rendered Renenutet, Ernutet or Thermuthis; the Greeks identified her with Isis in her harvest aspect.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune",
+    "serpent-dragon"
+   ]
+  },
+  {
+   "id": "nehebkau",
+   "name": "Nehebkau",
+   "sanskrit": "nḥb-kꜣw",
+   "category": "chthonic",
+   "era": "Osirian",
+   "role": "Serpent who joins the ka to the body",
+   "wikipedia": "Nehebkau",
+   "portrait": "portraits/egyptian/nehebkau.webp",
+   "epithets": [
+    "He Who Harnesses the Kas",
+    "The Uniter"
+   ],
+   "domains": [
+    "the binding of the ka to the body",
+    "protection in the underworld",
+    "immunity to venom"
+   ],
+   "symbols": [
+    "a serpent with human arms and legs",
+    "two heads"
+   ],
+   "mount": null,
+   "abode": "The Duat",
+   "festivals": [],
+   "worship": "",
+   "bio": "A two-headed serpent who binds the ka to the body after death, making continued existence possible.",
+   "longBio": "Nehebkau begins as a hostile serpent of the underworld and is subdued - in one text Atum presses a fingernail to his spine - after which he becomes a servant of order rather than a threat. His name means he who harnesses or yokes the kas, and his function is precise and important: at death the ka, the vital essence, separates from the body, and Nehebkau reunites them so that the person can continue to exist. Without that joining the elaborate machinery of the tomb accomplishes nothing. He is also invoked against snakebite and scorpion venom, on the principle that the greatest serpent can restrain the lesser ones. In some texts he is a son of Renenutet, and in others he is counted among the assessors at the judgment.",
+   "variantTraditions": "His transformation from adversary to servant is not narrated so much as assumed; different texts treat him as either without reconciling them.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "serpent-dragon",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "imsety",
+   "name": "The Four Sons of Horus",
+   "sanskrit": "msw-ḥr",
+   "category": "chthonic",
+   "era": "Osirian",
+   "role": "Guardians of the organs of the dead",
+   "wikipedia": "Four sons of Horus",
+   "portrait": "portraits/egyptian/imsety.webp",
+   "epithets": [
+    "Imsety, Hapi, Duamutef and Qebehsenuef",
+    "The Children of Horus"
+   ],
+   "domains": [
+    "the protection of the viscera",
+    "the four cardinal directions"
+   ],
+   "symbols": [
+    "the four canopic jar stoppers: human, baboon, jackal and falcon"
+   ],
+   "mount": null,
+   "abode": "The canopic chest, beside the coffin",
+   "festivals": [],
+   "worship": "",
+   "bio": "Four brothers who guard the liver, lungs, stomach and intestines, each with a goddess behind him.",
+   "longBio": "When a body was embalmed the liver, lungs, stomach and intestines were removed, dried, wrapped and placed in four jars, and each organ was assigned to one of the Four Sons of Horus, each of whom was in turn protected by one of the four goddesses. Imsety, human-headed, took the liver with Isis; Hapi, baboon-headed, the lungs with Nephthys; Duamutef, jackal-headed, the stomach with Neith; Qebehsenuef, falcon-headed, the intestines with Serqet. They are also aligned with the four cardinal points, which places the dead body at the centre of an ordered space. In earlier practice all four jar stoppers were human heads; the distinctive animal heads appear from the New Kingdom onward. The heart was deliberately left in the body, since it was needed for the weighing.",
+   "variantTraditions": "The Hapi of the canopic jars is a different god from Hapi of the inundation, sharing only the name.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge"
+   ]
+  },
+  {
+   "id": "aker",
+   "name": "Aker",
+   "sanskrit": "ꜣkr",
+   "category": "chthonic",
+   "era": "Primordial",
+   "role": "The double lion of the horizon",
+   "wikipedia": "Aker",
+   "portrait": "portraits/egyptian/aker.webp",
+   "epithets": [
+    "He Who Bends",
+    "The Two Lions",
+    "Yesterday and Tomorrow"
+   ],
+   "domains": [
+    "the earth as a gateway",
+    "the horizon at both ends of the night",
+    "the guarding of the sun's passage"
+   ],
+   "symbols": [
+    "two lions or two human heads back to back",
+    "the strip of land between them"
+   ],
+   "mount": null,
+   "abode": "The eastern and western horizons at once",
+   "festivals": [],
+   "worship": "",
+   "bio": "Two lions sitting back to back, the western and eastern gates the sun passes between each night.",
+   "longBio": "Aker is the earth understood as a passage rather than a surface. He is drawn as two lions seated back to back with the sun disc between them, or as a strip of land with a head at each end, and the two heads are named yesterday and tomorrow: the sun enters at the west, travels through the body of the earth all night, and leaves at the east. That makes him a doorway with a guard at both ends. He restrains the coils of Apep in the underworld and swallows the venom of anything that bites, and spells invoke him against snakes. The image of the double lion outlasted Egyptian religion, passing into later art as the pair of guardian lions flanking a gate.",
+   "variantTraditions": "Aker is sometimes pluralised into the Akeru, a group of earth-lions, and is closely related to Ruty, the double lion identified with Shu and Tefnut.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "divine-beast",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "bata",
+   "name": "Bata and Anpu",
+   "sanskrit": "bꜣtꜣ",
+   "category": "mortal",
+   "era": "Historical",
+   "role": "The two brothers of the oldest surviving folk tale",
+   "wikipedia": "Tale of Two Brothers",
+   "portrait": "portraits/egyptian/bata.webp",
+   "epithets": [
+    "The Two Brothers"
+   ],
+   "domains": [
+    "betrayal and loyalty",
+    "transformation",
+    "the resilience of the wronged"
+   ],
+   "symbols": [
+    "the acacia tree",
+    "the bull",
+    "the persea tree"
+   ],
+   "mount": null,
+   "abode": "The Valley of the Cedar",
+   "festivals": [],
+   "worship": "",
+   "bio": "Brothers of a Nineteenth Dynasty story: falsely accused, transformed repeatedly, and finally restored to the throne.",
+   "longBio": "The Tale of Two Brothers, on Papyrus D'Orbiney, is one of the oldest folk narratives to survive anywhere. Anpu's wife propositions his younger brother Bata; refused, she accuses him of assault, and Anpu waits with a knife. Warned by his cattle, Bata flees, proves his innocence by mutilating himself, and goes to the Valley of the Cedar, where he places his heart in a blossom at the top of a tree so that his life is stored outside his body. The gods make him a wife; she betrays him to the pharaoh and has the tree cut down, and Bata dies. Anpu searches years for the heart, finds it, and revives him. Bata then becomes a bull, is slaughtered; two persea trees spring from his blood, are cut down; a splinter enters his former wife's mouth and she bears him as her own son, who grows up to become king and to judge her.",
+   "variantTraditions": "The motif of the life hidden outside the body recurs across Eurasian folklore, and the opening episode has been compared with the Genesis account of Joseph and Potiphar's wife.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "khufu",
+   "name": "Khufu",
+   "sanskrit": "ḫwfw",
+   "category": "mortal",
+   "era": "Historical",
+   "role": "The king of the Westcar Papyrus",
+   "wikipedia": "Khufu",
+   "portrait": "portraits/egyptian/khufu.webp",
+   "epithets": [
+    "Cheops",
+    "Lord of the Great Pyramid"
+   ],
+   "domains": [
+    "kingship",
+    "the hearing of wonders"
+   ],
+   "symbols": [
+    "the pyramid",
+    "the royal nemes headdress"
+   ],
+   "mount": null,
+   "abode": "Memphis",
+   "festivals": [],
+   "worship": "",
+   "bio": "Builder of the Great Pyramid, who in the Westcar Papyrus listens to his sons tell tales of magicians.",
+   "longBio": "Khufu is a historical Fourth Dynasty king, and almost nothing survives of him personally except the largest building of the ancient world and one tiny ivory statuette. What survives instead is a literary Khufu. The Westcar Papyrus frames a set of stories as entertainments told to a bored king by his sons: a wax crocodile that becomes a real one and takes an adulterer, a jewel retrieved from a lake by folding the water back, and the magician Djedi who can reattach a severed head and who prophesies that three kings not of Khufu's line will be born to the wife of a priest of Ra. Herodotus, writing two thousand years later, reports an Egyptian tradition that Khufu was a tyrant who closed the temples and forced the whole country to labour, a reputation that has no support in Egyptian sources.",
+   "variantTraditions": "Herodotus' hostile portrait is very late and probably reflects Late Period resentment of the pyramid age rather than any Old Kingdom memory.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "djedi",
+   "name": "Djedi",
+   "sanskrit": "ḏdj",
+   "category": "mortal",
+   "era": "Historical",
+   "role": "The magician of the Westcar Papyrus",
+   "wikipedia": "Djedi",
+   "portrait": "portraits/egyptian/djedi.webp",
+   "epithets": [
+    "The Magician of Djed-Snefru"
+   ],
+   "domains": [
+    "magic",
+    "prophecy",
+    "improbable longevity"
+   ],
+   "symbols": [
+    "the severed and restored head",
+    "the goose"
+   ],
+   "mount": null,
+   "abode": "Djed-Snefru",
+   "festivals": [],
+   "worship": "",
+   "bio": "A magician of a hundred and ten who reattaches severed heads and foretells the end of Khufu's line.",
+   "longBio": "Djedi is the last and most impressive of the magicians in the Westcar Papyrus, said to be a hundred and ten years old - the Egyptian ideal lifespan - and still eating five hundred loaves and drinking a hundred jugs of beer a day. Brought before Khufu, he is asked to demonstrate his reputed ability to reattach a severed head. A prisoner is offered; Djedi refuses flatly, saying it may not be done to a human being, and performs it instead on a goose, a waterbird and an ox. That refusal is the moral centre of the story and unusually explicit for Egyptian literature. He then delivers the prophecy Khufu actually wants: the secret chambers of Thoth will come to the eldest of three children about to be born to the wife of a priest of Ra, who will become kings after him.",
+   "variantTraditions": "The papyrus breaks off before the prophecy is fulfilled; the three children are presented as the first kings of the Fifth Dynasty.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "sinuhe",
+   "name": "Sinuhe",
+   "sanskrit": "sꜣ-nht",
+   "category": "mortal",
+   "era": "Historical",
+   "role": "The exile who came home",
+   "wikipedia": "Story of Sinuhe",
+   "portrait": "portraits/egyptian/sinuhe.webp",
+   "epithets": [
+    "The Son of the Sycamore"
+   ],
+   "domains": [
+    "exile",
+    "homesickness",
+    "the longing for proper burial"
+   ],
+   "symbols": [
+    "the flight into the desert",
+    "the bow of the challenger"
+   ],
+   "mount": null,
+   "abode": "Retjenu in the Levant, then Egypt",
+   "festivals": [],
+   "worship": "",
+   "bio": "A court official who flees Egypt on the king's death, prospers abroad, and returns to be buried at home.",
+   "longBio": "The Story of Sinuhe is the most admired work of Egyptian literature and the one most often called a novel before novels. Overhearing news of Amenemhat I's assassination, Sinuhe panics for reasons the text never fully explains and flees, nearly dying of thirst before Bedouin rescue him. In Retjenu he marries a chief's daughter, becomes wealthy and powerful, and kills a champion who challenges him in single combat. Yet he cannot settle, because to die abroad is to be buried wrong, and the fear that grips him is not of death but of a foreign grave. Senusret I writes offering him return, and the reunion scene at court, where the royal children fail to recognise the sunburnt old man, is one of the finest things to survive from the ancient world. He is given a tomb, and the story ends with his shedding of the desert and reception of proper burial.",
+   "variantTraditions": "The historicity of Sinuhe is doubtful and largely beside the point; the text was copied for centuries as a model of fine writing.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion"
+   ]
   }
  ],
  "links": []
