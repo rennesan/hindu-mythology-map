@@ -1,0 +1,579 @@
+{
+ "title": "Norse Mythology: Figures, Relationships and Story Cycles",
+ "description": "The Old Norse pantheon mapped as a relationship graph: the giants and the making of the world from Ymir's body, the Aesir and the Vanir, the nine worlds on Yggdrasil, and the fixed road to Ragnarok.",
+ "generated": "2026-08-20",
+ "sources": [
+  "The Poetic Edda, translated by Henry Adams Bellows (1936)",
+  "Snorri Sturluson, The Prose Edda, translated by Arthur Gilchrist Brodeur (1916)",
+  "Snorri Sturluson, Heimskringla, translated by Samuel Laing (1844)",
+  "The Volsunga Saga, translated by Eirikr Magnusson and William Morris (1888)",
+  "Saxo Grammaticus, The Danish History, translated by Oliver Elton (1894)",
+  "Encyclopaedia Britannica and Wikipedia for cross-checking manuscript attestation"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/norse/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "poetic": {
+   "t": "The Poetic Edda",
+   "tr": "Henry Adams Bellows, 1936",
+   "u": "https://sacred-texts.com/neu/poe/index.htm"
+  },
+  "prose": {
+   "t": "The Prose Edda",
+   "tr": "Arthur Gilchrist Brodeur, 1916",
+   "u": "https://sacred-texts.com/neu/pre/index.htm"
+  },
+  "heims": {
+   "t": "Heimskringla",
+   "tr": "Samuel Laing, 1844",
+   "u": "https://sacred-texts.com/neu/heim/index.htm"
+  },
+  "volsunga": {
+   "t": "The Volsunga Saga",
+   "tr": "Eirikr Magnusson and William Morris, 1888",
+   "u": "https://sacred-texts.com/neu/vlsng/index.htm"
+  },
+  "saxo": {
+   "t": "Saxo Grammaticus, The Danish History",
+   "tr": "Oliver Elton, 1894",
+   "u": "https://sacred-texts.com/neu/saxo/index.htm"
+  },
+  "thorpe": {
+   "t": "Northern Mythology",
+   "tr": "Benjamin Thorpe, 1851",
+   "u": "https://archive.org/details/northernmytholog01thor"
+  }
+ },
+ "meta": {
+  "id": "norse",
+  "label": "Norse",
+  "sublabel": "Old Norse & Germanic",
+  "accent": "#8fa8b8",
+  "root": "ymir"
+ },
+ "profile": {
+  "cosmicNature": "Linear, with a known ending. The world is built from the body of a murdered giant, runs its course, and is destroyed at Ragnarok in a battle whose participants and outcome are already fixed. A new green earth rises afterwards and a few survivors return, but the tradition puts almost all its weight on the ending rather than the renewal.",
+  "natureOfDivinity": "Mortal. The Aesir are stronger and longer-lived than men but they can be killed, they need Idunn's apples to stay young, and they know in detail how and by whom each of them will die. They are not creators of the moral order and are not omniscient; Odin spends the whole tradition trying to buy information he does not have, at increasing cost.",
+  "afterlife": "Divided by how you die rather than how you lived. Half the battle-slain go to Odin's Valhalla and half to Freyja's Folkvangr; the drowned go to Ran's hall under the sea; everyone else goes to Hel, which is not a punishment, merely dim. There is no judgment and no weighing - a bad man and a good man who die in bed arrive at the same place.",
+  "systemMechanism": "Fate outranks the gods. The Norns carve what will happen at the roots of the world tree, and neither Odin's knowledge nor Thor's strength alters it; Odin gathers warriors for a battle he knows he loses. What the tradition values is not escape but conduct - knowing the ending and going to meet it anyway, which is the nearest thing Norse religion has to a doctrine.",
+  "canonTexts": "The Poetic Edda, an anonymous collection of older verse; Snorri Sturluson's Prose Edda of about 1220; Heimskringla; the legendary and family sagas, above all the Volsunga Saga; and Saxo Grammaticus' Latin Gesta Danorum."
+ },
+ "hierarchy": [],
+ "groups": [],
+ "stories": [],
+ "entities": [
+  {
+   "id": "ymir",
+   "name": "Ymir",
+   "sanskrit": "Ymir",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The first giant, from whose body the world was made",
+   "wikipedia": "Ymir",
+   "portrait": "portraits/norse/ymir.webp",
+   "epithets": [
+    "Aurgelmir",
+    "The Roaring One",
+    "Forefather of the Giants"
+   ],
+   "domains": [
+    "the primordial body",
+    "the raw material of the world"
+   ],
+   "symbols": [
+    "the rime",
+    "the severed body",
+    "the skull as sky"
+   ],
+   "mount": null,
+   "abode": "Ginnungagap, before there was anywhere else",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first living thing, formed from meeting rime and fire, and killed by Odin and his brothers to build the world.",
+   "longBio": "In the beginning there is Ginnungagap, the yawning gap, with the ice of Niflheim to the north and the fire of Muspelheim to the south. Where they meet the rime drips and quickens into Ymir, who sleeps and sweats, and from his left armpit a man and woman grow while his legs beget a son on each other - the frost-giants descend from him. He is fed by the cow Audhumla, who licks a salted rime-block until Buri emerges from it. Buri's grandsons Odin, Vili and Ve kill Ymir, and so much blood pours out that all the frost-giants drown but two. The three make the world from the corpse: earth from his flesh, mountains from his bones, sea from his blood, the sky from his skull held up by four dwarfs, and clouds from his brains.",
+   "variantTraditions": "Snorri gives the fullest account and reconciles verse sources that disagree; the Poetic Edda's Vafthrudnismal calls the first being Aurgelmir, and whether that is another name for Ymir is Snorri's inference.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "primordial-adversary",
+    "creator"
+   ]
+  },
+  {
+   "id": "audhumla",
+   "name": "Audhumla",
+   "sanskrit": "Audhumla",
+   "category": "beast",
+   "era": "Primordial",
+   "role": "The primeval cow",
+   "wikipedia": "Auðumbla",
+   "portrait": "portraits/norse/audhumla.webp",
+   "epithets": [
+    "The Nourisher",
+    "The Hornless One"
+   ],
+   "domains": [
+    "nourishment before there was anything to eat",
+    "the licking free of the first god"
+   ],
+   "symbols": [
+    "four rivers of milk",
+    "the salt rime-block"
+   ],
+   "mount": null,
+   "abode": "Ginnungagap",
+   "festivals": [],
+   "worship": "",
+   "bio": "The cow who fed Ymir with four rivers of milk and licked Buri out of the salty ice.",
+   "longBio": "Audhumla comes into being from the melting rime at the same moment as Ymir, and the arrangement is simple and strange: four rivers of milk run from her udders and Ymir drinks, and she herself feeds by licking salty rime-blocks. Over three days her licking uncovers a man in the ice - first his hair, then his head, then all of him. This is Buri, the first of the gods, whose son Bor fathers Odin, Vili and Ve on the giantess Bestla. So the entire divine line is licked out of ice by a cow, and the entire giant line is fed by her milk, which makes Audhumla the common origin of both sides of the war that runs through the whole mythology. She then disappears from the record entirely.",
+   "variantTraditions": "Audhumla appears only in Snorri; no surviving eddic poem mentions her, so she may be his own material or from a source now lost.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "earth-mother",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "odin",
+   "name": "Odin",
+   "sanskrit": "Odinn",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "All-father; god of poetry, war, wisdom and the dead",
+   "wikipedia": "Odin",
+   "portrait": "portraits/norse/odin.webp",
+   "epithets": [
+    "All-father",
+    "Grimnir, the Masked One",
+    "Wanderer",
+    "Gallows-God",
+    "Raven-God"
+   ],
+   "domains": [
+    "wisdom bought at a price",
+    "poetry",
+    "war and its choosing",
+    "runes",
+    "the slain"
+   ],
+   "symbols": [
+    "the spear Gungnir",
+    "the ravens Huginn and Muninn",
+    "the wolves Geri and Freki",
+    "the one eye",
+    "the wide hat"
+   ],
+   "mount": null,
+   "abode": "Valaskjalf, and Valhalla in Asgard",
+   "festivals": [
+    "Yule, associated with the Wild Hunt"
+   ],
+   "worship": "Worshipped chiefly by kings, poets and warriors rather than farmers, with a grim reputation: sacrifices to him included hanging, and Adam of Bremen describes the nine-yearly offerings at Uppsala.",
+   "bio": "One-eyed seeker who trades an eye and hangs himself to buy knowledge, and gathers the slain for a battle he knows he loses.",
+   "longBio": "Odin is not a comfortable king. What defines him is appetite for knowledge and willingness to pay: he gives an eye to Mimir for a drink from the well beneath the world tree, and hangs himself on that tree, pierced by his own spear, nine nights, given to himself, to seize the runes. He steals the mead of poetry from the giants by seduction and deceit. He goes disguised through the world under dozens of names, testing men and losing riddle contests on purpose to learn what his opponent knows. His ravens Huginn and Muninn, thought and memory, fly out daily and report. He gathers half the battle-slain to Valhalla to fight beside him at Ragnarok, where Fenrir will swallow him - and he knows this, in detail, and does it anyway. He is also a repeated oath-breaker, which the sources state without apology.",
+   "variantTraditions": "Snorri's euhemerising Heimskringla makes Odin a human king from Asia who was later mistaken for a god - a Christian rationalisation, not a Norse belief. Saxo is likewise hostile to him.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sky-thunder",
+    "wisdom-craft",
+    "death-judge",
+    "king-ruler",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "thor",
+   "name": "Thor",
+   "sanskrit": "Thorr",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "God of thunder and defender of the world",
+   "wikipedia": "Thor",
+   "portrait": "portraits/norse/thor.webp",
+   "epithets": [
+    "Son of Earth",
+    "Ving-Thor",
+    "Slayer of Giants",
+    "Protector of Mankind"
+   ],
+   "domains": [
+    "thunder and lightning",
+    "strength",
+    "the defence of gods and men against giants",
+    "hallowing"
+   ],
+   "symbols": [
+    "the hammer Mjollnir",
+    "the iron gauntlets",
+    "the belt of strength",
+    "the goat-drawn chariot"
+   ],
+   "mount": null,
+   "abode": "Bilskirnir in Thrudheim",
+   "festivals": [
+    "Midwinter blot; Thursday carries his name"
+   ],
+   "worship": "The most broadly worshipped god of the Viking age. Hammer amulets were worn in enormous numbers, and Icelandic settlers named more places and children after him than after any other god.",
+   "bio": "Red-bearded thunder god whose hammer keeps the giants out; the most widely worshipped of the Norse gods.",
+   "longBio": "Thor is the god ordinary people actually prayed to. Where Odin's constituency is kings and poets, Thor's is farmers and sailors, and hammer amulets outnumber every other identifiable religious object from the Viking age. His function is defence: he keeps the giants from overrunning the world, and he does it by direct application of force. His hammer Mjollnir always returns when thrown, and it hallows as well as kills - it is raised over a bride at weddings and over the newborn. His adventures are physical and often comic: fishing for the world serpent with an ox head, wrestling an old woman who turns out to be old age, having his hammer stolen and being obliged to dress as a bride to recover it, a story the tradition finds hilarious rather than shameful. At Ragnarok he kills Jormungandr and walks nine paces before the venom drops him.",
+   "variantTraditions": "Thor's chariot is drawn by two goats he can slaughter and revive, provided the bones are unbroken; a farm boy who splits one for marrow becomes his servant.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "war",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "frigg",
+   "name": "Frigg",
+   "sanskrit": "Frigg",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "Queen of the Aesir; she who knows all fates and says nothing",
+   "wikipedia": "Frigg",
+   "portrait": "portraits/norse/frigg.webp",
+   "epithets": [
+    "Queen of Asgard",
+    "Lady of Fensalir",
+    "Mother of Baldr"
+   ],
+   "domains": [
+    "marriage",
+    "motherhood",
+    "foreknowledge",
+    "the household"
+   ],
+   "symbols": [
+    "the distaff",
+    "the spindle",
+    "keys",
+    "falcon plumage"
+   ],
+   "mount": null,
+   "abode": "Fensalir",
+   "festivals": [],
+   "worship": "",
+   "bio": "Odin's wife, who knows every fate but never speaks it, and whose attempt to save her son fails on one detail.",
+   "longBio": "Frigg is said to know all fates though she tells no one, which puts her in an unusual position: she is the only figure in the tradition who has Odin's knowledge without his hunger for it. She sits at Fensalir and spins. Her great act is the attempt to save Baldr: warned by his dreams, she travels the whole world exacting an oath from every thing - fire, water, iron, stone, beasts, birds, sickness, poison - that it will not harm him, and she succeeds completely except for one young mistletoe west of Valhalla that she judges too small to bother with. Loki learns this by wheedling it out of her in disguise, and that single omission kills her son. Afterwards she asks who will ride to Hel to ransom him. She and Odin also appear wagering over the fates of two mortal kings, each cheating to win.",
+   "variantTraditions": "Frigg and Freyja overlap enough - both associated with love, both with falcon-feathers - that they may descend from one earlier goddess; Old High German sources and the Friday naming complicate the picture further.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "fate-time",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "loki",
+   "name": "Loki",
+   "sanskrit": "Loki",
+   "category": "jotun",
+   "era": "Age of the Aesir",
+   "role": "The trickster; blood-brother of Odin and enemy of the gods",
+   "wikipedia": "Loki",
+   "portrait": "portraits/norse/loki.webp",
+   "epithets": [
+    "Sky-Traveller",
+    "Father of Lies",
+    "The Shape-Changer",
+    "Blood-brother of Odin"
+   ],
+   "domains": [
+    "cunning",
+    "shape-shifting",
+    "the causing and solving of trouble",
+    "betrayal"
+   ],
+   "symbols": [
+    "the salmon",
+    "the mare",
+    "the falcon cloak",
+    "the bound serpent's venom"
+   ],
+   "mount": null,
+   "abode": "Asgard, until he is bound beneath the earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "A giant who lives among the gods, causes most of their problems, solves most of them, and finally kills Baldr.",
+   "longBio": "Loki is a giant by birth and Odin's sworn blood-brother by oath, which is why the Aesir tolerate him. The pattern is nearly always the same: he creates a crisis by malice or carelessness, and is then forced on pain of death to fix it, and the fixing produces something valuable - Sif's golden hair, Odin's spear, Thor's hammer, Freyr's ship and boar, and Odin's eight-legged horse, which Loki bears himself after turning into a mare. He is genuinely funny and genuinely dangerous, and the tradition never resolves which. The turn comes with Baldr: he finds the one thing that has not sworn, guides the blind Hodr's hand, and then blocks the ransom from Hel. For that he is bound with his own son's entrails beneath a dripping serpent until Ragnarok, when he breaks free and steers the ship of the dead against the gods.",
+   "variantTraditions": "How much of Loki's demonic final character is Christian colouring in Snorri is much argued; the eddic poem Lokasenna already shows him as an insulting outsider, but the parallels drawn with Satan are modern.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "baldr",
+   "name": "Baldr",
+   "sanskrit": "Baldr",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "The bright god, killed by mistletoe",
+   "wikipedia": "Baldr",
+   "portrait": "portraits/norse/baldr.webp",
+   "epithets": [
+    "The Beautiful",
+    "The Bleeding God",
+    "Lord of Breidablik"
+   ],
+   "domains": [
+    "light",
+    "beauty",
+    "innocence",
+    "the loss that cannot be undone"
+   ],
+   "symbols": [
+    "mistletoe",
+    "the ship Hringhorni",
+    "brightness"
+   ],
+   "mount": null,
+   "abode": "Breidablik",
+   "festivals": [],
+   "worship": "",
+   "bio": "Son of Odin and Frigg, so beloved that everything swore not to harm him, killed by the one thing that did not.",
+   "longBio": "Baldr is the best of the gods and the one whose death matters most, because it is the first irreversible thing to happen to them and the beginning of the end. Troubled by dreams of his own death, he tells the Aesir; Frigg extracts oaths from everything, after which the gods amuse themselves by throwing weapons at him and watching them refuse to bite. Loki, disguised as a woman, learns of the overlooked mistletoe, makes a dart of it, and puts it in the hand of Baldr's blind brother Hodr, guiding the throw. Baldr dies. Hermod rides nine nights to Hel, who agrees to release him if every thing in the world weeps - and every thing does, except one giantess in a cave who will not, and who is generally taken to be Loki. Baldr stays dead until after Ragnarok, when he returns to the new world.",
+   "variantTraditions": "Saxo tells a completely different and more human version in which Balderus and Hotherus are rivals for a woman and fight a straightforward war; the two accounts cannot be reconciled.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "hodr",
+   "name": "Hodr",
+   "sanskrit": "Hodr",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "The blind god who threw the dart",
+   "wikipedia": "Höðr",
+   "portrait": "portraits/norse/hodr.webp",
+   "epithets": [
+    "The Blind God"
+   ],
+   "domains": [
+    "blindness",
+    "the unwitting instrument"
+   ],
+   "symbols": [
+    "the mistletoe dart"
+   ],
+   "mount": null,
+   "abode": "Asgard",
+   "festivals": [],
+   "worship": "",
+   "bio": "Baldr's blind brother, who killed him without knowing and was killed in revenge within a day.",
+   "longBio": "Hodr is blind and is standing outside the ring of gods amusing themselves with Baldr's invulnerability, because he cannot see to join in and has no weapon. Loki asks why he is not honouring Baldr like the others, offers to direct him, and puts the mistletoe in his hand. He throws, and Baldr falls dead. The Aesir cannot take vengeance in the sanctuary where they stand, so Odin fathers a son, Vali, on the giantess Rind expressly for the purpose; Vali is one night old when he kills Hodr. Hodr and Baldr both return after Ragnarok and live in the new world together, which is one of the few notes of reconciliation the tradition permits itself.",
+   "variantTraditions": "Saxo's Hotherus is not blind and not innocent but a rival warrior who kills Balderus in open contest; the two versions are irreconcilable.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": []
+  },
+  {
+   "id": "tyr",
+   "name": "Tyr",
+   "sanskrit": "Tyr",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "God of law and of the sacrificed hand",
+   "wikipedia": "Týr",
+   "portrait": "portraits/norse/tyr.webp",
+   "epithets": [
+    "The One-Handed",
+    "Leavings of the Wolf",
+    "God of Battle"
+   ],
+   "domains": [
+    "law and oath",
+    "the assembly",
+    "courage",
+    "war as legal contest"
+   ],
+   "symbols": [
+    "the single hand",
+    "the spear",
+    "the Tiwaz rune"
+   ],
+   "mount": null,
+   "abode": "Asgard",
+   "festivals": [],
+   "worship": "Tuesday carries his name. He was invoked in matters of law and in the duel, and the Tiwaz rune was carved on weapons for victory.",
+   "bio": "God of law who put his hand in Fenrir's mouth as a pledge, knowing he would lose it.",
+   "longBio": "Tyr's defining act is a deliberate loss. The gods want to bind the wolf Fenrir with the fetter Gleipnir, and the wolf, suspicious, will only allow it if one of them puts a hand in his mouth as surety of good faith. Every god refuses except Tyr. The fetter holds, the wolf cannot break it, and he bites the hand off at the wrist - and the sources are clear that Tyr knew this would happen, which is what makes it a pledge rather than a gamble. That single episode carries the whole character: he is the god of the oath and of the legal assembly, and he pays what an oath costs. Linguistic evidence suggests he was once far more important, since his name descends from the same root as Zeus and Jupiter and simply means god, which usually indicates an older sky-father displaced by later arrivals.",
+   "variantTraditions": "The Tyr of the surviving myths is much reduced from what the etymology implies; the Germanic Tiwaz appears to have been a chief deity before Odin's rise.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "fate-time",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "heimdall",
+   "name": "Heimdall",
+   "sanskrit": "Heimdallr",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "Watchman of the gods",
+   "wikipedia": "Heimdall",
+   "portrait": "portraits/norse/heimdall.webp",
+   "epithets": [
+    "The White God",
+    "Gullintanni, Golden-Toothed",
+    "Rig",
+    "Son of Nine Mothers"
+   ],
+   "domains": [
+    "watchfulness",
+    "hearing and sight",
+    "the boundary of Asgard",
+    "the founding of the social orders"
+   ],
+   "symbols": [
+    "the horn Gjallarhorn",
+    "the rainbow bridge Bifrost",
+    "golden teeth"
+   ],
+   "mount": null,
+   "abode": "Himinbjorg, at the end of Bifrost",
+   "festivals": [],
+   "worship": "",
+   "bio": "The watchman who needs less sleep than a bird, hears grass grow, and will blow the horn at Ragnarok.",
+   "longBio": "Heimdall sits at the end of the rainbow bridge and watches. He requires less sleep than a bird, sees a hundred leagues by night as by day, and can hear wool growing on a sheep and grass growing on the earth; his horn Gjallarhorn is heard through all the worlds, and he will sound it when the giants come. He was born of nine mothers, generally taken to be the nine daughters of the sea, which is not explained anywhere. In the poem Rigsthula he walks among men under the name Rig, fathering the three social classes - thrall, farmer and lord - on three couples, which makes him the origin of human society as the Norse understood it. He and Loki are enemies from the start, they once fought in the shape of seals over a necklace, and at Ragnarok they kill each other.",
+   "variantTraditions": "Rigsthula's attribution of Rig to Heimdall rests on a prose header that may be a later addition; some scholars read the poem's Rig as Odin.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "bragi",
+   "name": "Bragi",
+   "sanskrit": "Bragi",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "God of poetry",
+   "wikipedia": "Bragi",
+   "portrait": "portraits/norse/bragi.webp",
+   "epithets": [
+    "The Long-Bearded",
+    "First of Skalds"
+   ],
+   "domains": [
+    "poetry",
+    "eloquence",
+    "the welcoming of the slain to Valhalla"
+   ],
+   "symbols": [
+    "runes carved on his tongue",
+    "the harp"
+   ],
+   "mount": null,
+   "abode": "Valhalla",
+   "festivals": [],
+   "worship": "",
+   "bio": "Skald of the gods, husband of Idunn, who greets the dead arriving at Valhalla.",
+   "longBio": "Bragi is wise in poetry above all others, with runes cut on his tongue, and the word bragr in Old Norse means poetry itself, so it is genuinely unclear whether the god gave his name to the art or the art was personified into a god. He greets the einherjar as they arrive in Valhalla. He is married to Idunn, who keeps the apples of youth. In Lokasenna, when Loki forces his way into the gods' hall and insults everyone in turn, Bragi is the first to try to bar him and gets the worst of the exchange, being told he is brave on his bench and no use in a fight. There is also a historical Bragi Boddason, a ninth-century Norwegian poet and the earliest skald whose verse survives, and the relationship between the man and the god is unresolved.",
+   "variantTraditions": "Whether the god Bragi derives from the historical poet Bragi Boddason, or the reverse, has been argued both ways since the nineteenth century.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "idunn",
+   "name": "Idunn",
+   "sanskrit": "Idunn",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "Keeper of the apples of youth",
+   "wikipedia": "Iðunn",
+   "portrait": "portraits/norse/idunn.webp",
+   "epithets": [
+    "The Rejuvenating One",
+    "Keeper of the Apples"
+   ],
+   "domains": [
+    "youth",
+    "renewal",
+    "the apples that keep the gods from ageing"
+   ],
+   "symbols": [
+    "the ash box of apples",
+    "the falcon shape"
+   ],
+   "mount": null,
+   "abode": "Asgard",
+   "festivals": [],
+   "worship": "",
+   "bio": "The goddess whose apples keep the gods young, and whose abduction nearly ends them.",
+   "longBio": "The Aesir are not immortal by nature; they stay young by eating Idunn's apples, which she keeps in an ash box and distributes. That makes her the single point of failure in the whole divine order, and the tradition exploits it. Loki, under duress from the giant Thjazi, lures her out of Asgard with a story about better apples growing in a wood nearby, and Thjazi in eagle shape carries her off. The gods immediately begin to grey and stiffen, work out who was last seen with her, and give Loki the obvious choice. He borrows Freyja's falcon cloak, flies to Thrymheim, turns Idunn into a nut and carries her home with Thjazi in pursuit; the giant burns his wings on fires the gods light along the walls and is killed as he falls.",
+   "variantTraditions": "Snorri's account is the fullest; the poem Haustlong describes the same episode in kennings and is the older source.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "sif",
+   "name": "Sif",
+   "sanskrit": "Sif",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "Golden-haired wife of Thor",
+   "wikipedia": "Sif",
+   "portrait": "portraits/norse/sif.webp",
+   "epithets": [
+    "The Golden-Haired",
+    "Wife of Thor"
+   ],
+   "domains": [
+    "the harvest",
+    "golden hair",
+    "the household of the thunder god"
+   ],
+   "symbols": [
+    "hair of spun gold"
+   ],
+   "mount": null,
+   "abode": "Bilskirnir",
+   "festivals": [],
+   "worship": "",
+   "bio": "Thor's wife, whose hair Loki cut off, and whose replacement hair produced the gods' greatest treasures.",
+   "longBio": "Sif is chiefly remembered for her hair, and for what happened when Loki cut it off while she slept - a piece of pure malice with no motive given. Thor's response is to threaten to break every bone in Loki's body unless he replaces it, and Loki goes to the dwarfs. The sons of Ivaldi make hair of real gold that grows like hair, and while he is there Loki provokes a wager between two sets of dwarfs that produces, in the same session, Odin's spear Gungnir, Freyr's collapsible ship Skidbladnir, Odin's ring Draupnir, Freyr's golden boar, and Thor's hammer Mjollnir - short in the handle because Loki, in fly shape, bit the dwarf working the bellows. So the gods' entire arsenal exists because of a haircut. Sif's golden hair is generally read as ripe grain, making her a harvest figure.",
+   "variantTraditions": "Sif is barely characterised outside this story; Loki in Lokasenna claims to have been her lover, which she does not deny.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother"
+   ]
+  }
+ ],
+ "links": []
+}
