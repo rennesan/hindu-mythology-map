@@ -22,12 +22,12 @@
    "blurb": "Chaos and the primordials, the Titans, the Olympian order, and the heroes of the Trojan and Theban cycles."
   },
   {
-   "id": "roman",
-   "label": "Roman",
-   "sublabel": "Italic & Imperial",
-   "accent": "#c9a227",
+   "id": "egyptian",
+   "label": "Egyptian",
+   "sublabel": "Ancient Egyptian",
+   "accent": "#c8a25a",
    "status": "planned",
-   "blurb": "The numina and the Capitoline triad, the state cult that bound them to Rome, and the founding legends of the city."
+   "blurb": "The Ennead and the Ogdoad, the Osiris cycle, the solar barque, and the weighing of the heart."
   },
   {
    "id": "norse",
@@ -38,12 +38,28 @@
    "blurb": "Ymir and the giants, the Aesir and Vanir, Yggdrasil and the nine worlds, and the long road to Ragnarok."
   },
   {
-   "id": "egyptian",
-   "label": "Egyptian",
-   "sublabel": "Ancient Egyptian",
-   "accent": "#c8a25a",
+   "id": "mesopotamian",
+   "label": "Mesopotamian",
+   "sublabel": "Sumerian, Akkadian & Babylonian",
+   "accent": "#b98a5e",
    "status": "planned",
-   "blurb": "The Ennead and the Ogdoad, the Osiris cycle, the solar barque, and the weighing of the heart."
+   "blurb": "The oldest written mythology: Enuma Elish, the Anunnaki, Inanna's descent, and the epic of Gilgamesh."
+  },
+  {
+   "id": "chinese",
+   "label": "Chinese",
+   "sublabel": "Classical & Daoist",
+   "accent": "#c96a6a",
+   "status": "planned",
+   "blurb": "Pangu and Nuwa, the Jade Emperor's celestial bureaucracy, the Eight Immortals, and the beasts of the Shanhaijing."
+  },
+  {
+   "id": "aztec",
+   "label": "Aztec",
+   "sublabel": "Mexica & Nahua",
+   "accent": "#9fb87a",
+   "status": "planned",
+   "blurb": "Ometeotl and the Five Suns, Quetzalcoatl and Tezcatlipoca, and the ritual calendar that ordered the world."
   },
   {
    "id": "japanese",
@@ -54,14 +70,6 @@
    "blurb": "The kami of the Kojiki and Nihon Shoki, Amaterasu and the imperial line, and the yokai of later folklore."
   },
   {
-   "id": "mesopotamian",
-   "label": "Mesopotamian",
-   "sublabel": "Sumerian, Akkadian & Babylonian",
-   "accent": "#b98a5e",
-   "status": "planned",
-   "blurb": "The oldest written mythology: Enuma Elish, the Anunnaki, Inanna's descent, and the epic of Gilgamesh."
-  },
-  {
    "id": "celtic",
    "label": "Celtic",
    "sublabel": "Irish & Welsh",
@@ -70,20 +78,52 @@
    "blurb": "The Tuatha De Danann and the Fomorians, the Ulster and Fenian cycles, and the four branches of the Mabinogi."
   },
   {
-   "id": "arabian",
-   "label": "Arabian",
-   "sublabel": "Pre-Islamic Arabian",
-   "accent": "#cbb08a",
+   "id": "roman",
+   "label": "Roman",
+   "sublabel": "Italic & Imperial",
+   "accent": "#c9a227",
    "status": "planned",
-   "blurb": "The gods of pre-Islamic Arabia: the South Arabian and Nabataean pantheons, the deities of the Kaaba, and the lore of the jinn."
+   "blurb": "The numina and the Capitoline triad, the state cult that bound them to Rome, and the founding legends of the city."
+  },
+  {
+   "id": "maya",
+   "label": "Maya",
+   "sublabel": "Classic & Post-Classic",
+   "accent": "#7ab8a8",
+   "status": "planned",
+   "blurb": "The Popol Vuh: the Hero Twins, the lords of Xibalba, and the making of people from maize."
+  },
+  {
+   "id": "inca",
+   "label": "Inca",
+   "sublabel": "Andean",
+   "accent": "#c98f6a",
+   "status": "planned",
+   "blurb": "Viracocha, Inti and Pachamama, and the huacas of the Huarochiri Manuscript. A smaller pantheon, honestly sized."
   },
   {
    "id": "hopi",
    "label": "Hopi",
-   "sublabel": "Held for consultation",
+   "sublabel": "Private collection",
    "accent": "#c98f6a",
+   "status": "private",
+   "blurb": "A private study collection. Restricted access."
+  },
+  {
+   "id": "aboriginal",
+   "label": "Australian Aboriginal",
+   "sublabel": "Held for scoping",
+   "accent": "#b8895e",
    "status": "review",
-   "blurb": "Not published. Hopi religious knowledge is living and restricted, and the usual public-domain sources are contested by the Tribe. Needs a different approach and, properly, tribal consultation."
+   "blurb": "Not published. Hundreds of distinct traditions rather than one pantheon, much of it restricted. Needs narrow scoping and the gated treatment."
+  },
+  {
+   "id": "arabian",
+   "label": "Arabian",
+   "sublabel": "Pre-Islamic",
+   "accent": "#cbb08a",
+   "status": "review",
+   "blurb": "Too thin for a full pack: names survive, narrative largely does not. Candidate to merge into a Semitic pack with Canaanite and Ugaritic material."
   }
  ]
 }

@@ -1,0 +1,1078 @@
+{
+ "title": "Greek Mythology: Figures, Relationships and Story Cycles",
+ "description": "The Hellenic pantheon mapped as a relationship graph: primordials, Titans, Olympians, chthonic powers, heroes and monsters, with every figure traced to Hesiod, Homer, the Homeric Hymns, Apollodorus, Ovid or Pausanias.",
+ "generated": "2026-08-20",
+ "sources": [
+  "Hesiod, Theogony and Works and Days (Evelyn-White, 1914)",
+  "Homer, Iliad and Odyssey (Butler, 1898-1900)",
+  "The Homeric Hymns (Evelyn-White, 1914)",
+  "Apollodorus, The Library (Frazer, 1921)",
+  "Ovid, Metamorphoses (More, 1922)",
+  "Pausanias, Description of Greece (Jones, 1918)",
+  "Encyclopaedia Britannica and Wikipedia for cross-checking dates and cult sites"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/greek/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "theogony": {
+   "t": "Hesiod, Theogony",
+   "tr": "Hugh G. Evelyn-White, 1914",
+   "u": "https://sacred-texts.com/cla/hesiod/theogony.htm"
+  },
+  "works": {
+   "t": "Hesiod, Works and Days",
+   "tr": "Hugh G. Evelyn-White, 1914",
+   "u": "https://sacred-texts.com/cla/hesiod/works.htm"
+  },
+  "iliad": {
+   "t": "Homer, Iliad",
+   "tr": "Samuel Butler, 1898",
+   "u": "https://sacred-texts.com/cla/homer/ili/index.htm"
+  },
+  "odyssey": {
+   "t": "Homer, Odyssey",
+   "tr": "Samuel Butler, 1900",
+   "u": "https://sacred-texts.com/cla/homer/ody/index.htm"
+  },
+  "hymns": {
+   "t": "The Homeric Hymns",
+   "tr": "Hugh G. Evelyn-White, 1914",
+   "u": "https://sacred-texts.com/cla/hh/index.htm"
+  },
+  "library": {
+   "t": "Apollodorus, The Library",
+   "tr": "Sir James George Frazer, 1921",
+   "u": "https://www.theoi.com/Text/ApollodorusLibrary1.html"
+  },
+  "metamorph": {
+   "t": "Ovid, Metamorphoses",
+   "tr": "Brookes More, 1922",
+   "u": "https://www.theoi.com/Text/OvidMetamorphoses1.html"
+  },
+  "argonautica": {
+   "t": "Apollonius Rhodius, Argonautica",
+   "tr": "R. C. Seaton, 1912",
+   "u": "https://www.theoi.com/Text/ApolloniusRhodius1.html"
+  },
+  "pausanias": {
+   "t": "Pausanias, Description of Greece",
+   "tr": "W. H. S. Jones, 1918",
+   "u": "https://www.theoi.com/Text/Pausanias1A.html"
+  }
+ },
+ "meta": {
+  "id": "greek",
+  "label": "Greek",
+  "sublabel": "Hellenic",
+  "accent": "#7fb3d5",
+  "root": "chaos"
+ },
+ "profile": {
+  "cosmicNature": "Linear and declining. Hesiod sets out five Ages of Man - Golden, Silver, Bronze, Heroic and Iron - falling away from an easy beginning toward the hard present, with no promised renewal. Time moves forward and conditions worsen; there is no wheel of ages to come round again.",
+  "natureOfDivinity": "Anthropomorphic. The gods are deathless and vastly powerful but recognisably person-shaped: they quarrel, take sides, hold grudges, are wounded, and are bound by oaths on the Styx. They are not the ground of being and did not make the cosmos; they inherited it by conquest and hold it as a dynasty.",
+  "afterlife": "A shared shade-existence rather than reward. Nearly everyone goes to the house of Hades as a witless shade; only the exceptional are exempted, to Elysium or the Isles of the Blest, and only the exceptionally guilty are punished in Tartarus. Judgment by Minos, Rhadamanthys and Aeacus is a later, largely Platonic elaboration.",
+  "systemMechanism": "A dynastic patriarchal monarchy forged by generational warfare. Ouranos is overthrown by Cronus, Cronus by Zeus in the ten-year Titanomachy, after which the three brothers divide the cosmos by lot into sky, sea and the world below. Zeus rules from Olympus, enforcing oath-keeping and hospitality, while Fate stands above even him.",
+  "canonTexts": "Hesiod's Theogony and Works and Days, the Iliad and Odyssey, the Homeric Hymns, the Athenian tragedians, Apollodorus' Library and Ovid's Metamorphoses as later systematising compilations."
+ },
+ "hierarchy": [],
+ "groups": [],
+ "stories": [],
+ "entities": [
+  {
+   "id": "chaos",
+   "name": "Chaos",
+   "sanskrit": "Χάος",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The first thing that came to be",
+   "wikipedia": "Chaos (mythology)",
+   "portrait": "portraits/greek/chaos.webp",
+   "epithets": [
+    "The Gap",
+    "The Yawning Void"
+   ],
+   "domains": [
+    "the primal void",
+    "the space in which things can exist"
+   ],
+   "symbols": [
+    "empty space"
+   ],
+   "mount": null,
+   "abode": "Before and beneath everything",
+   "festivals": [],
+   "worship": "",
+   "bio": "The void that existed first, from which Erebos and Night were born.",
+   "longBio": "Hesiod opens the Theogony by saying that Chaos came into being first of all, and after it broad-breasted Gaia, dim Tartaros and Eros. The word does not mean disorder in the modern sense; it comes from a root meaning to gape or yawn, and describes a gap or opening rather than a churning mess. Chaos is not a creator and does not act. Nothing is made by it and nothing is ruled by it; it simply is first, and from it Erebos and black Night are born, and from their union Aither and Day. Later writers, especially the Roman poets, reinterpreted the word toward the modern sense of a disordered mass of elements waiting to be sorted, and it is that Ovidian version, not the Hesiodic one, that most later European literature inherited. In cult Chaos has effectively no presence: there are no temples, no festivals and no images, which is consistent with its role as a starting condition rather than a god who can be approached.",
+   "variantTraditions": "Ovid's Metamorphoses recasts Chaos as a rude, undigested mass of warring elements separated by a god or kindlier nature, which is a Roman reworking rather than the Greek conception. Some Orphic theogonies begin instead with Chronos (Time) or with Nyx and a cosmic egg.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "gaia",
+   "name": "Gaia",
+   "sanskrit": "Γαῖα",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The Earth herself, mother of the Titans",
+   "wikipedia": "Gaia",
+   "portrait": "portraits/greek/gaia.webp",
+   "epithets": [
+    "Broad-breasted",
+    "Mother of All",
+    "Gaia Kourotrophos"
+   ],
+   "domains": [
+    "the earth",
+    "fertility",
+    "prophecy",
+    "the sure foundation of all things"
+   ],
+   "symbols": [
+    "the earth",
+    "grain",
+    "the cornucopia"
+   ],
+   "mount": null,
+   "abode": "The earth itself",
+   "festivals": [
+    "Local Gaia cults at Athens, Olympia and Delphi, generally tied to oaths and to the dead"
+   ],
+   "worship": "Worshipped less in grand temples than at oracular and oath-taking sites: she had a sanctuary and oracle at Delphi before Apollo in one tradition, an altar at Olympia, and a precinct at Athens. Offerings were often poured into the ground rather than burned upward, in the manner used for chthonic powers.",
+   "bio": "The earth as a living being, who bore Ouranos and then the Titans by him, and who drove two dynastic overthrows.",
+   "longBio": "Gaia comes into being immediately after Chaos as the sure foundation of everything, and she is the most consequential actor in the early Theogony. She produces Ouranos the starry sky by herself, along with the mountains and Pontos the sea, and then bears the twelve Titans, the Cyclopes and the Hundred-Handers to Ouranos. When Ouranos pushes his children back inside her so that none can be born, it is Gaia who makes the adamant sickle and finds in Cronus a son willing to use it. She repeats the pattern a generation later, warning Rhea how to save Zeus and later advising Zeus how to win the Titanomachy, then turning against him too and bearing Typhon to challenge him. Her oracle at Delphi is older than Apollo's in the tradition Aeschylus reports, and she is invoked in oaths precisely because the earth is what cannot be evaded.",
+   "variantTraditions": "Aeschylus in the Eumenides makes Gaia the first holder of the Delphic oracle, passed to Themis, then Phoebe, then Apollo; other accounts have Apollo seize it by killing Python. Roman writers identify her with Terra or Tellus Mater.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "ouranos",
+   "name": "Ouranos",
+   "sanskrit": "Οὐρανός",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The starry sky; first ruler of the cosmos",
+   "wikipedia": "Uranus (mythology)",
+   "portrait": "portraits/greek/ouranos.webp",
+   "epithets": [
+    "Starry Heaven",
+    "The First King"
+   ],
+   "domains": [
+    "the sky",
+    "the heavens as a physical covering"
+   ],
+   "symbols": [
+    "the star-strewn sky"
+   ],
+   "mount": null,
+   "abode": "Stretched over the earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sky, born of Gaia and then her consort, castrated by his son Cronus and displaced.",
+   "longBio": "Gaia bore Ouranos equal to herself, to cover her about and be an everlasting home for the gods, and then bore the Titans to him. Ouranos hated his children from the first and hid each one away inside Gaia rather than let it come to the light, so that the earth groaned with being overfull. Gaia forged a sickle of grey adamant and asked her sons to act; only Cronus, the youngest, took it up. He cut off his father's genitals from ambush and threw them behind him: from the drops of blood that fell on the earth came the Erinyes, the Giants and the Meliae, and from the foam gathered about the severed flesh in the sea came Aphrodite. Ouranos survives the mutilation but ceases to rule or to father, and he passes out of the narrative except to give the prophecy, with Gaia, that Cronus would in his turn be overcome by his own son.",
+   "variantTraditions": "Some later accounts soften or omit the castration. Roman writers call him Caelus. Orphic theogonies place different figures at the head of the succession, with Phanes or Chronos preceding the sky.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sky-thunder",
+    "creator"
+   ]
+  },
+  {
+   "id": "nyx",
+   "name": "Nyx",
+   "sanskrit": "Νύξ",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "Night, born of Chaos",
+   "wikipedia": "Nyx",
+   "portrait": "portraits/greek/nyx.webp",
+   "epithets": [
+    "Black Night",
+    "Kindly Night",
+    "Tamer of Gods and Men"
+   ],
+   "domains": [
+    "night",
+    "darkness",
+    "the mother of dooms"
+   ],
+   "symbols": [
+    "a dark veil",
+    "the starred mantle"
+   ],
+   "mount": null,
+   "abode": "A house in the depths, beyond Tartaros, which she shares with Day but never enters at the same time",
+   "festivals": [],
+   "worship": "",
+   "bio": "Night herself, mother of Sleep, Death, the Fates and a long line of grim powers.",
+   "longBio": "Nyx is born from Chaos and is one of the very few beings the Theogony treats as genuinely awesome to the other gods. She bears Aither and Day to Erebos, and then, without any father, produces a catalogue of abstractions that shape mortal life: Doom, Fate, Death, Sleep, Blame, Distress, the Hesperides, the Moirai, Nemesis, Deceit, Old Age and Strife. She lives in a house at the edge of things where she and Day greet one another on the threshold as one goes out and the other comes in, so that the house never holds both. Homer preserves a striking detail of her standing: in the Iliad, Zeus is furious with Hypnos for a trick but holds back from striking him because Hypnos fled to Nyx for refuge, and Zeus shrank from doing anything displeasing to swift Night. She is rarely worshipped and rarely depicted, and functions in the tradition as a source of powers rather than a personality.",
+   "variantTraditions": "Orphic tradition promotes Nyx considerably, making her a primary cosmic principle and an oracular power who advises Zeus, in some versions preceding even Chaos as the origin of things.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time"
+   ]
+  },
+  {
+   "id": "erebos",
+   "name": "Erebos",
+   "sanskrit": "Ἔρεβος",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "Primordial darkness",
+   "wikipedia": "Erebus",
+   "portrait": "portraits/greek/erebos.webp",
+   "epithets": [
+    "Deep Darkness",
+    "The Gloom"
+   ],
+   "domains": [
+    "the darkness beneath the earth",
+    "the dark passage of the dead"
+   ],
+   "symbols": [
+    "unlit depth"
+   ],
+   "mount": null,
+   "abode": "Between the earth and the house of Hades",
+   "festivals": [],
+   "worship": "",
+   "bio": "The darkness born of Chaos, who fathered Aither and Day upon his sister Night.",
+   "longBio": "Erebos is born from Chaos alongside Nyx, and the two produce their opposites: Aither, the bright upper air the gods breathe, and Hemera, Day. Beyond that genealogy he barely acts. His name is used far more often as a place than as a person, standing for the dark region the dead pass through on their way to the house of Hades, so that Homer and later poets say a man has gone to Erebos in the way we would say he has gone to the grave. The pairing of Erebos and Nyx producing Aither and Day is one of the clearest expressions of a pattern that runs through the early Theogony, in which the first beings generate their own opposites rather than a graded series of similar things.",
+   "variantTraditions": "Some accounts make Erebos rather than Chaos the immediate origin of further beings; Roman writers often use Erebus simply as a name for the underworld as a whole.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": []
+  },
+  {
+   "id": "tartaros",
+   "name": "Tartaros",
+   "sanskrit": "Τάρταρος",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The pit below the underworld",
+   "wikipedia": "Tartarus",
+   "portrait": "portraits/greek/tartaros.webp",
+   "epithets": [
+    "The Misty Pit",
+    "As Far Below Hades As Heaven Is Above Earth"
+   ],
+   "domains": [
+    "the deepest place",
+    "the prison of defeated powers"
+   ],
+   "symbols": [
+    "bronze gates",
+    "a threshold of bronze"
+   ],
+   "mount": null,
+   "abode": "Below the house of Hades",
+   "festivals": [],
+   "worship": "",
+   "bio": "Both a primordial being and the pit where defeated powers are confined.",
+   "longBio": "Hesiod names dim Tartaros among the very first beings, alongside Gaia and Eros, and then uses the same name for a place. As a location it is measured with a memorable image: an anvil falling from heaven would take nine days to reach the earth, and nine more from earth to reach Tartaros, which is fenced with bronze and ringed three times over by night. It is where Ouranos confined the Hundred-Handers and Cyclopes, where Zeus casts the defeated Titans under the guard of those same Hundred-Handers, and where Typhon is hurled after his defeat. As a being, Tartaros fathers Typhon upon Gaia, which is the one moment the personified sense is unavoidable. Later, especially in Plato and in Roman poetry, Tartaros becomes specifically the place of punishment for the wicked, distinct from the neutral house of Hades, and it is this moralised version that passes into later European use.",
+   "variantTraditions": "In Homer, Tartaros is essentially the prison of the Titans rather than a place of punishment for mortals; the moralised sense grows later, and Virgil's Aeneid VI gives the fullest developed description.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "eros_primordial",
+   "name": "Eros (Primordial)",
+   "sanskrit": "Ἔρως",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "Desire, the force that joins",
+   "wikipedia": "Eros",
+   "portrait": "portraits/greek/eros_primordial.webp",
+   "epithets": [
+    "Fairest among the deathless gods",
+    "Limb-loosener"
+   ],
+   "domains": [
+    "attraction",
+    "generation",
+    "the impulse that makes beings unite"
+   ],
+   "symbols": [
+    "the bow",
+    "the torch"
+   ],
+   "mount": null,
+   "abode": "Everywhere that generation happens",
+   "festivals": [],
+   "worship": "",
+   "bio": "The primordial force of attraction, named among the first beings, distinct from the later winged boy.",
+   "longBio": "Hesiod names Eros immediately after Chaos, Gaia and Tartaros, calling him fairest among the deathless gods, the loosener of limbs, who overcomes the reason and careful planning of all gods and all men. This Eros is not a character with a story; he is the principle that makes the successive generations of the Theogony possible at all, since without attraction the pairings that produce sky, sea, Titans and gods would not occur. He is quite distinct from the familiar Eros who is the son of Aphrodite, a mischievous archer whose arrows cause specific infatuations, and who belongs to a much later and more literary phase of the tradition. The Greeks themselves noticed the difference: Plato has speakers in the Symposium argue over whether Eros is among the oldest of gods or one of the youngest, precisely because both traditions were current.",
+   "variantTraditions": "The later Eros is the son of Aphrodite, variously by Ares, Hermes or Zeus, and is the model for the Roman Cupid. Orphic theogonies identify the primordial Eros with Phanes, the shining first-born who emerges from the cosmic egg.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "love-desire"
+   ]
+  },
+  {
+   "id": "pontos",
+   "name": "Pontos",
+   "sanskrit": "Πόντος",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The sea, born of Gaia alone",
+   "wikipedia": "Pontus (mythology)",
+   "portrait": "portraits/greek/pontos.webp",
+   "epithets": [
+    "The Fruitless Deep",
+    "The Barren Sea"
+   ],
+   "domains": [
+    "the open sea",
+    "the salt water"
+   ],
+   "symbols": [
+    "the wave"
+   ],
+   "mount": null,
+   "abode": "The sea itself",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sea as a primordial being, father of the old sea-gods before Poseidon.",
+   "longBio": "Gaia bears Pontos without any partner, as she bears the mountains and Ouranos, and he stands for the sea as a raw fact rather than as a domain someone rules. With Gaia he fathers the older generation of sea powers: Nereus, called the Old Man of the Sea and famed for never lying; Thaumas, father of Iris and the Harpies; Phorcys and Ceto, whose children are the Gorgons, the Graeae and other monsters of the deep; and Eurybia. This line matters because it shows the sea being populated well before Poseidon, an Olympian who acquires the sea by lot rather than by descent. The older sea powers are generally shape-shifting, prophetic and truthful, and they persist alongside the Olympians rather than being overthrown, which is unusual in a tradition otherwise organised around succession by conquest.",
+   "variantTraditions": "Later writers often collapse Pontos into Oceanus or simply into Poseidon's domain; Roman poets use Pontus mainly as a poetic word for the sea.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "cronus",
+   "name": "Cronus",
+   "sanskrit": "Κρόνος",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan king; god of time's harvest",
+   "wikipedia": "Cronus",
+   "portrait": "portraits/greek/cronus.webp",
+   "epithets": [
+    "Crooked-Counselled",
+    "The Youngest and Most Terrible"
+   ],
+   "domains": [
+    "the harvest",
+    "the passing of an age",
+    "sovereignty won and lost"
+   ],
+   "symbols": [
+    "the adamantine sickle",
+    "the scythe"
+   ],
+   "mount": null,
+   "abode": "Mount Othrys during his reign; afterwards Tartaros, or in another tradition the Isles of the Blest",
+   "festivals": [
+    "Kronia at Athens, a midsummer harvest festival at which masters and slaves ate together"
+   ],
+   "worship": "Worship of Cronus was thin in classical Greece and deliberately old-fashioned in flavour. The Athenian Kronia inverted normal order for a day, with slaves feasting alongside masters, in memory of the age when no one served anyone. He had a sanctuary at Olympia on the hill named for him.",
+   "bio": "The Titan who castrated his father and swallowed his children, and was overthrown by Zeus.",
+   "longBio": "Cronus is the youngest of the twelve Titans and the only one willing to take up Gaia's sickle against Ouranos. Having taken the throne, he inherits his father's fear: warned by Gaia and Ouranos that his own son would overcome him, he swallows each child Rhea bears as soon as it is born. Rhea, pregnant with Zeus, appeals to her parents, gives birth in secret on Crete and hands Cronus a stone wrapped in swaddling clothes, which he swallows believing it is the child. Grown, Zeus forces him to disgorge first the stone and then his brothers and sisters, and the ten-year Titanomachy follows, ending with the Titans confined in Tartaros. A quite different strand of tradition, visible in Hesiod's own Works and Days and strong in the Roman Saturn, remembers Cronus as the king of the Golden Age, when men lived without toil, and gives him a peaceful retirement ruling the Isles of the Blest.",
+   "variantTraditions": "The Golden Age Cronus and the child-swallowing Cronus sit awkwardly together and were reconciled in different ways by different writers. The Romans identified him with Saturn, whose December festival, the Saturnalia, preserved the Golden Age association. The similarity of his name to Chronos, Time, is a later etymological play rather than an original identity.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "fate-time",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "rhea",
+   "name": "Rhea",
+   "sanskrit": "Ῥέα",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan queen; mother of the first Olympians",
+   "wikipedia": "Rhea (mythology)",
+   "portrait": "portraits/greek/rhea.webp",
+   "epithets": [
+    "Mother of the Gods",
+    "Rhea Kybele"
+   ],
+   "domains": [
+    "motherhood",
+    "generation",
+    "the flow of things"
+   ],
+   "symbols": [
+    "the lion",
+    "the tympanum or hand-drum",
+    "the mural crown"
+   ],
+   "mount": null,
+   "abode": "Mount Othrys, and later Crete",
+   "festivals": [],
+   "worship": "Rhea's cult is largely absorbed into that of the Great Mother, with ecstatic rites, drums and lions, strongest in Crete and Asia Minor and imported to Rome as Magna Mater in 204 BCE.",
+   "bio": "Sister and consort of Cronus, who saved Zeus by substituting a stone.",
+   "longBio": "Rhea bears Hestia, Demeter, Hera, Hades, Poseidon and Zeus to Cronus, and watches him swallow each one. Pregnant with her last child, she goes to Gaia and Ouranos for counsel and is sent to Lyctus on Crete, where she bears Zeus by night and gives him to Gaia to hide in a cave on Mount Aegaeon or Ida. To Cronus she gives a great stone wrapped in swaddling bands, which he takes for the child and swallows. The infant Zeus is nursed in the cave, in the common version by the goat Amaltheia and guarded by the Kouretes, young armed men who clash their shields so that his crying cannot be heard. Rhea's decisive act is the hinge of the whole succession sequence, and she is one of the few figures to appear on the winning side of a generational change without being of that generation.",
+   "variantTraditions": "Rhea is widely identified with the Anatolian Great Mother Cybele, and by the Romans with Ops and with Magna Mater; the Cretan details of the birth cave vary between Ida and Dicte in different sources.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "oceanus",
+   "name": "Oceanus",
+   "sanskrit": "Ὠκεανός",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of the world-encircling river",
+   "wikipedia": "Oceanus",
+   "portrait": "portraits/greek/oceanus.webp",
+   "epithets": [
+    "The Deep-Flowing",
+    "Origin of the Gods"
+   ],
+   "domains": [
+    "fresh water",
+    "the river that rings the world",
+    "the source of all waters"
+   ],
+   "symbols": [
+    "a river's stream",
+    "the bull's horns of a river-god"
+   ],
+   "mount": null,
+   "abode": "The river Oceanus at the edge of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "The eldest Titan, the great river encircling the earth, father of the rivers and the Oceanids.",
+   "longBio": "Oceanus is the eldest of the Titans and, with his sister Tethys, the parent of some three thousand rivers and three thousand Oceanid nymphs, a number Hesiod gives as a way of saying they cannot be counted. He is conceived not as a sea but as a vast fresh-water river running in a circle around the flat earth, from which all other waters flow and to which they return. Alone among the Titans he takes no part in the Titanomachy, and in consequence is not confined to Tartaros; he stays at the edge of the world, unaligned. Homer at one point calls Oceanus and Tethys the origin of the gods, a phrase later writers seized on as evidence of an older water-cosmogony behind the Hesiodic one. In the Prometheus Bound he appears as a cautious elder who flies in on a winged creature to advise Prometheus to moderate his defiance, and is dismissed for it.",
+   "variantTraditions": "The Homeric line making Oceanus and Tethys the origin of the gods conflicts with Hesiod's genealogy and was much discussed in antiquity; Plato cites it in the Theaetetus as an ancient doctrine that all things flow.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "tethys",
+   "name": "Tethys",
+   "sanskrit": "Τηθύς",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of nursing waters",
+   "wikipedia": "Tethys (mythology)",
+   "portrait": "portraits/greek/tethys.webp",
+   "epithets": [
+    "Nurse",
+    "Mother of Rivers"
+   ],
+   "domains": [
+    "fresh water",
+    "nursing",
+    "the feeding streams"
+   ],
+   "symbols": [
+    "a winged brow",
+    "the water-jar"
+   ],
+   "mount": null,
+   "abode": "The river Oceanus at the edge of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "Sister and consort of Oceanus, mother of the rivers and the Oceanids.",
+   "longBio": "Tethys bears the rivers, the springs and the Oceanid nymphs to Oceanus, and her role in the tradition is overwhelmingly that of a source and a nurse rather than an actor. Her one substantial appearance in Homer is in a scene where Hera claims to be going to the ends of the earth to visit Oceanus and Tethys, who reared her when Zeus was overthrowing Cronus, which places Tethys as a foster-mother to an Olympian during the war. She takes no part in the Titanomachy. In a story preserved by Ovid she is asked by Hera to punish Callisto, set in the sky as the Great Bear, by forbidding her the privilege of bathing in the ocean, which is the mythological explanation for why that constellation never sets below the horizon in Greek latitudes.",
+   "variantTraditions": "Tethys is frequently confused in later use with Thetis, the sea-nymph mother of Achilles, who is an entirely different figure; the two names are distinct in Greek.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "hyperion",
+   "name": "Hyperion",
+   "sanskrit": "Ὑπερίων",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of heavenly light",
+   "wikipedia": "Hyperion (Titan)",
+   "portrait": "portraits/greek/hyperion.webp",
+   "epithets": [
+    "The High One",
+    "He Who Goes Above"
+   ],
+   "domains": [
+    "light",
+    "the ordered course of the heavenly bodies"
+   ],
+   "symbols": [
+    "radiance"
+   ],
+   "mount": null,
+   "abode": "Mount Othrys",
+   "festivals": [],
+   "worship": "",
+   "bio": "Titan father of the Sun, Moon and Dawn.",
+   "longBio": "Hyperion is one of the twelve Titans and, with his sister Theia, the father of Helios the Sun, Selene the Moon and Eos the Dawn. His name means the one who goes above, and it is used in Homer as an epithet of the Sun himself, so that Helios Hyperion can be read either as Helios son of Hyperion or as Helios the one who travels on high. He has no narrative of his own, which is typical of the second rank of Titans: they exist chiefly to father the powers that do act. He is named among the Titans who joined Cronus in ambushing Ouranos, holding one corner of the sky while Cronus struck, and is confined with the rest after the Titanomachy.",
+   "variantTraditions": "Because Homer uses Hyperion as an epithet of the Sun, some later sources treat Hyperion and Helios as the same figure rather than father and son.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sun"
+   ]
+  },
+  {
+   "id": "theia",
+   "name": "Theia",
+   "sanskrit": "Θεία",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of sight and shining",
+   "wikipedia": "Theia",
+   "portrait": "portraits/greek/theia.webp",
+   "epithets": [
+    "The Divine",
+    "Wide-Shining",
+    "Euryphaessa"
+   ],
+   "domains": [
+    "sight",
+    "the gleam of gold and silver",
+    "the value of bright things"
+   ],
+   "symbols": [
+    "radiance",
+    "gold"
+   ],
+   "mount": null,
+   "abode": "Mount Othrys",
+   "festivals": [],
+   "worship": "",
+   "bio": "Titan mother of Helios, Selene and Eos, associated with sight and the gleam of precious metal.",
+   "longBio": "Theia bears the Sun, the Moon and the Dawn to her brother Hyperion. Pindar preserves an unusual and revealing detail about her: he addresses her as the mother of the sun and says that it is because of her that men value gold and prize it above other possessions, connecting her not merely to light but to the human perception of brightness as worth. The Greeks held a theory of vision in which the eye emits a beam, and Theia sits behind that idea as the power that makes seeing possible. Like most of the female Titans she takes no part in the war and has no cult of consequence, but the association of shining, sight and value gives her a more distinct character than the other Titanesses of her rank.",
+   "variantTraditions": "She is also called Euryphaessa, wide-shining, in the Homeric Hymn to Helios, where that name appears in place of Theia for the Sun's mother.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sun",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "coeus",
+   "name": "Coeus",
+   "sanskrit": "Κοῖος",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of the northern pillar and of enquiry",
+   "wikipedia": "Coeus",
+   "portrait": "portraits/greek/coeus.webp",
+   "epithets": [
+    "Polos, the Axis"
+   ],
+   "domains": [
+    "the axis of the heavens",
+    "questioning",
+    "intelligence"
+   ],
+   "symbols": [
+    "the celestial pole"
+   ],
+   "mount": null,
+   "abode": "Mount Othrys, then Tartaros",
+   "festivals": [],
+   "worship": "",
+   "bio": "Titan father of Leto and Asteria; associated with the north and with enquiry.",
+   "longBio": "Coeus is one of the four brothers who, in Apollodorus' account, held down the corners of the sky while Cronus struck at Ouranos, and he is assigned the north. With his sister Phoebe he fathers Leto, who bears Apollo and Artemis to Zeus, and Asteria, who bears Hecate. That makes him grandfather to two of the most prominent Olympians and to the most independent of the goddesses, which is his main significance in the tradition. His name was connected in antiquity with the word for questioning or enquiry, and also with polos, the axis or pole of the sky, and both associations sit comfortably with a Titan of the north and of intelligence. He fought against Zeus and was confined in Tartaros.",
+   "variantTraditions": "Roman writers call him Polus. Valerius Flaccus gives a scene of Coeus breaking his chains in Tartaros and being subdued again, which has no Greek precedent.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "phoebe",
+   "name": "Phoebe",
+   "sanskrit": "Φοίβη",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of prophetic brightness",
+   "wikipedia": "Phoebe (Titaness)",
+   "portrait": "portraits/greek/phoebe.webp",
+   "epithets": [
+    "Gold-Crowned",
+    "The Bright"
+   ],
+   "domains": [
+    "prophecy",
+    "the oracle at Delphi",
+    "radiance"
+   ],
+   "symbols": [
+    "the laurel",
+    "the crown of gold"
+   ],
+   "mount": null,
+   "abode": "Mount Othrys",
+   "festivals": [],
+   "worship": "",
+   "bio": "Titan holder of the Delphic oracle, who passed it to her grandson Apollo.",
+   "longBio": "Phoebe bears Leto and Asteria to Coeus. Her importance is concentrated in a single tradition, given by Aeschylus at the opening of the Eumenides, in which the Delphic oracle passes down a female line by gift rather than by force: from Gaia to Themis, from Themis to Phoebe, and from Phoebe to Apollo as a birthday gift, so that Apollo takes the name Phoebus from her. This lineage matters because it presents the most authoritative oracle in Greece as an orderly inheritance rather than a conquest, in deliberate contrast to the alternative tradition in which Apollo takes Delphi by killing the serpent Python. Phoebe herself gives no oracles in any surviving narrative, and like the other Titanesses she is absent from the war.",
+   "variantTraditions": "The competing tradition, in the Homeric Hymn to Apollo and elsewhere, has Apollo seize Delphi by slaying Python, with no mention of an inheritance from Phoebe.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "crius",
+   "name": "Crius",
+   "sanskrit": "Κρεῖος",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of the south; the ram",
+   "wikipedia": "Crius",
+   "portrait": "portraits/greek/crius.webp",
+   "epithets": [
+    "The Ram"
+   ],
+   "domains": [
+    "the southern pillar",
+    "constellations",
+    "flocks"
+   ],
+   "symbols": [
+    "the ram"
+   ],
+   "mount": null,
+   "abode": "Mount Othrys, then Tartaros",
+   "festivals": [],
+   "worship": "",
+   "bio": "Titan of the southern quarter, father of Astraeus, Pallas and Perses.",
+   "longBio": "Crius is the least developed of the twelve Titans. He holds the southern corner of the sky in the ambush of Ouranos, and by Eurybia, daughter of Gaia and Pontos, he fathers Astraeus, father of the winds and stars; Pallas, father of Nike, Kratos, Bia and Zelos; and Perses, father of Hecate. He has no narrative and no cult. His name is the ordinary Greek word for ram, and later writers connected him with the constellation Aries, though this looks like an etymological inference rather than an inherited tradition. He fought with the Titans and was confined in Tartaros with them.",
+   "variantTraditions": "Some sources omit Crius from the twelve Titans entirely, substituting another name; his children are more prominent in the tradition than he is.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": []
+  },
+  {
+   "id": "iapetus",
+   "name": "Iapetus",
+   "sanskrit": "Ἰαπετός",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan ancestor of humankind",
+   "wikipedia": "Iapetus",
+   "portrait": "portraits/greek/iapetus.webp",
+   "epithets": [
+    "The Piercer"
+   ],
+   "domains": [
+    "mortality",
+    "craft and its consequences",
+    "the western pillar"
+   ],
+   "symbols": [
+    "the spear"
+   ],
+   "mount": null,
+   "abode": "Mount Othrys, then Tartaros",
+   "festivals": [],
+   "worship": "",
+   "bio": "Titan father of Prometheus, Epimetheus, Atlas and Menoetius.",
+   "longBio": "Iapetus holds the west in the ambush of Ouranos, and by the Oceanid Clymene he fathers four sons whose careers between them define the relationship of gods and men: Atlas, condemned to hold up the sky; Menoetius, struck down by Zeus for insolence; Prometheus, who steals fire and is punished for it; and Epimetheus, who accepts Pandora. Because Prometheus is credited in many accounts with making the first humans, and because all four sons are marked by overreach and its consequences, Iapetus came to be regarded as an ancestor of mortals and as a figure associated with the human condition. He himself does nothing beyond fathering them, and is confined in Tartaros after the war.",
+   "variantTraditions": "Iapetus was compared in antiquity and by later scholars with the biblical Japheth, though the connection is speculative. Some sources give his wife as Asia rather than Clymene.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": []
+  },
+  {
+   "id": "themis",
+   "name": "Themis",
+   "sanskrit": "Θέμις",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of divine law and right order",
+   "wikipedia": "Themis",
+   "portrait": "portraits/greek/themis.webp",
+   "epithets": [
+    "Lady of Good Counsel",
+    "The Right Order"
+   ],
+   "domains": [
+    "divine law",
+    "custom",
+    "assembly",
+    "prophecy"
+   ],
+   "symbols": [
+    "the scales",
+    "the sword",
+    "the blindfold in later art"
+   ],
+   "mount": null,
+   "abode": "Olympus, at the side of Zeus",
+   "festivals": [],
+   "worship": "Themis had altars and temples at Athens, Olympia and Delphi, and was invoked at the opening of assemblies and in matters of oath and hospitality.",
+   "bio": "Titan of established custom and right order, oracular predecessor at Delphi, and counsellor to Zeus.",
+   "longBio": "Themis is a Titan who ends up on the winning side and stays there. She holds the Delphic oracle after Gaia and before Phoebe in Aeschylus' account, and she becomes the second wife of Zeus, bearing the Horai, the seasons, and the Moirai, the Fates, in one common genealogy. Her domain is not law in the sense of legislation but the settled order of what is right and customary, which is why she presides over assemblies: it is Themis who calls the gods to council in the Iliad. She also has a strong prophetic aspect. In the Prometheus Bound, Aeschylus identifies her with Gaia and makes her the source of Prometheus' fatal knowledge about the marriage that would produce a son greater than his father, the secret that gives Prometheus leverage over Zeus. Her placement beside Zeus, advising rather than opposing, marks her as the point where the older order is absorbed rather than defeated.",
+   "variantTraditions": "Hesiod makes the Moirai daughters of Zeus and Themis in one passage and daughters of Nyx alone in another, an inconsistency the tradition never resolved. The Roman Justitia inherits her scales and becomes the modern figure of Justice.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "fate-time",
+    "wisdom-craft",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "mnemosyne",
+   "name": "Mnemosyne",
+   "sanskrit": "Μνημοσύνη",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of memory, mother of the Muses",
+   "wikipedia": "Mnemosyne",
+   "portrait": "portraits/greek/mnemosyne.webp",
+   "epithets": [
+    "Memory",
+    "Mother of the Muses"
+   ],
+   "domains": [
+    "memory",
+    "the preservation of words",
+    "poetry's source"
+   ],
+   "symbols": [
+    "the spring of memory"
+   ],
+   "mount": null,
+   "abode": "Mount Pieria, and Olympus",
+   "festivals": [],
+   "worship": "",
+   "bio": "Titan of memory, who bore the nine Muses to Zeus on nine successive nights.",
+   "longBio": "Mnemosyne is memory itself, and in a culture whose poetry was composed and transmitted orally that makes her foundational rather than decorative. Hesiod says Zeus lay with her for nine nights in Pieria and that she bore the nine Muses, who are invoked at the opening of epic precisely because the poet needs to be given what he cannot know first-hand. The Theogony's own proem is addressed to them. Beyond that genealogy she is barely a character. She acquires a further role in the mystery traditions: gold leaves buried with initiates in southern Italy and Crete instruct the dead to avoid the spring of Lethe, forgetfulness, and to drink instead from the pool of Mnemosyne, so that memory rather than oblivion becomes the mark of a soul that has escaped the ordinary round.",
+   "variantTraditions": "The number and names of the Muses vary in earlier sources; some traditions give three Muses rather than nine, and Pausanias records both.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "wisdom-craft",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "prometheus",
+   "name": "Prometheus",
+   "sanskrit": "Προμηθεύς",
+   "category": "titan",
+   "era": "Titan",
+   "role": "The Titan who stole fire for humankind",
+   "wikipedia": "Prometheus",
+   "portrait": "portraits/greek/prometheus.webp",
+   "epithets": [
+    "Forethought",
+    "Fire-Bringer",
+    "Friend of Mortals"
+   ],
+   "domains": [
+    "forethought",
+    "craft",
+    "fire",
+    "defiance of arbitrary power"
+   ],
+   "symbols": [
+    "the fennel stalk",
+    "the eagle",
+    "the unbroken chain"
+   ],
+   "mount": null,
+   "abode": "Bound to a crag in the Caucasus; afterwards free",
+   "festivals": [
+    "Prometheia at Athens, with a torch race run from his altar in the Academy"
+   ],
+   "worship": "Prometheus was honoured at Athens alongside Hephaestus and Athena as a patron of craftsmen, with an altar in the Academy from which torch races were run into the city.",
+   "bio": "The Titan who tricked Zeus, stole fire in a fennel stalk, and was bound to a rock for it.",
+   "longBio": "Prometheus, son of Iapetus, sides with Zeus in the Titanomachy but then twice takes the mortals' part against him. At Mecone he divides a sacrificial ox into two portions, hiding the meat under the ugly stomach and the bare bones under glistening fat, and invites Zeus to choose; Zeus takes the fat and the bones, and thereafter men keep the meat and burn the bones for the gods. In return Zeus withholds fire from mortals, and Prometheus steals it back in a hollow fennel stalk. His punishment is to be bound to a crag where an eagle eats his liver each day, the liver growing back each night, until Heracles shoots the eagle generations later. In Aeschylus he is given a further dimension: he knows a secret, that a particular marriage would produce a son greater than his father, and he refuses to tell it, so that his defiance is not merely theft but leverage. Aeschylus also credits him with giving mortals not just fire but number, writing, medicine and navigation.",
+   "variantTraditions": "In several sources, including Ovid and Pausanias, Prometheus also creates the first humans out of clay. Hesiod does not say this. The reconciliation with Zeus, in which the secret is finally told, came in Aeschylus' lost sequel Prometheus Unbound.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "messenger-trickster",
+    "wisdom-craft",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "atlas",
+   "name": "Atlas",
+   "sanskrit": "Ἄτλας",
+   "category": "titan",
+   "era": "Titan",
+   "role": "The Titan who holds up the sky",
+   "wikipedia": "Atlas (mythology)",
+   "portrait": "portraits/greek/atlas.webp",
+   "epithets": [
+    "The Enduring",
+    "Bearer of Heaven"
+   ],
+   "domains": [
+    "endurance",
+    "astronomy",
+    "the far west"
+   ],
+   "symbols": [
+    "the celestial sphere",
+    "the pillar"
+   ],
+   "mount": null,
+   "abode": "The far west, at the edge of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "Condemned after the Titanomachy to hold the sky apart from the earth for ever.",
+   "longBio": "Atlas, son of Iapetus, leads the Titans in the war and receives a punishment shaped to fit a leader: not confinement in Tartaros with the rest, but the endless labour of standing at the western edge of the world holding up the sky, keeping heaven and earth apart so that the arrangement Cronus overturned cannot recur. He is father of the Pleiades, the Hyades and, in most accounts, of Calypso. Two heroes meet him. Heracles, sent for the apples of the Hesperides, offers to take the burden while Atlas fetches them; Atlas returns and proposes to leave Heracles holding it permanently, and is tricked into taking it back for a moment while Heracles adjusts a pad on his shoulders. Perseus, refused hospitality, shows him the Gorgon's head and turns him to stone, which is offered as the origin of the Atlas mountains.",
+   "variantTraditions": "The two stories are inconsistent, since Atlas cannot both be turned to stone by Perseus and later meet Heracles; ancient writers noticed and generally kept them apart. Later allegorists made him an astronomer king of Mauretania, which is how his name came to be attached to books of maps.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "epimetheus",
+   "name": "Epimetheus",
+   "sanskrit": "Ἐπιμηθεύς",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Afterthought; the brother who accepted Pandora",
+   "wikipedia": "Epimetheus",
+   "portrait": "portraits/greek/epimetheus.webp",
+   "epithets": [
+    "Afterthought",
+    "The One Who Learns Too Late"
+   ],
+   "domains": [
+    "hindsight",
+    "the unconsidered consequence"
+   ],
+   "symbols": [
+    "the opened jar"
+   ],
+   "mount": null,
+   "abode": "Among mortals",
+   "festivals": [],
+   "worship": "",
+   "bio": "The brother of Prometheus, who accepted Zeus' gift of Pandora against warning.",
+   "longBio": "Epimetheus is defined entirely by contrast with his brother: where Prometheus is forethought, Epimetheus is the one who understands afterwards. Prometheus warns him never to accept a gift from Zeus and to send it straight back; Epimetheus takes Pandora anyway, and only realises the harm once it is done. Plato, in the Protagoras, gives a fuller version in which the two brothers are set to equip the newly made creatures, and Epimetheus asks to do the distributing himself. He gives out the available qualities - speed, claws, thick hides, wings - so freely to the animals that when he reaches humankind nothing is left, which is why Prometheus must then steal fire and craft to make good the shortfall. Epimetheus and Pandora have a daughter, Pyrrha, who with Deucalion survives the flood and repopulates the earth.",
+   "variantTraditions": "Hesiod's Works and Days and Theogony give slightly different accounts of Pandora's arrival; Plato's distribution story is a philosophical elaboration rather than an inherited myth.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": []
+  },
+  {
+   "id": "helios",
+   "name": "Helios",
+   "sanskrit": "Ἥλιος",
+   "category": "titan",
+   "era": "Titan",
+   "role": "The Sun, who sees and hears everything",
+   "wikipedia": "Helios",
+   "portrait": "portraits/greek/helios.webp",
+   "epithets": [
+    "All-Seeing",
+    "He Who Gives Light to Mortals and Immortals"
+   ],
+   "domains": [
+    "the sun",
+    "sight",
+    "oaths",
+    "the passing day"
+   ],
+   "symbols": [
+    "the four-horse chariot",
+    "the radiate crown"
+   ],
+   "mount": null,
+   "abode": "A palace in the east; he returns each night by the stream of Oceanus",
+   "festivals": [
+    "Halieia at Rhodes, with games and the sacrifice of a chariot team driven into the sea"
+   ],
+   "worship": "Helios' major cult was on Rhodes, where he was the chief god of the island and honoured with the Halieia; elsewhere he was more often invoked in oaths and curses than given temples.",
+   "bio": "The Sun, who drives his chariot across the sky daily and witnesses everything that happens.",
+   "longBio": "Helios, son of Hyperion and Theia, drives a chariot drawn by four horses from east to west each day and returns overnight in a golden cup floating on Oceanus. Because he sees everything, he functions in the tradition as a witness: it is Helios who tells Demeter that Hades has taken Persephone, and Helios who informs Hephaestus of Aphrodite's affair with Ares. Oaths are sworn by him for the same reason. His cattle graze on the island of Thrinacia, and when Odysseus' starving crew kill them he demands redress from Zeus and threatens to shine among the dead instead, which brings the thunderbolt that destroys the ship. His son Phaethon begs to drive the chariot for a day, loses control, scorches the earth and is struck down by Zeus. From the classical period onward Helios is increasingly identified with Apollo, though Homer and Hesiod keep them entirely distinct.",
+   "variantTraditions": "The identification of Helios with Apollo is a later development, common by the fifth century BCE and standard in Roman poetry, but absent from the earliest sources. Rhodes maintained an independent and vigorous cult of Helios, whose colossal statue stood at its harbour.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sun"
+   ]
+  },
+  {
+   "id": "selene",
+   "name": "Selene",
+   "sanskrit": "Σελήνη",
+   "category": "titan",
+   "era": "Titan",
+   "role": "The Moon",
+   "wikipedia": "Selene",
+   "portrait": "portraits/greek/selene.webp",
+   "epithets": [
+    "Bright-Crowned",
+    "The Shining One"
+   ],
+   "domains": [
+    "the moon",
+    "the month",
+    "sleep and dreaming"
+   ],
+   "symbols": [
+    "the crescent",
+    "the two-horse chariot",
+    "the torch"
+   ],
+   "mount": null,
+   "abode": "The night sky; the cave of Latmos in the story of Endymion",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Moon, sister of the Sun, who loved the sleeping shepherd Endymion.",
+   "longBio": "Selene, daughter of Hyperion and Theia, drives a chariot drawn by two horses across the night sky, wearing the crescent as a crown. Her best-known story concerns Endymion, a young shepherd or king of Elis with whom she falls in love; at her request, or by Zeus' decision, he is given eternal sleep and unfading youth in a cave on Mount Latmos, where she visits him, and she bears him fifty daughters. She is one of three moon-associated figures, alongside Artemis and Hecate, who are increasingly conflated from the classical period on, though in the early tradition Selene alone is the moon as a body. Her month-marking function gave her a role in ordinary reckoning that the mythology hardly reflects.",
+   "variantTraditions": "By the Hellenistic period Selene, Artemis and Hecate are often treated as three aspects of one goddess, an identification the Romans continued with Luna and Diana. The Endymion story is told with several different explanations for the sleep.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "moon"
+   ]
+  },
+  {
+   "id": "eos",
+   "name": "Eos",
+   "sanskrit": "Ἠώς",
+   "category": "titan",
+   "era": "Titan",
+   "role": "The Dawn",
+   "wikipedia": "Eos",
+   "portrait": "portraits/greek/eos.webp",
+   "epithets": [
+    "Rosy-Fingered",
+    "Saffron-Robed",
+    "Early-Born"
+   ],
+   "domains": [
+    "the dawn",
+    "the beginning of the day"
+   ],
+   "symbols": [
+    "the saffron robe",
+    "wings",
+    "the two-horse chariot"
+   ],
+   "mount": null,
+   "abode": "The eastern edge of the world, by the stream of Oceanus",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Dawn, who rises each morning and repeatedly carries off mortal youths.",
+   "longBio": "Eos, sister of Helios and Selene, rises from Oceanus each morning to bring light, and is given the standing epithet rosy-fingered in Homer. With Astraeus she bears the winds and the morning star. She is notorious for abducting handsome mortals, a pattern the tradition explains as a curse laid on her by Aphrodite for sleeping with Ares. Her most consequential victim is Tithonus, for whom she asks Zeus for immortality but forgets to ask for unending youth, so that he shrivels into extreme old age, babbling endlessly, and is finally shut away or turned into a cicada. Their son Memnon, king of the Ethiopians, is killed by Achilles at Troy, and Eos' grief for him is one of the more affecting scenes in the epic cycle; the morning dew was explained as her tears.",
+   "variantTraditions": "The Roman Aurora inherits her role directly. The Tithonus story is told in the Homeric Hymn to Aphrodite as a warning about the mismatch between gods and mortals.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "dawn"
+   ]
+  },
+  {
+   "id": "leto",
+   "name": "Leto",
+   "sanskrit": "Λητώ",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Mother of Apollo and Artemis",
+   "wikipedia": "Leto",
+   "portrait": "portraits/greek/leto.webp",
+   "epithets": [
+    "The Gentle",
+    "Bright-Robed"
+   ],
+   "domains": [
+    "motherhood",
+    "modesty",
+    "the protection of children"
+   ],
+   "symbols": [
+    "the veil",
+    "the palm tree of Delos"
+   ],
+   "mount": null,
+   "abode": "Delos, and afterwards Olympus",
+   "festivals": [],
+   "worship": "Leto was honoured principally alongside Apollo and Artemis, most substantially at the Letoon in Lycia and on Delos, where her cult was inseparable from her son's.",
+   "bio": "Titan daughter of Coeus and Phoebe, who bore Apollo and Artemis on Delos after long persecution by Hera.",
+   "longBio": "Leto, pregnant by Zeus, is refused a place to give birth by every land on earth, in most accounts because Hera has forbidden it or because the lands fear Hera's anger. Only Delos, a small floating island of no consequence, agrees, on the condition that Apollo will honour it with his temple; the island is thereafter anchored. Even there the birth is delayed, because Hera detains Eileithyia, goddess of childbirth, until the other goddesses bribe her with a great necklace. Artemis is born first and, in a detail the tradition enjoys, assists at the birth of her brother. Leto's later appearances are chiefly as a mother defended by her children: when Niobe boasts of having many children where Leto has only two, Apollo and Artemis shoot every one of Niobe's; when the giant Tityos assaults her, they kill him.",
+   "variantTraditions": "Some accounts have Artemis born on Ortygia rather than Delos. Leto had an important independent cult in Lycia, where a major sanctuary, the Letoon, was shared with her children.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "asteria",
+   "name": "Asteria",
+   "sanskrit": "Ἀστερία",
+   "category": "titan",
+   "era": "Titan",
+   "role": "Titan of the falling stars and of night oracles",
+   "wikipedia": "Asteria",
+   "portrait": "portraits/greek/asteria.webp",
+   "epithets": [
+    "The Starry One"
+   ],
+   "domains": [
+    "falling stars",
+    "prophetic dreams",
+    "night divination"
+   ],
+   "symbols": [
+    "the star",
+    "the quail"
+   ],
+   "mount": null,
+   "abode": "The island of Delos, which the tradition identifies with her",
+   "festivals": [],
+   "worship": "",
+   "bio": "Titan sister of Leto, who became the island of Delos to escape Zeus.",
+   "longBio": "Asteria, daughter of Coeus and Phoebe, bears Hecate to Perses, which makes her the mother of the goddess of crossroads and witchcraft. Her own story is one of escape: pursued by Zeus, she turns herself into a quail and flings herself into the sea, becoming a floating island. That island is identified with Delos, so that the place which alone will receive her sister Leto in labour is Asteria herself, a connection the Homeric Hymn to Apollo and Callimachus both draw out. She is among the very few figures in the tradition to evade Zeus successfully, at the cost of ceasing to be a person. Her associations with night, stars and prophetic dreams are attested but thin.",
+   "variantTraditions": "Callimachus' Hymn to Delos develops the identification of Asteria with the island most fully; older sources sometimes keep the island and the Titaness separate.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "fate-time"
+   ]
+  }
+ ],
+ "links": []
+}
