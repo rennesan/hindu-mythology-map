@@ -70,8 +70,153 @@
   "systemMechanism": "The Mandate of Heaven and the celestial bureaucracy. Heaven confers the right to rule on the virtuous and withdraws it from the corrupt, which makes rebellion legitimate once the mandate has visibly lapsed - floods, famines and portents are read as notice of withdrawal. Order is maintained by correct office-holding at every level, from the Jade Emperor down to the god of a single village's earth.",
   "canonTexts": "The Shanhaijing (Classic of Mountains and Seas), the Huainanzi, the Chuci, the Shujing, the Daoist canon including the Zhuangzi, and the Ming vernacular novels Fengshen Yanyi and Journey to the West, which fixed much of the popular pantheon in the form it still has."
  },
- "hierarchy": [],
- "groups": [],
+ "hierarchy": [
+  {
+   "title": "Before the Separation",
+   "blurb": "A cosmic egg, a giant who holds heaven and earth apart until he dies of it, a woman with a serpent's body who makes people out of clay and later patches the broken sky with melted stone.",
+   "memberIds": [
+    "pangu",
+    "nuwa",
+    "fuxi",
+    "gonggong"
+   ],
+   "connectorCaption": "The sky is propped, the people are made, and the world is set in order"
+  },
+  {
+   "title": "The Sage Kings",
+   "blurb": "Culture heroes and model rulers who invent agriculture, medicine, writing and flood control. Yao passes over his own son for a commoner, and that abdication becomes the founding argument that legitimacy rests on virtue.",
+   "memberIds": [
+    "huangdi",
+    "shennong",
+    "yao",
+    "shun",
+    "yu"
+   ],
+   "connectorCaption": "Heaven confers the mandate on the virtuous and withdraws it from the corrupt"
+  },
+  {
+   "title": "The Celestial Court",
+   "blurb": "Heaven is a civil service. Gods hold ranks and offices, file reports, are promoted, censured and replaced, and the Jade Emperor governs through ministries that mirror the imperial ones exactly.",
+   "memberIds": [
+    "jade-emperor",
+    "xiwangmu",
+    "yanwang",
+    "longwang",
+    "leigong"
+   ],
+   "connectorCaption": "Mortals of merit are enrolled into it, and a stone monkey storms its gates"
+  },
+  {
+   "title": "The Immortals",
+   "blurb": "Transcendence is achievable. The Eight Immortals are a beggar, a cripple, a scholar, a general, an imperial in-law and a singer of indeterminate sex, which is the point: the group is meant to include every kind of person.",
+   "memberIds": [
+    "ludongbin",
+    "zhongli",
+    "litieguai",
+    "hexiangu",
+    "sunwukong"
+   ],
+   "connectorCaption": "Below them, the gods people actually pray to"
+  },
+  {
+   "title": "The Gods of Daily Life",
+   "blurb": "The deities of the household, the shop, the harbour and the village street. Several were mortals - a general, a fisherman's daughter, a failed examination candidate - promoted after death by decree.",
+   "memberIds": [
+    "guanyin",
+    "guandi",
+    "mazu",
+    "caishen",
+    "tudigong",
+    "zaoshen"
+   ],
+   "connectorCaption": "And at the edges: beasts that announce good government, and what breaks it"
+  },
+  {
+   "title": "Beasts and Demons",
+   "blurb": "The qilin and the fenghuang appear only under a just ruler, so their arrival is a political statement. The demons are what the New Year, the doorway and the pilgrimage road are defended against.",
+   "memberIds": [
+    "qilin",
+    "fenghuang",
+    "sixiang",
+    "nian",
+    "baigujing",
+    "taotie"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "eight",
+   "label": "The Eight Immortals",
+   "memberIds": [
+    "zhongli",
+    "ludongbin",
+    "litieguai",
+    "hexiangu",
+    "zhangguolao",
+    "hanxiangzi",
+    "caoguojiu",
+    "lancaihe"
+   ]
+  },
+  {
+   "id": "journey",
+   "label": "The Journey to the West",
+   "memberIds": [
+    "tangsanzang",
+    "sunwukong",
+    "zhubajie",
+    "shawujing",
+    "guanyin"
+   ]
+  },
+  {
+   "id": "sagekings",
+   "label": "The Sage Kings",
+   "memberIds": [
+    "huangdi",
+    "shennong",
+    "yao",
+    "shun",
+    "yu"
+   ]
+  },
+  {
+   "id": "court",
+   "label": "The Celestial Bureaucracy",
+   "memberIds": [
+    "jade-emperor",
+    "xiwangmu",
+    "yanwang",
+    "longwang",
+    "leigong",
+    "zaoshen",
+    "tudigong"
+   ]
+  },
+  {
+   "id": "promoted",
+   "label": "Mortals Made Gods",
+   "memberIds": [
+    "guandi",
+    "mazu",
+    "zhongkui",
+    "ludongbin",
+    "change"
+   ]
+  },
+  {
+   "id": "auspicious",
+   "label": "The Auspicious Beasts",
+   "memberIds": [
+    "qilin",
+    "fenghuang",
+    "sixiang",
+    "longwang"
+   ]
+  }
+ ],
  "stories": [],
  "entities": [
   {
@@ -1910,5 +2055,612 @@
    ]
   }
  ],
- "links": []
+ "links": [
+  {
+   "from": "pangu",
+   "to": "nuwa",
+   "type": "ally",
+   "note": "she works on the world his body became"
+  },
+  {
+   "from": "nuwa",
+   "to": "fuxi",
+   "type": "sibling",
+   "note": "sister and wife both, in Han tomb art with tails entwined"
+  },
+  {
+   "from": "nuwa",
+   "to": "fuxi",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "gonggong",
+   "to": "zhurong",
+   "type": "enemy",
+   "note": "his defeat is what breaks the pillar of heaven"
+  },
+  {
+   "from": "gonggong",
+   "to": "nuwa",
+   "type": "enemy",
+   "note": "she patched the sky he cracked"
+  },
+  {
+   "from": "nuwa",
+   "to": "gonggong",
+   "type": "enemy",
+   "note": ""
+  },
+  {
+   "from": "xihe",
+   "to": "houyi",
+   "type": "enemy",
+   "note": "he shot nine of her ten sun-children out of the sky"
+  },
+  {
+   "from": "fuxi",
+   "to": "huangdi",
+   "type": "guru",
+   "note": "first of the culture heroes the later sovereigns inherit from"
+  },
+  {
+   "from": "huangdi",
+   "to": "chiyou",
+   "type": "enemy",
+   "note": "defeated at Zhuolu with the south-pointing chariot"
+  },
+  {
+   "from": "shennong",
+   "to": "huangdi",
+   "type": "sibling",
+   "note": "the Flame Emperor and the Yellow Emperor, treated as kin in later systematising"
+  },
+  {
+   "from": "shennong",
+   "to": "yao",
+   "type": "guru",
+   "note": "agriculture handed down to the model reigns"
+  },
+  {
+   "from": "yao",
+   "to": "shun",
+   "type": "guru",
+   "note": "tested him for years, then gave him the empire over his own son"
+  },
+  {
+   "from": "shun",
+   "to": "yu",
+   "type": "guru",
+   "note": "appointed him to the flood, then passed him the throne"
+  },
+  {
+   "from": "yao",
+   "to": "houyi",
+   "type": "ally",
+   "note": "sent him to shoot the suns"
+  },
+  {
+   "from": "zhurong",
+   "to": "yu",
+   "type": "enemy",
+   "note": "executed his father Gun for stealing heaven's soil"
+  },
+  {
+   "from": "chiyou",
+   "to": "guandi",
+   "type": "form",
+   "note": "both became gods of war worshipped by later armies"
+  },
+  {
+   "from": "houyi",
+   "to": "change",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "change",
+   "to": "houyi",
+   "type": "enemy",
+   "note": "she took the whole elixir and left him mortal"
+  },
+  {
+   "from": "xiwangmu",
+   "to": "houyi",
+   "type": "guru",
+   "note": "gave him the elixir of immortality"
+  },
+  {
+   "from": "change",
+   "to": "zhubajie",
+   "type": "enemy",
+   "note": "his drunken advances to her got him banished into a pig's body"
+  },
+  {
+   "from": "jade-emperor",
+   "to": "xiwangmu",
+   "type": "ally",
+   "note": "the two highest powers of the Daoist heaven"
+  },
+  {
+   "from": "jade-emperor",
+   "to": "longwang",
+   "type": "guru",
+   "note": "sets the rain quotas the dragon kings must deliver"
+  },
+  {
+   "from": "jade-emperor",
+   "to": "leigong",
+   "type": "guru",
+   "note": "the Ministry of Thunder reports to him"
+  },
+  {
+   "from": "jade-emperor",
+   "to": "yanwang",
+   "type": "guru",
+   "note": "the courts of Diyu are a department of the same state"
+  },
+  {
+   "from": "jade-emperor",
+   "to": "zaoshen",
+   "type": "guru",
+   "note": "receives the kitchen god's annual report on every household"
+  },
+  {
+   "from": "jade-emperor",
+   "to": "tudigong",
+   "type": "guru",
+   "note": "the lowest office in the same civil service"
+  },
+  {
+   "from": "jade-emperor",
+   "to": "erlang",
+   "type": "ally",
+   "note": "his nephew, and the one who could take Sun Wukong"
+  },
+  {
+   "from": "zaoshen",
+   "to": "tudigong",
+   "type": "ally",
+   "note": "the two household and locality gods people actually deal with"
+  },
+  {
+   "from": "leigong",
+   "to": "yanwang",
+   "type": "ally",
+   "note": "thunder punishes what human courts miss; Diyu handles the rest"
+  },
+  {
+   "from": "longwang",
+   "to": "mazu",
+   "type": "enemy",
+   "note": "the sea's danger against the goddess who calms it"
+  },
+  {
+   "from": "yanwang",
+   "to": "zhongkui",
+   "type": "ally",
+   "note": "the demon queller works the same jurisdiction"
+  },
+  {
+   "from": "sunwukong",
+   "to": "jade-emperor",
+   "type": "enemy",
+   "note": "given a stable-hand's post, and wrecked heaven over it"
+  },
+  {
+   "from": "sunwukong",
+   "to": "xiwangmu",
+   "type": "enemy",
+   "note": "ate the peaches of immortality and ruined her banquet"
+  },
+  {
+   "from": "sunwukong",
+   "to": "longwang",
+   "type": "enemy",
+   "note": "bullied Ao Guang out of the iron pillar that became his staff"
+  },
+  {
+   "from": "sunwukong",
+   "to": "yanwang",
+   "type": "enemy",
+   "note": "struck his own name out of the register of the dead"
+  },
+  {
+   "from": "sunwukong",
+   "to": "erlang",
+   "type": "enemy",
+   "note": "matched him transformation for transformation and lost"
+  },
+  {
+   "from": "sunwukong",
+   "to": "nezha",
+   "type": "enemy",
+   "note": "one of the celestial commanders sent against him"
+  },
+  {
+   "from": "guanyin",
+   "to": "tangsanzang",
+   "type": "guru",
+   "note": "assembled and supervised the pilgrimage"
+  },
+  {
+   "from": "guanyin",
+   "to": "sunwukong",
+   "type": "guru",
+   "note": "gave Tang Sanzang the headband that controls him"
+  },
+  {
+   "from": "guanyin",
+   "to": "zhubajie",
+   "type": "guru",
+   "note": "converted him on the road"
+  },
+  {
+   "from": "guanyin",
+   "to": "shawujing",
+   "type": "guru",
+   "note": "converted him at the Flowing Sands River"
+  },
+  {
+   "from": "tangsanzang",
+   "to": "sunwukong",
+   "type": "guru",
+   "note": "master and disciple, and the headband chant"
+  },
+  {
+   "from": "tangsanzang",
+   "to": "sunwukong",
+   "type": "enemy",
+   "note": "punished him repeatedly for killing disguised demons"
+  },
+  {
+   "from": "tangsanzang",
+   "to": "zhubajie",
+   "type": "guru",
+   "note": ""
+  },
+  {
+   "from": "tangsanzang",
+   "to": "shawujing",
+   "type": "guru",
+   "note": ""
+  },
+  {
+   "from": "sunwukong",
+   "to": "zhubajie",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "sunwukong",
+   "to": "shawujing",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "zhubajie",
+   "to": "shawujing",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "baigujing",
+   "to": "tangsanzang",
+   "type": "enemy",
+   "note": "took three human forms to reach his flesh"
+  },
+  {
+   "from": "sunwukong",
+   "to": "baigujing",
+   "type": "enemy",
+   "note": "killed her three times and was expelled for it"
+  },
+  {
+   "from": "baigujing",
+   "to": "guanyin",
+   "type": "enemy",
+   "note": ""
+  },
+  {
+   "from": "zhongli",
+   "to": "ludongbin",
+   "type": "guru",
+   "note": "recruited him with the millet dream"
+  },
+  {
+   "from": "zhongli",
+   "to": "caoguojiu",
+   "type": "guru",
+   "note": "found him in the mountains and accepted him"
+  },
+  {
+   "from": "ludongbin",
+   "to": "caoguojiu",
+   "type": "guru",
+   "note": ""
+  },
+  {
+   "from": "zhongli",
+   "to": "litieguai",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "zhongli",
+   "to": "hexiangu",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "zhongli",
+   "to": "zhangguolao",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "zhongli",
+   "to": "hanxiangzi",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "zhongli",
+   "to": "lancaihe",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "ludongbin",
+   "to": "litieguai",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "ludongbin",
+   "to": "hexiangu",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "ludongbin",
+   "to": "zhangguolao",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "ludongbin",
+   "to": "hanxiangzi",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "ludongbin",
+   "to": "lancaihe",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "litieguai",
+   "to": "hexiangu",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "zhangguolao",
+   "to": "hanxiangzi",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "hanxiangzi",
+   "to": "lancaihe",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "litieguai",
+   "to": "lancaihe",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "xiwangmu",
+   "to": "zhongli",
+   "type": "guru",
+   "note": "the peach banquet the Eight attend"
+  },
+  {
+   "from": "xiwangmu",
+   "to": "ludongbin",
+   "type": "guru",
+   "note": ""
+  },
+  {
+   "from": "longwang",
+   "to": "litieguai",
+   "type": "enemy",
+   "note": "the Eight cross the sea and quarrel with the dragon kings"
+  },
+  {
+   "from": "longwang",
+   "to": "lancaihe",
+   "type": "enemy",
+   "note": "his sea-crossing is what starts the quarrel"
+  },
+  {
+   "from": "longwang",
+   "to": "nezha",
+   "type": "enemy",
+   "note": "he killed the dragon king's son and pulled out his sinews"
+  },
+  {
+   "from": "nezha",
+   "to": "erlang",
+   "type": "ally",
+   "note": "both celestial marshals of the same command"
+  },
+  {
+   "from": "nezha",
+   "to": "jade-emperor",
+   "type": "devotee",
+   "note": "Marshal of the Central Altar"
+  },
+  {
+   "from": "guandi",
+   "to": "jade-emperor",
+   "type": "devotee",
+   "note": "a mortal general enrolled by imperial decree, repeatedly promoted"
+  },
+  {
+   "from": "mazu",
+   "to": "jade-emperor",
+   "type": "devotee",
+   "note": "a fisherman's daughter raised to Empress of Heaven"
+  },
+  {
+   "from": "zhongkui",
+   "to": "jade-emperor",
+   "type": "devotee",
+   "note": "a failed candidate made king of ghosts"
+  },
+  {
+   "from": "caishen",
+   "to": "jade-emperor",
+   "type": "devotee",
+   "note": ""
+  },
+  {
+   "from": "yuelao",
+   "to": "jade-emperor",
+   "type": "devotee",
+   "note": "keeps the book of marriages for the same administration"
+  },
+  {
+   "from": "guanyin",
+   "to": "jade-emperor",
+   "type": "ally",
+   "note": "a Buddhist bodhisattva working alongside a Daoist court"
+  },
+  {
+   "from": "yuelao",
+   "to": "zhinu",
+   "type": "ally",
+   "note": "the matchmaker and the tradition's most famous separated couple"
+  },
+  {
+   "from": "zhinu",
+   "to": "jade-emperor",
+   "type": "enemy",
+   "note": "his court took her back and drew the Milky Way between them"
+  },
+  {
+   "from": "xiwangmu",
+   "to": "zhinu",
+   "type": "enemy",
+   "note": "drew the hairpin that made the river of stars"
+  },
+  {
+   "from": "guandi",
+   "to": "mazu",
+   "type": "ally",
+   "note": "the two mortals most widely worshipped after deification"
+  },
+  {
+   "from": "mazu",
+   "to": "guanyin",
+   "type": "ally",
+   "note": "frequently housed in the same temple, and sometimes conflated"
+  },
+  {
+   "from": "qilin",
+   "to": "huangdi",
+   "type": "ally",
+   "note": "appears in the reign of a benevolent ruler"
+  },
+  {
+   "from": "qilin",
+   "to": "yao",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "qilin",
+   "to": "shun",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "fenghuang",
+   "to": "xiwangmu",
+   "type": "mount",
+   "note": "the phoenix of her mountain"
+  },
+  {
+   "from": "fenghuang",
+   "to": "qilin",
+   "type": "ally",
+   "note": "the two auspicious beasts of a well-governed reign"
+  },
+  {
+   "from": "sixiang",
+   "to": "pangu",
+   "type": "ally",
+   "note": "the four quarters of the sky his body became"
+  },
+  {
+   "from": "sixiang",
+   "to": "fenghuang",
+   "type": "form",
+   "note": "the Vermilion Bird of the south is counted as one of the four"
+  },
+  {
+   "from": "sixiang",
+   "to": "longwang",
+   "type": "form",
+   "note": "the Azure Dragon of the east"
+  },
+  {
+   "from": "nian",
+   "to": "zhongkui",
+   "type": "enemy",
+   "note": "both are driven off at the turn of the year"
+  },
+  {
+   "from": "taotie",
+   "to": "shennong",
+   "type": "enemy",
+   "note": "gluttony against the god who taught people to farm"
+  },
+  {
+   "from": "nian",
+   "to": "tudigong",
+   "type": "enemy",
+   "note": "the village god against the beast that comes for the village"
+  },
+  {
+   "from": "yanwang",
+   "to": "guanyin",
+   "type": "ally",
+   "note": "both arrived from India and were fitted into a Chinese frame"
+  },
+  {
+   "from": "sunwukong",
+   "to": "guanyin",
+   "type": "devotee",
+   "note": "she is the only power he consistently obeys"
+  },
+  {
+   "from": "houyi",
+   "to": "sunwukong",
+   "type": "form",
+   "note": "the archer-hero and the stone monkey, a millennium of tradition apart"
+  },
+  {
+   "from": "pangu",
+   "to": "sixiang",
+   "type": "parent",
+   "note": "his body divided into the quarters they govern"
+  }
+ ]
 }
