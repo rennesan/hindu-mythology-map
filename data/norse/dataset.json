@@ -70,8 +70,163 @@
   "systemMechanism": "Fate outranks the gods. The Norns carve what will happen at the roots of the world tree, and neither Odin's knowledge nor Thor's strength alters it; Odin gathers warriors for a battle he knows he loses. What the tradition values is not escape but conduct - knowing the ending and going to meet it anyway, which is the nearest thing Norse religion has to a doctrine.",
   "canonTexts": "The Poetic Edda, an anonymous collection of older verse; Snorri Sturluson's Prose Edda of about 1220; Heimskringla; the legendary and family sagas, above all the Volsunga Saga; and Saxo Grammaticus' Latin Gesta Danorum."
  },
- "hierarchy": [],
- "groups": [],
+ "hierarchy": [
+  {
+   "title": "Before the World",
+   "blurb": "Fire and ice meet across the yawning gap and the rime quickens into a giant. There is no creator here, only a first body and a cow who feeds it, and at the southern edge a fire-giant already waiting with a sword.",
+   "memberIds": [
+    "ymir",
+    "audhumla",
+    "surtr",
+    "nidhogg"
+   ],
+   "connectorCaption": "Odin and his brothers kill the giant and build the world from his body"
+  },
+  {
+   "title": "The Aesir",
+   "blurb": "The gods of Asgard are strong, quarrelsome and mortal. They stay young on Idunn's apples, they can be killed, and they know in detail how each of them will die.",
+   "memberIds": [
+    "odin",
+    "thor",
+    "frigg",
+    "tyr",
+    "heimdall",
+    "baldr"
+   ],
+   "connectorCaption": "A war with the Vanir ends in an exchange of hostages"
+  },
+  {
+   "title": "The Vanir",
+   "blurb": "An older tribe of gods concerned with harvest, sea, wealth and magic rather than war and kingship. Njord, Freyr and Freyja come to Asgard as hostages of the truce and stay.",
+   "memberIds": [
+    "njord",
+    "freyr",
+    "freyja",
+    "kvasir"
+   ],
+   "connectorCaption": "The giants press from outside, and one of them lives inside the walls"
+  },
+  {
+   "title": "The Giants",
+   "blurb": "Older than the gods and not simply their enemies: the Aesir marry them, learn from them and depend on them. Loki is one, sworn brother to Odin and resident in Asgard.",
+   "memberIds": [
+    "loki",
+    "skadi",
+    "mimir",
+    "thjazi",
+    "utgarda-loki",
+    "aegir"
+   ],
+   "connectorCaption": "Loki's three children are cast out, and each becomes exactly what was feared"
+  },
+  {
+   "title": "The Brood and the Bound",
+   "blurb": "Every measure taken against Loki's children is what makes the prophecy happen. The serpent thrown in the sea grows to circle the world; the wolf raised in Asgard and then betrayed kills Odin.",
+   "memberIds": [
+    "fenrir",
+    "jormungandr",
+    "hel",
+    "garmr",
+    "sigyn"
+   ],
+   "connectorCaption": "Beneath all of it, three women at a well carve what will happen"
+  },
+  {
+   "title": "Fate, and Those Who Meet It",
+   "blurb": "The Norns outrank the gods, and neither Odin's knowledge nor Thor's strength alters a line of it. What the tradition values is not escape but conduct: knowing the ending and going to meet it.",
+   "memberIds": [
+    "norns",
+    "valkyries",
+    "sigurd",
+    "brynhildr",
+    "sigmund",
+    "gudrun"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "aesir",
+   "label": "The Aesir",
+   "memberIds": [
+    "odin",
+    "thor",
+    "frigg",
+    "baldr",
+    "tyr",
+    "heimdall",
+    "bragi",
+    "idunn",
+    "sif",
+    "forseti"
+   ]
+  },
+  {
+   "id": "vanir",
+   "label": "The Vanir",
+   "memberIds": [
+    "njord",
+    "freyr",
+    "freyja",
+    "kvasir"
+   ]
+  },
+  {
+   "id": "brood",
+   "label": "The Children of Loki",
+   "memberIds": [
+    "loki",
+    "angrboda",
+    "fenrir",
+    "jormungandr",
+    "hel",
+    "sleipnir"
+   ]
+  },
+  {
+   "id": "ragnarok",
+   "label": "The Fall",
+   "memberIds": [
+    "odin",
+    "fenrir",
+    "thor",
+    "jormungandr",
+    "freyr",
+    "surtr",
+    "tyr",
+    "garmr",
+    "heimdall",
+    "loki",
+    "vidar"
+   ]
+  },
+  {
+   "id": "volsungs",
+   "label": "The Volsung Cycle",
+   "memberIds": [
+    "sigmund",
+    "sigurd",
+    "brynhildr",
+    "gudrun",
+    "regin",
+    "fafnir",
+    "andvari"
+   ]
+  },
+  {
+   "id": "treasures",
+   "label": "The Forging of the Treasures",
+   "memberIds": [
+    "brokkr",
+    "loki",
+    "thor",
+    "odin",
+    "freyr",
+    "sif"
+   ]
+  }
+ ],
  "stories": [],
  "entities": [
   {
@@ -2030,5 +2185,792 @@
    ]
   }
  ],
- "links": []
+ "links": [
+  {
+   "from": "audhumla",
+   "to": "ymir",
+   "type": "ally",
+   "note": "her milk fed him; she licked the first god out of the ice"
+  },
+  {
+   "from": "odin",
+   "to": "ymir",
+   "type": "enemy",
+   "note": "killed him with his brothers and built the world from the body"
+  },
+  {
+   "from": "ymir",
+   "to": "thrym",
+   "type": "parent",
+   "note": "all frost-giants descend from him"
+  },
+  {
+   "from": "ymir",
+   "to": "thjazi",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "ymir",
+   "to": "hrungnir",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "ymir",
+   "to": "angrboda",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "ymir",
+   "to": "mimir",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "ymir",
+   "to": "aegir",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "ymir",
+   "to": "utgarda-loki",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "surtr",
+   "to": "ymir",
+   "type": "ally",
+   "note": "older than the world, and waiting at its edge from the first"
+  },
+  {
+   "from": "odin",
+   "to": "frigg",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "odin",
+   "to": "thor",
+   "type": "parent",
+   "note": "his mother is Jord, the earth"
+  },
+  {
+   "from": "odin",
+   "to": "baldr",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "frigg",
+   "to": "baldr",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "odin",
+   "to": "hodr",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "frigg",
+   "to": "hodr",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "odin",
+   "to": "vidar",
+   "type": "parent",
+   "note": "on the giantess Grid"
+  },
+  {
+   "from": "odin",
+   "to": "vali",
+   "type": "parent",
+   "note": "fathered on Rind expressly to avenge Baldr"
+  },
+  {
+   "from": "odin",
+   "to": "hermod",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "odin",
+   "to": "heimdall",
+   "type": "parent",
+   "note": "borne by nine mothers, generally the daughters of the sea"
+  },
+  {
+   "from": "odin",
+   "to": "bragi",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "baldr",
+   "to": "hodr",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "baldr",
+   "to": "thor",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "vidar",
+   "to": "vali",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "baldr",
+   "to": "vali",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "baldr",
+   "to": "nanna",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "baldr",
+   "to": "forseti",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "nanna",
+   "to": "forseti",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "thor",
+   "to": "sif",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "sif",
+   "to": "ullr",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "thor",
+   "to": "ullr",
+   "type": "foster",
+   "note": "his stepson"
+  },
+  {
+   "from": "bragi",
+   "to": "idunn",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "loki",
+   "to": "odin",
+   "type": "ally",
+   "note": "sworn blood-brothers, which is why the Aesir tolerate him"
+  },
+  {
+   "from": "loki",
+   "to": "sigyn",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "loki",
+   "to": "angrboda",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "loki",
+   "to": "fenrir",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "angrboda",
+   "to": "fenrir",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "loki",
+   "to": "jormungandr",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "angrboda",
+   "to": "jormungandr",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "loki",
+   "to": "hel",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "angrboda",
+   "to": "hel",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "loki",
+   "to": "sleipnir",
+   "type": "parent",
+   "note": "bore the foal himself, as a mare"
+  },
+  {
+   "from": "fenrir",
+   "to": "jormungandr",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "fenrir",
+   "to": "hel",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "jormungandr",
+   "to": "hel",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "loki",
+   "to": "baldr",
+   "type": "enemy",
+   "note": "found the mistletoe and guided the blind hand"
+  },
+  {
+   "from": "loki",
+   "to": "hodr",
+   "type": "guru",
+   "note": "directed the throw"
+  },
+  {
+   "from": "loki",
+   "to": "sif",
+   "type": "enemy",
+   "note": "cut off her hair out of pure malice"
+  },
+  {
+   "from": "loki",
+   "to": "idunn",
+   "type": "enemy",
+   "note": "lured her out of Asgard for Thjazi"
+  },
+  {
+   "from": "loki",
+   "to": "heimdall",
+   "type": "enemy",
+   "note": "they fought as seals, and kill each other at the end"
+  },
+  {
+   "from": "sigyn",
+   "to": "loki",
+   "type": "devotee",
+   "note": "holds the bowl under the venom until Ragnarok"
+  },
+  {
+   "from": "skadi",
+   "to": "loki",
+   "type": "enemy",
+   "note": "fixed the serpent above his face"
+  },
+  {
+   "from": "loki",
+   "to": "thor",
+   "type": "ally",
+   "note": "travels with him, and repeatedly causes what he must then fix"
+  },
+  {
+   "from": "njord",
+   "to": "freyr",
+   "type": "parent",
+   "note": "born to Njord's own sister, before he joined the Aesir"
+  },
+  {
+   "from": "njord",
+   "to": "freyja",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "freyr",
+   "to": "freyja",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "njord",
+   "to": "skadi",
+   "type": "consort",
+   "note": "the marriage failed over whether to live by the sea or in the mountains"
+  },
+  {
+   "from": "freyr",
+   "to": "gerdr",
+   "type": "consort",
+   "note": "won at the price of the sword he needs at Ragnarok"
+  },
+  {
+   "from": "odin",
+   "to": "njord",
+   "type": "ally",
+   "note": "hostage exchange ending the Aesir-Vanir war"
+  },
+  {
+   "from": "odin",
+   "to": "kvasir",
+   "type": "parent",
+   "note": "formed from the spittle of both tribes at the truce"
+  },
+  {
+   "from": "njord",
+   "to": "kvasir",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "freyja",
+   "to": "odin",
+   "type": "guru",
+   "note": "she taught him seidr"
+  },
+  {
+   "from": "freyja",
+   "to": "loki",
+   "type": "ally",
+   "note": "lends him the falcon cloak, repeatedly"
+  },
+  {
+   "from": "thjazi",
+   "to": "skadi",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "thjazi",
+   "to": "idunn",
+   "type": "enemy",
+   "note": "carried her and the apples out of Asgard"
+  },
+  {
+   "from": "odin",
+   "to": "thjazi",
+   "type": "enemy",
+   "note": "killed inside the walls of Asgard"
+  },
+  {
+   "from": "skadi",
+   "to": "odin",
+   "type": "enemy",
+   "note": "came armed to avenge her father, and settled instead"
+  },
+  {
+   "from": "thrym",
+   "to": "thor",
+   "type": "enemy",
+   "note": "buried Mjollnir eight leagues deep and demanded Freyja"
+  },
+  {
+   "from": "thrym",
+   "to": "freyja",
+   "type": "enemy",
+   "note": "demanded her as his bride"
+  },
+  {
+   "from": "hrungnir",
+   "to": "thor",
+   "type": "enemy",
+   "note": "killed in the first formal duel"
+  },
+  {
+   "from": "hrungnir",
+   "to": "odin",
+   "type": "enemy",
+   "note": "raced him into Asgard"
+  },
+  {
+   "from": "utgarda-loki",
+   "to": "thor",
+   "type": "enemy",
+   "note": "beat him at three contests with illusions"
+  },
+  {
+   "from": "utgarda-loki",
+   "to": "loki",
+   "type": "enemy",
+   "note": ""
+  },
+  {
+   "from": "aegir",
+   "to": "odin",
+   "type": "ally",
+   "note": "brews the ale and hosts the gods"
+  },
+  {
+   "from": "loki",
+   "to": "aegir",
+   "type": "enemy",
+   "note": "insulted every god present at his feast"
+  },
+  {
+   "from": "surtr",
+   "to": "freyr",
+   "type": "enemy",
+   "note": "kills him at Ragnarok, the sword being gone"
+  },
+  {
+   "from": "mimir",
+   "to": "odin",
+   "type": "guru",
+   "note": "sold him a drink from the well for an eye"
+  },
+  {
+   "from": "mimir",
+   "to": "njord",
+   "type": "enemy",
+   "note": "sent as hostage to the Vanir, who beheaded him"
+  },
+  {
+   "from": "gerdr",
+   "to": "freyr",
+   "type": "enemy",
+   "note": "yielded only under threat of a rune-carved curse"
+  },
+  {
+   "from": "tyr",
+   "to": "fenrir",
+   "type": "enemy",
+   "note": "gave his hand as the pledge that bound him"
+  },
+  {
+   "from": "odin",
+   "to": "fenrir",
+   "type": "enemy",
+   "note": "swallowed by him at Ragnarok"
+  },
+  {
+   "from": "vidar",
+   "to": "fenrir",
+   "type": "enemy",
+   "note": "tears his jaws apart, avenging Odin"
+  },
+  {
+   "from": "thor",
+   "to": "jormungandr",
+   "type": "enemy",
+   "note": "kills it and walks nine paces before the venom"
+  },
+  {
+   "from": "odin",
+   "to": "jormungandr",
+   "type": "enemy",
+   "note": "threw it into the sea, where it grew"
+  },
+  {
+   "from": "odin",
+   "to": "hel",
+   "type": "enemy",
+   "note": "cast her down and gave her the ninth world"
+  },
+  {
+   "from": "hermod",
+   "to": "hel",
+   "type": "enemy",
+   "note": "rode nine nights to ransom Baldr from her"
+  },
+  {
+   "from": "hel",
+   "to": "baldr",
+   "type": "enemy",
+   "note": "keeps him, one giantess having refused to weep"
+  },
+  {
+   "from": "garmr",
+   "to": "tyr",
+   "type": "enemy",
+   "note": "they kill each other"
+  },
+  {
+   "from": "garmr",
+   "to": "hel",
+   "type": "devotee",
+   "note": "guards the road to her hall"
+  },
+  {
+   "from": "nidhogg",
+   "to": "ratatoskr",
+   "type": "enemy",
+   "note": "the squirrel carries insults to him from the eagle"
+  },
+  {
+   "from": "heimdall",
+   "to": "loki",
+   "type": "enemy",
+   "note": ""
+  },
+  {
+   "from": "surtr",
+   "to": "odin",
+   "type": "enemy",
+   "note": "burns the nine worlds after the battle"
+  },
+  {
+   "from": "norns",
+   "to": "odin",
+   "type": "guru",
+   "note": "they set the fate even he cannot alter"
+  },
+  {
+   "from": "norns",
+   "to": "ymir",
+   "type": "ally",
+   "note": "they tend the tree that grows through the world he became"
+  },
+  {
+   "from": "valkyries",
+   "to": "odin",
+   "type": "devotee",
+   "note": "choose the slain and carry them to Valhalla"
+  },
+  {
+   "from": "valkyries",
+   "to": "freyja",
+   "type": "devotee",
+   "note": "she takes half the fallen, and chooses first"
+  },
+  {
+   "from": "brynhildr",
+   "to": "valkyries",
+   "type": "form",
+   "note": "a valkyrie punished with sleep and mortality"
+  },
+  {
+   "from": "odin",
+   "to": "brynhildr",
+   "type": "enemy",
+   "note": "pricked her with a sleep-thorn for choosing the wrong king"
+  },
+  {
+   "from": "sleipnir",
+   "to": "odin",
+   "type": "mount",
+   "note": ""
+  },
+  {
+   "from": "sleipnir",
+   "to": "hermod",
+   "type": "mount",
+   "note": "borrowed for the ride to Hel"
+  },
+  {
+   "from": "huginn",
+   "to": "odin",
+   "type": "devotee",
+   "note": "thought and memory, flying out daily and reporting"
+  },
+  {
+   "from": "audhumla",
+   "to": "odin",
+   "type": "parent",
+   "note": "licked his grandfather Buri out of the rime"
+  },
+  {
+   "from": "brokkr",
+   "to": "thor",
+   "type": "ally",
+   "note": "forged Mjollnir, short in the handle because of a fly"
+  },
+  {
+   "from": "brokkr",
+   "to": "odin",
+   "type": "ally",
+   "note": "forged Gungnir and Draupnir"
+  },
+  {
+   "from": "brokkr",
+   "to": "freyr",
+   "type": "ally",
+   "note": "forged the golden boar"
+  },
+  {
+   "from": "brokkr",
+   "to": "loki",
+   "type": "enemy",
+   "note": "won the wager and sewed his lips shut"
+  },
+  {
+   "from": "brokkr",
+   "to": "sif",
+   "type": "ally",
+   "note": "the golden hair that replaced what Loki cut"
+  },
+  {
+   "from": "andvari",
+   "to": "loki",
+   "type": "enemy",
+   "note": "robbed of his hoard, he cursed the ring as it went"
+  },
+  {
+   "from": "andvari",
+   "to": "fafnir",
+   "type": "enemy",
+   "note": "the curse works first on him"
+  },
+  {
+   "from": "fafnir",
+   "to": "regin",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "fafnir",
+   "to": "sigurd",
+   "type": "enemy",
+   "note": "killed from a pit dug in his track"
+  },
+  {
+   "from": "regin",
+   "to": "sigurd",
+   "type": "foster",
+   "note": "raised him to kill his own brother"
+  },
+  {
+   "from": "regin",
+   "to": "sigurd",
+   "type": "enemy",
+   "note": "intended to kill him for the gold, and was beheaded first"
+  },
+  {
+   "from": "sigmund",
+   "to": "sigurd",
+   "type": "parent",
+   "note": "born after his father's death"
+  },
+  {
+   "from": "odin",
+   "to": "sigmund",
+   "type": "guru",
+   "note": "set the sword in the tree, and later shattered it"
+  },
+  {
+   "from": "sigurd",
+   "to": "brynhildr",
+   "type": "consort",
+   "note": "sworn, then forgotten by a drink"
+  },
+  {
+   "from": "sigurd",
+   "to": "gudrun",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "brynhildr",
+   "to": "sigurd",
+   "type": "enemy",
+   "note": "had him murdered, then burned on his pyre"
+  },
+  {
+   "from": "brynhildr",
+   "to": "gudrun",
+   "type": "enemy",
+   "note": "the quarrel at the river uncovers the deception"
+  },
+  {
+   "from": "gudrun",
+   "to": "sigurd",
+   "type": "devotee",
+   "note": "could not weep until they made her look at the body"
+  },
+  {
+   "from": "andvari",
+   "to": "sigurd",
+   "type": "enemy",
+   "note": "the curse takes him too"
+  },
+  {
+   "from": "andvari",
+   "to": "gudrun",
+   "type": "enemy",
+   "note": ""
+  },
+  {
+   "from": "valkyries",
+   "to": "sigurd",
+   "type": "ally",
+   "note": "Brynhildr taught him runes when he woke her"
+  },
+  {
+   "from": "gefjon",
+   "to": "odin",
+   "type": "ally",
+   "note": "ploughed Zealand out of Sweden"
+  },
+  {
+   "from": "forseti",
+   "to": "tyr",
+   "type": "ally",
+   "note": "the two gods of law and settlement"
+  },
+  {
+   "from": "ullr",
+   "to": "odin",
+   "type": "ally",
+   "note": "oaths were sworn on his ring"
+  },
+  {
+   "from": "kvasir",
+   "to": "odin",
+   "type": "guru",
+   "note": "his blood became the mead Odin stole"
+  },
+  {
+   "from": "bragi",
+   "to": "kvasir",
+   "type": "devotee",
+   "note": "poetry descends from the mead"
+  },
+  {
+   "from": "idunn",
+   "to": "thor",
+   "type": "ally",
+   "note": "her apples keep him young with the rest"
+  },
+  {
+   "from": "nanna",
+   "to": "hel",
+   "type": "devotee",
+   "note": "died of grief and went with Baldr"
+  },
+  {
+   "from": "aegir",
+   "to": "njord",
+   "type": "ally",
+   "note": "the two powers of the sea, giant and god"
+  }
+ ]
 }
