@@ -1,0 +1,641 @@
+{
+ "title": "Japanese Mythology: Figures, Relationships and Story Cycles",
+ "description": "The kami of the Kojiki and Nihon Shoki mapped as a relationship graph: Izanagi and Izanami, Amaterasu in the cave, Susanoo and the eight-headed serpent, the descent of the imperial line, and the yokai of the folk tradition.",
+ "generated": "2026-08-20",
+ "sources": [
+  "The Kojiki, translated by Basil Hall Chamberlain (1882)",
+  "Nihongi, translated by W. G. Aston (1896)",
+  "F. Hadland Davis, Myths and Legends of Japan (1912)",
+  "Lafcadio Hearn, Kwaidan (1904)",
+  "W. G. Aston, Shinto: The Way of the Gods (1905)",
+  "Yei Theodora Ozaki, Japanese Fairy Tales (1908)"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/japanese/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "kojiki": {
+   "t": "The Kojiki, Records of Ancient Matters",
+   "tr": "Basil Hall Chamberlain, 1882",
+   "u": "https://sacred-texts.com/shi/kj/index.htm"
+  },
+  "nihongi": {
+   "t": "Nihongi, Chronicles of Japan",
+   "tr": "W. G. Aston, 1896",
+   "u": "https://sacred-texts.com/shi/nihon0.htm"
+  },
+  "davis": {
+   "t": "Myths and Legends of Japan",
+   "tr": "F. Hadland Davis, 1912",
+   "u": "https://sacred-texts.com/shi/mljp/index.htm"
+  },
+  "hearn": {
+   "t": "Kwaidan: Stories and Studies of Strange Things",
+   "tr": "Lafcadio Hearn, 1904",
+   "u": "https://sacred-texts.com/shi/kwaidan/index.htm"
+  },
+  "aston": {
+   "t": "Shinto: The Way of the Gods",
+   "tr": "W. G. Aston, 1905",
+   "u": "https://archive.org/details/shintowayofgods00asto"
+  },
+  "ozaki": {
+   "t": "Japanese Fairy Tales",
+   "tr": "Yei Theodora Ozaki, 1908",
+   "u": "https://sacred-texts.com/shi/jft/index.htm"
+  }
+ },
+ "meta": {
+  "id": "japanese",
+  "label": "Japanese",
+  "sublabel": "Shinto & folklore",
+  "accent": "#d98383",
+  "root": "izanagi"
+ },
+ "profile": {
+  "cosmicNature": "Continuous, with no beginning made and no ending foretold. The first kami do not create the world - they 'come into being' in it, spontaneously, and then hide themselves. There is no creation from nothing, no cosmic war, and strikingly no eschatology at all: nothing in the tradition says the world will end. Time simply continues, and the imperial line continues with it.",
+  "natureOfDivinity": "Immanent and innumerable. Kami is not a class of powerful beings but a quality: anything that inspires awe can be kami - a mountain, an old tree, a waterfall, a remarkable person, an ancestor, a fox. They are conventionally counted as yaoyorozu, eight million, meaning uncountable. They are local before they are cosmic, and a shrine is usually to the kami of that specific place rather than to a universal god.",
+  "afterlife": "Yomi, the land of the dead, is not a punishment and has no judge. It is simply polluted - Izanami eats its food and cannot return, and Izanagi's visit leaves him needing a bath rather than absolution. Buddhist afterlives with judgment and rebirth were layered on from the sixth century and now do most of the funerary work, which is why Japanese funerals are overwhelmingly Buddhist while weddings and births are Shinto.",
+  "systemMechanism": "Purity against pollution, not good against evil. Kegare - the defilement of death, blood, sickness and disorder - is the problem, and the answer is ritual cleansing rather than repentance: misogi with water, harae with a wand. Susanoo is not punished for wickedness but expelled for pollution. Alongside this runs the political mechanism the chronicles were written to establish: the emperor descends from Amaterasu.",
+  "canonTexts": "The Kojiki (712) and the Nihon Shoki (720), both court compilations; the provincial Fudoki; the Engishiki's ritual prayers; and, for the folk stream, Edo-period yokai compendia and the collections of Hearn and others."
+ },
+ "hierarchy": [],
+ "groups": [],
+ "stories": [],
+ "entities": [
+  {
+   "id": "amenominakanushi",
+   "name": "Amenominakanushi",
+   "sanskrit": "天之御中主神",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The first kami, who came into being and hid",
+   "wikipedia": "Ame-no-Minakanushi",
+   "portrait": "portraits/japanese/amenominakanushi.webp",
+   "epithets": [
+    "Lord of the August Centre of Heaven",
+    "First of the Kotoamatsukami"
+   ],
+   "domains": [
+    "the centre of heaven",
+    "the beginning that does nothing"
+   ],
+   "symbols": [
+    "absence",
+    "the unmarked centre"
+   ],
+   "mount": null,
+   "abode": "The Plain of High Heaven, then hidden",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first kami to come into being at the start of heaven and earth, who immediately concealed himself and did nothing further.",
+   "longBio": "The Kojiki opens by saying that when heaven and earth began, three kami came into being in the Plain of High Heaven, of whom Amenominakanushi was first - and then that all three hid themselves. That is the entire account. He does not create, command, father anyone or reappear. This is one of the most distinctive things about the Japanese tradition: it does not begin with a maker. Things come into being, and the first ones to do so promptly withdraw, leaving the work to later generations. Seven generations of kami follow before Izanagi and Izanami do anything at all. Later Shinto theologians, particularly in the Edo period and under some Meiji influence, tried to promote him into a supreme creator god, which the text gives them very little to work with.",
+   "variantTraditions": "The elevation of Amenominakanushi to a supreme deity is a much later theological project, not a reading the Kojiki supports.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "izanagi",
+   "name": "Izanagi",
+   "sanskrit": "伊邪那岐",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "He Who Invites; father of the islands and of the great kami",
+   "wikipedia": "Izanagi",
+   "portrait": "portraits/japanese/izanagi.webp",
+   "epithets": [
+    "He Who Invites",
+    "The August Male"
+   ],
+   "domains": [
+    "creation of the islands",
+    "purification",
+    "the fathering of the three noble children"
+   ],
+   "symbols": [
+    "the jewelled spear Amenonuhoko",
+    "the floating bridge of heaven",
+    "the peaches"
+   ],
+   "mount": null,
+   "abode": "Awaji, and afterwards a hidden palace",
+   "festivals": [],
+   "worship": "",
+   "bio": "With Izanami he stirred the sea into the first island, and after her death he fathered Amaterasu, Tsukuyomi and Susanoo by washing.",
+   "longBio": "Izanagi and Izanami stand on the floating bridge of heaven and stir the brine below with a jewelled spear; the drops that fall from its tip make the first island. They descend, marry, and produce the islands of Japan and a great many kami. Their first attempt fails because Izanami spoke first in the marriage ritual - which the chronicles present as an error to be corrected, and which is one of several places where the text's politics show. Izanami dies giving birth to fire. Izanagi follows her into Yomi, is horrified by what he finds, and flees. Then, washing the pollution off in a river, he produces his most important children from the act of cleaning himself: Amaterasu from his left eye, Tsukuyomi from his right, and Susanoo from his nose.",
+   "variantTraditions": "The Nihon Shoki gives several alternative versions of nearly every episode side by side, prefaced 'in one writing it is said', which is unusual candour for a chronicle.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "sky-thunder"
+   ]
+  },
+  {
+   "id": "izanami",
+   "name": "Izanami",
+   "sanskrit": "伊邪那美",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "She Who Invites; mother of the islands, and of death",
+   "wikipedia": "Izanami",
+   "portrait": "portraits/japanese/izanami.webp",
+   "epithets": [
+    "She Who Invites",
+    "The August Female",
+    "Great Deity of Yomi"
+   ],
+   "domains": [
+    "birth",
+    "the land",
+    "death",
+    "Yomi"
+   ],
+   "symbols": [
+    "the rotting body",
+    "the peaches at the pass",
+    "the great boulder"
+   ],
+   "mount": null,
+   "abode": "Yomi, the land of the dead",
+   "festivals": [],
+   "worship": "",
+   "bio": "She bore the islands and died bearing fire; when her husband saw her decayed in Yomi she pursued him and became death itself.",
+   "longBio": "Izanami bears the islands and the kami, and is fatally burned giving birth to Kagutsuchi, fire. Izanagi goes down to Yomi to bring her back. She says she has already eaten the food of that place but will ask its powers, and asks him not to look at her. He waits, grows impatient, breaks a tooth from his comb for a torch, and sees her rotting and full of maggots. Shamed and enraged, she sends the hags of Yomi after him, and he escapes by throwing down his headdress and comb, which become grapes and bamboo shoots, and finally peaches. At the pass they part with the exchange that establishes mortality: she promises to strangle a thousand people a day, and he answers that he will cause fifteen hundred to be born.",
+   "variantTraditions": "The Yomi descent has clear structural parallels with Orpheus and with Persephone, and the parallels are usually treated as typological rather than as evidence of contact.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "kagutsuchi",
+   "name": "Kagutsuchi",
+   "sanskrit": "迦具土",
+   "category": "kami",
+   "era": "Primordial",
+   "role": "The fire whose birth killed his mother",
+   "wikipedia": "Kagu-tsuchi",
+   "portrait": "portraits/japanese/kagutsuchi.webp",
+   "epithets": [
+    "The Fire-Shining Prince",
+    "Homusubi"
+   ],
+   "domains": [
+    "fire",
+    "the forge",
+    "conflagration"
+   ],
+   "symbols": [
+    "flame",
+    "the ten-span sword that killed him"
+   ],
+   "mount": null,
+   "abode": "Cut into eight pieces, each a mountain",
+   "festivals": [],
+   "worship": "",
+   "bio": "His birth burned Izanami to death, and his father cut him apart in grief, each piece becoming a mountain kami.",
+   "longBio": "Kagutsuchi is the last child Izanami bears and the one that kills her, burning her as he is born. Izanagi, weeping, takes his ten-span sword and cuts off the infant's head, and from the blood on the blade, the blood dripping from the rocks, and the eight severed pieces of the body come a further set of kami - including Takemikazuchi the thunder-sword and the mountain kami. The episode is characteristic of the Kojiki's method: every act of violence is also a genealogy, and the world fills up with kami as a by-product of grief and anger. Fire kami are treated seriously in practice, since Japanese towns were built of wood and paper, and shrines to fire-quelling kami are common.",
+   "variantTraditions": "Kagutsuchi is called Homusubi in the Nihon Shoki, one of many places where the two chronicles differ in name.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "fire"
+   ]
+  },
+  {
+   "id": "amaterasu",
+   "name": "Amaterasu",
+   "sanskrit": "天照大御神",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "The sun goddess, ancestor of the imperial line",
+   "wikipedia": "Amaterasu",
+   "portrait": "portraits/japanese/amaterasu.webp",
+   "epithets": [
+    "Great Divinity Illuminating Heaven",
+    "Ruler of the Plain of High Heaven"
+   ],
+   "domains": [
+    "the sun",
+    "weaving",
+    "the imperial line",
+    "the ordering of heaven"
+   ],
+   "symbols": [
+    "the mirror Yata no Kagami",
+    "the sun disc",
+    "the sacred rice fields"
+   ],
+   "mount": null,
+   "abode": "The Plain of High Heaven; her shrine at Ise",
+   "festivals": [
+    "The Kannamesai and Niinamesai rice offerings",
+    "the Ise Shikinen Sengu rebuilding every twenty years"
+   ],
+   "worship": "The Grand Shrine at Ise is her seat and the most sacred site in Shinto; it has been demolished and rebuilt on an adjacent plot every twenty years for over a millennium.",
+   "bio": "Born from Izanagi's left eye; she withdrew into a cave and had to be lured out, and her descendants rule Japan.",
+   "longBio": "Amaterasu is the most important kami and, unusually among world traditions, the sun is female and the moon her brother. She rules the Plain of High Heaven and tends its rice fields and weaving hall. Her brother Susanoo's escalating outrages - breaking the paddy dykes, defiling her hall, and finally flinging a flayed horse through the roof of the weaving room so that a weaver is killed - drive her into the rock cave of heaven, and the world goes dark. The kami gather outside and lure her out with a mirror, a rooster and Ame-no-Uzume's dance. Her grandson Ninigi is sent down to rule the land, carrying the mirror, jewel and sword that are still the imperial regalia, and from him the imperial house descends.",
+   "variantTraditions": "The chronicles were compiled to establish exactly that descent, and Amaterasu's supremacy over other kami may owe as much to the political programme as to older belief.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sun",
+    "earth-mother",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "tsukuyomi",
+   "name": "Tsukuyomi",
+   "sanskrit": "月読",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "The moon, who killed the food goddess and lost his sister",
+   "wikipedia": "Tsukuyomi",
+   "portrait": "portraits/japanese/tsukuyomi.webp",
+   "epithets": [
+    "The Moon-Counter",
+    "Lord of the Night"
+   ],
+   "domains": [
+    "the moon",
+    "the night",
+    "the reckoning of months"
+   ],
+   "symbols": [
+    "the moon disc",
+    "the sword"
+   ],
+   "mount": null,
+   "abode": "The realm of night, apart from his sister",
+   "festivals": [],
+   "worship": "",
+   "bio": "Born from Izanagi's right eye; he killed Ukemochi over a meal and Amaterasu never looked at him again.",
+   "longBio": "Tsukuyomi is the least developed of the three noble children and has one significant story. Sent by Amaterasu to visit the food goddess Ukemochi, he is served a feast she produces from her own mouth and body - rice from her mouth, fish from the sea, game from the land. Disgusted at being offered what he sees as filth, he kills her. From her corpse come the crops: millet from her forehead, rice from her belly, wheat and beans from other parts, and the silkworm from her eyebrows. Amaterasu, told what he has done, declares him a wicked deity and refuses to look at him ever again - and that is why the sun and moon are never in the sky together. It is a small, cold story, and it is nearly all he has.",
+   "variantTraditions": "The Kojiki attributes the killing of the food goddess to Susanoo instead, and calls her Ogetsuhime; the Nihon Shoki gives it to Tsukuyomi.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "moon"
+   ]
+  },
+  {
+   "id": "susanoo",
+   "name": "Susanoo",
+   "sanskrit": "須佐之男",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "Storm god, exile, and dragon-slayer",
+   "wikipedia": "Susanoo",
+   "portrait": "portraits/japanese/susanoo.webp",
+   "epithets": [
+    "His Swift Impetuous Male Augustness",
+    "Ruler of the Sea",
+    "Lord of Izumo"
+   ],
+   "domains": [
+    "storms",
+    "the sea",
+    "unruliness",
+    "the killing of the serpent"
+   ],
+   "symbols": [
+    "the ten-span sword",
+    "the Kusanagi sword taken from the serpent's tail",
+    "the rice-straw rope"
+   ],
+   "mount": null,
+   "abode": "Izumo, after his expulsion from heaven",
+   "festivals": [],
+   "worship": "Yasaka Shrine in Kyoto and the Izumo shrines are his principal seats; the Gion Festival is associated with him as a warder-off of plague.",
+   "bio": "Expelled from heaven for pollution, he descended to Izumo, killed the eight-headed serpent, and became a founder rather than a villain.",
+   "longBio": "Susanoo is born from Izanagi's nose and refuses his assignment, weeping until the mountains wither because he wants to go to his mother in Yomi. Sent to say goodbye to Amaterasu, he behaves so badly in heaven - breaking the rice dykes, fouling the hall, throwing a flayed horse into the weaving room - that she hides in a cave and he is expelled, his beard cut and his nails pulled out. Then the character turns completely. In Izumo he finds an old couple weeping over the last of their eight daughters, due to be eaten by the eight-headed serpent Yamata no Orochi. He gets the serpent drunk on eight vats of sake, cuts it apart, finds a sword in its tail, marries the girl, and composes the first Japanese poem. He is not redeemed; he was always both.",
+   "variantTraditions": "The Izumo material may preserve a rival tradition to the Yamato court's, and Susanoo's demotion in heaven and prominence in Izumo has been read politically.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "wind-storm",
+    "sea-waters",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "uzume",
+   "name": "Ame-no-Uzume",
+   "sanskrit": "天鈿女",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "Who danced the sun out of the cave",
+   "wikipedia": "Ame-no-Uzume",
+   "portrait": "portraits/japanese/uzume.webp",
+   "epithets": [
+    "The Great Persuader",
+    "The Heavenly Alarming Female"
+   ],
+   "domains": [
+    "dance",
+    "mirth",
+    "the arts of performance",
+    "boldness"
+   ],
+   "symbols": [
+    "the overturned tub",
+    "the sasa grass",
+    "bells"
+   ],
+   "mount": null,
+   "abode": "The Plain of High Heaven",
+   "festivals": [],
+   "worship": "",
+   "bio": "She danced on an overturned tub outside the cave until the assembled kami laughed loud enough to make Amaterasu curious.",
+   "longBio": "With the sun hidden and the world dark, eight hundred kami gather at the cave and try everything. What works is Ame-no-Uzume. She binds up her sleeves with vine, takes bamboo grass in her hand, sets an empty tub upside down before the cave, and dances on it, stamping until it booms, and in her ecstasy pulls down her dress. The eight hundred kami roar with laughter. Amaterasu, who cannot imagine what there is to laugh about in a dark world, slides the rock door open a crack to ask - and is shown her own face in a mirror held up as another and greater deity, and drawn out while a rope is stretched behind her. She is also the one who faces down Sarutahiko on the road of the descent, by staring him out.",
+   "variantTraditions": "Uzume is the patron of kagura and of the performing arts generally, and the story is regularly read as the origin of ritual dance.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "love-desire",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "omoikane",
+   "name": "Omoikane",
+   "sanskrit": "思金神",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "The kami of counsel who devised the plan",
+   "wikipedia": "Omoikane",
+   "portrait": "portraits/japanese/omoikane.webp",
+   "epithets": [
+    "He Who Combines Thoughts",
+    "The Wise Counsellor"
+   ],
+   "domains": [
+    "deliberation",
+    "planning",
+    "the pooling of many minds"
+   ],
+   "symbols": [
+    "the assembled thoughts",
+    "the mirror commissioned"
+   ],
+   "mount": null,
+   "abode": "The dry bed of the river of heaven",
+   "festivals": [],
+   "worship": "",
+   "bio": "When the sun hid, the eight hundred kami gathered and put the problem to him, and he designed the solution.",
+   "longBio": "Omoikane's name means something like the one who combines the thoughts of many, and his function is exactly that: when the kami assemble in the dry bed of the heavenly river with an emergency, they refer it to him and he produces a plan. For the cave he specifies the whole apparatus - long-crying birds to be made to crow, a mirror to be forged, jewels strung, a sakaki tree uprooted and hung with them, prayers, and Uzume's dance - and it works. He is consulted again over who should be sent down to pacify the land before Ninigi's descent. He is a rare thing in mythology: a deity of committee work who is genuinely good at it, and whose contribution is procedure rather than power.",
+   "variantTraditions": "Omoikane is a son of Takamimusubi, one of the three original hidden kami, which quietly gives the planning function a very old pedigree.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "takemikazuchi",
+   "name": "Takemikazuchi",
+   "sanskrit": "建御雷",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "The thunder-sword who won the land by an arm-wrestle",
+   "wikipedia": "Takemikazuchi",
+   "portrait": "portraits/japanese/takemikazuchi.webp",
+   "epithets": [
+    "The Brave Awful Possessing Male",
+    "Kami of Thunder and Swords"
+   ],
+   "domains": [
+    "thunder",
+    "swords",
+    "martial contest",
+    "the pacification of the land"
+   ],
+   "symbols": [
+    "the sword set upright on a wave",
+    "the catfish held down by a rock"
+   ],
+   "mount": null,
+   "abode": "Kashima Shrine",
+   "festivals": [],
+   "worship": "",
+   "bio": "Born from the blood on the sword that killed the fire kami, he sat on a sword-point and won Japan in the first sumo match.",
+   "longBio": "Takemikazuchi comes into being from the blood on Izanagi's blade after the killing of Kagutsuchi. When heaven decides the land below must be handed over before Ninigi descends, he is sent with another kami; they plant a sword upright on the crest of a wave and sit cross-legged on its point to make their demand. Okuninushi refers them to his sons. One agrees; the other, Takeminakata, seizes Takemikazuchi's hand, which turns into an icicle and then a sword blade, and is crushed and thrown - the encounter is traditionally regarded as the first sumo bout. Takemikazuchi is also credited with pinning down the giant catfish whose movements cause earthquakes, with a foundation stone at Kashima.",
+   "variantTraditions": "The earthquake-catfish association is Edo-period and produced a whole genre of popular prints after the 1855 Ansei quake.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sky-thunder",
+    "war"
+   ]
+  },
+  {
+   "id": "sarutahiko",
+   "name": "Sarutahiko",
+   "sanskrit": "猿田彦",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "The crossroads kami who guided the descent",
+   "wikipedia": "Sarutahiko Ōkami",
+   "portrait": "portraits/japanese/sarutahiko.webp",
+   "epithets": [
+    "Kami of the Crossroads",
+    "The Great Guide"
+   ],
+   "domains": [
+    "crossroads",
+    "guidance",
+    "the meeting of heaven and earth",
+    "martial arts"
+   ],
+   "symbols": [
+    "an enormous nose",
+    "eyes like mirrors",
+    "a red face"
+   ],
+   "mount": null,
+   "abode": "Ise, at the crossing of the eight roads",
+   "festivals": [],
+   "worship": "",
+   "bio": "A huge red-faced kami who blocked the road of the descent and became its guide, and married the dancer who faced him.",
+   "longBio": "As Ninigi's party comes down, they find the way blocked by an enormous kami standing at the eight crossroads of heaven, seven spans tall with a nose seven hands long, a red face and eyes that glow like mirrors. Nobody dares approach him except Ame-no-Uzume, who is sent because, the text says, she can outface anyone; she bares her breast and stares him down and asks who he is. He turns out to be entirely friendly - he has come to offer himself as a guide. He leads the party to earth, and afterwards marries Uzume. His appearance later shaped the standard image of the tengu, and he is regarded as a patron of martial arts and of safe travel.",
+   "variantTraditions": "The physical description of Sarutahiko is widely thought to have fed into the long-nosed tengu of later folklore.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "messenger-trickster",
+    "war"
+   ]
+  },
+  {
+   "id": "ninigi",
+   "name": "Ninigi",
+   "sanskrit": "瓊瓊杵尊",
+   "category": "imperial",
+   "era": "Age of the Gods",
+   "role": "The grandson sent down to rule the land",
+   "wikipedia": "Ninigi-no-Mikoto",
+   "portrait": "portraits/japanese/ninigi.webp",
+   "epithets": [
+    "The Heavenly Grandchild",
+    "Bearer of the Three Regalia"
+   ],
+   "domains": [
+    "the descent from heaven",
+    "rice cultivation",
+    "the founding of the imperial line"
+   ],
+   "symbols": [
+    "the mirror, jewel and sword",
+    "the rice ears",
+    "Mount Takachiho"
+   ],
+   "mount": null,
+   "abode": "Takachiho in Hyuga",
+   "festivals": [],
+   "worship": "",
+   "bio": "Amaterasu sent him down with mirror, jewel and sword to rule the islands, and he chose the wrong bride.",
+   "longBio": "Ninigi is sent down from heaven to rule the land, carrying the three items - the mirror Yata no Kagami, the jewel Yasakani no Magatama and the sword Kusanagi - that remain the Japanese imperial regalia to this day. He descends on Mount Takachiho with an escort of kami. Offered the two daughters of the mountain kami, he takes the beautiful Konohanasakuya and sends back her elder sister Iwanaga, Rock-Long, who is ugly. Their father explains what he has thrown away: had he kept Iwanaga, his descendants' lives would have been enduring as rock; taking only Konohanasakuya, they will be brilliant and brief as blossom. That is the Japanese account of why emperors, and people, die.",
+   "variantTraditions": "The regalia are real objects in imperial custody; they are not displayed, and no reigning emperor is said to have seen the mirror.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "konohanasakuya",
+   "name": "Konohanasakuya",
+   "sanskrit": "木花之佐久夜毘売",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "Blossom Princess; kami of Mount Fuji",
+   "wikipedia": "Konohanasakuya-hime",
+   "portrait": "portraits/japanese/konohanasakuya.webp",
+   "epithets": [
+    "Blossom-Blooming Princess",
+    "Kami of Mount Fuji"
+   ],
+   "domains": [
+    "cherry blossom",
+    "volcanoes",
+    "the brevity of life",
+    "childbirth"
+   ],
+   "symbols": [
+    "the cherry blossom",
+    "Mount Fuji",
+    "the burning hut"
+   ],
+   "mount": null,
+   "abode": "Mount Fuji",
+   "festivals": [],
+   "worship": "The Sengen shrines around and on Mount Fuji are hers; climbers have long prayed at them.",
+   "bio": "Ninigi's bride, who proved her fidelity by giving birth in a burning hut, and whose choosing made human life short.",
+   "longBio": "Konohanasakuya is chosen by Ninigi over her elder sister, and the choice is why life is short and lovely rather than long and dull. She conceives after a single night, and Ninigi doubts the child is his. Her answer is not argument but ordeal: she builds a doorless hut, seals herself inside, sets it alight, and declares that if the child is a heavenly grandchild's it will come to no harm. She gives birth to three sons in the fire, unharmed. She is the kami of Mount Fuji, and her shrines ring it; the volcano and the blossom belong to the same figure, which is a very precise piece of symbolism - both are beautiful, both are brief, and one of them will kill you.",
+   "variantTraditions": "Her identification with Fuji is somewhat later than the Kojiki, which does not make the connection explicitly.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "iwanaga",
+   "name": "Iwanaga",
+   "sanskrit": "石長比売",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "Rock-Long Princess, the sister sent back",
+   "wikipedia": "Iwanaga-hime",
+   "portrait": "portraits/japanese/iwanaga.webp",
+   "epithets": [
+    "Rock-Long Princess",
+    "The Rejected Sister"
+   ],
+   "domains": [
+    "endurance",
+    "long life",
+    "the durability that was refused"
+   ],
+   "symbols": [
+    "stone",
+    "the mountain"
+   ],
+   "mount": null,
+   "abode": "The mountains",
+   "festivals": [],
+   "worship": "",
+   "bio": "Ninigi returned her for being ugly, and with her went the enduring life she would have given his line.",
+   "longBio": "Iwanaga is offered to Ninigi alongside her sister by their father the mountain kami, and Ninigi sends her back because she is ugly. Her father's response is one of the sharpest passages in the Kojiki: he explains that he sent both deliberately, so that the heavenly grandchild's life would be enduring as rock through Iwanaga and flourishing as blossom through her sister, and that by keeping only one he has chosen a life that blooms and falls. From this, the text says, the lives of the emperors have been short - and by extension so are everyone's. Iwanaga herself is given almost nothing beyond her rejection, which makes the story bleaker: the thing that was refused does not get a voice.",
+   "variantTraditions": "Some later folk traditions give Iwanaga a more active role, cursing the shortness of human life rather than merely embodying the loss.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "fate-time"
+   ]
+  },
+  {
+   "id": "okuninushi",
+   "name": "Okuninushi",
+   "sanskrit": "大国主",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "Lord of the Great Land, who built the country and handed it over",
+   "wikipedia": "Ōkuninushi",
+   "portrait": "portraits/japanese/okuninushi.webp",
+   "epithets": [
+    "Master of the Great Land",
+    "Kami of Izumo",
+    "The Great Physician"
+   ],
+   "domains": [
+    "nation-building",
+    "medicine",
+    "marriage and matchmaking",
+    "agriculture"
+   ],
+   "symbols": [
+    "the rice bales",
+    "the mallet",
+    "the white hare",
+    "the Izumo shrine"
+   ],
+   "mount": null,
+   "abode": "Izumo",
+   "festivals": [
+    "Kamiarizuki, when the kami of all Japan are said to gather at Izumo in the tenth month"
+   ],
+   "worship": "Izumo Taisha is one of the oldest and most important shrines in Japan, and is visited particularly for matchmaking.",
+   "bio": "A younger son abused by eighty brothers who built up the land, then ceded it to heaven for a great shrine.",
+   "longBio": "Okuninushi begins as the put-upon youngest of eighty brothers, carrying their bags on a courtship journey. He stops to help a flayed hare his brothers have tormented, telling it to wash in fresh water and roll in cattail pollen; the hare, a kami in disguise, tells him he will win the princess instead of them. They kill him twice for it and he is revived twice. He escapes to the underworld, survives Susanoo's tests, steals his sword, bow and koto, and elopes with his daughter. Then he builds up the land - agriculture, medicine, fisheries. When heaven demands it for Ninigi, he agrees to hand it over on one condition: a shrine as tall as the palace of heaven. Izumo Taisha is that shrine.",
+   "variantTraditions": "The Izumo cycle sits oddly inside a Yamato court document, and is widely read as an incorporated rival tradition, its concession negotiated rather than forced.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "king-ruler",
+    "healer",
+    "love-desire"
+   ]
+  }
+ ],
+ "links": []
+}
