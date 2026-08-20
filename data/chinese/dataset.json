@@ -217,7 +217,579 @@
    ]
   }
  ],
- "stories": [],
+ "stories": [
+  {
+   "id": "cosmic-egg",
+   "title": "Pangu and the Egg",
+   "era": "Primordial",
+   "cast": [
+    "pangu",
+    "sixiang"
+   ],
+   "summary": "The universe begins as an egg of undifferentiated chaos, and Pangu sleeps inside it for eighteen thousand years. He wakes and breaks out; the light clear part rises and becomes heaven, the heavy turbid part sinks and becomes earth. Afraid they will close again, he stands between them growing ten feet a day and pushing them apart for another eighteen thousand years, until they are fixed. Then he dies of the effort. His breath becomes wind and cloud, his voice thunder, his left eye the sun and his right the moon, his limbs the mountains, his blood the rivers, his hair the stars, his sweat the rain - and the parasites on his body become human beings.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 3, The Gods of China",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    },
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 2",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    }
+   ]
+  },
+  {
+   "id": "nuwa-people",
+   "title": "Nuwa Makes People",
+   "era": "Primordial",
+   "cast": [
+    "nuwa",
+    "fuxi"
+   ],
+   "summary": "Nuwa, with a woman's body and a serpent's tail, finds the world finished and empty and decides to fill it. She kneels by a river and moulds figures from yellow clay, one at a time, and each comes alive as she sets it down. It is slow work and the world is large. Growing tired, she dips a cord into the mud and swings it, and the spatters that fall become people too. The tradition then adds a detail it does not apologise for: the ones made carefully by hand became the wealthy and noble, and the ones flicked from the rope became the poor and common. She also institutes marriage, so that people can make more of themselves without her.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 3",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    },
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 2",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    }
+   ]
+  },
+  {
+   "id": "mending-sky",
+   "title": "The Mending of the Sky",
+   "era": "Primordial",
+   "cast": [
+    "nuwa",
+    "gonggong",
+    "zhurong"
+   ],
+   "summary": "Gonggong the water god loses a struggle for supremacy and, in rage, smashes his head against Mount Buzhou, the pillar holding up the northwest corner of heaven. The pillar breaks. The sky cracks open and tilts, fire pours down, floods rise, and beasts come out to eat the people. Nuwa smelts stones of five colours and patches the hole; she cuts the legs from a giant turtle and props up the four corners of the sky; she kills the black dragon and dams the flood with the ashes of burned reeds. The repair holds, but the tilt does not come out: the sun, moon and stars still slide toward the northwest, and every river in China runs to the southeast.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 3",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    },
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 2",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    }
+   ]
+  },
+  {
+   "id": "trigrams",
+   "title": "The Trigrams on the Dragon-Horse",
+   "era": "Age of Sage Kings",
+   "cast": [
+    "fuxi",
+    "nuwa",
+    "huangdi"
+   ],
+   "summary": "Fuxi watches a dragon-horse rise out of the Yellow River with markings on its back, and from them derives the eight trigrams - the sets of three broken and unbroken lines that became the foundation of the Yijing, of divination, and of an entire cosmology of paired opposites. He is credited in the same tradition with replacing knotted cords with written characters, with the fishing net, with the domestication of animals, and with instituting marriage so that families rather than clans became the social unit. Han tomb reliefs show him and Nuwa with their serpent tails intertwined, he holding a carpenter's square and she a compass - the two instruments for making things straight and round, which is to say for making a world.",
+   "sources": [
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 3",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    },
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 4",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "zhuolu",
+   "title": "The Battle of Zhuolu",
+   "era": "Age of Sage Kings",
+   "cast": [
+    "huangdi",
+    "chiyou",
+    "qilin"
+   ],
+   "summary": "Chiyou has a bronze head and an iron forehead, horns, and eighty-one brothers with the same, and he has invented metal weapons. Against the Yellow Emperor he raises a fog so thick that the imperial army cannot tell one direction from another and mills about for three days. Huangdi's answer is the south-pointing chariot, a device with a figure that always faces south however the vehicle turns, and with it he leads his men out of the fog and wins. Chiyou is executed and his fetters, thrown away, grow into a maple wood that runs red. Then the characteristic turn: Huangdi has the dead rebel's face painted on war banners to frighten enemies, and Chiyou becomes a god of war.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 5",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    },
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 3",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    }
+   ]
+  },
+  {
+   "id": "tasting-herbs",
+   "title": "The Divine Farmer Tastes the Herbs",
+   "era": "Age of Sage Kings",
+   "cast": [
+    "shennong",
+    "taotie"
+   ],
+   "summary": "Shennong taught people to plough, to irrigate, to keep seed and to hold markets, and then set about a second and more dangerous project: determining which plants cure, which poison and which do neither, by eating them. In the most vivid version he has a transparent abdomen and can watch what each herb does as it passes through him. He is said to have poisoned himself seventy times in a single day and to have cured himself each time with tea. He kept at it for years and compiled the results, and the pharmacopoeia carrying his name was the foundation of Chinese herbal medicine for two thousand years. He was finally killed by a yellow flower whose effect he could not counter.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 5",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    },
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 3",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    }
+   ]
+  },
+  {
+   "id": "yao-chooses",
+   "title": "Yao Passes Over His Own Son",
+   "era": "Age of Sage Kings",
+   "cast": [
+    "yao",
+    "shun",
+    "yu"
+   ],
+   "summary": "Yao judges his own son unworthy of the throne and searches the empire for a successor instead. He is told of Shun, a commoner whose blind father, spiteful stepmother and treacherous half-brother had tried more than once to kill him - burning a granary roof while he was on it, filling in a well while he was down it - and who had continued to serve them dutifully and treat his brother with courtesy. Yao tests him for years, marries his two daughters to him to observe how he runs a household, and finally hands over the empire. Shun in his turn passes it to Yu rather than to his own son. That double abdication became the founding Confucian argument that legitimacy rests on virtue, and an enduring problem for every hereditary dynasty since.",
+   "sources": [
+    {
+     "book": "The Shu King (Book of Documents)",
+     "translation": "James Legge, 1879",
+     "location": "The Canon of Yao and The Canon of Shun",
+     "url": "https://sacred-texts.com/cfu/sbe03/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "yu-flood",
+   "title": "Yu Tames the Flood",
+   "era": "Age of Sage Kings",
+   "cast": [
+    "yu",
+    "shun",
+    "zhurong",
+    "longwang"
+   ],
+   "summary": "Yu's father Gun tried to dam the great flood with self-expanding soil stolen from heaven, failed, and was executed by Zhurong; Yu was born from his opened body and inherited the work. He changed the method completely - instead of damming he dredged, cutting channels to lead the water to the sea, which Chinese writers have quoted at rulers ever since as a principle of government as well as hydrology. He worked thirteen years, aided in some accounts by a yellow dragon and a black turtle, and passed the door of his own house three times without going in, once hearing his newborn son cry inside, because the work was unfinished. He walked with a limp for the rest of his life. Then he divided the land into nine provinces and cast nine bronze cauldrons for them.",
+   "sources": [
+    {
+     "book": "The Shu King (Book of Documents)",
+     "translation": "James Legge, 1879",
+     "location": "The Tribute of Yu",
+     "url": "https://sacred-texts.com/cfu/sbe03/index.htm"
+    },
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 5",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "ten-suns",
+   "title": "The Ten Suns",
+   "era": "Age of Sage Kings",
+   "cast": [
+    "houyi",
+    "xihe",
+    "yao",
+    "change"
+   ],
+   "summary": "Xihe's ten sun-children take turns crossing the sky, one a day, waiting in the branches of the giant mulberry between shifts. One morning all ten come out together. The crops burn, the rivers dry, rock melts, and the people begin to die. Yao appeals to heaven and Houyi is sent down with a red bow and white arrows. He shoots nine of them out of the sky - each falls to earth as a three-legged crow - and is stopped from shooting the tenth, or chooses to leave it, which is the sun we have. Heaven's gratitude is limited, since the suns were the sun-god's children, and Houyi and his wife are left mortal on earth, which is what sends him after the elixir.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 8",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    },
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 4",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    }
+   ]
+  },
+  {
+   "id": "change-moon",
+   "title": "Chang'e Flies to the Moon",
+   "era": "Age of Sage Kings",
+   "cast": [
+    "change",
+    "houyi",
+    "xiwangmu",
+    "zhubajie"
+   ],
+   "summary": "Houyi obtains from the Queen Mother of the West an elixir sufficient to make two people immortal, or one person a god, and leaves it at home. Chang'e drinks all of it. The sources cannot agree why - greed, or to stop a thief taking it while Houyi was out, or to stop Houyi becoming an immortal tyrant, or by accident. She becomes weightless and rises, and stops at the moon rather than going on to heaven, in the kindest telling so as to stay as near her husband as she can. There she lives in a cold palace with a jade rabbit pounding elixir in a mortar and a man condemned to fell a tree that heals itself. Families still eat mooncakes under the full moon and look up at her.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 8",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    },
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 4",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    }
+   ]
+  },
+  {
+   "id": "stone-monkey",
+   "title": "The Stone Monkey",
+   "era": "Later Legend",
+   "cast": [
+    "sunwukong",
+    "yanwang",
+    "longwang"
+   ],
+   "summary": "A stone on the Mountain of Flowers and Fruit splits and a monkey comes out of it, and the light from his eyes reaches heaven. He becomes king of the monkeys by being the one willing to jump through a waterfall, and rules happily until he realises that he will one day die. That single thought sends him across an ocean to find a master, and he learns the seventy-two transformations and the cloud-somersault that covers thirty-six thousand miles in one leap. Then he goes about solving death directly: he raids the Dragon King for an iron pillar that becomes his staff, and he walks into hell and strikes his own name and every monkey's out of the register of the dead.",
+   "sources": [
+    {
+     "book": "A Mission to Heaven (Journey to the West)",
+     "translation": "Timothy Richard, 1913",
+     "location": "Chapters 1-3",
+     "url": "https://archive.org/details/missiontoheavena00wuch"
+    }
+   ]
+  },
+  {
+   "id": "havoc-in-heaven",
+   "title": "Havoc in Heaven",
+   "era": "Later Legend",
+   "cast": [
+    "sunwukong",
+    "jade-emperor",
+    "xiwangmu",
+    "nezha",
+    "erlang"
+   ],
+   "summary": "Heaven's solution to Sun Wukong is administrative: give him a post. He is made Keeper of the Heavenly Horses, discovers it is the lowest rank there is, and rebels. Bought off with the grand-sounding and entirely empty title Great Sage Equal to Heaven, he is set to guard the Queen Mother's peach garden, where he eats the peaches of immortality, then crashes her banquet, drinks the wine, eats Laozi's pills of immortality and fights off every army sent against him. Nezha and the celestial commanders fail. Erlang Shen, who has a third eye that sees through disguises, matches him form for form through a long chase and finally takes him with Laozi's ring. Even then, the executioners cannot cut, burn or poison him.",
+   "sources": [
+    {
+     "book": "A Mission to Heaven (Journey to the West)",
+     "translation": "Timothy Richard, 1913",
+     "location": "Chapters 4-7",
+     "url": "https://archive.org/details/missiontoheavena00wuch"
+    }
+   ]
+  },
+  {
+   "id": "buddhas-palm",
+   "title": "The Wager with the Buddha",
+   "era": "Later Legend",
+   "cast": [
+    "sunwukong",
+    "jade-emperor",
+    "guanyin"
+   ],
+   "summary": "With heaven unable to hold or kill him, the Buddha is called in, and offers a wager: if the monkey can leap out of his palm, he may have the Jade Emperor's throne. Sun Wukong, who can cross thirty-six thousand miles in a somersault, takes it as an insult. He leaps, travels until he reaches five pink pillars at the end of the world, writes on the middle one to prove he was there, relieves himself at the base for good measure, and somersaults back to claim his prize. The Buddha holds up his hand: the writing is on his middle finger, and the smell is at its base. He then turns his palm over and pins the monkey under a mountain for five hundred years.",
+   "sources": [
+    {
+     "book": "A Mission to Heaven (Journey to the West)",
+     "translation": "Timothy Richard, 1913",
+     "location": "Chapter 7",
+     "url": "https://archive.org/details/missiontoheavena00wuch"
+    }
+   ]
+  },
+  {
+   "id": "pilgrimage",
+   "title": "The Pilgrimage West",
+   "era": "Later Legend",
+   "cast": [
+    "tangsanzang",
+    "sunwukong",
+    "zhubajie",
+    "shawujing",
+    "guanyin"
+   ],
+   "summary": "Guanyin assembles the party. The monk Tang Sanzang is to walk from Chang'an to India for the Buddhist scriptures, and three punished beings are assigned to protect him and earn their way back: Sun Wukong, released from under his mountain and fitted with a golden headband that tightens on a chant; Zhu Bajie, a heavenly marshal reborn in a pig's body for harassing the moon goddess; and Sha Wujing, a celestial general exiled and pierced daily by a flying sword for breaking a crystal cup. A dragon prince becomes the white horse. Eighty-one ordeals lie between them and the sutras, and nearly all of them turn on the same problem: the monk cannot tell a demon from a person, and the monkey can.",
+   "sources": [
+    {
+     "book": "A Mission to Heaven (Journey to the West)",
+     "translation": "Timothy Richard, 1913",
+     "location": "Chapters 8-14",
+     "url": "https://archive.org/details/missiontoheavena00wuch"
+    }
+   ]
+  },
+  {
+   "id": "white-bone-demon",
+   "title": "The White Bone Demon",
+   "era": "Later Legend",
+   "cast": [
+    "baigujing",
+    "tangsanzang",
+    "sunwukong",
+    "zhubajie",
+    "shawujing"
+   ],
+   "summary": "The White Bone Demon wants to eat Tang Sanzang's flesh, which confers immortality, and cannot take him by force. So she comes three times: first as a young woman bringing food to travellers, then as an old woman searching for her missing daughter, then as an old man searching for both. Each time Sun Wukong's fiery eyes see the skeleton inside and he strikes her down; each time the corpse reverts to a human body and the monk, seeing only murder, punishes him with the headband chant. After the third, egged on by Zhu Bajie, Tang Sanzang expels him from the pilgrimage entirely. It is the sharpest version of the novel's problem: the monk's compassion is genuine, and it is exactly the thing the demon uses.",
+   "sources": [
+    {
+     "book": "A Mission to Heaven (Journey to the West)",
+     "translation": "Timothy Richard, 1913",
+     "location": "Chapter 27",
+     "url": "https://archive.org/details/missiontoheavena00wuch"
+    }
+   ]
+  },
+  {
+   "id": "nezha-returns",
+   "title": "Nezha Returns His Body",
+   "era": "Later Legend",
+   "cast": [
+    "nezha",
+    "longwang",
+    "erlang"
+   ],
+   "summary": "Nezha, a boy born after a three-year pregnancy, plays in the sea and kills the Dragon King's son, pulling out his sinews for a belt. The four Dragon Kings come to his father's gate and threaten to flood the whole region and destroy the family in reprisal. Nezha's answer is the most extraordinary act in Chinese myth: he takes a sword and cuts out his own bones and flesh and gives them back to his father and mother, so that nothing belonging to them is destroyed on his account, and the debt of the body is settled. His master then rebuilds him from lotus root and stalks - a body that owes his parents nothing - and he returns as a fierce protective deity on wind-fire wheels.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 12",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "millet-dream",
+   "title": "The Millet Dream",
+   "era": "Later Legend",
+   "cast": [
+    "ludongbin",
+    "zhongli"
+   ],
+   "summary": "Lu Dongbin, having failed the imperial examinations again, meets an odd fat man at an inn who sets millet on to cook and lends him a pillow. He dreams a whole life: he passes the examinations at the top, rises to high office, marries well, has many children and grandchildren, accumulates wealth and honours - and then is slandered, stripped of everything, exiled, watches his children die, and ends alone and destitute in old age, at which point he wakes. The millet is not yet cooked. Zhongli Quan says nothing much. Lu Dongbin gets up and goes with him, and becomes the most popular of the Eight Immortals and the patron of the scholars whose path he abandoned.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 11",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "iron-crutch",
+   "title": "The Wrong Body",
+   "era": "Later Legend",
+   "cast": [
+    "litieguai",
+    "zhongli"
+   ],
+   "summary": "Li was a handsome adept who could send his spirit out of his body, and he left it in his disciple's charge for seven days while he visited a master on Mount Hua, with instructions to burn it if he had not returned. On the sixth day the disciple's mother fell mortally ill; he burned the body and went to her. Li's spirit came back on the seventh to find nothing to enter but the fresh corpse of a lame beggar who had starved by the roadside, and he has been in it ever since - filthy, crippled, leaning on an iron crutch, carrying a gourd of medicine. The tradition draws the moral everywhere it tells the story, and does not vary it: the form is not the person.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 11",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "cross-the-sea",
+   "title": "The Eight Immortals Cross the Sea",
+   "era": "Later Legend",
+   "cast": [
+    "zhongli",
+    "ludongbin",
+    "litieguai",
+    "hexiangu",
+    "zhangguolao",
+    "hanxiangzi",
+    "caoguojiu",
+    "lancaihe",
+    "longwang"
+   ],
+   "summary": "Returning from the Queen Mother's peach banquet the Eight reach the sea, and Lu Dongbin proposes that rather than ride a cloud across together each should cross by his own means - which is the origin of the proverb about the eight immortals crossing the sea, each showing their particular skill. Li Tieguai floats his crutch, Zhongli Quan his fan, Han Xiangzi his flower basket, Lan Caihe a jade tablet. The Dragon King's son covets Lan Caihe's tablet and seizes both; the Immortals go to war with the dragon kings, boil part of the sea, and the matter is only settled when Guanyin intervenes. It is the most cheerful large-scale brawl in Chinese religion.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 11",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "magpie-bridge",
+   "title": "The Bridge of Magpies",
+   "era": "Later Legend",
+   "cast": [
+    "zhinu",
+    "xiwangmu",
+    "jade-emperor",
+    "yuelao"
+   ],
+   "summary": "The weaver girl Zhinu, who weaves the clouds, comes down to bathe, and the cowherd Niulang - advised by his ox - takes her clothes so that she must stay. They marry and have two children and are happy. When heaven notices, she is taken back, and when Niulang follows, carrying the children in two baskets and wearing the hide of his ox, who died so that he could, the Queen Mother draws a hairpin across the sky and the Milky Way appears between them. They stand on opposite banks. Once a year, on the seventh night of the seventh month, every magpie in the world flies up and makes a bridge with its wings, and they cross. Rain that night is said to be their tears.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 7",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    },
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 5",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    }
+   ]
+  },
+  {
+   "id": "red-thread",
+   "title": "The Red Thread",
+   "era": "Later Legend",
+   "cast": [
+    "yuelao",
+    "zhinu"
+   ],
+   "summary": "A young man travelling meets an old man reading a book by moonlight with a sack of red cords beside him, and learns that he is Yue Lao, who ties an invisible red cord around the ankles of couples fated to marry - a cord that stretches and tangles but cannot break. Asked about his own future wife, the old man points out a poor three-year-old girl in a vegetable market. Disgusted, the young man pays a servant to stab her and flees. Fourteen years later he marries a beautiful young woman who wears a small ornament on her forehead and never removes it, and eventually asks why. It covers a scar, she says, from a knife, when she was three years old in a market.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 7",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "kitchen-god",
+   "title": "The Kitchen God's Report",
+   "era": "Later Legend",
+   "cast": [
+    "zaoshen",
+    "jade-emperor",
+    "tudigong"
+   ],
+   "summary": "The Kitchen God's paper image sits above the stove all year and observes everything the household says and does. A week before the New Year he ascends to report to the Jade Emperor, and the family's fortune for the coming twelve months depends on what he says. The household's response is beautifully practical: they smear the image's mouth with malt sugar or honey so his lips stick together and only sweet words can come out, then burn the paper so he rises with the smoke, and paste up a fresh one when he returns. His origin story is of a man who abandoned his wife, fell into poverty, and unknowingly begged at her door; recognising her, he threw himself into the hearth in shame, and she made him a god of it.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 6",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "zhongkui-dream",
+   "title": "Zhong Kui and the Emperor's Dream",
+   "era": "Later Legend",
+   "cast": [
+    "zhongkui",
+    "yanwang",
+    "nian"
+   ],
+   "summary": "Zhong Kui came first in the imperial examination and was stripped of the honour because the court found him too ugly to present. He killed himself on the palace steps. The emperor, appalled, had him buried with the honours of a high official, and his ghost undertook in gratitude to hunt down demons. Generations later the emperor Xuanzong, ill with fever, dreamed of a small demon stealing from the palace and a huge bearded man in official robes who caught it, tore out its eye and ate it, and introduced himself as the failed candidate buried with honours. Xuanzong woke cured and commissioned a portrait from the court painter Wu Daozi. That image is why his picture hangs on doorways at New Year.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 6",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "silent-girl",
+   "title": "The Silent Girl",
+   "era": "Later Legend",
+   "cast": [
+    "mazu",
+    "longwang",
+    "guanyin"
+   ],
+   "summary": "Lin Moniang was born on Meizhou Island in the tenth century and did not cry as an infant, which is how she got her name. She learned to swim before she could walk, could read the weather, and repeatedly swam out to bring in boats in bad conditions. The best-known account has her fall into a trance at her loom while her father and brothers are at sea, and in it she goes out and holds them up - until her mother shakes her awake, and one hand opens, and one brother is lost. She died young, going out in a storm. Fishermen began seeing a girl in red in the rigging in bad weather, and successive dynasties promoted her until she was Empress of Heaven.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 6",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "guandi-promoted",
+   "title": "The Promotion of Guan Yu",
+   "era": "Later Legend",
+   "cast": [
+    "guandi",
+    "jade-emperor",
+    "chiyou"
+   ],
+   "summary": "Guan Yu was a general who died in 220 CE, and what happened afterwards is the clearest demonstration of how the Chinese pantheon actually works. His reputation rested on one quality: absolute loyalty to his sworn brother, which he maintained under enormous inducement to change sides. After his death he became a local ghost, then a Buddhist temple guardian, then a Daoist deity, then the officially designated god of war of the Ming state, and finally an object of imperial sacrifice ranked beside Confucius. Every step is recorded in an imperial edict. He did not ascend to heaven; he was promoted into it, by paperwork, over roughly a thousand years, and merchants and police and criminal societies all pray to him for the same virtue.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 6",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    },
+    {
+     "book": "Chinese Mythology (Mythology of All Races VIII)",
+     "translation": "John C. Ferguson, 1928",
+     "location": "Chapter 6",
+     "url": "https://archive.org/details/mythologyofallra08fergrich"
+    }
+   ]
+  },
+  {
+   "id": "driving-off-nian",
+   "title": "Driving Off the Nian",
+   "era": "Later Legend",
+   "cast": [
+    "nian",
+    "tudigong",
+    "zaoshen",
+    "zhongkui"
+   ],
+   "summary": "The nian lives hidden through the year and comes out at the turn of it to eat livestock, grain and children. A village learns from an old beggar - who is generally the story's disguised immortal - that the beast fears three things and only three: the colour red, loud noise, and fire. So they paste red couplets on the doors, hang red lanterns, set off firecrackers, and sit up all night with the lamps burning, and the nian does not come. That is a complete description of Chinese New Year presented as a monster-defence procedure, and the word nian now simply means year. The beast is almost certainly the later invention, retrofitted to explain customs already very old.",
+   "sources": [
+    {
+     "book": "Myths and Legends of China",
+     "translation": "E. T. C. Werner, 1922",
+     "location": "Chapter 6",
+     "url": "https://sacred-texts.com/cfu/mlc/index.htm"
+    }
+   ]
+  }
+ ],
  "entities": [
   {
    "id": "pangu",
@@ -248,7 +820,9 @@
    "bio": "He broke out of the cosmic egg and held heaven and earth apart for eighteen thousand years until he died and became the world.",
    "longBio": "The universe begins as an egg of undifferentiated chaos in which Pangu sleeps for eighteen thousand years. He wakes, breaks out, and the light clear part rises to become heaven while the heavy turbid part sinks to become earth - the yin and yang separating. Fearing they will close again he stands between them, growing ten feet a day, pushing them apart for another eighteen thousand years until they are fixed. Then, exhausted, he dies, and his body becomes the world: his breath the wind and clouds, his voice thunder, his left eye the sun and right eye the moon, his limbs the mountains, his blood the rivers, his flesh the soil, his hair the stars, his sweat the rain, and the parasites on his body the human race.",
    "variantTraditions": "Pangu is not attested before the third century CE, far later than the sage-king traditions, and may be a southern or borrowed story that was fitted to the front of an existing system.",
-   "storyIds": [],
+   "storyIds": [
+    "cosmic-egg"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "creator",
@@ -286,7 +860,11 @@
    "bio": "She made people out of yellow clay and later melted stones of five colours to patch a hole in the sky.",
    "longBio": "Nuwa has a woman's upper body and a serpent's or dragon's lower body. Finding the world empty she moulded people from yellow river clay, one at a time and carefully; growing tired, she dipped a cord in the mud and flicked it, and the spatters became people too - the tradition adds, uncomfortably, that the hand-made ones became the nobility and the flicked ones the common people. Her greater act comes later. When the water god Gonggong smashes his head against Mount Buzhou, the pillar of heaven, the sky cracks, fire and flood pour through and beasts devour the people. Nuwa smelts stones of five colours to patch the sky, cuts the legs off a giant turtle to prop up its four corners, kills the black dragon, and dams the flood with reed ash.",
    "variantTraditions": "Nuwa is sometimes Fuxi's sister, sometimes his wife, and often both; Han dynasty tomb art shows the two with their serpent tails intertwined.",
-   "storyIds": [],
+   "storyIds": [
+    "nuwa-people",
+    "mending-sky",
+    "trigrams"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "creator",
@@ -324,7 +902,10 @@
    "bio": "The culture hero who saw the trigrams on a dragon-horse's back and gave people writing, nets and marriage.",
    "longBio": "Fuxi is the first of the Three Sovereigns and the archetypal culture hero. Watching a dragon-horse emerge from the Yellow River with markings on its back, he devises the eight trigrams - the ba gua, sets of three broken and unbroken lines that became the basis of the Yijing and of an entire tradition of divination and cosmology. He is credited with replacing knotted cords with written characters, with teaching people to fish with nets and to hunt with weapons, with domesticating animals, and with instituting marriage so that families rather than clans became the unit of society. With Nuwa, his sister or wife or both, he repopulates the world after a flood. Han tomb reliefs show the pair with intertwined serpent tails, he holding a carpenter's square and she a compass.",
    "variantTraditions": "The Fuxi of the classics is a culture hero rather than a god, and his elevation to a divine Sovereign belongs to later systematising.",
-   "storyIds": [],
+   "storyIds": [
+    "nuwa-people",
+    "trigrams"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "creator",
@@ -362,7 +943,9 @@
    "bio": "Defeated in a struggle for supremacy, he rammed the mountain that held up the sky and tilted the world.",
    "longBio": "Gonggong is a water deity with a human head, red hair and a serpent's body, and he loses a fight - variously against Zhurong the fire god, against Zhuanxu, or against Yao's forces, depending on which text you read. In rage and shame he smashes his head into Mount Buzhou, the pillar supporting the northwest corner of the sky. The pillar breaks. The sky tilts down toward the northwest, which is why the sun, moon and stars move in that direction, and the earth tilts down toward the southeast, which is why all the rivers of China flow that way to the sea. This is one of the more satisfying pieces of aetiology in any mythology: a losing tantrum explains the entire observed geography and astronomy of a continent.",
    "variantTraditions": "Whom Gonggong fought differs across the Huainanzi, the Liezi and later sources, and the flood he causes is sometimes merged with the flood Yu the Great later controls.",
-   "storyIds": [],
+   "storyIds": [
+    "mending-sky"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "primordial-adversary",
@@ -400,7 +983,10 @@
    "bio": "The fire god who defeated Gonggong, and in one account executed Gun for failing to stop the flood.",
    "longBio": "Zhurong governs fire and the southern quarter, and Chinese cosmology's five-phase system makes that a real office rather than a metaphor: south, summer, red and fire are one set, and he directs it. His best-known act is defeating Gonggong in the struggle that ends with the pillar of heaven broken - so the fire god's victory is what tilts the world. In the flood narratives he appears again as the executioner sent to kill Gun, Yu the Great's father, for stealing heaven's self-expanding soil, and it is from Gun's opened body that Yu is born. He is credited in some texts with teaching the use of fire. The name also belongs to a hereditary office of fire-master in the historical record, which blurs god and official in a way that is characteristic of this material.",
    "variantTraditions": "Zhurong is variously a god, an official title and an ancestor of southern clans; the Chuci and the Shanhaijing treat him differently.",
-   "storyIds": [],
+   "storyIds": [
+    "mending-sky",
+    "yu-flood"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "fire",
@@ -437,7 +1023,9 @@
    "bio": "She bore ten suns, bathed them in the eastern pool, and drove one across the sky each day in turn.",
    "longBio": "Xihe lives beyond the eastern sea where the giant mulberry Fusang grows, and she is the mother of ten suns, each a three-legged crow. The arrangement is orderly: she washes them in the pool of Ganyuan, and each day one climbs the mulberry and is carried across the sky in her chariot drawn by six dragons while the other nine wait in the branches. It works until the ten decide to come out together, and the earth begins to burn - which is the crisis Houyi is sent to solve. Her counterpart Changxi bears the twelve moons and performs the same office for them. In some readings Xihe is not a mother at all but an official title for the astronomers who regulated the calendar, and the Shujing uses the name that way.",
    "variantTraditions": "The Shujing's Xi and He are court astronomers, not a goddess; whether the deity or the office came first is unresolved.",
-   "storyIds": [],
+   "storyIds": [
+    "ten-suns"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "sun",
@@ -478,7 +1066,10 @@
    "bio": "The archetypal ruler: he defeated Chiyou, ordered the state, and rose to heaven on a dragon.",
    "longBio": "The Yellow Emperor is where Chinese myth and Chinese history are deliberately spliced together. He defeats the metal-bodied Chiyou at Zhuolu, using a south-pointing chariot to find his way through the fog Chiyou raises, and unites the tribes of the Yellow River plain. To him are credited, variously, the calendar, the compass, boats, carts, coined money, the first medical text, the standardisation of writing, and the invention of silk by his wife Leizu. At the end he casts a great bronze tripod, and when it is finished a dragon comes down to fetch him and he ascends to heaven with his court, some seventy people, holding onto its whiskers. Daoists later claimed him as a founder, and the medical classic that bears his name is still consulted.",
    "variantTraditions": "The Yellow Emperor was treated as literal history for most of Chinese tradition and given precise dates; modern scholarship treats him as legendary.",
-   "storyIds": [],
+   "storyIds": [
+    "trigrams",
+    "zhuolu"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "king-ruler",
@@ -520,7 +1111,9 @@
    "bio": "He invented the plough and tested hundreds of herbs on himself, and was finally killed by one of them.",
    "longBio": "Shennong taught people to farm - the plough, the axe, irrigation, the preservation of seed, the calendar of planting - and to hold markets, which the tradition regards as an equally important invention. His other work was medical and personally hazardous: he tasted hundreds of plants to determine which cured, which poisoned and which did neither, and in the most vivid version he had a transparent abdomen so he could watch what each did as it passed through him. He is said to have poisoned himself seventy times in one day and cured himself each time with tea, and finally to have eaten a yellow flower with a lethal effect he could not counter, and died of it. The pharmacopoeia bearing his name remained the foundation of Chinese herbal medicine for two thousand years.",
    "variantTraditions": "Shennong and Yandi the Flame Emperor are identified in some sources and distinguished in others; the merger appears to be later.",
-   "storyIds": [],
+   "storyIds": [
+    "tasting-herbs"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "healer",
@@ -560,7 +1153,10 @@
    "bio": "A horned, metal-bodied war leader with eighty-one brothers, defeated by the Yellow Emperor and afterwards worshipped as a god of war.",
    "longBio": "Chiyou has a bronze head and an iron forehead, horns, and eighty-one brothers each with the same, and he is credited with the invention of metal weapons - which is why he can fight the Yellow Emperor at all. At Zhuolu he raises a fog so thick the imperial army cannot move, and is defeated only when Huangdi builds the south-pointing chariot to navigate it, and with help variously from the drought spirit Nuba, the dragon Yinglong and a war drum made from the hide of a one-legged beast. Chiyou is executed, and his fetters thrown away become a maple wood that runs red. Then the characteristic turn: the Yellow Emperor has his image painted on banners to frighten enemies, and Chiyou becomes a god of war worshipped by later armies, including Han imperial ones.",
    "variantTraditions": "Chiyou is claimed as an ancestor by the Miao and Hmong peoples, for whom the story reads very differently than in the Han imperial version.",
-   "storyIds": [],
+   "storyIds": [
+    "zhuolu",
+    "guandi-promoted"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "war",
@@ -597,7 +1193,10 @@
    "bio": "The exemplary ruler of Confucian tradition, who gave the throne to a commoner rather than his son.",
    "longBio": "Yao is the standard against which every later Chinese ruler is measured, and the reason is a single decision. Having a son he considered unworthy, he searched the empire for a successor and settled on Shun, a commoner of exemplary filial piety who had endured a murderous father, a spiteful stepmother and a treacherous half-brother without resentment. Yao tested him for years, gave him his two daughters in marriage to observe his household, and finally handed him the empire. This abdication in favour of merit rather than blood became the founding Confucian argument that legitimacy rests on virtue - and the founding awkwardness for every hereditary dynasty afterwards. His reign is also when the ten suns rise together and Houyi is sent to shoot them, and when the great flood begins.",
    "variantTraditions": "The Shujing presents Yao as history. The abdication tradition was already contested in antiquity, and other early texts hint at a less voluntary transfer.",
-   "storyIds": [],
+   "storyIds": [
+    "yao-chooses",
+    "ten-suns"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "king-ruler",
@@ -634,7 +1233,10 @@
    "bio": "Chosen by Yao for enduring a family that repeatedly tried to kill him without ceasing to honour them.",
    "longBio": "Shun's father was blind and hostile, his stepmother malicious and his half-brother Xiang eager to inherit, and between them they tried to kill him more than once - sending him to repair a granary roof and setting it alight, sending him to dig a well and filling it in. He escaped both times, and continued to serve his father and treat his brother with courtesy, which is the entire point of the story: Confucian filial piety is not conditional on the parent deserving it. Yao heard of him, tested him, married his daughters to him, and gave him the empire. As emperor Shun organised the administration into departments, standardised weights and measures and the calendar, appointed Yu to control the flood, and in his turn passed the throne to Yu rather than to his own son.",
    "variantTraditions": "The Mencius and the Shujing dwell on the family cruelty at length; later commentators found the willingness to keep honouring such a father genuinely difficult.",
-   "storyIds": [],
+   "storyIds": [
+    "yao-chooses",
+    "yu-flood"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "king-ruler",
@@ -673,7 +1275,10 @@
    "bio": "He worked thirteen years dredging channels to the sea, passing his own door three times without going in.",
    "longBio": "Yu's father Gun tried to dam the great flood with stolen self-expanding soil from heaven, failed, and was executed; Yu was born from his opened body and inherited the task. He changed the method entirely - instead of damming he dredged, cutting channels to lead the water to the sea, which is both an engineering principle and a political one that Chinese writers have quoted at rulers ever since. He worked thirteen years, aided in some accounts by a yellow dragon and a black turtle, and passed the door of his own house three times without going in, once hearing his newborn son cry, because the work was not finished. He walked with a limp afterwards from the labour. He divided the land into nine provinces, cast nine bronze cauldrons to represent them, and founded the Xia dynasty.",
    "variantTraditions": "The Xia's historicity is debated; Yu's flood-control narrative is the foundation text of Chinese hydraulic statecraft regardless of whether he existed.",
-   "storyIds": [],
+   "storyIds": [
+    "yao-chooses",
+    "yu-flood"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "hero-champion",
@@ -711,7 +1316,10 @@
    "bio": "He shot nine of the ten suns out of the sky, was rewarded with an elixir of immortality, and lost it to his wife.",
    "longBio": "When the ten suns come out together the crops burn, the rivers dry and the people begin to die, and Houyi is sent down with a red bow and white arrows. He shoots nine of them out of the sky - each falls as a three-legged crow - and leaves one, which is the sun we have. He also kills a series of monsters plaguing the land. The reward is complicated: in most versions heaven is angry that he killed the suns, who were the sun-god's children, and he and his wife Chang'e are made mortal and left on earth, so he seeks an elixir of immortality from the Queen Mother of the West and obtains a dose for two, or one to share. Chang'e takes it all and floats to the moon. His end is grim in most tellings - killed by a treacherous student with a club of peachwood.",
    "variantTraditions": "Houyi the archer and Yi the later Xia usurper are conflated in some sources and separated in others; the elixir story has at least four incompatible motives for Chang'e.",
-   "storyIds": [],
+   "storyIds": [
+    "ten-suns",
+    "change-moon"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "hero-champion",
@@ -751,7 +1359,10 @@
    "bio": "She swallowed her husband's elixir of immortality and rose to the moon, where she lives with a rabbit and a woodcutter.",
    "longBio": "Chang'e drinks the elixir Houyi obtained from the Queen Mother of the West, and the accounts cannot agree why: she was greedy; she was preventing a thief from taking it while Houyi was away; she was preventing Houyi from becoming an immortal tyrant; she took it by accident. She becomes weightless and rises, and stops at the moon rather than continuing to heaven - in the kindest version, so as to stay as near her husband as she can. There she lives in a cold palace with a jade rabbit that pounds the elixir of immortality in a mortar, and with Wu Gang, a man condemned to cut an osmanthus tree that heals itself with every stroke. Her festival is the Mid-Autumn, when families eat mooncakes and look at the full moon together, which gives the story a warmth its details do not.",
    "variantTraditions": "The moral colouring of Chang'e swings completely between sources - thief, protector, or victim - and Werner's telling is notably harsher than the popular festival version.",
-   "storyIds": [],
+   "storyIds": [
+    "ten-suns",
+    "change-moon"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "moon",
@@ -791,7 +1402,13 @@
    "bio": "Emperor of heaven, who governs gods and men through a civil service exactly like the imperial one.",
    "longBio": "The Jade Emperor sits at the top of a celestial administration modelled precisely on the Chinese state: ministries, ranks, reports, audits, promotions and demotions. Gods hold posts and can be reassigned; the kitchen god files an annual report on each household; the god of a locality has jurisdiction like a magistrate. He is not a creator - the world exists before him - and his authority is administrative rather than absolute. His most famous administrative failure is Sun Wukong, whom he tries to neutralise by giving him the meaningless post of Keeper of the Heavenly Horses, then a sinecure guarding the peach garden, both of which backfire spectacularly and require the Buddha to intervene. His birthday is celebrated on the ninth day of the first lunar month.",
    "variantTraditions": "The Jade Emperor rises to supremacy relatively late, promoted during the Song dynasty with imperial backing, and displaced earlier high gods such as Shangdi and Taiyi.",
-   "storyIds": [],
+   "storyIds": [
+    "havoc-in-heaven",
+    "buddhas-palm",
+    "magpie-bridge",
+    "kitchen-god",
+    "guandi-promoted"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "king-ruler",
@@ -829,7 +1446,11 @@
    "bio": "She keeps the orchard whose peaches confer immortality, and her transformation from monster to empress is the clearest case of a Chinese deity being rewritten.",
    "longBio": "In the Shanhaijing, the earliest source, Xiwangmu has a human form with tiger's teeth and a leopard's tail, dishevelled hair and a jade headdress, and she presides over plague and punishment - a fearsome mountain power. Over the following centuries she is comprehensively rewritten into a beautiful and gracious empress of the immortals, keeper of an orchard on Kunlun whose peaches ripen once in three thousand years and confer immortality on whoever eats one. She grants the elixir to Houyi and receives King Mu of Zhou as a guest. In Journey to the West her peach banquet is the occasion of Sun Wukong's greatest outrage. The distance between the two versions is one of the most instructive things in Chinese religion: it shows a goddess being promoted.",
    "variantTraditions": "The Shanhaijing Xiwangmu and the Daoist empress are effectively different beings; a second-century BCE popular movement in her name also swept several provinces.",
-   "storyIds": [],
+   "storyIds": [
+    "change-moon",
+    "havoc-in-heaven",
+    "magpie-bridge"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "earth-mother",
@@ -906,7 +1527,13 @@
    "bio": "Dragon kings hold the rain as an office: they can be petitioned, and they can be reported for failing to deliver.",
    "longBio": "The Dragon Kings are the clearest illustration of the bureaucratic principle. Four brothers rule the four seas, with lesser dragon kings in every river, lake and well, and their job is to deliver rain on the schedule the Jade Emperor's ministry sets. Villages petitioned them in drought; if petitioning failed, communities were quite prepared to carry the dragon king's statue out into the sun to let him feel the drought himself, or to lodge a formal complaint. One famous story has a dragon king executed for altering the amount of rain in his orders by a few drops. Ao Guang of the Eastern Sea appears in Journey to the West, bullied out of the iron pillar that becomes Sun Wukong's staff, and in the Nezha story, where his son is killed and skinned.",
    "variantTraditions": "The Dragon Kings owe a good deal to the Buddhist naga kings imported with Indian texts, layered onto older indigenous water deities.",
-   "storyIds": [],
+   "storyIds": [
+    "yu-flood",
+    "stone-monkey",
+    "nezha-returns",
+    "cross-the-sea",
+    "silent-girl"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "sea-waters",
@@ -944,7 +1571,10 @@
    "bio": "He examines the record of each life, assigns punishment by department, and sends the soul back to be reborn.",
    "longBio": "Yanluo Wang is a Chinese official who happens to run hell. Diyu is organised as ten courts, each under a king, each handling particular offences with a specialised department, and souls are processed through them in sequence - examined against a written record of their deeds, sentenced, punished for a fixed term, and then sent to the Wheel of Rebirth. It is not eternal and it is not arbitrary; it is a legal system with paperwork, and stories abound of clerical errors, of the wrong person summoned by a mistake in the register and sent back, and of bribes attempted. Yanluo derives from the Indian Yama, imported with Buddhism, and was fitted into an existing Chinese apparatus of underworld administration.",
    "variantTraditions": "The ten-court scheme is a medieval Chinese elaboration; the Indian Yama who lies behind Yanluo is a rather different figure, as the Hindu pack shows.",
-   "storyIds": [],
+   "storyIds": [
+    "stone-monkey",
+    "zhongkui-dream"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "death-judge"
@@ -983,7 +1613,10 @@
    "bio": "His paper image watches the family all year, then goes up in smoke to report on them at New Year.",
    "longBio": "The Kitchen God's image is pasted above the stove, and he observes everything the household says and does. Shortly before the lunar New Year he ascends to report to the Jade Emperor, and the family's fortunes for the coming year depend on what he says. The response is beautifully pragmatic: they smear his mouth with malt sugar or honey so that his lips stick together and he can only say sweet things, then burn the image so he rises with the smoke, and paste up a fresh one when he returns. His origin story is that of a man who abandoned his wife, fell into poverty, and unknowingly begged at her door; recognising her, he threw himself into the hearth in shame, and she made him a god of it.",
    "variantTraditions": "Local versions of his origin differ widely, and the sugaring of the mouth is attested across most of China with regional variations in the sweet used.",
-   "storyIds": [],
+   "storyIds": [
+    "kitchen-god",
+    "driving-off-nian"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "messenger-trickster",
@@ -1020,7 +1653,11 @@
    "bio": "A Han general who found the elixir in a cave wall and whose fan revives the dead.",
    "longBio": "Zhongli Quan is shown as a stout, cheerful, bare-bellied man with a feather fan, and the fan is his instrument: he waves it and the dead come back. The story is that he was a Han dynasty general who lost a battle, fled into the mountains, and was taught by a Daoist master; later an earthquake or a cracked wall revealed a jade casket with instructions for the elixir of immortality. He is credited with the power to turn base metal into silver, which he used to relieve famines. He recruits Lu Dongbin, the most famous of the Eight, by putting him through a long series of dream-tests. As eldest of the group he generally leads it.",
    "variantTraditions": "The Eight Immortals as a fixed set of eight are a Yuan and Ming dynasty crystallisation; earlier lists differ in membership.",
-   "storyIds": [],
+   "storyIds": [
+    "millet-dream",
+    "iron-crutch",
+    "cross-the-sea"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "healer",
@@ -1057,7 +1694,10 @@
    "bio": "A failed scholar shown his whole future life in a dream while millet cooked, who woke and left to seek the Way.",
    "longBio": "Lu Dongbin fails the imperial examinations repeatedly, and in an inn meets Zhongli Quan, who sets millet cooking and lends him a pillow. He dreams an entire successful life: examinations passed, high office, wealth, a large family, then slander, disgrace, exile, the death of his children, and destitution in old age. He wakes; the millet is not yet done. He leaves with Zhongli Quan. He carries a sword said to subdue demons, wanders in disguise testing people's virtue, and is a patron of scholars, barbers and the sick. He is by far the most popular of the Eight in folk religion, with a great many temples, and is credited with a large body of Daoist internal alchemy writing.",
    "variantTraditions": "The millet dream is one of the most retold stories in Chinese literature and appears in several versions with different dreamers.",
-   "storyIds": [],
+   "storyIds": [
+    "millet-dream",
+    "cross-the-sea"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "hero-champion",
@@ -1095,7 +1735,10 @@
    "bio": "His spirit left his body to visit heaven; his disciple burned the body, and he woke in a dead beggar's corpse.",
    "longBio": "Li was a handsome and accomplished adept who could send his spirit out of his body. Leaving to visit Laozi on Mount Hua, he told his disciple to guard the body for seven days and burn it if he had not returned. On the sixth day the disciple's mother fell mortally ill; he burned the body and left. Li's spirit returned to find nothing to enter but the fresh corpse of a lame beggar who had starved by the roadside, and he has been in it ever since - dirty, crippled, leaning on an iron crutch. Laozi gave him a gourd of medicine. The moral the tradition draws is straightforward and repeated everywhere: he is the reminder that the form is not the person.",
    "variantTraditions": "Some tellings excuse the disciple entirely and others blame him; the burning is variously six days or the seventh morning.",
-   "storyIds": [],
+   "storyIds": [
+    "iron-crutch",
+    "cross-the-sea"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "healer"
@@ -1131,7 +1774,9 @@
    "bio": "She ate a supernatural stone as a girl, stopped needing food, and refused marriage to pursue the Way.",
    "longBio": "He Xiangu is the only woman consistently counted among the Eight. As a girl she dreamed, or met, a spirit who told her to eat powdered mica or a stone of a particular kind; having done so she became weightless, ceased to need ordinary food, and could move over hills at great speed. She refused marriage, lived on wild herbs, and gathered fruit in the mountains for her mother. Summoned to court by the Empress Wu, she disappeared on the way. She carries a lotus, which stands for purity emerging unstained from mud, and she is invoked in domestic matters and by unmarried women. The presence of one woman among eight is often read as deliberate: the group is meant to include every kind of person.",
    "variantTraditions": "Her identity is unstable across sources - several different historical or legendary women named He are proposed as the original.",
-   "storyIds": [],
+   "storyIds": [
+    "cross-the-sea"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "healer",
@@ -1168,7 +1813,9 @@
    "bio": "He rode a white donkey backwards, folded it like paper when not in use, and dodged imperial summons by dying.",
    "longBio": "Zhang Guolao is the eccentric of the group and is based on a historical Tang dynasty recluse. He travelled thousands of miles a day on a white donkey which he folded up like a sheet of paper and put in his wallet when he arrived, sprinkling water on it to restore it. He rode it backwards, on the principle - the tradition says - that all things go backwards. Summoned repeatedly by Tang emperors he refused, and when finally compelled he dropped dead at the palace gate and rotted; the messengers turned back, and he was seen alive again shortly after. He carries a bamboo drum and is invoked by couples wanting children.",
    "variantTraditions": "Zhang Guo is attested in the Tang histories as a real recluse who refused imperial summonses; the donkey is the legendary accretion.",
-   "storyIds": [],
+   "storyIds": [
+    "cross-the-sea"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "messenger-trickster",
@@ -1204,7 +1851,9 @@
    "bio": "Nephew of the great Confucian Han Yu, whose flute made things grow and who foretold his uncle's exile.",
    "longBio": "Han Xiangzi is presented as the nephew of Han Yu, the famous Tang statesman and Confucian polemicist who wrote a celebrated memorial against Buddhism and was exiled for it. The pairing is pointed: the arch-Confucian has a Daoist immortal in the family, and the stories play the contrast for all it is worth. Han Xiangzi plays a flute whose music makes plants grow and flowers open out of season, and at a family gathering he causes a peony to bloom bearing a couplet on its petals prophesying his uncle's exile to the far south, which the uncle dismisses and which then happens exactly. He is patron of musicians and is shown with a flute and a basket of flowers.",
    "variantTraditions": "The historical Han Yu did have a great-nephew named Han Xiang; the immortal is a legendary elaboration on him.",
-   "storyIds": [],
+   "storyIds": [
+    "cross-the-sea"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "wisdom-craft",
@@ -1241,7 +1890,9 @@
    "bio": "Brother of an empress, he withdrew into the mountains after his own brother's crimes shamed him.",
    "longBio": "Cao Guojiu was the brother of a Song empress, and his younger brother used the family connection to commit crimes including murder and escape punishment. Cao was so ashamed of the family's conduct that he gave away his property and withdrew to the mountains to study the Way. Zhongli Quan and Lu Dongbin found him there and asked what he was cultivating; he said the Way; they asked where the Way was, and he pointed at the sky; they asked where the sky was, and he pointed at his heart, and they accepted him. He carries the jade tablet an official holds at court, and he is patron of actors and of the theatre, which is a curious fate for a man who left public life to avoid being looked at.",
    "variantTraditions": "The historical identification with a Song imperial in-law is uncertain, and the crimes attributed to his brother vary.",
-   "storyIds": [],
+   "storyIds": [
+    "cross-the-sea"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "king-ruler"
@@ -1277,7 +1928,9 @@
    "bio": "A wandering singer in rags, one foot bare, who scattered the coins given and finally rose from a tavern on a crane.",
    "longBio": "Lan Caihe wanders the towns in a tattered blue gown with a belt of black wood, wearing a boot on one foot and nothing on the other, in a padded coat in summer and thin clothes in the snow, singing verses that mock the pursuit of wealth. Coins given are strung on a cord and either scattered for the poor or simply dragged along the ground and left. The sources are conspicuously unsettled about whether Lan Caihe is a man, a woman, or neither, and the ambiguity appears to be deliberate rather than a gap in the record. The end is the standard immortal's exit: in a tavern, hearing music from the air, rising on a crane and dropping gown, belt and one boot back to the ground.",
    "variantTraditions": "Lan Caihe's sex is left indeterminate in the earliest accounts and settled differently by later artists; opera traditionally casts the role young and androgynous.",
-   "storyIds": [],
+   "storyIds": [
+    "cross-the-sea"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "messenger-trickster"
@@ -1316,7 +1969,13 @@
    "bio": "Born from a stone, he mastered every art, wrecked heaven's banquet, and was pinned under a mountain for five hundred years.",
    "longBio": "Sun Wukong is born from a stone egg on a mountain, becomes king of the monkeys, and sets out to defeat death - learning the seventy-two transformations and the cloud-somersault that crosses thirty-six thousand miles. He erases his name from the ledgers of hell, bullies the Dragon King out of an iron pillar that becomes his staff, and is bought off by heaven with the meaningless post of Keeper of the Heavenly Horses. Discovering the insult he rebels, is given the empty title Great Sage Equal to Heaven, eats the peaches of immortality, wrecks the Queen Mother's banquet, and defeats every army sent against him. The Buddha ends it with a wager: leap out of my palm. He somersaults to the end of the universe, marks a pillar, and finds he has not left the Buddha's hand.",
    "variantTraditions": "Journey to the West is a sixteenth-century novel built on much older pilgrimage legend; Sun Wukong's possible relation to Hanuman has been argued for a century without resolution.",
-   "storyIds": [],
+   "storyIds": [
+    "stone-monkey",
+    "havoc-in-heaven",
+    "buddhas-palm",
+    "pilgrimage",
+    "white-bone-demon"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "hero-champion",
@@ -1354,7 +2013,10 @@
    "bio": "A gentle, fearful, incorruptible monk whose flesh grants immortality, escorted west by three converted monsters.",
    "longBio": "Tang Sanzang is based on the real seventh-century monk Xuanzang, who genuinely walked to India and back and brought home a library of Buddhist texts. The novel makes him almost helpless: he cannot fight, he weeps easily, he is repeatedly deceived, and he is frequently captured because every demon on the route knows that eating his flesh confers immortality. His virtue is real but frustrating - he cannot tell a disguised demon from a human, and he punishes Sun Wukong for killing them, tightening the golden headband with a chant until the monkey rolls on the ground. The tension between his compassion and Wukong's competence is the engine of the whole book.",
    "variantTraditions": "The historical Xuanzang's own travel record is a sober and invaluable geographical document; the novel's Tripitaka is almost its opposite in temperament.",
-   "storyIds": [],
+   "storyIds": [
+    "pilgrimage",
+    "white-bone-demon"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "sage-seer"
@@ -1392,7 +2054,11 @@
    "bio": "Once a heavenly marshal, banished for drunkenly harassing the moon goddess and reborn in a pig's womb.",
    "longBio": "Zhu Bajie was Marshal Tianpeng, commander of a hundred thousand of heaven's naval forces, until he got drunk at a banquet and made advances to Chang'e. He was banished to earth, and the reincarnation went wrong - he entered a sow's womb and came out as a pig-man. He is greedy, lazy, cowardly, permanently hungry and permanently interested in women, and he repeatedly suggests the pilgrimage be abandoned and the party sell the horse and go home. He is also genuinely brave when cornered, fights well with a nine-toothed rake, and never actually leaves. The novel uses him for comedy and then quietly refuses to discard him, which is a large part of why readers are fond of him.",
    "variantTraditions": "His name means Eight Precepts, the monastic vows he is supposed to keep and conspicuously does not.",
-   "storyIds": [],
+   "storyIds": [
+    "change-moon",
+    "pilgrimage",
+    "white-bone-demon"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "hero-champion",
@@ -1430,7 +2096,10 @@
    "bio": "A heavenly general banished for breaking a cup, who ate travellers at a river until he was recruited.",
    "longBio": "Sha Wujing was the Curtain-Raising General in the celestial court, and his crime was to break a crystal cup at the Queen Mother's banquet. For that he was flogged, exiled, and condemned to have a flying sword pierce his chest a hundred times a day. He took up residence in the Flowing Sands River and ate travellers, wearing the skulls of nine previous pilgrims - who turn out to be Tang Sanzang's own earlier incarnations - around his neck. Converted by Guanyin, he becomes the steadiest and least troublesome of the three disciples: he says little, does not quarrel, carries the baggage, and is the one who reliably stays when the others are storming off. The severity of the punishment against the triviality of the offence is the point.",
    "variantTraditions": "Sha Wujing has the least developed characterisation of the four and is often given more to do in adaptations than in the novel.",
-   "storyIds": [],
+   "storyIds": [
+    "pilgrimage",
+    "white-bone-demon"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "hero-champion"
@@ -1471,7 +2140,11 @@
    "bio": "The most widely worshipped deity in China, who changed sex in transmission and refuses nirvana until all are saved.",
    "longBio": "Guanyin is the Chinese form of the Indian bodhisattva Avalokitesvara, and the transformation is remarkable: male in India and in early Chinese Buddhism, and unambiguously female from around the Song dynasty onward, which is one of the best documented sex-changes of any deity anywhere. As a bodhisattva she has postponed her own final enlightenment until every being is saved. She hears whoever calls, and rescue stories attach to her by the thousand. In Journey to the West she is the one who assembles and supervises the pilgrimage. In folk religion she grants children, protects sailors and the sick, and is the deity most likely to be found on a household altar. Her thousand-armed, thousand-eyed form expresses the same idea as her name: she sees and reaches everywhere.",
    "variantTraditions": "The legend of the princess Miaoshan, who is martyred by her father and returns to heal him with her own hands and eyes, is a Chinese story attached to her that has no Indian original.",
-   "storyIds": [],
+   "storyIds": [
+    "buddhas-palm",
+    "pilgrimage",
+    "silent-girl"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "healer",
@@ -1509,7 +2182,10 @@
    "bio": "He killed a dragon king's son, and when his father was threatened he returned his flesh and bones and was rebuilt from lotus.",
    "longBio": "Nezha is born after a three-year pregnancy as a ball of flesh that his father strikes with a sword, releasing a boy who can already walk and speak. Playing in the sea he kills the Dragon King's son and pulls out his sinews, and the Dragon Kings threaten to flood the region and destroy his family in reprisal. Nezha's answer is the most extraordinary act in Chinese myth: to sever the debt of the body, he cuts out his own bones and flesh and returns them to his father and mother, so that nothing of theirs is destroyed with him. His master Taiyi Zhenren rebuilds him from lotus root and stalks, giving him a body that owes his parents nothing, and he becomes a fierce protective deity riding wind-fire wheels.",
    "variantTraditions": "Nezha derives ultimately from a Buddhist protector figure of Indian origin, thoroughly reworked through Fengshen Yanyi and Journey to the West.",
-   "storyIds": [],
+   "storyIds": [
+    "havoc-in-heaven",
+    "nezha-returns"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "hero-champion",
@@ -1547,7 +2223,10 @@
    "bio": "Nephew of the Jade Emperor and the only one able to match Sun Wukong transformation for transformation.",
    "longBio": "Erlang Shen has a third eye in the middle of his forehead that sees through any disguise, which is exactly the ability the celestial armies lack when Sun Wukong rebels. Their duel in Journey to the West is one of the great set pieces: the two chase each other through form after form - sparrow, cormorant, fish, water-snake, bustard - each countering the other, until Wukong turns into a temple and cannot hide his tail, which he leaves standing behind as a flagpole. Erlang spots it. Wukong is finally brought down by Laozi's ring while distracted. Erlang is also identified with Li Bing's son and with the historical hydraulic engineering at Dujiangyan, so he is a flood-control god as well as a martial one.",
    "variantTraditions": "Erlang's identity is a composite of at least three figures - Li Erlang, Yang Jian and a Sichuan hunting god - never fully reconciled.",
-   "storyIds": [],
+   "storyIds": [
+    "havoc-in-heaven",
+    "nezha-returns"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "war",
@@ -1590,7 +2269,9 @@
    "bio": "A real third-century general whose reputation for loyalty raised him, over a thousand years, to one of the greatest gods in China.",
    "longBio": "Guan Yu was an actual general of the Three Kingdoms period who died in 220 CE, and his afterlife is the clearest possible demonstration of how the Chinese pantheon works. His reputation for absolute loyalty to his sworn brother Liu Bei - he refuses enormous inducements to change sides, and returns to a losing cause - made him first a local ghost, then a Buddhist protector, then a Daoist deity, then a Ming emperor's official god of war, and finally an object of imperial sacrifice on a level with Confucius. Merchants worship him for the same quality applied to contracts; so, notoriously, do police and criminal societies alike, both prizing loyalty. A mortal did not become a god by ascending. He was promoted, repeatedly, by decree.",
    "variantTraditions": "Guan Yu's canonisation is documented in imperial edicts across several dynasties, which makes him unusually traceable: the paperwork of a deification survives.",
-   "storyIds": [],
+   "storyIds": [
+    "guandi-promoted"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "war",
@@ -1631,7 +2312,9 @@
    "bio": "A Fujianese fisherman's daughter who died young saving sailors, and became the sea goddess of the whole Chinese diaspora.",
    "longBio": "Mazu was Lin Moniang, born on Meizhou Island in the tenth century, a girl who did not cry as an infant - hence her nickname, the silent girl - and who learned to swim, to predict weather and to rescue people from the sea. She died young, in most accounts while going out to save her father and brother in a storm. Fishermen began to report her appearing in storms as a light or a girl in red guiding them home, and her cult spread along the coast, out to Taiwan, and with emigrants to Southeast Asia and beyond, with successive dynasties elevating her title until she was Empress of Heaven. Her temples are the anchor institutions of overseas Chinese communities, and her procession is among the largest religious gatherings in the world.",
    "variantTraditions": "Mazu's historicity is reasonably secure in outline; the accretion of miracle accounts and imperial titles is exceptionally well documented.",
-   "storyIds": [],
+   "storyIds": [
+    "silent-girl"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "sea-waters",
@@ -1709,7 +2392,10 @@
    "bio": "He took first place in the imperial examination, was denied it for his ugliness, killed himself, and was made king of ghosts.",
    "longBio": "Zhong Kui passed the imperial examination at the top of the list, and the emperor - or the court - stripped him of the honour on account of his extreme ugliness. He killed himself on the palace steps. The emperor, appalled, had him buried with the honours of a high official, and in gratitude Zhong Kui's ghost undertook to hunt down and destroy demons. The tradition says the emperor Xuanzong later saw him in a fever dream catching a small demon that had been stealing from the palace, and on waking commissioned a painting of him from the court artist Wu Daozi. That painting established the image: a huge bearded man in official robes with a drawn sword. His picture is pasted on doors at New Year to keep evil out.",
    "variantTraditions": "The Xuanzong dream story is the standard origin and is itself Tang or later; the character may derive from an older ritual object or a pun on a demon-expelling mallet.",
-   "storyIds": [],
+   "storyIds": [
+    "zhongkui-dream",
+    "driving-off-nian"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "primordial-adversary",
@@ -1747,7 +2433,10 @@
    "bio": "The lowest-ranking god in the celestial civil service, with jurisdiction over one village and a duty to report upward.",
    "longBio": "Tudigong is the bottom of the bureaucracy and by far its most present member. Every village, every field, sometimes every street has one, housed in a small shrine that may be no more than a niche of bricks, and he is depicted as a kindly old man with a white beard and a staff. His jurisdiction is tiny and his duties are exactly those of a local magistrate: he keeps order in his patch, receives petitions about immediate matters - a lost animal, a sick child, a boundary dispute - and reports what happens to his superiors. The dead are notified to him. He has no cosmic role whatever, which is the point: the system reaches all the way down, and the god you actually deal with is a neighbour with a small office.",
    "variantTraditions": "Tudigong shrines vary enormously in form, and in some regions his wife Tudipo is included, in others deliberately not.",
-   "storyIds": [],
+   "storyIds": [
+    "kitchen-god",
+    "driving-off-nian"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother",
@@ -1784,7 +2473,10 @@
    "bio": "He binds the ankles of destined couples with an invisible red cord that cannot be broken however far apart they live.",
    "longBio": "Yue Lao sits under the moon reading a book of marriages and ties an invisible red cord around the ankles of two people who are fated to marry, and the tradition is firm that the cord may stretch and tangle but cannot break - the couple will marry regardless of distance, family opposition, wealth or their own preferences. The classic story has a young man meet him, ask about his own future wife, and be shown a poor three-year-old girl in a market; disgusted, he hires someone to stab her. Fourteen years later he marries a beautiful young woman who wears an ornament on her forehead, and asks why: it covers a scar from a knife, from when she was three. The image of the red thread is now common across East Asia.",
    "variantTraditions": "The story appears in the ninth-century collection Xu Youguai Lu; the red thread motif spread to Japan and Korea and is now often assumed to be older than it is.",
-   "storyIds": [],
+   "storyIds": [
+    "magpie-bridge",
+    "red-thread"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "love-desire",
@@ -1825,7 +2517,10 @@
    "bio": "A celestial weaver married a mortal herdsman; the Milky Way was drawn between them, and magpies bridge it once a year.",
    "longBio": "Zhinu, a weaver of the clouds and a granddaughter of the Jade Emperor, comes down to bathe and the cowherd Niulang, advised by his ox, takes her clothes so she must stay. They marry and have two children. When heaven notices, she is taken back, and when Niulang pursues her - carrying the children in baskets, wearing the hide of his ox, who has died so that he can - the Queen Mother draws a hairpin across the sky and a river of stars appears between them. They stand on opposite banks. Once a year, on the seventh night of the seventh month, all the magpies in the world fly up and make a bridge with their wings, and the two cross to meet. Rain that night is said to be their tears.",
    "variantTraditions": "The stars are Vega and Altair, genuinely separated by the Milky Way; the story is attested from the Han dynasty and has parallel versions in Japan, Korea and Vietnam.",
-   "storyIds": [],
+   "storyIds": [
+    "magpie-bridge",
+    "red-thread"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "love-desire",
@@ -1864,7 +2559,9 @@
    "bio": "It walks without bending the grass, appears at the birth or death of a sage, and will not harm anything living.",
    "longBio": "The qilin has the body of a deer or horse, ox's hooves, scales, and a single fleshy horn, and its defining quality is that it will not tread on a living blade of grass or eat living vegetation. It appears only in the reign of a benevolent ruler or at the birth of a sage - one is said to have appeared to Confucius' mother before his birth, and the capture and killing of a qilin late in his life is recorded in the Spring and Autumn Annals, where Confucius is said to have wept and stopped writing. Its appearance is therefore a political statement as much as a wonder. In the fifteenth century Zheng He's fleet brought a giraffe back from Africa and presented it at court as a qilin.",
    "variantTraditions": "The giraffe presentation of 1414 is historical, and the Korean and Japanese words for giraffe still derive from qilin.",
-   "storyIds": [],
+   "storyIds": [
+    "zhuolu"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "divine-beast",
@@ -1939,7 +2636,9 @@
    "bio": "Four creatures governing the four directions, seasons and elements, and dividing the night sky between them.",
    "longBio": "The Four Symbols are the primary organising scheme of Chinese cosmology and astronomy: the Azure Dragon holds the east, spring and wood; the Vermilion Bird the south, summer and fire; the White Tiger the west, autumn and metal; the Black Tortoise, entwined with a snake, the north, winter and water. The twenty-eight lunar mansions are divided seven to each. They appear on tomb walls to orient the dead, on city gates, on military banners and in the layout of capitals and graves, and they govern feng shui siting. Unlike most figures in this pack they are not really characters and have almost no stories; they are a coordinate system that happens to be alive.",
    "variantTraditions": "The Yellow Dragon of the centre is sometimes added as a fifth, matching the five-phase scheme rather than the four directions.",
-   "storyIds": [],
+   "storyIds": [
+    "cosmic-egg"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "divine-beast",
@@ -1977,7 +2676,10 @@
    "bio": "A beast that emerged once a year to devour villagers, and was driven off by red, noise and fire - which is why New Year looks the way it does.",
    "longBio": "The nian lives hidden and comes out at the turn of the year to eat livestock, crops and people, particularly children. Villagers learned - from an old beggar in most versions - that it fears three things: the colour red, loud noise, and fire. So they paste red couplets on their doors, hang red lanterns, set off firecrackers and stay up through the night with the lights burning. That is a complete account of Chinese New Year decoration presented as a monster-defence procedure, and the word nian now simply means year. The story is a good example of a folk aetiology attached to a much older set of practices, explaining an existing festival rather than causing it.",
    "variantTraditions": "The nian story is not attested in early sources and appears to be relatively modern, retrofitted to explain New Year customs of considerable antiquity.",
-   "storyIds": [],
+   "storyIds": [
+    "zhongkui-dream",
+    "driving-off-nian"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "primordial-adversary"
@@ -2012,7 +2714,9 @@
    "bio": "A devouring face without a lower jaw, carved on ritual bronzes, later explained as a warning against greed.",
    "longBio": "The taotie motif - a frontal animal face with enormous eyes, horns, and conspicuously no lower jaw - covers Shang and Zhou ritual bronzes, and it is one of the most recognisable images in Chinese art. The interpretation came much later than the object. Zhou and Han writers explained it as the taotie, a monster of gluttony that ate so much it consumed its own body and was left with only a head, and said it was placed on food vessels precisely as a warning against greed. Modern scholars are sceptical that the Shang bronzeworkers meant anything of the kind, and the original significance of the mask is genuinely unknown. It is a rare case of a myth demonstrably invented to explain an artefact nobody could read any more.",
    "variantTraditions": "The name taotie is applied to the motif by Song antiquarians and later; whether the Shang had any such concept is unknown and probably unknowable.",
-   "storyIds": [],
+   "storyIds": [
+    "tasting-herbs"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "primordial-adversary"
@@ -2047,7 +2751,9 @@
    "bio": "She took three human forms to reach Tang Sanzang, and each time Sun Wukong killed her he was punished for it.",
    "longBio": "The White Bone Demon wants to eat Tang Sanzang's flesh for the immortality it confers, and knows she cannot take him by force. So she appears three times in succession - as a young woman bringing food, then as an old woman searching for her missing daughter, then as an old man searching for both - and each time Sun Wukong sees through the disguise with his fiery eyes and kills her, and each time the corpse reverts to a human body and Tang Sanzang, seeing only murder, punishes him with the headband chant. After the third he expels Wukong from the pilgrimage altogether. It is the sharpest statement of the novel's central problem: the monk's compassion is genuine, and it is precisely what the demon uses.",
    "variantTraditions": "The episode is among the most famous in the novel and is a staple of Chinese opera and film, usually played with more sympathy for Wukong than the text strictly gives.",
-   "storyIds": [],
+   "storyIds": [
+    "white-bone-demon"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "primordial-adversary",
