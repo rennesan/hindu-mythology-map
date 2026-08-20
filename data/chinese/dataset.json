@@ -844,6 +844,570 @@
     "messenger-trickster",
     "fate-time"
    ]
+  },
+  {
+   "id": "zhongli",
+   "name": "Zhongli Quan",
+   "sanskrit": "鍾離權",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "Eldest of the Eight Immortals; bearer of the reviving fan",
+   "wikipedia": "Zhongli Quan",
+   "portrait": "portraits/chinese/zhongli.webp",
+   "epithets": [
+    "The Fat Immortal",
+    "Han Zhongli"
+   ],
+   "domains": [
+    "the elixir of life",
+    "the raising of the dead",
+    "transmutation"
+   ],
+   "symbols": [
+    "the feather fan",
+    "the bare belly",
+    "the peach"
+   ],
+   "mount": null,
+   "abode": "Mount Zhongnan",
+   "festivals": [],
+   "worship": "",
+   "bio": "A Han general who found the elixir in a cave wall and whose fan revives the dead.",
+   "longBio": "Zhongli Quan is shown as a stout, cheerful, bare-bellied man with a feather fan, and the fan is his instrument: he waves it and the dead come back. The story is that he was a Han dynasty general who lost a battle, fled into the mountains, and was taught by a Daoist master; later an earthquake or a cracked wall revealed a jade casket with instructions for the elixir of immortality. He is credited with the power to turn base metal into silver, which he used to relieve famines. He recruits Lu Dongbin, the most famous of the Eight, by putting him through a long series of dream-tests. As eldest of the group he generally leads it.",
+   "variantTraditions": "The Eight Immortals as a fixed set of eight are a Yuan and Ming dynasty crystallisation; earlier lists differ in membership.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "healer",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "ludongbin",
+   "name": "Lu Dongbin",
+   "sanskrit": "呂洞賓",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "Scholar-swordsman, most famous of the Eight Immortals",
+   "wikipedia": "Lü Dongbin",
+   "portrait": "portraits/chinese/ludongbin.webp",
+   "epithets": [
+    "Master Chunyang",
+    "The Sword Immortal"
+   ],
+   "domains": [
+    "the demon-slaying sword",
+    "healing",
+    "the testing of would-be immortals"
+   ],
+   "symbols": [
+    "the sword slung on the back",
+    "the fly-whisk",
+    "the scholar's cap"
+   ],
+   "mount": null,
+   "abode": "Mount Zhongnan, and wherever he wanders in disguise",
+   "festivals": [],
+   "worship": "",
+   "bio": "A failed scholar shown his whole future life in a dream while millet cooked, who woke and left to seek the Way.",
+   "longBio": "Lu Dongbin fails the imperial examinations repeatedly, and in an inn meets Zhongli Quan, who sets millet cooking and lends him a pillow. He dreams an entire successful life: examinations passed, high office, wealth, a large family, then slander, disgrace, exile, the death of his children, and destitution in old age. He wakes; the millet is not yet done. He leaves with Zhongli Quan. He carries a sword said to subdue demons, wanders in disguise testing people's virtue, and is a patron of scholars, barbers and the sick. He is by far the most popular of the Eight in folk religion, with a great many temples, and is credited with a large body of Daoist internal alchemy writing.",
+   "variantTraditions": "The millet dream is one of the most retold stories in Chinese literature and appears in several versions with different dreamers.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "hero-champion",
+    "sage-seer",
+    "healer"
+   ]
+  },
+  {
+   "id": "litieguai",
+   "name": "Li Tieguai",
+   "sanskrit": "李鐵拐",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "Iron-crutch Li, who came back to the wrong body",
+   "wikipedia": "Li Tieguai",
+   "portrait": "portraits/chinese/litieguai.webp",
+   "epithets": [
+    "Iron Crutch Li",
+    "The Lame Immortal"
+   ],
+   "domains": [
+    "medicine",
+    "the relief of the poor and sick",
+    "the wandering spirit"
+   ],
+   "symbols": [
+    "the iron crutch",
+    "the gourd of medicine",
+    "the beggar's rags"
+   ],
+   "mount": null,
+   "abode": "Wherever the sick and poor are",
+   "festivals": [],
+   "worship": "",
+   "bio": "His spirit left his body to visit heaven; his disciple burned the body, and he woke in a dead beggar's corpse.",
+   "longBio": "Li was a handsome and accomplished adept who could send his spirit out of his body. Leaving to visit Laozi on Mount Hua, he told his disciple to guard the body for seven days and burn it if he had not returned. On the sixth day the disciple's mother fell mortally ill; he burned the body and left. Li's spirit returned to find nothing to enter but the fresh corpse of a lame beggar who had starved by the roadside, and he has been in it ever since - dirty, crippled, leaning on an iron crutch. Laozi gave him a gourd of medicine. The moral the tradition draws is straightforward and repeated everywhere: he is the reminder that the form is not the person.",
+   "variantTraditions": "Some tellings excuse the disciple entirely and others blame him; the burning is variously six days or the seventh morning.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "healer"
+   ]
+  },
+  {
+   "id": "hexiangu",
+   "name": "He Xiangu",
+   "sanskrit": "何仙姑",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "The one woman among the Eight Immortals",
+   "wikipedia": "He Xiangu",
+   "portrait": "portraits/chinese/hexiangu.webp",
+   "epithets": [
+    "Immortal Maiden He",
+    "The Lotus Bearer"
+   ],
+   "domains": [
+    "the lotus",
+    "purity",
+    "household divination"
+   ],
+   "symbols": [
+    "the lotus flower",
+    "the bamboo ladle",
+    "the peach"
+   ],
+   "mount": null,
+   "abode": "Mount Luofu",
+   "festivals": [],
+   "worship": "",
+   "bio": "She ate a supernatural stone as a girl, stopped needing food, and refused marriage to pursue the Way.",
+   "longBio": "He Xiangu is the only woman consistently counted among the Eight. As a girl she dreamed, or met, a spirit who told her to eat powdered mica or a stone of a particular kind; having done so she became weightless, ceased to need ordinary food, and could move over hills at great speed. She refused marriage, lived on wild herbs, and gathered fruit in the mountains for her mother. Summoned to court by the Empress Wu, she disappeared on the way. She carries a lotus, which stands for purity emerging unstained from mud, and she is invoked in domestic matters and by unmarried women. The presence of one woman among eight is often read as deliberate: the group is meant to include every kind of person.",
+   "variantTraditions": "Her identity is unstable across sources - several different historical or legendary women named He are proposed as the original.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "healer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "zhangguolao",
+   "name": "Zhang Guolao",
+   "sanskrit": "張果老",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "The old man who rode his donkey backwards",
+   "wikipedia": "Zhang Guolao",
+   "portrait": "portraits/chinese/zhangguolao.webp",
+   "epithets": [
+    "Elder Zhang Guo",
+    "The Backward Rider"
+   ],
+   "domains": [
+    "longevity",
+    "the folding donkey",
+    "the granting of children"
+   ],
+   "symbols": [
+    "the paper donkey",
+    "the bamboo drum",
+    "the phoenix feather"
+   ],
+   "mount": null,
+   "abode": "Mount Zhongtiao",
+   "festivals": [],
+   "worship": "",
+   "bio": "He rode a white donkey backwards, folded it like paper when not in use, and dodged imperial summons by dying.",
+   "longBio": "Zhang Guolao is the eccentric of the group and is based on a historical Tang dynasty recluse. He travelled thousands of miles a day on a white donkey which he folded up like a sheet of paper and put in his wallet when he arrived, sprinkling water on it to restore it. He rode it backwards, on the principle - the tradition says - that all things go backwards. Summoned repeatedly by Tang emperors he refused, and when finally compelled he dropped dead at the palace gate and rotted; the messengers turned back, and he was seen alive again shortly after. He carries a bamboo drum and is invoked by couples wanting children.",
+   "variantTraditions": "Zhang Guo is attested in the Tang histories as a real recluse who refused imperial summonses; the donkey is the legendary accretion.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "messenger-trickster",
+    "healer"
+   ]
+  },
+  {
+   "id": "hanxiangzi",
+   "name": "Han Xiangzi",
+   "sanskrit": "韓湘子",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "The flute player who made flowers open",
+   "wikipedia": "Han Xiang",
+   "portrait": "portraits/chinese/hanxiangzi.webp",
+   "epithets": [
+    "The Flute Immortal",
+    "Nephew of Han Yu"
+   ],
+   "domains": [
+    "music",
+    "the forcing of flowers out of season",
+    "poetry"
+   ],
+   "symbols": [
+    "the flute",
+    "the basket of flowers"
+   ],
+   "mount": null,
+   "abode": "Mount Zhongnan",
+   "festivals": [],
+   "worship": "",
+   "bio": "Nephew of the great Confucian Han Yu, whose flute made things grow and who foretold his uncle's exile.",
+   "longBio": "Han Xiangzi is presented as the nephew of Han Yu, the famous Tang statesman and Confucian polemicist who wrote a celebrated memorial against Buddhism and was exiled for it. The pairing is pointed: the arch-Confucian has a Daoist immortal in the family, and the stories play the contrast for all it is worth. Han Xiangzi plays a flute whose music makes plants grow and flowers open out of season, and at a family gathering he causes a peony to bloom bearing a couplet on its petals prophesying his uncle's exile to the far south, which the uncle dismisses and which then happens exactly. He is patron of musicians and is shown with a flute and a basket of flowers.",
+   "variantTraditions": "The historical Han Yu did have a great-nephew named Han Xiang; the immortal is a legendary elaboration on him.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "caoguojiu",
+   "name": "Cao Guojiu",
+   "sanskrit": "曹國舅",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "The imperial relative who left the court in shame",
+   "wikipedia": "Cao Guojiu",
+   "portrait": "portraits/chinese/caoguojiu.webp",
+   "epithets": [
+    "The Royal Uncle",
+    "Immortal of the Castanets"
+   ],
+   "domains": [
+    "theatre and acting",
+    "the renunciation of rank",
+    "nobility"
+   ],
+   "symbols": [
+    "the jade court tablet",
+    "castanets",
+    "the official's robe"
+   ],
+   "mount": null,
+   "abode": "The mountains, after the court",
+   "festivals": [],
+   "worship": "",
+   "bio": "Brother of an empress, he withdrew into the mountains after his own brother's crimes shamed him.",
+   "longBio": "Cao Guojiu was the brother of a Song empress, and his younger brother used the family connection to commit crimes including murder and escape punishment. Cao was so ashamed of the family's conduct that he gave away his property and withdrew to the mountains to study the Way. Zhongli Quan and Lu Dongbin found him there and asked what he was cultivating; he said the Way; they asked where the Way was, and he pointed at the sky; they asked where the sky was, and he pointed at his heart, and they accepted him. He carries the jade tablet an official holds at court, and he is patron of actors and of the theatre, which is a curious fate for a man who left public life to avoid being looked at.",
+   "variantTraditions": "The historical identification with a Song imperial in-law is uncertain, and the crimes attributed to his brother vary.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "lancaihe",
+   "name": "Lan Caihe",
+   "sanskrit": "藍采和",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "The ragged singer whose sex is never settled",
+   "wikipedia": "Lan Caihe",
+   "portrait": "portraits/chinese/lancaihe.webp",
+   "epithets": [
+    "The Flower Basket Immortal",
+    "The Beggar-Singer"
+   ],
+   "domains": [
+    "the flower basket",
+    "wandering",
+    "the mocking of worldly gain"
+   ],
+   "symbols": [
+    "the basket of flowers",
+    "one shoe",
+    "the summer coat in winter"
+   ],
+   "mount": null,
+   "abode": "The streets and markets",
+   "festivals": [],
+   "worship": "",
+   "bio": "A wandering singer in rags, one foot bare, who scattered the coins given and finally rose from a tavern on a crane.",
+   "longBio": "Lan Caihe wanders the towns in a tattered blue gown with a belt of black wood, wearing a boot on one foot and nothing on the other, in a padded coat in summer and thin clothes in the snow, singing verses that mock the pursuit of wealth. Coins given are strung on a cord and either scattered for the poor or simply dragged along the ground and left. The sources are conspicuously unsettled about whether Lan Caihe is a man, a woman, or neither, and the ambiguity appears to be deliberate rather than a gap in the record. The end is the standard immortal's exit: in a tavern, hearing music from the air, rising on a crane and dropping gown, belt and one boot back to the ground.",
+   "variantTraditions": "Lan Caihe's sex is left indeterminate in the earliest accounts and settled differently by later artists; opera traditionally casts the role young and androgynous.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "sunwukong",
+   "name": "Sun Wukong",
+   "sanskrit": "孫悟空",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "The Monkey King, who fought heaven and lost to a hand",
+   "wikipedia": "Sun Wukong",
+   "portrait": "portraits/chinese/sunwukong.webp",
+   "epithets": [
+    "The Monkey King",
+    "Great Sage Equal to Heaven",
+    "The Handsome Monkey King"
+   ],
+   "domains": [
+    "transformation",
+    "rebellion",
+    "the seventy-two changes",
+    "the protection of the pilgrim"
+   ],
+   "symbols": [
+    "the gold-banded staff",
+    "the golden headband",
+    "the somersault cloud",
+    "the phoenix-feather cap"
+   ],
+   "mount": null,
+   "abode": "The Mountain of Flowers and Fruit, and the road west",
+   "festivals": [],
+   "worship": "",
+   "bio": "Born from a stone, he mastered every art, wrecked heaven's banquet, and was pinned under a mountain for five hundred years.",
+   "longBio": "Sun Wukong is born from a stone egg on a mountain, becomes king of the monkeys, and sets out to defeat death - learning the seventy-two transformations and the cloud-somersault that crosses thirty-six thousand miles. He erases his name from the ledgers of hell, bullies the Dragon King out of an iron pillar that becomes his staff, and is bought off by heaven with the meaningless post of Keeper of the Heavenly Horses. Discovering the insult he rebels, is given the empty title Great Sage Equal to Heaven, eats the peaches of immortality, wrecks the Queen Mother's banquet, and defeats every army sent against him. The Buddha ends it with a wager: leap out of my palm. He somersaults to the end of the universe, marks a pillar, and finds he has not left the Buddha's hand.",
+   "variantTraditions": "Journey to the West is a sixteenth-century novel built on much older pilgrimage legend; Sun Wukong's possible relation to Hanuman has been argued for a century without resolution.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "hero-champion",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "tangsanzang",
+   "name": "Tang Sanzang",
+   "sanskrit": "唐三藏",
+   "category": "mortal",
+   "era": "Later Legend",
+   "role": "The monk who walked to India for the scriptures",
+   "wikipedia": "Tang Sanzang",
+   "portrait": "portraits/chinese/tangsanzang.webp",
+   "epithets": [
+    "Xuanzang",
+    "The Tang Monk",
+    "Tripitaka"
+   ],
+   "domains": [
+    "pilgrimage",
+    "compassion",
+    "the retrieval of the sutras"
+   ],
+   "symbols": [
+    "the nine-ringed staff",
+    "the brocade cassock",
+    "the white horse"
+   ],
+   "mount": null,
+   "abode": "The road from Chang'an to India",
+   "festivals": [],
+   "worship": "",
+   "bio": "A gentle, fearful, incorruptible monk whose flesh grants immortality, escorted west by three converted monsters.",
+   "longBio": "Tang Sanzang is based on the real seventh-century monk Xuanzang, who genuinely walked to India and back and brought home a library of Buddhist texts. The novel makes him almost helpless: he cannot fight, he weeps easily, he is repeatedly deceived, and he is frequently captured because every demon on the route knows that eating his flesh confers immortality. His virtue is real but frustrating - he cannot tell a disguised demon from a human, and he punishes Sun Wukong for killing them, tightening the golden headband with a chant until the monkey rolls on the ground. The tension between his compassion and Wukong's competence is the engine of the whole book.",
+   "variantTraditions": "The historical Xuanzang's own travel record is a sober and invaluable geographical document; the novel's Tripitaka is almost its opposite in temperament.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "zhubajie",
+   "name": "Zhu Bajie",
+   "sanskrit": "豬八戒",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "Pigsy, the marshal of heaven demoted into a pig's body",
+   "wikipedia": "Zhu Bajie",
+   "portrait": "portraits/chinese/zhubajie.webp",
+   "epithets": [
+    "Pigsy",
+    "Marshal Tianpeng",
+    "Eight Precepts Zhu"
+   ],
+   "domains": [
+    "appetite",
+    "lust",
+    "sloth",
+    "reluctant loyalty"
+   ],
+   "symbols": [
+    "the nine-toothed rake",
+    "the pig's head",
+    "the enormous belly"
+   ],
+   "mount": null,
+   "abode": "Gao Village, and the road west",
+   "festivals": [],
+   "worship": "",
+   "bio": "Once a heavenly marshal, banished for drunkenly harassing the moon goddess and reborn in a pig's womb.",
+   "longBio": "Zhu Bajie was Marshal Tianpeng, commander of a hundred thousand of heaven's naval forces, until he got drunk at a banquet and made advances to Chang'e. He was banished to earth, and the reincarnation went wrong - he entered a sow's womb and came out as a pig-man. He is greedy, lazy, cowardly, permanently hungry and permanently interested in women, and he repeatedly suggests the pilgrimage be abandoned and the party sell the horse and go home. He is also genuinely brave when cornered, fights well with a nine-toothed rake, and never actually leaves. The novel uses him for comedy and then quietly refuses to discard him, which is a large part of why readers are fond of him.",
+   "variantTraditions": "His name means Eight Precepts, the monastic vows he is supposed to keep and conspicuously does not.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "hero-champion",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "shawujing",
+   "name": "Sha Wujing",
+   "sanskrit": "沙悟淨",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "Sandy, the river ogre who carries the luggage",
+   "wikipedia": "Sha Wujing",
+   "portrait": "portraits/chinese/shawujing.webp",
+   "epithets": [
+    "Sandy",
+    "Friar Sand",
+    "The Curtain-Raising General"
+   ],
+   "domains": [
+    "patience",
+    "steadiness",
+    "the carrying of the burden"
+   ],
+   "symbols": [
+    "the crescent-moon spade",
+    "a necklace of skulls",
+    "the river of quicksand"
+   ],
+   "mount": null,
+   "abode": "The Flowing Sands River, and the road west",
+   "festivals": [],
+   "worship": "",
+   "bio": "A heavenly general banished for breaking a cup, who ate travellers at a river until he was recruited.",
+   "longBio": "Sha Wujing was the Curtain-Raising General in the celestial court, and his crime was to break a crystal cup at the Queen Mother's banquet. For that he was flogged, exiled, and condemned to have a flying sword pierce his chest a hundred times a day. He took up residence in the Flowing Sands River and ate travellers, wearing the skulls of nine previous pilgrims - who turn out to be Tang Sanzang's own earlier incarnations - around his neck. Converted by Guanyin, he becomes the steadiest and least troublesome of the three disciples: he says little, does not quarrel, carries the baggage, and is the one who reliably stays when the others are storming off. The severity of the punishment against the triviality of the offence is the point.",
+   "variantTraditions": "Sha Wujing has the least developed characterisation of the four and is often given more to do in adaptations than in the novel.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "guanyin",
+   "name": "Guanyin",
+   "sanskrit": "觀音",
+   "category": "deity",
+   "era": "Later Legend",
+   "role": "Bodhisattva of compassion, who hears the cries of the world",
+   "wikipedia": "Guanyin",
+   "portrait": "portraits/chinese/guanyin.webp",
+   "epithets": [
+    "She Who Hears the Cries of the World",
+    "Goddess of Mercy",
+    "Avalokitesvara"
+   ],
+   "domains": [
+    "compassion",
+    "mercy",
+    "the granting of children",
+    "rescue from peril"
+   ],
+   "symbols": [
+    "the willow branch",
+    "the vase of pure water",
+    "the white robe",
+    "a thousand arms and eyes"
+   ],
+   "mount": null,
+   "abode": "Mount Putuo",
+   "festivals": [
+    "Guanyin's birthday, nineteenth day of the second lunar month"
+   ],
+   "worship": "The most widely worshipped deity in Chinese religion, present in Buddhist temples, Daoist temples and private homes alike. Mount Putuo is her pilgrimage island.",
+   "bio": "The most widely worshipped deity in China, who changed sex in transmission and refuses nirvana until all are saved.",
+   "longBio": "Guanyin is the Chinese form of the Indian bodhisattva Avalokitesvara, and the transformation is remarkable: male in India and in early Chinese Buddhism, and unambiguously female from around the Song dynasty onward, which is one of the best documented sex-changes of any deity anywhere. As a bodhisattva she has postponed her own final enlightenment until every being is saved. She hears whoever calls, and rescue stories attach to her by the thousand. In Journey to the West she is the one who assembles and supervises the pilgrimage. In folk religion she grants children, protects sailors and the sick, and is the deity most likely to be found on a household altar. Her thousand-armed, thousand-eyed form expresses the same idea as her name: she sees and reaches everywhere.",
+   "variantTraditions": "The legend of the princess Miaoshan, who is martyred by her father and returns to heal him with her own hands and eyes, is a Chinese story attached to her that has no Indian original.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "nezha",
+   "name": "Nezha",
+   "sanskrit": "哪吒",
+   "category": "deity",
+   "era": "Later Legend",
+   "role": "The child-god who gave his body back to his parents",
+   "wikipedia": "Nezha",
+   "portrait": "portraits/chinese/nezha.webp",
+   "epithets": [
+    "The Third Lotus Prince",
+    "Marshal of the Central Altar"
+   ],
+   "domains": [
+    "martial protection",
+    "rebellion against the father",
+    "the rebuilt body"
+   ],
+   "symbols": [
+    "the wind-fire wheels",
+    "the red sash",
+    "the universe ring",
+    "the fire-tipped spear"
+   ],
+   "mount": null,
+   "abode": "Chentang Pass, and the celestial altar",
+   "festivals": [],
+   "worship": "",
+   "bio": "He killed a dragon king's son, and when his father was threatened he returned his flesh and bones and was rebuilt from lotus.",
+   "longBio": "Nezha is born after a three-year pregnancy as a ball of flesh that his father strikes with a sword, releasing a boy who can already walk and speak. Playing in the sea he kills the Dragon King's son and pulls out his sinews, and the Dragon Kings threaten to flood the region and destroy his family in reprisal. Nezha's answer is the most extraordinary act in Chinese myth: to sever the debt of the body, he cuts out his own bones and flesh and returns them to his father and mother, so that nothing of theirs is destroyed with him. His master Taiyi Zhenren rebuilds him from lotus root and stalks, giving him a body that owes his parents nothing, and he becomes a fierce protective deity riding wind-fire wheels.",
+   "variantTraditions": "Nezha derives ultimately from a Buddhist protector figure of Indian origin, thoroughly reworked through Fengshen Yanyi and Journey to the West.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "hero-champion",
+    "war"
+   ]
+  },
+  {
+   "id": "erlang",
+   "name": "Erlang Shen",
+   "sanskrit": "二郎神",
+   "category": "deity",
+   "era": "Later Legend",
+   "role": "The three-eyed god who caught the Monkey King",
+   "wikipedia": "Erlang Shen",
+   "portrait": "portraits/chinese/erlang.webp",
+   "epithets": [
+    "The Three-Eyed",
+    "Lord of Guankou",
+    "Yang Jian"
+   ],
+   "domains": [
+    "flood control",
+    "the hunt",
+    "shape-shifting contests"
+   ],
+   "symbols": [
+    "the third eye on the forehead",
+    "the three-pointed two-edged spear",
+    "the celestial hound"
+   ],
+   "mount": null,
+   "abode": "Guankou, on the Min River",
+   "festivals": [],
+   "worship": "",
+   "bio": "Nephew of the Jade Emperor and the only one able to match Sun Wukong transformation for transformation.",
+   "longBio": "Erlang Shen has a third eye in the middle of his forehead that sees through any disguise, which is exactly the ability the celestial armies lack when Sun Wukong rebels. Their duel in Journey to the West is one of the great set pieces: the two chase each other through form after form - sparrow, cormorant, fish, water-snake, bustard - each countering the other, until Wukong turns into a temple and cannot hide his tail, which he leaves standing behind as a flagpole. Erlang spots it. Wukong is finally brought down by Laozi's ring while distracted. Erlang is also identified with Li Bing's son and with the historical hydraulic engineering at Dujiangyan, so he is a flood-control god as well as a martial one.",
+   "variantTraditions": "Erlang's identity is a composite of at least three figures - Li Erlang, Yang Jian and a Sichuan hunting god - never fully reconciled.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "hero-champion"
+   ]
   }
  ],
  "links": []
