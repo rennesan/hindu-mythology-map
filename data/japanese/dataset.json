@@ -210,7 +210,535 @@
    ]
   }
  ],
- "stories": [],
+ "stories": [
+  {
+   "id": "kami-who-hid",
+   "title": "The Kami Who Came Into Being and Hid",
+   "era": "Primordial",
+   "cast": [
+    "amenominakanushi",
+    "izanagi",
+    "izanami"
+   ],
+   "summary": "The Kojiki begins: when heaven and earth began, three kami came into being in the Plain of High Heaven, and all three hid themselves. That is the whole account of the beginning. Nothing is made, nobody commands, and the first beings withdraw immediately. Seven further generations of kami come into being and do nothing of record either, until Izanagi and Izanami. It is worth noticing how much this differs from every other tradition in this project: there is no creator, no cosmic egg, no war, no word spoken over the waters. Things simply come to be, and the ones that come first are the ones you hear least about.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Section I",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Shinto: The Way of the Gods",
+     "translation": "W. G. Aston, 1905",
+     "location": "Chapter 4",
+     "url": "https://archive.org/details/shintowayofgods00asto"
+    }
+   ]
+  },
+  {
+   "id": "jewelled-spear",
+   "title": "The Jewelled Spear",
+   "era": "Primordial",
+   "cast": [
+    "izanagi",
+    "izanami"
+   ],
+   "summary": "Izanagi and Izanami are told by the heavenly kami to make and consolidate the drifting land. They stand on the floating bridge of heaven, push down the jewelled spear Amenonuhoko, and stir the brine below; when they lift it out, the drops that fall from the point pile up and become the island of Onogoro. They descend onto it, set up a heavenly pillar and a hall, and walk around the pillar in opposite directions to meet and marry. Izanami speaks first, and the child of that union is malformed - Hiruko, the leech-child, set adrift in a reed boat. The heavenly kami tell them the fault was that the woman spoke first, and they repeat it correctly.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections III-V",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Nihongi, Chronicles of Japan",
+     "translation": "W. G. Aston, 1896",
+     "location": "Book I",
+     "url": "https://sacred-texts.com/shi/nihon0.htm"
+    }
+   ]
+  },
+  {
+   "id": "death-of-izanami",
+   "title": "The Death of Izanami",
+   "era": "Primordial",
+   "cast": [
+    "izanami",
+    "izanagi",
+    "kagutsuchi",
+    "takemikazuchi"
+   ],
+   "summary": "Izanami bears the islands and a long succession of kami, and the last of them is Kagutsuchi, fire, whose birth burns her so badly that she dies of it. Even dying she goes on producing kami from her vomit, her urine and her excrement, which is characteristic of the Kojiki's method: nothing is wasted, and everything becomes genealogy. Izanagi crawls around her head and feet weeping, and his tears become a kami too. Then he draws his ten-span sword and cuts off his infant son's head, and from the blood on the blade, the blood that runs onto the rocks, and the eight pieces of the body come a further set of kami, among them Takemikazuchi the thunder-sword and the kami of the mountains.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections VII-VIII",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "yomi",
+   "title": "The Descent into Yomi",
+   "era": "Primordial",
+   "cast": [
+    "izanagi",
+    "izanami"
+   ],
+   "summary": "Izanagi follows his wife into Yomi and calls her to come back, since the land they were making is not finished. She answers from behind the door that she has already eaten the food of that place, but will ask its powers - and asks him not to look at her while she does. He waits, grows impatient, breaks a tooth from his comb to make a torch, and goes in. She is rotting and full of maggots, with eight thunder-kami in her body. He runs. She sends the hags of Yomi after him and he throws down his headdress and comb, which become grapes and bamboo shoots to delay them, and finally three peaches at the pass. There they part, and set the terms of mortality between them.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections IX-X",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Myths and Legends of Japan",
+     "translation": "F. Hadland Davis, 1912",
+     "location": "Chapter 1",
+     "url": "https://sacred-texts.com/shi/mljp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "washing",
+   "title": "The Washing at the River",
+   "era": "Primordial",
+   "cast": [
+    "izanagi",
+    "amaterasu",
+    "tsukuyomi",
+    "susanoo"
+   ],
+   "summary": "Coming back from Yomi, Izanagi says that he has been to a hideous and polluted land and must cleanse himself, and goes to a river mouth to bathe. Kami come into being from everything he discards and everything he washes - from his staff, his belt, his bag, his clothes, from the upper reach of the stream and the lower, from each thing he cleans. Then, washing his left eye, Amaterasu comes into being; washing his right eye, Tsukuyomi; washing his nose, Susanoo. He is delighted, divides the world between them - heaven to the sun, the night to the moon, the sea to the storm - and hands over his necklace. The most important kami in Japan are produced by a man taking a bath.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections XI-XII",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "rock-cave",
+   "title": "The Rock Cave of Heaven",
+   "era": "Age of the Gods",
+   "cast": [
+    "amaterasu",
+    "susanoo",
+    "uzume",
+    "omoikane"
+   ],
+   "summary": "Susanoo's behaviour in heaven escalates from breaking the rice dykes and fouling the hall to flinging a flayed piebald colt backwards through the roof of the weaving hall, where the shock kills a weaving woman. Amaterasu withdraws into the rock cave and pulls the door shut, and heaven and earth go dark; every calamity arises. Eight hundred kami gather in the dry bed of the heavenly river and put the problem to Omoikane, who prescribes: long-crying birds made to crow, a mirror forged, jewels strung, a sakaki tree uprooted and hung with them, and Uzume to dance. She dances on an upturned tub until she is in ecstasy and lets her dress fall, and the eight hundred kami roar. Amaterasu, puzzled that anyone can laugh in the dark, opens the door a crack.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections XV-XVII",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Nihongi, Chronicles of Japan",
+     "translation": "W. G. Aston, 1896",
+     "location": "Book I",
+     "url": "https://sacred-texts.com/shi/nihon0.htm"
+    }
+   ]
+  },
+  {
+   "id": "expulsion",
+   "title": "The Expulsion of Susanoo",
+   "era": "Age of the Gods",
+   "cast": [
+    "susanoo",
+    "amaterasu",
+    "ukemochi"
+   ],
+   "summary": "With the sun drawn out and a rope stretched behind her so she cannot go back in, the kami turn to Susanoo. He is fined heavily, his beard is cut off, his fingernails and toenails are pulled out, and he is expelled from heaven. The offence is worth being precise about: he is not condemned for cruelty or for the death of the weaver as such, but for tsumi and kegare - pollution - and the vocabulary throughout is of defilement rather than sin. That distinction runs through the whole tradition. On his way down, in the Kojiki's version, he asks the food goddess for a meal, is disgusted by how she produces it, and kills her; the crops grow from her corpse.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections XVII-XVIII",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Shinto: The Way of the Gods",
+     "translation": "W. G. Aston, 1905",
+     "location": "Chapter 6, on pollution and purification",
+     "url": "https://archive.org/details/shintowayofgods00asto"
+    }
+   ]
+  },
+  {
+   "id": "orochi",
+   "title": "The Eight-Forked Serpent",
+   "era": "Age of the Gods",
+   "cast": [
+    "susanoo",
+    "yamata",
+    "yamatotakeru",
+    "amaterasu"
+   ],
+   "summary": "Descending in Izumo, Susanoo sees a chopstick float down the river and follows it to an old couple weeping between them over a girl. Seven daughters have been taken, one a year, by Yamata no Orochi - eight heads, eight tails, a body spanning eight valleys, moss and trees growing on its back - and this is the last. Susanoo asks for the girl in return for dealing with it, turns her into a comb and puts her in his hair, and has the couple build a fence with eight gates and set a vat of eight-times-brewed sake behind each. Each head drinks its own vat, the serpent sleeps, and he cuts it apart. In the fourth tail is a sword, which he sends up to his sister. Then he builds a hall and composes the first Japanese poem.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections XVIII-XIX",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Myths and Legends of Japan",
+     "translation": "F. Hadland Davis, 1912",
+     "location": "Chapter 2",
+     "url": "https://sacred-texts.com/shi/mljp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "white-hare",
+   "title": "The White Hare of Inaba",
+   "era": "Age of the Gods",
+   "cast": [
+    "okuninushi",
+    "susanoo"
+   ],
+   "summary": "Okuninushi's eighty elder brothers travel to court a princess and make him carry the baggage. On the way they find a hare, skinned and in agony, which had tricked crocodiles into forming a bridge across the water by pretending to count them, then boasted about it and been flayed for it at the last step. The brothers tell it to bathe in salt water and dry in the wind, which is agonising and makes it far worse. Okuninushi, coming behind, tells it to wash in fresh water and roll in the pollen of cattails. It recovers, and tells him it is a kami, and that he and not his brothers will win the princess. He does, and they kill him for it twice, and twice he is brought back to life.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections XXI-XXIII",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Japanese Fairy Tales",
+     "translation": "Yei Theodora Ozaki, 1908",
+     "location": "The White Hare of Inaba",
+     "url": "https://sacred-texts.com/shi/jft/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "okuninushi-tests",
+   "title": "Okuninushi in the Underworld",
+   "era": "Age of the Gods",
+   "cast": [
+    "okuninushi",
+    "susanoo",
+    "daikokuten"
+   ],
+   "summary": "Fleeing his brothers, Okuninushi goes down to the underworld where Susanoo rules, and falls in love with his daughter at first sight. Susanoo sets him tests that are plainly meant to kill him: a night in a chamber of snakes, a night in one of centipedes and bees, and an arrow shot into a field which is then set on fire around him. He survives the first two with scarves his lover gives him and the third by a mouse, which shows him a hollow to hide in and fetches the arrow. Finally, while Susanoo sleeps, he ties the sleeper's hair to the rafters, takes his sword, bow and koto, and elopes. Susanoo wakes, pulls the house down, and rather than pursue them shouts after him to go and build a country.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections XXIII-XXIV",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "ceding",
+   "title": "The Ceding of the Land",
+   "era": "Age of the Gods",
+   "cast": [
+    "okuninushi",
+    "takemikazuchi",
+    "amaterasu",
+    "ninigi"
+   ],
+   "summary": "Amaterasu decides the Central Land of Reed Plains belongs to her descendants and sends messengers down to arrange it. The first two are won over and stay; one goes native for eight years and does not report back at all. Takemikazuchi is sent third. He and his companion plant a sword upright on the crest of a wave, sit cross-legged on its point, and ask Okuninushi whether he intends to hand over the land. He refers them to his sons. One agrees at once; the other seizes Takemikazuchi's hand, which becomes an icicle and then a blade, and is crushed and hurled away - traditionally the first sumo bout. Okuninushi then consents, on the single condition that he be given a shrine with pillars sunk to bedrock and a roof reaching to heaven.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections XXXII-XXXIII",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Nihongi, Chronicles of Japan",
+     "translation": "W. G. Aston, 1896",
+     "location": "Book II",
+     "url": "https://sacred-texts.com/shi/nihon0.htm"
+    }
+   ]
+  },
+  {
+   "id": "descent",
+   "title": "The Heavenly Descent",
+   "era": "Age of the Gods",
+   "cast": [
+    "ninigi",
+    "amaterasu",
+    "sarutahiko",
+    "uzume",
+    "omoikane"
+   ],
+   "summary": "Amaterasu gives her grandson Ninigi the mirror, the curved jewel and the sword, and tells him to regard the mirror exactly as he would regard herself. He sets out with an escort. The way is blocked at the eight crossroads of heaven by a kami seven spans tall with a nose seven hands long, a red face, and eyes glowing like mirrors, and nobody dares approach him except Ame-no-Uzume, who is sent precisely because she can outface anyone. She bares her breast and asks who he is. He is Sarutahiko, and he has come to offer himself as a guide. He brings them down to the peak of Takachiho in Hyuga, and Ninigi builds his palace there, and afterwards Uzume marries the guide.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Sections XXXIII-XXXV",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "blossom-and-rock",
+   "title": "Blossom and Rock",
+   "era": "Age of the Gods",
+   "cast": [
+    "ninigi",
+    "konohanasakuya",
+    "iwanaga"
+   ],
+   "summary": "Ninigi meets a beautiful girl at Cape Kasasa and asks her father for her. The father, delighted, sends both his daughters - Konohanasakuya, Blossom-Blooming, and her elder sister Iwanaga, Rock-Long - with a great dowry. Ninigi finds Iwanaga hideous, keeps only the younger, and sends the elder home. Her father is deeply ashamed, and explains what has been thrown away: he sent both so that the heavenly grandchild's life would be enduring as rock through the one and flourishing as blossom through the other, and by keeping only the blossom, the lives of the heavenly sovereigns will be brief as flowers. The Kojiki adds, flatly, that this is why the emperors' lives have not been long - which is to say why anyone's are not.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Section XXXVII",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Nihongi, Chronicles of Japan",
+     "translation": "W. G. Aston, 1896",
+     "location": "Book II",
+     "url": "https://sacred-texts.com/shi/nihon0.htm"
+    }
+   ]
+  },
+  {
+   "id": "burning-hut",
+   "title": "The Burning Hut",
+   "era": "Age of the Gods",
+   "cast": [
+    "konohanasakuya",
+    "ninigi"
+   ],
+   "summary": "Konohanasakuya conceives after a single night together, and Ninigi refuses to believe the child is his, suggesting it must belong to an earth kami. Her answer is not to argue. She builds a hut without a door, seals herself inside with the words that if the child is not the heavenly grandchild's it will not survive, and if it is, no harm will come - and sets the hut alight. She gives birth in the fire to three sons, all unhurt, and the middle line of descent from them runs to the first emperor. The story does two things at once: it establishes the purity of the imperial bloodline beyond dispute, and it gives the mother of that line the most uncompromising nerve in the chronicle.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Section XXXVIII",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "eastward-march",
+   "title": "The Eastward March of Jimmu",
+   "era": "Imperial",
+   "cast": [
+    "jimmu",
+    "amaterasu",
+    "takemikazuchi",
+    "ninigi"
+   ],
+   "summary": "Jimmu and his elder brother set out east from Hyuga to find a place from which to rule the whole land. At Kusaka they fight facing the rising sun and are beaten, his brother taking an arrow; they conclude that descendants of the sun should not fight toward it, sail round, and attack from the east with the sun behind them. In Kumano the whole army is felled by the emanations of a great bear until a sword is let down through a storehouse roof by Takemikazuchi and revives them. Then a three-legged crow, Yatagarasu, is sent from heaven to lead them through the mountains into Yamato. He takes the land and is enthroned - on a date later calculated as 660 BCE, which is a reckoning rather than a memory.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Book II, Sections XLIV-XLIX",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Nihongi, Chronicles of Japan",
+     "translation": "W. G. Aston, 1896",
+     "location": "Book III",
+     "url": "https://sacred-texts.com/shi/nihon0.htm"
+    }
+   ]
+  },
+  {
+   "id": "prince-in-a-dress",
+   "title": "The Prince in a Dress",
+   "era": "Imperial",
+   "cast": [
+    "yamatotakeru",
+    "amaterasu",
+    "susanoo"
+   ],
+   "summary": "Told by his father to admonish his elder brother, the young prince waits for him at the privy, seizes him, tears off his limbs and throws them away wrapped in a mat, and reports that he has admonished him. His father, alarmed, sends him west against the Kumaso braves, alone. He borrows his aunt's clothes and comb, goes to their feast as a girl, and stabs the chief at the table. Sent east immediately on his return, he takes the sword Kusanagi from his aunt at Ise, is lured onto a plain and fired around, and cuts the grass and beats the flames back with it. His wife throws herself into the sea to calm a crossing. He dies at last of a mountain kami's hail, singing of the country he cannot reach, and becomes a white bird.",
+   "sources": [
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Book II, Sections LXXIX-LXXXVII",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    },
+    {
+     "book": "Myths and Legends of Japan",
+     "translation": "F. Hadland Davis, 1912",
+     "location": "Chapter 5",
+     "url": "https://sacred-texts.com/shi/mljp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "food-goddess",
+   "title": "The Food Goddess",
+   "era": "Age of the Gods",
+   "cast": [
+    "ukemochi",
+    "tsukuyomi",
+    "susanoo",
+    "inari"
+   ],
+   "summary": "Sent to visit the food goddess, the moon is entertained with a feast she produces from her own body: she faces the land and boiled rice comes from her mouth, she faces the sea and fish come, she faces the mountains and game comes, and she sets it all out on a hundred tables. Her guest, disgusted at being offered what has come out of a mouth, draws his sword and kills her. From the corpse the crops come - millet from the forehead, rice from the belly, wheat and beans from below, and the silkworm from the eyebrows. Amaterasu, told, calls the killer a wicked deity and refuses ever to look at him again, which is why the sun and moon are never in the sky together.",
+   "sources": [
+    {
+     "book": "Nihongi, Chronicles of Japan",
+     "translation": "W. G. Aston, 1896",
+     "location": "Book I",
+     "url": "https://sacred-texts.com/shi/nihon0.htm"
+    },
+    {
+     "book": "The Kojiki, Records of Ancient Matters",
+     "translation": "Basil Hall Chamberlain, 1882",
+     "location": "Section XVII, where Susanoo kills Ogetsuhime instead",
+     "url": "https://sacred-texts.com/shi/kj/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "momotaro",
+   "title": "Momotaro and the Ogres",
+   "era": "Folk",
+   "cast": [
+    "momotaro",
+    "oni"
+   ],
+   "summary": "An old woman washing clothes in the river sees an enormous peach float down. She takes it home, and when she and her husband go to cut it a boy is inside. Grown, Momotaro announces he is going to Onigashima to deal with the ogres who raid the district, and asks his mother for millet dumplings. On the road a dog, a monkey and a pheasant each ask what he is carrying and each agree to come for half a dumpling. They cross to the island - the pheasant scouting from the air, the monkey over the wall, the dog at the gate - defeat the oni, and bring home the treasure the ogres had taken. It is the most universally known tale in Japan, which is exactly why the wartime propaganda ministry made such heavy use of it.",
+   "sources": [
+    {
+     "book": "Japanese Fairy Tales",
+     "translation": "Yei Theodora Ozaki, 1908",
+     "location": "Momotaro, the Story of the Son of a Peach",
+     "url": "https://sacred-texts.com/shi/jft/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "urashima",
+   "title": "Urashima Taro and the Box",
+   "era": "Folk",
+   "cast": [
+    "urashima",
+    "ryujin"
+   ],
+   "summary": "Urashima Taro finds children tormenting a turtle on the beach and buys it from them to set it free. Days later a turtle comes to his boat and offers to take him to the palace of the sea king in return, and carries him down to Ryugu-jo, where the princess Otohime entertains him and where looking out in four directions shows spring, summer, autumn and winter at once. After three days he is homesick and asks to go back. She gives him a lacquered box and asks him never to open it. On the shore nothing is familiar and nobody knows his name; three hundred years have passed. Alone, with nothing left, he opens the box, and the white smoke that rises is all the time he was away.",
+   "sources": [
+    {
+     "book": "Japanese Fairy Tales",
+     "translation": "Yei Theodora Ozaki, 1908",
+     "location": "The Story of Urashima Taro",
+     "url": "https://sacred-texts.com/shi/jft/index.htm"
+    },
+    {
+     "book": "Myths and Legends of Japan",
+     "translation": "F. Hadland Davis, 1912",
+     "location": "Chapter 22",
+     "url": "https://sacred-texts.com/shi/mljp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "snow-woman",
+   "title": "The Snow Woman",
+   "era": "Folk",
+   "cast": [
+    "yukionna"
+   ],
+   "summary": "Two woodcutters, an old man and a boy, are caught by a blizzard and shelter in a ferryman's hut. The younger wakes to snow blowing through the door and a woman in white bending over the older man, breathing a white smoke onto him. She turns to the boy, looks at him a long time, and says she pities him because he is young - she will spare him, on the one condition that he never tell anyone what he has seen, or she will kill him. The old man is dead. Years later he marries a pale, beautiful woman named O-Yuki who does not age, and they have ten children. One night, sewing by the lamp, she reminds him of something, and he tells her about it - and she rises and tells him she is that woman.",
+   "sources": [
+    {
+     "book": "Kwaidan: Stories and Studies of Strange Things",
+     "translation": "Lafcadio Hearn, 1904",
+     "location": "Yuki-Onna",
+     "url": "https://sacred-texts.com/shi/kwaidan/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "tengu-of-kurama",
+   "title": "The Tengu of Kurama",
+   "era": "Folk",
+   "cast": [
+    "tengu",
+    "sarutahiko"
+   ],
+   "summary": "Minamoto no Yoshitsune, the most celebrated warrior in Japanese history, was placed as a boy in a temple on Mount Kurama after his father's clan was destroyed. The tradition holds that he slipped out at night into the woods, where Sojobo, king of the tengu, taught him swordsmanship - which is how a slight, small young man came to fight as he did, leaping between the gunwales of eight boats at Dan-no-ura. The tengu are the right teachers for it because they are mountain beings of enormous skill and enormous pride, and dangerous to be indebted to. Their long-nosed face appears to descend from Sarutahiko's, and they began as straightforwardly malevolent bird-demons before settling into ambiguous masters.",
+   "sources": [
+    {
+     "book": "Myths and Legends of Japan",
+     "translation": "F. Hadland Davis, 1912",
+     "location": "Chapter 20",
+     "url": "https://sacred-texts.com/shi/mljp/index.htm"
+    },
+    {
+     "book": "Kwaidan: Stories and Studies of Strange Things",
+     "translation": "Lafcadio Hearn, 1904",
+     "location": "Notes on tengu",
+     "url": "https://sacred-texts.com/shi/kwaidan/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "setsubun",
+   "title": "Demons Out, Fortune In",
+   "era": "Folk",
+   "cast": [
+    "oni",
+    "jizo",
+    "kitsune"
+   ],
+   "summary": "The northeast is the kimon, the demon gate, the unlucky quarter, and it belongs to the ox and the tiger in the zodiac - which is why oni have ox horns and wear tiger-skin loincloths. Kyoto and later Edo were both laid out with temples guarding the northeast approach. At Setsubun, the turn of the seasons in early February, households throw roasted soybeans out of the door and around the house shouting oni wa soto, fuku wa uchi - demons out, fortune in - and then eat one bean for each year of their age. Temples hold large public throwings with celebrities on platforms. It is among the most widely observed customs in Japan and one of the most cheerful.",
+   "sources": [
+    {
+     "book": "Shinto: The Way of the Gods",
+     "translation": "W. G. Aston, 1905",
+     "location": "Chapter 11, on purification and the expulsion of demons",
+     "url": "https://archive.org/details/shintowayofgods00asto"
+    },
+    {
+     "book": "Myths and Legends of Japan",
+     "translation": "F. Hadland Davis, 1912",
+     "location": "Chapter 21",
+     "url": "https://sacred-texts.com/shi/mljp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "hidden-kannon",
+   "title": "The Hidden Kannon",
+   "era": "Folk",
+   "cast": [
+    "kannon",
+    "jizo",
+    "benzaiten"
+   ],
+   "summary": "When Christianity was outlawed in Japan in the seventeenth century, communities in Kyushu that would not give it up went underground for two and a half centuries, without priests, sacraments or texts. What they kept was partly disguised: images of Kannon holding a child, indistinguishable to an inspector from ordinary Buddhist statuary, sometimes with a small cross cut into the back or the base, venerated as the Virgin and child. They are called Maria Kannon. When French missionaries reopened a church at Nagasaki in 1865, a group of villagers approached and asked, carefully, whether the priests venerated Mary - the first contact in two hundred and fifty years. The statues survive in museums, and they are among the most affecting objects in Japanese religious history.",
+   "sources": [
+    {
+     "book": "Shinto: The Way of the Gods",
+     "translation": "W. G. Aston, 1905",
+     "location": "Chapter 14, on the Christian century and its suppression",
+     "url": "https://archive.org/details/shintowayofgods00asto"
+    }
+   ]
+  }
+ ],
  "entities": [
   {
    "id": "amenominakanushi",
@@ -240,7 +768,9 @@
    "bio": "The first kami to come into being at the start of heaven and earth, who immediately concealed himself and did nothing further.",
    "longBio": "The Kojiki opens by saying that when heaven and earth began, three kami came into being in the Plain of High Heaven, of whom Amenominakanushi was first - and then that all three hid themselves. That is the entire account. He does not create, command, father anyone or reappear. This is one of the most distinctive things about the Japanese tradition: it does not begin with a maker. Things come into being, and the first ones to do so promptly withdraw, leaving the work to later generations. Seven generations of kami follow before Izanagi and Izanami do anything at all. Later Shinto theologians, particularly in the Edo period and under some Meiji influence, tried to promote him into a supreme creator god, which the text gives them very little to work with.",
    "variantTraditions": "The elevation of Amenominakanushi to a supreme deity is a much later theological project, not a reading the Kojiki supports.",
-   "storyIds": [],
+   "storyIds": [
+    "kami-who-hid"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "supreme-source"
@@ -276,7 +806,13 @@
    "bio": "With Izanami he stirred the sea into the first island, and after her death he fathered Amaterasu, Tsukuyomi and Susanoo by washing.",
    "longBio": "Izanagi and Izanami stand on the floating bridge of heaven and stir the brine below with a jewelled spear; the drops that fall from its tip make the first island. They descend, marry, and produce the islands of Japan and a great many kami. Their first attempt fails because Izanami spoke first in the marriage ritual - which the chronicles present as an error to be corrected, and which is one of several places where the text's politics show. Izanami dies giving birth to fire. Izanagi follows her into Yomi, is horrified by what he finds, and flees. Then, washing the pollution off in a river, he produces his most important children from the act of cleaning himself: Amaterasu from his left eye, Tsukuyomi from his right, and Susanoo from his nose.",
    "variantTraditions": "The Nihon Shoki gives several alternative versions of nearly every episode side by side, prefaced 'in one writing it is said', which is unusual candour for a chronicle.",
-   "storyIds": [],
+   "storyIds": [
+    "kami-who-hid",
+    "jewelled-spear",
+    "death-of-izanami",
+    "yomi",
+    "washing"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "creator",
@@ -315,7 +851,12 @@
    "bio": "She bore the islands and died bearing fire; when her husband saw her decayed in Yomi she pursued him and became death itself.",
    "longBio": "Izanami bears the islands and the kami, and is fatally burned giving birth to Kagutsuchi, fire. Izanagi goes down to Yomi to bring her back. She says she has already eaten the food of that place but will ask its powers, and asks him not to look at her. He waits, grows impatient, breaks a tooth from his comb for a torch, and sees her rotting and full of maggots. Shamed and enraged, she sends the hags of Yomi after him, and he escapes by throwing down his headdress and comb, which become grapes and bamboo shoots, and finally peaches. At the pass they part with the exchange that establishes mortality: she promises to strangle a thousand people a day, and he answers that he will cause fifteen hundred to be born.",
    "variantTraditions": "The Yomi descent has clear structural parallels with Orpheus and with Persephone, and the parallels are usually treated as typological rather than as evidence of contact.",
-   "storyIds": [],
+   "storyIds": [
+    "kami-who-hid",
+    "jewelled-spear",
+    "death-of-izanami",
+    "yomi"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "earth-mother",
@@ -351,7 +892,9 @@
    "bio": "His birth burned Izanami to death, and his father cut him apart in grief, each piece becoming a mountain kami.",
    "longBio": "Kagutsuchi is the last child Izanami bears and the one that kills her, burning her as he is born. Izanagi, weeping, takes his ten-span sword and cuts off the infant's head, and from the blood on the blade, the blood dripping from the rocks, and the eight severed pieces of the body come a further set of kami - including Takemikazuchi the thunder-sword and the mountain kami. The episode is characteristic of the Kojiki's method: every act of violence is also a genealogy, and the world fills up with kami as a by-product of grief and anger. Fire kami are treated seriously in practice, since Japanese towns were built of wood and paper, and shrines to fire-quelling kami are common.",
    "variantTraditions": "Kagutsuchi is called Homusubi in the Nihon Shoki, one of many places where the two chronicles differ in name.",
-   "storyIds": [],
+   "storyIds": [
+    "death-of-izanami"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "fire"
@@ -391,7 +934,16 @@
    "bio": "Born from Izanagi's left eye; she withdrew into a cave and had to be lured out, and her descendants rule Japan.",
    "longBio": "Amaterasu is the most important kami and, unusually among world traditions, the sun is female and the moon her brother. She rules the Plain of High Heaven and tends its rice fields and weaving hall. Her brother Susanoo's escalating outrages - breaking the paddy dykes, defiling her hall, and finally flinging a flayed horse through the roof of the weaving room so that a weaver is killed - drive her into the rock cave of heaven, and the world goes dark. The kami gather outside and lure her out with a mirror, a rooster and Ame-no-Uzume's dance. Her grandson Ninigi is sent down to rule the land, carrying the mirror, jewel and sword that are still the imperial regalia, and from him the imperial house descends.",
    "variantTraditions": "The chronicles were compiled to establish exactly that descent, and Amaterasu's supremacy over other kami may owe as much to the political programme as to older belief.",
-   "storyIds": [],
+   "storyIds": [
+    "washing",
+    "rock-cave",
+    "expulsion",
+    "orochi",
+    "ceding",
+    "descent",
+    "eastward-march",
+    "prince-in-a-dress"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "sun",
@@ -428,7 +980,10 @@
    "bio": "Born from Izanagi's right eye; he killed Ukemochi over a meal and Amaterasu never looked at him again.",
    "longBio": "Tsukuyomi is the least developed of the three noble children and has one significant story. Sent by Amaterasu to visit the food goddess Ukemochi, he is served a feast she produces from her own mouth and body - rice from her mouth, fish from the sea, game from the land. Disgusted at being offered what he sees as filth, he kills her. From her corpse come the crops: millet from her forehead, rice from her belly, wheat and beans from other parts, and the silkworm from her eyebrows. Amaterasu, told what he has done, declares him a wicked deity and refuses to look at him ever again - and that is why the sun and moon are never in the sky together. It is a small, cold story, and it is nearly all he has.",
    "variantTraditions": "The Kojiki attributes the killing of the food goddess to Susanoo instead, and calls her Ogetsuhime; the Nihon Shoki gives it to Tsukuyomi.",
-   "storyIds": [],
+   "storyIds": [
+    "washing",
+    "food-goddess"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "moon"
@@ -466,7 +1021,16 @@
    "bio": "Expelled from heaven for pollution, he descended to Izumo, killed the eight-headed serpent, and became a founder rather than a villain.",
    "longBio": "Susanoo is born from Izanagi's nose and refuses his assignment, weeping until the mountains wither because he wants to go to his mother in Yomi. Sent to say goodbye to Amaterasu, he behaves so badly in heaven - breaking the rice dykes, fouling the hall, throwing a flayed horse into the weaving room - that she hides in a cave and he is expelled, his beard cut and his nails pulled out. Then the character turns completely. In Izumo he finds an old couple weeping over the last of their eight daughters, due to be eaten by the eight-headed serpent Yamata no Orochi. He gets the serpent drunk on eight vats of sake, cuts it apart, finds a sword in its tail, marries the girl, and composes the first Japanese poem. He is not redeemed; he was always both.",
    "variantTraditions": "The Izumo material may preserve a rival tradition to the Yamato court's, and Susanoo's demotion in heaven and prominence in Izumo has been read politically.",
-   "storyIds": [],
+   "storyIds": [
+    "washing",
+    "rock-cave",
+    "expulsion",
+    "orochi",
+    "white-hare",
+    "okuninushi-tests",
+    "prince-in-a-dress",
+    "food-goddess"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "wind-storm",
@@ -505,7 +1069,10 @@
    "bio": "She danced on an overturned tub outside the cave until the assembled kami laughed loud enough to make Amaterasu curious.",
    "longBio": "With the sun hidden and the world dark, eight hundred kami gather at the cave and try everything. What works is Ame-no-Uzume. She binds up her sleeves with vine, takes bamboo grass in her hand, sets an empty tub upside down before the cave, and dances on it, stamping until it booms, and in her ecstasy pulls down her dress. The eight hundred kami roar with laughter. Amaterasu, who cannot imagine what there is to laugh about in a dark world, slides the rock door open a crack to ask - and is shown her own face in a mirror held up as another and greater deity, and drawn out while a rope is stretched behind her. She is also the one who faces down Sarutahiko on the road of the descent, by staring him out.",
    "variantTraditions": "Uzume is the patron of kagura and of the performing arts generally, and the story is regularly read as the origin of ritual dance.",
-   "storyIds": [],
+   "storyIds": [
+    "rock-cave",
+    "descent"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "love-desire",
@@ -541,7 +1108,10 @@
    "bio": "When the sun hid, the eight hundred kami gathered and put the problem to him, and he designed the solution.",
    "longBio": "Omoikane's name means something like the one who combines the thoughts of many, and his function is exactly that: when the kami assemble in the dry bed of the heavenly river with an emergency, they refer it to him and he produces a plan. For the cave he specifies the whole apparatus - long-crying birds to be made to crow, a mirror to be forged, jewels strung, a sakaki tree uprooted and hung with them, prayers, and Uzume's dance - and it works. He is consulted again over who should be sent down to pacify the land before Ninigi's descent. He is a rare thing in mythology: a deity of committee work who is genuinely good at it, and whose contribution is procedure rather than power.",
    "variantTraditions": "Omoikane is a son of Takamimusubi, one of the three original hidden kami, which quietly gives the planning function a very old pedigree.",
-   "storyIds": [],
+   "storyIds": [
+    "rock-cave",
+    "descent"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "wisdom-craft"
@@ -577,7 +1147,11 @@
    "bio": "Born from the blood on the sword that killed the fire kami, he sat on a sword-point and won Japan in the first sumo match.",
    "longBio": "Takemikazuchi comes into being from the blood on Izanagi's blade after the killing of Kagutsuchi. When heaven decides the land below must be handed over before Ninigi descends, he is sent with another kami; they plant a sword upright on the crest of a wave and sit cross-legged on its point to make their demand. Okuninushi refers them to his sons. One agrees; the other, Takeminakata, seizes Takemikazuchi's hand, which turns into an icicle and then a sword blade, and is crushed and thrown - the encounter is traditionally regarded as the first sumo bout. Takemikazuchi is also credited with pinning down the giant catfish whose movements cause earthquakes, with a foundation stone at Kashima.",
    "variantTraditions": "The earthquake-catfish association is Edo-period and produced a whole genre of popular prints after the 1855 Ansei quake.",
-   "storyIds": [],
+   "storyIds": [
+    "death-of-izanami",
+    "ceding",
+    "eastward-march"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "sky-thunder",
@@ -615,7 +1189,10 @@
    "bio": "A huge red-faced kami who blocked the road of the descent and became its guide, and married the dancer who faced him.",
    "longBio": "As Ninigi's party comes down, they find the way blocked by an enormous kami standing at the eight crossroads of heaven, seven spans tall with a nose seven hands long, a red face and eyes that glow like mirrors. Nobody dares approach him except Ame-no-Uzume, who is sent because, the text says, she can outface anyone; she bares her breast and stares him down and asks who he is. He turns out to be entirely friendly - he has come to offer himself as a guide. He leads the party to earth, and afterwards marries Uzume. His appearance later shaped the standard image of the tengu, and he is regarded as a patron of martial arts and of safe travel.",
    "variantTraditions": "The physical description of Sarutahiko is widely thought to have fed into the long-nosed tengu of later folklore.",
-   "storyIds": [],
+   "storyIds": [
+    "descent",
+    "tengu-of-kurama"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "messenger-trickster",
@@ -652,7 +1229,13 @@
    "bio": "Amaterasu sent him down with mirror, jewel and sword to rule the islands, and he chose the wrong bride.",
    "longBio": "Ninigi is sent down from heaven to rule the land, carrying the three items - the mirror Yata no Kagami, the jewel Yasakani no Magatama and the sword Kusanagi - that remain the Japanese imperial regalia to this day. He descends on Mount Takachiho with an escort of kami. Offered the two daughters of the mountain kami, he takes the beautiful Konohanasakuya and sends back her elder sister Iwanaga, Rock-Long, who is ugly. Their father explains what he has thrown away: had he kept Iwanaga, his descendants' lives would have been enduring as rock; taking only Konohanasakuya, they will be brilliant and brief as blossom. That is the Japanese account of why emperors, and people, die.",
    "variantTraditions": "The regalia are real objects in imperial custody; they are not displayed, and no reigning emperor is said to have seen the mirror.",
-   "storyIds": [],
+   "storyIds": [
+    "ceding",
+    "descent",
+    "blossom-and-rock",
+    "burning-hut",
+    "eastward-march"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "king-ruler"
@@ -689,7 +1272,10 @@
    "bio": "Ninigi's bride, who proved her fidelity by giving birth in a burning hut, and whose choosing made human life short.",
    "longBio": "Konohanasakuya is chosen by Ninigi over her elder sister, and the choice is why life is short and lovely rather than long and dull. She conceives after a single night, and Ninigi doubts the child is his. Her answer is not argument but ordeal: she builds a doorless hut, seals herself inside, sets it alight, and declares that if the child is a heavenly grandchild's it will come to no harm. She gives birth to three sons in the fire, unharmed. She is the kami of Mount Fuji, and her shrines ring it; the volcano and the blossom belong to the same figure, which is a very precise piece of symbolism - both are beautiful, both are brief, and one of them will kill you.",
    "variantTraditions": "Her identification with Fuji is somewhat later than the Kojiki, which does not make the connection explicitly.",
-   "storyIds": [],
+   "storyIds": [
+    "blossom-and-rock",
+    "burning-hut"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "earth-mother",
@@ -725,7 +1311,9 @@
    "bio": "Ninigi returned her for being ugly, and with her went the enduring life she would have given his line.",
    "longBio": "Iwanaga is offered to Ninigi alongside her sister by their father the mountain kami, and Ninigi sends her back because she is ugly. Her father's response is one of the sharpest passages in the Kojiki: he explains that he sent both deliberately, so that the heavenly grandchild's life would be enduring as rock through Iwanaga and flourishing as blossom through her sister, and that by keeping only one he has chosen a life that blooms and falls. From this, the text says, the lives of the emperors have been short - and by extension so are everyone's. Iwanaga herself is given almost nothing beyond her rejection, which makes the story bleaker: the thing that was refused does not get a voice.",
    "variantTraditions": "Some later folk traditions give Iwanaga a more active role, cursing the shortness of human life rather than merely embodying the loss.",
-   "storyIds": [],
+   "storyIds": [
+    "blossom-and-rock"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "fate-time"
@@ -766,7 +1354,11 @@
    "bio": "A younger son abused by eighty brothers who built up the land, then ceded it to heaven for a great shrine.",
    "longBio": "Okuninushi begins as the put-upon youngest of eighty brothers, carrying their bags on a courtship journey. He stops to help a flayed hare his brothers have tormented, telling it to wash in fresh water and roll in cattail pollen; the hare, a kami in disguise, tells him he will win the princess instead of them. They kill him twice for it and he is revived twice. He escapes to the underworld, survives Susanoo's tests, steals his sword, bow and koto, and elopes with his daughter. Then he builds up the land - agriculture, medicine, fisheries. When heaven demands it for Ninigi, he agrees to hand it over on one condition: a shrine as tall as the palace of heaven. Izumo Taisha is that shrine.",
    "variantTraditions": "The Izumo cycle sits oddly inside a Yamato court document, and is widely read as an incorporated rival tradition, its concession negotiated rather than forced.",
-   "storyIds": [],
+   "storyIds": [
+    "white-hare",
+    "okuninushi-tests",
+    "ceding"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "king-ruler",
@@ -808,7 +1400,9 @@
    "bio": "The most widely enshrined kami in Japan, served by fox messengers, and of no fixed sex.",
    "longBio": "Inari has more shrines than any other kami - around a third of all shrines in Japan - and is the clearest case of a deity defined by function rather than personality. Inari is rice, and therefore wealth, and therefore by extension commerce, industry, and the prosperity of any enterprise; merchants and companies dedicate torii, which is why the paths at Fushimi Inari run for miles under thousands of donated gates. Inari's sex is not fixed and varies by shrine and period - sometimes an old man carrying rice, sometimes a young woman, sometimes androgynous - and the tradition is untroubled by this. The white foxes at every shrine are messengers, not the kami, though popular usage constantly confuses the two.",
    "variantTraditions": "Inari is identified with the Kojiki's Ukanomitama and, in Buddhist contexts, with Dakiniten, an imported figure; the identifications are layered rather than exclusive.",
-   "storyIds": [],
+   "storyIds": [
+    "food-goddess"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "wealth-fortune",
@@ -923,7 +1517,9 @@
    "bio": "He holds the jewels that raise and lower the tide, and his coral palace is where time runs differently.",
    "longBio": "Ryujin lives in Ryugu-jo, a palace of coral and crystal at the bottom of the sea where the four seasons occur simultaneously in four directions and where time passes at a different rate from the surface. He controls the tides with two jewels, the kanju and manju, which lower and raise the water, and lending them decides battles - the Empress Jingu is said to have used them against Korea. His daughter Otohime hosts Urashima Taro for what feels like three days and turns out to be three hundred years. Another daughter, Toyotama, marries a grandson of Ninigi and gives birth in her true dragon form after asking him not to look; he looks, and she leaves, which puts the same broken taboo in the imperial genealogy as in the Yomi story.",
    "variantTraditions": "Ryujin, Watatsumi and Owatatsumi are variously the same figure or distinct sea kami depending on the text.",
-   "storyIds": [],
+   "storyIds": [
+    "urashima"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "sea-waters",
@@ -1002,7 +1598,9 @@
    "bio": "A ferocious Hindu destroyer imported through Buddhism and softened, in Japan, into a smiling god of the pantry.",
    "longBio": "Daikokuten arrives in Japan as Mahakala, a wrathful form associated with Shiva and adopted as a Buddhist protector - a black, terrifying destroyer. In Japan he becomes a stout, grinning figure in a flat hood, standing on two bales of rice with a sack over his shoulder and a mallet that produces money when struck. The transformation is nearly total, and appears to have been helped by a pun: the characters for his name can also be read Okuninushi, so the imported figure merged with the Izumo land-builder. He is a god of the kitchen and the storehouse, and his image stood in temple kitchens and farmhouses. Rats are associated with him, being where the rice is.",
    "variantTraditions": "The Mahakala-Daikokuten-Okuninushi chain is one of the most extreme transformations in the pack: a destroyer becomes a pantry god by way of a homophone.",
-   "storyIds": [],
+   "storyIds": [
+    "okuninushi-tests"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "wealth-fortune",
@@ -1042,7 +1640,9 @@
    "bio": "The Indian Sarasvati, arrived through Buddhism, and the only woman among the Seven Lucky Gods.",
    "longBio": "Benzaiten is the Japanese form of the Hindu river goddess Sarasvati, transmitted through Buddhist texts, and she keeps the essential character: everything that flows - water, music, speech, and by a natural extension knowledge and eventually money. She plays the biwa rather than the vina. Her shrines are almost always on islands or beside water, at Enoshima, Chikubushima and Itsukushima with its torii standing in the sea. A white serpent is her messenger, and a persistent folk belief holds that couples who visit her shrine together will be separated, because she is jealous - a piece of local colour with no basis in the doctrine. She is the only female member of the Seven Lucky Gods.",
    "variantTraditions": "The comparison with the Hindu pack is direct: Benzaiten and Saraswati are the same goddess at two ends of a transmission, and the differences are instructive.",
-   "storyIds": [],
+   "storyIds": [
+    "hidden-kannon"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "wisdom-craft",
@@ -1083,7 +1683,9 @@
    "bio": "The Chinese Guanyin arrived in Japan and stayed, including among Christians who hid a cross behind her.",
    "longBio": "Kannon is the Japanese form of Guanyin, and therefore of Avalokitesvara, and arrives already having changed sex once in China. The thirty-three-temple pilgrimage circuits dedicated to her are among the oldest and most walked in Japan, and Sensoji in Tokyo, founded on a Kannon image said to have been pulled from the river in a fisherman's net, is the country's most visited temple. Her most remarkable Japanese chapter is the Maria Kannon: during the two-and-a-half centuries when Christianity was banned, hidden Christian communities in Kyushu venerated images of Kannon holding a child, sometimes with a cross concealed on the back, as the Virgin Mary. The statues are indistinguishable from ordinary Kannon figures to an inspector.",
    "variantTraditions": "The Maria Kannon statues survive in museums in Nagasaki and elsewhere and are among the most poignant objects in Japanese religious history.",
-   "storyIds": [],
+   "storyIds": [
+    "hidden-kannon"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "healer",
@@ -1121,7 +1723,10 @@
    "bio": "Small stone figures at every roadside, dressed in red bibs by parents of dead children whose souls he shelters.",
    "longBio": "Jizo is the most physically present figure in Japanese religion - small weathered stone statues stand at roadsides, crossroads, temple gates and mountain passes everywhere in the country. He vowed not to enter buddhahood until all beings are freed from hell, and he travels the realms of rebirth as a simple monk. His particular charge is children who die young, including stillbirths and miscarriages, who are said to be at Sai no Kawara, a dry riverbed, endlessly piling stones into towers that demons knock down; Jizo hides them in his sleeves and protects them. Bereaved parents dress his statues in red bibs and knitted caps and leave toys and pinwheels, and the sight of a row of them so dressed is unmistakable.",
    "variantTraditions": "The mizuko kuyo rites for lost pregnancies are a modern development around Jizo and are the subject of considerable debate in Japan.",
-   "storyIds": [],
+   "storyIds": [
+    "setsubun",
+    "hidden-kannon"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "healer",
@@ -1157,7 +1762,10 @@
    "bio": "She produced a feast from her own body, was killed for it in disgust, and her corpse became the staple crops.",
    "longBio": "Sent a divine guest, Ukemochi turns to the land and produces boiled rice from her mouth, turns to the sea and produces fish, turns to the mountains and produces game, and sets it all out as a banquet. Her visitor - Tsukuyomi in the Nihon Shoki, Susanoo in the Kojiki, where she is called Ogetsuhime - is revolted at being offered food that came out of a body and kills her. Then from the corpse come the things that feed Japan: millet from the forehead, rice from the belly, wheat and beans from the genitals and rectum, and the silkworm from the eyebrows. It is a straightforward dema-deity story of the kind found across the Pacific, in which the staple crops come from a murdered body.",
    "variantTraditions": "The two chronicles assign the killing to different gods, and the divergence is one of the clearest cases of the Kojiki and Nihon Shoki simply disagreeing.",
-   "storyIds": [],
+   "storyIds": [
+    "expulsion",
+    "food-goddess"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "earth-mother"
@@ -1193,7 +1801,9 @@
    "bio": "He marched east from Hyuga, was guided by a three-legged crow, and founded the imperial line in 660 BCE by tradition.",
    "longBio": "Jimmu is the fourth generation from Ninigi and the point at which the chronicles cross from the age of the gods into the age of emperors, which is exactly what they were written to accomplish. He sets out east from Hyuga to find a place from which to govern, loses a brother to an arrow after fighting eastward into the sun and turning round to fight with the sun behind him instead, is saved when a sword is dropped through a storehouse roof by Takemikazuchi, and is guided over the mountains by Yatagarasu, a three-legged crow sent from heaven. He takes Yamato and is enthroned on a date traditionally given as 660 BCE. That date is a later calculation, and no historian treats Jimmu as a person.",
    "variantTraditions": "The 660 BCE date derives from Chinese calendrical cycles applied retroactively; the Meiji state made it a national holiday, and the political use of Jimmu in the 1930s and 40s was considerable.",
-   "storyIds": [],
+   "storyIds": [
+    "eastward-march"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "king-ruler",
@@ -1231,7 +1841,10 @@
    "bio": "Feared by his own father and sent on endless campaigns, he killed by trickery and died from insulting a mountain kami.",
    "longBio": "Yamato Takeru kills his elder brother for a slight, so casually that his father the emperor becomes frightened of him and sends him away on campaigns that are plainly meant to kill him. He kills the Kumaso chieftains by dressing as a girl and getting close enough to stab them, and the Izumo brave by proposing they exchange swords, having made himself a wooden one. His aunt at Ise gives him the sword Kusanagi from the serpent's tail, and it saves him when enemies fire a grass plain around him. His wife throws herself into the sea to calm it for him. Returning, he insults a mountain kami, is struck with a hailstorm and sickness, and dies on a plain, singing of Yamato. He becomes a white bird and flies away.",
    "variantTraditions": "The Kojiki's Yamato Takeru is a considerably more melancholy figure than the Nihon Shoki's, and his lament for his homeland is among the best-known passages in Japanese literature.",
-   "storyIds": [],
+   "storyIds": [
+    "orochi",
+    "prince-in-a-dress"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "hero-champion",
@@ -1267,7 +1880,9 @@
    "bio": "Found inside a peach by a childless couple, he took millet dumplings and three animals and cleared out the ogres.",
    "longBio": "An old woman washing clothes at the river sees a giant peach come floating down; she takes it home, and when she and her husband cut it open a boy is inside. Grown, Momotaro announces he is going to Onigashima, Ogre Island, to deal with the oni who have been raiding the district, and asks his mother for kibi dango, millet dumplings. On the road he meets a dog, a monkey and a pheasant, and recruits each with half a dumpling. Together they cross to the island, defeat the oni, and come back with the treasure the ogres had stolen. It is the most universally known Japanese folk tale, taught to every child - and, precisely because of that, it was used heavily as propaganda during the Pacific War.",
    "variantTraditions": "The wartime use of Momotaro, including animated films in which he leads an assault on enemy islands, is well documented and now uncomfortable.",
-   "storyIds": [],
+   "storyIds": [
+    "momotaro"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "hero-champion"
@@ -1302,7 +1917,9 @@
    "bio": "He saved a turtle, spent three days in the sea-king's palace, returned to find three centuries gone, and opened the box.",
    "longBio": "Urashima Taro rescues a turtle that children are tormenting on the beach. The turtle returns as a messenger of Ryujin and carries him to the dragon palace under the sea, where the princess Otohime entertains him and where the four seasons occur at once in four directions. After three days he grows homesick and asks to leave. She gives him a lacquered box, the tamatebako, and tells him never to open it. On shore, nothing is familiar; three hundred years have passed. Finding no one who remembers him and no house where his stood, he opens the box - and the white smoke that comes out is the years he was away, and he ages three centuries in an instant and dies, or becomes a crane.",
    "variantTraditions": "A version appears in the Nihon Shoki and the Manyoshu, making this among the oldest attested tales in the pack; the endings vary considerably.",
-   "storyIds": [],
+   "storyIds": [
+    "urashima"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "hero-champion",
@@ -1338,7 +1955,9 @@
    "bio": "A serpent with eight heads spanning eight valleys, killed by Susanoo with sake, and carrying Kusanagi in its tail.",
    "longBio": "The serpent has eight heads and eight tails, eyes red as winter cherries, moss and cypress growing on its back, and a body spanning eight valleys and eight hills, and its belly is permanently raw and bleeding. It has eaten seven of an old couple's eight daughters, one a year, and is due to take the last. Susanoo's plan is unglamorous and effective: build a fence with eight gates, put a vat of strong sake behind each, and wait. Each head drinks from its own vat and the serpent falls asleep, and he cuts it into pieces. In the fourth tail he finds a sword, which he sends up to Amaterasu as a peace offering; it becomes Kusanagi, one of the three imperial regalia. The story is often read as a river being tamed.",
    "variantTraditions": "The iron-working of Izumo and the red rivers of its smelting have been proposed as the serpent's origin; the reading is plausible and unproven.",
-   "storyIds": [],
+   "storyIds": [
+    "orochi"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "serpent-dragon",
@@ -1378,7 +1997,9 @@
    "bio": "A fox grows a tail every hundred years and turns white or gold at nine, and may live as a woman for decades before being found out.",
    "longBio": "Kitsune gain power with age: a tail per century, up to nine, at which point the fur turns white or gold and the fox can see and hear anything happening anywhere. They shapeshift, most often into women, and the fox-wife story is a fixed type - she marries a man, keeps house faithfully, bears children, and is exposed years later by a dog, a reflection, or a shadow that has a tail in it, whereupon she must leave. Some serve Inari and are benevolent messengers; others, the nogitsune, deceive and possess. Fox possession was a recognised diagnosis in Japan into the twentieth century, with families identified as fox-owning and shunned accordingly, which gave the folklore real social consequences.",
    "variantTraditions": "The kitsune type is shared with Chinese huli jing and Korean kumiho; the Japanese Inari association is distinctive.",
-   "storyIds": [],
+   "storyIds": [
+    "setsubun"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "messenger-trickster",
@@ -1418,7 +2039,9 @@
    "bio": "Once bird-demons, later mountain ascetics who abduct the proud and teach swordsmanship to those they favour.",
    "longBio": "Tengu begin as straightforwardly malevolent bird-demons who abduct people, set fires and possess women, and are particularly associated with arrogant Buddhist priests, who were said to be reborn as tengu for their pride. Over time they soften into something closer to dangerous mountain hermits with their own society, dressed as yamabushi ascetics, and two forms settle: the crow-headed karasu-tengu and the red-faced, enormously long-nosed daitengu, whose face probably descends from Sarutahiko. Their great legend is that Sojobo, king of the tengu of Mount Kurama, taught swordsmanship to the boy Minamoto no Yoshitsune, which is why Japan's most celebrated warrior fought as he did. They are proud, easily offended, and dangerous to mock.",
    "variantTraditions": "The shift from demon to ambiguous teacher happens over centuries and is bound up with attitudes to mountain asceticism.",
-   "storyIds": [],
+   "storyIds": [
+    "tengu-of-kurama"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "messenger-trickster",
@@ -1497,7 +2120,10 @@
    "bio": "Horned, club-wielding ogres in tiger-skin, associated with the unlucky northeast and driven out with beans each spring.",
    "longBio": "Oni are large, horned, red or blue, and carry an iron club - the phrase for an unstoppable advantage is oni with an iron club. Their appearance is derived from geomancy: the northeast is the kimon or demon gate, the unlucky quarter, and the northeast belongs to the ox and the tiger in the zodiac, so oni have ox horns and tiger-skin loincloths. Kyoto and Edo both had temples sited to guard the northeast approach. They cause plague, disaster and famine, eat people, and are the standard antagonist of folk tales. Every February at Setsubun households throw roasted soybeans out of the door shouting demons out, fortune in, which is among the most widely observed customs in Japan.",
    "variantTraditions": "The Buddhist hell-wardens and the folk oni merged over time; the tiger-and-ox derivation of their appearance is well attested.",
-   "storyIds": [],
+   "storyIds": [
+    "momotaro",
+    "setsubun"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "primordial-adversary"
@@ -1534,7 +2160,9 @@
    "bio": "She spares a young woodcutter on condition he never speaks of her, marries him years later under another name, and leaves when he does.",
    "longBio": "In Hearn's telling, two woodcutters are caught by a blizzard and shelter in a hut. The younger wakes to see a woman in white breathing on the older man, who dies of it; she turns to him, says he is too young and she pities him, and spares him on condition that he never tell anyone what he saw, or she will kill him. Years later he marries a beautiful woman named O-Yuki, who does not age, and they have ten children. One night by the lamp he remarks that she reminds him of something that happened long ago, and tells her. She rises, tells him she is that woman, and that only the children keep her from killing him - then dissolves into white mist and is gone through the smoke-hole.",
    "variantTraditions": "Hearn says he had the story from a farmer in Musashi; earlier yuki-onna traditions vary widely and are often simply lethal, without the marriage.",
-   "storyIds": [],
+   "storyIds": [
+    "snow-woman"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "primordial-adversary",
