@@ -70,8 +70,146 @@
   "systemMechanism": "Purity against pollution, not good against evil. Kegare - the defilement of death, blood, sickness and disorder - is the problem, and the answer is ritual cleansing rather than repentance: misogi with water, harae with a wand. Susanoo is not punished for wickedness but expelled for pollution. Alongside this runs the political mechanism the chronicles were written to establish: the emperor descends from Amaterasu.",
   "canonTexts": "The Kojiki (712) and the Nihon Shoki (720), both court compilations; the provincial Fudoki; the Engishiki's ritual prayers; and, for the folk stream, Edo-period yokai compendia and the collections of Hearn and others."
  },
- "hierarchy": [],
- "groups": [],
+ "hierarchy": [
+  {
+   "title": "The Kami Who Came Into Being",
+   "blurb": "Nothing is made from nothing. The first kami simply come into being when heaven and earth begin, and then hide themselves and do nothing further. Seven generations pass before anyone acts.",
+   "memberIds": [
+    "amenominakanushi",
+    "izanagi",
+    "izanami",
+    "kagutsuchi"
+   ],
+   "connectorCaption": "Izanagi washes the pollution of Yomi away, and the great kami come from the washing"
+  },
+  {
+   "title": "The Three Noble Children",
+   "blurb": "The sun from the left eye, the moon from the right, the storm from the nose. The sun is the elder sister and the moon her brother, which inverts the arrangement of most traditions.",
+   "memberIds": [
+    "amaterasu",
+    "tsukuyomi",
+    "susanoo"
+   ],
+   "connectorCaption": "The sun hides in a cave, and the world has to be got back"
+  },
+  {
+   "title": "The Plain of High Heaven",
+   "blurb": "Heaven works by assembly. Eight hundred kami gather in a dry riverbed, refer the problem to the kami of counsel, and act on his plan - which turns out to involve a mirror, a rooster and an indecent dance.",
+   "memberIds": [
+    "uzume",
+    "omoikane",
+    "takemikazuchi",
+    "sarutahiko",
+    "ukemochi"
+   ],
+   "connectorCaption": "Heaven sends its grandchild down to rule the land below"
+  },
+  {
+   "title": "The Descent and the Line",
+   "blurb": "Ninigi comes down with mirror, jewel and sword, chooses blossom over rock and so makes human life short, and four generations later his descendant takes Yamato. This is what the chronicles were written to establish.",
+   "memberIds": [
+    "ninigi",
+    "konohanasakuya",
+    "iwanaga",
+    "okuninushi",
+    "jimmu",
+    "yamatotakeru"
+   ],
+   "connectorCaption": "Beneath the court myth: the kami people actually pray to, and the buddhas who arrived"
+  },
+  {
+   "title": "Kami of Daily Life, and the Arrivals",
+   "blurb": "Inari has a third of all the shrines in Japan. Kannon, Jizo, Benzaiten and Daikokuten came from India by way of China and stayed, and for a thousand years kami and buddha were identified with one another.",
+   "memberIds": [
+    "inari",
+    "hachiman",
+    "ebisu",
+    "daikokuten",
+    "benzaiten",
+    "kannon",
+    "jizo"
+   ],
+   "connectorCaption": "And a separate stream: what is in the mountains, the rivers and the snow"
+  },
+  {
+   "title": "The Folk Stream",
+   "blurb": "The yokai are not part of the court mythology and mostly reach us in Edo-period form. They encode practical warnings - the river that drowns children, the mountain that kills in winter - and a great deal of comedy.",
+   "memberIds": [
+    "kitsune",
+    "tengu",
+    "kappa",
+    "oni",
+    "yukionna",
+    "tanuki",
+    "yamata"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "noble",
+   "label": "The Three Noble Children",
+   "memberIds": [
+    "amaterasu",
+    "tsukuyomi",
+    "susanoo"
+   ]
+  },
+  {
+   "id": "cave",
+   "label": "The Opening of the Cave",
+   "memberIds": [
+    "amaterasu",
+    "uzume",
+    "omoikane",
+    "susanoo"
+   ]
+  },
+  {
+   "id": "descent",
+   "label": "The Heavenly Descent",
+   "memberIds": [
+    "amaterasu",
+    "ninigi",
+    "sarutahiko",
+    "konohanasakuya",
+    "takemikazuchi",
+    "jimmu"
+   ]
+  },
+  {
+   "id": "arrivals",
+   "label": "Arrived from the Continent",
+   "memberIds": [
+    "kannon",
+    "jizo",
+    "benzaiten",
+    "daikokuten"
+   ]
+  },
+  {
+   "id": "lucky",
+   "label": "The Lucky Gods",
+   "memberIds": [
+    "ebisu",
+    "daikokuten",
+    "benzaiten"
+   ]
+  },
+  {
+   "id": "yokai",
+   "label": "The Folk Stream",
+   "memberIds": [
+    "kitsune",
+    "tengu",
+    "kappa",
+    "oni",
+    "yukionna",
+    "tanuki"
+   ]
+  }
+ ],
  "stories": [],
  "entities": [
   {
@@ -1444,5 +1582,492 @@
    ]
   }
  ],
- "links": []
+ "links": [
+  {
+   "from": "amenominakanushi",
+   "to": "izanagi",
+   "type": "guru",
+   "note": "seven generations of hidden kami precede him"
+  },
+  {
+   "from": "izanagi",
+   "to": "izanami",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "izanagi",
+   "to": "izanami",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "izanagi",
+   "to": "kagutsuchi",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "izanami",
+   "to": "kagutsuchi",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "izanagi",
+   "to": "ebisu",
+   "type": "parent",
+   "note": "Hiruko, the leech-child set adrift, later identified with Ebisu"
+  },
+  {
+   "from": "izanami",
+   "to": "ebisu",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "kagutsuchi",
+   "to": "izanami",
+   "type": "enemy",
+   "note": "his birth burned her to death"
+  },
+  {
+   "from": "izanagi",
+   "to": "kagutsuchi",
+   "type": "enemy",
+   "note": "cut off his head in grief"
+  },
+  {
+   "from": "kagutsuchi",
+   "to": "takemikazuchi",
+   "type": "parent",
+   "note": "born from the blood on the sword that killed him"
+  },
+  {
+   "from": "izanagi",
+   "to": "izanami",
+   "type": "enemy",
+   "note": "he looked at her in Yomi and fled; they parted at the pass"
+  },
+  {
+   "from": "izanami",
+   "to": "izanagi",
+   "type": "enemy",
+   "note": "she promised a thousand deaths a day, he fifteen hundred births"
+  },
+  {
+   "from": "izanagi",
+   "to": "amaterasu",
+   "type": "parent",
+   "note": "from his left eye, washing the pollution of Yomi away"
+  },
+  {
+   "from": "izanagi",
+   "to": "tsukuyomi",
+   "type": "parent",
+   "note": "from his right eye"
+  },
+  {
+   "from": "izanagi",
+   "to": "susanoo",
+   "type": "parent",
+   "note": "from his nose"
+  },
+  {
+   "from": "amaterasu",
+   "to": "tsukuyomi",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "amaterasu",
+   "to": "susanoo",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "tsukuyomi",
+   "to": "susanoo",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "amaterasu",
+   "to": "ebisu",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "susanoo",
+   "to": "amaterasu",
+   "type": "enemy",
+   "note": "his pollution of her hall drove her into the cave"
+  },
+  {
+   "from": "uzume",
+   "to": "amaterasu",
+   "type": "ally",
+   "note": "danced on the tub until the kami laughed"
+  },
+  {
+   "from": "omoikane",
+   "to": "amaterasu",
+   "type": "ally",
+   "note": "devised the whole plan to draw her out"
+  },
+  {
+   "from": "omoikane",
+   "to": "uzume",
+   "type": "guru",
+   "note": "his plan, her performance"
+  },
+  {
+   "from": "amaterasu",
+   "to": "susanoo",
+   "type": "enemy",
+   "note": "expelled him from heaven for the pollution"
+  },
+  {
+   "from": "tsukuyomi",
+   "to": "ukemochi",
+   "type": "enemy",
+   "note": "killed her for producing food from her body, in the Nihon Shoki"
+  },
+  {
+   "from": "susanoo",
+   "to": "ukemochi",
+   "type": "enemy",
+   "note": "the Kojiki gives the same killing to him, calling her Ogetsuhime"
+  },
+  {
+   "from": "amaterasu",
+   "to": "tsukuyomi",
+   "type": "enemy",
+   "note": "never looked at him again, which is why sun and moon are never together"
+  },
+  {
+   "from": "susanoo",
+   "to": "yamata",
+   "type": "enemy",
+   "note": "got the serpent drunk on eight vats and cut it apart"
+  },
+  {
+   "from": "susanoo",
+   "to": "okuninushi",
+   "type": "guru",
+   "note": "set him tests in the underworld, and he stole the sword and eloped"
+  },
+  {
+   "from": "okuninushi",
+   "to": "susanoo",
+   "type": "enemy",
+   "note": ""
+  },
+  {
+   "from": "takemikazuchi",
+   "to": "okuninushi",
+   "type": "enemy",
+   "note": "demanded the land from a sword-point set on a wave"
+  },
+  {
+   "from": "okuninushi",
+   "to": "amaterasu",
+   "type": "ally",
+   "note": "ceded the land in exchange for a shrine as tall as heaven's palace"
+  },
+  {
+   "from": "okuninushi",
+   "to": "daikokuten",
+   "type": "form",
+   "note": "merged with the imported Mahakala partly by a homophone in the name"
+  },
+  {
+   "from": "amaterasu",
+   "to": "ninigi",
+   "type": "parent",
+   "note": "her grandson, sent down with the three regalia"
+  },
+  {
+   "from": "omoikane",
+   "to": "ninigi",
+   "type": "ally",
+   "note": "consulted on who should be sent"
+  },
+  {
+   "from": "takemikazuchi",
+   "to": "ninigi",
+   "type": "ally",
+   "note": "pacified the land before him"
+  },
+  {
+   "from": "sarutahiko",
+   "to": "ninigi",
+   "type": "ally",
+   "note": "blocked the road, then guided the party down"
+  },
+  {
+   "from": "uzume",
+   "to": "sarutahiko",
+   "type": "consort",
+   "note": "she alone dared face him, and afterwards married him"
+  },
+  {
+   "from": "ninigi",
+   "to": "konohanasakuya",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "konohanasakuya",
+   "to": "iwanaga",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "ninigi",
+   "to": "iwanaga",
+   "type": "enemy",
+   "note": "sent her back for her ugliness, and lost enduring life with her"
+  },
+  {
+   "from": "susanoo",
+   "to": "amaterasu",
+   "type": "ally",
+   "note": "sent her Kusanagi from the serpent's tail as a peace offering"
+  },
+  {
+   "from": "ninigi",
+   "to": "jimmu",
+   "type": "parent",
+   "note": "his great-grandson, four generations down"
+  },
+  {
+   "from": "jimmu",
+   "to": "amaterasu",
+   "type": "devotee",
+   "note": "the descent the chronicles were written to establish"
+  },
+  {
+   "from": "takemikazuchi",
+   "to": "jimmu",
+   "type": "ally",
+   "note": "dropped a sword through a storehouse roof to save him"
+  },
+  {
+   "from": "jimmu",
+   "to": "yamatotakeru",
+   "type": "parent",
+   "note": "many reigns apart, in the same line"
+  },
+  {
+   "from": "yamatotakeru",
+   "to": "amaterasu",
+   "type": "devotee",
+   "note": "his aunt at Ise gave him Kusanagi"
+  },
+  {
+   "from": "yamatotakeru",
+   "to": "susanoo",
+   "type": "ally",
+   "note": "carried the sword Susanoo took from the serpent"
+  },
+  {
+   "from": "hachiman",
+   "to": "jimmu",
+   "type": "form",
+   "note": "a deified emperor of the same line"
+  },
+  {
+   "from": "hachiman",
+   "to": "amaterasu",
+   "type": "devotee",
+   "note": ""
+  },
+  {
+   "from": "ryujin",
+   "to": "jimmu",
+   "type": "ally",
+   "note": "the sea kami's line marries into the imperial genealogy"
+  },
+  {
+   "from": "inari",
+   "to": "kitsune",
+   "type": "mount",
+   "note": "white foxes are her messengers, not the kami herself"
+  },
+  {
+   "from": "inari",
+   "to": "amaterasu",
+   "type": "devotee",
+   "note": ""
+  },
+  {
+   "from": "inari",
+   "to": "ukemochi",
+   "type": "form",
+   "note": "identified with the rice kami Ukanomitama and with her"
+  },
+  {
+   "from": "ebisu",
+   "to": "daikokuten",
+   "type": "ally",
+   "note": "the two most commonly paired of the Lucky Gods"
+  },
+  {
+   "from": "ebisu",
+   "to": "ryujin",
+   "type": "ally",
+   "note": "the god of fishermen and the lord of the tides"
+  },
+  {
+   "from": "ebisu",
+   "to": "okuninushi",
+   "type": "ally",
+   "note": "sometimes given as his son"
+  },
+  {
+   "from": "raijin",
+   "to": "susanoo",
+   "type": "ally",
+   "note": "storm answering storm"
+  },
+  {
+   "from": "raijin",
+   "to": "oni",
+   "type": "form",
+   "note": "their demonic appearance is shared"
+  },
+  {
+   "from": "benzaiten",
+   "to": "kannon",
+   "type": "ally",
+   "note": "both arrived through Buddhism and were absorbed"
+  },
+  {
+   "from": "benzaiten",
+   "to": "ryujin",
+   "type": "ally",
+   "note": "her shrines stand in the water; the white serpent is her messenger"
+  },
+  {
+   "from": "kannon",
+   "to": "jizo",
+   "type": "ally",
+   "note": "the two bodhisattvas of Japanese popular devotion"
+  },
+  {
+   "from": "daikokuten",
+   "to": "benzaiten",
+   "type": "ally",
+   "note": "two of the Seven Lucky Gods, both imported"
+  },
+  {
+   "from": "jizo",
+   "to": "oni",
+   "type": "enemy",
+   "note": "shelters the children the demons torment at the dry riverbed"
+  },
+  {
+   "from": "kannon",
+   "to": "amaterasu",
+   "type": "ally",
+   "note": "kami and buddha were identified with one another for a thousand years"
+  },
+  {
+   "from": "hachiman",
+   "to": "kannon",
+   "type": "ally",
+   "note": "styled Great Bodhisattva, a kami holding Buddhist rank"
+  },
+  {
+   "from": "tengu",
+   "to": "sarutahiko",
+   "type": "form",
+   "note": "the long-nosed tengu face appears to descend from his"
+  },
+  {
+   "from": "kitsune",
+   "to": "tanuki",
+   "type": "ally",
+   "note": "the two shape-shifters, the sly one and the clumsy one"
+  },
+  {
+   "from": "kitsune",
+   "to": "inari",
+   "type": "devotee",
+   "note": ""
+  },
+  {
+   "from": "oni",
+   "to": "momotaro",
+   "type": "enemy",
+   "note": "he crossed to Ogre Island and cleared them out"
+  },
+  {
+   "from": "momotaro",
+   "to": "oni",
+   "type": "enemy",
+   "note": ""
+  },
+  {
+   "from": "urashima",
+   "to": "ryujin",
+   "type": "ally",
+   "note": "carried to the dragon palace by a turtle he had rescued"
+  },
+  {
+   "from": "urashima",
+   "to": "ryujin",
+   "type": "enemy",
+   "note": "the box he was told not to open held the three hundred years"
+  },
+  {
+   "from": "yukionna",
+   "to": "oni",
+   "type": "ally",
+   "note": "both are what the mountains hold in winter"
+  },
+  {
+   "from": "kappa",
+   "to": "ryujin",
+   "type": "devotee",
+   "note": "the small water spirit under the lord of water"
+  },
+  {
+   "from": "yamata",
+   "to": "kappa",
+   "type": "ally",
+   "note": "the serpent and the river child, both hazards of water"
+  },
+  {
+   "from": "tanuki",
+   "to": "tengu",
+   "type": "ally",
+   "note": "both haunt the hills, one absurd and one dangerous"
+  },
+  {
+   "from": "yukionna",
+   "to": "kitsune",
+   "type": "ally",
+   "note": "both take the form of a wife who must eventually leave"
+  },
+  {
+   "from": "momotaro",
+   "to": "urashima",
+   "type": "ally",
+   "note": "the two best-known tales taught to every Japanese child"
+  },
+  {
+   "from": "jizo",
+   "to": "kannon",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "yamatotakeru",
+   "to": "yamata",
+   "type": "enemy",
+   "note": "the sword that killed the serpent later saved him from fire"
+  }
+ ]
 }
