@@ -227,7 +227,807 @@
    ]
   }
  ],
- "stories": [],
+ "stories": [
+  {
+   "id": "ginnungagap",
+   "title": "The Yawning Gap",
+   "era": "Primordial",
+   "cast": [
+    "ymir",
+    "audhumla",
+    "surtr",
+    "odin"
+   ],
+   "summary": "In the beginning there is Ginnungagap, empty between the ice of Niflheim to the north and the fire of Muspelheim to the south, with Surtr already standing at the fire's edge with a flaming sword. Where the rime meets the warm air it drips and quickens into Ymir, the first living thing, who sleeps and sweats and begets from his own body. The cow Audhumla forms in the same melting and feeds him four rivers of milk, licking salty rime-blocks to feed herself. Over three days her licking uncovers a man in the ice - Buri, whose grandsons are Odin, Vili and Ve. So the gods and the giants both begin in the same thaw, from the same cow.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 4-6",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Voluspa 3, Vafthrudnismal 29-35",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "making-world",
+   "title": "The World Made from a Body",
+   "era": "Primordial",
+   "cast": [
+    "ymir",
+    "odin",
+    "nidhogg",
+    "norns"
+   ],
+   "summary": "Odin and his brothers kill Ymir, and so much blood pours from him that every frost-giant drowns but two, who escape in a boat and father the rest. The three carry the corpse into the middle of Ginnungagap and build from it: the earth from his flesh, the mountains from his bones, boulders and scree from his teeth, the sea and lakes from his blood, the sky from his skull raised on four corners each held by a dwarf, and the clouds from his brains. Maggots in the flesh are given wits and become the dwarfs. The world is not made out of nothing and not made in goodwill: it is a body, taken apart by its own descendants.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 8",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Grimnismal 40-41, Vafthrudnismal 21",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "yggdrasil",
+   "title": "The Tree and What Eats It",
+   "era": "Primordial",
+   "cast": [
+    "norns",
+    "nidhogg",
+    "ratatoskr",
+    "odin",
+    "mimir"
+   ],
+   "summary": "Yggdrasil is an ash whose branches spread over every world and whose three roots reach to the Aesir, to the frost-giants and to Niflheim. Under one is Mimir's well of wisdom, under another the well of Urd where the Norns sit. It is under constant attack: a hart eats the shoots, four stags gnaw the branches, goats browse it, and Nidhogg chews the root from below, while the squirrel Ratatoskr runs the trunk carrying insults between the dragon and the eagle at the top. The Norns keep it alive by pouring white clay and well-water over it daily. Even the axis of the universe is a maintenance problem.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Grimnismal 31-35, Voluspa 19-20",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    },
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 15-16",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "mimirs-well",
+   "title": "The Eye at Mimir's Well",
+   "era": "Age of the Aesir",
+   "cast": [
+    "odin",
+    "mimir",
+    "norns"
+   ],
+   "summary": "Wisdom and understanding are held in the well beneath one of the roots, and Mimir who keeps it drinks from it every morning. Odin comes and asks for a draught. Mimir names the price - an eye - and Odin pays it without recorded argument, and the eye lies in the well still. It is the first of the bargains that define him and the cheapest: he later hangs himself for the runes. What he buys is not power but information, and the tradition is precise that it does not save him. He knows exactly how Ragnarok goes, in detail, from this and other purchases, and it happens anyway.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Voluspa 28-29",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    },
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 15",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "odin-runes",
+   "title": "Odin on the Tree",
+   "era": "Age of the Aesir",
+   "cast": [
+    "odin",
+    "norns"
+   ],
+   "summary": "Odin says it himself, in the first person: he hung on the windy tree nine full nights, wounded with a spear, given to Odin, himself to himself, on that tree of which no man knows from what roots it rises. No one gave him bread and no one gave him drink. He peered down, took up the runes screaming, and fell back. It is a self-sacrifice with no recipient but himself, and it buys the runes - writing, and the spells that go with them. The passage is one of the strangest in the corpus and has drawn endless comparison with the crucifixion, which the manuscript's Christian scribes may or may not have encouraged.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Havamal 138-145",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "mead-of-poetry",
+   "title": "The Mead of Poetry",
+   "era": "Age of the Aesir",
+   "cast": [
+    "kvasir",
+    "odin",
+    "bragi",
+    "njord"
+   ],
+   "summary": "The Aesir and Vanir seal their truce by spitting into a vat, and from the spittle they form Kvasir, who can answer anything. Two dwarfs murder him and brew his blood with honey into a mead that makes whoever drinks it a poet. They lose it to the giant Suttung as compensation for another killing, and he sets his daughter Gunnlod to guard it inside a mountain. Odin bores in as a snake, spends three nights with her, and drinks all three vessels; he escapes as an eagle with Suttung in pursuit, and spits the mead into containers in Asgard. A little spills on the way out, and that portion is the share of bad poets.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Skaldskaparmal 5-6",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Havamal 104-110",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "aesir-vanir-war",
+   "title": "The War and the Truce",
+   "era": "Age of the Aesir",
+   "cast": [
+    "odin",
+    "njord",
+    "freyr",
+    "freyja",
+    "mimir",
+    "kvasir"
+   ],
+   "summary": "The first war in the world is between the Aesir and the Vanir, and neither side wins. The sources are thin on causes - a witch called Gullveig burned three times and reborn, an exchange of insults, Odin casting a spear over a host - and clear on the ending: they trade hostages. Njord and his children Freyr and Freyja go to the Aesir; Hoenir and Mimir go to the Vanir. That arrangement half-fails, because the Vanir decide Hoenir is useless without Mimir prompting him, and behead Mimir and send the head back. Odin preserves it and consults it thereafter. The truce holds regardless, and the Vanir stay in Asgard permanently.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Voluspa 21-24",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    },
+    {
+     "book": "Heimskringla",
+     "translation": "Samuel Laing, 1844",
+     "location": "Ynglinga saga 4",
+     "url": "https://sacred-texts.com/neu/heim/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "asgard-wall",
+   "title": "The Builder and the Wall",
+   "era": "Age of the Aesir",
+   "cast": [
+    "loki",
+    "freyja",
+    "thor",
+    "sleipnir",
+    "odin"
+   ],
+   "summary": "A builder offers to wall Asgard in three seasons and asks for the sun, the moon and Freyja. On Loki's advice the gods accept, with one winter as the term, thinking it impossible - but the builder has a stallion, Svadilfari, who hauls stone all night at a rate that will finish the work early. Three days from the deadline the gods round on Loki and promise him a bad death. He turns into a mare, lures the stallion away into a wood, and the work stops. The builder loses his temper, reveals himself as a giant, and Thor kills him with the hammer despite the oaths sworn. Loki afterwards bears the eight-legged foal Sleipnir.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 42",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Voluspa 25-26",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-treasures",
+   "title": "The Forging of the Treasures",
+   "era": "Age of the Aesir",
+   "cast": [
+    "loki",
+    "sif",
+    "thor",
+    "odin",
+    "freyr",
+    "brokkr"
+   ],
+   "summary": "Loki cuts off Sif's hair for no stated reason, and Thor promises to break every bone in his body unless it is replaced. Loki goes to the sons of Ivaldi, who make hair of gold that grows, and also Odin's spear Gungnir and Freyr's folding ship Skidbladnir. Then he wagers his head that the dwarfs Brokkr and Eitri cannot match them. They make Odin's self-multiplying ring Draupnir, Freyr's golden boar, and Thor's hammer Mjollnir - short in the handle, because Loki as a fly bit Brokkr's eyelid and blood ran into his eye at the wrong moment. The gods judge the hammer the greatest. Loki forfeits, argues that he pledged his head and not his neck, and has his lips sewn shut instead.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Skaldskaparmal 35",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "binding-fenrir",
+   "title": "The Binding of Fenrir",
+   "era": "Age of the Aesir",
+   "cast": [
+    "fenrir",
+    "tyr",
+    "odin",
+    "loki",
+    "angrboda"
+   ],
+   "summary": "Fenrir is raised in Asgard and only Tyr dares feed him. As he grows the gods decide to bind him and present two chains as tests of strength, both of which he breaks and enjoys. The third, Gleipnir, is made by dwarfs from the noise of a cat's footfall, a woman's beard, a mountain's roots, a bear's sinews, a fish's breath and a bird's spittle, and is thin as a silk ribbon. Fenrir suspects a trick and agrees only if one of them puts a hand in his mouth as pledge. Tyr does, knowing what it costs. The fetter holds; the hand is bitten off; a sword is propped in the wolf's jaws to hold them open, and he lies bound until the end.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 34",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "theft-of-idunn",
+   "title": "The Theft of Idunn",
+   "era": "Age of the Aesir",
+   "cast": [
+    "idunn",
+    "loki",
+    "thjazi",
+    "skadi",
+    "bragi",
+    "freyja"
+   ],
+   "summary": "Thjazi, in eagle shape, holds an ox off the fire until the travelling gods give him a share, then takes most of it; Loki strikes at him with a pole, is stuck fast, and is dragged until he agrees to deliver Idunn. He lures her out of Asgard with a story of better apples in a nearby wood, and Thjazi carries her off. Without her apples the gods begin to grey and stiffen within days. They work out who was last seen with her and give Loki the obvious choice. He borrows Freyja's falcon cloak, turns Idunn into a nut, and flies home with Thjazi in pursuit; the giant burns his wings on fires set along the walls and is killed inside them.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Skaldskaparmal 1-2",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "skadi-settlement",
+   "title": "Skadi Chooses a Husband by His Feet",
+   "era": "Age of the Aesir",
+   "cast": [
+    "skadi",
+    "njord",
+    "loki",
+    "odin",
+    "thjazi"
+   ],
+   "summary": "Skadi comes to Asgard in mail with a drawn bow to avenge her father Thjazi. The gods offer settlement: she may choose a husband from among them, seeing only their feet, and they must make her laugh. She picks the finest pair, expecting Baldr, and gets Njord. Nobody can make her laugh until Loki ties a cord from his testicles to the beard of a goat, and the resulting tug-of-war ends with him falling screeching into her lap. She laughs, and Odin completes the settlement by throwing Thjazi's eyes into the sky as stars. The marriage then fails on geography: nine nights in her mountains, nine at his shore, and each cannot bear the other's home.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Skaldskaparmal 2, Gylfaginning 23",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "thrymskvida",
+   "title": "Thor in a Wedding Dress",
+   "era": "Age of the Aesir",
+   "cast": [
+    "thor",
+    "thrym",
+    "loki",
+    "freyja",
+    "heimdall"
+   ],
+   "summary": "Thor wakes to find Mjollnir gone. Loki, in Freyja's falcon cloak, finds Thrym on a mound plaiting collars for his hounds and entirely pleased: the hammer is eight leagues underground and the price is Freyja. Her refusal is violent enough to shake the halls and snap her necklace. Heimdall proposes dressing Thor as the bride instead. Thor objects that the gods will call him unmanly; Loki observes that giants will otherwise be living in Asgard by evening. Veiled, Thor eats an ox, eight salmon and three casks of mead, and Loki explains each alarming detail as bridal excitement. When the hammer is laid in the bride's lap to hallow the marriage, Thor takes it and kills every giant in the hall.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Thrymskvida",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "hymir-fishing",
+   "title": "Thor Fishes for the World Serpent",
+   "era": "Age of the Aesir",
+   "cast": [
+    "thor",
+    "jormungandr",
+    "aegir"
+   ],
+   "summary": "Thor goes with the giant Hymir to fetch a cauldron big enough to brew ale for the gods, and they row out to fish. Thor takes the head of Hymir's best ox for bait and insists on rowing far past the giant's usual grounds. He hooks Jormungandr. The serpent thrashes, Thor braces so hard his feet go through the hull to the sea floor, and he hauls it up until the two are face to face, the serpent spitting venom - and as Thor reaches for his hammer, Hymir cuts the line in terror. The serpent sinks back. The scene appears on carved stones from England to Sweden, which suggests it was one of the best known stories in the north.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Hymiskvida",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    },
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 48",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "utgard",
+   "title": "The Journey to Utgard",
+   "era": "Age of the Aesir",
+   "cast": [
+    "thor",
+    "loki",
+    "utgarda-loki",
+    "jormungandr"
+   ],
+   "summary": "Thor and Loki shelter overnight in what proves at dawn to be the thumb of a giant's glove. At Utgard the king sets them contests and they lose every one: Loki is out-eaten, their servant out-run, Thor cannot drain a horn, cannot lift a grey cat past one paw, and is forced to one knee by an old woman. Leaving, humiliated, they are told the truth - Loki raced wildfire, the runner raced thought, the horn's far end was in the sea and Thor lowered it visibly, the cat was the world serpent and he lifted it until the sky was touched, and the old woman was old age, who has never been thrown by anyone. Then the castle vanishes.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 44-47",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "hrungnir-duel",
+   "title": "The Duel with Hrungnir",
+   "era": "Age of the Aesir",
+   "cast": [
+    "thor",
+    "hrungnir",
+    "odin",
+    "sif",
+    "freyja"
+   ],
+   "summary": "Odin wagers his head that no horse in Jotunheim can match Sleipnir, and Hrungnir's Gullfaxi keeps up so closely that the giant rides straight through the gates of Asgard. Given hospitality he drinks Thor's cups and announces that he will sink Asgard, kill the gods and take Freyja and Sif home. Thor arrives and a formal duel is arranged. The giants build a clay man nine leagues tall to second him and put a mare's heart in it, so it is terrified before anything starts. Hrungnir throws his whetstone and Thor throws Mjollnir; they meet in the air, the hone shatters and a fragment lodges in Thor's head, and the hammer kills the giant, whose falling leg pins Thor to the ground.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Skaldskaparmal 17",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "skirnismal",
+   "title": "The Wooing of Gerdr",
+   "era": "Age of the Aesir",
+   "cast": [
+    "freyr",
+    "gerdr",
+    "njord",
+    "surtr"
+   ],
+   "summary": "Freyr sits in Odin's high seat, which he should not, and sees a woman whose arms light the air and the sea. He goes home sick and will not speak. His servant Skirnir gets the story out of him and agrees to go, taking Freyr's self-fighting sword as payment. Gerdr refuses apples of gold and the ring Draupnir flatly. Skirnir then threatens her with a rune-carved curse: madness, a monstrous husband, endless desire never satisfied, and life among the frost-giants where she will be jeered at. She yields, and agrees to meet Freyr in nine nights. The bargain costs Freyr his weapon, and at Ragnarok he faces Surtr without it and dies.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Skirnismal",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    },
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 37",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "baldr-oaths",
+   "title": "The Oaths Taken from Everything",
+   "era": "Age of the Aesir",
+   "cast": [
+    "baldr",
+    "frigg",
+    "loki",
+    "odin"
+   ],
+   "summary": "Baldr dreams of his own death and tells the Aesir. Odin rides down to a seeress's grave and wakes her to ask; she tells him the hall is prepared for Baldr's coming. Frigg takes a different approach and goes round the whole world exacting an oath from every thing that it will not harm him - fire, water, iron, every metal, stones, earth, trees, sicknesses, beasts, birds, poisons and serpents. It works completely. The gods amuse themselves at the assembly by throwing weapons at Baldr and watching them refuse to bite. Loki, disguised as a woman, asks Frigg whether anything was left out, and she says only a young mistletoe west of Valhalla, too small to bother with.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 49",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Baldrs draumar",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "death-of-baldr",
+   "title": "The Death of Baldr",
+   "era": "Age of the Aesir",
+   "cast": [
+    "baldr",
+    "hodr",
+    "loki",
+    "frigg",
+    "nanna",
+    "vali",
+    "thor"
+   ],
+   "summary": "Loki makes a dart of the mistletoe and finds Hodr standing outside the ring of throwers because he is blind and has nothing to throw. He offers to direct him. The dart goes through Baldr and he falls dead, and the gods stand speechless, unable to take vengeance because the assembly ground is sanctuary. The body is carried to the ship Hringhorni; Nanna's heart breaks at the sight and she is laid on the pyre beside him. Thor hallows the fire with his hammer and kicks a passing dwarf into it. Odin lays Draupnir on the pyre and whispers something in his son's ear that no one hears, and which no source ever reveals.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 49",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Voluspa 31-33",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "hermods-ride",
+   "title": "Hermod's Ride to Hel",
+   "era": "Age of the Aesir",
+   "cast": [
+    "hermod",
+    "hel",
+    "baldr",
+    "nanna",
+    "sleipnir",
+    "frigg",
+    "loki"
+   ],
+   "summary": "Frigg asks who will ride to Hel and offer a ransom, and Hermod goes on Sleipnir. He rides nine nights through valleys so dark he sees nothing, reaches the gold-roofed bridge over Gjoll, and is told by its guardian that he does not have the colour of a dead man. He jumps the gate outright. Baldr is sitting in the seat of honour. Hel agrees to release him if every thing in the world, living and dead, weeps for him - and everything does, except one giantess in a cave who says she will weep dry tears and that Hel may keep what she has. She is generally taken to be Loki. Baldr stays.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 49",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "lokasenna",
+   "title": "The Flyting at Aegir's Hall",
+   "era": "Age of the Aesir",
+   "cast": [
+    "loki",
+    "aegir",
+    "bragi",
+    "idunn",
+    "freyja",
+    "njord",
+    "tyr",
+    "odin",
+    "frigg",
+    "sif",
+    "thor"
+   ],
+   "summary": "Aegir gives a feast and Loki, having killed a servant, forces his way back in on the strength of his blood-brotherhood with Odin. He then insults every god present in turn, and the accusations are specific and mostly sexual: Bragi is brave on his bench, Idunn embraced her brother's killer, Freyja has had every god and elf in the hall, Njord's own sister bore his children, Tyr has one hand, Odin practised the unmanly seidr and gave victory to cowards, Frigg took his brothers to bed. Nobody successfully answers him. Only Thor's arrival, and the direct threat of the hammer, drives him out, and Loki leaves promising that Aegir will never hold such a feast again.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Lokasenna",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "binding-loki",
+   "title": "The Binding of Loki",
+   "era": "Age of the Aesir",
+   "cast": [
+    "loki",
+    "sigyn",
+    "skadi",
+    "thor",
+    "baldr"
+   ],
+   "summary": "Loki hides in a house on a mountain with four doors, and by day becomes a salmon in the waterfall. Sitting by the fire he plaits the first fishing net out of linen, and burns it when the gods approach - but Kvasir reads the ash. They net the river; Loki leaps the first cast and is caught in the second when Thor grabs him mid-air by the tail, which is why salmon taper. The gods turn one of his sons into a wolf that tears the other apart, and bind Loki to three stones with those entrails, which harden to iron. Skadi fixes a serpent above his face to drip venom. Sigyn stays with a bowl, and when she turns to empty it the earth shakes.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 50",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Lokasenna, closing prose",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "gefjon-plough",
+   "title": "Gefjon Ploughs Zealand",
+   "era": "Age of the Aesir",
+   "cast": [
+    "gefjon",
+    "odin"
+   ],
+   "summary": "King Gylfi of Sweden offers Gefjon as much land as she can plough in a day and a night. She goes to Jotunheim, bears four sons to a giant, turns them into oxen, and yokes them to a plough that bites so deep it tears the land loose and drags it west into the sea, where it becomes Zealand. The hole left behind fills with water and becomes lake Malaren, and Snorri notes that the bays of the lake match the headlands of the island. He quotes a verse by the ninth-century poet Bragi as his evidence, which by his standards is unusually good attestation, and repeats the story in Heimskringla as history rather than myth.",
+   "sources": [
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 1",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    },
+    {
+     "book": "Heimskringla",
+     "translation": "Samuel Laing, 1844",
+     "location": "Ynglinga saga 5",
+     "url": "https://sacred-texts.com/neu/heim/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "valhalla",
+   "title": "Valhalla and the Einherjar",
+   "era": "Age of the Aesir",
+   "cast": [
+    "odin",
+    "valkyries",
+    "bragi",
+    "thor",
+    "freyja",
+    "heimdall"
+   ],
+   "summary": "Half the battle-slain go to Odin's Valhalla and half to Freyja's Folkvangr, and the sources say Freyja chooses first. Valhalla has five hundred and forty doors, each wide enough for eight hundred men abreast, and a roof of shields. The einherjar fight each other all day, are killed and healed and rise again, and feast all night on the boar Saehrimnir, which is boiled every day and whole again by evening, washed down with mead from the goat Heidrun. Bragi greets them as they arrive. The entire arrangement is a standing army being assembled for a battle Odin already knows he loses, which the dead are not told.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Grimnismal 8-26",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    },
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 38-41",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "ragnarok",
+   "title": "Ragnarok",
+   "era": "Ragnarok",
+   "cast": [
+    "odin",
+    "thor",
+    "fenrir",
+    "jormungandr",
+    "loki",
+    "heimdall",
+    "freyr",
+    "surtr",
+    "tyr",
+    "garmr",
+    "vidar",
+    "hel",
+    "valkyries"
+   ],
+   "summary": "Three winters without summer, brothers killing brothers, the wolf swallowing the sun. Garmr howls before Gnipahellir, the fetters break and Fenrir runs free. The serpent thrashes ashore, Loki steers a ship of the dead from Hel, Surtr rides out of Muspell and Bifrost breaks under the host. Heimdall blows Gjallarhorn and the einherjar march out. Odin is swallowed by Fenrir and Vidar tears the wolf apart; Thor kills Jormungandr and walks nine paces before the venom drops him; Freyr, weaponless, falls to Surtr; Tyr and Garmr kill each other; Loki and Heimdall kill each other. Then Surtr flings fire over everything and the earth sinks into the sea.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Voluspa 44-58",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    },
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 51",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "green-earth",
+   "title": "The Green Earth After",
+   "era": "Ragnarok",
+   "cast": [
+    "baldr",
+    "hodr",
+    "vidar",
+    "vali",
+    "thor",
+    "nidhogg"
+   ],
+   "summary": "The earth rises a second time out of the sea, green, and eagles fish in the falls. Vidar and Vali live, and Thor's sons Modi and Magni inherit Mjollnir. Baldr comes back from Hel with Hodr and they sit together in the grass and talk over what happened, and find the gold gaming pieces of the old gods lying in the meadow. Two humans, Lif and Lifthrasir, survive by hiding in a wood and repopulate the world. A hall roofed with gold stands at Gimle for the good. And then, in the last stanza, Nidhogg flies over carrying corpses in his wings, and the seeress sinks - which is either a fragment out of place or the bleakest ending in European literature.",
+   "sources": [
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Voluspa 59-66",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    },
+    {
+     "book": "The Prose Edda",
+     "translation": "Arthur Gilchrist Brodeur, 1916",
+     "location": "Gylfaginning 52-53",
+     "url": "https://sacred-texts.com/neu/pre/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "otters-ransom",
+   "title": "The Otter's Ransom",
+   "era": "Heroic",
+   "cast": [
+    "loki",
+    "odin",
+    "andvari",
+    "fafnir",
+    "regin"
+   ],
+   "summary": "Odin, Loki and Hoenir kill an otter by a waterfall and take its skin, and stop for the night with Hreidmar, who recognises it as his son Otr and demands the skin be stuffed and covered with gold. Loki borrows Ran's net, catches the dwarf Andvari in the shape of a pike, and takes his whole hoard including the ring Andvaranaut, which the dwarf tries to keep back. As Andvari goes he curses the ring and every piece of the gold to destroy whoever owns it. One whisker is left showing on the skin and the ring covers it. Then Fafnir and Regin kill their father for the gold, and the curse begins its work.",
+   "sources": [
+    {
+     "book": "The Volsunga Saga",
+     "translation": "Eirikr Magnusson and William Morris, 1888",
+     "location": "Chapters 14-15",
+     "url": "https://sacred-texts.com/neu/vlsng/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Reginsmal",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "sigurd-fafnir",
+   "title": "Sigurd and Fafnir",
+   "era": "Heroic",
+   "cast": [
+    "sigurd",
+    "fafnir",
+    "regin",
+    "sigmund",
+    "andvari"
+   ],
+   "summary": "Regin fosters Sigurd and works on him to kill Fafnir. He forges swords that Sigurd snaps on the anvil until Sigurd brings the fragments of his father's sword Gram, reforged from those, which splits the anvil and cuts a tuft of wool floating downstream. Regin advises digging a pit in the dragon's track to the water and stabbing upward. Sigurd does, and Fafnir dying speaks with him at length, warning that the gold is cursed and will kill him too. Regin then asks him to roast the heart. Sigurd burns his thumb, sucks it, and instantly understands the birds overhead, who are discussing Regin's plan to kill him. He beheads Regin and takes the gold.",
+   "sources": [
+    {
+     "book": "The Volsunga Saga",
+     "translation": "Eirikr Magnusson and William Morris, 1888",
+     "location": "Chapters 18-20",
+     "url": "https://sacred-texts.com/neu/vlsng/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Fafnismal",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "wall-of-flame",
+   "title": "The Wall of Flame",
+   "era": "Heroic",
+   "cast": [
+    "sigurd",
+    "brynhildr",
+    "odin",
+    "gudrun"
+   ],
+   "summary": "Riding on, Sigurd sees a light on a mountain and finds a wall of flame around a sleeping figure in mail so tight he must cut it off with his sword. It is Brynhildr, a valkyrie whom Odin pricked with a sleep-thorn and shut behind fire for awarding victory to the wrong king. She teaches him runes and wisdom and they swear themselves to each other. Then he rides to the Gjukungs, whose queen gives him a drink that erases her from his memory entirely, and he marries Gudrun. Worse, he later takes Gunnar's shape to ride the flames a second time and win Brynhildr for him, and she marries Gunnar believing it was his doing.",
+   "sources": [
+    {
+     "book": "The Volsunga Saga",
+     "translation": "Eirikr Magnusson and William Morris, 1888",
+     "location": "Chapters 21-29",
+     "url": "https://sacred-texts.com/neu/vlsng/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Sigrdrifumal",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "murder-of-sigurd",
+   "title": "The Quarrel at the River",
+   "era": "Heroic",
+   "cast": [
+    "brynhildr",
+    "gudrun",
+    "sigurd",
+    "andvari"
+   ],
+   "summary": "Brynhildr and Gudrun quarrel while washing in the river over whose husband is the greater and who may stand upstream of whom. Gudrun ends it by producing the ring Sigurd took from Brynhildr on the night he rode the flames in Gunnar's shape. Brynhildr now knows she was deceived into the wrong marriage by the only man she ever swore to. She does not weep. She goes to Gunnar and tells him Sigurd broke faith with him, and keeps at it until Sigurd is murdered - in his bed in one version, in the forest in another. Then she laughs once aloud, gives away her gold, stabs herself, and asks to be laid on his pyre with a drawn sword between them.",
+   "sources": [
+    {
+     "book": "The Volsunga Saga",
+     "translation": "Eirikr Magnusson and William Morris, 1888",
+     "location": "Chapters 30-32",
+     "url": "https://sacred-texts.com/neu/vlsng/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Brot af Sigurdarkvidu, Sigurdarkvida hin skamma",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "gudruns-revenge",
+   "title": "Gudrun's Revenge",
+   "era": "Heroic",
+   "cast": [
+    "gudrun",
+    "sigurd",
+    "andvari"
+   ],
+   "summary": "Gudrun is so struck by Sigurd's murder that she cannot weep until a woman uncovers the body and makes her look. She is afterwards married to Atli, who wants the hoard and kills her brothers Gunnar and Hogni for it - Gunnar in a snake pit, playing a harp with his toes because his hands are bound. Her revenge is exact and total. She kills her two young sons by Atli, has cups made from their skulls, serves him their blood and their roasted hearts at a feast, tells him afterwards what he has eaten, stabs him in his bed and burns the hall with everyone in it. Then she walks into the sea, and the sea will not take her.",
+   "sources": [
+    {
+     "book": "The Volsunga Saga",
+     "translation": "Eirikr Magnusson and William Morris, 1888",
+     "location": "Chapters 33-39",
+     "url": "https://sacred-texts.com/neu/vlsng/index.htm"
+    },
+    {
+     "book": "The Poetic Edda",
+     "translation": "Henry Adams Bellows, 1936",
+     "location": "Atlakvida, Gudrunarhvot",
+     "url": "https://sacred-texts.com/neu/poe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "sword-in-tree",
+   "title": "The Sword in the Tree",
+   "era": "Heroic",
+   "cast": [
+    "sigmund",
+    "odin",
+    "sigurd"
+   ],
+   "summary": "At a Volsung wedding a one-eyed stranger in a wide hat walks into the hall, drives a sword to the hilt into the tree growing through it, says whoever draws it may keep it, and leaves. Every man tries. Only Sigmund can. His new brother-in-law Siggeir, refused the sword at any price, murders Sigmund's father and takes his ten brothers, who are eaten one a night by a she-wolf in the stocks until Sigmund alone escapes. Years later he burns Siggeir in his hall. Much later still, in a battle, an old man in a wide hat holds up a spear; Sigmund strikes it and Gram shatters. He tells his wife to keep the fragments for the son she is carrying.",
+   "sources": [
+    {
+     "book": "The Volsunga Saga",
+     "translation": "Eirikr Magnusson and William Morris, 1888",
+     "location": "Chapters 3-11",
+     "url": "https://sacred-texts.com/neu/vlsng/index.htm"
+    }
+   ]
+  }
+ ],
  "entities": [
   {
    "id": "ymir",
@@ -259,7 +1059,10 @@
    "bio": "The first living thing, formed from meeting rime and fire, and killed by Odin and his brothers to build the world.",
    "longBio": "In the beginning there is Ginnungagap, the yawning gap, with the ice of Niflheim to the north and the fire of Muspelheim to the south. Where they meet the rime drips and quickens into Ymir, who sleeps and sweats, and from his left armpit a man and woman grow while his legs beget a son on each other - the frost-giants descend from him. He is fed by the cow Audhumla, who licks a salted rime-block until Buri emerges from it. Buri's grandsons Odin, Vili and Ve kill Ymir, and so much blood pours out that all the frost-giants drown but two. The three make the world from the corpse: earth from his flesh, mountains from his bones, sea from his blood, the sky from his skull held up by four dwarfs, and clouds from his brains.",
    "variantTraditions": "Snorri gives the fullest account and reconciles verse sources that disagree; the Poetic Edda's Vafthrudnismal calls the first being Aurgelmir, and whether that is another name for Ymir is Snorri's inference.",
-   "storyIds": [],
+   "storyIds": [
+    "ginnungagap",
+    "making-world"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "primordial-adversary",
@@ -294,7 +1097,9 @@
    "bio": "The cow who fed Ymir with four rivers of milk and licked Buri out of the salty ice.",
    "longBio": "Audhumla comes into being from the melting rime at the same moment as Ymir, and the arrangement is simple and strange: four rivers of milk run from her udders and Ymir drinks, and she herself feeds by licking salty rime-blocks. Over three days her licking uncovers a man in the ice - first his hair, then his head, then all of him. This is Buri, the first of the gods, whose son Bor fathers Odin, Vili and Ve on the giantess Bestla. So the entire divine line is licked out of ice by a cow, and the entire giant line is fed by her milk, which makes Audhumla the common origin of both sides of the war that runs through the whole mythology. She then disappears from the record entirely.",
    "variantTraditions": "Audhumla appears only in Snorri; no surviving eddic poem mentions her, so she may be his own material or from a source now lost.",
-   "storyIds": [],
+   "storyIds": [
+    "ginnungagap"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "earth-mother",
@@ -340,7 +1145,28 @@
    "bio": "One-eyed seeker who trades an eye and hangs himself to buy knowledge, and gathers the slain for a battle he knows he loses.",
    "longBio": "Odin is not a comfortable king. What defines him is appetite for knowledge and willingness to pay: he gives an eye to Mimir for a drink from the well beneath the world tree, and hangs himself on that tree, pierced by his own spear, nine nights, given to himself, to seize the runes. He steals the mead of poetry from the giants by seduction and deceit. He goes disguised through the world under dozens of names, testing men and losing riddle contests on purpose to learn what his opponent knows. His ravens Huginn and Muninn, thought and memory, fly out daily and report. He gathers half the battle-slain to Valhalla to fight beside him at Ragnarok, where Fenrir will swallow him - and he knows this, in detail, and does it anyway. He is also a repeated oath-breaker, which the sources state without apology.",
    "variantTraditions": "Snorri's euhemerising Heimskringla makes Odin a human king from Asia who was later mistaken for a god - a Christian rationalisation, not a Norse belief. Saxo is likewise hostile to him.",
-   "storyIds": [],
+   "storyIds": [
+    "ginnungagap",
+    "making-world",
+    "yggdrasil",
+    "mimirs-well",
+    "odin-runes",
+    "mead-of-poetry",
+    "aesir-vanir-war",
+    "asgard-wall",
+    "the-treasures",
+    "binding-fenrir",
+    "skadi-settlement",
+    "hrungnir-duel",
+    "baldr-oaths",
+    "lokasenna",
+    "gefjon-plough",
+    "valhalla",
+    "ragnarok",
+    "otters-ransom",
+    "wall-of-flame",
+    "sword-in-tree"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "sky-thunder",
@@ -386,7 +1212,20 @@
    "bio": "Red-bearded thunder god whose hammer keeps the giants out; the most widely worshipped of the Norse gods.",
    "longBio": "Thor is the god ordinary people actually prayed to. Where Odin's constituency is kings and poets, Thor's is farmers and sailors, and hammer amulets outnumber every other identifiable religious object from the Viking age. His function is defence: he keeps the giants from overrunning the world, and he does it by direct application of force. His hammer Mjollnir always returns when thrown, and it hallows as well as kills - it is raised over a bride at weddings and over the newborn. His adventures are physical and often comic: fishing for the world serpent with an ox head, wrestling an old woman who turns out to be old age, having his hammer stolen and being obliged to dress as a bride to recover it, a story the tradition finds hilarious rather than shameful. At Ragnarok he kills Jormungandr and walks nine paces before the venom drops him.",
    "variantTraditions": "Thor's chariot is drawn by two goats he can slaughter and revive, provided the bones are unbroken; a farm boy who splits one for marrow becomes his servant.",
-   "storyIds": [],
+   "storyIds": [
+    "asgard-wall",
+    "the-treasures",
+    "thrymskvida",
+    "hymir-fishing",
+    "utgard",
+    "hrungnir-duel",
+    "death-of-baldr",
+    "lokasenna",
+    "binding-loki",
+    "valhalla",
+    "ragnarok",
+    "green-earth"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "sky-thunder",
@@ -427,7 +1266,12 @@
    "bio": "Odin's wife, who knows every fate but never speaks it, and whose attempt to save her son fails on one detail.",
    "longBio": "Frigg is said to know all fates though she tells no one, which puts her in an unusual position: she is the only figure in the tradition who has Odin's knowledge without his hunger for it. She sits at Fensalir and spins. Her great act is the attempt to save Baldr: warned by his dreams, she travels the whole world exacting an oath from every thing - fire, water, iron, stone, beasts, birds, sickness, poison - that it will not harm him, and she succeeds completely except for one young mistletoe west of Valhalla that she judges too small to bother with. Loki learns this by wheedling it out of her in disguise, and that single omission kills her son. Afterwards she asks who will ride to Hel to ransom him. She and Odin also appear wagering over the fates of two mortal kings, each cheating to win.",
    "variantTraditions": "Frigg and Freyja overlap enough - both associated with love, both with falcon-feathers - that they may descend from one earlier goddess; Old High German sources and the Friday naming complicate the picture further.",
-   "storyIds": [],
+   "storyIds": [
+    "baldr-oaths",
+    "death-of-baldr",
+    "hermods-ride",
+    "lokasenna"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother",
@@ -469,7 +1313,22 @@
    "bio": "A giant who lives among the gods, causes most of their problems, solves most of them, and finally kills Baldr.",
    "longBio": "Loki is a giant by birth and Odin's sworn blood-brother by oath, which is why the Aesir tolerate him. The pattern is nearly always the same: he creates a crisis by malice or carelessness, and is then forced on pain of death to fix it, and the fixing produces something valuable - Sif's golden hair, Odin's spear, Thor's hammer, Freyr's ship and boar, and Odin's eight-legged horse, which Loki bears himself after turning into a mare. He is genuinely funny and genuinely dangerous, and the tradition never resolves which. The turn comes with Baldr: he finds the one thing that has not sworn, guides the blind Hodr's hand, and then blocks the ransom from Hel. For that he is bound with his own son's entrails beneath a dripping serpent until Ragnarok, when he breaks free and steers the ship of the dead against the gods.",
    "variantTraditions": "How much of Loki's demonic final character is Christian colouring in Snorri is much argued; the eddic poem Lokasenna already shows him as an insulting outsider, but the parallels drawn with Satan are modern.",
-   "storyIds": [],
+   "storyIds": [
+    "asgard-wall",
+    "the-treasures",
+    "binding-fenrir",
+    "theft-of-idunn",
+    "skadi-settlement",
+    "thrymskvida",
+    "utgard",
+    "baldr-oaths",
+    "death-of-baldr",
+    "hermods-ride",
+    "lokasenna",
+    "binding-loki",
+    "ragnarok",
+    "otters-ransom"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "messenger-trickster",
@@ -508,7 +1367,13 @@
    "bio": "Son of Odin and Frigg, so beloved that everything swore not to harm him, killed by the one thing that did not.",
    "longBio": "Baldr is the best of the gods and the one whose death matters most, because it is the first irreversible thing to happen to them and the beginning of the end. Troubled by dreams of his own death, he tells the Aesir; Frigg extracts oaths from everything, after which the gods amuse themselves by throwing weapons at him and watching them refuse to bite. Loki, disguised as a woman, learns of the overlooked mistletoe, makes a dart of it, and puts it in the hand of Baldr's blind brother Hodr, guiding the throw. Baldr dies. Hermod rides nine nights to Hel, who agrees to release him if every thing in the world weeps - and every thing does, except one giantess in a cave who will not, and who is generally taken to be Loki. Baldr stays dead until after Ragnarok, when he returns to the new world.",
    "variantTraditions": "Saxo tells a completely different and more human version in which Balderus and Hotherus are rivals for a woman and fight a straightforward war; the two accounts cannot be reconciled.",
-   "storyIds": [],
+   "storyIds": [
+    "baldr-oaths",
+    "death-of-baldr",
+    "hermods-ride",
+    "binding-loki",
+    "green-earth"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "hero-champion"
@@ -540,7 +1405,10 @@
    "bio": "Baldr's blind brother, who killed him without knowing and was killed in revenge within a day.",
    "longBio": "Hodr is blind and is standing outside the ring of gods amusing themselves with Baldr's invulnerability, because he cannot see to join in and has no weapon. Loki asks why he is not honouring Baldr like the others, offers to direct him, and puts the mistletoe in his hand. He throws, and Baldr falls dead. The Aesir cannot take vengeance in the sanctuary where they stand, so Odin fathers a son, Vali, on the giantess Rind expressly for the purpose; Vali is one night old when he kills Hodr. Hodr and Baldr both return after Ragnarok and live in the new world together, which is one of the few notes of reconciliation the tradition permits itself.",
    "variantTraditions": "Saxo's Hotherus is not blind and not innocent but a rival warrior who kills Balderus in open contest; the two versions are irreconcilable.",
-   "storyIds": [],
+   "storyIds": [
+    "death-of-baldr",
+    "green-earth"
+   ],
    "hierarchyLevel": 2,
    "archetypes": []
   },
@@ -576,7 +1444,11 @@
    "bio": "God of law who put his hand in Fenrir's mouth as a pledge, knowing he would lose it.",
    "longBio": "Tyr's defining act is a deliberate loss. The gods want to bind the wolf Fenrir with the fetter Gleipnir, and the wolf, suspicious, will only allow it if one of them puts a hand in his mouth as surety of good faith. Every god refuses except Tyr. The fetter holds, the wolf cannot break it, and he bites the hand off at the wrist - and the sources are clear that Tyr knew this would happen, which is what makes it a pledge rather than a gamble. That single episode carries the whole character: he is the god of the oath and of the legal assembly, and he pays what an oath costs. Linguistic evidence suggests he was once far more important, since his name descends from the same root as Zeus and Jupiter and simply means god, which usually indicates an older sky-father displaced by later arrivals.",
    "variantTraditions": "The Tyr of the surviving myths is much reduced from what the etymology implies; the Germanic Tiwaz appears to have been a chief deity before Odin's rise.",
-   "storyIds": [],
+   "storyIds": [
+    "binding-fenrir",
+    "lokasenna",
+    "ragnarok"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "war",
@@ -617,7 +1489,11 @@
    "bio": "The watchman who needs less sleep than a bird, hears grass grow, and will blow the horn at Ragnarok.",
    "longBio": "Heimdall sits at the end of the rainbow bridge and watches. He requires less sleep than a bird, sees a hundred leagues by night as by day, and can hear wool growing on a sheep and grass growing on the earth; his horn Gjallarhorn is heard through all the worlds, and he will sound it when the giants come. He was born of nine mothers, generally taken to be the nine daughters of the sea, which is not explained anywhere. In the poem Rigsthula he walks among men under the name Rig, fathering the three social classes - thrall, farmer and lord - on three couples, which makes him the origin of human society as the Norse understood it. He and Loki are enemies from the start, they once fought in the shape of seals over a necklace, and at Ragnarok they kill each other.",
    "variantTraditions": "Rigsthula's attribution of Rig to Heimdall rests on a prose header that may be a later addition; some scholars read the poem's Rig as Odin.",
-   "storyIds": [],
+   "storyIds": [
+    "thrymskvida",
+    "valhalla",
+    "ragnarok"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "messenger-trickster",
@@ -653,7 +1529,12 @@
    "bio": "Skald of the gods, husband of Idunn, who greets the dead arriving at Valhalla.",
    "longBio": "Bragi is wise in poetry above all others, with runes cut on his tongue, and the word bragr in Old Norse means poetry itself, so it is genuinely unclear whether the god gave his name to the art or the art was personified into a god. He greets the einherjar as they arrive in Valhalla. He is married to Idunn, who keeps the apples of youth. In Lokasenna, when Loki forces his way into the gods' hall and insults everyone in turn, Bragi is the first to try to bar him and gets the worst of the exchange, being told he is brave on his bench and no use in a fight. There is also a historical Bragi Boddason, a ninth-century Norwegian poet and the earliest skald whose verse survives, and the relationship between the man and the god is unresolved.",
    "variantTraditions": "Whether the god Bragi derives from the historical poet Bragi Boddason, or the reverse, has been argued both ways since the nineteenth century.",
-   "storyIds": [],
+   "storyIds": [
+    "mead-of-poetry",
+    "theft-of-idunn",
+    "lokasenna",
+    "valhalla"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "wisdom-craft"
@@ -688,7 +1569,10 @@
    "bio": "The goddess whose apples keep the gods young, and whose abduction nearly ends them.",
    "longBio": "The Aesir are not immortal by nature; they stay young by eating Idunn's apples, which she keeps in an ash box and distributes. That makes her the single point of failure in the whole divine order, and the tradition exploits it. Loki, under duress from the giant Thjazi, lures her out of Asgard with a story about better apples growing in a wood nearby, and Thjazi in eagle shape carries her off. The gods immediately begin to grey and stiffen, work out who was last seen with her, and give Loki the obvious choice. He borrows Freyja's falcon cloak, flies to Thrymheim, turns Idunn into a nut and carries her home with Thjazi in pursuit; the giant burns his wings on fires the gods light along the walls and is killed as he falls.",
    "variantTraditions": "Snorri's account is the fullest; the poem Haustlong describes the same episode in kennings and is the older source.",
-   "storyIds": [],
+   "storyIds": [
+    "theft-of-idunn",
+    "lokasenna"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "healer",
@@ -723,7 +1607,11 @@
    "bio": "Thor's wife, whose hair Loki cut off, and whose replacement hair produced the gods' greatest treasures.",
    "longBio": "Sif is chiefly remembered for her hair, and for what happened when Loki cut it off while she slept - a piece of pure malice with no motive given. Thor's response is to threaten to break every bone in Loki's body unless he replaces it, and Loki goes to the dwarfs. The sons of Ivaldi make hair of real gold that grows like hair, and while he is there Loki provokes a wager between two sets of dwarfs that produces, in the same session, Odin's spear Gungnir, Freyr's collapsible ship Skidbladnir, Odin's ring Draupnir, Freyr's golden boar, and Thor's hammer Mjollnir - short in the handle because Loki, in fly shape, bit the dwarf working the bellows. So the gods' entire arsenal exists because of a haircut. Sif's golden hair is generally read as ripe grain, making her a harvest figure.",
    "variantTraditions": "Sif is barely characterised outside this story; Loki in Lokasenna claims to have been her lover, which she does not deny.",
-   "storyIds": [],
+   "storyIds": [
+    "the-treasures",
+    "hrungnir-duel",
+    "lokasenna"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother"
@@ -761,7 +1649,13 @@
    "bio": "Vanir god of sea and wealth, sent to the Aesir as a hostage, whose marriage failed over where to live.",
    "longBio": "Njord comes to the Aesir as a hostage at the end of the Aesir-Vanir war and stays. His domain is the profitable sea rather than the dangerous one: fair winds, good catches, safe voyages, and the wealth they bring, and he was invoked for prosperity as much as for weather. His marriage to the giantess Skadi is one of the tradition's better jokes about incompatibility. She chose him by looking only at feet, expecting Baldr; they agreed to live nine nights in her mountains and nine at his shore, and each hated the other's home - he could not stand the wolves howling in the hills, she could not stand the gulls waking her at the sea. They separated. His children Freyr and Freyja were born before he joined the Aesir, to his own sister, a Vanir practice the Aesir did not permit.",
    "variantTraditions": "Njord's name descends from the same root as Nerthus, a goddess Tacitus describes among Germanic tribes in the first century, suggesting a change of sex somewhere in a thousand years of transmission.",
-   "storyIds": [],
+   "storyIds": [
+    "mead-of-poetry",
+    "aesir-vanir-war",
+    "skadi-settlement",
+    "skirnismal",
+    "lokasenna"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "sea-waters",
@@ -803,7 +1697,12 @@
    "bio": "The most beloved of the Vanir, who traded away the sword he will need at Ragnarok for a giantess.",
    "longBio": "Freyr governs everything that makes life possible rather than glorious: rain, sun, the harvest, peace and prosperity. He owns Skidbladnir, a ship that always has a fair wind and folds into a pouch, and the golden boar Gullinbursti that runs on air and water and lights the night. His central story is a bad bargain. Sitting on Odin's high seat he sees the giantess Gerdr, is stricken, and sends his servant Skirnir to woo her; Skirnir wins her only after threats of appalling curses, and the fee Freyr pays is his own sword, which fights by itself. He gets Gerdr. At Ragnarok he faces the fire-giant Surtr without it and dies, and the tradition is explicit that this is the price of that afternoon.",
    "variantTraditions": "Adam of Bremen describes an image of Fricco at Uppsala with an enormous phallus, generally identified with Freyr; the Ynglinga saga makes him a human king of the Swedes, euhemerised.",
-   "storyIds": [],
+   "storyIds": [
+    "aesir-vanir-war",
+    "the-treasures",
+    "skirnismal",
+    "ragnarok"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother",
@@ -846,7 +1745,15 @@
    "bio": "The most requested goddess in the tradition: she takes half the battle-slain, teaches the gods magic, and weeps gold.",
    "longBio": "Freyja is the strongest and least domesticated of the goddesses. She takes half of everyone who falls in battle - Odin gets the other half, and the sources note that she chooses first. She taught seidr, the shape-shifting, fate-altering magic, to the Aesir including Odin, which makes her his teacher in the one area he most values. She drives a chariot drawn by cats, owns a falcon cloak the other gods borrow, and weeps tears of red gold for her wandering husband Odr. Her necklace Brisingamen she bought from four dwarfs at a price the sources name plainly. Every giant who wants something demands Freyja: the builder of Asgard's wall, Thrym who steals Thor's hammer, Hrungnir. The gods never seriously consider it, but the pattern says what she is worth.",
    "variantTraditions": "Freyja and Frigg overlap enough that many scholars suspect one earlier goddess; Snorri keeps them separate, and Old High German evidence complicates the case.",
-   "storyIds": [],
+   "storyIds": [
+    "aesir-vanir-war",
+    "asgard-wall",
+    "theft-of-idunn",
+    "thrymskvida",
+    "hrungnir-duel",
+    "lokasenna",
+    "valhalla"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "love-desire",
@@ -882,7 +1789,10 @@
    "bio": "Formed from the spittle of both god-tribes at their truce, and killed by dwarfs to brew the mead of poetry.",
    "longBio": "When the Aesir and Vanir made peace they sealed it by all spitting into one vat, and from that spittle they formed Kvasir, who knew the answer to every question asked of him. He travelled the world teaching. Two dwarfs, Fjalar and Galar, invited him in and killed him, telling the gods he had choked on his own wisdom because no one was learned enough to ask him anything. They mixed his blood with honey and brewed the mead of poetry, which makes whoever drinks it a poet or a scholar. The mead then passed by murder and extortion to the giant Suttung, and Odin stole it in turn. So poetry in Norse terms descends from a peace treaty, a murder and a theft, which the tradition presents entirely without embarrassment.",
    "variantTraditions": "Kvasir's name may be related to a word for crushed fruit or fermented drink, which would make him a personification of the mead rather than its source.",
-   "storyIds": [],
+   "storyIds": [
+    "mead-of-poetry",
+    "aesir-vanir-war"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "wisdom-craft",
@@ -919,7 +1829,10 @@
    "bio": "Second strongest of the gods, who kills Fenrir at Ragnarok and lives to see the new world.",
    "longBio": "Vidar barely speaks and barely appears until the end, which is the point: he is kept in reserve. He wears one enormously thick shoe made from every scrap of leather ever trimmed from a shoe's toe and heel and discarded, saved up across all of human history for one purpose. At Ragnarok, when Fenrir has swallowed Odin, Vidar steps into the wolf's lower jaw with that shoe, takes hold of the upper jaw, and tears the mouth apart. He is one of the handful who survive the burning and return to the new green earth with Baldr and Hodr. He is called the silent god, and the sources give no reason, which has led to a lot of speculation about ritual silence in vengeance that the texts themselves do not support.",
    "variantTraditions": "Snorri's detail about the shoe includes an instruction to cobblers to discard those trimmings if they wish to help the gods, which may be his own embroidery.",
-   "storyIds": [],
+   "storyIds": [
+    "ragnarok",
+    "green-earth"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "hero-champion",
@@ -952,7 +1865,10 @@
    "bio": "Odin fathered him on a giantess expressly to kill Hodr, which he did at one night old.",
    "longBio": "The Aesir cannot avenge Baldr where they stand, because the place is sanctuary and blood may not be shed there. Odin's answer is procedural and cold: he fathers a son on the giantess Rind for the single purpose of vengeance. Vali is born, grows to full strength in a day, and kills Hodr when he is one night old, having neither washed his hands nor combed his hair - details the poem gives to mark that he does nothing else first. He then has no further part in anything until Ragnarok, which he survives, returning to the new world with Vidar and Baldr and Hodr. Saxo tells a much longer version in which Odin's wooing of Rind involves three rejections, disguise as a woman and something close to assault.",
    "variantTraditions": "Saxo's account of the wooing of Rinda is far more disreputable than Snorri's and was probably meant to discredit Odin.",
-   "storyIds": [],
+   "storyIds": [
+    "death-of-baldr",
+    "green-earth"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "hero-champion"
@@ -1061,7 +1977,9 @@
    "bio": "Odin's son, who rode nine nights down to Hel to ransom Baldr and nearly succeeded.",
    "longBio": "When Baldr is dead and Frigg asks who will ride to Hel and offer a ransom, Hermod volunteers. He borrows Sleipnir and rides nine nights through valleys so dark he sees nothing until he reaches the river Gjoll and its gold-roofed bridge, where the maiden guarding it remarks that he does not have the colour of a dead man. He jumps the gate of Hel outright and finds Baldr sitting in the seat of honour. Hel agrees to release him on one condition: that every thing in the world, living and dead, weep for him. Hermod rides back with the answer and with Draupnir, and the gods send word everywhere, and everything weeps - except one giantess in a cave who says she will weep dry tears and that Hel may keep what she has.",
    "variantTraditions": "Hermod appears almost nowhere else; whether he was an established god or a figure Snorri needed for this errand is unclear.",
-   "storyIds": [],
+   "storyIds": [
+    "hermods-ride"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "messenger-trickster"
@@ -1095,7 +2013,10 @@
    "bio": "She died of grief as Baldr's body was carried to the pyre, and was burned beside him.",
    "longBio": "Nanna's part is short and complete. As Baldr's body is being placed on the ship Hringhorni for burning, she sees it, her heart breaks, and she dies on the spot; she is laid on the pyre beside him. When Hermod reaches Hel he finds them both there, and Nanna sends gifts back to the living - a linen robe for Frigg and a gold ring for Fulla - which is a small domestic gesture in the middle of the tradition's largest catastrophe and lands harder for it. Their son Forseti becomes the god of reconciliation, which reads as the tradition's one attempt to get something constructive out of the whole affair. In Saxo she is an entirely different character, a mortal woman who rejects Balderus for Hotherus and is the cause of their war.",
    "variantTraditions": "Snorri's Nanna dies of grief; Saxo's Nanna is the living object of a rivalry. The two share nothing but a name.",
-   "storyIds": [],
+   "storyIds": [
+    "death-of-baldr",
+    "hermods-ride"
+   ],
    "hierarchyLevel": 2,
    "archetypes": []
   },
@@ -1127,7 +2048,9 @@
    "bio": "She catches the venom dripping on her bound husband, and the earth shakes when she turns to empty the bowl.",
    "longBio": "After Loki is caught, the gods turn one of his sons into a wolf, which tears the other apart, and bind Loki to three stones with his son's entrails, which harden into iron. Skadi fixes a serpent above his face to drip venom onto him. Sigyn stays. She holds a basin under the serpent to catch the venom, and Loki is unharmed - until the basin fills and she must turn away to empty it, and the drops fall on his face and he writhes so hard that the whole earth shakes, which is what earthquakes are. Then she comes back and holds the bowl again. She does this until Ragnarok. She has no other story, no lineage of note and almost no lines, and she is one of the most affecting figures in the corpus.",
    "variantTraditions": "Sigyn appears in the Poetic Edda and in Snorri; nothing is said about why she stays.",
-   "storyIds": [],
+   "storyIds": [
+    "binding-loki"
+   ],
    "hierarchyLevel": 2,
    "archetypes": []
   },
@@ -1160,7 +2083,9 @@
    "bio": "She turned her four sons into oxen and ploughed an island out of Sweden in a night.",
    "longBio": "King Gylfi of Sweden offered Gefjon as much land as she could plough in a day and a night. She went to Jotunheim, bore four sons to a giant, turned them into oxen, and set them to a plough that cut so deep it tore the land loose and dragged it west into the sea, where it became Zealand; the hole left behind filled with water and became lake Malaren, whose bays are said to match the island's headlands. Snorri notes that she is served by all women who die unmarried, which makes her the counterpart to the goddesses who receive wives and mothers. In Lokasenna, Loki accuses her of having taken a necklace for sex, an accusation he makes about most of the goddesses present.",
    "variantTraditions": "Snorri opens Gylfaginning with this story and repeats it in Heimskringla with a poem by Bragi as evidence, which is unusually good attestation by his standards.",
-   "storyIds": [],
+   "storyIds": [
+    "gefjon-plough"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother",
@@ -1199,7 +2124,11 @@
    "bio": "She came to Asgard armed to avenge her father and left with a husband, a settlement, and a place among the gods.",
    "longBio": "Skadi's father Thjazi is killed by the Aesir after the theft of Idunn, and she arrives at Asgard in mail with a drawn bow to take vengeance. The gods offer settlement instead: she may choose a husband from among them, but only by looking at their feet. She picks the finest pair expecting Baldr and gets Njord. She further requires that they make her laugh, which no one can until Loki ties a rope from his testicles to a goat's beard and the resulting contest ends with him falling in her lap. She laughs. The marriage fails on geography and they separate; she goes back to the mountains and her skis. She is the one who fixes the serpent above the bound Loki, which reads as a long-deferred settling of accounts.",
    "variantTraditions": "The Ynglinga saga has her later marry Odin and bear him many sons; the sources do not agree about where she ends up.",
-   "storyIds": [],
+   "storyIds": [
+    "theft-of-idunn",
+    "skadi-settlement",
+    "binding-loki"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "war",
@@ -1235,7 +2164,9 @@
    "bio": "Freyr saw her from Odin's high seat and paid his sword for her; she agreed only under threat of curses.",
    "longBio": "When Freyr sits in the forbidden high seat and looks out over all worlds, he sees a woman go into a house, and the light of her arms shines on the sky and the sea. He becomes ill with longing and will not eat or speak. His servant Skirnir is sent to woo her and takes Freyr's self-fighting sword as his fee. Gerdr refuses gold and apples flatly; she yields only when Skirnir threatens her with a rune-carved curse of madness, monstrous marriage and endless unsatisfied desire. She agrees to meet Freyr in nine nights. Scholars have read the whole episode as a fertility rite - the sky god's light compelling the frozen field - but the poem as it stands is a coercion, and it costs Freyr his life at Ragnarok.",
    "variantTraditions": "The fertility-rite reading of Skirnismal is influential but contested; the text itself presents a straightforward threat.",
-   "storyIds": [],
+   "storyIds": [
+    "skirnismal"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "earth-mother"
@@ -1270,7 +2201,10 @@
    "bio": "He forced Loki to deliver Idunn and her apples, and burned to death chasing them home.",
    "longBio": "Thjazi first appears as an eagle who settles on an ox the gods are cooking and prevents it from roasting until he is given a share, then takes most of it. Loki strikes at him with a pole, which sticks fast, and Thjazi flies off with Loki attached and dragging until he agrees to bring him Idunn. Loki lures her out of Asgard and Thjazi carries her to Thrymheim. The gods begin to age at once, work out who is responsible, and send Loki to fix it. He takes Freyja's falcon cloak, turns Idunn into a nut, and flies; Thjazi follows in eagle shape and burns his wings on fires the gods have set along the walls of Asgard, and is killed inside. Odin throws his eyes into the sky as stars.",
    "variantTraditions": "The story survives in Snorri and in the older skaldic poem Haustlong, which describes it in dense kennings on a painted shield.",
-   "storyIds": [],
+   "storyIds": [
+    "theft-of-idunn",
+    "skadi-settlement"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "primordial-adversary"
@@ -1304,7 +2238,9 @@
    "bio": "He hid Mjollnir eight leagues underground and demanded Freyja as the price, and was killed at his own wedding.",
    "longBio": "Thor wakes to find his hammer gone. Loki, in Freyja's falcon cloak, finds Thrym sitting on a mound plaiting collars for his hounds, entirely pleased with himself: he has buried Mjollnir eight leagues deep and will return it only for Freyja as his bride. Freyja's refusal is so violent that the halls shake and her necklace snaps. Heimdall proposes dressing Thor as the bride instead, and Thor objects that the gods will call him unmanly until Loki points out that giants will otherwise be living in Asgard shortly. Veiled, Thor eats an ox, eight salmon and three casks of mead at the feast, and Loki explains each alarming detail away. When the hammer is laid in the bride's lap to hallow the marriage, Thor takes it and kills everyone present.",
    "variantTraditions": "Thrymskvida is one of the most polished poems in the Poetic Edda and reads as deliberate comedy; some scholars date it late for that reason.",
-   "storyIds": [],
+   "storyIds": [
+    "thrymskvida"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "primordial-adversary"
@@ -1336,7 +2272,9 @@
    "bio": "Loki's giantess consort, who bore Fenrir, Jormungandr and Hel.",
    "longBio": "Angrboda's name means she who brings grief, and her entire significance is her three children by Loki: the wolf Fenrir, the serpent Jormungandr, and Hel. The gods, learning of them and being told what they will do, act pre-emptively - Odin throws the serpent into the sea, sends Hel down to the world of the dead, and has the wolf raised among the gods until he grows too large to be safe. Every one of those three decisions is what makes the prophecy happen: the serpent grows to encircle the world, Hel rules the dead who will sail against them, and the wolf, betrayed and bound, kills Odin. Angrboda herself does nothing further in any surviving text.",
    "variantTraditions": "She is named in the Poetic Edda only in passing; Snorri supplies the parentage of all three monsters.",
-   "storyIds": [],
+   "storyIds": [
+    "binding-fenrir"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "earth-mother",
@@ -1372,7 +2310,11 @@
    "bio": "He has stood at the edge of the fire-world since before the beginning, waiting to burn everything at the end.",
    "longBio": "Surtr is at the southern border of Muspelheim from the first moment, before the world exists, with a flaming sword, and he does nothing at all for the entire span of the mythology. At Ragnarok he rides out at the head of the sons of Muspell, the bridge Bifrost breaks under them as they cross, and he meets Freyr - who gave away his sword for Gerdr - and kills him. Then he flings fire over the whole earth and the nine worlds burn. He is not defeated by anyone; no god is assigned to him, and none survives him. Afterwards the earth rises green from the sea. He is one of the few figures in the tradition older than Ymir, and one of the very few who is not part of any family at all.",
    "variantTraditions": "Icelandic place-names connect Surtr with volcanic features, and the 1963 eruption that created the island Surtsey was named for him.",
-   "storyIds": [],
+   "storyIds": [
+    "ginnungagap",
+    "skirnismal",
+    "ragnarok"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "primordial-adversary",
@@ -1409,7 +2351,11 @@
    "bio": "Odin gave an eye for one drink from his well, and later carried his severed head about for counsel.",
    "longBio": "Mimir keeps a well at one of the roots of Yggdrasil in which wisdom and understanding are held, and he drinks from it every morning. Odin comes and asks for a draught; the price is an eye, which Odin pays without argument, and the eye lies in the well still. Mimir is later sent to the Vanir as a hostage in the truce alongside Hoenir. The arrangement fails - the Vanir conclude they have been cheated - and they cut off Mimir's head and send it back. Odin embalms it with herbs and speaks charms over it so that it can still talk, and afterwards consults it for counsel, particularly at moments of crisis. At the outbreak of Ragnarok he goes to speak with the head before anything else.",
    "variantTraditions": "Whether Mimir the well-keeper and Mimir the hostage are the same figure is not certain; the sources treat them as one without explaining how a beheaded hostage keeps a well.",
-   "storyIds": [],
+   "storyIds": [
+    "yggdrasil",
+    "mimirs-well",
+    "aesir-vanir-war"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "sage-seer",
@@ -1447,7 +2393,10 @@
    "bio": "The sea personified as a host: he brews ale for the gods, and his wife drags the drowned down in her net.",
    "longBio": "Aegir is the sea in its two aspects, and the tradition splits them between husband and wife. He is a genial host who brews ale for the gods in a mile-wide cauldron Thor fetches from the giant Hymir, and his hall is lit by gold laid on the floor rather than by fire, which is why poets call gold the fire of the sea. It is at his feast that Loki commits the outrage of Lokasenna, insulting every god present in turn. His wife Ran has a net, and she catches sailors and drags them down to her hall, where the drowned go; men carried gold to sea so as not to arrive at her hall empty-handed. Their nine daughters are the waves.",
    "variantTraditions": "Aegir, Hler and Gymir may be three names for one being or three separate figures; the sources use them interchangeably in places.",
-   "storyIds": [],
+   "storyIds": [
+    "hymir-fishing",
+    "lokasenna"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "sea-waters"
@@ -1483,7 +2432,9 @@
    "bio": "He raced Odin into Asgard, boasted drunkenly, and was killed by Thor in the tradition's set-piece duel.",
    "longBio": "Odin, riding Sleipnir, wagers his head that no horse in Jotunheim can match him; Hrungnir's Gullfaxi keeps up so well that the giant rides straight through the gates of Asgard in pursuit. Offered hospitality, he drinks Thor's cups and announces he will carry off Valhalla, sink Asgard, kill all the gods and take Freyja and Sif home with him. Thor arrives. They arrange a formal duel, and the giants build a clay man nine leagues tall to stand with Hrungnir, into which they put a mare's heart, so it is terrified before anything begins. Hrungnir throws his whetstone; Thor throws Mjollnir; the two meet in the air, the hone shatters and a piece lodges in Thor's head, and the hammer kills the giant, whose leg falls across Thor and pins him.",
    "variantTraditions": "The whetstone fragment stays in Thor's head, and Snorri uses it to explain why no one should throw a hone across a room.",
-   "storyIds": [],
+   "storyIds": [
+    "hrungnir-duel"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "primordial-adversary"
@@ -1517,7 +2468,9 @@
    "bio": "He defeated Thor at three contests by disguising the sea, old age and thought as ordinary opponents.",
    "longBio": "Thor, Loki and two servants reach a hall so vast they sleep in a side chamber, which turns out at dawn to be the thumb of a giant's glove. At Utgard the king sets contests. Loki loses an eating match to Logi. Thialfi loses a race to Hugi. Thor fails to empty a drinking horn, cannot lift a grey cat off the floor beyond one paw, and is wrestled to one knee by an old woman. As they leave, Utgarda-Loki tells them the truth and then vanishes with his castle: Logi was wildfire, Hugi was thought, the horn's other end was in the sea and Thor drank it down noticeably, the cat was the world serpent and he lifted it until the sky was touched, and the old woman was old age, whom no one has ever thrown.",
    "variantTraditions": "The episode is Snorri's alone and is one of the finest pieces of narrative in the Prose Edda; no eddic poem preserves it.",
-   "storyIds": [],
+   "storyIds": [
+    "utgard"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "messenger-trickster",
@@ -1555,7 +2508,10 @@
    "bio": "Raised among the gods, tricked into a fetter he could not break, and freed at Ragnarok to kill Odin.",
    "longBio": "Fenrir is brought up in Asgard because Odin would rather have him where he can be seen, and only Tyr is brave enough to feed him. He grows so fast that the gods decide to bind him, and twice they present a chain as a test of strength, which he snaps and enjoys. The third fetter, Gleipnir, is made by dwarfs from six impossible things - the noise of a cat's footfall, a woman's beard, a mountain's roots, a bear's sinews, a fish's breath, a bird's spittle - and is thin as silk. Fenrir is suspicious and demands a pledge: a hand in his mouth. Tyr gives his, knowing. The fetter holds; the hand is bitten off. A sword is set upright in his jaws to hold them open, and his drool makes a river. At Ragnarok he breaks free and swallows Odin, and Vidar tears him apart.",
    "variantTraditions": "The gods' handling of Fenrir is what makes him what they feared: they raise him, deceive him and maim him, and he kills Odin. The sources present this without comment.",
-   "storyIds": [],
+   "storyIds": [
+    "binding-fenrir",
+    "ragnarok"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "primordial-adversary",
@@ -1592,7 +2548,11 @@
    "bio": "Thrown into the sea by Odin, he grew until he circled the world and could bite his own tail.",
    "longBio": "Odin throws the infant serpent into the deep ocean, and there it grows until it surrounds all the lands and grips its own tail. Thor meets it twice. Once at Utgard, where he is challenged to lift a grey cat and manages one paw off the ground - and is told afterwards that the cat was the serpent and that the onlookers were terrified when the sky was touched. Once fishing with the giant Hymir, using an ox head for bait, when he hooks it and hauls it up until they are face to face and he reaches for his hammer, and Hymir cuts the line in terror. At Ragnarok they meet a third time. Thor kills it and walks nine paces before the venom brings him down.",
    "variantTraditions": "Whether Thor killed the serpent at the fishing trip in an older version, and Snorri softened it, has been argued from the way some skaldic poems describe the scene.",
-   "storyIds": [],
+   "storyIds": [
+    "hymir-fishing",
+    "utgard",
+    "ragnarok"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "serpent-dragon",
@@ -1630,7 +2590,10 @@
    "bio": "Half a living woman and half a corpse, ruling everyone who dies of sickness or age.",
    "longBio": "Odin casts Hel down into Niflheim and gives her authority over the ninth world and over everyone sent to her - and that is nearly everyone, since only the battle-slain go elsewhere. She is described as half flesh-coloured and half blue-black, with a grim and downcast look. Her hall is Eljudnir, her dish is Hunger, her knife is Famine, her threshold is Stumbling-Block. Her realm is not a place of punishment and there is no judgment at its gate: a good farmer who dies in bed and a bad one arrive alike. Her one great moment is the ransom of Baldr, when she agrees to release him if every thing in the world weeps, and one giantess refuses - so she keeps him. She has a legal cast of mind, and she is not cheated.",
    "variantTraditions": "The Christian Hell and the Norse Hel share an etymology but not a concept; Snorri's description may have absorbed some later colouring.",
-   "storyIds": [],
+   "storyIds": [
+    "hermods-ride",
+    "ragnarok"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "death-judge"
@@ -1666,7 +2629,11 @@
    "bio": "The dragon chewing the root of Yggdrasil from below, and feeding on the worst of the dead.",
    "longBio": "The world tree is under attack from every side: a stag eats the leaves, goats browse the branches, and beneath the third root Nidhogg gnaws steadily at the wood. The squirrel Ratatoskr runs up and down carrying insults between him and the eagle at the top, which is the tradition's one moment of pure comedy about the structure of the universe. Nidhogg also chews the corpses of the dead in Nastrond, the shore of the dead, where oathbreakers and murderers go - one of very few places where Norse sources describe anything like moral punishment after death. In the last stanza of Voluspa, after the new world has risen and the seeress is finishing, Nidhogg flies over carrying corpses in his wings, and then she sinks. It is a deeply unsettling place to end.",
    "variantTraditions": "The final Nidhogg stanza's position in Voluspa varies between manuscripts, and whether it belongs to the new world or the old is genuinely unclear.",
-   "storyIds": [],
+   "storyIds": [
+    "making-world",
+    "yggdrasil",
+    "green-earth"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "serpent-dragon",
@@ -1702,7 +2669,9 @@
    "bio": "A blood-stained hound bound before the cave, whose howling marks each stage of Ragnarok.",
    "longBio": "Garmr is chained before the cave Gnipahellir on the road to Hel, and Voluspa uses his howling as its refrain: now Garmr howls loud before Gnipahellir, the fetter will break and the wolf run free. The line recurs to mark the stages of the ending, so the dog is effectively the poem's clock. At Ragnarok he breaks loose and fights Tyr, and the two kill each other - which is a fittingly bleak outcome for the god who already lost a hand to a bound wolf. Some scholars think Garmr and Fenrir are the same creature under two names, since both are bound, both break free, and the accounts of who fights whom differ between sources.",
    "variantTraditions": "Snorri pairs Garmr with Tyr; Voluspa's phrasing is ambiguous enough that the Garmr-is-Fenrir reading has real support.",
-   "storyIds": [],
+   "storyIds": [
+    "ragnarok"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "divine-beast",
@@ -1739,7 +2708,10 @@
    "bio": "He killed his father for the cursed gold, turned into a dragon guarding it, and was killed by Sigurd.",
    "longBio": "Odin, Loki and Hoenir kill an otter that is really Hreidmar's son, and Hreidmar demands the skin be filled and covered with gold. Loki takes the hoard from the dwarf Andvari, including a ring Andvari curses as he loses it. Fafnir and his brother Regin then kill their father for the gold; Fafnir takes it all, goes out to Gnitaheath, and becomes a dragon lying on it. Regin, wanting it back, raises Sigurd and sends him to kill his brother. Sigurd digs a pit in the serpent's track and stabs upward as it passes over. Dying, Fafnir speaks at length with his killer - warning him that the gold is cursed and will destroy him too, which is exactly what happens.",
    "variantTraditions": "The Volsunga Saga and the eddic poems Reginsmal and Fafnismal differ in detail; the Nibelungenlied recasts the whole story with different names.",
-   "storyIds": [],
+   "storyIds": [
+    "otters-ransom",
+    "sigurd-fafnir"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "serpent-dragon",
@@ -1777,7 +2749,12 @@
    "bio": "Three maidens at the well who set the law and choose the lives of the children of men.",
    "longBio": "The Norns live beneath the ash by the well of Urd, and Voluspa says flatly that they made laws and chose lives for the children of men and set fate. Their names read as a tense sequence - what became, what is becoming, what shall be - though whether that neat scheme is original or a later reading of ordinary names is disputed. They cut marks on wooden staves. They also tend Yggdrasil, drawing water from the well and mixing it with the white clay of the bank to pour over the tree so it does not rot, which means the same beings who fix fate are also the maintenance crew for the universe. There are further norns besides these three, of the Aesir, the elves and the dwarfs, who attend births and account for why lives differ so much.",
    "variantTraditions": "The three-Norn scheme is often compared with the Greek Moirai and the Latin Parcae; the parallel is real but the direction of any influence is unknown.",
-   "storyIds": [],
+   "storyIds": [
+    "making-world",
+    "yggdrasil",
+    "mimirs-well",
+    "odin-runes"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "fate-time"
@@ -1815,7 +2792,10 @@
    "bio": "They choose who falls, carry the chosen to Valhalla, and pour for them there.",
    "longBio": "The name means chooser of the slain, and it is meant literally: they do not merely collect the dead, they decide who dies. Odin sends them to every battle and they allot victory. In Valhalla they carry mead to the einherjar. Some are Odin's daughters and some are mortal princesses, and the boundary is porous - Brynhildr is a valkyrie punished with mortality for awarding victory to the wrong king. The eddic poem Darradarljod shows them at a loom weaving with human entrails, weighted with severed heads, deciding a battle in Ireland as they work, which is a considerably darker picture than the later romantic one. Their names are mostly plain nouns of violence: Battle, Tumult, Shrieker, Spear-Bearer.",
    "variantTraditions": "The valkyries of skaldic verse and the swan-maidens of the heroic poems may be two originally distinct traditions merged.",
-   "storyIds": [],
+   "storyIds": [
+    "valhalla",
+    "ragnarok"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "war",
@@ -1852,7 +2832,10 @@
    "bio": "The best of horses, borne by Loki as a mare, who can carry a rider to the land of the dead and back.",
    "longBio": "A builder offers to wall Asgard in three seasons for the sun, the moon and Freyja, and the gods accept on Loki's advice, believing it impossible. The builder's stallion Svadilfari hauls stone at such a rate that the work will finish early, and the gods turn on Loki, who solves it by becoming a mare in season and luring the stallion away for a night. The wall goes unfinished, the builder turns out to be a giant and is killed. Loki afterwards bears a grey foal with eight legs. Sleipnir can carry a rider over sea and air, and Hermod rides him down to Hel and back, which no other horse could do. Runes are cut on his teeth. He is the clearest case in the tradition of something valuable coming out of Loki's misconduct.",
    "variantTraditions": "Eight-legged horses appear on Gotland picture stones, so the image is older than Snorri even if his account of the parentage is his own.",
-   "storyIds": [],
+   "storyIds": [
+    "asgard-wall",
+    "hermods-ride"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "divine-beast"
@@ -1921,7 +2904,9 @@
    "bio": "He runs between the eagle at the top of the tree and the dragon at its root, relaying their abuse.",
    "longBio": "An eagle sits in the branches of Yggdrasil with a hawk between its eyes, and Nidhogg gnaws at the root below, and Ratatoskr runs up and down the trunk carrying what each says about the other. Grimnismal gives him a single stanza and Snorri repeats it, and that is the entire body of evidence, but it is one of the most memorable images in the whole corpus: the axis of the universe has a squirrel on it, making trouble for its own sake. The detail also does real work, since it explains why the dragon keeps chewing - he is being needled about it. His name is usually read as drill-tooth or bore-tooth, though the second element has also been argued to mean tusk or even traveller.",
    "variantTraditions": "The etymology of the name is genuinely unsettled, and proposals range from drill-tooth to a borrowing meaning rat-tusk.",
-   "storyIds": [],
+   "storyIds": [
+    "yggdrasil"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "messenger-trickster",
@@ -1956,7 +2941,9 @@
    "bio": "They made Thor's hammer, Odin's ring and Freyr's boar, and won Loki's head in the wager.",
    "longBio": "Loki, having already commissioned Sif's golden hair from the sons of Ivaldi, provokes a wager by telling Brokkr and Eitri that no dwarf could match those gifts, staking his own head. Eitri works the forge and Brokkr the bellows, and Loki turns into a fly and bites Brokkr three times to spoil the work - on the hand, the neck, and finally the eyelid, so that blood runs into his eye and he pauses for a moment to wipe it. That instant is why the hammer Mjollnir has a short handle. The gods judge it the greatest treasure regardless, and Brokkr wins. Loki argues that he staked his head but not his neck, and the dwarfs settle for sewing his lips shut, which is the tradition's idea of a proportionate remedy.",
    "variantTraditions": "The story is Snorri's; the eddic poems refer to the treasures without narrating how they were made.",
-   "storyIds": [],
+   "storyIds": [
+    "the-treasures"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "wisdom-craft"
@@ -1992,7 +2979,12 @@
    "bio": "Robbed of his gold by Loki, he cursed the last ring, and the curse works through generations.",
    "longBio": "Andvari lives as a pike in a waterfall and has a hoard. Loki, needing gold to pay Hreidmar for the otter's skin, borrows Ran's net and catches him, and demands everything. Andvari surrenders it but tries to keep back one ring, Andvaranaut, which can breed more gold; Loki takes that too. As he goes, Andvari curses the ring and all the gold so that it will destroy whoever owns it. It then does so, methodically and without exception: Hreidmar is murdered by his sons, Fafnir turns into a dragon, Regin is killed by Sigurd, Sigurd is murdered, Gunnar and Hogni die for it, Gudrun's children are killed, and Atli is murdered in his bed. Nobody in the whole cycle who touches the gold survives it.",
    "variantTraditions": "Wagner's Alberich and the ring cycle descend from Andvari by way of the Nibelungenlied, with substantial reworking.",
-   "storyIds": [],
+   "storyIds": [
+    "otters-ransom",
+    "sigurd-fafnir",
+    "murder-of-sigurd",
+    "gudruns-revenge"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "wealth-fortune",
@@ -2028,7 +3020,10 @@
    "bio": "He raised Sigurd to kill his own brother for the gold, and intended to kill him afterwards.",
    "longBio": "Regin fosters Sigurd and works on him steadily to send him against Fafnir, his own brother, for the hoard. He forges swords that Sigurd breaks on the anvil, until Sigurd brings the fragments of his father's sword Gram and Regin reforges those into a blade that splits the anvil and cuts a floating wool tuft in the river. He advises the pit-and-stab method, then asks Sigurd to roast Fafnir's heart for him. Sigurd burns his thumb testing it, puts it in his mouth, and instantly understands the speech of birds - who are discussing, overhead, Regin's intention to kill him as soon as he has the gold. Sigurd cuts off his head. The birds are correct, and the warning arrives by the same accident that made the treachery possible.",
    "variantTraditions": "The overheard birds appear in Fafnismal and in the Volsunga Saga; the number of birds and what they say varies.",
-   "storyIds": [],
+   "storyIds": [
+    "otters-ransom",
+    "sigurd-fafnir"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "wisdom-craft",
@@ -2067,7 +3062,13 @@
    "bio": "The greatest hero of the north: he killed Fafnir, woke Brynhildr, was made to forget her, and died for it.",
    "longBio": "Sigurd is born after his father Sigmund's death and raised by Regin, who reforges Sigmund's broken sword for him. He kills Fafnir, takes the gold, tastes the heart, learns of Regin's treachery from the birds and kills him. Riding on, he finds a wall of flame with an armoured sleeper inside - Brynhildr, a valkyrie whom Odin has punished with sleep and mortality - wakes her, and they swear themselves to each other. Then he reaches the Gjukungs, whose queen gives him a drink that erases the memory, and he marries Gudrun. Worse, he helps Gunnar win Brynhildr by taking Gunnar's shape and riding the flames himself. When Brynhildr learns of the deception she has him murdered, then kills herself and is burned on his pyre.",
    "variantTraditions": "The Nibelungenlied recasts him as Siegfried with a different ending, and Wagner drew on both. The Norse version is older and considerably harsher.",
-   "storyIds": [],
+   "storyIds": [
+    "sigurd-fafnir",
+    "wall-of-flame",
+    "murder-of-sigurd",
+    "gudruns-revenge",
+    "sword-in-tree"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "hero-champion"
@@ -2103,7 +3104,10 @@
    "bio": "A valkyrie who gave victory to the wrong king, was put to sleep behind fire, and destroyed the man who woke her.",
    "longBio": "Brynhildr awards victory in a battle to the king Odin had not chosen, and Odin punishes her: he pricks her with a sleep-thorn, encloses her in a wall of flame, and declares she will marry a mortal. Sigurd rides through and wakes her, and they exchange oaths. Then he is made to forget. He returns in Gunnar's shape, rides the fire a second time on Gunnar's behalf, and she marries Gunnar believing he did it. She learns the truth in a quarrel with Gudrun over precedence at the river. Her response is not grief but calculation: she goads Gunnar into having Sigurd killed by telling him Sigurd broke faith, and when it is done she laughs once, then stabs herself and asks to be burned on the same pyre with a drawn sword between them.",
    "variantTraditions": "The Volsunga Saga, the eddic poems and the Nibelungenlied give substantially different accounts of her identity and motive.",
-   "storyIds": [],
+   "storyIds": [
+    "wall-of-flame",
+    "murder-of-sigurd"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "hero-champion",
@@ -2141,7 +3145,10 @@
    "bio": "He alone pulled Odin's sword from the tree, survived the massacre of his family, and died when Odin shattered it.",
    "longBio": "A one-eyed stranger drives a sword into the trunk of the tree growing through the Volsung hall and says whoever draws it may keep it; only Sigmund can. His brother-in-law Siggeir, refused the sword, kills his father and captures his ten brothers, who are eaten one by one by a she-wolf in the stocks until Sigmund alone escapes by a trick of his sister's. He lives as an outlaw in the forest for years, plotting, and eventually burns Siggeir in his hall. Much later, an old man in a wide hat steps into a battle and holds up a spear; Sigmund strikes it and Gram shatters, and he takes his death wound - Odin has come to collect him. He tells his wife to keep the fragments for the son she is carrying, who is Sigurd.",
    "variantTraditions": "The Volsunga Saga is the fullest source; Beowulf refers to a dragon-slaying by Sigemund, which suggests the material circulated in England in a different arrangement.",
-   "storyIds": [],
+   "storyIds": [
+    "sigurd-fafnir",
+    "sword-in-tree"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "hero-champion",
@@ -2178,7 +3185,11 @@
    "bio": "Married to Sigurd by a drink of forgetting, she outlived his murder and destroyed everyone responsible.",
    "longBio": "Gudrun marries Sigurd after her mother's potion erases Brynhildr from his memory, and it is her boast at the river about whose husband is the greater that triggers the whole catastrophe. When Sigurd is murdered in his bed she is so struck she cannot weep until a woman uncovers the body and makes her look at it. She is afterwards married to Atli, who kills her brothers Gunnar and Hogni for the gold. Her revenge is total and calculated: she kills her two sons by Atli, serves him their hearts and their blood in cups made of their skulls, tells him what he has eaten, stabs him, and burns the hall with everyone in it. Then she walks into the sea, which will not drown her.",
    "variantTraditions": "The German tradition reverses her entirely: Kriemhild in the Nibelungenlied destroys her brothers to avenge her husband, where Gudrun destroys her husband to avenge her brothers.",
-   "storyIds": [],
+   "storyIds": [
+    "wall-of-flame",
+    "murder-of-sigurd",
+    "gudruns-revenge"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "hero-champion"
