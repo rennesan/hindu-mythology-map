@@ -516,6 +516,817 @@
     "moon",
     "primordial-adversary"
    ]
+  },
+  {
+   "id": "mictlantecuhtli",
+   "name": "Mictlantecuhtli",
+   "sanskrit": "Mictlāntēuctli",
+   "category": "underworld",
+   "era": "The Five Suns",
+   "role": "Lord of Mictlan, the land of the dead",
+   "wikipedia": "Mictlāntēcutli",
+   "portrait": "portraits/aztec/mictlantecuhtli.webp",
+   "epithets": [
+    "Lord of the Place of the Dead",
+    "The Bloody One"
+   ],
+   "domains": [
+    "the ninth level of the underworld",
+    "the ordinary dead",
+    "bones"
+   ],
+   "symbols": [
+    "a skull with a liver hanging out",
+    "owls and spiders",
+    "the bone earspools"
+   ],
+   "mount": null,
+   "abode": "Mictlan, the ninth and lowest level",
+   "festivals": [],
+   "worship": "",
+   "bio": "He guards the bones of the previous humanity and gives them up only under a condition he then tries to break.",
+   "longBio": "Mictlantecuhtli rules the lowest of the nine levels of the underworld with his consort Mictecacihuatl. He is shown as a skeleton or a skull-faced figure with his liver protruding, since the liver was thought to be the seat of a soul-force, and he is attended by owls, spiders and bats. Mictlan is not a punishment. Everyone who dies an ordinary death goes there, regardless of conduct, and spends four years crossing eight levels of trials - a river guarded by a yellow dog, clashing mountains, an obsidian wind that strips flesh - before arriving and ceasing to exist. Dogs were buried with the dead to help with the river crossing. His great scene is the bargaining with Quetzalcoatl over the bones.",
+   "variantTraditions": "The nine levels and their trials are described most fully in Sahagun; the details vary between sources but the four-year journey is consistent.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge"
+   ]
+  },
+  {
+   "id": "mictecacihuatl",
+   "name": "Mictecacihuatl",
+   "sanskrit": "Mictēcacihuātl",
+   "category": "underworld",
+   "era": "The Five Suns",
+   "role": "Lady of Mictlan, keeper of the bones",
+   "wikipedia": "Mictecacihuatl",
+   "portrait": "portraits/aztec/mictecacihuatl.webp",
+   "epithets": [
+    "Lady of the Dead",
+    "Keeper of the Bones"
+   ],
+   "domains": [
+    "the dead",
+    "the guardianship of bones",
+    "the festivals of the dead"
+   ],
+   "symbols": [
+    "the flayed jaw",
+    "the skull",
+    "marigolds in later usage"
+   ],
+   "mount": null,
+   "abode": "Mictlan",
+   "festivals": [],
+   "worship": "",
+   "bio": "Sacrificed as an infant, she rules the dead beside her husband and watches over the bones of past worlds.",
+   "longBio": "Mictecacihuatl is said to have been sacrificed as an infant and raised to rule the underworld, where she presides with Mictlantecuhtli over the bones of the dead and over the festivals held for them. Her jaw is shown flayed and hanging open, ready to swallow the stars when they fall. The relevant modern point is that the Mexica held two month-long festivals for the dead, one for children and one for adults, and that after the conquest these were moved and merged with the Catholic All Saints and All Souls - which is one of the roots of the modern Day of the Dead, though the folk-costume figure of La Catrina is a 1910s political cartoon by Posada rather than an ancient survival.",
+   "variantTraditions": "The continuity between Mexica death festivals and the modern Dia de Muertos is real but has been considerably romanticised; La Catrina is demonstrably twentieth-century.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "xolotl",
+   "name": "Xolotl",
+   "sanskrit": "Xōlōtl",
+   "category": "deity",
+   "era": "The Five Suns",
+   "role": "The dog-headed twin who guides the dead and pushed the sun",
+   "wikipedia": "Xolotl",
+   "portrait": "portraits/aztec/xolotl.webp",
+   "epithets": [
+    "The Twin",
+    "Lord of the Evening Star",
+    "The Dog"
+   ],
+   "domains": [
+    "the evening star",
+    "twins and deformity",
+    "the guidance of the dead",
+    "transformation"
+   ],
+   "symbols": [
+    "the dog's head",
+    "backward-turned feet",
+    "torn ears",
+    "the maguey and the axolotl"
+   ],
+   "mount": null,
+   "abode": "The west, and the road through Mictlan",
+   "festivals": [],
+   "worship": "",
+   "bio": "Quetzalcoatl's twin, who fled the sacrifice at Teotihuacan by turning into a maize plant, then a maguey, then a salamander.",
+   "longBio": "Xolotl is the twin and dark counterpart of Quetzalcoatl - where Quetzalcoatl is the morning star, Xolotl is the evening star that goes down into the underworld. He accompanies his brother into Mictlan for the bones. He is shown with a dog's head and feet turned backwards, and dogs were buried with the dead because he leads them across the river. His most human moment comes at Teotihuacan: when all the gods must die so the sun will move, Xolotl refuses and runs, turning first into a double maize plant, then into a double maguey, then into a salamander in the water - and is caught and killed in that last form, which is why the axolotl carries his name.",
+   "variantTraditions": "The axolotl of the Mexico lakes is named for him, and the animal's failure to metamorphose is a striking match for a god who kept changing form to avoid an ending.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "death-judge",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "ehecatl",
+   "name": "Ehecatl",
+   "sanskrit": "Ehēcatl",
+   "category": "deity",
+   "era": "The Five Suns",
+   "role": "The wind, as an aspect of the feathered serpent",
+   "wikipedia": "Ehecatl",
+   "portrait": "portraits/aztec/ehecatl.webp",
+   "epithets": [
+    "Ehecatl-Quetzalcoatl",
+    "The Wind That Sweeps the Road"
+   ],
+   "domains": [
+    "wind",
+    "the sweeping of the roads before rain",
+    "breath"
+   ],
+   "symbols": [
+    "the red duck-billed buccal mask",
+    "the conch-shell pectoral",
+    "the round temple"
+   ],
+   "mount": null,
+   "abode": "Round temples, open to the wind from any side",
+   "festivals": [],
+   "worship": "",
+   "bio": "Quetzalcoatl as wind, who sweeps the road ahead of the rain gods and whose temples are round so the wind can pass.",
+   "longBio": "Ehecatl is Quetzalcoatl in his wind aspect, and the two names are regularly compounded. He wears a red buccal mask shaped like a duck's bill, through which the wind is blown, and a cut conch shell as a pectoral - a spiral section that shows the wind's shape. His characteristic office is to sweep the roads clean ahead of Tlaloc's rains, so the wind that gets up before a storm is him working. His temples are the great architectural exception in Mesoamerica: round rather than the standard rectangular platform, so that the wind can pass around them without striking a corner. One survives at Calixtlahuaca, and another was uncovered under a Mexico City metro station.",
+   "variantTraditions": "The round-temple form is a reliable marker of Ehecatl worship across central Mexico and helps identify sites archaeologically.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "creator"
+   ]
+  },
+  {
+   "id": "tonatiuh",
+   "name": "Tonatiuh",
+   "sanskrit": "Tōnatiuh",
+   "category": "deity",
+   "era": "The Five Suns",
+   "role": "The fifth sun, who would not move until the gods died",
+   "wikipedia": "Tonatiuh",
+   "portrait": "portraits/aztec/tonatiuh.webp",
+   "epithets": [
+    "The Fifth Sun",
+    "Lord of the Eagles",
+    "He Who Goes Forth Shining"
+   ],
+   "domains": [
+    "the sun",
+    "the present age",
+    "the demand for blood",
+    "warriors"
+   ],
+   "symbols": [
+    "the solar disc with a protruding tongue",
+    "the eagle",
+    "the sun stone"
+   ],
+   "mount": null,
+   "abode": "The sky, from east to zenith",
+   "festivals": [],
+   "worship": "",
+   "bio": "Once risen he refused to move until every other god had been sacrificed, and he still requires feeding.",
+   "longBio": "Tonatiuh is the sun of the present age, and his first act sets the terms of the whole religion. Newly risen at Teotihuacan he stops at the horizon and will not move, demanding the blood and the rule of all the other gods; they refuse, then argue, then - because there is no world without a moving sun - submit, and Ehecatl cuts out the heart of every one of them. Only then does the sun begin its course. That is the debt human sacrifice repays. Warriors who die in battle and women who die in childbirth accompany him: the men escort him from dawn to noon and the women from noon to dusk, and after four years the men become hummingbirds. The face at the centre of the great Sun Stone is generally identified as his.",
+   "variantTraditions": "Whether the central face of the Sun Stone is Tonatiuh, Tlaltecuhtli or Yohualtecuhtli is disputed; the identification with Tonatiuh is traditional but not settled.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "war"
+   ]
+  },
+  {
+   "id": "nanahuatzin",
+   "name": "Nanahuatzin",
+   "sanskrit": "Nanāhuātzin",
+   "category": "deity",
+   "era": "The Five Suns",
+   "role": "The scabby little god who threw himself into the fire",
+   "wikipedia": "Nanahuatzin",
+   "portrait": "portraits/aztec/nanahuatzin.webp",
+   "epithets": [
+    "The Pimply One",
+    "The Poorest of the Gods"
+   ],
+   "domains": [
+    "humility",
+    "self-sacrifice",
+    "the courage of the least"
+   ],
+   "symbols": [
+    "sores and scabs",
+    "the bonfire",
+    "offerings of reeds and thorns"
+   ],
+   "mount": null,
+   "abode": "Teotihuacan, and then the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Poor, diseased and offering only reeds and his own blood, he jumped into the fire without hesitating and became the sun.",
+   "longBio": "At Teotihuacan the gods gather to decide who will become the new sun, and two step forward. Tecciztecatl is wealthy and offers gold, quetzal feathers, precious jade and coral, and thorns of gold. Nanahuatzin has nothing: he is covered in sores, and offers green reeds, balls of grass, maguey thorns and his own blood and scabs. A fire is built and burns for four days. Tecciztecatl goes first, four times, and each time the heat turns him back. Then Nanahuatzin, without pausing, walks straight into it and burns. Shamed, Tecciztecatl follows. The diseased god who owned nothing rises as the sun, and the rich one, second and following, becomes only the moon - and is struck with a rabbit to dim him.",
+   "variantTraditions": "The rabbit thrown in Tecciztecatl's face is the Mesoamerican explanation for the markings on the moon, where European tradition sees a man.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "tecciztecatl",
+   "name": "Tecciztecatl",
+   "sanskrit": "Tēcciztēcatl",
+   "category": "deity",
+   "era": "The Five Suns",
+   "role": "The rich god who hesitated and became the moon",
+   "wikipedia": "Tecciztecatl",
+   "portrait": "portraits/aztec/tecciztecatl.webp",
+   "epithets": [
+    "He of the Conch Shell",
+    "The Moon"
+   ],
+   "domains": [
+    "the moon",
+    "wealth",
+    "hesitation"
+   ],
+   "symbols": [
+    "the conch shell",
+    "the rabbit in the moon",
+    "white and silver"
+   ],
+   "mount": null,
+   "abode": "The night sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "He offered gold and jade and turned back from the fire four times; going second, he rose as dim as the sun's shadow.",
+   "longBio": "Tecciztecatl volunteers first for the fire, and everything about him is expensive: gold in place of reeds, quetzal plumes for grass, jade for thorns, coral for his blood. But four times he approaches the burning pyre and four times the heat turns him back, and it is only after Nanahuatzin has walked in without hesitating that he manages it. Both rise, and at first both are equally bright - two suns in the sky, which is intolerable - so one of the gods takes a rabbit and hurls it into Tecciztecatl's face, dimming him to the moon. The rabbit is still there, and Mesoamerican tradition sees a rabbit in the moon where Europe sees a face. It is one of the neatest moral fables in any of these traditions.",
+   "variantTraditions": "Some versions attribute the rabbit-throwing to a specific god and others leave it anonymous; the shell in his name links him to the moon's cycle.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "tlahuizcalpantecuhtli",
+   "name": "Tlahuizcalpantecuhtli",
+   "sanskrit": "Tlāhuizcalpantēuctli",
+   "category": "deity",
+   "era": "The Five Suns",
+   "role": "Lord of the House of Dawn; Venus as the morning star",
+   "wikipedia": "Tlahuizcalpantecuhtli",
+   "portrait": "portraits/aztec/tlahuizcalpantecuhtli.webp",
+   "epithets": [
+    "Lord of the Dawn",
+    "The Morning Star",
+    "Quetzalcoatl risen"
+   ],
+   "domains": [
+    "Venus",
+    "the dawn",
+    "the spear that strikes on unlucky days"
+   ],
+   "symbols": [
+    "the atlatl darts",
+    "the skeletal face",
+    "the Venus glyph"
+   ],
+   "mount": null,
+   "abode": "The eastern horizon before sunrise",
+   "festivals": [],
+   "worship": "",
+   "bio": "Quetzalcoatl reborn as the morning star, whose rays were held to be darts that struck people according to the day sign.",
+   "longBio": "When Quetzalcoatl burns himself on the eastern shore his heart rises as the morning star, and Tlahuizcalpantecuhtli is what he becomes. The Mexica tracked Venus with real precision - its 584-day cycle is worked out in the Dresden Codex and elsewhere - and its heliacal rising was regarded as dangerous rather than lovely. On its first appearance the god was believed to hurl darts, and which class of people got struck depended on the day sign it rose under: rulers on one, children on another, warriors on a third. Windows and doors were stopped up against the light. It is a good illustration of how completely the calendar and the sky governed the reading of ordinary risk.",
+   "variantTraditions": "The Venus tables in the Dresden Codex are Maya rather than Mexica, but the same 584-day reckoning and the same darting associations run across Mesoamerica.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "war",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "centeotl",
+   "name": "Centeotl",
+   "sanskrit": "Centēōtl",
+   "category": "deity",
+   "era": "Empire",
+   "role": "The maize god",
+   "wikipedia": "Centeotl",
+   "portrait": "portraits/aztec/centeotl.webp",
+   "epithets": [
+    "Maize Cob Lord",
+    "Son of Tlazolteotl"
+   ],
+   "domains": [
+    "maize",
+    "the harvest",
+    "sustenance"
+   ],
+   "symbols": [
+    "maize cobs in the headdress",
+    "the yellow face",
+    "the seed"
+   ],
+   "mount": null,
+   "abode": "The maize fields",
+   "festivals": [],
+   "worship": "",
+   "bio": "The maize itself, whose different growth stages are held by different deities across a single crop cycle.",
+   "longBio": "Centeotl is the maize as a god, and the Mexica divided the crop with a precision that says a great deal about what it meant to them: Xilonen is the young green ear, Chicomecoatl the ripe seed and the stored grain, Centeotl the mature plant, and Xipe Totec's flayed skin is the husk that splits so the shoot can come through. Maize is not just food here; the Popol Vuh has people made of maize dough, and the Mexica accounts have Quetzalcoatl steal the grain from inside a mountain in the form of an ant. Centeotl is generally the son of Tlazolteotl, the eater of filth, which is a straightforwardly agricultural observation about where growth comes from.",
+   "variantTraditions": "Centeotl's gender varies in the sources, appearing as both a male and a female maize deity, and the divisions between the maize deities are not applied consistently.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "chicomecoatl",
+   "name": "Chicomecoatl",
+   "sanskrit": "Chicōmecōātl",
+   "category": "deity",
+   "era": "Empire",
+   "role": "Seven Serpent; goddess of ripe maize and stored grain",
+   "wikipedia": "Chicomecōātl",
+   "portrait": "portraits/aztec/chicomecoatl.webp",
+   "epithets": [
+    "Seven Serpent",
+    "Our Lady of Sustenance",
+    "Xilonen when young"
+   ],
+   "domains": [
+    "ripe maize",
+    "the granary",
+    "sustenance",
+    "abundance"
+   ],
+   "symbols": [
+    "the double maize cobs held up",
+    "the square headdress",
+    "red face-paint"
+   ],
+   "mount": null,
+   "abode": "The granary and the field",
+   "festivals": [],
+   "worship": "",
+   "bio": "Goddess of the harvested grain, honoured every September with an ixiptla who was beheaded on a heap of seed.",
+   "longBio": "Chicomecoatl is the maize once it is ripe and gathered - the practical goddess of whether there will be enough to eat - and her name, Seven Serpent, is a calendar date. She is shown holding a double maize cob in each hand, wearing a large square paper headdress and painted red. Every September a girl was chosen to be her ixiptla, dressed in her attributes and treated as the goddess through the festival, then beheaded on a heap of seed corn, her blood collected and poured over an image of the goddess and her skin worn by a priest. Sahagun's informants describe the rite matter-of-factly. Households also kept a maize-cob figure of her, and seed for the next planting was blessed under her name.",
+   "variantTraditions": "The distinction between Chicomecoatl, Xilonen and Centeotl as stages of the same crop is a modern tidying; the sources overlap them freely.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "mayahuel",
+   "name": "Mayahuel",
+   "sanskrit": "Mayahuel",
+   "category": "deity",
+   "era": "Empire",
+   "role": "Goddess of the maguey and of pulque",
+   "wikipedia": "Mayahuel",
+   "portrait": "portraits/aztec/mayahuel.webp",
+   "epithets": [
+    "Woman of Four Hundred Breasts",
+    "The Maguey"
+   ],
+   "domains": [
+    "the maguey plant",
+    "pulque",
+    "fertility",
+    "intoxication"
+   ],
+   "symbols": [
+    "the maguey",
+    "four hundred breasts",
+    "the pulque bowl",
+    "the tortoise"
+   ],
+   "mount": null,
+   "abode": "The maguey fields",
+   "festivals": [],
+   "worship": "",
+   "bio": "Quetzalcoatl carried her down from the sky; her grandmother tore her apart, and the maguey grew from her buried body.",
+   "longBio": "Mayahuel is a young goddess kept in the sky by her grandmother, one of the tzitzimime - the star demons who will devour humanity if the sun fails. Quetzalcoatl persuades her to come down, and the two flee to earth as a forked tree. The grandmother wakes, gathers the tzitzimime, and finds them; the branch that is Mayahuel is torn apart and eaten, and Quetzalcoatl's branch is left. Weeping, he gathers her bones and buries them, and from the grave grows the maguey - the plant whose sap ferments into pulque, from whose fibres cloth and rope are made, whose thorns are used for ritual bloodletting and whose leaves roof houses. She has four hundred breasts because the plant feeds so many uses.",
+   "variantTraditions": "The four hundred pulque gods, the Centzon Totochtin, are described as her children; the number four hundred in Nahuatl usage means innumerable.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "tlazolteotl",
+   "name": "Tlazolteotl",
+   "sanskrit": "Tlazōlteōtl",
+   "category": "deity",
+   "era": "Empire",
+   "role": "Eater of Filth; goddess of vice, and of its confession",
+   "wikipedia": "Tlazolteotl",
+   "portrait": "portraits/aztec/tlazolteotl.webp",
+   "epithets": [
+    "Eater of Filth",
+    "Our Lady of the Cotton",
+    "Mother of the Maize God"
+   ],
+   "domains": [
+    "sexual licence and its cleansing",
+    "confession",
+    "childbirth",
+    "steam baths"
+   ],
+   "symbols": [
+    "black bitumen around the mouth",
+    "raw cotton in the headdress",
+    "the broom",
+    "the spindle"
+   ],
+   "mount": null,
+   "abode": "The steam bath, and the confessional",
+   "festivals": [],
+   "worship": "",
+   "bio": "She provokes vice and then consumes it: a person could confess to her once in a life, and be cleansed absolutely.",
+   "longBio": "Tlazolteotl both causes sexual misconduct and removes it, and the Nahua saw no contradiction in that - she is filth as a category, and what she does with filth is eat it. Her priests heard confession, and the arrangement was unusual and strict: a person could confess to her once in a lifetime, and the confession absolutely cleansed whatever was admitted, including offences the state would otherwise punish. Because it could only be done once, and because it wiped the slate legally as well as spiritually, people generally waited until old age. She is also a goddess of childbirth and of the steam bath used before and after it, and her image in the Codex Laud crouching in labour is among the most striking in Mesoamerican art.",
+   "variantTraditions": "The parallels drawn between her confession and the Catholic sacrament were noticed by the Spanish immediately; whether the friars' accounts shaped the description is a real question.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "earth-mother",
+    "healer"
+   ]
+  },
+  {
+   "id": "xochiquetzal",
+   "name": "Xochiquetzal",
+   "sanskrit": "Xōchiquetzal",
+   "category": "deity",
+   "era": "Empire",
+   "role": "Flower Feather; goddess of love, beauty and craft",
+   "wikipedia": "Xochiquetzal",
+   "portrait": "portraits/aztec/xochiquetzal.webp",
+   "epithets": [
+    "Precious Flower",
+    "Patroness of Weavers"
+   ],
+   "domains": [
+    "love",
+    "beauty",
+    "flowers",
+    "weaving and embroidery",
+    "pregnancy"
+   ],
+   "symbols": [
+    "two quetzal plumes",
+    "marigolds",
+    "the loom",
+    "butterflies and birds around her"
+   ],
+   "mount": null,
+   "abode": "Tamoanchan, the flowering paradise",
+   "festivals": [],
+   "worship": "",
+   "bio": "Goddess of pleasure and craft, whose picking of a forbidden flower in Tamoanchan ended the age of ease.",
+   "longBio": "Xochiquetzal is young, permanently beautiful, and surrounded by butterflies and birds. She is patron of weavers, embroiderers, silversmiths and painters, and of young mothers, prostitutes and lovers - a combination that would be incoherent in most traditions and is entirely natural here, since craft and pleasure are both making things well. In Tamoanchan, the flowering place, she picks or breaks the blossoms of the forbidden tree, and for that the gods are expelled and the age of ease ends. She is variously the wife of Tlaloc, carried off by Tezcatlipoca, or the consort of Xochipilli, her twin. Her festival involved dancing, the making of flower garlands, and confession of one's affairs.",
+   "variantTraditions": "The Tamoanchan tree-breaking has been compared with Eden since the sixteenth century; the comparison is old, obvious, and probably not evidence of anything.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "xochipilli",
+   "name": "Xochipilli",
+   "sanskrit": "Xōchipilli",
+   "category": "deity",
+   "era": "Empire",
+   "role": "Flower Prince; god of art, games, song and hallucinogens",
+   "wikipedia": "Xochipilli",
+   "portrait": "portraits/aztec/xochipilli.webp",
+   "epithets": [
+    "Flower Prince",
+    "Macuilxochitl, Five Flower"
+   ],
+   "domains": [
+    "song and dance",
+    "games and gambling",
+    "art",
+    "flowers, including psychoactive ones"
+   ],
+   "symbols": [
+    "flowers carved on the skin",
+    "the drum",
+    "the butterfly",
+    "the cross-legged pose"
+   ],
+   "mount": null,
+   "abode": "The flowering paradise",
+   "festivals": [],
+   "worship": "",
+   "bio": "Patron of song, games and beauty, whose famous statue is carved with identifiable hallucinogenic plants.",
+   "longBio": "Xochipilli is the male counterpart to Xochiquetzal, patron of everything done for its own delight: song, dance, poetry, painting, feasting, games and gambling. He punishes people who fail to observe fasts, generally with venereal disease or piles, which sits oddly beside the flowers and is very much in character for this pantheon. The celebrated Aztec statue of him in Mexico City shows him cross-legged on a plinth, head back, eyes open, in what is plainly ecstasy, and his body and the plinth are carved with stylised flowers that botanists have identified as morning glory, tobacco, sinicuichi, a mushroom cap and possibly others - all psychoactive. The statue is a portrait of a specific experience, carved by people who knew it.",
+   "variantTraditions": "The plant identifications on the statue were argued by R. Gordon Wasson and are widely but not universally accepted.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "xiuhtecuhtli",
+   "name": "Xiuhtecuhtli",
+   "sanskrit": "Xiuhtēuctli",
+   "category": "deity",
+   "era": "Primordial",
+   "role": "The old god of fire, at the centre of everything",
+   "wikipedia": "Xiuhtecuhtli",
+   "portrait": "portraits/aztec/xiuhtecuhtli.webp",
+   "epithets": [
+    "Huehueteotl, the Old God",
+    "Lord of the Turquoise",
+    "Lord of the Year"
+   ],
+   "domains": [
+    "fire",
+    "the hearth",
+    "the centre",
+    "the fifty-two year cycle"
+   ],
+   "symbols": [
+    "the brazier on the head",
+    "the turquoise mosaic",
+    "the fire serpent",
+    "an old man's face"
+   ],
+   "mount": null,
+   "abode": "The hearth, and the centre of the world",
+   "festivals": [
+    "The New Fire ceremony, every fifty-two years"
+   ],
+   "worship": "",
+   "bio": "The oldest attested god in Mesoamerica, whose New Fire ceremony every fifty-two years decided whether the world continued.",
+   "longBio": "Xiuhtecuhtli is fire and the hearth, and the Old God, Huehueteotl - a stooped, wrinkled figure with a brazier on his head who appears in central Mexican art many centuries before the Mexica, making him arguably the oldest continuously attested deity in the region. He occupies the centre, the fifth direction, where the four quarters meet. His greatest rite came every fifty-two years, when the solar and ritual calendars realigned: every fire in the empire was extinguished, all pottery was smashed, pregnant women were shut in granaries and children kept awake, and priests watched the Pleiades from a hilltop. If they crossed the zenith, a new fire was kindled in the chest cavity of a sacrificed captive and carried out to relight the world.",
+   "variantTraditions": "The New Fire ceremony is well documented for 1507; the world was genuinely understood to be at risk of not continuing, and the anxiety in the accounts is not literary.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "mixcoatl",
+   "name": "Mixcoatl",
+   "sanskrit": "Mixcōātl",
+   "category": "deity",
+   "era": "Migration",
+   "role": "Cloud Serpent; god of the hunt and of the Milky Way",
+   "wikipedia": "Mixcoatl",
+   "portrait": "portraits/aztec/mixcoatl.webp",
+   "epithets": [
+    "Cloud Serpent",
+    "Camaxtli",
+    "Lord of the Hunt"
+   ],
+   "domains": [
+    "hunting",
+    "the Milky Way",
+    "the north",
+    "war as a chase"
+   ],
+   "symbols": [
+    "the atlatl and darts",
+    "the red and white body stripes",
+    "the deer",
+    "the hunting net"
+   ],
+   "mount": null,
+   "abode": "The northern deserts",
+   "festivals": [],
+   "worship": "",
+   "bio": "The hunter god of the Chichimec north, father of Quetzalcoatl, and the Milky Way seen as a serpent of cloud.",
+   "longBio": "Mixcoatl is the god of the nomadic hunters of the north from whom the Mexica claimed descent, and he keeps that character: he is painted with red and white candy stripes, carries an atlatl and darts, and is associated with the deer hunt and with the Milky Way, which the Nahua saw as a serpent made of cloud. His festival involved a communal hunt on a hill, with the game taken then sacrificed. He is generally given as the father of Quetzalcoatl by the earth goddess Chimalman, and in Tlaxcala under the name Camaxtli he was the chief god. His four hundred sons, the Centzon Mimixcoa, are the stars of the northern sky, and he is sent by the sun to kill them for failing to do their work.",
+   "variantTraditions": "The identification of Mixcoatl with the Tlaxcalan Camaxtli and with the historical Toltec ruler of the same name compresses at least three figures.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "hero-champion",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "itzpapalotl",
+   "name": "Itzpapalotl",
+   "sanskrit": "Ītzpāpālōtl",
+   "category": "deity",
+   "era": "Primordial",
+   "role": "Obsidian Butterfly; queen of Tamoanchan",
+   "wikipedia": "Itzpapalotl",
+   "portrait": "portraits/aztec/itzpapalotl.webp",
+   "epithets": [
+    "Obsidian Butterfly",
+    "Clawed Butterfly",
+    "Queen of the Tzitzimime"
+   ],
+   "domains": [
+    "the star demons",
+    "sacrifice",
+    "the paradise of infant dead",
+    "obsidian blades"
+   ],
+   "symbols": [
+    "butterfly wings edged with obsidian knives",
+    "jaguar claws",
+    "the skeletal face"
+   ],
+   "mount": null,
+   "abode": "Tamoanchan",
+   "festivals": [],
+   "worship": "",
+   "bio": "A skeletal butterfly with knife-edged wings who rules the star demons and the paradise where dead infants wait.",
+   "longBio": "Itzpapalotl is a skeletal figure with the wings of a butterfly whose edges are set with obsidian blades, and jaguar claws for hands and feet. She rules Tamoanchan in the aspect where it is the paradise of infants who died at the breast, who wait there by a tree that drips milk until they can be born again. She is also queen of the tzitzimime, the star demons: female spirits associated with women who died in childbirth, who descend at eclipses and who, if the sun ever fails to rise after a fifty-two year cycle, will come down and devour humanity entirely. She is killed by Mixcoatl and burned, and from her ashes come flint knives of five colours, one of which he wraps and carries as a bundle.",
+   "variantTraditions": "Tzitzimime were demonised further after the conquest, and some of the more lurid modern descriptions owe as much to colonial polemic as to Nahua belief.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "primordial-adversary",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "yacatecuhtli",
+   "name": "Yacatecuhtli",
+   "sanskrit": "Yacatēuctli",
+   "category": "deity",
+   "era": "Empire",
+   "role": "Lord of the Vanguard; god of merchants",
+   "wikipedia": "Yacatecuhtli",
+   "portrait": "portraits/aztec/yacatecuhtli.webp",
+   "epithets": [
+    "He Who Goes Before",
+    "Lord of the Nose",
+    "Patron of the Pochteca"
+   ],
+   "domains": [
+    "long-distance trade",
+    "roads",
+    "the merchant caravan"
+   ],
+   "symbols": [
+    "the walking staff bundle",
+    "the fan",
+    "the load"
+   ],
+   "mount": null,
+   "abode": "The trade roads",
+   "festivals": [],
+   "worship": "",
+   "bio": "God of the pochteca, the long-distance merchants who were also the empire's spies.",
+   "longBio": "Yacatecuhtli is the god of the pochteca, the hereditary guild of long-distance merchants who travelled far beyond the empire's borders carrying obsidian, cloth and feathers, and who returned with cacao, jade, quetzal plumes - and intelligence. They were an odd and privileged caste: wealthy enough to be resented, obliged to enter the city at night and dress plainly to avoid displaying it, with their own courts and their own god. On the road they bundled their staffs together, sprinkled them with blood and treated the bundle as the god himself, praying before it each evening. Merchants who died travelling were said to go to the sun's heaven like warriors, which put the trade caravan on the same footing as the battlefield.",
+   "variantTraditions": "The pochteca's intelligence-gathering role is described plainly in the sources; a merchant killed abroad was a legitimate cause for war.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "topiltzin",
+   "name": "Topiltzin Quetzalcoatl",
+   "sanskrit": "Topiltzin",
+   "category": "hero",
+   "era": "Migration",
+   "role": "The priest-king of Tollan who left by sea",
+   "wikipedia": "Cē Ācatl Topiltzin",
+   "portrait": "portraits/aztec/topiltzin.webp",
+   "epithets": [
+    "One Reed",
+    "Our Prince",
+    "The Priest-King of Tollan"
+   ],
+   "domains": [
+    "priesthood",
+    "the refusal of human sacrifice",
+    "exile",
+    "the promised return"
+   ],
+   "symbols": [
+    "the conch shell",
+    "the raft of serpents",
+    "the turquoise mask"
+   ],
+   "mount": null,
+   "abode": "Tollan, and afterwards the eastern sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "A ruler who forbade human sacrifice, was disgraced by drink and shame, and sailed east promising to come back.",
+   "longBio": "Topiltzin Quetzalcoatl is a Toltec ruler of Tollan who takes his god's name and appears to have been a real person, whatever accreted afterwards. He is a priest-king of exceptional austerity who forbids human sacrifice and permits only butterflies and snakes on the altars. Tezcatlipoca destroys him with humiliation rather than force: appearing as an old man he persuades him to drink pulque, and drunk, Topiltzin sleeps with his own sister. Waking to what he has done he burns his palaces, buries his treasure, and goes east to the shore, where he either immolates himself - his heart rising as the morning star - or sails away on a raft of serpents, saying he will return in a year One Reed.",
+   "variantTraditions": "The story that Moctezuma mistook Cortes for the returning Quetzalcoatl is now widely regarded as a post-conquest construction, promoted by the Spanish and by later Nahua accounts for different reasons.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "moctezuma",
+   "name": "Moctezuma II",
+   "sanskrit": "Motēuczōma",
+   "category": "mortal",
+   "era": "Empire",
+   "role": "The last uncontested ruler of the Mexica",
+   "wikipedia": "Moctezuma II",
+   "portrait": "portraits/aztec/moctezuma.webp",
+   "epithets": [
+    "Motecuhzoma Xocoyotzin",
+    "The Younger",
+    "Tlatoani"
+   ],
+   "domains": [
+    "rulership",
+    "omens",
+    "the arrival of the Spanish"
+   ],
+   "symbols": [
+    "the turquoise diadem",
+    "the feather cloak",
+    "the comet"
+   ],
+   "mount": null,
+   "abode": "Tenochtitlan",
+   "festivals": [],
+   "worship": "",
+   "bio": "Ruler at the conquest, whose reign the sources fill retrospectively with omens, and who died a prisoner.",
+   "longBio": "Moctezuma II ruled a Mexica empire at its greatest extent, and everything written about him was written after it fell, which makes him one of the hardest figures in this pack to see. The Nahua accounts collected by Sahagun give eight omens preceding the Spanish arrival - a tongue of fire in the sky, temples burning of themselves, a bird with a mirror in its head - and present him as paralysed with dread. That framing served both the Spanish, who wanted a conquest foretold, and the surviving Nahua nobility, who had a defeat to explain. He received Cortes in the city, was taken hostage, and died in Spanish custody in 1520, either stoned by his own people or killed by his captors depending on whose account you read.",
+   "variantTraditions": "The omens, the identification of Cortes with Quetzalcoatl, and Moctezuma's supposed fatalism are all post-conquest material and are treated with considerable scepticism now.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "tzitzimime",
+   "name": "The Tzitzimime",
+   "sanskrit": "Tzitzimimeh",
+   "category": "beast",
+   "era": "Primordial",
+   "role": "The star demons who wait for the sun to fail",
+   "wikipedia": "Tzitzimitl",
+   "portrait": "portraits/aztec/tzitzimime.webp",
+   "epithets": [
+    "The Star Demons",
+    "Those Who Come Down"
+   ],
+   "domains": [
+    "eclipses",
+    "the end of a calendar round",
+    "the devouring of humanity"
+   ],
+   "symbols": [
+    "skeletal figures with clawed hands",
+    "descending head-first",
+    "star skirts"
+   ],
+   "mount": null,
+   "abode": "The sky, waiting",
+   "festivals": [],
+   "worship": "",
+   "bio": "Skeletal star spirits who descend at eclipses, and who will eat everyone if the sun ever fails to return.",
+   "longBio": "The tzitzimime are shown as skeletal female figures with clawed hands and feet, descending head-first from the sky. They are associated with the stars - which are visible during an eclipse, when the sun is defeated - and with the cihuateteo, women who died in childbirth and are counted as fallen warriors. Their function in the system is to be the consequence: if the New Fire fails to kindle at the end of a fifty-two year round, or if the sun is not fed and stops, they come down and devour every human being. This is why every fire in the empire was put out and every household waited in the dark, and why the anxiety around that ceremony was not ritual theatre. They are the reason the whole machinery exists.",
+   "variantTraditions": "Colonial writers assimilated the tzitzimime to devils, which coloured later descriptions; the Nahua conception is closer to a standing condition than to malice.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "fate-time"
+   ]
   }
  ],
  "links": []
