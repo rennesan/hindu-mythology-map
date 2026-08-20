@@ -1,0 +1,850 @@
+{
+ "title": "Chinese Mythology: Figures, Relationships and Story Cycles",
+ "description": "The Chinese pantheon mapped as a relationship graph: Pangu and the making of the world, Nuwa and the mending of the sky, the sage kings, the celestial bureaucracy of the Jade Emperor, the Eight Immortals and the Journey to the West.",
+ "generated": "2026-08-20",
+ "sources": [
+  "E. T. C. Werner, Myths and Legends of China (1922)",
+  "John C. Ferguson, Chinese Mythology, Mythology of All Races VIII (1928)",
+  "James Legge, The Shu King (1879) and The Writings of Chuang Tzu (1891)",
+  "Timothy Richard, A Mission to Heaven (1913), a condensation of Journey to the West",
+  "Herbert A. Giles, Strange Stories from a Chinese Studio (1880)",
+  "Encyclopaedia Britannica and Wikipedia for cross-checking dates, texts and layers"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/chinese/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "werner": {
+   "t": "Myths and Legends of China",
+   "tr": "E. T. C. Werner, 1922",
+   "u": "https://sacred-texts.com/cfu/mlc/index.htm"
+  },
+  "ferguson": {
+   "t": "Chinese Mythology (Mythology of All Races VIII)",
+   "tr": "John C. Ferguson, 1928",
+   "u": "https://archive.org/details/mythologyofallra08fergrich"
+  },
+  "shuking": {
+   "t": "The Shu King (Book of Documents)",
+   "tr": "James Legge, 1879",
+   "u": "https://sacred-texts.com/cfu/sbe03/index.htm"
+  },
+  "chuang": {
+   "t": "The Writings of Chuang Tzu",
+   "tr": "James Legge, 1891",
+   "u": "https://sacred-texts.com/tao/sbe39/index.htm"
+  },
+  "richard": {
+   "t": "A Mission to Heaven (Journey to the West)",
+   "tr": "Timothy Richard, 1913",
+   "u": "https://archive.org/details/missiontoheavena00wuch"
+  },
+  "giles": {
+   "t": "Strange Stories from a Chinese Studio",
+   "tr": "Herbert A. Giles, 1880",
+   "u": "https://archive.org/details/strangestoriesfr01puso"
+  }
+ },
+ "meta": {
+  "id": "chinese",
+  "label": "Chinese",
+  "sublabel": "Classical & Daoist",
+  "accent": "#c96a6a",
+  "root": "pangu"
+ },
+ "profile": {
+  "cosmicNature": "Cyclical and administrative. Pangu's body becomes the physical world, and thereafter time is measured in dynasties that rise and fall by the Mandate of Heaven, and in vast Buddhist-influenced kalpas. The world is not destroyed and remade in a single catastrophe; it is continually re-ordered, and disorder is a failure of administration rather than a war against chaos.",
+  "natureOfDivinity": "Bureaucratic and promotable. The celestial court mirrors the imperial one: gods hold ranks and offices, file reports, are appointed, promoted, censured and replaced. A mortal of exceptional merit can be enrolled as a god after death - Guan Yu, a Han general, ends up a major deity - and a god can be demoted for incompetence. This is the single most distinctive feature of the system.",
+  "afterlife": "Judicial and temporary. The dead pass through the ten courts of Diyu, where officials examine a record of their deeds, assign punishment in the appropriate department, and then return them to rebirth. It is processing rather than damnation: the sentence is served and the soul re-enters the cycle, and the whole apparatus is imagined as a very large and very thorough government office.",
+  "systemMechanism": "The Mandate of Heaven and the celestial bureaucracy. Heaven confers the right to rule on the virtuous and withdraws it from the corrupt, which makes rebellion legitimate once the mandate has visibly lapsed - floods, famines and portents are read as notice of withdrawal. Order is maintained by correct office-holding at every level, from the Jade Emperor down to the god of a single village's earth.",
+  "canonTexts": "The Shanhaijing (Classic of Mountains and Seas), the Huainanzi, the Chuci, the Shujing, the Daoist canon including the Zhuangzi, and the Ming vernacular novels Fengshen Yanyi and Journey to the West, which fixed much of the popular pantheon in the form it still has."
+ },
+ "hierarchy": [],
+ "groups": [],
+ "stories": [],
+ "entities": [
+  {
+   "id": "pangu",
+   "name": "Pangu",
+   "sanskrit": "盤古",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The first being, who separated heaven from earth",
+   "wikipedia": "Pangu",
+   "portrait": "portraits/chinese/pangu.webp",
+   "epithets": [
+    "The First Ancestor",
+    "He Who Held Apart the Sky"
+   ],
+   "domains": [
+    "the separation of heaven and earth",
+    "the body that became the world"
+   ],
+   "symbols": [
+    "the axe",
+    "the horned head",
+    "the cosmic egg"
+   ],
+   "mount": null,
+   "abode": "Inside the egg, then between earth and sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "He broke out of the cosmic egg and held heaven and earth apart for eighteen thousand years until he died and became the world.",
+   "longBio": "The universe begins as an egg of undifferentiated chaos in which Pangu sleeps for eighteen thousand years. He wakes, breaks out, and the light clear part rises to become heaven while the heavy turbid part sinks to become earth - the yin and yang separating. Fearing they will close again he stands between them, growing ten feet a day, pushing them apart for another eighteen thousand years until they are fixed. Then, exhausted, he dies, and his body becomes the world: his breath the wind and clouds, his voice thunder, his left eye the sun and right eye the moon, his limbs the mountains, his blood the rivers, his flesh the soil, his hair the stars, his sweat the rain, and the parasites on his body the human race.",
+   "variantTraditions": "Pangu is not attested before the third century CE, far later than the sage-king traditions, and may be a southern or borrowed story that was fitted to the front of an existing system.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "nuwa",
+   "name": "Nuwa",
+   "sanskrit": "女媧",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "Creator of humankind, who repaired the broken sky",
+   "wikipedia": "Nüwa",
+   "portrait": "portraits/chinese/nuwa.webp",
+   "epithets": [
+    "The Snake-Bodied",
+    "Repairer of Heaven",
+    "Mother of Humanity"
+   ],
+   "domains": [
+    "the making of people",
+    "marriage",
+    "the mending of the world"
+   ],
+   "symbols": [
+    "the serpent's lower body",
+    "the compass",
+    "the five coloured stones"
+   ],
+   "mount": null,
+   "abode": "The world she repaired",
+   "festivals": [],
+   "worship": "",
+   "bio": "She made people out of yellow clay and later melted stones of five colours to patch a hole in the sky.",
+   "longBio": "Nuwa has a woman's upper body and a serpent's or dragon's lower body. Finding the world empty she moulded people from yellow river clay, one at a time and carefully; growing tired, she dipped a cord in the mud and flicked it, and the spatters became people too - the tradition adds, uncomfortably, that the hand-made ones became the nobility and the flicked ones the common people. Her greater act comes later. When the water god Gonggong smashes his head against Mount Buzhou, the pillar of heaven, the sky cracks, fire and flood pour through and beasts devour the people. Nuwa smelts stones of five colours to patch the sky, cuts the legs off a giant turtle to prop up its four corners, kills the black dragon, and dams the flood with reed ash.",
+   "variantTraditions": "Nuwa is sometimes Fuxi's sister, sometimes his wife, and often both; Han dynasty tomb art shows the two with their serpent tails intertwined.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "fuxi",
+   "name": "Fuxi",
+   "sanskrit": "伏羲",
+   "category": "primordial",
+   "era": "Age of Sage Kings",
+   "role": "Giver of the trigrams, of writing, fishing and marriage",
+   "wikipedia": "Fuxi",
+   "portrait": "portraits/chinese/fuxi.webp",
+   "epithets": [
+    "The Ox-Tamer",
+    "First of the Three Sovereigns"
+   ],
+   "domains": [
+    "the eight trigrams",
+    "writing",
+    "fishing and hunting",
+    "the institution of marriage"
+   ],
+   "symbols": [
+    "the serpent's lower body",
+    "the eight trigrams",
+    "the fishing net"
+   ],
+   "mount": null,
+   "abode": "The Yellow River valley",
+   "festivals": [],
+   "worship": "",
+   "bio": "The culture hero who saw the trigrams on a dragon-horse's back and gave people writing, nets and marriage.",
+   "longBio": "Fuxi is the first of the Three Sovereigns and the archetypal culture hero. Watching a dragon-horse emerge from the Yellow River with markings on its back, he devises the eight trigrams - the ba gua, sets of three broken and unbroken lines that became the basis of the Yijing and of an entire tradition of divination and cosmology. He is credited with replacing knotted cords with written characters, with teaching people to fish with nets and to hunt with weapons, with domesticating animals, and with instituting marriage so that families rather than clans became the unit of society. With Nuwa, his sister or wife or both, he repopulates the world after a flood. Han tomb reliefs show the pair with intertwined serpent tails, he holding a carpenter's square and she a compass.",
+   "variantTraditions": "The Fuxi of the classics is a culture hero rather than a god, and his elevation to a divine Sovereign belongs to later systematising.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "wisdom-craft",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "gonggong",
+   "name": "Gonggong",
+   "sanskrit": "共工",
+   "category": "demon",
+   "era": "Primordial",
+   "role": "The water god who broke the pillar of heaven",
+   "wikipedia": "Gonggong",
+   "portrait": "portraits/chinese/gonggong.webp",
+   "epithets": [
+    "The Red-Haired",
+    "Wrecker of Mount Buzhou"
+   ],
+   "domains": [
+    "floods",
+    "rage",
+    "the tilting of the world"
+   ],
+   "symbols": [
+    "the serpent body",
+    "red hair",
+    "the broken mountain"
+   ],
+   "mount": null,
+   "abode": "The waters",
+   "festivals": [],
+   "worship": "",
+   "bio": "Defeated in a struggle for supremacy, he rammed the mountain that held up the sky and tilted the world.",
+   "longBio": "Gonggong is a water deity with a human head, red hair and a serpent's body, and he loses a fight - variously against Zhurong the fire god, against Zhuanxu, or against Yao's forces, depending on which text you read. In rage and shame he smashes his head into Mount Buzhou, the pillar supporting the northwest corner of the sky. The pillar breaks. The sky tilts down toward the northwest, which is why the sun, moon and stars move in that direction, and the earth tilts down toward the southeast, which is why all the rivers of China flow that way to the sea. This is one of the more satisfying pieces of aetiology in any mythology: a losing tantrum explains the entire observed geography and astronomy of a continent.",
+   "variantTraditions": "Whom Gonggong fought differs across the Huainanzi, the Liezi and later sources, and the flood he causes is sometimes merged with the flood Yu the Great later controls.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "zhurong",
+   "name": "Zhurong",
+   "sanskrit": "祝融",
+   "category": "deity",
+   "era": "Primordial",
+   "role": "God of fire",
+   "wikipedia": "Zhurong",
+   "portrait": "portraits/chinese/zhurong.webp",
+   "epithets": [
+    "Lord of Fire",
+    "The Southern Director"
+   ],
+   "domains": [
+    "fire",
+    "the south",
+    "summer",
+    "the punishment of rebellion"
+   ],
+   "symbols": [
+    "flame",
+    "the tiger mount",
+    "red"
+   ],
+   "mount": null,
+   "abode": "The south",
+   "festivals": [],
+   "worship": "",
+   "bio": "The fire god who defeated Gonggong, and in one account executed Gun for failing to stop the flood.",
+   "longBio": "Zhurong governs fire and the southern quarter, and Chinese cosmology's five-phase system makes that a real office rather than a metaphor: south, summer, red and fire are one set, and he directs it. His best-known act is defeating Gonggong in the struggle that ends with the pillar of heaven broken - so the fire god's victory is what tilts the world. In the flood narratives he appears again as the executioner sent to kill Gun, Yu the Great's father, for stealing heaven's self-expanding soil, and it is from Gun's opened body that Yu is born. He is credited in some texts with teaching the use of fire. The name also belongs to a hereditary office of fire-master in the historical record, which blurs god and official in a way that is characteristic of this material.",
+   "variantTraditions": "Zhurong is variously a god, an official title and an ancestor of southern clans; the Chuci and the Shanhaijing treat him differently.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "war"
+   ]
+  },
+  {
+   "id": "xihe",
+   "name": "Xihe",
+   "sanskrit": "羲和",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "Mother of the ten suns",
+   "wikipedia": "Xihe",
+   "portrait": "portraits/chinese/xihe.webp",
+   "epithets": [
+    "Driver of the Sun Chariot",
+    "Mother of the Suns"
+   ],
+   "domains": [
+    "the sun",
+    "the ordering of the day",
+    "the bathing of the suns"
+   ],
+   "symbols": [
+    "the six-dragon chariot",
+    "the mulberry tree Fusang",
+    "the pool of Ganyuan"
+   ],
+   "mount": null,
+   "abode": "Beyond the eastern sea, at the Fusang tree",
+   "festivals": [],
+   "worship": "",
+   "bio": "She bore ten suns, bathed them in the eastern pool, and drove one across the sky each day in turn.",
+   "longBio": "Xihe lives beyond the eastern sea where the giant mulberry Fusang grows, and she is the mother of ten suns, each a three-legged crow. The arrangement is orderly: she washes them in the pool of Ganyuan, and each day one climbs the mulberry and is carried across the sky in her chariot drawn by six dragons while the other nine wait in the branches. It works until the ten decide to come out together, and the earth begins to burn - which is the crisis Houyi is sent to solve. Her counterpart Changxi bears the twelve moons and performs the same office for them. In some readings Xihe is not a mother at all but an official title for the astronomers who regulated the calendar, and the Shujing uses the name that way.",
+   "variantTraditions": "The Shujing's Xi and He are court astronomers, not a goddess; whether the deity or the office came first is unresolved.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sun",
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "huangdi",
+   "name": "The Yellow Emperor",
+   "sanskrit": "黃帝",
+   "category": "sage",
+   "era": "Age of Sage Kings",
+   "role": "Founder of Chinese civilisation and patron of Daoism",
+   "wikipedia": "Yellow Emperor",
+   "portrait": "portraits/chinese/huangdi.webp",
+   "epithets": [
+    "Huangdi",
+    "The Yellow Thearch",
+    "Ancestor of the Hua-Xia"
+   ],
+   "domains": [
+    "government",
+    "medicine",
+    "the compass",
+    "warfare",
+    "the attainment of immortality"
+   ],
+   "symbols": [
+    "the south-pointing chariot",
+    "the yellow robe",
+    "the tripod cauldron"
+   ],
+   "mount": null,
+   "abode": "Mount Kunlun, and afterwards heaven",
+   "festivals": [],
+   "worship": "",
+   "bio": "The archetypal ruler: he defeated Chiyou, ordered the state, and rose to heaven on a dragon.",
+   "longBio": "The Yellow Emperor is where Chinese myth and Chinese history are deliberately spliced together. He defeats the metal-bodied Chiyou at Zhuolu, using a south-pointing chariot to find his way through the fog Chiyou raises, and unites the tribes of the Yellow River plain. To him are credited, variously, the calendar, the compass, boats, carts, coined money, the first medical text, the standardisation of writing, and the invention of silk by his wife Leizu. At the end he casts a great bronze tripod, and when it is finished a dragon comes down to fetch him and he ascends to heaven with his court, some seventy people, holding onto its whiskers. Daoists later claimed him as a founder, and the medical classic that bears his name is still consulted.",
+   "variantTraditions": "The Yellow Emperor was treated as literal history for most of Chinese tradition and given precise dates; modern scholarship treats him as legendary.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "king-ruler",
+    "wisdom-craft",
+    "healer",
+    "war"
+   ]
+  },
+  {
+   "id": "shennong",
+   "name": "Shennong",
+   "sanskrit": "神農",
+   "category": "sage",
+   "era": "Age of Sage Kings",
+   "role": "The Divine Farmer, who tasted every herb",
+   "wikipedia": "Shennong",
+   "portrait": "portraits/chinese/shennong.webp",
+   "epithets": [
+    "The Divine Husbandman",
+    "The Flame Emperor",
+    "Yandi"
+   ],
+   "domains": [
+    "agriculture",
+    "herbal medicine",
+    "the plough",
+    "markets"
+   ],
+   "symbols": [
+    "the ox head",
+    "the plough",
+    "the sheaf of grain",
+    "the transparent belly"
+   ],
+   "mount": null,
+   "abode": "The southern plains",
+   "festivals": [],
+   "worship": "",
+   "bio": "He invented the plough and tested hundreds of herbs on himself, and was finally killed by one of them.",
+   "longBio": "Shennong taught people to farm - the plough, the axe, irrigation, the preservation of seed, the calendar of planting - and to hold markets, which the tradition regards as an equally important invention. His other work was medical and personally hazardous: he tasted hundreds of plants to determine which cured, which poisoned and which did neither, and in the most vivid version he had a transparent abdomen so he could watch what each did as it passed through him. He is said to have poisoned himself seventy times in one day and cured himself each time with tea, and finally to have eaten a yellow flower with a lethal effect he could not counter, and died of it. The pharmacopoeia bearing his name remained the foundation of Chinese herbal medicine for two thousand years.",
+   "variantTraditions": "Shennong and Yandi the Flame Emperor are identified in some sources and distinguished in others; the merger appears to be later.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "healer",
+    "earth-mother",
+    "wisdom-craft",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "chiyou",
+   "name": "Chiyou",
+   "sanskrit": "蚩尤",
+   "category": "demon",
+   "era": "Age of Sage Kings",
+   "role": "The metal-headed rebel defeated at Zhuolu",
+   "wikipedia": "Chiyou",
+   "portrait": "portraits/chinese/chiyou.webp",
+   "epithets": [
+    "Lord of War",
+    "The Bronze-Headed",
+    "Ancestor of the Miao"
+   ],
+   "domains": [
+    "war",
+    "metal weapons",
+    "fog and storm"
+   ],
+   "symbols": [
+    "a bronze head with an iron forehead",
+    "horns",
+    "eighty-one brothers"
+   ],
+   "mount": null,
+   "abode": "Zhuolu, and afterwards the standards of armies",
+   "festivals": [],
+   "worship": "",
+   "bio": "A horned, metal-bodied war leader with eighty-one brothers, defeated by the Yellow Emperor and afterwards worshipped as a god of war.",
+   "longBio": "Chiyou has a bronze head and an iron forehead, horns, and eighty-one brothers each with the same, and he is credited with the invention of metal weapons - which is why he can fight the Yellow Emperor at all. At Zhuolu he raises a fog so thick the imperial army cannot move, and is defeated only when Huangdi builds the south-pointing chariot to navigate it, and with help variously from the drought spirit Nuba, the dragon Yinglong and a war drum made from the hide of a one-legged beast. Chiyou is executed, and his fetters thrown away become a maple wood that runs red. Then the characteristic turn: the Yellow Emperor has his image painted on banners to frighten enemies, and Chiyou becomes a god of war worshipped by later armies, including Han imperial ones.",
+   "variantTraditions": "Chiyou is claimed as an ancestor by the Miao and Hmong peoples, for whom the story reads very differently than in the Han imperial version.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "war",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "yao",
+   "name": "Yao",
+   "sanskrit": "堯",
+   "category": "sage",
+   "era": "Age of Sage Kings",
+   "role": "The model emperor who passed over his own son",
+   "wikipedia": "Emperor Yao",
+   "portrait": "portraits/chinese/yao.webp",
+   "epithets": [
+    "Tang Yao",
+    "The Sage Ruler"
+   ],
+   "domains": [
+    "just government",
+    "the calendar",
+    "the choosing of a successor by merit"
+   ],
+   "symbols": [
+    "the thatched roof",
+    "the simple robe",
+    "the calendar"
+   ],
+   "mount": null,
+   "abode": "Pingyang",
+   "festivals": [],
+   "worship": "",
+   "bio": "The exemplary ruler of Confucian tradition, who gave the throne to a commoner rather than his son.",
+   "longBio": "Yao is the standard against which every later Chinese ruler is measured, and the reason is a single decision. Having a son he considered unworthy, he searched the empire for a successor and settled on Shun, a commoner of exemplary filial piety who had endured a murderous father, a spiteful stepmother and a treacherous half-brother without resentment. Yao tested him for years, gave him his two daughters in marriage to observe his household, and finally handed him the empire. This abdication in favour of merit rather than blood became the founding Confucian argument that legitimacy rests on virtue - and the founding awkwardness for every hereditary dynasty afterwards. His reign is also when the ten suns rise together and Houyi is sent to shoot them, and when the great flood begins.",
+   "variantTraditions": "The Shujing presents Yao as history. The abdication tradition was already contested in antiquity, and other early texts hint at a less voluntary transfer.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "king-ruler",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "shun",
+   "name": "Shun",
+   "sanskrit": "舜",
+   "category": "sage",
+   "era": "Age of Sage Kings",
+   "role": "The commoner raised to the throne for his filial piety",
+   "wikipedia": "Emperor Shun",
+   "portrait": "portraits/chinese/shun.webp",
+   "epithets": [
+    "Yu Shun",
+    "The Filial"
+   ],
+   "domains": [
+    "filial piety",
+    "just government",
+    "music"
+   ],
+   "symbols": [
+    "the double-pupilled eyes",
+    "the plough",
+    "the zither"
+   ],
+   "mount": null,
+   "abode": "Puban",
+   "festivals": [],
+   "worship": "",
+   "bio": "Chosen by Yao for enduring a family that repeatedly tried to kill him without ceasing to honour them.",
+   "longBio": "Shun's father was blind and hostile, his stepmother malicious and his half-brother Xiang eager to inherit, and between them they tried to kill him more than once - sending him to repair a granary roof and setting it alight, sending him to dig a well and filling it in. He escaped both times, and continued to serve his father and treat his brother with courtesy, which is the entire point of the story: Confucian filial piety is not conditional on the parent deserving it. Yao heard of him, tested him, married his daughters to him, and gave him the empire. As emperor Shun organised the administration into departments, standardised weights and measures and the calendar, appointed Yu to control the flood, and in his turn passed the throne to Yu rather than to his own son.",
+   "variantTraditions": "The Mencius and the Shujing dwell on the family cruelty at length; later commentators found the willingness to keep honouring such a father genuinely difficult.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "king-ruler",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "yu",
+   "name": "Yu the Great",
+   "sanskrit": "大禹",
+   "category": "sage",
+   "era": "Age of Sage Kings",
+   "role": "Who controlled the flood by digging channels",
+   "wikipedia": "Yu the Great",
+   "portrait": "portraits/chinese/yu.webp",
+   "epithets": [
+    "Da Yu",
+    "The Flood Tamer",
+    "Founder of the Xia"
+   ],
+   "domains": [
+    "flood control",
+    "engineering",
+    "the division of the land into nine provinces",
+    "tireless labour"
+   ],
+   "symbols": [
+    "the mattock",
+    "the nine tripod cauldrons",
+    "the limping walk"
+   ],
+   "mount": null,
+   "abode": "The nine provinces he surveyed",
+   "festivals": [],
+   "worship": "",
+   "bio": "He worked thirteen years dredging channels to the sea, passing his own door three times without going in.",
+   "longBio": "Yu's father Gun tried to dam the great flood with stolen self-expanding soil from heaven, failed, and was executed; Yu was born from his opened body and inherited the task. He changed the method entirely - instead of damming he dredged, cutting channels to lead the water to the sea, which is both an engineering principle and a political one that Chinese writers have quoted at rulers ever since. He worked thirteen years, aided in some accounts by a yellow dragon and a black turtle, and passed the door of his own house three times without going in, once hearing his newborn son cry, because the work was not finished. He walked with a limp afterwards from the labour. He divided the land into nine provinces, cast nine bronze cauldrons to represent them, and founded the Xia dynasty.",
+   "variantTraditions": "The Xia's historicity is debated; Yu's flood-control narrative is the foundation text of Chinese hydraulic statecraft regardless of whether he existed.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "houyi",
+   "name": "Houyi",
+   "sanskrit": "后羿",
+   "category": "sage",
+   "era": "Age of Sage Kings",
+   "role": "The archer who shot down nine suns",
+   "wikipedia": "Houyi",
+   "portrait": "portraits/chinese/houyi.webp",
+   "epithets": [
+    "The Divine Archer",
+    "Lord Archer"
+   ],
+   "domains": [
+    "archery",
+    "the shooting of the suns",
+    "the elixir of immortality he lost"
+   ],
+   "symbols": [
+    "the red bow and white arrows",
+    "the nine crows",
+    "the elixir"
+   ],
+   "mount": null,
+   "abode": "Earth, after being expelled from heaven",
+   "festivals": [],
+   "worship": "",
+   "bio": "He shot nine of the ten suns out of the sky, was rewarded with an elixir of immortality, and lost it to his wife.",
+   "longBio": "When the ten suns come out together the crops burn, the rivers dry and the people begin to die, and Houyi is sent down with a red bow and white arrows. He shoots nine of them out of the sky - each falls as a three-legged crow - and leaves one, which is the sun we have. He also kills a series of monsters plaguing the land. The reward is complicated: in most versions heaven is angry that he killed the suns, who were the sun-god's children, and he and his wife Chang'e are made mortal and left on earth, so he seeks an elixir of immortality from the Queen Mother of the West and obtains a dose for two, or one to share. Chang'e takes it all and floats to the moon. His end is grim in most tellings - killed by a treacherous student with a club of peachwood.",
+   "variantTraditions": "Houyi the archer and Yi the later Xia usurper are conflated in some sources and separated in others; the elixir story has at least four incompatible motives for Chang'e.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "hero-champion",
+    "war"
+   ]
+  },
+  {
+   "id": "change",
+   "name": "Chang'e",
+   "sanskrit": "嫦娥",
+   "category": "immortal",
+   "era": "Age of Sage Kings",
+   "role": "The woman who flew to the moon",
+   "wikipedia": "Chang'e",
+   "portrait": "portraits/chinese/change.webp",
+   "epithets": [
+    "The Moon Goddess",
+    "Lady of the Cold Palace"
+   ],
+   "domains": [
+    "the moon",
+    "immortality taken alone",
+    "the mid-autumn festival"
+   ],
+   "symbols": [
+    "the moon",
+    "the jade rabbit",
+    "the elixir",
+    "the osmanthus tree"
+   ],
+   "mount": null,
+   "abode": "The Guang Han palace on the moon",
+   "festivals": [
+    "The Mid-Autumn Festival, on the fifteenth day of the eighth lunar month"
+   ],
+   "worship": "Honoured at the Mid-Autumn Festival with mooncakes, lanterns and offerings of fruit set out under the full moon.",
+   "bio": "She swallowed her husband's elixir of immortality and rose to the moon, where she lives with a rabbit and a woodcutter.",
+   "longBio": "Chang'e drinks the elixir Houyi obtained from the Queen Mother of the West, and the accounts cannot agree why: she was greedy; she was preventing a thief from taking it while Houyi was away; she was preventing Houyi from becoming an immortal tyrant; she took it by accident. She becomes weightless and rises, and stops at the moon rather than continuing to heaven - in the kindest version, so as to stay as near her husband as she can. There she lives in a cold palace with a jade rabbit that pounds the elixir of immortality in a mortar, and with Wu Gang, a man condemned to cut an osmanthus tree that heals itself with every stroke. Her festival is the Mid-Autumn, when families eat mooncakes and look at the full moon together, which gives the story a warmth its details do not.",
+   "variantTraditions": "The moral colouring of Chang'e swings completely between sources - thief, protector, or victim - and Werner's telling is notably harsher than the popular festival version.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "moon",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "jade-emperor",
+   "name": "The Jade Emperor",
+   "sanskrit": "玉皇大帝",
+   "category": "celestial",
+   "era": "Celestial Court",
+   "role": "Sovereign of the celestial bureaucracy",
+   "wikipedia": "Jade Emperor",
+   "portrait": "portraits/chinese/jade-emperor.webp",
+   "epithets": [
+    "Yu Huang",
+    "August Personage of Jade",
+    "Lord of the Heavens"
+   ],
+   "domains": [
+    "the government of heaven",
+    "the appointment and demotion of gods",
+    "cosmic order as administration"
+   ],
+   "symbols": [
+    "the flat-topped imperial crown with hanging beads",
+    "the jade tablet",
+    "the dragon throne"
+   ],
+   "mount": null,
+   "abode": "The Palace of Purple Tenuity in the highest heaven",
+   "festivals": [
+    "The Jade Emperor's birthday, ninth day of the first lunar month"
+   ],
+   "worship": "Central to Daoist and folk religion. Offerings of sugarcane and elaborate paper memorials are burned to him at New Year, and petitions to lesser gods are understood to pass up through his bureaucracy.",
+   "bio": "Emperor of heaven, who governs gods and men through a civil service exactly like the imperial one.",
+   "longBio": "The Jade Emperor sits at the top of a celestial administration modelled precisely on the Chinese state: ministries, ranks, reports, audits, promotions and demotions. Gods hold posts and can be reassigned; the kitchen god files an annual report on each household; the god of a locality has jurisdiction like a magistrate. He is not a creator - the world exists before him - and his authority is administrative rather than absolute. His most famous administrative failure is Sun Wukong, whom he tries to neutralise by giving him the meaningless post of Keeper of the Heavenly Horses, then a sinecure guarding the peach garden, both of which backfire spectacularly and require the Buddha to intervene. His birthday is celebrated on the ninth day of the first lunar month.",
+   "variantTraditions": "The Jade Emperor rises to supremacy relatively late, promoted during the Song dynasty with imperial backing, and displaced earlier high gods such as Shangdi and Taiyi.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "king-ruler",
+    "sky-thunder"
+   ]
+  },
+  {
+   "id": "xiwangmu",
+   "name": "The Queen Mother of the West",
+   "sanskrit": "西王母",
+   "category": "celestial",
+   "era": "Celestial Court",
+   "role": "Keeper of the peaches of immortality",
+   "wikipedia": "Queen Mother of the West",
+   "portrait": "portraits/chinese/xiwangmu.webp",
+   "epithets": [
+    "Xiwangmu",
+    "Golden Mother of the Jade Pool",
+    "Lady of Kunlun"
+   ],
+   "domains": [
+    "immortality",
+    "the peaches that ripen once in three thousand years",
+    "the granting of transcendence"
+   ],
+   "symbols": [
+    "the peach",
+    "the tiger's teeth and leopard's tail in her oldest form",
+    "the phoenix"
+   ],
+   "mount": null,
+   "abode": "Mount Kunlun, by the Jade Pool",
+   "festivals": [],
+   "worship": "A major Daoist deity, invoked for longevity. Her peach imagery is standard on birthday gifts for the elderly.",
+   "bio": "She keeps the orchard whose peaches confer immortality, and her transformation from monster to empress is the clearest case of a Chinese deity being rewritten.",
+   "longBio": "In the Shanhaijing, the earliest source, Xiwangmu has a human form with tiger's teeth and a leopard's tail, dishevelled hair and a jade headdress, and she presides over plague and punishment - a fearsome mountain power. Over the following centuries she is comprehensively rewritten into a beautiful and gracious empress of the immortals, keeper of an orchard on Kunlun whose peaches ripen once in three thousand years and confer immortality on whoever eats one. She grants the elixir to Houyi and receives King Mu of Zhou as a guest. In Journey to the West her peach banquet is the occasion of Sun Wukong's greatest outrage. The distance between the two versions is one of the most instructive things in Chinese religion: it shows a goddess being promoted.",
+   "variantTraditions": "The Shanhaijing Xiwangmu and the Daoist empress are effectively different beings; a second-century BCE popular movement in her name also swept several provinces.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother",
+    "healer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "leigong",
+   "name": "Leigong and Dianmu",
+   "sanskrit": "雷公電母",
+   "category": "deity",
+   "era": "Celestial Court",
+   "role": "The Duke of Thunder and the Mother of Lightning",
+   "wikipedia": "Leigong",
+   "portrait": "portraits/chinese/leigong.webp",
+   "epithets": [
+    "Duke of Thunder",
+    "Dianmu, Mother of Lightning"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "the punishment of secret crimes and undutiful children"
+   ],
+   "symbols": [
+    "the drum and mallet",
+    "the beaked face and bat wings",
+    "her two mirrors"
+   ],
+   "mount": null,
+   "abode": "The Ministry of Thunder",
+   "festivals": [],
+   "worship": "",
+   "bio": "A blue, winged, beaked god who beats thunder-drums, with his wife flashing mirrors to show him his target.",
+   "longBio": "Leigong has a blue body, wings, claws and a beaked face, and carries a mallet and a string of drums which he beats to make thunder. His wife Dianmu holds a mirror in each hand and flashes lightning to illuminate the target, because Leigong is understood to strike people and must be shown who. Their department punishes crimes that human justice has missed - secret murders, undutiful children, the adulteration of goods, the wasting of grain - which makes them the enforcement arm of a moral order that assumes most wrongdoing goes undetected. Being struck by lightning was accordingly read as evidence of concealed guilt. They belong to a Ministry of Thunder with a full staff including gods of wind, rain and clouds, which is the celestial bureaucracy working exactly as advertised.",
+   "variantTraditions": "Leigong appears in many local variants and folk stories, often as a figure who can be tricked or trapped by a clever farmer.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "longwang",
+   "name": "The Dragon Kings",
+   "sanskrit": "龍王",
+   "category": "dragon",
+   "era": "Celestial Court",
+   "role": "Four brothers who govern the seas and the rain",
+   "wikipedia": "Dragon King",
+   "portrait": "portraits/chinese/longwang.webp",
+   "epithets": [
+    "Ao Guang of the Eastern Sea",
+    "Lords of the Four Seas",
+    "Rain-Bringers"
+   ],
+   "domains": [
+    "rain",
+    "the seas",
+    "rivers and wells",
+    "the granting or withholding of water"
+   ],
+   "symbols": [
+    "the pearl",
+    "the storm cloud",
+    "the undersea palace"
+   ],
+   "mount": null,
+   "abode": "Crystal palaces beneath the four seas",
+   "festivals": [],
+   "worship": "Dragon king temples stood beside rivers and coasts everywhere. Rain processions and petitions were a normal part of village life in drought.",
+   "bio": "Dragon kings hold the rain as an office: they can be petitioned, and they can be reported for failing to deliver.",
+   "longBio": "The Dragon Kings are the clearest illustration of the bureaucratic principle. Four brothers rule the four seas, with lesser dragon kings in every river, lake and well, and their job is to deliver rain on the schedule the Jade Emperor's ministry sets. Villages petitioned them in drought; if petitioning failed, communities were quite prepared to carry the dragon king's statue out into the sun to let him feel the drought himself, or to lodge a formal complaint. One famous story has a dragon king executed for altering the amount of rain in his orders by a few drops. Ao Guang of the Eastern Sea appears in Journey to the West, bullied out of the iron pillar that becomes Sun Wukong's staff, and in the Nezha story, where his son is killed and skinned.",
+   "variantTraditions": "The Dragon Kings owe a good deal to the Buddhist naga kings imported with Indian texts, layered onto older indigenous water deities.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sea-waters",
+    "serpent-dragon"
+   ]
+  },
+  {
+   "id": "yanwang",
+   "name": "Yanluo Wang",
+   "sanskrit": "閻羅王",
+   "category": "celestial",
+   "era": "Celestial Court",
+   "role": "Judge of the dead and lord of the first court of hell",
+   "wikipedia": "King Yama",
+   "portrait": "portraits/chinese/yanwang.webp",
+   "epithets": [
+    "King Yama",
+    "Lord of the Fifth Court",
+    "Judge of the Underworld"
+   ],
+   "domains": [
+    "judgment of the dead",
+    "the register of lifespans",
+    "the assignment of rebirth"
+   ],
+   "symbols": [
+    "the ledger",
+    "the black judge's cap",
+    "the mirror of retribution"
+   ],
+   "mount": null,
+   "abode": "Diyu, the courts beneath the earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "He examines the record of each life, assigns punishment by department, and sends the soul back to be reborn.",
+   "longBio": "Yanluo Wang is a Chinese official who happens to run hell. Diyu is organised as ten courts, each under a king, each handling particular offences with a specialised department, and souls are processed through them in sequence - examined against a written record of their deeds, sentenced, punished for a fixed term, and then sent to the Wheel of Rebirth. It is not eternal and it is not arbitrary; it is a legal system with paperwork, and stories abound of clerical errors, of the wrong person summoned by a mistake in the register and sent back, and of bribes attempted. Yanluo derives from the Indian Yama, imported with Buddhism, and was fitted into an existing Chinese apparatus of underworld administration.",
+   "variantTraditions": "The ten-court scheme is a medieval Chinese elaboration; the Indian Yama who lies behind Yanluo is a rather different figure, as the Hindu pack shows.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "death-judge"
+   ]
+  },
+  {
+   "id": "zaoshen",
+   "name": "The Kitchen God",
+   "sanskrit": "灶神",
+   "category": "deity",
+   "era": "Celestial Court",
+   "role": "Who watches the household and reports annually",
+   "wikipedia": "Kitchen God",
+   "portrait": "portraits/chinese/zaoshen.webp",
+   "epithets": [
+    "Zao Jun",
+    "Lord of the Stove",
+    "The Household Inspector"
+   ],
+   "domains": [
+    "the hearth",
+    "the surveillance of the family",
+    "the annual report to heaven"
+   ],
+   "symbols": [
+    "the paper image above the stove",
+    "sticky malt sugar",
+    "the New Year fire"
+   ],
+   "mount": null,
+   "abode": "Above the stove, in every kitchen",
+   "festivals": [
+    "The send-off of the Kitchen God, around the twenty-third day of the twelfth lunar month"
+   ],
+   "worship": "Among the most universally observed domestic rites in China: nearly every household kept an image and performed the annual send-off.",
+   "bio": "His paper image watches the family all year, then goes up in smoke to report on them at New Year.",
+   "longBio": "The Kitchen God's image is pasted above the stove, and he observes everything the household says and does. Shortly before the lunar New Year he ascends to report to the Jade Emperor, and the family's fortunes for the coming year depend on what he says. The response is beautifully pragmatic: they smear his mouth with malt sugar or honey so that his lips stick together and he can only say sweet things, then burn the image so he rises with the smoke, and paste up a fresh one when he returns. His origin story is that of a man who abandoned his wife, fell into poverty, and unknowingly begged at her door; recognising her, he threw himself into the hearth in shame, and she made him a god of it.",
+   "variantTraditions": "Local versions of his origin differ widely, and the sugaring of the mouth is attested across most of China with regional variations in the sweet used.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "fate-time"
+   ]
+  }
+ ],
+ "links": []
+}
