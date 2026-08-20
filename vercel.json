@@ -34,6 +34,10 @@
    "destination": "/hindu/index.html"
   },
   {
+   "source": "/greek/:path*",
+   "destination": "/greek/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }

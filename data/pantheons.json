@@ -18,8 +18,13 @@
    "label": "Greek",
    "sublabel": "Hellenic",
    "accent": "#7fb3d5",
-   "status": "planned",
-   "blurb": "Chaos and the primordials, the Titans, the Olympian order, and the heroes of the Trojan and Theban cycles."
+   "status": "live",
+   "cover": "portraits/greek/athena.webp",
+   "blurb": "Chaos and the primordials, the Titans, the Olympian order, and the heroes of the Trojan and Theban cycles.",
+   "figures": 103,
+   "stories": 49,
+   "links": 248,
+   "levels": 6
   },
   {
    "id": "egyptian",
