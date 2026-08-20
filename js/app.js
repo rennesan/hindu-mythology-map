@@ -243,7 +243,6 @@ function resetForPantheon() {
   buildLegend();
   buildFilters();
   buildStories();
-  buildAbout();
   GraphLens.build();
   Lenses.reset();
   Hierarchy.build();
@@ -461,7 +460,9 @@ function wireChrome() {
   $("#theme-toggle").setAttribute("aria-pressed",
     document.documentElement.getAttribute("data-theme") === "light" ? "true" : "false");
 
-  $("#about-btn").addEventListener("click", () => $("#about-dialog").showModal());
+  $("#about-btn").addEventListener("click", openAbout);
+  const hubAbout = $("#hub-about-btn");
+  if (hubAbout) hubAbout.addEventListener("click", openAbout);
   $("#about-close").addEventListener("click", () => $("#about-dialog").close());
   $("#lightbox-close").addEventListener("click", () => $("#lightbox").close());
   $("#lightbox").addEventListener("click", ev => {
@@ -1136,6 +1137,66 @@ function wireTray() {
 }
 
 /* ---------------- about ---------------- */
+
+/* Which About to show depends on where the reader is, and it is decided at
+   the moment of opening. Building it eagerly when a pack loaded is what left
+   the portal showing the last tradition visited. */
+function openAbout() {
+  if (document.body.classList.contains("on-hub") || !APP.data) {
+    buildHubAbout();
+  } else {
+    buildAbout();
+  }
+  $("#about-dialog").showModal();
+}
+
+/* The site-level About, for the portal. Counts come from the manifest, so they
+   stay true as traditions are added without anyone editing prose. */
+function buildHubAbout() {
+  const all = APP.manifest || [];
+  const live = all.filter(p => p.status === "live");
+  const planned = all.filter(p => p.status === "planned");
+  const held = all.filter(p => p.status === "review");
+  const sum = k => live.reduce((n, p) => n + (p[k] || 0), 0);
+
+  const row = p =>
+    '<li><b>' + esc(p.label) + "</b> " +
+    '<span class="idx-muted">' + esc(p.sublabel || "") + "</span> &mdash; " +
+    (p.figures || 0) + " figures, " + (p.stories || 0) + " stories " +
+    '<a href="/' + esc(p.id) + '/map">open</a></li>';
+
+  $("#about-content").innerHTML =
+    "<h2 id='about-title'>World Mythologies</h2>" +
+    "<p>Interactive relationship maps of the world's mythologies. Every tradition is " +
+    "a fixed dataset of figures, the typed relationships between them, and the story " +
+    "cycles they appear in &mdash; each one traced to a published primary text. " +
+    "Nothing on this site is generated at read time.</p>" +
+    '<div class="about-stats">' +
+      '<div class="stat"><b>' + live.length + "</b><span>Traditions</span></div>" +
+      '<div class="stat"><b>' + sum("figures") + "</b><span>Figures</span></div>" +
+      '<div class="stat"><b>' + sum("links") + "</b><span>Relationships</span></div>" +
+      '<div class="stat"><b>' + sum("stories") + "</b><span>Stories</span></div>" +
+    "</div>" +
+    "<h3>Traditions mapped</h3><ul>" + live.map(row).join("") + "</ul>" +
+    (planned.length
+      ? "<h3>In preparation</h3><p>" +
+        planned.map(p => esc(p.label)).join(", ") + ".</p>" : "") +
+    (held.length
+      ? "<h3>Held back</h3><p>" +
+        held.map(p => esc(p.label) + " &mdash; " + esc(p.blurb || "")).join(" ") + "</p>" : "") +
+    "<h3>How each tradition is built</h3>" +
+    "<p>Figures are included when there is enough attested material to say something " +
+    "about them, which is why the packs differ in size: padding a thin tradition out " +
+    "to match a rich one would mean inventing. Where the sources disagree, both " +
+    "readings are kept rather than reconciled, and where a story was composed after " +
+    "the fact to serve someone's interest, the entry says so.</p>" +
+    "<h3>Private collections</h3>" +
+    "<p>Some collections are private. They are encrypted in the browser and cannot be " +
+    "read without the passphrase, which is never transmitted. An unlock word reveals " +
+    "that a collection exists; an account and passphrase are needed to open it.</p>" +
+    "<p>Open any tradition to see its own sources, primary texts and dataset notes. " +
+    "Built by Quiddity Innovations.</p>";
+}
 
 function buildAbout() {
   const d = APP.data;
