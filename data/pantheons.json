@@ -11,7 +11,8 @@
    "figures": 117,
    "stories": 44,
    "links": 226,
-   "levels": 6
+   "levels": 6,
+   "glyph": "ॐ"
   },
   {
    "id": "greek",
@@ -24,7 +25,8 @@
    "figures": 103,
    "stories": 49,
    "links": 248,
-   "levels": 6
+   "levels": 6,
+   "glyph": "Ω"
   },
   {
    "id": "egyptian",
@@ -37,7 +39,8 @@
    "stories": 30,
    "links": 145,
    "levels": 6,
-   "cover": "portraits/egyptian/ra.webp"
+   "cover": "portraits/egyptian/ra.webp",
+   "glyph": "☥"
   },
   {
    "id": "norse",
@@ -50,7 +53,8 @@
    "stories": 32,
    "links": 131,
    "levels": 6,
-   "cover": "portraits/norse/odin.webp"
+   "cover": "portraits/norse/odin.webp",
+   "glyph": "ᚦ"
   },
   {
    "id": "mesopotamian",
@@ -58,7 +62,8 @@
    "sublabel": "Sumerian, Akkadian & Babylonian",
    "accent": "#b98a5e",
    "status": "planned",
-   "blurb": "The oldest written mythology: Enuma Elish, the Anunnaki, Inanna's descent, and the epic of Gilgamesh."
+   "blurb": "The oldest written mythology: Enuma Elish, the Anunnaki, Inanna's descent, and the epic of Gilgamesh.",
+   "glyph": "✴"
   },
   {
    "id": "chinese",
@@ -71,7 +76,8 @@
    "stories": 26,
    "links": 101,
    "levels": 6,
-   "cover": "portraits/chinese/nuwa.webp"
+   "cover": "portraits/chinese/nuwa.webp",
+   "glyph": "☯"
   },
   {
    "id": "aztec",
@@ -84,7 +90,8 @@
    "stories": 16,
    "links": 75,
    "levels": 6,
-   "cover": "portraits/aztec/quetzalcoatl.webp"
+   "cover": "portraits/aztec/quetzalcoatl.webp",
+   "glyph": "☉"
   },
   {
    "id": "japanese",
@@ -97,7 +104,8 @@
    "stories": 23,
    "links": 81,
    "levels": 6,
-   "cover": "portraits/japanese/amaterasu.webp"
+   "cover": "portraits/japanese/amaterasu.webp",
+   "glyph": "⛩"
   },
   {
    "id": "celtic",
@@ -105,7 +113,8 @@
    "sublabel": "Irish & Welsh",
    "accent": "#8fbf9f",
    "status": "planned",
-   "blurb": "The Tuatha De Danann and the Fomorians, the Ulster and Fenian cycles, and the four branches of the Mabinogi."
+   "blurb": "The Tuatha De Danann and the Fomorians, the Ulster and Fenian cycles, and the four branches of the Mabinogi.",
+   "glyph": "⚘"
   },
   {
    "id": "roman",
@@ -113,7 +122,8 @@
    "sublabel": "Italic & Imperial",
    "accent": "#c9a227",
    "status": "planned",
-   "blurb": "The numina and the Capitoline triad, the state cult that bound them to Rome, and the founding legends of the city."
+   "blurb": "The numina and the Capitoline triad, the state cult that bound them to Rome, and the founding legends of the city.",
+   "glyph": "⚡"
   },
   {
    "id": "maya",

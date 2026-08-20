@@ -231,6 +231,8 @@ function resetForPantheon() {
   const meta = APP.data.meta || { label: APP.pid, sublabel: "" };
   $("#brand-title").textContent = meta.label + " Mythology";
   $("#brand-sub").textContent = "A Relationship Map";
+  const listed = (APP.manifest || []).find(p => p.id === APP.pid) || {};
+  setBrandMark(meta.glyph || listed.glyph, meta.accent || listed.accent);
   document.title = meta.label + " Mythology - Relationship Map";
   $$(".tab[data-view]").forEach(t => {
     const v = t.dataset.view;
@@ -327,6 +329,7 @@ function handleRoute() {
 function resetBrand() {
   $("#brand-title").textContent = "Mythologies of the World";
   $("#brand-sub").textContent = "Relationship Maps";
+  setBrandMark(null, null);
   document.title = "World Mythologies - Relationship Maps";
 }
 
@@ -353,6 +356,22 @@ function goTo(path) {
   return pushUrl(path);
 }
 function figureHash(id) { return "/" + APP.pid + "/figure/" + id; }
+
+/* Each tradition marks itself with its own sign in its own colour. The
+   fallback is the neutral star the portal ships with, so a pack that has no
+   glyph yet degrades to that rather than to the previous tradition's. */
+const NEUTRAL_GLYPH = "\u2726";
+
+function setBrandMark(glyph, accent) {
+  const el = $("#brand-glyph");
+  if (!el) return;
+  el.textContent = glyph || NEUTRAL_GLYPH;
+  if (accent) {
+    el.style.setProperty("--brand-glyph-color", accent);
+  } else {
+    el.style.removeProperty("--brand-glyph-color");
+  }
+}
 
 /* ---------------- landing ---------------- */
 

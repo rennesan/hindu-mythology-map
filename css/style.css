@@ -157,7 +157,11 @@ button { font-family: inherit; color: inherit; }
 .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
 .brand-glyph {
   font-size: 30px;
-  color: var(--gold);
+  /* runes, ankh and shrine glyphs are outside the text fonts; name the symbol
+     faces explicitly so a tradition's mark does not fall back to a box */
+  font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols",
+               "Apple Symbols", var(--serif), sans-serif;
+  color: var(--brand-glyph-color, var(--gold));
   line-height: 1;
   text-shadow: 0 0 18px var(--node-halo);
 }
@@ -1732,8 +1736,27 @@ body.is-expanded #view-map {
   .vault-card { padding: 30px 20px 24px; }
 }
 
-/* the portal shows no pantheon-scoped chrome */
+/* the portal shows no menu at all - the hero carries the title instead, so
+   the brand block goes too. Only the theme toggle stays, because that is a
+   reader preference rather than navigation. */
 body.on-hub .tabs,
 body.on-hub .search,
-body.on-hub .tray-btn { display: none; }
-body.on-hub .topbar { justify-content: space-between; }
+body.on-hub .tray-btn,
+body.on-hub .brand { display: none; }
+body.on-hub .topbar {
+  justify-content: flex-end;
+  background: transparent;
+  border-bottom: 0;
+  box-shadow: none;
+}
+
+/* the way back to the portal, present in every tradition */
+.tab-home {
+  margin-right: 6px;
+  border-right: 1px solid var(--gold-line);
+  padding-right: 14px;
+  white-space: nowrap;
+}
+@media (max-width: 700px) {
+  .tab-home { border-right: 0; padding-right: 8px; }
+}
