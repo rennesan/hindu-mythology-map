@@ -1408,6 +1408,506 @@
     "war",
     "hero-champion"
    ]
+  },
+  {
+   "id": "guandi",
+   "name": "Guan Yu",
+   "sanskrit": "關羽",
+   "category": "deity",
+   "era": "Later Legend",
+   "role": "A Han general promoted to god of war and of loyalty",
+   "wikipedia": "Guan Yu",
+   "portrait": "portraits/chinese/guandi.webp",
+   "epithets": [
+    "Guandi",
+    "Lord Guan",
+    "The God of War",
+    "Saintly Emperor Guan"
+   ],
+   "domains": [
+    "loyalty",
+    "righteousness",
+    "war",
+    "commerce and sworn brotherhood"
+   ],
+   "symbols": [
+    "the green dragon crescent blade",
+    "the red face",
+    "the long beard",
+    "the Red Hare horse"
+   ],
+   "mount": null,
+   "abode": "Temples in every Chinese community on earth",
+   "festivals": [
+    "Guandi's birthday, twenty-fourth day of the sixth lunar month"
+   ],
+   "worship": "Temples worldwide. Sworn brotherhoods, merchants, soldiers, police and triads all invoke him, each for the loyalty rather than the violence.",
+   "bio": "A real third-century general whose reputation for loyalty raised him, over a thousand years, to one of the greatest gods in China.",
+   "longBio": "Guan Yu was an actual general of the Three Kingdoms period who died in 220 CE, and his afterlife is the clearest possible demonstration of how the Chinese pantheon works. His reputation for absolute loyalty to his sworn brother Liu Bei - he refuses enormous inducements to change sides, and returns to a losing cause - made him first a local ghost, then a Buddhist protector, then a Daoist deity, then a Ming emperor's official god of war, and finally an object of imperial sacrifice on a level with Confucius. Merchants worship him for the same quality applied to contracts; so, notoriously, do police and criminal societies alike, both prizing loyalty. A mortal did not become a god by ascending. He was promoted, repeatedly, by decree.",
+   "variantTraditions": "Guan Yu's canonisation is documented in imperial edicts across several dynasties, which makes him unusually traceable: the paperwork of a deification survives.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "king-ruler",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "mazu",
+   "name": "Mazu",
+   "sanskrit": "媽祖",
+   "category": "deity",
+   "era": "Later Legend",
+   "role": "Goddess of the sea and protector of sailors",
+   "wikipedia": "Mazu",
+   "portrait": "portraits/chinese/mazu.webp",
+   "epithets": [
+    "Tianhou, Empress of Heaven",
+    "Lin Moniang",
+    "The Silent Girl"
+   ],
+   "domains": [
+    "the sea",
+    "the protection of fishermen and sailors",
+    "storms"
+   ],
+   "symbols": [
+    "the red lamp",
+    "the imperial court robes",
+    "the flat-topped crown"
+   ],
+   "mount": null,
+   "abode": "Meizhou Island, and every port",
+   "festivals": [
+    "Mazu's birthday, twenty-third day of the third lunar month"
+   ],
+   "worship": "Thousands of temples across the Chinese-speaking world. Her Meizhou pilgrimage and the Dajia procession in Taiwan draw enormous crowds.",
+   "bio": "A Fujianese fisherman's daughter who died young saving sailors, and became the sea goddess of the whole Chinese diaspora.",
+   "longBio": "Mazu was Lin Moniang, born on Meizhou Island in the tenth century, a girl who did not cry as an infant - hence her nickname, the silent girl - and who learned to swim, to predict weather and to rescue people from the sea. She died young, in most accounts while going out to save her father and brother in a storm. Fishermen began to report her appearing in storms as a light or a girl in red guiding them home, and her cult spread along the coast, out to Taiwan, and with emigrants to Southeast Asia and beyond, with successive dynasties elevating her title until she was Empress of Heaven. Her temples are the anchor institutions of overseas Chinese communities, and her procession is among the largest religious gatherings in the world.",
+   "variantTraditions": "Mazu's historicity is reasonably secure in outline; the accretion of miracle accounts and imperial titles is exceptionally well documented.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "healer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "caishen",
+   "name": "Caishen",
+   "sanskrit": "財神",
+   "category": "deity",
+   "era": "Later Legend",
+   "role": "God of wealth",
+   "wikipedia": "Caishen",
+   "portrait": "portraits/chinese/caishen.webp",
+   "epithets": [
+    "The God of Wealth",
+    "Zhao Gongming"
+   ],
+   "domains": [
+    "wealth",
+    "commerce",
+    "the New Year's fortune"
+   ],
+   "symbols": [
+    "the gold ingot",
+    "the black tiger",
+    "the iron whip",
+    "the treasure bowl"
+   ],
+   "mount": null,
+   "abode": "The Ministry of Wealth",
+   "festivals": [
+    "Welcoming the God of Wealth, fifth day of the first lunar month"
+   ],
+   "worship": "",
+   "bio": "Welcomed into every shop and household at New Year, and identified with several different historical or legendary men.",
+   "longBio": "Caishen is less a single figure than an office, and at least four candidates hold it depending on region and period - most commonly Zhao Gongming, a Fengshen Yanyi general who rides a black tiger and carries an iron whip, but also Bi Gan, a minister whose heart was cut out by a tyrant and who is therefore said to be perfectly impartial having no heart to be partial with. He is welcomed on the fifth day of the New Year with firecrackers and offerings, and his image hangs in shops. Some accounts split the office into civil and martial gods of wealth. His prominence says something plain about the religion: prosperity is a legitimate thing to petition heaven for, and nobody in the tradition finds that awkward.",
+   "variantTraditions": "The identification of Caishen varies so widely by region that any single biography is local rather than canonical.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "zhongkui",
+   "name": "Zhong Kui",
+   "sanskrit": "鍾馗",
+   "category": "deity",
+   "era": "Later Legend",
+   "role": "The ugly scholar who became the queller of demons",
+   "wikipedia": "Zhong Kui",
+   "portrait": "portraits/chinese/zhongkui.webp",
+   "epithets": [
+    "The Demon Queller",
+    "The Ghost Catcher"
+   ],
+   "domains": [
+    "the expulsion of demons",
+    "examinations",
+    "protection of the household"
+   ],
+   "symbols": [
+    "the sword",
+    "the official's cap and robe",
+    "the fierce bearded face",
+    "the bat"
+   ],
+   "mount": null,
+   "abode": "The gates and doorways of houses",
+   "festivals": [],
+   "worship": "Images pasted at doorways at New Year and during the Dragon Boat Festival. Popular with examination candidates, for obvious reasons.",
+   "bio": "He took first place in the imperial examination, was denied it for his ugliness, killed himself, and was made king of ghosts.",
+   "longBio": "Zhong Kui passed the imperial examination at the top of the list, and the emperor - or the court - stripped him of the honour on account of his extreme ugliness. He killed himself on the palace steps. The emperor, appalled, had him buried with the honours of a high official, and in gratitude Zhong Kui's ghost undertook to hunt down and destroy demons. The tradition says the emperor Xuanzong later saw him in a fever dream catching a small demon that had been stealing from the palace, and on waking commissioned a painting of him from the court artist Wu Daozi. That painting established the image: a huge bearded man in official robes with a drawn sword. His picture is pasted on doors at New Year to keep evil out.",
+   "variantTraditions": "The Xuanzong dream story is the standard origin and is itself Tang or later; the character may derive from an older ritual object or a pun on a demon-expelling mallet.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "primordial-adversary",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "tudigong",
+   "name": "Tudigong",
+   "sanskrit": "土地公",
+   "category": "deity",
+   "era": "Later Legend",
+   "role": "The earth god of one small place",
+   "wikipedia": "Tudigong",
+   "portrait": "portraits/chinese/tudigong.webp",
+   "epithets": [
+    "Lord of the Soil",
+    "The Local Earth God",
+    "Grandfather Earth"
+   ],
+   "domains": [
+    "a single village, field or street",
+    "local fortune",
+    "the reporting of local affairs upward"
+   ],
+   "symbols": [
+    "the white beard",
+    "the staff",
+    "the small roadside shrine"
+   ],
+   "mount": null,
+   "abode": "A small shrine at the edge of the village or field",
+   "festivals": [],
+   "worship": "The most numerous shrines in China. Offerings on the first and fifteenth of each lunar month, and at planting and harvest.",
+   "bio": "The lowest-ranking god in the celestial civil service, with jurisdiction over one village and a duty to report upward.",
+   "longBio": "Tudigong is the bottom of the bureaucracy and by far its most present member. Every village, every field, sometimes every street has one, housed in a small shrine that may be no more than a niche of bricks, and he is depicted as a kindly old man with a white beard and a staff. His jurisdiction is tiny and his duties are exactly those of a local magistrate: he keeps order in his patch, receives petitions about immediate matters - a lost animal, a sick child, a boundary dispute - and reports what happens to his superiors. The dead are notified to him. He has no cosmic role whatever, which is the point: the system reaches all the way down, and the god you actually deal with is a neighbour with a small office.",
+   "variantTraditions": "Tudigong shrines vary enormously in form, and in some regions his wife Tudipo is included, in others deliberately not.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "yuelao",
+   "name": "Yue Lao",
+   "sanskrit": "月老",
+   "category": "deity",
+   "era": "Later Legend",
+   "role": "The old man under the moon, who ties the red thread",
+   "wikipedia": "Yue Lao",
+   "portrait": "portraits/chinese/yuelao.webp",
+   "epithets": [
+    "The Old Man Under the Moon",
+    "The Matchmaker"
+   ],
+   "domains": [
+    "marriage",
+    "predestined couples",
+    "the red thread of fate"
+   ],
+   "symbols": [
+    "the red cord",
+    "the book of marriages",
+    "the moonlight"
+   ],
+   "mount": null,
+   "abode": "Under the moon, wherever couples are fated",
+   "festivals": [],
+   "worship": "Shrines to Yue Lao within larger temples attract unmarried people leaving petitions; red cords are bought and tied as offerings.",
+   "bio": "He binds the ankles of destined couples with an invisible red cord that cannot be broken however far apart they live.",
+   "longBio": "Yue Lao sits under the moon reading a book of marriages and ties an invisible red cord around the ankles of two people who are fated to marry, and the tradition is firm that the cord may stretch and tangle but cannot break - the couple will marry regardless of distance, family opposition, wealth or their own preferences. The classic story has a young man meet him, ask about his own future wife, and be shown a poor three-year-old girl in a market; disgusted, he hires someone to stab her. Fourteen years later he marries a beautiful young woman who wears an ornament on her forehead, and asks why: it covers a scar from a knife, from when she was three. The image of the red thread is now common across East Asia.",
+   "variantTraditions": "The story appears in the ninth-century collection Xu Youguai Lu; the red thread motif spread to Japan and Korea and is now often assumed to be older than it is.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "zhinu",
+   "name": "The Weaver Girl and the Cowherd",
+   "sanskrit": "織女牛郎",
+   "category": "immortal",
+   "era": "Later Legend",
+   "role": "Lovers separated by the Milky Way, allowed one night a year",
+   "wikipedia": "Qixi Festival",
+   "portrait": "portraits/chinese/zhinu.webp",
+   "epithets": [
+    "Zhinu, the Weaver Girl",
+    "Niulang, the Cowherd",
+    "Vega and Altair"
+   ],
+   "domains": [
+    "love across a boundary",
+    "weaving",
+    "the seventh night of the seventh month"
+   ],
+   "symbols": [
+    "the loom",
+    "the ox",
+    "the bridge of magpies",
+    "the river of stars"
+   ],
+   "mount": null,
+   "abode": "Opposite banks of the Milky Way",
+   "festivals": [
+    "Qixi, the seventh night of the seventh lunar month"
+   ],
+   "worship": "",
+   "bio": "A celestial weaver married a mortal herdsman; the Milky Way was drawn between them, and magpies bridge it once a year.",
+   "longBio": "Zhinu, a weaver of the clouds and a granddaughter of the Jade Emperor, comes down to bathe and the cowherd Niulang, advised by his ox, takes her clothes so she must stay. They marry and have two children. When heaven notices, she is taken back, and when Niulang pursues her - carrying the children in baskets, wearing the hide of his ox, who has died so that he can - the Queen Mother draws a hairpin across the sky and a river of stars appears between them. They stand on opposite banks. Once a year, on the seventh night of the seventh month, all the magpies in the world fly up and make a bridge with their wings, and the two cross to meet. Rain that night is said to be their tears.",
+   "variantTraditions": "The stars are Vega and Altair, genuinely separated by the Milky Way; the story is attested from the Han dynasty and has parallel versions in Japan, Korea and Vietnam.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "love-desire",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "qilin",
+   "name": "The Qilin",
+   "sanskrit": "麒麟",
+   "category": "beast",
+   "era": "Age of Sage Kings",
+   "role": "The gentle beast that appears when a sage is born",
+   "wikipedia": "Qilin",
+   "portrait": "portraits/chinese/qilin.webp",
+   "epithets": [
+    "The Chinese Unicorn",
+    "Bringer of Sons",
+    "The Benevolent Beast"
+   ],
+   "domains": [
+    "benevolence",
+    "the announcement of a sage",
+    "good government"
+   ],
+   "symbols": [
+    "a single horn",
+    "scales",
+    "hooves that crush no grass",
+    "flame at the shoulders"
+   ],
+   "mount": null,
+   "abode": "Wherever a just ruler governs",
+   "festivals": [],
+   "worship": "",
+   "bio": "It walks without bending the grass, appears at the birth or death of a sage, and will not harm anything living.",
+   "longBio": "The qilin has the body of a deer or horse, ox's hooves, scales, and a single fleshy horn, and its defining quality is that it will not tread on a living blade of grass or eat living vegetation. It appears only in the reign of a benevolent ruler or at the birth of a sage - one is said to have appeared to Confucius' mother before his birth, and the capture and killing of a qilin late in his life is recorded in the Spring and Autumn Annals, where Confucius is said to have wept and stopped writing. Its appearance is therefore a political statement as much as a wonder. In the fifteenth century Zheng He's fleet brought a giraffe back from Africa and presented it at court as a qilin.",
+   "variantTraditions": "The giraffe presentation of 1414 is historical, and the Korean and Japanese words for giraffe still derive from qilin.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "fenghuang",
+   "name": "The Fenghuang",
+   "sanskrit": "鳳凰",
+   "category": "beast",
+   "era": "Age of Sage Kings",
+   "role": "The bird of the south, wrongly called the Chinese phoenix",
+   "wikipedia": "Fenghuang",
+   "portrait": "portraits/chinese/fenghuang.webp",
+   "epithets": [
+    "The Vermilion Bird",
+    "Empress of Birds"
+   ],
+   "domains": [
+    "peace",
+    "the empress",
+    "the south",
+    "harmony of the five colours"
+   ],
+   "symbols": [
+    "five-coloured plumage",
+    "the paulownia tree",
+    "bamboo seed"
+   ],
+   "mount": null,
+   "abode": "The Kunlun mountains, and the paulownia tree",
+   "festivals": [],
+   "worship": "",
+   "bio": "It appears in times of peace, eats only bamboo seed, and is paired with the dragon as empress to emperor.",
+   "longBio": "The fenghuang is a composite bird - a pheasant's head, a swallow's beak, a tortoise's back, a fish's tail - with plumage of the five colours that correspond to the five virtues. It appears only in periods of peace and good government, nests only in the paulownia, drinks only from sweet springs and eats only bamboo seed. Paired with the dragon it stands for the empress against the emperor, and the two together are the standard motif for a marriage. It is habitually called the Chinese phoenix in English, which is misleading: it does not burn, does not die and does not rise from ashes, and its association with fire and rebirth is imported from a Mediterranean bird it has nothing to do with.",
+   "variantTraditions": "Originally feng was male and huang female, two birds; the compound became one bird and then a feminine symbol, which is a fairly drastic sex change of its own.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "sixiang",
+   "name": "The Four Symbols",
+   "sanskrit": "四象",
+   "category": "beast",
+   "era": "Primordial",
+   "role": "Azure Dragon, White Tiger, Vermilion Bird and Black Tortoise",
+   "wikipedia": "Four Symbols",
+   "portrait": "portraits/chinese/sixiang.webp",
+   "epithets": [
+    "Qinglong of the East",
+    "Baihu of the West",
+    "Zhuque of the South",
+    "Xuanwu of the North"
+   ],
+   "domains": [
+    "the four quarters",
+    "the seasons",
+    "the twenty-eight lunar mansions",
+    "orientation"
+   ],
+   "symbols": [
+    "the four creatures on tomb walls, banners and city gates"
+   ],
+   "mount": null,
+   "abode": "The four quarters of the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Four creatures governing the four directions, seasons and elements, and dividing the night sky between them.",
+   "longBio": "The Four Symbols are the primary organising scheme of Chinese cosmology and astronomy: the Azure Dragon holds the east, spring and wood; the Vermilion Bird the south, summer and fire; the White Tiger the west, autumn and metal; the Black Tortoise, entwined with a snake, the north, winter and water. The twenty-eight lunar mansions are divided seven to each. They appear on tomb walls to orient the dead, on city gates, on military banners and in the layout of capitals and graves, and they govern feng shui siting. Unlike most figures in this pack they are not really characters and have almost no stories; they are a coordinate system that happens to be alive.",
+   "variantTraditions": "The Yellow Dragon of the centre is sometimes added as a fifth, matching the five-phase scheme rather than the four directions.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "nian",
+   "name": "The Nian",
+   "sanskrit": "年獸",
+   "category": "demon",
+   "era": "Later Legend",
+   "role": "The beast that comes at the turn of the year",
+   "wikipedia": "Nian",
+   "portrait": "portraits/chinese/nian.webp",
+   "epithets": [
+    "The Year Beast"
+   ],
+   "domains": [
+    "the new year",
+    "the eating of livestock and children",
+    "fear of red, fire and noise"
+   ],
+   "symbols": [
+    "red paper",
+    "firecrackers",
+    "the lion-like head"
+   ],
+   "mount": null,
+   "abode": "The mountains, or under the sea, until the year turns",
+   "festivals": [
+    "Chinese New Year, whose red decorations and firecrackers are said to descend from driving it off"
+   ],
+   "worship": "",
+   "bio": "A beast that emerged once a year to devour villagers, and was driven off by red, noise and fire - which is why New Year looks the way it does.",
+   "longBio": "The nian lives hidden and comes out at the turn of the year to eat livestock, crops and people, particularly children. Villagers learned - from an old beggar in most versions - that it fears three things: the colour red, loud noise, and fire. So they paste red couplets on their doors, hang red lanterns, set off firecrackers and stay up through the night with the lights burning. That is a complete account of Chinese New Year decoration presented as a monster-defence procedure, and the word nian now simply means year. The story is a good example of a folk aetiology attached to a much older set of practices, explaining an existing festival rather than causing it.",
+   "variantTraditions": "The nian story is not attested in early sources and appears to be relatively modern, retrofitted to explain New Year customs of considerable antiquity.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "taotie",
+   "name": "The Taotie",
+   "sanskrit": "饕餮",
+   "category": "demon",
+   "era": "Primordial",
+   "role": "The glutton mask on the bronzes",
+   "wikipedia": "Taotie",
+   "portrait": "portraits/chinese/taotie.webp",
+   "epithets": [
+    "The Glutton",
+    "One of the Four Fiends"
+   ],
+   "domains": [
+    "gluttony",
+    "greed",
+    "the warning against excess"
+   ],
+   "symbols": [
+    "a face with huge eyes and no lower jaw",
+    "bronze ritual vessels"
+   ],
+   "mount": null,
+   "abode": "The surface of every Shang and Zhou bronze",
+   "festivals": [],
+   "worship": "",
+   "bio": "A devouring face without a lower jaw, carved on ritual bronzes, later explained as a warning against greed.",
+   "longBio": "The taotie motif - a frontal animal face with enormous eyes, horns, and conspicuously no lower jaw - covers Shang and Zhou ritual bronzes, and it is one of the most recognisable images in Chinese art. The interpretation came much later than the object. Zhou and Han writers explained it as the taotie, a monster of gluttony that ate so much it consumed its own body and was left with only a head, and said it was placed on food vessels precisely as a warning against greed. Modern scholars are sceptical that the Shang bronzeworkers meant anything of the kind, and the original significance of the mask is genuinely unknown. It is a rare case of a myth demonstrably invented to explain an artefact nobody could read any more.",
+   "variantTraditions": "The name taotie is applied to the motif by Song antiquarians and later; whether the Shang had any such concept is unknown and probably unknowable.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "baigujing",
+   "name": "The White Bone Demon",
+   "sanskrit": "白骨精",
+   "category": "demon",
+   "era": "Later Legend",
+   "role": "The skeleton spirit who fooled the pilgrim three times",
+   "wikipedia": "White Bone Demon",
+   "portrait": "portraits/chinese/baigujing.webp",
+   "epithets": [
+    "Baigujing",
+    "The Lady of the White Bones"
+   ],
+   "domains": [
+    "disguise",
+    "the eating of holy flesh",
+    "the exploitation of compassion"
+   ],
+   "symbols": [
+    "a pile of bones",
+    "three human disguises"
+   ],
+   "mount": null,
+   "abode": "The mountains on the road west",
+   "festivals": [],
+   "worship": "",
+   "bio": "She took three human forms to reach Tang Sanzang, and each time Sun Wukong killed her he was punished for it.",
+   "longBio": "The White Bone Demon wants to eat Tang Sanzang's flesh for the immortality it confers, and knows she cannot take him by force. So she appears three times in succession - as a young woman bringing food, then as an old woman searching for her missing daughter, then as an old man searching for both - and each time Sun Wukong sees through the disguise with his fiery eyes and kills her, and each time the corpse reverts to a human body and Tang Sanzang, seeing only murder, punishes him with the headband chant. After the third he expels Wukong from the pilgrimage altogether. It is the sharpest statement of the novel's central problem: the monk's compassion is genuine, and it is precisely what the demon uses.",
+   "variantTraditions": "The episode is among the most famous in the novel and is a staple of Chinese opera and film, usually played with more sympathy for Wukong than the text strictly gives.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "messenger-trickster"
+   ]
   }
  ],
  "links": []
