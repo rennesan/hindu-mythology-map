@@ -1,16 +1,41 @@
 {
-  "headers": [
+ "headers": [
+  {
+   "source": "/portraits/(.*)",
+   "headers": [
     {
-      "source": "/portraits/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
-      ]
-    },
-    {
-      "source": "/js/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400" }
-      ]
+     "key": "Cache-Control",
+     "value": "public, max-age=31536000, immutable"
     }
-  ]
+   ]
+  },
+  {
+   "source": "/js/(.*)",
+   "headers": [
+    {
+     "key": "Cache-Control",
+     "value": "public, max-age=86400"
+    }
+   ]
+  },
+  {
+   "source": "/data/(.*)",
+   "headers": [
+    {
+     "key": "Cache-Control",
+     "value": "public, max-age=3600"
+    }
+   ]
+  }
+ ],
+ "rewrites": [
+  {
+   "source": "/hindu/:path*",
+   "destination": "/hindu/index.html"
+  },
+  {
+   "source": "/(.*)",
+   "destination": "/index.html"
+  }
+ ]
 }

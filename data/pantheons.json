@@ -5,10 +5,85 @@
    "label": "Hindu",
    "sublabel": "Vedic & Puranic",
    "accent": "#d4af6a",
+   "status": "live",
    "cover": "portraits/hindu/vishnu.webp",
+   "blurb": "117 figures of the Vedic and Puranic tradition, from the formless Brahman to the heroes of the two epics.",
    "figures": 117,
    "stories": 44,
-   "blurb": "117 figures of the Vedic and Puranic tradition, from the formless Brahman to the heroes of the two epics."
+   "links": 226,
+   "levels": 6
+  },
+  {
+   "id": "greek",
+   "label": "Greek",
+   "sublabel": "Hellenic",
+   "accent": "#7fb3d5",
+   "status": "planned",
+   "blurb": "Chaos and the primordials, the Titans, the Olympian order, and the heroes of the Trojan and Theban cycles."
+  },
+  {
+   "id": "roman",
+   "label": "Roman",
+   "sublabel": "Italic & Imperial",
+   "accent": "#c9a227",
+   "status": "planned",
+   "blurb": "The numina and the Capitoline triad, the state cult that bound them to Rome, and the founding legends of the city."
+  },
+  {
+   "id": "norse",
+   "label": "Norse",
+   "sublabel": "Old Norse & Germanic",
+   "accent": "#8fa8b8",
+   "status": "planned",
+   "blurb": "Ymir and the giants, the Aesir and Vanir, Yggdrasil and the nine worlds, and the long road to Ragnarok."
+  },
+  {
+   "id": "egyptian",
+   "label": "Egyptian",
+   "sublabel": "Ancient Egyptian",
+   "accent": "#c8a25a",
+   "status": "planned",
+   "blurb": "The Ennead and the Ogdoad, the Osiris cycle, the solar barque, and the weighing of the heart."
+  },
+  {
+   "id": "japanese",
+   "label": "Japanese",
+   "sublabel": "Shinto & folklore",
+   "accent": "#d98383",
+   "status": "planned",
+   "blurb": "The kami of the Kojiki and Nihon Shoki, Amaterasu and the imperial line, and the yokai of later folklore."
+  },
+  {
+   "id": "mesopotamian",
+   "label": "Mesopotamian",
+   "sublabel": "Sumerian, Akkadian & Babylonian",
+   "accent": "#b98a5e",
+   "status": "planned",
+   "blurb": "The oldest written mythology: Enuma Elish, the Anunnaki, Inanna's descent, and the epic of Gilgamesh."
+  },
+  {
+   "id": "celtic",
+   "label": "Celtic",
+   "sublabel": "Irish & Welsh",
+   "accent": "#8fbf9f",
+   "status": "planned",
+   "blurb": "The Tuatha De Danann and the Fomorians, the Ulster and Fenian cycles, and the four branches of the Mabinogi."
+  },
+  {
+   "id": "arabian",
+   "label": "Arabian",
+   "sublabel": "Pre-Islamic Arabian",
+   "accent": "#cbb08a",
+   "status": "planned",
+   "blurb": "The gods of pre-Islamic Arabia: the South Arabian and Nabataean pantheons, the deities of the Kaaba, and the lore of the jinn."
+  },
+  {
+   "id": "hopi",
+   "label": "Hopi",
+   "sublabel": "Held for consultation",
+   "accent": "#c98f6a",
+   "status": "review",
+   "blurb": "Not published. Hopi religious knowledge is living and restricted, and the usual public-domain sources are contested by the Tribe. Needs a different approach and, properly, tribal consultation."
   }
  ]
 }

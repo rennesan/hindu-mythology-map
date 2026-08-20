@@ -6,10 +6,10 @@
 
 /* Fetch and cache every pack without changing the active pantheon. */
 function loadAllPacks() {
-  return Promise.all(APP.manifest.map(p =>
+  return Promise.all(APP.manifest.filter(p => p.status === "live").map(p =>
     APP.packs[p.id]
       ? Promise.resolve(APP.packs[p.id])
-      : fetch("data/" + p.id + "/dataset.json").then(r => r.json())
+      : fetch("/data/" + p.id + "/dataset.json").then(r => r.json())
           .then(d => { APP.packs[p.id] = d; return d; })
           .catch(() => null)
   )).then(list => list.filter(Boolean));
@@ -107,8 +107,8 @@ const Compare = (function () {
         const hits = p.entities.filter(e => (e.archetypes || []).includes(a.key));
         if (!hits.length) return "<td class='is-empty'>-</td>";
         return "<td>" + hits.map(e =>
-          '<a class="cast-chip" href="#/' + esc(p.meta.id) + '/figure/' + esc(e.id) + '">' +
-          '<img src="' + esc(e.portrait) + '" alt="" loading="lazy" decoding="async" width="26" height="26">' +
+          '<a class="cast-chip" href="/' + esc(p.meta.id) + '/figure/' + esc(e.id) + '">' +
+          '<img src="' + esc(portraitPath(e)) + '" alt="" loading="lazy" decoding="async" width="26" height="26">' +
           "<span>" + esc(shortName(e)) + "</span></a>").join("") + "</td>";
       }).join("") + "</tr>").join("") + "</tbody>";
 

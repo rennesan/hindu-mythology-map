@@ -1530,3 +1530,129 @@ body.is-expanded #view-map {
   .chart-stage { overflow: visible; }
   .chart-svg { max-width: 100%; }
 }
+
+/* ---------------- landing hub (CypherMiner-style layout, museum theme) ---- */
+.hero {
+  background: var(--bg-raised);
+  border: 1px solid var(--hairline);
+  border-radius: 22px;
+  padding: 54px 32px 46px;
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 40px;
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-strong);
+  background: var(--chip-bg);
+  border: 1px solid var(--gold-line);
+  border-radius: 999px;
+  padding: 7px 18px;
+}
+.hero-title {
+  font-family: var(--serif);
+  font-size: clamp(42px, 7vw, 76px);
+  font-weight: 700;
+  line-height: 1.04;
+  color: var(--ink-strong);
+  margin-top: 22px;
+}
+.hero-tagline {
+  font-family: var(--serif);
+  font-size: clamp(19px, 2.4vw, 25px);
+  color: var(--gold-strong);
+  margin-top: 12px;
+}
+.hero-sub {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--ink-muted);
+  max-width: 64ch;
+  margin: 14px auto 0;
+}
+.hero-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+.cta-primary, .cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  border-radius: 999px;
+  font-size: 14.5px;
+  font-weight: 600;
+  padding: 12px 26px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.cta-primary { background: var(--gold); color: #17130a; }
+.cta-primary:hover { background: var(--gold-strong); }
+.cta-secondary { border-color: var(--border); color: var(--ink); background: var(--bg-raised-2); }
+.cta-secondary:hover { border-color: var(--gold-line); color: var(--gold-strong); }
+.browse-h {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 34px 0 14px;
+}
+.ways-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(216px, 1fr));
+  gap: 14px;
+}
+.way-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 18px 16px;
+  text-decoration: none;
+  display: block;
+  box-shadow: var(--shadow-soft);
+}
+.way-card:hover { border-color: var(--gold-line); }
+.way-glyph {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 40px;
+  border-radius: 11px;
+  background: var(--chip-bg);
+  border: 1px solid var(--gold-line);
+  color: var(--gold-strong);
+  font-size: 19px;
+}
+.way-name {
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--ink-strong);
+  margin-top: 12px;
+}
+.way-count { font-size: 12px; color: var(--gold); margin-top: 2px; }
+.way-blurb { font-size: 12.5px; color: var(--ink-muted); margin-top: 8px; }
+.hub-foot {
+  font-size: 12.5px;
+  color: var(--ink-faint);
+  text-align: center;
+  max-width: 70ch;
+  margin: 40px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--hairline);
+}
+@media (max-width: 700px) {
+  .hero { padding: 38px 18px 32px; border-radius: 18px; }
+  .hero-cta { flex-direction: column; }
+  .cta-primary, .cta-secondary { justify-content: center; }
+  .ways-grid { grid-template-columns: 1fr; }
+}
+.pantheon-card.is-soon .pantheon-stats {
+  color: var(--gold);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 10.5px;
+}

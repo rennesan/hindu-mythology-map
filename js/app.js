@@ -90,7 +90,10 @@ function shortName(e) { return e.name.split(" (")[0]; }
 function catLabel(c) { return CAT_LABELS[c] || c; }
 function catColor(c) { return CAT_COLORS[c] || "#9aa0aa"; }
 function eraLabel(x) { return ERA_LABELS[x] || x; }
-function portraitPath(e) { return e.portrait; }
+function portraitPath(e) {
+  /* datasets store a repo-relative path; pages live at /<pid>/... so make it absolute */
+  return e.portrait.charAt(0) === "/" ? e.portrait : "/" + e.portrait;
+}
 function entity(id) { return APP.byId.get(id); }
 
 function wikiUrl(e) {
@@ -124,13 +127,18 @@ function edgeSampleSvg(type, w) {
 /* ---------------- boot ---------------- */
 
 Promise.all([
-  fetch("data/pantheons.json").then(r => r.json()),
-  fetch("data/archetypes.json").then(r => r.json())
+  fetch("/data/pantheons.json").then(r => r.json()),
+  fetch("/data/archetypes.json").then(r => r.json())
 ]).then(([manifest, arch]) => {
   APP.manifest = manifest.pantheons;
   APP.archetypes = arch.archetypes;
   buildLanding();
   wireChrome();
+  /* v2/v3 shared links used #/pid/view; move them to the real path */
+  if (/^#\//.test(location.hash || "")) {
+    const legacy = location.hash.replace(/^#\/?/, "");
+    return replaceUrl("/" + legacy);
+  }
   return handleRoute();
 }).catch(err => {
   const el = $("#graph-loading");
@@ -150,7 +158,7 @@ function loadPantheon(pid) {
     return d;
   };
   if (APP.packs[pid]) return Promise.resolve(done(APP.packs[pid]));
-  return fetch("data/" + pid + "/dataset.json")
+  return fetch("/data/" + pid + "/dataset.json")
     .then(r => { if (!r.ok) throw new Error("pack " + pid + ": " + r.status); return r.json(); })
     .then(done);
 }
@@ -199,12 +207,12 @@ function resetForPantheon() {
   const meta = APP.data.meta || { label: APP.pid, sublabel: "" };
   $("#brand-title").textContent = meta.label + " Mythology";
   $("#brand-sub").textContent = "A Relationship Map";
-  document.title = meta.label + " Mythology — Relationship Map";
+  document.title = meta.label + " Mythology - Relationship Map";
   $$(".tab[data-view]").forEach(t => {
     const v = t.dataset.view;
-    if (v !== "compare") t.setAttribute("href", "#/" + APP.pid + "/" + v);
+    if (v !== "compare") t.setAttribute("href", "/" + APP.pid + "/" + v);
   });
-  $("#tray-open").setAttribute("href", "#/" + APP.pid + "/chart");
+  $("#tray-open").setAttribute("href", "/" + APP.pid + "/chart");
 
   buildLegend();
   buildFilters();
@@ -222,7 +230,7 @@ function resetForPantheon() {
 const LEGACY = new Set(["map", "stories", "story", "index", "figure", "hierarchy", "chart"]);
 
 function handleRoute() {
-  const raw = (location.hash || "").replace(/^#\/?/, "");
+  const raw = decodeURIComponent(location.pathname).replace(/^\/+|\/+$/g, "");
   const parts = raw.split("/").filter(Boolean);
 
   if (parts[0] === "compare") {
@@ -238,18 +246,15 @@ function handleRoute() {
     const pid = APP.manifest[0].id;
     if (parts.length === 0) {
       if (APP.manifest.length > 1) { showView("landing"); return Promise.resolve(); }
-      location.replace("#/" + pid + "/map");
-      return Promise.resolve();
+      return replaceUrl("/" + pid + "/map");
     }
-    location.replace("#/" + pid + "/" + parts.join("/"));
-    return Promise.resolve();
+    return replaceUrl("/" + pid + "/" + parts.join("/"));
   }
 
   const pid = parts[0];
-  if (!APP.manifest.some(p => p.id === pid)) {
-    location.replace("#/");
-    return Promise.resolve();
-  }
+  const entry = APP.manifest.find(p => p.id === pid);
+  /* a mythology that is announced but not built yet has no pack to load */
+  if (!entry || entry.status !== "live") return replaceUrl("/");
   const head = parts[1] || "map";
   const arg = parts[2];
 
@@ -298,29 +303,77 @@ function showView(name) {
   if (name === "map") Lenses.onShow(APP.lens);
 }
 
-function goTo(hash) {
-  if (location.hash === hash) handleRoute();
-  else location.hash = hash;
+function replaceUrl(path) { history.replaceState({}, "", path); return handleRoute(); }
+function pushUrl(path) { history.pushState({}, "", path); return handleRoute(); }
+function goTo(path) {
+  if (location.pathname === path) return handleRoute();
+  return pushUrl(path);
 }
-function figureHash(id) { return "#/" + APP.pid + "/figure/" + id; }
+function figureHash(id) { return "/" + APP.pid + "/figure/" + id; }
 
 /* ---------------- landing ---------------- */
 
 function buildLanding() {
-  $("#pantheon-grid").innerHTML = APP.manifest.map(p =>
-    '<a class="pantheon-card" href="#/' + esc(p.id) + '/map">' +
-      '<img src="' + esc(p.cover) + '" alt="" loading="lazy" width="96" height="96">' +
-      '<h3 class="pantheon-name">' + esc(p.label) + "</h3>" +
+  const live = APP.manifest.filter(p => p.status === "live");
+  const planned = APP.manifest.filter(p => p.status === "planned");
+  const first = live[0];
+
+  /* hero */
+  const figures = live.reduce((n, p) => n + (p.figures || 0), 0);
+  const links = live.reduce((n, p) => n + (p.links || 0), 0);
+  const stories = live.reduce((n, p) => n + (p.stories || 0), 0);
+  const tradWord = live.length === 1 ? "tradition" : "traditions";
+  $("#hero-sub").textContent =
+    figures + " figures, " + links + " relationships and " + stories +
+    " story cycles across " + live.length + " mapped " + tradWord + ", each traced to the text that carries it. " +
+    planned.length + " more traditions in preparation. Runs entirely in your browser.";
+  if (first) {
+    const cta = $("#hero-cta-main");
+    cta.setAttribute("href", "/" + first.id + "/map");
+    cta.textContent = "Explore " + first.label + " mythology";
+  }
+
+  /* browse by tradition */
+  $("#pantheon-grid").innerHTML = live.map(p =>
+    '<a class="pantheon-card" href="/' + esc(p.id) + '/map">' +
+      '<img src="/' + esc(p.cover) + '" alt="" loading="lazy" width="96" height="96">' +
+      '<h4 class="pantheon-name">' + esc(p.label) + "</h4>" +
       '<p class="pantheon-sub">' + esc(p.sublabel || "") + "</p>" +
       '<p class="pantheon-blurb">' + esc(p.blurb || "") + "</p>" +
       '<p class="pantheon-stats">' + p.figures + " figures &middot; " + p.stories + " stories</p>" +
     "</a>"
-  ).join("") +
-  (APP.manifest.length < 2
-    ? '<div class="pantheon-card is-soon"><span class="soon-glyph" aria-hidden="true">&#10022;</span>' +
-      '<h3 class="pantheon-name">More traditions</h3>' +
-      '<p class="pantheon-blurb">Greek, Norse, Egyptian and Roman packs are planned. Each one arrives as a full map with its own portraits and sourced stories, and joins the comparative matrix automatically.</p></div>'
-    : "");
+  ).join("") + planned.map(p =>
+    '<div class="pantheon-card is-soon">' +
+      '<span class="soon-glyph" aria-hidden="true">&#10022;</span>' +
+      '<h4 class="pantheon-name">' + esc(p.label) + "</h4>" +
+      '<p class="pantheon-sub">' + esc(p.sublabel || "") + "</p>" +
+      '<p class="pantheon-blurb">' + esc(p.blurb || "") + "</p>" +
+      '<p class="pantheon-stats">In preparation</p>' +
+    "</div>"
+  ).join("");
+
+  /* ways to explore, counted from the live packs */
+  const pid = first ? first.id : "";
+  const ways = [
+    ["&#9673;", "Relationship Map", "6 lenses", "/" + pid + "/map",
+     "The force-directed graph, plus mind map, outline, cards, table and single-figure views of the same model."],
+    ["&#10087;", "Story Cycles", stories + " stories", "/" + pid + "/stories",
+     "Each narrative with its cast as clickable portraits and the primary texts that carry it."],
+    ["&#8982;", "Hierarchy", (first && first.levels ? first.levels : 6) + " levels", "/" + pid + "/hierarchy",
+     "How a pantheon is ordered, from its transcendent source down to its heroes and adversaries."],
+    ["&#10023;", "Chart Builder", "12 presets", "/" + pid + "/chart",
+     "Compose a poster-style relationship chart from the figures you choose, then export it as SVG or PNG."],
+    ["&#9033;", "Comparative Matrix", APP.archetypes.length + " archetypes", "/compare",
+     "The same questions asked of every tradition, and which figure fills each archetypal role."]
+  ];
+  $("#ways-grid").innerHTML = ways.map(w =>
+    '<a class="way-card" href="' + w[3] + '">' +
+      '<span class="way-glyph" aria-hidden="true">' + w[0] + "</span>" +
+      '<h4 class="way-name">' + w[1] + "</h4>" +
+      '<p class="way-count">' + w[2] + "</p>" +
+      '<p class="way-blurb">' + w[4] + "</p>" +
+    "</a>"
+  ).join("");
 }
 
 /* ---------------- chrome ---------------- */
@@ -374,7 +427,18 @@ function wireChrome() {
     if (!ev.target.closest(".search")) closeSearchList();
   });
 
-  window.addEventListener("hashchange", handleRoute);
+  window.addEventListener("popstate", handleRoute);
+
+  /* internal links are real URLs; route them without a page load */
+  document.addEventListener("click", ev => {
+    const a = ev.target.closest("a");
+    if (!a || a.target === "_blank" || a.hasAttribute("download")) return;
+    if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button !== 0) return;
+    const href = a.getAttribute("href");
+    if (!href || href.charAt(0) !== "/") return;
+    ev.preventDefault();
+    goTo(href);
+  });
   wireSearch();
   wireTray();
 }
@@ -602,7 +666,7 @@ function clearSelection(updateHash) {
   $("#panel").hidden = true;
   GraphLens.refreshDimming();
   if (updateHash && location.hash.indexOf("/figure/") > -1) {
-    history.pushState("", document.title, location.pathname + "#/" + APP.pid + "/map");
+    history.pushState({}, "", "/" + APP.pid + "/map");
   }
   if (APP.lastFocusEl && document.contains(APP.lastFocusEl)) {
     APP.lastFocusEl.focus();
@@ -719,13 +783,13 @@ function figureHtml(e, opts) {
         : "") +
       (stories.length
         ? '<section class="fig-section"><h3 class="fig-h">Appears In</h3><ul class="story-link-list">' +
-          stories.map(s => '<li><a class="story-link" href="#/' + esc(APP.pid) + '/story/' + esc(s.id) + '">' +
+          stories.map(s => '<li><a class="story-link" href="/' + esc(APP.pid) + '/story/' + esc(s.id) + '">' +
             esc(s.title) + "</a></li>").join("") + "</ul></section>"
         : "") +
       (arch.length
         ? '<section class="fig-section"><h3 class="fig-h">Archetypes</h3>' +
           '<div class="fig-chips left">' + arch.map(a => chipHtml(a)).join("") + "</div>" +
-          '<p class="pane-note">Used by the <a href="#/compare">comparative matrix</a> to line this figure up with its counterparts in other traditions.</p></section>'
+          '<p class="pane-note">Used by the <a href="/compare">comparative matrix</a> to line this figure up with its counterparts in other traditions.</p></section>'
         : "") +
       '<a class="fig-wiki" href="' + wikiUrl(e) + '" target="_blank" rel="noopener">Read more on Wikipedia <span aria-hidden="true">&#8599;</span></a>' +
     "</div>";
