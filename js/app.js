@@ -13,14 +13,18 @@ const CAT_COLORS = {
   deva: "#3b82f6", goddess: "#fb7185", avatar: "#2dd4bf",
   sage: "#a3e635", human: "#cd8b4a", asura: "#dc2626",
   naga: "#16a34a", celestial: "#67e8f9", vahana: "#f97316",
-  titan: "#c084fc", olympian: "#eab308", giant: "#dc2626", nymph: "#67e8f9"
+  titan: "#c084fc", olympian: "#eab308", giant: "#dc2626", nymph: "#67e8f9",
+  primordial: "#8b8bf0", chthonic: "#7c5cbf", daemon: "#5eead4",
+  monster: "#b91c1c", hero: "#f59e0b", mortal: "#cd8b4a", seer: "#a3e635"
 };
 const CAT_LABELS = {
   cosmic: "Cosmic principle", trimurti: "Trimurti", tridevi: "Tridevi",
   deva: "Deva", goddess: "Goddess", avatar: "Avatar", sage: "Sage",
   human: "Human", asura: "Asura", naga: "Naga",
   celestial: "Celestial", vahana: "Vahana (mount)",
-  titan: "Titan", olympian: "Olympian", giant: "Giant", nymph: "Nymph"
+  titan: "Titan", olympian: "Olympian", giant: "Giant", nymph: "Nymph",
+  primordial: "Primordial", chthonic: "Chthonic power", daemon: "Lesser divinity",
+  monster: "Monster", hero: "Hero", mortal: "Mortal", seer: "Seer"
 };
 const ERA_LABELS = {
   "Cosmic": "Cosmic", "Vedic": "Vedic", "Puranic": "Puranic",
