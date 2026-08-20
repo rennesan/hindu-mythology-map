@@ -1,0 +1,612 @@
+{
+ "title": "Egyptian Mythology: Figures, Relationships and Story Cycles",
+ "description": "The Egyptian pantheon mapped as a relationship graph: the primordial waters, the Ennead of Heliopolis, the solar cycle, the Osiris myth, the powers of the Duat and the protective household gods.",
+ "generated": "2026-08-20",
+ "sources": [
+  "E. A. Wallis Budge, The Book of the Dead (1895), Legends of the Gods (1912), The Egyptian Heaven and Hell (1905) and The Gods of the Egyptians (1904)",
+  "W. M. Flinders Petrie, Egyptian Tales (1895)",
+  "Plutarch, Isis and Osiris, translated by William W. Goodwin (1874)",
+  "James Henry Breasted, Development of Religion and Thought in Ancient Egypt (1912)",
+  "Encyclopaedia Britannica and Wikipedia for cross-checking cult sites and periods"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/egyptian/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "bod": {
+   "t": "The Book of the Dead (Papyrus of Ani)",
+   "tr": "E. A. Wallis Budge, 1895",
+   "u": "https://sacred-texts.com/egy/ebod/index.htm"
+  },
+  "legends": {
+   "t": "Legends of the Gods",
+   "tr": "E. A. Wallis Budge, 1912",
+   "u": "https://sacred-texts.com/egy/leg/index.htm"
+  },
+  "heavenhell": {
+   "t": "The Egyptian Heaven and Hell",
+   "tr": "E. A. Wallis Budge, 1905",
+   "u": "https://sacred-texts.com/egy/ehh/index.htm"
+  },
+  "godsofeg": {
+   "t": "The Gods of the Egyptians",
+   "tr": "E. A. Wallis Budge, 1904",
+   "u": "https://archive.org/details/godsofegyptianso01budg"
+  },
+  "tales": {
+   "t": "Egyptian Tales",
+   "tr": "W. M. Flinders Petrie, 1895",
+   "u": "https://sacred-texts.com/egy/eft/index.htm"
+  },
+  "plutarch": {
+   "t": "Plutarch, Isis and Osiris (Moralia V)",
+   "tr": "William W. Goodwin, 1874",
+   "u": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Isis_and_Osiris*.html"
+  },
+  "breasted": {
+   "t": "Development of Religion and Thought in Ancient Egypt",
+   "tr": "James Henry Breasted, 1912",
+   "u": "https://archive.org/details/developmentofrel00brea"
+  }
+ },
+ "meta": {
+  "id": "egyptian",
+  "label": "Egyptian",
+  "sublabel": "Ancient Egyptian",
+  "accent": "#c8a25a",
+  "root": "nun"
+ },
+ "profile": {
+  "cosmicNature": "Cyclical and continuously renewed, but always under threat. Each sunrise repeats the first sunrise, and each night the sun must pass through the underworld and survive an attack; the cosmos is not wound up once but re-won daily. Beyond that daily cycle stands zep tepi, the First Time, the perfect moment of creation that every ritual attempts to re-enter.",
+  "natureOfDivinity": "Fluid and combinatory. A god is a set of functions rather than a fixed person, so deities merge and separate without contradiction - Ra-Horakhty, Amun-Ra, Ptah-Sokar-Osiris - and the same god appears as falcon, as man, as falcon-headed man, or as a disc, depending on which aspect is meant. Local theologies at Heliopolis, Memphis and Hermopolis each claimed the creation for their own god without any felt need to reconcile.",
+  "afterlife": "An assessment, and then a continued existence requiring maintenance. The heart is weighed against the feather of Maat before forty-two judges; a heart heavier than truth is eaten by Ammit and the person ends entirely. Those who pass go on to the Field of Reeds, but the dead still need a preserved body, a spoken name and offerings, so the afterlife depends on the living keeping their side of it.",
+  "systemMechanism": "The maintenance of maat - truth, order, balance - against isfet, chaos. The king exists to uphold maat by ritual, the gods uphold it in the cosmos, and every individual is judged on it at death. The great enemy is not a rival god with a claim to the throne but Apep, the serpent of unbeing, who attacks the solar barque every night and must be repelled again every night.",
+  "canonTexts": "The Pyramid Texts, Coffin Texts and Book of the Dead, temple inscriptions at Edfu, Dendera and Abydos, the Memphite Theology of the Shabaka Stone, and the narrative papyri, with Plutarch's Isis and Osiris preserving the fullest connected account of the Osiris myth."
+ },
+ "hierarchy": [],
+ "groups": [],
+ "stories": [],
+ "entities": [
+  {
+   "id": "nun",
+   "name": "Nun",
+   "sanskrit": "nwn",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The primordial waters",
+   "wikipedia": "Nu (mythology)",
+   "portrait": "portraits/egyptian/nun.webp",
+   "epithets": [
+    "The Inert One",
+    "Father of the Gods",
+    "The Abyss"
+   ],
+   "domains": [
+    "the limitless water before creation",
+    "the unformed",
+    "the flood"
+   ],
+   "symbols": [
+    "water",
+    "upraised arms lifting the solar barque"
+   ],
+   "mount": null,
+   "abode": "Everywhere outside the created world, and still beneath it",
+   "festivals": [],
+   "worship": "",
+   "bio": "The dark, limitless, motionless water that existed before anything else, and still surrounds the world.",
+   "longBio": "Nun is not a creator and does not act; he is the condition that preceded action. Egyptian cosmology begins with an infinite dark water without surface or current, and creation happens when a mound of earth rises out of it and the first god stands on that mound. Crucially, Nun is not destroyed by this. He remains outside the created order and beneath it, so that every well and every inundation of the Nile touches him, and the world is understood as a bubble of order inside an unlimited ocean of the unformed. That is why the nightly threat to the sun is so serious: if order fails, the water is still there to return. In tomb and papyrus scenes Nun is shown as a man standing waist-deep in water with his arms raised, lifting the solar barque up at dawn.",
+   "variantTraditions": "The Hermopolitan tradition pairs him with a female counterpart Naunet as one couple of the Ogdoad; the Heliopolitan tradition treats him more simply as the water from which Atum emerged.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sea-waters",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "atum",
+   "name": "Atum",
+   "sanskrit": "jtm",
+   "category": "solar",
+   "era": "Creation",
+   "role": "The self-created; the completed one",
+   "wikipedia": "Atum",
+   "portrait": "portraits/egyptian/atum.webp",
+   "epithets": [
+    "The All",
+    "The Complete One",
+    "Lord of Heliopolis",
+    "The Setting Sun"
+   ],
+   "domains": [
+    "creation from nothing",
+    "totality",
+    "the sun at evening"
+   ],
+   "symbols": [
+    "the double crown",
+    "the serpent",
+    "the primeval mound"
+   ],
+   "mount": null,
+   "abode": "Heliopolis, and the western horizon",
+   "festivals": [],
+   "worship": "The great cult centre was Heliopolis, where the benben stone marked the primeval mound. Atum was invoked especially in royal funerary texts, as the god the dead king joins at the end of the day's course.",
+   "bio": "The self-created god who rose from Nun on the first mound and made the first pair of gods from himself.",
+   "longBio": "Atum's name carries both 'the all' and 'the complete', and the tradition uses it in both senses: he is everything that exists in undifferentiated form, and he is what is finished. He brings himself into being on the mound that rises from Nun, and then, having no partner, produces the first pair from his own body - by masturbation in the Pyramid Texts, or by spitting or sneezing them out in versions that later editors evidently found more decorous. Those two are Shu, air, and Tefnut, moisture, and from them the rest of the Ennead descends. Atum is the evening aspect of the sun, the completed daily course, and is regularly fused with Ra as Ra-Atum or Atum-Ra. In one striking passage he tells Osiris that at the end of things he will destroy everything he has made and return with him to the primeval water, the two of them alone in the form of serpents.",
+   "variantTraditions": "The Heliopolitan account of Atum competes with the Memphite theology, in which Ptah creates by thought and speech and Atum is one of Ptah's products, and with the Hermopolitan Ogdoad. All three were maintained simultaneously.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "supreme-source",
+    "sun"
+   ]
+  },
+  {
+   "id": "ra",
+   "name": "Ra",
+   "sanskrit": "rꜥ",
+   "category": "solar",
+   "era": "Creation",
+   "role": "The sun; king of the gods",
+   "wikipedia": "Ra",
+   "portrait": "portraits/egyptian/ra.webp",
+   "epithets": [
+    "Lord of the Two Lands",
+    "He of the Horizon",
+    "Ra-Horakhty",
+    "Khepri at dawn, Ra at noon, Atum at evening"
+   ],
+   "domains": [
+    "the sun",
+    "kingship",
+    "creation",
+    "the daily renewal of the world"
+   ],
+   "symbols": [
+    "the solar disc",
+    "the falcon head",
+    "the uraeus",
+    "the solar barque"
+   ],
+   "mount": null,
+   "abode": "The solar barque, crossing the sky by day and the underworld by night",
+   "festivals": [
+    "The daily temple ritual of the sun's rising and setting",
+    "Festival of the Beautiful Meeting"
+   ],
+   "worship": "Heliopolis was his ancient centre, but solar worship was universal: every temple performed the daily rite that assisted the sun's rebirth, and from the Fifth Dynasty every king took the title Son of Ra.",
+   "bio": "The sun itself, who sails the sky by day and fights through the underworld each night.",
+   "longBio": "Ra is the most consistently supreme god of the Egyptian pantheon, and his rule is not a throne but a journey. He crosses the sky in the day barque and at sunset transfers to the night barque, passing through the twelve hours of the underworld, where he is attacked by the serpent Apep and must be defended so that dawn can happen at all. The sun's phases are given separate names and forms - Khepri the scarab at dawn, Ra at midday, Atum at evening - and Egyptian thought treats these as aspects rather than rivals. He is combined freely with other gods: Amun-Ra at Thebes, Ra-Horakhty with Horus, Sobek-Ra. He grows old like a man, which is the premise of two major stories: Isis poisons him to learn his secret name, and mankind rebels against him when he is aged, prompting him to send out his Eye to slaughter them.",
+   "variantTraditions": "The relationship between Ra and Atum, and between Ra and Amun, varies by period and cult centre; the Amarna period under Akhenaten briefly replaced the whole system with the Aten, the visible disc alone.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sun",
+    "creator",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "khepri",
+   "name": "Khepri",
+   "sanskrit": "ḫprj",
+   "category": "solar",
+   "era": "Creation",
+   "role": "The rising sun; the scarab",
+   "wikipedia": "Khepri",
+   "portrait": "portraits/egyptian/khepri.webp",
+   "epithets": [
+    "He Who Comes Into Being",
+    "The Morning Sun"
+   ],
+   "domains": [
+    "the dawn",
+    "self-generation",
+    "transformation and becoming"
+   ],
+   "symbols": [
+    "the scarab beetle",
+    "the sun disc pushed above the horizon"
+   ],
+   "mount": null,
+   "abode": "The eastern horizon",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sun at dawn, shown as a scarab, whose name means to come into being.",
+   "longBio": "Egyptians observed the dung beetle rolling its ball across the ground and young beetles apparently emerging from it without a parent, and read the whole thing as a statement about the sun: something round pushed across a surface, and life appearing from within it by itself. Khepri is therefore the sun at the moment of rising, and by extension the principle of coming-into-being. His name is built on the verb kheper, to become, which is one of the most loaded words in the language and appears constantly in creation accounts. He is not usually given a separate cult or mythology, because he is a phase rather than a person - the same god who is Ra at noon and Atum at evening. Scarab amulets were the commonest of all Egyptian amulets, and large heart scarabs were placed with the dead precisely because the beetle carried this promise of self-renewal.",
+   "variantTraditions": "Khepri is occasionally treated as an independent creator god in his own right, particularly in texts that want a god who came into being by himself without any prior water.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sun",
+    "creator"
+   ]
+  },
+  {
+   "id": "shu",
+   "name": "Shu",
+   "sanskrit": "šw",
+   "category": "ennead",
+   "era": "Creation",
+   "role": "Air; the one who holds up the sky",
+   "wikipedia": "Shu",
+   "portrait": "portraits/egyptian/shu.webp",
+   "epithets": [
+    "He Who Rises Up",
+    "Bearer of the Sky",
+    "Lord of the Air"
+   ],
+   "domains": [
+    "air",
+    "light",
+    "the space between earth and sky",
+    "dryness"
+   ],
+   "symbols": [
+    "the ostrich feather",
+    "raised arms supporting the sky"
+   ],
+   "mount": null,
+   "abode": "Between Geb and Nut, holding them apart",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first-made god, air itself, who separates the sky from the earth and keeps them apart.",
+   "longBio": "Atum produces Shu and Tefnut from himself, and Shu is air and the light that fills it. His defining act is a separation: he steps between his children Geb, the earth, and Nut, the sky, who are locked in an embrace, and pushes Nut upward, standing with his arms raised to hold her there. That posture is one of the most reproduced images in Egyptian art, and it makes air the physical condition of there being a world at all - without Shu, sky and earth close again and the space where life happens disappears. He and Tefnut are also identified with the wandering Eye of Ra in some texts, and a story tells of the two of them becoming lost in the waters of Nun and Atum weeping with relief when they are found, the tears becoming humankind by a pun on the words for tears and people.",
+   "variantTraditions": "In later texts Shu becomes a ruling king of the gods succeeding Ra, and faces his own rebellion; the Greeks sometimes identified him with Atlas for the obvious reason.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "creator"
+   ]
+  },
+  {
+   "id": "tefnut",
+   "name": "Tefnut",
+   "sanskrit": "tfnwt",
+   "category": "ennead",
+   "era": "Creation",
+   "role": "Moisture",
+   "wikipedia": "Tefnut",
+   "portrait": "portraits/egyptian/tefnut.webp",
+   "epithets": [
+    "Lady of the Flame",
+    "She of Moisture",
+    "The Distant Goddess"
+   ],
+   "domains": [
+    "moisture",
+    "dew and rain",
+    "the corrosive heat of the sun in another aspect"
+   ],
+   "symbols": [
+    "the lioness head",
+    "the solar disc",
+    "the uraeus"
+   ],
+   "mount": null,
+   "abode": "Heliopolis; and Nubia during her withdrawal",
+   "festivals": [],
+   "worship": "",
+   "bio": "Twin of Shu and the first female principle, moisture, and one form of the Distant Goddess who must be brought home.",
+   "longBio": "Tefnut is produced with Shu from Atum, and where he is dry air she is moisture - a pairing that in Egypt means the two conditions that make the difference between desert and life. She and Shu are the parents of Geb and Nut, and so the whole Ennead descends through her. Her more dramatic role is as an instance of the Distant Goddess pattern, which recurs across Egyptian religion: the goddess quarrels with her father Ra and withdraws into Nubia in the form of a raging lioness, and while she is absent the land suffers. Thoth is sent to fetch her, and persuades her back by storytelling and flattery rather than force, whereupon she is pacified with music and dance and her return is celebrated as the return of the inundation. The same story is told of Hathor and of Sekhmet, which is a good illustration of how Egyptian deities share functions rather than owning them.",
+   "variantTraditions": "The Distant Goddess is variously Tefnut, Hathor, Sekhmet, Bastet or Mut depending on the temple telling it; the fullest surviving version is a demotic papyrus about Tefnut.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "war"
+   ]
+  },
+  {
+   "id": "geb",
+   "name": "Geb",
+   "sanskrit": "gb",
+   "category": "ennead",
+   "era": "Creation",
+   "role": "The earth",
+   "wikipedia": "Geb",
+   "portrait": "portraits/egyptian/geb.webp",
+   "epithets": [
+    "Father of the Gods",
+    "The Great Cackler",
+    "Hereditary Prince of the Gods"
+   ],
+   "domains": [
+    "the earth",
+    "vegetation",
+    "earthquakes",
+    "the tomb that holds the dead"
+   ],
+   "symbols": [
+    "the goose",
+    "green or black skin",
+    "reclining beneath the sky"
+   ],
+   "mount": null,
+   "abode": "The earth itself",
+   "festivals": [],
+   "worship": "",
+   "bio": "The earth as a male god lying beneath the arched body of the sky, and father of the Osirian generation.",
+   "longBio": "Egypt inverts the arrangement familiar from Greece and elsewhere: the earth is male and the sky female. Geb lies below, often shown with one knee raised to make the hills, while Nut arches over him supported by Shu. Plants grow from his back, and earthquakes are his laughter - one of his titles is the Great Cackler, connected with the goose he wears on his head and with a tradition that he laid the egg from which the sun hatched. As the father of Osiris, Isis, Set and Nephthys he is the ancestor of the Osirian drama, and as an early king of Egypt in the mythical dynasties he is the one who adjudicates between Horus and Set in some accounts, awarding the throne. Because the dead are placed in the earth, Geb also has a grimmer aspect: he can hold the dead fast, and funerary texts ask him to release them.",
+   "variantTraditions": "Geb's role in the succession of Horus and Set differs between the Memphite Theology, where he first divides Egypt between them and then reverses himself, and other accounts where the tribunal of gods decides.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "nut",
+   "name": "Nut",
+   "sanskrit": "nwt",
+   "category": "ennead",
+   "era": "Creation",
+   "role": "The sky",
+   "wikipedia": "Nut",
+   "portrait": "portraits/egyptian/nut.webp",
+   "epithets": [
+    "She Who Bears the Gods",
+    "Mistress of All",
+    "The Starry One"
+   ],
+   "domains": [
+    "the sky",
+    "the stars",
+    "the passage of the sun through night",
+    "the coffin lid"
+   ],
+   "symbols": [
+    "the arched body studded with stars",
+    "the water pot on her head",
+    "the sycamore"
+   ],
+   "mount": null,
+   "abode": "Arched over the earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sky as a woman arched over the earth, who swallows the sun each evening and gives birth to it each dawn.",
+   "longBio": "Nut stretches over Geb touching the ground only with fingers and toes, her body the vault of the sky, painted dark blue and covered with stars. The sun enters her mouth at sunset, travels through her body during the night, and is born from her again at dawn, which is why she is painted on the underside of coffin lids and on tomb ceilings: the dead lie beneath her exactly as the sun does, and expect the same outcome. Ra is said to have cursed her not to give birth in any month of the year, and Thoth won five extra days from the moon in a game so that she could bear her five children - Osiris, Horus the Elder, Set, Isis and Nephthys - on days belonging to no month, which is the Egyptian explanation for the five epagomenal days added to the 360-day calendar.",
+   "variantTraditions": "The five-days story is preserved most fully by Plutarch and may be a Greek-period systematisation of older material; the number and names of her children vary.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "osiris",
+   "name": "Osiris",
+   "sanskrit": "wsjr",
+   "category": "ennead",
+   "era": "Osirian",
+   "role": "Lord of the dead; the murdered and risen king",
+   "wikipedia": "Osiris",
+   "portrait": "portraits/egyptian/osiris.webp",
+   "epithets": [
+    "Foremost of the Westerners",
+    "Lord of Abydos",
+    "Wennefer, the Perfect Being",
+    "The Still-Hearted"
+   ],
+   "domains": [
+    "death and resurrection",
+    "the underworld",
+    "vegetation and the grain",
+    "kingship and legitimate succession"
+   ],
+   "symbols": [
+    "the crook and flail",
+    "the atef crown",
+    "green or black skin",
+    "the djed pillar"
+   ],
+   "mount": null,
+   "abode": "The Duat, as its king; Abydos, where his head was buried",
+   "festivals": [
+    "The Mysteries of Osiris at Abydos, an annual passion play",
+    "the Khoiak festival of the corn mummy"
+   ],
+   "worship": "Abydos was the great pilgrimage centre, believed to hold his head, and Egyptians of all classes set up memorial stelae there to share in the festival. Corn mummies - Osiris shapes filled with soil and grain - were made and watered so that the sprouting seed enacted his return.",
+   "bio": "The king murdered by his brother, reassembled by his wife, and made ruler of the dead rather than the living.",
+   "longBio": "Osiris rules Egypt as a good king, teaching agriculture and law, until his brother Set kills him - by trapping him in a coffin at a banquet, in Plutarch's version, or by drowning or dismemberment in Egyptian sources. Isis recovers the body; Set finds it again and cuts it into pieces scattered across Egypt, and Isis, with Nephthys, gathers them. What she cannot find is the phallus, eaten by a fish, so she fashions a replacement, and by magic conceives Horus from the reassembled body. Osiris does not return to the living world. He becomes king of the Duat, and it is his son who reclaims the earthly throne. This is the central pattern of Egyptian religion: the dead king becomes Osiris and the living king is Horus, so every succession repeats the myth, and every ordinary dead person hoped to be identified with Osiris and so to live on.",
+   "variantTraditions": "Plutarch preserves the fullest connected narrative but writes centuries later and in Greek terms; Egyptian sources give the episodes scattered across funerary texts and rarely tell it straight through. The number of pieces Set cut him into is given as fourteen, sixteen or forty-two in different sources.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "death-judge",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "isis",
+   "name": "Isis",
+   "sanskrit": "ꜣst",
+   "category": "ennead",
+   "era": "Osirian",
+   "role": "The great enchantress; wife of Osiris, mother of Horus",
+   "wikipedia": "Isis",
+   "portrait": "portraits/egyptian/isis.webp",
+   "epithets": [
+    "Great of Magic",
+    "Mistress of the Words of Power",
+    "The Throne",
+    "Mother of the God"
+   ],
+   "domains": [
+    "magic",
+    "healing",
+    "protection of children",
+    "mourning",
+    "kingship through the queen"
+   ],
+   "symbols": [
+    "the throne hieroglyph on her head",
+    "outstretched winged arms",
+    "the tyet knot",
+    "the sistrum"
+   ],
+   "mount": null,
+   "abode": "Everywhere she is invoked; Philae, her last temple",
+   "festivals": [
+    "The Navigium Isidis in the Roman period",
+    "the Osiris mysteries, where she is chief mourner"
+   ],
+   "worship": "Her Egyptian cult grew steadily and outlasted the rest: the temple at Philae was the last functioning Egyptian temple, closed only in the sixth century CE. In the Roman empire she had temples from London to the Euphrates.",
+   "bio": "The most capable figure in Egyptian myth: she reassembles her murdered husband, conceives his heir, and protects him until he can claim the throne.",
+   "longBio": "Isis' name is written with the throne sign, and the identification is exact - she is the seat of kingship, and the king is legitimate because he sits on her. When Osiris is killed she searches for him, finds him, and when the body is dismembered she gathers the pieces and restores them enough to conceive Horus. She then hides in the marshes of Chemmis raising the child in secret from Set, and when the infant is stung by a scorpion she stops the solar barque itself and refuses to let it move until Ra sends Thoth to help her cure him. Her most famous act is a piece of pure leverage: she makes a serpent from Ra's own spittle and the earth, lets it bite him, and refuses to cure the aged god unless he tells her his secret name, which she then holds. In the Greco-Roman period her cult spread across the entire Mediterranean.",
+   "variantTraditions": "Plutarch's account differs in many details from Egyptian sources, and the wanderings of Isis to Byblos appear only in him. Her assimilation to Greek Demeter and Aphrodite, and later comparisons with the Virgin Mary, belong to the reception rather than to Egyptian religion.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wisdom-craft",
+    "healer"
+   ]
+  },
+  {
+   "id": "set",
+   "name": "Set",
+   "sanskrit": "stẖ",
+   "category": "ennead",
+   "era": "Osirian",
+   "role": "God of the desert, storm and disorder",
+   "wikipedia": "Set (deity)",
+   "portrait": "portraits/egyptian/set.webp",
+   "epithets": [
+    "Lord of the Red Land",
+    "He of Ombos",
+    "The Foreigner"
+   ],
+   "domains": [
+    "the desert",
+    "storms",
+    "foreign lands",
+    "violence and disruption",
+    "the defence of the solar barque"
+   ],
+   "symbols": [
+    "the Set animal, an unidentified beast",
+    "the was sceptre",
+    "red"
+   ],
+   "mount": null,
+   "abode": "The red desert; and the prow of the night barque",
+   "festivals": [],
+   "worship": "Ombos and Avaris were his centres, and he was genuinely popular in the eastern Delta and among the Ramesside kings, several of whom took his name. Later his images were erased in many temples.",
+   "bio": "Osiris' brother and murderer, god of the desert and storm, and also the strongest defender of the sun.",
+   "longBio": "Set is the most morally complicated god in the pantheon, and reading him as a simple devil is a Greek and later distortion. He murders Osiris and contests the throne with Horus in a struggle lasting eighty years - a contest that includes lawsuits before the tribunal of gods, transformations into hippopotami, and an episode of sexual humiliation that Horus turns back on him with Isis' help. He is finally defeated and the throne goes to Horus. But Set is also indispensable: he stands in the prow of Ra's night barque and spears Apep, and he is the only god strong enough to do it. Egyptians of the Nineteenth Dynasty named kings after him. What he embodies is not evil but the necessary violence and disorder at the edge of things - the desert that is not the Nile valley, the storm, the foreigner - and only in the Late Period, under foreign rule, does he harden into a straightforward enemy.",
+   "variantTraditions": "The Set animal has never been identified with any real species. His demonisation grows late, and in the Third Intermediate Period his images were sometimes defaced; the Greeks identified him with Typhon.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "primordial-adversary",
+    "wind-storm",
+    "war"
+   ]
+  },
+  {
+   "id": "nephthys",
+   "name": "Nephthys",
+   "sanskrit": "nbt-ḥwt",
+   "category": "ennead",
+   "era": "Osirian",
+   "role": "Lady of the house; mourner of the dead",
+   "wikipedia": "Nephthys",
+   "portrait": "portraits/egyptian/nephthys.webp",
+   "epithets": [
+    "Mistress of the House",
+    "The Excellent Kite",
+    "Friend of the Dead"
+   ],
+   "domains": [
+    "mourning",
+    "the protection of the dead",
+    "the night",
+    "the hidden"
+   ],
+   "symbols": [
+    "the house-and-basket hieroglyph on her head",
+    "the kite",
+    "outstretched wings"
+   ],
+   "mount": null,
+   "abode": "Beside her sister at every bier",
+   "festivals": [],
+   "worship": "",
+   "bio": "Sister of Isis and wife of Set, who nonetheless helps Isis recover Osiris and mourns beside her.",
+   "longBio": "Nephthys is the fourth of Nut's children and the least independently characterised, which is partly the point: her role is to accompany. She is married to Set, but takes Isis' side after the murder, helping search for the body and standing at the other end of the bier as the second of the two kites who mourn Osiris. The pairing of the two sisters at the head and foot of the coffin becomes a fixed element of funerary art, and the wailing of the kite was imitated in the ritual lament. In one strand of tradition she conceives Anubis by Osiris, having disguised herself as Isis, and abandons the child, whom Isis raises - a story that gives Anubis a place in the family and Nephthys a rare moment of initiative. She is generally the darker and more nocturnal of the pair, associated with the edge of things rather than their centre.",
+   "variantTraditions": "The parentage of Anubis is inconsistent; older sources make him a son of Ra, and the Nephthys version is attested mainly through Plutarch and later Egyptian material.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "death-judge",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "horus",
+   "name": "Horus",
+   "sanskrit": "ḥr",
+   "category": "deity",
+   "era": "Osirian",
+   "role": "The falcon; the living king",
+   "wikipedia": "Horus",
+   "portrait": "portraits/egyptian/horus.webp",
+   "epithets": [
+    "He Who Is Above",
+    "Lord of the Sky",
+    "Horus of Behdet",
+    "Harsiese, Horus son of Isis"
+   ],
+   "domains": [
+    "kingship",
+    "the sky",
+    "war and protection",
+    "the vindicated heir"
+   ],
+   "symbols": [
+    "the falcon",
+    "the double crown",
+    "the Eye of Horus",
+    "the winged disc"
+   ],
+   "mount": null,
+   "abode": "Edfu; and the throne of Egypt in every reign",
+   "festivals": [
+    "The Festival of the Beautiful Meeting at Edfu",
+    "the coronation rites of each new king"
+   ],
+   "worship": "Edfu preserves the most complete surviving Egyptian temple, and its walls carry the fullest account of Horus' victory over Set, performed there as an annual ritual drama.",
+   "bio": "Son of Isis and Osiris, who contests the throne with Set for eighty years and wins it.",
+   "longBio": "Horus is really several figures the tradition ran together: Horus the Elder, a sky god whose eyes are the sun and moon and who is a brother of Osiris; and Horus the Child, Harpocrates, son of Isis and Osiris, raised in hiding in the marshes. It is the second who fights Set. The Contendings of Horus and Set is a long, strange and sometimes comic text in which the two are repeatedly judged by the tribunal of gods, transform into hippopotami, and try to disqualify each other, until Osiris himself intervenes from the underworld and the throne is awarded to Horus. In the fighting Set tears out Horus' eye, which is healed by Thoth or Hathor; the restored Eye of Horus, the wedjat, becomes the standard Egyptian symbol of wholeness and healing and the commonest of all amulets. Every living pharaoh was Horus, and every dead one Osiris.",
+   "variantTraditions": "The multiplication of Horus forms - Horus the Elder, Harsiese, Harpocrates, Horus of Behdet, Ra-Horakhty - reflects the merging of several originally separate falcon gods, and the sources do not always distinguish them.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sky-thunder",
+    "king-ruler",
+    "war",
+    "hero-champion"
+   ]
+  }
+ ],
+ "links": []
+}
