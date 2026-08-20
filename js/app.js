@@ -136,6 +136,7 @@ Promise.all([
 ]).then(([manifest, arch]) => {
   APP.manifest = manifest.pantheons;
   APP.archetypes = arch.archetypes;
+  Vault.restoreReveals();
   buildLanding();
   wireChrome();
   /* v2/v3 shared links used #/pid/view; move them to the real path */
@@ -162,6 +163,7 @@ function loadPantheon(pid) {
     return d;
   };
   if (APP.packs[pid]) return Promise.resolve(done(APP.packs[pid]));
+  if (Vault.isOpen(pid)) return Promise.resolve(done(Vault.attach(pid)));
   return fetch("/data/" + pid + "/dataset.json")
     .then(r => { if (!r.ok) throw new Error("pack " + pid + ": " + r.status); return r.json(); })
     .then(done);
@@ -257,8 +259,17 @@ function handleRoute() {
 
   const pid = parts[0];
   const entry = APP.manifest.find(p => p.id === pid);
-  /* a mythology that is announced but not built yet has no pack to load */
-  if (!entry || entry.status !== "live") return replaceUrl("/");
+  if (!entry) return replaceUrl("/");
+  if (entry.status === "private") {
+    /* the ciphertext is public; without the passphrase it is noise */
+    if (!Vault.isOpen(pid)) {
+      VaultGate.show(pid, () => handleRoute());
+      return Promise.resolve();
+    }
+  } else if (entry.status !== "live") {
+    /* announced but not built yet: nothing to load */
+    return replaceUrl("/");
+  }
   const head = parts[1] || "map";
   const arg = parts[2];
 
@@ -294,9 +305,19 @@ function handleRoute() {
   });
 }
 
+/* the hub is not a pantheon, so it carries the site-wide title */
+function resetBrand() {
+  $("#brand-title").textContent = "Mythologies of the World";
+  $("#brand-sub").textContent = "Relationship Maps";
+  document.title = "World Mythologies - Relationship Maps";
+}
+
 function showView(name) {
   APP.view = name;
-  ["landing", "map", "stories", "hierarchy", "chart", "compare"].forEach(v => {
+  /* the portal carries no pantheon, so the pantheon-scoped chrome is hidden */
+  document.body.classList.toggle("on-hub", name === "landing" || name === "vault");
+  if (name === "landing") resetBrand();
+  ["landing", "vault", "map", "stories", "hierarchy", "chart", "compare"].forEach(v => {
     const el = $("#view-" + v);
     if (el) el.hidden = v !== name;
   });
@@ -320,6 +341,7 @@ function figureHash(id) { return "/" + APP.pid + "/figure/" + id; }
 function buildLanding() {
   const live = APP.manifest.filter(p => p.status === "live");
   const planned = APP.manifest.filter(p => p.status === "planned");
+  const priv = APP.manifest.filter(p => p.status === "private" && Vault.isRevealed(p.id));
   const first = live[0];
 
   /* hero */
@@ -345,6 +367,14 @@ function buildLanding() {
       '<p class="pantheon-sub">' + esc(p.sublabel || "") + "</p>" +
       '<p class="pantheon-blurb">' + esc(p.blurb || "") + "</p>" +
       '<p class="pantheon-stats">' + p.figures + " figures &middot; " + p.stories + " stories</p>" +
+    "</a>"
+  ).join("") + priv.map(p =>
+    '<a class="pantheon-card is-private" href="/' + esc(p.id) + '/map">' +
+      '<span class="soon-glyph" aria-hidden="true">&#128274;</span>' +
+      '<h4 class="pantheon-name">' + esc(p.label) + "</h4>" +
+      '<p class="pantheon-sub">' + esc(p.sublabel || "") + "</p>" +
+      '<p class="pantheon-blurb">' + esc(p.blurb || "") + "</p>" +
+      '<p class="pantheon-stats">' + (Vault.isOpen(p.id) ? "Open" : "Locked") + "</p>" +
     "</a>"
   ).join("") + planned.map(p =>
     '<div class="pantheon-card is-soon">' +
@@ -445,6 +475,21 @@ function wireChrome() {
   });
   wireSearch();
   wireTray();
+
+  $("#unlock-row").addEventListener("submit", ev => {
+    ev.preventDefault();
+    const word = $("#unlock-word").value;
+    const msg = $("#unlock-msg");
+    if (!word.trim()) return;
+    msg.textContent = "Checking...";
+    Vault.tryUnlockWord(word).then(found => {
+      $("#unlock-word").value = "";
+      msg.textContent = found.length
+        ? "Unlocked: " + found.join(", ")
+        : "No collection answers to that word.";
+      setTimeout(() => { msg.textContent = ""; }, 4000);
+    });
+  });
 }
 
 function setLens(lens) {

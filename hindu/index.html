@@ -92,7 +92,38 @@
       <h3 class="browse-h">Ways to explore</h3>
       <div class="ways-grid" id="ways-grid"></div>
 
+      <form class="unlock-row" id="unlock-row" autocomplete="off">
+        <label class="visually-hidden" for="unlock-word">Unlock word for a private collection</label>
+        <input type="text" id="unlock-word" placeholder="Unlock word" autocomplete="off" spellcheck="false">
+        <button type="submit" class="ghost-btn small">Unlock</button>
+        <span class="unlock-msg" id="unlock-msg" role="status"></span>
+      </form>
+
       <p class="hub-foot">Every figure, relationship and story on this site is drawn from a fixed dataset and traced to a published primary text. Nothing is generated at read time.</p>
+    </div>
+  </section>
+
+  <!-- ======================= PRIVATE COLLECTION GATE ======================= -->
+  <section id="view-vault" class="view scroll-view" hidden aria-label="Private collection">
+    <div class="view-inner narrow-inner">
+      <div class="vault-card">
+        <span class="vault-glyph" aria-hidden="true">&#128274;</span>
+        <h2 class="vault-title" id="vault-title">Private collection</h2>
+        <p class="vault-note" id="vault-note"></p>
+        <form id="vault-form" class="vault-form" autocomplete="off">
+          <label class="vault-field">
+            <span>Account name</span>
+            <input type="text" id="vault-account" autocomplete="off" spellcheck="false" required>
+          </label>
+          <label class="vault-field">
+            <span>Passphrase</span>
+            <input type="password" id="vault-pass" autocomplete="off" required>
+          </label>
+          <p class="vault-error" id="vault-error" role="alert" hidden></p>
+          <button type="submit" class="cta-primary" id="vault-submit">Open</button>
+        </form>
+        <p class="vault-foot">There is no recovery and no reset. The passphrase is the key itself, not a password checked against a list.</p>
+      </div>
     </div>
   </section>
 
@@ -363,5 +394,6 @@
 <script src="/js/lenses.js" defer></script>
 <script src="/js/diagrams.js" defer></script>
 <script src="/js/chart.js" defer></script>
+<script src="/js/vault.js" defer></script>
 </body>
 </html>

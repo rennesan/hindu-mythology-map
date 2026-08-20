@@ -1656,3 +1656,84 @@ body.is-expanded #view-map {
   text-transform: uppercase;
   font-size: 10.5px;
 }
+
+/* ---------------- private collections ---------------- */
+.narrow-inner { max-width: 560px; }
+.unlock-row {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 34px; padding-top: 20px;
+  border-top: 1px solid var(--hairline);
+}
+.unlock-row input {
+  font: inherit; font-size: 13px;
+  background: var(--bg-raised-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 14px;
+  color: var(--ink);
+  width: 170px;
+}
+.unlock-row input::placeholder { color: var(--ink-faint); }
+.unlock-msg { font-size: 12.5px; color: var(--gold-strong); }
+.pantheon-card.is-private { border-color: var(--gold-line); }
+.vault-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--gold-line);
+  border-radius: 20px;
+  padding: 42px 34px 34px;
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+  margin-top: 40px;
+}
+.vault-glyph { font-size: 34px; }
+.vault-title {
+  font-family: var(--serif);
+  font-size: 28px; font-weight: 600;
+  color: var(--ink-strong);
+  margin-top: 12px;
+}
+.vault-note {
+  font-size: 13.5px; color: var(--ink-muted);
+  margin-top: 12px; line-height: 1.65;
+}
+.vault-form { margin-top: 26px; text-align: left; }
+.vault-field { display: block; margin-bottom: 14px; }
+.vault-field span {
+  display: block;
+  font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 6px;
+}
+.vault-field input {
+  font: inherit; font-size: 15px;
+  width: 100%;
+  background: var(--bg-raised-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 11px 14px;
+  color: var(--ink);
+}
+.vault-field input:focus-visible { border-color: var(--gold); }
+.vault-error {
+  font-size: 13px;
+  color: var(--edge-enemy);
+  background: var(--bg-raised-2);
+  border: 1px solid var(--edge-enemy);
+  border-radius: 9px;
+  padding: 9px 12px;
+  margin-bottom: 12px;
+}
+#vault-submit { width: 100%; justify-content: center; }
+.vault-foot {
+  font-size: 12px; color: var(--ink-faint);
+  margin-top: 20px;
+}
+@media (max-width: 700px) {
+  .unlock-row { flex-wrap: wrap; }
+  .vault-card { padding: 30px 20px 24px; }
+}
+
+/* the portal shows no pantheon-scoped chrome */
+body.on-hub .tabs,
+body.on-hub .search,
+body.on-hub .tray-btn { display: none; }
+body.on-hub .topbar { justify-content: space-between; }
