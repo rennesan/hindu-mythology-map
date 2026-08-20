@@ -1,0 +1,522 @@
+{
+ "title": "Aztec Mythology: Figures, Relationships and Story Cycles",
+ "description": "The Mexica pantheon mapped as a relationship graph: Ometeotl and the four Tezcatlipocas, the Five Suns and their destructions, the making of people from ground bone and divine blood, and the gods of the Templo Mayor.",
+ "generated": "2026-08-20",
+ "sources": [
+  "Lewis Spence, The Myths of Mexico and Peru (1913) and The Civilization of Ancient Mexico (1912)",
+  "Hartley Burr Alexander, Latin-American Mythology (1920)",
+  "Bernal Diaz del Castillo, The True History of the Conquest of New Spain, tr. Maudslay (1908)",
+  "William H. Prescott, History of the Conquest of Mexico (1843)",
+  "Encyclopaedia Britannica and Wikipedia for cross-checking Nahuatl forms and modern archaeology"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/aztec/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "spence": {
+   "t": "The Myths of Mexico and Peru",
+   "tr": "Lewis Spence, 1913",
+   "u": "https://sacred-texts.com/nam/mmp/index.htm"
+  },
+  "alexander": {
+   "t": "Latin-American Mythology (Mythology of All Races XI)",
+   "tr": "Hartley Burr Alexander, 1920",
+   "u": "https://archive.org/details/mythologyofallra11alex"
+  },
+  "civ": {
+   "t": "The Civilization of Ancient Mexico",
+   "tr": "Lewis Spence, 1912",
+   "u": "https://archive.org/details/civilizationofan00spen"
+  },
+  "diaz": {
+   "t": "The True History of the Conquest of New Spain",
+   "tr": "A. P. Maudslay, 1908",
+   "u": "https://archive.org/details/truehistoryofcon01diaz"
+  },
+  "prescott": {
+   "t": "History of the Conquest of Mexico",
+   "tr": "William H. Prescott, 1843",
+   "u": "https://www.gutenberg.org/ebooks/39473"
+  }
+ },
+ "meta": {
+  "id": "aztec",
+  "label": "Aztec",
+  "sublabel": "Mexica & Nahua",
+  "accent": "#9fb87a",
+  "root": "ometeotl"
+ },
+ "profile": {
+  "cosmicNature": "Cyclical and catastrophic. Four worlds have already been created and destroyed - by jaguars, by wind, by fire and by flood - and we live in the fifth sun, which is scheduled to end in earthquakes. Each destruction is total, and each new sun requires the gods to start again. Time is not a line or a wheel but a sequence of failed attempts, and the present one is not expected to be the exception.",
+  "natureOfDivinity": "Dual and shifting. The highest principle, Ometeotl, is a single being who is simultaneously lord and lady, and the pattern repeats downward: gods hold contradictory aspects, appear in four directional colours, and wear one another's attributes. A deity can be impersonated - the ixiptla, a person dressed and treated as the god for a period and then sacrificed as him - so divinity is something that can be worn as well as possessed.",
+  "afterlife": "Determined by how you die, not how you lived. Ordinary death means four years of trials through the nine levels of Mictlan before dissolution. Those taken by water or lightning go to Tlaloc's green paradise. Warriors who fall in battle and women who die in childbirth - counted as fallen warriors - accompany the sun across the sky. Infants go to a tree that drips milk. There is no judgment and no reward for virtue.",
+  "systemMechanism": "Debt and repayment. The gods destroyed themselves to make this world: Quetzalcoatl bled his own genitals over ground bones to make people, and the whole assembly at Teotihuacan died so the sun would move. Human sacrifice is the repayment of that specific debt and the fuel that keeps the fifth sun in motion - not the appeasement of an angry god but the settling of an account, which is how the sources themselves frame it.",
+  "canonTexts": "Sahagun's Florentine Codex, compiled from Nahua informants in the sixteenth century; the Codex Borgia and other pictorial codices; the Codex Chimalpopoca, containing the Leyenda de los Soles; Duran's histories; and the Spanish chronicles, which must be read as conquest documents."
+ },
+ "hierarchy": [],
+ "groups": [],
+ "stories": [],
+ "entities": [
+  {
+   "id": "ometeotl",
+   "name": "Ometeotl",
+   "sanskrit": "Ōmeteōtl",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The dual god, lord and lady in one",
+   "wikipedia": "Ometeotl",
+   "portrait": "portraits/aztec/ometeotl.webp",
+   "epithets": [
+    "Ometecuhtli and Omecihuatl",
+    "Lord and Lady of Duality",
+    "Tloque Nahuaque, Lord of the Near and Nigh"
+   ],
+   "domains": [
+    "duality",
+    "the origin of the four creators",
+    "the thirteenth heaven"
+   ],
+   "symbols": [
+    "the paired figures",
+    "the number two",
+    "Omeyocan, the place of duality"
+   ],
+   "mount": null,
+   "abode": "Omeyocan, the highest heaven",
+   "festivals": [],
+   "worship": "",
+   "bio": "A single being who is simultaneously male and female, from whom the four creator gods descend, and who is not worshipped.",
+   "longBio": "Ometeotl - the name means two-god - occupies the thirteenth and highest heaven, Omeyocan, and is at once Ometecuhtli, Lord Two, and Omecihuatl, Lady Two. The principle it expresses runs all the way down the Aztec system: things are constituted by paired opposites held together rather than resolved. From this being come the four Tezcatlipocas, the creator gods of the four directions, and everything after. Ometeotl has no temple, no priesthood, no festival and no sacrifices, being too remote for cult, and is addressed instead in the philosophical poetry as Tloque Nahuaque, the lord of the near and the nigh. Whether the Nahua really held a single supreme dual deity, or whether the concept was sharpened by later interpreters, is genuinely disputed.",
+   "variantTraditions": "Some modern scholars argue Ometeotl as a unified supreme being is partly a construction of twentieth-century interpreters reading the sources through a monotheising lens; the paired Ometecuhtli and Omecihuatl are securely attested.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator"
+   ]
+  },
+  {
+   "id": "tezcatlipoca",
+   "name": "Tezcatlipoca",
+   "sanskrit": "Tezcatlipōca",
+   "category": "creator",
+   "era": "The Five Suns",
+   "role": "Smoking Mirror; god of night, fate, kingship and discord",
+   "wikipedia": "Tezcatlipoca",
+   "portrait": "portraits/aztec/tezcatlipoca.webp",
+   "epithets": [
+    "Smoking Mirror",
+    "Lord of the Near and the Nigh",
+    "Yaotl, the Enemy",
+    "Titlacauan, We Are His Slaves"
+   ],
+   "domains": [
+    "night",
+    "sorcery",
+    "rulership",
+    "fate",
+    "conflict",
+    "the jaguar"
+   ],
+   "symbols": [
+    "the obsidian mirror",
+    "the smoking foot",
+    "the jaguar",
+    "black face-paint"
+   ],
+   "mount": null,
+   "abode": "Everywhere, unseen",
+   "festivals": [
+    "Toxcatl, at which his year-long impersonator was sacrificed"
+   ],
+   "worship": "His Toxcatl festival was the most theologically striking rite in Mesoamerica: a captive was chosen for beauty, treated as the god for a year, taught flute and courtly manners, given four wives, and then climbed a small pyramid alone, breaking a flute on each step, to be sacrificed at the top.",
+   "bio": "The most powerful and least predictable of the gods: he gives and removes rulership, sees everything in his mirror, and lost a foot to the earth monster.",
+   "longBio": "Tezcatlipoca is the black Tezcatlipoca of the north and the most feared god of the pantheon. His obsidian mirror shows him everything anyone does, and he uses it: he grants rulers their position and takes it away on a whim, tempts people into ruin, and is invoked in the fatalistic Nahua poetry as the one in whose hands we are slaves. He and Quetzalcoatl are permanent antagonists who nonetheless cooperate to make the world - together they tear the earth monster Cipactli apart to form earth and sky, and he loses a foot to her in the process, which is why he is shown with a smoking mirror or a bone where the foot should be. He was the first sun, and Quetzalcoatl knocked him out of the sky.",
+   "variantTraditions": "The four Tezcatlipocas of the four directions - black, red, white and blue - are Tezcatlipoca, Xipe Totec, Quetzalcoatl and Huitzilopochtli in one common scheme, which makes the antagonists brothers and aspects at once.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "primordial-adversary",
+    "fate-time",
+    "king-ruler",
+    "moon"
+   ]
+  },
+  {
+   "id": "quetzalcoatl",
+   "name": "Quetzalcoatl",
+   "sanskrit": "Quetzalcōātl",
+   "category": "creator",
+   "era": "The Five Suns",
+   "role": "Feathered Serpent; god of wind, learning, and the making of people",
+   "wikipedia": "Quetzalcoatl",
+   "portrait": "portraits/aztec/quetzalcoatl.webp",
+   "epithets": [
+    "Feathered Serpent",
+    "Precious Twin",
+    "Ehecatl, the Wind",
+    "Lord of the Dawn"
+   ],
+   "domains": [
+    "wind",
+    "learning and writing",
+    "priesthood",
+    "the creation of humanity",
+    "maize"
+   ],
+   "symbols": [
+    "the plumed serpent",
+    "the conch-shell wind jewel",
+    "the red buccal mask",
+    "the twin"
+   ],
+   "mount": null,
+   "abode": "Tollan, and afterwards the eastern sea",
+   "festivals": [],
+   "worship": "His round temples, unlike the usual rectangular form, were built so the wind could pass around them. Offerings were of snakes, butterflies and jade rather than human hearts, at least in the traditions that emphasise his opposition to sacrifice.",
+   "bio": "He went down to Mictlan for the bones of the last humanity and bled himself over them to make people, and later left Tollan in disgrace.",
+   "longBio": "Quetzalcoatl is the white Tezcatlipoca of the west and the closest thing in the pantheon to a benefactor. After the fourth sun ends, he descends to Mictlan to retrieve the bones of the previous humanity, tricks the lord of the dead into surrendering them, drops and shatters them when quail startle him, and grinds the fragments; then he bleeds his own penis over the meal, and from that people are made. He gives them maize, stolen from inside a mountain in the form of an ant. As the priest-king Topiltzin at Tollan he forbids human sacrifice, and Tezcatlipoca destroys him by getting him drunk on pulque so that he sleeps with his sister; he burns himself, or sails east on a raft of serpents, promising to return.",
+   "variantTraditions": "The identification of the god, the historical Toltec ruler Topiltzin Quetzalcoatl and the returning-god prophecy that supposedly aided Cortes are three separate matters, and the last is now widely regarded as a post-conquest construction.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "wind-storm",
+    "wisdom-craft",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "huitzilopochtli",
+   "name": "Huitzilopochtli",
+   "sanskrit": "Huitzilōpōchtli",
+   "category": "creator",
+   "era": "Migration",
+   "role": "Hummingbird of the South; war god of the Mexica",
+   "wikipedia": "Huitzilopochtli",
+   "portrait": "portraits/aztec/huitzilopochtli.webp",
+   "epithets": [
+    "Hummingbird of the Left",
+    "The Portentous One",
+    "Lord of the Sun and War"
+   ],
+   "domains": [
+    "war",
+    "the sun at its height",
+    "the Mexica people",
+    "sacrifice"
+   ],
+   "symbols": [
+    "the hummingbird",
+    "the fire serpent Xiuhcoatl",
+    "the blue face-paint",
+    "the eagle on the cactus"
+   ],
+   "mount": null,
+   "abode": "The Templo Mayor at Tenochtitlan",
+   "festivals": [
+    "Panquetzaliztli, the raising of banners, in his month"
+   ],
+   "worship": "The Templo Mayor at the centre of Tenochtitlan, rebuilt seven times, each larger. His cult was inseparable from the Mexica state and did not survive it.",
+   "bio": "Born armed to defend his mother from his four hundred siblings, he led the Mexica to their island and demanded the sun be fed.",
+   "longBio": "Huitzilopochtli is the blue Tezcatlipoca of the south, and unlike the others he is a latecomer with no great presence outside the Mexica - which is precisely the point: he is a tribal god who rose with the tribe. He is born fully armed at Coatepec when his mother Coatlicue conceives from a ball of feathers and his sister Coyolxauhqui leads four hundred brothers to kill her for the shame; he emerges, kills his sister, dismembers her and throws her down the hill, and scatters the brothers. He leads the wandering Mexica for generations to the sign of an eagle on a cactus, where they found Tenochtitlan. As the sun in his daily fight he requires feeding, and the state cult built on that requirement.",
+   "variantTraditions": "The Templo Mayor was a double pyramid to Huitzilopochtli and Tlaloc together - war and rain, the two things the state depended on - and the Coyolxauhqui stone lay at the foot of his stair, so that victims thrown down landed on her.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "war",
+    "sun",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "xipetotec",
+   "name": "Xipe Totec",
+   "sanskrit": "Xīpe Totēc",
+   "category": "creator",
+   "era": "The Five Suns",
+   "role": "Our Lord the Flayed One; god of renewal and the spring",
+   "wikipedia": "Xipe Totec",
+   "portrait": "portraits/aztec/xipetotec.webp",
+   "epithets": [
+    "Our Lord the Flayed One",
+    "The Night Drinker",
+    "Red Tezcatlipoca"
+   ],
+   "domains": [
+    "spring",
+    "renewal",
+    "seed",
+    "goldsmiths",
+    "the shedding of skin"
+   ],
+   "symbols": [
+    "the flayed skin worn as a garment",
+    "the golden colour of new maize",
+    "the pointed cap"
+   ],
+   "mount": null,
+   "abode": "The east",
+   "festivals": [
+    "Tlacaxipehualiztli, the Flaying of Men, in the second month"
+   ],
+   "worship": "",
+   "bio": "He flayed himself to feed humanity, and his priests wore the skins of victims for twenty days until they rotted away.",
+   "longBio": "Xipe Totec is the red Tezcatlipoca of the east, and his rite is the one that most disturbs modern readers and which has the most coherent internal logic. He flayed his own skin to give people food - the seed corn's husk splitting to let the new plant through is the image, and the god's flayed body is the seed. At his festival, Tlacaxipehualiztli, captives were sacrificed and their skins worn by priests and by penitents for twenty days, turning yellow and rotting, and then removed and buried; the man who emerged from the stinking skin was the new green shoot coming out of the dead husk. He is patron of goldsmiths, gold being the colour of the maize, and of those with skin and eye diseases.",
+   "variantTraditions": "Xipe Totec is much older than the Mexica and appears widely across Mesoamerica; the sixteenth-century descriptions are Sahagun's informants describing rites within living memory.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother",
+    "wisdom-craft",
+    "healer"
+   ]
+  },
+  {
+   "id": "cipactli",
+   "name": "Cipactli",
+   "sanskrit": "Cipactli",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The earth monster torn in two to make the world",
+   "wikipedia": "Cipactli",
+   "portrait": "portraits/aztec/cipactli.webp",
+   "epithets": [
+    "The Crocodile",
+    "The Earth Monster",
+    "The Insatiable"
+   ],
+   "domains": [
+    "the primordial waters",
+    "the body that became the world",
+    "endless hunger"
+   ],
+   "symbols": [
+    "the crocodile or fish-lizard",
+    "mouths at every joint"
+   ],
+   "mount": null,
+   "abode": "The primordial sea, then the world itself",
+   "festivals": [],
+   "worship": "",
+   "bio": "A crocodilian monster with mouths at every joint, torn apart by Quetzalcoatl and Tezcatlipoca to form earth and sky.",
+   "longBio": "Before the world there is only water, and in it Cipactli, a vast crocodilian creature with a mouth at every joint, devouring everything. Tezcatlipoca uses his own foot as bait to draw her up, and she takes it - which is why he is shown missing a foot - and while she is holding it he and Quetzalcoatl seize her and tear her in two, making the earth from one half and the sky from the other. The mountains are her spine, the rivers her tears, the caves her mouth, and the flowers her hair. But she was not killed, only divided, and she goes on being hungry: the earth cries out in the night for hearts and will not yield crops without blood. That is the theological root of the sacrificial economy.",
+   "variantTraditions": "Cipactli, Tlaltecuhtli and Coatlicue overlap as earth figures and are sometimes treated as one; the sources do not systematise them.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "primordial-adversary",
+    "earth-mother",
+    "serpent-dragon"
+   ]
+  },
+  {
+   "id": "tlaltecuhtli",
+   "name": "Tlaltecuhtli",
+   "sanskrit": "Tlāltēuctli",
+   "category": "primordial",
+   "era": "Primordial",
+   "role": "The earth lord, who must be fed",
+   "wikipedia": "Tlaltecuhtli",
+   "portrait": "portraits/aztec/tlaltecuhtli.webp",
+   "epithets": [
+    "Earth Lord",
+    "The One Who Devours"
+   ],
+   "domains": [
+    "the surface of the earth",
+    "the swallowing of the dead and the sun",
+    "the demand for blood"
+   ],
+   "symbols": [
+    "the squatting birth posture",
+    "clawed hands and feet",
+    "a mouth full of flint knives"
+   ],
+   "mount": null,
+   "abode": "Underfoot",
+   "festivals": [],
+   "worship": "",
+   "bio": "The earth as a squatting, clawed, perpetually hungry being who swallows the sun each evening and demands hearts.",
+   "longBio": "Tlaltecuhtli is shown in a squatting posture that is simultaneously a birthing position and a crouch to spring, with clawed hands and feet and mouths at the elbows and knees, and the face is often a skull with flint-knife teeth. The earth in this conception is not a benign mother but a devourer that gives only because it is fed - it swallows the sun every evening and the bodies of the dead constantly, and it must be repaid. Sculptures of Tlaltecuhtli were carved on the undersides of monuments, facing the ground, so that the god was pressed against the earth she is. A monolith of her weighing over twelve tonnes was found at the Templo Mayor in 2006, still bearing its paint.",
+   "variantTraditions": "The gender is unstable: the name is masculine in form but the figure is regularly female in the imagery, and the sources use both.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "primordial-adversary",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "tlaloc",
+   "name": "Tlaloc",
+   "sanskrit": "Tlāloc",
+   "category": "deity",
+   "era": "The Five Suns",
+   "role": "God of rain, lightning and the mountains",
+   "wikipedia": "Tlaloc",
+   "portrait": "portraits/aztec/tlaloc.webp",
+   "epithets": [
+    "He Who Makes Things Sprout",
+    "Lord of Tlalocan"
+   ],
+   "domains": [
+    "rain",
+    "lightning",
+    "hail",
+    "drought",
+    "the green paradise of the drowned"
+   ],
+   "symbols": [
+    "goggle eyes",
+    "jaguar fangs",
+    "the lightning axe",
+    "the water jar"
+   ],
+   "mount": null,
+   "abode": "Tlalocan, and the mountaintops where clouds gather",
+   "festivals": [
+    "Atlcahualo and Tozoztontli, in the dry months before the rains"
+   ],
+   "worship": "Shrines on mountaintops where clouds form, and the northern half of the Templo Mayor. Offerings of jade, shells and copal, and of children.",
+   "bio": "Ancient rain god who shares the Templo Mayor with the war god, and whose paradise receives everyone taken by water.",
+   "longBio": "Tlaloc is far older than the Mexica - his goggle-eyed, fanged face runs back through Teotihuacan and beyond - and he shared the summit of the Templo Mayor with Huitzilopochtli, the two shrines side by side, because the state rested on rain and war equally. He keeps four jars in his mountain: one gives good rain, the others blight, frost and ruin, and he decides which to pour. Those killed by water, lightning, or diseases associated with water go to Tlalocan, a green place of endless summer and abundance, and are buried rather than cremated. His rites involved the sacrifice of children, whose tears were taken as an omen of rain - the sources are explicit, and the practice is archaeologically confirmed at the Templo Mayor.",
+   "variantTraditions": "The child sacrifices to Tlaloc are among the best-attested and grimmest details in the record, confirmed by excavated burials at the Templo Mayor with associated blue pigment and water symbolism.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "sea-waters",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "chalchiuhtlicue",
+   "name": "Chalchiuhtlicue",
+   "sanskrit": "Chālchiuhtlīcue",
+   "category": "deity",
+   "era": "The Five Suns",
+   "role": "She of the Jade Skirt; goddess of lakes, rivers and childbirth",
+   "wikipedia": "Chalchiuhtlicue",
+   "portrait": "portraits/aztec/chalchiuhtlicue.webp",
+   "epithets": [
+    "She of the Jade Skirt",
+    "Lady of the Green Waters"
+   ],
+   "domains": [
+    "standing water",
+    "rivers and lakes",
+    "childbirth",
+    "baptism"
+   ],
+   "symbols": [
+    "the jade skirt",
+    "the river with people in it",
+    "the water-lily"
+   ],
+   "mount": null,
+   "abode": "The lakes and rivers",
+   "festivals": [],
+   "worship": "",
+   "bio": "Goddess of surface water and consort of Tlaloc, whose sun ended in a flood and who washed newborns clean.",
+   "longBio": "Chalchiuhtlicue governs the water that lies on the ground - lakes, rivers, springs, the water of the womb - as against Tlaloc's water falling from the sky, and she is generally his consort or sister. She presided over the fourth sun, which ended when she wept blood for fifty-two years and the world drowned; the people of that age became fish. Her most everyday role was the bathing of newborn children, a rite Sahagun's informants describe in detail, in which the midwife invoked her to wash away the impurity a child was born with and the child was given its name. She is also a patron of the terrifying: sudden floods, drowning, and the whirlpool.",
+   "variantTraditions": "The order and attribution of the five suns differs between the Leyenda de los Soles and other sources; the flood-sun is consistently hers.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother",
+    "healer"
+   ]
+  },
+  {
+   "id": "coatlicue",
+   "name": "Coatlicue",
+   "sanskrit": "Cōātlīcue",
+   "category": "deity",
+   "era": "Migration",
+   "role": "She of the Serpent Skirt; mother of the war god",
+   "wikipedia": "Coatlicue",
+   "portrait": "portraits/aztec/coatlicue.webp",
+   "epithets": [
+    "Serpent Skirt",
+    "Mother of the Gods",
+    "Teteoinnan"
+   ],
+   "domains": [
+    "earth",
+    "birth and death together",
+    "the devouring ground"
+   ],
+   "symbols": [
+    "a skirt of woven snakes",
+    "a necklace of hands and hearts",
+    "twin serpent heads",
+    "clawed feet"
+   ],
+   "mount": null,
+   "abode": "Coatepec, the serpent hill",
+   "festivals": [],
+   "worship": "",
+   "bio": "Impregnated by a ball of feathers while sweeping, she was attacked by her own children and gave birth to Huitzilopochtli in time.",
+   "longBio": "Coatlicue is sweeping at the top of Coatepec when a ball of feathers drifts down; she tucks it into her waistband and it vanishes, and she is pregnant. Her daughter Coyolxauhqui takes this as unbearable shame and leads her four hundred brothers up the hill armed to kill her. As they reach the summit Huitzilopochtli is born fully grown and fully armed, kills his sister and throws her dismembered down the slope, and scatters the brothers into the sky as stars. The great statue of Coatlicue found in Mexico City in 1790 is one of the most formidable objects in any museum: nearly three metres of writhing stone, headless with two serpents rising from the neck, wearing hands and hearts. It was reburied twice because people found it too disturbing.",
+   "variantTraditions": "The 1790 statue's repeated reburial is documented; it was dug up, reburied by the university, exhumed for Humboldt, and reburied again before finally being displayed.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "coyolxauhqui",
+   "name": "Coyolxauhqui",
+   "sanskrit": "Coyolxāuhqui",
+   "category": "deity",
+   "era": "Migration",
+   "role": "She of the Golden Bells; the dismembered moon",
+   "wikipedia": "Coyolxauhqui",
+   "portrait": "portraits/aztec/coyolxauhqui.webp",
+   "epithets": [
+    "Painted with Bells",
+    "The Moon"
+   ],
+   "domains": [
+    "the moon",
+    "the failed rebellion",
+    "the dismembered body"
+   ],
+   "symbols": [
+    "golden bells on her cheeks",
+    "the severed limbs",
+    "the round stone at the stair's foot"
+   ],
+   "mount": null,
+   "abode": "The sky, in pieces",
+   "festivals": [],
+   "worship": "",
+   "bio": "She led her brothers against their mother and was cut apart by the newborn war god and thrown down the hill.",
+   "longBio": "Coyolxauhqui incites the four hundred Huitznahua to kill Coatlicue for the shame of her pregnancy, and is the first to die for it: Huitzilopochtli, born armed, strikes her with the fire serpent Xiuhcoatl, cuts off her head and dismembers her, and her body tumbles down Coatepec coming apart as it goes. Her head is thrown into the sky and becomes the moon. The Mexica built this into architecture with unusual literalism: a great stone disc carved with her dismembered body lay at the foot of the Templo Mayor's stairway, so that sacrificial victims thrown down the steps landed on it, re-enacting the myth every time. The stone was found by electrical workers in 1978, and that discovery began the excavation of the Templo Mayor.",
+   "variantTraditions": "The 1978 discovery of the Coyolxauhqui stone is what prompted the demolition of a city block and the full excavation of the Templo Mayor site.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "primordial-adversary"
+   ]
+  }
+ ],
+ "links": []
+}
