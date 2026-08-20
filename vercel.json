@@ -46,6 +46,10 @@
    "destination": "/norse/index.html"
   },
   {
+   "source": "/mesopotamian/:path*",
+   "destination": "/mesopotamian/index.html"
+  },
+  {
    "source": "/chinese/:path*",
    "destination": "/chinese/index.html"
   },

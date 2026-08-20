@@ -61,9 +61,14 @@
    "label": "Mesopotamian",
    "sublabel": "Sumerian, Akkadian & Babylonian",
    "accent": "#b98a5e",
-   "status": "planned",
+   "status": "live",
    "blurb": "The oldest written mythology: Enuma Elish, the Anunnaki, Inanna's descent, and the epic of Gilgamesh.",
-   "glyph": "✴"
+   "glyph": "✴",
+   "figures": 82,
+   "stories": 25,
+   "links": 152,
+   "levels": 8,
+   "cover": "portraits/mesopotamian/apsu.webp"
   },
   {
    "id": "chinese",
