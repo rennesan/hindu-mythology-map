@@ -74,9 +74,876 @@
   "systemMechanism": "The maintenance of maat - truth, order, balance - against isfet, chaos. The king exists to uphold maat by ritual, the gods uphold it in the cosmos, and every individual is judged on it at death. The great enemy is not a rival god with a claim to the throne but Apep, the serpent of unbeing, who attacks the solar barque every night and must be repelled again every night.",
   "canonTexts": "The Pyramid Texts, Coffin Texts and Book of the Dead, temple inscriptions at Edfu, Dendera and Abydos, the Memphite Theology of the Shabaka Stone, and the narrative papyri, with Plutarch's Isis and Osiris preserving the fullest connected account of the Osiris myth."
  },
- "hierarchy": [],
- "groups": [],
- "stories": [],
+ "hierarchy": [
+  {
+   "title": "The Primordial Water",
+   "blurb": "Before anything, a dark limitless water without current or surface. It is never destroyed: the created world is a bubble of order inside it, and it is still there under every well and behind every flood.",
+   "memberIds": [
+    "nun",
+    "tatenen",
+    "mehet-weret",
+    "kek"
+   ],
+   "connectorCaption": "A mound rises from the water, and the self-created god stands on it"
+  },
+  {
+   "title": "The Self-Created and the Sun",
+   "blurb": "The first god brings himself into being on the mound and makes the rest from his own body. The sun's daily course - scarab at dawn, disc at noon, Atum at evening - is that first morning repeated without end.",
+   "memberIds": [
+    "atum",
+    "ra",
+    "khepri",
+    "amun",
+    "ptah"
+   ],
+   "connectorCaption": "Air and moisture are the first pair; earth and sky are their children"
+  },
+  {
+   "title": "The Ennead of Heliopolis",
+   "blurb": "Shu the air separates Geb the earth from Nut the sky and holds them apart, which is what makes a world with room in it. Their four children carry the quarrel that shapes everything after.",
+   "memberIds": [
+    "shu",
+    "tefnut",
+    "geb",
+    "nut"
+   ],
+   "connectorCaption": "Their children divide into the murdered king and his murderer"
+  },
+  {
+   "title": "The Osirian Generation",
+   "blurb": "A king is killed by his brother, gathered up by his wife, and made ruler of the dead rather than the living; his son takes the earthly throne. Every royal succession afterwards repeats it.",
+   "memberIds": [
+    "osiris",
+    "isis",
+    "set",
+    "nephthys",
+    "horus"
+   ],
+   "connectorCaption": "Beneath them, the great gods of the cities, each claiming the creation"
+  },
+  {
+   "title": "The Gods of the Cities",
+   "blurb": "Memphis, Hermopolis, Thebes, Sais and Dendera each held a theology of their own, and Egypt never chose between them. Ptah creates by speech, Thoth by writing, Neith by weaving.",
+   "memberIds": [
+    "thoth",
+    "hathor",
+    "sekhmet",
+    "neith",
+    "khnum",
+    "sobek",
+    "mut"
+   ],
+   "connectorCaption": "And at the edges: what guards the living, judges the dead, and threatens both"
+  },
+  {
+   "title": "Guardians, the Duat and its Adversaries",
+   "blurb": "The household gods who ward off harm, the officers of the judgment hall, and the serpent of unbeing who attacks the sun every night and must be driven back every night.",
+   "memberIds": [
+    "anubis",
+    "maat",
+    "taweret",
+    "bes",
+    "ammit",
+    "apep"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "ennead",
+   "label": "The Ennead of Heliopolis",
+   "memberIds": [
+    "atum",
+    "shu",
+    "tefnut",
+    "geb",
+    "nut",
+    "osiris",
+    "isis",
+    "set",
+    "nephthys"
+   ]
+  },
+  {
+   "id": "theban",
+   "label": "The Theban Triad",
+   "memberIds": [
+    "amun",
+    "mut",
+    "khonsu"
+   ]
+  },
+  {
+   "id": "memphite",
+   "label": "The Memphite Triad",
+   "memberIds": [
+    "ptah",
+    "sekhmet",
+    "nefertum"
+   ]
+  },
+  {
+   "id": "cataract",
+   "label": "The Cataract Triad",
+   "memberIds": [
+    "khnum",
+    "satis",
+    "anuket"
+   ]
+  },
+  {
+   "id": "twoladies",
+   "label": "The Two Ladies",
+   "memberIds": [
+    "wadjet",
+    "nekhbet"
+   ]
+  },
+  {
+   "id": "barque",
+   "label": "The Crew of the Solar Barque",
+   "memberIds": [
+    "ra",
+    "set",
+    "heka",
+    "sia",
+    "maat",
+    "thoth"
+   ]
+  },
+  {
+   "id": "judgment",
+   "label": "The Hall of Judgment",
+   "memberIds": [
+    "osiris",
+    "anubis",
+    "thoth",
+    "maat",
+    "ammit"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "first-mound",
+   "title": "The Mound Rises from the Water",
+   "era": "Primordial",
+   "cast": [
+    "nun",
+    "atum",
+    "tatenen",
+    "bennu",
+    "ra"
+   ],
+   "summary": "Before anything there is Nun: dark water without current, surface or limit. Out of it a mound of earth rises, and on that mound the self-created god comes into being - Atum at Heliopolis, standing on the benben. A heron alights on the stone and its cry breaks the silence, deciding what will and will not exist. The mound is Tatenen, the risen land, and it remains a place rather than an event: every temple in Egypt was built to represent it, with the floor rising and the ceiling lowering toward the sanctuary so that the innermost room stands on the first ground. Nun is not destroyed by any of this. He surrounds the world still, which is why order has to be defended rather than assumed.",
+   "sources": [
+    {
+     "book": "Development of Religion and Thought in Ancient Egypt",
+     "translation": "James Henry Breasted, 1912",
+     "location": "Chapter 1, the Heliopolitan cosmogony",
+     "url": "https://archive.org/details/developmentofrel00brea"
+    },
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 1, chapter 8",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    }
+   ]
+  },
+  {
+   "id": "atum-creates",
+   "title": "Atum Makes the First Pair",
+   "era": "Creation",
+   "cast": [
+    "atum",
+    "shu",
+    "tefnut",
+    "nun",
+    "heka"
+   ],
+   "summary": "Alone on the mound with no partner, Atum produces the first two gods from his own body. The Pyramid Texts say plainly that he took his phallus in his hand and that Shu and Tefnut came from his seed; later editors, evidently uncomfortable, have him spit or sneeze them out instead, and the puns on the verbs are preserved either way. Shu is air and Tefnut moisture, the two conditions that make the difference between desert and living land. Heka, the force that makes an utterance effective, and Sia and Hu, perception and the authoritative word, are present in the act - Egyptian creation is done by conceiving a thing and then saying it, and the faculties involved are themselves gods.",
+   "sources": [
+    {
+     "book": "Development of Religion and Thought in Ancient Egypt",
+     "translation": "James Henry Breasted, 1912",
+     "location": "Chapter 2, Pyramid Text 1248",
+     "url": "https://archive.org/details/developmentofrel00brea"
+    },
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 1, chapter 9",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    }
+   ]
+  },
+  {
+   "id": "separation",
+   "title": "Shu Lifts the Sky",
+   "era": "Creation",
+   "cast": [
+    "shu",
+    "geb",
+    "nut",
+    "tefnut",
+    "mehet-weret"
+   ],
+   "summary": "Geb the earth and Nut the sky are born locked together, and while they are joined there is no room for anything to happen. Shu steps between his children and pushes Nut upward, then stands with his arms raised holding her there for good. The image - a man kneeling with arms lifted, a woman arched above him touching the ground with fingers and toes, a man lying below with one knee raised to make the hills - is among the most reproduced in Egyptian art. Egypt reverses the arrangement most traditions use: the earth is male and the sky female. Nut is painted dark blue and covered with stars, and the sun sails across her each day and passes through her body each night.",
+   "sources": [
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 2, chapter 12",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    },
+    {
+     "book": "Development of Religion and Thought in Ancient Egypt",
+     "translation": "James Henry Breasted, 1912",
+     "location": "Chapter 2",
+     "url": "https://archive.org/details/developmentofrel00brea"
+    }
+   ]
+  },
+  {
+   "id": "five-days",
+   "title": "The Five Days Won from the Moon",
+   "era": "Creation",
+   "cast": [
+    "nut",
+    "thoth",
+    "ra",
+    "geb",
+    "osiris",
+    "isis",
+    "set",
+    "nephthys",
+    "haroeris",
+    "sopdet"
+   ],
+   "summary": "Ra, told that Nut's children will displace him, curses her not to give birth on any day of any month of the year. Thoth plays a game with the moon and wins from it a seventieth part of each of its lights, out of which he makes five whole days and adds them to the calendar, days belonging to no month and so outside the curse. On those five days Nut bears Osiris, Horus the Elder, Set, Isis and Nephthys, one each. This is the Egyptian explanation for the five epagomenal days appended to the 360-day civil year, and it is Plutarch who preserves it in full - a Greek writer explaining an Egyptian calendar by way of an Egyptian myth.",
+   "sources": [
+    {
+     "book": "Plutarch, Isis and Osiris (Moralia V)",
+     "translation": "William W. Goodwin, 1874",
+     "location": "sections 12-13",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Isis_and_Osiris*.html"
+    }
+   ]
+  },
+  {
+   "id": "murder-osiris",
+   "title": "The Murder of Osiris",
+   "era": "Osirian",
+   "cast": [
+    "osiris",
+    "set",
+    "isis",
+    "nephthys",
+    "anubis"
+   ],
+   "summary": "Osiris rules Egypt well, teaching agriculture and law. Set has a chest made to the exact measure of his brother's body, brings it to a banquet, and offers it to whoever fits; when Osiris lies down in it the conspirators nail it shut, seal it with lead and throw it into the Nile. It drifts to Byblos and lodges in a tamarisk that grows around it and is cut for a palace pillar. Isis recovers it, but Set finds the body again while she sleeps, cuts it into fourteen pieces and scatters them the length of Egypt. Egyptian sources give the episodes scattered across funerary texts and rarely tell it straight through; the connected narrative comes from Plutarch, writing centuries later and in Greek terms.",
+   "sources": [
+    {
+     "book": "Plutarch, Isis and Osiris (Moralia V)",
+     "translation": "William W. Goodwin, 1874",
+     "location": "sections 13-18",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Isis_and_Osiris*.html"
+    },
+    {
+     "book": "Legends of the Gods",
+     "translation": "E. A. Wallis Budge, 1912",
+     "location": "The Legend of Osiris",
+     "url": "https://sacred-texts.com/egy/leg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "gathering",
+   "title": "Isis Gathers the Pieces",
+   "era": "Osirian",
+   "cast": [
+    "isis",
+    "nephthys",
+    "osiris",
+    "anubis",
+    "thoth",
+    "horus"
+   ],
+   "summary": "Isis and Nephthys search Egypt in the form of kites, and their wailing is the sound the ritual mourners imitated. They find every piece but the phallus, which a fish in the Nile has eaten, and Isis fashions a replacement. With Anubis she binds the body - the first embalming, and the origin of the practice - and by her magic she revives it just long enough to conceive Horus. Osiris does not return to the living world. He becomes king of the Duat, and the son conceived from his corpse will claim the earthly throne instead. Every dead Egyptian afterwards hoped to be identified with Osiris and so to continue; every living king was Horus.",
+   "sources": [
+    {
+     "book": "Plutarch, Isis and Osiris (Moralia V)",
+     "translation": "William W. Goodwin, 1874",
+     "location": "sections 18-19",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Isis_and_Osiris*.html"
+    },
+    {
+     "book": "The Book of the Dead (Papyrus of Ani)",
+     "translation": "E. A. Wallis Budge, 1895",
+     "location": "Hymn to Osiris, Papyrus of Ani",
+     "url": "https://sacred-texts.com/egy/ebod/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "marshes",
+   "title": "The Child in the Marshes",
+   "era": "Osirian",
+   "cast": [
+    "isis",
+    "horus",
+    "set",
+    "serqet",
+    "wadjet",
+    "thoth",
+    "ra"
+   ],
+   "summary": "Isis hides in the papyrus marshes of Chemmis to raise Horus out of Set's reach, guarded by Wadjet and accompanied by seven scorpions Serqet sends with her. Turned away one night by a rich woman who fears the scorpions, and taken in by a poor one, the scorpions retaliate by stinging the rich woman's child, and Isis - who has every reason not to - cures it anyway. Later Horus himself is stung, and Isis' cry stops the solar barque in the sky; Ra sends Thoth, who will not let the sun move again until the child is well. The episode became the model for a whole genre of healing spells, recited over the sick on the principle that what worked for Horus works again.",
+   "sources": [
+    {
+     "book": "Legends of the Gods",
+     "translation": "E. A. Wallis Budge, 1912",
+     "location": "Isis and the Seven Scorpions",
+     "url": "https://sacred-texts.com/egy/leg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "contendings",
+   "title": "The Contendings of Horus and Set",
+   "era": "Osirian",
+   "cast": [
+    "horus",
+    "set",
+    "isis",
+    "neith",
+    "banebdjedet",
+    "geb",
+    "thoth",
+    "osiris",
+    "hathor"
+   ],
+   "summary": "The tribunal of gods hears the case for eighty years. Set argues strength; Horus argues descent. Neith is consulted by letter and finds for Horus, proposing Set be compensated with two foreign goddesses. Isis tricks Set into condemning himself and he demands she be excluded. The two contest in the form of hippopotami, then in a race of stone boats - Set carves his from a mountain and it sinks, Horus builds his of wood plastered to look like stone. There is an episode of attempted sexual humiliation that Isis turns back on Set entirely. Osiris finally writes from the underworld pointing out that the gods depend on the grain he controls, and the throne is awarded to Horus.",
+   "sources": [
+    {
+     "book": "Legends of the Gods",
+     "translation": "E. A. Wallis Budge, 1912",
+     "location": "The Contendings of Horus and Set",
+     "url": "https://sacred-texts.com/egy/leg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "eye-of-horus",
+   "title": "The Eye of Horus",
+   "era": "Osirian",
+   "cast": [
+    "horus",
+    "set",
+    "thoth",
+    "hathor"
+   ],
+   "summary": "In the fighting Set tears out Horus' eye and tramples or divides it. Thoth finds and restores it, or in another account Hathor heals it with gazelle's milk, and the made-whole eye is called the wedjat, the sound one. Horus offers it to his dead father, and that offering becomes the model for every offering made to the dead thereafter. The restored eye is the most common amulet in Egypt and the standard symbol of wholeness and healing; its parts were used as fractions in measuring grain, adding to slightly less than one, with the missing fraction supplied by Thoth. The moon's waxing and waning was explained as the same eye being damaged and healed each month.",
+   "sources": [
+    {
+     "book": "The Book of the Dead (Papyrus of Ani)",
+     "translation": "E. A. Wallis Budge, 1895",
+     "location": "Chapters 17 and 112",
+     "url": "https://sacred-texts.com/egy/ebod/index.htm"
+    },
+    {
+     "book": "Legends of the Gods",
+     "translation": "E. A. Wallis Budge, 1912",
+     "location": "The Contendings of Horus and Set",
+     "url": "https://sacred-texts.com/egy/leg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "weighing",
+   "title": "The Weighing of the Heart",
+   "era": "Osirian",
+   "cast": [
+    "anubis",
+    "thoth",
+    "maat",
+    "ammit",
+    "osiris",
+    "horus",
+    "meskhenet"
+   ],
+   "summary": "The dead person is led into the Hall of Two Truths by Anubis and makes the forty-two negative confessions before forty-two assessors: I have not stolen, I have not killed, I have not diminished the grain measure. The heart is then set on the scales against the single ostrich feather of Maat. Anubis adjusts the balance; Thoth stands ready with palette to record the reading; Ammit crouches beside the scales. A heart heavier than truth is eaten, and the person ceases to exist entirely - not tormented, ended, which Egyptians considered far worse. One who passes is led by Horus before Osiris and goes on to the Field of Reeds. Spells were included to keep the heart itself from testifying against its owner.",
+   "sources": [
+    {
+     "book": "The Book of the Dead (Papyrus of Ani)",
+     "translation": "E. A. Wallis Budge, 1895",
+     "location": "Chapters 30B and 125, Papyrus of Ani",
+     "url": "https://sacred-texts.com/egy/ebod/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "book-of-gates",
+   "title": "The Twelve Hours of the Night",
+   "era": "Solar",
+   "cast": [
+    "ra",
+    "apep",
+    "set",
+    "sokar",
+    "aker",
+    "osiris",
+    "heka"
+   ],
+   "summary": "At sunset Ra transfers from the day barque to the night barque and enters the Duat, which is divided into twelve hours, each a region with its own gate, its own guardians and its own password. The fourth and fifth hours belong to Sokar and are sand rather than water, so the barque must be dragged. In the seventh hour Apep attacks, and the crew - with Set in the prow with a spear, Heka supplying the force and Isis the spells - drives him off. In the deepest hour the sun's ba unites with the body of Osiris, and from that union the sun is renewed. At the twelfth gate the barque passes through the body of a serpent and emerges as the scarab at dawn.",
+   "sources": [
+    {
+     "book": "The Egyptian Heaven and Hell",
+     "translation": "E. A. Wallis Budge, 1905",
+     "location": "The Book of Am-Tuat, hours 1-12",
+     "url": "https://sacred-texts.com/egy/ehh/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "overthrowing-apep",
+   "title": "Overthrowing Apep",
+   "era": "Solar",
+   "cast": [
+    "apep",
+    "ra",
+    "set",
+    "aker",
+    "maat"
+   ],
+   "summary": "Apep is not a rival with a claim; he wants nothing and rules nothing. He is unbeing, and his single activity is to swallow the sun. He is never destroyed, only driven back, and the fight recurs the next night without end - which is the whole Egyptian view of order in one image. Storms, unseasonal darkness and eclipses were read as moments when he nearly succeeded. Temples countered him with ritual rather than narrative: the priest made a wax figure of the serpent, wrote its name on it, spat on it, cut it with a flint knife, wrapped it in papyrus and burned it, reciting as he went. The surviving Books of Overthrowing Apep are among the most vivid ritual texts from Egypt.",
+   "sources": [
+    {
+     "book": "Legends of the Gods",
+     "translation": "E. A. Wallis Budge, 1912",
+     "location": "The Book of Overthrowing Apep",
+     "url": "https://sacred-texts.com/egy/leg/index.htm"
+    },
+    {
+     "book": "The Egyptian Heaven and Hell",
+     "translation": "E. A. Wallis Budge, 1905",
+     "location": "Hour 7",
+     "url": "https://sacred-texts.com/egy/ehh/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "secret-name",
+   "title": "Isis and the Secret Name of Ra",
+   "era": "Solar",
+   "cast": [
+    "isis",
+    "ra",
+    "heka",
+    "horus"
+   ],
+   "summary": "Ra has grown old and dribbles at the mouth. Isis gathers the spittle where it falls, mixes it with earth, and shapes a serpent, which she leaves on the path the god walks. It bites him, and the poison is his own substance, so nothing in his power will answer it. Burning, he lists his names to her - maker of heaven, opener of the day, a hundred more - and none of them helps, because the cure requires the name he has never told anyone. Eventually he consents to let it pass from his breast into hers, on condition she reveal it only to her son Horus. She cures him, and thereafter holds the leverage. The story is a charter for magic itself: to know the true name is to have power over the thing.",
+   "sources": [
+    {
+     "book": "Legends of the Gods",
+     "translation": "E. A. Wallis Budge, 1912",
+     "location": "The Legend of Ra and Isis",
+     "url": "https://sacred-texts.com/egy/leg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "destruction-mankind",
+   "title": "The Destruction of Mankind",
+   "era": "Solar",
+   "cast": [
+    "ra",
+    "hathor",
+    "sekhmet",
+    "thoth",
+    "nut",
+    "mehet-weret"
+   ],
+   "summary": "Ra, aged, learns that mankind is plotting against him. He sends his Eye as Hathor to punish them, and as Sekhmet she slaughters across the desert and wades in blood, and having started she cannot be recalled. Ra repents. He has seven thousand jars of beer brewed and dyed red with ochre from Elephantine and poured out over the fields where she will hunt at dawn. She finds a flood the colour of blood, drinks it, becomes too drunk to continue, and humanity survives by three hours' work. Ra, done with the world, withdraws on the back of the celestial cow, and the arrangement of heaven and earth as it now stands dates from his going.",
+   "sources": [
+    {
+     "book": "Legends of the Gods",
+     "translation": "E. A. Wallis Budge, 1912",
+     "location": "The Book of the Heavenly Cow",
+     "url": "https://sacred-texts.com/egy/leg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "distant-goddess",
+   "title": "The Return of the Distant Goddess",
+   "era": "Solar",
+   "cast": [
+    "tefnut",
+    "thoth",
+    "onuris",
+    "ra",
+    "hathor",
+    "sekhmet"
+   ],
+   "summary": "The Eye of Ra quarrels with her father and withdraws into Nubia as a raging lioness. While she is gone the land suffers: no flood, no growth. Two gods go after her. Thoth follows and talks - he tells her fables, flatters her, argues, and slowly draws her home, which is the version that survives most fully. Onuris hunts her instead with lance and rope and brings her back by force as his consort. On her return she is met with music, dancing and drink to cool her from lioness back to Hathor, and her arrival is celebrated as the coming of the inundation. Different temples name the goddess differently - Tefnut, Hathor, Sekhmet, Mekhit - because each preferred its own.",
+   "sources": [
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 1, chapter 12",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    },
+    {
+     "book": "Legends of the Gods",
+     "translation": "E. A. Wallis Budge, 1912",
+     "location": "The Legend of the Winged Sun-Disk",
+     "url": "https://sacred-texts.com/egy/leg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "memphite-theology",
+   "title": "Ptah Speaks the World",
+   "era": "Creation",
+   "cast": [
+    "ptah",
+    "atum",
+    "tatenen",
+    "sia",
+    "heka",
+    "horus",
+    "thoth"
+   ],
+   "summary": "The Shabaka Stone carries a Memphite answer to Heliopolis, and it is one of the most striking texts to survive from the ancient world. Ptah creates not by any physical act but by conceiving a thing in his heart and naming it with his tongue, and everything that exists comes into being that way - including Atum and the Ennead, who are demoted to products rather than originators. The text explicitly assigns the heart to Horus and the tongue to Thoth as the faculties involved. It puts a theory of mind and language at the origin of the cosmos more than two millennia before comparable Greek formulations. The stone itself was later reused as a millstone, which destroyed the centre of the inscription.",
+   "sources": [
+    {
+     "book": "Development of Religion and Thought in Ancient Egypt",
+     "translation": "James Henry Breasted, 1912",
+     "location": "Chapter 2, the Memphite Theology",
+     "url": "https://archive.org/details/developmentofrel00brea"
+    }
+   ]
+  },
+  {
+   "id": "khnum-wheel",
+   "title": "Khnum at the Wheel",
+   "era": "Creation",
+   "cast": [
+    "khnum",
+    "heqet",
+    "meskhenet",
+    "hapi",
+    "satis"
+   ],
+   "summary": "Khnum sits at a potter's wheel and forms each human being out of Nile clay, shaping the body and the ka side by side so that the two come into the world together. Heqet, frog-headed, then breathes life into what he has made and hastens the delivery, and Meskhenet, who is the birthing brick itself, speaks the child's fate over it as it arrives. Temple birth scenes show the sequence performed for the infant king. Khnum's other office is the flood: he guards the caverns at the cataract from which the inundation was believed to issue, which put the annual question of whether Egypt would eat in the same hands as the making of its people.",
+   "sources": [
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 2, chapter 15",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    }
+   ]
+  },
+  {
+   "id": "famine-stela",
+   "title": "The Seven Years of Famine",
+   "era": "Historical",
+   "cast": [
+    "khnum",
+    "imhotep",
+    "khufu",
+    "satis",
+    "anuket",
+    "hapi"
+   ],
+   "summary": "The Famine Stela on Sehel Island tells of seven years in which the Nile failed to rise, the grain ran out and people robbed each other. The king consults his chief lector, who reports that the flood issues from caverns at Elephantine under the control of Khnum, and that the god is neglected. The king goes to the temple, sleeps there, and Khnum appears in a dream complaining that his sanctuary is in disrepair; the king restores it and endows the temple with land and revenue, and the flood returns. The stela presents itself as a Third Dynasty record but was carved in the Ptolemaic period, and it is best read as a priesthood asserting an ancient claim to the cataract revenues.",
+   "sources": [
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 2, chapter 15",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    }
+   ]
+  },
+  {
+   "id": "westcar",
+   "title": "The Tales of the Magicians",
+   "era": "Historical",
+   "cast": [
+    "khufu",
+    "djedi",
+    "ra",
+    "heqet",
+    "meskhenet",
+    "khnum",
+    "imhotep"
+   ],
+   "summary": "Khufu is bored, and his sons entertain him with stories of magicians under earlier kings: a wax crocodile thrown into water that becomes a real one and takes an adulterer; a chief lector who folds the water of a lake back on itself to retrieve a dropped pendant. Then the living magician Djedi is brought, aged a hundred and ten, who is said to reattach severed heads. Offered a prisoner, he refuses flatly - it may not be done to a human being - and performs it on a goose, a waterbird and an ox instead. He then prophesies that the secret chambers of Thoth will pass to three children about to be born to the wife of a priest of Ra, who will rule after Khufu's line. The papyrus breaks off during their birth.",
+   "sources": [
+    {
+     "book": "Egyptian Tales",
+     "translation": "W. M. Flinders Petrie, 1895",
+     "location": "The Tales of the Magicians, Papyrus Westcar",
+     "url": "https://sacred-texts.com/egy/eft/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "two-brothers",
+   "title": "The Tale of Two Brothers",
+   "era": "Historical",
+   "cast": [
+    "bata",
+    "anubis",
+    "ra",
+    "khnum",
+    "heqet"
+   ],
+   "summary": "Anpu's wife propositions his younger brother Bata; refused, she accuses him of assault, and Anpu waits behind the stable door with a knife. Warned by his own cattle, Bata flees, calls the sun god to judge between them, and proves his innocence in a way that leaves him maimed. In the Valley of the Cedar he hides his heart in a blossom at the top of a tree, so that his life is kept outside his body. The gods make him a wife; she betrays him, the tree is felled and he dies. Anpu searches years for the heart and revives him. Bata then becomes a bull and is slaughtered, becomes two persea trees and is cut down, and finally is reborn as his faithless wife's own son, who grows up to judge her.",
+   "sources": [
+    {
+     "book": "Egyptian Tales",
+     "translation": "W. M. Flinders Petrie, 1895",
+     "location": "The Tale of Two Brothers, Papyrus D'Orbiney",
+     "url": "https://sacred-texts.com/egy/eft/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "sinuhe",
+   "title": "The Story of Sinuhe",
+   "era": "Historical",
+   "cast": [
+    "sinuhe",
+    "amun",
+    "montu",
+    "imentet"
+   ],
+   "summary": "Overhearing that the king has been assassinated, Sinuhe panics for reasons the text never quite supplies and runs, nearly dying of thirst before Bedouin find him. In Retjenu he marries a chief's daughter, grows wealthy, and kills a champion who challenges him in single combat. Yet he cannot settle, because to die abroad is to be buried wrong, and what frightens him is not death but a foreign grave. The king writes offering him return. The reunion at court, where the royal children fail to recognise the sunburnt old man and shriek at the sight of him, is one of the finest passages to survive from the ancient world. He is washed, shaved, dressed, and given a tomb, and the story ends with the grave rather than the homecoming.",
+   "sources": [
+    {
+     "book": "Egyptian Tales",
+     "translation": "W. M. Flinders Petrie, 1895",
+     "location": "The Story of Sanehat",
+     "url": "https://sacred-texts.com/egy/eft/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "shipwrecked",
+   "title": "The Shipwrecked Sailor",
+   "era": "Historical",
+   "cast": [
+    "nun",
+    "hapi",
+    "amun"
+   ],
+   "summary": "A sailor, comforting an anxious official, tells of a voyage in which a storm sank his ship and he alone washed onto an island. For three days he lay under cover, then found figs, grapes, fish and fowl in such abundance that he made an offering. Then the trees broke and the ground shook, and a serpent thirty cubits long with a beard and lapis-inlaid brows came at him, took him gently in its mouth, and set him down unhurt. The serpent tells its own story of loss and gives him gifts, predicting that a ship will come in four months and that the island will vanish under the waves. It does. The tale is the oldest surviving fantastic voyage, and its frame - a story told to console someone dreading a report to the king - is unusually sophisticated.",
+   "sources": [
+    {
+     "book": "Egyptian Tales",
+     "translation": "W. M. Flinders Petrie, 1895",
+     "location": "The Shipwrecked Sailor",
+     "url": "https://sacred-texts.com/egy/eft/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "doomed-prince",
+   "title": "The Doomed Prince",
+   "era": "Historical",
+   "cast": [
+    "hathor",
+    "meskhenet",
+    "renenutet",
+    "ra"
+   ],
+   "summary": "A childless king prays for a son and is granted one, and at the birth the Hathors who declare fate say he will die by a crocodile, a snake or a dog. He is raised in an isolated house on the desert edge to keep the three away, but seeing a dog from the roof he demands one, and the king cannot refuse. Grown, he travels to Naharin, wins the daughter of a prince by leaping to her high window, and tells her his fate; she watches over him. She kills the snake that comes at night. His dog turns on him and he flees into the water, where the crocodile waits and offers him a bargain. The papyrus breaks off there, and no ending survives.",
+   "sources": [
+    {
+     "book": "Egyptian Tales",
+     "translation": "W. M. Flinders Petrie, 1895",
+     "location": "The Doomed Prince",
+     "url": "https://sacred-texts.com/egy/eft/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "anubis-embalming",
+   "title": "The First Embalming",
+   "era": "Osirian",
+   "cast": [
+    "anubis",
+    "isis",
+    "nephthys",
+    "osiris",
+    "thoth",
+    "imentet"
+   ],
+   "summary": "Anubis performs on the body of Osiris what no one has done before: he dries it, treats it with natron and resins, and wraps it in linen so that it will not decay, and the ritual he improvises becomes the fixed procedure for every Egyptian burial thereafter. Isis and Nephthys stand at head and foot as the two kites. The Opening of the Mouth is performed with an adze so that the mummy can breathe, eat and speak again. Embalmers afterwards wore the jackal mask and worked as Anubis; the seventy days of the process, the four jars for the viscera, the amulets laid between the layers of wrapping, and the placing of the heart back in the chest for the weighing all descend from this.",
+   "sources": [
+    {
+     "book": "The Book of the Dead (Papyrus of Ani)",
+     "translation": "E. A. Wallis Budge, 1895",
+     "location": "Chapter 23, the Opening of the Mouth",
+     "url": "https://sacred-texts.com/egy/ebod/index.htm"
+    },
+    {
+     "book": "Plutarch, Isis and Osiris (Moralia V)",
+     "translation": "William W. Goodwin, 1874",
+     "location": "sections 20-21",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Isis_and_Osiris*.html"
+    }
+   ]
+  },
+  {
+   "id": "abydos-mysteries",
+   "title": "The Mysteries at Abydos",
+   "era": "Osirian",
+   "cast": [
+    "osiris",
+    "isis",
+    "wepwawet",
+    "horus",
+    "set",
+    "anubis"
+   ],
+   "summary": "Once a year at Abydos the death and restoration of Osiris was performed in the open, and Egyptians of every class travelled to be present or set up a memorial stone so that they would share in it in perpetuity. Wepwawet's standard opened the way at the head of the procession. The god's image went out from the temple in a barque, the enemies of Osiris attacked it at a set place along the route, there was a ritual battle, and the god was mourned, buried and brought back in triumph. The site was believed to hold his head. The stelae crowding the processional route are the plainest evidence of how directly ordinary Egyptians expected to participate in the myth.",
+   "sources": [
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 2, chapter 13",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    },
+    {
+     "book": "Development of Religion and Thought in Ancient Egypt",
+     "translation": "James Henry Breasted, 1912",
+     "location": "Chapter 7",
+     "url": "https://archive.org/details/developmentofrel00brea"
+    }
+   ]
+  },
+  {
+   "id": "field-of-reeds",
+   "title": "The Field of Reeds",
+   "era": "Osirian",
+   "cast": [
+    "osiris",
+    "maat",
+    "imentet",
+    "hapi",
+    "renenutet"
+   ],
+   "summary": "Those who pass the weighing go on to the Field of Reeds, which is Egypt exactly as it is but without failure: the same river, the same fields, the same barley growing higher than a man, and no bad years. This is worth noticing - the Egyptian paradise is not elsewhere and not different in kind, it is the ordinary good life continued and made reliable. It requires work, which is why small figurines called shabtis were buried with the dead in numbers, inscribed with a spell instructing them to answer if the dead is called on for labour and to go in his place. Wealthy burials included one for every day of the year and overseers to manage them.",
+   "sources": [
+    {
+     "book": "The Book of the Dead (Papyrus of Ani)",
+     "translation": "E. A. Wallis Budge, 1895",
+     "location": "Chapters 6 and 110, Papyrus of Ani",
+     "url": "https://sacred-texts.com/egy/ebod/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "hathor-drunkenness",
+   "title": "The Festival of Drunkenness",
+   "era": "Solar",
+   "cast": [
+    "hathor",
+    "sekhmet",
+    "ra",
+    "ihy",
+    "bes"
+   ],
+   "summary": "The pacification of Sekhmet with red-dyed beer was not only told but re-enacted. At Dendera and elsewhere the Festival of Drunkenness had celebrants drink to genuine intoxication, sleep in the temple forecourt, and be woken at dawn by drumming to see the goddess - the point being to reach, deliberately and communally, a state in which the raging power becomes the gentle one. Music was central: the sistrum shaken by Ihy, whose rattling was believed to please her, and drums and dancing. Bes presided over the licence. It is one of the clearest cases in Egyptian religion of a myth existing to authorise a practice rather than the other way round.",
+   "sources": [
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 1, chapter 12",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    }
+   ]
+  },
+  {
+   "id": "apis-installation",
+   "title": "The Finding of the Apis",
+   "era": "Historical",
+   "cast": [
+    "apis",
+    "ptah",
+    "mnevis",
+    "ra",
+    "buchis",
+    "montu"
+   ],
+   "summary": "When the Apis bull died, priests went out across Egypt to find its successor: a black calf with a white triangle on the forehead, a crescent on the flank, a scarab-shaped mark under the tongue and other signs. The calf found was brought to Memphis with its mother, housed in a stall attached to Ptah's temple, fed, adorned, and consulted as an oracle - the way it moved, or which of two offered rooms it entered, was read as an answer. At death it was mummified with the apparatus of a royal funeral and interred in the Serapeum at Saqqara, a vast underground gallery of granite sarcophagi. Heliopolis kept the Mnevis for Ra and Armant the Buchis for Montu on the same pattern.",
+   "sources": [
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 2, chapter 14",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    }
+   ]
+  },
+  {
+   "id": "amarna",
+   "title": "Akhenaten and the Disc",
+   "era": "Historical",
+   "cast": [
+    "aten",
+    "ra",
+    "amun",
+    "mut",
+    "khonsu",
+    "mnevis"
+   ],
+   "summary": "Amenhotep IV renamed himself Akhenaten, moved the capital to a new city built on empty ground, and promoted the Aten - the visible disc of the sun - as the only god. Temples were closed, revenues diverted, and the name of Amun chiselled out of monuments the length of Egypt. The Aten is never shown as a person or an animal, only as a disc whose rays end in small hands, and those hands reach only the royal family, so that the king was the sole intermediary and the theology and the politics were the same move. The Great Hymn to the Aten is a genuinely fine poem. Within a generation of his death the city was abandoned, Amun restored, and Akhenaten struck from the king lists as the enemy.",
+   "sources": [
+    {
+     "book": "Development of Religion and Thought in Ancient Egypt",
+     "translation": "James Henry Breasted, 1912",
+     "location": "Chapter 9, the Aten and the Great Hymn",
+     "url": "https://archive.org/details/developmentofrel00brea"
+    }
+   ]
+  },
+  {
+   "id": "two-ladies",
+   "title": "The Two Ladies and the Uniting of the Lands",
+   "era": "Creation",
+   "cast": [
+    "wadjet",
+    "nekhbet",
+    "horus",
+    "set",
+    "hapi",
+    "geb"
+   ],
+   "summary": "Egypt understood itself as two countries held together, and said so constantly. Wadjet the cobra of Buto stood for Lower Egypt and Nekhbet the vulture of Nekheb for Upper Egypt, and the Two Ladies together formed one of the five great titles of every pharaoh. Their heads appear side by side on the royal brow. In the sema-tawy scene two figures of Hapi, the flood, knot the papyrus of the north and the lotus of the south around a windpipe-and-lungs sign, binding the two lands with the river that runs through both. In one account Geb divided the country between Horus and Set before reversing himself, so that even the division of Egypt is given a mythological charter.",
+   "sources": [
+    {
+     "book": "The Gods of the Egyptians",
+     "translation": "E. A. Wallis Budge, 1904",
+     "location": "Volume 1, chapter 10",
+     "url": "https://archive.org/details/godsofegyptianso01budg"
+    },
+    {
+     "book": "Development of Religion and Thought in Ancient Egypt",
+     "translation": "James Henry Breasted, 1912",
+     "location": "Chapter 1",
+     "url": "https://archive.org/details/developmentofrel00brea"
+    }
+   ]
+  }
+ ],
  "entities": [
   {
    "id": "nun",
@@ -108,7 +975,11 @@
    "bio": "The dark, limitless, motionless water that existed before anything else, and still surrounds the world.",
    "longBio": "Nun is not a creator and does not act; he is the condition that preceded action. Egyptian cosmology begins with an infinite dark water without surface or current, and creation happens when a mound of earth rises out of it and the first god stands on that mound. Crucially, Nun is not destroyed by this. He remains outside the created order and beneath it, so that every well and every inundation of the Nile touches him, and the world is understood as a bubble of order inside an unlimited ocean of the unformed. That is why the nightly threat to the sun is so serious: if order fails, the water is still there to return. In tomb and papyrus scenes Nun is shown as a man standing waist-deep in water with his arms raised, lifting the solar barque up at dawn.",
    "variantTraditions": "The Hermopolitan tradition pairs him with a female counterpart Naunet as one couple of the Ogdoad; the Heliopolitan tradition treats him more simply as the water from which Atum emerged.",
-   "storyIds": [],
+   "storyIds": [
+    "first-mound",
+    "atum-creates",
+    "shipwrecked"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "sea-waters",
@@ -147,7 +1018,11 @@
    "bio": "The self-created god who rose from Nun on the first mound and made the first pair of gods from himself.",
    "longBio": "Atum's name carries both 'the all' and 'the complete', and the tradition uses it in both senses: he is everything that exists in undifferentiated form, and he is what is finished. He brings himself into being on the mound that rises from Nun, and then, having no partner, produces the first pair from his own body - by masturbation in the Pyramid Texts, or by spitting or sneezing them out in versions that later editors evidently found more decorous. Those two are Shu, air, and Tefnut, moisture, and from them the rest of the Ennead descends. Atum is the evening aspect of the sun, the completed daily course, and is regularly fused with Ra as Ra-Atum or Atum-Ra. In one striking passage he tells Osiris that at the end of things he will destroy everything he has made and return with him to the primeval water, the two of them alone in the form of serpents.",
    "variantTraditions": "The Heliopolitan account of Atum competes with the Memphite theology, in which Ptah creates by thought and speech and Atum is one of Ptah's products, and with the Hermopolitan Ogdoad. All three were maintained simultaneously.",
-   "storyIds": [],
+   "storyIds": [
+    "first-mound",
+    "atum-creates",
+    "memphite-theology"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "creator",
@@ -192,7 +1067,22 @@
    "bio": "The sun itself, who sails the sky by day and fights through the underworld each night.",
    "longBio": "Ra is the most consistently supreme god of the Egyptian pantheon, and his rule is not a throne but a journey. He crosses the sky in the day barque and at sunset transfers to the night barque, passing through the twelve hours of the underworld, where he is attacked by the serpent Apep and must be defended so that dawn can happen at all. The sun's phases are given separate names and forms - Khepri the scarab at dawn, Ra at midday, Atum at evening - and Egyptian thought treats these as aspects rather than rivals. He is combined freely with other gods: Amun-Ra at Thebes, Ra-Horakhty with Horus, Sobek-Ra. He grows old like a man, which is the premise of two major stories: Isis poisons him to learn his secret name, and mankind rebels against him when he is aged, prompting him to send out his Eye to slaughter them.",
    "variantTraditions": "The relationship between Ra and Atum, and between Ra and Amun, varies by period and cult centre; the Amarna period under Akhenaten briefly replaced the whole system with the Aten, the visible disc alone.",
-   "storyIds": [],
+   "storyIds": [
+    "first-mound",
+    "five-days",
+    "marshes",
+    "book-of-gates",
+    "overthrowing-apep",
+    "secret-name",
+    "destruction-mankind",
+    "distant-goddess",
+    "westcar",
+    "two-brothers",
+    "doomed-prince",
+    "hathor-drunkenness",
+    "apis-installation",
+    "amarna"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "sun",
@@ -267,7 +1157,10 @@
    "bio": "The first-made god, air itself, who separates the sky from the earth and keeps them apart.",
    "longBio": "Atum produces Shu and Tefnut from himself, and Shu is air and the light that fills it. His defining act is a separation: he steps between his children Geb, the earth, and Nut, the sky, who are locked in an embrace, and pushes Nut upward, standing with his arms raised to hold her there. That posture is one of the most reproduced images in Egyptian art, and it makes air the physical condition of there being a world at all - without Shu, sky and earth close again and the space where life happens disappears. He and Tefnut are also identified with the wandering Eye of Ra in some texts, and a story tells of the two of them becoming lost in the waters of Nun and Atum weeping with relief when they are found, the tears becoming humankind by a pun on the words for tears and people.",
    "variantTraditions": "In later texts Shu becomes a ruling king of the gods succeeding Ra, and faces his own rebellion; the Greeks sometimes identified him with Atlas for the obvious reason.",
-   "storyIds": [],
+   "storyIds": [
+    "atum-creates",
+    "separation"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "wind-storm",
@@ -305,7 +1198,11 @@
    "bio": "Twin of Shu and the first female principle, moisture, and one form of the Distant Goddess who must be brought home.",
    "longBio": "Tefnut is produced with Shu from Atum, and where he is dry air she is moisture - a pairing that in Egypt means the two conditions that make the difference between desert and life. She and Shu are the parents of Geb and Nut, and so the whole Ennead descends through her. Her more dramatic role is as an instance of the Distant Goddess pattern, which recurs across Egyptian religion: the goddess quarrels with her father Ra and withdraws into Nubia in the form of a raging lioness, and while she is absent the land suffers. Thoth is sent to fetch her, and persuades her back by storytelling and flattery rather than force, whereupon she is pacified with music and dance and her return is celebrated as the return of the inundation. The same story is told of Hathor and of Sekhmet, which is a good illustration of how Egyptian deities share functions rather than owning them.",
    "variantTraditions": "The Distant Goddess is variously Tefnut, Hathor, Sekhmet, Bastet or Mut depending on the temple telling it; the fullest surviving version is a demotic papyrus about Tefnut.",
-   "storyIds": [],
+   "storyIds": [
+    "atum-creates",
+    "separation",
+    "distant-goddess"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother",
@@ -344,7 +1241,12 @@
    "bio": "The earth as a male god lying beneath the arched body of the sky, and father of the Osirian generation.",
    "longBio": "Egypt inverts the arrangement familiar from Greece and elsewhere: the earth is male and the sky female. Geb lies below, often shown with one knee raised to make the hills, while Nut arches over him supported by Shu. Plants grow from his back, and earthquakes are his laughter - one of his titles is the Great Cackler, connected with the goose he wears on his head and with a tradition that he laid the egg from which the sun hatched. As the father of Osiris, Isis, Set and Nephthys he is the ancestor of the Osirian drama, and as an early king of Egypt in the mythical dynasties he is the one who adjudicates between Horus and Set in some accounts, awarding the throne. Because the dead are placed in the earth, Geb also has a grimmer aspect: he can hold the dead fast, and funerary texts ask him to release them.",
    "variantTraditions": "Geb's role in the succession of Horus and Set differs between the Memphite Theology, where he first divides Egypt between them and then reverses himself, and other accounts where the tribunal of gods decides.",
-   "storyIds": [],
+   "storyIds": [
+    "separation",
+    "five-days",
+    "contendings",
+    "two-ladies"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother",
@@ -383,7 +1285,11 @@
    "bio": "The sky as a woman arched over the earth, who swallows the sun each evening and gives birth to it each dawn.",
    "longBio": "Nut stretches over Geb touching the ground only with fingers and toes, her body the vault of the sky, painted dark blue and covered with stars. The sun enters her mouth at sunset, travels through her body during the night, and is born from her again at dawn, which is why she is painted on the underside of coffin lids and on tomb ceilings: the dead lie beneath her exactly as the sun does, and expect the same outcome. Ra is said to have cursed her not to give birth in any month of the year, and Thoth won five extra days from the moon in a game so that she could bear her five children - Osiris, Horus the Elder, Set, Isis and Nephthys - on days belonging to no month, which is the Egyptian explanation for the five epagomenal days added to the 360-day calendar.",
    "variantTraditions": "The five-days story is preserved most fully by Plutarch and may be a Greek-period systematisation of older material; the number and names of her children vary.",
-   "storyIds": [],
+   "storyIds": [
+    "separation",
+    "five-days",
+    "destruction-mankind"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother",
@@ -427,7 +1333,17 @@
    "bio": "The king murdered by his brother, reassembled by his wife, and made ruler of the dead rather than the living.",
    "longBio": "Osiris rules Egypt as a good king, teaching agriculture and law, until his brother Set kills him - by trapping him in a coffin at a banquet, in Plutarch's version, or by drowning or dismemberment in Egyptian sources. Isis recovers the body; Set finds it again and cuts it into pieces scattered across Egypt, and Isis, with Nephthys, gathers them. What she cannot find is the phallus, eaten by a fish, so she fashions a replacement, and by magic conceives Horus from the reassembled body. Osiris does not return to the living world. He becomes king of the Duat, and it is his son who reclaims the earthly throne. This is the central pattern of Egyptian religion: the dead king becomes Osiris and the living king is Horus, so every succession repeats the myth, and every ordinary dead person hoped to be identified with Osiris and so to live on.",
    "variantTraditions": "Plutarch preserves the fullest connected narrative but writes centuries later and in Greek terms; Egyptian sources give the episodes scattered across funerary texts and rarely tell it straight through. The number of pieces Set cut him into is given as fourteen, sixteen or forty-two in different sources.",
-   "storyIds": [],
+   "storyIds": [
+    "five-days",
+    "murder-osiris",
+    "gathering",
+    "contendings",
+    "weighing",
+    "book-of-gates",
+    "anubis-embalming",
+    "abydos-mysteries",
+    "field-of-reeds"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "death-judge",
@@ -473,7 +1389,16 @@
    "bio": "The most capable figure in Egyptian myth: she reassembles her murdered husband, conceives his heir, and protects him until he can claim the throne.",
    "longBio": "Isis' name is written with the throne sign, and the identification is exact - she is the seat of kingship, and the king is legitimate because he sits on her. When Osiris is killed she searches for him, finds him, and when the body is dismembered she gathers the pieces and restores them enough to conceive Horus. She then hides in the marshes of Chemmis raising the child in secret from Set, and when the infant is stung by a scorpion she stops the solar barque itself and refuses to let it move until Ra sends Thoth to help her cure him. Her most famous act is a piece of pure leverage: she makes a serpent from Ra's own spittle and the earth, lets it bite him, and refuses to cure the aged god unless he tells her his secret name, which she then holds. In the Greco-Roman period her cult spread across the entire Mediterranean.",
    "variantTraditions": "Plutarch's account differs in many details from Egyptian sources, and the wanderings of Isis to Byblos appear only in him. Her assimilation to Greek Demeter and Aphrodite, and later comparisons with the Virgin Mary, belong to the reception rather than to Egyptian religion.",
-   "storyIds": [],
+   "storyIds": [
+    "five-days",
+    "murder-osiris",
+    "gathering",
+    "marshes",
+    "contendings",
+    "secret-name",
+    "anubis-embalming",
+    "abydos-mysteries"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother",
@@ -514,7 +1439,17 @@
    "bio": "Osiris' brother and murderer, god of the desert and storm, and also the strongest defender of the sun.",
    "longBio": "Set is the most morally complicated god in the pantheon, and reading him as a simple devil is a Greek and later distortion. He murders Osiris and contests the throne with Horus in a struggle lasting eighty years - a contest that includes lawsuits before the tribunal of gods, transformations into hippopotami, and an episode of sexual humiliation that Horus turns back on him with Isis' help. He is finally defeated and the throne goes to Horus. But Set is also indispensable: he stands in the prow of Ra's night barque and spears Apep, and he is the only god strong enough to do it. Egyptians of the Nineteenth Dynasty named kings after him. What he embodies is not evil but the necessary violence and disorder at the edge of things - the desert that is not the Nile valley, the storm, the foreigner - and only in the Late Period, under foreign rule, does he harden into a straightforward enemy.",
    "variantTraditions": "The Set animal has never been identified with any real species. His demonisation grows late, and in the Third Intermediate Period his images were sometimes defaced; the Greeks identified him with Typhon.",
-   "storyIds": [],
+   "storyIds": [
+    "five-days",
+    "murder-osiris",
+    "marshes",
+    "contendings",
+    "eye-of-horus",
+    "book-of-gates",
+    "overthrowing-apep",
+    "abydos-mysteries",
+    "two-ladies"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "primordial-adversary",
@@ -554,7 +1489,12 @@
    "bio": "Sister of Isis and wife of Set, who nonetheless helps Isis recover Osiris and mourns beside her.",
    "longBio": "Nephthys is the fourth of Nut's children and the least independently characterised, which is partly the point: her role is to accompany. She is married to Set, but takes Isis' side after the murder, helping search for the body and standing at the other end of the bier as the second of the two kites who mourn Osiris. The pairing of the two sisters at the head and foot of the coffin becomes a fixed element of funerary art, and the wailing of the kite was imitated in the ritual lament. In one strand of tradition she conceives Anubis by Osiris, having disguised herself as Isis, and abandons the child, whom Isis raises - a story that gives Anubis a place in the family and Nephthys a rare moment of initiative. She is generally the darker and more nocturnal of the pair, associated with the edge of things rather than their centre.",
    "variantTraditions": "The parentage of Anubis is inconsistent; older sources make him a son of Ra, and the Nephthys version is attested mainly through Plutarch and later Egyptian material.",
-   "storyIds": [],
+   "storyIds": [
+    "five-days",
+    "murder-osiris",
+    "gathering",
+    "anubis-embalming"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "death-judge",
@@ -598,7 +1538,17 @@
    "bio": "Son of Isis and Osiris, who contests the throne with Set for eighty years and wins it.",
    "longBio": "Horus is really several figures the tradition ran together: Horus the Elder, a sky god whose eyes are the sun and moon and who is a brother of Osiris; and Horus the Child, Harpocrates, son of Isis and Osiris, raised in hiding in the marshes. It is the second who fights Set. The Contendings of Horus and Set is a long, strange and sometimes comic text in which the two are repeatedly judged by the tribunal of gods, transform into hippopotami, and try to disqualify each other, until Osiris himself intervenes from the underworld and the throne is awarded to Horus. In the fighting Set tears out Horus' eye, which is healed by Thoth or Hathor; the restored Eye of Horus, the wedjat, becomes the standard Egyptian symbol of wholeness and healing and the commonest of all amulets. Every living pharaoh was Horus, and every dead one Osiris.",
    "variantTraditions": "The multiplication of Horus forms - Horus the Elder, Harsiese, Harpocrates, Horus of Behdet, Ra-Horakhty - reflects the merging of several originally separate falcon gods, and the sources do not always distinguish them.",
-   "storyIds": [],
+   "storyIds": [
+    "gathering",
+    "marshes",
+    "contendings",
+    "eye-of-horus",
+    "weighing",
+    "secret-name",
+    "memphite-theology",
+    "abydos-mysteries",
+    "two-ladies"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "sky-thunder",
@@ -644,7 +1594,11 @@
    "bio": "One of the Ogdoad who rose to become the supreme state god of the New Kingdom.",
    "longBio": "Amun begins as one of the eight Hermopolitan powers, paired with Amaunet, and his name means the hidden or concealed one - a god defined by not being visible, which made him unusually adaptable. When Theban princes drove out the Hyksos and founded the New Kingdom, their local god rose with them, fused with the sun as Amun-Ra, and became the imperial deity of Egypt at its most powerful. Karnak grew into the largest religious structure ever built. His priesthood became so wealthy and politically strong that it eventually rivalled the throne, and Akhenaten's suppression of Amun in favour of the Aten is usually read partly as a move against that power. After Akhenaten's death the reaction was total: his monuments were dismantled and Amun restored. A hymn describes him as one whose true form is unknown even to the other gods, which is his theological character exactly.",
    "variantTraditions": "The Amun of Thebes and the Amun of the Ogdoad were reconciled by the priesthood rather than being originally the same; Greeks identified him with Zeus, and the oracle at Siwa that Alexander consulted was his.",
-   "storyIds": [],
+   "storyIds": [
+    "sinuhe",
+    "shipwrecked",
+    "amarna"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "supreme-source",
@@ -788,7 +1742,18 @@
    "bio": "Ibis-headed god of writing and measure, who records the verdict at the weighing of the heart.",
    "longBio": "Thoth invents writing, which the Egyptians regarded as the most consequential gift any god made, and he is the scribe and arbitrator of the divine court. He records the result at the weighing of the heart, standing beside the scales with his palette. His interventions repeatedly rescue the situation when force cannot: he wins five extra days from the moon so Nut can bear her children; he is sent to fetch the Distant Goddess home from Nubia, and persuades her with stories rather than power; he heals the eye of Horus, which is why the restored wedjat is a symbol of wholeness; and he cures the infant Horus of scorpion venom when Isis has stopped the solar barque in her distress. As lord of measure he governs the calendar, the reckoning of time and the boundaries of fields, and priests of the House of Life worked under him.",
    "variantTraditions": "The Greeks identified Thoth with Hermes, and the fusion produced Hermes Trismegistus, the supposed author of the Hermetic writings - a Greco-Egyptian construct of the Roman period, not an Egyptian god.",
-   "storyIds": [],
+   "storyIds": [
+    "five-days",
+    "gathering",
+    "marshes",
+    "contendings",
+    "eye-of-horus",
+    "weighing",
+    "destruction-mankind",
+    "distant-goddess",
+    "memphite-theology",
+    "anubis-embalming"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "wisdom-craft",
@@ -830,7 +1795,10 @@
    "bio": "The Memphite creator who makes the world by conceiving it in his heart and speaking it with his tongue.",
    "longBio": "The Shabaka Stone preserves the Memphite Theology, and it is one of the most intellectually striking texts to survive from the ancient world: Ptah creates not by physical act but by thinking a thing in his heart and naming it with his tongue, and the other gods including Atum are among the things so made. This puts a theory of mind and language at the origin of the cosmos more than two millennia before comparable Greek formulations. Ptah is also the patron of craftsmen, sculptors and metalworkers - the same principle applied at human scale, giving shape to material - and the high priest of Memphis carried the title Greatest of Directors of Craftsmen. Fused with Sokar and Osiris as Ptah-Sokar-Osiris, he becomes a funerary composite. The Apis bull was regarded as his living manifestation.",
    "variantTraditions": "The Shabaka Stone claims to copy a worm-eaten older document; whether the theology is genuinely Old Kingdom or a later Memphite claim to priority over Heliopolis is debated. The Greek name Aigyptos, and so Egypt, may derive from hut-ka-ptah, the house of the ka of Ptah.",
-   "storyIds": [],
+   "storyIds": [
+    "memphite-theology",
+    "apis-installation"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "creator",
@@ -875,7 +1843,14 @@
    "bio": "Goddess of joy and music, nurse of the king, and in her other aspect the raging Eye of Ra.",
    "longBio": "Hathor's name means house of Horus, and she is the sky as the enclosure that contains the sun, often shown as a cow with the disc between her horns. Her domains are the ones Egyptians most enjoyed: love, music, dancing, drunkenness and celebration, and her festivals were correspondingly loud. She nurses the king, meets the dead at the edge of the desert as Mistress of the West, and offers shade and water from the sycamore. But she carries the other side of the same energy. When Ra grows old and mankind plots against him, he sends his Eye as Hathor to punish them, and she becomes Sekhmet and slaughters so enthusiastically that Ra repents and has beer dyed red with ochre poured over the fields; she drinks it believing it blood, becomes drunk, and stops. That story is the charter of her drunkenness festival.",
    "variantTraditions": "Hathor, Sekhmet, Bastet, Tefnut and Mut are all identified at times as the Eye of Ra and shade into one another; Dendera's temple carries the fullest surviving Hathor material.",
-   "storyIds": [],
+   "storyIds": [
+    "contendings",
+    "eye-of-horus",
+    "destruction-mankind",
+    "distant-goddess",
+    "doomed-prince",
+    "hathor-drunkenness"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "love-desire",
@@ -918,7 +1893,11 @@
    "bio": "Lioness goddess of the sun's destroying heat, who nearly wiped out humankind and was stopped with beer.",
    "longBio": "Sekhmet is what the Eye of Ra becomes when it is sent to kill. In the Book of the Heavenly Cow, mankind plots against the aged Ra and he despatches his Eye; as Sekhmet she massacres them across the desert and cannot be recalled, having acquired a taste for it. Ra has seven thousand jars of beer dyed red with ochre poured out over the fields at Dendera; she drinks, believing it blood, falls asleep, and humanity survives. Her arrows are plague - the annual epidemics were called the messengers of Sekhmet - but by exactly the same logic she can withhold them, so her priests were physicians and her cult was a medical one. Amenhotep III installed hundreds of granite statues of her at Thebes, apparently one for each day of the year, so that the litany could be recited continuously.",
    "variantTraditions": "Sekhmet, Hathor and Bastet are aspects of one pattern rather than separate goddesses in many texts; the pacification story is told of each.",
-   "storyIds": [],
+   "storyIds": [
+    "destruction-mankind",
+    "distant-goddess",
+    "hathor-drunkenness"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "war",
@@ -959,7 +1938,14 @@
    "bio": "The jackal who invented embalming, guards the cemetery, and operates the scales at the judgment.",
    "longBio": "Anubis is the oldest of the funerary gods, dominant before Osiris took over the underworld, after which he keeps the practical offices: he embalms, he guards, and he weighs. He is jackal-headed because jackals scavenged at desert cemeteries, and the Egyptian response was to make the animal that threatened the dead into their protector - a characteristic inversion. He conducts the first embalming, on Osiris, which makes him the patron of the practice, and embalmers wore his mask during the ritual. At the judgment he leads the deceased in by the hand, adjusts the scales, and reports the reading to Thoth. His black colour is not the jackal's but the black of fertile silt and of the embalmed body, signalling regeneration rather than death.",
    "variantTraditions": "His parentage varies: a son of Ra in older texts, of Nephthys by Osiris in later ones, or of Set in a few. The Greeks merged him with Hermes as Hermanubis.",
-   "storyIds": [],
+   "storyIds": [
+    "murder-osiris",
+    "gathering",
+    "weighing",
+    "two-brothers",
+    "anubis-embalming",
+    "abydos-mysteries"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "death-judge",
@@ -999,7 +1985,11 @@
    "bio": "The principle of order and truth, personified as a goddess and weighed against the heart of the dead.",
    "longBio": "Maat is the most important idea in Egyptian religion and only secondarily a goddess. She is the rightness of things: the sun rising on time, the Nile flooding, the king judging fairly, a person dealing honestly. Her opposite is isfet, chaos and falsehood. The whole purpose of kingship is to uphold maat, which is why kings are shown offering a small figure of her to the gods - the offering of order itself, the only gift that matters. At death the heart is weighed against her single ostrich feather, and the forty-two negative confessions in the Book of the Dead are a declaration of having lived by her. She is called the daughter of Ra and is said to be what he lives on. Judges wore her image, and the vizier held the title priest of Maat.",
    "variantTraditions": "Maat is sometimes doubled as the Two Maats presiding over the judgment hall; the concept is far more prominent in the texts than the personified goddess.",
-   "storyIds": [],
+   "storyIds": [
+    "weighing",
+    "overthrowing-apep",
+    "field-of-reeds"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "fate-time",
@@ -1121,7 +2111,10 @@
    "bio": "The vast serpent who attacks Ra's barque every night and must be repelled every night.",
    "longBio": "Apep is the closest thing Egyptian religion has to a devil, and the difference from a devil is instructive: he wants nothing, rules nothing, and offers nothing. He is unbeing, and his sole activity is to swallow the sun. Each night as the solar barque passes through the Duat he attacks, and the crew - with Set standing in the prow with a spear, which is the clearest statement of why Set cannot simply be an enemy - fights him off. He is never destroyed, only driven back, and the fight recurs the following night without end. Storms, unseasonal darkness and eclipses were explained as moments when he nearly succeeded. Temples performed rites called Overthrowing Apep, in which wax figures of the serpent were named, spat on, cut with knives, and burned, and the surviving Books of Overthrowing Apep are among the most vivid ritual texts from Egypt.",
    "variantTraditions": "Apep is essentially absent from the Old Kingdom Pyramid Texts and grows in importance later, which suggests a developing rather than an original figure.",
-   "storyIds": [],
+   "storyIds": [
+    "book-of-gates",
+    "overthrowing-apep"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "primordial-adversary",
@@ -1158,7 +2151,9 @@
    "bio": "Part crocodile, lion and hippopotamus; she eats the heart that fails the weighing.",
    "longBio": "Ammit crouches beside the scales in every illustrated judgment scene, composed of the three animals Egyptians considered most lethal - the crocodile's head, the lion's chest and forelegs, the hippopotamus' hindquarters. She does not torment anyone and is not a ruler of any place. If the heart outweighs the feather of Maat she eats it, and the consequence is not punishment but cessation: the person simply stops existing, which to Egyptian thought was the worst possible outcome, far worse than suffering. There is no hell in the Egyptian system in the sense of ongoing torment for the ordinary dead; there is continued existence, which requires passing the test and being maintained by offerings, and there is Ammit. She is never worshipped and has no cult, existing purely as the stake in the wager.",
    "variantTraditions": "Some texts place the devouring at a lake of fire instead, and the details of the judgment vary across copies of the Book of the Dead.",
-   "storyIds": [],
+   "storyIds": [
+    "weighing"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "death-judge",
@@ -1235,7 +2230,9 @@
    "bio": "A grotesque, cheerful dwarf who guards the home and frightens away what threatens it.",
    "longBio": "Bes breaks every Egyptian artistic convention and does it deliberately. Where gods are shown in dignified profile, he faces forward, squat and bandy-legged, with a lion's mane, a protruding tongue and often a comic expression. That ugliness is the point: he frightens away hostile spirits, snakes and scorpions by being more alarming than they are. He is a household god rather than a temple one, present on beds, mirrors, headrests and cosmetic articles, and he dances and plays the tambourine at births to scare off whatever might harm the child. He and Taweret work the same territory and appear together constantly. His popularity was enormous and long-lived, spreading well beyond Egypt into Nubia, the Levant and the Roman world, where he turns up on amulets far from any Egyptian temple.",
    "variantTraditions": "Bes may be a group of similar dwarf deities rather than one, and his origin - Egyptian, Nubian or Near Eastern - is unresolved.",
-   "storyIds": [],
+   "storyIds": [
+    "hathor-drunkenness"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "healer",
@@ -1273,7 +2270,9 @@
    "bio": "The heron that alighted on the first mound at creation, and the origin of the phoenix.",
    "longBio": "The Bennu is said to have flown over the waters of Nun and alighted on the benben, the primeval mound at Heliopolis, and its cry broke the original silence and determined what would and would not be. It is a grey heron with two long plumes, and it is called the ba - the soul - of Ra, so that its appearance is the sun's own renewal. Its association with cycles of time made it the marker of long periods and of jubilee festivals. Greek writers, above all Herodotus, reported the Egyptian bird as the phoenix, adding the detail of a bird that returns to Heliopolis every five hundred years bearing its dead parent encased in myrrh, and later authors supplied the self-immolation and rebirth from ashes that the Egyptian bird does not have.",
    "variantTraditions": "The self-burning phoenix is a Greek and later elaboration; the Egyptian Bennu renews without fire. Some texts make it the ba of Osiris rather than of Ra.",
-   "storyIds": [],
+   "storyIds": [
+    "first-mound"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "sun",
@@ -1310,7 +2309,9 @@
    "bio": "A living bull identified by specific markings and kept as the visible manifestation of Ptah.",
    "longBio": "The Apis is unusual in being an actual animal rather than an image: when the bull died, priests searched Egypt for a calf bearing the required markings - black with a white triangular blaze on the forehead, a crescent on the flank, and other signs - and the calf found was installed at Memphis with its mother, housed in luxury, and treated as the god's living herald. Its movements were read as oracles, and people came to put questions to it. On its death it was mummified with the full apparatus of a royal burial and interred in the Serapeum at Saqqara, a vast underground gallery of granite sarcophagi that Mariette rediscovered in 1851. The Ptolemies fused Apis and Osiris into Serapis, a deliberately Greco-Egyptian god designed to be worshipped by both communities.",
    "variantTraditions": "The exact list of required markings differs between ancient authors. Cambyses was accused by Herodotus of stabbing the Apis, a story Egyptian evidence does not support.",
-   "storyIds": [],
+   "storyIds": [
+    "apis-installation"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "divine-beast",
@@ -1347,7 +2348,10 @@
    "bio": "The real architect of the Step Pyramid, deified fifteen centuries after his death as a god of medicine.",
    "longBio": "Imhotep is one of very few non-royal Egyptians to become a god, and unlike most mythological figures he demonstrably existed: he was chancellor to King Djoser of the Third Dynasty and the architect of the Step Pyramid at Saqqara, the first monumental stone building in the world, and his name and titles appear on a statue base of Djoser. Remembered afterwards as the model of the wise man, he was credited with medical knowledge, and by the Late Period he had been fully deified as a son of Ptah and a god of healing, with sanctuaries where the sick slept seeking cures in dreams - the same incubation practice as at Greek Asclepius shrines, and the Greeks duly identified the two. Scribes poured a libation to him before writing. His tomb has never been found.",
    "variantTraditions": "The Edwin Smith surgical papyrus is sometimes attributed to him, but the attribution is speculative and the surviving copy is far later.",
-   "storyIds": [],
+   "storyIds": [
+    "famine-stela",
+    "westcar"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "healer",
@@ -1386,7 +2390,9 @@
    "bio": "Consort of Amun and mother of Khonsu, forming the Theban triad.",
    "longBio": "Mut's name is simply the word for mother, written with the vulture sign, and she rose alongside Amun as Thebes rose. With Amun and their son Khonsu she forms the Theban triad, the family group that anchored the city's theology, and her precinct at Karnak surrounds a crescent-shaped sacred lake called the Isheru. Like Hathor and Sekhmet she has a leonine aspect and appears as one of the forms of the raging Eye of Ra that must be pacified. The vulture headdress she wears became the standard headgear of Egyptian queens, which is the point: Mut is queenship as an institution, and the living queen participates in her. Hatshepsut and later rulers built substantially in her precinct.",
    "variantTraditions": "Mut displaced Amaunet as Amun's consort without Amaunet being removed from the Ogdoad; both arrangements coexisted.",
-   "storyIds": [],
+   "storyIds": [
+    "amarna"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "earth-mother",
@@ -1425,7 +2431,9 @@
    "bio": "Moon god and third member of the Theban triad, credited with healing and driving out spirits.",
    "longBio": "Khonsu's name comes from a verb meaning to cross or traverse, describing the moon's journey across the night sky. Son of Amun and Mut, he completes the Theban triad and has a well-preserved temple within the Karnak complex. His reputation was as a healer and an expeller of hostile spirits, and the Bentresh Stela records a story in which his image is sent to a foreign court to cure a princess possessed by a spirit - a text probably composed centuries after the reign it claims to describe, but which shows exactly what people expected of him. In earlier material he has a much fiercer character, appearing in the Pyramid Texts as a bloodthirsty deity who helps the king devour other gods, a side that faded entirely later.",
    "variantTraditions": "The Bentresh Stela is a pious fiction of the Late Period presented as a New Kingdom document; the ferocity of the Pyramid Text Khonsu is hard to reconcile with the later healer.",
-   "storyIds": [],
+   "storyIds": [
+    "amarna"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "moon",
@@ -1461,7 +2469,9 @@
    "bio": "The sun-disc itself, briefly raised by Akhenaten to be the only god of Egypt.",
    "longBio": "The Aten begins as an ordinary word for the sun's disc and as a minor aspect of the solar cult, then becomes the centre of the most radical episode in Egyptian religious history. Amenhotep IV renamed himself Akhenaten, moved the capital to a new city at Akhetaten, and promoted the Aten as the sole deity, closing temples and having the name of Amun chiselled out across Egypt. The Aten is never shown as a person or animal, only as a disc whose rays end in small hands holding the ankh, and those hands reach only the royal family - the king was the sole intermediary, which made the theology and the politics the same move. The Great Hymn to the Aten is a genuinely remarkable poem about a god who makes the chick speak in the egg and gives every land its own Nile in the sky. After Akhenaten's death everything was reversed and his city abandoned.",
    "variantTraditions": "Whether Atenism was true monotheism or the elevation of one god above others is debated, as is the frequently drawn comparison between the Great Hymn and Psalm 104.",
-   "storyIds": [],
+   "storyIds": [
+    "amarna"
+   ],
    "hierarchyLevel": 1,
    "archetypes": [
     "sun",
@@ -1541,7 +2551,9 @@
    "bio": "One of the oldest goddesses: weaver, warrior, and in some accounts the creator of the world.",
    "longBio": "Neith is attested from the First Dynasty and combines domains that later gods divide: she weaves, which in Egyptian thought is close to creating, and she is a warrior with bow and arrows. At Sais her theology made her the primeval creator who emerged from Nun and brought the world into being, weaving it as she wove linen, and who created Ra as her son - a claim as absolute as anything at Heliopolis or Memphis. She arbitrates in the Contendings of Horus and Set, sending a letter to the tribunal proposing that the throne go to Horus and Set be compensated with two foreign goddesses. As one of the four protective goddesses she guards the canopic jars with Isis, Nephthys and Serqet, and the mummy wrappings themselves fall under her as goddess of weaving.",
    "variantTraditions": "The Greeks identified Neith with Athena, and Plato's Timaeus has the Atlantis story reported by priests at Sais, her city.",
-   "storyIds": [],
+   "storyIds": [
+    "contendings"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "war",
@@ -1620,7 +2632,12 @@
    "bio": "Ram-headed god who moulds each child and its ka on a potter's wheel before birth.",
    "longBio": "Khnum guards the cataract at Aswan where the Nile was believed to enter Egypt, and the annual inundation was thought to issue from caverns under his control - a position of extraordinary practical importance, since the flood decided whether the country ate. His other role is intimate rather than national: he forms each human being on a potter's wheel out of Nile clay, shaping the body and the ka together and placing them in the mother's womb, which appears in temple birth scenes where he moulds the infant king and the royal ka side by side. The Famine Stela on Sehel Island records a seven-year famine ended when Djoser restored Khnum's temple, a text carved in the Ptolemaic period but claiming Old Kingdom authority.",
    "variantTraditions": "The Famine Stela is a Ptolemaic composition asserting an ancient land grant to the priesthood, not a contemporary Third Dynasty record.",
-   "storyIds": [],
+   "storyIds": [
+    "khnum-wheel",
+    "famine-stela",
+    "westcar",
+    "two-brothers"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "creator",
@@ -1658,7 +2675,10 @@
    "bio": "The cobra who rears on the king's brow, patron of Lower Egypt and half of the Two Ladies.",
    "longBio": "Wadjet is the uraeus, the rearing cobra worn at the front of the royal headdress, and her function is direct: she spits fire at whoever approaches the king with harm in mind. As patron of Lower Egypt she pairs with Nekhbet the vulture of Upper Egypt to form the Two Ladies, one of the five great titles of every pharaoh and the clearest statement of the unified kingdom in the royal titulary. She is counted among the forms of the Eye of Ra, which is what gives her the fire. In the Osiris story she is one of those who shelter Isis and the infant Horus in the marshes of Chemmis. Her name means the green one, from the papyrus that grew across her Delta homeland.",
    "variantTraditions": "The wedjat eye of Horus and the goddess Wadjet are etymologically related and often conflated in amulet contexts, though they are distinct.",
-   "storyIds": [],
+   "storyIds": [
+    "marshes",
+    "two-ladies"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "serpent-dragon",
@@ -1696,7 +2716,9 @@
    "bio": "The vulture of Upper Egypt, who with Wadjet forms the Two Ladies of the royal titulary.",
    "longBio": "Nekhbet spreads her wings above the king in protection, often shown hovering over the throne clutching the shen ring of eternity. As patron of Upper Egypt she is the southern half of the Two Ladies, and the vulture and cobra heads appear side by side on the royal brow when both kingdoms are meant. Her association with vultures gave her a maternal character rather than a grim one, since Egyptians observed the bird's attentive care of its young, and she is called mother of mothers and shown as a nurse to the king. The vulture headdress worn by queens is hers. Her city Nekheb sits opposite Nekhen, Hierakonpolis, one of the oldest centres of kingship in Egypt, which explains her closeness to the throne.",
    "variantTraditions": "The Greeks identified her with Eileithyia, the goddess of childbirth, and called her city Eileithyiaspolis.",
-   "storyIds": [],
+   "storyIds": [
+    "two-ladies"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "earth-mother",
@@ -1732,7 +2754,9 @@
    "bio": "Goddess of venomous stings, who both causes and cures them, and one of the four canopic guardians.",
    "longBio": "Serqet's name means she who causes the throat to breathe, which reads either as a description of what she does for the healed or of the constriction she inflicts, and Egyptian religion is comfortable with both meanings at once: the power over venom is the power to withhold it. Her priests were practising physicians and magicians who treated scorpion stings, a serious hazard in a country where scorpions are common. She is one of the four goddesses - with Isis, Nephthys and Neith - who guard the canopic jars and the corners of the sarcophagus, and she watches over Qebehsenuef. She also appears among the goddesses who protect Isis and the infant Horus in the marshes, sending seven scorpions to accompany them.",
    "variantTraditions": "Her scorpion is usually shown without its sting and claws, apparently to render the image safe to have nearby.",
-   "storyIds": [],
+   "storyIds": [
+    "marshes"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "healer",
@@ -1770,7 +2794,13 @@
    "bio": "The inundation personified: a well-fed figure with heavy breasts and a swollen belly, bringing abundance.",
    "longBio": "Hapi is not the Nile itself but the flood - the annual rise that laid new silt across the fields and decided whether Egypt would eat. He is shown as a man with blue or green skin, a swollen belly and heavy breasts, because he nourishes, and the androgyny is deliberate rather than accidental. In scenes of the union of the Two Lands, two Hapi figures tie the papyrus and lotus together around the sema sign, binding Upper and Lower Egypt with the river that runs through both. He had no great temple, being honoured instead at the cataract and by offerings thrown into the water as the flood began, and hymns to him survive in numbers that reflect how much depended on him. His exact source was unknown and was said to lie in caverns guarded by Khnum.",
    "variantTraditions": "Hapi shares his name with one of the four sons of Horus, who is a different figure entirely.",
-   "storyIds": [],
+   "storyIds": [
+    "khnum-wheel",
+    "famine-stela",
+    "shipwrecked",
+    "field-of-reeds",
+    "two-ladies"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "sea-waters",
@@ -1808,7 +2838,9 @@
    "bio": "A jackal god who goes ahead: before the army, before the king, and before the dead.",
    "longBio": "Wepwawet's name is a job description - opener of the ways - and it applies at every scale. His standard was carried in front of the king in procession and at the head of the army, clearing the road. In the funerary sphere he opens the way into the underworld for the dead, and his image presides over the Opening of the Mouth ceremony that restored the mummy's senses. At Abydos he led the great procession of Osiris. He is easily confused with Anubis, being also canine, but he is usually shown standing rather than couchant and coloured grey or white rather than black, and Greek visitors called his city Lycopolis, wolf-city, because they took him for a wolf.",
    "variantTraditions": "Whether Wepwawet is a jackal or a wolf was already unclear in antiquity; the two were sometimes treated as one god with Anubis and sometimes kept separate.",
-   "storyIds": [],
+   "storyIds": [
+    "abydos-mysteries"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "divine-beast",
@@ -1849,7 +2881,9 @@
    "bio": "Hawk-headed lord of the Memphite cemetery and of the deepest hours of the night journey.",
    "longBio": "Sokar governs the necropolis at Saqqara, which takes its name from him, and the region called Rosetau, understood as the entrance to the underworld passages. In the Book of the Underworld he presides over the fourth and fifth hours of the night, the darkest and most difficult stretch of the sun's journey, a sandy region the barque must be dragged through rather than sailed. He is a god of the dead but also, through his Memphite association with Ptah, a patron of metalworking. Fused into the composite Ptah-Sokar-Osiris, he appears in enormous numbers of small painted wooden statues placed in tombs of the Late Period. His festival involved dragging his henu barque, a boat mounted on a sledge, around the walls.",
    "variantTraditions": "The three-part fusion Ptah-Sokar-Osiris merges creator, necropolis and resurrection into one funerary figure and is late; the three were originally distinct.",
-   "storyIds": [],
+   "storyIds": [
+    "book-of-gates"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "death-judge",
@@ -1926,7 +2960,11 @@
    "bio": "Frog-headed midwife of the gods, who breathes life into the body Khnum has shaped.",
    "longBio": "Egyptians watched the Nile fill with frogs as the inundation receded and read the animal as a sign of abundant new life, so the goddess of the last stage of birth is a frog. Heqet works alongside Khnum: he moulds the child on his wheel, and she gives it life and hastens the delivery. In the Westcar Papyrus she and a group of goddesses disguise themselves as travelling musicians to attend the birth of three future kings, which is one of the very few Egyptian narratives to show a birth in domestic detail. Amulets and wands carrying her image were used by women in labour, and her name appears on ivory knives meant to cut a protective circle around the birthing bed.",
    "variantTraditions": "The much later Coptic association of the frog with resurrection may or may not descend from Heqet; the connection is asserted more often than demonstrated.",
-   "storyIds": [],
+   "storyIds": [
+    "khnum-wheel",
+    "westcar",
+    "two-brothers"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "healer",
@@ -1962,7 +3000,12 @@
    "bio": "The brick Egyptian women squatted on to give birth, personified, who speaks each child's destiny.",
    "longBio": "Egyptian women gave birth crouched on a pair of mud bricks, and Meskhenet is that brick made a goddess, shown either as a brick with a woman's head or as a woman wearing a curious two-pronged emblem. Her role goes beyond assisting: she declares the child's fate at the moment of birth, so that the shape of a life is spoken over it at the beginning. In the Westcar Papyrus she attends the births of the three kings and announces the kingship of each as it is born. She reappears at the other end of life, standing near the scales at the judgment, where she can testify to what the person was allotted - a neat closing of the circle, since the goddess who spoke the destiny is present when it is assessed.",
    "variantTraditions": "Meskhenet is sometimes multiplied into four goddesses, one for each of the bricks or for each stage of the birth.",
-   "storyIds": [],
+   "storyIds": [
+    "weighing",
+    "khnum-wheel",
+    "westcar",
+    "doomed-prince"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "fate-time",
@@ -2002,7 +3045,10 @@
    "bio": "The cobra of the harvest, who guards the granary and nurses the newborn.",
    "longBio": "Snakes gathered in Egyptian granaries and threshing floors hunting rodents, and Renenutet is that observed fact turned into the goddess who protects the stored grain. Her festival fell at harvest, when offerings were made at the threshing floor, and her image guarded granaries and wine presses. Her second domain follows from the first: she nourishes, and so she suckles infants and is present at the giving of a name, which in Egyptian thought is part of what makes a person real. She is sometimes given as the mother of Nehebkau, and in a funerary context she can appear as the linen bandages that wrap the mummy. The month of Pharmuthi, and modern Coptic Parmoute, carries her name.",
    "variantTraditions": "Her name is variously rendered Renenutet, Ernutet or Thermuthis; the Greeks identified her with Isis in her harvest aspect.",
-   "storyIds": [],
+   "storyIds": [
+    "doomed-prince",
+    "field-of-reeds"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "earth-mother",
@@ -2109,7 +3155,10 @@
    "bio": "Two lions sitting back to back, the western and eastern gates the sun passes between each night.",
    "longBio": "Aker is the earth understood as a passage rather than a surface. He is drawn as two lions seated back to back with the sun disc between them, or as a strip of land with a head at each end, and the two heads are named yesterday and tomorrow: the sun enters at the west, travels through the body of the earth all night, and leaves at the east. That makes him a doorway with a guard at both ends. He restrains the coils of Apep in the underworld and swallows the venom of anything that bites, and spells invoke him against snakes. The image of the double lion outlasted Egyptian religion, passing into later art as the pair of guardian lions flanking a gate.",
    "variantTraditions": "Aker is sometimes pluralised into the Akeru, a group of earth-lions, and is closely related to Ruty, the double lion identified with Shu and Tefnut.",
-   "storyIds": [],
+   "storyIds": [
+    "book-of-gates",
+    "overthrowing-apep"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "divine-beast",
@@ -2145,7 +3194,9 @@
    "bio": "Brothers of a Nineteenth Dynasty story: falsely accused, transformed repeatedly, and finally restored to the throne.",
    "longBio": "The Tale of Two Brothers, on Papyrus D'Orbiney, is one of the oldest folk narratives to survive anywhere. Anpu's wife propositions his younger brother Bata; refused, she accuses him of assault, and Anpu waits with a knife. Warned by his cattle, Bata flees, proves his innocence by mutilating himself, and goes to the Valley of the Cedar, where he places his heart in a blossom at the top of a tree so that his life is stored outside his body. The gods make him a wife; she betrays him to the pharaoh and has the tree cut down, and Bata dies. Anpu searches years for the heart, finds it, and revives him. Bata then becomes a bull, is slaughtered; two persea trees spring from his blood, are cut down; a splinter enters his former wife's mouth and she bears him as her own son, who grows up to become king and to judge her.",
    "variantTraditions": "The motif of the life hidden outside the body recurs across Eurasian folklore, and the opening episode has been compared with the Genesis account of Joseph and Potiphar's wife.",
-   "storyIds": [],
+   "storyIds": [
+    "two-brothers"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "hero-champion"
@@ -2179,7 +3230,10 @@
    "bio": "Builder of the Great Pyramid, who in the Westcar Papyrus listens to his sons tell tales of magicians.",
    "longBio": "Khufu is a historical Fourth Dynasty king, and almost nothing survives of him personally except the largest building of the ancient world and one tiny ivory statuette. What survives instead is a literary Khufu. The Westcar Papyrus frames a set of stories as entertainments told to a bored king by his sons: a wax crocodile that becomes a real one and takes an adulterer, a jewel retrieved from a lake by folding the water back, and the magician Djedi who can reattach a severed head and who prophesies that three kings not of Khufu's line will be born to the wife of a priest of Ra. Herodotus, writing two thousand years later, reports an Egyptian tradition that Khufu was a tyrant who closed the temples and forced the whole country to labour, a reputation that has no support in Egyptian sources.",
    "variantTraditions": "Herodotus' hostile portrait is very late and probably reflects Late Period resentment of the pyramid age rather than any Old Kingdom memory.",
-   "storyIds": [],
+   "storyIds": [
+    "famine-stela",
+    "westcar"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "king-ruler"
@@ -2213,7 +3267,9 @@
    "bio": "A magician of a hundred and ten who reattaches severed heads and foretells the end of Khufu's line.",
    "longBio": "Djedi is the last and most impressive of the magicians in the Westcar Papyrus, said to be a hundred and ten years old - the Egyptian ideal lifespan - and still eating five hundred loaves and drinking a hundred jugs of beer a day. Brought before Khufu, he is asked to demonstrate his reputed ability to reattach a severed head. A prisoner is offered; Djedi refuses flatly, saying it may not be done to a human being, and performs it instead on a goose, a waterbird and an ox. That refusal is the moral centre of the story and unusually explicit for Egyptian literature. He then delivers the prophecy Khufu actually wants: the secret chambers of Thoth will come to the eldest of three children about to be born to the wife of a priest of Ra, who will become kings after him.",
    "variantTraditions": "The papyrus breaks off before the prophecy is fulfilled; the three children are presented as the first kings of the Fifth Dynasty.",
-   "storyIds": [],
+   "storyIds": [
+    "westcar"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "sage-seer"
@@ -2247,7 +3303,9 @@
    "bio": "A court official who flees Egypt on the king's death, prospers abroad, and returns to be buried at home.",
    "longBio": "The Story of Sinuhe is the most admired work of Egyptian literature and the one most often called a novel before novels. Overhearing news of Amenemhat I's assassination, Sinuhe panics for reasons the text never fully explains and flees, nearly dying of thirst before Bedouin rescue him. In Retjenu he marries a chief's daughter, becomes wealthy and powerful, and kills a champion who challenges him in single combat. Yet he cannot settle, because to die abroad is to be buried wrong, and the fear that grips him is not of death but of a foreign grave. Senusret I writes offering him return, and the reunion scene at court, where the royal children fail to recognise the sunburnt old man, is one of the finest things to survive from the ancient world. He is given a tomb, and the story ends with his shedding of the desert and reception of proper burial.",
    "variantTraditions": "The historicity of Sinuhe is doubtful and largely beside the point; the text was copied for centuries as a model of fine writing.",
-   "storyIds": [],
+   "storyIds": [
+    "sinuhe"
+   ],
    "hierarchyLevel": 5,
    "archetypes": [
     "hero-champion"
@@ -2284,7 +3342,9 @@
    "bio": "The older sky-falcon, brother of Osiris and Set, distinct from Horus the child of Isis.",
    "longBio": "Egyptian religion carried at least two Horuses and never fully separated them. Haroeris is the elder: a sky god whose two eyes are the sun and the moon, born of Geb and Nut alongside Osiris, Isis, Set and Nephthys, and therefore Set's brother rather than his nephew. In this version the struggle between Horus and Set is a contest between brothers over the whole world, not a nephew's suit for his father's throne, and it is this older Horus who loses an eye to Set and has it healed. Later theology folded the two together, so that the same god is both Osiris' brother and his son, which the Egyptians tolerated without difficulty.",
    "variantTraditions": "Kom Ombo's double temple honours Haroeris in one half and Sobek in the other; the merging of the two Horuses is never resolved in the sources.",
-   "storyIds": [],
+   "storyIds": [
+    "five-days"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "sky-thunder",
@@ -2323,7 +3383,10 @@
    "bio": "War god of the Theban region, whose name kings invoked when describing themselves in battle.",
    "longBio": "Montu was the chief god of the Theban nome before Amun overtook him, and he kept a specific and vivid role afterwards: he is the fury of the king in battle. Mentuhotep II, who reunified Egypt after the First Intermediate Period, is named for him, and New Kingdom war annals describe the pharaoh raging among the enemy like Montu. He is falcon-headed like Horus but crowned with the sun disc and two tall plumes, and carries a curved khopesh sword. The white Buchis bull kept at Armant was his living manifestation, as Apis was Ptah's. The Greeks, reasonably enough, identified him with Ares.",
    "variantTraditions": "Montu absorbed and was absorbed by several local falcon gods around Thebes, and appears fused as Montu-Ra and Montu-Horus.",
-   "storyIds": [],
+   "storyIds": [
+    "sinuhe",
+    "apis-installation"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "war"
@@ -2360,7 +3423,9 @@
    "bio": "Hunter god who brings the raging Distant Goddess home from Nubia.",
    "longBio": "Onuris' name is a sentence: he who brings back the distant one. The Distant Goddess is the Eye of Ra in her furious form, withdrawn into Nubia as a lioness, and where Thoth talks her home Onuris hunts her down and brings her back with a lance and a rope, returning with her as his consort Mekhit. That makes him a god of the hunt and, because the same energy applies to enemies, of war; kings invoked him against foreigners. He is shown as a bearded man in a four-plumed crown, one arm raised to throw the spear, and he is one of the few major Egyptian gods depicted as fully human. The Greeks identified him with Ares.",
    "variantTraditions": "The Distant Goddess he retrieves is called Mekhit, Tefnut or Hathor depending on the temple; each city preferred its own.",
-   "storyIds": [],
+   "storyIds": [
+    "distant-goddess"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "war",
@@ -2397,7 +3462,9 @@
    "bio": "Four-headed ram god who counsels caution in the tribunal of Horus and Set.",
    "longBio": "The Egyptian word ba means both ram and soul, and Banebdjedet exploits the pun completely: he is the ram who is the ba, and his four heads are said to be the bas of Ra, Shu, Geb and Osiris gathered in one animal. In the Contendings of Horus and Set he plays the part of the cautious elder, advising the tribunal against a hasty verdict and proposing that Neith be consulted, which she is. His fertility aspect is emphatic and the living ram kept at Mendes was treated as his manifestation and buried in a granite sarcophagus. Herodotus reported rites at Mendes that later writers repeated with relish and which modern scholarship treats as a Greek misunderstanding.",
    "variantTraditions": "Banebdjedet is sometimes conflated with the ram of Khnum at Elephantine, though the species and the theology differ.",
-   "storyIds": [],
+   "storyIds": [
+    "contendings"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "divine-beast",
@@ -2435,7 +3502,10 @@
    "bio": "Guardian of Egypt's southern border who releases the flood and purifies the dead with cataract water.",
    "longBio": "Satis stands at the frontier: her city Elephantine sat at the first cataract, the boundary between Egypt and Nubia, and she is both the archer who guards that border and the goddess who pours out the inundation from the caverns there. In the Pyramid Texts she purifies the dead king with four jars of water from the cataract, which is her funerary role. With Khnum and Anuket she forms the triad of the cataract region, generally as Khnum's consort. Her crown is unusual and memorable: the tall white crown of Upper Egypt flanked by a pair of antelope horns.",
    "variantTraditions": "Satis is sometimes given as Khnum's daughter rather than consort, and her name is variously rendered Satet or Setet.",
-   "storyIds": [],
+   "storyIds": [
+    "khnum-wheel",
+    "famine-stela"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "sea-waters",
@@ -2473,7 +3543,9 @@
    "bio": "Third of the cataract triad, whose name means the embracer - the flood clasping the fields.",
    "longBio": "Anuket completes the Elephantine triad with Khnum and Satis, usually as their daughter. Her name comes from a verb meaning to embrace, and the sense is agricultural: the rising water clasps the fields and leaves them fertile. She is shown in a tall crown of reeds or plumes, and the gazelle is her animal, so she is sometimes called mistress of Nubia, where gazelles were common. Her island of Sehel carried a large sanctuary. At the height of the inundation her festival involved throwing coins, gold and jewellery into the river as thanks, and cowrie shells associated with her were worn as protective amulets by women.",
    "variantTraditions": "In some periods Anuket takes on a more erotic character; her role shifts noticeably between the Middle and New Kingdoms.",
-   "storyIds": [],
+   "storyIds": [
+    "famine-stela"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "sea-waters",
@@ -2511,7 +3583,9 @@
    "bio": "The child god who shakes the sistrum, embodying the joy of Hathor's music.",
    "longBio": "Ihy is the son of Hathor and Horus of Edfu, and completes the Dendera triad. He is shown as a naked child with the sidelock of youth, a finger at his lips in the standard Egyptian gesture for a child, holding a sistrum - the rattle shaken in Hathor's rites, whose sound was believed to please the goddess and drive off hostility. His name has been read as sistrum player or as calf, both fitting a child of the cow goddess. He has essentially no narrative; his significance is that the rattling of the instrument in the temple is itself divine, so the sound of the ritual has a god of its own.",
    "variantTraditions": "Ihy is sometimes identified with Harsomtus, another child of Hathor at Dendera, and the two are hard to separate.",
-   "storyIds": [],
+   "storyIds": [
+    "hathor-drunkenness"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "love-desire"
@@ -2547,7 +3621,12 @@
    "bio": "The power that makes magic and ritual work, present at creation before anything else was made.",
    "longBio": "Heka is the energy that makes any ritual act effective, and Egyptians understood it as a natural force rather than a transgression - there is no Egyptian category of forbidden magic in the way later cultures developed. A Coffin Text has Heka declare that he came into being before duality existed, which places him prior even to the first division of the world, and he travels in the solar barque as part of its defence. Because healing was performed through spells as much as through drugs, physicians worked under him alongside Sekhmet and Serqet, and the standard Egyptian medical papyri mix pharmacology and incantation without any sense of a boundary. His emblem, two entwined serpents on a staff, resembles the later caduceus.",
    "variantTraditions": "Heka is paired in some texts with Hu, authoritative utterance, and Sia, perception, as the three faculties by which Atum created.",
-   "storyIds": [],
+   "storyIds": [
+    "atum-creates",
+    "book-of-gates",
+    "secret-name",
+    "memphite-theology"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "wisdom-craft",
@@ -2584,7 +3663,9 @@
    "bio": "The two faculties Atum used to create: the perception that conceives and the word that commands.",
    "longBio": "Egyptian creation theology repeatedly separates thinking a thing from saying it, and personifies both. Sia is perception, the mind that conceives; Hu is the authoritative utterance, the word that makes what was conceived exist. Together with Heka, the force that makes the utterance effective, they are the machinery of creation by speech, which is the Memphite Theology's central claim about Ptah and appears in Heliopolitan texts about Atum as well. In the Pyramid Texts, Atum is said to have created them from drops of his own blood. They stand in the solar barque with Ra as permanent attendants, which is the tradition's way of saying that the sun's daily course is itself an act of intelligent speech rather than a mechanism.",
    "variantTraditions": "Hu and Sia are usually treated as a pair; a third, Hehu, occasionally joins them, and their relation to Heka is stated differently in different texts.",
-   "storyIds": [],
+   "storyIds": [
+    "memphite-theology"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "wisdom-craft"
@@ -2620,7 +3701,9 @@
    "bio": "The goddess of Sirius, whose reappearance at dawn marked the new year and the imminent flood.",
    "longBio": "Sirius disappears from the Egyptian sky for about seventy days each year and returns just before dawn in midsummer, within days of the Nile beginning to rise. Egyptians built their calendar on that coincidence: the heliacal rising of Sopdet opened the year, and the observation is precise enough that modern chronology of the whole ancient Near East partly depends on recorded sightings of it. She is shown as a woman with a five-pointed star above her head. With Sah, the constellation Orion identified with Osiris, she forms a celestial pair, and their child is Sopdu; the family is a sky version of Isis, Osiris and Horus, and Sopdet is regularly identified with Isis outright.",
    "variantTraditions": "The 365-day civil calendar drifted against the true year by a day every four years, so the civil new year and Sopdet's rising coincided only once every 1,460 years - the Sothic cycle.",
-   "storyIds": [],
+   "storyIds": [
+    "five-days"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "fate-time",
@@ -2692,7 +3775,10 @@
    "bio": "A cow goddess who is the water on which the sun sails and out of whom it was born.",
    "longBio": "Mehet-Weret means the great flood, and she is the celestial water understood as a cow - Egyptians conceived the sky as a great expanse of water on which the solar barque sails, and she is that expanse. In one account the sun rose from between her horns at the first morning, making her the mother of Ra, and she is shown as a recumbent cow with the disc between her horns and a menat at her neck. She carries the newly born sun on her back. She is closely identified with Hathor, Neith and Nut, all of whom carry celestial-cow imagery, and it is often impossible to say which of them a given cow in a funerary papyrus is meant to be.",
    "variantTraditions": "The Book of the Heavenly Cow describes the sky-cow lifting Ra away from mankind after the near-extermination; whether that cow is Mehet-Weret, Nut or Hathor is not resolved.",
-   "storyIds": [],
+   "storyIds": [
+    "separation",
+    "destruction-mankind"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "sea-waters",
@@ -2805,7 +3891,11 @@
    "bio": "The personified West, who meets the newly dead at the desert edge and offers food and water.",
    "longBio": "Egyptians buried on the west bank because the sun died there, and the west became a synonym for the realm of the dead; the dead themselves are called the westerners. Imentet is that direction personified, a woman wearing the hieroglyph for west on her head, and her role is a gentle one. She stands at the boundary between the cultivated land and the desert, sometimes emerging from the trunk of a sycamore, and offers bread and water to the newly arrived - the first hospitality of the afterlife. She frequently merges with Hathor as Mistress of the West and with Isis. The gesture of the goddess in the tree pouring water for the dead is one of the warmer images in Egyptian funerary art.",
    "variantTraditions": "Imentet is rarely an independent figure and is usually an aspect of Hathor or Isis; her iconography is more distinct than her theology.",
-   "storyIds": [],
+   "storyIds": [
+    "sinuhe",
+    "anubis-embalming",
+    "field-of-reeds"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "death-judge",
@@ -2842,7 +3932,10 @@
    "bio": "The primeval mound itself, personified: the first ground to rise from the water.",
    "longBio": "Tatenen is the moment the land appears - the mound emerging from Nun on which creation becomes possible - held as a permanent god rather than a past event. His name means the risen land, and he is shown with green skin because he is the fertile earth, wearing a crown of ram's horns and tall plumes. Everything the earth contains falls to him, so he is the lord of quarries, mines and metal ores, which mattered greatly to a state that organised expeditions for stone and copper. At Memphis he was merged with Ptah as Ptah-Tatenen, giving the craftsman-creator a physical ground to stand on and to work with, and in that form he is invoked in royal texts as the father of the king.",
    "variantTraditions": "Whether Tatenen was originally independent of Ptah or always an aspect of him is unclear; the fused form dominates the surviving record.",
-   "storyIds": [],
+   "storyIds": [
+    "first-mound",
+    "memphite-theology"
+   ],
    "hierarchyLevel": 0,
    "archetypes": [
     "creator",
@@ -2878,7 +3971,10 @@
    "bio": "A black bull kept at Heliopolis as the living manifestation of Ra, as Apis was of Ptah.",
    "longBio": "Where Memphis had the Apis of Ptah, Heliopolis had the Mnevis of Ra: a living black bull housed at the temple, treated as the god's herald, consulted for oracles, and buried with full ceremony at death. Unlike the Apis, whose markings were minutely specified, the Mnevis was identified mainly by being wholly black with forward-growing hair. Its burials have been found at Heliopolis in stone-lined chambers. The bull cults show a strain of Egyptian religion quite different from the temple statue: the god is not represented, he is present, in an animal that eats and ages and dies and has to be replaced. Akhenaten, who abolished nearly everything, explicitly preserved the Mnevis, which says something about how deeply rooted it was.",
    "variantTraditions": "The relationship between Mnevis, Apis and the Buchis bull of Armant was one of parallel local cults rather than a single system.",
-   "storyIds": [],
+   "storyIds": [
+    "apis-installation",
+    "amarna"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "divine-beast",
@@ -2914,7 +4010,9 @@
    "bio": "A white bull with a black face kept at Armant as the living Montu, buried in the Bucheum.",
    "longBio": "The Buchis is the third of the great Egyptian bull cults, the manifestation of the war god Montu at Armant. Its required marking was a white body with a black face, and ancient writers claimed its hair grew in the opposite direction to other cattle and that its colour changed hourly - the sort of detail that indicates a closely watched sacred animal accumulating lore. It was consulted as an oracle and had a reputation for healing. Its burials, in the underground gallery called the Bucheum, run from the Thirtieth Dynasty into the Roman period, and the dated stelae there are a useful chronological source. The cows that mothered the bulls were buried separately nearby.",
    "variantTraditions": "The Bucheum stelae continue to 340 CE, making the Buchis one of the last documented Egyptian animal cults.",
-   "storyIds": [],
+   "storyIds": [
+    "apis-installation"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "divine-beast",
@@ -2922,5 +4020,876 @@
    ]
   }
  ],
- "links": []
+ "links": [
+  {
+   "from": "nun",
+   "to": "atum",
+   "type": "parent",
+   "note": "Atum rose from the water; Nun is his origin, not his father in the ordinary sense"
+  },
+  {
+   "from": "nun",
+   "to": "ra",
+   "type": "parent",
+   "note": "in the accounts where the sun emerges directly from the water"
+  },
+  {
+   "from": "atum",
+   "to": "ra",
+   "type": "form",
+   "note": "Atum is the evening sun, Ra the day; regularly fused as Atum-Ra"
+  },
+  {
+   "from": "khepri",
+   "to": "ra",
+   "type": "form",
+   "note": "Khepri is the sun at dawn"
+  },
+  {
+   "from": "atum",
+   "to": "shu",
+   "type": "parent",
+   "note": "produced from his own body, without a partner"
+  },
+  {
+   "from": "atum",
+   "to": "tefnut",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "shu",
+   "to": "tefnut",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "shu",
+   "to": "tefnut",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "shu",
+   "to": "geb",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "tefnut",
+   "to": "geb",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "shu",
+   "to": "nut",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "tefnut",
+   "to": "nut",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "geb",
+   "to": "nut",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "geb",
+   "to": "nut",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "shu",
+   "to": "geb",
+   "type": "enemy",
+   "note": "forced apart from Nut and held there"
+  },
+  {
+   "from": "geb",
+   "to": "osiris",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "nut",
+   "to": "osiris",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "geb",
+   "to": "isis",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "nut",
+   "to": "isis",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "geb",
+   "to": "set",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "nut",
+   "to": "set",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "geb",
+   "to": "nephthys",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "nut",
+   "to": "nephthys",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "geb",
+   "to": "haroeris",
+   "type": "parent",
+   "note": "Horus the Elder, born of Nut with the others"
+  },
+  {
+   "from": "nut",
+   "to": "haroeris",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "osiris",
+   "to": "isis",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "osiris",
+   "to": "set",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "osiris",
+   "to": "nephthys",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "isis",
+   "to": "nephthys",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "set",
+   "to": "nephthys",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "haroeris",
+   "to": "set",
+   "type": "sibling",
+   "note": ""
+  },
+  {
+   "from": "osiris",
+   "to": "isis",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "set",
+   "to": "nephthys",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "set",
+   "to": "osiris",
+   "type": "enemy",
+   "note": "murdered and dismembered him"
+  },
+  {
+   "from": "osiris",
+   "to": "horus",
+   "type": "parent",
+   "note": "conceived after death, from the reassembled body"
+  },
+  {
+   "from": "isis",
+   "to": "horus",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "set",
+   "to": "horus",
+   "type": "enemy",
+   "note": "contested the throne with him for eighty years"
+  },
+  {
+   "from": "haroeris",
+   "to": "set",
+   "type": "enemy",
+   "note": "in the older tradition the quarrel is between brothers"
+  },
+  {
+   "from": "nephthys",
+   "to": "isis",
+   "type": "ally",
+   "note": "helped gather the body against her own husband"
+  },
+  {
+   "from": "nephthys",
+   "to": "anubis",
+   "type": "parent",
+   "note": "by Osiris, in the later tradition"
+  },
+  {
+   "from": "osiris",
+   "to": "anubis",
+   "type": "parent",
+   "note": "in the tradition that makes Nephthys his mother"
+  },
+  {
+   "from": "anubis",
+   "to": "osiris",
+   "type": "devotee",
+   "note": "embalmed him, and serves him in the Duat"
+  },
+  {
+   "from": "thoth",
+   "to": "horus",
+   "type": "ally",
+   "note": "healed the eye Set tore out"
+  },
+  {
+   "from": "thoth",
+   "to": "isis",
+   "type": "ally",
+   "note": "sent by Ra to cure the infant Horus of venom"
+  },
+  {
+   "from": "geb",
+   "to": "horus",
+   "type": "ally",
+   "note": "awarded him the throne in the Memphite account"
+  },
+  {
+   "from": "neith",
+   "to": "horus",
+   "type": "ally",
+   "note": "her letter to the tribunal decided for him"
+  },
+  {
+   "from": "banebdjedet",
+   "to": "set",
+   "type": "ally",
+   "note": "counselled the tribunal against a quick verdict"
+  },
+  {
+   "from": "imsety",
+   "to": "horus",
+   "type": "parent",
+   "note": "the four sons who guard the viscera"
+  },
+  {
+   "from": "isis",
+   "to": "imsety",
+   "type": "ally",
+   "note": "one of the four goddesses behind the four sons"
+  },
+  {
+   "from": "nephthys",
+   "to": "imsety",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "neith",
+   "to": "imsety",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "serqet",
+   "to": "imsety",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "ra",
+   "to": "maat",
+   "type": "parent",
+   "note": "his daughter, and what he lives on"
+  },
+  {
+   "from": "ra",
+   "to": "hathor",
+   "type": "parent",
+   "note": "the Eye of Ra sent against mankind"
+  },
+  {
+   "from": "ra",
+   "to": "sekhmet",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "ra",
+   "to": "bastet",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "ra",
+   "to": "tefnut",
+   "type": "parent",
+   "note": "in the accounts identifying Tefnut with the Eye"
+  },
+  {
+   "from": "hathor",
+   "to": "sekhmet",
+   "type": "form",
+   "note": "the same Eye, raging instead of pacified"
+  },
+  {
+   "from": "hathor",
+   "to": "bastet",
+   "type": "form",
+   "note": "the Eye in its gentle, protective form"
+  },
+  {
+   "from": "hathor",
+   "to": "imentet",
+   "type": "form",
+   "note": "as Mistress of the West she receives the dead"
+  },
+  {
+   "from": "apep",
+   "to": "ra",
+   "type": "enemy",
+   "note": "attacks the barque every night without end"
+  },
+  {
+   "from": "set",
+   "to": "apep",
+   "type": "enemy",
+   "note": "stands in the prow and spears him"
+  },
+  {
+   "from": "set",
+   "to": "ra",
+   "type": "ally",
+   "note": "the only god strong enough to defend the barque"
+  },
+  {
+   "from": "heka",
+   "to": "ra",
+   "type": "ally",
+   "note": "travels in the barque as its force"
+  },
+  {
+   "from": "sia",
+   "to": "ra",
+   "type": "ally",
+   "note": "perception and utterance attend him"
+  },
+  {
+   "from": "maat",
+   "to": "ra",
+   "type": "devotee",
+   "note": ""
+  },
+  {
+   "from": "aker",
+   "to": "ra",
+   "type": "ally",
+   "note": "the double lion whose gates the sun passes"
+  },
+  {
+   "from": "mehet-weret",
+   "to": "ra",
+   "type": "parent",
+   "note": "the celestial cow from whom the sun was born"
+  },
+  {
+   "from": "bennu",
+   "to": "ra",
+   "type": "form",
+   "note": "called the ba of Ra"
+  },
+  {
+   "from": "sekhmet",
+   "to": "ra",
+   "type": "devotee",
+   "note": "sent as his Eye, and nearly ended mankind"
+  },
+  {
+   "from": "thoth",
+   "to": "tefnut",
+   "type": "ally",
+   "note": "talked the Distant Goddess home from Nubia"
+  },
+  {
+   "from": "onuris",
+   "to": "tefnut",
+   "type": "ally",
+   "note": "hunted the Distant Goddess and brought her back"
+  },
+  {
+   "from": "ptah",
+   "to": "atum",
+   "type": "parent",
+   "note": "in the Memphite Theology, Ptah conceives and Atum is among what he makes"
+  },
+  {
+   "from": "ptah",
+   "to": "sekhmet",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "ptah",
+   "to": "nefertum",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "sekhmet",
+   "to": "nefertum",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "ptah",
+   "to": "tatenen",
+   "type": "form",
+   "note": "fused as Ptah-Tatenen, the craftsman standing on the risen land"
+  },
+  {
+   "from": "ptah",
+   "to": "apis",
+   "type": "form",
+   "note": "the bull is his living herald"
+  },
+  {
+   "from": "ptah",
+   "to": "sokar",
+   "type": "ally",
+   "note": "fused with Osiris as Ptah-Sokar-Osiris"
+  },
+  {
+   "from": "sokar",
+   "to": "osiris",
+   "type": "form",
+   "note": ""
+  },
+  {
+   "from": "ptah",
+   "to": "imhotep",
+   "type": "parent",
+   "note": "a mortal, deified as his son"
+  },
+  {
+   "from": "ptah",
+   "to": "sokar",
+   "type": "form",
+   "note": ""
+  },
+  {
+   "from": "amun",
+   "to": "amaunet",
+   "type": "consort",
+   "note": "her place as consort was later taken by Mut"
+  },
+  {
+   "from": "amun",
+   "to": "mut",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "amun",
+   "to": "khonsu",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "mut",
+   "to": "khonsu",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "amun",
+   "to": "ra",
+   "type": "form",
+   "note": "fused as Amun-Ra, the imperial god of the New Kingdom"
+  },
+  {
+   "from": "amun",
+   "to": "min",
+   "type": "form",
+   "note": "fused as Amun-Min in his fertility aspect"
+  },
+  {
+   "from": "montu",
+   "to": "amun",
+   "type": "enemy",
+   "note": "displaced as chief god of the Theban nome"
+  },
+  {
+   "from": "montu",
+   "to": "buchis",
+   "type": "form",
+   "note": "the white bull is his living manifestation"
+  },
+  {
+   "from": "ra",
+   "to": "mnevis",
+   "type": "form",
+   "note": "the black bull of Heliopolis"
+  },
+  {
+   "from": "aten",
+   "to": "ra",
+   "type": "form",
+   "note": "the visible disc, briefly raised above every other god"
+  },
+  {
+   "from": "nun",
+   "to": "amun",
+   "type": "ally",
+   "note": "both counted among the eight"
+  },
+  {
+   "from": "amun",
+   "to": "heh",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "amun",
+   "to": "kek",
+   "type": "ally",
+   "note": ""
+  },
+  {
+   "from": "heh",
+   "to": "kek",
+   "type": "ally",
+   "note": "pairs of the Ogdoad"
+  },
+  {
+   "from": "thoth",
+   "to": "heh",
+   "type": "guru",
+   "note": "lord of the eight at Hermopolis"
+  },
+  {
+   "from": "thoth",
+   "to": "seshat",
+   "type": "consort",
+   "note": "variously his consort, sister or daughter"
+  },
+  {
+   "from": "thoth",
+   "to": "nut",
+   "type": "ally",
+   "note": "won five days from the moon so she could give birth"
+  },
+  {
+   "from": "thoth",
+   "to": "maat",
+   "type": "ally",
+   "note": "records the verdict she measures"
+  },
+  {
+   "from": "khnum",
+   "to": "satis",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "khnum",
+   "to": "anuket",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "satis",
+   "to": "anuket",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "khnum",
+   "to": "hapi",
+   "type": "ally",
+   "note": "guards the caverns from which the flood issues"
+  },
+  {
+   "from": "khnum",
+   "to": "heqet",
+   "type": "ally",
+   "note": "he shapes the child, she gives it life"
+  },
+  {
+   "from": "sobek",
+   "to": "ra",
+   "type": "form",
+   "note": "fused as Sobek-Ra"
+  },
+  {
+   "from": "sobek",
+   "to": "haroeris",
+   "type": "enemy",
+   "note": "share the double temple at Kom Ombo"
+  },
+  {
+   "from": "hathor",
+   "to": "haroeris",
+   "type": "consort",
+   "note": "their meeting is celebrated at Edfu"
+  },
+  {
+   "from": "hathor",
+   "to": "ihy",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "haroeris",
+   "to": "ihy",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "hathor",
+   "to": "nut",
+   "type": "form",
+   "note": "both appear as the celestial cow"
+  },
+  {
+   "from": "wadjet",
+   "to": "nekhbet",
+   "type": "ally",
+   "note": "the Two Ladies of the royal titulary"
+  },
+  {
+   "from": "wadjet",
+   "to": "ra",
+   "type": "devotee",
+   "note": "the uraeus that spits fire for him"
+  },
+  {
+   "from": "wadjet",
+   "to": "isis",
+   "type": "ally",
+   "note": "sheltered her and the infant Horus in the marshes"
+  },
+  {
+   "from": "anubis",
+   "to": "thoth",
+   "type": "ally",
+   "note": "weighs while Thoth records"
+  },
+  {
+   "from": "anubis",
+   "to": "maat",
+   "type": "ally",
+   "note": "her feather is the counterweight"
+  },
+  {
+   "from": "ammit",
+   "to": "maat",
+   "type": "enemy",
+   "note": "eats the heart that fails her feather"
+  },
+  {
+   "from": "ammit",
+   "to": "anubis",
+   "type": "ally",
+   "note": "waits beside the scales he operates"
+  },
+  {
+   "from": "wepwawet",
+   "to": "osiris",
+   "type": "devotee",
+   "note": "leads his procession at Abydos"
+  },
+  {
+   "from": "wepwawet",
+   "to": "anubis",
+   "type": "sibling",
+   "note": "the two canine gods, often confused"
+  },
+  {
+   "from": "shezmu",
+   "to": "osiris",
+   "type": "devotee",
+   "note": "presses the oils, and the condemned"
+  },
+  {
+   "from": "babi",
+   "to": "osiris",
+   "type": "devotee",
+   "note": "called his eldest son"
+  },
+  {
+   "from": "nehebkau",
+   "to": "atum",
+   "type": "enemy",
+   "note": "subdued by Atum, and thereafter serves"
+  },
+  {
+   "from": "nehebkau",
+   "to": "renenutet",
+   "type": "parent",
+   "note": ""
+  },
+  {
+   "from": "aker",
+   "to": "apep",
+   "type": "enemy",
+   "note": "restrains his coils in the underworld"
+  },
+  {
+   "from": "imentet",
+   "to": "osiris",
+   "type": "devotee",
+   "note": "receives the dead at the desert edge"
+  },
+  {
+   "from": "serqet",
+   "to": "isis",
+   "type": "ally",
+   "note": "sent seven scorpions to guard her in the marshes"
+  },
+  {
+   "from": "heqet",
+   "to": "meskhenet",
+   "type": "ally",
+   "note": "both attend at the birthing bricks"
+  },
+  {
+   "from": "meskhenet",
+   "to": "maat",
+   "type": "ally",
+   "note": "speaks the fate her feather later measures"
+  },
+  {
+   "from": "taweret",
+   "to": "bes",
+   "type": "ally",
+   "note": "the two household guardians of childbirth"
+  },
+  {
+   "from": "taweret",
+   "to": "set",
+   "type": "enemy",
+   "note": "the female hippopotamus against the male, who is Set's"
+  },
+  {
+   "from": "renenutet",
+   "to": "hapi",
+   "type": "ally",
+   "note": "the granary and the flood that fills it"
+  },
+  {
+   "from": "min",
+   "to": "hapi",
+   "type": "ally",
+   "note": "the harvest and the water that made it"
+  },
+  {
+   "from": "nefertum",
+   "to": "ra",
+   "type": "ally",
+   "note": "the lotus from which the sun first rose"
+  },
+  {
+   "from": "sah",
+   "to": "sopdet",
+   "type": "consort",
+   "note": ""
+  },
+  {
+   "from": "sah",
+   "to": "osiris",
+   "type": "form",
+   "note": "Orion is identified with him"
+  },
+  {
+   "from": "sopdet",
+   "to": "isis",
+   "type": "form",
+   "note": "Sirius is identified with her"
+  },
+  {
+   "from": "nut",
+   "to": "sah",
+   "type": "ally",
+   "note": "the constellations she carries"
+  },
+  {
+   "from": "khufu",
+   "to": "djedi",
+   "type": "guru",
+   "note": "summoned the magician to court"
+  },
+  {
+   "from": "djedi",
+   "to": "ra",
+   "type": "devotee",
+   "note": "prophesied the birth of the kings of Ra's line"
+  },
+  {
+   "from": "imhotep",
+   "to": "seshat",
+   "type": "devotee",
+   "note": "architect, working under the goddess of measure"
+  },
+  {
+   "from": "imhotep",
+   "to": "thoth",
+   "type": "devotee",
+   "note": ""
+  },
+  {
+   "from": "bata",
+   "to": "anubis",
+   "type": "ally",
+   "note": "the tale's brothers bear the gods' names"
+  },
+  {
+   "from": "sinuhe",
+   "to": "amun",
+   "type": "devotee",
+   "note": "prayed for return to Egypt"
+  },
+  {
+   "from": "khufu",
+   "to": "khnum",
+   "type": "devotee",
+   "note": ""
+  }
+ ]
 }
