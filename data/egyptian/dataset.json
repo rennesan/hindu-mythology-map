@@ -606,6 +606,754 @@
     "war",
     "hero-champion"
    ]
+  },
+  {
+   "id": "amun",
+   "name": "Amun",
+   "sanskrit": "jmn",
+   "category": "ogdoad",
+   "era": "Creation",
+   "role": "The hidden one; king of the gods at Thebes",
+   "wikipedia": "Amun",
+   "portrait": "portraits/egyptian/amun.webp",
+   "epithets": [
+    "The Hidden One",
+    "King of the Gods",
+    "Lord of the Thrones of the Two Lands",
+    "Amun-Ra"
+   ],
+   "domains": [
+    "hiddenness",
+    "the wind and breath",
+    "kingship",
+    "the unseen power behind all things"
+   ],
+   "symbols": [
+    "the double-plumed crown",
+    "the ram",
+    "the goose",
+    "blue skin"
+   ],
+   "mount": null,
+   "abode": "Karnak at Thebes",
+   "festivals": [
+    "Opet festival, carrying his image from Karnak to Luxor",
+    "the Beautiful Festival of the Valley"
+   ],
+   "worship": "Karnak and Luxor were his great houses, and the Opet procession annually renewed the king's divine legitimacy. His oracle at Siwa in the western desert was consulted from across the Mediterranean.",
+   "bio": "One of the Ogdoad who rose to become the supreme state god of the New Kingdom.",
+   "longBio": "Amun begins as one of the eight Hermopolitan powers, paired with Amaunet, and his name means the hidden or concealed one - a god defined by not being visible, which made him unusually adaptable. When Theban princes drove out the Hyksos and founded the New Kingdom, their local god rose with them, fused with the sun as Amun-Ra, and became the imperial deity of Egypt at its most powerful. Karnak grew into the largest religious structure ever built. His priesthood became so wealthy and politically strong that it eventually rivalled the throne, and Akhenaten's suppression of Amun in favour of the Aten is usually read partly as a move against that power. After Akhenaten's death the reaction was total: his monuments were dismantled and Amun restored. A hymn describes him as one whose true form is unknown even to the other gods, which is his theological character exactly.",
+   "variantTraditions": "The Amun of Thebes and the Amun of the Ogdoad were reconciled by the priesthood rather than being originally the same; Greeks identified him with Zeus, and the oracle at Siwa that Alexander consulted was his.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "supreme-source",
+    "wind-storm",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "amaunet",
+   "name": "Amaunet",
+   "sanskrit": "jmnt",
+   "category": "ogdoad",
+   "era": "Primordial",
+   "role": "The hidden one, female",
+   "wikipedia": "Amaunet",
+   "portrait": "portraits/egyptian/amaunet.webp",
+   "epithets": [
+    "The Concealed",
+    "Consort of Amun"
+   ],
+   "domains": [
+    "hiddenness",
+    "the invisible air"
+   ],
+   "symbols": [
+    "the red crown",
+    "the papyrus staff"
+   ],
+   "mount": null,
+   "abode": "Hermopolis, and Thebes beside Amun",
+   "festivals": [],
+   "worship": "",
+   "bio": "Female counterpart of Amun among the eight, and an early Theban goddess in her own right.",
+   "longBio": "The Ogdoad is built of four male-female pairs, each expressing one quality of the state before creation, and Amaunet is the female half of hiddenness. Unlike most of the eight she had a real independent cult at Thebes, attested from the Old Kingdom, and she appears in coronation scenes at Karnak. As Amun rose to imperial status, however, his consort role was largely taken over by Mut, and Amaunet receded into a mostly ceremonial presence. The eight are shown as frogs (male) and snakes (female), creatures of the wet silt, which is a precise piece of observation: they represent the qualities of the primordial mud from which the first mound emerged.",
+   "variantTraditions": "Amaunet is sometimes conflated with Neith, and at Thebes her position as Amun's consort was displaced by Mut without either goddess being removed.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": []
+  },
+  {
+   "id": "heh",
+   "name": "Heh and Hauhet",
+   "sanskrit": "ḥḥ",
+   "category": "ogdoad",
+   "era": "Primordial",
+   "role": "Endlessness",
+   "wikipedia": "Heh (god)",
+   "portrait": "portraits/egyptian/heh.webp",
+   "epithets": [
+    "The Infinite",
+    "Millions of Years"
+   ],
+   "domains": [
+    "boundless extent",
+    "eternity as unending duration"
+   ],
+   "symbols": [
+    "a kneeling man holding two palm ribs",
+    "the tadpole"
+   ],
+   "mount": null,
+   "abode": "Hermopolis",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Ogdoad pair expressing infinity, and the standard Egyptian image for a wish of endless years.",
+   "longBio": "Heh and his consort Hauhet embody limitlessness - not eternity in the sense of timelessness, but extent without boundary. Heh's image, a kneeling figure holding a notched palm rib in each hand with a shen ring at his feet, became the standard hieroglyphic way of writing a very large number and of wishing a king millions of years of life, so he appears constantly in royal iconography quite apart from any myth. Tutankhamun's tomb goods carry him repeatedly. He also appears in the group of eight who lift the solar barque. As with the rest of the Ogdoad he has no narrative: these are conditions, not characters, and their function is to describe what the world was like before anything happened in it.",
+   "variantTraditions": "Heh is sometimes confused with Huh, and his sign is also used for the number one million; his role differs entirely between the Hermopolitan theology and royal iconography.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "fate-time"
+   ]
+  },
+  {
+   "id": "kek",
+   "name": "Kek and Kauket",
+   "sanskrit": "kkw",
+   "category": "ogdoad",
+   "era": "Primordial",
+   "role": "Darkness",
+   "wikipedia": "Kek (mythology)",
+   "portrait": "portraits/egyptian/kek.webp",
+   "epithets": [
+    "Bringer of the Light",
+    "The Obscure"
+   ],
+   "domains": [
+    "darkness before the sun",
+    "the hours before dawn"
+   ],
+   "symbols": [
+    "the frog head",
+    "the serpent head",
+    "raised arms"
+   ],
+   "mount": null,
+   "abode": "Hermopolis",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Ogdoad pair expressing the darkness that preceded the first light.",
+   "longBio": "Kek and Kauket are the darkness of the pre-creation state, and their titles are unexpectedly hopeful: Kek is called bringer of the light and Kauket bringer of the night, because the darkness before dawn is understood as the condition that makes dawn possible rather than as an enemy of it. This is a characteristically Egyptian move - the primordial state is not evil, only unformed, and the real adversary is Apep, who attacks the ordered world after it exists. Like all the Ogdoad they are depicted as a frog-headed man and a snake-headed woman, and they have no stories, only a place in the account of what was there before Atum rose.",
+   "variantTraditions": "The Hermopolitan Ogdoad competes with the Heliopolitan Ennead and the Memphite theology; Egyptian religion never chose between them.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": []
+  },
+  {
+   "id": "thoth",
+   "name": "Thoth",
+   "sanskrit": "ḏḥwtj",
+   "category": "deity",
+   "era": "Creation",
+   "role": "God of writing, reckoning and the moon",
+   "wikipedia": "Thoth",
+   "portrait": "portraits/egyptian/thoth.webp",
+   "epithets": [
+    "Lord of Divine Words",
+    "Reckoner of Time",
+    "He Who Balances",
+    "Scribe of the Ennead"
+   ],
+   "domains": [
+    "writing",
+    "mathematics",
+    "the moon and the calendar",
+    "magic",
+    "arbitration"
+   ],
+   "symbols": [
+    "the ibis",
+    "the baboon",
+    "the scribe's palette",
+    "the crescent moon"
+   ],
+   "mount": null,
+   "abode": "Hermopolis",
+   "festivals": [
+    "The festival of Thoth opening the first month of the year"
+   ],
+   "worship": "Hermopolis was his city, where mummified ibises were dedicated in enormous numbers. Scribes poured out a drop of water to him before starting work, and his House of Life attached to temples was where texts were copied and taught.",
+   "bio": "Ibis-headed god of writing and measure, who records the verdict at the weighing of the heart.",
+   "longBio": "Thoth invents writing, which the Egyptians regarded as the most consequential gift any god made, and he is the scribe and arbitrator of the divine court. He records the result at the weighing of the heart, standing beside the scales with his palette. His interventions repeatedly rescue the situation when force cannot: he wins five extra days from the moon so Nut can bear her children; he is sent to fetch the Distant Goddess home from Nubia, and persuades her with stories rather than power; he heals the eye of Horus, which is why the restored wedjat is a symbol of wholeness; and he cures the infant Horus of scorpion venom when Isis has stopped the solar barque in her distress. As lord of measure he governs the calendar, the reckoning of time and the boundaries of fields, and priests of the House of Life worked under him.",
+   "variantTraditions": "The Greeks identified Thoth with Hermes, and the fusion produced Hermes Trismegistus, the supposed author of the Hermetic writings - a Greco-Egyptian construct of the Roman period, not an Egyptian god.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "moon",
+    "messenger-trickster",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "ptah",
+   "name": "Ptah",
+   "sanskrit": "ptḥ",
+   "category": "deity",
+   "era": "Creation",
+   "role": "Creator by thought and speech; patron of craftsmen",
+   "wikipedia": "Ptah",
+   "portrait": "portraits/egyptian/ptah.webp",
+   "epithets": [
+    "Lord of Truth",
+    "He Who Is South of His Wall",
+    "The Sculptor of the Earth"
+   ],
+   "domains": [
+    "craftsmanship",
+    "creation by word",
+    "architecture",
+    "sculpture"
+   ],
+   "symbols": [
+    "the djed pillar",
+    "the was sceptre",
+    "the tight skullcap",
+    "mummiform wrappings"
+   ],
+   "mount": null,
+   "abode": "Memphis",
+   "festivals": [],
+   "worship": "Memphis was his city and one of the greatest temple complexes in Egypt. Craftsmen's guilds honoured him, and the Apis bull kept in his precinct was consulted as an oracle.",
+   "bio": "The Memphite creator who makes the world by conceiving it in his heart and speaking it with his tongue.",
+   "longBio": "The Shabaka Stone preserves the Memphite Theology, and it is one of the most intellectually striking texts to survive from the ancient world: Ptah creates not by physical act but by thinking a thing in his heart and naming it with his tongue, and the other gods including Atum are among the things so made. This puts a theory of mind and language at the origin of the cosmos more than two millennia before comparable Greek formulations. Ptah is also the patron of craftsmen, sculptors and metalworkers - the same principle applied at human scale, giving shape to material - and the high priest of Memphis carried the title Greatest of Directors of Craftsmen. Fused with Sokar and Osiris as Ptah-Sokar-Osiris, he becomes a funerary composite. The Apis bull was regarded as his living manifestation.",
+   "variantTraditions": "The Shabaka Stone claims to copy a worm-eaten older document; whether the theology is genuinely Old Kingdom or a later Memphite claim to priority over Heliopolis is debated. The Greek name Aigyptos, and so Egypt, may derive from hut-ka-ptah, the house of the ka of Ptah.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "creator",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "hathor",
+   "name": "Hathor",
+   "sanskrit": "ḥwt-ḥr",
+   "category": "deity",
+   "era": "Solar",
+   "role": "Goddess of love, music, joy and the sky",
+   "wikipedia": "Hathor",
+   "portrait": "portraits/egyptian/hathor.webp",
+   "epithets": [
+    "The Golden One",
+    "Lady of the Sycamore",
+    "Mistress of the West",
+    "Eye of Ra"
+   ],
+   "domains": [
+    "love and beauty",
+    "music and dance",
+    "drunkenness and joy",
+    "motherhood",
+    "the welcoming of the dead"
+   ],
+   "symbols": [
+    "cow horns with a sun disc",
+    "the sistrum",
+    "the menat necklace",
+    "the sycamore fig"
+   ],
+   "mount": null,
+   "abode": "Dendera",
+   "festivals": [
+    "The Festival of Drunkenness",
+    "the Beautiful Reunion, when her image sailed to Edfu to meet Horus"
+   ],
+   "worship": "Dendera preserves a nearly complete temple. Women in particular dedicated to her, and her festivals involved music, beer and deliberate intoxication as a religious act.",
+   "bio": "Goddess of joy and music, nurse of the king, and in her other aspect the raging Eye of Ra.",
+   "longBio": "Hathor's name means house of Horus, and she is the sky as the enclosure that contains the sun, often shown as a cow with the disc between her horns. Her domains are the ones Egyptians most enjoyed: love, music, dancing, drunkenness and celebration, and her festivals were correspondingly loud. She nurses the king, meets the dead at the edge of the desert as Mistress of the West, and offers shade and water from the sycamore. But she carries the other side of the same energy. When Ra grows old and mankind plots against him, he sends his Eye as Hathor to punish them, and she becomes Sekhmet and slaughters so enthusiastically that Ra repents and has beer dyed red with ochre poured over the fields; she drinks it believing it blood, becomes drunk, and stops. That story is the charter of her drunkenness festival.",
+   "variantTraditions": "Hathor, Sekhmet, Bastet, Tefnut and Mut are all identified at times as the Eye of Ra and shade into one another; Dendera's temple carries the fullest surviving Hathor material.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "love-desire",
+    "earth-mother",
+    "moon"
+   ]
+  },
+  {
+   "id": "sekhmet",
+   "name": "Sekhmet",
+   "sanskrit": "sḫmt",
+   "category": "deity",
+   "era": "Solar",
+   "role": "The powerful one; lioness of plague and healing",
+   "wikipedia": "Sekhmet",
+   "portrait": "portraits/egyptian/sekhmet.webp",
+   "epithets": [
+    "The Powerful One",
+    "Lady of Slaughter",
+    "Mistress of Dread",
+    "She Before Whom Evil Trembles"
+   ],
+   "domains": [
+    "war",
+    "plague and its cure",
+    "the destroying heat of the sun",
+    "the protection of the king"
+   ],
+   "symbols": [
+    "the lioness head",
+    "the sun disc and uraeus",
+    "red linen"
+   ],
+   "mount": null,
+   "abode": "Memphis, beside Ptah",
+   "festivals": [
+    "The Festival of Drunkenness, commemorating her pacification"
+   ],
+   "worship": "Her priests, the wabau of Sekhmet, functioned as a medical order. Litanies were recited before her many statues to keep the plague-bringing aspect appeased.",
+   "bio": "Lioness goddess of the sun's destroying heat, who nearly wiped out humankind and was stopped with beer.",
+   "longBio": "Sekhmet is what the Eye of Ra becomes when it is sent to kill. In the Book of the Heavenly Cow, mankind plots against the aged Ra and he despatches his Eye; as Sekhmet she massacres them across the desert and cannot be recalled, having acquired a taste for it. Ra has seven thousand jars of beer dyed red with ochre poured out over the fields at Dendera; she drinks, believing it blood, falls asleep, and humanity survives. Her arrows are plague - the annual epidemics were called the messengers of Sekhmet - but by exactly the same logic she can withhold them, so her priests were physicians and her cult was a medical one. Amenhotep III installed hundreds of granite statues of her at Thebes, apparently one for each day of the year, so that the litany could be recited continuously.",
+   "variantTraditions": "Sekhmet, Hathor and Bastet are aspects of one pattern rather than separate goddesses in many texts; the pacification story is told of each.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "war",
+    "healer",
+    "sun"
+   ]
+  },
+  {
+   "id": "anubis",
+   "name": "Anubis",
+   "sanskrit": "jnpw",
+   "category": "chthonic",
+   "era": "Osirian",
+   "role": "Jackal god of embalming and the necropolis",
+   "wikipedia": "Anubis",
+   "portrait": "portraits/egyptian/anubis.webp",
+   "epithets": [
+    "He Who Is Upon His Mountain",
+    "Lord of the Sacred Land",
+    "He Who Counts the Hearts"
+   ],
+   "domains": [
+    "mummification",
+    "the protection of the tomb",
+    "guiding the dead",
+    "the weighing of the heart"
+   ],
+   "symbols": [
+    "the jackal",
+    "black skin",
+    "the flail",
+    "embalming linen"
+   ],
+   "mount": null,
+   "abode": "The necropolis, on the edge of the desert",
+   "festivals": [],
+   "worship": "Cynopolis was his centre, and vast dog and jackal catacombs were filled with mummified animals dedicated to him. Every embalming workshop operated under his patronage.",
+   "bio": "The jackal who invented embalming, guards the cemetery, and operates the scales at the judgment.",
+   "longBio": "Anubis is the oldest of the funerary gods, dominant before Osiris took over the underworld, after which he keeps the practical offices: he embalms, he guards, and he weighs. He is jackal-headed because jackals scavenged at desert cemeteries, and the Egyptian response was to make the animal that threatened the dead into their protector - a characteristic inversion. He conducts the first embalming, on Osiris, which makes him the patron of the practice, and embalmers wore his mask during the ritual. At the judgment he leads the deceased in by the hand, adjusts the scales, and reports the reading to Thoth. His black colour is not the jackal's but the black of fertile silt and of the embalmed body, signalling regeneration rather than death.",
+   "variantTraditions": "His parentage varies: a son of Ra in older texts, of Nephthys by Osiris in later ones, or of Set in a few. The Greeks merged him with Hermes as Hermanubis.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "divine-beast",
+    "healer"
+   ]
+  },
+  {
+   "id": "maat",
+   "name": "Maat",
+   "sanskrit": "mꜣꜥt",
+   "category": "deity",
+   "era": "Creation",
+   "role": "Truth, order and the balance of the world",
+   "wikipedia": "Maat",
+   "portrait": "portraits/egyptian/maat.webp",
+   "epithets": [
+    "Lady of the Feather",
+    "Daughter of Ra",
+    "Mistress of the Judgment Hall"
+   ],
+   "domains": [
+    "truth",
+    "justice",
+    "cosmic order",
+    "the balance against which a life is weighed"
+   ],
+   "symbols": [
+    "the ostrich feather",
+    "the scales",
+    "the plinth"
+   ],
+   "mount": null,
+   "abode": "The hall of judgment; and every properly governed thing",
+   "festivals": [],
+   "worship": "Rarely given large temples of her own; instead she is present in the judgment hall, in the courts, and in the daily offering the king makes to the gods.",
+   "bio": "The principle of order and truth, personified as a goddess and weighed against the heart of the dead.",
+   "longBio": "Maat is the most important idea in Egyptian religion and only secondarily a goddess. She is the rightness of things: the sun rising on time, the Nile flooding, the king judging fairly, a person dealing honestly. Her opposite is isfet, chaos and falsehood. The whole purpose of kingship is to uphold maat, which is why kings are shown offering a small figure of her to the gods - the offering of order itself, the only gift that matters. At death the heart is weighed against her single ostrich feather, and the forty-two negative confessions in the Book of the Dead are a declaration of having lived by her. She is called the daughter of Ra and is said to be what he lives on. Judges wore her image, and the vizier held the title priest of Maat.",
+   "variantTraditions": "Maat is sometimes doubled as the Two Maats presiding over the judgment hall; the concept is far more prominent in the texts than the personified goddess.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "fate-time",
+    "death-judge",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "bastet",
+   "name": "Bastet",
+   "sanskrit": "bꜣstt",
+   "category": "protector",
+   "era": "Solar",
+   "role": "Cat goddess of home, fertility and protection",
+   "wikipedia": "Bastet",
+   "portrait": "portraits/egyptian/bastet.webp",
+   "epithets": [
+    "Lady of Bubastis",
+    "The Gentle Eye of Ra",
+    "Protector of the Home"
+   ],
+   "domains": [
+    "the home",
+    "childbirth",
+    "protection from disease and evil spirits",
+    "music and festivity"
+   ],
+   "symbols": [
+    "the cat",
+    "the sistrum",
+    "the basket",
+    "kittens"
+   ],
+   "mount": null,
+   "abode": "Bubastis in the Delta",
+   "festivals": [
+    "The festival at Bubastis, described by Herodotus as the greatest in Egypt"
+   ],
+   "worship": "Bubastis was her city. Bronze cat statuettes were among the commonest votive offerings in Egypt, and mummified cats were dedicated by the hundreds of thousands.",
+   "bio": "The cat goddess: the Eye of Ra in her pacified, protective form rather than her raging one.",
+   "longBio": "Bastet begins as a lioness like Sekhmet and softens, from the second millennium onward, into the domestic cat - the same solar power in a form that guards the house rather than destroying armies. Egyptians valued cats for killing snakes, scorpions and vermin, and the goddess carries that protective function into the supernatural: she wards the home, guards women in childbirth, and defends against disease and malign spirits. Her festival at Bubastis was, according to Herodotus, the largest and most uninhibited in Egypt, drawing hundreds of thousands who travelled by barge singing, clapping and drinking far more wine than at any other time of year. Cat cemeteries at Bubastis and Saqqara held enormous numbers of mummified cats offered to her, bred for the purpose.",
+   "variantTraditions": "The pairing of Bastet as the gentle Eye and Sekhmet as the fierce one is a later systematisation; earlier Bastet is straightforwardly leonine.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "healer",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "sobek",
+   "name": "Sobek",
+   "sanskrit": "sbk",
+   "category": "deity",
+   "era": "Solar",
+   "role": "Crocodile god of the Nile, fertility and military power",
+   "wikipedia": "Sobek",
+   "portrait": "portraits/egyptian/sobek.webp",
+   "epithets": [
+    "Lord of the Waters",
+    "He Who Rages",
+    "Sobek-Ra"
+   ],
+   "domains": [
+    "the Nile and its dangers",
+    "fertility from the flood",
+    "military strength",
+    "protection from the river"
+   ],
+   "symbols": [
+    "the crocodile",
+    "the plumed crown",
+    "water"
+   ],
+   "mount": null,
+   "abode": "The Faiyum, and Kom Ombo",
+   "festivals": [],
+   "worship": "The Faiyum and Kom Ombo were his centres. Sacred crocodiles were kept, adorned and fed in temple lakes, and crocodile mummies were dedicated in large numbers.",
+   "bio": "Crocodile god of the river's fertility and its menace, who is appeased rather than defeated.",
+   "longBio": "Sobek is the Nile crocodile made a god, and the logic is the same as with Anubis and the jackal: the thing that kills you at the water's edge is turned into the power that protects you there. He is credited with the fertility that the flood brings, and his sweat was said to have formed the river. Pharaohs of the Twelfth Dynasty, several named Amenemhat, developed the Faiyum where he was strongest, and in the Thirteenth Dynasty kings took the name Sobekhotep and Sobekneferu. Fused with the sun as Sobek-Ra, he acquires a solar dimension. Live crocodiles were kept in temple pools at Crocodilopolis and at Kom Ombo, decorated with gold and glass ornaments, fed by visitors, and mummified at death; Kom Ombo's temple is unusual in being split in two, one half for Sobek and one for Horus the Elder.",
+   "variantTraditions": "Sobek's relationship with Set is inconsistent - sometimes an ally of the disorder Set represents, sometimes a defender of Ra against exactly that.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sea-waters",
+    "war",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "apep",
+   "name": "Apep",
+   "sanskrit": "ꜥꜣpp",
+   "category": "monster",
+   "era": "Solar",
+   "role": "The serpent of chaos who attacks the sun",
+   "wikipedia": "Apep",
+   "portrait": "portraits/egyptian/apep.webp",
+   "epithets": [
+    "Apophis",
+    "The Evil Lizard",
+    "Enemy of Ra",
+    "He Who Was Spat Out"
+   ],
+   "domains": [
+    "chaos",
+    "unbeing",
+    "the nightly threat to the sun",
+    "storms and eclipses"
+   ],
+   "symbols": [
+    "the immense coiled serpent",
+    "knives stuck through his coils"
+   ],
+   "mount": null,
+   "abode": "The Duat, in the waters the solar barque must cross",
+   "festivals": [],
+   "worship": "",
+   "bio": "The vast serpent who attacks Ra's barque every night and must be repelled every night.",
+   "longBio": "Apep is the closest thing Egyptian religion has to a devil, and the difference from a devil is instructive: he wants nothing, rules nothing, and offers nothing. He is unbeing, and his sole activity is to swallow the sun. Each night as the solar barque passes through the Duat he attacks, and the crew - with Set standing in the prow with a spear, which is the clearest statement of why Set cannot simply be an enemy - fights him off. He is never destroyed, only driven back, and the fight recurs the following night without end. Storms, unseasonal darkness and eclipses were explained as moments when he nearly succeeded. Temples performed rites called Overthrowing Apep, in which wax figures of the serpent were named, spat on, cut with knives, and burned, and the surviving Books of Overthrowing Apep are among the most vivid ritual texts from Egypt.",
+   "variantTraditions": "Apep is essentially absent from the Old Kingdom Pyramid Texts and grows in importance later, which suggests a developing rather than an original figure.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "serpent-dragon"
+   ]
+  },
+  {
+   "id": "ammit",
+   "name": "Ammit",
+   "sanskrit": "ꜥm-mwt",
+   "category": "monster",
+   "era": "Osirian",
+   "role": "Devourer of the unworthy dead",
+   "wikipedia": "Ammit",
+   "portrait": "portraits/egyptian/ammit.webp",
+   "epithets": [
+    "The Devourer",
+    "Eater of Hearts",
+    "Great of Death"
+   ],
+   "domains": [
+    "the second death",
+    "the annihilation of the failed"
+   ],
+   "symbols": [
+    "crocodile head",
+    "lion forequarters",
+    "hippopotamus hindquarters"
+   ],
+   "mount": null,
+   "abode": "Beside the scales in the hall of judgment",
+   "festivals": [],
+   "worship": "",
+   "bio": "Part crocodile, lion and hippopotamus; she eats the heart that fails the weighing.",
+   "longBio": "Ammit crouches beside the scales in every illustrated judgment scene, composed of the three animals Egyptians considered most lethal - the crocodile's head, the lion's chest and forelegs, the hippopotamus' hindquarters. She does not torment anyone and is not a ruler of any place. If the heart outweighs the feather of Maat she eats it, and the consequence is not punishment but cessation: the person simply stops existing, which to Egyptian thought was the worst possible outcome, far worse than suffering. There is no hell in the Egyptian system in the sense of ongoing torment for the ordinary dead; there is continued existence, which requires passing the test and being maintained by offerings, and there is Ammit. She is never worshipped and has no cult, existing purely as the stake in the wager.",
+   "variantTraditions": "Some texts place the devouring at a lake of fire instead, and the details of the judgment vary across copies of the Book of the Dead.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "taweret",
+   "name": "Taweret",
+   "sanskrit": "tꜣ-wrt",
+   "category": "protector",
+   "era": "Solar",
+   "role": "Hippopotamus goddess of childbirth",
+   "wikipedia": "Taweret",
+   "portrait": "portraits/egyptian/taweret.webp",
+   "epithets": [
+    "The Great One",
+    "Lady of the Birth House",
+    "She Who Removes Evil"
+   ],
+   "domains": [
+    "pregnancy and childbirth",
+    "the protection of infants",
+    "warding off harm from the household"
+   ],
+   "symbols": [
+    "the sa amulet",
+    "the torch",
+    "hippopotamus body with lion's paws and a crocodile's back"
+   ],
+   "mount": null,
+   "abode": "The birth house, and every bedroom",
+   "festivals": [],
+   "worship": "Domestic rather than temple religion: amulets, apotropaic wands and bed decorations, found throughout settlements at every social level.",
+   "bio": "Pregnant hippopotamus goddess who guards women in labour and newborn children.",
+   "longBio": "Taweret is built from three dangerous animals - hippopotamus, lion and crocodile - and turned entirely to protection, standing upright with a swollen belly and heavy breasts, often leaning on the sa sign of protection or holding a torch whose flame drives off evil. She has almost no mythology and was among the most present of all Egyptian deities in ordinary life: her image appears on beds, headrests, cosmetic jars, wands and amulets in enormous numbers, in workmen's houses as much as palaces, because childbirth was the most dangerous ordinary event a person faced. She was believed to attend the birth, frighten off the spirits that threatened mother and child, and continue guarding the infant afterwards. The female hippopotamus, famously aggressive in defence of her young, is the whole logic of the figure.",
+   "variantTraditions": "The male hippopotamus by contrast was associated with Set and hunted ritually; the same animal carries opposite meanings depending on its sex.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "earth-mother",
+    "healer"
+   ]
+  },
+  {
+   "id": "bes",
+   "name": "Bes",
+   "sanskrit": "bs",
+   "category": "protector",
+   "era": "Solar",
+   "role": "Dwarf god of the household, childbirth and joy",
+   "wikipedia": "Bes",
+   "portrait": "portraits/egyptian/bes.webp",
+   "epithets": [
+    "Protector of the Household",
+    "Lord of the Dance"
+   ],
+   "domains": [
+    "the home",
+    "childbirth",
+    "music and dancing",
+    "driving off snakes and evil spirits"
+   ],
+   "symbols": [
+    "the lion's mane and tail",
+    "the plumed headdress",
+    "the tambourine",
+    "the protruding tongue"
+   ],
+   "mount": null,
+   "abode": "The doorway and the bedroom",
+   "festivals": [],
+   "worship": "Purely domestic and popular: amulets, furniture, and birth-house decoration. Later there were Bes chambers where people slept seeking healing dreams.",
+   "bio": "A grotesque, cheerful dwarf who guards the home and frightens away what threatens it.",
+   "longBio": "Bes breaks every Egyptian artistic convention and does it deliberately. Where gods are shown in dignified profile, he faces forward, squat and bandy-legged, with a lion's mane, a protruding tongue and often a comic expression. That ugliness is the point: he frightens away hostile spirits, snakes and scorpions by being more alarming than they are. He is a household god rather than a temple one, present on beds, mirrors, headrests and cosmetic articles, and he dances and plays the tambourine at births to scare off whatever might harm the child. He and Taweret work the same territory and appear together constantly. His popularity was enormous and long-lived, spreading well beyond Egypt into Nubia, the Levant and the Roman world, where he turns up on amulets far from any Egyptian temple.",
+   "variantTraditions": "Bes may be a group of similar dwarf deities rather than one, and his origin - Egyptian, Nubian or Near Eastern - is unresolved.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "healer",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "bennu",
+   "name": "The Bennu",
+   "sanskrit": "bnw",
+   "category": "sacred-animal",
+   "era": "Creation",
+   "role": "The heron of rebirth; the phoenix",
+   "wikipedia": "Bennu",
+   "portrait": "portraits/egyptian/bennu.webp",
+   "epithets": [
+    "He Who Came Into Being By Himself",
+    "Lord of Jubilees",
+    "The Soul of Ra"
+   ],
+   "domains": [
+    "rebirth",
+    "the cycle of the sun",
+    "the reckoning of long time"
+   ],
+   "symbols": [
+    "the grey heron",
+    "the two long head plumes",
+    "the benben stone"
+   ],
+   "mount": null,
+   "abode": "Heliopolis, on the benben stone",
+   "festivals": [],
+   "worship": "",
+   "bio": "The heron that alighted on the first mound at creation, and the origin of the phoenix.",
+   "longBio": "The Bennu is said to have flown over the waters of Nun and alighted on the benben, the primeval mound at Heliopolis, and its cry broke the original silence and determined what would and would not be. It is a grey heron with two long plumes, and it is called the ba - the soul - of Ra, so that its appearance is the sun's own renewal. Its association with cycles of time made it the marker of long periods and of jubilee festivals. Greek writers, above all Herodotus, reported the Egyptian bird as the phoenix, adding the detail of a bird that returns to Heliopolis every five hundred years bearing its dead parent encased in myrrh, and later authors supplied the self-immolation and rebirth from ashes that the Egyptian bird does not have.",
+   "variantTraditions": "The self-burning phoenix is a Greek and later elaboration; the Egyptian Bennu renews without fire. Some texts make it the ba of Osiris rather than of Ra.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sun",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "apis",
+   "name": "Apis",
+   "sanskrit": "ḥjp",
+   "category": "sacred-animal",
+   "era": "Historical",
+   "role": "The living bull of Ptah",
+   "wikipedia": "Apis (deity)",
+   "portrait": "portraits/egyptian/apis.webp",
+   "epithets": [
+    "The Herald of Ptah",
+    "The Living Ptah",
+    "Bull of Memphis"
+   ],
+   "domains": [
+    "the living presence of a god",
+    "fertility and strength",
+    "oracle"
+   ],
+   "symbols": [
+    "a black bull with a white triangle on the forehead",
+    "the sun disc between the horns"
+   ],
+   "mount": null,
+   "abode": "The Apis stall at Memphis; the Serapeum at Saqqara after death",
+   "festivals": [],
+   "worship": "The Apis stall at Memphis and the Serapeum at Saqqara. Its installation, oracles and funeral were state occasions.",
+   "bio": "A living bull identified by specific markings and kept as the visible manifestation of Ptah.",
+   "longBio": "The Apis is unusual in being an actual animal rather than an image: when the bull died, priests searched Egypt for a calf bearing the required markings - black with a white triangular blaze on the forehead, a crescent on the flank, and other signs - and the calf found was installed at Memphis with its mother, housed in luxury, and treated as the god's living herald. Its movements were read as oracles, and people came to put questions to it. On its death it was mummified with the full apparatus of a royal burial and interred in the Serapeum at Saqqara, a vast underground gallery of granite sarcophagi that Mariette rediscovered in 1851. The Ptolemies fused Apis and Osiris into Serapis, a deliberately Greco-Egyptian god designed to be worshipped by both communities.",
+   "variantTraditions": "The exact list of required markings differs between ancient authors. Cambyses was accused by Herodotus of stabbing the Apis, a story Egyptian evidence does not support.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "imhotep",
+   "name": "Imhotep",
+   "sanskrit": "jj-m-ḥtp",
+   "category": "mortal",
+   "era": "Historical",
+   "role": "Architect, physician, and a mortal who became a god",
+   "wikipedia": "Imhotep",
+   "portrait": "portraits/egyptian/imhotep.webp",
+   "epithets": [
+    "He Who Comes in Peace",
+    "Son of Ptah",
+    "The Wise"
+   ],
+   "domains": [
+    "architecture",
+    "medicine",
+    "writing and wisdom"
+   ],
+   "symbols": [
+    "the scribe's papyrus roll",
+    "the shaven head and skullcap"
+   ],
+   "mount": null,
+   "abode": "Memphis; and the healing sanctuary at Saqqara",
+   "festivals": [],
+   "worship": "Healing sanctuaries at Saqqara, Memphis and Philae practised incubation. Scribes honoured him as a patron of their craft.",
+   "bio": "The real architect of the Step Pyramid, deified fifteen centuries after his death as a god of medicine.",
+   "longBio": "Imhotep is one of very few non-royal Egyptians to become a god, and unlike most mythological figures he demonstrably existed: he was chancellor to King Djoser of the Third Dynasty and the architect of the Step Pyramid at Saqqara, the first monumental stone building in the world, and his name and titles appear on a statue base of Djoser. Remembered afterwards as the model of the wise man, he was credited with medical knowledge, and by the Late Period he had been fully deified as a son of Ptah and a god of healing, with sanctuaries where the sick slept seeking cures in dreams - the same incubation practice as at Greek Asclepius shrines, and the Greeks duly identified the two. Scribes poured a libation to him before writing. His tomb has never been found.",
+   "variantTraditions": "The Edwin Smith surgical papyrus is sometimes attributed to him, but the attribution is speculative and the surviving copy is far later.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "healer",
+    "wisdom-craft",
+    "sage-seer"
+   ]
   }
  ],
  "links": []
