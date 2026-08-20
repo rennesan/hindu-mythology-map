@@ -2252,6 +2252,674 @@
    "archetypes": [
     "hero-champion"
    ]
+  },
+  {
+   "id": "haroeris",
+   "name": "Horus the Elder",
+   "sanskrit": "ḥr-wr",
+   "category": "deity",
+   "era": "Creation",
+   "role": "The elder falcon; the sky whose eyes are sun and moon",
+   "wikipedia": "Horus",
+   "portrait": "portraits/egyptian/haroeris.webp",
+   "epithets": [
+    "Haroeris",
+    "Horus the Great",
+    "Lord of the Two Eyes"
+   ],
+   "domains": [
+    "the sky",
+    "the sun and moon as his eyes",
+    "the older kingship"
+   ],
+   "symbols": [
+    "the falcon",
+    "the two eyes",
+    "the double crown"
+   ],
+   "mount": null,
+   "abode": "Kom Ombo, and Letopolis",
+   "festivals": [],
+   "worship": "",
+   "bio": "The older sky-falcon, brother of Osiris and Set, distinct from Horus the child of Isis.",
+   "longBio": "Egyptian religion carried at least two Horuses and never fully separated them. Haroeris is the elder: a sky god whose two eyes are the sun and the moon, born of Geb and Nut alongside Osiris, Isis, Set and Nephthys, and therefore Set's brother rather than his nephew. In this version the struggle between Horus and Set is a contest between brothers over the whole world, not a nephew's suit for his father's throne, and it is this older Horus who loses an eye to Set and has it healed. Later theology folded the two together, so that the same god is both Osiris' brother and his son, which the Egyptians tolerated without difficulty.",
+   "variantTraditions": "Kom Ombo's double temple honours Haroeris in one half and Sobek in the other; the merging of the two Horuses is never resolved in the sources.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sky-thunder",
+    "sun",
+    "moon"
+   ]
+  },
+  {
+   "id": "montu",
+   "name": "Montu",
+   "sanskrit": "mnṯw",
+   "category": "deity",
+   "era": "Solar",
+   "role": "Falcon god of war",
+   "wikipedia": "Montu",
+   "portrait": "portraits/egyptian/montu.webp",
+   "epithets": [
+    "Lord of Thebes",
+    "The Raging Bull",
+    "Montu-Ra"
+   ],
+   "domains": [
+    "war",
+    "the fury of battle",
+    "the strength of the king in combat"
+   ],
+   "symbols": [
+    "the falcon head with sun disc and two plumes",
+    "the curved sword",
+    "the bull"
+   ],
+   "mount": null,
+   "abode": "Armant and Medamud, near Thebes",
+   "festivals": [],
+   "worship": "",
+   "bio": "War god of the Theban region, whose name kings invoked when describing themselves in battle.",
+   "longBio": "Montu was the chief god of the Theban nome before Amun overtook him, and he kept a specific and vivid role afterwards: he is the fury of the king in battle. Mentuhotep II, who reunified Egypt after the First Intermediate Period, is named for him, and New Kingdom war annals describe the pharaoh raging among the enemy like Montu. He is falcon-headed like Horus but crowned with the sun disc and two tall plumes, and carries a curved khopesh sword. The white Buchis bull kept at Armant was his living manifestation, as Apis was Ptah's. The Greeks, reasonably enough, identified him with Ares.",
+   "variantTraditions": "Montu absorbed and was absorbed by several local falcon gods around Thebes, and appears fused as Montu-Ra and Montu-Horus.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "war"
+   ]
+  },
+  {
+   "id": "onuris",
+   "name": "Onuris",
+   "sanskrit": "jn-ḥrt",
+   "category": "deity",
+   "era": "Solar",
+   "role": "He who brings back the distant one",
+   "wikipedia": "Anhur",
+   "portrait": "portraits/egyptian/onuris.webp",
+   "epithets": [
+    "Anhur",
+    "Bringer of the Distant One",
+    "Lord of the Lance"
+   ],
+   "domains": [
+    "hunting",
+    "war",
+    "the recovery of the Distant Goddess"
+   ],
+   "symbols": [
+    "the four-plumed crown",
+    "the lance or rope",
+    "the raised arm"
+   ],
+   "mount": null,
+   "abode": "Thinis and Sebennytos",
+   "festivals": [],
+   "worship": "",
+   "bio": "Hunter god who brings the raging Distant Goddess home from Nubia.",
+   "longBio": "Onuris' name is a sentence: he who brings back the distant one. The Distant Goddess is the Eye of Ra in her furious form, withdrawn into Nubia as a lioness, and where Thoth talks her home Onuris hunts her down and brings her back with a lance and a rope, returning with her as his consort Mekhit. That makes him a god of the hunt and, because the same energy applies to enemies, of war; kings invoked him against foreigners. He is shown as a bearded man in a four-plumed crown, one arm raised to throw the spear, and he is one of the few major Egyptian gods depicted as fully human. The Greeks identified him with Ares.",
+   "variantTraditions": "The Distant Goddess he retrieves is called Mekhit, Tefnut or Hathor depending on the temple; each city preferred its own.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "war",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "banebdjedet",
+   "name": "Banebdjedet",
+   "sanskrit": "bꜣ-nb-ḏdt",
+   "category": "deity",
+   "era": "Osirian",
+   "role": "The ram of Mendes",
+   "wikipedia": "Banebdjedet",
+   "portrait": "portraits/egyptian/banebdjedet.webp",
+   "epithets": [
+    "The Ram Lord of Mendes",
+    "The Living Ba of Osiris",
+    "Lord of the Four Winds"
+   ],
+   "domains": [
+    "fertility",
+    "the union of the four great gods in one ba",
+    "arbitration"
+   ],
+   "symbols": [
+    "the ram with four heads",
+    "the atef crown"
+   ],
+   "mount": null,
+   "abode": "Mendes in the Delta",
+   "festivals": [],
+   "worship": "",
+   "bio": "Four-headed ram god who counsels caution in the tribunal of Horus and Set.",
+   "longBio": "The Egyptian word ba means both ram and soul, and Banebdjedet exploits the pun completely: he is the ram who is the ba, and his four heads are said to be the bas of Ra, Shu, Geb and Osiris gathered in one animal. In the Contendings of Horus and Set he plays the part of the cautious elder, advising the tribunal against a hasty verdict and proposing that Neith be consulted, which she is. His fertility aspect is emphatic and the living ram kept at Mendes was treated as his manifestation and buried in a granite sarcophagus. Herodotus reported rites at Mendes that later writers repeated with relish and which modern scholarship treats as a Greek misunderstanding.",
+   "variantTraditions": "Banebdjedet is sometimes conflated with the ram of Khnum at Elephantine, though the species and the theology differ.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "divine-beast",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "satis",
+   "name": "Satis",
+   "sanskrit": "sṯjt",
+   "category": "deity",
+   "era": "Creation",
+   "role": "Goddess of the cataract and the flood's arrival",
+   "wikipedia": "Satis",
+   "portrait": "portraits/egyptian/satis.webp",
+   "epithets": [
+    "She Who Pours Forth",
+    "Lady of Elephantine",
+    "The Archer"
+   ],
+   "domains": [
+    "the inundation",
+    "the southern frontier",
+    "purification"
+   ],
+   "symbols": [
+    "the white crown with antelope horns",
+    "the bow and arrows",
+    "the water jar"
+   ],
+   "mount": null,
+   "abode": "Elephantine, at the first cataract",
+   "festivals": [],
+   "worship": "",
+   "bio": "Guardian of Egypt's southern border who releases the flood and purifies the dead with cataract water.",
+   "longBio": "Satis stands at the frontier: her city Elephantine sat at the first cataract, the boundary between Egypt and Nubia, and she is both the archer who guards that border and the goddess who pours out the inundation from the caverns there. In the Pyramid Texts she purifies the dead king with four jars of water from the cataract, which is her funerary role. With Khnum and Anuket she forms the triad of the cataract region, generally as Khnum's consort. Her crown is unusual and memorable: the tall white crown of Upper Egypt flanked by a pair of antelope horns.",
+   "variantTraditions": "Satis is sometimes given as Khnum's daughter rather than consort, and her name is variously rendered Satet or Setet.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sea-waters",
+    "war"
+   ]
+  },
+  {
+   "id": "anuket",
+   "name": "Anuket",
+   "sanskrit": "ꜥnqt",
+   "category": "deity",
+   "era": "Creation",
+   "role": "Goddess of the cataract and the gazelle",
+   "wikipedia": "Anuket",
+   "portrait": "portraits/egyptian/anuket.webp",
+   "epithets": [
+    "The Embracer",
+    "Lady of Sehel",
+    "Nourisher of the Fields"
+   ],
+   "domains": [
+    "the Nile at the cataract",
+    "the nourishing flood",
+    "the gazelle"
+   ],
+   "symbols": [
+    "a tall crown of reeds or feathers",
+    "the gazelle",
+    "the cowrie shell"
+   ],
+   "mount": null,
+   "abode": "Sehel Island, at the first cataract",
+   "festivals": [],
+   "worship": "",
+   "bio": "Third of the cataract triad, whose name means the embracer - the flood clasping the fields.",
+   "longBio": "Anuket completes the Elephantine triad with Khnum and Satis, usually as their daughter. Her name comes from a verb meaning to embrace, and the sense is agricultural: the rising water clasps the fields and leaves them fertile. She is shown in a tall crown of reeds or plumes, and the gazelle is her animal, so she is sometimes called mistress of Nubia, where gazelles were common. Her island of Sehel carried a large sanctuary. At the height of the inundation her festival involved throwing coins, gold and jewellery into the river as thanks, and cowrie shells associated with her were worn as protective amulets by women.",
+   "variantTraditions": "In some periods Anuket takes on a more erotic character; her role shifts noticeably between the Middle and New Kingdoms.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "ihy",
+   "name": "Ihy",
+   "sanskrit": "jḥy",
+   "category": "deity",
+   "era": "Solar",
+   "role": "The sistrum player; child of Hathor",
+   "wikipedia": "Ihy",
+   "portrait": "portraits/egyptian/ihy.webp",
+   "epithets": [
+    "The Sistrum Player",
+    "Lord of Bread",
+    "The Calf"
+   ],
+   "domains": [
+    "music",
+    "joy",
+    "the shaking of the sistrum in ritual"
+   ],
+   "symbols": [
+    "the sistrum",
+    "the sidelock of youth",
+    "a finger to the lips"
+   ],
+   "mount": null,
+   "abode": "Dendera, with Hathor",
+   "festivals": [],
+   "worship": "",
+   "bio": "The child god who shakes the sistrum, embodying the joy of Hathor's music.",
+   "longBio": "Ihy is the son of Hathor and Horus of Edfu, and completes the Dendera triad. He is shown as a naked child with the sidelock of youth, a finger at his lips in the standard Egyptian gesture for a child, holding a sistrum - the rattle shaken in Hathor's rites, whose sound was believed to please the goddess and drive off hostility. His name has been read as sistrum player or as calf, both fitting a child of the cow goddess. He has essentially no narrative; his significance is that the rattling of the instrument in the temple is itself divine, so the sound of the ritual has a god of its own.",
+   "variantTraditions": "Ihy is sometimes identified with Harsomtus, another child of Hathor at Dendera, and the two are hard to separate.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "love-desire"
+   ]
+  },
+  {
+   "id": "heka",
+   "name": "Heka",
+   "sanskrit": "ḥkꜣ",
+   "category": "deity",
+   "era": "Creation",
+   "role": "Magic itself, personified",
+   "wikipedia": "Heka (god)",
+   "portrait": "portraits/egyptian/heka.webp",
+   "epithets": [
+    "The First Work",
+    "He Who Consecrates Imagery",
+    "Lord of Utterance"
+   ],
+   "domains": [
+    "magic",
+    "the force that makes ritual effective",
+    "medicine"
+   ],
+   "symbols": [
+    "two entwined serpents",
+    "the raised arms of the ka sign"
+   ],
+   "mount": null,
+   "abode": "In the solar barque, and in every effective ritual",
+   "festivals": [],
+   "worship": "",
+   "bio": "The power that makes magic and ritual work, present at creation before anything else was made.",
+   "longBio": "Heka is the energy that makes any ritual act effective, and Egyptians understood it as a natural force rather than a transgression - there is no Egyptian category of forbidden magic in the way later cultures developed. A Coffin Text has Heka declare that he came into being before duality existed, which places him prior even to the first division of the world, and he travels in the solar barque as part of its defence. Because healing was performed through spells as much as through drugs, physicians worked under him alongside Sekhmet and Serqet, and the standard Egyptian medical papyri mix pharmacology and incantation without any sense of a boundary. His emblem, two entwined serpents on a staff, resembles the later caduceus.",
+   "variantTraditions": "Heka is paired in some texts with Hu, authoritative utterance, and Sia, perception, as the three faculties by which Atum created.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "healer"
+   ]
+  },
+  {
+   "id": "sia",
+   "name": "Hu and Sia",
+   "sanskrit": "ḥw sjꜣ",
+   "category": "deity",
+   "era": "Creation",
+   "role": "Utterance and perception",
+   "wikipedia": "Sia (god)",
+   "portrait": "portraits/egyptian/sia.webp",
+   "epithets": [
+    "Hu, the Word",
+    "Sia, the Mind",
+    "Attendants of Ra"
+   ],
+   "domains": [
+    "authoritative speech",
+    "understanding",
+    "the faculties by which creation happened"
+   ],
+   "symbols": [
+    "the papyrus roll",
+    "a place in the solar barque"
+   ],
+   "mount": null,
+   "abode": "The solar barque, at Ra's side",
+   "festivals": [],
+   "worship": "",
+   "bio": "The two faculties Atum used to create: the perception that conceives and the word that commands.",
+   "longBio": "Egyptian creation theology repeatedly separates thinking a thing from saying it, and personifies both. Sia is perception, the mind that conceives; Hu is the authoritative utterance, the word that makes what was conceived exist. Together with Heka, the force that makes the utterance effective, they are the machinery of creation by speech, which is the Memphite Theology's central claim about Ptah and appears in Heliopolitan texts about Atum as well. In the Pyramid Texts, Atum is said to have created them from drops of his own blood. They stand in the solar barque with Ra as permanent attendants, which is the tradition's way of saying that the sun's daily course is itself an act of intelligent speech rather than a mechanism.",
+   "variantTraditions": "Hu and Sia are usually treated as a pair; a third, Hehu, occasionally joins them, and their relation to Heka is stated differently in different texts.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "sopdet",
+   "name": "Sopdet",
+   "sanskrit": "spdt",
+   "category": "deity",
+   "era": "Solar",
+   "role": "The star Sirius, whose rising announced the flood",
+   "wikipedia": "Sopdet",
+   "portrait": "portraits/egyptian/sopdet.webp",
+   "epithets": [
+    "Sothis",
+    "Bringer of the New Year",
+    "Lady of the Star"
+   ],
+   "domains": [
+    "the star Sirius",
+    "the heliacal rising that opened the year",
+    "the coming of the inundation"
+   ],
+   "symbols": [
+    "a star above her head",
+    "the tall conical crown"
+   ],
+   "mount": null,
+   "abode": "The eastern sky before dawn in midsummer",
+   "festivals": [],
+   "worship": "",
+   "bio": "The goddess of Sirius, whose reappearance at dawn marked the new year and the imminent flood.",
+   "longBio": "Sirius disappears from the Egyptian sky for about seventy days each year and returns just before dawn in midsummer, within days of the Nile beginning to rise. Egyptians built their calendar on that coincidence: the heliacal rising of Sopdet opened the year, and the observation is precise enough that modern chronology of the whole ancient Near East partly depends on recorded sightings of it. She is shown as a woman with a five-pointed star above her head. With Sah, the constellation Orion identified with Osiris, she forms a celestial pair, and their child is Sopdu; the family is a sky version of Isis, Osiris and Horus, and Sopdet is regularly identified with Isis outright.",
+   "variantTraditions": "The 365-day civil calendar drifted against the true year by a day every four years, so the civil new year and Sopdet's rising coincided only once every 1,460 years - the Sothic cycle.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "fate-time",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "sah",
+   "name": "Sah",
+   "sanskrit": "sꜣḥ",
+   "category": "deity",
+   "era": "Solar",
+   "role": "The constellation Orion",
+   "wikipedia": "Sah (god)",
+   "portrait": "portraits/egyptian/sah.webp",
+   "epithets": [
+    "Father of the Gods",
+    "Lord of the Southern Sky"
+   ],
+   "domains": [
+    "the constellation Orion",
+    "the destination of the dead king",
+    "the night sky"
+   ],
+   "symbols": [
+    "a star-covered figure holding a was sceptre",
+    "the striding pose"
+   ],
+   "mount": null,
+   "abode": "The southern night sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Orion personified, identified with Osiris, and the star-destination of the dead king.",
+   "longBio": "The Pyramid Texts send the dead king to the imperishable stars and specifically to Sah, and the identification of Orion with Osiris is one of the oldest in Egyptian religion, with Sopdet-Sirius as his consort trailing behind him across the sky. The constellation's disappearance and reappearance made it a natural figure for the god who dies and returns. Sah is shown striding, covered in stars, sometimes looking back over his shoulder toward Sopdet. The alignment of certain Old Kingdom pyramid shafts toward Orion has attracted an enormous amount of speculative literature; the association of the king with the constellation, however, is stated plainly in the texts themselves and needs no speculation.",
+   "variantTraditions": "The 'Orion correlation' theories about the Giza layout are not accepted by Egyptology; the textual link between the dead king and Sah is separate and secure.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "fate-time",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "mehet-weret",
+   "name": "Mehet-Weret",
+   "sanskrit": "mḥt-wrt",
+   "category": "deity",
+   "era": "Primordial",
+   "role": "The great flood; the celestial cow",
+   "wikipedia": "Mehet-Weret",
+   "portrait": "portraits/egyptian/mehet-weret.webp",
+   "epithets": [
+    "The Great Flood",
+    "The Celestial Cow"
+   ],
+   "domains": [
+    "the primeval waters",
+    "the sky as water",
+    "the birth of the sun"
+   ],
+   "symbols": [
+    "a cow lying on a reed mat",
+    "the sun disc between her horns"
+   ],
+   "mount": null,
+   "abode": "The waters of the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "A cow goddess who is the water on which the sun sails and out of whom it was born.",
+   "longBio": "Mehet-Weret means the great flood, and she is the celestial water understood as a cow - Egyptians conceived the sky as a great expanse of water on which the solar barque sails, and she is that expanse. In one account the sun rose from between her horns at the first morning, making her the mother of Ra, and she is shown as a recumbent cow with the disc between her horns and a menat at her neck. She carries the newly born sun on her back. She is closely identified with Hathor, Neith and Nut, all of whom carry celestial-cow imagery, and it is often impossible to say which of them a given cow in a funerary papyrus is meant to be.",
+   "variantTraditions": "The Book of the Heavenly Cow describes the sky-cow lifting Ra away from mankind after the near-extermination; whether that cow is Mehet-Weret, Nut or Hathor is not resolved.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "shezmu",
+   "name": "Shezmu",
+   "sanskrit": "šzmw",
+   "category": "chthonic",
+   "era": "Osirian",
+   "role": "Lord of the oil press and of the slaughter block",
+   "wikipedia": "Shezmu",
+   "portrait": "portraits/egyptian/shezmu.webp",
+   "epithets": [
+    "Lord of the Winepress",
+    "Slaughterer of Souls",
+    "He of the Blood-Red Oil"
+   ],
+   "domains": [
+    "oil and wine pressing",
+    "perfumed unguents",
+    "the execution of the damned"
+   ],
+   "symbols": [
+    "the press",
+    "the lion head",
+    "jars of red oil"
+   ],
+   "mount": null,
+   "abode": "The Duat, at the press",
+   "festivals": [],
+   "worship": "",
+   "bio": "God of the press: he makes perfume and unguents, and crushes the heads of the condemned in the same machine.",
+   "longBio": "Shezmu is a startling figure because the Egyptians declined to separate two things the press does. He operates the oil and wine press, and so he is the god of perfumed unguents, essential to both the living and the embalmed. He also operates it on the heads of the damned in the underworld, and Pyramid Text passages describe him pressing the enemies of the king and serving their blood as wine. The visual pun is exact and deliberate: red liquid comes out of the press either way. He has a benign aspect at Dendera and Edfu as the maker of sacred oils, and a terrifying one in the funerary texts, and both were maintained side by side without embarrassment.",
+   "variantTraditions": "His two aspects are so different that older scholarship assumed two gods; the press is the link, and the Egyptians clearly saw them as one.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "babi",
+   "name": "Babi",
+   "sanskrit": "bꜣbꜣ",
+   "category": "chthonic",
+   "era": "Osirian",
+   "role": "The baboon of the underworld",
+   "wikipedia": "Babi (mythology)",
+   "portrait": "portraits/egyptian/babi.webp",
+   "epithets": [
+    "Bull of the Baboons",
+    "Eldest Son of Osiris",
+    "Lord of Darkness"
+   ],
+   "domains": [
+    "aggression",
+    "virility",
+    "the devouring of the unjust",
+    "the guarding of the dark waters"
+   ],
+   "symbols": [
+    "the hamadryas baboon",
+    "blood-stained mouth"
+   ],
+   "mount": null,
+   "abode": "The Duat",
+   "festivals": [],
+   "worship": "",
+   "bio": "A ferocious baboon god who feeds on entrails and whose phallus is the bolt of heaven's doors.",
+   "longBio": "Babi is the male hamadryas baboon at its most alarming - aggressive, territorial and conspicuously virile - and the Egyptians made a god of exactly that. He is said to feed on the entrails of the unjust dead, and spells in the Book of the Dead are directed at protecting the deceased from him. His virility is put to structural use: his phallus is described as the bolt on the doors of heaven and as the mast of the ferry that carries the dead across the underworld waters. Because of that association, spells invoke him to secure sexual potency in the afterlife. He stands in contrast to the other Egyptian baboon, the calm ibis-associated Thoth baboon of the moon.",
+   "variantTraditions": "The hamadryas baboon serves both Thoth and Babi in completely opposite registers, which is a good illustration of how Egyptian symbolism attaches to observed behaviour rather than to species.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "imentet",
+   "name": "Imentet",
+   "sanskrit": "jmntt",
+   "category": "chthonic",
+   "era": "Osirian",
+   "role": "The goddess of the west",
+   "wikipedia": "Imentet",
+   "portrait": "portraits/egyptian/imentet.webp",
+   "epithets": [
+    "She of the West",
+    "Lady of the Necropolis",
+    "The Welcomer"
+   ],
+   "domains": [
+    "the west as the land of the dead",
+    "the reception of the newly dead"
+   ],
+   "symbols": [
+    "the emblem of the west on her head",
+    "outstretched arms",
+    "the sycamore"
+   ],
+   "mount": null,
+   "abode": "The western desert, at the edge of the cultivation",
+   "festivals": [],
+   "worship": "",
+   "bio": "The personified West, who meets the newly dead at the desert edge and offers food and water.",
+   "longBio": "Egyptians buried on the west bank because the sun died there, and the west became a synonym for the realm of the dead; the dead themselves are called the westerners. Imentet is that direction personified, a woman wearing the hieroglyph for west on her head, and her role is a gentle one. She stands at the boundary between the cultivated land and the desert, sometimes emerging from the trunk of a sycamore, and offers bread and water to the newly arrived - the first hospitality of the afterlife. She frequently merges with Hathor as Mistress of the West and with Isis. The gesture of the goddess in the tree pouring water for the dead is one of the warmer images in Egyptian funerary art.",
+   "variantTraditions": "Imentet is rarely an independent figure and is usually an aspect of Hathor or Isis; her iconography is more distinct than her theology.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "tatenen",
+   "name": "Tatenen",
+   "sanskrit": "tꜣ-ṯnn",
+   "category": "primordial",
+   "era": "Creation",
+   "role": "The risen land",
+   "wikipedia": "Tatenen",
+   "portrait": "portraits/egyptian/tatenen.webp",
+   "epithets": [
+    "The Risen Land",
+    "Father of the Gods",
+    "Lord of Ores"
+   ],
+   "domains": [
+    "the primeval mound",
+    "the fertile earth",
+    "minerals and quarries"
+   ],
+   "symbols": [
+    "the ram's horns and twin plumes",
+    "green skin"
+   ],
+   "mount": null,
+   "abode": "Memphis",
+   "festivals": [],
+   "worship": "",
+   "bio": "The primeval mound itself, personified: the first ground to rise from the water.",
+   "longBio": "Tatenen is the moment the land appears - the mound emerging from Nun on which creation becomes possible - held as a permanent god rather than a past event. His name means the risen land, and he is shown with green skin because he is the fertile earth, wearing a crown of ram's horns and tall plumes. Everything the earth contains falls to him, so he is the lord of quarries, mines and metal ores, which mattered greatly to a state that organised expeditions for stone and copper. At Memphis he was merged with Ptah as Ptah-Tatenen, giving the craftsman-creator a physical ground to stand on and to work with, and in that form he is invoked in royal texts as the father of the king.",
+   "variantTraditions": "Whether Tatenen was originally independent of Ptah or always an aspect of him is unclear; the fused form dominates the surviving record.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "mnevis",
+   "name": "Mnevis",
+   "sanskrit": "mr-wr",
+   "category": "sacred-animal",
+   "era": "Historical",
+   "role": "The living bull of Ra at Heliopolis",
+   "wikipedia": "Mnevis",
+   "portrait": "portraits/egyptian/mnevis.webp",
+   "epithets": [
+    "The Bull of Heliopolis",
+    "Herald of Ra"
+   ],
+   "domains": [
+    "the living presence of the sun god",
+    "oracle",
+    "fertility"
+   ],
+   "symbols": [
+    "a black bull",
+    "the sun disc and uraeus between the horns"
+   ],
+   "mount": null,
+   "abode": "Heliopolis",
+   "festivals": [],
+   "worship": "",
+   "bio": "A black bull kept at Heliopolis as the living manifestation of Ra, as Apis was of Ptah.",
+   "longBio": "Where Memphis had the Apis of Ptah, Heliopolis had the Mnevis of Ra: a living black bull housed at the temple, treated as the god's herald, consulted for oracles, and buried with full ceremony at death. Unlike the Apis, whose markings were minutely specified, the Mnevis was identified mainly by being wholly black with forward-growing hair. Its burials have been found at Heliopolis in stone-lined chambers. The bull cults show a strain of Egyptian religion quite different from the temple statue: the god is not represented, he is present, in an animal that eats and ages and dies and has to be replaced. Akhenaten, who abolished nearly everything, explicitly preserved the Mnevis, which says something about how deeply rooted it was.",
+   "variantTraditions": "The relationship between Mnevis, Apis and the Buchis bull of Armant was one of parallel local cults rather than a single system.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sun"
+   ]
+  },
+  {
+   "id": "buchis",
+   "name": "Buchis",
+   "sanskrit": "bꜣ-ꜥḫ",
+   "category": "sacred-animal",
+   "era": "Historical",
+   "role": "The white bull of Montu",
+   "wikipedia": "Buchis",
+   "portrait": "portraits/egyptian/buchis.webp",
+   "epithets": [
+    "The Bull of Armant",
+    "The Wild-Faced"
+   ],
+   "domains": [
+    "the living presence of the war god",
+    "oracle",
+    "healing"
+   ],
+   "symbols": [
+    "a white bull with a black face",
+    "the sun disc and plumes"
+   ],
+   "mount": null,
+   "abode": "Armant, near Thebes",
+   "festivals": [],
+   "worship": "",
+   "bio": "A white bull with a black face kept at Armant as the living Montu, buried in the Bucheum.",
+   "longBio": "The Buchis is the third of the great Egyptian bull cults, the manifestation of the war god Montu at Armant. Its required marking was a white body with a black face, and ancient writers claimed its hair grew in the opposite direction to other cattle and that its colour changed hourly - the sort of detail that indicates a closely watched sacred animal accumulating lore. It was consulted as an oracle and had a reputation for healing. Its burials, in the underground gallery called the Bucheum, run from the Thirtieth Dynasty into the Roman period, and the dated stelae there are a useful chronological source. The cows that mothered the bulls were buried separately nearby.",
+   "variantTraditions": "The Bucheum stelae continue to 340 CE, making the Buchis one of the last documented Egyptian animal cults.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "war"
+   ]
   }
  ],
  "links": []
