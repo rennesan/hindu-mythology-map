@@ -635,6 +635,813 @@
     "healer",
     "love-desire"
    ]
+  },
+  {
+   "id": "inari",
+   "name": "Inari",
+   "sanskrit": "稲荷",
+   "category": "kami",
+   "era": "Imperial",
+   "role": "Kami of rice, foxes, and prosperity",
+   "wikipedia": "Inari Ōkami",
+   "portrait": "portraits/japanese/inari.webp",
+   "epithets": [
+    "Inari Okami",
+    "Kami of the Rice-Bearing"
+   ],
+   "domains": [
+    "rice and agriculture",
+    "commerce and industry",
+    "foxes as messengers",
+    "swordsmiths"
+   ],
+   "symbols": [
+    "the fox",
+    "the rice sheaf",
+    "the red torii",
+    "the wish-fulfilling jewel"
+   ],
+   "mount": null,
+   "abode": "Fushimi Inari at Kyoto, and some thirty thousand other shrines",
+   "festivals": [
+    "Hatsuuma, the first horse day of the second month"
+   ],
+   "worship": "About thirty thousand shrines. Offerings of rice, sake and fried tofu, which foxes are said to favour; donated torii from businesses line the approaches.",
+   "bio": "The most widely enshrined kami in Japan, served by fox messengers, and of no fixed sex.",
+   "longBio": "Inari has more shrines than any other kami - around a third of all shrines in Japan - and is the clearest case of a deity defined by function rather than personality. Inari is rice, and therefore wealth, and therefore by extension commerce, industry, and the prosperity of any enterprise; merchants and companies dedicate torii, which is why the paths at Fushimi Inari run for miles under thousands of donated gates. Inari's sex is not fixed and varies by shrine and period - sometimes an old man carrying rice, sometimes a young woman, sometimes androgynous - and the tradition is untroubled by this. The white foxes at every shrine are messengers, not the kami, though popular usage constantly confuses the two.",
+   "variantTraditions": "Inari is identified with the Kojiki's Ukanomitama and, in Buddhist contexts, with Dakiniten, an imported figure; the identifications are layered rather than exclusive.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "wealth-fortune",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "hachiman",
+   "name": "Hachiman",
+   "sanskrit": "八幡",
+   "category": "kami",
+   "era": "Imperial",
+   "role": "Kami of archery and war, and protector of Japan",
+   "wikipedia": "Hachiman",
+   "portrait": "portraits/japanese/hachiman.webp",
+   "epithets": [
+    "Great Bodhisattva Hachiman",
+    "Protector of the Nation",
+    "Emperor Ojin deified"
+   ],
+   "domains": [
+    "war and archery",
+    "the protection of the nation",
+    "the warrior class"
+   ],
+   "symbols": [
+    "the dove",
+    "the bow",
+    "the eight banners"
+   ],
+   "mount": null,
+   "abode": "Usa Shrine, and Iwashimizu at Kyoto",
+   "festivals": [],
+   "worship": "Roughly twenty-five thousand shrines, second only to Inari. Samurai families were closely attached to him, and archery rites remain part of his festivals.",
+   "bio": "A deified emperor who became the tutelary kami of the samurai, and the clearest case of Shinto and Buddhism fused.",
+   "longBio": "Hachiman is generally identified with the semi-legendary Emperor Ojin, deified, and he became the patron kami of the Minamoto clan and then of the warrior class as a whole - which made him one of the most politically consequential deities in Japanese history. He is also the sharpest illustration of shinbutsu-shugo, the fusion of Shinto and Buddhism: from the eighth century he was styled Hachiman Daibosatsu, Great Bodhisattva Hachiman, a kami holding Buddhist rank, and his shrines were staffed by Buddhist monks for a thousand years until the forced separation of 1868. His oracle at Usa was consulted on matters of state, including whether a monk should be permitted to take the throne.",
+   "variantTraditions": "The Meiji separation of Shinto and Buddhism dismantled a millennium of syncretism by decree; the pre-1868 Hachiman is not quite the same figure as the post-1868 one.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "war",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "raijin",
+   "name": "Raijin and Fujin",
+   "sanskrit": "雷神風神",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "The gods of thunder and wind",
+   "wikipedia": "Raijin",
+   "portrait": "portraits/japanese/raijin.webp",
+   "epithets": [
+    "Raiden",
+    "The Thunder Kami",
+    "Fujin, Lord of the Wind"
+   ],
+   "domains": [
+    "thunder and lightning",
+    "wind and storm",
+    "typhoons"
+   ],
+   "symbols": [
+    "the ring of drums",
+    "the drumsticks",
+    "the great bag of winds",
+    "green and red skin"
+   ],
+   "mount": null,
+   "abode": "The sky, and the gates of temples",
+   "festivals": [],
+   "worship": "",
+   "bio": "A demon-faced drummer whose ring of taiko makes thunder, and a wind god carrying the storms in a bag.",
+   "longBio": "Raijin beats a ring of taiko drums that circles his back to make thunder, and Fujin carries the winds in an enormous bag over his shoulders; the two are usually shown together, one green and one red, wild-haired and demonic, and they flank temple gates as guardians. They belong to the class of kami that is closer to the frightening than the benevolent, and their imagery owes something to Buddhist iconography imported from the continent. A widespread folk belief holds that Raijin eats children's navels, which is why mothers tell children to cover their stomachs during a thunderstorm. Fujin's winds were credited with the storms that destroyed the Mongol invasion fleets in 1274 and 1281 - the kamikaze, the divine wind.",
+   "variantTraditions": "The Tawaraya Sotatsu screen of the two is among the most famous works of Japanese art; the pairing may descend from Greek models transmitted along the Silk Road.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sky-thunder",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "ryujin",
+   "name": "Ryujin",
+   "sanskrit": "龍神",
+   "category": "dragon",
+   "era": "Age of the Gods",
+   "role": "Dragon king of the sea",
+   "wikipedia": "Ryūjin",
+   "portrait": "portraits/japanese/ryujin.webp",
+   "epithets": [
+    "Watatsumi",
+    "Lord of the Tides",
+    "Dragon King of the Sea"
+   ],
+   "domains": [
+    "the sea",
+    "the tides",
+    "the tide jewels"
+   ],
+   "symbols": [
+    "the two tide jewels",
+    "the undersea palace Ryugu-jo",
+    "the dragon's coils"
+   ],
+   "mount": null,
+   "abode": "Ryugu-jo, the palace under the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "He holds the jewels that raise and lower the tide, and his coral palace is where time runs differently.",
+   "longBio": "Ryujin lives in Ryugu-jo, a palace of coral and crystal at the bottom of the sea where the four seasons occur simultaneously in four directions and where time passes at a different rate from the surface. He controls the tides with two jewels, the kanju and manju, which lower and raise the water, and lending them decides battles - the Empress Jingu is said to have used them against Korea. His daughter Otohime hosts Urashima Taro for what feels like three days and turns out to be three hundred years. Another daughter, Toyotama, marries a grandson of Ninigi and gives birth in her true dragon form after asking him not to look; he looks, and she leaves, which puts the same broken taboo in the imperial genealogy as in the Yomi story.",
+   "variantTraditions": "Ryujin, Watatsumi and Owatatsumi are variously the same figure or distinct sea kami depending on the text.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "serpent-dragon"
+   ]
+  },
+  {
+   "id": "ebisu",
+   "name": "Ebisu",
+   "sanskrit": "恵比須",
+   "category": "kami",
+   "era": "Folk",
+   "role": "The laughing god of fishermen and fortune",
+   "wikipedia": "Ebisu",
+   "portrait": "portraits/japanese/ebisu.webp",
+   "epithets": [
+    "The Laughing God",
+    "Hiruko, the Leech Child"
+   ],
+   "domains": [
+    "fishing",
+    "commerce",
+    "good fortune",
+    "honest labour"
+   ],
+   "symbols": [
+    "the sea bream under one arm",
+    "the fishing rod",
+    "the tall hat",
+    "the wide smile"
+   ],
+   "mount": null,
+   "abode": "The shore, and every shop counter",
+   "festivals": [],
+   "worship": "",
+   "bio": "The only wholly Japanese member of the Seven Lucky Gods, identified with the deformed first child Izanagi and Izanami set adrift.",
+   "longBio": "Ebisu is one of the Seven Lucky Gods and the only one of native origin - the other six are Indian or Chinese imports, which by itself says a great deal about Japanese religion. He is shown fat, smiling, in court dress and a tall folded hat, carrying a fishing rod and a large sea bream. He is deaf, which is why his festival involves a good deal of noise to get his attention, and he does not hear the summons to Izumo in the tenth month, so he stays behind while the other kami are away. He is usually identified with Hiruko, the leech-child, Izanagi and Izanami's malformed firstborn who was set adrift in a reed boat - a discarded child who washed ashore and became the god of luck.",
+   "variantTraditions": "The Ebisu-Hiruko identification is not in the Kojiki and developed much later; the Seven Lucky Gods as a set are a Muromachi-period assembly.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "wealth-fortune",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "daikokuten",
+   "name": "Daikokuten",
+   "sanskrit": "大黒天",
+   "category": "buddhist",
+   "era": "Folk",
+   "role": "God of wealth, with the mallet and the rice bales",
+   "wikipedia": "Daikokuten",
+   "portrait": "portraits/japanese/daikokuten.webp",
+   "epithets": [
+    "Great Black One",
+    "Mahakala",
+    "Kami of the Kitchen"
+   ],
+   "domains": [
+    "wealth",
+    "the harvest",
+    "the household kitchen",
+    "farmers"
+   ],
+   "symbols": [
+    "the magic mallet",
+    "two rice bales",
+    "the great sack",
+    "the hood"
+   ],
+   "mount": null,
+   "abode": "The kitchen, and the storehouse",
+   "festivals": [],
+   "worship": "",
+   "bio": "A ferocious Hindu destroyer imported through Buddhism and softened, in Japan, into a smiling god of the pantry.",
+   "longBio": "Daikokuten arrives in Japan as Mahakala, a wrathful form associated with Shiva and adopted as a Buddhist protector - a black, terrifying destroyer. In Japan he becomes a stout, grinning figure in a flat hood, standing on two bales of rice with a sack over his shoulder and a mallet that produces money when struck. The transformation is nearly total, and appears to have been helped by a pun: the characters for his name can also be read Okuninushi, so the imported figure merged with the Izumo land-builder. He is a god of the kitchen and the storehouse, and his image stood in temple kitchens and farmhouses. Rats are associated with him, being where the rice is.",
+   "variantTraditions": "The Mahakala-Daikokuten-Okuninushi chain is one of the most extreme transformations in the pack: a destroyer becomes a pantry god by way of a homophone.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "benzaiten",
+   "name": "Benzaiten",
+   "sanskrit": "弁財天",
+   "category": "buddhist",
+   "era": "Folk",
+   "role": "Goddess of music, eloquence and flowing things",
+   "wikipedia": "Benzaiten",
+   "portrait": "portraits/japanese/benzaiten.webp",
+   "epithets": [
+    "Benten",
+    "Goddess of Everything That Flows",
+    "Sarasvati"
+   ],
+   "domains": [
+    "music",
+    "eloquence",
+    "water",
+    "wealth",
+    "the arts"
+   ],
+   "symbols": [
+    "the biwa lute",
+    "the white serpent",
+    "island shrines"
+   ],
+   "mount": null,
+   "abode": "Enoshima, Chikubushima and Itsukushima",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Indian Sarasvati, arrived through Buddhism, and the only woman among the Seven Lucky Gods.",
+   "longBio": "Benzaiten is the Japanese form of the Hindu river goddess Sarasvati, transmitted through Buddhist texts, and she keeps the essential character: everything that flows - water, music, speech, and by a natural extension knowledge and eventually money. She plays the biwa rather than the vina. Her shrines are almost always on islands or beside water, at Enoshima, Chikubushima and Itsukushima with its torii standing in the sea. A white serpent is her messenger, and a persistent folk belief holds that couples who visit her shrine together will be separated, because she is jealous - a piece of local colour with no basis in the doctrine. She is the only female member of the Seven Lucky Gods.",
+   "variantTraditions": "The comparison with the Hindu pack is direct: Benzaiten and Saraswati are the same goddess at two ends of a transmission, and the differences are instructive.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft",
+    "sea-waters",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "kannon",
+   "name": "Kannon",
+   "sanskrit": "観音",
+   "category": "buddhist",
+   "era": "Folk",
+   "role": "Bodhisattva of compassion",
+   "wikipedia": "Guanyin",
+   "portrait": "portraits/japanese/kannon.webp",
+   "epithets": [
+    "Kanzeon",
+    "She Who Perceives the Sounds of the World",
+    "Avalokitesvara"
+   ],
+   "domains": [
+    "compassion",
+    "mercy",
+    "rescue from peril",
+    "childbirth"
+   ],
+   "symbols": [
+    "the willow branch",
+    "the vase",
+    "a thousand arms",
+    "the white robe"
+   ],
+   "mount": null,
+   "abode": "Sensoji at Asakusa, and thirty-three pilgrimage temples",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Chinese Guanyin arrived in Japan and stayed, including among Christians who hid a cross behind her.",
+   "longBio": "Kannon is the Japanese form of Guanyin, and therefore of Avalokitesvara, and arrives already having changed sex once in China. The thirty-three-temple pilgrimage circuits dedicated to her are among the oldest and most walked in Japan, and Sensoji in Tokyo, founded on a Kannon image said to have been pulled from the river in a fisherman's net, is the country's most visited temple. Her most remarkable Japanese chapter is the Maria Kannon: during the two-and-a-half centuries when Christianity was banned, hidden Christian communities in Kyushu venerated images of Kannon holding a child, sometimes with a cross concealed on the back, as the Virgin Mary. The statues are indistinguishable from ordinary Kannon figures to an inspector.",
+   "variantTraditions": "The Maria Kannon statues survive in museums in Nagasaki and elsewhere and are among the most poignant objects in Japanese religious history.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "jizo",
+   "name": "Jizo",
+   "sanskrit": "地蔵",
+   "category": "buddhist",
+   "era": "Folk",
+   "role": "Guardian of travellers, and of dead children",
+   "wikipedia": "Kṣitigarbha",
+   "portrait": "portraits/japanese/jizo.webp",
+   "epithets": [
+    "Jizo Bosatsu",
+    "Earth Womb",
+    "Guardian of the Riverbank of Souls"
+   ],
+   "domains": [
+    "the protection of children",
+    "travellers",
+    "the rescue of souls from hell"
+   ],
+   "symbols": [
+    "the monk's staff with rings",
+    "the wish-fulfilling jewel",
+    "the red bib and cap"
+   ],
+   "mount": null,
+   "abode": "Roadsides, crossroads, and the dry riverbed of Sai",
+   "festivals": [],
+   "worship": "",
+   "bio": "Small stone figures at every roadside, dressed in red bibs by parents of dead children whose souls he shelters.",
+   "longBio": "Jizo is the most physically present figure in Japanese religion - small weathered stone statues stand at roadsides, crossroads, temple gates and mountain passes everywhere in the country. He vowed not to enter buddhahood until all beings are freed from hell, and he travels the realms of rebirth as a simple monk. His particular charge is children who die young, including stillbirths and miscarriages, who are said to be at Sai no Kawara, a dry riverbed, endlessly piling stones into towers that demons knock down; Jizo hides them in his sleeves and protects them. Bereaved parents dress his statues in red bibs and knitted caps and leave toys and pinwheels, and the sight of a row of them so dressed is unmistakable.",
+   "variantTraditions": "The mizuko kuyo rites for lost pregnancies are a modern development around Jizo and are the subject of considerable debate in Japan.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "ukemochi",
+   "name": "Ukemochi",
+   "sanskrit": "保食神",
+   "category": "kami",
+   "era": "Age of the Gods",
+   "role": "The food goddess killed at her own banquet",
+   "wikipedia": "Uke Mochi",
+   "portrait": "portraits/japanese/ukemochi.webp",
+   "epithets": [
+    "The Goddess Who Possesses Food",
+    "Ogetsuhime"
+   ],
+   "domains": [
+    "food",
+    "the origin of crops",
+    "the silkworm"
+   ],
+   "symbols": [
+    "rice from her mouth",
+    "the silkworm from her eyebrows"
+   ],
+   "mount": null,
+   "abode": "Killed, and become the crops",
+   "festivals": [],
+   "worship": "",
+   "bio": "She produced a feast from her own body, was killed for it in disgust, and her corpse became the staple crops.",
+   "longBio": "Sent a divine guest, Ukemochi turns to the land and produces boiled rice from her mouth, turns to the sea and produces fish, turns to the mountains and produces game, and sets it all out as a banquet. Her visitor - Tsukuyomi in the Nihon Shoki, Susanoo in the Kojiki, where she is called Ogetsuhime - is revolted at being offered food that came out of a body and kills her. Then from the corpse come the things that feed Japan: millet from the forehead, rice from the belly, wheat and beans from the genitals and rectum, and the silkworm from the eyebrows. It is a straightforward dema-deity story of the kind found across the Pacific, in which the staple crops come from a murdered body.",
+   "variantTraditions": "The two chronicles assign the killing to different gods, and the divergence is one of the clearest cases of the Kojiki and Nihon Shoki simply disagreeing.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "jimmu",
+   "name": "Emperor Jimmu",
+   "sanskrit": "神武天皇",
+   "category": "imperial",
+   "era": "Imperial",
+   "role": "The first emperor, great-grandson of the heavenly grandchild",
+   "wikipedia": "Emperor Jimmu",
+   "portrait": "portraits/japanese/jimmu.webp",
+   "epithets": [
+    "Kamuyamato Iwarebiko",
+    "First of the Line"
+   ],
+   "domains": [
+    "conquest",
+    "the founding of the state",
+    "descent from Amaterasu"
+   ],
+   "symbols": [
+    "the three-legged crow Yatagarasu",
+    "the bow with the golden kite",
+    "the sword Futsunomitama"
+   ],
+   "mount": null,
+   "abode": "Yamato, after the eastward campaign",
+   "festivals": [],
+   "worship": "",
+   "bio": "He marched east from Hyuga, was guided by a three-legged crow, and founded the imperial line in 660 BCE by tradition.",
+   "longBio": "Jimmu is the fourth generation from Ninigi and the point at which the chronicles cross from the age of the gods into the age of emperors, which is exactly what they were written to accomplish. He sets out east from Hyuga to find a place from which to govern, loses a brother to an arrow after fighting eastward into the sun and turning round to fight with the sun behind him instead, is saved when a sword is dropped through a storehouse roof by Takemikazuchi, and is guided over the mountains by Yatagarasu, a three-legged crow sent from heaven. He takes Yamato and is enthroned on a date traditionally given as 660 BCE. That date is a later calculation, and no historian treats Jimmu as a person.",
+   "variantTraditions": "The 660 BCE date derives from Chinese calendrical cycles applied retroactively; the Meiji state made it a national holiday, and the political use of Jimmu in the 1930s and 40s was considerable.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "yamatotakeru",
+   "name": "Yamato Takeru",
+   "sanskrit": "日本武尊",
+   "category": "imperial",
+   "era": "Imperial",
+   "role": "The prince who conquered in a dress and died of a mountain",
+   "wikipedia": "Yamato Takeru",
+   "portrait": "portraits/japanese/yamatotakeru.webp",
+   "epithets": [
+    "Ousu",
+    "The Brave of Yamato"
+   ],
+   "domains": [
+    "conquest",
+    "cunning",
+    "the sword Kusanagi",
+    "the loneliness of the useful son"
+   ],
+   "symbols": [
+    "the sword Kusanagi",
+    "the fire-striker",
+    "the white boar"
+   ],
+   "mount": null,
+   "abode": "The eastern provinces, and a plain at Nobono",
+   "festivals": [],
+   "worship": "",
+   "bio": "Feared by his own father and sent on endless campaigns, he killed by trickery and died from insulting a mountain kami.",
+   "longBio": "Yamato Takeru kills his elder brother for a slight, so casually that his father the emperor becomes frightened of him and sends him away on campaigns that are plainly meant to kill him. He kills the Kumaso chieftains by dressing as a girl and getting close enough to stab them, and the Izumo brave by proposing they exchange swords, having made himself a wooden one. His aunt at Ise gives him the sword Kusanagi from the serpent's tail, and it saves him when enemies fire a grass plain around him. His wife throws herself into the sea to calm it for him. Returning, he insults a mountain kami, is struck with a hailstorm and sickness, and dies on a plain, singing of Yamato. He becomes a white bird and flies away.",
+   "variantTraditions": "The Kojiki's Yamato Takeru is a considerably more melancholy figure than the Nihon Shoki's, and his lament for his homeland is among the best-known passages in Japanese literature.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "hero-champion",
+    "war"
+   ]
+  },
+  {
+   "id": "momotaro",
+   "name": "Momotaro",
+   "sanskrit": "桃太郎",
+   "category": "hero",
+   "era": "Folk",
+   "role": "The Peach Boy who went to Ogre Island",
+   "wikipedia": "Momotarō",
+   "portrait": "portraits/japanese/momotaro.webp",
+   "epithets": [
+    "The Peach Boy"
+   ],
+   "domains": [
+    "the found child",
+    "the expedition against the oni",
+    "companionship"
+   ],
+   "symbols": [
+    "the peach",
+    "the millet dumplings",
+    "the banner"
+   ],
+   "mount": null,
+   "abode": "A village, and Onigashima",
+   "festivals": [],
+   "worship": "",
+   "bio": "Found inside a peach by a childless couple, he took millet dumplings and three animals and cleared out the ogres.",
+   "longBio": "An old woman washing clothes at the river sees a giant peach come floating down; she takes it home, and when she and her husband cut it open a boy is inside. Grown, Momotaro announces he is going to Onigashima, Ogre Island, to deal with the oni who have been raiding the district, and asks his mother for kibi dango, millet dumplings. On the road he meets a dog, a monkey and a pheasant, and recruits each with half a dumpling. Together they cross to the island, defeat the oni, and come back with the treasure the ogres had stolen. It is the most universally known Japanese folk tale, taught to every child - and, precisely because of that, it was used heavily as propaganda during the Pacific War.",
+   "variantTraditions": "The wartime use of Momotaro, including animated films in which he leads an assault on enemy islands, is well documented and now uncomfortable.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "urashima",
+   "name": "Urashima Taro",
+   "sanskrit": "浦島太郎",
+   "category": "hero",
+   "era": "Folk",
+   "role": "The fisherman who lost three hundred years",
+   "wikipedia": "Urashima Tarō",
+   "portrait": "portraits/japanese/urashima.webp",
+   "epithets": [
+    "The Fisherman of Urashima"
+   ],
+   "domains": [
+    "kindness to animals",
+    "the palace under the sea",
+    "the box that must not be opened"
+   ],
+   "symbols": [
+    "the turtle",
+    "the tamatebako casket",
+    "white hair"
+   ],
+   "mount": null,
+   "abode": "Ryugu-jo, and then a village he does not recognise",
+   "festivals": [],
+   "worship": "",
+   "bio": "He saved a turtle, spent three days in the sea-king's palace, returned to find three centuries gone, and opened the box.",
+   "longBio": "Urashima Taro rescues a turtle that children are tormenting on the beach. The turtle returns as a messenger of Ryujin and carries him to the dragon palace under the sea, where the princess Otohime entertains him and where the four seasons occur at once in four directions. After three days he grows homesick and asks to leave. She gives him a lacquered box, the tamatebako, and tells him never to open it. On shore, nothing is familiar; three hundred years have passed. Finding no one who remembers him and no house where his stood, he opens the box - and the white smoke that comes out is the years he was away, and he ages three centuries in an instant and dies, or becomes a crane.",
+   "variantTraditions": "A version appears in the Nihon Shoki and the Manyoshu, making this among the oldest attested tales in the pack; the endings vary considerably.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "yamata",
+   "name": "Yamata no Orochi",
+   "sanskrit": "八岐大蛇",
+   "category": "yokai",
+   "era": "Age of the Gods",
+   "role": "The eight-headed serpent of Izumo",
+   "wikipedia": "Yamata no Orochi",
+   "portrait": "portraits/japanese/yamata.webp",
+   "epithets": [
+    "The Eight-Forked Serpent"
+   ],
+   "domains": [
+    "devouring",
+    "the annual tribute of a daughter",
+    "the sword in the tail"
+   ],
+   "symbols": [
+    "eight heads and eight tails",
+    "moss and trees on its back",
+    "the eight vats of sake"
+   ],
+   "mount": null,
+   "abode": "The valleys of Izumo",
+   "festivals": [],
+   "worship": "",
+   "bio": "A serpent with eight heads spanning eight valleys, killed by Susanoo with sake, and carrying Kusanagi in its tail.",
+   "longBio": "The serpent has eight heads and eight tails, eyes red as winter cherries, moss and cypress growing on its back, and a body spanning eight valleys and eight hills, and its belly is permanently raw and bleeding. It has eaten seven of an old couple's eight daughters, one a year, and is due to take the last. Susanoo's plan is unglamorous and effective: build a fence with eight gates, put a vat of strong sake behind each, and wait. Each head drinks from its own vat and the serpent falls asleep, and he cuts it into pieces. In the fourth tail he finds a sword, which he sends up to Amaterasu as a peace offering; it becomes Kusanagi, one of the three imperial regalia. The story is often read as a river being tamed.",
+   "variantTraditions": "The iron-working of Izumo and the red rivers of its smelting have been proposed as the serpent's origin; the reading is plausible and unproven.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "kitsune",
+   "name": "Kitsune",
+   "sanskrit": "狐",
+   "category": "yokai",
+   "era": "Folk",
+   "role": "The fox that gains a tail every century",
+   "wikipedia": "Kitsune",
+   "portrait": "portraits/japanese/kitsune.webp",
+   "epithets": [
+    "The Nine-Tailed",
+    "Messenger of Inari",
+    "The Fox-Wife"
+   ],
+   "domains": [
+    "shape-shifting",
+    "illusion",
+    "possession",
+    "long life"
+   ],
+   "symbols": [
+    "multiple tails",
+    "the fox-fire",
+    "the star ball",
+    "the woman with a shadow that is a fox"
+   ],
+   "mount": null,
+   "abode": "Fields, shrines, and other people's houses",
+   "festivals": [],
+   "worship": "",
+   "bio": "A fox grows a tail every hundred years and turns white or gold at nine, and may live as a woman for decades before being found out.",
+   "longBio": "Kitsune gain power with age: a tail per century, up to nine, at which point the fur turns white or gold and the fox can see and hear anything happening anywhere. They shapeshift, most often into women, and the fox-wife story is a fixed type - she marries a man, keeps house faithfully, bears children, and is exposed years later by a dog, a reflection, or a shadow that has a tail in it, whereupon she must leave. Some serve Inari and are benevolent messengers; others, the nogitsune, deceive and possess. Fox possession was a recognised diagnosis in Japan into the twentieth century, with families identified as fox-owning and shunned accordingly, which gave the folklore real social consequences.",
+   "variantTraditions": "The kitsune type is shared with Chinese huli jing and Korean kumiho; the Japanese Inari association is distinctive.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "tengu",
+   "name": "Tengu",
+   "sanskrit": "天狗",
+   "category": "yokai",
+   "era": "Folk",
+   "role": "The long-nosed mountain spirits who teach swordsmanship",
+   "wikipedia": "Tengu",
+   "portrait": "portraits/japanese/tengu.webp",
+   "epithets": [
+    "Daitengu, the Great Tengu",
+    "Karasu-tengu, the Crow Tengu",
+    "Sojobo of Kurama"
+   ],
+   "domains": [
+    "the mountains",
+    "martial skill",
+    "pride",
+    "the abduction of the arrogant"
+   ],
+   "symbols": [
+    "the long red nose",
+    "crow's beak and wings",
+    "the feather fan",
+    "the small black cap"
+   ],
+   "mount": null,
+   "abode": "The deep mountains, particularly Kurama and Mount Takao",
+   "festivals": [],
+   "worship": "",
+   "bio": "Once bird-demons, later mountain ascetics who abduct the proud and teach swordsmanship to those they favour.",
+   "longBio": "Tengu begin as straightforwardly malevolent bird-demons who abduct people, set fires and possess women, and are particularly associated with arrogant Buddhist priests, who were said to be reborn as tengu for their pride. Over time they soften into something closer to dangerous mountain hermits with their own society, dressed as yamabushi ascetics, and two forms settle: the crow-headed karasu-tengu and the red-faced, enormously long-nosed daitengu, whose face probably descends from Sarutahiko. Their great legend is that Sojobo, king of the tengu of Mount Kurama, taught swordsmanship to the boy Minamoto no Yoshitsune, which is why Japan's most celebrated warrior fought as he did. They are proud, easily offended, and dangerous to mock.",
+   "variantTraditions": "The shift from demon to ambiguous teacher happens over centuries and is bound up with attitudes to mountain asceticism.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "war"
+   ]
+  },
+  {
+   "id": "kappa",
+   "name": "Kappa",
+   "sanskrit": "河童",
+   "category": "yokai",
+   "era": "Folk",
+   "role": "The river child with a dish of water on its head",
+   "wikipedia": "Kappa",
+   "portrait": "portraits/japanese/kappa.webp",
+   "epithets": [
+    "The River Child",
+    "Kawataro"
+   ],
+   "domains": [
+    "rivers and ponds",
+    "drowning",
+    "wrestling",
+    "an obsession with etiquette"
+   ],
+   "symbols": [
+    "the water-filled dish on the crown",
+    "the turtle shell",
+    "the beak",
+    "cucumbers"
+   ],
+   "mount": null,
+   "abode": "Rivers, ponds and irrigation channels",
+   "festivals": [],
+   "worship": "",
+   "bio": "A green child-sized water spirit that drowns swimmers, loves cucumbers, and is defeated by being bowed to.",
+   "longBio": "The kappa is about the size of a child, green, with webbed hands, a beak, a shell, and a depression on top of its head holding water. It lives in rivers and drowns swimmers and horses, and folklore attributes a specific and unpleasant fixation to it involving the shirikodama, a mythical organ. It also has two weaknesses that are pure comedy. It is obsessively polite: if you bow to a kappa it must bow back, spilling the water from its head, at which point it is powerless until refilled. And it loves cucumbers above all things, which is why cucumber sushi rolls are called kappamaki, and why children were sent to throw a cucumber into the river before swimming.",
+   "variantTraditions": "Kappa lore was clearly serving as a practical warning to children about rivers; the drowning risk it encodes was entirely real.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "oni",
+   "name": "Oni",
+   "sanskrit": "鬼",
+   "category": "oni",
+   "era": "Folk",
+   "role": "The ogres of the northeast gate",
+   "wikipedia": "Oni",
+   "portrait": "portraits/japanese/oni.webp",
+   "epithets": [
+    "The Demons",
+    "The Horned Ones"
+   ],
+   "domains": [
+    "strength",
+    "plague and disaster",
+    "the unlucky northeast direction"
+   ],
+   "symbols": [
+    "horns",
+    "the iron club",
+    "the tiger-skin loincloth",
+    "red or blue skin"
+   ],
+   "mount": null,
+   "abode": "Onigashima, the mountains, and the kimon gate",
+   "festivals": [
+    "Setsubun, the bean-throwing at the start of spring"
+   ],
+   "worship": "",
+   "bio": "Horned, club-wielding ogres in tiger-skin, associated with the unlucky northeast and driven out with beans each spring.",
+   "longBio": "Oni are large, horned, red or blue, and carry an iron club - the phrase for an unstoppable advantage is oni with an iron club. Their appearance is derived from geomancy: the northeast is the kimon or demon gate, the unlucky quarter, and the northeast belongs to the ox and the tiger in the zodiac, so oni have ox horns and tiger-skin loincloths. Kyoto and Edo both had temples sited to guard the northeast approach. They cause plague, disaster and famine, eat people, and are the standard antagonist of folk tales. Every February at Setsubun households throw roasted soybeans out of the door shouting demons out, fortune in, which is among the most widely observed customs in Japan.",
+   "variantTraditions": "The Buddhist hell-wardens and the folk oni merged over time; the tiger-and-ox derivation of their appearance is well attested.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "yukionna",
+   "name": "Yuki-onna",
+   "sanskrit": "雪女",
+   "category": "yokai",
+   "era": "Folk",
+   "role": "The snow woman",
+   "wikipedia": "Yuki-onna",
+   "portrait": "portraits/japanese/yukionna.webp",
+   "epithets": [
+    "The Snow Woman",
+    "The Lady of the Snow"
+   ],
+   "domains": [
+    "snow and blizzards",
+    "the breath that freezes",
+    "the promise extracted"
+   ],
+   "symbols": [
+    "white robes",
+    "no feet",
+    "breath like frost",
+    "black hair against snow"
+   ],
+   "mount": null,
+   "abode": "The mountains in winter",
+   "festivals": [],
+   "worship": "",
+   "bio": "She spares a young woodcutter on condition he never speaks of her, marries him years later under another name, and leaves when he does.",
+   "longBio": "In Hearn's telling, two woodcutters are caught by a blizzard and shelter in a hut. The younger wakes to see a woman in white breathing on the older man, who dies of it; she turns to him, says he is too young and she pities him, and spares him on condition that he never tell anyone what he saw, or she will kill him. Years later he marries a beautiful woman named O-Yuki, who does not age, and they have ten children. One night by the lamp he remarks that she reminds him of something that happened long ago, and tells her. She rises, tells him she is that woman, and that only the children keep her from killing him - then dissolves into white mist and is gone through the smoke-hole.",
+   "variantTraditions": "Hearn says he had the story from a farmer in Musashi; earlier yuki-onna traditions vary widely and are often simply lethal, without the marriage.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "tanuki",
+   "name": "Tanuki",
+   "sanskrit": "狸",
+   "category": "yokai",
+   "era": "Folk",
+   "role": "The shape-shifting raccoon dog with a taste for mischief",
+   "wikipedia": "Japanese raccoon dog",
+   "portrait": "portraits/japanese/tanuki.webp",
+   "epithets": [
+    "Bake-danuki",
+    "The Belly-Drummer"
+   ],
+   "domains": [
+    "shape-shifting",
+    "practical jokes",
+    "sake",
+    "prosperity in trade"
+   ],
+   "symbols": [
+    "the straw hat",
+    "the sake flask",
+    "the promissory note",
+    "the enormous testicles"
+   ],
+   "mount": null,
+   "abode": "The hills, and the doorway of every restaurant",
+   "festivals": [],
+   "worship": "",
+   "bio": "A transforming trickster who turns leaves into money and drums on his own belly, and now stands outside bars in ceramic.",
+   "longBio": "Tanuki are shape-shifters like kitsune but with none of the menace: where the fox deceives for gain or revenge, the tanuki deceives for the fun of it, and usually comes off worse. They turn leaves into coins that revert, disguise themselves as monks or teapots, and drum on their bellies at night in the hills. The famous ceramic tanuki outside restaurants carries eight lucky attributes, including a straw hat against trouble, a sake flask for virtue, a promissory note for trust, and comically enlarged testicles for financial luck - the last derived from a pun on a phrase used by goldsmiths for a thin sheet of gold. The story of the tanuki that turned into a teakettle is among the best-loved in Japan.",
+   "variantTraditions": "The animal is a real species, Nyctereutes procyonoides, and is not a raccoon or a badger despite both being used in translation.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "divine-beast",
+    "wealth-fortune"
+   ]
   }
  ],
  "links": []
