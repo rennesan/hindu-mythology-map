@@ -114,6 +114,10 @@
    "destination": "/raven/index.html"
   },
   {
+   "source": "/polynesian/:path*",
+   "destination": "/polynesian/index.html"
+  },
+  {
    "source": "/hittite/:path*",
    "destination": "/hittite/index.html"
   },

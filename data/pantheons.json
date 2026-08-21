@@ -408,10 +408,15 @@
    "label": "Polynesian",
    "sublabel": "Hawaii, Aotearoa & the Pacific",
    "accent": "#6fa8a0",
-   "status": "planned",
+   "status": "live",
    "blurb": "Maui who fished up islands and tried to kill death, kept by island group rather than blended.",
    "family": "Oceania",
-   "glyph": "≋"
+   "glyph": "≋",
+   "figures": 37,
+   "stories": 10,
+   "links": 74,
+   "levels": 6,
+   "cover": "portraits/polynesian/maui.webp"
   },
   {
    "id": "hittite",

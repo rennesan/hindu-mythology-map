@@ -1,0 +1,2447 @@
+{
+ "title": "Polynesian",
+ "description": "Not one mythology but a family of them, spread across a triangle bigger than Eurasia - kept by island group, because the names travelled and the meanings did not.",
+ "generated": "2026-08-21",
+ "sources": [
+  "George Grey, Polynesian Mythology (1855) - Maori accounts taken from named tohunga",
+  "Elsdon Best, The Maori (1924) and related monographs",
+  "David Malo, Hawaiian Antiquities (c. 1840) and Samuel Kamakau - Hawaiian scholars writing in Hawaiian",
+  "Martha Beckwith, Hawaiian Mythology (1940) and her translation of the Kumulipo (1951)",
+  "Teuira Henry, Ancient Tahiti (1928), from her grandfather's manuscripts",
+  "Note: Maori and Hawaiian traditions are living. Particular iwi and families hold their own versions; this is the published record and no version is presented as the correct one"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/polynesian/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "grey": {
+   "t": "Polynesian Mythology",
+   "tr": "George Grey, 1855 - Maori accounts",
+   "u": "https://sacred-texts.com/pac/grey/index.htm"
+  },
+  "best": {
+   "t": "The Maori",
+   "tr": "Elsdon Best, 1924",
+   "u": "https://nzetc.victoria.ac.nz/tm/scholarly/tei-Bes01Maor.html"
+  },
+  "malo": {
+   "t": "Hawaiian Antiquities (Moolelo Hawaii)",
+   "tr": "David Malo, c. 1840; Emerson trans. 1903",
+   "u": "https://archive.org/details/hawaiianantiquit00malo"
+  },
+  "beckwith": {
+   "t": "Hawaiian Mythology",
+   "tr": "Martha Beckwith, 1940",
+   "u": "https://sacred-texts.com/pac/hm/index.htm"
+  },
+  "kumulipo": {
+   "t": "The Kumulipo: A Hawaiian Creation Chant",
+   "tr": "Trans. Martha Beckwith, 1951",
+   "u": "https://sacred-texts.com/pac/ku/index.htm"
+  },
+  "henry": {
+   "t": "Ancient Tahiti",
+   "tr": "Teuira Henry, 1928",
+   "u": "https://archive.org/details/ancienttahiti00henr"
+  }
+ },
+ "meta": {
+  "id": "polynesian",
+  "label": "Polynesian",
+  "sublabel": "Across the Ocean",
+  "accent": "#6fa8a0",
+  "root": "maui"
+ },
+ "profile": {
+  "cosmicNature": "Usually a growth rather than a making. The Hawaiian Kumulipo begins in darkness and works upward through coral, then worms, then fish, then birds, then people, in a chant of two thousand lines that is essentially a genealogy of everything. In Aotearoa the sky and the earth are locked together in an embrace and their children are crushed between them until one of them forces the two apart. In Tahiti, Ta'aroa sits alone inside a shell and eventually breaks it and uses the pieces.",
+  "natureOfDivinity": "Four great gods in most of the ocean, and beyond them a genealogy that runs continuously from the gods to living people. Tane or Kane, Tu or Ku, Rongo or Lono, Tangaroa or Kanaloa - the same four names, in different orders of seniority depending which island you ask. Below them are ancestors, who are not separate from gods in kind, only in distance, and the boundary between the two is a matter of how many generations back.",
+  "afterlife": "West, and down, and along a specific road. In Aotearoa the spirit travels north to Te Rerenga Wairua, the leaping place at the top of the island, climbs down a root of the pohutukawa tree and goes to Rarohenga. In Hawaii it goes to a leina, a leaping place, on each island. In much of the ocean the dead go towards Pulotu or Hawaiki - the homeland, which is also where the living came from, so the dead are going back rather than going away.",
+  "systemMechanism": "Mana and tapu, and they are a pair. Mana is effective power - in a person, an object, a place, a chief - and it can be gained, inherited, and lost. Tapu is restriction: what is charged with mana is set apart and cannot be treated ordinarily, and violating it is dangerous whether or not anyone intends harm. Noa is the ordinary state, and there are procedures for moving things from one to the other. The English word taboo comes from this and lost most of the meaning on the way.",
+  "canonTexts": "Nothing written before contact. What exists is very large: Maori accounts recorded from named tohunga in the nineteenth century, above all by George Grey and later by Elsdon Best and Ngata; the Hawaiian material collected by David Malo, Samuel Kamakau and Abraham Fornander, all Hawaiian; the Kumulipo itself, a two-thousand-line creation chant preserved by chiefly families; and Teuira Henry's Tahitian material from her missionary grandfather's notes."
+ },
+ "hierarchy": [
+  {
+   "title": "Across the Ocean",
+   "blurb": "The names that travelled the whole triangle. Four great gods - Tane, Tu, Rongo, Tangaroa - who change rank from island to island. Hina, who is in the moon beating tapa nearly everywhere. And Maui, the youngest brother who fished up islands and slowed the sun and got away with it.",
+   "memberIds": [
+    "maui",
+    "tangaroa",
+    "tane",
+    "tu",
+    "rongo",
+    "hina"
+   ],
+   "connectorCaption": "In the south, they are all children of a couple who would not let go of each other"
+  },
+  {
+   "title": "Aotearoa",
+   "blurb": "The sky and the earth lie locked together and their children grow up crushed in the dark between them, until one of them lies on his back and pushes. The rain afterwards is the father crying. And Maui dies here, which he does nowhere else, trying to end death.",
+   "memberIds": [
+    "rangi",
+    "papa",
+    "tawhirimatea",
+    "hinetitama",
+    "hine_nui_te_po",
+    "ruaumoko",
+    "tawhaki",
+    "kupe",
+    "taniwha",
+    "io"
+   ],
+   "connectorCaption": "Three thousand miles north, the same four gods and an entirely different story"
+  },
+  {
+   "title": "Hawaii",
+   "blurb": "Pele dug a home on each island in turn from Kauai southeast and the sea flooded every one until she reached Hawaii - which is the actual geological history of the chain, in the correct order. She is not a goddess of the volcano. She is the lava.",
+   "memberIds": [
+    "pele",
+    "hiiaka",
+    "namaka",
+    "kamapuaa",
+    "poliahu",
+    "laka",
+    "haumea",
+    "kumulipo",
+    "menehune",
+    "moo"
+   ],
+   "connectorCaption": "In the middle of the triangle, a creator who had nothing at all to work with"
+  },
+  {
+   "title": "Tahiti",
+   "blurb": "Ta'aroa sat alone inside a shell in the dark with no sky, no sea and nobody to call to. When he broke out he used one half of the shell for the sky and the other for the ground, and made everything else out of his own body because there was nothing else.",
+   "memberIds": [
+    "taaroa",
+    "oro",
+    "hiro"
+   ],
+   "connectorCaption": "West again, where the first people came out of a rotting vine"
+  },
+  {
+   "title": "Samoa & Tonga",
+   "blurb": "Tagaloa threw a rock into the empty sea to have somewhere to stand. A war goddess fought with her chest bound and stopped when the wind exposed her. And an eel that loved a girl asked her to bury its head, which is why a coconut has a face.",
+   "memberIds": [
+    "tagaloa",
+    "nafanua",
+    "sina",
+    "hikuleo",
+    "maui_kisikisi"
+   ],
+   "connectorCaption": "And at the far corner, the most isolated inhabited place on earth"
+  },
+  {
+   "title": "Rapa Nui",
+   "blurb": "Two thousand kilometres from the nearest inhabited island, found on purpose because a priest dreamed it. When the ancestor cult of the moai ended, it was replaced by an annual swim through shark water to fetch the first tern egg of the season.",
+   "memberIds": [
+    "makemake",
+    "hotu_matua",
+    "tangata_manu"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "four",
+   "label": "The Four Great Gods",
+   "memberIds": [
+    "tane",
+    "tu",
+    "rongo",
+    "tangaroa"
+   ]
+  },
+  {
+   "id": "separation",
+   "label": "The Separation",
+   "memberIds": [
+    "rangi",
+    "papa",
+    "tane",
+    "tawhirimatea",
+    "tu",
+    "ruaumoko"
+   ]
+  },
+  {
+   "id": "maui",
+   "label": "Maui, Everywhere",
+   "memberIds": [
+    "maui",
+    "maui_kisikisi",
+    "hina",
+    "hine_nui_te_po"
+   ]
+  },
+  {
+   "id": "death",
+   "label": "Where the Dead Go",
+   "memberIds": [
+    "hine_nui_te_po",
+    "hinetitama",
+    "hikuleo"
+   ]
+  },
+  {
+   "id": "fire",
+   "label": "The Fire Sisters",
+   "memberIds": [
+    "pele",
+    "hiiaka",
+    "namaka",
+    "poliahu",
+    "haumea"
+   ]
+  },
+  {
+   "id": "navigators",
+   "label": "The Navigators",
+   "memberIds": [
+    "kupe",
+    "hotu_matua",
+    "hiro",
+    "maui"
+   ]
+  },
+  {
+   "id": "creators",
+   "label": "Four Different Creations",
+   "memberIds": [
+    "taaroa",
+    "tagaloa",
+    "kumulipo",
+    "makemake",
+    "rangi"
+   ]
+  },
+  {
+   "id": "guardians",
+   "label": "In the Water",
+   "memberIds": [
+    "taniwha",
+    "moo",
+    "namaka",
+    "tangaroa"
+   ]
+  },
+  {
+   "id": "memory",
+   "label": "How Things Were Remembered",
+   "memberIds": [
+    "laka",
+    "hina",
+    "kumulipo",
+    "oro"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-separation",
+   "title": "Pushing With His Legs",
+   "era": "Aotearoa",
+   "cast": [
+    "rangi",
+    "papa",
+    "tane",
+    "tawhirimatea",
+    "tu"
+   ],
+   "summary": "Ranginui and Papatuanuku held each other so closely that their children grew up between them in total darkness, unable to stand upright. The children argued about it. Tumatauenga proposed killing them. The others preferred separation, and tried in turn - Rongo, Tangaroa, Haumia, Tu - and none of them could shift it. Then Tane put his shoulders against his mother and his feet against his father and straightened his legs, slowly, and they came apart, and light came in for the first time. Tawhirimatea, the only one who had objected, went up with his father and made war on his brothers ever afterwards. And Ranginui grieves: the rain is him weeping down, and the mist that lifts off the land at dawn is Papatuanuku's grief going back up to him.",
+   "sources": [
+    {
+     "book": "Polynesian Mythology",
+     "translation": "George Grey, 1855 - Maori accounts",
+     "location": "The Children of Heaven and Earth",
+     "url": "https://sacred-texts.com/pac/grey/index.htm"
+    },
+    {
+     "book": "The Maori",
+     "translation": "Elsdon Best, 1924",
+     "location": "Cosmogony",
+     "url": "https://nzetc.victoria.ac.nz/tm/scholarly/tei-Bes01Maor.html"
+    }
+   ]
+  },
+  {
+   "id": "maui-and-the-sun",
+   "title": "Beating the Sun Until It Slowed Down",
+   "era": "Across the Ocean",
+   "cast": [
+    "maui",
+    "hina"
+   ],
+   "summary": "The days were too short. The sun went over too fast, and there was not enough light to get the work done or to cook properly, and in the Hawaiian telling Maui's mother Hina could not get her tapa dry. So Maui and his brothers plaited ropes - flax in the south, coconut fibre elsewhere - and went east and waited at the pit the sun rises from, and when it came up they dropped the nooses over it and held on and beat it with the jawbone until it agreed to move more slowly for part of the year. In Hawaii this happens at Haleakala, which means the house of the sun, and it is a real mountain you can drive up. It is a story about the working day, and every version of it is.",
+   "sources": [
+    {
+     "book": "Polynesian Mythology",
+     "translation": "George Grey, 1855 - Maori accounts",
+     "location": "Maui snares the sun",
+     "url": "https://sacred-texts.com/pac/grey/index.htm"
+    },
+    {
+     "book": "Hawaiian Mythology",
+     "translation": "Martha Beckwith, 1940",
+     "location": "Maui",
+     "url": "https://sacred-texts.com/pac/hm/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "maui-and-death",
+   "title": "The Fantail Laughed",
+   "era": "Aotearoa",
+   "cast": [
+    "maui",
+    "hine_nui_te_po",
+    "hinetitama"
+   ],
+   "summary": "Maui had done everything else, and decided to end death. Hine-nui-te-po lay asleep at the horizon, enormous, with eyes of flashing greenstone and teeth of obsidian, and he intended to pass through her body and out of her mouth, which would reverse the direction of birth and make people deathless. He told the birds who came with him that whatever they saw, they must not make a sound until he was through. He went in. The little fantail, watching, could not hold it, and laughed out loud. She woke, and closed on him, and that was the end of Maui and the end of the possibility. It is the reason people die, and the reason is that somebody could not keep a straight face.",
+   "sources": [
+    {
+     "book": "Polynesian Mythology",
+     "translation": "George Grey, 1855 - Maori accounts",
+     "location": "The death of Maui",
+     "url": "https://sacred-texts.com/pac/grey/index.htm"
+    },
+    {
+     "book": "The Maori",
+     "translation": "Elsdon Best, 1924",
+     "location": "Maui",
+     "url": "https://nzetc.victoria.ac.nz/tm/scholarly/tei-Bes01Maor.html"
+    }
+   ]
+  },
+  {
+   "id": "pele-down-the-chain",
+   "title": "Digging Down the Island Chain",
+   "era": "Hawaii",
+   "cast": [
+    "pele",
+    "namaka",
+    "poliahu"
+   ],
+   "summary": "Pele came from Kahiki in a canoe, driven out and pursued by her elder sister Namaka, who is the sea. She landed on Kauai, at the northwestern end of the chain, and dug for a home, and the sea came in and flooded the pit. So she moved southeast to Oahu, and dug, and it flooded. Then Molokai, then Maui, each one further southeast and each one flooded, until she reached the island of Hawaii and dug Halemaumau on Kilauea, which is high enough and new enough and far enough east that her sister cannot reach it. She is there now. That sequence - northwest to southeast, older to younger - is the exact order in which the Hawaiian islands were formed as the plate moved over a stationary hotspot.",
+   "sources": [
+    {
+     "book": "Hawaiian Mythology",
+     "translation": "Martha Beckwith, 1940",
+     "location": "Pele",
+     "url": "https://sacred-texts.com/pac/hm/index.htm"
+    },
+    {
+     "book": "Hawaiian Antiquities (Moolelo Hawaii)",
+     "translation": "David Malo, c. 1840; Emerson trans. 1903",
+     "location": "The volcano",
+     "url": "https://archive.org/details/hawaiianantiquit00malo"
+    }
+   ]
+  },
+  {
+   "id": "shell",
+   "title": "Alone Inside the Shell",
+   "era": "Tahiti",
+   "cast": [
+    "taaroa"
+   ],
+   "summary": "Ta'aroa existed in a shell, in the dark, rolling about in a void, and there was no sky, no land, no sea, no sand, and nobody anywhere to call out to. He called out anyway and nothing answered. So he broke the shell and stood on it, and made another shell over himself, and eventually used one for the dome of the sky and the other for the ground and the rocks. Then, having no material of any kind, he made the rest of the world from his own body: his feathers became the trees and the creepers, his flesh the fat soil, his bones the ridges of the mountains, his entrails the eels and the lobsters, his blood the red in the sky at sunset and the colour of the rainbow. Then he made other gods and gave them the rest of the work.",
+   "sources": [
+    {
+     "book": "Ancient Tahiti",
+     "translation": "Teuira Henry, 1928",
+     "location": "Ta'aroa",
+     "url": "https://archive.org/details/ancienttahiti00henr"
+    }
+   ]
+  },
+  {
+   "id": "the-vine",
+   "title": "Maggots in a Rotting Vine",
+   "era": "Samoa & Tonga",
+   "cast": [
+    "tagaloa",
+    "sina"
+   ],
+   "summary": "Tagaloa stood in the sky when there was nothing below but sea, and threw down a rock so that he would have somewhere to put his feet, and that was the first land. He sent down a creeping vine to shade it. The vine grew and spread and then withered and rotted, and maggots bred in the rot, and Tagaloa sent his messenger down to them - and the messenger split each maggot and gave it arms and legs and a heart and a mind, and they stood up as the first people. It is one of the least flattering origins any people has given itself, and Samoan tradition tells it without apology and is entirely specific about which rock and which islands.",
+   "sources": [
+    {
+     "book": "Ancient Tahiti",
+     "translation": "Teuira Henry, 1928",
+     "location": "Comparative Polynesian creation",
+     "url": "https://archive.org/details/ancienttahiti00henr"
+    }
+   ]
+  },
+  {
+   "id": "the-eel",
+   "title": "Why the Coconut Has a Face",
+   "era": "Samoa & Tonga",
+   "cast": [
+    "sina",
+    "hina"
+   ],
+   "summary": "Sina kept a small eel in a pool and fed it, and it grew, and it turned out to be a young chief from another island under an enchantment, and it began to follow her about and to look at her in a way she did not like. She ran, and it followed - pool to pool, village to village, across the islands. In the end it was caught and killed, and its dying request was that its head be buried, and Sina did that. A palm grew out of the buried head. When you husk a coconut there are three marks on the shell, two eyes and a mouth, and to drink from it you have to put your own mouth against the eel's, which is what the whole story was built to arrive at.",
+   "sources": [
+    {
+     "book": "Ancient Tahiti",
+     "translation": "Teuira Henry, 1928",
+     "location": "Sina and the eel",
+     "url": "https://archive.org/details/ancienttahiti00henr"
+    }
+   ]
+  },
+  {
+   "id": "the-egg",
+   "title": "Swimming for the First Egg",
+   "era": "Rapa Nui",
+   "cast": [
+    "tangata_manu",
+    "makemake",
+    "hotu_matua"
+   ],
+   "summary": "Every spring the clans gathered at Orongo on the cliff top, and each competitor sent a servant down the rock face, into the sea, and out across a kilometre and a half of shark water to the islet of Motu Nui - on a bundle of reeds - to wait for the sooty terns to nest. They waited in caves, sometimes for weeks. The first man to find an egg shouted his sponsor's name across the water, tied the egg to his forehead, swam back, and climbed the cliff, and men died doing both. His sponsor became tangata manu for a year: head and eyebrows shaved, painted, housed apart, under heavy restriction and holding real authority. It replaced the moai-building ancestor cult entirely, and the last competition was held around 1867.",
+   "sources": [
+    {
+     "book": "Ancient Tahiti",
+     "translation": "Teuira Henry, 1928",
+     "location": "Comparative material",
+     "url": "https://archive.org/details/ancienttahiti00henr"
+    }
+   ]
+  },
+  {
+   "id": "hiiaka",
+   "title": "Forty Days to Kauai",
+   "era": "Hawaii",
+   "cast": [
+    "hiiaka",
+    "pele",
+    "laka",
+    "moo"
+   ],
+   "summary": "Pele saw a man named Lohiau in a dream on Kauai and sent her youngest sister to fetch him, with two conditions: be back in forty days, and do not embrace him. Hiiaka went the length of the island chain and had to fight moo and sorcerers the whole way, and when she reached Kauai Lohiau was dead, and reviving him took days more. On the way back the forty days ran out. Pele, waiting, assumed the worst and burned Hiiaka's lehua groves, and then killed Lohiau. Hiiaka began digging down toward the fire pit. The epic runs to hundreds of pages, was serialised in the Hawaiian-language newspapers in the nineteenth century, and is where the hula tradition keeps its charter.",
+   "sources": [
+    {
+     "book": "Hawaiian Mythology",
+     "translation": "Martha Beckwith, 1940",
+     "location": "Pele and Hiiaka",
+     "url": "https://sacred-texts.com/pac/hm/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-chant",
+   "title": "Coral First",
+   "era": "Hawaii",
+   "cast": [
+    "kumulipo",
+    "haumea"
+   ],
+   "summary": "The Kumulipo runs to about two thousand lines and begins in the deep darkness before anything. The first living thing born in it is the coral polyp. After the coral come the sea creatures, and each one is paired with a plant of the land that shares something with its name - the sea cucumber with the sweet potato, and so on down a very long list. Then worms and shellfish, then fish, then insects, then birds, then reptiles, then the mammals, and only then people - and from there the chant continues without a break into the genealogy of a particular chiefly line, which is the point of the whole thing. Queen Liliuokalani translated it into English while imprisoned in her own palace after the overthrow of 1893.",
+   "sources": [
+    {
+     "book": "The Kumulipo: A Hawaiian Creation Chant",
+     "translation": "Trans. Martha Beckwith, 1951",
+     "location": "The sixteen wa",
+     "url": "https://sacred-texts.com/pac/ku/index.htm"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "maui",
+   "name": "Maui",
+   "sanskrit": "Maui",
+   "category": "hero",
+   "era": "Across the Ocean",
+   "role": "He fished up islands, slowed the sun, stole fire, and died trying to end death",
+   "wikipedia": "M%C4%81ui_(Maori_mythology)",
+   "portrait": "portraits/polynesian/maui.webp",
+   "epithets": [
+    "Maui-tikitiki-a-Taranga",
+    "Maui-kisikisi in Tonga",
+    "the last-born"
+   ],
+   "domains": [
+    "trickery",
+    "fishing",
+    "the sun",
+    "fire",
+    "the attempt on death"
+   ],
+   "symbols": [
+    "the jawbone of his ancestress, used as a hook",
+    "the noose of ropes",
+    "the fire from Mahuika's fingernails"
+   ],
+   "mount": null,
+   "abode": "Everywhere between Aotearoa and Hawaii",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is the most widely known figure in the Pacific, and he is a younger brother getting away with things.",
+   "longBio": "Maui is told from Aotearoa to Hawaii to Tonga to Tahiti and the same things happen to him nearly everywhere. He is the youngest, born prematurely and thrown into the sea wrapped in his mother's topknot, and rescued. He beats the sun with a noose until it agrees to move slower so there is time to get work done. He fishes up land with a hook made from his ancestress's jawbone, and his brothers cut into the fish while it is still thrashing, which is why the country is mountainous. He gets fire out of Mahuika by asking for her fingernails one at a time. He is a younger sibling who wins by cheek, and the ocean found that funny for three thousand years.",
+   "variantTraditions": "Only the Maori tradition kills him. In Hawaii and Tahiti he simply stops appearing, and in Tonga he is chiefly the fisher-up of islands.",
+   "storyIds": [
+    "maui-and-the-sun",
+    "maui-and-death"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "hero-champion",
+    "sun",
+    "fire"
+   ]
+  },
+  {
+   "id": "tangaroa",
+   "name": "Tangaroa",
+   "sanskrit": "Tangaroa",
+   "category": "deity",
+   "era": "Across the Ocean",
+   "role": "The sea - except in Tahiti, where he made everything, and in Hawaii, where he ended up a demon",
+   "wikipedia": "Tangaroa",
+   "portrait": "portraits/polynesian/tangaroa.webp",
+   "epithets": [
+    "Kanaloa in Hawaii",
+    "Ta'aroa in Tahiti",
+    "Tagaloa in Samoa"
+   ],
+   "domains": [
+    "the sea",
+    "fish",
+    "voyaging",
+    "in some islands, everything"
+   ],
+   "symbols": [
+    "the ocean",
+    "the octopus and the squid",
+    "the canoe"
+   ],
+   "mount": null,
+   "abode": "The sea, and under it",
+   "festivals": [],
+   "worship": "",
+   "bio": "The same name is the sea god, the creator, and a banished spirit, depending which island you stand on.",
+   "longBio": "Tangaroa is the clearest single demonstration of why these traditions should not be merged. In Aotearoa he is the sea, one of the sons of Rangi and Papa, and the ancestor of fish, and he is on bad terms with his brother Tane because Tane sheltered the reptiles that should have gone into the water. In Tahiti, as Ta'aroa, he is the creator of everything and sits alone in a shell before the world exists. In Samoa, as Tagaloa, he is likewise the supreme creator. In Hawaii, as Kanaloa, he is one of the four great gods and in some later accounts becomes a rebel and something close to an adversary.",
+   "variantTraditions": "The Hawaiian demotion of Kanaloa toward a devil figure may be partly a missionary-era development, and this is argued about.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "creator",
+    "supreme-source",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "tane",
+   "name": "Tane",
+   "sanskrit": "Tane",
+   "category": "deity",
+   "era": "Across the Ocean",
+   "role": "The forest, the light, and the one who made the first woman out of earth",
+   "wikipedia": "T%C4%81ne",
+   "portrait": "portraits/polynesian/tane.webp",
+   "epithets": [
+    "Tane-mahuta",
+    "Kane in Hawaii",
+    "the one who pushed"
+   ],
+   "domains": [
+    "forests",
+    "birds",
+    "light",
+    "the making of the first woman",
+    "trees"
+   ],
+   "symbols": [
+    "the kauri and the totara",
+    "the three baskets of knowledge",
+    "the red earth at Kurawaka"
+   ],
+   "mount": null,
+   "abode": "The forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "He forced his parents apart by lying on his back and pushing with his legs.",
+   "longBio": "Tane is the forest and everything in it, and in the Maori account he is the one who ended the darkness: with the sky and the earth locked together and their children crushed between them, his brothers tried to force them apart and failed, and Tane lay on his back and pushed with his legs and shoulders until Rangi went up and Papa stayed down and there was light. He then went up through the heavens for the three baskets of knowledge. Wanting a wife and finding no women, he made one out of red earth at Kurawaka and breathed into her nostrils, and she was Hine-ahu-one. In Hawaii, as Kane, he is the senior of the four great gods.",
+   "variantTraditions": "In Hawaii Kane is associated with fresh water and sunlight and heads the four; the tree and forest emphasis is stronger in the south.",
+   "storyIds": [
+    "the-separation"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "creator",
+    "preserver",
+    "wisdom-craft",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "tu",
+   "name": "Tu",
+   "sanskrit": "Tumatauenga",
+   "category": "deity",
+   "era": "Across the Ocean",
+   "role": "War, and the only brother who was willing to fight his own family",
+   "wikipedia": "T%C5%AB",
+   "portrait": "portraits/polynesian/tu.webp",
+   "epithets": [
+    "Tumatauenga in Aotearoa",
+    "Ku in Hawaii",
+    "the angry face"
+   ],
+   "domains": [
+    "war",
+    "human beings",
+    "hunting",
+    "cooking",
+    "the eating of one's relatives"
+   ],
+   "symbols": [
+    "the taiaha",
+    "cooked food, which removes tapu",
+    "the war party"
+   ],
+   "mount": null,
+   "abode": "Among people",
+   "festivals": [],
+   "worship": "",
+   "bio": "When his brothers would not fight, he set about eating all of them, which is why people eat everything.",
+   "longBio": "Tumatauenga wanted to kill his parents outright rather than separate them, and was overruled. Then, when his brother Tawhirimatea attacked the others and they hid or fled, Tu was the only one who stood and fought him, and won. Afterwards he took revenge on the brothers who had not helped: he snared Tane's birds, netted Tangaroa's fish, dug up Rongo and Haumia's crops, and ate all of them. That is the charter for human beings eating everything in the world and for the ritual of cooking, which removes tapu. He is humanity's own ancestor and he is not presented as admirable.",
+   "variantTraditions": "In Hawaii, Ku is one of the four great gods and receives the most serious offerings; the Maori Tu is not a supreme figure but a brother.",
+   "storyIds": [
+    "the-separation"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "destroyer",
+    "hero-champion",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "rongo",
+   "name": "Rongo",
+   "sanskrit": "Rongo",
+   "category": "deity",
+   "era": "Across the Ocean",
+   "role": "Cultivated food and peace, and in Hawaii his festival stopped all war for four months",
+   "wikipedia": "Rongo",
+   "portrait": "portraits/polynesian/rongo.webp",
+   "epithets": [
+    "Rongo-ma-Tane",
+    "Lono in Hawaii",
+    "Ro'o in Tahiti"
+   ],
+   "domains": [
+    "cultivated food",
+    "the kumara",
+    "peace",
+    "rain",
+    "fertility"
+   ],
+   "symbols": [
+    "the kumara",
+    "the long white banner of the Makahiki",
+    "rain clouds"
+   ],
+   "mount": null,
+   "abode": "The gardens",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Hawaiian Makahiki ran four months, during which fighting was forbidden and taxes were collected.",
+   "longBio": "Rongo is the cultivated food - the kumara above all - and by extension peace, since the two go together. In Hawaii, as Lono, he governs rain and agriculture and the Makahiki, a festival running about four months from the rising of the Pleiades, during which war was prohibited, work was reduced, tribute was collected and there were games. Captain Cook arrived off Hawaii during the Makahiki in 1779, at the right season and sailing round the island in the right direction, and what was made of that at the time is still argued about by historians.",
+   "variantTraditions": "Whether Cook was taken for Lono, and in what sense, is one of the more heated disputes in Pacific anthropology.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune",
+    "preserver",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "hina",
+   "name": "Hina",
+   "sanskrit": "Hina",
+   "category": "deity",
+   "era": "Across the Ocean",
+   "role": "The most widespread woman in the Pacific, and usually she is in the moon beating tapa",
+   "wikipedia": "Hina_(goddess)",
+   "portrait": "portraits/polynesian/hina.webp",
+   "epithets": [
+    "Sina in Samoa",
+    "Ina in the Cook Islands",
+    "Hina-i-ka-malama, Hina of the moon"
+   ],
+   "domains": [
+    "the moon",
+    "tapa cloth",
+    "women",
+    "the tides",
+    "eels and coconuts"
+   ],
+   "symbols": [
+    "the tapa beater",
+    "the moon",
+    "the calabash",
+    "the eel"
+   ],
+   "mount": null,
+   "abode": "The moon, and the shore",
+   "festivals": [],
+   "worship": "",
+   "bio": "She got fed up with her family, took her calabash and her tapa beater and went to the moon.",
+   "longBio": "Hina appears in more islands than any other female figure and is not always the same person - she is Maui's mother in some traditions and his sister or wife in others, and in yet others she has nothing to do with him. The most widespread story has her tired of her life, or of her husband, taking her tapa-beating board and her calabash and climbing to the moon, where she can be seen. In Samoa, Sina is the girl an eel fell in love with; when it was killed she buried the head as instructed, and the first coconut grew, which is why the nut has a face on it.",
+   "variantTraditions": "The Sina and the eel origin of the coconut is Samoan and Tongan; the woman in the moon beating tapa is nearly pan-Polynesian.",
+   "storyIds": [
+    "maui-and-the-sun",
+    "the-eel"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "earth-mother",
+    "wisdom-craft",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "rangi",
+   "name": "Ranginui",
+   "sanskrit": "Ranginui",
+   "category": "primordial",
+   "era": "Aotearoa",
+   "role": "The sky, who held his wife so tightly that their children lived in the dark",
+   "wikipedia": "Rangi_and_Papa",
+   "portrait": "portraits/polynesian/rangi.webp",
+   "epithets": [
+    "Rangi",
+    "the sky father"
+   ],
+   "domains": [
+    "the sky",
+    "rain",
+    "the embrace",
+    "grief"
+   ],
+   "symbols": [
+    "the rain, which is his weeping",
+    "the mist rising, which is hers"
+   ],
+   "mount": null,
+   "abode": "Above, since he was pushed",
+   "festivals": [],
+   "worship": "",
+   "bio": "The rain is him still crying, and the mist that rises off the ground is her answering.",
+   "longBio": "Ranginui and Papatuanuku lay locked together and their children were born and grew between them in complete darkness, cramped and unable to stand. The children debated what to do - Tumatauenga wanted to kill them, the others wanted them separated - and one after another they tried to push and failed, until Tane lay on his back and forced them apart with his legs. Rangi went up. He grieves for her constantly: the rain is his tears falling, and the mist that rises off the land in the morning is her grief going up to him. It is one of the few separation myths anywhere where the point is that the separation hurt.",
+   "variantTraditions": "The version best known is Grey's, from Te Rangikaheke of Ngati Rangiwewehi. Other iwi tell it differently, including the number of children.",
+   "storyIds": [
+    "the-separation"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sky-thunder",
+    "supreme-source",
+    "love-desire",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "papa",
+   "name": "Papatuanuku",
+   "sanskrit": "Papatuanuku",
+   "category": "primordial",
+   "era": "Aotearoa",
+   "role": "The earth, and everyone who lives on her is living on their mother",
+   "wikipedia": "Rangi_and_Papa",
+   "portrait": "portraits/polynesian/papa.webp",
+   "epithets": [
+    "Papa",
+    "the earth mother",
+    "the land itself"
+   ],
+   "domains": [
+    "the earth",
+    "land",
+    "growth",
+    "the dead who return to her"
+   ],
+   "symbols": [
+    "the ground",
+    "mist",
+    "the placenta, which is buried in the land"
+   ],
+   "mount": null,
+   "abode": "Below",
+   "festivals": [],
+   "worship": "",
+   "bio": "Whenua is the Maori word for both land and placenta, and the placenta is buried in the ground.",
+   "longBio": "Papatuanuku is the earth and she is not a metaphor for it. The word whenua means both land and afterbirth, and a child's placenta is buried in the ground of the family's land, which puts the person and the place in the same relationship as the mother and the child. When Tane forced her apart from Rangi she was turned face down so that she would not have to look at him, and the mist rising in the morning is her grief. The dead go back into her. Everything that grows is hers, and the argument that land can be owned and sold ran directly into this.",
+   "variantTraditions": "The turning of Papa face down is in some accounts and not others; the whenua-placenta practice is general and continues.",
+   "storyIds": [
+    "the-separation"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "supreme-source",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "tawhirimatea",
+   "name": "Tawhirimatea",
+   "sanskrit": "Tawhirimatea",
+   "category": "deity",
+   "era": "Aotearoa",
+   "role": "The winds, and the only son who took his parents' side and never forgave the others",
+   "wikipedia": "T%C4%81whirim%C4%81tea",
+   "portrait": "portraits/polynesian/tawhirimatea.webp",
+   "epithets": [
+    "the wind",
+    "the storm"
+   ],
+   "domains": [
+    "wind",
+    "storms",
+    "hurricanes",
+    "the sky",
+    "revenge on his brothers"
+   ],
+   "symbols": [
+    "the winds of the four quarters",
+    "the clouds, his many children",
+    "his torn-out eyes"
+   ],
+   "mount": null,
+   "abode": "The sky, with his father",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is said to have torn out his own eyes and thrown them into the sky, where they are the Pleiades.",
+   "longBio": "Tawhirimatea alone opposed separating the parents, and when it was done anyway he went up with his father and made war on his brothers. He drove Tane's forests flat, chased Tangaroa's fish into the sea and his reptiles into the bush, flattened Rongo and Haumia's crops so that they had to hide in the earth, and only Tumatauenga stood and fought him. In one much-repeated account he was so angry that he tore out his own eyes, crushed them and flung them into the sky, where they became Matariki, the Pleiades, whose rising marks the Maori new year - which is now a public holiday in New Zealand.",
+   "variantTraditions": "The eyes-into-Matariki account is one telling among several and has become widely known since Matariki was made a national holiday in 2022.",
+   "storyIds": [
+    "the-separation"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "destroyer",
+    "sky-thunder",
+    "war"
+   ]
+  },
+  {
+   "id": "hine_nui_te_po",
+   "name": "Hine-nui-te-po",
+   "sanskrit": "Hine-nui-te-po",
+   "category": "underworld",
+   "era": "Aotearoa",
+   "role": "The great woman of the night, who killed Maui and so kept death in the world",
+   "wikipedia": "Hine-nui-te-p%C5%8D",
+   "portrait": "portraits/polynesian/hine_nui_te_po.webp",
+   "epithets": [
+    "the great lady of night",
+    "the one at the horizon"
+   ],
+   "domains": [
+    "death",
+    "night",
+    "the underworld",
+    "the guarding of the boundary"
+   ],
+   "symbols": [
+    "the flashing eyes",
+    "the obsidian teeth",
+    "the red of the sunset where she waits"
+   ],
+   "mount": null,
+   "abode": "The far horizon, at the entrance to the night",
+   "festivals": [],
+   "worship": "",
+   "bio": "Maui tried to reverse birth by entering her while she slept. A bird laughed, she woke, and he died.",
+   "longBio": "Hine-nui-te-po was Hine-titama, the dawn maiden, until she discovered that her husband Tane was also her father, and fled to the underworld in shame and grief, and told him to stay above and raise their children while she pulled them down. She became the goddess of death. Maui, meaning to end death for everyone, went to her while she slept, intending to pass through her body and reverse the direction of birth. He told the birds with him to keep silent. The little fantail could not, and laughed, and she woke, and he was crushed, and because he failed people have died ever since.",
+   "variantTraditions": "Different iwi tell the ending differently and some regard the detail as not for general recounting; the summary here follows the published Grey and Best accounts.",
+   "storyIds": [
+    "maui-and-death"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "earth-mother",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "hinetitama",
+   "name": "Hine-titama",
+   "sanskrit": "Hine-titama",
+   "category": "deity",
+   "era": "Aotearoa",
+   "role": "The dawn maiden, who asked who her father was and got an answer she could not live with",
+   "wikipedia": "Hine-nui-te-p%C5%8D",
+   "portrait": "portraits/polynesian/hinetitama.webp",
+   "epithets": [
+    "the dawn maiden",
+    "the daughter of Hine-ahu-one"
+   ],
+   "domains": [
+    "the dawn",
+    "shame",
+    "the decision to go below"
+   ],
+   "symbols": [
+    "first light",
+    "the road down",
+    "the children she called after her"
+   ],
+   "mount": null,
+   "abode": "The dawn, and then the underworld",
+   "festivals": [],
+   "worship": "",
+   "bio": "She asked her husband who her father was. He would not answer, so she asked the doorposts.",
+   "longBio": "Tane made the first woman out of red earth and then took their daughter Hine-titama as his wife, and she did not know. When she asked him who her father was he told her to ask the posts of the house, which was an answer, and she understood it. She went down to Rarohenga and would not come back, and when Tane followed she told him to go up and stay in the world of light and raise their children, and that she would remain below and draw them down to her when their time came. She stopped being the dawn and became the night, and that is where death comes from in this tradition.",
+   "variantTraditions": "The transformation of Hine-titama into Hine-nui-te-po is standard; the treatment of Tane's part varies considerably between iwi.",
+   "storyIds": [
+    "maui-and-death"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "dawn",
+    "death-judge",
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "ruaumoko",
+   "name": "Ruaumoko",
+   "sanskrit": "Ruaumoko",
+   "category": "deity",
+   "era": "Aotearoa",
+   "role": "The unborn child still inside his mother, and when he turns over there is an earthquake",
+   "wikipedia": "R%C5%ABaumoko",
+   "portrait": "portraits/polynesian/ruaumoko.webp",
+   "epithets": [
+    "the god of earthquakes",
+    "the youngest son"
+   ],
+   "domains": [
+    "earthquakes",
+    "volcanoes",
+    "the seasons",
+    "the unborn"
+   ],
+   "symbols": [
+    "the shaking ground",
+    "the volcano",
+    "the warmth in the earth"
+   ],
+   "mount": null,
+   "abode": "Inside Papatuanuku, unborn",
+   "festivals": [],
+   "worship": "",
+   "bio": "New Zealand sits on a plate boundary, and this is the explanation that fits it exactly.",
+   "longBio": "When Papatuanuku was turned face down, her youngest son had not yet been born and was still inside her, and he is there now. When he moves the ground shakes and the mountains smoke. In some accounts he was given fire to keep his mother warm, which is the volcanoes, and his movement through the year makes the seasons. Aotearoa sits directly on the boundary between two plates and has thousands of earthquakes a year and a line of active volcanoes down the middle of the North Island, and a myth of a restless unborn child inside the earth is an extremely good fit for the evidence available.",
+   "variantTraditions": "Also given as Ruamoko. The seasonal explanation is one strand; the earthquake association is universal.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "destroyer",
+    "fire",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "tawhaki",
+   "name": "Tawhaki",
+   "sanskrit": "Tawhaki",
+   "category": "hero",
+   "era": "Aotearoa",
+   "role": "He climbed to the top of the sky on a vine, and lightning comes off him",
+   "wikipedia": "T%C4%81whaki",
+   "portrait": "portraits/polynesian/tawhaki.webp",
+   "epithets": [
+    "Tawhaki-nui-a-Hema",
+    "Kaha'i in Hawaii",
+    "Tafa'i in Tahiti"
+   ],
+   "domains": [
+    "lightning",
+    "ascent",
+    "the heavens",
+    "revenge on his uncles"
+   ],
+   "symbols": [
+    "the vine or the line of spider thread",
+    "the lightning from his armpits",
+    "the discarded old skin"
+   ],
+   "mount": null,
+   "abode": "The uppermost heaven",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was beaten and left for dead by his wife's brothers, and went up to get what he needed.",
+   "longBio": "Tawhaki is beautiful, is beaten nearly to death by his jealous brothers-in-law, recovers, and climbs to the heavens - up a vine, or a line of spider silk, or the tendril of a creeper, depending on the telling - to reach the topmost sky and the knowledge kept there. Lightning flashes from his armpits when he moves. He is one of the very few figures whose story travelled the whole triangle with the name recognisably intact: Kaha'i in Hawaii, Tafa'i in Tahiti, Tahaki in the Tuamotus, doing more or less the same things in each.",
+   "variantTraditions": "The ascent to the heavens and the lightning are constant; the reason for the climb varies between recovering a wife, a child, and knowledge.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sky-thunder",
+    "sage-seer",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "kupe",
+   "name": "Kupe",
+   "sanskrit": "Kupe",
+   "category": "hero",
+   "era": "Aotearoa",
+   "role": "The navigator who found Aotearoa, chasing an octopus that had been stealing his bait",
+   "wikipedia": "Kupe",
+   "portrait": "portraits/polynesian/kupe.webp",
+   "epithets": [
+    "the discoverer",
+    "the one who came from Hawaiki"
+   ],
+   "domains": [
+    "navigation",
+    "discovery",
+    "the naming of places",
+    "the octopus"
+   ],
+   "symbols": [
+    "the canoe Matawhaorua",
+    "the great octopus of Muturangi",
+    "the long white cloud"
+   ],
+   "mount": null,
+   "abode": "Hawaiki, and then Aotearoa",
+   "festivals": [],
+   "worship": "",
+   "bio": "His wife is said to have seen the land and called it a long white cloud - Aotearoa.",
+   "longBio": "Kupe is the navigator who found Aotearoa, and the story given for the voyage is domestic rather than epic: a giant octopus belonging to a man named Muturangi kept stripping the bait off his fishing lines, and he went after it, and the chase took him across the ocean. He killed it in Cook Strait. His wife Kuramarotini, seeing land ahead, is said to have called out about a long white cloud, and Aotearoa is usually explained from that. He named a great many places, went back to Hawaiki with the sailing directions, and did not return - and that is what made the later migration possible.",
+   "variantTraditions": "Kupe traditions differ substantially between iwi, and several regions hold their own accounts of who arrived and when. There is no single agreed version.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sea-waters",
+    "sage-seer",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "taniwha",
+   "name": "Taniwha",
+   "sanskrit": "Taniwha",
+   "category": "beast",
+   "era": "Aotearoa",
+   "role": "A creature in a river or a harbour that may guard you or may eat you",
+   "wikipedia": "Taniwha",
+   "portrait": "portraits/polynesian/taniwha.webp",
+   "epithets": [
+    "the guardian",
+    "the one in the deep water"
+   ],
+   "domains": [
+    "rivers",
+    "harbours",
+    "dangerous water",
+    "guardianship",
+    "warning"
+   ],
+   "symbols": [
+    "the deep pool",
+    "the bend in the river",
+    "the log that is not a log"
+   ],
+   "mount": null,
+   "abode": "A particular pool, reef, cave or stretch of coast",
+   "festivals": [],
+   "worship": "",
+   "bio": "Some are kaitiaki, guardians of a hapu; others simply take people, and the distinction is local.",
+   "longBio": "A taniwha lives in a specific place - a pool, a bend of a river, a reef, a stretch of harbour - and it is not a species so much as an individual with a name and a relationship to a particular hapu. Some are guardians who warn of danger and escort canoes; others are dangerous and have to be killed by a hero. The practical function is unmistakable, since taniwha are consistently located exactly where the water is treacherous. They remain a live matter in New Zealand: taniwha have been cited in resource-consent and roading cases, and courts have had to decide what to do about it.",
+   "variantTraditions": "Whether a given taniwha is a guardian or a menace depends entirely on which hapu is speaking and which taniwha it is.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sea-waters",
+    "preserver",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "io",
+   "name": "Io",
+   "sanskrit": "Io",
+   "category": "primordial",
+   "era": "Aotearoa",
+   "role": "A supreme being above all the others - and scholars are genuinely unsure whether he is old",
+   "wikipedia": "Io_(Maori_religion)",
+   "portrait": "portraits/polynesian/io.webp",
+   "epithets": [
+    "Io-matua-kore, Io the parentless",
+    "Io-taketake"
+   ],
+   "domains": [
+    "supremacy",
+    "the origin before origins",
+    "esoteric knowledge"
+   ],
+   "symbols": [
+    "the twelve heavens",
+    "the name that was not spoken",
+    "the whare wananga"
+   ],
+   "mount": null,
+   "abode": "The highest heaven",
+   "festivals": [],
+   "worship": "",
+   "bio": "The dispute is real and unresolved, and pretending otherwise would be the dishonest thing here.",
+   "longBio": "Io is described as the supreme being, parentless, existing before everything, whose name was known only to the highest tohunga and taught only in the whare wananga. He appears in material recorded in the later nineteenth century, particularly through Elsdon Best and Te Matorohanga. The question is whether he is an ancient esoteric tradition that was simply never told to outsiders before, or a figure shaped in response to Christian monotheism during a period of intense missionary pressure. Serious scholars, including Maori scholars, have argued both, and the matter is not settled.",
+   "variantTraditions": "This entry deliberately does not decide. The argument runs from Best onwards and the evidence genuinely permits both readings.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "pele",
+   "name": "Pele",
+   "sanskrit": "Pele",
+   "category": "deity",
+   "era": "Hawaii",
+   "role": "The volcano - not a goddess of it, the thing itself, and she is currently at Kilauea",
+   "wikipedia": "Pele_(deity)",
+   "portrait": "portraits/polynesian/pele.webp",
+   "epithets": [
+    "Pelehonuamea, Pele of the sacred earth",
+    "Ka wahine ai honua, the woman who eats the land"
+   ],
+   "domains": [
+    "volcanoes",
+    "fire",
+    "lava",
+    "new land",
+    "jealousy"
+   ],
+   "symbols": [
+    "the lava",
+    "Halemaumau crater",
+    "the ohelo berry",
+    "the white dog seen before an eruption"
+   ],
+   "mount": null,
+   "abode": "Halemaumau crater, Kilauea",
+   "festivals": [],
+   "worship": "",
+   "bio": "Offerings are still left at the crater rim, and this is not a folk survival - it is current.",
+   "longBio": "Pele came from Kahiki by canoe, pursued by her elder sister Namaka the sea, and dug for a home on each island in turn from Kauai down the chain, and each time the sea flooded her pit, until she reached Hawaii and dug Halemaumau, which is high enough and far enough east. That sequence is the actual geological history of the archipelago in the correct order - the islands are progressively younger to the southeast, because the plate moves over a fixed hotspot - and the tradition had it right. She is not a goddess who governs volcanoes; the lava is her. Offerings are left at the crater today.",
+   "variantTraditions": "The Pele and Hiiaka epic is enormous, was published in Hawaiian-language newspapers at length, and is one of the great bodies of Pacific literature.",
+   "storyIds": [
+    "pele-down-the-chain",
+    "hiiaka"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "destroyer",
+    "earth-mother",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "hiiaka",
+   "name": "Hiiaka",
+   "sanskrit": "Hiiaka-i-ka-poli-o-Pele",
+   "category": "deity",
+   "era": "Hawaii",
+   "role": "Pele's youngest sister, sent on an errand that took months and ended in fire",
+   "wikipedia": "Hi%CA%BBiaka",
+   "portrait": "portraits/polynesian/hiiaka.webp",
+   "epithets": [
+    "Hiiaka-i-ka-poli-o-Pele, Hiiaka in the bosom of Pele",
+    "the patron of hula"
+   ],
+   "domains": [
+    "hula",
+    "healing",
+    "chant",
+    "the forest",
+    "loyalty"
+   ],
+   "symbols": [
+    "the lehua blossom",
+    "the pa-u skirt",
+    "the raising of the dead"
+   ],
+   "mount": null,
+   "abode": "Kilauea, and the road across the islands",
+   "festivals": [],
+   "worship": "",
+   "bio": "She was given forty days to fetch Pele's lover from Kauai and told not to touch him.",
+   "longBio": "Pele sent her youngest sister to Kauai to fetch the man she wanted, Lohiau, with two conditions: forty days, and no embracing him. The journey took far longer, because Hiiaka had to fight her way through moo - lizard spirits - and sorcerers the whole length of the chain, and when she arrived Lohiau was dead and she had to bring him back to life, which took days. Pele, waiting and suspicious, burned Hiiaka's beloved lehua groves and then killed Lohiau. Hiiaka dug down toward the fire pit in fury. The epic is very long, was serialised in Hawaiian newspapers, and is where the hula tradition locates itself.",
+   "variantTraditions": "Multiple versions were published by different authors between the 1860s and 1920s and they differ in emphasis and in the ending.",
+   "storyIds": [
+    "hiiaka"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "hero-champion",
+    "wisdom-craft",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "namaka",
+   "name": "Namaka",
+   "sanskrit": "Namakaokahai",
+   "category": "deity",
+   "era": "Hawaii",
+   "role": "The sea, and Pele's elder sister, who chased her the entire length of the islands",
+   "wikipedia": "N%C4%81maka",
+   "portrait": "portraits/polynesian/namaka.webp",
+   "epithets": [
+    "Namakaokahai, the eyes of Kahai"
+   ],
+   "domains": [
+    "the sea",
+    "water",
+    "pursuit",
+    "the drowning of fire"
+   ],
+   "symbols": [
+    "the wave that floods a new crater",
+    "the sea meeting lava"
+   ],
+   "mount": null,
+   "abode": "The ocean",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every time Pele dug a pit, her sister flooded it - which is what the sea does to a new vent.",
+   "longBio": "Namaka is the sea and Pele's elder sister, and the quarrel between them - over a husband, in most accounts - is why Pele left home and why she could not settle. Each island Pele dug into, from Kauai southeast, Namaka flooded, until Pele got far enough east and high enough on Hawaii to be out of reach. They fought physically on Maui and Pele was torn apart, and her body is a hill there while her spirit went on to Kilauea. Sea against new lava is the single most visible process on that coast, and the story is a precise account of it.",
+   "variantTraditions": "The fight at Kahikinui on Maui and the hill called Pele's bones are located specifically in the tradition.",
+   "storyIds": [
+    "pele-down-the-chain"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "kamapuaa",
+   "name": "Kamapuaa",
+   "sanskrit": "Kamapua'a",
+   "category": "deity",
+   "era": "Hawaii",
+   "role": "A pig demigod, half man and half hog, who fought Pele to a draw and divided the island with her",
+   "wikipedia": "Kamapua%CA%BBa",
+   "portrait": "portraits/polynesian/kamapuaa.webp",
+   "epithets": [
+    "the hog child",
+    "the one with eight eyes in some chants"
+   ],
+   "domains": [
+    "pigs",
+    "rain",
+    "the wet windward side",
+    "fertility",
+    "theft"
+   ],
+   "symbols": [
+    "the bristles down his back",
+    "the humuhumunukunukuapuaa fish",
+    "the rain"
+   ],
+   "mount": null,
+   "abode": "The windward side of the island, where it is wet",
+   "festivals": [],
+   "worship": "",
+   "bio": "Fire against rain, fought to a standstill, so they split the island between them.",
+   "longBio": "Kamapuaa is a demigod who takes the form of a hog, a handsome man, several plants and a fish, and he is a thief and a seducer and extremely difficult to kill. He came to Pele and they insulted each other at length in chant, and then fought - fire against water and rain - and neither could destroy the other. So they divided Hawaii: the dry leeward side, where the lava is, went to Pele, and the wet windward side to Kamapuaa. That division is the actual rainfall map of the island. Their exchange of insults is one of the more scabrous things in the published Hawaiian record.",
+   "variantTraditions": "Beckwith and Fornander both give versions; the chanted insult contest survives in several forms.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "wind-storm",
+    "love-desire",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "poliahu",
+   "name": "Poliahu",
+   "sanskrit": "Poli%CA%BBahu",
+   "category": "deity",
+   "era": "Hawaii",
+   "role": "The snow goddess of Mauna Kea, and Pele's other enemy",
+   "wikipedia": "Poli%CA%BBahu",
+   "portrait": "portraits/polynesian/poliahu.webp",
+   "epithets": [
+    "the snow maiden of Mauna Kea"
+   ],
+   "domains": [
+    "snow",
+    "cold",
+    "the summit",
+    "sledding"
+   ],
+   "symbols": [
+    "the white kapa cloak",
+    "the snow on Mauna Kea",
+    "the holua sled"
+   ],
+   "mount": null,
+   "abode": "The summit of Mauna Kea",
+   "festivals": [],
+   "worship": "",
+   "bio": "Hawaii has snow, on a mountain higher than anything in the continental United States west of it.",
+   "longBio": "Poliahu lives on the summit of Mauna Kea, which is a shade under 4,200 metres and does get snow, and she wears white kapa. She and Pele are enemies, which is a straightforward statement about a single island holding both an active lava lake and a snowfield, and the fights between them are described as snow advancing down the mountain against lava coming up it. She raced sleds against Pele in one story, on the grass slopes, and won, and Pele broke the ground open under her. Mauna Kea remains among the most contested sacred sites in Hawaii.",
+   "variantTraditions": "Her sisters Lilinoe and Waiau are also associated with the summit; Lake Waiau near the top is named for one of them.",
+   "storyIds": [
+    "pele-down-the-chain"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "primordial-adversary",
+    "preserver"
+   ]
+  },
+  {
+   "id": "laka",
+   "name": "Laka",
+   "sanskrit": "Laka",
+   "category": "deity",
+   "era": "Hawaii",
+   "role": "Hula - which is not entertainment but a way of keeping the record",
+   "wikipedia": "Laka",
+   "portrait": "portraits/polynesian/laka.webp",
+   "epithets": [
+    "the goddess of the hula",
+    "the one of the forest greenery"
+   ],
+   "domains": [
+    "hula",
+    "chant",
+    "the forest",
+    "the maile vine",
+    "growth"
+   ],
+   "symbols": [
+    "the maile and lehua on the altar",
+    "the kuahu, the hula altar",
+    "the halau"
+   ],
+   "mount": null,
+   "abode": "The hula school, and the forest it takes its greenery from",
+   "festivals": [],
+   "worship": "",
+   "bio": "Missionaries banned it in 1830; it survived because it was how things were remembered.",
+   "longBio": "Laka is the goddess of hula and of the forest plants used in it, and her altar in a halau is dressed with greenery gathered with chant and permission. Hula in the old sense is not a performance but a memory system - genealogies, place names, histories and prayers held in chant and rendered by the body, in a society with no writing. The Calvinist mission had it banned in 1830, and it was performed quietly for decades and revived publicly under Kalakaua in the 1880s, and has been fully restored since the 1970s. It is one of the clearest cases anywhere of an art form being load-bearing.",
+   "variantTraditions": "Laka is also a male figure in some traditions - a canoe-maker and voyager - and the two are probably unrelated despite the shared name.",
+   "storyIds": [
+    "hiiaka"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "sage-seer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "haumea",
+   "name": "Haumea",
+   "sanskrit": "Haumea",
+   "category": "deity",
+   "era": "Hawaii",
+   "role": "Childbirth, and she could make herself young again and marry her own descendants",
+   "wikipedia": "Haumea_(mythology)",
+   "portrait": "portraits/polynesian/haumea.webp",
+   "epithets": [
+    "the mother of Pele",
+    "Papa in some chants"
+   ],
+   "domains": [
+    "childbirth",
+    "fertility",
+    "wild plants",
+    "renewal",
+    "the breadfruit tree"
+   ],
+   "symbols": [
+    "the breadfruit tree she turned into",
+    "the magic stick",
+    "the many rebirths"
+   ],
+   "mount": null,
+   "abode": "Nuumealani, and the islands",
+   "festivals": [],
+   "worship": "",
+   "bio": "She is credited with teaching women to give birth in the ordinary way rather than by being cut open.",
+   "longBio": "Haumea is the mother of Pele and of a great many others, and she is a goddess of childbirth and wild growing food. Her distinguishing feature is that she can renew herself: she becomes young again repeatedly and marries her own descendants down the generations, so the genealogy loops. She is credited with a specific intervention - teaching women to give birth naturally, where before, in the tradition, children had to be cut out and the mother died. When pursued she stepped into a breadfruit tree and it closed over her. She is one of the oldest and least tidy figures in the Hawaiian record.",
+   "variantTraditions": "Haumea is identified with Papa, the earth, in some chants and kept separate in others; Beckwith treats the identification as secondary.",
+   "storyIds": [
+    "the-chant"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "healer",
+    "creator",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "kumulipo",
+   "name": "The Kumulipo",
+   "sanskrit": "Kumulipo",
+   "category": "primordial",
+   "era": "Hawaii",
+   "role": "A two-thousand-line chant that starts in the dark with coral and works up to people",
+   "wikipedia": "Kumulipo",
+   "portrait": "portraits/polynesian/kumulipo.webp",
+   "epithets": [
+    "the deep darkness",
+    "the beginning-in-deep-darkness"
+   ],
+   "domains": [
+    "creation",
+    "genealogy",
+    "the order of living things",
+    "chiefly descent"
+   ],
+   "symbols": [
+    "the coral polyp, first of all",
+    "the sixteen wa or eras",
+    "the night before the day"
+   ],
+   "mount": null,
+   "abode": "Recited, and written down in 1889",
+   "festivals": [],
+   "worship": "",
+   "bio": "It pairs every sea creature with a land plant, all the way up, in order.",
+   "longBio": "The Kumulipo is a genealogical chant of about two thousand lines, composed for a chief born around 1700 and written down by King Kalakaua in 1889. It begins in darkness and moves through sixteen eras. The first thing born is the coral polyp, and after it come the sea creatures, each paired with a plant of the land, then the worms and shellfish, then fish, then insects, birds, reptiles, and eventually people - and the chiefly line runs on from there without a break. Reading it as a proto-evolutionary sequence has been popular and is probably too neat, but the order is genuinely from simple to complex.",
+   "variantTraditions": "Queen Liliuokalani translated it into English while imprisoned in Iolani Palace after the overthrow of 1893.",
+   "storyIds": [
+    "the-chant"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "supreme-source",
+    "fate-time",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "menehune",
+   "name": "The Menehune",
+   "sanskrit": "Menehune",
+   "category": "nature",
+   "era": "Hawaii",
+   "role": "Small people who build enormous stonework in one night, and stop if anyone watches",
+   "wikipedia": "Menehune",
+   "portrait": "portraits/polynesian/menehune.webp",
+   "epithets": [
+    "the little people",
+    "the ones who work at night"
+   ],
+   "domains": [
+    "stone building",
+    "fishponds",
+    "irrigation ditches",
+    "working unseen"
+   ],
+   "symbols": [
+    "the Alekoko fishpond wall",
+    "the Menehune ditch on Kauai",
+    "the single night"
+   ],
+   "mount": null,
+   "abode": "The uplands of Kauai, mostly",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Menehune Ditch on Kauai is real, is beautifully cut, and nobody is sure who built it.",
+   "longBio": "The menehune are small people living in the forested uplands who are enormously skilled builders of stone and who work only at night and only in a single night, abandoning anything they cannot finish and vanishing if they are observed. They are credited with several genuine and impressive structures on Kauai, including the Alekoko fishpond and the Menehune Ditch, a dressed-stone watercourse whose construction technique is unlike other Hawaiian stonework. A suggestion that they were an earlier population is popular and unproven; an 1820 census of Kauai recorded sixty-five people as menehune.",
+   "variantTraditions": "The word may originally have meant something like commoner or low-ranking rather than small, which would change the story considerably.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "moo",
+   "name": "The Moo",
+   "sanskrit": "Mo%CA%BBo",
+   "category": "beast",
+   "era": "Hawaii",
+   "role": "Lizard women who guard fresh water, and who are why you do not swim in some pools",
+   "wikipedia": "Mo%CA%BBo",
+   "portrait": "portraits/polynesian/moo.webp",
+   "epithets": [
+    "the lizard spirits",
+    "the guardians of the pool"
+   ],
+   "domains": [
+    "fresh water",
+    "ponds and pools",
+    "guardianship",
+    "shapeshifting"
+   ],
+   "symbols": [
+    "the dark still pool",
+    "the giant black lizard",
+    "the beautiful woman by the water"
+   ],
+   "mount": null,
+   "abode": "Fishponds, pools and stretches of fresh water",
+   "festivals": [],
+   "worship": "",
+   "bio": "A pool with no ripple and a strangely still surface is one you leave alone.",
+   "longBio": "Moo are lizard beings, usually female, associated with fresh water - ponds, pools, fishponds, springs - which they own and guard. They appear as women or as enormous black lizards, and they are family guardians for some lineages and dangerous to everyone else. Signs of one include a pool that stays unnaturally still, and the appropriate response is to leave. Hiiaka fought a great many of them on her journey. They belong to a Pacific-wide association of reptiles with water, and they attach to specific named locations rather than being a general kind of creature.",
+   "variantTraditions": "Individual moo have names and places, and several are still identified with particular ponds on Oahu and Maui.",
+   "storyIds": [
+    "hiiaka"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sea-waters",
+    "primordial-adversary",
+    "preserver"
+   ]
+  },
+  {
+   "id": "taaroa",
+   "name": "Ta'aroa",
+   "sanskrit": "Ta%CA%BBaroa",
+   "category": "creator",
+   "era": "Tahiti",
+   "role": "He sat alone inside a shell in the dark, and when he broke it he used the pieces for the sky",
+   "wikipedia": "Ta%CA%BBaroa",
+   "portrait": "portraits/polynesian/taaroa.webp",
+   "epithets": [
+    "Tangaroa elsewhere",
+    "the one who was alone"
+   ],
+   "domains": [
+    "creation",
+    "the shell",
+    "the sea",
+    "the making of everything out of himself"
+   ],
+   "symbols": [
+    "the two shells, one becoming the sky and one the ground",
+    "his own feathers and flesh"
+   ],
+   "mount": null,
+   "abode": "Inside the shell, and then everywhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "There was nothing at all except him in an egg, and he had to make the world out of his own body.",
+   "longBio": "The Tahitian creation is the most austere in the Pacific. Ta'aroa existed alone inside a shell, rolling in the void, with no sky, no land, no sea and nobody to call to. He broke out. He used one half of the shell to make the sky and the other for the ground and the rocks. Then, having no other material, he made everything else out of himself: his feathers became the trees, his flesh the soil, his bones the mountains, his blood the redness of the sky and the rainbow. Other gods were then made and put to work. The whole account is about there having been nothing to work with.",
+   "variantTraditions": "Recorded by Teuira Henry from her missionary grandfather's manuscripts. The same god is the sea in Aotearoa - the divergence is the point.",
+   "storyIds": [
+    "shell"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "supreme-source",
+    "sea-waters",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "oro",
+   "name": "Oro",
+   "sanskrit": "%CA%BBOro",
+   "category": "deity",
+   "era": "Tahiti",
+   "role": "War, and the god the Arioi society travelled the islands performing for",
+   "wikipedia": "%CA%BBOro",
+   "portrait": "portraits/polynesian/oro.webp",
+   "epithets": [
+    "Oro-i-te-maro-tea, Oro of the yellow girdle"
+   ],
+   "domains": [
+    "war",
+    "peace when he chose",
+    "the Arioi society",
+    "the feathered image"
+   ],
+   "symbols": [
+    "the to'o, a wrapped and bound image",
+    "the red feather girdle",
+    "the marae at Taputapuatea"
+   ],
+   "mount": null,
+   "abode": "Raiatea, and the great marae at Taputapuatea",
+   "festivals": [],
+   "worship": "",
+   "bio": "His image was not a statue but a wrapped bundle of sennit, and the wrapping was the sacred part.",
+   "longBio": "Oro rose to dominance in the Society Islands in the centuries before contact, displacing Ta'aroa in practice, and his great marae at Taputapuatea on Raiatea was the ritual centre for a large part of eastern Polynesia - canoes came to it from as far as Aotearoa and Hawaii. His images, to'o, were not carved figures but pieces of wood wrapped in braided sennit, with the sacredness in the binding rather than the shape. His Arioi society was a travelling order of performers of high status with strict rules of membership, and it is one of the most distinctive institutions in the Pacific.",
+   "variantTraditions": "Taputapuatea is a UNESCO World Heritage site and voyaging canoes still call at it.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "king-ruler",
+    "wisdom-craft",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "hiro",
+   "name": "Hiro",
+   "sanskrit": "Hiro",
+   "category": "hero",
+   "era": "Tahiti",
+   "role": "A navigator and a thief, and rather good at both",
+   "wikipedia": "Hiro_(mythology)",
+   "portrait": "portraits/polynesian/hiro.webp",
+   "epithets": [
+    "the master of thieves",
+    "the navigator"
+   ],
+   "domains": [
+    "navigation",
+    "theft",
+    "canoes",
+    "cunning"
+   ],
+   "symbols": [
+    "the canoe",
+    "the stolen goods",
+    "the rope"
+   ],
+   "mount": null,
+   "abode": "Raiatea and the sea between the islands",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is a patron of thieves and of sailors, which in the old Pacific was not a strange pairing.",
+   "longBio": "Hiro is a navigator, a canoe-builder and a famous thief, and he is not embarrassed about any of it. He appears across eastern Polynesia - as Hiro in Tahiti and the Tuamotus, Whiro in Aotearoa, where he is considerably darker and becomes associated with evil and disease. The Tahitian Hiro is much closer to a folk hero: quick, capable, dishonest in an entertaining way, and formidable at sea. That the same name is a clever rogue in one archipelago and a malevolent power in another is the kind of divergence this pack exists to show.",
+   "variantTraditions": "Whiro in Maori tradition is a substantially different and more sinister figure and should not be read back into the Tahitian one.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "hero-champion",
+    "sea-waters",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "tagaloa",
+   "name": "Tagaloa",
+   "sanskrit": "Tagaloa",
+   "category": "creator",
+   "era": "Samoa & Tonga",
+   "role": "He stood in the empty sky and threw down a rock to have somewhere to put his feet",
+   "wikipedia": "Tagaloa",
+   "portrait": "portraits/polynesian/tagaloa.webp",
+   "epithets": [
+    "Tagaloa-lagi, Tagaloa of the skies",
+    "Tangaloa in Tonga"
+   ],
+   "domains": [
+    "creation",
+    "the sky",
+    "the first land",
+    "the peopling of the islands"
+   ],
+   "symbols": [
+    "the rock thrown down into the sea",
+    "the creeping vine",
+    "the maggots that became people"
+   ],
+   "mount": null,
+   "abode": "The ninth heaven",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first people came out of a rotting vine, which is not a flattering origin and is told anyway.",
+   "longBio": "Tagaloa existed in the sky when there was only sea below, and he threw down a rock to stand on, and that was the first land. He sent down a creeping vine to give shade. The vine grew, withered and rotted, and maggots bred in it, and Tagaloa sent his messenger to split them and give them limbs and hearts and minds, and they were the first people. Samoan tradition is precise about which rocks and which islands. The Tongan Tangaloa is a related figure whose descendants are the Tui Tonga line, which makes him ancestral to a real and long-lasting dynasty.",
+   "variantTraditions": "Samoan and Tongan accounts differ on how the islands were made and on the relation between Tagaloa and the chiefly lines.",
+   "storyIds": [
+    "the-vine"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "supreme-source",
+    "sky-thunder",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "nafanua",
+   "name": "Nafanua",
+   "sanskrit": "Nafanua",
+   "category": "deity",
+   "era": "Samoa & Tonga",
+   "role": "A war goddess who fought with her chest bound, and stopped when the wind exposed her",
+   "wikipedia": "Nafanua",
+   "portrait": "portraits/polynesian/nafanua.webp",
+   "epithets": [
+    "the war goddess of Samoa",
+    "daughter of Saveasiuleo"
+   ],
+   "domains": [
+    "war",
+    "justice",
+    "the freeing of the oppressed",
+    "chiefly titles"
+   ],
+   "symbols": [
+    "four war clubs, each with its own name",
+    "the ti leaves binding her chest"
+   ],
+   "mount": null,
+   "abode": "Falealupo, at the western end of Savaii",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her father gave her four named clubs and told her not to go too far, and she did not.",
+   "longBio": "Nafanua was born of a union between the underworld and a woman, was abandoned, and was raised by her father Saveasiuleo, who armed her with four war clubs each with its own name and sent her to free the people of Falealupo, who were being made to climb coconut trees upside down. She fought with her chest bound flat and was taken for a man until the wind lifted her covering in battle and the enemy saw and were dismayed. She stopped short of total conquest when told to, and afterwards distributed the chiefly titles. She is a real presence in Samoan politics and genealogy rather than only in stories.",
+   "variantTraditions": "Her prophecy to Malietoa Fitisemanu that a kingdom would come from heaven was later read by missionaries as predicting Christianity.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "hero-champion",
+    "king-ruler",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "sina",
+   "name": "Sina and the Eel",
+   "sanskrit": "Sina ma le Tuna",
+   "category": "mortal",
+   "era": "Samoa & Tonga",
+   "role": "An eel fell in love with her, was killed, and asked her to bury its head",
+   "wikipedia": "Coconut",
+   "portrait": "portraits/polynesian/sina.webp",
+   "epithets": [
+    "Sina",
+    "Hina in other islands"
+   ],
+   "domains": [
+    "the coconut",
+    "unwanted love",
+    "transformation",
+    "water"
+   ],
+   "symbols": [
+    "the eel",
+    "the buried head",
+    "the three marks on the coconut"
+   ],
+   "mount": null,
+   "abode": "A village pool in Samoa",
+   "festivals": [],
+   "worship": "",
+   "bio": "That is why a coconut has a face on it - two eyes and a mouth - and why you drink through it.",
+   "longBio": "Sina kept a small eel as a pet and it grew large and it turned out to be a young chief under an enchantment, and it began to follow her and to look at her in a way she did not want. She fled from pool to pool across the islands and it followed. Eventually it was caught and killed, and its last request was that its head be buried, and she did it. From the buried head grew the first coconut palm. The husked nut has three marks on it, two eyes and a mouth, and when you drink from it you put your mouth to the eel's, which is the punchline the whole story exists for.",
+   "variantTraditions": "Told in Samoa, Tonga and Fiji with local variation. The face on the nut is the constant.",
+   "storyIds": [
+    "the-vine",
+    "the-eel"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "love-desire",
+    "divine-beast",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "hikuleo",
+   "name": "Hikuleo",
+   "sanskrit": "Hikule%CA%BBo",
+   "category": "underworld",
+   "era": "Samoa & Tonga",
+   "role": "The ruler of Pulotu, the land of the dead, kept on a leash by two brothers",
+   "wikipedia": "Hikule%CA%BBo",
+   "portrait": "portraits/polynesian/hikuleo.webp",
+   "epithets": [
+    "the lord of Pulotu",
+    "the one with the long tail"
+   ],
+   "domains": [
+    "the dead",
+    "Pulotu",
+    "the firstborn of everything"
+   ],
+   "symbols": [
+    "the long tail",
+    "the rope held at both ends",
+    "the island of the dead"
+   ],
+   "mount": null,
+   "abode": "Pulotu",
+   "festivals": [],
+   "worship": "",
+   "bio": "Tangaloa held one end of the rope in the sky and Maui the other underground, so she could not take everything.",
+   "longBio": "Hikuleo rules Pulotu, the land of the dead, and claimed the firstborn of everything that grew or was born - which if allowed to continue would have emptied the world. Tangaloa above and Maui below therefore put a rope around Hikuleo, one holding it in the sky and the other in the underworld, so that the range of the claim is limited. The gender varies between accounts, male in some and female in others, and Hikuleo has a long tail. Pulotu itself is a real place-name argument: it may preserve the memory of an actual island of origin in the west.",
+   "variantTraditions": "Tongan and Samoan versions differ on gender and on which brothers hold the rope.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "king-ruler",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "maui_kisikisi",
+   "name": "Maui-kisikisi",
+   "sanskrit": "Maui-kisikisi",
+   "category": "hero",
+   "era": "Samoa & Tonga",
+   "role": "The Tongan Maui, who fished up the islands and brought fire, and does not die",
+   "wikipedia": "M%C4%81ui_(mythology)",
+   "portrait": "portraits/polynesian/maui_kisikisi.webp",
+   "epithets": [
+    "Maui the fisher",
+    "the youngest of the Maui"
+   ],
+   "domains": [
+    "fishing up islands",
+    "fire",
+    "the hook",
+    "the family of Maui"
+   ],
+   "symbols": [
+    "the hook Manaiakalani",
+    "the island of Tongatapu",
+    "the fire from Mahuika"
+   ],
+   "mount": null,
+   "abode": "Tonga",
+   "festivals": [],
+   "worship": "",
+   "bio": "In Tonga there are three Maui in a line - grandfather, father and son - and this is the son.",
+   "longBio": "Tongan tradition has three generations of Maui: Maui-motua, Maui-atalanga and Maui-kisikisi, the youngest, who is the trickster. He got the great hook from an old man in the underworld, went out with his brothers, hooked the sea floor and hauled up Tongatapu and the other islands, and the line broke before he could bring the whole thing to the surface. He also stole fire from the underworld, was burned, and the burns are why some trees hold fire in them and can be used to make it. He is not killed here. The Maori ending, where Maui dies attempting the goddess of death, is not part of the Tongan telling.",
+   "variantTraditions": "The three-generation Maui line is specifically Tongan; elsewhere he is a single figure with brothers.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "messenger-trickster",
+    "fire",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "makemake",
+   "name": "Make-make",
+   "sanskrit": "Make-make",
+   "category": "deity",
+   "era": "Rapa Nui",
+   "role": "The chief god of Rapa Nui, and his face is carved everywhere at Orongo",
+   "wikipedia": "Makemake_(deity)",
+   "portrait": "portraits/polynesian/makemake.webp",
+   "epithets": [
+    "the creator of humanity",
+    "the god of the birdman cult"
+   ],
+   "domains": [
+    "creation",
+    "seabirds",
+    "fertility",
+    "the egg"
+   ],
+   "symbols": [
+    "the large-eyed face carved in rock",
+    "the sooty tern",
+    "the egg"
+   ],
+   "mount": null,
+   "abode": "Rapa Nui, and the cliffs at Orongo",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is the one who made people, and his face - huge eyes, beaked mouth - is cut into the rock in hundreds.",
+   "longBio": "Make-make is the principal god of Rapa Nui and the creator of people, and his face is the most repeated image on the island after the moai: a mask with enormous eyes and a beaked mouth, carved into the rock at Orongo in very large numbers. He is bound up with seabirds and with the egg, and it is his cult that the birdman competition served. Rapa Nui is the most isolated inhabited place in the world - some 3,500 kilometres from the nearest continent and 2,000 from the nearest inhabited island - and the tradition there developed further from the rest of Polynesia than any other.",
+   "variantTraditions": "The relation between Make-make and the earlier ancestor cult of the moai is not fully understood; the birdman cult appears to be later.",
+   "storyIds": [
+    "the-egg"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "creator",
+    "supreme-source",
+    "divine-beast",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "hotu_matua",
+   "name": "Hotu Matu'a",
+   "sanskrit": "Hotu Matu%CA%BBa",
+   "category": "hero",
+   "era": "Rapa Nui",
+   "role": "The first settler, who came because his navigator had dreamed the island",
+   "wikipedia": "Hotu_Matu%CA%BBa",
+   "portrait": "portraits/polynesian/hotu_matua.webp",
+   "epithets": [
+    "the great parent",
+    "the first ariki"
+   ],
+   "domains": [
+    "settlement",
+    "the founding lineage",
+    "the voyage"
+   ],
+   "symbols": [
+    "the two canoes",
+    "Anakena beach",
+    "the dream of the island"
+   ],
+   "mount": null,
+   "abode": "Anakena, on Rapa Nui",
+   "festivals": [],
+   "worship": "",
+   "bio": "A priest dreamed of the island, seven scouts were sent to find it, and it was there.",
+   "longBio": "Hotu Matu'a came from a homeland called Hiva, defeated or displaced, and made the voyage in two large canoes with his household. The tradition says a priest dreamed of the island and seven scouts were sent ahead to find it and prepare, and that they landed at Anakena. His sons founded the lineages that divided the island between them, and the whole later history of Rapa Nui - the moai, the clan territories, the collapse and the birdman cult - runs from that division. To find a speck of land that size at that distance, on purpose, is the single most impressive act of navigation in human history.",
+   "variantTraditions": "The seven scouts are commemorated by the seven moai at Ahu Akivi, which unusually face out to sea.",
+   "storyIds": [
+    "the-egg"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "sea-waters",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "tangata_manu",
+   "name": "The Birdman",
+   "sanskrit": "Tangata manu",
+   "category": "hero",
+   "era": "Rapa Nui",
+   "role": "An annual competition to fetch the first sooty tern egg, and the winner ruled for a year",
+   "wikipedia": "Tangata_manu",
+   "portrait": "portraits/polynesian/tangata_manu.webp",
+   "epithets": [
+    "the birdman",
+    "the winner of the egg"
+   ],
+   "domains": [
+    "the sooty tern",
+    "the annual contest",
+    "authority for one year",
+    "the egg"
+   ],
+   "symbols": [
+    "the first egg of the season",
+    "the swim to Motu Nui",
+    "the shaved head and eyebrows"
+   ],
+   "mount": null,
+   "abode": "Orongo, and the islet of Motu Nui",
+   "festivals": [],
+   "worship": "",
+   "bio": "Competitors' servants swam to an islet through shark water, waited for the egg, and swam back with it.",
+   "longBio": "Each spring the clans sent representatives - hopu, servants, not the competitors themselves - down the cliff at Orongo, into the sea, and out to the islet of Motu Nui, where they waited, sometimes for weeks, for the sooty terns to lay. The first to get an egg shouted the name of his sponsor across the water, swam back with the egg tied to his forehead, and climbed the cliff. His sponsor became tangata manu for the year, with considerable authority and severe restrictions. It replaced the older ancestor cult of the moai, ran into the nineteenth century, and ended with slave-raiding and missionisation in the 1860s.",
+   "variantTraditions": "The last recorded competition was around 1867. Some competitors died in the swim or on the cliff.",
+   "storyIds": [
+    "the-egg"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "divine-beast",
+    "fate-time"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "rangi",
+   "to": "papa",
+   "type": "consort",
+   "note": "Locked together, with their children crushed in the dark between them"
+  },
+  {
+   "from": "rangi",
+   "to": "tane",
+   "type": "parent",
+   "note": "The son who pushed him up and off"
+  },
+  {
+   "from": "papa",
+   "to": "tane",
+   "type": "parent",
+   "note": "And left her lying below"
+  },
+  {
+   "from": "tane",
+   "to": "rangi",
+   "type": "enemy",
+   "note": "He lay on his back and forced them apart with his legs"
+  },
+  {
+   "from": "rangi",
+   "to": "tawhirimatea",
+   "type": "parent",
+   "note": "The one son who went up with him"
+  },
+  {
+   "from": "papa",
+   "to": "ruaumoko",
+   "type": "parent",
+   "note": "Still inside her, unborn, and turning over"
+  },
+  {
+   "from": "tane",
+   "to": "tu",
+   "type": "sibling",
+   "note": "The one who wanted to separate them and the one who wanted to kill them"
+  },
+  {
+   "from": "tane",
+   "to": "tangaroa",
+   "type": "sibling",
+   "note": "And they have not been on good terms since the reptiles"
+  },
+  {
+   "from": "tane",
+   "to": "rongo",
+   "type": "sibling",
+   "note": "The forest and the garden"
+  },
+  {
+   "from": "tawhirimatea",
+   "to": "tane",
+   "type": "enemy",
+   "note": "He flattened the forests first"
+  },
+  {
+   "from": "tawhirimatea",
+   "to": "tangaroa",
+   "type": "enemy",
+   "note": "And drove the fish into the sea"
+  },
+  {
+   "from": "tawhirimatea",
+   "to": "rongo",
+   "type": "enemy",
+   "note": "And beat the crops down until they hid in the ground"
+  },
+  {
+   "from": "tu",
+   "to": "tawhirimatea",
+   "type": "enemy",
+   "note": "The only brother who stood and fought him, and won"
+  },
+  {
+   "from": "tu",
+   "to": "tane",
+   "type": "enemy",
+   "note": "Afterwards he snared his birds"
+  },
+  {
+   "from": "tu",
+   "to": "tangaroa",
+   "type": "enemy",
+   "note": "And netted his fish"
+  },
+  {
+   "from": "tu",
+   "to": "rongo",
+   "type": "enemy",
+   "note": "And dug up his crops, and ate all of it"
+  },
+  {
+   "from": "tane",
+   "to": "hinetitama",
+   "type": "parent",
+   "note": "He made her mother from earth and then married their daughter"
+  },
+  {
+   "from": "hinetitama",
+   "to": "tane",
+   "type": "enemy",
+   "note": "She asked who her father was and understood the answer"
+  },
+  {
+   "from": "hinetitama",
+   "to": "hine_nui_te_po",
+   "type": "sibling",
+   "note": "The dawn maiden who went below and became the night"
+  },
+  {
+   "from": "hine_nui_te_po",
+   "to": "maui",
+   "type": "enemy",
+   "note": "A bird laughed, she woke, and that is why people die"
+  },
+  {
+   "from": "maui",
+   "to": "hine_nui_te_po",
+   "type": "enemy",
+   "note": "He was trying to reverse birth and end death for everyone"
+  },
+  {
+   "from": "maui",
+   "to": "tangaroa",
+   "type": "enemy",
+   "note": "He hooked the sea floor and hauled it up"
+  },
+  {
+   "from": "maui",
+   "to": "hina",
+   "type": "parent",
+   "note": "His mother in some tellings and his sister in others"
+  },
+  {
+   "from": "maui",
+   "to": "tawhaki",
+   "type": "sibling",
+   "note": "Two heroes whose names travelled the whole ocean"
+  },
+  {
+   "from": "maui",
+   "to": "maui_kisikisi",
+   "type": "sibling",
+   "note": "The same figure, and in Tonga he does not die"
+  },
+  {
+   "from": "maui",
+   "to": "hikuleo",
+   "type": "enemy",
+   "note": "He holds one end of the rope, underground"
+  },
+  {
+   "from": "tangaroa",
+   "to": "hikuleo",
+   "type": "ally",
+   "note": "The other end is held in the sky"
+  },
+  {
+   "from": "io",
+   "to": "tane",
+   "type": "guru",
+   "note": "The three baskets of knowledge came from the topmost heaven"
+  },
+  {
+   "from": "io",
+   "to": "rangi",
+   "type": "ally",
+   "note": "Above everything, if the tradition is as old as it is said to be"
+  },
+  {
+   "from": "tawhaki",
+   "to": "io",
+   "type": "devotee",
+   "note": "He climbed a vine to the top of the sky for what was kept there"
+  },
+  {
+   "from": "kupe",
+   "to": "taniwha",
+   "type": "enemy",
+   "note": "A giant octopus that would not leave his bait alone"
+  },
+  {
+   "from": "kupe",
+   "to": "papa",
+   "type": "guru",
+   "note": "He found the land and took the sailing directions home"
+  },
+  {
+   "from": "taniwha",
+   "to": "tangaroa",
+   "type": "devotee",
+   "note": "In the deep water, and in a particular place"
+  },
+  {
+   "from": "ruaumoko",
+   "to": "tawhirimatea",
+   "type": "sibling",
+   "note": "The one who shakes the ground and the one who moves the air"
+  },
+  {
+   "from": "tangaroa",
+   "to": "taaroa",
+   "type": "sibling",
+   "note": "The sea in the south, and the maker of everything in Tahiti"
+  },
+  {
+   "from": "tangaroa",
+   "to": "tagaloa",
+   "type": "sibling",
+   "note": "And the supreme creator again in Samoa"
+  },
+  {
+   "from": "taaroa",
+   "to": "oro",
+   "type": "parent",
+   "note": "The older god, displaced in practice by his own son"
+  },
+  {
+   "from": "oro",
+   "to": "taaroa",
+   "type": "enemy",
+   "note": "By the time of contact the marae belonged to him"
+  },
+  {
+   "from": "oro",
+   "to": "hiro",
+   "type": "ally",
+   "note": "Both of Raiatea, and both got about"
+  },
+  {
+   "from": "hiro",
+   "to": "maui",
+   "type": "sibling",
+   "note": "Two tricksters, and in Aotearoa one of them turned sinister"
+  },
+  {
+   "from": "tagaloa",
+   "to": "hikuleo",
+   "type": "enemy",
+   "note": "He put a rope on the one who claimed every firstborn"
+  },
+  {
+   "from": "tagaloa",
+   "to": "nafanua",
+   "type": "guru",
+   "note": "Her titles come down through the chiefly lines from him"
+  },
+  {
+   "from": "nafanua",
+   "to": "tu",
+   "type": "sibling",
+   "note": "War, in two islands, and only one of them fights for the oppressed"
+  },
+  {
+   "from": "sina",
+   "to": "hina",
+   "type": "sibling",
+   "note": "The same name, and the same woman in most of the ocean"
+  },
+  {
+   "from": "sina",
+   "to": "tagaloa",
+   "type": "devotee",
+   "note": "Samoan, and the reason a coconut has a face"
+  },
+  {
+   "from": "hikuleo",
+   "to": "hine_nui_te_po",
+   "type": "sibling",
+   "note": "Two rulers of the place the dead go"
+  },
+  {
+   "from": "maui_kisikisi",
+   "to": "tagaloa",
+   "type": "enemy",
+   "note": "He hauled the islands up out of his sea"
+  },
+  {
+   "from": "pele",
+   "to": "namaka",
+   "type": "enemy",
+   "note": "Her elder sister flooded every pit she dug, down the whole chain"
+  },
+  {
+   "from": "namaka",
+   "to": "tangaroa",
+   "type": "devotee",
+   "note": "The sea, against new land"
+  },
+  {
+   "from": "pele",
+   "to": "hiiaka",
+   "type": "parent",
+   "note": "The youngest sister, carried in her armpit as an egg"
+  },
+  {
+   "from": "hiiaka",
+   "to": "pele",
+   "type": "enemy",
+   "note": "She came back late, and the lehua groves were already burning"
+  },
+  {
+   "from": "pele",
+   "to": "kamapuaa",
+   "type": "consort",
+   "note": "Fire and rain, fought to a standstill and then married in a fashion"
+  },
+  {
+   "from": "kamapuaa",
+   "to": "pele",
+   "type": "enemy",
+   "note": "So they split the island: dry side and wet side"
+  },
+  {
+   "from": "pele",
+   "to": "poliahu",
+   "type": "enemy",
+   "note": "Lava going up the mountain and snow coming down it"
+  },
+  {
+   "from": "haumea",
+   "to": "pele",
+   "type": "parent",
+   "note": "The mother of a great many of them"
+  },
+  {
+   "from": "haumea",
+   "to": "papa",
+   "type": "sibling",
+   "note": "Identified with the earth in some chants and kept separate in others"
+  },
+  {
+   "from": "hiiaka",
+   "to": "laka",
+   "type": "ally",
+   "note": "The hula belongs to both of them, depending which halau you ask"
+  },
+  {
+   "from": "hiiaka",
+   "to": "moo",
+   "type": "enemy",
+   "note": "She fought her way up the chain through them"
+  },
+  {
+   "from": "laka",
+   "to": "tane",
+   "type": "devotee",
+   "note": "The forest greenery on the altar is his"
+  },
+  {
+   "from": "kumulipo",
+   "to": "haumea",
+   "type": "guru",
+   "note": "The chiefly line runs on out of the chant without a break"
+  },
+  {
+   "from": "kumulipo",
+   "to": "tane",
+   "type": "ally",
+   "note": "Darkness first, and the coral before anything else"
+  },
+  {
+   "from": "menehune",
+   "to": "moo",
+   "type": "sibling",
+   "note": "Two things in the uplands that are best not interfered with"
+  },
+  {
+   "from": "moo",
+   "to": "namaka",
+   "type": "devotee",
+   "note": "Fresh water rather than salt, and guarded"
+  },
+  {
+   "from": "makemake",
+   "to": "tangata_manu",
+   "type": "guru",
+   "note": "The competition was held for him"
+  },
+  {
+   "from": "hotu_matua",
+   "to": "makemake",
+   "type": "devotee",
+   "note": "The first settler, and the god who made people"
+  },
+  {
+   "from": "hotu_matua",
+   "to": "kupe",
+   "type": "sibling",
+   "note": "Two navigators who found the far corners on purpose"
+  },
+  {
+   "from": "tangata_manu",
+   "to": "hotu_matua",
+   "type": "devotee",
+   "note": "The clans he divided the island between sent the swimmers"
+  },
+  {
+   "from": "makemake",
+   "to": "taaroa",
+   "type": "sibling",
+   "note": "Two creators at the two loneliest ends of the triangle"
+  },
+  {
+   "from": "rongo",
+   "to": "kumulipo",
+   "type": "ally",
+   "note": "The Makahiki begins when the Pleiades rise"
+  },
+  {
+   "from": "tawhirimatea",
+   "to": "rongo",
+   "type": "enemy",
+   "note": "Matariki rises, and it is time to plant again"
+  },
+  {
+   "from": "tu",
+   "to": "oro",
+   "type": "sibling",
+   "note": "War in the south and war in the Society Islands"
+  },
+  {
+   "from": "tane",
+   "to": "kumulipo",
+   "type": "sibling",
+   "note": "Two accounts of where the light came from"
+  },
+  {
+   "from": "hina",
+   "to": "laka",
+   "type": "sibling",
+   "note": "Tapa and hula, and both of them are how things are remembered"
+  },
+  {
+   "from": "poliahu",
+   "to": "namaka",
+   "type": "ally",
+   "note": "Snow and sea, and both of them against the fire"
+  }
+ ]
+}
