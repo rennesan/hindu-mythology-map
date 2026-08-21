@@ -1,0 +1,1521 @@
+{
+ "title": "San",
+ "description": "Southern Africa: a mantis who made an eland out of a shoe, potency that boils in the belly, and twelve thousand pages of a language nobody speaks.",
+ "generated": "2026-08-21",
+ "sources": [
+  "The Bleek and Lloyd Collection (1870-1884) - over 12,000 pages of verbatim |Xam text from |A!kunta, ||Kabbo, Diakwain, !Kweiten ta ||ken and |Hankass'o, on the UNESCO Memory of the World register",
+  "W. H. I. Bleek and L. C. Lloyd, Specimens of Bushman Folklore (1911)",
+  "Lorna Marshall, Nyae Nyae !Kung Beliefs and Rites (1999); Richard Katz, Boiling Energy (1982) - Ju|'hoansi material from living communities",
+  "David Lewis-Williams on the reading of southern African rock art as a record of trance experience",
+  "Note: the men who dictated the |Xam material were convicts released into Bleek's household. They were paid and well treated and one said he wanted the stories kept; it was still not a free arrangement, and this pack says so",
+  "Note: no rock art site locations are given anywhere in this pack"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/san/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "bleek": {
+   "t": "Specimens of Bushman Folklore",
+   "tr": "W. H. I. Bleek and L. C. Lloyd, 1911",
+   "u": "https://sacred-texts.com/afr/sbf/index.htm"
+  },
+  "archive": {
+   "t": "The Digital Bleek and Lloyd Collection",
+   "tr": "The full notebooks, 1870-1884, with facsimiles",
+   "u": "https://lloydbleekcollection.cs.uct.ac.za/"
+  },
+  "lewis": {
+   "t": "The Mind in the Cave / Believing and Seeing",
+   "tr": "David Lewis-Williams, on the trance reading of the art",
+   "u": "https://archive.org/details/mindincaveconsci0000lewi"
+  },
+  "marshall": {
+   "t": "Nyae Nyae !Kung Beliefs and Rites",
+   "tr": "Lorna Marshall, 1999 - Ju|'hoansi, from fieldwork from 1951",
+   "u": "https://archive.org/details/nyaenyaekungbeli0000mars"
+  },
+  "katz": {
+   "t": "Boiling Energy: Community Healing among the Kalahari Kung",
+   "tr": "Richard Katz, 1982",
+   "u": "https://archive.org/details/boilingenergycom0000katz"
+  }
+ },
+ "meta": {
+  "id": "san",
+  "label": "San",
+  "sublabel": "Southern Africa",
+  "accent": "#b5a06a",
+  "root": "kaggen"
+ },
+ "profile": {
+  "cosmicNature": "No creation from nothing and no interest in one. There was an earlier order - the First People, who were animals and people at once and behaved badly - and the present arrangement is what settled out after that went wrong. Things acquired their present shapes and habits during the change. |Kaggen made the eland, and the moon out of a shoe, and neither was planned.",
+  "natureOfDivinity": "|Kaggen for the |Xam, who is the mantis and is not a god in any useful sense - he creates, he blunders, he is killed and comes back, and he is nobody's protector. Further north the Juǀ'hoansi have a great god and a lesser one, and the lesser one causes most of the trouble. Beneath all of it is nǀom, a potency that lives in things and in certain people and can be raised and used.",
+  "afterlife": "Very little said, and no elaborate destination. The dead go, the wind takes their footprints away, and a person's own wind blows their tracks off the sand so that nobody can follow where they went. ||Kabbo said that when a man dies his wind blows because he is finished. What the tradition dwells on instead is presence: the dead are felt, and a healer in trance may deal with them.",
+  "systemMechanism": "The dance, and nǀom. In the great healing dance the women sit and clap and sing and the men dance round them through the night until the nǀom in their bellies heats and boils and rises up the spine, and they enter kia - trance - in which they see sickness in people and draw it out, travel, and sometimes turn into animals. It is not symbolic and it is still done. The rock art is very largely a record of what is seen in that state.",
+  "canonTexts": "The Bleek and Lloyd Collection: over twelve thousand pages of |Xam text taken down verbatim between 1870 and 1884 from five named men and women, with facing translation. Nothing else in African oral literature is comparable in scale or in fidelity, and it exists because a philologist got convicts released into his household and because ||Kabbo wanted the stories kept."
+ },
+ "hierarchy": [
+  {
+   "title": "The Early Race",
+   "blurb": "No creation and no interest in one. There was an earlier order in which animals and people were the same thing, it broke down, and what settled out is the present arrangement. A mantis makes an eland out of a shoe and honey and his own family kills it.",
+   "memberIds": [
+    "kaggen",
+    "first_people",
+    "eland",
+    "kwammanga",
+    "ichneumon",
+    "porcupine",
+    "hyrax",
+    "moon",
+    "milky_way"
+   ],
+   "connectorCaption": "And running under all of it, a potency and what is done with it"
+  },
+  {
+   "title": "The Potency",
+   "blurb": "N|om sits in the belly and heats and boils and comes up the spine, and the healer enters trance and draws sickness out of people and flings it into the dark. About half the adults in a band can do it, nobody is paid, and the rock paintings are largely a record of what is seen in that state.",
+   "memberIds": [
+    "nom",
+    "dance",
+    "healer",
+    "rain",
+    "therianthrope",
+    "rock_art",
+    "lion",
+    "ostrich"
+   ],
+   "connectorCaption": "And the reason any of this is known at all"
+  },
+  {
+   "title": "What Was Written",
+   "blurb": "Twelve thousand pages taken down verbatim in the 1870s from |Xam men released out of a Cape Town convict station into a philologist's house. The language now has no speakers. This is not a supplement to a living tradition - it is all of what is left of one.",
+   "memberIds": [
+    "kabbo",
+    "diakwain",
+    "archive",
+    "motto"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "family",
+   "label": "The Mantis's Household",
+   "memberIds": [
+    "kaggen",
+    "hyrax",
+    "porcupine",
+    "kwammanga",
+    "ichneumon"
+   ]
+  },
+  {
+   "id": "made",
+   "label": "What He Made",
+   "memberIds": [
+    "eland",
+    "moon",
+    "ostrich"
+   ]
+  },
+  {
+   "id": "sky",
+   "label": "In the Sky",
+   "memberIds": [
+    "moon",
+    "milky_way",
+    "rain"
+   ]
+  },
+  {
+   "id": "trance",
+   "label": "The Dance",
+   "memberIds": [
+    "nom",
+    "dance",
+    "healer",
+    "lion"
+   ]
+  },
+  {
+   "id": "art",
+   "label": "On the Rock",
+   "memberIds": [
+    "rock_art",
+    "therianthrope",
+    "eland",
+    "rain"
+   ]
+  },
+  {
+   "id": "record",
+   "label": "The Record",
+   "memberIds": [
+    "kabbo",
+    "diakwain",
+    "archive",
+    "motto"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-eland",
+   "title": "A Shoe in a Waterhole",
+   "era": "The Early Race",
+   "cast": [
+    "kaggen",
+    "eland",
+    "ichneumon",
+    "kwammanga"
+   ],
+   "summary": "|Kaggen found a piece of shoe and put it into a waterhole and fed it honey, and it grew, and it became an eland - a big one, fat and beautiful, and he loved it and went to look at it and rubbed it and would not tell anyone where it was. Then his grandson Ichneumon watched him and followed him and told Kwammang-a, and the men went and found the eland and killed it and cut it up. |Kaggen came and found the blood on the ground and struck at them and was beaten, and he went off and grieved and could not get it back. Everything in the whole corpus is in this one story: he makes something out of nothing much, out of longing, and it is taken away from him by his own family, and he can do nothing about it at all.",
+   "sources": [
+    {
+     "book": "Specimens of Bushman Folklore",
+     "translation": "W. H. I. Bleek and L. C. Lloyd, 1911",
+     "location": "The Mantis and the eland",
+     "url": "https://sacred-texts.com/afr/sbf/index.htm"
+    },
+    {
+     "book": "The Digital Bleek and Lloyd Collection",
+     "translation": "The full notebooks, 1870-1884, with facsimiles",
+     "location": "||Kabbo's notebooks",
+     "url": "https://lloydbleekcollection.cs.uct.ac.za/"
+    }
+   ]
+  },
+  {
+   "id": "the-hare",
+   "title": "The Message That Went Wrong",
+   "era": "The Early Race",
+   "cast": [
+    "moon",
+    "first_people"
+   ],
+   "summary": "The moon dies every month and comes back every month, and it wanted people to know that they would do the same, so it sent word: as I die and return, so shall you die and return. It sent the message by the hare. The hare got it wrong - or told it wrong on purpose, depending which version you have - and what the people heard was: as I die and do not return, so shall you die and not return. The moon struck the hare in the face for it, which is why a hare has a split lip, and the correction was never made, and it was too late. Death is permanent because of a mistake in transmission by a courier who was not paying attention.",
+   "sources": [
+    {
+     "book": "Specimens of Bushman Folklore",
+     "translation": "W. H. I. Bleek and L. C. Lloyd, 1911",
+     "location": "The Moon and the Hare",
+     "url": "https://sacred-texts.com/afr/sbf/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-ashes",
+   "title": "She Threw the Fire's Ashes Up",
+   "era": "The Early Race",
+   "cast": [
+    "milky_way",
+    "first_people"
+   ],
+   "summary": "A girl of the early race was lying in her hut during her seclusion, and she was hungry, and there was nothing much to do. So she put her hand into the ashes of the fire and threw them up into the sky, and told them to lie there and be light, so that people out at night could see their way back to the camp. That is the Milky Way. She threw up roots too - the red ones and the white ones - and they are the red stars and the white stars. It is four sentences long, and in it a bored hungry girl who is not allowed out invents the largest structure visible in the night sky out of consideration for other people.",
+   "sources": [
+    {
+     "book": "Specimens of Bushman Folklore",
+     "translation": "W. H. I. Bleek and L. C. Lloyd, 1911",
+     "location": "The girl of the early race",
+     "url": "https://sacred-texts.com/afr/sbf/index.htm"
+    },
+    {
+     "book": "The Digital Bleek and Lloyd Collection",
+     "translation": "The full notebooks, 1870-1884, with facsimiles",
+     "location": "||Kabbo",
+     "url": "https://lloydbleekcollection.cs.uct.ac.za/"
+    }
+   ]
+  },
+  {
+   "id": "boiling",
+   "title": "It Heats, and Then It Boils",
+   "era": "The Potency",
+   "cast": [
+    "nom",
+    "dance",
+    "healer",
+    "therianthrope"
+   ],
+   "summary": "The women sit in a ring round the fire and clap and sing the medicine songs, and the men dance round them, hour after hour, all night. The n|om lies in the pit of the dancer's stomach, and as the dance goes on it heats, and then it boils, and then it comes up the spine - and at the top of it he is in kia. He staggers, shudders, his eyes fix, and he goes round the circle laying his hands on each person, drawing the sickness out through his own body and flinging it away into the dark with a shriek. He may bleed from the nose. He may fall, and is held. Healers say the first times are terrifying - like dying, like being torn open - and that they had to be taught by older healers not to run into the fire.",
+   "sources": [
+    {
+     "book": "Boiling Energy: Community Healing among the Kalahari Kung",
+     "translation": "Richard Katz, 1982",
+     "location": "Boiling Energy",
+     "url": "https://archive.org/details/boilingenergycom0000katz"
+    },
+    {
+     "book": "Nyae Nyae !Kung Beliefs and Rites",
+     "translation": "Lorna Marshall, 1999 - Ju|'hoansi, from fieldwork from 1951",
+     "location": "The curing dance",
+     "url": "https://archive.org/details/nyaenyaekungbeli0000mars"
+    }
+   ]
+  },
+  {
+   "id": "the-rain-animal",
+   "title": "Leading It Out on a Thong",
+   "era": "The Potency",
+   "cast": [
+    "rain",
+    "healer"
+   ],
+   "summary": "The rain is an animal and it lies in a waterhole. A rain-maker went in trance to where it was, and caught it - by the nose, with a thong - and led it out and over the country, and killed it where he wanted the rain to fall, and its blood and its milk came down as water. There are two rains: the she-rain, which is soft and long and falls quietly and is what everybody wants, and the he-rain, which arrives with thunder and hail and lightning and does harm. The rain-animal, led and hobbled, is one of the commonest subjects on the painted rock, second only to the eland, and once you know what it is the paintings become much easier to read.",
+   "sources": [
+    {
+     "book": "Specimens of Bushman Folklore",
+     "translation": "W. H. I. Bleek and L. C. Lloyd, 1911",
+     "location": "The rain",
+     "url": "https://sacred-texts.com/afr/sbf/index.htm"
+    },
+    {
+     "book": "The Mind in the Cave / Believing and Seeing",
+     "translation": "David Lewis-Williams, on the trance reading of the art",
+     "location": "The rain-animal",
+     "url": "https://archive.org/details/mindincaveconsci0000lewi"
+    }
+   ]
+  },
+  {
+   "id": "the-wall",
+   "title": "Coming Through the Rock",
+   "era": "The Potency",
+   "cast": [
+    "rock_art",
+    "therianthrope",
+    "eland"
+   ],
+   "summary": "For a century the paintings were read as pictures of daily life - here is a hunt, here is a dance. Then people put the Bleek and Lloyd texts alongside accounts from living Ju|'hoansi healers, and the figures started to make a different kind of sense: men bent double with their arms back, which is the posture of a dancer in kia; blood from the nose; lines out of the top of the head; human bodies with eland heads and hooves. And figures painted deliberately at cracks and steps in the rock, going into them and coming out of them - which suggests the wall was not being treated as a surface to put pictures on but as the thin place between here and the other side, with things coming through it.",
+   "sources": [
+    {
+     "book": "The Mind in the Cave / Believing and Seeing",
+     "translation": "David Lewis-Williams, on the trance reading of the art",
+     "location": "The trance hypothesis",
+     "url": "https://archive.org/details/mindincaveconsci0000lewi"
+    },
+    {
+     "book": "The Digital Bleek and Lloyd Collection",
+     "translation": "The full notebooks, 1870-1884, with facsimiles",
+     "location": "The |Xam accounts",
+     "url": "https://lloydbleekcollection.cs.uct.ac.za/"
+    }
+   ]
+  },
+  {
+   "id": "kabbo",
+   "title": "He Was Waiting for the Stories",
+   "era": "What Was Written",
+   "cast": [
+    "kabbo",
+    "archive",
+    "kaggen"
+   ],
+   "summary": "||Kabbo - the name means dream - was convicted of stock theft, sent to the Breakwater in Cape Town, and released in 1871 into the household of a philologist who wanted to learn his language. He stayed more than two years and dictated a very large part of everything now known about |Xam belief. He was clear about what he was doing and why. He said he had to sit and wait for a story to come to him, that it came from a distance and he had to be still for it, and that he wanted to go home so that he could sit under the trees and listen to the stories coming, and then tell his people what he had been doing here. Bleek gave him a gun and a horse and he left in 1873. He did not arrive, or did not stay, and he died not long after.",
+   "sources": [
+    {
+     "book": "The Digital Bleek and Lloyd Collection",
+     "translation": "The full notebooks, 1870-1884, with facsimiles",
+     "location": "||Kabbo's own account",
+     "url": "https://lloydbleekcollection.cs.uct.ac.za/"
+    },
+    {
+     "book": "Specimens of Bushman Folklore",
+     "translation": "W. H. I. Bleek and L. C. Lloyd, 1911",
+     "location": "Introduction",
+     "url": "https://sacred-texts.com/afr/sbf/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-broken-string",
+   "title": "The Place Does Not Feel to Me",
+   "era": "What Was Written",
+   "cast": [
+    "diakwain",
+    "archive",
+    "motto"
+   ],
+   "summary": "Diakwain gave Lucy Lloyd a song that had belonged to another man, |Nuin-|kuiten, who was dead. In it the singer says that people were those who broke for him the string, and that therefore the place became like this to him, on account of it, because the string was that which broke for him - and the place does not feel to him as the place used to feel to him, on account of it. It is about a man whose ǀgwai, whose sounding thing, is gone, and it is also plainly about the end of a people. It has since been set to music, read in the South African Parliament, and carved on monuments. It was said once, in a house in Mowbray, in the 1870s, by a man who had been let out of prison to say it.",
+   "sources": [
+    {
+     "book": "Specimens of Bushman Folklore",
+     "translation": "W. H. I. Bleek and L. C. Lloyd, 1911",
+     "location": "The Broken String",
+     "url": "https://sacred-texts.com/afr/sbf/index.htm"
+    },
+    {
+     "book": "The Digital Bleek and Lloyd Collection",
+     "translation": "The full notebooks, 1870-1884, with facsimiles",
+     "location": "Diakwain's notebooks",
+     "url": "https://lloydbleekcollection.cs.uct.ac.za/"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "kaggen",
+   "name": "Kaggen",
+   "sanskrit": "|Kaggen",
+   "category": "primordial",
+   "era": "The Early Race",
+   "role": "The mantis - creator, fool, thief, and killed repeatedly without it sticking",
+   "wikipedia": "Cagn",
+   "portrait": "portraits/san/kaggen.webp",
+   "epithets": [
+    "the Mantis",
+    "Cagn in some transcriptions",
+    "the one who made the eland"
+   ],
+   "domains": [
+    "making",
+    "dreaming",
+    "trickery",
+    "the eland",
+    "the moon",
+    "getting into trouble"
+   ],
+   "symbols": [
+    "the praying mantis",
+    "the eland",
+    "his shoe, which became the moon",
+    "honey"
+   ],
+   "mount": null,
+   "abode": "Everywhere in the early world",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is not worshipped, not prayed to, and not particularly admirable. He is the one it happens to.",
+   "longBio": "|Kaggen is a mantis and a man at once and he is the central figure of |Xam narrative, and calling him a god misdescribes him badly - nobody prays to him and nobody expects anything from him. He makes things, usually by accident or out of longing: the eland from a shoe soaked in honey, the moon from another shoe thrown into the sky. He steals, lies, is beaten, is killed - eaten, drowned, torn up - and simply reappears in the next story without explanation. He dreams things and they happen. He is closer to the way the world behaves than to anyone in charge of it.",
+   "variantTraditions": "The praying mantis is still called |Kaggen's name in Afrikaans as Hottentotsgot; the identification of the insect with the figure is direct.",
+   "storyIds": [
+    "the-eland",
+    "kabbo"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "messenger-trickster",
+    "creator",
+    "divine-beast",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "first_people",
+   "name": "The First People",
+   "sanskrit": "the early race",
+   "category": "primordial",
+   "era": "The Early Race",
+   "role": "Animals and people at once, before things settled into their present shapes",
+   "wikipedia": "%C7%80Xam",
+   "portrait": "portraits/san/first_people.webp",
+   "epithets": [
+    "the people of the early race",
+    "the ones before"
+   ],
+   "domains": [
+    "the time before",
+    "transformation",
+    "the setting of shapes",
+    "bad behaviour"
+   ],
+   "symbols": [
+    "the animals who talk",
+    "the moment a thing acquired its habits"
+   ],
+   "mount": null,
+   "abode": "Before",
+   "festivals": [],
+   "worship": "",
+   "bio": "Nearly every |Xam story explains how something got the shape or the habit it now has.",
+   "longBio": "The |Xam do not describe a creation. They describe an earlier order - the First People, who were simultaneously animals and human beings, who talked and married and quarrelled - and the present arrangement is what was left when that broke down. A great many of the stories end with somebody behaving badly and being changed, and that change is why a particular animal now looks and behaves as it does. It is a mythology almost entirely about aetiology and transformation, with no interest at all in a beginning or an end.",
+   "variantTraditions": "The 'early race' is Bleek and Lloyd's rendering of the |Xam term and has stuck in the literature.",
+   "storyIds": [
+    "the-hare",
+    "the-ashes"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "fate-time",
+    "divine-beast",
+    "preserver"
+   ]
+  },
+  {
+   "id": "eland",
+   "name": "The Eland",
+   "sanskrit": "!Xo",
+   "category": "beast",
+   "era": "The Early Race",
+   "role": "|Kaggen's favourite thing, made from a shoe and honey, and killed by his own family",
+   "wikipedia": "Common_eland",
+   "portrait": "portraits/san/eland.webp",
+   "epithets": [
+    "the great antelope",
+    "|Kaggen's eland"
+   ],
+   "domains": [
+    "fat",
+    "beauty",
+    "n|om",
+    "the trance dance",
+    "girls' initiation"
+   ],
+   "symbols": [
+    "the eland itself",
+    "the fat",
+    "the painted eland on the rock"
+   ],
+   "mount": null,
+   "abode": "The veld",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is the most-painted animal in southern African rock art by an enormous margin.",
+   "longBio": "|Kaggen found a shoe, or a piece of shoe leather, and put it in a waterhole and fed it honey and it grew into an eland, and he loved it and hid it and went to look at it. Then his grandson Ichneumon told, and Kwammang-a and the others found it and killed it, and |Kaggen came back and found the blood and grieved and raged and it did him no good. The eland is the largest antelope there is, it carries a great deal of fat, and it is by a wide margin the animal most often painted on the rock - because it is held to be full of nǀom, the potency the healers raise.",
+   "variantTraditions": "The eland's centrality to the art, to the trance dance and to girls' initiation is one of the firmest results in southern African archaeology.",
+   "storyIds": [
+    "the-eland",
+    "the-wall"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "wealth-fortune",
+    "healer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "kwammanga",
+   "name": "Kwammang-a",
+   "sanskrit": "Kwammang-a",
+   "category": "hero",
+   "era": "The Early Race",
+   "role": "|Kaggen's son-in-law, and he is the rainbow, and he does not put up with much",
+   "wikipedia": "%C7%80Xam",
+   "portrait": "portraits/san/kwammanga.webp",
+   "epithets": [
+    "the rainbow",
+    "the porcupine's husband"
+   ],
+   "domains": [
+    "the rainbow",
+    "hunting",
+    "sense",
+    "putting up with |Kaggen"
+   ],
+   "symbols": [
+    "the rainbow, particularly its darker band",
+    "the quiver"
+   ],
+   "mount": null,
+   "abode": "The camp, and the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is the only sensible adult in the family and it is a thankless position.",
+   "longBio": "Kwammang-a is married to |Kaggen's adopted daughter the Porcupine and he is the rainbow - specifically, in the |Xam account, the darker colours in it. He is a competent hunter and a reasonable man and his function in nearly every story is to be the one who is not doing something stupid: he kills the eland, he retrieves the situation, he says the obvious thing. |Kaggen dislikes him for it. The family arrangement - a trickster, his level-headed son-in-law, a sensible wife and a grandson who cannot keep a secret - is a domestic sitcom running underneath a mythology.",
+   "variantTraditions": "The Porcupine, |Kaggen's adopted daughter, is the daughter of the All-Devourer and married into the family, which is a complication of its own.",
+   "storyIds": [
+    "the-eland"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sky-thunder",
+    "wisdom-craft",
+    "preserver"
+   ]
+  },
+  {
+   "id": "ichneumon",
+   "name": "Ichneumon",
+   "sanskrit": "the grandson",
+   "category": "beast",
+   "era": "The Early Race",
+   "role": "The mongoose grandson who tells his grandfather exactly what he thinks of him",
+   "wikipedia": "Egyptian_mongoose",
+   "portrait": "portraits/san/ichneumon.webp",
+   "epithets": [
+    "the young ichneumon",
+    "Kwammang-a's son"
+   ],
+   "domains": [
+    "telling",
+    "back-talk",
+    "sense",
+    "the secret given away"
+   ],
+   "symbols": [
+    "the mongoose",
+    "the sleeping-skin he lies in while he argues"
+   ],
+   "mount": null,
+   "abode": "The camp",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is a child, and his role in the stories is to say out loud that the old man is lying.",
+   "longBio": "Ichneumon is Kwammang-a's son and |Kaggen's grandson, and he is the one who sees through him. He is repeatedly the one who tells - he gives away where the eland is hidden - and he lies in his sleeping-skin arguing with his grandfather and telling him plainly that he is being an idiot, which is very nearly the only thing anybody in |Xam narrative ever says to |Kaggen. That a small mongoose child is the voice of good sense against the creator of the eland is a fair summary of how this tradition regards authority.",
+   "variantTraditions": "The ichneumon is the Egyptian mongoose, which is the species in southern Africa the name refers to.",
+   "storyIds": [
+    "the-eland"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "messenger-trickster",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "porcupine",
+   "name": "The Porcupine",
+   "sanskrit": "|Kaggen's daughter",
+   "category": "beast",
+   "era": "The Early Race",
+   "role": "Adopted daughter of the mantis, daughter of the All-Devourer, and she manages everybody",
+   "wikipedia": "Cape_porcupine",
+   "portrait": "portraits/san/porcupine.webp",
+   "epithets": [
+    "the porcupine",
+    "Kwammang-a's wife"
+   ],
+   "domains": [
+    "the household",
+    "management",
+    "warning",
+    "the All-Devourer"
+   ],
+   "symbols": [
+    "the porcupine",
+    "the food she carries home"
+   ],
+   "mount": null,
+   "abode": "The camp",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her actual father eats everything he touches, so she keeps him away from the family.",
+   "longBio": "The Porcupine is |Kaggen's adopted daughter and Kwammang-a's wife, and she is the household's competent centre - warning, managing, telling people what not to do, and being ignored. Her biological father is the All-Devourer, an enormous being who consumes everything he comes near, and much of her effort goes into keeping the two halves of her family apart. When they do meet it goes exactly as she said it would. The domestic realism of these stories is one of their most striking features and is not common in mythology.",
+   "variantTraditions": "The All-Devourer, |Kwa|hem, is a distinct and alarming figure who swallows the whole family and has to be cut open.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "divine-beast",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "hyrax",
+   "name": "The Hyrax",
+   "sanskrit": "|Huntu!katti",
+   "category": "beast",
+   "era": "The Early Race",
+   "role": "|Kaggen's wife the dassie, who is generally right and is generally not listened to",
+   "wikipedia": "Rock_hyrax",
+   "portrait": "portraits/san/hyrax.webp",
+   "epithets": [
+    "the dassie",
+    "|Huntu!katti",
+    "the rock rabbit"
+   ],
+   "domains": [
+    "the household",
+    "advice ignored",
+    "patience"
+   ],
+   "symbols": [
+    "the hyrax",
+    "the rocks it lives in"
+   ],
+   "mount": null,
+   "abode": "The camp, and the rocks",
+   "festivals": [],
+   "worship": "",
+   "bio": "The dassie is a small rock-dwelling animal whose closest living relative is the elephant.",
+   "longBio": "|Kaggen's wife is the hyrax - the dassie, a small rounded rock-dwelling mammal whose nearest living relatives are, remarkably, elephants and manatees. She occupies the position occupied by wives throughout the |Xam corpus: she can see what is going to happen, she says so, and it happens anyway. The family - mantis, dassie, adopted porcupine daughter, rainbow son-in-law, mongoose grandson - is the fixed cast of the whole cycle, and every one of them is both an animal and a person without any tension being felt about it.",
+   "variantTraditions": "|Kaggen's family membership is stable across the Bleek and Lloyd texts and is one of the clearest structures in the corpus.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "sage-seer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "moon",
+   "name": "The Moon",
+   "sanskrit": "the shoe",
+   "category": "nature",
+   "era": "The Early Race",
+   "role": "|Kaggen threw his shoe into the sky and it is still up there, and it dies and returns",
+   "wikipedia": "Moon",
+   "portrait": "portraits/san/moon.webp",
+   "epithets": [
+    "the moon",
+    "the shoe of the mantis"
+   ],
+   "domains": [
+    "the moon",
+    "returning",
+    "the message that was garbled"
+   ],
+   "symbols": [
+    "the shoe",
+    "the hare",
+    "the split lip"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "It was going to mean that people come back like the moon does. The hare ruined the message.",
+   "longBio": "|Kaggen was in the dark and threw his shoe into the sky to give himself light, and it became the moon, and it is red because the shoe had red dust on it. The moon dies and comes back every month, and it sent a message to people saying that they too would die and return - and the message went by way of the hare, who got it wrong and told them they would die and not return. The moon struck the hare in the face for it, which is why hares have split lips, and the correction was never made. Death is permanent because of an error in transmission.",
+   "variantTraditions": "The moon-and-hare death message is found across southern and eastern Africa and is one of the most widespread African narratives.",
+   "storyIds": [
+    "the-hare"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "moon",
+    "fate-time",
+    "death-judge",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "milky_way",
+   "name": "The Milky Way",
+   "sanskrit": "the ashes",
+   "category": "nature",
+   "era": "The Early Race",
+   "role": "A girl of the early race threw wood ashes into the sky so people could see their way home",
+   "wikipedia": "Milky_Way",
+   "portrait": "portraits/san/milky_way.webp",
+   "epithets": [
+    "the road of the stars",
+    "the ashes"
+   ],
+   "domains": [
+    "the Milky Way",
+    "light",
+    "finding the way at night",
+    "roots thrown up as stars"
+   ],
+   "symbols": [
+    "the ashes of a fire",
+    "the red and white roots that are the red and white stars"
+   ],
+   "mount": null,
+   "abode": "The night sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "She was lying in a hut and hungry, and she wanted the people out hunting to be able to get back.",
+   "longBio": "A girl of the early race, lying in a hut during her seclusion and hungry, put her hand into the ashes of the fire and threw them up into the sky so that they would lie there and glow and the people out at night could see their way home. That is the Milky Way. She also threw up roots - the red ones became the red stars and the white ones the white stars. It is one of the shortest and best things in the whole archive: a bored, hungry girl invents the largest visible structure in the sky out of consideration for people who are not there.",
+   "variantTraditions": "Told by ||Kabbo. The seclusion of girls at first menstruation is the setting and is a real and important |Xam practice.",
+   "storyIds": [
+    "the-ashes"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "wisdom-craft",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "nom",
+   "name": "N|om",
+   "sanskrit": "n|om",
+   "category": "primordial",
+   "era": "The Potency",
+   "role": "A potency that sits in the belly and boils when the dance goes right",
+   "wikipedia": "Healing_dance",
+   "portrait": "portraits/san/nom.webp",
+   "epithets": [
+    "n|om",
+    "num",
+    "the boiling energy"
+   ],
+   "domains": [
+    "healing",
+    "trance",
+    "the dance",
+    "heat",
+    "the spine"
+   ],
+   "symbols": [
+    "the sweat",
+    "the shuddering",
+    "the hands laid on and the drawing out"
+   ],
+   "mount": null,
+   "abode": "In certain people, and in certain things",
+   "festivals": [],
+   "worship": "",
+   "bio": "It heats in the belly, boils, and comes up the spine, and then the healer is in kia.",
+   "longBio": "N|om is a potency that lives in things - in the eland, in honey, in rain, in fire - and in certain people, who have it whether they want it or not. In the dance it heats: the healer feels it in the pit of the stomach, it boils, and it rises up the spine, and at the top of it he enters kia, trance. Healers describe it as painful and frightening the first several times and say they had to be taught to bear it. It is not a metaphor for emotion. It is described as a physical event in a specific location in the body, consistently, by unrelated people across a very large area.",
+   "variantTraditions": "Called n|om by the Ju|'hoansi and by other names elsewhere; the physical description is remarkably consistent across groups and decades.",
+   "storyIds": [
+    "boiling"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "healer",
+    "sage-seer",
+    "supreme-source",
+    "fire"
+   ]
+  },
+  {
+   "id": "dance",
+   "name": "The Healing Dance",
+   "sanskrit": "the great dance",
+   "category": "primordial",
+   "era": "The Potency",
+   "role": "Women sit and clap and sing all night; men dance round them until something happens",
+   "wikipedia": "Healing_dance",
+   "portrait": "portraits/san/dance.webp",
+   "epithets": [
+    "the trance dance",
+    "the great dance",
+    "the medicine dance"
+   ],
+   "domains": [
+    "healing",
+    "the whole community",
+    "the night",
+    "sickness drawn out"
+   ],
+   "symbols": [
+    "the fire",
+    "the circle of women clapping",
+    "the dancers' rattles",
+    "the shriek"
+   ],
+   "mount": null,
+   "abode": "The camp, at night, several times a month",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is not scheduled by a priesthood. Somebody starts singing and it builds.",
+   "longBio": "The women sit in a circle around the fire and clap and sing the medicine songs, and the men dance round them in a ring, hour after hour, through the night. As the nǀom rises the dancers begin to stagger and shudder and one or more enters kia and goes round the circle laying hands on people, pulling sickness out of them and flinging it away with a shriek into the dark. They may fall, and are held. They may see the dead, or travel a great distance, or become lions. There is no priesthood and no fee: everybody is present, half the adults can do it, and it is held whenever it is needed.",
+   "variantTraditions": "Documented continuously among the Ju|'hoansi since Lorna Marshall's work began in 1951, and still held.",
+   "storyIds": [
+    "boiling"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "healer",
+    "preserver",
+    "sage-seer",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "healer",
+   "name": "The Healer",
+   "sanskrit": "n|om kxao",
+   "category": "hero",
+   "era": "The Potency",
+   "role": "Not a priest and not paid - about half the men and a third of the women can do it",
+   "wikipedia": "Healing_dance",
+   "portrait": "portraits/san/healer.webp",
+   "epithets": [
+    "n|om kxao, owner of n|om",
+    "the one who heals"
+   ],
+   "domains": [
+    "healing",
+    "trance",
+    "the dead",
+    "travel",
+    "turning into a lion"
+   ],
+   "symbols": [
+    "the hands",
+    "the nosebleed",
+    "the shriek that throws the sickness away"
+   ],
+   "mount": null,
+   "abode": "In the camp, like everybody else",
+   "festivals": [],
+   "worship": "",
+   "bio": "There is no rank in it. A healer hunts and gathers like everybody else the next morning.",
+   "longBio": "A n|om kxao is a person who has the potency and has learned to bear it, and the striking thing about the institution is how ordinary it is: roughly half the men and a third of the women in a Ju|'hoansi band can do it, there is no payment, no rank, no exclusive knowledge and no organisation. Healers describe kia as terrifying - being torn open, dying, the spine on fire - and say they had to be held and taught by older healers not to run into the fire. Some travel in trance and some become lions. In the morning they are back to ordinary work.",
+   "variantTraditions": "The absence of hierarchy or payment is unusual and is one of the reasons the practice survived contact and settlement.",
+   "storyIds": [
+    "boiling",
+    "the-rain-animal"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "healer",
+    "sage-seer",
+    "hero-champion",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "rain",
+   "name": "The Rain",
+   "sanskrit": "!Khwa",
+   "category": "deity",
+   "era": "The Potency",
+   "role": "The rain is an animal, it can be caught, led out and killed where you want it to fall",
+   "wikipedia": "%C7%80Xam",
+   "portrait": "portraits/san/rain.webp",
+   "epithets": [
+    "!Khwa",
+    "the rain bull",
+    "the she-rain and the he-rain"
+   ],
+   "domains": [
+    "rain",
+    "water",
+    "danger",
+    "the girl at first menstruation"
+   ],
+   "symbols": [
+    "the rain bull led on a thong",
+    "the smell of rain",
+    "the milk rain and the angry rain"
+   ],
+   "mount": null,
+   "abode": "The waterhole, and the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "The gentle female rain gives milk; the male rain comes with thunder and hail and kills.",
+   "longBio": "The rain is a being and there are two kinds: the she-rain, soft and long and useful, and the he-rain, which comes with thunder and hail and does damage. Rain-makers went in trance to a waterhole where the rain-animal lay, caught it, led it out over the country on a thong, and killed it where they wanted the rain to fall, and its blood and milk fell as water. !Khwa is also directly and dangerously connected to a girl at her first menstruation: she is secluded, must not look at the sky or at men, and breaking the rules brings the rain and turns people into frogs.",
+   "variantTraditions": "The rain-animal is one of the most frequently depicted subjects in the rock art after the eland.",
+   "storyIds": [
+    "the-rain-animal"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "sky-thunder",
+    "healer",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "therianthrope",
+   "name": "The Therianthropes",
+   "sanskrit": "the ones who are both",
+   "category": "beast",
+   "era": "The Potency",
+   "role": "Painted figures that are half human and half antelope - and they are probably self-portraits",
+   "wikipedia": "Therianthrope",
+   "portrait": "portraits/san/therianthrope.webp",
+   "epithets": [
+    "the antelope-headed figures",
+    "the ones with hooves"
+   ],
+   "domains": [
+    "trance",
+    "transformation",
+    "the dance",
+    "the art"
+   ],
+   "symbols": [
+    "hooves on a human body",
+    "an antelope head",
+    "the crossed lines from the nose"
+   ],
+   "mount": null,
+   "abode": "On the rock",
+   "festivals": [],
+   "worship": "",
+   "bio": "A dancer in deep trance says he is becoming an eland. The paintings show exactly that.",
+   "longBio": "Among the commonest figures in southern African rock painting are beings that are partly human and partly antelope - hooves, an eland's head, a human torso, sometimes bleeding from the nose. For a long time these were read as costumed hunters or as mythological monsters. The trance reading, developed from the Bleek and Lloyd texts and from living Juǀ'hoansi accounts, is that they are what a healer in deep kia experiences and describes himself as becoming, and that the nosebleed is a real and documented physiological event in the dance. The paintings are records of an interior state.",
+   "variantTraditions": "The trance interpretation is now the dominant reading of southern African rock art, though not the only one, and Lewis-Williams is its principal architect.",
+   "storyIds": [
+    "boiling",
+    "the-wall"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sage-seer",
+    "healer",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "rock_art",
+   "name": "The Paintings",
+   "sanskrit": "the rock art",
+   "category": "primordial",
+   "era": "The Potency",
+   "role": "Tens of thousands of years of it, and the rock face is not a canvas but a membrane",
+   "wikipedia": "Rock_art_of_the_Drakensberg",
+   "portrait": "portraits/san/rock_art.webp",
+   "epithets": [
+    "the paintings",
+    "the engravings"
+   ],
+   "domains": [
+    "the art",
+    "trance",
+    "the eland",
+    "the veil between"
+   ],
+   "symbols": [
+    "fine-line polychrome eland",
+    "figures entering and leaving cracks in the rock"
+   ],
+   "mount": null,
+   "abode": "Rock shelters across southern Africa",
+   "festivals": [],
+   "worship": "",
+   "bio": "Figures are painted going into cracks in the rock, because that is where the other side is.",
+   "longBio": "Southern African rock painting runs back tens of thousands of years and is among the oldest continuous artistic traditions anywhere, and its fine-line polychrome eland are technically extraordinary - shaded, foreshortened, painted with brushes of a few hairs. The trance reading changes what the wall is: figures are painted emerging from and disappearing into cracks and steps in the rock face, which suggests the surface was understood as a membrane between this world and the other, and the painting as something coming through it rather than something applied to it.",
+   "variantTraditions": "No site locations are given in this pack. Southern African rock art sites are extensively vandalised and the standard practice is not to publish coordinates.",
+   "storyIds": [
+    "the-wall"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "preserver",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "lion",
+   "name": "The Lion",
+   "sanskrit": "the one they become",
+   "category": "beast",
+   "era": "The Potency",
+   "role": "Healers turn into them and travel, and a lion behaving oddly may be a person",
+   "wikipedia": "Lion",
+   "portrait": "portraits/san/lion.webp",
+   "epithets": [
+    "the lion",
+    "the one a healer becomes"
+   ],
+   "domains": [
+    "transformation",
+    "travel",
+    "danger",
+    "sorcery"
+   ],
+   "symbols": [
+    "the tracks that stop",
+    "the lion that behaves wrongly",
+    "the healer who wakes exhausted"
+   ],
+   "mount": null,
+   "abode": "The veld, at night",
+   "festivals": [],
+   "worship": "",
+   "bio": "A lion that walks round a camp without attacking is treated as somebody, not something.",
+   "longBio": "Healers in trance travel, and some travel as lions - they leave the body, take the form, cover a great distance, look at another camp, and come back. This is stated flatly and in the first person by people who have done it. The practical consequence is that a lion behaving unusually near a camp is not simply a lion: it may be a healer, or somebody's enemy. Lions are also genuinely dangerous, and the tradition holds both facts at once without difficulty, which is characteristic.",
+   "variantTraditions": "Lion transformation is reported by Ju|'hoansi healers in the twentieth century and appears in the nineteenth-century |Xam material as well.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sage-seer",
+    "primordial-adversary",
+    "healer"
+   ]
+  },
+  {
+   "id": "ostrich",
+   "name": "The Ostrich",
+   "sanskrit": "the fire keeper",
+   "category": "beast",
+   "era": "The Potency",
+   "role": "It kept fire under its wing, and the mantis got it out by an obvious trick",
+   "wikipedia": "Common_ostrich",
+   "portrait": "portraits/san/ostrich.webp",
+   "epithets": [
+    "the ostrich",
+    "the one who had fire"
+   ],
+   "domains": [
+    "fire",
+    "theft",
+    "eggs",
+    "the wing"
+   ],
+   "symbols": [
+    "the fire under the wing",
+    "the ostrich eggshell water flask"
+   ],
+   "mount": null,
+   "abode": "The open country",
+   "festivals": [],
+   "worship": "",
+   "bio": "|Kaggen told it there was fruit high up, it reached, the wing lifted, and the fire came out.",
+   "longBio": "The ostrich kept fire under its wing and nobody else had any, and |Kaggen went to it and pointed out some fine fruit high up on a tree and told it to reach for it, and it did, and as the wing came up the fire fell out and he took it. Ostrich eggshells are also the single most important container in the Kalahari: blown, filled with water and buried at known points across the country, they make it possible to cross ground that could not otherwise be crossed, and the shells are engraved with patterns that identify whose they are.",
+   "variantTraditions": "Fire-theft from an ostrich is |Xam; the fire-theft motif itself is nearly universal.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "fire",
+    "divine-beast",
+    "messenger-trickster",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "kabbo",
+   "name": "||Kabbo",
+   "sanskrit": "||Kabbo",
+   "category": "mortal",
+   "era": "What Was Written",
+   "role": "A |Xam man in a Cape Town convict station who dictated a mythology so it would be kept",
+   "wikipedia": "%7C%7CKabbo",
+   "portrait": "portraits/san/kabbo.webp",
+   "epithets": [
+    "Jantje Toorn, his colonial name",
+    "the dream",
+    "the one who gave the stories"
+   ],
+   "domains": [
+    "memory",
+    "story",
+    "the archive",
+    "wanting to go home"
+   ],
+   "symbols": [
+    "the notebooks",
+    "the Breakwater convict station",
+    "the road home he never took"
+   ],
+   "mount": null,
+   "abode": "Mowbray, Cape Town, and before that the Strandberg",
+   "festivals": [],
+   "worship": "",
+   "bio": "His name means dream. He was serving a sentence for stock theft when Bleek found him.",
+   "longBio": "||Kabbo was a |Xam man from the northern Cape, convicted of stock theft, moved to the Breakwater station in Cape Town, and released into Wilhelm Bleek's household in 1871. He stayed more than two years and dictated an enormous quantity of narrative, and he understood exactly what he was doing: he said he was sitting and waiting for the stories to come, that he must wait for the moon to turn so that he could listen, and that he wanted to go home and tell his people what he had been doing. He was given a gun and a horse and left in 1873. He did not come back and is believed to have died soon after.",
+   "variantTraditions": "His name is usually translated as dream. He is the single largest contributor to the archive.",
+   "storyIds": [
+    "kabbo"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "preserver",
+    "wisdom-craft",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "diakwain",
+   "name": "Diakwain",
+   "sanskrit": "Diakwain",
+   "category": "mortal",
+   "era": "What Was Written",
+   "role": "He gave the archive its songs, and the one about the broken string",
+   "wikipedia": "Bleek_and_Lloyd_Collection",
+   "portrait": "portraits/san/diakwain.webp",
+   "epithets": [
+    "David Hoesar, his colonial name"
+   ],
+   "domains": [
+    "song",
+    "grief",
+    "the strings",
+    "the loss of a way of life"
+   ],
+   "symbols": [
+    "the broken string",
+    "the songs",
+    "the place that no longer feels the same"
+   ],
+   "mount": null,
+   "abode": "Mowbray, and the northern Cape",
+   "festivals": [],
+   "worship": "",
+   "bio": "The place does not feel to him as it used to feel, because the string has broken.",
+   "longBio": "Diakwain came to Bleek's house in 1873 after being convicted of killing a farmer who had shot his relative's dogs, and he gave much of the song material in the archive. The most famous single passage in the whole collection is his: a lament, usually printed as The Broken String, in which a man says that since the string has broken the place no longer feels to him as it used to, because the thing that used to sound for him is gone. It has been set to music, quoted in Parliament and printed on monuments, and it is one man in a colonial house in 1875 describing the end of his world.",
+   "variantTraditions": "The Broken String was composed by another man, |Nuin-|kuiten, and given by Diakwain; the attribution matters and is often dropped.",
+   "storyIds": [
+    "the-broken-string"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "preserver",
+    "death-judge",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "archive",
+   "name": "The Bleek and Lloyd Collection",
+   "sanskrit": "the notebooks",
+   "category": "primordial",
+   "era": "What Was Written",
+   "role": "Twelve thousand pages of a language nobody speaks, taken down verbatim from convicts",
+   "wikipedia": "Bleek_and_Lloyd_Collection",
+   "portrait": "portraits/san/archive.webp",
+   "epithets": [
+    "the notebooks",
+    "the |Xam archive"
+   ],
+   "domains": [
+    "the record",
+    "a lost language",
+    "verbatim transcription",
+    "what survives"
+   ],
+   "symbols": [
+    "the facing columns of |Xam and English",
+    "Lucy Lloyd's handwriting",
+    "the UNESCO listing"
+   ],
+   "mount": null,
+   "abode": "The University of Cape Town",
+   "festivals": [],
+   "worship": "",
+   "bio": "Lucy Lloyd did most of the actual work and Bleek's name goes first on it.",
+   "longBio": "Between 1870 and 1884 Wilhelm Bleek and Lucy Lloyd filled more than twelve thousand pages with |Xam text and facing English translation, taken word by word from |A!kunta, ||Kabbo, Diakwain, !Kweiten ta ||ken and |Hankass'o. Bleek died in 1875; Lloyd carried on for nine more years and did the greater part of it. Nothing else in African oral literature approaches it for scale or fidelity. The |Xam language has no speakers and the people no longer exist as a community, so this is not a supplement to a living tradition - it is the whole of what is left.",
+   "variantTraditions": "On the UNESCO Memory of the World register since 1997 and fully digitised and freely available.",
+   "storyIds": [
+    "kabbo",
+    "the-broken-string"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "sage-seer",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "motto",
+   "name": "The National Motto",
+   "sanskrit": "!ke e: |xarra ||ke",
+   "category": "primordial",
+   "era": "What Was Written",
+   "role": "South Africa's motto is in a language with no living speakers, taken from these notebooks",
+   "wikipedia": "Coat_of_arms_of_South_Africa",
+   "portrait": "portraits/san/motto.webp",
+   "epithets": [
+    "!ke e: |xarra ||ke",
+    "diverse people unite"
+   ],
+   "domains": [
+    "the state",
+    "recognition",
+    "a language nobody speaks"
+   ],
+   "symbols": [
+    "the coat of arms adopted in 2000",
+    "the |Xam words on it"
+   ],
+   "mount": null,
+   "abode": "Every South African passport and coin",
+   "festivals": [],
+   "worship": "",
+   "bio": "The words were assembled from the Bleek and Lloyd notebooks, because there was nobody to ask.",
+   "longBio": "In 2000 South Africa adopted a new coat of arms with a motto in |Xam - !ke e: |xarra ||ke, rendered as diverse people unite - and the phrase had to be constructed from the Bleek and Lloyd notebooks by linguists, because there is no |Xam speaker anywhere to compose or check it. The coat of arms also carries figures taken from a rock engraving. A state whose predecessor destroyed these people put their language on its passports, and whether that is honour or appropriation has been argued about in South Africa ever since, by people including San organisations.",
+   "variantTraditions": "The design also drew on the Linton Panel, a rock art panel now in the Iziko South African Museum.",
+   "storyIds": [
+    "the-broken-string"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "preserver",
+    "king-ruler",
+    "primordial-adversary"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "kaggen",
+   "to": "first_people",
+   "type": "ally",
+   "note": "He belongs to the early order, before things settled"
+  },
+  {
+   "from": "kaggen",
+   "to": "eland",
+   "type": "parent",
+   "note": "Made from a shoe soaked in honey in a waterhole"
+  },
+  {
+   "from": "kaggen",
+   "to": "moon",
+   "type": "parent",
+   "note": "Another shoe, thrown into the sky for light"
+  },
+  {
+   "from": "kaggen",
+   "to": "hyrax",
+   "type": "consort",
+   "note": "His wife the dassie, who is right and is not listened to"
+  },
+  {
+   "from": "kaggen",
+   "to": "porcupine",
+   "type": "parent",
+   "note": "His adopted daughter, and the sensible one"
+  },
+  {
+   "from": "porcupine",
+   "to": "kwammanga",
+   "type": "consort",
+   "note": "The rainbow married into the family"
+  },
+  {
+   "from": "kwammanga",
+   "to": "ichneumon",
+   "type": "parent",
+   "note": "The grandson who tells"
+  },
+  {
+   "from": "ichneumon",
+   "to": "kaggen",
+   "type": "enemy",
+   "note": "He gave away where the eland was hidden"
+  },
+  {
+   "from": "kwammanga",
+   "to": "eland",
+   "type": "enemy",
+   "note": "And then they went and killed it"
+  },
+  {
+   "from": "kaggen",
+   "to": "kwammanga",
+   "type": "enemy",
+   "note": "He has never forgiven him for being sensible"
+  },
+  {
+   "from": "kaggen",
+   "to": "ostrich",
+   "type": "enemy",
+   "note": "He got the fire out from under its wing by a trick"
+  },
+  {
+   "from": "first_people",
+   "to": "moon",
+   "type": "ally",
+   "note": "Nearly every story explains how something got its shape"
+  },
+  {
+   "from": "moon",
+   "to": "first_people",
+   "type": "guru",
+   "note": "The message that people would return, and the hare who garbled it"
+  },
+  {
+   "from": "eland",
+   "to": "nom",
+   "type": "ally",
+   "note": "It is held to be full of the potency"
+  },
+  {
+   "from": "eland",
+   "to": "rock_art",
+   "type": "devotee",
+   "note": "By a wide margin the most-painted animal there is"
+  },
+  {
+   "from": "nom",
+   "to": "dance",
+   "type": "ally",
+   "note": "It heats in the belly and boils and rises"
+  },
+  {
+   "from": "dance",
+   "to": "healer",
+   "type": "guru",
+   "note": "Where it happens, and roughly half the adults can do it"
+  },
+  {
+   "from": "healer",
+   "to": "nom",
+   "type": "devotee",
+   "note": "The owner of it, who had to be taught to bear it"
+  },
+  {
+   "from": "healer",
+   "to": "therianthrope",
+   "type": "sibling",
+   "note": "In deep trance he says he is becoming an eland"
+  },
+  {
+   "from": "therianthrope",
+   "to": "rock_art",
+   "type": "ally",
+   "note": "Among the commonest figures painted"
+  },
+  {
+   "from": "rock_art",
+   "to": "nom",
+   "type": "guru",
+   "note": "The rock face read as a membrane rather than a surface"
+  },
+  {
+   "from": "healer",
+   "to": "lion",
+   "type": "sibling",
+   "note": "Some travel as lions, and say so in the first person"
+  },
+  {
+   "from": "lion",
+   "to": "dance",
+   "type": "ally",
+   "note": "The travelling happens out of the trance"
+  },
+  {
+   "from": "healer",
+   "to": "rain",
+   "type": "guru",
+   "note": "Rain-makers went in trance to catch the rain-animal"
+  },
+  {
+   "from": "rain",
+   "to": "eland",
+   "type": "sibling",
+   "note": "The two most painted things on the rock"
+  },
+  {
+   "from": "rain",
+   "to": "first_people",
+   "type": "enemy",
+   "note": "A girl who breaks the seclusion rules brings it"
+  },
+  {
+   "from": "dance",
+   "to": "rain",
+   "type": "ally",
+   "note": "Both of them are what nǀom is used for"
+  },
+  {
+   "from": "milky_way",
+   "to": "first_people",
+   "type": "devotee",
+   "note": "A girl in seclusion, bored and hungry"
+  },
+  {
+   "from": "milky_way",
+   "to": "moon",
+   "type": "sibling",
+   "note": "Two things in the sky that somebody put there by accident"
+  },
+  {
+   "from": "ostrich",
+   "to": "rain",
+   "type": "ally",
+   "note": "Eggshells buried full of water across country you could not otherwise cross"
+  },
+  {
+   "from": "kabbo",
+   "to": "archive",
+   "type": "guru",
+   "note": "The largest single contributor, and he knew what he was doing"
+  },
+  {
+   "from": "diakwain",
+   "to": "archive",
+   "type": "guru",
+   "note": "Who gave it its songs"
+  },
+  {
+   "from": "archive",
+   "to": "kaggen",
+   "type": "ally",
+   "note": "Everything anyone knows about him is in it"
+  },
+  {
+   "from": "archive",
+   "to": "first_people",
+   "type": "ally",
+   "note": "And about them"
+  },
+  {
+   "from": "archive",
+   "to": "motto",
+   "type": "guru",
+   "note": "The motto had to be built out of the notebooks"
+  },
+  {
+   "from": "motto",
+   "to": "archive",
+   "type": "devotee",
+   "note": "Because there is nobody left to ask"
+  },
+  {
+   "from": "kabbo",
+   "to": "diakwain",
+   "type": "sibling",
+   "note": "Two men in the same house in Mowbray, a few years apart"
+  },
+  {
+   "from": "kabbo",
+   "to": "kaggen",
+   "type": "devotee",
+   "note": "He said he was waiting for the stories to come to him"
+  },
+  {
+   "from": "diakwain",
+   "to": "motto",
+   "type": "enemy",
+   "note": "The place does not feel to him as it used to feel"
+  },
+  {
+   "from": "archive",
+   "to": "rock_art",
+   "type": "ally",
+   "note": "The texts are what made the paintings readable"
+  },
+  {
+   "from": "therianthrope",
+   "to": "lion",
+   "type": "sibling",
+   "note": "Two things a person in trance becomes"
+  },
+  {
+   "from": "motto",
+   "to": "rock_art",
+   "type": "devotee",
+   "note": "The figures on the arms are taken from an engraved panel"
+  },
+  {
+   "from": "nom",
+   "to": "kaggen",
+   "type": "sibling",
+   "note": "Potency, and the one who is not in charge of it"
+  },
+  {
+   "from": "hyrax",
+   "to": "porcupine",
+   "type": "sibling",
+   "note": "The two women who can see what is coming"
+  },
+  {
+   "from": "healer",
+   "to": "archive",
+   "type": "guru",
+   "note": "The living practice is what made the old texts legible"
+  }
+ ]
+}

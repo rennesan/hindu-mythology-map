@@ -293,10 +293,15 @@
    "label": "San",
    "sublabel": "Southern Africa",
    "accent": "#b5a06a",
-   "status": "planned",
+   "status": "live",
    "blurb": "Kaggen the mantis, and material that may be the oldest continuously told narrative on earth.",
    "family": "Africa",
-   "glyph": "⁂"
+   "glyph": "⁂",
+   "figures": 21,
+   "stories": 8,
+   "links": 45,
+   "levels": 3,
+   "cover": "portraits/san/kaggen.webp"
   },
   {
    "id": "inuit",

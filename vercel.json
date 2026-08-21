@@ -102,6 +102,10 @@
    "destination": "/fon/index.html"
   },
   {
+   "source": "/san/:path*",
+   "destination": "/san/index.html"
+  },
+  {
    "source": "/inuit/:path*",
    "destination": "/inuit/index.html"
   },
