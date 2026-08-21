@@ -373,10 +373,15 @@
    "label": "Lakota",
    "sublabel": "Northern Plains",
    "accent": "#a8896a",
-   "status": "planned",
+   "status": "live",
    "blurb": "White Buffalo Calf Woman, Iktomi the spider, and the ledger art the Lakota drew themselves.",
    "family": "The Americas",
-   "glyph": "⊕"
+   "glyph": "⊕",
+   "figures": 25,
+   "stories": 8,
+   "links": 56,
+   "levels": 3,
+   "cover": "portraits/lakota/wakan_tanka.webp"
   },
   {
    "id": "anishinaabe",

@@ -1,0 +1,1779 @@
+{
+ "title": "Lakota",
+ "description": "Northern Plains: a rock who drained himself to make the earth, a sky that is motion rather than a place, and the woman who brought the pipe - much of it written down because Lakota holy men decided it should be.",
+ "generated": "2026-08-21",
+ "sources": [
+  "James R. Walker, Lakota Belief and Ritual and Lakota Myth - taught to him deliberately by George Sword, Finger, Little Wound, Thomas Tyon and other named Oglala holy men, 1896-1914",
+  "Marie L. McLaughlin, Myths and Legends of the Sioux (1916) - the author was part Dakota",
+  "Frances Densmore, Teton Sioux Music (1918)",
+  "Black Elk, The Sacred Pipe, recorded by Joseph Epes Brown (1953) - the seven rites, given for publication",
+  "The Lakota winter counts - pictorial calendars kept year by year by named keepers",
+  "Note: some Lakota material is restricted and Lakota people say so. This pack stays with what was made public deliberately and reproduces nothing presented as closed"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/lakota/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "walker": {
+   "t": "Lakota Belief and Ritual / Lakota Myth",
+   "tr": "James R. Walker, collected 1896-1914 from named Oglala holy men",
+   "u": "https://archive.org/details/lakotabeliefritu0000walk"
+  },
+  "mclaughlin": {
+   "t": "Myths and Legends of the Sioux",
+   "tr": "Marie L. McLaughlin, 1916",
+   "u": "https://sacred-texts.com/nam/pla/mlst/index.htm"
+  },
+  "densmore": {
+   "t": "Teton Sioux Music",
+   "tr": "Frances Densmore, 1918",
+   "u": "https://archive.org/details/tetonsiouxmusic00dens"
+  },
+  "brown": {
+   "t": "The Sacred Pipe",
+   "tr": "Black Elk, recorded by Joseph Epes Brown, 1953",
+   "u": "https://archive.org/details/sacredpipeblacke0000blac"
+  },
+  "wintercount": {
+   "t": "The Lakota Winter Counts",
+   "tr": "Pictorial year-calendars, kept by named keepers",
+   "u": "https://wintercounts.si.edu/"
+  }
+ },
+ "meta": {
+  "id": "lakota",
+  "label": "Lakota",
+  "sublabel": "Northern Plains",
+  "accent": "#a8896a",
+  "root": "wakan_tanka"
+ },
+ "profile": {
+  "cosmicNature": "It begins with a rock. Inyan was first, alone, soft, and holding all power in his blood, and being alone he wanted something to be in relation to - so he drained himself out to make Maka, the earth, and went hard and dry doing it, which is why rock is what it is. His blood became the waters and, because it was blue, the sky. Nothing here is made out of nothing; it is made out of somebody giving up most of what they had.",
+  "natureOfDivinity": "Wakan Tanka, which is not a person. Wakan means sacred and incomprehensible, tanka means great, and Walker's informants described sixteen aspects arranged in four groups of four - the Superior, the Associate, the Subordinate and the Wakan-like - which are all one and are also each themselves. Below and among them is everything else that is wakan, which is a very large category: the buffalo, the thunder, certain stones, certain people, and whatever is behaving in a way you do not understand.",
+  "afterlife": "The Wanagi Tacanku, the spirit road, which is the Milky Way. The spirit travels along it and comes to an old woman who examines it and decides whether it goes on or is pushed off the road to wander back. There is no torment. The dead are addressed and remembered, and the Keeping of the Soul - one of the seven rites - held a person's spirit in the camp for a year in a bundle before it was released.",
+  "systemMechanism": "The pipe, and the seven rites that came with it. White Buffalo Calf Woman brought the sacred pipe and taught what to do with it, and the rites she gave - the sweat lodge, the vision quest, the sun dance, the making of relatives, the keeping of the soul, the girls' coming of age, the throwing of the ball - are the mechanism. Smoking the pipe is not a gesture; the smoke is the words, and what is said over it is binding.",
+  "canonTexts": "Nothing written before contact and an unusually good record afterwards, because Lakota holy men chose to make one. Walker's Lakota Belief and Ritual and Lakota Myth carry the accounts of named men who taught him deliberately. McLaughlin published in 1916, Densmore recorded the music in 1918, and Black Elk gave the seven rites to Joseph Epes Brown in 1947. The winter counts - pictorial calendars, one image per year - are a separate and genuinely Lakota historical record."
+ },
+ "hierarchy": [
+  {
+   "title": "The Beginning",
+   "blurb": "A rock who was alone and drained himself out to make the earth, going hard and powerless in the process. A sky who is not a place but motion itself, and who judges. And a feast at which the most beautiful woman alive took the moon's seat, which broke everything that had been working.",
+   "memberIds": [
+    "wakan_tanka",
+    "inyan",
+    "maka",
+    "skan",
+    "wi",
+    "hanwi",
+    "tate",
+    "four_winds",
+    "ite",
+    "iktomi",
+    "wohpe"
+   ],
+   "connectorCaption": "Long after, a woman came into the camp carrying something"
+  },
+  {
+   "title": "What She Brought",
+   "blurb": "Two men saw her coming. One said what he was thinking, and there was nothing left of him but bones. She gave the pipe and the seven rites and went out of the camp, rolling over four times and getting up a different buffalo each time, and the last one was white.",
+   "memberIds": [
+    "white_buffalo_woman",
+    "canunpa",
+    "inipi",
+    "hanbleceya",
+    "sun_dance",
+    "wanagi"
+   ],
+   "connectorCaption": "And beyond the camp circle, what is out there"
+  },
+  {
+   "title": "What Is Out There",
+   "blurb": "Thunder beings in the Black Hills whose dream you cannot refuse. Water monsters under the rivers whose bones are lying in the Badlands. The buffalo, which was everything, and which was destroyed on purpose. And a hide with one small picture on it for every year.",
+   "memberIds": [
+    "wakinyan",
+    "heyoka",
+    "unktehi",
+    "tatanka",
+    "sunka_wakan",
+    "stone_boy",
+    "fallen_star",
+    "winter_count"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "superior",
+   "label": "The Four Superior",
+   "memberIds": [
+    "inyan",
+    "maka",
+    "skan",
+    "wi"
+   ]
+  },
+  {
+   "id": "feast",
+   "label": "The Feast That Went Wrong",
+   "memberIds": [
+    "wi",
+    "hanwi",
+    "ite",
+    "iktomi",
+    "tate",
+    "skan"
+   ]
+  },
+  {
+   "id": "winds",
+   "label": "The Winds",
+   "memberIds": [
+    "tate",
+    "four_winds",
+    "wohpe"
+   ]
+  },
+  {
+   "id": "pipe",
+   "label": "The Pipe and the Rites",
+   "memberIds": [
+    "white_buffalo_woman",
+    "canunpa",
+    "inipi",
+    "hanbleceya",
+    "sun_dance"
+   ]
+  },
+  {
+   "id": "sky",
+   "label": "The Sky Side",
+   "memberIds": [
+    "wakinyan",
+    "heyoka",
+    "fallen_star",
+    "wanagi"
+   ]
+  },
+  {
+   "id": "water",
+   "label": "The Water Side",
+   "memberIds": [
+    "unktehi",
+    "maka",
+    "inyan"
+   ]
+  },
+  {
+   "id": "living",
+   "label": "What the People Lived On",
+   "memberIds": [
+    "tatanka",
+    "sunka_wakan",
+    "maka"
+   ]
+  },
+  {
+   "id": "record",
+   "label": "Keeping the Record",
+   "memberIds": [
+    "winter_count",
+    "iktomi",
+    "stone_boy",
+    "fallen_star"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-rock-alone",
+   "title": "He Was Soft, and He Was Alone",
+   "era": "The Beginning",
+   "cast": [
+    "inyan",
+    "maka",
+    "skan"
+   ],
+   "summary": "At the start there was Inyan, the rock, and he was soft and shapeless and had no form, and he held all the power there was in his blood, which was blue. There was nothing else at all except the darkness. Being alone with nothing to be in relation to, he decided to make a companion, and there was no material to make one out of except himself. So he spread himself into a great flat disc and opened his veins and let his blood run through it to give it life and power, and the disc is Maka, the earth. The blood that ran out beyond her became the waters, and the blue part of it rose and became the sky. And Inyan, drained, went hard and dry and could no longer move, which is what rock has been ever since.",
+   "sources": [
+    {
+     "book": "Lakota Belief and Ritual / Lakota Myth",
+     "translation": "James R. Walker, collected 1896-1914 from named Oglala holy men",
+     "location": "The account of Sword",
+     "url": "https://archive.org/details/lakotabeliefritu0000walk"
+    }
+   ]
+  },
+  {
+   "id": "the-feast",
+   "title": "Who Sat Beside the Sun",
+   "era": "The Beginning",
+   "cast": [
+    "ite",
+    "iktomi",
+    "wi",
+    "hanwi",
+    "skan",
+    "tate"
+   ],
+   "summary": "Iktomi was bored, and he went to Ite, who was the most beautiful woman there was and married to Tate the wind and the mother of four sons, and he told her that beauty like hers ought to be sitting next to the sun. She thought about it. At the great feast of the gods she came in and took the place beside Wi that belonged to Hanwi, his wife, and Wi saw her do it and did not stop her. Hanwi covered her face. Skan tried the case and gave judgement on all of them: Hanwi got the night and the right to hide whenever she chose, which is why the moon has phases; Wi lost the chieftainship, which went to Skan; and Ite kept her beauty and was given a second face on the back of her head that no one can look at, and was separated from her husband and her children.",
+   "sources": [
+    {
+     "book": "Lakota Belief and Ritual / Lakota Myth",
+     "translation": "James R. Walker, collected 1896-1914 from named Oglala holy men",
+     "location": "The account of Finger",
+     "url": "https://archive.org/details/lakotabeliefritu0000walk"
+    }
+   ]
+  },
+  {
+   "id": "she-came-into-the-camp",
+   "title": "The Woman With the Pipe",
+   "era": "What She Brought",
+   "cast": [
+    "white_buffalo_woman",
+    "canunpa",
+    "tatanka"
+   ],
+   "summary": "Two young men were out looking for game in a hard time and saw someone coming toward them across the plain, and as she got closer they saw it was a woman in white, carrying something. One of them said aloud what he was thinking about her. She told him to come forward, and a cloud came down over the two of them, and when it lifted there was nothing where he had been standing but a skeleton with snakes moving in the ribs. She told the other one to go back to his camp and tell them to prepare a lodge. Four days later she came, and gave them the sacred pipe, and taught them the seven rites and what each of them was for and when. Then she walked out of the camp, and rolled over on the ground four times, and got up each time as a buffalo of a different colour, and the last was white, and she went.",
+   "sources": [
+    {
+     "book": "The Sacred Pipe",
+     "translation": "Black Elk, recorded by Joseph Epes Brown, 1953",
+     "location": "The Sacred Pipe",
+     "url": "https://archive.org/details/sacredpipeblacke0000blac"
+    },
+    {
+     "book": "Lakota Belief and Ritual / Lakota Myth",
+     "translation": "James R. Walker, collected 1896-1914 from named Oglala holy men",
+     "location": "Pte San Win",
+     "url": "https://archive.org/details/lakotabeliefritu0000walk"
+    }
+   ]
+  },
+  {
+   "id": "the-thunder-dream",
+   "title": "The Dream You Cannot Refuse",
+   "era": "What Is Out There",
+   "cast": [
+    "wakinyan",
+    "heyoka"
+   ],
+   "summary": "Nobody asks to dream of the Thunderbirds. Having done so, a person has two options: become heyoka, or be struck by lightning. So they become heyoka, and live backwards in front of everybody for the rest of their life - riding the horse facing the tail, saying yes to mean no, sitting shivering in August and stripping off in a blizzard, washing with dirt. It is expected to be funny and it is meant to be uncomfortable. And it is not clowning: the heyoka is there to break up a ceremony at the exact moment it has become too solemn to see, and by doing everything the wrong way round to make visible what everyone had stopped noticing was there. Some are healers as well, and it is the heyoka who reaches into boiling water bare-armed to pull the meat out, and complains that it is cold.",
+   "sources": [
+    {
+     "book": "Lakota Belief and Ritual / Lakota Myth",
+     "translation": "James R. Walker, collected 1896-1914 from named Oglala holy men",
+     "location": "The heyoka",
+     "url": "https://archive.org/details/lakotabeliefritu0000walk"
+    },
+    {
+     "book": "Teton Sioux Music",
+     "translation": "Frances Densmore, 1918",
+     "location": "Heyoka songs",
+     "url": "https://archive.org/details/tetonsiouxmusic00dens"
+    }
+   ]
+  },
+  {
+   "id": "the-badlands-bones",
+   "title": "The Flood and the Bones",
+   "era": "What Is Out There",
+   "cast": [
+    "unktehi",
+    "wakinyan",
+    "canunpa"
+   ],
+   "summary": "The Unktehi, the water monsters, grew tired of people and the greatest of them flooded the whole land to drown them all, and the water rose until the people were crowded onto one hill and were killed there, and their blood ran into the ground and set as red stone - which is the pipestone quarry, so the pipe is made of the people who died. Then the Thunderbirds came from the west and fought the Unktehi and dried up the water and burned them, and their enormous bones were left lying where they fell. That is the Badlands, which is one of the richest fossil beds in North America and is full of very large bones lying exposed on the surface, and the account is what people looking at those bones concluded had happened.",
+   "sources": [
+    {
+     "book": "Lakota Belief and Ritual / Lakota Myth",
+     "translation": "James R. Walker, collected 1896-1914 from named Oglala holy men",
+     "location": "Unktehi",
+     "url": "https://archive.org/details/lakotabeliefritu0000walk"
+    },
+    {
+     "book": "Myths and Legends of the Sioux",
+     "translation": "Marie L. McLaughlin, 1916",
+     "location": "The flood",
+     "url": "https://sacred-texts.com/nam/pla/mlst/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-hole-in-the-sky",
+   "title": "She Pulled Up the Turnip",
+   "era": "What Is Out There",
+   "cast": [
+    "fallen_star"
+   ],
+   "summary": "Two young women lay outside looking at the stars and each said which one she would like for a husband, and in the morning they woke in the sky country, married. One of them was warned never to dig up a certain plant. In time she was digging turnips with the other sky women and came on it, and pulled, and it came up - and where the root had been there was a hole through the floor of the sky, and looking down through it she could see her own camp very far below, and the smoke of the fires. She could not stop looking. She plaited a rope of hide and let herself down with her baby on her back, and the rope ran out a long way above the ground, and she hung there until she could not hold on. She was killed. The baby was found alive on her body, and grew up to be Fallen Star, who went from village to village fixing things.",
+   "sources": [
+    {
+     "book": "Myths and Legends of the Sioux",
+     "translation": "Marie L. McLaughlin, 1916",
+     "location": "The star husbands",
+     "url": "https://sacred-texts.com/nam/pla/mlst/index.htm"
+    },
+    {
+     "book": "Lakota Belief and Ritual / Lakota Myth",
+     "translation": "James R. Walker, collected 1896-1914 from named Oglala holy men",
+     "location": "Fallen Star",
+     "url": "https://archive.org/details/lakotabeliefritu0000walk"
+    }
+   ]
+  },
+  {
+   "id": "the-year-the-stars-fell",
+   "title": "One Picture for Each Year",
+   "era": "What Is Out There",
+   "cast": [
+    "winter_count",
+    "tatanka"
+   ],
+   "summary": "A winter count is a hide carrying one small drawing for each year, spiralling out from the centre, and the keeper of it knew the whole sequence and could recite it, and people came to him to settle when something had happened. Each year is named for the single most memorable thing in it - a person killed, a disease, a good hunt, the first time somebody saw a wagon. They are checkable historical documents. On the night of 12 November 1833 there was an extraordinary Leonid meteor storm over North America, tens of thousands of meteors an hour, and it is recorded in newspapers, letters and diaries across the continent - and it appears on nearly every surviving Lakota winter count as the year the stars fell, which anchors the whole sequence against the calendar.",
+   "sources": [
+    {
+     "book": "The Lakota Winter Counts",
+     "translation": "Pictorial year-calendars, kept by named keepers",
+     "location": "The Smithsonian collection",
+     "url": "https://wintercounts.si.edu/"
+    }
+   ]
+  },
+  {
+   "id": "the-buffalo",
+   "title": "Sixty Million to a Few Hundred",
+   "era": "What Is Out There",
+   "cast": [
+    "tatanka",
+    "sunka_wakan",
+    "sun_dance"
+   ],
+   "summary": "The buffalo was the material basis of everything: meat fresh and dried, the hide for the lodge cover and the robe and the parfleche, sinew for thread and bowstring, bone for tools, horn for spoons and cups, hoof for glue, dung for fuel where there was no wood. It was also a relative, hunted with ceremony, addressed and thanked, and White Buffalo Calf Woman came as one. The herds were among the largest aggregations of large mammals that have ever existed. In roughly thirty years after 1870 they were reduced to a few hundred animals, by commercial hide hunting encouraged as policy, and the connection was not lost on anybody: Army officers argued in writing that killing the buffalo was the way to end the war, and it was.",
+   "sources": [
+    {
+     "book": "Teton Sioux Music",
+     "translation": "Frances Densmore, 1918",
+     "location": "Buffalo songs",
+     "url": "https://archive.org/details/tetonsiouxmusic00dens"
+    },
+    {
+     "book": "Lakota Belief and Ritual / Lakota Myth",
+     "translation": "James R. Walker, collected 1896-1914 from named Oglala holy men",
+     "location": "The buffalo",
+     "url": "https://archive.org/details/lakotabeliefritu0000walk"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "wakan_tanka",
+   "name": "Wakan Tanka",
+   "sanskrit": "Wakan Tanka",
+   "category": "primordial",
+   "era": "The Beginning",
+   "role": "Not the Great Spirit. The Great Incomprehensible - sixteen things that are also one",
+   "wikipedia": "Wakan_Tanka",
+   "portrait": "portraits/lakota/wakan_tanka.webp",
+   "epithets": [
+    "the great mystery",
+    "Tunkasila, grandfather",
+    "the sacred, entire"
+   ],
+   "domains": [
+    "everything that is wakan",
+    "totality",
+    "the sacred",
+    "what cannot be understood"
+   ],
+   "symbols": [
+    "the pipe",
+    "the circle",
+    "the four directions"
+   ],
+   "mount": null,
+   "abode": "Not located",
+   "festivals": [],
+   "worship": "",
+   "bio": "Wakan means sacred and beyond understanding. Tanka means great. It is not a man in the sky.",
+   "longBio": "Wakan Tanka is the single most mistranslated idea in North American religion. English rendered it Great Spirit and put a person behind it, and that is not what the word does. Wakan is the sacred, the incomprehensible, the thing behaving in a way you cannot account for; tanka is great. Walker's teachers described sixteen aspects in four groups of four - Inyan, Maka, Skan, Wi at the top, then the Moon, the Wind, the Beautiful One and the Thunder, and so on down - which are all Wakan Tanka and are also each themselves, and they were explicit that this is meant to be difficult.",
+   "variantTraditions": "Whether the sixteen-aspect scheme is old or was systematised in the telling to Walker is argued; the underlying idea of wakan as a quality rather than a being is not in doubt.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "fate-time",
+    "preserver"
+   ]
+  },
+  {
+   "id": "inyan",
+   "name": "Inyan",
+   "sanskrit": "Inyan",
+   "category": "primordial",
+   "era": "The Beginning",
+   "role": "The rock, who was first and alone, and who drained himself out to have company",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/inyan.webp",
+   "epithets": [
+    "the rock",
+    "the first",
+    "Tunkan, the ancient one"
+   ],
+   "domains": [
+    "stone",
+    "the beginning",
+    "sacrifice",
+    "hardness"
+   ],
+   "symbols": [
+    "the stone",
+    "the red pipestone",
+    "the blue of the sky, which was his blood"
+   ],
+   "mount": null,
+   "abode": "Everywhere there is rock",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was soft, and he had all the power, and he gave nearly all of it away to make the earth.",
+   "longBio": "In the beginning Inyan was, and he was soft and shapeless and he held all power in his blood, and there was nothing else at all - only darkness, and Han the night. Being alone, he wanted something to be in relation to, and the only material available was himself. So he spread himself out as a great disc and drained his blood to give it life, and that disc is Maka, the earth. His blood ran out and became the waters, and because his blood is blue, the sky. What was left of him hardened and lost its powers, and that is why rock is hard and dry and cannot move.",
+   "variantTraditions": "Walker's version, from Sword and others. The theme of creation as self-depletion rather than command is consistent across the tellings.",
+   "storyIds": [
+    "the-rock-alone"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "supreme-source",
+    "earth-mother",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "maka",
+   "name": "Maka",
+   "sanskrit": "Maka",
+   "category": "primordial",
+   "era": "The Beginning",
+   "role": "The earth, who complained about the dark the moment she existed",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/maka.webp",
+   "epithets": [
+    "the earth",
+    "Unci Maka, grandmother earth"
+   ],
+   "domains": [
+    "the earth",
+    "growth",
+    "the ground",
+    "complaint"
+   ],
+   "symbols": [
+    "the ground itself",
+    "the pipestone quarry",
+    "the circle of the horizon"
+   ],
+   "mount": null,
+   "abode": "Underfoot",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first thing she did was object to being cold and in the dark, and Skan sorted it out.",
+   "longBio": "Maka came into being when Inyan drained himself into a disc, and her first act was to complain: she was cold, she was in the dark, and she wanted a light and a companion. Skan, the sky, adjudicated - which is what Skan does - and made Wi, the sun, and set the arrangement in order. She is grandmother earth in ordinary Lakota speech and is addressed as such, and the phrase Mitakuye Oyasin, all my relations, said at the end of prayers, is a statement that she and everything on her are family in a literal rather than a poetic sense.",
+   "variantTraditions": "Unci Maka, grandmother earth, is the everyday form and is still in constant use.",
+   "storyIds": [
+    "the-rock-alone"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "creator",
+    "preserver",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "skan",
+   "name": "Skan",
+   "sanskrit": "Skan",
+   "category": "primordial",
+   "era": "The Beginning",
+   "role": "Motion itself, who is the sky, and who judges everything because he sees everything",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/skan.webp",
+   "epithets": [
+    "the sky",
+    "that which moves",
+    "the judge"
+   ],
+   "domains": [
+    "motion",
+    "the sky",
+    "judgement",
+    "the soul",
+    "energy"
+   ],
+   "symbols": [
+    "the blue sky",
+    "everything that moves",
+    "the spirit given to each person"
+   ],
+   "mount": null,
+   "abode": "The sky, which is to say everywhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "The word means motion. The sky is not a place in this account, it is the fact that things move.",
+   "longBio": "Skan is the hardest of the four to translate, because the word means motion or energy rather than any object: he is that which moves, and the blue sky is his visible form. He is the highest authority in practice - the gods bring their disputes to him and he decides them, and it was he who tried Ite and the Wind and passed sentence. He gives each person their spirit, and he takes it back. Of everything in this pack he is the idea that translates least well into English and repays the effort most, because a sky god who is fundamentally a verb is not a common arrangement.",
+   "variantTraditions": "Walker's informants were consistent on Skan as judge and as motion; earlier and later summaries often flatten him into a generic sky father.",
+   "storyIds": [
+    "the-rock-alone",
+    "the-feast"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sky-thunder",
+    "supreme-source",
+    "death-judge",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "wi",
+   "name": "Wi",
+   "sanskrit": "Wi",
+   "category": "deity",
+   "era": "The Beginning",
+   "role": "The sun, made to answer Maka's complaint, and the Sun Dance is held for him",
+   "wikipedia": "Sun_Dance",
+   "portrait": "portraits/lakota/wi.webp",
+   "epithets": [
+    "the sun",
+    "the chief of the gods in the old order"
+   ],
+   "domains": [
+    "the sun",
+    "light",
+    "warmth",
+    "the buffalo",
+    "the Sun Dance"
+   ],
+   "symbols": [
+    "the sun",
+    "the sacred tree of the dance",
+    "the buffalo skull"
+   ],
+   "mount": null,
+   "abode": "The sky, by day",
+   "festivals": [],
+   "worship": "",
+   "bio": "He gave the great feast at which his wife was displaced, and it cost him.",
+   "longBio": "Wi was made when Maka complained of the cold and the dark, and he was the chief of the gods in the first order of things. He was married to Hanwi, the moon. At the great feast of the gods, Ite - the most beautiful of women, and ambitious - took Hanwi's place beside him, and he allowed it, and Skan tried the case. Hanwi was given the night and the right to hide her face for shame, which is why the moon has phases. Ite was given two faces. And Wi was made to lose his position as chief, which passed to Skan. He does not come out of the story well.",
+   "variantTraditions": "The Sun Dance, Wiwanyang Wacipi, is held in his honour and is the central public ceremony of the Lakota year.",
+   "storyIds": [
+    "the-feast"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "king-ruler",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "hanwi",
+   "name": "Hanwi",
+   "sanskrit": "Hanwi",
+   "category": "deity",
+   "era": "The Beginning",
+   "role": "The moon, who was humiliated at a feast and given the night to hide in",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/hanwi.webp",
+   "epithets": [
+    "the night sun",
+    "Wi's wife"
+   ],
+   "domains": [
+    "the moon",
+    "night",
+    "shame",
+    "the phases"
+   ],
+   "symbols": [
+    "the moon waxing and waning",
+    "the covered face"
+   ],
+   "mount": null,
+   "abode": "The sky, by night",
+   "festivals": [],
+   "worship": "",
+   "bio": "The moon's phases are her covering her face and uncovering it again.",
+   "longBio": "Hanwi was Wi's wife and had her place beside him until Ite took the seat, and Wi did not stop it. Skan judged the case and gave Hanwi her own domain - the night - and the right to conceal herself whenever she wished, so that she would not have to be seen. The waxing and waning is her doing exactly that. She keeps her position and loses her husband's company, which is a settlement rather than a punishment, and it is one of the few places in any mythology where the wronged party in a marriage is given something practical instead of consolation.",
+   "variantTraditions": "The moon-phase explanation is consistent across Walker's informants.",
+   "storyIds": [
+    "the-feast"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "fate-time",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "tate",
+   "name": "Tate",
+   "sanskrit": "Tate",
+   "category": "deity",
+   "era": "The Beginning",
+   "role": "The wind, whose wife was taken and who raised the four winds alone",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/tate.webp",
+   "epithets": [
+    "the wind",
+    "the father of the four directions"
+   ],
+   "domains": [
+    "wind",
+    "the four directions",
+    "the household of the winds"
+   ],
+   "symbols": [
+    "the four quarters",
+    "the lodge of the winds",
+    "the fifth son who has no direction"
+   ],
+   "mount": null,
+   "abode": "The lodge of the winds, at the edge of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "He had four sons who became the four directions, and one more who did not get one.",
+   "longBio": "Tate is the wind, and he was married to Ite before her ambition ruined everything. When she was banished he was left with their four sons, who were born prematurely because of it, and he raised them himself. Those four became the Four Winds and were sent out to establish the directions, and a fifth son, Yumni, the whirlwind, came later and got no direction of his own, which is why a whirlwind goes wherever it likes. The story is unusual in being about a single father with a difficult family situation, told at length and with some sympathy.",
+   "variantTraditions": "The journey of the four sons to establish the directions is one of the longest connected narratives in Walker's material.",
+   "storyIds": [
+    "the-feast"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "preserver",
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "four_winds",
+   "name": "The Four Winds",
+   "sanskrit": "Tate Topa",
+   "category": "deity",
+   "era": "The Beginning",
+   "role": "Four brothers sent out to fix the directions, and they argued about the order",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/four_winds.webp",
+   "epithets": [
+    "Yata the north",
+    "Eya the east",
+    "Yanpa the south",
+    "Okaga the west"
+   ],
+   "domains": [
+    "the four directions",
+    "the seasons",
+    "the order of things",
+    "precedence"
+   ],
+   "symbols": [
+    "the four colours",
+    "the four quarters of the circle",
+    "the pipe offered to each in turn"
+   ],
+   "mount": null,
+   "abode": "One at each quarter of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "The eldest behaved badly on the journey and was demoted, which is why the north is unpleasant.",
+   "longBio": "Tate's four sons were sent to establish the quarters of the world. Yata, the eldest, was quarrelsome and selfish on the journey and was demoted for it, losing his seniority to his younger brother Eya - which is why the north wind is cold and disagreeable and the east has precedence. Okaga, the youngest, got the south, which is the good direction, warm and associated with the road the spirits travel. The four are addressed in order in every ceremony and the pipe is offered to each in turn, along with the sky and the earth, which makes six.",
+   "variantTraditions": "The colours assigned to each direction vary between accounts and between Lakota bands; the order of address is more stable.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "fate-time",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "ite",
+   "name": "Anog Ite",
+   "sanskrit": "Anog Ite",
+   "category": "underworld",
+   "era": "The Beginning",
+   "role": "The most beautiful woman there was, given a second face nobody can look at",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/ite.webp",
+   "epithets": [
+    "Double Face Woman",
+    "Ite, before the sentence"
+   ],
+   "domains": [
+    "beauty",
+    "ambition",
+    "temptation",
+    "the two faces"
+   ],
+   "symbols": [
+    "one face lovely and one horrifying",
+    "the quillwork she teaches",
+    "the mirror"
+   ],
+   "mount": null,
+   "abode": "Banished, at the edge of things",
+   "festivals": [],
+   "worship": "",
+   "bio": "One side of her is the most beautiful face ever made and the other cannot be described.",
+   "longBio": "Ite was the daughter of the first man and woman and the most beautiful being in existence, married to Tate and mother of the winds, and Iktomi persuaded her that she could do better and should sit beside the sun. She took Hanwi's place at the feast. Skan's sentence was precise: she keeps her beauty, and she gets a second face on the other side of her head so terrible that anyone who sees it is unhinged by it, and she is separated from her husband and children. She is dangerous to young men afterwards, appearing beautiful from one side, and she is also the one who teaches women quillwork.",
+   "variantTraditions": "Sometimes conflated with Deer Woman, a related but distinct figure in Plains and Woodlands traditions.",
+   "storyIds": [
+    "the-feast"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "love-desire",
+    "primordial-adversary",
+    "wisdom-craft",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "iktomi",
+   "name": "Iktomi",
+   "sanskrit": "Iktomi",
+   "category": "hero",
+   "era": "The Beginning",
+   "role": "The spider, who is clever, and who is why everything went wrong",
+   "wikipedia": "Iktomi",
+   "portrait": "portraits/lakota/iktomi.webp",
+   "epithets": [
+    "Unktomi",
+    "the spider",
+    "the first son of Inyan"
+   ],
+   "domains": [
+    "trickery",
+    "language",
+    "spiders",
+    "causing trouble",
+    "being caught out"
+   ],
+   "symbols": [
+    "the spider",
+    "the web",
+    "the story that ends with him humiliated"
+   ],
+   "mount": null,
+   "abode": "Wherever there is somebody to fool",
+   "festivals": [],
+   "worship": "",
+   "bio": "He arranged the whole business at the feast, purely to see what would happen.",
+   "longBio": "Iktomi is Inyan's son and he is a spider and a man at once, and he invented language and naming - which is a considerable achievement for a figure whose main function is to ruin things. It was Iktomi who worked on Ite's vanity and set up the disaster at the feast, and he did it out of boredom and appetite for chaos. His own stories are different: in those he is greedy and lazy and lecherous, forms elaborate plans, and is defeated by his own stupidity in the last paragraph, which is the point. Lakota children were taught with him, and the lesson is generally what not to do.",
+   "variantTraditions": "Iktomi stories are still told and are the largest body of Lakota narrative; many are comic and were told in winter only.",
+   "storyIds": [
+    "the-feast"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "wisdom-craft",
+    "primordial-adversary",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "wohpe",
+   "name": "Wohpe",
+   "sanskrit": "Wohpe",
+   "category": "deity",
+   "era": "The Beginning",
+   "role": "Falling Star - beauty, peace and harmony, and she came down as a meteor",
+   "wikipedia": "Whope",
+   "portrait": "portraits/lakota/wohpe.webp",
+   "epithets": [
+    "the falling star",
+    "the beautiful one",
+    "the mediator"
+   ],
+   "domains": [
+    "peace",
+    "harmony",
+    "beauty",
+    "the pipe",
+    "mediation between gods and people"
+   ],
+   "symbols": [
+    "the meteor",
+    "the pipe",
+    "the sweetgrass"
+   ],
+   "mount": null,
+   "abode": "Between the sky and the people",
+   "festivals": [],
+   "worship": "",
+   "bio": "In several accounts she and White Buffalo Calf Woman are the same being.",
+   "longBio": "Wohpe is the daughter of Skan and one of the four Associate Gods, and she is what happens when things go well - peace, harmony, beauty, the pleasure of company. She came down to earth as a falling star and lived with Tate and his sons and kept his lodge while he raised them alone. She is the mediator: what passes between people and the wakan goes through her, and the pipe is hers. In a good many accounts she is the same being as White Buffalo Calf Woman, and the two are not always kept apart in the telling.",
+   "variantTraditions": "Walker treats Wohpe and Pte San Win as identified; other accounts keep them separate. Both readings are current.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "preserver",
+    "healer",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "white_buffalo_woman",
+   "name": "White Buffalo Calf Woman",
+   "sanskrit": "Pte San Win",
+   "category": "deity",
+   "era": "What She Brought",
+   "role": "She brought the pipe and the seven rites, and one of the two men who met her was reduced to bones",
+   "wikipedia": "White_Buffalo_Calf_Woman",
+   "portrait": "portraits/lakota/white_buffalo_woman.webp",
+   "epithets": [
+    "Pte San Win",
+    "the woman who brought the pipe"
+   ],
+   "domains": [
+    "the sacred pipe",
+    "the seven rites",
+    "the buffalo",
+    "right conduct"
+   ],
+   "symbols": [
+    "the pipe with a red stone bowl",
+    "the white buffalo calf she turned into",
+    "the four colours she rolled through"
+   ],
+   "mount": null,
+   "abode": "Came to the Lakota, and went",
+   "festivals": [],
+   "worship": "",
+   "bio": "Two hunters saw her. One thought what he thought, and there was nothing left of him but bones and snakes.",
+   "longBio": "Two young men out looking for game saw a woman coming toward them in white. One of them said what he was thinking about her, and was told to come forward, and a cloud covered them, and when it lifted there was nothing where he had stood but a skeleton with snakes in it. The other was told to go back to camp and prepare. She came four days later, brought the sacred pipe, taught the seven rites and what each was for, and went out of the camp - and as she went she rolled over four times and got up each time a buffalo of a different colour, and the last was white, and then she was gone. A pipe held to be that one is still kept.",
+   "variantTraditions": "The Sacred Calf Pipe is kept by a hereditary Keeper of the Lakota. The seven rites were published by Black Elk in 1953 with his consent.",
+   "storyIds": [
+    "she-came-into-the-camp"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "healer",
+    "supreme-source",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "canunpa",
+   "name": "The Sacred Pipe",
+   "sanskrit": "Canunpa Wakan",
+   "category": "primordial",
+   "era": "What She Brought",
+   "role": "The bowl is stone and the stem is wood, and joining them makes it a living thing",
+   "wikipedia": "Chanunpa",
+   "portrait": "portraits/lakota/canunpa.webp",
+   "epithets": [
+    "the canunpa",
+    "the pipe"
+   ],
+   "domains": [
+    "prayer",
+    "the binding of an agreement",
+    "smoke",
+    "truth"
+   ],
+   "symbols": [
+    "the red pipestone bowl",
+    "the wooden stem",
+    "the smoke rising"
+   ],
+   "mount": null,
+   "abode": "Carried, and kept wrapped",
+   "festivals": [],
+   "worship": "",
+   "bio": "You may lie in general. You may not lie with the pipe in your hands.",
+   "longBio": "The pipe is made in two parts kept separate - the bowl of red pipestone from the quarry in Minnesota, the stem of wood - and joining them makes it live, so it is only assembled to be used. The smoke carries what is said, and what is said over it is binding: agreements sworn on the pipe were held absolutely, and to lie holding it was not a sin so much as an impossibility, a thing that would come back on you. It is offered to the four directions, the sky and the earth. In the treaty period the pipe was smoked at negotiations, and the Lakota kept those agreements considerably better than the other party.",
+   "variantTraditions": "The pipestone quarry at Pipestone, Minnesota is still worked and access is reserved to Native people.",
+   "storyIds": [
+    "she-came-into-the-camp",
+    "the-badlands-bones"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "supreme-source",
+    "healer"
+   ]
+  },
+  {
+   "id": "inipi",
+   "name": "The Sweat Lodge",
+   "sanskrit": "Inipi",
+   "category": "primordial",
+   "era": "What She Brought",
+   "role": "A dome of bent willow, hot stones, water, and complete darkness",
+   "wikipedia": "Sweat_lodge",
+   "portrait": "portraits/lakota/inipi.webp",
+   "epithets": [
+    "the inipi",
+    "the stone-people lodge",
+    "the rite of purification"
+   ],
+   "domains": [
+    "purification",
+    "prayer",
+    "heat",
+    "the stones",
+    "rebirth"
+   ],
+   "symbols": [
+    "the willow frame",
+    "the glowing stones brought in",
+    "the door facing east"
+   ],
+   "mount": null,
+   "abode": "Beside every camp",
+   "festivals": [],
+   "worship": "",
+   "bio": "The stones are called the stone-people and are the oldest thing there; they were here first.",
+   "longBio": "The inipi is the first of the seven rites and the one done most often - before the others, before a hunt, before anything that matters. A dome of bent willow is covered, stones are heated in a fire outside and carried in, water is poured on them, and the door is shut, and it is completely dark and extremely hot, and there are songs and prayers in rounds. The stones are addressed as the stone-people and are the oldest beings present. Coming out is spoken of as being born. The rite was illegal in the United States for much of the twentieth century and was held anyway.",
+   "variantTraditions": "Native American religious practice was effectively banned from 1883 and not clearly protected until the American Indian Religious Freedom Act of 1978.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "healer",
+    "preserver",
+    "earth-mother",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "hanbleceya",
+   "name": "The Vision Quest",
+   "sanskrit": "Hanbleceya",
+   "category": "primordial",
+   "era": "What She Brought",
+   "role": "The word means crying for a vision, and that is a fair description of it",
+   "wikipedia": "Vision_quest",
+   "portrait": "portraits/lakota/hanbleceya.webp",
+   "epithets": [
+    "hanbleceya",
+    "crying for a dream"
+   ],
+   "domains": [
+    "vision",
+    "solitude",
+    "fasting",
+    "the finding of one's direction"
+   ],
+   "symbols": [
+    "the hill",
+    "the four days without food or water",
+    "the pipe held all that time"
+   ],
+   "mount": null,
+   "abode": "A hill, alone",
+   "festivals": [],
+   "worship": "",
+   "bio": "Four days on a hilltop with no food and no water, and there is no guarantee of anything.",
+   "longBio": "A person seeking direction goes out, prepared by a holy man and by the sweat lodge, to a hill, and stays there alone for up to four days with no food and no water, holding a pipe and praying continuously. What comes, if anything, is theirs, and is interpreted afterwards with a holy man's help, and may set the course of a life - a person may be given a song, an obligation, a name, or a role such as the heyoka. It is not guaranteed to work. What the vision contained is generally not for public repetition, and this pack does not reproduce any.",
+   "variantTraditions": "Specific vision content is regarded as belonging to the person who received it. Nothing of that kind is included here.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sage-seer",
+    "healer",
+    "fate-time",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "sun_dance",
+   "name": "The Sun Dance",
+   "sanskrit": "Wiwanyang Wacipi",
+   "category": "primordial",
+   "era": "What She Brought",
+   "role": "The central ceremony, banned by the United States for over fifty years, and held anyway",
+   "wikipedia": "Sun_Dance",
+   "portrait": "portraits/lakota/sun_dance.webp",
+   "epithets": [
+    "Wiwanyang Wacipi, gazing at the sun dance"
+   ],
+   "domains": [
+    "sacrifice",
+    "the community",
+    "the tree",
+    "endurance",
+    "renewal"
+   ],
+   "symbols": [
+    "the cottonwood tree brought in as a person",
+    "the circle of the arbour",
+    "the buffalo skull"
+   ],
+   "mount": null,
+   "abode": "The camp circle, in midsummer",
+   "festivals": [],
+   "worship": "",
+   "bio": "The United States banned it in 1883. It was held in secret until 1978 and openly since.",
+   "longBio": "The Sun Dance is the great annual ceremony, held at midsummer when the bands come together. A cottonwood is chosen, addressed, felled with ceremony and set at the centre, and the dancers dance around it for four days without food or water, gazing at the sun, and some are pierced and tethered to the tree and dance until the flesh gives way. It is done on behalf of the people, not for the dancer. The federal government prohibited it in 1883 and prosecuted it for decades; it was held in remote places in secret throughout, and has been public again since 1978.",
+   "variantTraditions": "Photography and recording at a Sun Dance is generally forbidden, and this pack carries no depiction of the piercing.",
+   "storyIds": [
+    "the-buffalo"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "preserver",
+    "hero-champion",
+    "sun",
+    "healer"
+   ]
+  },
+  {
+   "id": "wanagi",
+   "name": "The Spirit Road",
+   "sanskrit": "Wanagi Tacanku",
+   "category": "underworld",
+   "era": "What She Brought",
+   "role": "The Milky Way, with an old woman partway along it who checks who you are",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/wanagi.webp",
+   "epithets": [
+    "the ghost road",
+    "the Milky Way",
+    "the wanagi, the spirit"
+   ],
+   "domains": [
+    "the dead",
+    "the journey",
+    "the Milky Way",
+    "judgement of a mild kind"
+   ],
+   "symbols": [
+    "the Milky Way",
+    "the old woman on the road",
+    "the ear tattoo she looks for"
+   ],
+   "mount": null,
+   "abode": "The night sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "She looks for a particular tattoo. Those without it are pushed off and wander back.",
+   "longBio": "The spirit leaves the body and travels south along the Wanagi Tacanku, the spirit road, which is the Milky Way. Partway along sits an old woman who examines each spirit as it comes, looking for a mark - in several accounts a tattoo on the wrist or the forehead - and lets it pass if it is there. Those without it are pushed off the road and return to wander about the earth as ghosts, which is a nuisance rather than a damnation. There is no torment anywhere in this and no hell; the worst outcome is being sent back and not settling.",
+   "variantTraditions": "The tattoo detail is recorded by Walker and by Densmore; the location of the mark varies.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "fate-time",
+    "preserver"
+   ]
+  },
+  {
+   "id": "wakinyan",
+   "name": "The Wakinyan",
+   "sanskrit": "Wakinyan",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "The Thunderbirds - and anyone who dreams of them must become a contrary",
+   "wikipedia": "Thunderbird_(mythology)",
+   "portrait": "portraits/lakota/wakinyan.webp",
+   "epithets": [
+    "the thunder beings",
+    "the winged ones"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "the west",
+    "the destruction of the Unktehi",
+    "the obligation on dreamers"
+   ],
+   "symbols": [
+    "the zigzag",
+    "the eye that flashes",
+    "the nest in the mountains of the west"
+   ],
+   "mount": null,
+   "abode": "The west, in the Paha Sapa",
+   "festivals": [],
+   "worship": "",
+   "bio": "You do not choose this dream, and having had it you have no choice about what follows.",
+   "longBio": "The Wakinyan are the thunder beings of the west, enormous, with no shape that stays still - described as having no feet, or four wings, or an eye that opens as lightning - and they are pure violence in the service of order: their business is hunting the Unktehi, the water monsters, and keeping them down. Their nest is in the Black Hills. To dream of them is not an honour anyone seeks, because it carries an absolute obligation: the dreamer must become a heyoka, and must live backwards, in public, for the rest of their life.",
+   "variantTraditions": "The Wakinyan-Unktehi conflict is the Lakota version of a thunderbird-and-water-monster pattern found across much of North America.",
+   "storyIds": [
+    "the-thunder-dream",
+    "the-badlands-bones"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sky-thunder",
+    "divine-beast",
+    "war",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "heyoka",
+   "name": "The Heyoka",
+   "sanskrit": "Heyoka",
+   "category": "hero",
+   "era": "What Is Out There",
+   "role": "The contrary: he says the opposite, does the opposite, and it is not a joke",
+   "wikipedia": "Heyoka",
+   "portrait": "portraits/lakota/heyoka.webp",
+   "epithets": [
+    "the contrary",
+    "the thunder dreamer",
+    "the sacred clown"
+   ],
+   "domains": [
+    "reversal",
+    "laughter",
+    "the obligation of the dream",
+    "healing"
+   ],
+   "symbols": [
+    "riding backwards",
+    "washing in dirt",
+    "complaining of heat in winter",
+    "the boiling pot"
+   ],
+   "mount": null,
+   "abode": "In the camp, at ceremonies",
+   "festivals": [],
+   "worship": "",
+   "bio": "He plunges his bare arms into boiling water and pulls the meat out, and complains that it is cold.",
+   "longBio": "A person who dreams of the Wakinyan must become heyoka or be struck by lightning, and it is not a choice. A heyoka does everything backwards - rides facing the tail, says yes for no, shivers in summer and strips in winter, washes with dirt - and is expected to be funny, and to be uncomfortable to be around. The function is serious: the heyoka breaks up the solemnity of ceremony at the moment it is most needed, and by doing everything wrong makes visible what everyone had stopped noticing. Some are also healers, and the boiling-water demonstration is theirs.",
+   "variantTraditions": "The obligation is real and is still observed. Heyoka are not performers who chose the role.",
+   "storyIds": [
+    "the-thunder-dream"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "healer",
+    "sage-seer",
+    "sky-thunder"
+   ]
+  },
+  {
+   "id": "unktehi",
+   "name": "The Unktehi",
+   "sanskrit": "Unktehi",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "Water monsters under the rivers, hunted by the thunder and beaten once already",
+   "wikipedia": "Unhcegila",
+   "portrait": "portraits/lakota/unktehi.webp",
+   "epithets": [
+    "Unhcegila",
+    "the water monster",
+    "the horned serpent"
+   ],
+   "domains": [
+    "rivers",
+    "floods",
+    "the underneath",
+    "the fossil bones in the Badlands"
+   ],
+   "symbols": [
+    "the horn",
+    "the flood",
+    "the bones in the Badlands, which are hers"
+   ],
+   "mount": null,
+   "abode": "The Missouri and under the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "The fossil beds of the Badlands were explained as the bones of the ones the Thunderbirds killed.",
+   "longBio": "The Unktehi live under the rivers and the lakes, are horned and enormous, and cause floods, and the Wakinyan exist largely to hunt them. In the great account, the Unktehi grew arrogant and flooded the world to destroy the people, and the Thunderbirds came and dried the water and burned them up, and the enormous fossil bones lying exposed in the Badlands are what is left. That is an explanation of a real and extremely striking landscape - the Badlands are one of the richest fossil beds in North America - and it was arrived at by people looking at the same bones and reasoning about them.",
+   "variantTraditions": "The pipestone at the quarry is also explained as the blood of the people who died in that flood, which links the monster story directly to the pipe.",
+   "storyIds": [
+    "the-badlands-bones"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary",
+    "sea-waters",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "tatanka",
+   "name": "Tatanka",
+   "sanskrit": "Tatanka",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "The buffalo - food, shelter, tools, thread and clothing, and a relative",
+   "wikipedia": "American_bison",
+   "portrait": "portraits/lakota/tatanka.webp",
+   "epithets": [
+    "the buffalo",
+    "Pte, the buffalo people",
+    "the one who gives everything"
+   ],
+   "domains": [
+    "the buffalo",
+    "food",
+    "shelter",
+    "generosity",
+    "the hunt"
+   ],
+   "symbols": [
+    "the skull set facing east at ceremony",
+    "the hide lodge",
+    "the white buffalo"
+   ],
+   "mount": null,
+   "abode": "The plains, when there were sixty million of them",
+   "festivals": [],
+   "worship": "",
+   "bio": "The United States understood the connection perfectly and destroyed the herds on purpose.",
+   "longBio": "The buffalo was the whole material basis of Plains life - meat, the lodge cover, the robe, sinew for thread, bone for tools, horn for cups, dung for fire - and it was also a relative, addressed as such, hunted with ceremony and thanked. White Buffalo Calf Woman came as one. The herds numbered somewhere in the tens of millions and were reduced to a few hundred animals in about thirty years, with the explicit encouragement of the US Army, because destroying them was understood by both sides to be the way to end Plains independence, and it worked.",
+   "variantTraditions": "General Sheridan is recorded as arguing that buffalo hunters should be given medals. The connection was not incidental to the policy.",
+   "storyIds": [
+    "she-came-into-the-camp",
+    "the-year-the-stars-fell",
+    "the-buffalo"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "earth-mother",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "sunka_wakan",
+   "name": "Sunka Wakan",
+   "sanskrit": "Sunka Wakan",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "The horse - literally the sacred dog, because there was no other word for it",
+   "wikipedia": "Horses_in_Native_American_cultures",
+   "portrait": "portraits/lakota/sunka_wakan.webp",
+   "epithets": [
+    "the sacred dog",
+    "the holy dog"
+   ],
+   "domains": [
+    "horses",
+    "war",
+    "wealth",
+    "speed",
+    "the transformation of Plains life"
+   ],
+   "symbols": [
+    "the painted horse",
+    "the hoofprint mark for a raid",
+    "the herd as wealth"
+   ],
+   "mount": null,
+   "abode": "The Plains, from about 1700",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Lakota had them for roughly a hundred and seventy years, and became what they are with them.",
+   "longBio": "Horses reached the Northern Plains in the early eighteenth century, out of the Spanish southwest, and the Lakota word for one is sunka wakan, sacred dog - because the dog was the animal that had carried loads before, and there was no other word available. The horse transformed everything within two generations: hunting, warfare, wealth, mobility, the size of a lodge. The classic Plains culture that everyone pictures existed for about a hundred and seventy years, from the arrival of the horse to the end of the wars, which is a shorter run than most people assume.",
+   "variantTraditions": "Whether some horses survived from earlier Spanish escapes is debated; the transformative arrival is firmly eighteenth century.",
+   "storyIds": [
+    "the-buffalo"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "war",
+    "wealth-fortune",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "stone_boy",
+   "name": "Stone Boy",
+   "sanskrit": "Inyan Hoksila",
+   "category": "hero",
+   "era": "What Is Out There",
+   "role": "Born from a swallowed pebble, made of rock, and he brought his uncles back",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/stone_boy.webp",
+   "epithets": [
+    "the stone boy",
+    "the one who cannot be hurt"
+   ],
+   "domains": [
+    "stone",
+    "invulnerability",
+    "the rescue of the uncles",
+    "the sweat lodge"
+   ],
+   "symbols": [
+    "the pebble his mother swallowed",
+    "his stone body",
+    "the first sweat lodge"
+   ],
+   "mount": null,
+   "abode": "A camp with ten brothers in it",
+   "festivals": [],
+   "worship": "",
+   "bio": "He built the first sweat lodge to bring his uncles back to life, which is where the rite comes from.",
+   "longBio": "A woman living with her ten brothers swallowed a smooth pebble and bore a son who was made of stone and could not be injured. One by one the brothers went out and did not return, taken by an old woman, and when Stone Boy grew he went after them, killed her, and found them dead. To bring them back he built a lodge, heated stones, and made steam, and sang - and they came out alive. The rite of the sweat lodge is traced to this in a number of accounts, which puts the origin of the most-used Lakota ceremony in a boy going to get his uncles back.",
+   "variantTraditions": "The story is widespread across the Plains and the Great Basin, with the sweat-lodge origin specifically Lakota.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "healer",
+    "divine-beast",
+    "preserver"
+   ]
+  },
+  {
+   "id": "fallen_star",
+   "name": "Fallen Star",
+   "sanskrit": "Wicahpi Hinhpaya",
+   "category": "hero",
+   "era": "What Is Out There",
+   "role": "His mother was a woman who married a star and dug where she was told not to",
+   "wikipedia": "Lakota_mythology",
+   "portrait": "portraits/lakota/fallen_star.webp",
+   "epithets": [
+    "the star boy",
+    "the son of the star"
+   ],
+   "domains": [
+    "stars",
+    "the fall from the sky",
+    "the rescue of villages",
+    "the turnip"
+   ],
+   "symbols": [
+    "the prairie turnip she pulled up",
+    "the hole in the sky",
+    "the rawhide rope"
+   ],
+   "mount": null,
+   "abode": "The sky, then the earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "She pulled up a turnip, and there was a hole, and through it she could see her old camp.",
+   "longBio": "Two young women looking at the sky wished aloud for star husbands, and in the morning they were in the sky country and married. One was told never to dig up a particular plant. She dug it, and it came up, and where it had been there was a hole through which she could see the camp she came from, far below, and she was so homesick that she plaited a rope and climbed down - and it was too short, and she fell and was killed, and her baby survived on her body. That child is Fallen Star, who was raised by an old woman and grew up to travel from village to village putting things right.",
+   "variantTraditions": "The star-husband story is one of the most widely distributed narratives in North America; the Fallen Star cycle that follows is particularly developed among the Lakota.",
+   "storyIds": [
+    "the-hole-in-the-sky"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sage-seer",
+    "fate-time",
+    "preserver"
+   ]
+  },
+  {
+   "id": "winter_count",
+   "name": "The Winter Counts",
+   "sanskrit": "Waniyetu Wowapi",
+   "category": "primordial",
+   "era": "What Is Out There",
+   "role": "One picture per year on a hide, and the keeper could recite the whole thing",
+   "wikipedia": "Winter_count",
+   "portrait": "portraits/lakota/winter_count.webp",
+   "epithets": [
+    "waniyetu wowapi",
+    "the year drawings"
+   ],
+   "domains": [
+    "history",
+    "memory",
+    "the year",
+    "the naming of a year by its event"
+   ],
+   "symbols": [
+    "the spiral of small pictures on hide",
+    "the keeper",
+    "the year named for one thing"
+   ],
+   "mount": null,
+   "abode": "Kept by a named keeper in each band",
+   "festivals": [],
+   "worship": "",
+   "bio": "1833 is the year the stars fell, and it appears on nearly every count, because it happened.",
+   "longBio": "A winter count is a hide or later a cloth or a ledger page carrying one small picture for each year, spiralling outward, each standing for the single most memorable thing that happened between first snows. The keeper knew the sequence and could recite it, and the count was consulted to date events. They are genuine historical records and can be cross-checked: the great Leonid meteor storm of the night of 12 November 1833 appears on almost every surviving count as a year of falling stars, and it is independently documented, which anchors the whole sequence.",
+   "variantTraditions": "Dozens survive, kept by named men - Lone Dog, American Horse, Battiste Good and others - and several are online at the Smithsonian.",
+   "storyIds": [
+    "the-year-the-stars-fell"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "preserver",
+    "fate-time"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "inyan",
+   "to": "maka",
+   "type": "parent",
+   "note": "He drained himself out to make her, and went hard doing it"
+  },
+  {
+   "from": "inyan",
+   "to": "wakan_tanka",
+   "type": "ally",
+   "note": "The first of the four Superior Gods"
+  },
+  {
+   "from": "maka",
+   "to": "skan",
+   "type": "devotee",
+   "note": "She complained of the cold and the dark, and he saw to it"
+  },
+  {
+   "from": "skan",
+   "to": "wi",
+   "type": "parent",
+   "note": "Made to answer her complaint"
+  },
+  {
+   "from": "maka",
+   "to": "wi",
+   "type": "ally",
+   "note": "The light she asked for"
+  },
+  {
+   "from": "wi",
+   "to": "hanwi",
+   "type": "consort",
+   "note": "Until the feast, at which he let her seat be taken"
+  },
+  {
+   "from": "hanwi",
+   "to": "wi",
+   "type": "enemy",
+   "note": "She was given the night and the right to hide her face"
+  },
+  {
+   "from": "wi",
+   "to": "ite",
+   "type": "enemy",
+   "note": "She took the seat, and he allowed it, and it cost him the chieftainship"
+  },
+  {
+   "from": "skan",
+   "to": "ite",
+   "type": "enemy",
+   "note": "He tried the case and gave her a second face"
+  },
+  {
+   "from": "skan",
+   "to": "wi",
+   "type": "enemy",
+   "note": "And took the chieftainship off him"
+  },
+  {
+   "from": "iktomi",
+   "to": "ite",
+   "type": "guru",
+   "note": "He worked on her vanity for the entertainment of it"
+  },
+  {
+   "from": "iktomi",
+   "to": "inyan",
+   "type": "parent",
+   "note": "The rock's son, and the ruin of everything"
+  },
+  {
+   "from": "ite",
+   "to": "tate",
+   "type": "consort",
+   "note": "Married, and separated by the sentence"
+  },
+  {
+   "from": "tate",
+   "to": "four_winds",
+   "type": "parent",
+   "note": "Four sons, born early because of what happened to their mother"
+  },
+  {
+   "from": "ite",
+   "to": "four_winds",
+   "type": "parent",
+   "note": "And she does not get to see them"
+  },
+  {
+   "from": "tate",
+   "to": "wohpe",
+   "type": "ally",
+   "note": "She kept his lodge while he raised them alone"
+  },
+  {
+   "from": "skan",
+   "to": "wohpe",
+   "type": "parent",
+   "note": "The falling star, and what happens when things go well"
+  },
+  {
+   "from": "wohpe",
+   "to": "white_buffalo_woman",
+   "type": "sibling",
+   "note": "In several accounts they are simply the same being"
+  },
+  {
+   "from": "wohpe",
+   "to": "canunpa",
+   "type": "guru",
+   "note": "The pipe is hers"
+  },
+  {
+   "from": "white_buffalo_woman",
+   "to": "canunpa",
+   "type": "guru",
+   "note": "She brought it, and taught what to do with it"
+  },
+  {
+   "from": "white_buffalo_woman",
+   "to": "inipi",
+   "type": "guru",
+   "note": "The first of the seven rites"
+  },
+  {
+   "from": "white_buffalo_woman",
+   "to": "hanbleceya",
+   "type": "guru",
+   "note": "And the second"
+  },
+  {
+   "from": "white_buffalo_woman",
+   "to": "sun_dance",
+   "type": "guru",
+   "note": "And the greatest of them"
+  },
+  {
+   "from": "white_buffalo_woman",
+   "to": "tatanka",
+   "type": "sibling",
+   "note": "She went out of the camp and got up a white buffalo"
+  },
+  {
+   "from": "canunpa",
+   "to": "inipi",
+   "type": "ally",
+   "note": "The pipe is carried into it"
+  },
+  {
+   "from": "canunpa",
+   "to": "hanbleceya",
+   "type": "ally",
+   "note": "And held on the hill for four days"
+  },
+  {
+   "from": "inipi",
+   "to": "hanbleceya",
+   "type": "ally",
+   "note": "You go into the lodge before you go up the hill"
+  },
+  {
+   "from": "inipi",
+   "to": "stone_boy",
+   "type": "devotee",
+   "note": "He built the first one to bring his uncles back"
+  },
+  {
+   "from": "stone_boy",
+   "to": "inyan",
+   "type": "devotee",
+   "note": "Born of a swallowed pebble, and made of rock"
+  },
+  {
+   "from": "sun_dance",
+   "to": "wi",
+   "type": "devotee",
+   "note": "Held for the sun, at midsummer, when the bands come together"
+  },
+  {
+   "from": "sun_dance",
+   "to": "tatanka",
+   "type": "ally",
+   "note": "The skull is set at the centre facing east"
+  },
+  {
+   "from": "wanagi",
+   "to": "skan",
+   "type": "devotee",
+   "note": "He gives the spirit and he takes it back"
+  },
+  {
+   "from": "wanagi",
+   "to": "maka",
+   "type": "ally",
+   "note": "Those turned off the road wander about on her"
+  },
+  {
+   "from": "wakinyan",
+   "to": "unktehi",
+   "type": "enemy",
+   "note": "Their whole business is keeping them down"
+  },
+  {
+   "from": "unktehi",
+   "to": "wakinyan",
+   "type": "enemy",
+   "note": "And the Badlands bones are what came of the last round"
+  },
+  {
+   "from": "wakinyan",
+   "to": "heyoka",
+   "type": "guru",
+   "note": "Dream of them and you have no choice about the rest of your life"
+  },
+  {
+   "from": "heyoka",
+   "to": "wakinyan",
+   "type": "devotee",
+   "note": "Live backwards in public, or be struck"
+  },
+  {
+   "from": "heyoka",
+   "to": "iktomi",
+   "type": "sibling",
+   "note": "Two ways of being funny, and only one of them chose it"
+  },
+  {
+   "from": "unktehi",
+   "to": "canunpa",
+   "type": "guru",
+   "note": "The red pipestone is said to be the blood of the drowned"
+  },
+  {
+   "from": "unktehi",
+   "to": "maka",
+   "type": "enemy",
+   "note": "They flooded her to be rid of the people"
+  },
+  {
+   "from": "tatanka",
+   "to": "sunka_wakan",
+   "type": "sibling",
+   "note": "One gave everything, and the other made it possible to catch"
+  },
+  {
+   "from": "tatanka",
+   "to": "maka",
+   "type": "devotee",
+   "note": "Hers, and hunted with permission"
+  },
+  {
+   "from": "sunka_wakan",
+   "to": "winter_count",
+   "type": "ally",
+   "note": "Raids and horse-taking are much of what a year gets named for"
+  },
+  {
+   "from": "winter_count",
+   "to": "wakan_tanka",
+   "type": "devotee",
+   "note": "One picture a year, and the keeper knew the sequence"
+  },
+  {
+   "from": "winter_count",
+   "to": "fallen_star",
+   "type": "ally",
+   "note": "1833, the year the stars fell, is on nearly every one"
+  },
+  {
+   "from": "fallen_star",
+   "to": "wi",
+   "type": "sibling",
+   "note": "Sky people, and one of them came down the hard way"
+  },
+  {
+   "from": "fallen_star",
+   "to": "iktomi",
+   "type": "enemy",
+   "note": "He goes village to village putting right what has gone wrong"
+  },
+  {
+   "from": "stone_boy",
+   "to": "fallen_star",
+   "type": "sibling",
+   "note": "Two heroes who go and fetch people back"
+  },
+  {
+   "from": "ite",
+   "to": "wohpe",
+   "type": "enemy",
+   "note": "Vanity, and the thing vanity is not"
+  },
+  {
+   "from": "iktomi",
+   "to": "wakan_tanka",
+   "type": "enemy",
+   "note": "He invented naming, and used it to make trouble"
+  },
+  {
+   "from": "four_winds",
+   "to": "wanagi",
+   "type": "ally",
+   "note": "The road runs south, which is Okaga's"
+  },
+  {
+   "from": "four_winds",
+   "to": "canunpa",
+   "type": "ally",
+   "note": "The pipe is offered to each in turn, and then the sky and the earth"
+  },
+  {
+   "from": "wakinyan",
+   "to": "skan",
+   "type": "devotee",
+   "note": "One of the four Associate Gods, in the west"
+  },
+  {
+   "from": "hanwi",
+   "to": "wanagi",
+   "type": "ally",
+   "note": "The road is easiest seen at night"
+  },
+  {
+   "from": "tatanka",
+   "to": "sun_dance",
+   "type": "devotee",
+   "note": "The dance is done on behalf of the people, and the buffalo is present"
+  },
+  {
+   "from": "heyoka",
+   "to": "sun_dance",
+   "type": "ally",
+   "note": "He breaks the solemnity at the point where it is most needed"
+  }
+ ]
+}

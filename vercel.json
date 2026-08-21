@@ -118,6 +118,10 @@
    "destination": "/raven/index.html"
   },
   {
+   "source": "/lakota/:path*",
+   "destination": "/lakota/index.html"
+  },
+  {
    "source": "/polynesian/:path*",
    "destination": "/polynesian/index.html"
   },
