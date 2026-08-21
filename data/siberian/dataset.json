@@ -1,0 +1,1473 @@
+{
+ "title": "Siberian",
+ "description": "Turkic, Mongol and the northern forest: the eternal blue sky on a stone from 732, and the practice the word shaman actually comes from.",
+ "generated": "2026-08-21",
+ "sources": [
+  "The Orkhon inscriptions (732 CE) - the oldest Turkic text, invoking Tengri",
+  "M. A. Czaplicka, Aboriginal Siberia (1914) - a compilation of the Russian ethnographic literature",
+  "Uno Holmberg (Harva), Finno-Ugric and Siberian Mythology (1927)",
+  "The Olonkho, the Yakut epic cycle, on the UNESCO Intangible Cultural Heritage list",
+  "Mircea Eliade, Shamanism (1951) - hugely influential, and criticised since for flattening enormous regional variation into one system. Used here with that in mind",
+  "Note: Soviet policy suppressed shamanic practice for sixty years. What exists now is in places a revival from books rather than an unbroken line, and the pack says so"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/siberian/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "czaplicka": {
+   "t": "Aboriginal Siberia: A Study in Social Anthropology",
+   "tr": "Marie Antoinette Czaplicka, 1914",
+   "u": "https://archive.org/details/aboriginalsiberi00czapuoft"
+  },
+  "harva": {
+   "t": "Finno-Ugric and Siberian Mythology",
+   "tr": "Uno Holmberg (Harva), 1927",
+   "u": "https://archive.org/details/mythologyofallra04grayuoft"
+  },
+  "eliade": {
+   "t": "Shamanism: Archaic Techniques of Ecstasy",
+   "tr": "Mircea Eliade, 1951 - influential, and to be read critically",
+   "u": "https://archive.org/details/shamanismarchaic0000elia"
+  },
+  "olonkho": {
+   "t": "Olonkho: Nurgun Botur the Swift",
+   "tr": "Platon Oyunsky's Yakut text, 1930s",
+   "u": "https://en.wikipedia.org/wiki/Olonkho"
+  },
+  "orkhon": {
+   "t": "The Orkhon Inscriptions",
+   "tr": "Erected 732 CE - the oldest Turkic writing",
+   "u": "https://en.wikipedia.org/wiki/Orkhon_inscriptions"
+  }
+ },
+ "meta": {
+  "id": "siberian",
+  "label": "Siberian",
+  "sublabel": "Turkic, Mongol & the North",
+  "accent": "#8fa8b8",
+  "root": "tengri"
+ },
+ "profile": {
+  "cosmicNature": "Three worlds on a vertical axis with a tree or a pole running through them. Upper world for the sky powers, middle world for people and for the owners of places, lower world for the dead and for whatever took your soul. The shaman is the one who moves between them, and the way up and down is the tree, the smoke hole, or the notches cut into a post.",
+  "natureOfDivinity": "Tengri at the top, who is the sky itself and is not much described. Below, an owner for everything: every river, mountain, pass, spring and patch of forest has a master who must be acknowledged. And below that, the dead, and the abaasy or their equivalents, who cause illness by taking a soul. Almost none of this is worship in the temple sense; it is negotiation with local proprietors.",
+  "afterlife": "Downward, generally, and not attractive. The lower world in the Yakut account is a cold miserable place under a dim sun. More practically, the dead are a problem for the living: a soul that does not go properly stays and causes illness, and a shaman may have to escort it. Some peoples exposed the dead in trees rather than burying them, on the reasoning that the ground belongs to somebody else.",
+  "systemMechanism": "The drum, and the journey. A shaman is chosen rather than volunteering - usually by a long sickness that only lifts on acceptance - and is then dismembered and reassembled in a vision by the spirits, which is described in the same terms across an enormous area. In the ceremony he drums, sings, takes on helper spirits, and leaves: he travels up or down, finds who has the patient's soul, argues or fights for it, and brings it back.",
+  "canonTexts": "Nothing written from the inside until very recently. The Orkhon inscriptions of 732 invoke Tengri and are the oldest Turkic text. Everything else was recorded by outsiders - Russian exiles, ethnographers and, oddly, a great many political prisoners with time on their hands - and the great Yakut epic cycle, the Olonkho, was written down only from the nineteenth century, having been performed from memory in sessions lasting days."
+ },
+ "hierarchy": [
+  {
+   "title": "The Sky",
+   "blurb": "Tengri is the eternal blue sky, invoked on a stone in Mongolia in 732 - the oldest Turkic writing there is - and by Genghis Khan five centuries later, and it is still the ordinary Turkish word for God. Below it every river, mountain and pass has an owner who has to be acknowledged.",
+   "memberIds": [
+    "tengri",
+    "ulgen",
+    "erlik",
+    "umay",
+    "yer_sub",
+    "ovoo"
+   ],
+   "connectorCaption": "And the person whose job is to travel between the levels"
+  },
+  {
+   "title": "The Journey",
+   "blurb": "The word shaman is Evenki and this is where it comes from. Nobody volunteers: you are chosen by a sickness that only lifts when you accept, and in the vision that comes with it the spirits take you apart and count your bones. Then you get a drum, which is not an instrument but a horse.",
+   "memberIds": [
+    "shaman",
+    "dismemberment",
+    "drum",
+    "costume",
+    "world_tree",
+    "ongon"
+   ],
+   "connectorCaption": "Across a region holding a great many different peoples"
+  },
+  {
+   "title": "The Peoples",
+   "blurb": "The Yakut split the world sharply into a white side approached with mare's milk and a black side approached with blood, with two kinds of shaman who may not do each other's work. And an epic of thirty-six thousand lines performed alone, from memory, over several nights.",
+   "memberIds": [
+    "aiyy",
+    "abaasy",
+    "nurgun",
+    "olonkho",
+    "bear",
+    "wolf",
+    "reindeer",
+    "suppression"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "sky",
+   "label": "The Sky",
+   "memberIds": [
+    "tengri",
+    "ulgen",
+    "umay",
+    "yer_sub"
+   ]
+  },
+  {
+   "id": "below",
+   "label": "Below",
+   "memberIds": [
+    "erlik",
+    "abaasy",
+    "suppression"
+   ]
+  },
+  {
+   "id": "practice",
+   "label": "The Practice",
+   "memberIds": [
+    "shaman",
+    "drum",
+    "costume",
+    "dismemberment",
+    "ongon"
+   ]
+  },
+  {
+   "id": "axis",
+   "label": "The Axis",
+   "memberIds": [
+    "world_tree",
+    "ovoo",
+    "tengri",
+    "erlik"
+   ]
+  },
+  {
+   "id": "sakha",
+   "label": "The Sakha",
+   "memberIds": [
+    "aiyy",
+    "abaasy",
+    "nurgun",
+    "olonkho"
+   ]
+  },
+  {
+   "id": "animals",
+   "label": "The Animals",
+   "memberIds": [
+    "bear",
+    "wolf",
+    "reindeer"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "above-the-blue-sky",
+   "title": "Above Was the Blue Sky",
+   "era": "The Sky",
+   "cast": [
+    "tengri",
+    "yer_sub",
+    "umay"
+   ],
+   "summary": "The Orkhon inscriptions were cut into stone in Mongolia in 732 to commemorate two Gokturk princes, and they are the earliest Turkic writing that exists. They open by saying that when the blue sky above and the brown earth below had been made, between the two of them the sons of men were created. Tengri, Umay and the sacred earth-and-water are all named in them. Five hundred years later Genghis Khan told foreign rulers in writing that his authority came from the eternal sky, and used the same word. The word is still the ordinary Turkish for God, and Tengrism is now a live revival movement in several Turkic republics. Very little theology has ever been attached to it, and it has outlasted a great deal that had more.",
+   "sources": [
+    {
+     "book": "The Orkhon Inscriptions",
+     "translation": "Erected 732 CE - the oldest Turkic writing",
+     "location": "The Kul Tigin inscription",
+     "url": "https://en.wikipedia.org/wiki/Orkhon_inscriptions"
+    }
+   ]
+  },
+  {
+   "id": "the-bones-counted",
+   "title": "They Took Him Apart and Counted",
+   "era": "The Journey",
+   "cast": [
+    "dismemberment",
+    "shaman"
+   ],
+   "summary": "The candidate falls ill and cannot be cured, and in the visions that come with it he is taken by the spirits and dismembered: the flesh stripped or boiled from the bones, the head set aside to watch, the bones counted one by one. Sometimes an organ is exchanged, or crystals are put into the body. If a bone is found missing the making cannot proceed and he is sent to find it or a substitute is supplied. Then he is reassembled with capacities he did not have, and the illness lifts, and he is a shaman. The same account, with local detail differing and the structure identical, is given by Nenets, Yakut, Buryat, Evenki and Tuvan people who had no contact with one another.",
+   "sources": [
+    {
+     "book": "Aboriginal Siberia: A Study in Social Anthropology",
+     "translation": "Marie Antoinette Czaplicka, 1914",
+     "location": "The shaman's calling",
+     "url": "https://archive.org/details/aboriginalsiberi00czapuoft"
+    },
+    {
+     "book": "Shamanism: Archaic Techniques of Ecstasy",
+     "translation": "Mircea Eliade, 1951 - influential, and to be read critically",
+     "location": "Initiatory dismemberment",
+     "url": "https://archive.org/details/shamanismarchaic0000elia"
+    }
+   ]
+  },
+  {
+   "id": "the-drum-is-a-horse",
+   "title": "Bringing the Drum to Life",
+   "era": "The Journey",
+   "cast": [
+    "drum",
+    "shaman",
+    "world_tree",
+    "reindeer"
+   ],
+   "summary": "A new drum cannot simply be made and used. It has to be enlivened, in a ceremony of its own, during which the shaman travels back to the tree the frame was cut from and to the animal whose skin is stretched over it, and obtains their agreement to the arrangement. After that the drum is his horse - or his reindeer, or in some peoples his boat - and beating it is how he travels. The head may be painted with the whole cosmos on it: the three worlds, the tree, the sun and the moon, the helper spirits. When Soviet officials came to break up shamanic practice, the thing they burned in front of the assembled village was the drum, and everybody understood the point of that.",
+   "sources": [
+    {
+     "book": "Aboriginal Siberia: A Study in Social Anthropology",
+     "translation": "Marie Antoinette Czaplicka, 1914",
+     "location": "The drum",
+     "url": "https://archive.org/details/aboriginalsiberi00czapuoft"
+    },
+    {
+     "book": "Finno-Ugric and Siberian Mythology",
+     "translation": "Uno Holmberg (Harva), 1927",
+     "location": "The shaman's equipment",
+     "url": "https://archive.org/details/mythologyofallra04grayuoft"
+    }
+   ]
+  },
+  {
+   "id": "the-cairn",
+   "title": "Three Times Round, and Add a Stone",
+   "era": "The Sky",
+   "cast": [
+    "ovoo",
+    "yer_sub",
+    "tengri"
+   ],
+   "summary": "At the top of the pass there is a heap of stones with a pole in it and blue silk scarves tied on. You stop the vehicle. You walk round it three times clockwise. You add a stone. You leave something - vodka, sweets, coins, cigarettes - and you flick a little of your drink toward the sky with the fourth finger of the right hand, and then you go on. That is the whole of it, and it is done by Mongolians and Buryats and Tuvans including a great many who would say they have no religion at all. The Soviet campaigns against religion in the region did enormous damage to almost everything else in this pack and made effectively no impression on this.",
+   "sources": [
+    {
+     "book": "Finno-Ugric and Siberian Mythology",
+     "translation": "Uno Holmberg (Harva), 1927",
+     "location": "The cult of places",
+     "url": "https://archive.org/details/mythologyofallra04grayuoft"
+    }
+   ]
+  },
+  {
+   "id": "white-and-black",
+   "title": "Two Kinds, and They Do Not Overlap",
+   "era": "The Peoples",
+   "cast": [
+    "aiyy",
+    "abaasy",
+    "shaman"
+   ],
+   "summary": "Yakut practice divides in two and the division is strict. The aiyy are the powers above - horses, increase, the colour white - and they are approached with kumis, fermented mare's milk, poured and sprinkled, and never with blood. They are served by the white shaman, whose work is blessing, birth and prosperity. The abaasy are below, frequently described with one eye and one arm and one leg and sometimes made of iron, and they cause illness by taking souls down with them. They are dealt with by the black shaman, who fights, and whose ceremonies use blood offerings that the white shaman is forbidden. A practitioner does one or the other. Not both.",
+   "sources": [
+    {
+     "book": "Aboriginal Siberia: A Study in Social Anthropology",
+     "translation": "Marie Antoinette Czaplicka, 1914",
+     "location": "Yakut belief",
+     "url": "https://archive.org/details/aboriginalsiberi00czapuoft"
+    }
+   ]
+  },
+  {
+   "id": "thirty-six-thousand-lines",
+   "title": "One Man, Several Nights",
+   "era": "The Peoples",
+   "cast": [
+    "olonkho",
+    "nurgun",
+    "abaasy"
+   ],
+   "summary": "An olonkhosut sits down in front of an audience and performs an epic alone: narrating in a chanted recitative, then singing each character's speech in a different voice and register - the hero, the girl, the abaasy with a voice like a hinge - without any instrument, for several nights running, from memory. The best-known of them, Nurgun Botur the Swift, runs past thirty-six thousand lines. Soviet cultural policy discouraged the whole form and the number of performers collapsed almost to nothing. UNESCO listed it in 2005 and the Sakha Republic now runs a training programme, and there are young olonkhosut again.",
+   "sources": [
+    {
+     "book": "Olonkho: Nurgun Botur the Swift",
+     "translation": "Platon Oyunsky's Yakut text, 1930s",
+     "location": "Nurgun Botur",
+     "url": "https://en.wikipedia.org/wiki/Olonkho"
+    }
+   ]
+  },
+  {
+   "id": "the-bear-feast",
+   "title": "Killed With an Apology",
+   "era": "The Peoples",
+   "cast": [
+    "bear",
+    "reindeer",
+    "world_tree"
+   ],
+   "summary": "Across the entire northern forest, from Norway to Siberia to Hokkaido, the bear is killed with the same set of manners. Its real name is not used - it is the old man, the honoured one, the one in the fur coat. The killing is politely disowned: it fell, it was an accident, it was somebody else. Then it is brought into the settlement as a guest, seated, fed, sung to and talked to for a night or several. Its bones are kept in order and not broken, and the skull is set in the fork of a tree facing the direction it came from so that it can go home and be born again. The Khanty, the Evenki, the Nivkh, the Sami and the Ainu all do essentially this, which is a distribution across most of the top of the world.",
+   "sources": [
+    {
+     "book": "Finno-Ugric and Siberian Mythology",
+     "translation": "Uno Holmberg (Harva), 1927",
+     "location": "Bear ceremonialism",
+     "url": "https://archive.org/details/mythologyofallra04grayuoft"
+    }
+   ]
+  },
+  {
+   "id": "the-drums-were-burned",
+   "title": "Sixty Years",
+   "era": "The Peoples",
+   "cast": [
+    "suppression",
+    "shaman",
+    "drum",
+    "ongon"
+   ],
+   "summary": "From the late 1920s the Soviet state classified shamans as exploiters and as obstacles to collectivisation. They were denounced in the press, taxed at rates designed to ruin them, arrested, imprisoned, and in many cases shot. Drums and costumes were confiscated and burned in front of assembled villages, and the ones now in the museums of St Petersburg and Helsinki are overwhelmingly seizures. In Mongolia the purge of 1937-38 fell with comparable force on the Buddhist monasteries and killed tens of thousands. Practice continued quietly indoors for sixty years. It came back after 1991 - in some places from people who had never stopped, and in others out of ethnographic monographs, which is a revival and not a continuation, and it is more honest to call it one.",
+   "sources": [
+    {
+     "book": "Aboriginal Siberia: A Study in Social Anthropology",
+     "translation": "Marie Antoinette Czaplicka, 1914",
+     "location": "For comparison - the practice before",
+     "url": "https://archive.org/details/aboriginalsiberi00czapuoft"
+    },
+    {
+     "book": "Shamanism: Archaic Techniques of Ecstasy",
+     "translation": "Mircea Eliade, 1951 - influential, and to be read critically",
+     "location": "On the sources",
+     "url": "https://archive.org/details/shamanismarchaic0000elia"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "tengri",
+   "name": "Tengri",
+   "sanskrit": "Tengri",
+   "category": "primordial",
+   "era": "The Sky",
+   "role": "The eternal blue sky, invoked on a stone in 732 and by Genghis Khan five centuries later",
+   "wikipedia": "Tengri",
+   "portrait": "portraits/siberian/tengri.webp",
+   "epithets": [
+    "Mongke Tengri, the eternal sky",
+    "Kok Tengri, the blue sky",
+    "Tanri in Turkish"
+   ],
+   "domains": [
+    "the sky",
+    "authority",
+    "the mandate to rule",
+    "the blue"
+   ],
+   "symbols": [
+    "the open sky",
+    "the ovoo cairn",
+    "the white horse offered to it"
+   ],
+   "mount": null,
+   "abode": "The sky, which is to say the whole visible upper world",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Orkhon inscriptions of 732 open with it, and it is still the ordinary Turkish word for God.",
+   "longBio": "Tengri is the sky and is not described further, and that is consistent across two thousand years and a very large area. The Orkhon inscriptions, carved in Mongolia in 732 and the earliest Turkic writing there is, begin by saying that above was the blue sky and below the brown earth and between them the sons of men. Genghis Khan attributed his authority to Tengri directly and told foreign rulers so in writing. The word survives as Tanri, the ordinary Turkish for God, and Tengri is now the name of a modern revival movement across several Turkic republics.",
+   "variantTraditions": "The Mongol form is Mongke Tengri, eternal sky. Whether Tengrism was a religion or a broad set of shared assumptions is argued.",
+   "storyIds": [
+    "above-the-blue-sky",
+    "the-cairn"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sky-thunder",
+    "supreme-source",
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "ulgen",
+   "name": "Ulgen",
+   "sanskrit": "Ulgen",
+   "category": "deity",
+   "era": "The Sky",
+   "role": "The Altai sky god of the upper world, reached by climbing notches in a post",
+   "wikipedia": "%C3%9Clgen",
+   "portrait": "portraits/siberian/ulgen.webp",
+   "epithets": [
+    "Ulgan",
+    "the one above",
+    "Bai Ulgen"
+   ],
+   "domains": [
+    "the upper world",
+    "creation",
+    "the good",
+    "the sixteen levels"
+   ],
+   "symbols": [
+    "the birch with notches cut in it",
+    "the white horse",
+    "the sixteen heavens"
+   ],
+   "mount": null,
+   "abode": "The uppermost of sixteen levels",
+   "festivals": [],
+   "worship": "",
+   "bio": "The shaman climbs a birch trunk with steps cut in it, level by level, in front of everybody.",
+   "longBio": "Ulgen is the great sky deity of the Altai and southern Siberian peoples, living at the top of a stack of heavens, and the way to him is up. In the Altai ceremony recorded in the nineteenth century a birch was set up with notches cut in the trunk as steps, and the shaman climbed it in the course of the seance, announcing at each level what he was seeing and who he was speaking to, before returning to report. The physical climb and the described journey are the same event, performed in front of the whole community.",
+   "variantTraditions": "Ulgen is specifically Altai and Khakas rather than pan-Siberian; the notched birch is one of the best-documented shamanic devices.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "creator",
+    "king-ruler",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "erlik",
+   "name": "Erlik",
+   "sanskrit": "Erlik Khan",
+   "category": "underworld",
+   "era": "The Sky",
+   "role": "The lord of the lower world - and he is negotiated with rather than fought",
+   "wikipedia": "Erlik",
+   "portrait": "portraits/siberian/erlik.webp",
+   "epithets": [
+    "Erlik Khan",
+    "the one below",
+    "Erlen Khan among the Mongols"
+   ],
+   "domains": [
+    "the lower world",
+    "the dead",
+    "sickness",
+    "the taking of souls"
+   ],
+   "symbols": [
+    "the black horse",
+    "the dark house below",
+    "the animal sent down to him"
+   ],
+   "mount": null,
+   "abode": "The lower world",
+   "festivals": [],
+   "worship": "",
+   "bio": "A shaman going down to him takes a gift and expects to haggle.",
+   "longBio": "Erlik rules the world below, receives the dead, and is generally the one who has taken the soul that a sick person is missing. He is not a devil in the Christian sense and he is not defeated: a shaman who goes down to him goes as a negotiator, bringing an offering, arguing about terms, sometimes deceiving him, sometimes coming back having agreed to something expensive. In the Altai account he was made or permitted by Ulgen and the two are in a permanent, working, unfriendly relationship rather than a cosmic war.",
+   "variantTraditions": "Missionary and Soviet sources both flattened him toward Satan. The older material is much more transactional.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "king-ruler",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "umay",
+   "name": "Umay",
+   "sanskrit": "Umay",
+   "category": "deity",
+   "era": "The Sky",
+   "role": "The goddess of the womb and of infants, and her name means placenta",
+   "wikipedia": "Umay",
+   "portrait": "portraits/siberian/umay.webp",
+   "epithets": [
+    "Umai",
+    "the one of the womb"
+   ],
+   "domains": [
+    "birth",
+    "infants",
+    "the womb",
+    "protection of children"
+   ],
+   "symbols": [
+    "the bow hung over a boy's cradle",
+    "the placenta",
+    "the newborn"
+   ],
+   "mount": null,
+   "abode": "With every newborn child",
+   "festivals": [],
+   "worship": "",
+   "bio": "She is named on the Orkhon inscriptions alongside Tengri, which is how old she is.",
+   "longBio": "Umay is the goddess of the womb, of birth and of infants, and the word itself means placenta or afterbirth in Turkic - the organ and the deity share a name, exactly as they do among the Maori. She appears on the Orkhon inscriptions in the eighth century in the same breath as Tengri and the earth-water, which puts her among the oldest attested Turkic deities. She guards children until they are past the dangerous years, and a small bow was hung over a boy's cradle for her. The name survives as a girl's name across the Turkic world.",
+   "variantTraditions": "Umay is also identified with a bird in some traditions and with the Persian huma; the connection is disputed.",
+   "storyIds": [
+    "above-the-blue-sky"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "healer",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "yer_sub",
+   "name": "Yer-Sub",
+   "sanskrit": "Yer-Sub",
+   "category": "nature",
+   "era": "The Sky",
+   "role": "Earth-and-water: every river, mountain and pass has an owner who must be acknowledged",
+   "wikipedia": "Tengrism",
+   "portrait": "portraits/siberian/yer_sub.webp",
+   "epithets": [
+    "earth and water",
+    "the sacred land and water",
+    "the masters of places"
+   ],
+   "domains": [
+    "place",
+    "rivers",
+    "mountains",
+    "passes",
+    "acknowledgement"
+   ],
+   "symbols": [
+    "the ovoo cairn at the top of a pass",
+    "the rag tied to a tree",
+    "the splash of milk"
+   ],
+   "mount": null,
+   "abode": "Every named feature of the landscape",
+   "festivals": [],
+   "worship": "",
+   "bio": "You stop at the pass, you go round the cairn three times, you add a stone, you go on.",
+   "longBio": "Yer-Sub - earth-water - is the third power named on the Orkhon inscriptions with Tengri and Umay, and it is the practical one. Every river, mountain, spring, pass and stand of forest has a master, and a person crossing it acknowledges them: a stone added to the cairn at the top of a pass, three circuits of it clockwise, a splash of vodka or milk flicked with the fourth finger, a rag tied to a tree. Drivers on Mongolian and Buryat roads still do this, including people who would describe themselves as having no religion at all.",
+   "variantTraditions": "The practice is one of the most durable things in this pack and survived seventy years of official atheism intact.",
+   "storyIds": [
+    "above-the-blue-sky",
+    "the-cairn"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "sea-waters",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "ovoo",
+   "name": "The Ovoo",
+   "sanskrit": "Ovoo",
+   "category": "primordial",
+   "era": "The Sky",
+   "role": "A heap of stones on a pass that everyone adds to, going round it three times sunwise",
+   "wikipedia": "Ovoo",
+   "portrait": "portraits/siberian/ovoo.webp",
+   "epithets": [
+    "obo",
+    "the cairn",
+    "the heap"
+   ],
+   "domains": [
+    "place",
+    "the pass",
+    "travel",
+    "offerings"
+   ],
+   "symbols": [
+    "the pile of stones",
+    "the blue khadag scarves",
+    "the crutches, bottles and banknotes left"
+   ],
+   "mount": null,
+   "abode": "The top of every pass and hill",
+   "festivals": [],
+   "worship": "",
+   "bio": "Blue silk scarves, vodka bottles, crutches, money, sweets - people leave what they have.",
+   "longBio": "An ovoo is a heap of stones, usually on a pass or a hilltop, sometimes with a pole and always with blue silk khadag scarves tied to it. A traveller stops, walks round it three times clockwise, adds a stone, and leaves something - vodka, sweets, coins, cigarettes, occasionally a crutch that is no longer needed. Communities hold an annual ceremony at their own ovoo. It is the most visible surviving element of the whole complex, it is entirely public, and Soviet campaigns against it were essentially unsuccessful.",
+   "variantTraditions": "Ovoo ceremonies were banned in Mongolia in the socialist period and resumed in the 1990s without anybody needing to be reminded how.",
+   "storyIds": [
+    "the-cairn"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wealth-fortune",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "shaman",
+   "name": "The Shaman",
+   "sanskrit": "saman",
+   "category": "hero",
+   "era": "The Journey",
+   "role": "The word is Evenki, and this is where it comes from before the world borrowed it",
+   "wikipedia": "Shamanism",
+   "portrait": "portraits/siberian/shaman.webp",
+   "epithets": [
+    "saman in Evenki",
+    "boo in Mongolian",
+    "kam in Turkic",
+    "oyuun in Yakut"
+   ],
+   "domains": [
+    "the journey",
+    "healing",
+    "the recovery of souls",
+    "the sickness that chooses you"
+   ],
+   "symbols": [
+    "the drum",
+    "the costume hung with iron",
+    "the helping spirits"
+   ],
+   "mount": null,
+   "abode": "The middle world, and the other two when required",
+   "festivals": [],
+   "worship": "",
+   "bio": "Nobody volunteers. You are chosen by an illness that only stops when you agree.",
+   "longBio": "The word shaman is Evenki - saman - taken into Russian in the seventeenth century and from there into every European language, and it now describes practitioners on six continents. The original is specific. A person does not choose it: they are chosen, usually by a long and undiagnosable sickness, sometimes with fits and visions, that lifts only when they accept and are trained by an established shaman. Then they work: illness is understood as a soul lost or stolen, and the shaman drums himself out of his body, goes to find it, negotiates or fights for it, and brings it back.",
+   "variantTraditions": "The Eliade model of a single pan-global shamanism is now heavily criticised for flattening regional differences; the Siberian material is the source it was built from.",
+   "storyIds": [
+    "the-bones-counted",
+    "the-drum-is-a-horse",
+    "white-and-black",
+    "the-drums-were-burned"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sage-seer",
+    "healer",
+    "hero-champion",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "dismemberment",
+   "name": "The Dismemberment",
+   "sanskrit": "the initiation",
+   "category": "primordial",
+   "era": "The Journey",
+   "role": "The spirits take the candidate apart, count the bones, and put them back with something added",
+   "wikipedia": "Shamanism",
+   "portrait": "portraits/siberian/dismemberment.webp",
+   "epithets": [
+    "the initiatory sickness",
+    "the taking apart"
+   ],
+   "domains": [
+    "initiation",
+    "sickness",
+    "vision",
+    "being remade"
+   ],
+   "symbols": [
+    "the bones counted",
+    "the flesh boiled off",
+    "the missing bone that has to be replaced"
+   ],
+   "mount": null,
+   "abode": "In a vision, during the sickness",
+   "festivals": [],
+   "worship": "",
+   "bio": "A missing bone is a serious problem and the candidate is sent to find it.",
+   "longBio": "The candidate falls ill and in the vision that comes with it is taken apart: the flesh stripped or boiled from the bones, the bones counted, sometimes an organ replaced, sometimes crystals inserted, and then reassembled with new capacities. The detail that recurs is the counting - if a bone is missing the shaman cannot be made until it is found or substituted. This account is given, with local variation but with the same structure, from the Nenets to the Yakut to the Buryat over an enormous area, by people who had no contact with one another, and it is the most striking single fact in the ethnography.",
+   "variantTraditions": "Eliade made this the centrepiece of his universal theory of shamanism, which overreached; the Siberian distribution is nonetheless real.",
+   "storyIds": [
+    "the-bones-counted"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sage-seer",
+    "healer",
+    "destroyer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "drum",
+   "name": "The Drum",
+   "sanskrit": "the horse",
+   "category": "primordial",
+   "era": "The Journey",
+   "role": "It is not an instrument. It is the animal he rides, and it has to be brought to life",
+   "wikipedia": "Shamanic_drum",
+   "portrait": "portraits/siberian/drum.webp",
+   "epithets": [
+    "the shaman's horse",
+    "the reindeer",
+    "the boat"
+   ],
+   "domains": [
+    "the journey",
+    "rhythm",
+    "the map painted on it",
+    "the animal it was made from"
+   ],
+   "symbols": [
+    "the painted drumhead showing the three worlds",
+    "the beater",
+    "the iron rattles on the frame"
+   ],
+   "mount": null,
+   "abode": "Held in the left hand",
+   "festivals": [],
+   "worship": "",
+   "bio": "The drum is enlivened in a ceremony, and the shaman must visit the animal it came from.",
+   "longBio": "The drum is the shaman's mount - it is called his horse or his reindeer, and in some peoples his boat - and it has to be brought to life in its own ceremony before it can be used, during which the shaman travels to the tree the frame came from and the animal the skin came from and obtains their consent. The head is often painted with a cosmogram: the three worlds, the tree, the sun and moon, the helper spirits. Soviet campaigns made a particular point of burning drums publicly, which tells you what everybody understood the drum to be.",
+   "variantTraditions": "The Sami drums of northern Scandinavia are the best preserved because Lutheran missionaries confiscated rather than destroyed them; several hundred survive in museums.",
+   "storyIds": [
+    "the-drum-is-a-horse",
+    "the-drums-were-burned"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "divine-beast",
+    "healer"
+   ]
+  },
+  {
+   "id": "costume",
+   "name": "The Costume",
+   "sanskrit": "the coat",
+   "category": "primordial",
+   "era": "The Journey",
+   "role": "Twenty or thirty kilos of iron sewn onto a coat, and the noise is part of the work",
+   "wikipedia": "Shamanism",
+   "portrait": "portraits/siberian/costume.webp",
+   "epithets": [
+    "the shaman's coat",
+    "the iron"
+   ],
+   "domains": [
+    "the journey",
+    "protection",
+    "the helper spirits sewn on",
+    "weight"
+   ],
+   "symbols": [
+    "iron discs, bells and figures",
+    "the fringes representing snakes",
+    "the antlered headdress"
+   ],
+   "mount": null,
+   "abode": "Hung up when not in use, and treated carefully",
+   "festivals": [],
+   "worship": "",
+   "bio": "It gets heavier over a career as more iron is added, which is the point.",
+   "longBio": "A working shaman's coat carries an enormous quantity of ironwork - discs, bells, chains, and small figures of the helper spirits and of birds and animals - sewn on over a career, so that an experienced practitioner's coat may weigh twenty or thirty kilograms and cannot be worn for long. The iron protects against attack in the other worlds and the noise it makes while he moves is part of the working. Fringes may represent snakes and the headdress may carry antlers. The coat is not stored casually, is not tried on by anyone else, and in some peoples is buried or exposed with its owner.",
+   "variantTraditions": "Museum collections in St Petersburg and Helsinki hold a great many, most of them confiscated.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "war",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "world_tree",
+   "name": "The World Tree",
+   "sanskrit": "the tree",
+   "category": "primordial",
+   "era": "The Journey",
+   "role": "Roots in the lower world, branches in the upper, and the shaman goes up and down it",
+   "wikipedia": "World_tree",
+   "portrait": "portraits/siberian/world_tree.webp",
+   "epithets": [
+    "the tree",
+    "the pole",
+    "the notched birch"
+   ],
+   "domains": [
+    "the three worlds",
+    "the axis",
+    "the way up and down",
+    "the birch"
+   ],
+   "symbols": [
+    "the birch with steps cut in it",
+    "the tent pole",
+    "the smoke hole at the top"
+   ],
+   "mount": null,
+   "abode": "The centre of everything, and also the middle of the tent",
+   "festivals": [],
+   "worship": "",
+   "bio": "The tent pole and the smoke hole are the same axis, domestically scaled.",
+   "longBio": "The three worlds are joined by a tree, or a pole, or a mountain, with its roots in the lower world and its top in the upper, and the shaman travels along it. The device is made physical in the ceremony: a birch is brought in with notches cut for steps and climbed, or the tent's central pole serves, with the smoke hole at the top as the opening into the world above. Shamans' souls are said to be raised in nests on its branches, at different heights according to power. It is one of the most widespread ideas in northern Eurasia and it runs from Siberia to the Norse Yggdrasil.",
+   "variantTraditions": "The distribution is genuine, though the diffusionist accounts of a single origin popular in the mid twentieth century are not now accepted.",
+   "storyIds": [
+    "the-drum-is-a-horse",
+    "the-bear-feast"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "preserver",
+    "supreme-source",
+    "sage-seer",
+    "creator"
+   ]
+  },
+  {
+   "id": "ongon",
+   "name": "The Ongon",
+   "sanskrit": "Ongon",
+   "category": "nature",
+   "era": "The Journey",
+   "role": "A small figure of cloth, wood or felt that a spirit lives in, kept in the tent and fed",
+   "wikipedia": "Ongon",
+   "portrait": "portraits/siberian/ongon.webp",
+   "epithets": [
+    "the spirit figure",
+    "ongghot in Mongolian"
+   ],
+   "domains": [
+    "the household",
+    "ancestors",
+    "spirits given a place to live",
+    "feeding"
+   ],
+   "symbols": [
+    "the felt or cloth figure",
+    "the smear of fat on its mouth",
+    "the corner of the tent it hangs in"
+   ],
+   "mount": null,
+   "abode": "Hanging in the tent, on the honoured side",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is smeared with fat and vodka at meals, on the mouth, which is why they blacken.",
+   "longBio": "An ongon is a small made figure - felt, cloth, wood, sometimes with fur or metal - which a spirit is invited to inhabit, and which is then kept in the tent and looked after. At meals it is fed: fat, milk or vodka smeared on its mouth, which is why old ones are black and greasy about the face. They represent ancestors, dead shamans, and the powers of particular places or activities, and a household may have several. Missionaries and Soviet officials both collected and destroyed them in quantity, and the ones in museums are largely confiscations.",
+   "variantTraditions": "Ongon is Mongolian and Buryat; comparable house-figures appear across Siberia under other names.",
+   "storyIds": [
+    "the-drums-were-burned"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "preserver",
+    "wealth-fortune",
+    "sage-seer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "aiyy",
+   "name": "The Aiyy",
+   "sanskrit": "Aiyy",
+   "category": "deity",
+   "era": "The Peoples",
+   "role": "Yakut: the good powers above, who are addressed with kumis and never with blood",
+   "wikipedia": "Yakuts",
+   "portrait": "portraits/siberian/aiyy.webp",
+   "epithets": [
+    "the aiyy",
+    "the white side"
+   ],
+   "domains": [
+    "the upper world",
+    "horses",
+    "kumis",
+    "the summer festival"
+   ],
+   "symbols": [
+    "fermented mare's milk",
+    "the white horse",
+    "the Ysyakh festival"
+   ],
+   "mount": null,
+   "abode": "The upper world",
+   "festivals": [],
+   "worship": "",
+   "bio": "The white shaman who deals with them may not shed blood in the ceremony.",
+   "longBio": "Yakut belief divides sharply into two sides. The aiyy are the powers above, associated with horses, with the colour white, with creation and with increase, and they are approached with kumis - fermented mare's milk - poured and sprinkled, and never with blood sacrifice. They are served by aiyy oyuuna, the white shaman, whose work is blessing, birth and prosperity rather than fighting. Ysyakh, the midsummer festival held for them, is now the Sakha national holiday and draws tens of thousands of people.",
+   "variantTraditions": "Yakut, who call themselves Sakha, are a Turkic people living further north than any other and keep horses and cattle above the sixtieth parallel.",
+   "storyIds": [
+    "white-and-black"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "supreme-source",
+    "preserver",
+    "healer",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "abaasy",
+   "name": "The Abaasy",
+   "sanskrit": "Abaasy",
+   "category": "underworld",
+   "era": "The Peoples",
+   "role": "Yakut: the other side, one-eyed and one-armed, and they cause every illness there is",
+   "wikipedia": "Abaasy",
+   "portrait": "portraits/siberian/abaasy.webp",
+   "epithets": [
+    "the abaasy",
+    "the black side"
+   ],
+   "domains": [
+    "sickness",
+    "the lower world",
+    "the taking of souls",
+    "iron"
+   ],
+   "symbols": [
+    "a single eye, one arm and one leg",
+    "the smell",
+    "the iron they are made of"
+   ],
+   "mount": null,
+   "abode": "The lower world, and the middle one when they get in",
+   "festivals": [],
+   "worship": "",
+   "bio": "Described as having one of everything - one eye, one arm, one leg - and made partly of iron.",
+   "longBio": "The abaasy are the malevolent half of the Yakut arrangement: beings of the lower world, frequently described as having one eye, one arm and one leg, sometimes made of iron, who cause illness by seizing a person's soul and taking it below. They are dealt with by the black shaman, who does fight rather than bless, and whose ceremonies involve blood offerings that the white shaman may not make. The division into two shamanic offices with different powers, different colours and mutually exclusive practices is unusually explicit among the Yakut.",
+   "variantTraditions": "The one-sided body is a widespread northern Eurasian description of a spirit and is not confined to the Sakha.",
+   "storyIds": [
+    "white-and-black",
+    "thirty-six-thousand-lines"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "death-judge",
+    "war"
+   ]
+  },
+  {
+   "id": "nurgun",
+   "name": "Nurgun Botur",
+   "sanskrit": "Nurgun Botur",
+   "category": "hero",
+   "era": "The Peoples",
+   "role": "The hero of an epic that takes several days to perform and is sung by one man",
+   "wikipedia": "Olonkho",
+   "portrait": "portraits/siberian/nurgun.webp",
+   "epithets": [
+    "Nurgun Botur the Swift",
+    "the champion sent down"
+   ],
+   "domains": [
+    "the epic",
+    "combat with the abaasy",
+    "the middle world",
+    "descent"
+   ],
+   "symbols": [
+    "the horse that talks and advises",
+    "the sword",
+    "the tree at the centre"
+   ],
+   "mount": null,
+   "abode": "Sent down from the upper world to the middle one",
+   "festivals": [],
+   "worship": "",
+   "bio": "A full Olonkho runs to tens of thousands of lines and takes several nights.",
+   "longBio": "Nurgun Botur the Swift is the hero of the best-known olonkho, sent down from the upper world to protect the people of the middle one from the abaasy who are carrying them off, and the cycle follows his fights, his journeys and his marriage. What matters as much as the story is the performance: an olonkhosut sings and speaks the whole thing alone, using different voices for every character, for several nights running, from memory, with no instrument. The full text of this one runs past thirty-six thousand lines.",
+   "variantTraditions": "Platon Oyunsky wrote out the Nurgun Botur text in the 1930s; he was arrested in 1938 and died in prison in 1939.",
+   "storyIds": [
+    "thirty-six-thousand-lines"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "sage-seer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "olonkho",
+   "name": "The Olonkho",
+   "sanskrit": "Olonkho",
+   "category": "primordial",
+   "era": "The Peoples",
+   "role": "Tens of thousands of lines, one performer, several nights, no instrument, from memory",
+   "wikipedia": "Olonkho",
+   "portrait": "portraits/siberian/olonkho.webp",
+   "epithets": [
+    "the Yakut epic",
+    "the olonkhosut who performs it"
+   ],
+   "domains": [
+    "epic",
+    "memory",
+    "performance",
+    "the three worlds"
+   ],
+   "symbols": [
+    "the single voice",
+    "the different voice for each character",
+    "the nights it takes"
+   ],
+   "mount": null,
+   "abode": "Wherever a performer and an audience are",
+   "festivals": [],
+   "worship": "",
+   "bio": "UNESCO listed it in 2005. There were very few performers left by then.",
+   "longBio": "An olonkho is a Yakut epic and the performer, an olonkhosut, delivers the whole thing alone - narrating in a chanted recitative, singing the speeches of each character in a distinct voice and register, without accompaniment, for several nights. The repertoire covers the three worlds, the aiyy above, the abaasy below and the people between. Soviet policy discouraged it and the number of performers collapsed; UNESCO listed it as Intangible Cultural Heritage in 2005 and there is now an active programme in Sakha to train new olonkhosut.",
+   "variantTraditions": "Comparable to the Kyrgyz Manas, which is longer still and is the longest epic poem known.",
+   "storyIds": [
+    "thirty-six-thousand-lines"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "preserver",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "bear",
+   "name": "The Bear",
+   "sanskrit": "the honoured guest",
+   "category": "beast",
+   "era": "The Peoples",
+   "role": "Killed with an apology, feasted as a guest, and its skull set facing home",
+   "wikipedia": "Bear_worship",
+   "portrait": "portraits/siberian/bear.webp",
+   "epithets": [
+    "the old man",
+    "the honoured one",
+    "the one whose name is not said"
+   ],
+   "domains": [
+    "the bear",
+    "the hunt",
+    "the feast",
+    "the returned skull"
+   ],
+   "symbols": [
+    "the skull set in a tree",
+    "the many names used instead of the real one",
+    "the bones kept in order"
+   ],
+   "mount": null,
+   "abode": "The forest, and the feast",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Ainu of Japan, the Sami of Norway and the Khanty of Siberia all did the same thing.",
+   "longBio": "Across the whole northern forest the bear is killed with ceremony and considerable apology: the real name is avoided, the killing is disclaimed or blamed on somebody else, the animal is brought into the settlement as an honoured guest, feasted and sung to, and its bones are kept in order and the skull set up facing the direction of its home so that it can go back and be reborn. The same complex is found among the Khanty and Mansi, the Evenki, the Nivkh, the Sami of northern Scandinavia and the Ainu of Japan, which is a distribution spanning most of the northern hemisphere.",
+   "variantTraditions": "It is one of the oldest identifiable religious complexes anywhere and connects the Finnish, Ainu and Siberian material in this collection directly.",
+   "storyIds": [
+    "the-bear-feast"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "preserver",
+    "sage-seer",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "wolf",
+   "name": "The Grey Wolf",
+   "sanskrit": "Asena",
+   "category": "beast",
+   "era": "The Peoples",
+   "role": "The Turkic origin: a wounded boy raised by a she-wolf, and the Gokturks descend from it",
+   "wikipedia": "Asena",
+   "portrait": "portraits/siberian/wolf.webp",
+   "epithets": [
+    "Asena",
+    "Bortechino among the Mongols",
+    "the grey wolf"
+   ],
+   "domains": [
+    "descent",
+    "the origin of the Turks",
+    "the cave",
+    "guidance"
+   ],
+   "symbols": [
+    "the she-wolf",
+    "the cave in the mountains",
+    "the wolf-head standard"
+   ],
+   "mount": null,
+   "abode": "The Altai",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Mongol Secret History opens with a blue-grey wolf and a fallow doe.",
+   "longBio": "The Turkic origin account has a boy, the last survivor of a massacred people, saved and raised by a she-wolf who bears his children, and the Gokturk royal clan descended from them; wolf-head standards were carried and the wolf appears on the Orkhon material. The Secret History of the Mongols opens by naming the ancestors as Borte Chino, a blue-grey wolf, and Gua Maral, a fallow doe. The wolf is now a nationalist emblem across several Turkic states, which is a modern use of a genuinely old motif and is worth keeping distinct from it.",
+   "variantTraditions": "The Chinese dynastic histories record the Gokturk wolf-descent story from the outside in the sixth century, which is early corroboration.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "hero-champion",
+    "king-ruler",
+    "war"
+   ]
+  },
+  {
+   "id": "reindeer",
+   "name": "The Reindeer",
+   "sanskrit": "the herd",
+   "category": "beast",
+   "era": "The Peoples",
+   "role": "The only large animal domesticated in the far north, and the whole culture is built on it",
+   "wikipedia": "Reindeer_herding",
+   "portrait": "portraits/siberian/reindeer.webp",
+   "epithets": [
+    "the herd",
+    "the draught animal",
+    "the one the drum is made of"
+   ],
+   "domains": [
+    "transport",
+    "food",
+    "hide",
+    "the drum",
+    "the migration"
+   ],
+   "symbols": [
+    "the sled",
+    "the antlered headdress a shaman may wear",
+    "the white reindeer, which is not killed"
+   ],
+   "mount": null,
+   "abode": "The tundra and the taiga",
+   "festivals": [],
+   "worship": "",
+   "bio": "A white reindeer is set apart and not killed, and in some herds is dedicated outright.",
+   "longBio": "Reindeer are the basis of life across most of northern Siberia - meat, hide for tents and clothing, sinew, transport by sled and by riding - and the herding peoples move with them over enormous distances every year. The animal is bound into the religion accordingly: drums are made from reindeer skin, shamans wear antlers, a white animal in a herd is set apart and not killed. Soviet collectivisation forced herders into brigades and settlements and did great damage; several groups, notably the Nenets, kept herding through it and are still doing it.",
+   "variantTraditions": "The Nenets migration on the Yamal peninsula is among the longest overland movements of people and animals still made annually anywhere.",
+   "storyIds": [
+    "the-drum-is-a-horse",
+    "the-bear-feast"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "wealth-fortune",
+    "preserver",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "suppression",
+   "name": "The Burning of the Drums",
+   "sanskrit": "the Soviet period",
+   "category": "primordial",
+   "era": "The Peoples",
+   "role": "Shamans were shot, imprisoned and thrown from helicopters, and drums were burned in public",
+   "wikipedia": "Shamanism",
+   "portrait": "portraits/siberian/suppression.webp",
+   "epithets": [
+    "the campaign",
+    "the sixty years"
+   ],
+   "domains": [
+    "suppression",
+    "the archive",
+    "what came back and what did not"
+   ],
+   "symbols": [
+    "the public burning",
+    "the museum case",
+    "the practice done quietly indoors"
+   ],
+   "mount": null,
+   "abode": "The whole of Soviet Siberia and Mongolia",
+   "festivals": [],
+   "worship": "",
+   "bio": "The story about the helicopters is told across Siberia. It is not all metaphor.",
+   "longBio": "From the late 1920s shamanic practice was identified as class exploitation and as an obstacle to collectivisation. Shamans were denounced, taxed out of existence, arrested, imprisoned and shot; drums and costumes were seized and burned publicly, and the confiscated ones are what fills the museums now. In Mongolia in 1937-38 the purge fell on the Buddhist monasteries with comparable force, killing tens of thousands. The practice went underground and continued quietly in households. After 1991 it returned - in some places from people who remembered and in others from ethnographic books, which is a revival rather than a continuation, and it is honest to say so.",
+   "variantTraditions": "The oral tradition that shamans were thrown from helicopters and told to fly is widespread in Siberia; particular incidents are documented and the story has also become a general symbol.",
+   "storyIds": [
+    "the-drums-were-burned"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "destroyer",
+    "primordial-adversary",
+    "fate-time",
+    "preserver"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "tengri",
+   "to": "yer_sub",
+   "type": "ally",
+   "note": "Above the blue sky, below the brown earth, between them people"
+  },
+  {
+   "from": "tengri",
+   "to": "umay",
+   "type": "ally",
+   "note": "Named together on the same stone in 732"
+  },
+  {
+   "from": "tengri",
+   "to": "ulgen",
+   "type": "sibling",
+   "note": "The sky across the steppe, and the sky god of the Altai"
+  },
+  {
+   "from": "tengri",
+   "to": "wolf",
+   "type": "guru",
+   "note": "The mandate to rule, and the ancestor who carried it"
+  },
+  {
+   "from": "ulgen",
+   "to": "erlik",
+   "type": "enemy",
+   "note": "A permanent, working, unfriendly relationship rather than a war"
+  },
+  {
+   "from": "erlik",
+   "to": "shaman",
+   "type": "enemy",
+   "note": "He usually has the soul, and it has to be argued back"
+  },
+  {
+   "from": "ulgen",
+   "to": "world_tree",
+   "type": "ally",
+   "note": "Sixteen levels, and a notched birch to climb them"
+  },
+  {
+   "from": "ulgen",
+   "to": "shaman",
+   "type": "guru",
+   "note": "The climb up the birch and the journey are one event"
+  },
+  {
+   "from": "umay",
+   "to": "aiyy",
+   "type": "sibling",
+   "note": "Birth and increase, on two sides of Siberia"
+  },
+  {
+   "from": "yer_sub",
+   "to": "ovoo",
+   "type": "guru",
+   "note": "A stone added, three circuits, and you go on"
+  },
+  {
+   "from": "ovoo",
+   "to": "tengri",
+   "type": "devotee",
+   "note": "On the pass, under the open sky"
+  },
+  {
+   "from": "shaman",
+   "to": "drum",
+   "type": "mount",
+   "note": "It is called his horse, and it has to be brought to life"
+  },
+  {
+   "from": "shaman",
+   "to": "costume",
+   "type": "ally",
+   "note": "Thirty kilos of iron, added to over a career"
+  },
+  {
+   "from": "shaman",
+   "to": "dismemberment",
+   "type": "devotee",
+   "note": "Taken apart, the bones counted, and put back with something added"
+  },
+  {
+   "from": "dismemberment",
+   "to": "shaman",
+   "type": "guru",
+   "note": "Nobody volunteers for this"
+  },
+  {
+   "from": "shaman",
+   "to": "world_tree",
+   "type": "ally",
+   "note": "Up it or down it, and the tent pole will do"
+  },
+  {
+   "from": "shaman",
+   "to": "ongon",
+   "type": "guru",
+   "note": "The spirits are given somewhere to live and are fed"
+  },
+  {
+   "from": "drum",
+   "to": "world_tree",
+   "type": "devotee",
+   "note": "The frame comes from a tree that has to consent"
+  },
+  {
+   "from": "drum",
+   "to": "reindeer",
+   "type": "devotee",
+   "note": "And the skin from an animal he must go and visit"
+  },
+  {
+   "from": "costume",
+   "to": "abaasy",
+   "type": "enemy",
+   "note": "The iron is protection against what is down there"
+  },
+  {
+   "from": "world_tree",
+   "to": "tengri",
+   "type": "ally",
+   "note": "Roots below and the top of it in the upper world"
+  },
+  {
+   "from": "ongon",
+   "to": "yer_sub",
+   "type": "ally",
+   "note": "Ancestors, and the owners of places, given a corner"
+  },
+  {
+   "from": "aiyy",
+   "to": "abaasy",
+   "type": "enemy",
+   "note": "The white side and the black, and two kinds of shaman"
+  },
+  {
+   "from": "abaasy",
+   "to": "erlik",
+   "type": "sibling",
+   "note": "The lower world, under two different names"
+  },
+  {
+   "from": "abaasy",
+   "to": "nurgun",
+   "type": "enemy",
+   "note": "He was sent down because they were carrying people off"
+  },
+  {
+   "from": "nurgun",
+   "to": "aiyy",
+   "type": "devotee",
+   "note": "Sent from the upper world to the middle one"
+  },
+  {
+   "from": "nurgun",
+   "to": "olonkho",
+   "type": "devotee",
+   "note": "The best-known of them, and thirty-six thousand lines"
+  },
+  {
+   "from": "olonkho",
+   "to": "shaman",
+   "type": "sibling",
+   "note": "Two things one person does alone, for nights on end"
+  },
+  {
+   "from": "olonkho",
+   "to": "suppression",
+   "type": "enemy",
+   "note": "The number of performers collapsed and is being rebuilt"
+  },
+  {
+   "from": "bear",
+   "to": "reindeer",
+   "type": "sibling",
+   "note": "The two animals the northern forest is organised around"
+  },
+  {
+   "from": "bear",
+   "to": "shaman",
+   "type": "ally",
+   "note": "Killed with an apology and sent home to be born again"
+  },
+  {
+   "from": "bear",
+   "to": "world_tree",
+   "type": "ally",
+   "note": "The skull set in the fork of a tree, facing home"
+  },
+  {
+   "from": "wolf",
+   "to": "reindeer",
+   "type": "enemy",
+   "note": "The herder's permanent problem, and the ancestor of the Turks"
+  },
+  {
+   "from": "wolf",
+   "to": "nurgun",
+   "type": "sibling",
+   "note": "Two founding heroes, one Turkic and one Sakha"
+  },
+  {
+   "from": "reindeer",
+   "to": "yer_sub",
+   "type": "devotee",
+   "note": "The herds move over country that belongs to somebody"
+  },
+  {
+   "from": "suppression",
+   "to": "drum",
+   "type": "enemy",
+   "note": "Burned publicly, which tells you what everyone thought it was"
+  },
+  {
+   "from": "suppression",
+   "to": "ongon",
+   "type": "enemy",
+   "note": "Collected and destroyed; the museum ones are confiscations"
+  },
+  {
+   "from": "suppression",
+   "to": "ovoo",
+   "type": "enemy",
+   "note": "And this one they could not stop"
+  },
+  {
+   "from": "suppression",
+   "to": "shaman",
+   "type": "enemy",
+   "note": "Denounced, taxed, arrested, imprisoned and shot"
+  },
+  {
+   "from": "erlik",
+   "to": "suppression",
+   "type": "sibling",
+   "note": "Two accounts of where people were taken and did not come back"
+  },
+  {
+   "from": "umay",
+   "to": "reindeer",
+   "type": "ally",
+   "note": "Birth, in a country where it is not easy"
+  },
+  {
+   "from": "aiyy",
+   "to": "olonkho",
+   "type": "ally",
+   "note": "The upper world of the epic, and its horses and kumis"
+  },
+  {
+   "from": "tengri",
+   "to": "shaman",
+   "type": "ally",
+   "note": "The sky above the whole practice, and not much involved in it"
+  },
+  {
+   "from": "world_tree",
+   "to": "ovoo",
+   "type": "sibling",
+   "note": "Two versions of a fixed point you go round or up"
+  },
+  {
+   "from": "dismemberment",
+   "to": "abaasy",
+   "type": "enemy",
+   "note": "And what he will be dealing with afterwards"
+  }
+ ]
+}

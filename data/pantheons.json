@@ -503,10 +503,15 @@
    "label": "Siberian",
    "sublabel": "Turkic & Mongol",
    "accent": "#8fa8b8",
-   "status": "planned",
+   "status": "live",
    "blurb": "Tengri the eternal sky, Erlik below, and the shaman who travels between them.",
    "family": "Asia",
-   "glyph": "❂"
+   "glyph": "❂",
+   "figures": 20,
+   "stories": 8,
+   "links": 45,
+   "levels": 3,
+   "cover": "portraits/siberian/tengri.webp"
   },
   {
    "id": "finnish",

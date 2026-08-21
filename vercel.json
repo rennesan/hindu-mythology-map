@@ -158,6 +158,10 @@
    "destination": "/balinese/index.html"
   },
   {
+   "source": "/siberian/:path*",
+   "destination": "/siberian/index.html"
+  },
+  {
    "source": "/finnish/:path*",
    "destination": "/finnish/index.html"
   },
