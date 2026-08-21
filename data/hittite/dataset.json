@@ -1,0 +1,1558 @@
+{
+ "title": "Hittite Mythology: Figures, Relationships and Story Cycles",
+ "description": "Anatolian and Hurrian gods mapped as a relationship graph: four kings in heaven each taken by force, the stone giant grown to unseat the storm god, and the serpent that had to be got drunk.",
+ "generated": "2026-08-21",
+ "sources": [
+  "A. H. Sayce, The Hittites: The Story of a Forgotten Empire (1888) - written before decipherment and wrong in places, and the book that made the case they existed",
+  "John Garstang, The Land of the Hittites (1910) - the early excavation reports",
+  "Bedrich Hrozny, Die Sprache der Hethiter (1917) - the decipherment that showed the language was Indo-European",
+  "The Bogazkoy tablets by CTH catalogue number, via the Hethitologie Portal Mainz",
+  "Note: the standard modern translations of the Hittite myths (Hoffner, Beckman) are in copyright and are not used here"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/hittite/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "gurney": {
+   "t": "Hittite Prayers and Myths, in early Anatolian scholarship",
+   "tr": "summarised from the post-decipherment literature",
+   "u": "https://archive.org/details/hittites0000gurn"
+  },
+  "hrozny": {
+   "t": "Die Sprache der Hethiter (the decipherment)",
+   "tr": "Bedrich Hrozny, 1917",
+   "u": "https://archive.org/details/diesprachederhet00hroz"
+  },
+  "garstang": {
+   "t": "The Land of the Hittites",
+   "tr": "John Garstang, 1910",
+   "u": "https://archive.org/details/landofhittitesac00gars"
+  },
+  "sayce": {
+   "t": "The Hittites: The Story of a Forgotten Empire",
+   "tr": "A. H. Sayce, 1888",
+   "u": "https://archive.org/details/hittitesstoryof00sayc"
+  },
+  "anet": {
+   "t": "The Bogazkoy tablets (CTH catalogue)",
+   "tr": "Hittitological catalogue of texts",
+   "u": "https://www.hethport.uni-wuerzburg.de/CTH/"
+  }
+ },
+ "meta": {
+  "id": "hittite",
+  "label": "Hittite",
+  "sublabel": "Anatolia & the Hurrians",
+  "accent": "#b08a6a",
+  "root": "alalu"
+ },
+ "profile": {
+  "cosmicNature": "A succession of kingships, each one taken by force from the last. Alalu is deposed by Anu, Anu by Kumarbi, Kumarbi by Teshub - and each transfer is violent and physical rather than legal. The world is not created so much as fought over, and what the texts care about is who holds the sky at the moment and what is coming for him next.",
+  "natureOfDivinity": "A thousand gods of Hatti, and the Hittites meant it as a boast. They were an imperial power in a crowded neighbourhood and they collected deities the way they collected territory - Hattian, Hurrian, Luwian, Mesopotamian - and installed them in the state cult without much attempt to reconcile them. Treaties were sworn before enormous lists of them. The rock sanctuary at Yazilikaya has sixty-odd carved in procession.",
+  "afterlife": "The dark earth, entered through a pit. The dead go below to a country ruled by the Sun Goddess of the Earth, and the tablets are far more interested in the mechanics of getting there and of keeping the dead settled than in what happens afterwards. A great deal of Hittite ritual is about drawing something unwanted down into the ground through a hole and closing it.",
+  "systemMechanism": "Ritual as engineering, and gods with contracts. Hittite religion is overwhelmingly practical: if the storm god has gone missing and the crops are failing, you perform the procedure that brings him back. Kings wrote to gods as one party to an agreement addressing another, and the Plague Prayers of Mursili II are a head of state formally investigating which broken oath caused an epidemic and offering to make restitution.",
+  "canonTexts": "The Bogazkoy archive: the Kumarbi cycle including the Song of Going Forth and the Song of Ullikummi; the Illuyanka texts, which were read aloud at the New Year festival; the Telipinu myth; the Plague Prayers of Mursili II; and thousands of ritual, festival, oracle and treaty tablets, most of them prescriptive rather than narrative."
+ },
+ "hierarchy": [
+  {
+   "title": "The Succession",
+   "blurb": "Four kings in heaven and each one takes it by force. Alalu is unseated by his cupbearer. Anu is unseated by his, who bites off his genitals and swallows them - and finds he is pregnant with the storm god who will unseat him in turn.",
+   "memberIds": [
+    "alalu",
+    "anu_hittite",
+    "kumarbi",
+    "teshub",
+    "hebat"
+   ],
+   "connectorCaption": "Kumarbi spends the rest of the cycle fathering things to take it back"
+  },
+  {
+   "title": "What Kumarbi Fathered",
+   "blurb": "A diorite giant grown blind and deaf on the shoulder of a titan who notices nothing, until it reaches the gates of heaven. It takes the ancient copper cutter that first separated earth from sky to get it down.",
+   "memberIds": [
+    "ullikummi",
+    "upelluri"
+   ],
+   "connectorCaption": "And every New Year, the other fight - the one the storm god loses first"
+  },
+  {
+   "title": "The Serpent and the New Year",
+   "blurb": "Illuyanka beats the storm god outright. The solution is not strength but a feast: vats of drink, a serpent too swollen to get back down its hole, and a mortal with a rope who should not have looked out of the window.",
+   "memberIds": [
+    "illuyanka",
+    "inara",
+    "hupasiya"
+   ],
+   "connectorCaption": "The other way the world stops is when somebody walks off in a temper"
+  },
+  {
+   "title": "The Vanishing",
+   "blurb": "Telipinu is so angry he puts his right boot on his left foot, and then disappears - and the fires go out, the animals refuse their young, the grain stops, and the gods themselves start to go hungry at their own tables.",
+   "memberIds": [
+    "telipinu",
+    "hannahanna",
+    "kamrusepa"
+   ],
+   "connectorCaption": "Around all of it, the thousand gods the empire collected"
+  },
+  {
+   "title": "The Thousand Gods of Hatti",
+   "blurb": "Three separate suns, none of them merged. A goddess shipped to Egypt to treat a pharaoh. A city goddess who outlived the empire and became Cybele. And a king who wrote to the gods asking which broken oath had caused twenty years of plague.",
+   "memberIds": [
+    "arinna",
+    "sun_god_heaven",
+    "sun_goddess_earth",
+    "sharruma",
+    "shaushka",
+    "kubaba",
+    "mursili",
+    "yazilikaya"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "succession",
+   "label": "The Four Kings in Heaven",
+   "memberIds": [
+    "alalu",
+    "anu_hittite",
+    "kumarbi",
+    "teshub"
+   ]
+  },
+  {
+   "id": "kumarbi_cycle",
+   "label": "The Kumarbi Cycle",
+   "memberIds": [
+    "kumarbi",
+    "teshub",
+    "anu_hittite",
+    "ullikummi",
+    "upelluri",
+    "shaushka"
+   ]
+  },
+  {
+   "id": "illuyanka",
+   "label": "The Illuyanka Texts",
+   "memberIds": [
+    "illuyanka",
+    "inara",
+    "hupasiya",
+    "teshub"
+   ]
+  },
+  {
+   "id": "telipinu",
+   "label": "The Vanishing God",
+   "memberIds": [
+    "telipinu",
+    "hannahanna",
+    "kamrusepa",
+    "sun_god_heaven"
+   ]
+  },
+  {
+   "id": "suns",
+   "label": "The Three Suns",
+   "memberIds": [
+    "arinna",
+    "sun_god_heaven",
+    "sun_goddess_earth"
+   ]
+  },
+  {
+   "id": "state",
+   "label": "The State Cult",
+   "memberIds": [
+    "teshub",
+    "hebat",
+    "arinna",
+    "sharruma",
+    "yazilikaya",
+    "mursili"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "four-kings",
+   "title": "Four Kings in Heaven",
+   "era": "The Succession",
+   "cast": [
+    "alalu",
+    "anu_hittite",
+    "kumarbi",
+    "teshub"
+   ],
+   "summary": "Alalu was king in heaven for nine years, with Anu - greatest of the gods - standing before him as cupbearer and bowing at his feet. In the ninth year Anu fought him, beat him, and Alalu went down into the dark earth. Then Anu was king for nine years, with Kumarbi as his cupbearer. In the ninth year Kumarbi fought him. Anu broke and flew upward, and Kumarbi caught him by the feet, dragged him down, and bit off his genitals and swallowed them - and laughed. Anu told him not to laugh: he was now pregnant with the storm god, and the storm god would come out of him.",
+   "sources": [
+    {
+     "book": "The Bogazkoy tablets (CTH catalogue)",
+     "translation": "Hittitological catalogue of texts",
+     "location": "CTH 344, the Song of Going Forth",
+     "url": "https://www.hethport.uni-wuerzburg.de/CTH/"
+    },
+    {
+     "book": "Hittite Prayers and Myths, in early Anatolian scholarship",
+     "translation": "summarised from the post-decipherment literature",
+     "location": "The Kumarbi cycle",
+     "url": "https://archive.org/details/hittites0000gurn"
+    }
+   ]
+  },
+  {
+   "id": "the-stone-child",
+   "title": "The Stone Grown on a Shoulder",
+   "era": "The Succession",
+   "cast": [
+    "kumarbi",
+    "ullikummi",
+    "upelluri",
+    "teshub",
+    "shaushka"
+   ],
+   "summary": "Kumarbi fathered a child on a great rock and had it carried down and set on the right shoulder of Upelluri, the giant standing in the water who holds up heaven and earth and notices nothing. The child was diorite - blind and deaf, deliberately, so that nothing could be shown to it and nothing said to it. It grew out of the sea, higher every month, until it reached the gates of heaven. Shaushka went and sang to it and it heard nothing. Teshub attacked and was beaten. In the end Ea went to the old storehouse and fetched out the copper cutter that first separated heaven from earth, and sawed it off at the feet.",
+   "sources": [
+    {
+     "book": "The Bogazkoy tablets (CTH catalogue)",
+     "translation": "Hittitological catalogue of texts",
+     "location": "CTH 345, the Song of Ullikummi",
+     "url": "https://www.hethport.uni-wuerzburg.de/CTH/"
+    }
+   ]
+  },
+  {
+   "id": "upelluri-answers",
+   "title": "Something on My Right Shoulder",
+   "era": "The Succession",
+   "cast": [
+    "upelluri",
+    "ullikummi"
+   ],
+   "summary": "When the gods finally worked out where the stone giant was growing they went down to Upelluri and asked him. His answer is one of the best things in ancient literature. When heaven and earth were built upon me, he said, I knew nothing of it. When they were separated from one another with a cutter, I knew nothing of that either. Now something is making my right shoulder ache a little, and I do not know who that god is. He had been holding the world up for the entire history of the world, and it had never occurred to him to look.",
+   "sources": [
+    {
+     "book": "The Bogazkoy tablets (CTH catalogue)",
+     "translation": "Hittitological catalogue of texts",
+     "location": "CTH 345, the Song of Ullikummi",
+     "url": "https://www.hethport.uni-wuerzburg.de/CTH/"
+    }
+   ]
+  },
+  {
+   "id": "vats-of-drink",
+   "title": "The Serpent That Could Not Get Back Down",
+   "era": "The New Year",
+   "cast": [
+    "illuyanka",
+    "inara",
+    "hupasiya",
+    "teshub"
+   ],
+   "summary": "The serpent Illuyanka fought the storm god and beat him outright - which is not how these stories usually go, and is exactly why this one was read aloud at the New Year. His daughter Inara did not try to fight. She laid on a feast with vats of every kind of drink, and asked a mortal named Hupasiya to help her; he agreed on condition she sleep with him first, and she did. The serpent came up out of its hole with its young and drank everything, and could not get back down. Hupasiya roped it. Then the storm god came and killed it, and got his kingship back on the second attempt.",
+   "sources": [
+    {
+     "book": "The Bogazkoy tablets (CTH catalogue)",
+     "translation": "Hittitological catalogue of texts",
+     "location": "CTH 321, the Illuyanka texts",
+     "url": "https://www.hethport.uni-wuerzburg.de/CTH/"
+    },
+    {
+     "book": "Hittite Prayers and Myths, in early Anatolian scholarship",
+     "translation": "summarised from the post-decipherment literature",
+     "location": "The purulli festival",
+     "url": "https://archive.org/details/hittites0000gurn"
+    }
+   ]
+  },
+  {
+   "id": "the-window",
+   "title": "The Window He Was Told Not To Open",
+   "era": "The New Year",
+   "cast": [
+    "inara",
+    "hupasiya",
+    "illuyanka"
+   ],
+   "summary": "After the serpent was dealt with, Inara built a house on a rock and put Hupasiya in it, and gave him one instruction: while she was away he was not to look out of the window. He kept to it for twenty days. On the twentieth he opened the window, and saw his wife and his children down below, and when Inara came back he begged her to let him go home to them. What she did then is on a broken part of the tablet. Nobody who has read the rest of it thinks it went well. The taboo, the transgression and the longing for an ordinary domestic life are all completely familiar, and this is one of their earliest written instances.",
+   "sources": [
+    {
+     "book": "The Bogazkoy tablets (CTH catalogue)",
+     "translation": "Hittitological catalogue of texts",
+     "location": "CTH 321, the Illuyanka texts",
+     "url": "https://www.hethport.uni-wuerzburg.de/CTH/"
+    }
+   ]
+  },
+  {
+   "id": "boot-on-wrong-foot",
+   "title": "The Boot on the Wrong Foot",
+   "era": "The Vanishing",
+   "cast": [
+    "telipinu",
+    "hannahanna",
+    "sun_god_heaven",
+    "kamrusepa"
+   ],
+   "summary": "Telipinu lost his temper - and the text records that he was in such a state he put his right boot on his left foot. Then he walked out of the world. Mist choked the windows, the logs would not burn on the hearth, the sheep refused their lambs and the cows their calves, the grain stopped, and after a while the gods themselves sat down to eat at a great feast and could not get full. The sun god sent an eagle to find him and the eagle came back with nothing. Then Hannahanna said, send a bee. The storm god said that if the great gods could not find him a small bee certainly would not.",
+   "sources": [
+    {
+     "book": "The Bogazkoy tablets (CTH catalogue)",
+     "translation": "Hittitological catalogue of texts",
+     "location": "CTH 324, the Telipinu myth",
+     "url": "https://www.hethport.uni-wuerzburg.de/CTH/"
+    }
+   ]
+  },
+  {
+   "id": "the-bee",
+   "title": "The Bee Found Him",
+   "era": "The Vanishing",
+   "cast": [
+    "hannahanna",
+    "telipinu",
+    "kamrusepa"
+   ],
+   "summary": "She sent the bee anyway. It searched the rivers and the springs and the mountains and found Telipinu asleep in a meadow at Lihzina, and it stung him on his hands and his feet to wake him and wiped his eyes with wax - which woke him up furious, and he did more damage on the way back than he had done by leaving. So Kamrusepa performed the procedure: she took his anger and his rage and his fury and his temper, burned them out of him, and sent them down through a bronze vessel with a lead lid into the dark earth, where things that go in do not come out. Then he came home, and the fires lit, and the animals fed their young.",
+   "sources": [
+    {
+     "book": "The Bogazkoy tablets (CTH catalogue)",
+     "translation": "Hittitological catalogue of texts",
+     "location": "CTH 324, the Telipinu myth",
+     "url": "https://www.hethport.uni-wuerzburg.de/CTH/"
+    }
+   ]
+  },
+  {
+   "id": "plague-prayers",
+   "title": "Which Oath Was Broken",
+   "era": "The Thousand Gods",
+   "cast": [
+    "mursili",
+    "arinna",
+    "sun_god_heaven",
+    "teshub"
+   ],
+   "summary": "A plague came into Hatti with Egyptian prisoners of war and ran for twenty years, killing Mursili's father and his brother before it reached him. His response survives, and it does not read like a religious text. He tells the gods he has searched the oracles and gone back through the old tablets to establish the cause, and he has found it: his father broke a sworn treaty with Egypt, and killed his predecessor. He accepts the inherited guilt in so many words and offers restitution. Then he makes the practical argument - that if everyone in Hatti dies there will be nobody left to bake the bread and pour the offerings.",
+   "sources": [
+    {
+     "book": "The Bogazkoy tablets (CTH catalogue)",
+     "translation": "Hittitological catalogue of texts",
+     "location": "CTH 378, the Plague Prayers",
+     "url": "https://www.hethport.uni-wuerzburg.de/CTH/"
+    },
+    {
+     "book": "Hittite Prayers and Myths, in early Anatolian scholarship",
+     "translation": "summarised from the post-decipherment literature",
+     "location": "Hittite prayers",
+     "url": "https://archive.org/details/hittites0000gurn"
+    }
+   ]
+  },
+  {
+   "id": "carved-in-the-rock",
+   "title": "Sixty Gods in a Cleft of Rock",
+   "era": "The Thousand Gods",
+   "cast": [
+    "yazilikaya",
+    "teshub",
+    "hebat",
+    "sharruma",
+    "shaushka"
+   ],
+   "summary": "A short walk from Hattusa there is a natural cleft in the rock, and the Hittites carved their pantheon into its walls. Two processions face each other along the two sides - the male gods coming from the left, the goddesses from the right - and they meet at the end where Teshub and Hebat stand facing one another, he on two mountain gods and she on a leopard. More than sixty figures, most labelled in Luwian hieroglyphs. Shaushka appears in both processions, which is not a mistake. In the smaller chamber, Sharruma stands with his arm round King Tudhaliya IV at three times his size.",
+   "sources": [
+    {
+     "book": "The Land of the Hittites",
+     "translation": "John Garstang, 1910",
+     "location": "On Yazilikaya",
+     "url": "https://archive.org/details/landofhittitesac00gars"
+    },
+    {
+     "book": "Hittite Prayers and Myths, in early Anatolian scholarship",
+     "translation": "summarised from the post-decipherment literature",
+     "location": "The state cult",
+     "url": "https://archive.org/details/hittites0000gurn"
+    }
+   ]
+  },
+  {
+   "id": "forgotten-empire",
+   "title": "The Empire That Went Missing",
+   "era": "The Thousand Gods",
+   "cast": [
+    "mursili",
+    "yazilikaya",
+    "teshub"
+   ],
+   "summary": "For two thousand years the Hittites existed only as a name in the Hebrew Bible - Uriah the Hittite, and a people the Israelites were told to drive out - and nobody knew what they had been. In 1906 excavation at Bogazkoy in central Turkey turned up an imperial archive of around thirty thousand clay tablets, and in 1915 Bedrich Hrozny showed that the language was Indo-European, the oldest attested. What emerged was an empire that had fought Egypt to a standstill at Kadesh and signed the earliest surviving peace treaty, a copy of which now hangs at the United Nations.",
+   "sources": [
+    {
+     "book": "The Hittites: The Story of a Forgotten Empire",
+     "translation": "A. H. Sayce, 1888",
+     "location": "The case for a forgotten empire",
+     "url": "https://archive.org/details/hittitesstoryof00sayc"
+    },
+    {
+     "book": "Die Sprache der Hethiter (the decipherment)",
+     "translation": "Bedrich Hrozny, 1917",
+     "location": "The decipherment",
+     "url": "https://archive.org/details/diesprachederhet00hroz"
+    },
+    {
+     "book": "The Land of the Hittites",
+     "translation": "John Garstang, 1910",
+     "location": "Bogazkoy",
+     "url": "https://archive.org/details/landofhittitesac00gars"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "alalu",
+   "name": "Alalu",
+   "sanskrit": "Alalu",
+   "category": "primordial",
+   "era": "The Succession",
+   "role": "The first king in heaven, deposed after nine years and sent down into the earth",
+   "wikipedia": "Alalu",
+   "portrait": "portraits/hittite/alalu.webp",
+   "epithets": [
+    "the first king of heaven"
+   ],
+   "domains": [
+    "the first kingship",
+    "the dark earth"
+   ],
+   "symbols": [
+    "the throne",
+    "the pit"
+   ],
+   "mount": null,
+   "abode": "The dark earth, below",
+   "festivals": [],
+   "worship": "",
+   "bio": "Nine years on the throne, then his own cupbearer knocked him off it.",
+   "longBio": "The Song of Going Forth opens with Alalu as king in heaven, with Anu - the greatest of the gods - standing before him as cupbearer and bowing at his feet. After nine years Anu fights him, defeats him, and Alalu goes down into the dark earth. Then Anu takes the throne, with Kumarbi as his cupbearer, and the pattern is set. Three transfers of power in the opening lines, each one violent and each one from a servant to his master. The Hittites had a real problem with royal succession and it shows in what they chose to write down.",
+   "variantTraditions": "Alalu appears in Mesopotamian god lists as a primordial figure but has no comparable narrative there; the succession structure looks specifically Hurrian.",
+   "storyIds": [
+    "four-kings"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "king-ruler",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "anu_hittite",
+   "name": "Anu",
+   "sanskrit": "Anu",
+   "category": "primordial",
+   "era": "The Succession",
+   "role": "The sky, unseated by his own cupbearer biting off his genitals",
+   "wikipedia": "Kumarbi",
+   "portrait": "portraits/hittite/anu_hittite.webp",
+   "epithets": [
+    "the sky",
+    "the greatest of the gods",
+    "the one who fled upward"
+   ],
+   "domains": [
+    "the sky",
+    "kingship lost",
+    "the seed that became three gods"
+   ],
+   "symbols": [
+    "the sky",
+    "the wound",
+    "the flight upward"
+   ],
+   "mount": null,
+   "abode": "The sky, and then away",
+   "festivals": [],
+   "worship": "",
+   "bio": "Kumarbi bit them off and swallowed, and laughed - and then found out what he had swallowed.",
+   "longBio": "Anu is the sky and the second king in heaven, and he holds it for nine years with Kumarbi as his cupbearer. Then Kumarbi fights him. Anu breaks and flies upward, and Kumarbi seizes him by the feet and drags him down and bites off his genitals and swallows them. Kumarbi laughs. Anu, from the air, tells him not to - that he is now pregnant with the storm god Teshub, with the river Aranzah, and with a third god, and that they will come out of him. Then Anu goes off into the sky. This is Ouranos and Kronos, four hundred years before Hesiod.",
+   "variantTraditions": "This Anu is the Mesopotamian sky god borrowed into the Hurrian succession myth; the biting and swallowing has no Mesopotamian parallel and is the specifically Hurrian element.",
+   "storyIds": [
+    "four-kings"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sky-thunder",
+    "king-ruler",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "kumarbi",
+   "name": "Kumarbi",
+   "sanskrit": "Kumarbi",
+   "category": "creator",
+   "era": "The Succession",
+   "role": "Father of the gods, who swallowed a sky and spent the rest of the cycle trying to undo it",
+   "wikipedia": "Kumarbi",
+   "portrait": "portraits/hittite/kumarbi.webp",
+   "epithets": [
+    "the father of the gods",
+    "the grain god",
+    "he who bit"
+   ],
+   "domains": [
+    "the third kingship",
+    "grain",
+    "the fathering of monsters",
+    "revenge"
+   ],
+   "symbols": [
+    "the ear of grain",
+    "the swallowed seed",
+    "the stone Ullikummi"
+   ],
+   "mount": null,
+   "abode": "Urkesh",
+   "festivals": [],
+   "worship": "",
+   "bio": "He got the throne by biting, then lost it to what he had bitten, and never accepted it.",
+   "longBio": "Kumarbi is the Hurrian father of the gods, taken into the Hittite pantheon whole. He unseats Anu by biting off and swallowing his genitals, and finds himself pregnant with three gods including Teshub the storm god, who eventually comes out and takes the kingship from him. The rest of the cycle is Kumarbi's campaign to get it back: he fathers a series of challengers - a sea-dragon, a silver god, and above all Ullikummi, a diorite giant grown on the shoulder of Upelluri - and each of them is defeated. He is the losing half of the succession and the most persistent figure in it.",
+   "variantTraditions": "The Kumarbi cycle survives in fragments and the order of the songs is reconstructed; the correspondence with Hesiod's Ouranos-Kronos-Zeus sequence is generally accepted as transmission rather than coincidence.",
+   "storyIds": [
+    "four-kings",
+    "the-stone-child"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "king-ruler",
+    "primordial-adversary",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "teshub",
+   "name": "Teshub",
+   "sanskrit": "Tarhunna",
+   "category": "creator",
+   "era": "The Succession",
+   "role": "The storm god who came out of Kumarbi and has been holding the sky ever since",
+   "wikipedia": "Teshub",
+   "portrait": "portraits/hittite/teshub.webp",
+   "epithets": [
+    "Tarhunna",
+    "the storm god of Hatti",
+    "the king of heaven"
+   ],
+   "domains": [
+    "storm",
+    "lightning",
+    "kingship",
+    "the bull team"
+   ],
+   "symbols": [
+    "the mace and the forked lightning",
+    "the two bulls Seri and Hurri",
+    "the mountain he stands on"
+   ],
+   "mount": null,
+   "abode": "Mount Hazzi, and the temple at Hattusa",
+   "festivals": [],
+   "worship": "",
+   "bio": "The fourth king in heaven, and the one who is still on the throne when the tablets stop.",
+   "longBio": "Teshub is the Hurrian storm god and the great god of the Hittite empire, called Tarhunna in Hittite. He is born out of Kumarbi - the texts are graphic about where from - takes the kingship, and then spends the rest of the cycle defending it against everything Kumarbi can father. He rides a chariot drawn by two bulls, Seri and Hurri, and stands on mountains. At Yazilikaya he is carved standing on two mountain gods, meeting his wife Hebat, who stands on a leopard. His storm-god fights - against the sea, against a serpent, against a stone giant - are the pattern for every one after him.",
+   "variantTraditions": "Teshub, Tarhunna and the Luwian Tarhunz are the same figure under three languages; the Hittite state cult used them nearly interchangeably.",
+   "storyIds": [
+    "four-kings",
+    "the-stone-child",
+    "vats-of-drink",
+    "plague-prayers",
+    "carved-in-the-rock",
+    "forgotten-empire"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sky-thunder",
+    "wind-storm",
+    "king-ruler",
+    "war"
+   ]
+  },
+  {
+   "id": "hebat",
+   "name": "Hebat",
+   "sanskrit": "Hepat",
+   "category": "deity",
+   "era": "The Succession",
+   "role": "Queen of heaven, standing on a leopard, and outranking her husband in some inscriptions",
+   "wikipedia": "Hebat",
+   "portrait": "portraits/hittite/hebat.webp",
+   "epithets": [
+    "Hepat",
+    "the queen of heaven",
+    "the lady of Kummanni"
+   ],
+   "domains": [
+    "queenship",
+    "the sun",
+    "the state cult",
+    "intercession"
+   ],
+   "symbols": [
+    "the leopard she stands on",
+    "the tall crown",
+    "the disc"
+   ],
+   "mount": null,
+   "abode": "Kummanni, and Yazilikaya",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Hittite queen served as her priestess, and the arrangement was not decorative.",
+   "longBio": "Hebat is Teshub's wife and the chief goddess of the Hurrians and then of the Hittite state, shown at Yazilikaya standing on a leopard and meeting her husband at the centre of the whole procession of gods. She is closely identified with the Sun Goddess of Arinna, the Hittites' own great goddess, and the two effectively merge. The Hittite queen - the tawananna - held a real religious office as her priestess, with authority that outlasted individual kings and occasionally caused constitutional trouble. Her name survives in the personal name Hepa and is embedded in that of the Hurrian princess Puduhepa.",
+   "variantTraditions": "Puduhepa, queen of Hattusili III, is one of the best-documented women of the ancient Near East and corresponded with Ramesses II in her own name.",
+   "storyIds": [
+    "carved-in-the-rock"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "king-ruler",
+    "sun",
+    "preserver"
+   ]
+  },
+  {
+   "id": "ullikummi",
+   "name": "Ullikummi",
+   "sanskrit": "Ullikummi",
+   "category": "beast",
+   "era": "The Succession",
+   "role": "A blind, deaf giant of diorite grown on a sleeping titan's shoulder to kill the storm god",
+   "wikipedia": "Ullikummi",
+   "portrait": "portraits/hittite/ullikummi.webp",
+   "epithets": [
+    "the stone one",
+    "the diorite man"
+   ],
+   "domains": [
+    "stone",
+    "growth",
+    "the challenge to Teshub"
+   ],
+   "symbols": [
+    "the pillar of diorite rising from the sea",
+    "the shoulder of Upelluri",
+    "the copper cutter"
+   ],
+   "mount": null,
+   "abode": "On Upelluri's right shoulder, in the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "He grew nine thousand leagues, and could neither see nor hear, which was the point.",
+   "longBio": "Kumarbi fathers Ullikummi on a great rock and has him set on the right shoulder of Upelluri, the giant who holds the world and notices nothing. The child is diorite, blind and deaf - deliberately, so that nothing can be said to him and nothing shown to him will stop him - and he grows, out of the sea, until he reaches the gates of heaven and the gods cannot approach him. Ishtar sings to him and it is wasted. Teshub attacks and fails. Finally Ea goes to the storehouse and fetches out the ancient copper cutter that first separated heaven from earth, and saws Ullikummi off at the feet.",
+   "variantTraditions": "The Song of Ullikummi is the fullest surviving text of the cycle and its ending is partly lost, though the copper cutter is preserved.",
+   "storyIds": [
+    "the-stone-child",
+    "upelluri-answers"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "upelluri",
+   "name": "Upelluri",
+   "sanskrit": "Upelluri",
+   "category": "primordial",
+   "era": "The Succession",
+   "role": "The giant holding up the world, who did not notice a mountain growing on his shoulder",
+   "wikipedia": "Upelluri",
+   "portrait": "portraits/hittite/upelluri.webp",
+   "epithets": [
+    "the one who bears heaven and earth",
+    "the unaware"
+   ],
+   "domains": [
+    "the support of the world",
+    "obliviousness"
+   ],
+   "symbols": [
+    "the world resting on his back",
+    "the right shoulder"
+   ],
+   "mount": null,
+   "abode": "In the water, under everything",
+   "festivals": [],
+   "worship": "",
+   "bio": "Told a stone giant had been growing on him for years, he said he had felt something slight.",
+   "longBio": "Upelluri stands in the water holding heaven and earth on his body, and he is so vast and so removed that nothing registers. Kumarbi has Ullikummi set on his right shoulder to grow, and Upelluri does not notice. When the gods eventually come and ask him about it, his answer is one of the best lines in ancient literature: when heaven and earth were built upon him he knew nothing of it, when they were separated with a cutter he knew nothing of it, and now something is making his right shoulder ache a little but he does not know who it is.",
+   "variantTraditions": "Upelluri is closely comparable to Atlas, and the copper cutter that separated heaven from earth appears in his answer as a remembered event.",
+   "storyIds": [
+    "the-stone-child",
+    "upelluri-answers"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "illuyanka",
+   "name": "Illuyanka",
+   "sanskrit": "Illuyanka",
+   "category": "beast",
+   "era": "The New Year",
+   "role": "The serpent that beat the storm god, and had to be got drunk and roped",
+   "wikipedia": "Illuyanka",
+   "portrait": "portraits/hittite/illuyanka.webp",
+   "epithets": [
+    "the dragon",
+    "the serpent"
+   ],
+   "domains": [
+    "the sea and the deep",
+    "the defeat of the storm god",
+    "the New Year"
+   ],
+   "symbols": [
+    "the coils",
+    "the vats of drink",
+    "the rope"
+   ],
+   "mount": null,
+   "abode": "Its hole in the ground",
+   "festivals": [],
+   "worship": "",
+   "bio": "The storm god lost the first fight outright, which is unusual and is the whole point.",
+   "longBio": "The Illuyanka texts were read at the purulli, the New Year festival, and they exist in two versions. In the first the serpent defeats Teshub, and the goddess Inara sets a feast with enormous vats of drink; the serpent and its young come up, drink until they cannot get back down their hole, and a mortal named Hupasiya ties them up so the storm god can kill them. In the second the serpent takes the god's heart and eyes; he fathers a son, marries him into the serpent's family, and has the son ask for the heart and eyes back as a bride-price - then kills the serpent and his own son with it.",
+   "variantTraditions": "The purulli festival reading makes this a functional New Year text rather than a story told for its own sake; the storm god's initial defeat is the ritual point.",
+   "storyIds": [
+    "vats-of-drink",
+    "the-window"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "inara",
+   "name": "Inara",
+   "sanskrit": "Inara",
+   "category": "deity",
+   "era": "The New Year",
+   "role": "She solved the dragon problem with catering, and then imprisoned the man who helped",
+   "wikipedia": "Inara",
+   "portrait": "portraits/hittite/inara.webp",
+   "epithets": [
+    "the lady of the wild animals",
+    "daughter of the storm god"
+   ],
+   "domains": [
+    "wild animals",
+    "the feast that trapped the serpent",
+    "the purulli festival"
+   ],
+   "symbols": [
+    "the vats",
+    "the house on the rock",
+    "the wild beasts"
+   ],
+   "mount": null,
+   "abode": "A house on a cliff",
+   "festivals": [],
+   "worship": "",
+   "bio": "She got the serpent drunk. Then she kept the mortal who helped her in a house on a rock.",
+   "longBio": "Inara is Teshub's daughter and the goddess of wild animals, and when her father loses to Illuyanka she does not fight - she prepares. She lays out a feast with vats of every kind of drink and asks a mortal, Hupasiya, to help, and he agrees on one condition, which she grants. The serpent and its brood come up and drink until they are too swollen to get back into the hole, and Hupasiya ropes them for the storm god to kill. Then she puts Hupasiya in a house on a rock with one instruction: do not look out of the window. He looks out, sees his wife and children, asks to go home, and it ends badly.",
+   "variantTraditions": "What Inara does to Hupasiya after he looks out is on a damaged part of the tablet; the implication is that she kills him.",
+   "storyIds": [
+    "vats-of-drink",
+    "the-window"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "messenger-trickster",
+    "war"
+   ]
+  },
+  {
+   "id": "hupasiya",
+   "name": "Hupasiya",
+   "sanskrit": "Hupasiya",
+   "category": "mortal",
+   "era": "The New Year",
+   "role": "The mortal who tied up the dragon, and looked out of the window he was told not to",
+   "wikipedia": "Illuyanka",
+   "portrait": "portraits/hittite/hupasiya.webp",
+   "epithets": [
+    "the man who helped",
+    "the one at the window"
+   ],
+   "domains": [
+    "the roping of the serpent",
+    "the condition",
+    "the forbidden window"
+   ],
+   "symbols": [
+    "the rope",
+    "the window on the rock"
+   ],
+   "mount": null,
+   "abode": "A house on a cliff, and then not",
+   "festivals": [],
+   "worship": "",
+   "bio": "He did the job, took his payment in advance, and could not resist a window.",
+   "longBio": "Hupasiya is a man, and the whole Illuyanka story turns on his hands. Inara asks him to help; he says he will if she sleeps with him first, and she does. He ropes the drunken serpent so the storm god can kill it. Then Inara houses him on a rock and forbids him to look out of the window while she is away, and after twenty days he looks, and sees his wife and his children down below, and begs to be let home. The tablet breaks. The taboo, the transgression and the domestic longing are all completely familiar and this is one of their earliest written instances.",
+   "variantTraditions": "The Hupasiya episode is only in the older of the two Illuyanka versions; the later one drops the mortal entirely.",
+   "storyIds": [
+    "vats-of-drink",
+    "the-window"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "telipinu",
+   "name": "Telipinu",
+   "sanskrit": "Telipinu",
+   "category": "deity",
+   "era": "The Vanishing",
+   "role": "The god who stormed off in a rage and took fertility with him",
+   "wikipedia": "Telipinu_(mythology)",
+   "portrait": "portraits/hittite/telipinu.webp",
+   "epithets": [
+    "the son of the storm god",
+    "the angry one"
+   ],
+   "domains": [
+    "agriculture",
+    "fertility",
+    "anger",
+    "the return"
+   ],
+   "symbols": [
+    "the boot put on the wrong foot",
+    "the beehive",
+    "the eyapa tree"
+   ],
+   "mount": null,
+   "abode": "A meadow, asleep",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was so angry he put his right boot on his left foot, and then walked out of the world.",
+   "longBio": "Telipinu loses his temper, and the text records the detail that he was in such a state he put his right boot on his left foot. Then he disappears, and everything stops: mist chokes the windows, logs will not burn, sheep and cattle refuse their young, grain does not grow, and the gods themselves begin to starve at their own tables. The sun god sends an eagle to find him and it fails. Finally the mother goddess sends a bee, which finds him asleep in a meadow and stings him awake - which makes him angrier still - and it takes a full magical ritual to draw the rage out of him and bring him back.",
+   "variantTraditions": "The Telipinu myth exists in several versions and is embedded in a ritual text; it was performed to end drought, and the story is the justification for the procedure.",
+   "storyIds": [
+    "boot-on-wrong-foot",
+    "the-bee"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "hannahanna",
+   "name": "Hannahanna",
+   "sanskrit": "Hannahanna",
+   "category": "deity",
+   "era": "The Vanishing",
+   "role": "The grandmother goddess, who sent the bee when everyone else had given up",
+   "wikipedia": "Hannahanna",
+   "portrait": "portraits/hittite/hannahanna.webp",
+   "epithets": [
+    "the grandmother",
+    "the mother goddess"
+   ],
+   "domains": [
+    "birth",
+    "counsel",
+    "the finding of missing gods",
+    "bees"
+   ],
+   "symbols": [
+    "the bee",
+    "the eagle that failed first"
+   ],
+   "mount": null,
+   "abode": "Her own place, apart",
+   "festivals": [],
+   "worship": "",
+   "bio": "The eagle could not find him. She said, send a bee, and everybody laughed.",
+   "longBio": "Hannahanna is the mother goddess - the name means grandmother - and her function in the myths is to solve things after the other gods have failed. When Telipinu vanishes and the sun god's eagle comes back with nothing, she proposes sending a bee, and the storm god objects that if the great gods could not find him a small bee certainly will not. She sends it anyway. It finds him asleep in a meadow, stings his hands and feet, and wipes his eyes with wax. She does the same when the sea takes the sun god. She is the one who is right when nobody believes her.",
+   "variantTraditions": "Hannahanna is the Hittite form of an older Hattian mother goddess; her bee is one of the most quoted details in Anatolian myth.",
+   "storyIds": [
+    "boot-on-wrong-foot",
+    "the-bee"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "sage-seer",
+    "preserver",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "kamrusepa",
+   "name": "Kamrusepa",
+   "sanskrit": "Kamrusepa",
+   "category": "deity",
+   "era": "The Vanishing",
+   "role": "Goddess of medicine and magic, who performs the ritual that gets the anger out",
+   "wikipedia": "Kamrusepa",
+   "portrait": "portraits/hittite/kamrusepa.webp",
+   "epithets": [
+    "the goddess of healing",
+    "the lady of magic"
+   ],
+   "domains": [
+    "healing",
+    "magic",
+    "purification",
+    "the taking away of rage"
+   ],
+   "symbols": [
+    "the twelve rams",
+    "the burning of the anger",
+    "the eagle's wing"
+   ],
+   "mount": null,
+   "abode": "The place of ritual",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her cure is described step by step because the text is the instructions.",
+   "longBio": "When the bee has found Telipinu and only made him angrier, it is Kamrusepa who fixes it. She performs a purification: she takes his anger, his rage, his fury and his temper and burns them out, sends them down into the dark earth through a bronze vessel with a lead lid, and disposes of them where they cannot come back. The text is not describing a myth so much as recording a working ritual - the myth is the precedent that makes the procedure valid. That is how a great deal of Hittite religion functions, and Kamrusepa is its practitioner.",
+   "variantTraditions": "Kamrusepa corresponds to the Hattian Katahzipuri; the ritual texts attached to her are among the most detailed surviving from the ancient Near East.",
+   "storyIds": [
+    "boot-on-wrong-foot",
+    "the-bee"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "wisdom-craft",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "arinna",
+   "name": "The Sun Goddess of Arinna",
+   "sanskrit": "Arinniti",
+   "category": "deity",
+   "era": "The Thousand Gods",
+   "role": "The queen of heaven and the empire's own great goddess - and the sun is female",
+   "wikipedia": "Sun_goddess_of_Arinna",
+   "portrait": "portraits/hittite/arinna.webp",
+   "epithets": [
+    "Arinniti",
+    "the queen of the land of Hatti",
+    "the sun goddess"
+   ],
+   "domains": [
+    "the sun",
+    "the kingdom",
+    "queenship",
+    "justice"
+   ],
+   "symbols": [
+    "the winged sun disc",
+    "the throne"
+   ],
+   "mount": null,
+   "abode": "Arinna",
+   "festivals": [],
+   "worship": "",
+   "bio": "Kings addressed her as my lady and asked her for verdicts, and the sun here is a woman.",
+   "longBio": "The Sun Goddess of Arinna is the chief deity of the Hittite state, and Hittite kings address her directly in their prayers as the mistress of the land and the one who governs kingship. The winged sun disc on royal seals is hers. She is closely merged with Hurrian Hebat, and in the empire period the two are effectively one goddess with two names. She is distinct from the Sun God of Heaven, who is male and travels the sky, and from the Sun Goddess of the Earth, who rules below - the Hittites ran three suns and did not find it confusing.",
+   "variantTraditions": "The Hittite pantheon's three solar deities are separate and consistently distinguished in the texts.",
+   "storyIds": [
+    "plague-prayers"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "king-ruler",
+    "earth-mother",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "sun_god_heaven",
+   "name": "The Sun God of Heaven",
+   "sanskrit": "Istanu",
+   "category": "deity",
+   "era": "The Thousand Gods",
+   "role": "The sun who crosses the sky and sees everything, and is asked to look into things",
+   "wikipedia": "Istanu",
+   "portrait": "portraits/hittite/sun_god_heaven.webp",
+   "epithets": [
+    "Istanu",
+    "the sun god of heaven",
+    "the shepherd of mankind"
+   ],
+   "domains": [
+    "the sun",
+    "justice",
+    "oaths",
+    "the seeing of everything"
+   ],
+   "symbols": [
+    "the winged disc",
+    "the crook",
+    "the chariot"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Prayers ask him to look, because looking is what he does and nobody escapes it.",
+   "longBio": "The Sun God of Heaven crosses the sky daily and therefore sees everything, which makes him the god of oaths and legal cases. He is addressed as the shepherd of mankind and appealed to when somebody wants a matter looked into. In the Telipinu myth he is the one who holds the great feast at which the gods cannot get full and realises something is wrong. He is Istanu in Hittite, borrowed from Hattian Estan, and he sits alongside two other solar deities - one the queen of the state and one the ruler of the underworld - without any of them being merged.",
+   "variantTraditions": "Istanu's borrowing from Hattian Estan is one of the clearest examples of the Hittites taking over the religion of the people they conquered.",
+   "storyIds": [
+    "boot-on-wrong-foot",
+    "plague-prayers"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "death-judge",
+    "preserver"
+   ]
+  },
+  {
+   "id": "sun_goddess_earth",
+   "name": "The Sun Goddess of the Earth",
+   "sanskrit": "Lelwani",
+   "category": "underworld",
+   "era": "The Thousand Gods",
+   "role": "The third sun - the one below, who rules the dead",
+   "wikipedia": "Lelwani",
+   "portrait": "portraits/hittite/sun_goddess_earth.webp",
+   "epithets": [
+    "Lelwani",
+    "the sun goddess of the earth",
+    "the queen below"
+   ],
+   "domains": [
+    "the underworld",
+    "the dead",
+    "the pit",
+    "purification"
+   ],
+   "symbols": [
+    "the pit dug in the ground",
+    "the dark earth"
+   ],
+   "mount": null,
+   "abode": "The dark earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sun that has gone down is a different deity from the one that comes up.",
+   "longBio": "The Sun Goddess of the Earth rules the underworld, and she is what the sun is when it is below. Hittite ritual sends unwanted things down to her - impurity, disease, anger, the consequences of a broken oath - through a pit dug in the ground, and the transaction is explicit. Lelwani was originally a male Hattian deity and changed sex in the Hittite adoption, which is recorded and unexplained. She receives the dead, and the mortuary texts for a Hittite king describe a lengthy procedure for getting him to her properly.",
+   "variantTraditions": "The change of gender from Hattian Lelwani to the Hittite goddess is well attested and is one of several such shifts in the Hittite adoption of Hattian religion.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "sun",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "sharruma",
+   "name": "Sharruma",
+   "sanskrit": "Sarruma",
+   "category": "deity",
+   "era": "The Thousand Gods",
+   "role": "Son of the storm god - and the king is carved being embraced by him",
+   "wikipedia": "Sarruma",
+   "portrait": "portraits/hittite/sharruma.webp",
+   "epithets": [
+    "the calf of Teshub",
+    "the mountain god"
+   ],
+   "domains": [
+    "mountains",
+    "the protection of the king",
+    "the royal embrace"
+   ],
+   "symbols": [
+    "the pointed cap with horns",
+    "the leopard",
+    "the embrace at Yazilikaya"
+   ],
+   "mount": null,
+   "abode": "Yazilikaya",
+   "festivals": [],
+   "worship": "",
+   "bio": "There is a rock carving of him with his arm round a king, at three times the king's size.",
+   "longBio": "Sharruma is the son of Teshub and Hebat, and a mountain god. His most famous appearance is in Chamber B at Yazilikaya, where he is carved with his left arm around the shoulders of King Tudhaliya IV, holding the king's wrist, at a scale that makes the king look like a child beside him. It is one of the most physically affectionate images of a god and a mortal to survive from the ancient world, and it was carved on the king's own instructions - which tells you what he wanted the relationship to look like.",
+   "variantTraditions": "The Tudhaliya relief is in the smaller chamber at Yazilikaya, which may have been a memorial to the king; the reading is debated.",
+   "storyIds": [
+    "carved-in-the-rock"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "preserver",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "shaushka",
+   "name": "Shaushka",
+   "sanskrit": "Sauska",
+   "category": "deity",
+   "era": "The Thousand Gods",
+   "role": "Love and war, winged, with two attendants - and she was sent to Egypt to cure a pharaoh",
+   "wikipedia": "Shaushka",
+   "portrait": "portraits/hittite/shaushka.webp",
+   "epithets": [
+    "the Hurrian Ishtar",
+    "the winged one",
+    "the lady of Nineveh"
+   ],
+   "domains": [
+    "sexual love",
+    "war",
+    "healing",
+    "magic"
+   ],
+   "symbols": [
+    "wings",
+    "the lion",
+    "the two attendant goddesses Ninatta and Kulitta"
+   ],
+   "mount": null,
+   "abode": "Nineveh, and Samuha",
+   "festivals": [],
+   "worship": "",
+   "bio": "A statue of her was shipped to Egypt to treat Amenhotep III, and there is a letter about it.",
+   "longBio": "Shaushka is the Hurrian counterpart of Ishtar, and the Hittites took her as one of their most important goddesses - Hattusili III named her as his personal deity and credited her with putting him on the throne. She is shown winged, standing on a lion, with two attendants. Her healing reputation reached Egypt: one of the Amarna letters records a statue of the Lady of Nineveh being sent to Amenhotep III, apparently to treat his illness, with a note from the Mitanni king. She appears at Yazilikaya in both the male and the female processions, which is not an error.",
+   "variantTraditions": "Shaushka's placement in both god and goddess processions at Yazilikaya is deliberate and reflects the gender ambiguity attached to Ishtar-type deities.",
+   "storyIds": [
+    "the-stone-child",
+    "carved-in-the-rock"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "war",
+    "healer",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "kubaba",
+   "name": "Kubaba",
+   "sanskrit": "Kubaba",
+   "category": "deity",
+   "era": "The Thousand Gods",
+   "role": "Queen of Carchemish - and the probable ancestor of Cybele",
+   "wikipedia": "Kubaba",
+   "portrait": "portraits/hittite/kubaba.webp",
+   "epithets": [
+    "the queen of Carchemish",
+    "the lady with the mirror"
+   ],
+   "domains": [
+    "the city of Carchemish",
+    "queenship",
+    "the mirror and pomegranate"
+   ],
+   "symbols": [
+    "the mirror",
+    "the pomegranate",
+    "the tall polos crown"
+   ],
+   "mount": null,
+   "abode": "Carchemish",
+   "festivals": [],
+   "worship": "",
+   "bio": "She outlasted the empire that adopted her by five hundred years.",
+   "longBio": "Kubaba is the tutelary goddess of Carchemish on the Euphrates, taken into the Hittite pantheon and shown with a mirror and a pomegranate. What makes her interesting is what happened afterwards: when the Hittite empire fell around 1180 BC the Neo-Hittite city-states carried on, and her cult with them, and she is generally taken to be the origin of the Phrygian Kybele - who becomes the Greek and then the Roman Cybele, the Great Mother, with her lions and her castrated priests and a temple on the Palatine. That is a line running from a Bronze Age river town to imperial Rome.",
+   "variantTraditions": "The Kubaba-Kybele derivation is widely accepted on linguistic and iconographic grounds though not universally.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "mursili",
+   "name": "Mursili II",
+   "sanskrit": "Mursili",
+   "category": "mortal",
+   "era": "The Thousand Gods",
+   "role": "A king who wrote to the gods asking which broken oath had caused the plague",
+   "wikipedia": "Mursili_II",
+   "portrait": "portraits/hittite/mursili.webp",
+   "epithets": [
+    "the king of Hatti",
+    "the author of the Plague Prayers"
+   ],
+   "domains": [
+    "kingship",
+    "plague",
+    "confession",
+    "the search for a cause"
+   ],
+   "symbols": [
+    "the tablet",
+    "the twenty-year epidemic"
+   ],
+   "mount": null,
+   "abode": "Hattusa",
+   "festivals": [],
+   "worship": "",
+   "bio": "Twenty years of plague, and he investigated it as a legal matter rather than a punishment.",
+   "longBio": "An epidemic ran through Hatti for twenty years, arriving with Egyptian prisoners of war and killing Mursili's father and brother before him. His response survives as the Plague Prayers, and their tone is remarkable: he addresses the gods as a party to an agreement, states that he has searched the oracles and the old tablets to identify which offence caused it, admits that his father broke an oath with Egypt and killed his own predecessor, accepts the inherited guilt explicitly, and offers restitution. Then he points out, reasonably, that if everyone dies there will be nobody left to feed them.",
+   "variantTraditions": "The Plague Prayers are among the most personal documents to survive from the ancient Near East and are unusual in accepting inherited guilt as a legal principle.",
+   "storyIds": [
+    "plague-prayers",
+    "forgotten-empire"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "sage-seer",
+    "healer"
+   ]
+  },
+  {
+   "id": "yazilikaya",
+   "name": "Yazilikaya",
+   "sanskrit": "Yazilikaya",
+   "category": "primordial",
+   "era": "The Thousand Gods",
+   "role": "An open-air sanctuary where sixty-odd gods are carved walking toward each other",
+   "wikipedia": "Yazılıkaya",
+   "portrait": "portraits/hittite/yazilikaya.webp",
+   "epithets": [
+    "the inscribed rock",
+    "the rock sanctuary"
+   ],
+   "domains": [
+    "the state pantheon",
+    "procession",
+    "the New Year"
+   ],
+   "symbols": [
+    "two files of gods converging",
+    "the twelve running gods",
+    "the sword god"
+   ],
+   "mount": null,
+   "abode": "A rock outcrop above Hattusa",
+   "festivals": [],
+   "worship": "",
+   "bio": "Two processions carved on facing walls, meeting in the middle - the whole pantheon in one place.",
+   "longBio": "Yazilikaya is a natural cleft in the rock a short walk from Hattusa, turned into a sanctuary by carving the gods onto its walls. Two processions face each other along the two sides of the main chamber - male gods from the left, goddesses from the right - and they meet at the far end where Teshub and Hebat stand facing one another. There are more than sixty figures, most of them labelled in Luwian hieroglyphs. A group of twelve identical gods runs along one wall with sickle-swords over their shoulders. It is the closest thing anywhere to a photograph of a Bronze Age pantheon.",
+   "variantTraditions": "The site was probably used for the New Year festival; the precise function of the smaller Chamber B, with the Tudhaliya relief and the sword god, is debated.",
+   "storyIds": [
+    "carved-in-the-rock",
+    "forgotten-empire"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "king-ruler"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "alalu",
+   "to": "anu_hittite",
+   "type": "enemy",
+   "note": "Nine years, then his own cupbearer put him in the earth"
+  },
+  {
+   "from": "anu_hittite",
+   "to": "alalu",
+   "type": "guru",
+   "note": "He stood as cupbearer before the throne he took"
+  },
+  {
+   "from": "anu_hittite",
+   "to": "kumarbi",
+   "type": "enemy",
+   "note": "Kumarbi bit, and swallowed, and laughed too early"
+  },
+  {
+   "from": "kumarbi",
+   "to": "anu_hittite",
+   "type": "guru",
+   "note": "Cupbearer to the sky, and then not"
+  },
+  {
+   "from": "anu_hittite",
+   "to": "teshub",
+   "type": "parent",
+   "note": "Fathered by way of what Kumarbi swallowed"
+  },
+  {
+   "from": "kumarbi",
+   "to": "teshub",
+   "type": "parent",
+   "note": "He came out of Kumarbi and took the throne off him"
+  },
+  {
+   "from": "teshub",
+   "to": "kumarbi",
+   "type": "enemy",
+   "note": "The fourth kingship, defended against everything he fathered"
+  },
+  {
+   "from": "kumarbi",
+   "to": "ullikummi",
+   "type": "parent",
+   "note": "Grown on a giant's shoulder specifically to kill his son"
+  },
+  {
+   "from": "teshub",
+   "to": "ullikummi",
+   "type": "enemy",
+   "note": "He attacked the stone and failed"
+  },
+  {
+   "from": "ullikummi",
+   "to": "upelluri",
+   "type": "mount",
+   "note": "He grew on the right shoulder, and it ached slightly"
+  },
+  {
+   "from": "upelluri",
+   "to": "alalu",
+   "type": "sibling",
+   "note": "Two primordials nobody consults"
+  },
+  {
+   "from": "teshub",
+   "to": "hebat",
+   "type": "consort",
+   "note": "They meet in the middle of the rock at Yazilikaya"
+  },
+  {
+   "from": "teshub",
+   "to": "sharruma",
+   "type": "parent",
+   "note": "The son with his arm round a king"
+  },
+  {
+   "from": "hebat",
+   "to": "sharruma",
+   "type": "parent",
+   "note": "The son of the storm god and the queen of heaven"
+  },
+  {
+   "from": "teshub",
+   "to": "telipinu",
+   "type": "parent",
+   "note": "The son who lost his temper and stopped the world"
+  },
+  {
+   "from": "teshub",
+   "to": "illuyanka",
+   "type": "enemy",
+   "note": "The storm god lost the first fight, which is the point"
+  },
+  {
+   "from": "teshub",
+   "to": "inara",
+   "type": "parent",
+   "note": "She solved it with catering when he could not with weapons"
+  },
+  {
+   "from": "inara",
+   "to": "illuyanka",
+   "type": "enemy",
+   "note": "Vats of drink, and it could not get back down the hole"
+  },
+  {
+   "from": "inara",
+   "to": "hupasiya",
+   "type": "consort",
+   "note": "He named his price before he agreed to help"
+  },
+  {
+   "from": "hupasiya",
+   "to": "illuyanka",
+   "type": "enemy",
+   "note": "He tied the serpent up while it was too full to move"
+  },
+  {
+   "from": "inara",
+   "to": "hupasiya",
+   "type": "enemy",
+   "note": "And then the window, and it ends badly"
+  },
+  {
+   "from": "telipinu",
+   "to": "hannahanna",
+   "type": "devotee",
+   "note": "She sent the bee when the eagle had failed"
+  },
+  {
+   "from": "hannahanna",
+   "to": "telipinu",
+   "type": "guru",
+   "note": "And was right when nobody believed her"
+  },
+  {
+   "from": "hannahanna",
+   "to": "kamrusepa",
+   "type": "ally",
+   "note": "One finds him, the other takes the rage out"
+  },
+  {
+   "from": "kamrusepa",
+   "to": "telipinu",
+   "type": "guru",
+   "note": "The ritual that draws the anger down"
+  },
+  {
+   "from": "telipinu",
+   "to": "arinna",
+   "type": "sibling",
+   "note": "Both are given as children of the storm god"
+  },
+  {
+   "from": "arinna",
+   "to": "hebat",
+   "type": "form",
+   "note": "The two great goddesses, merged in the empire period"
+  },
+  {
+   "from": "arinna",
+   "to": "sun_god_heaven",
+   "type": "sibling",
+   "note": "Two of the three suns, and not the same deity"
+  },
+  {
+   "from": "arinna",
+   "to": "sun_goddess_earth",
+   "type": "sibling",
+   "note": "The sun above and the sun below"
+  },
+  {
+   "from": "sun_god_heaven",
+   "to": "telipinu",
+   "type": "ally",
+   "note": "He held the feast where the gods could not get full"
+  },
+  {
+   "from": "sun_god_heaven",
+   "to": "hannahanna",
+   "type": "ally",
+   "note": "His eagle failed; her bee did not"
+  },
+  {
+   "from": "sun_goddess_earth",
+   "to": "alalu",
+   "type": "ally",
+   "note": "The dark earth, and what was sent down into it"
+  },
+  {
+   "from": "sun_goddess_earth",
+   "to": "kamrusepa",
+   "type": "ally",
+   "note": "Anger goes down through a pit to her"
+  },
+  {
+   "from": "shaushka",
+   "to": "teshub",
+   "type": "sibling",
+   "note": "Named as his sister in the Hurrian material"
+  },
+  {
+   "from": "shaushka",
+   "to": "ullikummi",
+   "type": "enemy",
+   "note": "She sang to a deaf stone and it was wasted"
+  },
+  {
+   "from": "shaushka",
+   "to": "kubaba",
+   "type": "sibling",
+   "note": "Two great goddesses of the Anatolian cities"
+  },
+  {
+   "from": "kubaba",
+   "to": "hebat",
+   "type": "sibling",
+   "note": "Carchemish and Kummanni, each with its queen"
+  },
+  {
+   "from": "mursili",
+   "to": "arinna",
+   "type": "devotee",
+   "note": "He addressed her as the mistress of the land"
+  },
+  {
+   "from": "mursili",
+   "to": "sun_god_heaven",
+   "type": "devotee",
+   "note": "And asked him to look into the cause of the plague"
+  },
+  {
+   "from": "mursili",
+   "to": "teshub",
+   "type": "devotee",
+   "note": "The storm god of Hatti, addressed as a party to an agreement"
+  },
+  {
+   "from": "yazilikaya",
+   "to": "teshub",
+   "type": "ally",
+   "note": "He and Hebat meet at the centre of the rock"
+  },
+  {
+   "from": "yazilikaya",
+   "to": "hebat",
+   "type": "ally",
+   "note": "The two processions converge on her"
+  },
+  {
+   "from": "yazilikaya",
+   "to": "sharruma",
+   "type": "ally",
+   "note": "The chamber where he holds the king by the wrist"
+  },
+  {
+   "from": "yazilikaya",
+   "to": "shaushka",
+   "type": "ally",
+   "note": "She is carved in both processions, deliberately"
+  }
+ ]
+}

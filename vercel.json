@@ -102,6 +102,10 @@
    "destination": "/cherokee/index.html"
   },
   {
+   "source": "/hittite/:path*",
+   "destination": "/hittite/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }

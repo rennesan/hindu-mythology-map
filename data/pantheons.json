@@ -403,10 +403,15 @@
    "label": "Hittite",
    "sublabel": "Anatolia",
    "accent": "#b08a6a",
-   "status": "planned",
+   "status": "live",
    "blurb": "Kumarbi biting off the sky god's genitals - the missing link between Mesopotamia and Hesiod.",
    "family": "Asia",
-   "glyph": "✜"
+   "glyph": "✜",
+   "figures": 21,
+   "stories": 10,
+   "links": 44,
+   "levels": 5,
+   "cover": "portraits/hittite/alalu.webp"
   },
   {
    "id": "korean",
