@@ -408,10 +408,15 @@
    "label": "Guarani",
    "sublabel": "South America",
    "accent": "#8fb87a",
-   "status": "planned",
+   "status": "live",
    "blurb": "Namandu, the Land Without Evil, and the seven monstrous children of Kerana.",
    "family": "The Americas",
-   "glyph": "❀"
+   "glyph": "❀",
+   "figures": 23,
+   "stories": 8,
+   "links": 51,
+   "levels": 3,
+   "cover": "portraits/guarani/namandu.webp"
   },
   {
    "id": "polynesian",

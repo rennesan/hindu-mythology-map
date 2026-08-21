@@ -1,0 +1,1638 @@
+{
+ "title": "Guarani",
+ "description": "Paraguay and the Southern Cone: a god who made himself in the dark and unfolded language before he made anywhere to stand, and seven cursed children who are still used to frighten people.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Leon Cadogan, Ayvu Rapyta (1959) - the Mbya-Guarani cosmogony, taught to him deliberately after the Mbya of Yvytuzu made him a member of the community in 1946",
+  "Curt Nimuendaju (1914) on the Apapokuva-Guarani and the migrations toward the land without evil",
+  "Bartomeu Melia, El Guarani conquistado y reducido (1986)",
+  "Antonio Ruiz de Montoya, Tesoro de la lengua guarani (1639) - a Jesuit dictionary, and an early witness",
+  "Note: the Ayvu Rapyta material and the Paraguayan folk legends are two different things and this pack keeps them in separate sections"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/guarani/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "cadogan": {
+   "t": "Ayvu Rapyta: Textos miticos de los Mbya-Guarani del Guaira",
+   "tr": "Leon Cadogan, 1959 - given to him by the Mbya, not collected from them",
+   "u": "https://archive.org/details/ayvurapytatextos0000cado"
+  },
+  "nimuendaju": {
+   "t": "Die Sagen von der Erschaffung und Vernichtung der Welt",
+   "tr": "Curt Nimuendaju, 1914 - the Apapokuva-Guarani",
+   "u": "https://archive.org/details/diesagenvonderer00nimu"
+  },
+  "melia": {
+   "t": "El Guarani conquistado y reducido",
+   "tr": "Bartomeu Melia, 1986",
+   "u": "https://archive.org/details/elguaraniconquis0000meli"
+  },
+  "colman": {
+   "t": "Paraguayan folk legend - the seven children of Tau and Kerana",
+   "tr": "Circulating orally and in print since the nineteenth century",
+   "u": "https://en.wikipedia.org/wiki/Guaran%C3%AD_mythology"
+  },
+  "montoya": {
+   "t": "Tesoro de la lengua guarani",
+   "tr": "Antonio Ruiz de Montoya, 1639",
+   "u": "https://archive.org/details/tesorodelalengua00ruiz"
+  }
+ },
+ "meta": {
+  "id": "guarani",
+  "label": "Guarani",
+  "sublabel": "Paraguay & the Southern Cone",
+  "accent": "#8fb87a",
+  "root": "namandu"
+ },
+ "profile": {
+  "cosmicNature": "A god who made himself, in the dark, and whose first creation was speech. Namandu unfolds out of the primordial darkness, and from the wisdom in his own being he draws the ayvu - the word, or the word-soul - and it comes forth together with love and with one sacred song, and only after all of that does he begin on anything material. Language precedes the world here, which is a rare order of operations.",
+  "natureOfDivinity": "Namandu first, and then four fathers and four mothers of the word-souls. Karai holds the fire and the crackling flame, Jakaira the mist and the smoke of ritual tobacco, Tupa the water and the cool, and each has a consort, and between them they send down the souls that become people. Below that the tradition is thick with beings of the forest that are not gods at all - owners of places, and things it is better not to meet after dark.",
+  "afterlife": "Yvy Marane'y, the land without evil, which is a real place and can be walked to. It lies east, across the sea, and the point of it is that you go there alive: whole communities in the eighteenth and nineteenth centuries left and walked east looking for it, dancing and fasting to make themselves light enough to reach it, and some kept going until they hit the Atlantic. The soul that does not get there returns to the father who sent it.",
+  "systemMechanism": "The word, and the shaman who hears it. A child's soul is a word-soul sent from one of the four fathers, and the pai or shaman listens to find out which father sent it and what its name is, and that name is the person - it is not a label. Chant, tobacco smoke and dance are the working methods, and the great communal chants are the way the sacred words are kept, since none of it was written until Cadogan.",
+  "canonTexts": "The Ayvu Rapyta, recorded by Leon Cadogan and published in 1959, given to him by the Mbya of Yvytuzu after they made him a member of the community. Bartomeu Melia continued the work. Beside it sits a large body of Paraguayan folk legend - the seven monstrous children, the Pombero, the origin of yerba mate - which circulates in Spanish and Guarani and is not scripture and is not treated here as though it were."
+ },
+ "hierarchy": [
+  {
+   "title": "The First Words",
+   "blurb": "Namandu made himself out of the darkness, and the first thing he unfolded was not light or land but language - the word-soul - which came forth together with love and one sacred song. Only then did he make anywhere to put any of it. A person here is a word that was sent down.",
+   "memberIds": [
+    "namandu",
+    "ayvu",
+    "karai",
+    "jakaira",
+    "tupa_ru_ete",
+    "nande_sy",
+    "kuarahy",
+    "jasy",
+    "yvy_marane"
+   ],
+   "connectorCaption": "Beside that, and quite different in register, the seven"
+  },
+  {
+   "title": "The Seven",
+   "blurb": "A spirit chased a woman for seven years and took her, and the curse for it fell on the children. There were seven and every one is a specific monster - a seven-headed lizard that eats fruit, a snake with a parrot's head, and a small blond boy who whistles at midday and takes children.",
+   "memberIds": [
+    "tau",
+    "kerana",
+    "teju_jagua",
+    "mboi_tui",
+    "monai",
+    "jasy_jatere",
+    "kurupi",
+    "ao_ao",
+    "luison"
+   ],
+   "connectorCaption": "And the things that are simply part of the country"
+  },
+  {
+   "title": "The Country",
+   "blurb": "A short hairy man out at night whose name you do not say and who gets tobacco on the fencepost. The owner of the yerba. A bird whose call is the saddest sound in South America and who earned it. And a language that ninety per cent of a country speaks.",
+   "memberIds": [
+    "pombero",
+    "kaa_jaryi",
+    "mate",
+    "karau",
+    "guarani_language"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "first",
+   "label": "The First Words",
+   "memberIds": [
+    "namandu",
+    "ayvu",
+    "guarani_language"
+   ]
+  },
+  {
+   "id": "fathers",
+   "label": "The Four Fathers",
+   "memberIds": [
+    "karai",
+    "jakaira",
+    "tupa_ru_ete",
+    "namandu"
+   ]
+  },
+  {
+   "id": "twins",
+   "label": "The Twins",
+   "memberIds": [
+    "nande_sy",
+    "kuarahy",
+    "jasy"
+   ]
+  },
+  {
+   "id": "east",
+   "label": "The Road East",
+   "memberIds": [
+    "yvy_marane",
+    "namandu",
+    "ayvu"
+   ]
+  },
+  {
+   "id": "seven",
+   "label": "The Seven",
+   "memberIds": [
+    "teju_jagua",
+    "mboi_tui",
+    "monai",
+    "jasy_jatere",
+    "kurupi",
+    "ao_ao",
+    "luison"
+   ]
+  },
+  {
+   "id": "parents",
+   "label": "Their Parents",
+   "memberIds": [
+    "tau",
+    "kerana"
+   ]
+  },
+  {
+   "id": "night",
+   "label": "Out After Dark",
+   "memberIds": [
+    "pombero",
+    "jasy_jatere",
+    "luison",
+    "karau"
+   ]
+  },
+  {
+   "id": "given",
+   "label": "What the Guarani Gave Everyone Else",
+   "memberIds": [
+    "mate",
+    "kaa_jaryi",
+    "guarani_language"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-first-words",
+   "title": "Language, Then Everything Else",
+   "era": "The First Words",
+   "cast": [
+    "namandu",
+    "ayvu",
+    "karai",
+    "jakaira"
+   ],
+   "summary": "Our first father unfolded himself out of the primordial darkness, and the order is set down carefully: the soles of his feet, then his arms with the flowering branches on them, then a crown of flowers on his head with a hummingbird flying above him and feeding him. Around him was nothing but darkness and the primeval mist. And then, from the wisdom held within his own being, he drew out the ayvu - the word, the word-soul - and it came into existence together with love and with one sacred song, all three at once. Only after that did he make the four fathers who would send souls down, and only after that anywhere for anyone to stand. In this cosmogony speech is not a tool given to people later. It is the first thing there is.",
+   "sources": [
+    {
+     "book": "Ayvu Rapyta: Textos miticos de los Mbya-Guarani del Guaira",
+     "translation": "Leon Cadogan, 1959 - given to him by the Mbya, not collected from them",
+     "location": "Ayvu Rapyta, chapter I",
+     "url": "https://archive.org/details/ayvurapytatextos0000cado"
+    }
+   ]
+  },
+  {
+   "id": "how-it-was-given",
+   "title": "Four Centuries, and Then He Was Told",
+   "era": "The First Words",
+   "cast": [
+    "ayvu",
+    "guarani_language",
+    "namandu"
+   ],
+   "summary": "The Mbya had kept the sacred texts from outsiders since the sixteenth century, and had good reason. Leon Cadogan was a Paraguayan, born there to Australian parents, who grew up speaking Guarani and who spent years intervening for Mbya communities in trouble with authorities and landowners - not as a scholar, at that point, but as somebody who could be useful. In 1946 the Mbya of Yvytuzu made him a member of the community, and having done so they began to teach him the ne'e pora tenonde, the beautiful first words. He published them in 1959, in Guarani with a Spanish translation, and was clear in print about the difference between material that is given and material that is taken.",
+   "sources": [
+    {
+     "book": "Ayvu Rapyta: Textos miticos de los Mbya-Guarani del Guaira",
+     "translation": "Leon Cadogan, 1959 - given to him by the Mbya, not collected from them",
+     "location": "Introduction",
+     "url": "https://archive.org/details/ayvurapytatextos0000cado"
+    },
+    {
+     "book": "El Guarani conquistado y reducido",
+     "translation": "Bartomeu Melia, 1986",
+     "location": "On Cadogan",
+     "url": "https://archive.org/details/elguaraniconquis0000meli"
+    }
+   ]
+  },
+  {
+   "id": "the-land-without-evil",
+   "title": "They Walked East",
+   "era": "The First Words",
+   "cast": [
+    "yvy_marane",
+    "namandu"
+   ],
+   "summary": "Yvy Marane'y is the land where nothing is spoiled and nobody dies, and it lies east, beyond the sea, and the crucial point is that you go there alive. You make the body light enough by fasting and by dancing and by right conduct, and then you walk. This is not a doctrine that was misunderstood by literal-minded outsiders. From the earliest Spanish accounts in the sixteenth century through to Nimuendaju watching it happen in the twentieth, Guarani communities repeatedly abandoned everything, formed up behind a shaman, and set off east in large migrations, dancing as they travelled. Some of them crossed the whole width of Brazil. Some of them reached the Atlantic coast and stood at the edge of it.",
+   "sources": [
+    {
+     "book": "Die Sagen von der Erschaffung und Vernichtung der Welt",
+     "translation": "Curt Nimuendaju, 1914 - the Apapokuva-Guarani",
+     "location": "The migrations",
+     "url": "https://archive.org/details/diesagenvonderer00nimu"
+    },
+    {
+     "book": "El Guarani conquistado y reducido",
+     "translation": "Bartomeu Melia, 1986",
+     "location": "The land without evil",
+     "url": "https://archive.org/details/elguaraniconquis0000meli"
+    }
+   ]
+  },
+  {
+   "id": "the-twins",
+   "title": "Slapping Her Own Belly",
+   "era": "The First Words",
+   "cast": [
+    "nande_sy",
+    "kuarahy",
+    "jasy"
+   ],
+   "summary": "Nande Sy set out through the forest, pregnant and alone, to find her husband, and the child in her womb spoke and told her which way to turn. It also asked her to pick flowers as she went. She reached for them and was stung by a wasp, and in irritation she slapped her belly and told the child to be quiet, and it was, and it would not speak again however she asked. So she took the wrong road, and came to the house of the jaguars, and was killed there. Her twins were cut from her body and raised by the jaguars who had done it. When they were grown and learned what had happened they built a bridge over water, lured the whole household onto it and broke it, and killed every one of them except a single pregnant female, who got away - and that is why there are still jaguars.",
+   "sources": [
+    {
+     "book": "Ayvu Rapyta: Textos miticos de los Mbya-Guarani del Guaira",
+     "translation": "Leon Cadogan, 1959 - given to him by the Mbya, not collected from them",
+     "location": "The twins",
+     "url": "https://archive.org/details/ayvurapytatextos0000cado"
+    },
+    {
+     "book": "Die Sagen von der Erschaffung und Vernichtung der Welt",
+     "translation": "Curt Nimuendaju, 1914 - the Apapokuva-Guarani",
+     "location": "Apapokuva versions",
+     "url": "https://archive.org/details/diesagenvonderer00nimu"
+    }
+   ]
+  },
+  {
+   "id": "the-seven",
+   "title": "Every One a Different Monster",
+   "era": "The Seven",
+   "cast": [
+    "tau",
+    "kerana",
+    "teju_jagua",
+    "jasy_jatere",
+    "ao_ao",
+    "luison"
+   ],
+   "summary": "Tau wanted Kerana and chased her for seven years and finally took her, and for that Arasy cursed them - and the curse landed not on Tau but on the children, of whom there were seven, each cursed into a different shape. A lizard with seven dog heads that lives in a cave and eats fruit. A serpent with a parrot's head that screams across the marshes. A horned thief who hoards everything shiny. A small fair-haired boy with a golden staff who whistles at midday and takes children who are out in the sun. A short hairy master of the forest animals with a sexual appetite the polite versions leave out. A woolly thing with fangs that hunts in packs and can only be escaped by climbing a palm. And a squalid dog that lives in graveyards and whose touch is death.",
+   "sources": [
+    {
+     "book": "Paraguayan folk legend - the seven children of Tau and Kerana",
+     "translation": "Circulating orally and in print since the nineteenth century",
+     "location": "The seven children",
+     "url": "https://en.wikipedia.org/wiki/Guaran%C3%AD_mythology"
+    }
+   ]
+  },
+  {
+   "id": "jasy-jatere",
+   "title": "The Whistle at Noon",
+   "era": "The Seven",
+   "cast": [
+    "jasy_jatere",
+    "kurupi"
+   ],
+   "summary": "The fourth of the seven is the only good-looking one: a small boy, fair-haired, naked, carrying a golden staff, and he owns the siesta hour. Children who are outside in the middle of the day when they should be indoors resting hear him whistle, and they follow it, and he takes them into the forest and feeds them honey - and some come back dazed and unable to speak for a while, and some do not come back. Paraguayan children have been told this for a very long time, and it is worth noticing what it is doing: midday sun in that country is genuinely dangerous, a small child wandering off into the forest is genuinely lost, and the rule the story enforces is stay inside at noon.",
+   "sources": [
+    {
+     "book": "Paraguayan folk legend - the seven children of Tau and Kerana",
+     "translation": "Circulating orally and in print since the nineteenth century",
+     "location": "Jasy Jatere",
+     "url": "https://en.wikipedia.org/wiki/Guaran%C3%AD_mythology"
+    }
+   ]
+  },
+  {
+   "id": "the-pombero",
+   "title": "Tobacco on the Fencepost",
+   "era": "The Country",
+   "cast": [
+    "pombero",
+    "kaa_jaryi"
+   ],
+   "summary": "The Pombero is short, thickset, hairy and walks without any sound at all, and he is out at night, and he protects birds. Cross him and the animals get out, the tools go missing, the milk sours and worse things follow. Stay on terms with him and he will look after your place. Terms are maintained by leaving a twist of tobacco, a little cane rum and some honey on a fencepost, and by not saying his name after dark - you say Karai Pyhare, lord of the night, instead. Large numbers of entirely modern Paraguayans, including people who would not describe themselves as believing any of it, still leave the tobacco out and still do not say the name at night.",
+   "sources": [
+    {
+     "book": "Paraguayan folk legend - the seven children of Tau and Kerana",
+     "translation": "Circulating orally and in print since the nineteenth century",
+     "location": "Pombero",
+     "url": "https://en.wikipedia.org/wiki/Guaran%C3%AD_mythology"
+    }
+   ]
+  },
+  {
+   "id": "karau",
+   "title": "He Went to the Dance",
+   "era": "The Country",
+   "cast": [
+    "karau"
+   ],
+   "summary": "Karau's mother was dying, and there was a dance, and he went to it. While he was dancing she died, and word was brought to him, and he kept dancing. Afterwards he went about trying to borrow black clothes so that he could mourn properly, and nobody would lend him any, and for that he was turned into a bird. The bird is the limpkin - dark, long-legged, a marsh bird - and its call is a long descending wail heard at night across the wetlands of Paraguay and Argentina, and it is one of the most desolate sounds in South America. The story is about four sentences long and it ends by pointing at a noise you can actually hear.",
+   "sources": [
+    {
+     "book": "Paraguayan folk legend - the seven children of Tau and Kerana",
+     "translation": "Circulating orally and in print since the nineteenth century",
+     "location": "Karau",
+     "url": "https://en.wikipedia.org/wiki/Guaran%C3%AD_mythology"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "namandu",
+   "name": "Namandu",
+   "sanskrit": "Namandu Ru Ete Tenonde",
+   "category": "primordial",
+   "era": "The First Words",
+   "role": "He made himself out of the darkness, and the first thing he made after that was speech",
+   "wikipedia": "Guaran%C3%AD_mythology",
+   "portrait": "portraits/guarani/namandu.webp",
+   "epithets": [
+    "Nande Ru Papa Tenonde, our first father",
+    "the true father Namandu"
+   ],
+   "domains": [
+    "self-creation",
+    "the word",
+    "love",
+    "the first song",
+    "the beginning"
+   ],
+   "symbols": [
+    "the crown of flowers on his head",
+    "the hummingbird that fed him",
+    "the mist"
+   ],
+   "mount": null,
+   "abode": "The primordial darkness, and then the east",
+   "festivals": [],
+   "worship": "",
+   "bio": "Before there was anywhere to stand, he unfolded language, love and one song, in that order.",
+   "longBio": "Namandu made himself. Out of the primordial darkness he unfolded, and the account is careful about the order: the soles of his feet, then his arms with the flowering branches, then a crown of flowers on his head with a hummingbird flying above him and feeding him. Then, from the wisdom contained in his own being, he drew out the ayvu - the word, the word-soul - and it came into being together with love and with a single sacred song. Only after all of that did he begin to make other gods, and then anywhere for anyone to stand. Speech comes first here, before matter.",
+   "variantTraditions": "The Ayvu Rapyta text is Mbya. Other Guarani groups, such as the Apapokuva recorded by Nimuendaju, give related but distinct accounts.",
+   "storyIds": [
+    "the-first-words",
+    "how-it-was-given",
+    "the-land-without-evil"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "wisdom-craft",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "ayvu",
+   "name": "The Ayvu",
+   "sanskrit": "Ayvu Rapyta",
+   "category": "primordial",
+   "era": "The First Words",
+   "role": "The word-soul. A person is a word, sent down, and a shaman has to find out which one",
+   "wikipedia": "Guaran%C3%AD_mythology",
+   "portrait": "portraits/guarani/ayvu.webp",
+   "epithets": [
+    "the foundation of human speech",
+    "ne'e, the word",
+    "the word-soul"
+   ],
+   "domains": [
+    "language",
+    "the soul",
+    "naming",
+    "what a person actually is"
+   ],
+   "symbols": [
+    "the spoken name",
+    "the chant",
+    "the breath"
+   ],
+   "mount": null,
+   "abode": "In every person",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Guarani for a person's name and a person's soul is the same word.",
+   "longBio": "The ayvu is the word and it is also the soul, and in Guarani these are not two ideas that happen to share a term. A child's soul is a word-soul sent down by one of the four fathers, and the shaman's job at a birth is to listen and find out which father sent it and what the word is - and that word is the person's name, and it is not a label attached to them but the thing itself. To say that someone has died is to say that the word has gone back up. This is the reason the first thing Namandu made was language, and it is the centre of the whole system.",
+   "variantTraditions": "Cadogan's title, Ayvu Rapyta, is usually rendered as the foundation of human speech, and the Mbya used it for the body of sacred texts as a whole.",
+   "storyIds": [
+    "the-first-words",
+    "how-it-was-given"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "wisdom-craft",
+    "sage-seer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "karai",
+   "name": "Karai Ru Ete",
+   "sanskrit": "Karai Ru Ete",
+   "category": "deity",
+   "era": "The First Words",
+   "role": "The father of fire, and of the crackling sound a flame makes",
+   "wikipedia": "Guaran%C3%AD_mythology",
+   "portrait": "portraits/guarani/karai.webp",
+   "epithets": [
+    "the true father Karai",
+    "the one of the flame"
+   ],
+   "domains": [
+    "fire",
+    "the sound of fire",
+    "the sun's heat",
+    "the word-souls he sends"
+   ],
+   "symbols": [
+    "the flame",
+    "the crackling",
+    "the red of the fire"
+   ],
+   "mount": null,
+   "abode": "The region of the fire",
+   "festivals": [],
+   "worship": "",
+   "bio": "Souls sent by him are recognisable, and the shaman can tell.",
+   "longBio": "Karai holds fire and, specifically, the sound of fire - the crackle, which in this tradition is a kind of speech. He is one of the four true fathers made by Namandu, each of whom sends down word-souls to become people, and each of whom has a consort who is the corresponding true mother. A shaman listening at a birth is determining which of the four sent this one, because a soul from Karai and a soul from Jakaira are different in ways that will matter for the whole of the life.",
+   "variantTraditions": "The four fathers and their consorts appear in the Ayvu Rapyta with their own regions and their own attributes; the names and number vary in other Guarani groups.",
+   "storyIds": [
+    "the-first-words"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "creator",
+    "supreme-source",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "jakaira",
+   "name": "Jakaira Ru Ete",
+   "sanskrit": "Jakaira Ru Ete",
+   "category": "deity",
+   "era": "The First Words",
+   "role": "The father of the mist, and of the smoke of ritual tobacco",
+   "wikipedia": "Guaran%C3%AD_mythology",
+   "portrait": "portraits/guarani/jakaira.webp",
+   "epithets": [
+    "the true father Jakaira",
+    "the one of the vapour"
+   ],
+   "domains": [
+    "mist",
+    "tobacco smoke",
+    "the spring",
+    "moderation",
+    "the word-souls he sends"
+   ],
+   "symbols": [
+    "the pipe",
+    "the mist rising off the forest",
+    "tobacco"
+   ],
+   "mount": null,
+   "abode": "The region of the mist",
+   "festivals": [],
+   "worship": "",
+   "bio": "Ritual tobacco smoke is his, and it is the working substance of every Guarani shaman.",
+   "longBio": "Jakaira is the mist, the vapour that rises off the forest in the morning, and the smoke of tobacco - which is not recreational in this context but the central working substance of a Guarani shaman, blown over a patient, over a newborn, over a problem. He is associated with spring and with the vivifying mist that renews things. Of the four fathers he is the one closest to the everyday practice of the religion, because his substance is the one being used every time anybody does anything ritually.",
+   "variantTraditions": "Tobacco as the shaman's principal medium is general across lowland South America and is not confined to the Guarani.",
+   "storyIds": [
+    "the-first-words"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "sage-seer",
+    "creator",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "tupa_ru_ete",
+   "name": "Tupa Ru Ete",
+   "sanskrit": "Tupa Ru Ete",
+   "category": "deity",
+   "era": "The First Words",
+   "role": "The father of water and cool - and the missionaries took his name for God",
+   "wikipedia": "Tup%C3%A3",
+   "portrait": "portraits/guarani/tupa_ru_ete.webp",
+   "epithets": [
+    "the true father Tupa",
+    "the one of the water",
+    "and later, God"
+   ],
+   "domains": [
+    "water",
+    "rain",
+    "coolness",
+    "the sea",
+    "the moon"
+   ],
+   "symbols": [
+    "rain",
+    "the cool of evening",
+    "the sea in the east"
+   ],
+   "mount": null,
+   "abode": "The region of the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "Ask a Paraguayan what Tupa means today and the answer is God, because the Jesuits decided that.",
+   "longBio": "Tupa is the father of water, rain and coolness, and he is the last of the four to be made. His fate is the most instructive thing about him: the Jesuit missionaries, needing a Guarani word for the Christian God, chose his name, and it stuck completely. Tupa is now simply the ordinary Guarani word for God, used in church, in the phrase Tupa rendape - to God's place - and by people with no idea it was ever anything else. A water god of the fourth rank was promoted by a translation decision and displaced everything above him.",
+   "variantTraditions": "In much popular writing Tupa is presented as the Guarani supreme deity and creator. That is the missionary layer, not the Mbya account, in which Namandu is first.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "sky-thunder",
+    "creator",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "nande_sy",
+   "name": "Nande Sy",
+   "sanskrit": "Nande Sy",
+   "category": "deity",
+   "era": "The First Words",
+   "role": "Our mother, who was left walking in the forest while pregnant, and asked the way",
+   "wikipedia": "Guaran%C3%AD_mythology",
+   "portrait": "portraits/guarani/nande_sy.webp",
+   "epithets": [
+    "our mother",
+    "the mother of the twins"
+   ],
+   "domains": [
+    "motherhood",
+    "the forest road",
+    "the twins",
+    "being abandoned"
+   ],
+   "symbols": [
+    "the road through the forest",
+    "the unborn child who gave directions"
+   ],
+   "mount": null,
+   "abode": "Walking, in the forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her unborn son told her which way to go, and she slapped her belly, and he stopped.",
+   "longBio": "Nande Sy was left, pregnant, and set out through the forest to find her husband, and the child in her womb spoke and told her which way to go and asked her to pick flowers for him. She did, and was stung, and slapped her belly in irritation and told the child to be quiet - and it was, and would not speak again, and she went the wrong way and came to the house of the jaguars, where she was killed. The twins were taken from her body and raised there. It is the same shape as a great many South American twin myths, and it turns on one moment of ordinary bad temper.",
+   "variantTraditions": "Found across the Guarani groups and closely paralleled in Tupi and other lowland South American traditions.",
+   "storyIds": [
+    "the-twins"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "fate-time",
+    "preserver"
+   ]
+  },
+  {
+   "id": "kuarahy",
+   "name": "Kuarahy",
+   "sanskrit": "Kuarahy",
+   "category": "hero",
+   "era": "The First Words",
+   "role": "The sun, the elder twin, who avenged his mother on the jaguars",
+   "wikipedia": "Guaran%C3%AD_mythology",
+   "portrait": "portraits/guarani/kuarahy.webp",
+   "epithets": [
+    "the sun",
+    "the elder brother"
+   ],
+   "domains": [
+    "the sun",
+    "revenge",
+    "the making of things",
+    "the bringing back of the dead"
+   ],
+   "symbols": [
+    "the sun",
+    "the bow",
+    "the bridge over the water that broke"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "He and his brother killed the whole jaguar household except one pregnant female, which is why there are jaguars.",
+   "longBio": "Kuarahy and his younger brother were cut from their dead mother and raised by the jaguars who had killed her, and when they learned what had happened they set about revenge. They made a bridge over water and lured the jaguars onto it and broke it, and killed them all except one pregnant female who escaped, which is why there are jaguars now. He tried to bring his mother back and failed, because the younger brother touched her too soon. Afterwards he became the sun and his brother the moon.",
+   "variantTraditions": "The twins are the most widespread narrative in lowland South America; the incomplete revival of the mother is a constant.",
+   "storyIds": [
+    "the-twins"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sun",
+    "hero-champion",
+    "divine-beast",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "jasy",
+   "name": "Jasy",
+   "sanskrit": "Jasy",
+   "category": "hero",
+   "era": "The First Words",
+   "role": "The moon, the younger twin, who kept getting it wrong",
+   "wikipedia": "Guaran%C3%AD_mythology",
+   "portrait": "portraits/guarani/jasy.webp",
+   "epithets": [
+    "the moon",
+    "the younger brother"
+   ],
+   "domains": [
+    "the moon",
+    "impatience",
+    "mistakes",
+    "being brought back to life repeatedly"
+   ],
+   "symbols": [
+    "the moon",
+    "the marks on it, which are his injuries"
+   ],
+   "mount": null,
+   "abode": "The sky, by night",
+   "festivals": [],
+   "worship": "",
+   "bio": "His brother reassembled him more than once, and the marks on the moon are where the joins are.",
+   "longBio": "Jasy is the younger of the twins and he is the one who spoils things - he is impatient, he touches what he is told not to, and he is repeatedly killed by his own mistakes and put back together by his elder brother, who is patient about it. It was his impatience that stopped their mother being brought back to life. The dark markings on the moon are explained as the places where he was rejoined. The pairing - a competent elder and an impulsive younger who causes the loss of something irreversible - is one of the oldest story shapes there is.",
+   "variantTraditions": "The Apapokuva version recorded by Nimuendaju differs in detail; the character of the younger brother does not.",
+   "storyIds": [
+    "the-twins"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "moon",
+    "hero-champion",
+    "messenger-trickster",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "yvy_marane",
+   "name": "Yvy Marane'y",
+   "sanskrit": "Yvy Marane'y",
+   "category": "primordial",
+   "era": "The First Words",
+   "role": "The land without evil - and it is a real place, east, that people walked toward",
+   "wikipedia": "Land_without_evil",
+   "portrait": "portraits/guarani/yvy_marane.webp",
+   "epithets": [
+    "the land without evil",
+    "the land where nothing is spoiled"
+   ],
+   "domains": [
+    "the east",
+    "migration",
+    "dancing",
+    "the end of dying",
+    "arrival while still alive"
+   ],
+   "symbols": [
+    "the road east",
+    "the sea",
+    "the dancing that makes a body light"
+   ],
+   "mount": null,
+   "abode": "East, across the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "You are supposed to get there alive. Whole communities set out walking, and some reached the Atlantic.",
+   "longBio": "Yvy Marane'y is the land where nothing is spoiled and nobody dies, and the crucial thing about it is that it is geographical. It lies east, beyond the sea, and it is reached by going there - not after death but on foot, while living, having made the body light enough by dancing and fasting and right conduct. This is not a metaphor that got taken literally by outsiders: from the sixteenth century into the twentieth, Guarani communities repeatedly abandoned their villages and set off east in large migrations, dancing as they went, and some of them arrived at the Atlantic coast and were stopped by it.",
+   "variantTraditions": "Nimuendaju witnessed and described such a migration in the early twentieth century; the earliest Spanish accounts record them in the 1500s.",
+   "storyIds": [
+    "the-land-without-evil"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "preserver",
+    "supreme-source",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "tau",
+   "name": "Tau",
+   "sanskrit": "Tau",
+   "category": "underworld",
+   "era": "The Seven",
+   "role": "An evil spirit who wanted a girl, and was cursed along with all his children",
+   "wikipedia": "Guaran%C3%AD_mythology",
+   "portrait": "portraits/guarani/tau.webp",
+   "epithets": [
+    "the evil spirit",
+    "the one who took Kerana"
+   ],
+   "domains": [
+    "evil",
+    "desire",
+    "the curse",
+    "the seven children"
+   ],
+   "symbols": [
+    "the seven-year pursuit",
+    "the young man's shape he borrowed"
+   ],
+   "mount": null,
+   "abode": "Nowhere in particular",
+   "festivals": [],
+   "worship": "",
+   "bio": "He chased her for seven years, took her by force, and Arasy cursed the whole line for it.",
+   "longBio": "Tau is a malignant spirit who saw Kerana, the most beautiful woman there was, and wanted her, and pursued her for seven years, and finally took the form of a handsome young man and carried her off. Arasy, the mother-goddess of that account, cursed them, and the curse fell on the children: they had seven, and every one was a monster of a different and specific kind. The story is a frame for the seven, who are the real subject, and it functions as an explanation for why particular unpleasant things exist in the forest and the countryside.",
+   "variantTraditions": "This material is Paraguayan folk legend rather than Mbya sacred text, and probably took its present form in the nineteenth century. It is not part of the Ayvu Rapyta.",
+   "storyIds": [
+    "the-seven"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "love-desire",
+    "destroyer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "kerana",
+   "name": "Kerana",
+   "sanskrit": "Kerana",
+   "category": "mortal",
+   "era": "The Seven",
+   "role": "The most beautiful woman there was, and the mother of all seven of them",
+   "wikipedia": "Guaran%C3%AD_mythology",
+   "portrait": "portraits/guarani/kerana.webp",
+   "epithets": [
+    "the beautiful one",
+    "the mother of the seven"
+   ],
+   "domains": [
+    "beauty",
+    "sleep",
+    "the seven children"
+   ],
+   "symbols": [
+    "sleep, which her name is built on",
+    "the seven births"
+   ],
+   "mount": null,
+   "abode": "Paraguay, in the legend",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her name comes from the word for sleep, and she is best known as the mother of monsters.",
+   "longBio": "Kerana is the daughter of Marangatu and the most beautiful woman in the country, and her name is built on ke, sleep. Tau wanted her, pursued her for seven years, and took her. What she thought about any of it is not recorded anywhere, which is characteristic of this kind of story. She bore seven children and every one of them was cursed into a different monstrous shape, and it is those seven, rather than either of their parents, who are actually current in Paraguay and are still used to frighten children and to explain noises in the dark.",
+   "variantTraditions": "Folk legend rather than sacred text; the seven are far better known in Paraguay than the Mbya cosmogony is.",
+   "storyIds": [
+    "the-seven"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "love-desire",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "teju_jagua",
+   "name": "Teju Jagua",
+   "sanskrit": "Teju Jagua",
+   "category": "beast",
+   "era": "The Seven",
+   "role": "Seven dog heads on a lizard body, and he is the gentlest of the family",
+   "wikipedia": "Teju_Jagua",
+   "portrait": "portraits/guarani/teju_jagua.webp",
+   "epithets": [
+    "the lizard-dog",
+    "the first-born"
+   ],
+   "domains": [
+    "caves",
+    "fruit",
+    "hidden treasure",
+    "harmlessness"
+   ],
+   "symbols": [
+    "seven dog heads",
+    "the lizard body",
+    "the cave he sits in"
+   ],
+   "mount": null,
+   "abode": "A cave",
+   "festivals": [],
+   "worship": "",
+   "bio": "He looks appalling, he cannot move well, and he eats fruit and honey. He guards buried treasure.",
+   "longBio": "The eldest of the seven is a very large lizard with seven dog heads and eyes that flash fire, and by a comfortable margin he is the least dangerous member of his family. He cannot move properly, he cannot really hunt, and he lives on fruit and honey brought to him. He is the guardian of caves and of buried treasure, and in the folk versions he is more pitied than feared, and there is a strong strand of sympathy for a creature that is terrifying to look at and has never done anything to anybody.",
+   "variantTraditions": "Regularly depicted in Paraguayan popular art and, being an easy shape to draw, is the most-illustrated of the seven.",
+   "storyIds": [
+    "the-seven"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "mboi_tui",
+   "name": "Mboi Tu'i",
+   "sanskrit": "Mboi Tu'i",
+   "category": "beast",
+   "era": "The Seven",
+   "role": "A snake with a parrot's head, and the screaming is the point",
+   "wikipedia": "Mb%C3%B3i_Tu%27%C3%AD",
+   "portrait": "portraits/guarani/mboi_tui.webp",
+   "epithets": [
+    "the snake with the parrot head",
+    "the second-born"
+   ],
+   "domains": [
+    "marshes",
+    "wetlands",
+    "amphibians",
+    "the noise"
+   ],
+   "symbols": [
+    "the parrot beak on a serpent body",
+    "the marsh",
+    "the terrible cry"
+   ],
+   "mount": null,
+   "abode": "Marshes and wetlands",
+   "festivals": [],
+   "worship": "",
+   "bio": "He protects the creatures of the marsh, and announces himself with a scream you hear for miles.",
+   "longBio": "The second of the seven is an enormous serpent with the head and beak of a parrot, and he is the protector of the marshes and everything living in them. What everyone remembers about him is the sound: a scream that carries a very long way and that means he is somewhere near. He is not particularly malevolent - like several of his siblings he is a guardian - but he is territorial about wetlands, and the noise is what a person actually encounters, which is a sensible shape for a legend about a marsh at night to take.",
+   "variantTraditions": "Paraguayan folk legend; the wetland-guardian role is consistent across versions.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "divine-beast",
+    "preserver",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "monai",
+   "name": "Monai",
+   "sanskrit": "Mo%C3%B1ai",
+   "category": "beast",
+   "era": "The Seven",
+   "role": "A horned serpent who steals things and hides them, and was killed by a woman",
+   "wikipedia": "Mo%C3%B1ai",
+   "portrait": "portraits/guarani/monai.webp",
+   "epithets": [
+    "the horned serpent",
+    "the third-born",
+    "the thief"
+   ],
+   "domains": [
+    "open country",
+    "theft",
+    "shiny objects",
+    "birds"
+   ],
+   "symbols": [
+    "the two horns",
+    "the cave full of stolen goods",
+    "the fire that killed him"
+   ],
+   "mount": null,
+   "abode": "The open fields",
+   "festivals": [],
+   "worship": "",
+   "bio": "Porasy seduced him, got him into a cave, and had the villagers set it alight with both of them inside.",
+   "longBio": "The third of the seven rules the open country and commands the birds, and his particular vice is theft: he takes anything bright and carries it off to a cave, and villages were plagued by it. He was ended by a woman named Porasy, who volunteered - she made herself agreeable to him, drew him into the cave where he kept his hoard, called the birds in with him, and had the people of the village pile brushwood at the mouth and burn it, knowing she would not come out either. She is one of the very few figures in the seven-children cycle who acts rather than being acted upon.",
+   "variantTraditions": "Porasy's self-sacrifice is the resolution in the standard Paraguayan version; some tellings let her escape.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary",
+    "wealth-fortune",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "jasy_jatere",
+   "name": "Jasy Jatere",
+   "sanskrit": "Jasy Jatere",
+   "category": "beast",
+   "era": "The Seven",
+   "role": "A small blond boy with a golden staff who takes children at siesta time",
+   "wikipedia": "Jasy_Jater%C3%AD",
+   "portrait": "portraits/guarani/jasy_jatere.webp",
+   "epithets": [
+    "the little piece of the moon",
+    "the fourth-born",
+    "the one with the staff"
+   ],
+   "domains": [
+    "siesta",
+    "children",
+    "the yerba mate",
+    "the golden staff",
+    "whistling"
+   ],
+   "symbols": [
+    "the golden staff",
+    "the whistle heard at midday",
+    "the honey he feeds them"
+   ],
+   "mount": null,
+   "abode": "The forest, at midday",
+   "festivals": [],
+   "worship": "",
+   "bio": "The only handsome one of the seven, and the reason Paraguayan children were kept indoors at noon.",
+   "longBio": "The fourth of the seven is the only one who is not hideous: a small boy, fair-haired, naked, carrying a golden staff, and he is the lord of the siesta hour. He whistles, and children who are out in the heat when they should be resting follow the sound, and he takes them into the forest, feeds them honey, and either lets them go bewildered and unable to speak or does not let them go. He is a very effective piece of childcare policy for a country where the midday sun is genuinely dangerous, and Paraguayan children were and are told about him.",
+   "variantTraditions": "One of the two or three best-known figures in Paraguayan folklore, and still current.",
+   "storyIds": [
+    "the-seven",
+    "jasy-jatere"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "primordial-adversary",
+    "sun",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "kurupi",
+   "name": "Kurupi",
+   "sanskrit": "Kurupi",
+   "category": "beast",
+   "era": "The Seven",
+   "role": "The lord of the forest animals, and the explanation offered for unexpected pregnancies",
+   "wikipedia": "Kurupi",
+   "portrait": "portraits/guarani/kurupi.webp",
+   "epithets": [
+    "the fifth-born",
+    "the lord of the wild"
+   ],
+   "domains": [
+    "the forest",
+    "wild animals",
+    "hunting",
+    "fertility",
+    "sexual licence"
+   ],
+   "symbols": [
+    "the enormously long member wound about his waist",
+    "the forest",
+    "the backwards feet in some versions"
+   ],
+   "mount": null,
+   "abode": "The deep forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "The polite summary is that he is the reason a great many things were said not to be anybody's fault.",
+   "longBio": "The fifth of the seven is the owner of the forest animals, short, hairy and ugly, and his defining physical feature is a sexual organ of such absurd length that he carries it wound several times round his waist, with which he was said to take women at a distance and through walls. He is the standing folk explanation for a pregnancy nobody wished to account for, and this was not a small social function in nineteenth-century rural Paraguay. He is also genuinely a master-of-animals figure, and hunters had to reckon with him for entirely separate reasons.",
+   "variantTraditions": "Bowdlerised in most children's versions; the original is not remotely coy and neither are the adults telling it.",
+   "storyIds": [
+    "jasy-jatere"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "love-desire",
+    "primordial-adversary",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "ao_ao",
+   "name": "Ao Ao",
+   "sanskrit": "Ao Ao",
+   "category": "beast",
+   "era": "The Seven",
+   "role": "A woolly sheep-thing with fangs that eats people, and there is exactly one way to escape it",
+   "wikipedia": "Ao_Ao",
+   "portrait": "portraits/guarani/ao_ao.webp",
+   "epithets": [
+    "the sixth-born",
+    "the one that says ao ao"
+   ],
+   "domains": [
+    "hills",
+    "pursuit",
+    "eating people",
+    "the palm tree"
+   ],
+   "symbols": [
+    "the sound it makes, which is its name",
+    "the pack of them",
+    "the palm"
+   ],
+   "mount": null,
+   "abode": "The hills and high ground",
+   "festivals": [],
+   "worship": "",
+   "bio": "Climb a palm tree. Any other tree, they will dig it up. The palm they cannot manage.",
+   "longBio": "The sixth of the seven looks something like a large sheep with the fangs of a carnivore, and it goes in packs, and its business is eating people - it is the most straightforwardly lethal of the family. It is called Ao Ao after the noise it makes while chasing you, which is a chilling detail. There is one escape and only one: climb a palm tree. Any other tree it will dig out at the roots and bring down. The palm is sacred and it cannot be touched, and a person who reaches one is safe as long as they stay in it.",
+   "variantTraditions": "The palm-tree exception is constant across every version.",
+   "storyIds": [
+    "the-seven"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "divine-beast",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "luison",
+   "name": "Luison",
+   "sanskrit": "Luis%C3%B3n",
+   "category": "beast",
+   "era": "The Seven",
+   "role": "The seventh and worst, who lives in graveyards and touches the dead",
+   "wikipedia": "Luis%C3%B3n",
+   "portrait": "portraits/guarani/luison.webp",
+   "epithets": [
+    "the seventh-born",
+    "the lord of the night and of death"
+   ],
+   "domains": [
+    "death",
+    "graveyards",
+    "corpses",
+    "the night",
+    "the seventh son"
+   ],
+   "symbols": [
+    "the filthy matted coat",
+    "the smell",
+    "the graveyard at night"
+   ],
+   "mount": null,
+   "abode": "Cemeteries",
+   "festivals": [],
+   "worship": "",
+   "bio": "A Paraguayan tradition holds that a seventh son becomes one, which caused real problems.",
+   "longBio": "The last of the seven is the worst: a squalid dog-like thing that lives among graves, feeds on corpses, smells appalling, and whose touch means the person will die. He became bound up with European werewolf belief after contact and the name is from the French loup-garou by way of Spanish. The tradition that a seventh consecutive son becomes a luison had real consequences in Paraguay, including abandonment and worse, and the state's response was to institute a presidential godparenthood for seventh sons, which is still done.",
+   "variantTraditions": "The Paraguayan president is still godfather to seventh sons by law, which began as a measure against exactly this belief.",
+   "storyIds": [
+    "the-seven"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "destroyer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "pombero",
+   "name": "Pombero",
+   "sanskrit": "Pombero",
+   "category": "nature",
+   "era": "The Country",
+   "role": "Short, hairy, silent, out at night - and you leave him tobacco and rum on the fencepost",
+   "wikipedia": "Pombero",
+   "portrait": "portraits/guarani/pombero.webp",
+   "epithets": [
+    "Karai Pyhare, lord of the night",
+    "the one whose name you do not say at night"
+   ],
+   "domains": [
+    "the night",
+    "birds",
+    "the countryside",
+    "mischief",
+    "the offering left out"
+   ],
+   "symbols": [
+    "tobacco and cane rum left on a post",
+    "the whistle",
+    "feet that make no sound"
+   ],
+   "mount": null,
+   "abode": "The fields and the edges of the yard, after dark",
+   "festivals": [],
+   "worship": "",
+   "bio": "You do not say his name after dark. You say Karai Pyhare, and you leave the tobacco out.",
+   "longBio": "The Pombero is the best-known being in rural Paraguay and is not one of the seven - he is separate, and he is current. He is short, thickset, hairy, walks without making a sound, protects birds, and is out at night. Cross him and your livestock scatter, your tools go missing and worse. Keep on terms with him and he helps. The arrangement is maintained by leaving him tobacco, cane rum and honey on a fencepost, and by not saying his name after dark - you say Karai Pyhare instead. A great many otherwise entirely modern Paraguayans still do both.",
+   "variantTraditions": "Sometimes counted among the seven in popular retellings; the older tradition keeps him separate.",
+   "storyIds": [
+    "the-pombero"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "wealth-fortune",
+    "divine-beast",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "kaa_jaryi",
+   "name": "Ka'a Jary",
+   "sanskrit": "Ka%27a_Jary",
+   "category": "nature",
+   "era": "The Country",
+   "role": "The owner of the yerba mate, and you take the first gourd off the top for her",
+   "wikipedia": "Yerba_mate",
+   "portrait": "portraits/guarani/kaa_jaryi.webp",
+   "epithets": [
+    "the grandmother of the yerba",
+    "the owner of the mate"
+   ],
+   "domains": [
+    "yerba mate",
+    "the plantation",
+    "the first drink",
+    "permission"
+   ],
+   "symbols": [
+    "the mate gourd",
+    "the bombilla",
+    "the first bitter gourd, poured away"
+   ],
+   "mount": null,
+   "abode": "The yerba plantations",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first mate of a round is bitter and is traditionally not drunk by anybody.",
+   "longBio": "Yerba mate is the Guarani contribution to daily life across the whole Southern Cone, and it has an owner. Ka'a Jary is the grandmother of the yerba who watches the plantations, and the first gourd of a round - which is the most bitter, and is called the mate del zonzo, the fool's mate - is traditionally poured out or drunk by the person preparing it rather than offered, which several accounts connect to her. The plant is also explained in a widespread legend as a gift from the moon to a man who sheltered her.",
+   "variantTraditions": "The mate-origin legend involving Jasy the moon exists in several forms across Paraguay, Argentina and southern Brazil.",
+   "storyIds": [
+    "the-pombero"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wealth-fortune",
+    "healer"
+   ]
+  },
+  {
+   "id": "karau",
+   "name": "Karau",
+   "sanskrit": "Karau",
+   "category": "beast",
+   "era": "The Country",
+   "role": "A man who went dancing while his mother was dying, and was turned into a bird for it",
+   "wikipedia": "Limpkin",
+   "portrait": "portraits/guarani/karau.webp",
+   "epithets": [
+    "the limpkin",
+    "the one who cries at night"
+   ],
+   "domains": [
+    "mourning",
+    "neglect",
+    "the night bird",
+    "the cry"
+   ],
+   "symbols": [
+    "the black bird",
+    "the long wailing call heard at night",
+    "the black clothes he could not borrow"
+   ],
+   "mount": null,
+   "abode": "The marshes, calling",
+   "festivals": [],
+   "worship": "",
+   "bio": "The limpkin's call is one of the most desolate sounds in South America, and this is the explanation.",
+   "longBio": "Karau's mother was dying and there was a dance, and he went, and while he was dancing she died. He tried to borrow black clothes to mourn in and nobody would lend him any, and he was turned into a bird - the limpkin, which is dark and long-legged and lives in the marshes and makes a wailing cry at night that is genuinely one of the more distressing sounds in South America. The story is short and entirely about a single failure of duty, and it is told with the bird's call as the punchline, which is a devastating way to end a story.",
+   "variantTraditions": "Told across Paraguay, Argentina and Uruguay, usually paired with the equally sad story of the bird Crespin.",
+   "storyIds": [
+    "karau"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "death-judge",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "mate",
+   "name": "Ka'a",
+   "sanskrit": "Ka%27a",
+   "category": "primordial",
+   "era": "The Country",
+   "role": "Yerba mate: a shared gourd and one metal straw, passed round in order",
+   "wikipedia": "Mate_(drink)",
+   "portrait": "portraits/guarani/mate.webp",
+   "epithets": [
+    "yerba mate",
+    "the ka'a",
+    "the shared gourd"
+   ],
+   "domains": [
+    "the drink",
+    "hospitality",
+    "the circle",
+    "sharing"
+   ],
+   "symbols": [
+    "the gourd",
+    "the bombilla",
+    "the thermos carried under the arm"
+   ],
+   "mount": null,
+   "abode": "Everywhere in Paraguay, Uruguay, Argentina and southern Brazil",
+   "festivals": [],
+   "worship": "",
+   "bio": "One gourd, one straw, everybody, in order, all day - and refusing it is a statement.",
+   "longBio": "Ka'a is the yerba, and mate is what the Guarani did with it and what the whole Southern Cone now does. One gourd is packed with the leaf and passed round a group with a single metal straw, refilled by one person who serves each in turn, and everybody drinks from the same straw - which is the point of it rather than an incidental feature. Uruguay and Argentina consume enormous quantities; Paraguay drinks it iced as terere in the heat. It is the most successful Guarani export in the world and it is not usually recognised as one.",
+   "variantTraditions": "The plant is Ilex paraguariensis. Jesuit plantations in the reductions were the first to cultivate rather than gather it.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wealth-fortune",
+    "preserver",
+    "healer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "guarani_language",
+   "name": "The Language",
+   "sanskrit": "Ava%C3%B1e%27%E1%BA%BD",
+   "category": "primordial",
+   "era": "The Country",
+   "role": "An Indigenous American language that most of a country speaks, including people who are not Indigenous",
+   "wikipedia": "Guarani_language",
+   "portrait": "portraits/guarani/guarani_language.webp",
+   "epithets": [
+    "Avane'e, the people's language",
+    "Guarani"
+   ],
+   "domains": [
+    "language",
+    "survival",
+    "national identity",
+    "the word"
+   ],
+   "symbols": [
+    "the everyday conversation",
+    "the official status",
+    "the words the world took"
+   ],
+   "mount": null,
+   "abode": "Paraguay, and across the border regions",
+   "festivals": [],
+   "worship": "",
+   "bio": "Jaguar, tapir, piranha, toucan, tapioca and cougar are all Guarani words the world took.",
+   "longBio": "Roughly ninety per cent of Paraguayans speak Guarani, most of them alongside Spanish, and a very large number of them have no Indigenous ancestry at all - which makes it almost unique among Indigenous American languages. It has been co-official since 1992. The reasons are complicated and include the Jesuit reductions, an unusual colonial demography, and two catastrophic wars that reinforced it as the language of national identity. It also gave the world jaguar, tapir, piranha, toucan, cougar, tapioca and a good deal else. Given that the tradition holds language to be the first thing created, this is a fitting outcome.",
+   "variantTraditions": "Guarani's survival is genuinely anomalous and is much studied; comparable Indigenous languages elsewhere in the Americas did not fare this way.",
+   "storyIds": [
+    "how-it-was-given"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "supreme-source",
+    "sage-seer"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "namandu",
+   "to": "ayvu",
+   "type": "parent",
+   "note": "The first thing he unfolded, before anywhere to stand"
+  },
+  {
+   "from": "namandu",
+   "to": "karai",
+   "type": "parent",
+   "note": "The father of fire and of the sound it makes"
+  },
+  {
+   "from": "namandu",
+   "to": "jakaira",
+   "type": "parent",
+   "note": "The father of the mist and the tobacco smoke"
+  },
+  {
+   "from": "namandu",
+   "to": "tupa_ru_ete",
+   "type": "parent",
+   "note": "The father of water, made last"
+  },
+  {
+   "from": "namandu",
+   "to": "yvy_marane",
+   "type": "guru",
+   "note": "The land that is reached by walking, not by dying"
+  },
+  {
+   "from": "ayvu",
+   "to": "karai",
+   "type": "ally",
+   "note": "Each of the fathers sends word-souls down"
+  },
+  {
+   "from": "ayvu",
+   "to": "jakaira",
+   "type": "ally",
+   "note": "And a shaman listens to find out which"
+  },
+  {
+   "from": "ayvu",
+   "to": "tupa_ru_ete",
+   "type": "ally",
+   "note": "And that word is the person's name and their soul"
+  },
+  {
+   "from": "ayvu",
+   "to": "guarani_language",
+   "type": "guru",
+   "note": "Language first, before matter - which turned out to matter"
+  },
+  {
+   "from": "jakaira",
+   "to": "kaa_jaryi",
+   "type": "ally",
+   "note": "Smoke and leaf, the two working substances"
+  },
+  {
+   "from": "karai",
+   "to": "kuarahy",
+   "type": "ally",
+   "note": "Fire above, and fire in the sky"
+  },
+  {
+   "from": "tupa_ru_ete",
+   "to": "jasy",
+   "type": "ally",
+   "note": "Water, coolness and the moon go together"
+  },
+  {
+   "from": "nande_sy",
+   "to": "kuarahy",
+   "type": "parent",
+   "note": "Cut from her body after the jaguars killed her"
+  },
+  {
+   "from": "nande_sy",
+   "to": "jasy",
+   "type": "parent",
+   "note": "And his younger brother with him"
+  },
+  {
+   "from": "kuarahy",
+   "to": "jasy",
+   "type": "sibling",
+   "note": "One patient and one impatient, and it costs them their mother"
+  },
+  {
+   "from": "jasy",
+   "to": "kuarahy",
+   "type": "enemy",
+   "note": "He touched her too soon, and she could not be brought back"
+  },
+  {
+   "from": "kuarahy",
+   "to": "nande_sy",
+   "type": "devotee",
+   "note": "He very nearly managed it"
+  },
+  {
+   "from": "jasy",
+   "to": "kaa_jaryi",
+   "type": "guru",
+   "note": "The moon gave the yerba to a man who sheltered her"
+  },
+  {
+   "from": "yvy_marane",
+   "to": "kuarahy",
+   "type": "ally",
+   "note": "East, where he comes up"
+  },
+  {
+   "from": "tau",
+   "to": "kerana",
+   "type": "consort",
+   "note": "Seven years of pursuit, and then he simply took her"
+  },
+  {
+   "from": "kerana",
+   "to": "tau",
+   "type": "enemy",
+   "note": "And the curse fell on the children rather than on him"
+  },
+  {
+   "from": "tau",
+   "to": "teju_jagua",
+   "type": "parent",
+   "note": "The first, and the least dangerous of them"
+  },
+  {
+   "from": "kerana",
+   "to": "teju_jagua",
+   "type": "parent",
+   "note": "Seven dog heads on a lizard, living on fruit"
+  },
+  {
+   "from": "tau",
+   "to": "mboi_tui",
+   "type": "parent",
+   "note": "The second, in the marshes"
+  },
+  {
+   "from": "tau",
+   "to": "monai",
+   "type": "parent",
+   "note": "The third, who stole everything bright"
+  },
+  {
+   "from": "tau",
+   "to": "jasy_jatere",
+   "type": "parent",
+   "note": "The fourth, and the only handsome one"
+  },
+  {
+   "from": "tau",
+   "to": "kurupi",
+   "type": "parent",
+   "note": "The fifth, who owns the animals"
+  },
+  {
+   "from": "tau",
+   "to": "ao_ao",
+   "type": "parent",
+   "note": "The sixth, which eats people"
+  },
+  {
+   "from": "tau",
+   "to": "luison",
+   "type": "parent",
+   "note": "And the seventh, which is the worst"
+  },
+  {
+   "from": "kerana",
+   "to": "luison",
+   "type": "parent",
+   "note": "And a seventh son is still said to become one"
+  },
+  {
+   "from": "teju_jagua",
+   "to": "mboi_tui",
+   "type": "sibling",
+   "note": "Two guardians of places, both hideous, neither cruel"
+  },
+  {
+   "from": "mboi_tui",
+   "to": "monai",
+   "type": "sibling",
+   "note": "The marsh and the open field"
+  },
+  {
+   "from": "monai",
+   "to": "ao_ao",
+   "type": "sibling",
+   "note": "Two that had to be killed rather than avoided"
+  },
+  {
+   "from": "jasy_jatere",
+   "to": "kurupi",
+   "type": "sibling",
+   "note": "One takes children and one takes women"
+  },
+  {
+   "from": "jasy_jatere",
+   "to": "jasy",
+   "type": "sibling",
+   "note": "His name means a small piece of the moon"
+  },
+  {
+   "from": "jasy_jatere",
+   "to": "pombero",
+   "type": "sibling",
+   "note": "Two beings Paraguayan children are genuinely warned about"
+  },
+  {
+   "from": "kurupi",
+   "to": "pombero",
+   "type": "sibling",
+   "note": "Both short, hairy and out where you are working"
+  },
+  {
+   "from": "kurupi",
+   "to": "teju_jagua",
+   "type": "sibling",
+   "note": "Both of them own something and guard it"
+  },
+  {
+   "from": "ao_ao",
+   "to": "luison",
+   "type": "sibling",
+   "note": "The two of the seven that simply kill you"
+  },
+  {
+   "from": "luison",
+   "to": "karau",
+   "type": "sibling",
+   "note": "Both of them are about failing the dead"
+  },
+  {
+   "from": "pombero",
+   "to": "kaa_jaryi",
+   "type": "ally",
+   "note": "Both are left something, and both notice if you do not"
+  },
+  {
+   "from": "pombero",
+   "to": "guarani_language",
+   "type": "devotee",
+   "note": "You do not say his name at night, in either language"
+  },
+  {
+   "from": "kaa_jaryi",
+   "to": "mate",
+   "type": "guru",
+   "note": "The first gourd of a round is not drunk"
+  },
+  {
+   "from": "mate",
+   "to": "guarani_language",
+   "type": "sibling",
+   "note": "Two things the Guarani gave the whole Southern Cone"
+  },
+  {
+   "from": "karau",
+   "to": "nande_sy",
+   "type": "enemy",
+   "note": "A son who went dancing, and a mother who was left"
+  },
+  {
+   "from": "mate",
+   "to": "kuarahy",
+   "type": "ally",
+   "note": "Terere is drunk iced, because of him"
+  },
+  {
+   "from": "guarani_language",
+   "to": "namandu",
+   "type": "devotee",
+   "note": "He made speech before he made anywhere to speak"
+  },
+  {
+   "from": "yvy_marane",
+   "to": "guarani_language",
+   "type": "ally",
+   "note": "The migrations east were led by chanting"
+  },
+  {
+   "from": "teju_jagua",
+   "to": "mate",
+   "type": "ally",
+   "note": "Fruit and honey, brought to him"
+  },
+  {
+   "from": "tupa_ru_ete",
+   "to": "namandu",
+   "type": "enemy",
+   "note": "The missionaries took his name for God, and it stuck"
+  },
+  {
+   "from": "tupa_ru_ete",
+   "to": "guarani_language",
+   "type": "guru",
+   "note": "Tupa now simply means God, to everybody"
+  }
+ ]
+}

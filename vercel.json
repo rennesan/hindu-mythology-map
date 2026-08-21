@@ -122,6 +122,10 @@
    "destination": "/lakota/index.html"
   },
   {
+   "source": "/guarani/:path*",
+   "destination": "/guarani/index.html"
+  },
+  {
    "source": "/polynesian/:path*",
    "destination": "/polynesian/index.html"
   },
