@@ -170,9 +170,14 @@
    "label": "Maya",
    "sublabel": "Classic & Post-Classic",
    "accent": "#7ab8a8",
-   "status": "planned",
+   "status": "live",
    "blurb": "The Popol Vuh: the Hero Twins, the lords of Xibalba, and the making of people from maize.",
-   "family": "Indigenous Traditions"
+   "family": "Indigenous Traditions",
+   "figures": 40,
+   "stories": 13,
+   "links": 67,
+   "levels": 8,
+   "cover": "portraits/maya/huracan.webp"
   },
   {
    "id": "inca",

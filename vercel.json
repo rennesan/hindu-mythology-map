@@ -74,6 +74,10 @@
    "destination": "/roman/index.html"
   },
   {
+   "source": "/maya/:path*",
+   "destination": "/maya/index.html"
+  },
+  {
    "source": "/hopi/:path*",
    "destination": "/hopi/index.html"
   },
