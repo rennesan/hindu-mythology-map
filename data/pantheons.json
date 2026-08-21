@@ -343,10 +343,15 @@
    "label": "Raven Cycle",
    "sublabel": "Tlingit & Haida",
    "accent": "#6f8fa8",
-   "status": "planned",
+   "status": "live",
    "blurb": "Raven steals the light, the sun and the fresh water - and is neither hero nor villain about it.",
    "family": "The Americas",
-   "glyph": "◉"
+   "glyph": "◉",
+   "figures": 25,
+   "stories": 12,
+   "links": 50,
+   "levels": 5,
+   "cover": "portraits/raven/raven.webp"
   },
   {
    "id": "navajo",

@@ -110,6 +110,10 @@
    "destination": "/haudenosaunee/index.html"
   },
   {
+   "source": "/raven/:path*",
+   "destination": "/raven/index.html"
+  },
+  {
    "source": "/hittite/:path*",
    "destination": "/hittite/index.html"
   },

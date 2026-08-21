@@ -1,0 +1,1803 @@
+{
+ "title": "Raven Cycle",
+ "description": "Tlingit, Haida and Tsimshian: Raven steals the light, the fresh water, the tides and the salmon, and is neither hero nor villain about any of it.",
+ "generated": "2026-08-21",
+ "sources": [
+  "John R. Swanton, Tlingit Myths and Texts (1909) - recorded at Sitka and Wrangell",
+  "John R. Swanton, Haida Texts and Myths (1905) - Skidegate and Masset dialects",
+  "Franz Boas, Tsimshian Mythology (1916) - written with Henry W. Tate, who was Tsimshian",
+  "George T. Emmons, The Tlingit Indians - field notes made over sixty years",
+  "Note: the Tlingit, Haida and Tsimshian are living nations. Crests are owned property and no clan crest is claimed or depicted here",
+  "The medallions here are a limitation of our own image rendering, not a restriction from these nations - Northwest Coast formline is published and unrestricted, and we could not reproduce it well enough to publish"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/raven/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "swanton_t": {
+   "t": "Tlingit Myths and Texts (BAE Bulletin 39)",
+   "tr": "John R. Swanton, 1909",
+   "u": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+  },
+  "swanton_h": {
+   "t": "Haida Texts and Myths (BAE Bulletin 29)",
+   "tr": "John R. Swanton, 1905",
+   "u": "https://archive.org/details/haidatextsmythss00swan"
+  },
+  "boas_ts": {
+   "t": "Tsimshian Mythology (BAE 31st Annual Report)",
+   "tr": "Franz Boas with Henry W. Tate, 1916",
+   "u": "https://archive.org/details/annualreportofbu31smit"
+  },
+  "swanton_c": {
+   "t": "Contributions to the Ethnology of the Haida",
+   "tr": "John R. Swanton, 1905",
+   "u": "https://archive.org/details/contributionstoe00swan"
+  },
+  "emmons": {
+   "t": "The Tlingit Indians",
+   "tr": "George T. Emmons, field notes 1880s-1940s",
+   "u": "https://archive.org/details/tlingitindians0000emmo"
+  }
+ },
+ "meta": {
+  "id": "raven",
+  "label": "Raven Cycle",
+  "sublabel": "Tlingit, Haida & Tsimshian",
+  "accent": "#6f8fa8",
+  "root": "raven"
+ },
+ "profile": {
+  "cosmicNature": "Already there, and badly arranged. Nobody makes the world in this tradition - it exists, in the dark, with everything valuable locked in somebody's house. What the stories describe is the world being rearranged into a usable state by a bird who wanted his own way. Light, water, tides, fire and salmon all arrive by theft.",
+  "natureOfDivinity": "Not gods - owners, and beings who are people under their skins. A killer whale, a bear or a salmon is a person wearing that form, living in a house of its own kind, and it can take the skin off. The being who matters most is Raven, who is neither good nor evil and is reliably hungry. Above him there is a vague high power in some accounts, and it does very little.",
+  "afterlife": "Several destinations, and one that frightens people. The ordinary dead are cremated and go on. Those killed in war go to a better place. But people who drown or are lost in the woods may be taken by the Kushtaka, the land otter people, who make them one of their own - and that is the real horror of the tradition, because the person is not dead and is not coming back either.",
+  "systemMechanism": "Property, rank and the potlatch. This is a society of hereditary rank, matrilineal clans and owned prerogatives - names, songs, crests, stories. A story is property. The potlatch is the mechanism: a host gives away enormous quantities of goods before witnesses, and the witnesses' acceptance validates the claim being made. The Canadian and US governments banned it, which tells you how central it was.",
+  "canonTexts": "No writing. Everything here was taken down between 1900 and 1916 - Swanton among the Tlingit at Sitka and Wrangell and among the Haida at Skidegate and Masset, Boas working with Henry Tate among the Tsimshian. The same episodes recur across all three peoples in different orders, and this pack keeps the differences where they matter."
+ },
+ "hierarchy": [
+  {
+   "title": "The Rearranging",
+   "blurb": "Nobody makes this world. It exists, in the dark, with everything valuable locked in somebody's house - the light, the fresh water, the tide, the salmon. A hungry bird takes all of it, in each case by lying, and is not improved by any of it. He was white when he started.",
+   "memberIds": [
+    "raven",
+    "nass_chief",
+    "nass_daughter",
+    "daylight",
+    "petrel",
+    "old_woman_tides",
+    "beaver",
+    "flood"
+   ],
+   "connectorCaption": "And the salmon, which arrive by a different route and leave the same way"
+  },
+  {
+   "title": "The Salmon",
+   "blurb": "Fog Woman washes her hands in a basket and pulls out the first salmon, and fills every creek on the coast. Then her husband insults her, and she walks into the sea and takes all of them with her. They come back every year. She does not.",
+   "memberIds": [
+    "fog_woman",
+    "salmon_boy"
+   ],
+   "connectorCaption": "The fish are people, and so is everything else you might eat or fear"
+  },
+  {
+   "title": "The People Under",
+   "blurb": "A killer whale is a person wearing a whale, living in a house in a village on the sea floor, and it can take the skin off. So can the bears and the salmon. This is the load-bearing idea of the whole coast, and most of the rules come out of it.",
+   "memberIds": [
+    "killer_whale",
+    "gonakadet",
+    "bear_mother",
+    "thunderbird",
+    "kushtaka"
+   ],
+   "connectorCaption": "And the things you genuinely do not want to meet"
+  },
+  {
+   "title": "The Dangerous",
+   "blurb": "A cannibal burned to ashes that became the mosquitoes. A woman who took a mountain apart because children tormented a frog. And a wealth-giving figure in the woods whose gift has to be taken off a screaming child.",
+   "memberIds": [
+    "cannibal_giant",
+    "mosquito",
+    "volcano_woman",
+    "property_woman"
+   ],
+   "connectorCaption": "All of it held together by property, rank and a party"
+  },
+  {
+   "title": "The Clans",
+   "blurb": "Everyone is Raven or Wolf, inherited from your mother, and you marry the other one. A crest is owned - carving one you have no right to is theft. And the potlatch is the court: give everything away in front of witnesses, and the claim becomes real.",
+   "memberIds": [
+    "wolf",
+    "eagle",
+    "frog",
+    "crest",
+    "potlatch",
+    "shaman"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "theft",
+   "label": "The Things Raven Stole",
+   "memberIds": [
+    "raven",
+    "daylight",
+    "petrel",
+    "old_woman_tides",
+    "beaver"
+   ]
+  },
+  {
+   "id": "nass",
+   "label": "The House at the Nass",
+   "memberIds": [
+    "nass_chief",
+    "nass_daughter",
+    "daylight",
+    "raven"
+   ]
+  },
+  {
+   "id": "salmon",
+   "label": "The Salmon",
+   "memberIds": [
+    "fog_woman",
+    "salmon_boy",
+    "beaver"
+   ]
+  },
+  {
+   "id": "sea",
+   "label": "The People Under the Water",
+   "memberIds": [
+    "killer_whale",
+    "gonakadet",
+    "kushtaka",
+    "salmon_boy"
+   ]
+  },
+  {
+   "id": "dangerous",
+   "label": "The Dangerous",
+   "memberIds": [
+    "cannibal_giant",
+    "mosquito",
+    "volcano_woman",
+    "property_woman"
+   ]
+  },
+  {
+   "id": "crests",
+   "label": "Crests and Moieties",
+   "memberIds": [
+    "wolf",
+    "eagle",
+    "frog",
+    "killer_whale",
+    "thunderbird",
+    "crest"
+   ]
+  },
+  {
+   "id": "society",
+   "label": "How It Is Held Together",
+   "memberIds": [
+    "potlatch",
+    "crest",
+    "shaman",
+    "flood"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "box-of-daylight",
+   "title": "How Raven Stole the Light",
+   "era": "The Rearranging",
+   "cast": [
+    "raven",
+    "nass_chief",
+    "nass_daughter",
+    "daylight"
+   ],
+   "summary": "The world was dark because one rich old man at the head of the Nass owned all the light and kept it boxed on a shelf. Raven worked out that the only way into a guarded house is to be born in it, so he turned himself into a hemlock needle and floated in the drinking water of the chief's daughter, and she swallowed him without noticing. He was born as her son, and the old man doted on him and refused him nothing. He cried for the box with the stars, and got it, and let them out. He cried for the moon, and got it, and let it out. Then he cried for the last box, took the sun in his beak, and went up through the smokehole - and the soot from the fire caught him on the way and turned him black, which he has been ever since.",
+   "sources": [
+    {
+     "book": "Tlingit Myths and Texts (BAE Bulletin 39)",
+     "translation": "John R. Swanton, 1909",
+     "location": "Raven at the head of the Nass",
+     "url": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+    },
+    {
+     "book": "Tsimshian Mythology (BAE 31st Annual Report)",
+     "translation": "Franz Boas with Henry W. Tate, 1916",
+     "location": "Txaamsm and the light",
+     "url": "https://archive.org/details/annualreportofbu31smit"
+    }
+   ]
+  },
+  {
+   "id": "fresh-water",
+   "title": "The Trick He Played on Petrel",
+   "era": "The Rearranging",
+   "cast": [
+    "raven",
+    "petrel"
+   ],
+   "summary": "Petrel owned every drop of fresh water there was, in a covered well inside his own house, and he would not share it. Raven came visiting, was refused, and asked to stay the night instead. He ate an enormous quantity of berries before bed. In the night he soiled the bedding all around his sleeping host, then woke him with the news that Petrel had done it himself. Mortified, Petrel went outside to clean himself up, and Raven drank the well as fast as he could hold it and made for the smokehole. Petrel called out for the smokehole to catch him - and it did, and held him there while the fire smoked underneath. What he spilled getting free is the rivers, the lakes and the springs, which is why they are where they are.",
+   "sources": [
+    {
+     "book": "Tlingit Myths and Texts (BAE Bulletin 39)",
+     "translation": "John R. Swanton, 1909",
+     "location": "Raven and Ganook",
+     "url": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "fog-woman",
+   "title": "The Woman Who Made the Salmon",
+   "era": "The Salmon",
+   "cast": [
+    "fog_woman",
+    "raven"
+   ],
+   "summary": "Raven and his wife were starving, and she asked for a basket of water, and washed her hands in it, and drew out a salmon. Then more, until the creeks were thick with them and the smokehouses were full and nobody on that coast was hungry. Secure and well fed, Raven insulted her over something small and struck her. She stood up and walked toward the water, and behind her every salmon in every drying rack and every stream came alive and went with her. He ran after her and caught at her cloak, and it came apart into fog in his hands. The salmon come back up the rivers every year. She has not.",
+   "sources": [
+    {
+     "book": "Tlingit Myths and Texts (BAE Bulletin 39)",
+     "translation": "John R. Swanton, 1909",
+     "location": "Fog Woman",
+     "url": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+    },
+    {
+     "book": "Tsimshian Mythology (BAE 31st Annual Report)",
+     "translation": "Franz Boas with Henry W. Tate, 1916",
+     "location": "The origin of the salmon",
+     "url": "https://archive.org/details/annualreportofbu31smit"
+    }
+   ]
+  },
+  {
+   "id": "the-tide",
+   "title": "The Argument That Made the Tides",
+   "era": "The Rearranging",
+   "cast": [
+    "raven",
+    "old_woman_tides"
+   ],
+   "summary": "The tide used to stay high all the time. There was no beach and nothing to gather from it, and an old woman sat at the waterline holding it there. Raven ate sea urchins first, then went and sat beside her and remarked how good they had been. She told him he was lying, since the tide never went out and there were no urchins to be had. He threw the shells in her lap and jabbed her with the spines until she let go of it. Then he made her an offer, and it stands: the water goes out twice a day and comes back twice a day, forever, and everything on the beach between those lines belongs to whoever gets there. Of everything he ever did, this is the one that most resembles a public service, and he did it to win an argument.",
+   "sources": [
+    {
+     "book": "Tlingit Myths and Texts (BAE Bulletin 39)",
+     "translation": "John R. Swanton, 1909",
+     "location": "Raven and the tide",
+     "url": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "salmon-boy",
+   "title": "The Boy Who Was Rude About Dinner",
+   "era": "The Salmon",
+   "cast": [
+    "salmon_boy",
+    "fog_woman"
+   ],
+   "summary": "A boy was given a piece of dried salmon with mould on the end, and he threw it down and said what he thought of it, out loud. Shortly after, he drowned - and woke in a village of people who told him they were the Salmon, and who showed him what happens to a fish that is wasted, and what happens to one whose bones are returned to the water. When the run came he swam up the river with them and was caught in his own mother's net, and she knew him by the copper ornament still on him. He came back to himself, lived, became a shaman, and taught the rule that governs the whole coast: eat the fish, and put every bone of it back in the water, or that salmon cannot come again.",
+   "sources": [
+    {
+     "book": "Tsimshian Mythology (BAE 31st Annual Report)",
+     "translation": "Franz Boas with Henry W. Tate, 1916",
+     "location": "Moldy End",
+     "url": "https://archive.org/details/annualreportofbu31smit"
+    },
+    {
+     "book": "Haida Texts and Myths (BAE Bulletin 29)",
+     "translation": "John R. Swanton, 1905",
+     "location": "The salmon boy",
+     "url": "https://archive.org/details/haidatextsmythss00swan"
+    }
+   ]
+  },
+  {
+   "id": "bear-mother",
+   "title": "The Woman Who Cursed a Bear",
+   "era": "The People Under",
+   "cast": [
+    "bear_mother",
+    "crest"
+   ],
+   "summary": "A woman picking berries slipped in bear droppings and said what she thought of bears, at length and with feeling. A young man appeared and offered to see her home, and the house he took her to was a house of people who were bears with their skins hung up. She married him, and bore two children who were both. Her brothers eventually tracked the den and killed her husband, and he spent his death teaching her the songs his people would need if his sons were to be treated properly. Those songs and the bear crest descend from that marriage. The story is told as a lesson, and the lesson is about your mouth: the animals hear you, they have relatives, and the relatives are not necessarily weaker than you are.",
+   "sources": [
+    {
+     "book": "Haida Texts and Myths (BAE Bulletin 29)",
+     "translation": "John R. Swanton, 1905",
+     "location": "The bear mother",
+     "url": "https://archive.org/details/haidatextsmythss00swan"
+    },
+    {
+     "book": "Tlingit Myths and Texts (BAE Bulletin 39)",
+     "translation": "John R. Swanton, 1909",
+     "location": "Kaats",
+     "url": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "kushtaka",
+   "title": "The Voice From the Water",
+   "era": "The People Under",
+   "cast": [
+    "kushtaka",
+    "shaman"
+   ],
+   "summary": "If you drown, or get lost in the woods, the land otter people come for you - and they do not kill you. They take you and make you one of them, and in time you forget who you were and cannot be called back, and your family cannot bury you because you are not dead. They call from the water at night in the voice of somebody you know, or as a baby crying, and going toward it is the mistake. Copper is said to keep them off. So is dog urine, and shouting. And when they have already taken someone, the ixt' is the one who goes after them, with masks and a rattle and a spirit or two, and does not always win.",
+   "sources": [
+    {
+     "book": "Tlingit Myths and Texts (BAE Bulletin 39)",
+     "translation": "John R. Swanton, 1909",
+     "location": "Land otter men",
+     "url": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+    },
+    {
+     "book": "The Tlingit Indians",
+     "translation": "George T. Emmons, field notes 1880s-1940s",
+     "location": "The Kushtaka",
+     "url": "https://archive.org/details/tlingitindians0000emmo"
+    }
+   ]
+  },
+  {
+   "id": "volcano-woman",
+   "title": "The Frog in the Fire",
+   "era": "The Dangerous",
+   "cast": [
+    "volcano_woman",
+    "frog"
+   ],
+   "summary": "Some children caught a frog and put it in a fire to see what would happen, and the adults of the village watched and did nothing. An old woman came down and asked, civilly, for the matter to be put right, and the village laughed at her and sent her away. That night the mountain opened. Nothing of the village survived and the story is told without much sympathy for it. Djila'qons is the sharpest possible statement of the rule that runs under everything on this coast: the animals are people, an insult to one is an insult to its family, and you have no idea whose grandmother you have just laughed at.",
+   "sources": [
+    {
+     "book": "Haida Texts and Myths (BAE Bulletin 29)",
+     "translation": "John R. Swanton, 1905",
+     "location": "Djila'qons",
+     "url": "https://archive.org/details/haidatextsmythss00swan"
+    }
+   ]
+  },
+  {
+   "id": "mosquitoes",
+   "title": "The Cannibal Who Kept His Word",
+   "era": "The Dangerous",
+   "cast": [
+    "cannibal_giant",
+    "mosquito"
+   ],
+   "summary": "A giant had been taking people out of the villages and eating them for as long as anyone could remember, and eventually he was trapped and killed and his body was put on a fire. As it burned he told the people standing around it that he would go on eating them anyway. When the fire had burned out, the wind picked up the ashes, and every speck of them became a mosquito, and they came straight back down onto the same people. It is the shortest monster story on the coast and the only one where the monster is completely right.",
+   "sources": [
+    {
+     "book": "Tlingit Myths and Texts (BAE Bulletin 39)",
+     "translation": "John R. Swanton, 1909",
+     "location": "The giant and the mosquitoes",
+     "url": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+    },
+    {
+     "book": "Tsimshian Mythology (BAE 31st Annual Report)",
+     "translation": "Franz Boas with Henry W. Tate, 1916",
+     "location": "The origin of mosquitoes",
+     "url": "https://archive.org/details/annualreportofbu31smit"
+    }
+   ]
+  },
+  {
+   "id": "gonakadet",
+   "title": "The Skin That Fitted Too Well",
+   "era": "The People Under",
+   "cast": [
+    "gonakadet",
+    "property_woman"
+   ],
+   "summary": "A man whose wife's family treated him as worthless found the skin of a sea monster washed up on the beach, and put it on. In it he could swim like nothing alive, and he took halibut and seals and finally a whale, and left them on the beach at night so that his mother-in-law found them each morning and took the credit and grew rich and famous. He said nothing. But every time he wore the skin it fitted a little better, and one night he could not get it off, and did not come back. Gonakadet is good luck to see and a crest to own. The story attached to him is not about luck at all.",
+   "sources": [
+    {
+     "book": "Tlingit Myths and Texts (BAE Bulletin 39)",
+     "translation": "John R. Swanton, 1909",
+     "location": "Gonakadet",
+     "url": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+    },
+    {
+     "book": "Haida Texts and Myths (BAE Bulletin 29)",
+     "translation": "John R. Swanton, 1905",
+     "location": "Wasgo",
+     "url": "https://archive.org/details/haidatextsmythss00swan"
+    }
+   ]
+  },
+  {
+   "id": "potlatch",
+   "title": "Giving It All Away",
+   "era": "The Clans",
+   "cast": [
+    "potlatch",
+    "crest",
+    "wolf"
+   ],
+   "summary": "Nothing on this coast is real until it has been witnessed. A name taken, a pole raised, a house finished, a death mourned, a crest claimed - each becomes valid when the host gives away an enormous quantity of property to guests of the opposite moiety, and those guests accept it, and are paid for their work and their memory. It is a court in the shape of a party, and the currency is the giving rather than the having. Outsiders read it as ruinous vanity. Canada read it more accurately: it banned the potlatch from 1885 to 1951 and prosecuted people for holding one, because it correctly identified the thing that held the whole society together and set out to break it.",
+   "sources": [
+    {
+     "book": "The Tlingit Indians",
+     "translation": "George T. Emmons, field notes 1880s-1940s",
+     "location": "The potlatch",
+     "url": "https://archive.org/details/tlingitindians0000emmo"
+    },
+    {
+     "book": "Contributions to the Ethnology of the Haida",
+     "translation": "John R. Swanton, 1905",
+     "location": "Social organisation",
+     "url": "https://archive.org/details/contributionstoe00swan"
+    }
+   ]
+  },
+  {
+   "id": "flood",
+   "title": "Tied to the Mountain",
+   "era": "The Rearranging",
+   "cast": [
+    "flood",
+    "raven",
+    "crest"
+   ],
+   "summary": "The water rose until only the peaks were above it, and people tied their canoes to the tops and waited, and when it fell they came off in different places, and that is how the clans came to be where they are. Nobody is judged and nobody is saved for being good. It is the event that shuffles the map, and particular clans name particular mountains as theirs, which makes it less a myth than a land record. Raven survived it by hooking his beak into the sky and hanging there until the water went down, which tells you most of what you need to know about him.",
+   "sources": [
+    {
+     "book": "Tlingit Myths and Texts (BAE Bulletin 39)",
+     "translation": "John R. Swanton, 1909",
+     "location": "The flood",
+     "url": "https://sacred-texts.com/nam/nw/tmt/index.htm"
+    },
+    {
+     "book": "Contributions to the Ethnology of the Haida",
+     "translation": "John R. Swanton, 1905",
+     "location": "Clan histories",
+     "url": "https://archive.org/details/contributionstoe00swan"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "raven",
+   "name": "Raven",
+   "sanskrit": "Yeil",
+   "category": "creator",
+   "era": "The Rearranging",
+   "role": "He arranged the entire world by stealing things, and was not improved by any of it",
+   "wikipedia": "Raven_Tales",
+   "portrait": "portraits/raven/raven.webp",
+   "epithets": [
+    "Yeil in Tlingit",
+    "Nankilslas in Haida",
+    "Txaamsm in Tsimshian",
+    "the Transformer"
+   ],
+   "domains": [
+    "light",
+    "fresh water",
+    "the tides",
+    "salmon",
+    "hunger",
+    "lying"
+   ],
+   "symbols": [
+    "the black bird",
+    "the box of daylight",
+    "the white feathers he had first"
+   ],
+   "mount": null,
+   "abode": "Everywhere, uninvited",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was white until he stole the sun and got stuck in a smokehole on the way out.",
+   "longBio": "Raven is not a god and not a hero - he is a transformer, and the world is in its present arrangement because he wanted something and took it. He brings daylight, fresh water, the tides and the salmon, and every one of them is a theft. He is greedy, lecherous, vain and permanently hungry, and none of his benefactions is intended as one; the light exists because he wanted to see, and the salmon because he wanted to eat. He was white to begin with. He came out through a smokehole with the sun in his beak and the soot turned him black, and he has stayed that way.",
+   "variantTraditions": "The Tlingit distinguish Raven the trickster from a creator figure sometimes called Nass-shaki-yeil; other accounts collapse them. The Haida Nankilslas is the same bird.",
+   "storyIds": [
+    "box-of-daylight",
+    "fresh-water",
+    "fog-woman",
+    "the-tide",
+    "flood"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "messenger-trickster",
+    "creator",
+    "divine-beast",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "nass_chief",
+   "name": "The Chief at the Head of the Nass",
+   "sanskrit": "Nass-shaki-yeil",
+   "category": "primordial",
+   "era": "The Rearranging",
+   "role": "A rich old man who owned the daylight and kept it in boxes on his shelf",
+   "wikipedia": "Raven_Tales",
+   "portrait": "portraits/raven/nass_chief.webp",
+   "epithets": [
+    "the old man at the head of the Nass river",
+    "the owner of the light"
+   ],
+   "domains": [
+    "daylight",
+    "the sun, moon and stars",
+    "hoarding",
+    "the boxes"
+   ],
+   "symbols": [
+    "the nested boxes",
+    "the smokehole",
+    "the water bucket"
+   ],
+   "mount": null,
+   "abode": "The head of the Nass river",
+   "festivals": [],
+   "worship": "",
+   "bio": "He had the sun, the moon and the stars in boxes, and the world was dark because of it.",
+   "longBio": "Before the light was out, an old man at the head of the Nass river owned all of it - the stars, the moon and the sun, each in a box, nested one inside another and set on a shelf in his house. The world outside was dark. He guarded them, and his one weakness was his daughter, whom he doted on. Raven, wanting light for entirely selfish reasons, worked out that the only way into the house was to be born into it. The old man is not a villain in the telling. He is a wealthy man with valuable property, behaving as a wealthy man does.",
+   "variantTraditions": "The daylight-theft is the single most widespread story on the Northwest Coast and is told with local variation from Alaska to Vancouver Island.",
+   "storyIds": [
+    "box-of-daylight"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "wealth-fortune",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "nass_daughter",
+   "name": "The Chief's Daughter",
+   "sanskrit": "the daughter",
+   "category": "mortal",
+   "era": "The Rearranging",
+   "role": "She drank from a cup with a hemlock needle in it and was pregnant by evening",
+   "wikipedia": "Raven_Tales",
+   "portrait": "portraits/raven/nass_daughter.webp",
+   "epithets": [
+    "the daughter at the Nass",
+    "Raven's mother"
+   ],
+   "domains": [
+    "water",
+    "conception",
+    "the doting grandfather"
+   ],
+   "symbols": [
+    "the drinking cup",
+    "the hemlock needle"
+   ],
+   "mount": null,
+   "abode": "Her father's house",
+   "festivals": [],
+   "worship": "",
+   "bio": "Raven turned himself into a needle, floated in her water, and she swallowed him.",
+   "longBio": "Raven needed to get inside the house where the light was kept, and the way in was to be born there. He turned himself first into a leaf and then, in most versions, into a hemlock needle, and floated in the water the chief's daughter drank. She swallowed him without noticing and grew pregnant, and bore a boy - and the old man, delighted with his grandson, denied him nothing. Which is precisely the point. She is the mechanism of the story and it is not kind to her, and the tradition passes over what she made of it.",
+   "variantTraditions": "The object swallowed varies: a hemlock needle, a cedar leaf, a speck of dirt, or a blade of grass.",
+   "storyIds": [
+    "box-of-daylight"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "petrel",
+   "name": "Petrel",
+   "sanskrit": "Ganook",
+   "category": "deity",
+   "era": "The Rearranging",
+   "role": "He owned all the fresh water in the world and Raven got it by faking a mess in the bed",
+   "wikipedia": "Raven_Tales",
+   "portrait": "portraits/raven/petrel.webp",
+   "epithets": [
+    "Ganook",
+    "the old man who owned the water",
+    "Petrel"
+   ],
+   "domains": [
+    "fresh water",
+    "the spring",
+    "fog"
+   ],
+   "symbols": [
+    "the covered well in his house",
+    "the fog he raised"
+   ],
+   "mount": null,
+   "abode": "An island, alone",
+   "festivals": [],
+   "worship": "",
+   "bio": "Raven ate a lot of berries, waited until Ganook slept, and then arranged the evidence.",
+   "longBio": "Petrel owned the only fresh water there was, in a covered well inside his own house on an island, and he did not share it. Raven visited, was refused, and stayed the night. He ate heavily, and while his host slept he soiled the bedding around him and then woke him with the news that he had done it himself in the night. While the mortified Petrel went outside to clean up, Raven drank as much of the water as he could hold and flew for the smokehole. Petrel called on the smokehole to hold him, and it did - and lit a fire under him.",
+   "variantTraditions": "The Tlingit call Petrel's island Deki-noo; the story is also told with a different water owner among the Haida.",
+   "storyIds": [
+    "fresh-water"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "wealth-fortune",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "fog_woman",
+   "name": "Fog Woman",
+   "sanskrit": "Kadjuk-shaa",
+   "category": "deity",
+   "era": "The Rearranging",
+   "role": "She made the salmon out of nothing, was insulted once, and walked into the sea with all of it",
+   "wikipedia": "Fog_Woman",
+   "portrait": "portraits/raven/fog_woman.webp",
+   "epithets": [
+    "Creek Woman",
+    "the woman who made the salmon"
+   ],
+   "domains": [
+    "salmon",
+    "the streams",
+    "fog",
+    "the consequence of an insult"
+   ],
+   "symbols": [
+    "the basket dipped in water",
+    "the fog rolling in",
+    "the salmon following her out"
+   ],
+   "mount": null,
+   "abode": "The creeks, and then the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "She washed her hands in a basket of water and pulled a salmon out of it. Then he insulted her.",
+   "longBio": "Raven married Fog Woman, and when they were starving she asked for a basket, dipped her hands in the water and drew out a salmon - and then another, and then a stream full of them, until the creeks ran with fish and the smokehouses were full. Raven, secure, insulted her over something trivial and struck her. She stood up and walked toward the sea, and every salmon in every drying rack and every stream came alive and followed her out into the water. Raven ran after her and caught at her cloak and it came apart into fog in his hands. The salmon return each year, and she does not.",
+   "variantTraditions": "This is chiefly Tlingit and Tsimshian; the detail of the cloak dissolving into fog is why she is called Fog Woman.",
+   "storyIds": [
+    "fog-woman",
+    "salmon-boy"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "sea-waters",
+    "preserver",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "old_woman_tides",
+   "name": "The Old Woman of the Tides",
+   "sanskrit": "Nascakiyel",
+   "category": "deity",
+   "era": "The Rearranging",
+   "role": "She sat on the tideline and would not let it go out, so Raven hit her",
+   "wikipedia": "Raven_Tales",
+   "portrait": "portraits/raven/old_woman_tides.webp",
+   "epithets": [
+    "the woman who holds the tide"
+   ],
+   "domains": [
+    "the tides",
+    "the beach",
+    "shellfish"
+   ],
+   "symbols": [
+    "the seat at the tideline",
+    "the sea urchin spines"
+   ],
+   "mount": null,
+   "abode": "Where the water meets the land",
+   "festivals": [],
+   "worship": "",
+   "bio": "There was no low tide until Raven told her a lie about eating urchins, and then threw one at her.",
+   "longBio": "The tide used to stay high all the time, so there was no beach and nothing to gather. An old woman sat holding it there. Raven ate sea urchins, went to her, and remarked how good they had been - and when she said that was impossible, since the tide never went out, he threw the shells at her and jabbed her with the spines until she let it drop. Then he made a bargain: the tide would go out twice a day and come back twice a day, forever, which is what it does. Of everything he did, this is the one that most looks like a public service, and he did it to win an argument.",
+   "variantTraditions": "The tide bargain is told across the coast; in some versions Raven agrees to feed her in exchange.",
+   "storyIds": [
+    "the-tide"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "fate-time",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "killer_whale",
+   "name": "Killer Whale",
+   "sanskrit": "Keet",
+   "category": "beast",
+   "era": "The People Under",
+   "role": "They are people in a house under the water, and they take their skins off at home",
+   "wikipedia": "Killer_whale",
+   "portrait": "portraits/raven/killer_whale.webp",
+   "epithets": [
+    "Keet in Tlingit",
+    "Skana",
+    "the blackfish"
+   ],
+   "domains": [
+    "the sea",
+    "the drowned",
+    "clan crest",
+    "the village under the water"
+   ],
+   "symbols": [
+    "the tall dorsal fin",
+    "the house beneath the water",
+    "the carved fin"
+   ],
+   "mount": null,
+   "abode": "A village on the sea floor",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first one was carved out of yellow cedar, and it came alive and went into the water.",
+   "longBio": "A man whose brothers-in-law had marooned him carved eight killer whales out of wood, and the yellow cedar ones came alive and went into the sea and did what he asked. Killer whales are people - they live in houses in a village on the sea floor, they take their fins and skins off indoors, and they hold their own feasts. They take the drowned into their village and make them their own, which means a drowned relative is not gone so much as relocated. The killer whale is one of the great crests of the coast, and the right to display it belongs to specific clans.",
+   "variantTraditions": "The carved-whale story is a Tlingit clan origin narrative and belongs to particular lineages; it is summarised here as published, not claimed.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sea-waters",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "kushtaka",
+   "name": "The Kushtaka",
+   "sanskrit": "Kushtaka",
+   "category": "beast",
+   "era": "The People Under",
+   "role": "Land otter people who save the drowning - by turning them into land otter people",
+   "wikipedia": "Kushtaka",
+   "portrait": "portraits/raven/kushtaka.webp",
+   "epithets": [
+    "the land otter men",
+    "the ones who take the drowned"
+   ],
+   "domains": [
+    "drowning",
+    "the lost",
+    "transformation",
+    "the mimicked voice"
+   ],
+   "symbols": [
+    "the otter",
+    "the sound of a baby crying",
+    "the shore at night"
+   ],
+   "mount": null,
+   "abode": "The shoreline and the woods",
+   "festivals": [],
+   "worship": "",
+   "bio": "You hear a relative calling from the water, and going toward it is the mistake.",
+   "longBio": "The Kushtaka are the single most frightening thing on this coast, and the fear is precise. If you drown or are lost in the woods, they come - and they do not kill you. They take you and make you one of them, and you become an otter person and forget who you were, and your family cannot mourn you because you are not dead. They lure people by imitating the voice of a relative, or a baby crying, from the water at night. Shamans fight them. Copper and dog urine are said to repel them. The horror here is not death but the loss of the person while the body walks around.",
+   "variantTraditions": "Kushtaka belief is Tlingit and remains current; the fear attaches specifically to drowning, which was the commonest cause of death on the coast.",
+   "storyIds": [
+    "kushtaka"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "sea-waters",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "bear_mother",
+   "name": "The Bear Mother",
+   "sanskrit": "Kaats' wife",
+   "category": "hero",
+   "era": "The People Under",
+   "role": "She insulted a bear, married one, and bore children who were both",
+   "wikipedia": "Bear_Mother",
+   "portrait": "portraits/raven/bear_mother.webp",
+   "epithets": [
+    "the woman who married a bear",
+    "the mother of the bear sons"
+   ],
+   "domains": [
+    "marriage between kinds",
+    "the bear crest",
+    "hunting etiquette"
+   ],
+   "symbols": [
+    "the bear den",
+    "the twin cubs",
+    "the slipped foot"
+   ],
+   "mount": null,
+   "abode": "The bear's den in the mountain",
+   "festivals": [],
+   "worship": "",
+   "bio": "She slipped on bear droppings while picking berries and said what she thought of bears.",
+   "longBio": "A woman out picking berries slipped on bear droppings and cursed bears out loud, at length. A young man appeared, offered to walk her home, and led her instead to a house in the mountain where the people were bears with their skins off. She married him and bore two children who were both bear and human. Her brothers eventually found the den and killed her husband, who went to his death teaching her the songs his people would need if his sons were to be honoured properly. The bear crest and its songs descend from this, and the story is a lesson about talking carelessly about an animal.",
+   "variantTraditions": "The Bear Mother is a crest story owned by specific Haida and Tlingit lineages; the version here follows Swanton's published text.",
+   "storyIds": [
+    "bear-mother"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "earth-mother",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "salmon_boy",
+   "name": "Salmon Boy",
+   "sanskrit": "Moldy End",
+   "category": "hero",
+   "era": "The People Under",
+   "role": "He was rude about a piece of mouldy salmon and spent a year as one",
+   "wikipedia": "Salmon_Boy",
+   "portrait": "portraits/raven/salmon_boy.webp",
+   "epithets": [
+    "Moldy End",
+    "the boy who went with the salmon"
+   ],
+   "domains": [
+    "salmon",
+    "the treatment of food",
+    "the return of the bones"
+   ],
+   "symbols": [
+    "the mouldy piece he refused",
+    "the salmon village",
+    "the copper he was recognised by"
+   ],
+   "mount": null,
+   "abode": "The salmon village, under the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "The rule he learned is practical: put every bone back in the water or the fish cannot return.",
+   "longBio": "A boy refused a piece of dried salmon because it had mould on the end, and threw it down and said so. Then he drowned - and woke among the Salmon People, who are people in their village and salmon when they swim up the rivers, and who taught him how they wish to be treated. When their run came he went with them, was caught by his own mother, and was recognised by the copper ornament he had worn. He came back to himself, became a shaman, and taught the rule: every bone of a salmon goes back in the water, or that fish cannot come again.",
+   "variantTraditions": "Returning salmon bones to the water is a widespread coastal practice and the story is its explicit justification.",
+   "storyIds": [
+    "salmon-boy"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sage-seer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "gonakadet",
+   "name": "Gonakadet",
+   "sanskrit": "Gonakadet",
+   "category": "beast",
+   "era": "The People Under",
+   "role": "A sea monster whose skin a man put on, and could not take off again",
+   "wikipedia": "Wasgo",
+   "portrait": "portraits/raven/gonakadet.webp",
+   "epithets": [
+    "Wasgo in Haida",
+    "the sea wolf",
+    "the sea monster"
+   ],
+   "domains": [
+    "wealth",
+    "the sea",
+    "hunting",
+    "good fortune to whoever sees it"
+   ],
+   "symbols": [
+    "the skin found on the beach",
+    "the wolf head with fins",
+    "the halibut caught by hand"
+   ],
+   "mount": null,
+   "abode": "The channels and the deep water",
+   "festivals": [],
+   "worship": "",
+   "bio": "Seeing one means wealth is coming. Wearing one means you are not coming back.",
+   "longBio": "Gonakadet is a sea creature with a wolf's head and a whale's body, and a sighting means fortune. The story attached is about a man treated with contempt by his wife's family who found the skin of one on the beach and put it on - and swam, and caught halibut and seals and whales effortlessly, and left them on the beach for his mother-in-law to find so that she took the credit and grew rich on it. But each time he wore it, it fitted better. Eventually he could not get it off, and stayed in the water. He is one of the great crests of the coast.",
+   "variantTraditions": "Haida Wasgo and Tlingit Gonakadet are the same being; the skin-that-will-not-come-off ending is constant.",
+   "storyIds": [
+    "gonakadet"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sea-waters",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "thunderbird",
+   "name": "Thunderbird",
+   "sanskrit": "Xetl",
+   "category": "beast",
+   "era": "The People Under",
+   "role": "Thunder is his wings and lightning is his eye, and he hunts whales for a living",
+   "wikipedia": "Thunderbird_(mythology)",
+   "portrait": "portraits/raven/thunderbird.webp",
+   "epithets": [
+    "Xetl in Tlingit",
+    "Hetgwauk",
+    "the one who eats whales"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "storms",
+    "the hunting of whales"
+   ],
+   "symbols": [
+    "the huge bird with recurved horns",
+    "the whale in his talons",
+    "the lightning snake"
+   ],
+   "mount": null,
+   "abode": "The peaks of the mountains",
+   "festivals": [],
+   "worship": "",
+   "bio": "The reason there are whale bones high up a mountain is that he carried one there.",
+   "longBio": "The Thunderbird lives on the mountaintops, and the beat of his wings is thunder while lightning comes from his eyes or from the lightning-snakes he carries under them. He hunts whales - he takes them out of the water in his talons and carries them to the peaks to eat, which is offered as the explanation for whale bones found inland at altitude. He is a crest and appears on poles and house fronts across the coast. Where he is not a benefactor and not an enemy, he is simply the largest hunter there is, doing the same thing everybody else does at a scale nobody else manages.",
+   "variantTraditions": "The Thunderbird is common across the coast and the Plains; the whale-hunting form is specifically a coastal development.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sky-thunder",
+    "divine-beast",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "cannibal_giant",
+   "name": "The Cannibal Giant",
+   "sanskrit": "Goo-teekhl",
+   "category": "beast",
+   "era": "The Dangerous",
+   "role": "Burned to ashes, and the ashes became the mosquitoes",
+   "wikipedia": "Raven_Tales",
+   "portrait": "portraits/raven/cannibal_giant.webp",
+   "epithets": [
+    "Goo-teekhl",
+    "the giant who ate people",
+    "the man-eater"
+   ],
+   "domains": [
+    "cannibalism",
+    "the mountain",
+    "the origin of mosquitoes"
+   ],
+   "symbols": [
+    "the fire",
+    "the ashes blown on the wind",
+    "the mosquito"
+   ],
+   "mount": null,
+   "abode": "A house on the mountain",
+   "festivals": [],
+   "worship": "",
+   "bio": "They killed him and burned him, and he said he would go on eating people anyway.",
+   "longBio": "A giant who ate people was finally trapped and killed and his body burned. As he burned he said that even so he would keep on eating people - and when the fire had gone out and the wind picked up the ashes, every particle turned into a mosquito, and they went straight for the people standing round the fire, and have not stopped. It is one of the most economical monster stories anywhere: the threat is destroyed and it wins, and the tradition takes obvious satisfaction in the fact that the smallest and most persistent annoyance in the world is a cannibal that would not stay dead.",
+   "variantTraditions": "The ashes-to-mosquitoes ending is told from Alaska to the interior and appears in Tlingit, Tsimshian and Athabaskan versions.",
+   "storyIds": [
+    "mosquitoes"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "fire"
+   ]
+  },
+  {
+   "id": "volcano_woman",
+   "name": "Volcano Woman",
+   "sanskrit": "Djila'qons",
+   "category": "deity",
+   "era": "The Dangerous",
+   "role": "Somebody's grandchildren tortured a frog, and she took the mountain apart",
+   "wikipedia": "Volcano_Woman",
+   "portrait": "portraits/raven/volcano_woman.webp",
+   "epithets": [
+    "Djila'qons",
+    "the woman of the volcano",
+    "the frog's grandmother"
+   ],
+   "domains": [
+    "volcanoes",
+    "revenge",
+    "the protection of animals",
+    "the frog"
+   ],
+   "symbols": [
+    "the frog",
+    "the mountain opening",
+    "the village burned"
+   ],
+   "mount": null,
+   "abode": "Inside the mountain",
+   "festivals": [],
+   "worship": "",
+   "bio": "The village that let children torment a frog for entertainment did not survive the night.",
+   "longBio": "Some children caught a frog and threw it in a fire for amusement, and the adults of the village let it happen. The frog was Volcano Woman's grandchild. She came down in the form of an old woman and asked, politely, for redress, and was mocked and turned away. That night the mountain opened and the village and everyone in it burned. She is the sharpest statement in this tradition of a rule that runs all through it: animals are people, insult to them is insult to their families, and the families are not always weaker than you.",
+   "variantTraditions": "Djila'qons is a major Haida figure and an ancestress of specific lineages; the frog episode is her best-known story.",
+   "storyIds": [
+    "volcano-woman"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "destroyer",
+    "earth-mother",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "property_woman",
+   "name": "Property Woman",
+   "sanskrit": "Skil Jaadei",
+   "category": "deity",
+   "era": "The Dangerous",
+   "role": "Meet her in the woods, get a piece of her child, and you will never be poor again",
+   "wikipedia": "Skil_Jaadei",
+   "portrait": "portraits/raven/property_woman.webp",
+   "epithets": [
+    "Skil Jaadei",
+    "Creek Woman in some accounts",
+    "the wealth woman"
+   ],
+   "domains": [
+    "wealth",
+    "luck",
+    "the forest",
+    "the cry of her child"
+   ],
+   "symbols": [
+    "the crying heard in the trees",
+    "the scab or fragment taken from the child"
+   ],
+   "mount": null,
+   "abode": "The deep woods, near the creeks",
+   "festivals": [],
+   "worship": "",
+   "bio": "You have to grab her child and not let go, and it is described as an unpleasant business.",
+   "longBio": "Property Woman is met alone in the forest, carrying a child, and the child's crying is heard first. If a person can take hold of the child and hold on through what follows, and come away with a piece of it - a scab, a fragment - they will have wealth for the rest of their life. The encounter is not benign and the accounts do not pretend it is. In a society where rank rested on the ability to give property away at a potlatch, a being who confers wealth by an unpleasant transaction in the woods is a fairly clear-eyed piece of theology.",
+   "variantTraditions": "Skil Jaadei is Haida; the Tlingit have a comparable figure. Accounts differ on what exactly must be taken.",
+   "storyIds": [
+    "gonakadet"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune",
+    "primordial-adversary",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "wolf",
+   "name": "Wolf",
+   "sanskrit": "Gooch",
+   "category": "beast",
+   "era": "The Clans",
+   "role": "One of the two halves the whole society is divided into",
+   "wikipedia": "Tlingit",
+   "portrait": "portraits/raven/wolf.webp",
+   "epithets": [
+    "Gooch",
+    "the Wolf moiety",
+    "Eagle in some regions"
+   ],
+   "domains": [
+    "the moiety",
+    "clan",
+    "marriage rules",
+    "hunting"
+   ],
+   "symbols": [
+    "the wolf crest",
+    "the house front",
+    "the moiety"
+   ],
+   "mount": null,
+   "abode": "The land",
+   "festivals": [],
+   "worship": "",
+   "bio": "You are Raven or you are Wolf, you inherit it from your mother, and you marry the other one.",
+   "longBio": "Tlingit society divides into two halves - Raven and Wolf, called Eagle in some areas - and every person belongs to their mother's. You must marry into the opposite moiety, and the opposite moiety performs your funeral, builds your house and is paid at your potlatch. It is not mythology so much as the operating system: the division determines who you can marry, who owes you labour and who witnesses your claims. The Wolf and Raven here are not the animals of the stories but the names of the two sides of everything.",
+   "variantTraditions": "The Haida use Raven and Eagle for the same division; the Tsimshian have four phratries rather than two.",
+   "storyIds": [
+    "potlatch"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "eagle",
+   "name": "Eagle",
+   "sanskrit": "Ch'aak'",
+   "category": "beast",
+   "era": "The Clans",
+   "role": "The other half, in the places where it is not called Wolf",
+   "wikipedia": "Haida",
+   "portrait": "portraits/raven/eagle.webp",
+   "epithets": [
+    "Ch'aak'",
+    "the Eagle moiety"
+   ],
+   "domains": [
+    "the moiety",
+    "clan",
+    "crest",
+    "the sky"
+   ],
+   "symbols": [
+    "the eagle crest",
+    "the down scattered as a sign of peace"
+   ],
+   "mount": null,
+   "abode": "The air and the shore",
+   "festivals": [],
+   "worship": "",
+   "bio": "Eagle down scattered in the air is the sign that what follows is peaceful.",
+   "longBio": "Among the Haida the two moieties are Raven and Eagle, and among the Tlingit the second is usually Wolf - the same structure with a different name on one half. Eagle is also a crest in its own right and appears on poles, house fronts, hats and blankets, owned by particular clans. Eagle down has a specific ceremonial use: scattered into the air at a greeting or a peacemaking, it declares the occasion peaceful, and it is still used that way. The bird is not a god; it is a name, a crest and a piece of protocol.",
+   "variantTraditions": "The scattering of eagle down as a peace sign is documented across the coast and remains in ceremonial use.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "frog",
+   "name": "Frog",
+   "sanskrit": "Xixch'",
+   "category": "beast",
+   "era": "The Clans",
+   "role": "A crest, and the one animal whose mistreatment gets a village destroyed",
+   "wikipedia": "Northwest_Coast_art",
+   "portrait": "portraits/raven/frog.webp",
+   "epithets": [
+    "Xixch'",
+    "the frog crest"
+   ],
+   "domains": [
+    "the crest",
+    "the connection between water and land",
+    "wealth"
+   ],
+   "symbols": [
+    "the wide mouth on a pole",
+    "the flat splayed legs"
+   ],
+   "mount": null,
+   "abode": "The creeks and the edges",
+   "festivals": [],
+   "worship": "",
+   "bio": "It appears on more poles than almost anything and it is the reason Volcano Woman came down.",
+   "longBio": "Frog is a crest owned by particular clans and one of the most frequently carved figures on the coast, recognisable by a wide lipless mouth and splayed legs. It sits at the boundary of water and land, and is associated with wealth and with the transfer of things between worlds. Its narrative importance is mostly negative: the frog thrown in a fire by children is the offence that brings Volcano Woman down on a village, and a frog's presence in a story is a reliable signal that somebody is about to make a serious mistake about who they are dealing with.",
+   "variantTraditions": "Frog is absent as a crest among some northern groups and prominent among others, which is a useful marker of regional style.",
+   "storyIds": [
+    "volcano-woman"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "potlatch",
+   "name": "The Potlatch",
+   "sanskrit": "Koo.eex'",
+   "category": "primordial",
+   "era": "The Clans",
+   "role": "You establish a claim by giving away everything, in front of witnesses who are paid to remember",
+   "wikipedia": "Potlatch",
+   "portrait": "portraits/raven/potlatch.webp",
+   "epithets": [
+    "koo.eex' in Tlingit",
+    "the giving-away",
+    "the memorial feast"
+   ],
+   "domains": [
+    "rank",
+    "the validation of claims",
+    "memorial for the dead",
+    "redistribution"
+   ],
+   "symbols": [
+    "the goods stacked and given",
+    "the opposite moiety as witnesses",
+    "the copper"
+   ],
+   "mount": null,
+   "abode": "The clan house",
+   "festivals": [],
+   "worship": "",
+   "bio": "Canada banned it in 1885 and the United States discouraged it, which tells you what it was.",
+   "longBio": "A potlatch is how anything becomes real: a name taken, a pole raised, a house built, a death mourned, a crest claimed. The host gives away enormous quantities of property to guests of the opposite moiety, and it is their witnessing and acceptance - and the payment they receive for it - that validates the claim. It is a legal system in the form of a party. Canada banned it from 1885 to 1951 and prosecuted people for holding one, precisely because it was correctly identified as the mechanism holding the whole social order together.",
+   "variantTraditions": "The Canadian potlatch ban ran from 1885 to 1951; confiscated regalia has been slowly repatriated since the 1970s.",
+   "storyIds": [
+    "potlatch"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "king-ruler",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "crest",
+   "name": "The Crests",
+   "sanskrit": "At.oow",
+   "category": "primordial",
+   "era": "The Clans",
+   "role": "A crest is property. Carving one you do not own is theft, not decoration",
+   "wikipedia": "Crest_(Northwest_Coast)",
+   "portrait": "portraits/raven/crest.webp",
+   "epithets": [
+    "at.oow in Tlingit",
+    "the owned things",
+    "the clan crest"
+   ],
+   "domains": [
+    "ownership",
+    "inheritance",
+    "identity",
+    "the right to display"
+   ],
+   "symbols": [
+    "the pole",
+    "the button blanket",
+    "the painted house front",
+    "the hat"
+   ],
+   "mount": null,
+   "abode": "The clan, in perpetuity",
+   "festivals": [],
+   "worship": "",
+   "bio": "The word at.oow means an owned or purchased thing, and it covers songs, names and stories too.",
+   "longBio": "A crest is an owned prerogative belonging to a clan - a Killer Whale, a Bear, a Frog - and with it come songs, names, stories and the right to put the figure on a pole, a hat, a blanket or a house front. The Tlingit word at.oow means a thing that is owned, and it covers the intangible property as much as the object. Displaying a crest you have no right to is not bad manners, it is taking something. This is the single most misunderstood thing about Northwest Coast art in the outside world, where the figures are routinely reproduced as generic decoration.",
+   "variantTraditions": "This is also why this pack claims no clan crest and depicts none; the figures here are the ones in the published narratives.",
+   "storyIds": [
+    "bear-mother",
+    "potlatch",
+    "flood"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "king-ruler",
+    "wisdom-craft",
+    "preserver"
+   ]
+  },
+  {
+   "id": "shaman",
+   "name": "The Ixt'",
+   "sanskrit": "Ixt'",
+   "category": "hero",
+   "era": "The Clans",
+   "role": "He fights the land otter people for a soul, and his hair is never cut",
+   "wikipedia": "Tlingit",
+   "portrait": "portraits/raven/shaman.webp",
+   "epithets": [
+    "ixt' in Tlingit",
+    "the shaman",
+    "the doctor"
+   ],
+   "domains": [
+    "healing",
+    "the recovery of souls",
+    "witch-finding",
+    "the spirits that possess him"
+   ],
+   "symbols": [
+    "the uncut hair",
+    "the carved masks and rattles",
+    "the bone through the septum"
+   ],
+   "mount": null,
+   "abode": "Apart from the village",
+   "festivals": [],
+   "worship": "",
+   "bio": "His power comes from a tongue cut from a dead otter, which is not a comfortable image.",
+   "longBio": "The ixt' is the specialist who deals with what the Kushtaka have taken, with illness and with witchcraft. Power is acquired from spirits, and often from the tongue of a land otter cut in a specific way - the otter being the thing most feared. He never cuts his hair. He works with masks and rattles and is possessed in performance by a series of spirits in turn, each with its own mask and voice. He also identified witches, and that part of the office ruined lives. Missionaries suppressed the practice hard; the objects went to museums, and many are being returned.",
+   "variantTraditions": "Tlingit shamans' regalia was extensively collected and much of it is now under repatriation claims; the practice itself was largely ended by the early twentieth century.",
+   "storyIds": [
+    "kushtaka"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sage-seer",
+    "healer",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "flood",
+   "name": "The Flood",
+   "sanskrit": "the flood",
+   "category": "primordial",
+   "era": "The Rearranging",
+   "role": "The water rose over the mountains and the survivors' canoes are why clans are where they are",
+   "wikipedia": "Flood_myth",
+   "portrait": "portraits/raven/flood.webp",
+   "epithets": [
+    "the great flood"
+   ],
+   "domains": [
+    "the flood",
+    "the scattering of the clans",
+    "the mountains"
+   ],
+   "symbols": [
+    "the canoes tied to the peaks",
+    "the drift to new country"
+   ],
+   "mount": null,
+   "abode": "Everywhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "Clan histories start here: this is the mountain we were tied to, and this is where we came down.",
+   "longBio": "The water rose until only the highest peaks were out of it, and people tied their canoes to the tops and waited, and when it went down they came off in different places - and that is how the clans came to be where they are. The flood in this tradition is not a punishment and nobody is judged. It is the event that shuffles the population and explains the map, and specific clans name specific mountains. In several accounts Raven survives it by hooking his beak into the sky and hanging there until it drops, which is a very Raven solution.",
+   "variantTraditions": "Northwest Coast flood accounts function primarily as clan migration charters rather than as moral narratives.",
+   "storyIds": [
+    "flood"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sea-waters",
+    "destroyer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "mosquito",
+   "name": "The Mosquito",
+   "sanskrit": "the mosquito",
+   "category": "beast",
+   "era": "The Dangerous",
+   "role": "The cannibal's ashes, still at it",
+   "wikipedia": "Raven_Tales",
+   "portrait": "portraits/raven/mosquito.webp",
+   "epithets": [
+    "the ashes of the giant"
+   ],
+   "domains": [
+    "biting",
+    "persistence",
+    "the unkillable nuisance"
+   ],
+   "symbols": [
+    "the ash on the wind",
+    "the whine"
+   ],
+   "mount": null,
+   "abode": "Everywhere, especially in summer",
+   "festivals": [],
+   "worship": "",
+   "bio": "The giant said he would go on eating people after death, and he was telling the truth.",
+   "longBio": "When the cannibal giant was burned, he told the people around the fire that he would keep eating them regardless. The ashes went up on the wind and became mosquitoes, and came straight back down onto the same people. It is a joke and it is also a complete account: the thing that eats you does not need to be big, it needs to be numerous and to not stop. Anyone who has spent a summer in southeast Alaska will confirm that the story is well founded.",
+   "variantTraditions": "The motif appears widely in the Subarctic and Northwest; the giant's parting boast is the constant element.",
+   "storyIds": [
+    "mosquitoes"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "daylight",
+   "name": "The Box of Daylight",
+   "sanskrit": "the light",
+   "category": "primordial",
+   "era": "The Rearranging",
+   "role": "The sun, the moon and the stars, nested in boxes on a rich man's shelf",
+   "wikipedia": "Raven_Tales",
+   "portrait": "portraits/raven/daylight.webp",
+   "epithets": [
+    "the boxes",
+    "the sun, moon and stars"
+   ],
+   "domains": [
+    "light",
+    "day and night",
+    "the thing that was owned before it was shared"
+   ],
+   "symbols": [
+    "the nested cedar boxes",
+    "the ball of light",
+    "the smokehole"
+   ],
+   "mount": null,
+   "abode": "A shelf at the head of the Nass",
+   "festivals": [],
+   "worship": "",
+   "bio": "It was property before it was daylight, and it stopped being property by theft.",
+   "longBio": "The light of the world was in boxes - the stars in one, the moon in the next, the sun innermost - owned by one man and kept indoors. Raven, born into the house as a grandchild, cried until each was given to him to play with, and let the stars out through the smokehole, then the moon, and finally took the sun in his beak and flew. The idea underneath is the whole coast in one image: the most necessary thing in existence is somebody's inherited property, and the story of how it got out is not a gift but a burglary carried out by a toddler.",
+   "variantTraditions": "Some tellings have all three in a single nested set; others separate the theft of the moon into its own episode.",
+   "storyIds": [
+    "box-of-daylight"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sun",
+    "moon",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "beaver",
+   "name": "Beaver",
+   "sanskrit": "S'igeidi",
+   "category": "beast",
+   "era": "The Rearranging",
+   "role": "He had a lake full of salmon and made the mistake of showing Raven",
+   "wikipedia": "Raven_Tales",
+   "portrait": "portraits/raven/beaver.webp",
+   "epithets": [
+    "S'igeidi",
+    "the Beaver crest"
+   ],
+   "domains": [
+    "the salmon lake",
+    "industry",
+    "the crest",
+    "being robbed"
+   ],
+   "symbols": [
+    "the dam",
+    "the rolled-up lake",
+    "the flat tail"
+   ],
+   "mount": null,
+   "abode": "His own lake, until Raven came",
+   "festivals": [],
+   "worship": "",
+   "bio": "Raven rolled the lake up like a mat, put it under his wing, and flew off with it.",
+   "longBio": "Beaver kept a lake stocked with salmon and invited Raven to eat, and Raven ate, and then came back while he was out and rolled the entire lake up like a mat with all the fish still in it and carried it away under his wing. Beaver chased him. The lake tore and leaked as Raven flew, and the water and the salmon that spilled out are the rivers and the runs that exist now. Beaver is also one of the great crests, carved with two big incisors, a crosshatched tail and a stick held in both hands - one of the easiest figures to identify on a pole.",
+   "variantTraditions": "The rolled-up-lake episode is Tlingit; Tsimshian versions give the salmon a different original owner.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "wealth-fortune",
+    "sea-waters"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "raven",
+   "to": "nass_chief",
+   "type": "enemy",
+   "note": "He robbed him blind and was born in his house to do it"
+  },
+  {
+   "from": "raven",
+   "to": "nass_daughter",
+   "type": "parent",
+   "note": "She swallowed him in a cup of water and bore him"
+  },
+  {
+   "from": "nass_chief",
+   "to": "nass_daughter",
+   "type": "parent",
+   "note": "His one soft spot, and the way in"
+  },
+  {
+   "from": "nass_chief",
+   "to": "daylight",
+   "type": "ally",
+   "note": "He owned it, boxed, on a shelf"
+  },
+  {
+   "from": "raven",
+   "to": "daylight",
+   "type": "guru",
+   "note": "He let it out through the smokehole and went black doing it"
+  },
+  {
+   "from": "nass_daughter",
+   "to": "daylight",
+   "type": "devotee",
+   "note": "Her son was given the boxes to stop him crying"
+  },
+  {
+   "from": "raven",
+   "to": "petrel",
+   "type": "enemy",
+   "note": "He faked a mess in the bed to get the man out of the house"
+  },
+  {
+   "from": "petrel",
+   "to": "raven",
+   "type": "enemy",
+   "note": "And stuck him in the smokehole, and lit a fire under him"
+  },
+  {
+   "from": "raven",
+   "to": "fog_woman",
+   "type": "consort",
+   "note": "He married the one who made the salmon and then hit her"
+  },
+  {
+   "from": "fog_woman",
+   "to": "raven",
+   "type": "enemy",
+   "note": "She walked into the sea and every fish followed her"
+  },
+  {
+   "from": "fog_woman",
+   "to": "salmon_boy",
+   "type": "guru",
+   "note": "The salmon she made are the people he went to live with"
+  },
+  {
+   "from": "raven",
+   "to": "old_woman_tides",
+   "type": "enemy",
+   "note": "He threw urchin shells at her until she let the tide go"
+  },
+  {
+   "from": "old_woman_tides",
+   "to": "raven",
+   "type": "ally",
+   "note": "And then struck a bargain: twice out, twice in, forever"
+  },
+  {
+   "from": "raven",
+   "to": "beaver",
+   "type": "enemy",
+   "note": "He rolled up the lake and flew off with the salmon in it"
+  },
+  {
+   "from": "beaver",
+   "to": "raven",
+   "type": "enemy",
+   "note": "And chased him, and the lake leaked into rivers"
+  },
+  {
+   "from": "raven",
+   "to": "flood",
+   "type": "ally",
+   "note": "He hooked his beak into the sky and hung there until it dropped"
+  },
+  {
+   "from": "raven",
+   "to": "wolf",
+   "type": "sibling",
+   "note": "One half of everything is named after him"
+  },
+  {
+   "from": "raven",
+   "to": "eagle",
+   "type": "sibling",
+   "note": "And the other half, where it is not called Wolf"
+  },
+  {
+   "from": "wolf",
+   "to": "eagle",
+   "type": "enemy",
+   "note": "You marry the opposite side, and it buries you"
+  },
+  {
+   "from": "wolf",
+   "to": "crest",
+   "type": "ally",
+   "note": "The moiety holds the crests"
+  },
+  {
+   "from": "eagle",
+   "to": "crest",
+   "type": "ally",
+   "note": "As does the other"
+  },
+  {
+   "from": "crest",
+   "to": "potlatch",
+   "type": "ally",
+   "note": "A claim is not real until it has been witnessed and paid for"
+  },
+  {
+   "from": "potlatch",
+   "to": "wolf",
+   "type": "ally",
+   "note": "The opposite moiety are the guests, the witnesses and the workers"
+  },
+  {
+   "from": "crest",
+   "to": "killer_whale",
+   "type": "ally",
+   "note": "One of the great owned figures of the coast"
+  },
+  {
+   "from": "crest",
+   "to": "frog",
+   "type": "ally",
+   "note": "And one of the most carved"
+  },
+  {
+   "from": "crest",
+   "to": "thunderbird",
+   "type": "ally",
+   "note": "And the largest"
+  },
+  {
+   "from": "crest",
+   "to": "gonakadet",
+   "type": "ally",
+   "note": "And the luckiest to see"
+  },
+  {
+   "from": "crest",
+   "to": "bear_mother",
+   "type": "guru",
+   "note": "The bear crest and its songs come down from her marriage"
+  },
+  {
+   "from": "killer_whale",
+   "to": "kushtaka",
+   "type": "sibling",
+   "note": "Both take the drowned, and neither gives them back"
+  },
+  {
+   "from": "killer_whale",
+   "to": "gonakadet",
+   "type": "ally",
+   "note": "Two shapes of the same sea-people"
+  },
+  {
+   "from": "kushtaka",
+   "to": "shaman",
+   "type": "enemy",
+   "note": "The one thing the ixt' exists to fight"
+  },
+  {
+   "from": "shaman",
+   "to": "kushtaka",
+   "type": "devotee",
+   "note": "And the tongue of a land otter is where his power comes from"
+  },
+  {
+   "from": "salmon_boy",
+   "to": "shaman",
+   "type": "guru",
+   "note": "He came back from the salmon village and became one"
+  },
+  {
+   "from": "salmon_boy",
+   "to": "killer_whale",
+   "type": "sibling",
+   "note": "Both are people with their skins off at home"
+  },
+  {
+   "from": "bear_mother",
+   "to": "volcano_woman",
+   "type": "sibling",
+   "note": "Two women who show what insulting an animal costs"
+  },
+  {
+   "from": "volcano_woman",
+   "to": "frog",
+   "type": "parent",
+   "note": "The child thrown in a fire by bored children"
+  },
+  {
+   "from": "volcano_woman",
+   "to": "flood",
+   "type": "sibling",
+   "note": "Two ways a village stops existing"
+  },
+  {
+   "from": "cannibal_giant",
+   "to": "mosquito",
+   "type": "parent",
+   "note": "His ashes, still hungry"
+  },
+  {
+   "from": "cannibal_giant",
+   "to": "shaman",
+   "type": "enemy",
+   "note": "The man-eater on the mountain"
+  },
+  {
+   "from": "mosquito",
+   "to": "raven",
+   "type": "sibling",
+   "note": "Two things on this coast that will not leave you alone"
+  },
+  {
+   "from": "property_woman",
+   "to": "potlatch",
+   "type": "ally",
+   "note": "Wealth met in the woods, spent in the house"
+  },
+  {
+   "from": "property_woman",
+   "to": "kushtaka",
+   "type": "sibling",
+   "note": "Both are met alone and neither encounter is pleasant"
+  },
+  {
+   "from": "thunderbird",
+   "to": "killer_whale",
+   "type": "enemy",
+   "note": "He takes whales out of the water and carries them up"
+  },
+  {
+   "from": "gonakadet",
+   "to": "property_woman",
+   "type": "ally",
+   "note": "Seeing either one means money is coming"
+  },
+  {
+   "from": "flood",
+   "to": "crest",
+   "type": "guru",
+   "note": "Clans name the peak they tied to and the shore they came down on"
+  },
+  {
+   "from": "frog",
+   "to": "kushtaka",
+   "type": "sibling",
+   "note": "Both live at the line between the water and the land"
+  },
+  {
+   "from": "shaman",
+   "to": "potlatch",
+   "type": "ally",
+   "note": "His masks and rattles are property too"
+  },
+  {
+   "from": "fog_woman",
+   "to": "beaver",
+   "type": "sibling",
+   "note": "Two accounts of where the salmon came from"
+  },
+  {
+   "from": "raven",
+   "to": "killer_whale",
+   "type": "enemy",
+   "note": "He got inside one, ate its insides, and could not get out"
+  },
+  {
+   "from": "raven",
+   "to": "crest",
+   "type": "guru",
+   "note": "Half the coast carries his name"
+  }
+ ]
+}
