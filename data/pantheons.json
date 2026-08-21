@@ -184,9 +184,14 @@
    "label": "Inca",
    "sublabel": "Andean",
    "accent": "#c98f6a",
-   "status": "planned",
+   "status": "live",
    "blurb": "Viracocha, Inti and Pachamama, and the huacas of the Huarochiri Manuscript. A smaller pantheon, honestly sized.",
-   "family": "Indigenous Traditions"
+   "family": "Indigenous Traditions",
+   "figures": 27,
+   "stories": 9,
+   "links": 42,
+   "levels": 6,
+   "cover": "portraits/inca/viracocha.webp"
   },
   {
    "id": "hopi",

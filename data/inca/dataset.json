@@ -1,0 +1,1760 @@
+{
+ "title": "Inca Mythology: Figures, Relationships and Story Cycles",
+ "description": "Andean gods mapped as a relationship graph: Viracocha and the second making, the sun cult of Cusco, the local gods of the Huarochiri Manuscript, and the buried king who is growing back.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Garcilaso de la Vega, Royal Commentaries of the Yncas, tr. Markham (1869) - written by the son of an Inca princess",
+  "Pedro Sarmiento de Gamboa, History of the Incas, tr. Markham (1907) - commissioned to justify the conquest",
+  "Cristobal de Molina, The Fables and Rites of the Yncas, tr. Markham (1873)",
+  "The Huarochiri Manuscript material, tr. Markham (1873) - the one source taken down from Quechua narrators",
+  "Pedro de Cieza de Leon, The Second Part of the Chronicle of Peru, tr. Markham (1883)",
+  "Lewis Spence, The Myths of Mexico and Peru (1913)",
+  "Note: the standard modern Huarochiri translation (Salomon and Urioste, 1991) is in copyright and is not used here"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/inca/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "garcilaso": {
+   "t": "Royal Commentaries of the Yncas",
+   "tr": "Garcilaso de la Vega, tr. Clements Markham, 1869",
+   "u": "https://archive.org/details/royalcommentari01vegagoog"
+  },
+  "sarmiento": {
+   "t": "History of the Incas",
+   "tr": "Pedro Sarmiento de Gamboa, tr. Clements Markham, 1907",
+   "u": "https://sacred-texts.com/nam/inca/inca01.htm"
+  },
+  "molina": {
+   "t": "The Fables and Rites of the Yncas",
+   "tr": "Cristobal de Molina, tr. Clements Markham, 1873",
+   "u": "https://archive.org/details/narrativesofrite00mark"
+  },
+  "avila": {
+   "t": "Narratives of the Rites and Laws of the Yncas (the Huarochiri material)",
+   "tr": "Francisco de Avila, tr. Clements Markham, 1873",
+   "u": "https://archive.org/details/narrativesofrite00mark"
+  },
+  "cieza": {
+   "t": "The Second Part of the Chronicle of Peru",
+   "tr": "Pedro de Cieza de Leon, tr. Clements Markham, 1883",
+   "u": "https://archive.org/details/secondpartofchro00ciezrich"
+  },
+  "spence": {
+   "t": "The Myths of Mexico and Peru",
+   "tr": "Lewis Spence, 1913",
+   "u": "https://sacred-texts.com/nam/mmp/index.htm"
+  }
+ },
+ "meta": {
+  "id": "inca",
+  "label": "Inca",
+  "sublabel": "Andean & Quechua",
+  "accent": "#c9a227",
+  "root": "viracocha"
+ },
+ "profile": {
+  "cosmicNature": "Three worlds stacked and connected, and the connections matter more than the levels. Hanan Pacha above, Kay Pacha here, Uku Pacha below, joined by caves, springs and the sky-river. Time runs in pachakuti - world-turnings - where everything overturns and starts again, which is what the Inca called the reign of their greatest emperor and what they called the Spanish arrival.",
+  "natureOfDivinity": "The landscape is alive and specific. A huaca is any thing with power in it - a mountain, a spring, a rock, an ancestor's mummy, a peculiar stone in a field - and the Andes are covered in them. Above that sit the great gods, Viracocha who made everything and Inti the sun whose son the emperor claimed to be. But the huaca you actually deal with is the mountain over your village, and it has a name.",
+  "afterlife": "You stay involved. The dead were mummified, kept, brought out at festivals, consulted, given food and drink, and carried in procession - dead emperors kept their palaces, their servants and their estates, and were seated at banquets. The Spanish found this appalling and hunted the mummies down specifically. Where the soul went mattered less than the fact that the body stayed with the family.",
+  "systemMechanism": "Reciprocity, scaled up to an empire. Ayni is the obligation between neighbours to help and be helped; mit'a is the same thing owed to the state as labour. The gods are in the arrangement too - they get offerings, chicha poured on the ground, llamas, and at the greatest crises capacocha, the sacrifice of chosen children on mountain summits. Nothing here is free, and nothing is one-way.",
+  "canonTexts": "No indigenous writing survives, because there was none. The sources are the Spanish chroniclers - Cieza de Leon, Sarmiento de Gamboa, Cristobal de Molina - the mestizo Garcilaso de la Vega, the Andean Guaman Poma with his four hundred drawings, and the Huarochiri Manuscript, the one text taken down in Quechua from Andean narrators."
+ },
+ "hierarchy": [
+  {
+   "title": "The Making",
+   "blurb": "A creator comes out of Lake Titicaca, makes a world with no light and a people he dislikes, turns them to stone, and starts again - this time painting each nation with its own dress and language before sending it underground to emerge at its own spring.",
+   "memberIds": [
+    "viracocha",
+    "pachacamac",
+    "cuniraya"
+   ],
+   "connectorCaption": "Then he makes the sun and moon at Tiwanaku, and walks west across the sea"
+  },
+  {
+   "title": "The Sky and the Weather",
+   "blurb": "The sun whose son the emperor claimed to be, the moon whose eclipse the whole city shouted at, and a thunder god whose sister holds a jug of water drawn from the Milky Way.",
+   "memberIds": [
+    "inti",
+    "mama_quilla",
+    "illapa",
+    "chasca",
+    "catequil"
+   ],
+   "connectorCaption": "Below the sky, a landscape that is entirely alive"
+  },
+  {
+   "title": "The Living Land",
+   "blurb": "A huaca is anything with power in it - a mountain, a spring, an odd stone, an ancestor's body. The earth is a person you pour the first of your drink for, and the rainbow is a serpent joining the worlds.",
+   "memberIds": [
+    "pachamama",
+    "mama_cocha",
+    "mama_sara",
+    "amaru",
+    "yacana",
+    "supay"
+   ],
+   "connectorCaption": "Away from the imperial cult, the local gods have their own text"
+  },
+  {
+   "title": "Huarochiri",
+   "blurb": "The one source taken down in Quechua from Andean narrators, and its gods are not the emperor's. A creator in rags who makes canals with a flower, a storm born from five eggs, and a fire god who ate one child per family.",
+   "memberIds": [
+    "pariacaca",
+    "huallallo",
+    "chaupinamca",
+    "cavillaca",
+    "huatiacuri"
+   ],
+   "connectorCaption": "Meanwhile, at Cusco, a family comes out of a cave with a golden rod"
+  },
+  {
+   "title": "The Founding",
+   "blurb": "Four brothers and four sisters out of a cave at Pacaritambo, told to walk until the golden rod sinks. One brother is too strong and gets sealed in. One sister clears the valley by a method the chroniclers found appalling.",
+   "memberIds": [
+    "manco_capac",
+    "mama_ocllo",
+    "ayar_cachi",
+    "mama_huaco"
+   ],
+   "connectorCaption": "Nine generations later a man earns the name that means the world turning over"
+  },
+  {
+   "title": "The Empire and the End",
+   "blurb": "Thirty years turns a highland town into the largest state the Americas produced. Then a disease arrives ahead of the Spanish, kills the emperor and his heir in the same week, and the civil war is still running when Pizarro lands.",
+   "memberIds": [
+    "pachacuti",
+    "huayna_capac",
+    "atahualpa",
+    "inkarri"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "creators",
+   "label": "The Creators",
+   "memberIds": [
+    "viracocha",
+    "pachacamac",
+    "cuniraya"
+   ]
+  },
+  {
+   "id": "imperial",
+   "label": "The Imperial Cult",
+   "memberIds": [
+    "inti",
+    "mama_quilla",
+    "illapa",
+    "chasca",
+    "viracocha"
+   ]
+  },
+  {
+   "id": "land",
+   "label": "The Living Land",
+   "memberIds": [
+    "pachamama",
+    "mama_cocha",
+    "mama_sara",
+    "amaru",
+    "yacana",
+    "supay"
+   ]
+  },
+  {
+   "id": "huarochiri",
+   "label": "The Huarochiri Manuscript",
+   "memberIds": [
+    "pariacaca",
+    "huallallo",
+    "chaupinamca",
+    "cuniraya",
+    "cavillaca",
+    "huatiacuri"
+   ]
+  },
+  {
+   "id": "founding",
+   "label": "Out of the Cave at Pacaritambo",
+   "memberIds": [
+    "manco_capac",
+    "mama_ocllo",
+    "ayar_cachi",
+    "mama_huaco"
+   ]
+  },
+  {
+   "id": "emperors",
+   "label": "The Sapa Incas",
+   "memberIds": [
+    "pachacuti",
+    "huayna_capac",
+    "atahualpa",
+    "manco_capac",
+    "inkarri"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "second-making",
+   "title": "The Second Making",
+   "era": "The Making",
+   "cast": [
+    "viracocha",
+    "inti",
+    "mama_quilla"
+   ],
+   "summary": "Viracocha rises out of Lake Titicaca into a world with no light and makes a race of people in the dark. They displease him - they are giants, or they are disobedient, depending on the chronicler - and he turns them to stone or drowns them in a flood. Then he makes the sun, the moon and the stars at Tiwanaku and starts again, and this time he does it carefully: he paints each nation onto stone with its own clothing, its own hair, its own language and its own songs, and sends them underground to come up at the spring, cave or hill that will be their place of origin. Then he walks north-west, teaching, and out across the sea.",
+   "sources": [
+    {
+     "book": "History of the Incas",
+     "translation": "Pedro Sarmiento de Gamboa, tr. Clements Markham, 1907",
+     "location": "Chapters 6-7",
+     "url": "https://sacred-texts.com/nam/inca/inca01.htm"
+    },
+    {
+     "book": "The Myths of Mexico and Peru",
+     "translation": "Lewis Spence, 1913",
+     "location": "Chapter 8",
+     "url": "https://sacred-texts.com/nam/mmp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "golden-rod",
+   "title": "The Golden Rod",
+   "era": "The Founding",
+   "cast": [
+    "manco_capac",
+    "mama_ocllo",
+    "ayar_cachi",
+    "mama_huaco",
+    "inti"
+   ],
+   "summary": "Four brothers and four sisters come out of the middle window of a cave at Pacaritambo with a rod of gold, told to walk until it sinks into the earth at one push. On the road the brothers become frightened of Ayar Cachi, whose sling-stones split hills, and send him back to the cave for the golden vessels and the seed store they left behind - and seal him in behind a boulder. The rod sinks at Cusco. Mama Huaco clears the valley by a method Sarmiento describes with relish. Manco Capac founds the city and teaches the men to farm, and Mama Ocllo teaches the women to spin and weave.",
+   "sources": [
+    {
+     "book": "History of the Incas",
+     "translation": "Pedro Sarmiento de Gamboa, tr. Clements Markham, 1907",
+     "location": "Chapters 11-13",
+     "url": "https://sacred-texts.com/nam/inca/inca01.htm"
+    },
+    {
+     "book": "Royal Commentaries of the Yncas",
+     "translation": "Garcilaso de la Vega, tr. Clements Markham, 1869",
+     "location": "Book I",
+     "url": "https://archive.org/details/royalcommentari01vegagoog"
+    }
+   ]
+  },
+  {
+   "id": "fruit-under-tree",
+   "title": "The Fruit Under the Tree",
+   "era": "Huarochiri",
+   "cast": [
+    "cuniraya",
+    "cavillaca",
+    "pachacamac"
+   ],
+   "summary": "Cuniraya goes about in rags making terraces and opening canals, and everyone despises him for his clothes. He wants Cavillaca, who weaves under a lucuma tree and has refused every god there is. So he turns into a bird, drops his seed into a ripe fruit and leaves it beneath her. She eats it and conceives. When the child can crawl she summons every god to sit in a circle and find its father, and none will claim it - and the baby crawls straight to the beggar. She snatches it up in horror and runs for the sea, and at Pachacamac she goes into the water and she and the child become rocks. He chases her the whole way, asking every animal on the road, blessing those who encourage him and cursing those who do not.",
+   "sources": [
+    {
+     "book": "Narratives of the Rites and Laws of the Yncas (the Huarochiri material)",
+     "translation": "Francisco de Avila, tr. Clements Markham, 1873",
+     "location": "Chapter 2",
+     "url": "https://archive.org/details/narrativesofrite00mark"
+    }
+   ]
+  },
+  {
+   "id": "five-eggs",
+   "title": "The Five Eggs of Pariacaca",
+   "era": "Huarochiri",
+   "cast": [
+    "pariacaca",
+    "huallallo",
+    "huatiacuri"
+   ],
+   "summary": "Before Pariacaca the valley belonged to Huallallo Carhuincho, who is fire, and his terms were that a family might have two children and he would eat one. Pariacaca is born as five eggs on a mountaintop; they hatch into five falcons and the falcons become five men, who are all him. He comes at Huallallo as weather - rain out of five directions at once, yellow and red hail for three days and three nights - and floods him out of the valley and down into the eastern forests, where the manuscript says he still lives among the Antis. Huallallo's two-headed toad hides under a mountain, and is still there.",
+   "sources": [
+    {
+     "book": "Narratives of the Rites and Laws of the Yncas (the Huarochiri material)",
+     "translation": "Francisco de Avila, tr. Clements Markham, 1873",
+     "location": "Chapters 5-8",
+     "url": "https://archive.org/details/narrativesofrite00mark"
+    }
+   ]
+  },
+  {
+   "id": "two-foxes",
+   "title": "The Two Foxes",
+   "era": "Huarochiri",
+   "cast": [
+    "huatiacuri",
+    "pariacaca"
+   ],
+   "summary": "Huatiacuri is so poor he lives on potatoes baked in a pit. Lying down on a hillside he overhears two foxes, one coming up and one going down, exchanging news - and the news is that a rich and famously pious man in the valley has fallen ill, and why: there is a two-headed snake living over his house eating the leftovers, a two-headed toad under his grinding stone, and his wife has been unfaithful. Huatiacuri goes down, offers to cure him in exchange for his daughter, and does. The rich man's other son-in-law, humiliated, challenges him to a series of contests - drinking, dancing, fine clothes, building a house overnight - and loses every one, and is finally turned into a deer.",
+   "sources": [
+    {
+     "book": "Narratives of the Rites and Laws of the Yncas (the Huarochiri material)",
+     "translation": "Francisco de Avila, tr. Clements Markham, 1873",
+     "location": "Chapters 5-6",
+     "url": "https://archive.org/details/narrativesofrite00mark"
+    }
+   ]
+  },
+  {
+   "id": "inti-raymi",
+   "title": "Inti Raymi",
+   "era": "The Imperial Cult",
+   "cast": [
+    "inti",
+    "pachacuti",
+    "mama_quilla"
+   ],
+   "summary": "At the June solstice, the shortest day in the southern Andes and the point at which the sun stops receding, Cusco held Inti Raymi. The emperor waited barefoot in the square before dawn facing east; when the sun came up the whole assembly crouched and blew kisses to it, and he raised two golden cups of chicha, drank from one and poured the other into a channel that carried it to the Coricancha. Then llamas were sacrificed and read for omens, new fire was struck with a concave gold mirror, and the feasting ran for days. The Spanish banned it in 1572. It was revived in 1944 and is staged every year on the terraces above the city.",
+   "sources": [
+    {
+     "book": "Royal Commentaries of the Yncas",
+     "translation": "Garcilaso de la Vega, tr. Clements Markham, 1869",
+     "location": "Book VI",
+     "url": "https://archive.org/details/royalcommentari01vegagoog"
+    },
+    {
+     "book": "The Fables and Rites of the Yncas",
+     "translation": "Cristobal de Molina, tr. Clements Markham, 1873",
+     "location": "The Fables and Rites",
+     "url": "https://archive.org/details/narrativesofrite00mark"
+    }
+   ]
+  },
+  {
+   "id": "stones-that-fought",
+   "title": "The Stones That Stood Up",
+   "era": "The Empire",
+   "cast": [
+    "pachacuti",
+    "viracocha",
+    "inti"
+   ],
+   "summary": "The Chanca come against Cusco and the reigning Inca and his heir leave the city rather than face them. A younger son stays. The night before the battle Viracocha appears to him and promises help, and in the fighting the stones of the field are said to have stood up and become soldiers and fought alongside him. He wins, takes the throne, and takes the name Pachacuti - the overturning of the world - and then spends thirty years making it true. The stones were afterwards gathered up, called pururaucas, and worshipped as huacas in their own right, which is very Andean: the miracle is not a story about the past, it is a set of objects you can go and give offerings to.",
+   "sources": [
+    {
+     "book": "History of the Incas",
+     "translation": "Pedro Sarmiento de Gamboa, tr. Clements Markham, 1907",
+     "location": "Chapters 27-28",
+     "url": "https://sacred-texts.com/nam/inca/inca01.htm"
+    },
+    {
+     "book": "The Second Part of the Chronicle of Peru",
+     "translation": "Pedro de Cieza de Leon, tr. Clements Markham, 1883",
+     "location": "Chapter 44",
+     "url": "https://archive.org/details/secondpartofchro00ciezrich"
+    }
+   ]
+  },
+  {
+   "id": "room-of-gold",
+   "title": "The Room of Gold",
+   "era": "The Empire",
+   "cast": [
+    "atahualpa",
+    "huayna_capac",
+    "inti"
+   ],
+   "summary": "Atahualpa has just won a civil war for an empire already gutted by an epidemic that arrived ahead of any European. At Cajamarca in 1532 a friar hands him a breviary; he turns it over, holds it to his ear, hears nothing and drops it. The Spanish open fire into a packed square. Held prisoner, he offers to fill his cell once with gold and twice with silver as high as he can reach, and the empire delivers - the sun temple stripped of its plating, the golden garden of maize and llamas carried down and melted into bars. They took the ransom and garrotted him in 1533, offering baptism to commute burning to strangling. He accepted, and was baptised Francisco.",
+   "sources": [
+    {
+     "book": "The Second Part of the Chronicle of Peru",
+     "translation": "Pedro de Cieza de Leon, tr. Clements Markham, 1883",
+     "location": "Chapters 65-66",
+     "url": "https://archive.org/details/secondpartofchro00ciezrich"
+    },
+    {
+     "book": "The Myths of Mexico and Peru",
+     "translation": "Lewis Spence, 1913",
+     "location": "Chapter 9",
+     "url": "https://sacred-texts.com/nam/mmp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "inkarri-growing",
+   "title": "The Head That Is Growing Back",
+   "era": "The Empire",
+   "cast": [
+    "inkarri",
+    "atahualpa",
+    "manco_capac",
+    "pachamama"
+   ],
+   "summary": "This one is not in the chronicles. It was collected from Andean villages in the twentieth century and it is told in the present tense. The Spanish killed the Inca, cut his body apart and buried the head separately so that he could not come back. But under the ground the head is slowly growing a body again - the neck, the shoulders, the arms - and when it is whole he will come up, and there will be a pachakuti, a turning-over of the world, and the Andean order will return and the present one will end. Four hundred years of colonial and republican rule have not dislodged it. It is the single most important surviving piece of Andean narrative.",
+   "sources": [
+    {
+     "book": "The Myths of Mexico and Peru",
+     "translation": "Lewis Spence, 1913",
+     "location": "Chapter 9",
+     "url": "https://sacred-texts.com/nam/mmp/index.htm"
+    },
+    {
+     "book": "Narratives of the Rites and Laws of the Yncas (the Huarochiri material)",
+     "translation": "Francisco de Avila, tr. Clements Markham, 1873",
+     "location": "Introduction",
+     "url": "https://archive.org/details/narrativesofrite00mark"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "viracocha",
+   "name": "Viracocha",
+   "sanskrit": "Wiraqucha",
+   "category": "creator",
+   "era": "The Making",
+   "role": "He made people twice, was unimpressed both times, and walked out to sea",
+   "wikipedia": "Viracocha",
+   "portrait": "portraits/inca/viracocha.webp",
+   "epithets": [
+    "Con Ticci Viracocha",
+    "Pachayachachic, teacher of the world",
+    "the bearded wanderer"
+   ],
+   "domains": [
+    "creation",
+    "the sun and moon",
+    "civilisation",
+    "departure"
+   ],
+   "symbols": [
+    "the staff",
+    "the foam on the sea",
+    "Lake Titicaca"
+   ],
+   "mount": null,
+   "abode": "Lake Titicaca, then west across the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "The creator who made a first race in the dark, disliked them, turned them to stone, and started again.",
+   "longBio": "Viracocha rises out of Lake Titicaca and makes a world with no light in it, and a race of people who displease him - so he floods them, or turns them to stone, depending on the chronicler. Then he makes the sun, moon and stars at Tiwanaku, and makes people properly, painting each nation with its own dress and language and sending them underground to come up at their appointed springs and caves. Then he walks north-west through the Andes teaching, is not always well received, and finally walks out across the Pacific and does not come back.",
+   "variantTraditions": "How much of the Viracocha material was shaped by Spanish chroniclers looking for a monotheistic creator, or by Garcilaso wanting one, is genuinely disputed.",
+   "storyIds": [
+    "second-making",
+    "stones-that-fought"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "supreme-source",
+    "wisdom-craft",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "inti",
+   "name": "Inti",
+   "sanskrit": "Inti",
+   "category": "deity",
+   "era": "The Imperial Cult",
+   "role": "The sun, whose son the emperor claimed to be - which is the entire political system",
+   "wikipedia": "Inti",
+   "portrait": "portraits/inca/inti.webp",
+   "epithets": [
+    "the Sun",
+    "Apu Punchau, lord of day",
+    "father of the Inca"
+   ],
+   "domains": [
+    "the sun",
+    "the imperial dynasty",
+    "gold",
+    "the harvest"
+   ],
+   "symbols": [
+    "the golden disc with a face",
+    "the Coricancha",
+    "gold sheeting"
+   ],
+   "mount": null,
+   "abode": "The Coricancha at Cusco",
+   "festivals": [],
+   "worship": "",
+   "bio": "State religion in one figure: the emperor is his son, so obeying the emperor is obeying the sun.",
+   "longBio": "Inti is the sun and the ancestor of the ruling house, and the Inca state ran on that claim. His temple at Cusco, the Coricancha, was sheeted in gold plates and had a garden with maize, llamas and shepherds worked in gold and silver - all of which was stripped for Atahualpa's ransom and melted. His festival, Inti Raymi, filled the June solstice with processions, chicha and sacrifice, and it is still staged in Cusco every year. The Spanish looked hard for his great golden image and either never found it or melted it without recording the fact.",
+   "variantTraditions": "Garcilaso presents Inti as subordinate to Viracocha, which suits his argument for Andean sophistication; other chroniclers put Inti first.",
+   "storyIds": [
+    "second-making",
+    "golden-rod",
+    "inti-raymi",
+    "stones-that-fought",
+    "room-of-gold"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sun",
+    "king-ruler",
+    "wealth-fortune",
+    "creator"
+   ]
+  },
+  {
+   "id": "mama_quilla",
+   "name": "Mama Quilla",
+   "sanskrit": "Mama Killa",
+   "category": "deity",
+   "era": "The Imperial Cult",
+   "role": "The moon, whose silver face is being eaten whenever there is an eclipse",
+   "wikipedia": "Mama_Quilla",
+   "portrait": "portraits/inca/mama_quilla.webp",
+   "epithets": [
+    "Mother Moon",
+    "sister-wife of Inti"
+   ],
+   "domains": [
+    "the moon",
+    "the calendar",
+    "marriage",
+    "women"
+   ],
+   "symbols": [
+    "the silver disc with a face",
+    "the dark marks on the moon"
+   ],
+   "mount": null,
+   "abode": "Her own temple beside the Coricancha",
+   "festivals": [],
+   "worship": "",
+   "bio": "During a lunar eclipse people made every noise they could, to frighten off whatever was eating her.",
+   "longBio": "Mama Quilla is the moon, Inti's sister and wife, and the marks on her face are explained as a fox that loved her and climbed up, and was crushed against her. Her temple stood beside the sun's at Cusco, plated in silver rather than gold, and staffed by priestesses. The Inca ran a lunar calendar for festivals alongside a solar one for agriculture. At an eclipse the entire city shouted, blew horns, beat dogs to make them howl and shook weapons at the sky, because a puma or a serpent was eating her and the noise would drive it off.",
+   "variantTraditions": "The dark-fox explanation of the lunar maria is recorded by several chroniclers and is one of the more distinctive Andean readings of the sky.",
+   "storyIds": [
+    "second-making",
+    "inti-raymi"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "pachamama",
+   "name": "Pachamama",
+   "sanskrit": "Pacha Mama",
+   "category": "deity",
+   "era": "The Andes",
+   "role": "The earth, who is still given the first sip of every drink in the Andes",
+   "wikipedia": "Pachamama",
+   "portrait": "portraits/inca/pachamama.webp",
+   "epithets": [
+    "Earth Mother",
+    "World Mother"
+   ],
+   "domains": [
+    "the earth",
+    "planting and harvest",
+    "fertility",
+    "earthquakes"
+   ],
+   "symbols": [
+    "the first pour onto the ground",
+    "the ploughed terrace",
+    "coca leaves"
+   ],
+   "mount": null,
+   "abode": "The ground, everywhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most durable god in this pack: she outlasted the empire, the conquest and four centuries of missions.",
+   "longBio": "Pachamama is the earth as a person, and the practice attached to her is the simplest and most persistent in the Andes - before you drink, you pour a little on the ground for her. The challa or despacho, an offering of coca, fat, maize and drink burned or buried for her, is made across Peru and Bolivia today, and August is her month. She is also the one who moves in an earthquake. Where the imperial gods went down with the empire, Pachamama went into ordinary life and stayed there, sometimes syncretised with the Virgin Mary and sometimes not.",
+   "variantTraditions": "Modern Pachamama devotion is continuous with the colonial-era practice but has also been reshaped by twentieth-century indigenous political movements.",
+   "storyIds": [
+    "inkarri-growing"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "mama_cocha",
+   "name": "Mama Cocha",
+   "sanskrit": "Mama Qucha",
+   "category": "deity",
+   "era": "The Andes",
+   "role": "Mother Sea, prayed to by everyone who fished and feared by everyone who did not",
+   "wikipedia": "Mama_Cocha",
+   "portrait": "portraits/inca/mama_cocha.webp",
+   "epithets": [
+    "Mother Sea",
+    "Mother of Lakes"
+   ],
+   "domains": [
+    "the sea",
+    "lakes",
+    "fish",
+    "sailors"
+   ],
+   "symbols": [
+    "the Pacific",
+    "the fishing raft",
+    "shells"
+   ],
+   "mount": null,
+   "abode": "The Pacific, and every lake",
+   "festivals": [],
+   "worship": "",
+   "bio": "The coast prayed to her; the highlands mostly did not, which tells you how empires work.",
+   "longBio": "Mama Cocha is the sea and the lakes, and she is a coastal god - the fishing communities of the Peruvian shore honoured her for the catch and for calm water, and Spondylus shell, traded up and down the coast and worth more than gold in some contexts, is hers. The Inca state, which was highland and agricultural, gave her a place in the official pantheon without much enthusiasm. She is a good illustration of the layering in Andean religion: an imperial cult sitting on top of much older local ones that never went away.",
+   "variantTraditions": "Spondylus shell from Ecuadorian waters was traded the length of the Andes for over three thousand years and appears in offerings everywhere.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother",
+    "preserver"
+   ]
+  },
+  {
+   "id": "illapa",
+   "name": "Illapa",
+   "sanskrit": "Illapa",
+   "category": "deity",
+   "era": "The Andes",
+   "role": "Thunder: he keeps the rain in a jug and his sister lets it out with a sling",
+   "wikipedia": "Illapa",
+   "portrait": "portraits/inca/illapa.webp",
+   "epithets": [
+    "Ilyap'a",
+    "Chuqui Illa",
+    "the thunder"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "rain",
+    "war"
+   ],
+   "symbols": [
+    "the sling and club",
+    "the jug of rain his sister holds",
+    "the Milky Way"
+   ],
+   "mount": null,
+   "abode": "The sky, in the Milky Way",
+   "festivals": [],
+   "worship": "",
+   "bio": "The rain is water from the celestial river, kept in a jug, released by a sling-crack of lightning.",
+   "longBio": "Illapa is a man in the sky with a war-club and a sling. His sister holds a jug full of water drawn from the Milky Way, which the Andes read as a celestial river, and when he cracks his sling the flash is lightning, the crack is thunder, and the jug is broken so the rain falls. He was third in the imperial triad after Inti and Viracocha, and in drought his image was carried out and left in the open until he did something about it. People struck by lightning and surviving were considered marked and often became ritual specialists.",
+   "variantTraditions": "The Milky Way as a river from which rain is drawn is a widespread Andean idea and connects to the dark cloud constellations.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "wind-storm",
+    "war"
+   ]
+  },
+  {
+   "id": "pachacamac",
+   "name": "Pachacamac",
+   "sanskrit": "Pacha Kamaq",
+   "category": "creator",
+   "era": "The Coast",
+   "role": "The coastal creator whose oracle the Inca had to keep, because everyone believed it",
+   "wikipedia": "Pachacamac",
+   "portrait": "portraits/inca/pachacamac.webp",
+   "epithets": [
+    "Earth-Maker",
+    "the one who animates the world",
+    "the oracle"
+   ],
+   "domains": [
+    "creation",
+    "earthquakes",
+    "prophecy",
+    "the coastal cult"
+   ],
+   "symbols": [
+    "the wooden two-faced idol",
+    "the great pyramid south of Lima"
+   ],
+   "mount": null,
+   "abode": "Pachacamac, on the coast",
+   "festivals": [],
+   "worship": "",
+   "bio": "So important that the conquering Inca built him a bigger temple rather than shut him down.",
+   "longBio": "Pachacamac was the great god of the central coast, with a pilgrimage site and an oracle so authoritative that pilgrims came from the whole region and fasted for a year before being admitted. When the Inca took the coast they did not suppress him - they expanded the complex and added a sun temple beside it, which is what an empire does with a cult it cannot beat. Hernando Pizarro rode there in 1533 expecting gold, found a wooden idol in a dark room, and was disgusted. In coastal myth he is a rival and sometimes an enemy of Viracocha, and he makes the first people and then quarrels with them.",
+   "variantTraditions": "The relationship between Pachacamac and Viracocha differs by source and probably reflects a real coast-highland rivalry rather than one theology.",
+   "storyIds": [
+    "fruit-under-tree"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "sage-seer",
+    "earth-mother",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "supay",
+   "name": "Supay",
+   "sanskrit": "Supay",
+   "category": "underworld",
+   "era": "The Andes",
+   "role": "Lord of the underworld who became the devil, and is still danced in Oruro",
+   "wikipedia": "Supay",
+   "portrait": "portraits/inca/supay.webp",
+   "epithets": [
+    "lord of Uku Pacha",
+    "the Tio of the mines"
+   ],
+   "domains": [
+    "the underworld",
+    "the dead",
+    "mines and metals"
+   ],
+   "symbols": [
+    "the mask with horns",
+    "the figure in the mine tunnel"
+   ],
+   "mount": null,
+   "abode": "Uku Pacha, and every mine shaft",
+   "festivals": [],
+   "worship": "",
+   "bio": "The missionaries used his name for Satan, and Andean miners kept giving him cigarettes anyway.",
+   "longBio": "Supay rules Uku Pacha, the world below, and he is not simply evil - he is dangerous and has to be dealt with, which is a different thing. Missionaries used his name to translate devil, and the identification stuck, but the practice underneath did not change: in the silver and tin mines of Potosi and Oruro, miners keep a horned figure called the Tio in the tunnels and give him cigarettes, coca and alcohol, because the ore is his and he decides who comes out. The Diablada danced at the Oruro carnival is his, and it is one of the great spectacles of South America.",
+   "variantTraditions": "The Tio of the mines is a colonial-era development, but the underlying idea that what is underground belongs to a power that must be paid is pre-Columbian.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "wealth-fortune",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "chasca",
+   "name": "Chasca",
+   "sanskrit": "Ch'aska",
+   "category": "deity",
+   "era": "The Imperial Cult",
+   "role": "Venus, the long-haired star, page to the sun",
+   "wikipedia": "Chasca",
+   "portrait": "portraits/inca/chasca.webp",
+   "epithets": [
+    "the long-haired one",
+    "the morning star",
+    "Chasca Coyllur"
+   ],
+   "domains": [
+    "the planet Venus",
+    "dawn and dusk",
+    "young women",
+    "flowers"
+   ],
+   "symbols": [
+    "long loose hair",
+    "the bright star at dawn"
+   ],
+   "mount": null,
+   "abode": "The sky at dawn and dusk",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her name means long hair, for the way a bright star seems to trail light.",
+   "longBio": "Chasca is Venus, called the long-haired or shaggy star for the way the brightest object in the sky seems to trail rays. The chroniclers make her a page or attendant of the sun, going ahead of him at dawn and following at dusk, and associate her with young women, flowers and the dew. Andean sky-watching was serious business - the Coricancha had sighting pillars on the horizon, the year was set by solstice observation, and the state ran on the calendar - so a named and tracked Venus is not decoration.",
+   "variantTraditions": "Some sources make Chasca male; the chroniclers are inconsistent, and the gender may have been assimilated to European Venus.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "dawn",
+    "love-desire",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "catequil",
+   "name": "Catequil",
+   "sanskrit": "Katiquilla",
+   "category": "deity",
+   "era": "The Andes",
+   "role": "A thunder god with an oracle so accurate an emperor had his temple destroyed for it",
+   "wikipedia": "Catequil",
+   "portrait": "portraits/inca/catequil.webp",
+   "epithets": [
+    "the thunder of Huamachuco",
+    "the twin"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "prophecy",
+    "twins"
+   ],
+   "symbols": [
+    "the sling",
+    "the stone that fathered him"
+   ],
+   "mount": null,
+   "abode": "Huamachuco",
+   "festivals": [],
+   "worship": "",
+   "bio": "He told Atahualpa something he did not want to hear, so Atahualpa knocked his mountain down.",
+   "longBio": "Catequil is a northern highland thunder god with a famous oracle at Huamachuco, and he is the reason the Inca civil war has a supernatural episode. Atahualpa, marching south against his brother, consulted the oracle and was told the outcome would go badly for him. He went to the shrine himself, beheaded the old priest, had the image smashed and the hill burned. He then lost his empire to Pizarro within the year, which the chroniclers naturally connected. His own birth story involves twins born from a stone, and he is associated with the marked survivors of lightning strikes.",
+   "variantTraditions": "The Huamachuco oracle was one of several regional oracles the Inca tolerated; destroying one was drastic and was remembered as such.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "sage-seer",
+    "war"
+   ]
+  },
+  {
+   "id": "mama_sara",
+   "name": "Mama Sara",
+   "sanskrit": "Mama Sara",
+   "category": "deity",
+   "era": "The Andes",
+   "role": "Maize mother - and any oddly shaped cob is her, and gets dressed in clothes",
+   "wikipedia": "Mama_Sara",
+   "portrait": "portraits/inca/mama_sara.webp",
+   "epithets": [
+    "Maize Mother",
+    "Zara Mama"
+   ],
+   "domains": [
+    "maize",
+    "the harvest",
+    "abundance"
+   ],
+   "symbols": [
+    "the double or misshapen cob",
+    "the small dressed figure of maize stalks"
+   ],
+   "mount": null,
+   "abode": "The field and the storehouse",
+   "festivals": [],
+   "worship": "",
+   "bio": "A cob that grew strange was wrapped in a little blanket and kept for the year.",
+   "longBio": "Mama Sara is maize, and the practice is concrete: a cob that grew doubled or oddly formed was taken as her, dressed in a miniature woman's garment with a shawl and pins, and kept in the house or granary for the year to guarantee the next crop. Similar mothers exist for potato and coca. The Inca also planted a ceremonial maize field at Cusco worked by the emperor himself with a golden digging stick to open the season. Maize was the prestige crop - beer, offerings, state storehouses - while potatoes fed people.",
+   "variantTraditions": "The dressed maize-cob figures are described by Cristobal de Molina and were still being made in some communities in the twentieth century.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "amaru",
+   "name": "Amaru",
+   "sanskrit": "Amaru",
+   "category": "beast",
+   "era": "The Andes",
+   "role": "A serpent with the head of a llama and the wings of a condor, who joins the worlds",
+   "wikipedia": "Amaru_(mythology)",
+   "portrait": "portraits/inca/amaru.webp",
+   "epithets": [
+    "the two-headed serpent",
+    "the sky-snake"
+   ],
+   "domains": [
+    "the joining of the three worlds",
+    "rainbows",
+    "water"
+   ],
+   "symbols": [
+    "the double-headed serpent arch",
+    "the rainbow"
+   ],
+   "mount": null,
+   "abode": "Between Uku Pacha and Hanan Pacha",
+   "festivals": [],
+   "worship": "",
+   "bio": "The rainbow is one, arching up from a spring and into the sky.",
+   "longBio": "Amaru is the Andean composite serpent - a snake body with a llama or puma head at one end and often a second head at the other, sometimes winged. Its function is connection: it comes up out of springs and lakes in Uku Pacha, arches through this world and into the sky, and the rainbow is the visible form of that passage. Two of them frame the Inca coat of arms recorded by Guaman Poma. The name survives in the rebel leaders Tupac Amaru and Tupac Amaru II, and from there into a great deal of later politics.",
+   "variantTraditions": "The rainbow-serpent association is widespread in the Andes and Amazonia and is not exclusively Inca.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "sea-waters",
+    "preserver"
+   ]
+  },
+  {
+   "id": "yacana",
+   "name": "Yacana",
+   "sanskrit": "Yakana",
+   "category": "beast",
+   "era": "The Andes",
+   "role": "The dark llama in the Milky Way, who comes down at midnight to drink",
+   "wikipedia": "Dark_cloud_constellation",
+   "portrait": "portraits/inca/yacana.webp",
+   "epithets": [
+    "the celestial llama",
+    "the dark cloud constellation"
+   ],
+   "domains": [
+    "the Milky Way",
+    "llamas",
+    "water",
+    "the night sky"
+   ],
+   "symbols": [
+    "the dark patch between the stars",
+    "the two eyes of the llama"
+   ],
+   "mount": null,
+   "abode": "The Milky Way",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Andes read constellations in the black gaps between stars, not in the stars.",
+   "longBio": "The Andean sky has two kinds of constellation: the bright ones made of stars, and the dark ones made of the dust lanes in the Milky Way. Yacana is a llama shape in the black, with two bright stars for its eyes, and the Huarochiri text says it walks through the middle of the sky and comes down at midnight to drink from the sea - which is why the ocean does not overflow. A man who sees it descend and it falls on him will be lucky. Reading the darkness rather than the light is one of the genuinely distinctive things about Andean astronomy.",
+   "variantTraditions": "The dark cloud constellations - llama, fox, toad, serpent, partridge - are described in the Huarochiri Manuscript and are still recognised in parts of the highlands.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "fate-time",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "cuniraya",
+   "name": "Cuniraya Viracocha",
+   "sanskrit": "Kuniraya",
+   "category": "creator",
+   "era": "Huarochiri",
+   "role": "A creator in beggar's rags who made a woman pregnant with a fruit",
+   "wikipedia": "Coniraya",
+   "portrait": "portraits/inca/cuniraya.webp",
+   "epithets": [
+    "Cuniraya",
+    "the beggar creator"
+   ],
+   "domains": [
+    "creation",
+    "trickery",
+    "transformation",
+    "irrigation"
+   ],
+   "symbols": [
+    "the ragged cloak",
+    "the lucuma fruit"
+   ],
+   "mount": null,
+   "abode": "Huarochiri, and then the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "Everyone despised him for his clothes, and he was the one who made the terraces and canals.",
+   "longBio": "Cuniraya goes about in rags and is mocked, and meanwhile he is making the world work - speaking terraces into existence on the hillsides, opening irrigation canals with the flick of a reed flower. He wants Cavillaca, who will not look at him, so he turns himself into a bird, drops his seed into a lucuma fruit and leaves it under her tree. She eats it and conceives. When the child is a year old she summons every god to find the father, and none will claim it, so she sets the baby down and it crawls to the ragged beggar. She is horrified, snatches it up, and runs for the sea.",
+   "variantTraditions": "The Huarochiri Manuscript is the one substantial text taken down from Quechua-speaking narrators, and its gods are local rather than imperial.",
+   "storyIds": [
+    "fruit-under-tree"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "messenger-trickster",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "cavillaca",
+   "name": "Cavillaca",
+   "sanskrit": "Kawillaka",
+   "category": "deity",
+   "era": "Huarochiri",
+   "role": "She ran into the sea rather than accept the father of her child, and turned to stone",
+   "wikipedia": "Cavillaca",
+   "portrait": "portraits/inca/cavillaca.webp",
+   "epithets": [
+    "the weaving woman",
+    "the mother who fled"
+   ],
+   "domains": [
+    "flight",
+    "shame",
+    "transformation into rock"
+   ],
+   "symbols": [
+    "the lucuma tree",
+    "the rocks off Pachacamac"
+   ],
+   "mount": null,
+   "abode": "The sea off Pachacamac",
+   "festivals": [],
+   "worship": "",
+   "bio": "She would not have him, so she went into the water with the baby and became an island.",
+   "longBio": "Cavillaca is a beautiful woman who weaves under a lucuma tree and has refused every god. Tricked into eating Cuniraya's seed in a fruit, she bears a child and calls an assembly to identify the father. When the baby crawls to the beggar in rags she cannot bear it, picks the child up and runs for the coast, and at Pachacamac she goes into the sea and she and the child become rocks that are still pointed out. Cuniraya chases her the whole way, asking every animal he meets if they have seen her, and blessing or cursing each according to the answer - which is why the condor is honoured and the fox stinks.",
+   "variantTraditions": "The chase episode is an aetiology for why particular animals are lucky or unlucky, and reads as an older folk tale attached to the creator.",
+   "storyIds": [
+    "fruit-under-tree"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "sea-waters",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "pariacaca",
+   "name": "Pariacaca",
+   "sanskrit": "Pariaqaqa",
+   "category": "deity",
+   "era": "Huarochiri",
+   "role": "Born from five eggs on a mountain, he washed a whole valley into the sea",
+   "wikipedia": "Pariacaca",
+   "portrait": "portraits/inca/pariacaca.webp",
+   "epithets": [
+    "the five falcons",
+    "the mountain of Huarochiri",
+    "the storm"
+   ],
+   "domains": [
+    "storm",
+    "water",
+    "the highland peoples",
+    "irrigation"
+   ],
+   "symbols": [
+    "five eggs on the mountain",
+    "five falcons",
+    "the snow peak"
+   ],
+   "mount": null,
+   "abode": "The peak of Pariacaca",
+   "festivals": [],
+   "worship": "",
+   "bio": "Five eggs hatched into five falcons, the falcons became men, and one of them was a flood.",
+   "longBio": "Pariacaca is the great god of the Huarochiri region, born as five eggs on a mountaintop that hatch into five falcons and then become five men. His work is water: he defeats Huallallo Carhuincho, the fire god who had been eating children, by attacking him with rain and hail out of the five of himself, flooding the valley and driving him off to the Amazon. He is the storm and the snowmelt that fills the canals, and the local people's principal huaca. In the manuscript he matters far more than Inti does, which is the point of having a non-imperial source.",
+   "variantTraditions": "Pariacaca is a real snow peak in the Andes east of Lima, and the god and the mountain are not distinguishable in the text.",
+   "storyIds": [
+    "five-eggs",
+    "two-foxes"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "sea-waters",
+    "hero-champion",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "huallallo",
+   "name": "Huallallo Carhuincho",
+   "sanskrit": "Wallallu Qarwinchu",
+   "category": "beast",
+   "era": "Huarochiri",
+   "role": "A fire god who allowed two children per family and ate one of them",
+   "wikipedia": "Huallallo_Carhuincho",
+   "portrait": "portraits/inca/huallallo.webp",
+   "epithets": [
+    "the fire eater",
+    "the old god of the valley"
+   ],
+   "domains": [
+    "fire",
+    "the eating of children",
+    "the eastern forests"
+   ],
+   "symbols": [
+    "flame",
+    "the two-headed toad under the mountain"
+   ],
+   "mount": null,
+   "abode": "Driven east, to the Antis",
+   "festivals": [],
+   "worship": "",
+   "bio": "The god who was there before Pariacaca, and whose terms were monstrous.",
+   "longBio": "Huallallo Carhuincho ruled the Huarochiri valley before Pariacaca, and the deal was this: a family could have two children, and he ate one of them. He is fire, and he had a two-headed toad living under a mountain that helped him. Pariacaca comes as five falcons turning into five men turning into rain, and drowns him out with hail and flood; Huallallo flees east into the Amazon forests, where the manuscript says he now lives among the Antis. The pattern - a fire god displaced by a water god - is very likely a memory of one people's cult replacing another's.",
+   "variantTraditions": "The two-headed toad is said to have hidden under a mountain and to still be there, causing trouble in the region.",
+   "storyIds": [
+    "five-eggs"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "fire",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "huatiacuri",
+   "name": "Huatiacuri",
+   "sanskrit": "Watyakuri",
+   "category": "hero",
+   "era": "Huarochiri",
+   "role": "A ragged son of Pariacaca who beat a rich man in a series of increasingly silly contests",
+   "wikipedia": "Huatiacuri",
+   "portrait": "portraits/inca/huatiacuri.webp",
+   "epithets": [
+    "the potato-eater",
+    "the poor man"
+   ],
+   "domains": [
+    "poverty",
+    "cunning",
+    "healing",
+    "contest"
+   ],
+   "symbols": [
+    "the baked-potato diet",
+    "the two foxes talking"
+   ],
+   "mount": null,
+   "abode": "Huarochiri",
+   "festivals": [],
+   "worship": "",
+   "bio": "He overheard two foxes gossiping and used it to cure a rich man's daughter and marry her.",
+   "longBio": "Huatiacuri is so poor he lives on potatoes baked in a pit, which is what his name means. He overhears two foxes discussing a rich and ostentatiously pious man who has fallen mysteriously ill, and learns the cause - a snake in his roof, a two-headed toad under his grinding stone, and his wife's adultery. He cures the man and takes his daughter. The brother-in-law, humiliated, challenges him to contests: drinking, dancing, dressing finely, building a house overnight. Huatiacuri wins each with his father's help and finally turns the man into a deer.",
+   "variantTraditions": "The contest sequence is a folk-tale form; the manuscript's version is unusually funny and unusually cruel.",
+   "storyIds": [
+    "five-eggs",
+    "two-foxes"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "messenger-trickster",
+    "healer"
+   ]
+  },
+  {
+   "id": "chaupinamca",
+   "name": "Chaupinamca",
+   "sanskrit": "Chawpiñamqa",
+   "category": "deity",
+   "era": "Huarochiri",
+   "role": "Pariacaca's sister, a five-armed stone, and blunt about what she wanted",
+   "wikipedia": "Chaupiñamca",
+   "portrait": "portraits/inca/chaupinamca.webp",
+   "epithets": [
+    "the five-armed stone",
+    "sister of Pariacaca"
+   ],
+   "domains": [
+    "fertility",
+    "women",
+    "the earth",
+    "sexual pleasure"
+   ],
+   "symbols": [
+    "the stone with five arms",
+    "the festival danced naked"
+   ],
+   "mount": null,
+   "abode": "Mama, in the Huarochiri valley",
+   "festivals": [],
+   "worship": "",
+   "bio": "She tried every man in the region and named the one who satisfied her, which the text records without fuss.",
+   "longBio": "Chaupinamca is Pariacaca's sister and the principal female huaca of the region, worshipped as a stone with five arms. The manuscript says she went through the men of the area looking for one who pleased her and found only Rucana Coto, and it says so plainly. Her festival involved dancing naked, and the text notes that after Christianity arrived people danced it at night instead. She is a reminder that Andean religion had a female half that the Spanish chroniclers, writing for a Spanish readership, mostly declined to describe.",
+   "variantTraditions": "The frankness of the Huarochiri Manuscript about sexuality is one of the clearest signs it was taken down from Andean narrators rather than composed for a Spanish audience.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "love-desire",
+    "preserver"
+   ]
+  },
+  {
+   "id": "manco_capac",
+   "name": "Manco Capac",
+   "sanskrit": "Manqu Qhapaq",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "The first Inca, who came out of a cave with a golden staff to find where it would sink",
+   "wikipedia": "Manco_Cápac",
+   "portrait": "portraits/inca/manco_capac.webp",
+   "epithets": [
+    "the first Inca",
+    "son of the Sun"
+   ],
+   "domains": [
+    "the founding of Cusco",
+    "kingship",
+    "the golden staff"
+   ],
+   "symbols": [
+    "the golden rod",
+    "the cave at Pacaritambo",
+    "the Coricancha"
+   ],
+   "mount": null,
+   "abode": "Cusco",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was to walk until the golden rod sank into the ground, and that place would be Cusco.",
+   "longBio": "Manco Capac comes out of the middle window of a cave at Pacaritambo with his three brothers and four sisters, sent by the Sun - or by Viracocha, depending who is telling it - with a golden rod. Where the rod sinks into the earth at a single push, they are to settle. It sinks at Cusco. He founds the city, teaches men agriculture and women weaving, and starts the dynasty. Garcilaso, whose mother was an Inca princess, tells it as a civilising mission. Sarmiento, writing to justify the conquest, tells the same events as a story of usurpation by a family of tyrants.",
+   "variantTraditions": "The Pacaritambo origin was politically useful and may have been standardised late; the caves are a real site and were a pilgrimage destination.",
+   "storyIds": [
+    "golden-rod",
+    "inkarri-growing"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion",
+    "sun"
+   ]
+  },
+  {
+   "id": "mama_ocllo",
+   "name": "Mama Ocllo",
+   "sanskrit": "Mama Uqllu",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "Sister and wife of the first Inca, who taught the women to spin and weave",
+   "wikipedia": "Mama_Ocllo",
+   "portrait": "portraits/inca/mama_ocllo.webp",
+   "epithets": [
+    "the first Coya",
+    "sister-wife of Manco Capac"
+   ],
+   "domains": [
+    "weaving",
+    "the founding of Cusco",
+    "queenship"
+   ],
+   "symbols": [
+    "the spindle",
+    "the drop-spinning whorl"
+   ],
+   "mount": null,
+   "abode": "Cusco",
+   "festivals": [],
+   "worship": "",
+   "bio": "Textile was the Andean art form, and she is the one credited with it.",
+   "longBio": "Mama Ocllo emerges from the cave with her brother-husband and is credited with teaching Andean women to spin, weave and keep house - which sounds domestic and is not, because cloth was the Andes' highest-value product. Fine cumbi cloth was a state monopoly, given as the emperor's gift, burned as an offering, and used as tribute and currency. The Coya, the principal queen, was a serious office rather than a consort's title. The brother-sister marriage at the top of the dynasty was reserved to the ruling family and horrified the Spanish.",
+   "variantTraditions": "Garcilaso, her descendant, is the fullest source on her and is not neutral about it.",
+   "storyIds": [
+    "golden-rod"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "earth-mother",
+    "king-ruler",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "ayar_cachi",
+   "name": "Ayar Cachi",
+   "sanskrit": "Ayar Kachi",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "The strongest brother, walled into the cave he came out of",
+   "wikipedia": "Ayar_Cachi",
+   "portrait": "portraits/inca/ayar_cachi.webp",
+   "epithets": [
+    "the salt one",
+    "the brother with the sling"
+   ],
+   "domains": [
+    "destructive strength",
+    "the sling",
+    "betrayal"
+   ],
+   "symbols": [
+    "the sling that split hills",
+    "the sealed cave"
+   ],
+   "mount": null,
+   "abode": "Sealed in the cave at Pacaritambo",
+   "festivals": [],
+   "worship": "",
+   "bio": "He could knock hilltops off with a sling, so his brothers sent him back for something and bricked him in.",
+   "longBio": "Ayar Cachi is so strong that his sling-stones split mountains and make ravines, and the other brothers become frightened of him - Sarmiento says they feared he would turn the people against them. They send him back to the cave at Pacaritambo on a pretext, to fetch some golden vessels and the seed-store they left behind, and when he is inside a servant seals the entrance with a boulder and they leave him there. He later appears to them in the form of a winged man and tells them to go on to Cusco, and turns to stone at Huanacauri, where he becomes one of the most important huacas of the empire.",
+   "variantTraditions": "Sarmiento's version, written to show the Inca as violent usurpers, is the fullest; other chroniclers are gentler about the brothers.",
+   "storyIds": [
+    "golden-rod"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "pachacuti",
+   "name": "Pachacuti",
+   "sanskrit": "Pachakutiq Inka Yupanki",
+   "category": "mortal",
+   "era": "The Empire",
+   "role": "The emperor who turned a town into an empire and rebuilt Cusco as a puma",
+   "wikipedia": "Pachacuti",
+   "portrait": "portraits/inca/pachacuti.webp",
+   "epithets": [
+    "the Earth-Shaker",
+    "he who overturns the world",
+    "the ninth Inca"
+   ],
+   "domains": [
+    "empire",
+    "the rebuilding of Cusco",
+    "Machu Picchu",
+    "administration"
+   ],
+   "symbols": [
+    "the puma-shaped plan of Cusco",
+    "Sacsayhuaman",
+    "Machu Picchu"
+   ],
+   "mount": null,
+   "abode": "Cusco",
+   "festivals": [],
+   "worship": "",
+   "bio": "His name means the turning-over of the world, and he earned it in about thirty years.",
+   "longBio": "Pachacuti takes over when the Chanca are at the gates of Cusco and his father and elder brother have fled, wins the battle - the stones of the field are said to have risen up as warriors to help him - and then spends three decades converting a small highland kingdom into the largest empire the Americas ever saw. He rebuilt Cusco on a plan said to be shaped like a puma, raised Sacsayhuaman above it, reorganised the calendar and the state religion, and Machu Picchu is generally read as his country estate. A pachakuti is a world-overturning; his reign is the reason the word attaches to a person.",
+   "variantTraditions": "The stones rising as soldiers - the pururaucas - were afterwards collected and worshipped as huacas in their own right.",
+   "storyIds": [
+    "inti-raymi",
+    "stones-that-fought"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "war",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "huayna_capac",
+   "name": "Huayna Capac",
+   "sanskrit": "Wayna Qhapaq",
+   "category": "mortal",
+   "era": "The Empire",
+   "role": "The last emperor of a whole empire, killed by a disease that arrived before the Spanish did",
+   "wikipedia": "Huayna_Capac",
+   "portrait": "portraits/inca/huayna_capac.webp",
+   "epithets": [
+    "the young mighty one",
+    "the eleventh Inca"
+   ],
+   "domains": [
+    "empire at its greatest extent",
+    "the northern campaigns",
+    "the succession crisis"
+   ],
+   "symbols": [
+    "the royal road",
+    "the litter",
+    "Quito"
+   ],
+   "mount": null,
+   "abode": "Quito, and Cusco",
+   "festivals": [],
+   "worship": "",
+   "bio": "Smallpox reached him years before Pizarro did, and killed him and his heir in the same week.",
+   "longBio": "Huayna Capac ruled the empire at its largest, campaigning far into what is now Ecuador and Colombia and spending his last years at Quito. Then a disease came down the trade routes from Central America ahead of any European - almost certainly smallpox - and killed him and his designated heir within days of each other, leaving no clear succession. The civil war between his sons Huascar and Atahualpa was still being fought when Pizarro landed with a hundred and sixty-eight men. The empire the Spanish conquered had already been broken by an epidemic that arrived before they did.",
+   "variantTraditions": "The identification of the disease as smallpox is inference from the chroniclers' descriptions and the timing, and is generally accepted.",
+   "storyIds": [
+    "room-of-gold"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "war"
+   ]
+  },
+  {
+   "id": "atahualpa",
+   "name": "Atahualpa",
+   "sanskrit": "Ataw Wallpa",
+   "category": "mortal",
+   "era": "The Empire",
+   "role": "He filled a room with gold for his ransom and was garrotted anyway",
+   "wikipedia": "Atahualpa",
+   "portrait": "portraits/inca/atahualpa.webp",
+   "epithets": [
+    "the last Sapa Inca",
+    "the victor of the civil war"
+   ],
+   "domains": [
+    "the civil war",
+    "the ransom room",
+    "the conquest"
+   ],
+   "symbols": [
+    "the room filled with gold",
+    "the litter at Cajamarca",
+    "the garrotte"
+   ],
+   "mount": null,
+   "abode": "Cajamarca",
+   "festivals": [],
+   "worship": "",
+   "bio": "One of the largest ransoms in history, paid in full, and it bought him nothing.",
+   "longBio": "Atahualpa beat his brother Huascar and had just won the civil war when he met Pizarro at Cajamarca in 1532. A friar handed him a breviary; he examined it, held it to his ear, heard nothing and dropped it, and that was the pretext. The Spanish killed thousands in the square in an afternoon and took him. He offered to fill a room with gold once and twice with silver, and did - the Coricancha was stripped, the gold garden melted - and they garrotted him anyway in 1533, having first offered him baptism to commute burning to strangling. He accepted.",
+   "variantTraditions": "The volume of the ransom room is recorded by eyewitnesses; the melted objects included the entire goldwork of the sun temple.",
+   "storyIds": [
+    "room-of-gold",
+    "inkarri-growing"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "war",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "inkarri",
+   "name": "Inkarri",
+   "sanskrit": "Inkarri",
+   "category": "hero",
+   "era": "The Empire",
+   "role": "The buried king whose head is growing a new body underground",
+   "wikipedia": "Inkarri",
+   "portrait": "portraits/inca/inkarri.webp",
+   "epithets": [
+    "Inca Rey",
+    "the king who will return"
+   ],
+   "domains": [
+    "return",
+    "resistance",
+    "the reversal of the conquest"
+   ],
+   "symbols": [
+    "the severed head",
+    "the body reassembling under the earth"
+   ],
+   "mount": null,
+   "abode": "Underground, growing",
+   "festivals": [],
+   "worship": "",
+   "bio": "Told in Andean villages for four centuries: the head was buried, and it is growing back.",
+   "longBio": "Inkarri is not in the chronicles - he comes from oral tradition recorded in the twentieth century, and the name is Inca plus the Spanish rey. The story is that the Spanish killed the Inca and cut him apart and buried the head, and that under the ground the body is slowly reassembling itself. When it is whole he will rise and the world will turn over again - a pachakuti - and the Andean order will return. It is a myth made after and about the conquest, and it is the most important single piece of Andean narrative to survive into the present.",
+   "variantTraditions": "Inkarri narratives were collected from the 1950s onward and vary by region; the reassembling body is the constant element.",
+   "storyIds": [
+    "inkarri-growing"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "mama_huaco",
+   "name": "Mama Huaco",
+   "sanskrit": "Mama Waqu",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "The fiercest of the founding sisters, who fought at the front and terrified people out of their land",
+   "wikipedia": "Mama_Huaco",
+   "portrait": "portraits/inca/mama_huaco.webp",
+   "epithets": [
+    "the warrior sister",
+    "the first sower"
+   ],
+   "domains": [
+    "war",
+    "the founding of Cusco",
+    "the first planting"
+   ],
+   "symbols": [
+    "the ayllu bolas",
+    "the maize she first sowed"
+   ],
+   "mount": null,
+   "abode": "Cusco",
+   "festivals": [],
+   "worship": "",
+   "bio": "Sarmiento says she killed a man, tore out his lungs and inflated them, and the valley emptied.",
+   "longBio": "Mama Huaco is one of the four sisters who came out of the cave, and the chroniclers make her the hard one - a warrior who fought in the front rank with bolas, and in Sarmiento's telling the reason the Cusco valley was cleared without a long fight: she killed a local man, cut him open, tore out his lungs and blew them up in front of the rest, who fled. She is also credited with the first sowing of maize in the valley. The founding sisters are treated by most chroniclers as decorative, and she is the one who refuses to be.",
+   "variantTraditions": "Sarmiento's account is deliberately unflattering to the Inca, and this episode may be exaggerated; other sources still make her a warrior.",
+   "storyIds": [
+    "golden-rod"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "war",
+    "hero-champion",
+    "earth-mother"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "viracocha",
+   "to": "inti",
+   "type": "parent",
+   "note": "He made the sun at Tiwanaku"
+  },
+  {
+   "from": "viracocha",
+   "to": "mama_quilla",
+   "type": "parent",
+   "note": "And the moon, and the stars"
+  },
+  {
+   "from": "viracocha",
+   "to": "manco_capac",
+   "type": "parent",
+   "note": "In the versions where the first Inca is his, not the sun's"
+  },
+  {
+   "from": "viracocha",
+   "to": "pachacamac",
+   "type": "enemy",
+   "note": "Highland creator and coastal creator, and a real rivalry behind it"
+  },
+  {
+   "from": "viracocha",
+   "to": "cuniraya",
+   "type": "form",
+   "note": "The Huarochiri text calls him Cuniraya Viracocha"
+  },
+  {
+   "from": "inti",
+   "to": "mama_quilla",
+   "type": "consort",
+   "note": "Sun and moon, brother and sister"
+  },
+  {
+   "from": "inti",
+   "to": "manco_capac",
+   "type": "parent",
+   "note": "The claim the whole empire rested on"
+  },
+  {
+   "from": "inti",
+   "to": "mama_ocllo",
+   "type": "parent",
+   "note": "Sent out of the cave together"
+  },
+  {
+   "from": "inti",
+   "to": "chasca",
+   "type": "ally",
+   "note": "Venus goes ahead of him at dawn and follows at dusk"
+  },
+  {
+   "from": "inti",
+   "to": "illapa",
+   "type": "ally",
+   "note": "The imperial triad, with Viracocha"
+  },
+  {
+   "from": "pachamama",
+   "to": "mama_sara",
+   "type": "parent",
+   "note": "The earth and the maize that comes out of it"
+  },
+  {
+   "from": "pachamama",
+   "to": "inti",
+   "type": "consort",
+   "note": "Paired in later Andean usage"
+  },
+  {
+   "from": "illapa",
+   "to": "amaru",
+   "type": "ally",
+   "note": "Thunder, rainbow and the water between the worlds"
+  },
+  {
+   "from": "illapa",
+   "to": "catequil",
+   "type": "form",
+   "note": "The northern thunder, with his own oracle"
+  },
+  {
+   "from": "mama_cocha",
+   "to": "yacana",
+   "type": "ally",
+   "note": "The llama comes down at midnight to drink the sea"
+  },
+  {
+   "from": "mama_cocha",
+   "to": "pachacamac",
+   "type": "ally",
+   "note": "The coast, its sea and its oracle"
+  },
+  {
+   "from": "supay",
+   "to": "pachamama",
+   "type": "enemy",
+   "note": "What is under the ground against what grows on it"
+  },
+  {
+   "from": "supay",
+   "to": "amaru",
+   "type": "ally",
+   "note": "Both come up out of Uku Pacha"
+  },
+  {
+   "from": "cuniraya",
+   "to": "cavillaca",
+   "type": "consort",
+   "note": "The fruit under the tree, and she would not have him"
+  },
+  {
+   "from": "cavillaca",
+   "to": "cuniraya",
+   "type": "enemy",
+   "note": "She ran to the sea rather than accept him"
+  },
+  {
+   "from": "cuniraya",
+   "to": "pachacamac",
+   "type": "enemy",
+   "note": "Rivals on the coast"
+  },
+  {
+   "from": "pariacaca",
+   "to": "huallallo",
+   "type": "enemy",
+   "note": "Rain and hail against fire, and the valley flooded"
+  },
+  {
+   "from": "pariacaca",
+   "to": "chaupinamca",
+   "type": "sibling",
+   "note": "The five-fold storm and the five-armed stone"
+  },
+  {
+   "from": "pariacaca",
+   "to": "huatiacuri",
+   "type": "parent",
+   "note": "The ragged son who overheard the foxes"
+  },
+  {
+   "from": "huatiacuri",
+   "to": "huallallo",
+   "type": "enemy",
+   "note": "He helped drive the fire god east"
+  },
+  {
+   "from": "pariacaca",
+   "to": "illapa",
+   "type": "form",
+   "note": "The same weather, under a local name"
+  },
+  {
+   "from": "chaupinamca",
+   "to": "pachamama",
+   "type": "form",
+   "note": "The female half the chroniclers mostly declined to describe"
+  },
+  {
+   "from": "manco_capac",
+   "to": "mama_ocllo",
+   "type": "consort",
+   "note": "Brother and sister, the first Inca and the first Coya"
+  },
+  {
+   "from": "manco_capac",
+   "to": "ayar_cachi",
+   "type": "sibling",
+   "note": "The brother they sealed in the cave"
+  },
+  {
+   "from": "manco_capac",
+   "to": "mama_huaco",
+   "type": "sibling",
+   "note": "The sister who fought at the front"
+  },
+  {
+   "from": "ayar_cachi",
+   "to": "manco_capac",
+   "type": "enemy",
+   "note": "Sent back for the seed store, and walled in"
+  },
+  {
+   "from": "mama_huaco",
+   "to": "mama_sara",
+   "type": "devotee",
+   "note": "Credited with the first sowing in the valley"
+  },
+  {
+   "from": "manco_capac",
+   "to": "pachacuti",
+   "type": "parent",
+   "note": "Nine generations down the same line"
+  },
+  {
+   "from": "pachacuti",
+   "to": "huayna_capac",
+   "type": "parent",
+   "note": "Grandfather and grandson, the empire at its height"
+  },
+  {
+   "from": "huayna_capac",
+   "to": "atahualpa",
+   "type": "parent",
+   "note": "And the succession he did not live to settle"
+  },
+  {
+   "from": "atahualpa",
+   "to": "catequil",
+   "type": "enemy",
+   "note": "The oracle told him the truth, so he burned the hill"
+  },
+  {
+   "from": "atahualpa",
+   "to": "inti",
+   "type": "devotee",
+   "note": "The sun temple was stripped for his ransom"
+  },
+  {
+   "from": "pachacuti",
+   "to": "inti",
+   "type": "devotee",
+   "note": "He rebuilt the Coricancha and reorganised the state cult"
+  },
+  {
+   "from": "pachacuti",
+   "to": "viracocha",
+   "type": "devotee",
+   "note": "And gave the creator a temple of his own"
+  },
+  {
+   "from": "atahualpa",
+   "to": "inkarri",
+   "type": "form",
+   "note": "The killed king whose head is growing back"
+  },
+  {
+   "from": "inkarri",
+   "to": "manco_capac",
+   "type": "form",
+   "note": "The first Inca and the one still to come"
+  },
+  {
+   "from": "huayna_capac",
+   "to": "pachacamac",
+   "type": "devotee",
+   "note": "Even the emperor consulted the coastal oracle"
+  }
+ ]
+}

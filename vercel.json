@@ -78,6 +78,10 @@
    "destination": "/maya/index.html"
   },
   {
+   "source": "/inca/:path*",
+   "destination": "/inca/index.html"
+  },
+  {
    "source": "/hopi/:path*",
    "destination": "/hopi/index.html"
   },

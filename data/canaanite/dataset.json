@@ -1,0 +1,1763 @@
+{
+ "title": "Canaanite Mythology: Figures, Relationships and Story Cycles",
+ "description": "The gods of Ugarit and Phoenicia mapped as a relationship graph: El and his household, Baal against the sea and against death, and the deities the Hebrew Bible spends its length arguing with.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Stephen Herbert Langdon, Semitic Mythology (1931) - written soon after the Ugarit tablets were found",
+  "Philo of Byblos, the Phoenician History, preserved in Eusebius, tr. Gifford (1903)",
+  "G. A. Cooke, A Text-Book of North-Semitic Inscriptions (1903)",
+  "George A. Barton, Archaeology and the Bible (1916)",
+  "W. Robertson Smith, Lectures on the Religion of the Semites (1894)",
+  "Note: the standard modern translations of the Ugaritic texts (Coogan, Smith, Pardee) are in copyright and are not used here",
+  "Encyclopaedia Britannica and Wikipedia for cross-checking readings established since 1931"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/canaanite/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "ugarit": {
+   "t": "The Mythology of All Races V: Semitic (the Ugaritic and Canaanite material)",
+   "tr": "Stephen Herbert Langdon, 1931",
+   "u": "https://archive.org/details/mythologyofallra05lang"
+  },
+  "philo": {
+   "t": "Praeparatio Evangelica (preserving Philo of Byblos)",
+   "tr": "Eusebius, tr. E. H. Gifford, 1903",
+   "u": "https://archive.org/details/preparationforgo01euse"
+  },
+  "cooke": {
+   "t": "A Text-Book of North-Semitic Inscriptions",
+   "tr": "G. A. Cooke, 1903",
+   "u": "https://archive.org/details/textbookofnorths00cookuoft"
+  },
+  "barton": {
+   "t": "Archaeology and the Bible",
+   "tr": "George A. Barton, 1916",
+   "u": "https://archive.org/details/archaeologybible00bart"
+  },
+  "smith": {
+   "t": "Lectures on the Religion of the Semites",
+   "tr": "W. Robertson Smith, 1894",
+   "u": "https://archive.org/details/lecturesonreligi00smit"
+  }
+ },
+ "meta": {
+  "id": "canaanite",
+  "label": "Canaanite",
+  "sublabel": "Ugarit & Phoenicia",
+  "accent": "#a08cc4",
+  "root": "el"
+ },
+ "profile": {
+  "cosmicNature": "No creation account survives, which is itself informative - what the Ugaritic tablets care about is not how the world began but who is in charge of it now. The order of things is a standing arrangement between an old king who confers legitimacy and a young storm god who has to keep winning it, against the sea on one side and death on the other.",
+  "natureOfDivinity": "A royal household. El is the father, aged and benevolent and slightly detached, living at the source of the two rivers; Athirat is his wife and the mother of seventy sons; and the active god is Baal, who is not El's son in the ordinary way and has to be granted a palace before he counts as a king. Decisions are made by petition and assembly, and the goddesses do most of the actual negotiating.",
+  "afterlife": "Down into the throat of Mot, whose appetite is the whole point of him. The dead go below to a muddy, miserable place, and the rapiuma - shades of dead kings and heroes - can be summoned up for feasts. There is no judgement and nothing earned. Baal himself goes down and comes back, but Baal is the rain, and people are not.",
+  "systemMechanism": "Kingship has to be granted, and rain has to be fought for. Baal cannot simply be king - he needs El's word and a house with a window in it, and he gets both only after Athirat is persuaded to ask on his behalf. Then he must beat Yamm the sea and Mot the death, and he loses to Mot once and has to be avenged by his sister. Order is maintained by a seasonal fight that is never finally won.",
+  "canonTexts": "The clay tablets from the house of the high priest at Ugarit, chiefly the Baal Cycle, the Legend of Keret and the Tale of Aqhat, written down around 1200 BC; scattered Phoenician inscriptions; the Phoenician History of Philo of Byblos, surviving only in quotation; and the polemic of the Hebrew Bible, which is a hostile witness but a detailed one."
+ },
+ "hierarchy": [
+  {
+   "title": "The Household of El",
+   "blurb": "A royal family rather than a pantheon. An aged king in a tent at the source of the two rivers, his wife who is mother of seventy gods, and a craftsman who has to be sent for from Egypt and Crete.",
+   "memberIds": [
+    "el",
+    "athirat",
+    "kothar",
+    "shapash",
+    "yarikh",
+    "kotharat",
+    "dagon"
+   ],
+   "connectorCaption": "One of the seventy has to fight for everything the others are given"
+  },
+  {
+   "title": "The Baal Cycle",
+   "blurb": "Three fights. The storm beats the sea, then argues his way to a palace, then is swallowed by death and has to be got back by his sister, who is considerably more frightening than he is.",
+   "memberIds": [
+    "baal",
+    "anat",
+    "yamm",
+    "mot",
+    "lotan",
+    "baal_zaphon"
+   ],
+   "connectorCaption": "The same gods appear in the Hebrew Bible, described by their enemies"
+  },
+  {
+   "title": "The Wider Levant",
+   "blurb": "Love and war in one goddess who ends up as Aphrodite, plague delivered by arrow, and the grain god everybody thinks was a fish.",
+   "memberIds": [
+    "astarte",
+    "resheph"
+   ],
+   "connectorCaption": "Below the gods, three long poems about kings who lose their children"
+  },
+  {
+   "title": "The Legends",
+   "blurb": "Keret, told in a dream to besiege a city until they hand over a wife. Danel, who judges the widow at the gate and still loses his son. And Pughat, who put a dagger under her skirt and walked into the killer's camp.",
+   "memberIds": [
+    "keret",
+    "danel",
+    "aqhat",
+    "pughat",
+    "rapiuma"
+   ],
+   "connectorCaption": "Tyre and Sidon carry these gods west, and Carthage carries them further"
+  },
+  {
+   "title": "Phoenicia and Carthage",
+   "blurb": "A god whose name is a job title, a healer who became Asclepius, and the goddess whose sign is on tens of thousands of North African stones.",
+   "memberIds": [
+    "melqart",
+    "eshmun",
+    "tanit",
+    "baal_hammon",
+    "baal_zebub"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "household",
+   "label": "The Household of El",
+   "memberIds": [
+    "el",
+    "athirat",
+    "shapash",
+    "yarikh",
+    "kothar",
+    "kotharat",
+    "dagon"
+   ]
+  },
+  {
+   "id": "cycle",
+   "label": "The Baal Cycle",
+   "memberIds": [
+    "baal",
+    "anat",
+    "yamm",
+    "mot",
+    "lotan",
+    "athirat",
+    "el",
+    "kothar"
+   ]
+  },
+  {
+   "id": "adversaries",
+   "label": "Sea and Death",
+   "memberIds": [
+    "yamm",
+    "mot",
+    "lotan",
+    "resheph"
+   ]
+  },
+  {
+   "id": "legends",
+   "label": "The Three Legends",
+   "memberIds": [
+    "keret",
+    "danel",
+    "aqhat",
+    "pughat",
+    "rapiuma",
+    "kotharat"
+   ]
+  },
+  {
+   "id": "phoenicia",
+   "label": "Phoenicia and Carthage",
+   "memberIds": [
+    "melqart",
+    "eshmun",
+    "tanit",
+    "baal_hammon",
+    "astarte",
+    "baal_zebub"
+   ]
+  },
+  {
+   "id": "bible",
+   "label": "Named in the Hebrew Bible",
+   "memberIds": [
+    "el",
+    "athirat",
+    "baal",
+    "lotan",
+    "dagon",
+    "astarte",
+    "baal_zebub",
+    "danel"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "baal-and-yamm",
+   "title": "Baal and the Sea",
+   "era": "The Baal Cycle",
+   "cast": [
+    "baal",
+    "yamm",
+    "el",
+    "kothar"
+   ],
+   "summary": "Yamm the Sea sends messengers into the assembly of the gods demanding that Baal be handed over as his slave, and the gods drop their heads to their knees rather than look at them. Baal berates them into lifting their heads and answers the messengers himself. Then Kothar-wa-Khasis forges two clubs and gives each a name and instructions, like a man training falcons. Yagrush, Driver, leaps from Baal's hand and strikes Yamm on the shoulder, and the Sea stands firm. Ayamur, Chaser, strikes him on the skull between the eyes, and he goes down, and Baal is proclaimed king. Astarte tells him to scatter his enemy, and he does.",
+   "sources": [
+    {
+     "book": "The Mythology of All Races V: Semitic (the Ugaritic and Canaanite material)",
+     "translation": "Stephen Herbert Langdon, 1931",
+     "location": "The Baal Cycle, Tablet II",
+     "url": "https://archive.org/details/mythologyofallra05lang"
+    },
+    {
+     "book": "Archaeology and the Bible",
+     "translation": "George A. Barton, 1916",
+     "location": "Chapter on Ugarit",
+     "url": "https://archive.org/details/archaeologybible00bart"
+    }
+   ]
+  },
+  {
+   "id": "the-window",
+   "title": "The House With a Window",
+   "era": "The Baal Cycle",
+   "cast": [
+    "baal",
+    "athirat",
+    "el",
+    "anat",
+    "kothar"
+   ],
+   "summary": "Baal is king and has no house, which in this world means he is not really king. Anat threatens El and gets nowhere. So Baal and Anat go to Athirat with gifts of silver and gold worked by Kothar, and she agrees to ask - and El grants it in a sentence, because his wife asked. Kothar builds it of cedar, silver and gold, and proposes a window. Baal refuses: Yamm might come in at his daughters. Kothar says he will change his mind. The house is finished, Baal holds a feast, and then opens a window after all - and gives out his holy voice through it, and the earth shakes and his enemies take to the woods.",
+   "sources": [
+    {
+     "book": "The Mythology of All Races V: Semitic (the Ugaritic and Canaanite material)",
+     "translation": "Stephen Herbert Langdon, 1931",
+     "location": "The Baal Cycle, Tablet IV",
+     "url": "https://archive.org/details/mythologyofallra05lang"
+    }
+   ]
+  },
+  {
+   "id": "baal-and-mot",
+   "title": "Baal Goes Down the Throat",
+   "era": "The Baal Cycle",
+   "cast": [
+    "baal",
+    "mot",
+    "anat",
+    "shapash",
+    "el"
+   ],
+   "summary": "Mot sends word: one lip to the earth and one to the sky, his tongue to the stars, and Baal must come down into his mouth like an olive. Baal goes. The rain stops. El comes down from his throne and sits on the ground and pours ashes on his head and cuts his own skin with a stone, mourning. Anat searches, finds the body with Shapash's help and buries it. Then she goes after Mot: seizes him, splits him with a blade, winnows him with a sieve, burns him in fire, grinds him with millstones and sows him in a field. Baal returns, and seven years later Mot does too, and they fight like wild bulls until the sun goddess ends it.",
+   "sources": [
+    {
+     "book": "The Mythology of All Races V: Semitic (the Ugaritic and Canaanite material)",
+     "translation": "Stephen Herbert Langdon, 1931",
+     "location": "The Baal Cycle, Tablets V-VI",
+     "url": "https://archive.org/details/mythologyofallra05lang"
+    },
+    {
+     "book": "Archaeology and the Bible",
+     "translation": "George A. Barton, 1916",
+     "location": "Chapter on Ugarit",
+     "url": "https://archive.org/details/archaeologybible00bart"
+    }
+   ]
+  },
+  {
+   "id": "anat-in-the-valley",
+   "title": "Anat in the Valley",
+   "era": "The Baal Cycle",
+   "cast": [
+    "anat",
+    "baal"
+   ],
+   "summary": "Anat shuts the gates of her house and goes out to meet the people in the valley, and what follows is the most explicit violence in the corpus. She fights until she is wading to her knees in blood and to her neck in gore, cuts down the townsmen and the coast-dwellers and the men of the east, and heads fly like locusts. She hangs heads on her back and hands at her belt. Her liver swells with laughter, her heart fills with joy. Then she goes back inside, washes her hands in the blood of soldiers, draws water and washes with dew and the fat of the earth, and puts on perfume. Immediately afterward she is negotiating politely for her brother's house.",
+   "sources": [
+    {
+     "book": "The Mythology of All Races V: Semitic (the Ugaritic and Canaanite material)",
+     "translation": "Stephen Herbert Langdon, 1931",
+     "location": "The Baal Cycle, Tablet III",
+     "url": "https://archive.org/details/mythologyofallra05lang"
+    }
+   ]
+  },
+  {
+   "id": "bow-of-aqhat",
+   "title": "The Bow of Aqhat",
+   "era": "The Legends",
+   "cast": [
+    "aqhat",
+    "anat",
+    "kothar",
+    "danel",
+    "pughat"
+   ],
+   "summary": "Kothar makes Aqhat a composite bow, and Anat wants it. She offers silver and gold; he refuses. She offers immortality - ask for life, and I will give it, and you will count years with Baal. He tells her not to lie to him, that a man dies as men die, and then adds the sentence that kills him: bows are for men, what business has a woman with them. She goes to El and gets his permission with a threat, and has her man Yatpan carried over Aqhat as an eagle to strike him dead. The bow falls into the water and is lost anyway. The rains fail. His sister Pughat puts on armour under a dress and goes to find Yatpan, and the tablet breaks.",
+   "sources": [
+    {
+     "book": "The Mythology of All Races V: Semitic (the Ugaritic and Canaanite material)",
+     "translation": "Stephen Herbert Langdon, 1931",
+     "location": "The Tale of Aqhat",
+     "url": "https://archive.org/details/mythologyofallra05lang"
+    }
+   ]
+  },
+  {
+   "id": "keret-dream",
+   "title": "Keret Is Told What To Do",
+   "era": "The Legends",
+   "cast": [
+    "keret",
+    "el",
+    "athirat"
+   ],
+   "summary": "Keret has lost seven wives and every child, and he goes into his room and weeps until he sleeps. El comes to him in the dream and asks why a king is crying. Then he gives instructions with the precision of a work order: wash and rouge yourself, sacrifice a lamb to El and a bird to Baal, muster an army of three hundred myriads, march six days, and on the seventh besiege Udum. Refuse the silver and gold and horses they will offer. Ask for the king's daughter Hurriya, and nothing else. Keret does exactly this and it works exactly as described. Then he forgets a vow he made to Athirat on the road, and falls ill, and the land dries out with him.",
+   "sources": [
+    {
+     "book": "The Mythology of All Races V: Semitic (the Ugaritic and Canaanite material)",
+     "translation": "Stephen Herbert Langdon, 1931",
+     "location": "The Legend of Keret",
+     "url": "https://archive.org/details/mythologyofallra05lang"
+    }
+   ]
+  },
+  {
+   "id": "lotan-in-isaiah",
+   "title": "The Serpent Named Twice",
+   "era": "The Baal Cycle",
+   "cast": [
+    "lotan",
+    "anat",
+    "baal",
+    "yamm"
+   ],
+   "summary": "The Ugaritic tablet has Anat list what she has beaten: I destroyed Lotan the fleeing serpent, finished off the twisting serpent, the tyrant with seven heads. Eight centuries later Isaiah 27 says that in that day the Lord will punish Leviathan the fleeing serpent, Leviathan the twisting serpent, and will slay the dragon that is in the sea. It is the same creature, the same two epithets and very nearly the same words, transferred from Anat to Yahweh. Nothing else in the ancient record shows the borrowing quite so plainly - and it works both ways, because it also shows the Hebrew writers assumed their audience knew who Leviathan was without being told.",
+   "sources": [
+    {
+     "book": "The Mythology of All Races V: Semitic (the Ugaritic and Canaanite material)",
+     "translation": "Stephen Herbert Langdon, 1931",
+     "location": "The Baal Cycle, Tablet V",
+     "url": "https://archive.org/details/mythologyofallra05lang"
+    },
+    {
+     "book": "Archaeology and the Bible",
+     "translation": "George A. Barton, 1916",
+     "location": "Chapter on Canaanite religion",
+     "url": "https://archive.org/details/archaeologybible00bart"
+    }
+   ]
+  },
+  {
+   "id": "tophet",
+   "title": "The Stones of the Tophet",
+   "era": "Phoenicia",
+   "cast": [
+    "tanit",
+    "baal_hammon",
+    "melqart"
+   ],
+   "summary": "Outside Carthage lay a walled precinct filled with urns, each holding the burned bones of an infant or a young animal, each marked by a small stone carved with the sign of Tanit. There are thousands. Greek and Roman writers said the Carthaginians burned their own children to Baal Hammon in times of crisis, in numbers that grow with every retelling - and those writers were describing a city their own states destroyed. Modern archaeology finds infant remains, many of them newborn or premature, which some read as ritual killing and others as a cemetery for children who died anyway. The argument has run for a century and is not settled.",
+   "sources": [
+    {
+     "book": "A Text-Book of North-Semitic Inscriptions",
+     "translation": "G. A. Cooke, 1903",
+     "location": "Punic inscriptions",
+     "url": "https://archive.org/details/textbookofnorths00cookuoft"
+    },
+    {
+     "book": "Lectures on the Religion of the Semites",
+     "translation": "W. Robertson Smith, 1894",
+     "location": "Lecture VIII",
+     "url": "https://archive.org/details/lecturesonreligi00smit"
+    }
+   ]
+  },
+  {
+   "id": "egersis",
+   "title": "The Waking of Melqart",
+   "era": "Phoenicia",
+   "cast": [
+    "melqart",
+    "astarte",
+    "eshmun"
+   ],
+   "summary": "Every spring at Tyre they burned him. An effigy of Melqart was laid on a pyre and consumed, and then the god was woken - the egersis, the awakening - and the city celebrated. The rite travelled with Tyrian shipping to Cyprus, to Carthage, to Cadiz beyond the Pillars, and Carthage was still sending an annual delegation home to Tyre with tribute for his temple centuries after independence. The Greeks looked at a god who died in fire and came back and called him Heracles, whose own death is a pyre on Mount Oeta, and the identification stuck so completely that the Strait of Gibraltar is named after the wrong one of them.",
+   "sources": [
+    {
+     "book": "Praeparatio Evangelica (preserving Philo of Byblos)",
+     "translation": "Eusebius, tr. E. H. Gifford, 1903",
+     "location": "Book I",
+     "url": "https://archive.org/details/preparationforgo01euse"
+    },
+    {
+     "book": "A Text-Book of North-Semitic Inscriptions",
+     "translation": "G. A. Cooke, 1903",
+     "location": "Phoenician inscriptions",
+     "url": "https://archive.org/details/textbookofnorths00cookuoft"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "el",
+   "name": "El",
+   "sanskrit": "ʾIlu",
+   "category": "creator",
+   "era": "The Household of El",
+   "role": "The old king at the source of the rivers, who grants kingship and does not fight",
+   "wikipedia": "El_(deity)",
+   "portrait": "portraits/canaanite/el.webp",
+   "epithets": [
+    "the Bull",
+    "Father of Years",
+    "Creator of Creatures",
+    "the Kindly, the Compassionate"
+   ],
+   "domains": [
+    "kingship",
+    "decrees",
+    "fatherhood",
+    "wisdom",
+    "the assembly of the gods"
+   ],
+   "symbols": [
+    "the bull's horns",
+    "the tent at the source of the two rivers",
+    "the seated throne"
+   ],
+   "mount": null,
+   "abode": "At the source of the two rivers, at the confluence of the deeps",
+   "festivals": [],
+   "worship": "",
+   "bio": "Everything must be cleared with him, and he clears almost everything - which is a kind of power.",
+   "longBio": "El is the head of the pantheon and the least active god in it. He sits in a tent at the source of the two rivers and receives petitions, and his word makes things legal - Baal cannot be king until El says so. He is called Bull El, Father of Years, Kindly and Compassionate, and he is easily worked on: Athirat gets Baal his palace, Anat threatens to bloody his grey hair and he simply agrees. His name is also the ordinary Semitic word for god, which is why it is embedded in Israel, Bethel, Michael, Gabriel - and why the Hebrew Bible can use El of its own god without difficulty.",
+   "variantTraditions": "Whether the Israelite Yahweh absorbed El or was originally distinct from him is one of the most consequential questions in biblical scholarship; Deuteronomy 32:8-9 is the passage everyone argues over.",
+   "storyIds": [
+    "baal-and-yamm",
+    "the-window",
+    "baal-and-mot",
+    "keret-dream"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "king-ruler",
+    "creator",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "athirat",
+   "name": "Athirat",
+   "sanskrit": "ʾAṯiratu",
+   "category": "deity",
+   "era": "The Household of El",
+   "role": "El's wife, mother of seventy gods - and she turns up in Israel as Yahweh's consort",
+   "wikipedia": "Asherah",
+   "portrait": "portraits/canaanite/athirat.webp",
+   "epithets": [
+    "Asherah",
+    "Lady Athirat of the Sea",
+    "Creatrix of the Gods",
+    "mother of the seventy"
+   ],
+   "domains": [
+    "motherhood of the gods",
+    "the sea",
+    "intercession",
+    "the sacred tree or pole"
+   ],
+   "symbols": [
+    "the wooden pole or stylised tree",
+    "the spindle",
+    "the lion"
+   ],
+   "mount": null,
+   "abode": "El's tent, and the shore",
+   "festivals": [],
+   "worship": "",
+   "bio": "The one who actually gets things done: Baal's palace happens because she asks for it.",
+   "longBio": "Athirat is El's wife and the mother of the seventy gods, and in the Baal Cycle she is the fixer. Baal wants a palace and cannot get El to approve one, so Anat and Baal work on Athirat with gifts of silver and gold, and she goes to El and asks, and it is granted immediately. As Asherah she appears in the Hebrew Bible about forty times, usually as a wooden pole beside an altar that somebody is being told to cut down - and inscriptions found at Kuntillet Ajrud and Khirbet el-Qom in the 1970s bless people by Yahweh and his asherah, which set off an argument that is still running.",
+   "variantTraditions": "Whether the asherah of those inscriptions is the goddess or a cult object named for her is disputed; that a goddess stood beside Yahweh in popular Israelite religion is now widely accepted.",
+   "storyIds": [
+    "the-window",
+    "keret-dream"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother",
+    "sea-waters",
+    "supreme-source",
+    "preserver"
+   ]
+  },
+  {
+   "id": "baal",
+   "name": "Baal",
+   "sanskrit": "Baʿlu Haddu",
+   "category": "creator",
+   "era": "The Baal Cycle",
+   "role": "The storm, who beats the sea, gets a palace, dies, and comes back",
+   "wikipedia": "Baal",
+   "portrait": "portraits/canaanite/baal.webp",
+   "epithets": [
+    "Hadad",
+    "the Rider on the Clouds",
+    "Prince Baal",
+    "Mightiest of Warriors"
+   ],
+   "domains": [
+    "storm",
+    "rain",
+    "fertility",
+    "kingship won by fighting"
+   ],
+   "symbols": [
+    "the lightning-spear held aloft",
+    "the mace",
+    "the bull",
+    "the window in his palace"
+   ],
+   "mount": null,
+   "abode": "Mount Zaphon",
+   "festivals": [],
+   "worship": "",
+   "bio": "Rider on the Clouds - the same phrase the Hebrew Bible uses of its own god.",
+   "longBio": "Baal is the active god of the Ugaritic texts and his cycle is three fights. He beats Yamm the sea with two clubs made for him by the craftsman god, and becomes king. Then he wants a house, which is what kingship means here, and gets one only after Athirat intervenes - and refuses to put a window in it, in case the sea gets in, then changes his mind. Then Mot swallows him and he dies, and the rain stops, and his sister Anat cuts Mot apart to get him back. His title, Rider on the Clouds, is applied to Yahweh in Psalm 68, which tells you how close the competition was.",
+   "variantTraditions": "Baal means lord and is a title as much as a name; the god behind it is Hadad, the same storm god as Mesopotamian Adad.",
+   "storyIds": [
+    "baal-and-yamm",
+    "the-window",
+    "baal-and-mot",
+    "anat-in-the-valley",
+    "lotan-in-isaiah"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "wind-storm",
+    "sky-thunder",
+    "king-ruler",
+    "war",
+    "preserver"
+   ]
+  },
+  {
+   "id": "anat",
+   "name": "Anat",
+   "sanskrit": "ʿAnatu",
+   "category": "deity",
+   "era": "The Baal Cycle",
+   "role": "Baal's sister, who wades in blood to her knees and enjoys it",
+   "wikipedia": "Anat",
+   "portrait": "portraits/canaanite/anat.webp",
+   "epithets": [
+    "the Virgin Anat",
+    "Wanton Widow of the Nations",
+    "Mistress of Dominion"
+   ],
+   "domains": [
+    "war",
+    "the hunt",
+    "love",
+    "the recovery of Baal"
+   ],
+   "symbols": [
+    "the mace and battleaxe",
+    "the severed hands strung on her belt",
+    "the heifer"
+   ],
+   "mount": null,
+   "abode": "Mount Inbub",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most frightening figure in the corpus, and she is the one who saves everybody.",
+   "longBio": "Anat's introduction has her slaughtering people in a valley until she is wading to her knees in blood and to her neck in gore, hanging heads on her back and hands at her waist, and her liver swells with laughter. Then she washes and puts on perfume. She is Baal's sister and champion: she threatens El into granting the palace, and when Mot kills Baal she seizes Mot, splits him with a blade, winnows him, burns him, grinds him and sows him in a field. Her fury is the reason Baal comes back. She is also called virgin throughout, which in Ugaritic seems to mean something closer to unmarried than chaste.",
+   "variantTraditions": "The relationship between Anat and later Greek Athena, and between Anat and Egyptian adoptions of her, is real but hard to trace precisely.",
+   "storyIds": [
+    "the-window",
+    "baal-and-mot",
+    "anat-in-the-valley",
+    "bow-of-aqhat",
+    "lotan-in-isaiah"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "hero-champion",
+    "love-desire",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "yamm",
+   "name": "Yamm",
+   "sanskrit": "Yammu",
+   "category": "primordial",
+   "era": "The Baal Cycle",
+   "role": "The Sea, El's favourite, beaten by two clubs with names",
+   "wikipedia": "Yam_(god)",
+   "portrait": "portraits/canaanite/yamm.webp",
+   "epithets": [
+    "Judge River",
+    "Prince Sea",
+    "the beloved of El"
+   ],
+   "domains": [
+    "the sea",
+    "rivers",
+    "chaos",
+    "the claim to kingship"
+   ],
+   "symbols": [
+    "the waves",
+    "the throne El built him",
+    "the two clubs that beat him"
+   ],
+   "mount": null,
+   "abode": "The sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "The craftsman god made two clubs, named them Driver and Chaser, and told them where to go.",
+   "longBio": "Yamm is the sea and El's favourite, granted a palace before Baal is. He sends messengers to the assembly demanding Baal be handed over as his slave, and the gods drop their heads to their knees in fear until Baal berates them. The fight is decided by equipment: Kothar-wa-Khasis forges two clubs and names them, Yagrush - Driver - and Ayamur - Chaser, and instructs them like falcons. The first strikes Yamm's shoulder and he holds; the second strikes his skull and he goes down. The sea as the enemy of the storm god is a pattern running from Marduk and Tiamat to Yahweh and Leviathan.",
+   "variantTraditions": "The sea-battle motif is shared across the ancient Near East; the Ugaritic version is the closest in language to the biblical references to Yahweh splitting the sea.",
+   "storyIds": [
+    "baal-and-yamm",
+    "lotan-in-isaiah"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sea-waters",
+    "primordial-adversary",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "mot",
+   "name": "Mot",
+   "sanskrit": "Môtu",
+   "category": "underworld",
+   "era": "The Baal Cycle",
+   "role": "Death, with one lip to the earth and one to the sky, and everything goes down his throat",
+   "wikipedia": "Mot_(god)",
+   "portrait": "portraits/canaanite/mot.webp",
+   "epithets": [
+    "Death",
+    "Beloved of El",
+    "the one with the gaping throat"
+   ],
+   "domains": [
+    "death",
+    "drought",
+    "sterility",
+    "the appetite that takes everyone"
+   ],
+   "symbols": [
+    "one lip on the earth and one in the heavens",
+    "the throat",
+    "the sickle"
+   ],
+   "mount": null,
+   "abode": "The pit, the city of Miry",
+   "festivals": [],
+   "worship": "",
+   "bio": "His mouth is described by where the lips reach, which is the best image of death in the corpus.",
+   "longBio": "Mot is death, and the tablets describe him by the size of his mouth: one lip to the earth and one to the sky, his tongue to the stars, and everything passes down his throat. He summons Baal and Baal goes, and the storm god is swallowed and the rain stops and the fields crack. Anat finds the body, buries it, and then goes after Mot and cuts, winnows, burns, grinds and sows him. He comes back seven years later and he and Baal fight like wild bulls until the sun goddess warns him that El has turned against him, and he yields. Death and the rain each go down and come back, on a cycle.",
+   "variantTraditions": "The splitting and sowing of Mot has been read as an agricultural rite; that reading is popular and not securely evidenced.",
+   "storyIds": [
+    "baal-and-mot"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "kothar",
+   "name": "Kothar-wa-Khasis",
+   "sanskrit": "Kôṯaru-wa-Ḫasīsu",
+   "category": "deity",
+   "era": "The Household of El",
+   "role": "Skilful-and-Wise, the craftsman god, who commutes from Egypt and Crete",
+   "wikipedia": "Kothar-wa-Khasis",
+   "portrait": "portraits/canaanite/kothar.webp",
+   "epithets": [
+    "Skilful and Wise",
+    "the Deft One",
+    "the craftsman of the gods"
+   ],
+   "domains": [
+    "craft",
+    "metalwork",
+    "building",
+    "magic weapons"
+   ],
+   "symbols": [
+    "the hammer and tongs",
+    "the two named clubs",
+    "Baal's palace"
+   ],
+   "mount": null,
+   "abode": "Memphis in Egypt, and Caphtor",
+   "festivals": [],
+   "worship": "",
+   "bio": "He forges the clubs that beat the sea, builds Baal's palace, and argues about the window.",
+   "longBio": "Kothar-wa-Khasis is the divine smith and architect and he is explicitly foreign - he lives in Memphis in Egypt and in Caphtor, which is Crete, and has to be sent for. He makes the two named clubs that defeat Yamm, and he builds Baal's palace out of cedar, silver and gold. The window argument is a good example of how these texts work: Kothar says a palace needs a window, Baal refuses in case Yamm gets in at his daughters, Kothar says he will change his mind, and he does. A god of craft who is a foreign contractor is a fair reflection of how Bronze Age palaces actually got built.",
+   "variantTraditions": "Caphtor is generally identified with Crete, and the Egyptian and Aegean connections in the text match the real trade network of Late Bronze Age Ugarit.",
+   "storyIds": [
+    "baal-and-yamm",
+    "the-window",
+    "bow-of-aqhat"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft",
+    "fire",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "shapash",
+   "name": "Shapash",
+   "sanskrit": "Šapšu",
+   "category": "deity",
+   "era": "The Household of El",
+   "role": "The sun goddess, called the Torch of the Gods, who carries Baal's body home",
+   "wikipedia": "Shapash",
+   "portrait": "portraits/canaanite/shapash.webp",
+   "epithets": [
+    "Torch of the Gods",
+    "the Luminary of the Gods"
+   ],
+   "domains": [
+    "the sun",
+    "the passage to the underworld",
+    "messages",
+    "justice"
+   ],
+   "symbols": [
+    "the winged disc",
+    "the torch"
+   ],
+   "mount": null,
+   "abode": "The sky by day, below by night",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sun here is a woman, and she is the one who goes down and can therefore fetch things back.",
+   "longBio": "Shapash is the sun and she is female, which distinguishes the Canaanite scheme from the Mesopotamian and Egyptian ones. Because she crosses the sky and then passes underneath, she moves between the living and the dead, and she does the errands nobody else can: she carries Baal's body up from the underworld to Anat, she searches for him, and she warns Mot that El has turned against him, which is what ends the second fight. She is the messenger of the assembly and the one whose word closes arguments, and she is treated with respect by every other god in the corpus.",
+   "variantTraditions": "The femininity of the sun and masculinity of the moon is shared with Anatolian and Arabian traditions and contrasts with Egypt and Mesopotamia.",
+   "storyIds": [
+    "baal-and-mot"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "messenger-trickster",
+    "death-judge",
+    "preserver"
+   ]
+  },
+  {
+   "id": "yarikh",
+   "name": "Yarikh",
+   "sanskrit": "Yariḫu",
+   "category": "deity",
+   "era": "The Household of El",
+   "role": "The moon, who paid an enormous bride-price for a Mesopotamian goddess",
+   "wikipedia": "Yarikh",
+   "portrait": "portraits/canaanite/yarikh.webp",
+   "epithets": [
+    "the Lamp of Heaven",
+    "the moon"
+   ],
+   "domains": [
+    "the moon",
+    "the month",
+    "marriage",
+    "irrigation"
+   ],
+   "symbols": [
+    "the crescent",
+    "the lapis and silver bride-price"
+   ],
+   "mount": null,
+   "abode": "Qart-Abilim, the city of the moon",
+   "festivals": [],
+   "worship": "",
+   "bio": "His wedding to Nikkal has a full contract in it - weight of silver, weight of gold, and terms.",
+   "longBio": "Yarikh is the moon god, and one Ugaritic tablet is essentially his marriage document: he wants Nikkal, daughter of the summer god, and he offers a thousand pieces of silver and ten thousand of gold, lapis lazuli and a field of vines, and asks that she bear him a child. Nikkal is Mesopotamian Ningal, the moon's wife at Ur, imported west - which shows the traffic in gods running from Sumer to the Levant. The text ends with an invocation of the kotharat, goddesses who assist at conception and childbirth, which suggests it was used at actual weddings.",
+   "variantTraditions": "The Nikkal poem is one of the few Ugaritic texts with an obvious practical liturgical use.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "love-desire",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "astarte",
+   "name": "Astarte",
+   "sanskrit": "ʿAṯtartu",
+   "category": "deity",
+   "era": "The Household of El",
+   "role": "Love and war, the goddess who went furthest west and became Aphrodite's ancestor",
+   "wikipedia": "Astarte",
+   "portrait": "portraits/canaanite/astarte.webp",
+   "epithets": [
+    "Ashtart",
+    "Ishtar in the east",
+    "Aphrodite in Greek",
+    "Queen of Heaven"
+   ],
+   "domains": [
+    "sexual love",
+    "war",
+    "the planet Venus",
+    "royal patronage"
+   ],
+   "symbols": [
+    "the star and crescent",
+    "the lion",
+    "the dove"
+   ],
+   "mount": null,
+   "abode": "Sidon, and every Phoenician colony",
+   "festivals": [],
+   "worship": "",
+   "bio": "The same goddess as Ishtar, and the reason Aphrodite arrives in Greece from Cyprus.",
+   "longBio": "Astarte is the Levantine form of Ishtar - love, war and the planet Venus in one figure. At Ugarit she is present but Anat gets the fighting scenes; in Phoenicia proper she becomes the principal goddess, with a great temple at Sidon and cults in every colony from Cyprus to Carthage. Her Cypriot cult is where the Greeks met her, which is why Aphrodite arrives in Greece out of the sea at Paphos rather than out of Olympus, and why Herodotus says plainly that the Cypriots got her from the Phoenicians. The Hebrew Bible calls her Ashtoreth, deliberately mispointed to sound like the word for shame.",
+   "variantTraditions": "The deliberate distortion of Ashtart to Ashtoreth, using the vowels of boshet, shame, is a recognised feature of the Masoretic text.",
+   "storyIds": [
+    "egersis"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "war",
+    "wealth-fortune",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "resheph",
+   "name": "Resheph",
+   "sanskrit": "Rašap",
+   "category": "deity",
+   "era": "The Household of El",
+   "role": "Plague and the arrow that carries it, and a gatekeeper of the underworld",
+   "wikipedia": "Resheph",
+   "portrait": "portraits/canaanite/resheph.webp",
+   "epithets": [
+    "Lord of the Arrow",
+    "the Burner",
+    "gatekeeper of the sun goddess"
+   ],
+   "domains": [
+    "plague",
+    "arrows",
+    "war",
+    "the underworld gate"
+   ],
+   "symbols": [
+    "the drawn bow",
+    "the gazelle horns on the helmet",
+    "the raised mace"
+   ],
+   "mount": null,
+   "abode": "The gate of the underworld",
+   "festivals": [],
+   "worship": "",
+   "bio": "Disease as an arrow shot into you, which is exactly how the Iliad opens too.",
+   "longBio": "Resheph brings plague, and the mechanism is archery - he shoots, and the sickness lands. That image of epidemic as divine arrows travels: the Iliad opens with Apollo doing precisely the same thing, and Resheph was in fact identified with Apollo in Cyprus. He is also a gatekeeper of the underworld and an escort of Shapash as she passes below. The Egyptians imported him as a war god under the New Kingdom and put him on stelae in a Syrian kilt with a gazelle-horned helmet. His name survives in Hebrew as a common noun meaning pestilence or flame.",
+   "variantTraditions": "The Cypriot bilingual inscriptions equating Resheph with Apollo are among the clearest cross-cultural god-identifications in the ancient record.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "death-judge",
+    "war",
+    "fire",
+    "healer"
+   ]
+  },
+  {
+   "id": "dagon",
+   "name": "Dagon",
+   "sanskrit": "Dagānu",
+   "category": "deity",
+   "era": "The Household of El",
+   "role": "Baal's father, god of grain - and not, despite everything, a fish",
+   "wikipedia": "Dagon",
+   "portrait": "portraits/canaanite/dagon.webp",
+   "epithets": [
+    "Dagan",
+    "the god of grain",
+    "father of Baal"
+   ],
+   "domains": [
+    "grain",
+    "agriculture",
+    "the Middle Euphrates"
+   ],
+   "symbols": [
+    "the ear of corn",
+    "the temple at Ugarit beside Baal's"
+   ],
+   "mount": null,
+   "abode": "Tuttul, and Ugarit",
+   "festivals": [],
+   "worship": "",
+   "bio": "Medieval commentators guessed his name came from the word for fish. It comes from the word for grain.",
+   "longBio": "Dagon is an old and important god of the middle Euphrates, worshipped from at least 2500 BC, and at Ugarit he is Baal's father with a temple standing beside his son's. His portfolio is grain - the name is related to the Semitic word for corn. The fish-god idea comes from medieval Jewish commentators connecting his name to dag, fish, and from there it went into Milton and then into pulp fiction and modern gaming, so the most widely known thing about Dagon is wrong. The Philistines took him over; the Bible has Samson pull his temple down and the Ark humiliate his statue.",
+   "variantTraditions": "The grain etymology is now standard. The fish association has no ancient support before the Middle Ages.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "kotharat",
+   "name": "The Kotharat",
+   "sanskrit": "Kôṯarātu",
+   "category": "deity",
+   "era": "The Household of El",
+   "role": "Seven swallow-goddesses who attend conception and birth",
+   "wikipedia": "Kotharat",
+   "portrait": "portraits/canaanite/kotharat.webp",
+   "epithets": [
+    "the Skilful Ones",
+    "the swallows",
+    "the radiant daughters of the crescent"
+   ],
+   "domains": [
+    "conception",
+    "childbirth",
+    "marriage"
+   ],
+   "symbols": [
+    "swallows",
+    "the seven"
+   ],
+   "mount": null,
+   "abode": "Wherever a child is being conceived",
+   "festivals": [],
+   "worship": "",
+   "bio": "You feed them for seven days before you expect anything to happen.",
+   "longBio": "The Kotharat are a group of seven goddesses associated with conception and childbirth, called the swallows and the daughters of the new moon. In the Aqhat tale, Danel wants a son and feeds the Kotharat for six days, and on the seventh they leave and his wife conceives. In the Nikkal poem they are invoked at the wedding. Groups of seven divine women who attend birth recur across the ancient Near East, and the practical residue - a household ritual over a fixed number of days when a couple wanted a child - is one of the few pieces of ordinary domestic religion the tablets preserve.",
+   "variantTraditions": "The connection between the Kotharat and the craftsman Kothar is a shared root meaning skilful rather than a family relationship.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "healer"
+   ]
+  },
+  {
+   "id": "lotan",
+   "name": "Lotan",
+   "sanskrit": "Lôtānu",
+   "category": "beast",
+   "era": "The Baal Cycle",
+   "role": "The seven-headed twisting serpent - the Leviathan, under his older name",
+   "wikipedia": "Lotan",
+   "portrait": "portraits/canaanite/lotan.webp",
+   "epithets": [
+    "Leviathan",
+    "the fleeing serpent",
+    "the twisting serpent",
+    "the tyrant with seven heads"
+   ],
+   "domains": [
+    "the sea",
+    "chaos",
+    "the great serpent"
+   ],
+   "symbols": [
+    "seven heads",
+    "the coils"
+   ],
+   "mount": null,
+   "abode": "The sea, with Yamm",
+   "festivals": [],
+   "worship": "",
+   "bio": "Isaiah describes him in almost the same words the Ugaritic tablet uses, eight centuries earlier.",
+   "longBio": "Lotan is a seven-headed serpent belonging to Yamm, and Anat lists him among the things she has destroyed. The Ugaritic text calls him the fleeing serpent, the twisting serpent, the tyrant with seven heads. Isaiah 27:1 says that Yahweh will punish Leviathan the fleeing serpent, Leviathan the twisting serpent, and will slay the dragon in the sea. The phrases match closely enough that the relationship is not in doubt, and it is one of the most direct pieces of evidence anywhere for the Hebrew Bible drawing on Canaanite material and turning it against its source.",
+   "variantTraditions": "The Ugaritic ltn and Hebrew liwyatan are the same word. The parallel wording of Isaiah 27:1 is the standard textbook example of Ugaritic-biblical continuity.",
+   "storyIds": [
+    "lotan-in-isaiah"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "baal_zaphon",
+   "name": "Mount Zaphon",
+   "sanskrit": "Ṣapānu",
+   "category": "primordial",
+   "era": "The Baal Cycle",
+   "role": "Baal's mountain, and the reason 'north' in Hebrew is named after a god's address",
+   "wikipedia": "Jebel_Aqra",
+   "portrait": "portraits/canaanite/baal_zaphon.webp",
+   "epithets": [
+    "Jebel Aqra",
+    "Mount Casius",
+    "the holy mountain"
+   ],
+   "domains": [
+    "the divine mountain",
+    "the seat of kingship",
+    "storm"
+   ],
+   "symbols": [
+    "the peak wrapped in cloud",
+    "the palace of cedar and silver"
+   ],
+   "mount": null,
+   "abode": "North of Ugarit, on the Syrian coast",
+   "festivals": [],
+   "worship": "",
+   "bio": "A real mountain you can still climb, and the Hebrew word for north is its name.",
+   "longBio": "Zaphon is Baal's mountain, a genuine peak of about 1700 metres on the Syrian-Turkish coast north of Ugarit, wreathed in cloud most of the year. Baal's palace is built on it. Because it lay north of Ugarit, the word zaphon came to mean north in Hebrew - so every time the Hebrew Bible says north it is using the name of Baal's address. Psalm 48 then calls Zion the heights of Zaphon, which is a deliberate transfer of the holy mountain from one god to another. The Greeks called it Mount Casius and Zeus fought Typhon there.",
+   "variantTraditions": "The same peak is the setting for the Hittite Illuyanka myth and the Greek Typhon story, making it one of the most persistently sacred mountains anywhere.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sky-thunder",
+    "king-ruler",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "keret",
+   "name": "Keret",
+   "sanskrit": "Kirta",
+   "category": "hero",
+   "era": "The Legends",
+   "role": "A king who lost his whole family and was told in a dream how to get a new one",
+   "wikipedia": "Epic_of_Keret",
+   "portrait": "portraits/canaanite/keret.webp",
+   "epithets": [
+    "Kirta",
+    "the noble one",
+    "son of El"
+   ],
+   "domains": [
+    "kingship",
+    "dynasty",
+    "illness",
+    "the son who overreaches"
+   ],
+   "symbols": [
+    "the tent",
+    "the siege of Udum",
+    "the sacrifice on the tower"
+   ],
+   "mount": null,
+   "abode": "Khubur",
+   "festivals": [],
+   "worship": "",
+   "bio": "El tells him to stop crying and go and besiege a city until they give him a wife.",
+   "longBio": "Keret has lost seven wives and all his children and weeps himself to sleep. El appears in a dream and gives instructions: wash, sacrifice, muster an army, march on Udum, refuse all the silver and gold and horses they offer, and demand the king's daughter Hurriya. He does it and it works. Then he neglects a vow to Athirat and falls mortally ill, the land dries up with him, and El has to fashion a healing being to cure him. Recovered, he faces his own son, who tells him that a king too sick to judge the widow and the orphan should step down. The text is about whether kingship is an office or a possession.",
+   "variantTraditions": "The Keret text breaks off before the quarrel with his son is resolved, so we do not know how it ends.",
+   "storyIds": [
+    "keret-dream"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "aqhat",
+   "name": "Aqhat",
+   "sanskrit": "ʾAqhatu",
+   "category": "hero",
+   "era": "The Legends",
+   "role": "A boy killed over a bow, because he told a goddess she could not have it",
+   "wikipedia": "Tale_of_Aqhat",
+   "portrait": "portraits/canaanite/aqhat.webp",
+   "epithets": [
+    "son of Danel",
+    "the youth with the bow"
+   ],
+   "domains": [
+    "the composite bow",
+    "hospitality",
+    "youthful arrogance",
+    "the drought that follows"
+   ],
+   "symbols": [
+    "the bow made by Kothar",
+    "the eagles"
+   ],
+   "mount": null,
+   "abode": "The house of Danel",
+   "festivals": [],
+   "worship": "",
+   "bio": "Anat offered him immortality for the bow. He said bows are not for women. She had him killed.",
+   "longBio": "Danel wants a son, feeds the Kotharat for seven days, and gets Aqhat. Kothar-wa-Khasis makes the boy a magnificent composite bow. Anat sees it and wants it, and offers silver, then gold, then immortality. Aqhat refuses all three and then makes the mistake: he tells her to get her own bow and that weapons are not women's business. She goes to El, gets permission, and has her henchman Yatpan carried over him as an eagle to strike him down. The bow is lost in the struggle anyway. The land goes barren, his sister Pughat sets out disguised as Anat to take revenge, and the tablet breaks.",
+   "variantTraditions": "Aqhat's death causing agricultural failure connects the story to the Baal Cycle's logic, but the ending is lost.",
+   "storyIds": [
+    "bow-of-aqhat"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "danel",
+   "name": "Danel",
+   "sanskrit": "Dānīʾilu",
+   "category": "hero",
+   "era": "The Legends",
+   "role": "The righteous king who judged the widow's case at the gate, and lost his son anyway",
+   "wikipedia": "Danel",
+   "portrait": "portraits/canaanite/danel.webp",
+   "epithets": [
+    "the Rapiuma man",
+    "judge of the widow and the orphan"
+   ],
+   "domains": [
+    "justice at the gate",
+    "fatherhood",
+    "mourning"
+   ],
+   "symbols": [
+    "the seat at the threshing floor",
+    "the split eagles"
+   ],
+   "mount": null,
+   "abode": "Harnam",
+   "festivals": [],
+   "worship": "",
+   "bio": "Ezekiel names him with Noah and Job as one of the three most righteous men who ever lived.",
+   "longBio": "Danel sits at the city gate and judges the case of the widow and the orphan, which is the standard ancient Near Eastern shorthand for a just ruler. He asks the gods for a son and gets Aqhat. When Aqhat is killed he curses the places nearby, splits open the eagles one by one looking for his son's remains in their bellies, finds them, buries them and mourns for seven years. Ezekiel 14 lists Noah, Danel and Job as three men so righteous that their presence could not save a guilty land - and the spelling suggests he means this Danel rather than the later biblical Daniel.",
+   "variantTraditions": "The identification of Ezekiel's Danel with the Ugaritic figure is widely held and not universally accepted.",
+   "storyIds": [
+    "bow-of-aqhat"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "king-ruler",
+    "sage-seer",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "pughat",
+   "name": "Pughat",
+   "sanskrit": "Puġatu",
+   "category": "hero",
+   "era": "The Legends",
+   "role": "Aqhat's sister, who put on armour under a woman's dress and went after his killer",
+   "wikipedia": "Tale_of_Aqhat",
+   "portrait": "portraits/canaanite/pughat.webp",
+   "epithets": [
+    "she who bears water",
+    "the wise daughter",
+    "she who knows the stars"
+   ],
+   "domains": [
+    "revenge",
+    "cunning",
+    "the reading of omens"
+   ],
+   "symbols": [
+    "the dagger under the skirt",
+    "the borrowed dress of Anat"
+   ],
+   "mount": null,
+   "abode": "Harnam",
+   "festivals": [],
+   "worship": "",
+   "bio": "She dressed as the goddess who had ordered the killing, and went to drink with the killer.",
+   "longBio": "Pughat is Aqhat's sister, described as one who carries water, knows the courses of the stars and rises early. When her brother is murdered she asks her father's blessing, washes and reddens herself with murex, puts a warrior's clothes and a dagger on under a woman's dress, and goes to Yatpan's camp. He takes her for Anat, boasts to her over drink about the hand that killed Aqhat, and pours out more wine. The tablet breaks off at that point. It is the earliest surviving version of a story shape that appears everywhere afterwards, and we do not get the ending.",
+   "variantTraditions": "The tablet ends mid-scene; whether Pughat succeeded is unknown, though the setup makes only one outcome plausible.",
+   "storyIds": [
+    "bow-of-aqhat"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sage-seer",
+    "war"
+   ]
+  },
+  {
+   "id": "rapiuma",
+   "name": "The Rapiuma",
+   "sanskrit": "Rapiʾūma",
+   "category": "underworld",
+   "era": "The Legends",
+   "role": "The shades of dead kings, summoned up for a three-day feast",
+   "wikipedia": "Rephaite",
+   "portrait": "portraits/canaanite/rapiuma.webp",
+   "epithets": [
+    "the Rephaim",
+    "the healers",
+    "the shades of the ancient ones"
+   ],
+   "domains": [
+    "the honoured dead",
+    "royal ancestors",
+    "the funerary banquet"
+   ],
+   "symbols": [
+    "the chariots they arrive in",
+    "the feast laid for three days"
+   ],
+   "mount": null,
+   "abode": "Below, and at the banquet when called",
+   "festivals": [],
+   "worship": "",
+   "bio": "You lay out food and wine for three days and the dead kings drive up in chariots.",
+   "longBio": "The Rapiuma are the shades of dead kings and heroes, and Ugaritic texts describe summoning them to a banquet - they are invited, they harness horses and mount chariots, they travel for three days, and on the third they arrive at the threshing floors and the feast is held. The dead king joins the company of his predecessors. The same word appears in the Hebrew Bible as Rephaim, used both for the shades in Sheol and for a race of giants who lived in the land before Israel, and the two senses have never been fully reconciled.",
+   "variantTraditions": "Whether the marzeah, a funerary drinking association attested at Ugarit and condemned in Amos and Jeremiah, is the setting for these texts is likely but not certain.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "preserver",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "melqart",
+   "name": "Melqart",
+   "sanskrit": "Milqartu",
+   "category": "deity",
+   "era": "Phoenicia",
+   "role": "King of the City: Tyre's god, who was burned and revived every year",
+   "wikipedia": "Melqart",
+   "portrait": "portraits/canaanite/melqart.webp",
+   "epithets": [
+    "King of the City",
+    "Baal of Tyre",
+    "the Tyrian Heracles"
+   ],
+   "domains": [
+    "Tyre",
+    "colonisation",
+    "the sea",
+    "annual death and revival"
+   ],
+   "symbols": [
+    "the pillars of his temple",
+    "the murex shell",
+    "the pyre"
+   ],
+   "mount": null,
+   "abode": "Tyre",
+   "festivals": [],
+   "worship": "",
+   "bio": "His name is a job title - king of the city - and the city was Tyre.",
+   "longBio": "Melqart is the god of Tyre and travelled wherever Tyre did, which was a long way: Carthage was founded as a Tyrian colony and kept sending tribute to his temple, and Cadiz in Spain had one of his greatest sanctuaries. Every spring his egersis, an awakening, was celebrated - an effigy burned on a pyre and the god revived. The Greeks identified him straightforwardly with Heracles, which is why Heracles ends up with Phoenician-shaped adventures in the far west and why the Strait of Gibraltar is called the Pillars of Heracles. Jezebel was a Tyrian princess, which is how his cult reached Israel and started a fight.",
+   "variantTraditions": "The identification with Heracles is ancient and explicit; Herodotus visited the Tyrian temple and reported it.",
+   "storyIds": [
+    "tophet",
+    "egersis"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "sea-waters",
+    "fire",
+    "preserver"
+   ]
+  },
+  {
+   "id": "eshmun",
+   "name": "Eshmun",
+   "sanskrit": "ʾEšmūn",
+   "category": "deity",
+   "era": "Phoenicia",
+   "role": "Sidon's healing god, who castrated himself to escape a goddess and was revived by her",
+   "wikipedia": "Eshmun",
+   "portrait": "portraits/canaanite/eshmun.webp",
+   "epithets": [
+    "the healer",
+    "Baal of Sidon",
+    "the Phoenician Asclepius"
+   ],
+   "domains": [
+    "healing",
+    "medicine",
+    "Sidon",
+    "revival"
+   ],
+   "symbols": [
+    "the serpent-entwined staff",
+    "the sacred spring at Bustan esh-Sheikh"
+   ],
+   "mount": null,
+   "abode": "Sidon",
+   "festivals": [],
+   "worship": "",
+   "bio": "A hunter pursued by Astarte, who took an axe to himself rather than be caught.",
+   "longBio": "Eshmun is the healing god of Sidon, and his story as Philo of Byblos tells it is grim: a beautiful young hunter, pursued by Astarte, who emasculated himself with an axe rather than submit and died, and whom she then revived by the warmth of her own body and made a god. His sanctuary outside Sidon was built around a spring, with basins for ritual bathing, and it is one of the best-preserved Phoenician sites - visitors left small stone statues of sick children there. The Greeks identified him with Asclepius, and his serpent-and-staff iconography is the same.",
+   "variantTraditions": "Philo of Byblos survives only in quotation by Eusebius, who was hostile, so his accounts are useful but not neutral.",
+   "storyIds": [
+    "egersis"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "serpent-dragon",
+    "preserver"
+   ]
+  },
+  {
+   "id": "tanit",
+   "name": "Tanit",
+   "sanskrit": "Tinnit",
+   "category": "deity",
+   "era": "Phoenicia",
+   "role": "Carthage's great goddess, whose sign is on tens of thousands of stones",
+   "wikipedia": "Tanit",
+   "portrait": "portraits/canaanite/tanit.webp",
+   "epithets": [
+    "Face of Baal",
+    "the Lady",
+    "Dea Caelestis under Rome"
+   ],
+   "domains": [
+    "Carthage",
+    "fertility",
+    "the moon",
+    "the tophet"
+   ],
+   "symbols": [
+    "the sign of Tanit - a triangle with a bar and a disc",
+    "the palm",
+    "the crescent"
+   ],
+   "mount": null,
+   "abode": "Carthage",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her emblem is a triangle with arms and a circle for a head, and it is everywhere in North Africa.",
+   "longBio": "Tanit is the chief goddess of Carthage, paired with Baal Hammon, and her sign - a triangle topped by a horizontal bar and a disc - appears on thousands of stelae across North Africa. Those stelae mostly come from the tophet, a precinct with urns containing the cremated remains of infants and young animals, and whether Carthage practised child sacrifice on the scale Greek and Roman writers claimed is the single most argued question in Punic studies. The current balance of evidence supports some ritual infant sacrifice while rejecting the numbers hostile sources give. Under Rome she continued as Dea Caelestis.",
+   "variantTraditions": "The tophet debate is genuinely unresolved; the isotopic and demographic evidence has been read both ways, and the ancient sources were written by Carthage's enemies.",
+   "storyIds": [
+    "tophet"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "moon",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "baal_hammon",
+   "name": "Baal Hammon",
+   "sanskrit": "Baʿl Ḥammōn",
+   "category": "deity",
+   "era": "Phoenicia",
+   "role": "Carthage's chief god, ram-horned, seated, and the one Roman writers accused of everything",
+   "wikipedia": "Baal_Hammon",
+   "portrait": "portraits/canaanite/baal_hammon.webp",
+   "epithets": [
+    "Lord of the Brazier",
+    "the ram-horned",
+    "Saturn under Rome"
+   ],
+   "domains": [
+    "Carthage",
+    "fertility",
+    "the sky",
+    "the tophet"
+   ],
+   "symbols": [
+    "ram's horns",
+    "the throne with sphinxes",
+    "the brazier"
+   ],
+   "mount": null,
+   "abode": "Carthage",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Romans equated him with Saturn, who also ate his children, and the pairing was not accidental.",
+   "longBio": "Baal Hammon is the principal god of Carthage, shown as a bearded man on a throne flanked by sphinxes, with ram's horns. His name is usually read as Lord of the Brazier or Lord of Mount Amanus, and neither reading is settled. He is paired with Tanit on the tophet stelae. When Rome took North Africa he was assimilated to Saturn and worshipped under that name into late antiquity - and the choice of Saturn, the god who ate his own children, reflects what Roman writers believed about Carthaginian practice as much as any real theological match.",
+   "variantTraditions": "The Roman identification with Saturn is documented and long-lived; African Saturn cult continued for centuries after Carthage fell.",
+   "storyIds": [
+    "tophet"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "king-ruler",
+    "fire"
+   ]
+  },
+  {
+   "id": "baal_zebub",
+   "name": "Baal Zebub",
+   "sanskrit": "Baʿal Zəbûb",
+   "category": "beast",
+   "era": "Phoenicia",
+   "role": "Lord of the Flies - which is almost certainly a joke at his expense",
+   "wikipedia": "Beelzebub",
+   "portrait": "portraits/canaanite/baal_zebub.webp",
+   "epithets": [
+    "Baal Zebul, Lord Prince",
+    "Beelzebub",
+    "the god of Ekron"
+   ],
+   "domains": [
+    "oracles",
+    "healing",
+    "the Philistine city of Ekron"
+   ],
+   "symbols": [
+    "the fly",
+    "the oracle at Ekron"
+   ],
+   "mount": null,
+   "abode": "Ekron",
+   "festivals": [],
+   "worship": "",
+   "bio": "His real title was probably Lord Prince; somebody changed one letter and made him Lord of the Flies.",
+   "longBio": "In 2 Kings, an injured king of Israel sends to enquire of Baal Zebub, the god of Ekron, and Elijah intercepts the messengers. The name means Lord of the Flies, which is a peculiar thing to call your own god - and Ugaritic gives Baal the standing epithet zbl, prince. The overwhelming likelihood is that the biblical writers took Baal Zebul, Lord Prince, and altered a letter to make it ridiculous, which is the same move made on Ashtoreth. The mockery outlasted everything: the name became Beelzebub, a chief demon in the New Testament, then a duke of hell, then a novel title.",
+   "variantTraditions": "The zbl-zbb emendation is widely accepted though not provable; an Ekron inscription found in 1996 names a goddess rather than settling the question.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "sage-seer"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "el",
+   "to": "athirat",
+   "type": "consort",
+   "note": "The old king and the mother of the seventy"
+  },
+  {
+   "from": "el",
+   "to": "baal",
+   "type": "guru",
+   "note": "Kingship is not real until El says the word"
+  },
+  {
+   "from": "el",
+   "to": "yamm",
+   "type": "parent",
+   "note": "The Sea is El's beloved, and gets a palace first"
+  },
+  {
+   "from": "el",
+   "to": "mot",
+   "type": "parent",
+   "note": "Death is also called El's beloved"
+  },
+  {
+   "from": "el",
+   "to": "anat",
+   "type": "parent",
+   "note": "She threatens to bloody his grey hair and he agrees"
+  },
+  {
+   "from": "el",
+   "to": "shapash",
+   "type": "parent",
+   "note": "The Torch of the Gods, his messenger"
+  },
+  {
+   "from": "el",
+   "to": "yarikh",
+   "type": "parent",
+   "note": "The moon among the seventy"
+  },
+  {
+   "from": "el",
+   "to": "astarte",
+   "type": "parent",
+   "note": "One of the household"
+  },
+  {
+   "from": "el",
+   "to": "resheph",
+   "type": "parent",
+   "note": "The archer of plague"
+  },
+  {
+   "from": "el",
+   "to": "kothar",
+   "type": "ally",
+   "note": "The craftsman is sent for rather than born to it"
+  },
+  {
+   "from": "athirat",
+   "to": "baal",
+   "type": "devotee",
+   "note": "She asked El for his palace and got it in one sentence"
+  },
+  {
+   "from": "athirat",
+   "to": "yamm",
+   "type": "parent",
+   "note": "Mother of the seventy, including the sea"
+  },
+  {
+   "from": "athirat",
+   "to": "kotharat",
+   "type": "parent",
+   "note": "The seven swallows who attend a birth"
+  },
+  {
+   "from": "dagon",
+   "to": "baal",
+   "type": "parent",
+   "note": "Baal is called son of Dagan throughout"
+  },
+  {
+   "from": "baal",
+   "to": "anat",
+   "type": "sibling",
+   "note": "The storm and the goddess who fights for him"
+  },
+  {
+   "from": "baal",
+   "to": "astarte",
+   "type": "consort",
+   "note": "Paired in the later Phoenician material"
+  },
+  {
+   "from": "baal",
+   "to": "yamm",
+   "type": "enemy",
+   "note": "Two named clubs, and the second one landed"
+  },
+  {
+   "from": "baal",
+   "to": "mot",
+   "type": "enemy",
+   "note": "Swallowed, and seven years later they fight like wild bulls"
+  },
+  {
+   "from": "baal",
+   "to": "kothar",
+   "type": "devotee",
+   "note": "He forged the clubs and built the palace"
+  },
+  {
+   "from": "baal",
+   "to": "baal_zaphon",
+   "type": "mount",
+   "note": "His mountain, and the Hebrew word for north"
+  },
+  {
+   "from": "baal",
+   "to": "lotan",
+   "type": "enemy",
+   "note": "The seven-headed serpent of the sea"
+  },
+  {
+   "from": "anat",
+   "to": "mot",
+   "type": "enemy",
+   "note": "She cut, winnowed, burned, ground and sowed him"
+  },
+  {
+   "from": "anat",
+   "to": "lotan",
+   "type": "enemy",
+   "note": "Listed among the things she has destroyed"
+  },
+  {
+   "from": "anat",
+   "to": "aqhat",
+   "type": "enemy",
+   "note": "He told her bows were not for women"
+  },
+  {
+   "from": "anat",
+   "to": "el",
+   "type": "enemy",
+   "note": "She got her way by threatening him"
+  },
+  {
+   "from": "yamm",
+   "to": "lotan",
+   "type": "ally",
+   "note": "The serpent belongs to the sea"
+  },
+  {
+   "from": "yamm",
+   "to": "kothar",
+   "type": "enemy",
+   "note": "The craftsman armed the other side"
+  },
+  {
+   "from": "shapash",
+   "to": "baal",
+   "type": "ally",
+   "note": "She carried his body up out of the underworld"
+  },
+  {
+   "from": "shapash",
+   "to": "mot",
+   "type": "enemy",
+   "note": "She warned him El had turned, and it ended the fight"
+  },
+  {
+   "from": "shapash",
+   "to": "resheph",
+   "type": "ally",
+   "note": "He keeps the gate she passes through"
+  },
+  {
+   "from": "yarikh",
+   "to": "shapash",
+   "type": "sibling",
+   "note": "The moon and the sun, and here the sun is the sister"
+  },
+  {
+   "from": "kothar",
+   "to": "aqhat",
+   "type": "guru",
+   "note": "He made the bow the whole tragedy is about"
+  },
+  {
+   "from": "kotharat",
+   "to": "danel",
+   "type": "ally",
+   "note": "Fed for seven days, and on the seventh his wife conceived"
+  },
+  {
+   "from": "danel",
+   "to": "aqhat",
+   "type": "parent",
+   "note": "The righteous judge and the son he could not keep"
+  },
+  {
+   "from": "danel",
+   "to": "pughat",
+   "type": "parent",
+   "note": "The daughter who went after the killer"
+  },
+  {
+   "from": "aqhat",
+   "to": "pughat",
+   "type": "sibling",
+   "note": "She put armour under a dress and went to find Yatpan"
+  },
+  {
+   "from": "danel",
+   "to": "rapiuma",
+   "type": "ally",
+   "note": "He is called a man of the Rapiuma"
+  },
+  {
+   "from": "keret",
+   "to": "el",
+   "type": "devotee",
+   "note": "El came to him in a dream and told him to stop crying"
+  },
+  {
+   "from": "keret",
+   "to": "athirat",
+   "type": "enemy",
+   "note": "He forgot a vow to her and the land dried up with him"
+  },
+  {
+   "from": "keret",
+   "to": "rapiuma",
+   "type": "ally",
+   "note": "A king joins the company of dead kings"
+  },
+  {
+   "from": "melqart",
+   "to": "baal",
+   "type": "form",
+   "note": "Baal of Tyre, under a title rather than a name"
+  },
+  {
+   "from": "melqart",
+   "to": "astarte",
+   "type": "ally",
+   "note": "The two great gods of the Tyrian state"
+  },
+  {
+   "from": "eshmun",
+   "to": "astarte",
+   "type": "enemy",
+   "note": "She pursued him and he took an axe to himself"
+  },
+  {
+   "from": "eshmun",
+   "to": "astarte",
+   "type": "devotee",
+   "note": "And she revived him with the warmth of her body"
+  },
+  {
+   "from": "tanit",
+   "to": "baal_hammon",
+   "type": "consort",
+   "note": "The pair named together on the Carthage stelae"
+  },
+  {
+   "from": "tanit",
+   "to": "astarte",
+   "type": "form",
+   "note": "The great goddess of the west, under a Punic name"
+  },
+  {
+   "from": "baal_hammon",
+   "to": "baal",
+   "type": "form",
+   "note": "The Carthaginian Baal, assimilated to Saturn by Rome"
+  },
+  {
+   "from": "baal_hammon",
+   "to": "el",
+   "type": "form",
+   "note": "Old, enthroned and horned - closer to El than to the storm"
+  },
+  {
+   "from": "baal_zebub",
+   "to": "baal",
+   "type": "form",
+   "note": "Lord Prince, with one letter changed to mock him"
+  },
+  {
+   "from": "melqart",
+   "to": "eshmun",
+   "type": "sibling",
+   "note": "Tyre's god and Sidon's, the two great Phoenician cities"
+  }
+ ]
+}
