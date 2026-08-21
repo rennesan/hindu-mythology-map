@@ -15,7 +15,19 @@ const CAT_COLORS = {
   naga: "#16a34a", celestial: "#67e8f9", vahana: "#f97316",
   titan: "#c084fc", olympian: "#eab308", giant: "#dc2626", nymph: "#67e8f9",
   primordial: "#8b8bf0", chthonic: "#7c5cbf", daemon: "#5eead4",
-  monster: "#b91c1c", hero: "#f59e0b", mortal: "#cd8b4a", seer: "#a3e635"
+  monster: "#b91c1c", hero: "#f59e0b", mortal: "#cd8b4a", seer: "#a3e635",
+  /* The packs after Hindu and Greek brought their own category vocabularies and
+     nobody came back here, so deity, beast, creator and the rest fell through to
+     the grey fallback - about 450 nodes across the site rendering the same
+     colour, with the raw lowercase id shown in the legend. */
+  creator: "#facc15", deity: "#3b82f6", beast: "#fb923c",
+  underworld: "#7c5cbf", nature: "#34d399", demon: "#dc2626",
+  immortal: "#2dd4bf", dragon: "#16a34a", solar: "#fbbf24",
+  ennead: "#eab308", ogdoad: "#8b8bf0", protector: "#38bdf8",
+  "sacred-animal": "#fb923c", kami: "#3b82f6", imperial: "#eab308",
+  buddhist: "#c084fc", yokai: "#b91c1c", oni: "#b91c1c",
+  aesir: "#3b82f6", jotun: "#dc2626", vanir: "#34d399",
+  fate: "#a78bfa", valkyrie: "#f472b6", dwarf: "#d97706"
 };
 const CAT_LABELS = {
   cosmic: "Cosmic principle", trimurti: "Trimurti", tridevi: "Tridevi",
@@ -24,7 +36,15 @@ const CAT_LABELS = {
   celestial: "Celestial", vahana: "Vahana (mount)",
   titan: "Titan", olympian: "Olympian", giant: "Giant", nymph: "Nymph",
   primordial: "Primordial", chthonic: "Chthonic power", daemon: "Lesser divinity",
-  monster: "Monster", hero: "Hero", mortal: "Mortal", seer: "Seer"
+  monster: "Monster", hero: "Hero", mortal: "Mortal", seer: "Seer",
+  creator: "Creator", deity: "Deity", beast: "Beast",
+  underworld: "Underworld", nature: "Nature spirit", demon: "Demon",
+  immortal: "Immortal", dragon: "Dragon", solar: "Solar",
+  ennead: "Ennead", ogdoad: "Ogdoad", protector: "Protector",
+  "sacred-animal": "Sacred animal", kami: "Kami", imperial: "Imperial line",
+  buddhist: "Buddhist figure", yokai: "Yokai", oni: "Oni",
+  aesir: "Aesir", jotun: "Jotun", vanir: "Vanir",
+  fate: "Fate", valkyrie: "Valkyrie", dwarf: "Dwarf"
 };
 const ERA_LABELS = {
   "Cosmic": "Cosmic", "Vedic": "Vedic", "Puranic": "Puranic",

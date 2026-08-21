@@ -328,10 +328,15 @@
    "label": "Haudenosaunee",
    "sublabel": "Iroquois Confederacy",
    "accent": "#7ba88f",
-   "status": "planned",
+   "status": "live",
    "blurb": "Sky Woman falling through a hole in the sky, and the twins who made the world between them.",
    "family": "The Americas",
-   "glyph": "❖"
+   "glyph": "❖",
+   "figures": 23,
+   "stories": 11,
+   "links": 45,
+   "levels": 5,
+   "cover": "portraits/haudenosaunee/sky_woman.webp"
   },
   {
    "id": "raven",

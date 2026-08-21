@@ -1,0 +1,1681 @@
+{
+ "title": "Haudenosaunee Mythology: Figures, Relationships and Story Cycles",
+ "description": "The Six Nations tradition mapped as a relationship graph: the woman who fell through a hole in the sky, the twins who made the world easy and hard between them, and the Great Law of Peace - a constitution that has run for centuries.",
+ "generated": "2026-08-21",
+ "sources": [
+  "J. N. B. Hewitt, Iroquoian Cosmology, Parts 1 and 2 (1903, 1928) - Hewitt was of Tuscarora descent and worked from Onondaga, Seneca and Mohawk narrators",
+  "Arthur C. Parker, Seneca Myths and Folk Tales (1923) - Parker was Seneca",
+  "Harriet Maxwell Converse, Myths and Legends of the New York State Iroquois (1908)",
+  "Lewis Henry Morgan, League of the Iroquois (1851) - written with Ely S. Parker, a Seneca sachem",
+  "Note: the False Face Society and its masks are deliberately absent. The Haudenosaunee Grand Council asked in 1995 that they not be displayed, reproduced or treated as art, and that request is honoured here",
+  "Note: no portraits are generated for this pack; every figure carries a coded medallion instead"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/haudenosaunee/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "hewitt1": {
+   "t": "Iroquoian Cosmology, Part 1 (BAE 21st Annual Report)",
+   "tr": "J. N. B. Hewitt, 1903",
+   "u": "https://archive.org/details/annualreportofbu21smit"
+  },
+  "hewitt2": {
+   "t": "Iroquoian Cosmology, Part 2 (BAE 43rd Annual Report)",
+   "tr": "J. N. B. Hewitt, 1928",
+   "u": "https://archive.org/details/annualreportofbu43smit"
+  },
+  "parker": {
+   "t": "Seneca Myths and Folk Tales",
+   "tr": "Arthur C. Parker, 1923",
+   "u": "https://archive.org/details/senecamythsfolkt00park"
+  },
+  "converse": {
+   "t": "Myths and Legends of the New York State Iroquois",
+   "tr": "Harriet Maxwell Converse, 1908",
+   "u": "https://sacred-texts.com/nam/iro/index.htm"
+  },
+  "morgan": {
+   "t": "League of the Ho-de-no-sau-nee, or Iroquois",
+   "tr": "Lewis Henry Morgan, 1851",
+   "u": "https://archive.org/details/leagueofhodenosa00morg"
+  }
+ },
+ "meta": {
+  "id": "haudenosaunee",
+  "label": "Haudenosaunee",
+  "sublabel": "The Six Nations Confederacy",
+  "accent": "#7ba88f",
+  "root": "sky_woman"
+ },
+ "profile": {
+  "cosmicNature": "It starts with a fall. A woman drops through a hole where a tree has been uprooted in the world above, and the birds catch her, and a muskrat brings up mud from the bottom of the sea and puts it on a turtle's back, and she dances on it until it is a continent. North America is still called Turtle Island. There is no creation from nothing here - the sky world already existed, and this one is built on top of an animal by cooperation.",
+  "natureOfDivinity": "Not gods. The Haudenosaunee word usually rendered as spirit or god is closer to a person - and the world is full of persons who are not human: the Three Sisters who are corn, beans and squash, the Thunderers who are relatives, the winds, the elder brother the sun. Above them Sky Holder, who made the world workable, and against him his twin, who made it difficult. The relationship with all of them is family rather than worship.",
+  "afterlife": "A road westward, and a long walk. The dead travel a path to the sky world, and the Condolence rite for a dead chief is one of the most elaborate ceremonies in North America - not because death is fearful but because grief makes people unable to think, and the ceremony exists specifically to clear the eyes, the ears and the throat of the bereaved so that business can resume. The dead are mourned and then set down.",
+  "systemMechanism": "Peace as a constitution. The Great Law of Peace binds five and then six nations under a Grand Council of fifty chiefs, nominated by clan mothers who can also remove them, deciding by consensus across a fixed order of debate. It has run continuously for centuries. It is also the reason a great deal of the tradition is framed around ending a cycle of revenge killing rather than around cosmology.",
+  "canonTexts": "The creation account, recorded by Hewitt from Onondaga, Seneca and Mohawk narrators; the Great Law of Peace, held in wampum and recited over days; the Code of Handsome Lake, the Gaiwiio, delivered from 1799 and still recited; and the Thanksgiving Address, the Ohenten Kariwatekwen, which opens and closes every gathering and thanks each part of the world in turn."
+ },
+ "hierarchy": [
+  {
+   "title": "The Fall",
+   "blurb": "A tree is uprooted in the world above and a pregnant woman falls through the hole, snatching seeds on the way down. There is only water below. The birds catch her, the animals hold a council, and the smallest diver comes up dead with the mud that becomes a continent.",
+   "memberIds": [
+    "sky_woman",
+    "waterfowl",
+    "muskrat",
+    "great_turtle",
+    "lynx"
+   ],
+   "connectorCaption": "Her daughter bears twins who quarrel before they are born"
+  },
+  {
+   "title": "The Twins",
+   "blurb": "One makes the world workable - level ground, fruit within reach, rivers running both ways at once. The other follows behind editing: thorns, rapids, predators, bones in the fish, and rivers that go one way only. Neither is destroyed and the world keeps both sets of changes.",
+   "memberIds": [
+    "sky_holder",
+    "flint",
+    "three_sisters",
+    "thunderers",
+    "gaoh"
+   ],
+   "connectorCaption": "The second twin's contributions are still out there in the water and the north"
+  },
+  {
+   "title": "The Dangerous",
+   "blurb": "Cannibal giants with skin of stone. A vast head that flies about eating and cannot be filled, beaten by a woman who pretended to enjoy hot coals. And under the lakes, the horned serpents the Thunderers exist to hunt.",
+   "memberIds": [
+    "stone_giants",
+    "flying_head",
+    "horned_serpent",
+    "jogah"
+   ],
+   "connectorCaption": "Against all of it, the thing this tradition is actually built around"
+  },
+  {
+   "title": "The Great Law",
+   "blurb": "A cycle of revenge killing with no end in it, stopped by a man in a white stone canoe. Fifty chiefs, nominated and removable by clan mothers, deciding by consensus. It is not mythology - it is a constitution, and it has been running for centuries.",
+   "memberIds": [
+    "peacemaker",
+    "hiawatha",
+    "jigonhsasee",
+    "tadodaho",
+    "great_law",
+    "tree_of_peace",
+    "wampum"
+   ],
+   "connectorCaption": "And two things still spoken today, one from 1799 and one from before that"
+  },
+  {
+   "title": "Still Spoken",
+   "blurb": "A dying alcoholic's vision in 1799 that became a religion recited in longhouses now. And the words that come before all else - thanking every part of the world by name, in order, and ending each time: now our minds are one.",
+   "memberIds": [
+    "handsome_lake",
+    "thanksgiving_address"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "fall",
+   "label": "The Fall",
+   "memberIds": [
+    "sky_woman",
+    "waterfowl",
+    "muskrat",
+    "great_turtle",
+    "lynx"
+   ]
+  },
+  {
+   "id": "twins",
+   "label": "The Twins",
+   "memberIds": [
+    "sky_holder",
+    "flint",
+    "lynx",
+    "three_sisters"
+   ]
+  },
+  {
+   "id": "weather",
+   "label": "Weather and Growing",
+   "memberIds": [
+    "thunderers",
+    "gaoh",
+    "three_sisters",
+    "jogah"
+   ]
+  },
+  {
+   "id": "dangerous",
+   "label": "The Dangerous",
+   "memberIds": [
+    "stone_giants",
+    "flying_head",
+    "horned_serpent",
+    "flint"
+   ]
+  },
+  {
+   "id": "founders",
+   "label": "The Founders of the Peace",
+   "memberIds": [
+    "peacemaker",
+    "hiawatha",
+    "jigonhsasee",
+    "tadodaho"
+   ]
+  },
+  {
+   "id": "law",
+   "label": "The Great Law",
+   "memberIds": [
+    "great_law",
+    "tree_of_peace",
+    "wampum",
+    "thanksgiving_address"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-fall",
+   "title": "The Woman Who Fell",
+   "era": "The Fall",
+   "cast": [
+    "sky_woman",
+    "waterfowl",
+    "muskrat",
+    "great_turtle"
+   ],
+   "summary": "In the world above there is a great tree, and it is uprooted, and a pregnant woman goes through the hole it leaves. On the way down she grabs at the rim and comes away with seeds and a handful of earth in her fist. Below there is nothing but water. The waterfowl see her falling and rise together and lock their wings so that she settles onto them rather than into the sea. Then the animals argue about what to do, and dive one after another for mud - loon, otter, beaver - and fail, until the muskrat goes down and comes back up dead with a scrap of it in one paw. It is put on the turtle's back, and it grows.",
+   "sources": [
+    {
+     "book": "Iroquoian Cosmology, Part 1 (BAE 21st Annual Report)",
+     "translation": "J. N. B. Hewitt, 1903",
+     "location": "The Onondaga version",
+     "url": "https://archive.org/details/annualreportofbu21smit"
+    },
+    {
+     "book": "Myths and Legends of the New York State Iroquois",
+     "translation": "Harriet Maxwell Converse, 1908",
+     "location": "The creation",
+     "url": "https://sacred-texts.com/nam/iro/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "twins-quarrel",
+   "title": "The Twins Who Quarrelled Before Birth",
+   "era": "The Twins",
+   "cast": [
+    "lynx",
+    "sky_holder",
+    "flint"
+   ],
+   "summary": "Sky Woman's daughter conceives twins and they begin arguing in the womb about how to be born. The first comes out the ordinary way. The second refuses and forces his way out through her side, and she dies of it. She is buried, and the food plants come up out of her body - corn from her chest, beans from her fingers, squash from her stomach, tobacco from her head - so that the first death produces everything people live on. Sky Woman raises the twins and, in most tellings, favours the difficult one, which does not improve matters between them.",
+   "sources": [
+    {
+     "book": "Iroquoian Cosmology, Part 2 (BAE 43rd Annual Report)",
+     "translation": "J. N. B. Hewitt, 1928",
+     "location": "The Seneca version",
+     "url": "https://archive.org/details/annualreportofbu43smit"
+    },
+    {
+     "book": "Seneca Myths and Folk Tales",
+     "translation": "Arthur C. Parker, 1923",
+     "location": "The creation",
+     "url": "https://archive.org/details/senecamythsfolkt00park"
+    }
+   ]
+  },
+  {
+   "id": "rivers-both-ways",
+   "title": "Rivers That Ran Both Ways",
+   "era": "The Twins",
+   "cast": [
+    "sky_holder",
+    "flint"
+   ],
+   "summary": "Sky Holder made the world as easy as he could. He made rivers that ran in both directions at the same time, so that a canoe could go anywhere without anyone paddling upstream. He made fruit trees with the fruit within reach and no thorns on them. He made animals that would come when called. And after each thing, his brother came along behind and revised it: the rivers now run one way, the fruit went high and grew thorns, and the animals have to be hunted. When the twins finally fought, it turned out only flint or antler would hurt Tawiskaron. He lost, and went west, and every one of his edits stayed.",
+   "sources": [
+    {
+     "book": "Iroquoian Cosmology, Part 2 (BAE 43rd Annual Report)",
+     "translation": "J. N. B. Hewitt, 1928",
+     "location": "The twins",
+     "url": "https://archive.org/details/annualreportofbu43smit"
+    },
+    {
+     "book": "Seneca Myths and Folk Tales",
+     "translation": "Arthur C. Parker, 1923",
+     "location": "Sapling and Flint",
+     "url": "https://archive.org/details/senecamythsfolkt00park"
+    }
+   ]
+  },
+  {
+   "id": "three-sisters",
+   "title": "Why They Are Planted Together",
+   "era": "The Twins",
+   "cast": [
+    "three_sisters",
+    "lynx"
+   ],
+   "summary": "Corn, beans and squash are sisters and they are planted in one mound, and the tradition says they cannot be separated. The agronomy is genuinely excellent. The corn stalk gives the beans a pole to climb. The beans fix nitrogen back into soil the corn is stripping out. The squash spreads broad leaves across the ground, holds the moisture in, shades out the weeds, and its prickly stems discourage animals from walking through. Eaten together they make a more complete protein than any of them does alone. Western agriculture spent most of a century arriving at intercropping, and this is it, running for a thousand years.",
+   "sources": [
+    {
+     "book": "Seneca Myths and Folk Tales",
+     "translation": "Arthur C. Parker, 1923",
+     "location": "The food plants",
+     "url": "https://archive.org/details/senecamythsfolkt00park"
+    },
+    {
+     "book": "Myths and Legends of the New York State Iroquois",
+     "translation": "Harriet Maxwell Converse, 1908",
+     "location": "The Three Sisters",
+     "url": "https://sacred-texts.com/nam/iro/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "chestnuts",
+   "title": "The Woman and the Flying Head",
+   "era": "The Dangerous",
+   "cast": [
+    "flying_head",
+    "jogah"
+   ],
+   "summary": "The Flying Head is an enormous head with streaming hair and burning eyes and claws, which flies about eating everything it can reach and is never full. A woman alone in a longhouse looked up and saw it at the door watching her. She did not run. She put chestnuts in the fire until they were glowing red, took them out with the tongs, and ate them - or appeared to - with every sign of enjoyment. The Flying Head, which could not bear to see anything eaten that it was not eating, snatched a mouthful of live coals and swallowed them, and went off screaming across the sky and did not come back.",
+   "sources": [
+    {
+     "book": "Seneca Myths and Folk Tales",
+     "translation": "Arthur C. Parker, 1923",
+     "location": "The Flying Head",
+     "url": "https://archive.org/details/senecamythsfolkt00park"
+    },
+    {
+     "book": "Myths and Legends of the New York State Iroquois",
+     "translation": "Harriet Maxwell Converse, 1908",
+     "location": "Kanontsistonties",
+     "url": "https://sacred-texts.com/nam/iro/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "ducks-and-shells",
+   "title": "The Ducks Lifted the Water",
+   "era": "The Great Law",
+   "cast": [
+    "hiawatha",
+    "peacemaker",
+    "wampum"
+   ],
+   "summary": "Hiawatha's three daughters died, and the grief took his mind, and he went into the forest and wandered without purpose. Sitting by a lake he watched a flock of ducks rise all at once - and in the story they lift the water with them as they go, leaving the lake bed dry and covered in shells. He gathered the shells and strung them, and said that if he ever met anyone as bereaved as he was, he would use these words to comfort them. That is where wampum comes from, and the Condolence. Then the Peacemaker found him, and spoke those words to him, and cleared his eyes and his ears and his throat.",
+   "sources": [
+    {
+     "book": "Iroquoian Cosmology, Part 2 (BAE 43rd Annual Report)",
+     "translation": "J. N. B. Hewitt, 1928",
+     "location": "The founding",
+     "url": "https://archive.org/details/annualreportofbu43smit"
+    },
+    {
+     "book": "Myths and Legends of the New York State Iroquois",
+     "translation": "Harriet Maxwell Converse, 1908",
+     "location": "Hiawatha",
+     "url": "https://sacred-texts.com/nam/iro/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "combing-the-snakes",
+   "title": "Combing the Snakes Out",
+   "era": "The Great Law",
+   "cast": [
+    "tadodaho",
+    "peacemaker",
+    "hiawatha",
+    "great_law"
+   ],
+   "summary": "Tadodaho of Onondaga had a body twisted into seven crooks and living snakes in his hair, and he killed at a distance, and he refused the peace over and over while every other nation accepted it. So the Peacemaker and Hiawatha went to him with the whole confederacy assembled behind them, singing the peace song, and combed the snakes out of his hair and straightened his body - and then made him the firekeeper who presides over the Grand Council. Converting the single greatest obstacle into the chair of the meeting is a piece of political design worth pausing on. Tadodaho remains the title of that office and it is held today.",
+   "sources": [
+    {
+     "book": "Iroquoian Cosmology, Part 2 (BAE 43rd Annual Report)",
+     "translation": "J. N. B. Hewitt, 1928",
+     "location": "The founding",
+     "url": "https://archive.org/details/annualreportofbu43smit"
+    },
+    {
+     "book": "League of the Ho-de-no-sau-nee, or Iroquois",
+     "translation": "Lewis Henry Morgan, 1851",
+     "location": "The League",
+     "url": "https://archive.org/details/leagueofhodenosa00morg"
+    }
+   ]
+  },
+  {
+   "id": "buried-weapons",
+   "title": "Under the White Pine",
+   "era": "The Great Law",
+   "cast": [
+    "tree_of_peace",
+    "peacemaker",
+    "great_law"
+   ],
+   "summary": "At the founding, the Peacemaker had a great white pine pulled up by the roots, and underneath it ran a fast underground stream. Every nation threw its weapons of war into the current to be carried away out of sight, and then the tree was put back over the top of them. Four white roots run out from it to the four directions, and any nation that wants the peace may follow a root back to the tree and come under its shelter. An eagle sits on the topmost branch watching the horizon. The English phrase to bury the hatchet comes from this, and it was performed at treaty councils with Europeans.",
+   "sources": [
+    {
+     "book": "Iroquoian Cosmology, Part 2 (BAE 43rd Annual Report)",
+     "translation": "J. N. B. Hewitt, 1928",
+     "location": "The Tree of Peace",
+     "url": "https://archive.org/details/annualreportofbu43smit"
+    },
+    {
+     "book": "League of the Ho-de-no-sau-nee, or Iroquois",
+     "translation": "Lewis Henry Morgan, 1851",
+     "location": "The League",
+     "url": "https://archive.org/details/leagueofhodenosa00morg"
+    }
+   ]
+  },
+  {
+   "id": "fifty-chiefs",
+   "title": "Fifty Titles and the Women Who Hold Them",
+   "era": "The Great Law",
+   "cast": [
+    "great_law",
+    "jigonhsasee",
+    "tadodaho",
+    "wampum"
+   ],
+   "summary": "The Great Law binds five nations, and six after the Tuscarora came in 1722, under a Grand Council of fifty chiefs. Each holds a title that outlives the man in it. Debate moves in a fixed order between the two sides of the council and back until there is consensus - not a vote. The chiefs are nominated by clan mothers, who hold their antlers of office and can take them back from a chief who fails. Jigonhsasee was the first person to accept the peace, before any chief, and that is the stated reason women hold that power. The whole thing is recorded in wampum and recited from it over several days.",
+   "sources": [
+    {
+     "book": "League of the Ho-de-no-sau-nee, or Iroquois",
+     "translation": "Lewis Henry Morgan, 1851",
+     "location": "The League",
+     "url": "https://archive.org/details/leagueofhodenosa00morg"
+    },
+    {
+     "book": "Iroquoian Cosmology, Part 2 (BAE 43rd Annual Report)",
+     "translation": "J. N. B. Hewitt, 1928",
+     "location": "The Great Law",
+     "url": "https://archive.org/details/annualreportofbu43smit"
+    }
+   ]
+  },
+  {
+   "id": "three-messengers",
+   "title": "The Three Messengers",
+   "era": "Still Spoken",
+   "cast": [
+    "handsome_lake",
+    "three_sisters"
+   ],
+   "summary": "By 1799 the Seneca had lost nearly all their land and Handsome Lake was a sick alcoholic in a cabin at Allegany. He collapsed and appeared to die. What he came back with was a vision of three messengers in ceremonial dress carrying strawberry bushes, who gave him instructions - against alcohol above all, and for keeping the ceremonies, holding land in common, farming, and holding families together. He preached it for sixteen years. What came out of it, the Gaiwiio, is a genuinely new religion built out of Haudenosaunee tradition with some Quaker influence in it, and it is recited over several days in longhouses today.",
+   "sources": [
+    {
+     "book": "Seneca Myths and Folk Tales",
+     "translation": "Arthur C. Parker, 1923",
+     "location": "The Code of Handsome Lake",
+     "url": "https://archive.org/details/senecamythsfolkt00park"
+    }
+   ]
+  },
+  {
+   "id": "before-all-else",
+   "title": "The Words That Come Before All Else",
+   "era": "Still Spoken",
+   "cast": [
+    "thanksgiving_address",
+    "three_sisters",
+    "thunderers",
+    "gaoh"
+   ],
+   "summary": "Every Haudenosaunee gathering opens and closes with the Thanksgiving Address, and it works through the world in a fixed order: the people, the Earth Mother, the waters, the fish, the plants, the food plants, the medicine herbs, the animals, the trees, the birds, the four winds, the Thunderers, our eldest brother the sun, our grandmother the moon, the stars, the teachers, and the Creator. Each section ends with the same phrase - now our minds are one. It can run a few minutes or several hours. It is not asking for anything. It is an inventory of what is already there and a statement that everyone in the room agrees about it.",
+   "sources": [
+    {
+     "book": "Seneca Myths and Folk Tales",
+     "translation": "Arthur C. Parker, 1923",
+     "location": "The Thanksgiving",
+     "url": "https://archive.org/details/senecamythsfolkt00park"
+    },
+    {
+     "book": "Myths and Legends of the New York State Iroquois",
+     "translation": "Harriet Maxwell Converse, 1908",
+     "location": "Ceremonies",
+     "url": "https://sacred-texts.com/nam/iro/index.htm"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "sky_woman",
+   "name": "Sky Woman",
+   "sanskrit": "Ataentsic",
+   "category": "primordial",
+   "era": "The Fall",
+   "role": "She fell through a hole in the sky world, and the birds caught her on their wings",
+   "wikipedia": "Sky_Woman",
+   "portrait": "portraits/haudenosaunee/sky_woman.webp",
+   "epithets": [
+    "Ataentsic",
+    "Awenhai",
+    "the woman who fell from the sky"
+   ],
+   "domains": [
+    "the fall",
+    "the making of the land",
+    "the first mother"
+   ],
+   "symbols": [
+    "the uprooted tree",
+    "the handful of seeds",
+    "the turtle's back"
+   ],
+   "mount": null,
+   "abode": "Turtle Island",
+   "festivals": [],
+   "worship": "",
+   "bio": "She grabbed at the edge of the hole on the way down and came away with seeds in her fist.",
+   "longBio": "In the world above there is a great tree, and it is uprooted, and Sky Woman falls through the hole it leaves - pushed, or slipped, or sent, depending on the telling. She is pregnant. As she falls she snatches at the rim and comes away with seeds and a handful of earth. Below there is only water. The waterfowl see her coming and fly up and catch her on their linked backs, and the animals hold a council about where to put her, and the muskrat dives for mud. She lands on the turtle, and dances, and the mud spreads out into a continent.",
+   "variantTraditions": "The Huron-Wendat name Ataentsic and the Mohawk Awenhai are used in different sources; the fall itself is constant across all Iroquoian traditions.",
+   "storyIds": [
+    "the-fall"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "creator",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "great_turtle",
+   "name": "The Great Turtle",
+   "sanskrit": "Hah-nu-nah",
+   "category": "beast",
+   "era": "The Fall",
+   "role": "He offered his back, and the continent is still on it",
+   "wikipedia": "Turtle_Island_(North_America)",
+   "portrait": "portraits/haudenosaunee/great_turtle.webp",
+   "epithets": [
+    "Hah-nu-nah",
+    "Turtle Island"
+   ],
+   "domains": [
+    "the support of the land",
+    "patience",
+    "earthquakes"
+   ],
+   "symbols": [
+    "the shell with thirteen plates",
+    "the continent on his back"
+   ],
+   "mount": null,
+   "abode": "Under everything",
+   "festivals": [],
+   "worship": "",
+   "bio": "North America is called Turtle Island, and this is why, and it is not a metaphor.",
+   "longBio": "When the animals had to decide where to put the falling woman, the turtle offered his back, and the mud the muskrat brought was placed on it, and it grew. He is still there. The thirteen large plates on a turtle's shell are counted as the thirteen moons of the year, and the smaller ones around the rim as the days of a lunar month - so the animal carrying the continent is also the calendar. Turtle Island remains the ordinary Haudenosaunee name for North America and is used in formal address today.",
+   "variantTraditions": "The turtle appears in earth-diver creations from the Great Lakes across to Siberia; the calendrical reading of the shell is specifically Haudenosaunee.",
+   "storyIds": [
+    "the-fall"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "muskrat",
+   "name": "The Muskrat",
+   "sanskrit": "Anokien",
+   "category": "beast",
+   "era": "The Fall",
+   "role": "The smallest diver, who came up dead with the mud that made the world",
+   "wikipedia": "Earth-diver",
+   "portrait": "portraits/haudenosaunee/muskrat.webp",
+   "epithets": [
+    "the little one",
+    "the last to try"
+   ],
+   "domains": [
+    "the dive",
+    "self-sacrifice",
+    "the first earth"
+   ],
+   "symbols": [
+    "the paw with mud in it",
+    "the deep water"
+   ],
+   "mount": null,
+   "abode": "The bottom of the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "Otter tried and failed. Beaver tried and failed. The muskrat went and did not come back.",
+   "longBio": "The animals took turns diving for mud from the bottom, because the woman falling from the sky needed somewhere to land. The loon tried and could not reach it. The otter tried. The beaver tried and drowned in the attempt. Finally the muskrat, the smallest of them, went down - and came back up dead, floating, with a scrap of mud clenched in one paw. That was enough. It was placed on the turtle's back and it began to grow. The world exists because the least likely animal in the water succeeded at the cost of its life, and the story does not dwell on it.",
+   "variantTraditions": "Which animals try and in what order varies by nation; the muskrat succeeding last and at the cost of its life is constant.",
+   "storyIds": [
+    "the-fall"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "creator",
+    "preserver"
+   ]
+  },
+  {
+   "id": "waterfowl",
+   "name": "The Waterfowl",
+   "sanskrit": "Waterfowl",
+   "category": "beast",
+   "era": "The Fall",
+   "role": "They saw her falling and flew up together to break the fall",
+   "wikipedia": "Sky_Woman",
+   "portrait": "portraits/haudenosaunee/waterfowl.webp",
+   "epithets": [
+    "the geese",
+    "the swans",
+    "the birds who caught her"
+   ],
+   "domains": [
+    "flight",
+    "cooperation",
+    "the catching"
+   ],
+   "symbols": [
+    "linked wings",
+    "the descent"
+   ],
+   "mount": null,
+   "abode": "The air above the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "No single bird could have held her. They interlocked their wings and made a floor.",
+   "longBio": "The waterfowl are the first responders of Haudenosaunee cosmology. They are on the water when Sky Woman comes down through the clouds, and they rise together and interlock their wings so that she settles on them instead of into the sea. Then they hold her up while the animals argue about what to do next. It is a small detail and it sets the tone for everything after: the world is made by a committee of animals, none of whom could have managed it alone, and the first act in it is a rescue.",
+   "variantTraditions": "Geese are named most often; some tellings say swans or simply the birds.",
+   "storyIds": [
+    "the-fall"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "preserver"
+   ]
+  },
+  {
+   "id": "lynx",
+   "name": "The Daughter",
+   "sanskrit": "Tekawerahkwa",
+   "category": "primordial",
+   "era": "The Fall",
+   "role": "Sky Woman's daughter, who died giving birth to twins and became the food plants",
+   "wikipedia": "Sky_Woman",
+   "portrait": "portraits/haudenosaunee/lynx.webp",
+   "epithets": [
+    "Tekawerahkwa",
+    "the daughter",
+    "the Corn Mother"
+   ],
+   "domains": [
+    "birth",
+    "death in childbirth",
+    "the origin of corn, beans and squash"
+   ],
+   "symbols": [
+    "the three plants growing from her grave",
+    "the mound"
+   ],
+   "mount": null,
+   "abode": "Buried on Turtle Island",
+   "festivals": [],
+   "worship": "",
+   "bio": "Corn came up from her chest, beans from her fingers, squash from her stomach.",
+   "longBio": "Sky Woman's daughter is born on the new land and grows up there, and conceives twins - by the West Wind, or by a being who visits her, the accounts differ. The twins quarrel before they are born. The first is born properly; the second refuses and forces his way out through her side or her armpit, and she dies of it. She is buried, and from her body come the plants people live on: corn from her chest, beans from her fingers, squash from her stomach, tobacco from her head. The Three Sisters are her, and they are planted together because they grew together.",
+   "variantTraditions": "The name Tekawerahkwa is Mohawk; several sources leave the daughter unnamed.",
+   "storyIds": [
+    "twins-quarrel",
+    "three-sisters"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "creator"
+   ]
+  },
+  {
+   "id": "sky_holder",
+   "name": "Sky Holder",
+   "sanskrit": "Tharonhiawakon",
+   "category": "creator",
+   "era": "The Twins",
+   "role": "The one who made everything workable, and had to keep undoing his brother's edits",
+   "wikipedia": "Sapling_and_Flint",
+   "portrait": "portraits/haudenosaunee/sky_holder.webp",
+   "epithets": [
+    "Tharonhiawakon",
+    "Sapling",
+    "He Who Holds Up the Sky",
+    "the Good Mind"
+   ],
+   "domains": [
+    "creation",
+    "rivers",
+    "animals",
+    "people",
+    "the workable world"
+   ],
+   "symbols": [
+    "the growing sapling",
+    "the two-way river",
+    "the smooth earth"
+   ],
+   "mount": null,
+   "abode": "Turtle Island",
+   "festivals": [],
+   "worship": "",
+   "bio": "He made rivers that ran both ways at once so nobody would ever have to paddle upstream.",
+   "longBio": "Sky Holder is the twin who makes things and makes them easy: level ground, fruit trees, animals that come when called, and rivers that ran in both directions at the same time so that a canoe could go anywhere without effort. He makes people out of earth. Everything in the world that works is his. And after each thing he makes, his brother comes along behind and alters it - so the rivers now run one way only, the fruit is smaller and harder to reach, and the animals have to be hunted. He is not called a god. He is called the Good Mind, which is a different claim.",
+   "variantTraditions": "Sapling and Tharonhiawakon are the same figure; nations differ on the names and on how much of the world each twin made.",
+   "storyIds": [
+    "twins-quarrel",
+    "rivers-both-ways"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "preserver",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "flint",
+   "name": "Flint",
+   "sanskrit": "Tawiskaron",
+   "category": "creator",
+   "era": "The Twins",
+   "role": "The other twin, who did not so much create as edit - and made everything harder",
+   "wikipedia": "Sapling_and_Flint",
+   "portrait": "portraits/haudenosaunee/flint.webp",
+   "epithets": [
+    "Tawiskaron",
+    "the flinty one",
+    "the Evil Mind"
+   ],
+   "domains": [
+    "difficulty",
+    "thorns",
+    "predators",
+    "winter",
+    "the mountains"
+   ],
+   "symbols": [
+    "flint",
+    "the ice",
+    "the thorns on the rose"
+   ],
+   "mount": null,
+   "abode": "The west",
+   "festivals": [],
+   "worship": "",
+   "bio": "He put bones in the fish, thorns on the berries, and made the rivers run one way.",
+   "longBio": "Tawiskaron is born second, out through his mother's side, killing her. He is not evil in the way the word suggests - he is the reason the world is difficult rather than easy. Where his brother made rivers running both ways he made them run one way. Where his brother made fruit within reach he put it high and gave it thorns. He made the rapids, the mountains, the predators, the bones in fish, and the mosquito. When the twins finally fight, the weapons matter: only flint or antler will hurt him, and he loses, and goes west. He is not destroyed - the world keeps his edits.",
+   "variantTraditions": "Missionary influence pushed the twins toward a God-and-Devil reading; the older accounts are closer to two necessary halves than to good and evil.",
+   "storyIds": [
+    "twins-quarrel",
+    "rivers-both-ways"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "destroyer",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "three_sisters",
+   "name": "The Three Sisters",
+   "sanskrit": "Deohako",
+   "category": "nature",
+   "era": "The Twins",
+   "role": "Corn, beans and squash - who are sisters, are planted together, and support each other",
+   "wikipedia": "Three_Sisters_(agriculture)",
+   "portrait": "portraits/haudenosaunee/three_sisters.webp",
+   "epithets": [
+    "Deohako",
+    "our life supporters",
+    "corn, beans and squash"
+   ],
+   "domains": [
+    "agriculture",
+    "the mound",
+    "mutual support",
+    "the harvest"
+   ],
+   "symbols": [
+    "the corn stalk",
+    "the bean vine climbing it",
+    "the squash leaves below"
+   ],
+   "mount": null,
+   "abode": "The planting mound",
+   "festivals": [],
+   "worship": "",
+   "bio": "The corn gives the beans a pole, the beans feed the soil, the squash shades out the weeds.",
+   "longBio": "The Three Sisters are corn, beans and squash, and they are grown together in one mound - and the agronomy is genuinely excellent. The corn stalk gives the beans something to climb. The beans fix nitrogen in the soil the corn is stripping. The broad squash leaves cover the ground, hold moisture and keep the weeds down, and their prickly stems discourage animals. Together they also make a more complete protein than any of them alone. The tradition calls them sisters who cannot be separated, and modern agriculture has spent a century arriving at the same conclusion.",
+   "variantTraditions": "The Three Sisters intercropping system is documented across eastern North America and is now studied as a model of polyculture.",
+   "storyIds": [
+    "three-sisters",
+    "three-messengers",
+    "before-all-else"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "healer"
+   ]
+  },
+  {
+   "id": "thunderers",
+   "name": "The Thunderers",
+   "sanskrit": "Hinon",
+   "category": "deity",
+   "era": "The Twins",
+   "role": "Grandfathers who ride the storm and kill the things in the water that eat people",
+   "wikipedia": "Hinon",
+   "portrait": "portraits/haudenosaunee/thunderers.webp",
+   "epithets": [
+    "Hinon",
+    "Heno",
+    "the Seven Thunders",
+    "our grandfathers"
+   ],
+   "domains": [
+    "thunder",
+    "rain",
+    "the killing of monsters",
+    "the cleaning of the water"
+   ],
+   "symbols": [
+    "the lightning",
+    "the rain that follows",
+    "the great horned serpent as prey"
+   ],
+   "mount": null,
+   "abode": "Behind the falls, and in the clouds",
+   "festivals": [],
+   "worship": "",
+   "bio": "They are not feared. They are addressed as grandfathers and thanked for the rain.",
+   "longBio": "The Thunderers come from the west with the storm, and their work is protective: they bring the rain that makes the crops, and they hunt the monsters that live under the water - especially the great horned serpents that would otherwise take people. Thunder is them, and lightning is them throwing. They are addressed in the Thanksgiving Address as our grandfathers, which is exactly the register: relatives with a job, thanked when they do it. One tradition places Hinon's home in a cave behind Niagara Falls, which is the sort of place a thunder god would in fact live.",
+   "variantTraditions": "The Thunderers as protectors rather than threats is consistent across Haudenosaunee sources and contrasts with many storm-god traditions.",
+   "storyIds": [
+    "before-all-else"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "preserver",
+    "war"
+   ]
+  },
+  {
+   "id": "gaoh",
+   "name": "Gaoh",
+   "sanskrit": "Ga-oh",
+   "category": "deity",
+   "era": "The Twins",
+   "role": "The wind, kept in a house with four animals tied at the doors",
+   "wikipedia": "Ga-oh",
+   "portrait": "portraits/haudenosaunee/gaoh.webp",
+   "epithets": [
+    "the wind giant",
+    "the keeper of the winds"
+   ],
+   "domains": [
+    "wind",
+    "the four directions",
+    "the seasons"
+   ],
+   "symbols": [
+    "the bear at the north door",
+    "the panther at the west",
+    "the moose at the east",
+    "the fawn at the south"
+   ],
+   "mount": null,
+   "abode": "The house of the winds",
+   "festivals": [],
+   "worship": "",
+   "bio": "Each wind is an animal on a leash, and you can tell which one is loose by the weather.",
+   "longBio": "Ga-oh keeps the winds, and each of the four is an animal tied at one of his doors. The bear is the north wind, and when he lets it out it brings winter and storms. The panther is the west, and it comes with a scream and a violent temper. The moose is the east, bringing wet mist and rain from the sea. The fawn is the south, gentle, and the one that brings the growing weather. It is a completely serviceable weather forecast: you know what kind of wind you have got by knowing which animal has been let off its rope.",
+   "variantTraditions": "The animal-wind scheme is recorded by Converse and Parker from Seneca sources.",
+   "storyIds": [
+    "before-all-else"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "divine-beast",
+    "preserver"
+   ]
+  },
+  {
+   "id": "stone_giants",
+   "name": "The Stone Giants",
+   "sanskrit": "Genonsgwa",
+   "category": "beast",
+   "era": "The Dangerous",
+   "role": "Cannibal giants with skin of rock, who lost because one of them talked",
+   "wikipedia": "Stone_Giants",
+   "portrait": "portraits/haudenosaunee/stone_giants.webp",
+   "epithets": [
+    "Genonsgwa",
+    "the stone coats"
+   ],
+   "domains": [
+    "cannibalism",
+    "stone armour",
+    "the north"
+   ],
+   "symbols": [
+    "skin of overlapping stone scales",
+    "the finger of rock"
+   ],
+   "mount": null,
+   "abode": "The north, and the caves",
+   "festivals": [],
+   "worship": "",
+   "bio": "Arrows bounce off them. What worked was the Thunderers, and one giant's own mouth.",
+   "longBio": "The Genonsgwa are giants whose bodies are covered in scales of stone so that nothing pierces them, and they eat people. Various accounts have them defeated in various ways - trapped in a ravine and destroyed by the Thunderers, or beaten because one of them befriended a man and told him where the weak spot was, which is under the arm or in the palm of the hand. In one Seneca telling a single stone giant, having been shown kindness, warns his intended victims and helps them, which is a more interesting story than the extermination.",
+   "variantTraditions": "Stone-skinned cannibals appear across the Northeast and in Cherokee tradition as Nvyunuwi; the connection is regional rather than borrowed.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "flying_head",
+   "name": "The Flying Head",
+   "sanskrit": "Kanontsistonties",
+   "category": "beast",
+   "era": "The Dangerous",
+   "role": "An enormous head with hair and claws that eats everything, defeated by a woman eating chestnuts",
+   "wikipedia": "Flying_Head",
+   "portrait": "portraits/haudenosaunee/flying_head.webp",
+   "epithets": [
+    "Kanontsistonties",
+    "the great head"
+   ],
+   "domains": [
+    "hunger",
+    "the storm",
+    "the night"
+   ],
+   "symbols": [
+    "a head four times the size of a man, with wings of hair",
+    "the burning chestnuts"
+   ],
+   "mount": null,
+   "abode": "The air, in bad weather",
+   "festivals": [],
+   "worship": "",
+   "bio": "She sat by the fire eating red-hot stones in front of it, and it decided to try some.",
+   "longBio": "The Flying Head is a huge head with streaming hair, burning eyes and claws, which flies about eating whatever it finds and cannot be filled. A woman alone in a longhouse saw it looking in at her, and instead of running she put chestnuts in the fire until they were red hot, took them out and ate them - as she appeared to - with great relish. The Flying Head, watching, and unable to resist anything edible, snatched a mouthful of live coals and swallowed them, and flew off screaming and was not seen again. The tradition's monsters are beaten by nerve more often than by force.",
+   "variantTraditions": "The chestnut trick is the standard ending; Parker and Converse both record it.",
+   "storyIds": [
+    "chestnuts"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "horned_serpent",
+   "name": "The Horned Serpent",
+   "sanskrit": "Onyare",
+   "category": "beast",
+   "era": "The Dangerous",
+   "role": "It lives under the lake, and the Thunderers hunt it",
+   "wikipedia": "Horned_Serpent",
+   "portrait": "portraits/haudenosaunee/horned_serpent.webp",
+   "epithets": [
+    "Onyare",
+    "the great serpent of the water"
+   ],
+   "domains": [
+    "deep water",
+    "drowning",
+    "the prey of the Thunderers"
+   ],
+   "symbols": [
+    "horns",
+    "the wake on still water",
+    "the crystal in its head"
+   ],
+   "mount": null,
+   "abode": "Under the lakes and rivers",
+   "festivals": [],
+   "worship": "",
+   "bio": "The reason the Thunderers matter is that something in the water needs hunting.",
+   "longBio": "The horned serpent lives in deep water and takes people who go near it, and it is the standing enemy of the Thunderers, who come with the storm specifically to hunt it. That relationship is why thunder is welcome rather than frightening in this tradition - it means the protective force is out working. Some accounts give the serpent a crystal or a scale that is powerfully lucky if you can get it. Underwater horned serpents opposed by thunderbirds is one of the most widely shared frameworks in eastern and central North America.",
+   "variantTraditions": "The underwater panther or horned serpent versus thunderbird opposition runs from the Great Lakes to the Southeast and is one of the oldest attested patterns in the region.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "jogah",
+   "name": "The Jogah",
+   "sanskrit": "Jogah",
+   "category": "deity",
+   "era": "The Dangerous",
+   "role": "Little people in three kinds - one tends plants, one drums under rocks, one guards the dark",
+   "wikipedia": "Jogah",
+   "portrait": "portraits/haudenosaunee/jogah.webp",
+   "epithets": [
+    "the little people",
+    "the Gahonga",
+    "the Gandayah",
+    "the Ohdows"
+   ],
+   "domains": [
+    "plants and fruit",
+    "the rocks and rivers",
+    "the underworld",
+    "help and mischief"
+   ],
+   "symbols": [
+    "the drum heard in a cliff",
+    "the strawberry",
+    "the small footprints"
+   ],
+   "mount": null,
+   "abode": "Rocks, rivers and under the ground",
+   "festivals": [],
+   "worship": "",
+   "bio": "One kind spends its time making sure the strawberries ripen. Another holds down what is below.",
+   "longBio": "The Jogah are small people and they come in three sorts with three jobs. The Gahonga live in rocks and rivers and are strong out of all proportion to their size. The Gandayah look after the growing things - they make the fruit ripen and the flowers open, and the strawberry is particularly theirs. The Ohdows live underground and keep the monsters below from getting up into the world. Drumming heard from inside a cliff is them. They are helpful if treated well and thoroughly not if not, and tobacco is the usual offering.",
+   "variantTraditions": "The three-fold division is recorded by Converse; other sources are less systematic about it.",
+   "storyIds": [
+    "chestnuts"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "earth-mother",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "peacemaker",
+   "name": "The Peacemaker",
+   "sanskrit": "Deganawida",
+   "category": "hero",
+   "era": "The Great Law",
+   "role": "He came in a white stone canoe to end a war of revenge that had no end in it",
+   "wikipedia": "Dekanawida",
+   "portrait": "portraits/haudenosaunee/peacemaker.webp",
+   "epithets": [
+    "Deganawida",
+    "the Great Peacemaker"
+   ],
+   "domains": [
+    "the Great Law of Peace",
+    "the Confederacy",
+    "the ending of blood feud"
+   ],
+   "symbols": [
+    "the white stone canoe",
+    "the Tree of Peace",
+    "the buried weapons"
+   ],
+   "mount": null,
+   "abode": "From the north shore of Lake Ontario",
+   "festivals": [],
+   "worship": "",
+   "bio": "His name is not spoken casually. Many Haudenosaunee say only the Peacemaker.",
+   "longBio": "The nations were locked in a cycle of revenge killing in which every death required another. The Peacemaker came from the north in a canoe of white stone and carried a message: that the killing must stop, that the nations should become one house with one law, and that power should be arranged so that no one need avenge anything. He convinced Jigonhsasee, then Hiawatha, then the four nations, and finally the hardest man of all. Out of it came a Grand Council of fifty chiefs with a written-in-wampum constitution, and it is still running. Many Haudenosaunee avoid his name out of respect.",
+   "variantTraditions": "The date of the founding is debated - estimates run from the twelfth to the fifteenth century, with a solar eclipse in 1142 or 1451 sometimes used as an anchor.",
+   "storyIds": [
+    "ducks-and-shells",
+    "combing-the-snakes",
+    "buried-weapons"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "sage-seer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "hiawatha",
+   "name": "Hiawatha",
+   "sanskrit": "Ayenwatha",
+   "category": "hero",
+   "era": "The Great Law",
+   "role": "His three daughters died, and he walked into the woods out of his mind with grief",
+   "wikipedia": "Hiawatha",
+   "portrait": "portraits/haudenosaunee/hiawatha.webp",
+   "epithets": [
+    "Ayenwatha",
+    "the one who combs"
+   ],
+   "domains": [
+    "grief",
+    "the Condolence ceremony",
+    "wampum",
+    "the carrying of the message"
+   ],
+   "symbols": [
+    "the strings of shell he strung",
+    "the comb",
+    "the belt that bears his name"
+   ],
+   "mount": null,
+   "abode": "Onondaga",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is not Longfellow's Hiawatha. That poem is about an Ojibwe figure and took the wrong name.",
+   "longBio": "Hiawatha lost his three daughters, and the grief took his mind - he went into the forest and wandered. Sitting by a lake he saw ducks lift the water with them as they flew, leaving shells on the dry bed, and he gathered them and strung them and said that if he found anyone as bereaved as himself he would use these words to comfort them. That is the origin of wampum and of the Condolence rite. The Peacemaker found him and spoke the words to him, and cleared his eyes and ears and throat, and Hiawatha became the voice that carried the message to the nations.",
+   "variantTraditions": "Longfellow's Song of Hiawatha (1855) attaches this name to the Ojibwe figure Nanabozho and is unrelated to the historical Ayenwatha; the confusion is entirely Longfellow's.",
+   "storyIds": [
+    "ducks-and-shells",
+    "combing-the-snakes"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sage-seer",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "tadodaho",
+   "name": "Tadodaho",
+   "sanskrit": "Thadodaho",
+   "category": "hero",
+   "era": "The Great Law",
+   "role": "A sorcerer with snakes in his hair and a twisted body, who was the last to agree",
+   "wikipedia": "Tadodaho",
+   "portrait": "portraits/haudenosaunee/tadodaho.webp",
+   "epithets": [
+    "Thadodaho",
+    "the entangled one",
+    "the wizard of Onondaga"
+   ],
+   "domains": [
+    "opposition",
+    "sorcery",
+    "the final acceptance",
+    "the office that bears his name"
+   ],
+   "symbols": [
+    "snakes in the hair",
+    "the seven crooks in his body",
+    "the comb"
+   ],
+   "mount": null,
+   "abode": "Onondaga",
+   "festivals": [],
+   "worship": "",
+   "bio": "They combed the snakes out of his hair, and his name is now the title of a living office.",
+   "longBio": "Tadodaho was an Onondaga of terrible power, his body twisted into seven crooks and his hair full of writhing snakes, who killed at a distance and refused the peace over and over. The Peacemaker and Hiawatha went to him with the whole confederacy assembled behind them and sang the peace song, and combed the snakes out of his hair, and straightened his body - and made him the firekeeper, presiding over the Grand Council. Converting the most dangerous obstacle into the chair of the council is a piece of political design worth noticing. Tadodaho is still the title of that office, and it is held today.",
+   "variantTraditions": "Hiawatha's name meaning he who combs is generally connected to the combing of the snakes from Tadodaho's hair.",
+   "storyIds": [
+    "combing-the-snakes",
+    "fifty-chiefs"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "king-ruler",
+    "primordial-adversary",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "jigonhsasee",
+   "name": "Jigonhsasee",
+   "sanskrit": "Jigonhsasee",
+   "category": "hero",
+   "era": "The Great Law",
+   "role": "The Mother of Nations - the first person to accept the peace, and the reason women hold the titles",
+   "wikipedia": "Jigonhsasee",
+   "portrait": "portraits/haudenosaunee/jigonhsasee.webp",
+   "epithets": [
+    "the Mother of Nations",
+    "the Peace Queen"
+   ],
+   "domains": [
+    "the clan mothers",
+    "hospitality",
+    "the first acceptance",
+    "the nomination of chiefs"
+   ],
+   "symbols": [
+    "the longhouse on the war road",
+    "the antlers of office"
+   ],
+   "mount": null,
+   "abode": "On the road between the nations",
+   "festivals": [],
+   "worship": "",
+   "bio": "She fed both sides of a war impartially, which is why the Peacemaker went to her first.",
+   "longBio": "Jigonhsasee kept a house on the trail between warring nations and fed anyone who came, on either side. The Peacemaker came to her first, before any chief, and when she accepted his message he told her that because a woman had taken it first, women would hold the responsibility for the titles of the Confederacy. That is the constitutional position still: clan mothers nominate the chiefs, hold their antlers of office, and can remove a chief who fails - a power of recall exercised by women, in continuous operation for centuries.",
+   "variantTraditions": "The clan mothers' power to nominate and depose chiefs is a documented feature of the Great Law and was noted with astonishment by nineteenth-century observers.",
+   "storyIds": [
+    "fifty-chiefs"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "earth-mother",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "great_law",
+   "name": "The Great Law of Peace",
+   "sanskrit": "Gayanashagowa",
+   "category": "primordial",
+   "era": "The Great Law",
+   "role": "A constitution held in wampum, recited over days, and still in operation",
+   "wikipedia": "Great_Law_of_Peace",
+   "portrait": "portraits/haudenosaunee/great_law.webp",
+   "epithets": [
+    "Gayanashagowa",
+    "the Great Binding Law"
+   ],
+   "domains": [
+    "the Confederacy",
+    "consensus",
+    "the fifty titles",
+    "the seventh generation"
+   ],
+   "symbols": [
+    "the wampum belts",
+    "the fifty antlers",
+    "the bundle of five arrows"
+   ],
+   "mount": null,
+   "abode": "The Onondaga council fire",
+   "festivals": [],
+   "worship": "",
+   "bio": "One hundred and seventeen articles, memorised in shell, and older than most European states.",
+   "longBio": "The Great Law binds the Five Nations - six after the Tuscarora joined in 1722 - under a Grand Council of fifty chiefs, each holding a title that outlives the man. Decisions move through the council in a fixed order, between two moieties and back, until consensus. Chiefs are nominated and can be removed by clan mothers. The law is recorded in wampum belts and recited from them over several days. The instruction to weigh every decision against its effect on the seventh generation to come is from this document, and it is quoted so widely now that its source is often forgotten.",
+   "variantTraditions": "The claim that the Great Law directly influenced the US Constitution is argued in both directions; that Franklin knew of it and cited it as a model of union is documented.",
+   "storyIds": [
+    "combing-the-snakes",
+    "buried-weapons",
+    "fifty-chiefs"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "king-ruler",
+    "wisdom-craft",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "tree_of_peace",
+   "name": "The Tree of Peace",
+   "sanskrit": "Skarureh",
+   "category": "nature",
+   "era": "The Great Law",
+   "role": "A white pine with the weapons buried under it and an eagle on top watching the horizon",
+   "wikipedia": "Tree_of_Peace",
+   "portrait": "portraits/haudenosaunee/tree_of_peace.webp",
+   "epithets": [
+    "the great white pine",
+    "the tree with four white roots"
+   ],
+   "domains": [
+    "peace",
+    "the burying of weapons",
+    "the four directions"
+   ],
+   "symbols": [
+    "four white roots running to the four directions",
+    "the eagle on the topmost branch",
+    "the underground stream"
+   ],
+   "mount": null,
+   "abode": "Onondaga",
+   "festivals": [],
+   "worship": "",
+   "bio": "They tore up the tree, threw the weapons into the current underneath, and planted it back.",
+   "longBio": "At the founding, the Peacemaker had a great white pine uprooted, revealing a fast underground stream, and every nation threw its weapons of war into the current to be carried away. Then the tree was replanted over them. Four white roots run out from it to the four directions, and any nation that wishes to join may trace a root back and come under the shelter. An eagle sits on the topmost branch watching for danger. It is a set of instructions rendered as a landscape feature, and the phrase to bury the hatchet comes directly from it.",
+   "variantTraditions": "The English idiom bury the hatchet derives from this Haudenosaunee practice, which was performed at treaty councils with Europeans.",
+   "storyIds": [
+    "buried-weapons"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "preserver",
+    "king-ruler",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "wampum",
+   "name": "Wampum",
+   "sanskrit": "Otekoa",
+   "category": "primordial",
+   "era": "The Great Law",
+   "role": "Shell beads that record law and grief - and were never money until Europeans made them money",
+   "wikipedia": "Wampum",
+   "portrait": "portraits/haudenosaunee/wampum.webp",
+   "epithets": [
+    "the shell beads",
+    "the belts"
+   ],
+   "domains": [
+    "record",
+    "the law",
+    "condolence",
+    "the sealing of agreements"
+   ],
+   "symbols": [
+    "purple quahog and white whelk",
+    "the woven belt",
+    "the string held while speaking"
+   ],
+   "mount": null,
+   "abode": "The council, and the keeper's hands",
+   "festivals": [],
+   "worship": "",
+   "bio": "A belt is not a decoration. It is a document, and somebody is trained to read it.",
+   "longBio": "Wampum are cylindrical beads cut from the purple quahog and the white whelk and woven into belts and strings. The patterns are mnemonic: a belt records a treaty, a law or an agreement, and a trained keeper reads it back, at length, in front of witnesses. Strings are given at a Condolence to lift grief, and words spoken without wampum in hand carry less weight. Europeans, seeing a valuable bead in circulation, turned it into currency and then mass-produced it, which debased both the shell and the practice. The Two Row Wampum records the terms on which the Haudenosaunee agreed to coexist with the Dutch.",
+   "variantTraditions": "The Two Row Wampum - two parallel purple lines on white, two vessels travelling the same river without steering each other - is still cited in Haudenosaunee dealings with Canada and the United States.",
+   "storyIds": [
+    "ducks-and-shells",
+    "fifty-chiefs"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "handsome_lake",
+   "name": "Handsome Lake",
+   "sanskrit": "Sganyodaiyo",
+   "category": "mortal",
+   "era": "The Great Law",
+   "role": "A dying alcoholic who had a vision in 1799 and started a religion that is still practised",
+   "wikipedia": "Handsome_Lake",
+   "portrait": "portraits/haudenosaunee/handsome_lake.webp",
+   "epithets": [
+    "Sganyodaiyo",
+    "the prophet"
+   ],
+   "domains": [
+    "the Gaiwiio, the Good Message",
+    "temperance",
+    "the reform",
+    "the longhouse religion"
+   ],
+   "symbols": [
+    "the three messengers",
+    "the strawberry bushes",
+    "the recited code"
+   ],
+   "mount": null,
+   "abode": "Allegany, and then Onondaga",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Seneca had lost almost everything. He was drinking himself to death. Then he stopped.",
+   "longBio": "By 1799 the Seneca had lost most of their land, and Handsome Lake was a sick alcoholic in a cabin at Allegany. He collapsed and appeared dead, and came back with a vision: three messengers in ceremonial dress with strawberry bushes, who gave him instructions. He preached for sixteen years - against alcohol above all, and for keeping the ceremonies, holding land in common, farming, and holding families together. What came out of it, the Gaiwiio, is a genuine new religion built out of Haudenosaunee tradition and some Quaker influence, and it is recited over several days in longhouses today.",
+   "variantTraditions": "The Code of Handsome Lake was first written down in 1845; the longhouse religion he founded remains active across Haudenosaunee territory.",
+   "storyIds": [
+    "three-messengers"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "healer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "thanksgiving_address",
+   "name": "The Thanksgiving Address",
+   "sanskrit": "Ohenten Kariwatekwen",
+   "category": "primordial",
+   "era": "The Great Law",
+   "role": "The words that come before all else - thanking every part of the world by name, in order",
+   "wikipedia": "Thanksgiving_Address",
+   "portrait": "portraits/haudenosaunee/thanksgiving_address.webp",
+   "epithets": [
+    "Ohenten Kariwatekwen",
+    "the words that come before all else"
+   ],
+   "domains": [
+    "gratitude",
+    "the ordering of the world",
+    "the opening of every gathering"
+   ],
+   "symbols": [
+    "the spoken sequence",
+    "the phrase now our minds are one"
+   ],
+   "mount": null,
+   "abode": "The beginning and end of every gathering",
+   "festivals": [],
+   "worship": "",
+   "bio": "It goes from the people to the earth to the waters to the fish to the plants, and up to the stars.",
+   "longBio": "The Thanksgiving Address opens and closes every Haudenosaunee gathering, and it works through the world in a fixed order - the people, Mother Earth, the waters, the fish, the plants, the food plants, the medicine herbs, the animals, the trees, the birds, the four winds, the Thunderers, the sun, the moon, the stars, the teachers, and the Creator - giving thanks to each in turn and ending each section with the phrase: now our minds are one. It can take minutes or hours. It is not a prayer for anything. It is an inventory of what is already there and a statement that everyone present agrees about it.",
+   "variantTraditions": "The Address is not secret and versions are published by Haudenosaunee organisations for exactly this purpose; it is used today in schools on Six Nations territory.",
+   "storyIds": [
+    "before-all-else"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "wisdom-craft",
+    "preserver"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "sky_woman",
+   "to": "great_turtle",
+   "type": "mount",
+   "note": "The mud was put on his back and she danced on it"
+  },
+  {
+   "from": "sky_woman",
+   "to": "muskrat",
+   "type": "devotee",
+   "note": "The smallest diver came up dead with the earth in its paw"
+  },
+  {
+   "from": "sky_woman",
+   "to": "waterfowl",
+   "type": "devotee",
+   "note": "They interlocked their wings and caught her"
+  },
+  {
+   "from": "sky_woman",
+   "to": "lynx",
+   "type": "parent",
+   "note": "The daughter born on the new land"
+  },
+  {
+   "from": "lynx",
+   "to": "sky_holder",
+   "type": "parent",
+   "note": "The first twin, born properly"
+  },
+  {
+   "from": "lynx",
+   "to": "flint",
+   "type": "parent",
+   "note": "The second, who came out through her side and killed her"
+  },
+  {
+   "from": "flint",
+   "to": "lynx",
+   "type": "enemy",
+   "note": "He would not be born the ordinary way"
+  },
+  {
+   "from": "lynx",
+   "to": "three_sisters",
+   "type": "parent",
+   "note": "Corn from her chest, beans from her fingers, squash from her stomach"
+  },
+  {
+   "from": "sky_holder",
+   "to": "flint",
+   "type": "sibling",
+   "note": "The two who made the world between them"
+  },
+  {
+   "from": "sky_holder",
+   "to": "flint",
+   "type": "enemy",
+   "note": "One made it easy and the other made it hard"
+  },
+  {
+   "from": "sky_holder",
+   "to": "three_sisters",
+   "type": "guru",
+   "note": "He gave them to people to plant"
+  },
+  {
+   "from": "sky_holder",
+   "to": "thunderers",
+   "type": "ally",
+   "note": "The grandfathers who bring the rain he needs"
+  },
+  {
+   "from": "sky_holder",
+   "to": "gaoh",
+   "type": "ally",
+   "note": "The wind, kept on four leashes"
+  },
+  {
+   "from": "flint",
+   "to": "horned_serpent",
+   "type": "parent",
+   "note": "The things in the water are his side of the ledger"
+  },
+  {
+   "from": "flint",
+   "to": "stone_giants",
+   "type": "parent",
+   "note": "As are the giants in the north"
+  },
+  {
+   "from": "flint",
+   "to": "flying_head",
+   "type": "parent",
+   "note": "And the thing that cannot be filled"
+  },
+  {
+   "from": "thunderers",
+   "to": "horned_serpent",
+   "type": "enemy",
+   "note": "They come with the storm to hunt it"
+  },
+  {
+   "from": "thunderers",
+   "to": "sky_woman",
+   "type": "devotee",
+   "note": "Addressed as grandfathers in the Thanksgiving Address"
+  },
+  {
+   "from": "great_turtle",
+   "to": "sky_holder",
+   "type": "mount",
+   "note": "The continent he shaped is on the shell"
+  },
+  {
+   "from": "three_sisters",
+   "to": "jogah",
+   "type": "ally",
+   "note": "The Gandayah are the ones who ripen the fruit"
+  },
+  {
+   "from": "jogah",
+   "to": "stone_giants",
+   "type": "enemy",
+   "note": "The Ohdows hold down what is under the ground"
+  },
+  {
+   "from": "jogah",
+   "to": "flying_head",
+   "type": "enemy",
+   "note": "The little people against the thing with the appetite"
+  },
+  {
+   "from": "stone_giants",
+   "to": "flying_head",
+   "type": "sibling",
+   "note": "Two things that eat people and are beaten by nerve"
+  },
+  {
+   "from": "peacemaker",
+   "to": "hiawatha",
+   "type": "guru",
+   "note": "He cleared his eyes and ears and throat with wampum"
+  },
+  {
+   "from": "hiawatha",
+   "to": "peacemaker",
+   "type": "ally",
+   "note": "And became the voice that carried the message"
+  },
+  {
+   "from": "peacemaker",
+   "to": "jigonhsasee",
+   "type": "ally",
+   "note": "The first person to accept the peace was a woman"
+  },
+  {
+   "from": "jigonhsasee",
+   "to": "great_law",
+   "type": "guru",
+   "note": "Which is why clan mothers hold the titles"
+  },
+  {
+   "from": "peacemaker",
+   "to": "tadodaho",
+   "type": "enemy",
+   "note": "The hardest man, and the last to agree"
+  },
+  {
+   "from": "tadodaho",
+   "to": "peacemaker",
+   "type": "devotee",
+   "note": "They combed the snakes out of his hair and gave him the fire"
+  },
+  {
+   "from": "hiawatha",
+   "to": "tadodaho",
+   "type": "enemy",
+   "note": "Three daughters dead, and the man who was said to have done it"
+  },
+  {
+   "from": "hiawatha",
+   "to": "wampum",
+   "type": "guru",
+   "note": "He strung the first shells beside the lake"
+  },
+  {
+   "from": "peacemaker",
+   "to": "great_law",
+   "type": "guru",
+   "note": "The constitution he brought"
+  },
+  {
+   "from": "peacemaker",
+   "to": "tree_of_peace",
+   "type": "guru",
+   "note": "The pine planted over the buried weapons"
+  },
+  {
+   "from": "great_law",
+   "to": "wampum",
+   "type": "ally",
+   "note": "The law is held in shell and recited from it"
+  },
+  {
+   "from": "great_law",
+   "to": "tree_of_peace",
+   "type": "ally",
+   "note": "Four white roots to the four directions"
+  },
+  {
+   "from": "great_law",
+   "to": "tadodaho",
+   "type": "ally",
+   "note": "The firekeeper presides at Onondaga"
+  },
+  {
+   "from": "great_law",
+   "to": "jigonhsasee",
+   "type": "ally",
+   "note": "Clan mothers nominate and can remove a chief"
+  },
+  {
+   "from": "handsome_lake",
+   "to": "great_law",
+   "type": "devotee",
+   "note": "The Good Message sits alongside the Great Law"
+  },
+  {
+   "from": "handsome_lake",
+   "to": "three_sisters",
+   "type": "devotee",
+   "note": "The messengers came carrying strawberry bushes"
+  },
+  {
+   "from": "thanksgiving_address",
+   "to": "three_sisters",
+   "type": "ally",
+   "note": "Thanked by name, in order, before all else"
+  },
+  {
+   "from": "thanksgiving_address",
+   "to": "thunderers",
+   "type": "ally",
+   "note": "And the grandfathers after them"
+  },
+  {
+   "from": "thanksgiving_address",
+   "to": "sky_woman",
+   "type": "devotee",
+   "note": "The words that come before all else"
+  },
+  {
+   "from": "thanksgiving_address",
+   "to": "gaoh",
+   "type": "ally",
+   "note": "The four winds have their place in the sequence"
+  },
+  {
+   "from": "wampum",
+   "to": "jigonhsasee",
+   "type": "ally",
+   "note": "Strings given to lift grief at a Condolence"
+  },
+  {
+   "from": "sky_holder",
+   "to": "sky_woman",
+   "type": "parent",
+   "note": "Her grandson, and the one who finished the work"
+  }
+ ]
+}

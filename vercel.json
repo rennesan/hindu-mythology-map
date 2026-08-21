@@ -106,6 +106,10 @@
    "destination": "/cherokee/index.html"
   },
   {
+   "source": "/haudenosaunee/:path*",
+   "destination": "/haudenosaunee/index.html"
+  },
+  {
    "source": "/hittite/:path*",
    "destination": "/hittite/index.html"
   },
