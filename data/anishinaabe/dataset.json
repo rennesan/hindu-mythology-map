@@ -1,0 +1,1601 @@
+{
+ "title": "Anishinaabe",
+ "description": "Ojibwe and the Great Lakes: a muskrat that came up drowned with the world in its paw, a migration west toward the food that grows on water, and the reason half of this can only be told in winter.",
+ "generated": "2026-08-21",
+ "sources": [
+  "William W. Warren, History of the Ojibway People (1885) - the author was Ojibwe and wrote from his own community's accounts",
+  "Basil Johnston, Ojibway Heritage (1976) and The Manitous (1995) - the author was Anishinaabe and wrote this material down deliberately",
+  "Edward Benton-Banai, The Mishomis Book (1988) - written for Anishinaabe children and used in schools",
+  "Frances Densmore, Chippewa Customs (1929) and her music collections",
+  "Henry Rowe Schoolcraft, Algic Researches (1839) - used with care; he romanticised heavily and Longfellow took it from there",
+  "Note: no wiigwaasabak imagery is reproduced. Birchbark scrolls belong to the Midewiwin, are read by people taught to read them, and are not public"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/anishinaabe/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "warren": {
+   "t": "History of the Ojibway People",
+   "tr": "William W. Warren, 1885 - the author was Ojibwe",
+   "u": "https://archive.org/details/historyofojibway00warr"
+  },
+  "densmore": {
+   "t": "Chippewa Customs",
+   "tr": "Frances Densmore, 1929",
+   "u": "https://archive.org/details/chippewacustoms00dens"
+  },
+  "johnston": {
+   "t": "Ojibway Heritage / The Manitous",
+   "tr": "Basil Johnston, 1976 and 1995 - the author was Anishinaabe",
+   "u": "https://archive.org/details/ojibwayheritage0000john"
+  },
+  "benton": {
+   "t": "The Mishomis Book: The Voice of the Ojibway",
+   "tr": "Edward Benton-Banai, 1988",
+   "u": "https://archive.org/details/mishomisbookvoic0000bent"
+  },
+  "schoolcraft": {
+   "t": "Algic Researches",
+   "tr": "Henry Rowe Schoolcraft, 1839 - used with care",
+   "u": "https://archive.org/details/algicresearches01scho"
+  }
+ },
+ "meta": {
+  "id": "anishinaabe",
+  "label": "Anishinaabe",
+  "sublabel": "Ojibwe & the Great Lakes",
+  "accent": "#8a9e7a",
+  "root": "gichi_manidoo"
+ },
+ "profile": {
+  "cosmicNature": "Water first, and a diver. After the flood there is nothing but water and a raft of animals, and one of them has to go down and fetch mud. The loon fails, the beaver fails, the otter fails, and the muskrat - the smallest and least likely - comes back up drowned with a single paw closed on a little wet earth, and the world is made on the back of a turtle from that. North America is still called Turtle Island because of it.",
+  "natureOfDivinity": "Manidoog, which is usually rendered spirits and is closer to powers. There is a Gichi-Manidoo above all of it, the Great Mystery, who is not a person and is not petitioned for small things. Below that the world is full: powers in the water, the thunder, the rock, the plants, the animals, some helpful and some emphatically not. Nanabozho sits between the manidoog and people and is the one who deals with both.",
+  "afterlife": "A four-day walk west along the Path of Souls, with a river to cross and a strawberry to eat on the way, and a village at the end of it where the ancestors are. Food and tobacco are put in the grave for the journey. The dead are named, spoken to and fed at feasts, and a grave house is built over the burial. It is a journey rather than a judgement.",
+  "systemMechanism": "Bimaadiziwin - living well, or the good life, or simply life lived properly - is the object, and the Midewiwin is the institution for it. The Mide lodge is a graded medicine society with degrees, an initiation, a body of songs, and birchbark scrolls to carry them, and it treats illness and teaches conduct. Alongside it: fasting for a vision at adolescence, the naming of children by an elder, and the dodem, the clan, which is inherited and determines whom you may marry.",
+  "canonTexts": "The wiigwaasabak, birchbark scrolls, which are real writing of a mnemonic kind and are not public. In print: William Warren, who was Ojibwe, published a history in 1885; Frances Densmore recorded the music and customs in the 1910s and 20s; Basil Johnston, Anishinaabe, wrote a long shelf of it in English from the 1970s; Edward Benton-Banai's Mishomis Book (1988) is the standard teaching text."
+ },
+ "hierarchy": [
+  {
+   "title": "The Beginning",
+   "blurb": "The world floods and there is nothing left but a raft of animals, and somebody has to dive. The loon fails, the otter fails, the beaver fails, and the muskrat comes up dead with a paw closed on a little wet mud. This continent is called Turtle Island because of what happened next.",
+   "memberIds": [
+    "gichi_manidoo",
+    "manidoog",
+    "nanabozho",
+    "nokomis",
+    "winona",
+    "chibiabos",
+    "flood"
+   ],
+   "connectorCaption": "And in the lakes, the party that is permanently at war with the sky"
+  },
+  {
+   "title": "In the Water",
+   "blurb": "A horned cat with a copper tail under Lake Superior that raises the storms, hunted by thunderbirds that arrive in spring and leave in autumn - which is why half of this material may only be told in winter. And a famine spirit that grows every time it eats.",
+   "memberIds": [
+    "mishipeshu",
+    "animikii",
+    "mishiginebig",
+    "memegwesi",
+    "wendigo",
+    "pauguk"
+   ],
+   "connectorCaption": "Against all of that, an institution and a set of instructions"
+  },
+  {
+   "title": "How to Live",
+   "blurb": "A graded medicine society with degrees, songs and a written mnemonic system. A migration west across several centuries toward the place where food grows on water. Seven teachings that are on the wall of every school in Anishinaabe country. And one very persistent mistake.",
+   "memberIds": [
+    "midewiwin",
+    "migration",
+    "manoomin",
+    "seven_grandfathers",
+    "bimaadiziwin",
+    "dodem",
+    "ojiig",
+    "birch",
+    "hiawatha_confusion"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "family",
+   "label": "Nanabozho's Family",
+   "memberIds": [
+    "nanabozho",
+    "nokomis",
+    "winona",
+    "chibiabos"
+   ]
+  },
+  {
+   "id": "making",
+   "label": "The Making",
+   "memberIds": [
+    "gichi_manidoo",
+    "manidoog",
+    "flood",
+    "nanabozho"
+   ]
+  },
+  {
+   "id": "under",
+   "label": "Under the Water",
+   "memberIds": [
+    "mishipeshu",
+    "mishiginebig",
+    "memegwesi"
+   ]
+  },
+  {
+   "id": "over",
+   "label": "Over the Water",
+   "memberIds": [
+    "animikii",
+    "ojiig",
+    "nanabozho"
+   ]
+  },
+  {
+   "id": "feared",
+   "label": "What Is Feared",
+   "memberIds": [
+    "wendigo",
+    "pauguk",
+    "mishipeshu"
+   ]
+  },
+  {
+   "id": "lodge",
+   "label": "The Lodge",
+   "memberIds": [
+    "midewiwin",
+    "birch",
+    "bimaadiziwin",
+    "chibiabos"
+   ]
+  },
+  {
+   "id": "teachings",
+   "label": "The Teachings",
+   "memberIds": [
+    "seven_grandfathers",
+    "bimaadiziwin",
+    "dodem",
+    "migration"
+   ]
+  },
+  {
+   "id": "living",
+   "label": "What They Lived On",
+   "memberIds": [
+    "manoomin",
+    "birch",
+    "dodem",
+    "migration"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-muskrat",
+   "title": "The Smallest One Went Down",
+   "era": "The Beginning",
+   "cast": [
+    "flood",
+    "nanabozho",
+    "gichi_manidoo"
+   ],
+   "summary": "After the water covered everything there was nothing above it but a raft of animals with Nanabozho on it, and to have land again somebody had to go down and bring up a little earth. The loon went first, being the best diver there is, and came up dead without any. The otter went, and failed. The beaver went, and stayed down a long time, and failed. Then the muskrat - the smallest of them, and nobody's first choice - went down, and was gone far longer than anyone thought possible, and floated back up drowned. And when they opened its paw there was a little wet earth in it. The turtle offered its back, and the earth was placed there, and it grew, and it is still growing. That is why this continent is called Turtle Island.",
+   "sources": [
+    {
+     "book": "The Mishomis Book: The Voice of the Ojibway",
+     "translation": "Edward Benton-Banai, 1988",
+     "location": "The re-creation",
+     "url": "https://archive.org/details/mishomisbookvoic0000bent"
+    },
+    {
+     "book": "Ojibway Heritage / The Manitous",
+     "translation": "Basil Johnston, 1976 and 1995 - the author was Anishinaabe",
+     "location": "The flood",
+     "url": "https://archive.org/details/ojibwayheritage0000john"
+    }
+   ]
+  },
+  {
+   "id": "the-brother",
+   "title": "Why the Medicine Lodge Exists",
+   "era": "The Beginning",
+   "cast": [
+    "chibiabos",
+    "nanabozho",
+    "midewiwin",
+    "mishipeshu"
+   ],
+   "summary": "Nanabozho had been hunting the manitous that live under the water, and they took his brother in return: Chibiabos went out on the ice and it opened and they pulled him under. Nanabozho's grief was not ordinary. He blackened his face and sat and would not move or eat or speak for a very long time, and the manidoog became alarmed - not sympathetic, alarmed - because a being of that power grieving without limit was a danger to everything. So they came to him and built a lodge and put him in it and sang to him, and what they gave him was the Midewiwin: the water drum, the songs, the medicine, and the knowledge of what happens to a person after they die. The central institution of Anishinaabe religious life exists because somebody could not stop grieving and had to be given something to do.",
+   "sources": [
+    {
+     "book": "Ojibway Heritage / The Manitous",
+     "translation": "Basil Johnston, 1976 and 1995 - the author was Anishinaabe",
+     "location": "The origin of the Mide",
+     "url": "https://archive.org/details/ojibwayheritage0000john"
+    },
+    {
+     "book": "History of the Ojibway People",
+     "translation": "William W. Warren, 1885 - the author was Ojibwe",
+     "location": "The Midewiwin",
+     "url": "https://archive.org/details/historyofojibway00warr"
+    }
+   ]
+  },
+  {
+   "id": "the-migration",
+   "title": "Until You Find Food Growing on Water",
+   "era": "How to Live",
+   "cast": [
+    "migration",
+    "manoomin",
+    "midewiwin"
+   ],
+   "summary": "Seven prophets came to the Anishinaabe when they were living by the great salt water in the east, and said that if they stayed they would be destroyed, and that they must go west and keep going until they came to the place where food grows on the water. They went, over generations, and at each of seven stopping places the megis shell rose in the sky to show them they were right - up the St Lawrence, through the lakes, north of Lake Huron, and finally to Lake Superior and Madeline Island, where the shallow bays are thick with wild rice. That is where it stopped. The Seven Fires prophecy runs alongside it and describes seven eras, of which the seventh is the present one, in which a choice is put to the people and both roads are described.",
+   "sources": [
+    {
+     "book": "The Mishomis Book: The Voice of the Ojibway",
+     "translation": "Edward Benton-Banai, 1988",
+     "location": "The Seven Fires",
+     "url": "https://archive.org/details/mishomisbookvoic0000bent"
+    },
+    {
+     "book": "History of the Ojibway People",
+     "translation": "William W. Warren, 1885 - the author was Ojibwe",
+     "location": "The migration",
+     "url": "https://archive.org/details/historyofojibway00warr"
+    }
+   ]
+  },
+  {
+   "id": "the-rice",
+   "title": "The Food That Grows on Water",
+   "era": "How to Live",
+   "cast": [
+    "manoomin",
+    "birch",
+    "dodem"
+   ],
+   "summary": "You go into the rice beds in a canoe in late summer, two people, one poling and one seated with a pair of light cedar sticks. One stick bends the standing stalks over the gunwale and the other knocks the grain off into the bottom of the boat, and a great deal is deliberately knocked into the water instead, because next year's crop has to come from somewhere. Then it is dried, parched over a fire, danced on in a pit in soft moccasins to loosen the hulls, and winnowed in a birchbark tray. Particular beds belong to particular families. The right to do this off-reservation was written into treaties in 1837 and 1854, fought over for most of a century, and upheld by the Supreme Court in 1999.",
+   "sources": [
+    {
+     "book": "Chippewa Customs",
+     "translation": "Frances Densmore, 1929",
+     "location": "Wild rice",
+     "url": "https://archive.org/details/chippewacustoms00dens"
+    },
+    {
+     "book": "The Mishomis Book: The Voice of the Ojibway",
+     "translation": "Edward Benton-Banai, 1988",
+     "location": "Manoomin",
+     "url": "https://archive.org/details/mishomisbookvoic0000bent"
+    }
+   ]
+  },
+  {
+   "id": "the-fisher",
+   "title": "He Could Not Get Back Down",
+   "era": "How to Live",
+   "cast": [
+    "ojiig",
+    "animikii"
+   ],
+   "summary": "It was winter all the time, because the birds and the warm weather were being kept up in the sky world and not let out. Ojiig the fisher went up with a party of animals to do something about it, and they got through and tore a hole in the sky, and the summer birds and the warm air came pouring down through it onto the earth. The skykeepers came after them. The others got back down through the hole; Ojiig was shot in the tail as he ran and could not. He is up there still - the group of stars that English calls the Big Dipper is Ojiig, with the arrow in his tail - and as he swings round the pole through the year the seasons come round with him.",
+   "sources": [
+    {
+     "book": "Ojibway Heritage / The Manitous",
+     "translation": "Basil Johnston, 1976 and 1995 - the author was Anishinaabe",
+     "location": "Ojiig",
+     "url": "https://archive.org/details/ojibwayheritage0000john"
+    }
+   ]
+  },
+  {
+   "id": "the-winter-rule",
+   "title": "Why This Cannot Be Told in Summer",
+   "era": "In the Water",
+   "cast": [
+    "animikii",
+    "mishipeshu",
+    "nanabozho"
+   ],
+   "summary": "The thunderbirds come north in the spring with the first thunder and go south again in the autumn, and while they are here they are at war with what lives under the lakes. That is the reason for a rule that still holds: the Nanabozho stories, and a good deal else, are told only in winter, when the ground is frozen, the snakes are underground and the thunderers are gone. Tell them in summer and something that should not be listening is listening. This is not a quaint restriction - it is observed, it means a researcher who turns up in July is told to come back, and it is one of the more common reasons this material is harder to collect than outsiders expect.",
+   "sources": [
+    {
+     "book": "Ojibway Heritage / The Manitous",
+     "translation": "Basil Johnston, 1976 and 1995 - the author was Anishinaabe",
+     "location": "On telling",
+     "url": "https://archive.org/details/ojibwayheritage0000john"
+    },
+    {
+     "book": "Chippewa Customs",
+     "translation": "Frances Densmore, 1929",
+     "location": "Seasonal restrictions",
+     "url": "https://archive.org/details/chippewacustoms00dens"
+    }
+   ]
+  },
+  {
+   "id": "the-wendigo",
+   "title": "It Grows While It Eats",
+   "era": "In the Water",
+   "cast": [
+    "wendigo",
+    "bimaadiziwin"
+   ],
+   "summary": "The wiindigoo is a thing of the deep winter that eats people, gaunt, with a heart of ice, and the important detail is structural rather than gruesome: every time it eats it grows in proportion, so it is exactly as starved after a meal as before one, and it can never stop. A person can become one, through starvation, or through having eaten human flesh to survive, or through a certain kind of selfishness that has nothing to do with hunger. It comes from a country where winter starvation was a genuine annual possibility. Basil Johnston, who was Anishinaabe and wrote most of this down, also used it quite deliberately for something else: an economy organised around consumption that increases the appetite it is meant to satisfy.",
+   "sources": [
+    {
+     "book": "Ojibway Heritage / The Manitous",
+     "translation": "Basil Johnston, 1976 and 1995 - the author was Anishinaabe",
+     "location": "The Weendigo",
+     "url": "https://archive.org/details/ojibwayheritage0000john"
+    }
+   ]
+  },
+  {
+   "id": "the-wrong-name",
+   "title": "That Is Not Hiawatha",
+   "era": "How to Live",
+   "cast": [
+    "hiawatha_confusion",
+    "nanabozho",
+    "nokomis"
+   ],
+   "summary": "In 1855 Longfellow published a long poem in the metre of the Finnish Kalevala about an Ojibwe culture hero called Hiawatha, raised by his grandmother Nokomis, who names the animals, fasts for a vision, wrestles the corn spirit and invents picture-writing. All of that is Nanabozho, taken out of Schoolcraft's collections. Hiawatha was a real historical person: a Haudenosaunee statesman who, with the Peacemaker, talked the five nations into the Iroquois Confederacy - a different people, a different language, a different part of the country, and no connection whatever to any of these stories. Nokomis is not a name either; it is the ordinary word for my grandmother. The poem sold enormously and the confusion has never been cleared up.",
+   "sources": [
+    {
+     "book": "Algic Researches",
+     "translation": "Henry Rowe Schoolcraft, 1839 - used with care",
+     "location": "Algic Researches",
+     "url": "https://archive.org/details/algicresearches01scho"
+    },
+    {
+     "book": "Ojibway Heritage / The Manitous",
+     "translation": "Basil Johnston, 1976 and 1995 - the author was Anishinaabe",
+     "location": "On Nanabozho",
+     "url": "https://archive.org/details/ojibwayheritage0000john"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "gichi_manidoo",
+   "name": "Gichi-Manidoo",
+   "sanskrit": "Gichi-Manidoo",
+   "category": "primordial",
+   "era": "The Beginning",
+   "role": "The Great Mystery - a power rather than a person, and not asked for small things",
+   "wikipedia": "Gitche_Manitou",
+   "portrait": "portraits/anishinaabe/gichi_manidoo.webp",
+   "epithets": [
+    "the Great Spirit, in the usual English",
+    "the Great Mystery"
+   ],
+   "domains": [
+    "the whole of it",
+    "the four sacred directions",
+    "the giving of the dream"
+   ],
+   "symbols": [
+    "the sacred fire",
+    "tobacco",
+    "the four directions"
+   ],
+   "mount": null,
+   "abode": "Everywhere and not localised",
+   "festivals": [],
+   "worship": "",
+   "bio": "Manidoo is nearer to power than to spirit, and gichi means great, and that is all it says.",
+   "longBio": "Gichi-Manidoo is the greatest of the manidoog and is not a person with a biography - there is no story in which Gichi-Manidoo does anything characterful, and that is deliberate. The usual English, Great Spirit, imports a personality that is not in the word: manidoo is closer to a power, or a mystery, or something operating that you do not understand, and gichi simply means great. In the Mishomis account Gichi-Manidoo has a vision of the world and then makes it out of the four elements, and afterwards leaves the running of it largely to others.",
+   "variantTraditions": "Basil Johnston was consistent that Great Spirit is a poor translation and that Great Mystery is nearer.",
+   "storyIds": [
+    "the-muskrat"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "manidoog",
+   "name": "The Manidoog",
+   "sanskrit": "Manidoog",
+   "category": "primordial",
+   "era": "The Beginning",
+   "role": "Powers, everywhere, in the water and the rock and the thunder - and not all friendly",
+   "wikipedia": "Manitou",
+   "portrait": "portraits/anishinaabe/manidoog.webp",
+   "epithets": [
+    "the manitous",
+    "the powers",
+    "manidoo in the singular"
+   ],
+   "domains": [
+    "power",
+    "the water",
+    "the rock",
+    "the thunder",
+    "the plants"
+   ],
+   "symbols": [
+    "tobacco offered before taking anything",
+    "the deep water",
+    "the standing rock"
+   ],
+   "mount": null,
+   "abode": "In everything",
+   "festivals": [],
+   "worship": "",
+   "bio": "You put tobacco down before you take a plant, or cross a lake, or pass a particular rock.",
+   "longBio": "The world is full of manidoog and the practical consequence is the tobacco: a pinch is put down before gathering a medicine plant, before crossing dangerous water, at a rock or a rapids that has a reputation, before a hunt. This is not superstition in the sense of insurance - it is the acknowledgement that the thing being used belongs to somebody. Some manidoog are helpful, some are indifferent, and some, particularly those under the water, are actively dangerous, and the tradition is careful to keep the distinction alive.",
+   "variantTraditions": "The word passed into English as manitou and lost most of its range on the way.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "preserver",
+    "primordial-adversary",
+    "healer"
+   ]
+  },
+  {
+   "id": "nanabozho",
+   "name": "Nanabozho",
+   "sanskrit": "Nanabozho",
+   "category": "hero",
+   "era": "The Beginning",
+   "role": "Half manidoo and half human, and he is both the one who made the world work and the fool",
+   "wikipedia": "Nanabozho",
+   "portrait": "portraits/anishinaabe/nanabozho.webp",
+   "epithets": [
+    "Nanabush",
+    "Wenabozho",
+    "Wiisagejaak in other nations",
+    "the Great Rabbit"
+   ],
+   "domains": [
+    "transformation",
+    "naming",
+    "trickery",
+    "teaching",
+    "greed",
+    "the flood"
+   ],
+   "symbols": [
+    "the rabbit",
+    "the birchbark",
+    "the names he gave everything"
+   ],
+   "mount": null,
+   "abode": "Everywhere in the Great Lakes country",
+   "festivals": [],
+   "worship": "",
+   "bio": "He named every plant and animal, and he also once got his own head stuck in a skull.",
+   "longBio": "Nanabozho is the son of a human woman and the West Wind, which puts him exactly between the manidoog and people, and that is his job: he goes between. He named every plant and animal and taught people which ones to use for what, made the world habitable after the flood, and gave the Anishinaabe fishing, medicine and the pipe. He is also greedy, vain, lecherous and frequently ridiculous, and a large share of his stories end with him humiliated by his own appetite. Both halves are told by the same people about the same figure and neither cancels the other.",
+   "variantTraditions": "Told across the Algonquian-speaking peoples under related names. Certain stories are told only in winter, when the ground is frozen.",
+   "storyIds": [
+    "the-muskrat",
+    "the-brother",
+    "the-winter-rule",
+    "the-wrong-name"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "messenger-trickster",
+    "creator",
+    "hero-champion",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "nokomis",
+   "name": "Nokomis",
+   "sanskrit": "Nokomis",
+   "category": "deity",
+   "era": "The Beginning",
+   "role": "His grandmother, who raised him and taught him everything he actually knows",
+   "wikipedia": "Nokomis",
+   "portrait": "portraits/anishinaabe/nokomis.webp",
+   "epithets": [
+    "grandmother",
+    "the moon in some accounts"
+   ],
+   "domains": [
+    "the moon",
+    "medicine",
+    "plants",
+    "raising a child",
+    "instruction"
+   ],
+   "symbols": [
+    "the medicine bundle",
+    "the moon",
+    "the lodge she raised him in"
+   ],
+   "mount": null,
+   "abode": "On the earth, having fallen from the moon",
+   "festivals": [],
+   "worship": "",
+   "bio": "The word nookomis simply means my grandmother, and it is used that way in ordinary speech.",
+   "longBio": "Nokomis fell to the earth from the moon, or was pushed, and landed on the water and was set on the turtle's back, and she raised Nanabozho after his mother died. Everything useful he knows about plants and medicine and conduct she taught him. She is a grandmother in the specific Anishinaabe sense - the elder who raises the children while the parents work, and who does the teaching - and the word nookomis is the ordinary word for my grandmother, still in daily use, which makes her less a goddess than a role that everybody's household has.",
+   "variantTraditions": "The name is a kinship term rather than a proper name; Longfellow's use of it as one is part of the general muddle he made.",
+   "storyIds": [
+    "the-wrong-name"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "moon",
+    "healer",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "winona",
+   "name": "Winona",
+   "sanskrit": "Wiinono",
+   "category": "mortal",
+   "era": "The Beginning",
+   "role": "Nanabozho's mother, who was warned about the west wind and went out anyway",
+   "wikipedia": "Nanabozho",
+   "portrait": "portraits/anishinaabe/winona.webp",
+   "epithets": [
+    "the first-born daughter",
+    "Nokomis's daughter"
+   ],
+   "domains": [
+    "the west wind",
+    "childbirth",
+    "the warning ignored"
+   ],
+   "symbols": [
+    "the wind",
+    "the four sons born at once"
+   ],
+   "mount": null,
+   "abode": "Her mother's lodge",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her name is the ordinary Dakota and Ojibwe word for a first-born daughter.",
+   "longBio": "Nokomis warned her daughter not to face into the west wind, and she did, and conceived, and bore four sons at once and died of it - Nanabozho among them. The mother's death at the birth is standard in this kind of story and it is what makes Nokomis the one who raises him. Her name is not really a name: winona or wenonah is the term for a first-born daughter in Dakota and in Ojibwe, in the same way nokomis means grandmother, which tells you something about how these accounts were put together and how Schoolcraft and Longfellow misread them.",
+   "variantTraditions": "One of Nanabozho's brothers is the wolf Chibiabos and another is the flint Wabasso or Peboan, depending on the account.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "wind-storm",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "chibiabos",
+   "name": "Chibiabos",
+   "sanskrit": "Zhiibayaabooz",
+   "category": "underworld",
+   "era": "The Beginning",
+   "role": "Nanabozho's brother, drowned by the underwater manitous - and grief is why the Midewiwin exists",
+   "wikipedia": "Nanabozho",
+   "portrait": "portraits/anishinaabe/chibiabos.webp",
+   "epithets": [
+    "Zhiibayaabooz",
+    "the wolf brother",
+    "the one who went through the ice"
+   ],
+   "domains": [
+    "death",
+    "grief",
+    "music",
+    "the land of the dead",
+    "the origin of the medicine lodge"
+   ],
+   "symbols": [
+    "the ice he went through",
+    "the drum",
+    "the four days of mourning"
+   ],
+   "mount": null,
+   "abode": "The land of the dead, in the west",
+   "festivals": [],
+   "worship": "",
+   "bio": "The manitous under the water took him to punish his brother, and Nanabozho was destroyed by it.",
+   "longBio": "Chibiabos was Nanabozho's brother and companion - a wolf in most accounts - and the manidoog under the water pulled him through the ice and drowned him, in some tellings to punish Nanabozho for hunting them. Nanabozho's grief was so extreme and so prolonged that the manidoog were alarmed by it and came to him, and what they gave him to make it bearable was the Midewiwin: the songs, the drum, the medicine, and the knowledge of what happens after death. So the central institution of Anishinaabe religious life exists because somebody could not stop grieving.",
+   "variantTraditions": "The account of the origin of the Mide varies; the grief of Nanabozho for his brother is the constant element in it.",
+   "storyIds": [
+    "the-brother"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "healer",
+    "fate-time",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "flood",
+   "name": "The Flood and the Muskrat",
+   "sanskrit": "Wazhashk",
+   "category": "primordial",
+   "era": "The Beginning",
+   "role": "The loon failed, the otter failed, the beaver failed, and the smallest one came up dead with the mud",
+   "wikipedia": "Earth-diver",
+   "portrait": "portraits/anishinaabe/flood.webp",
+   "epithets": [
+    "the earth diver",
+    "wazhashk, the muskrat",
+    "the turtle's back"
+   ],
+   "domains": [
+    "the flood",
+    "the diving",
+    "the turtle",
+    "the making of land"
+   ],
+   "symbols": [
+    "the raft of animals",
+    "the muskrat's closed paw",
+    "the turtle who volunteered"
+   ],
+   "mount": null,
+   "abode": "The water, everywhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "North America is called Turtle Island because of what happened next.",
+   "longBio": "The world flooded and there was nothing above the water but a raft of animals with Nanabozho on it, and to make land again somebody had to go down and get a little earth. The loon went and did not come back up alive. The otter went, and the beaver, and both failed. Then the muskrat, the smallest and least regarded, went down and was gone a long time and floated up dead - and its paw was closed, and inside was a little wet earth. The turtle offered its back, and the earth was put on it and grew. This continent is called Turtle Island because of that, and the story is told from the Atlantic to the Plains.",
+   "variantTraditions": "The earth-diver is one of the most widely distributed narratives in North America and northern Asia; the muskrat's success after the larger animals fail is the constant.",
+   "storyIds": [
+    "the-muskrat"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "divine-beast",
+    "sea-waters",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "mishipeshu",
+   "name": "Mishibizhiw",
+   "sanskrit": "Mishibizhiw",
+   "category": "beast",
+   "era": "In the Water",
+   "role": "The underwater panther - horns, scales, a copper tail, and it lives in Lake Superior",
+   "wikipedia": "Underwater_panther",
+   "portrait": "portraits/anishinaabe/mishipeshu.webp",
+   "epithets": [
+    "Mishipeshu",
+    "the great lynx",
+    "the underwater panther"
+   ],
+   "domains": [
+    "deep water",
+    "copper",
+    "storms on the lake",
+    "drowning"
+   ],
+   "symbols": [
+    "the copper tail",
+    "the horns",
+    "the spines down its back",
+    "the sudden squall"
+   ],
+   "mount": null,
+   "abode": "Under Lake Superior, and other deep water",
+   "festivals": [],
+   "worship": "",
+   "bio": "Its image is painted on the rock at Agawa Bay, and has been for centuries.",
+   "longBio": "Mishibizhiw is a cat with horns and scales and a tail of copper, and it lives in the deep water and raises the storms that kill people on the Great Lakes - which are genuinely dangerous water that turns in minutes. It owns the copper, and the Lake Superior basin has native copper lying on the ground in lumps, which was mined for five thousand years and traded across the continent, and taking it without acknowledgement was understood to have consequences. Its painted image is on the rock face at Agawa Bay on Superior, where it has been for several hundred years.",
+   "variantTraditions": "The Thunderbirds and Mishibizhiw are permanent enemies, which is the Great Lakes form of a pattern found across North America.",
+   "storyIds": [
+    "the-brother",
+    "the-winter-rule"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sea-waters",
+    "primordial-adversary",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "animikii",
+   "name": "The Animikiig",
+   "sanskrit": "Animikiig",
+   "category": "beast",
+   "era": "In the Water",
+   "role": "The Thunderbirds, whose whole occupation is hunting what lives under the lake",
+   "wikipedia": "Thunderbird_(mythology)",
+   "portrait": "portraits/anishinaabe/animikii.webp",
+   "epithets": [
+    "the thunderers",
+    "the thunderbirds",
+    "binesiwag"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "the summer",
+    "war on the underwater manitous"
+   ],
+   "symbols": [
+    "the thunder rolling up the lake",
+    "the nest in the western cliffs",
+    "the eyes"
+   ],
+   "mount": null,
+   "abode": "The high cliffs to the west, and the sky in summer",
+   "festivals": [],
+   "worship": "",
+   "bio": "They arrive in spring and leave in autumn, which is why certain stories are told only in winter.",
+   "longBio": "The Animikiig are the thunderbirds and their business is the permanent war against Mishibizhiw and the other manitous under the water. They come north in the spring with the first thunder and go south again in the autumn, and this is the practical basis of a real rule: a great many stories, and particularly the Nanabozho cycle, are told only in winter, when the ground is frozen and the thunderers and the snakes are away and nobody is listening who should not be. Telling them in summer is not done.",
+   "variantTraditions": "The winter-only rule is widely observed and is a genuine constraint on when this material may be recounted.",
+   "storyIds": [
+    "the-fisher",
+    "the-winter-rule"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sky-thunder",
+    "divine-beast",
+    "war",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "mishiginebig",
+   "name": "Mishi-ginebig",
+   "sanskrit": "Mishi-ginebig",
+   "category": "beast",
+   "era": "In the Water",
+   "role": "The great horned serpent, in the rapids and the deep places",
+   "wikipedia": "Horned_Serpent",
+   "portrait": "portraits/anishinaabe/mishiginebig.webp",
+   "epithets": [
+    "the great serpent",
+    "the horned snake"
+   ],
+   "domains": [
+    "rapids",
+    "deep pools",
+    "danger in water",
+    "the underworld"
+   ],
+   "symbols": [
+    "the horns",
+    "the scales that are said to be medicine",
+    "the whirlpool"
+   ],
+   "mount": null,
+   "abode": "Rapids, deep pools, under the ice",
+   "festivals": [],
+   "worship": "",
+   "bio": "A scale from one is powerful medicine, which is why people occasionally went looking.",
+   "longBio": "Mishi-ginebig is an enormous horned serpent of the deep water and the rapids, allied with Mishibizhiw against the thunderers, and it is dangerous in the direct sense: it takes people who go on the water carelessly. Its scales or its horn are said to be extremely powerful medicine, which produced the predictable result that people occasionally set out to get some, usually with the help of a thunderbird, and usually badly. It belongs to the same underwater party as the panther and the two are sometimes not clearly distinguished.",
+   "variantTraditions": "Horned serpents run right across eastern North America; the Anishinaabe version is tied specifically to rapids and to the winter ice.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "sea-waters",
+    "primordial-adversary",
+    "healer"
+   ]
+  },
+  {
+   "id": "memegwesi",
+   "name": "The Memegwesiwag",
+   "sanskrit": "Memegwesiwag",
+   "category": "nature",
+   "era": "In the Water",
+   "role": "Small hairy-faced people who live in the riverbank rock and paddle stone canoes",
+   "wikipedia": "Memegwesi",
+   "portrait": "portraits/anishinaabe/memegwesi.webp",
+   "epithets": [
+    "the little people of the rock",
+    "the ones on the cliff"
+   ],
+   "domains": [
+    "rivers",
+    "cliffs",
+    "rock paintings",
+    "stealing fish from nets"
+   ],
+   "symbols": [
+    "the rock face at a rapids",
+    "the stone canoe",
+    "the red ochre paintings"
+   ],
+   "mount": null,
+   "abode": "Holes in the rock at the water's edge",
+   "festivals": [],
+   "worship": "",
+   "bio": "The old red rock paintings along the canoe routes are commonly said to be theirs.",
+   "longBio": "The memegwesiwag are small people with hair over their faces who live in cracks and holes in the rock along rivers and lakes, especially at rapids, and travel in stone canoes. They take fish out of nets and play tricks, and they are not dangerous so much as irritating, but they must be treated properly and given tobacco where they live. The old red-ochre pictographs on rock faces along the canoe routes of the Canadian Shield are frequently attributed to them, and the sites where those paintings are found are exactly the sort of place they are said to live.",
+   "variantTraditions": "A closely related belief in small rock-dwelling people runs across the whole boreal forest.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "divine-beast",
+    "messenger-trickster",
+    "sea-waters",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "wendigo",
+   "name": "The Wiindigoo",
+   "sanskrit": "Wiindigoo",
+   "category": "underworld",
+   "era": "In the Water",
+   "role": "Famine, cannibalism and greed as one figure - and it grows as it eats, so it is never full",
+   "wikipedia": "Wendigo",
+   "portrait": "portraits/anishinaabe/wendigo.webp",
+   "epithets": [
+    "the wendigo",
+    "the ice-hearted one"
+   ],
+   "domains": [
+    "famine",
+    "winter",
+    "cannibalism",
+    "greed",
+    "cold"
+   ],
+   "symbols": [
+    "the heart of ice",
+    "the emaciation",
+    "the growth that keeps pace with the eating"
+   ],
+   "mount": null,
+   "abode": "The winter bush",
+   "festivals": [],
+   "worship": "",
+   "bio": "The essential detail: every time it eats it grows, so it is always exactly as starved as before.",
+   "longBio": "The wiindigoo is a being of the deep winter that eats people, and the mechanism is the point: it grows in proportion to what it consumes, so it can never be satisfied and its hunger is permanent by construction. A person can become one - through starvation, through eating human flesh to survive, or through a certain kind of selfishness - and their heart turns to ice. It is a famine belief from a country where winter starvation was a real and recurring possibility, and Anishinaabe writers including Basil Johnston have also used it, quite deliberately, as a description of unlimited consumption in the ordinary economic sense.",
+   "variantTraditions": "Wiindigo psychosis as a psychiatric category is largely a construct of outside observers and is treated sceptically now; the traditional belief is not in doubt.",
+   "storyIds": [
+    "the-wendigo"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "pauguk",
+   "name": "Baagak",
+   "sanskrit": "Baagak",
+   "category": "underworld",
+   "era": "In the Water",
+   "role": "A flying skeleton with burning eyes, and it is what happens to a killer",
+   "wikipedia": "Pauguk",
+   "portrait": "portraits/anishinaabe/pauguk.webp",
+   "epithets": [
+    "Pauguk",
+    "the flying skeleton",
+    "the bone one"
+   ],
+   "domains": [
+    "death",
+    "murder",
+    "punishment",
+    "the sound of bones"
+   ],
+   "symbols": [
+    "the skeleton with skin stretched over it",
+    "the burning eyes",
+    "the rattling flight"
+   ],
+   "mount": null,
+   "abode": "The air, at night",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is not a ghost of the ordinary kind. It is a specific outcome for a specific offence.",
+   "longBio": "Baagak is a flying skeleton with the skin stretched dry across the bones and eyes that burn, and it hunts people, and it is what a person becomes after killing another human being. It is not the general Anishinaabe dead - those go west along the Path of Souls without incident. It is a punishment with a mechanism, in a tradition that otherwise does not have much interest in punishing the dead, and its narrow application to murder is what makes it worth including.",
+   "variantTraditions": "Also given as Pauguk or Bakaak; regional variation in the name is considerable.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "midewiwin",
+   "name": "The Midewiwin",
+   "sanskrit": "Midewiwin",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "The medicine lodge - graded, initiated, with its own songs and its own writing",
+   "wikipedia": "Midewiwin",
+   "portrait": "portraits/anishinaabe/midewiwin.webp",
+   "epithets": [
+    "the Grand Medicine Society",
+    "the Mide lodge"
+   ],
+   "domains": [
+    "healing",
+    "degrees",
+    "initiation",
+    "the songs",
+    "the scrolls"
+   ],
+   "symbols": [
+    "the megis shell",
+    "the water drum",
+    "the birchbark scrolls, which are not public"
+   ],
+   "mount": null,
+   "abode": "The Mide lodge",
+   "festivals": [],
+   "worship": "",
+   "bio": "It has degrees, an initiation, a curriculum and a written mnemonic system. It is an institution.",
+   "longBio": "The Midewiwin is a graded medicine society: a candidate is sponsored, pays, is taught, and is initiated into the first degree, and may over years proceed through further degrees, each with its own songs and knowledge. It exists to heal and to teach how to live, and it is the reason a great deal of Anishinaabe knowledge survived the nineteenth century - it had an institution to carry it. Its songs and degrees are recorded on wiigwaasabak, birchbark scrolls incised with mnemonic figures, which are read by people trained to read them and are not shown here.",
+   "variantTraditions": "The Mide was suppressed under both Canadian and US policy and continued anyway; lodges are active today.",
+   "storyIds": [
+    "the-brother",
+    "the-migration"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "healer",
+    "sage-seer",
+    "preserver",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "migration",
+   "name": "The Migration",
+   "sanskrit": "Gichi-Miigaadiwin",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "Seven prophets, a shell in the sky, and a journey west that took several centuries",
+   "wikipedia": "Anishinaabe_traditional_beliefs",
+   "portrait": "portraits/anishinaabe/migration.webp",
+   "epithets": [
+    "the Seven Fires",
+    "the great migration",
+    "the food that grows on water"
+   ],
+   "domains": [
+    "prophecy",
+    "migration",
+    "the megis shell",
+    "wild rice",
+    "Madeline Island"
+   ],
+   "symbols": [
+    "the megis, the cowrie shell rising in the sky",
+    "the seven stopping places",
+    "the rice"
+   ],
+   "mount": null,
+   "abode": "From the eastern sea to Lake Superior",
+   "festivals": [],
+   "worship": "",
+   "bio": "Go west, said the prophets, until you find the place where food grows on the water.",
+   "longBio": "Seven prophets came to the people living by the eastern sea and told them to go west or be destroyed, and to keep going until they came to the place where food grows on the water. The megis shell rose in the sky at each of seven stopping places, and they followed it - along the St Lawrence, through the Great Lakes, over generations - until they reached the wild rice beds of Lake Superior and Madeline Island, which is where the migration ends. The Seven Fires prophecy attached to it describes seven eras, and the seventh is the one now, in which a choice has to be made.",
+   "variantTraditions": "The migration account is central to Anishinaabe identity and matches the archaeological and linguistic evidence for a westward movement reasonably well.",
+   "storyIds": [
+    "the-migration"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "sage-seer",
+    "preserver",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "manoomin",
+   "name": "Manoomin",
+   "sanskrit": "Manoomin",
+   "category": "nature",
+   "era": "How to Live",
+   "role": "Wild rice: the food that grows on water, and the reason the migration stopped where it did",
+   "wikipedia": "Wild_rice",
+   "portrait": "portraits/anishinaabe/manoomin.webp",
+   "epithets": [
+    "the good berry",
+    "the food that grows on water"
+   ],
+   "domains": [
+    "wild rice",
+    "the harvest",
+    "the canoe",
+    "treaty rights"
+   ],
+   "symbols": [
+    "the canoe pushed through the beds",
+    "the two knocking sticks",
+    "the parching"
+   ],
+   "mount": null,
+   "abode": "The shallow lakes and rivers of the upper Great Lakes",
+   "festivals": [],
+   "worship": "",
+   "bio": "You go through the beds in a canoe and knock the grain off into the boat with two sticks.",
+   "longBio": "Manoomin is northern wild rice, and it is not a metaphor - it is the destination of the migration and the material basis of Anishinaabe life in the western Great Lakes. It is harvested from a canoe: one person poles, the other bends the stalks over the boat with one stick and knocks the grain in with another, deliberately leaving plenty to reseed. It is then parched, danced on, and winnowed. Rights to harvest it off-reservation were reserved in nineteenth-century treaties, litigated for a century, and upheld, and the beds are under pressure now from mining and water levels.",
+   "variantTraditions": "Zizania palustris. The 1837 and 1854 treaty rights to gather it were confirmed by the US Supreme Court in Mille Lacs v. Minnesota, 1999.",
+   "storyIds": [
+    "the-migration",
+    "the-rice"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "seven_grandfathers",
+   "name": "The Seven Grandfathers",
+   "sanskrit": "Niizhwaaswi Gagiikwewin",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "Wisdom, love, respect, bravery, honesty, humility and truth - taught in schools now",
+   "wikipedia": "Seven_Grandfathers",
+   "portrait": "portraits/anishinaabe/seven_grandfathers.webp",
+   "epithets": [
+    "the Seven Grandfather Teachings",
+    "the seven gifts"
+   ],
+   "domains": [
+    "conduct",
+    "teaching",
+    "children",
+    "the seven virtues"
+   ],
+   "symbols": [
+    "seven, and the animal that carries each one",
+    "the child taken to be taught"
+   ],
+   "mount": null,
+   "abode": "Taught, everywhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "Each is paired with an animal: the beaver, the eagle, the buffalo, the bear, the wolf, the turtle.",
+   "longBio": "The Seven Grandfathers took a child, showed him the world for seven years and sent him back with seven teachings for the people: nbwaakaawin, wisdom; zaagidwin, love; minaadendamowin, respect; aakwa'ode'ewin, bravery; gwekwaadziwin, honesty; dbaadendiziwin, humility; and debwewin, truth. Each is associated with an animal that embodies it. They are the most publicly taught part of the tradition - they are on the walls of schools and health centres across Anishinaabe country and are used well outside it - and unlike most of what is in this pack they are meant to travel.",
+   "variantTraditions": "The pairing of each teaching with an animal varies slightly between communities; the seven themselves are stable.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "sage-seer",
+    "healer"
+   ]
+  },
+  {
+   "id": "bimaadiziwin",
+   "name": "Bimaadiziwin",
+   "sanskrit": "Mino-bimaadiziwin",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "The good life - and the point of every ceremony is to get and keep it",
+   "wikipedia": "Anishinaabe_traditional_beliefs",
+   "portrait": "portraits/anishinaabe/bimaadiziwin.webp",
+   "epithets": [
+    "mino-bimaadiziwin, the good life",
+    "living well",
+    "the long life"
+   ],
+   "domains": [
+    "health",
+    "long life",
+    "right conduct",
+    "the object of the whole system"
+   ],
+   "symbols": [
+    "the medicine",
+    "the lodge",
+    "the pipe"
+   ],
+   "mount": null,
+   "abode": "The point of the exercise",
+   "festivals": [],
+   "worship": "",
+   "bio": "It means a long life lived properly, and the two halves of that are not separable.",
+   "longBio": "Mino-bimaadiziwin is the aim: living well, in health, for a long time, in right relation with people and with the manidoog. Every part of the system points at it - the Mide lodge heals toward it, the fast for a vision orients a young person toward it, the teachings describe it, the ceremonies maintain it. It is not a reward after death and it is not otherworldly. It is the ordinary condition of a life going as it should, which the tradition regards as both achievable and requiring continuous work, and it is the Anishinaabe equivalent of Navajo hozho.",
+   "variantTraditions": "Frequently rendered as 'the good life' or 'the good path'; the length of the life and the quality of it are one idea in the word.",
+   "storyIds": [
+    "the-wendigo"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "healer",
+    "preserver",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "dodem",
+   "name": "The Dodem",
+   "sanskrit": "Doodem",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "The clan, inherited from the father, and the word that English took as totem",
+   "wikipedia": "Totem",
+   "portrait": "portraits/anishinaabe/dodem.webp",
+   "epithets": [
+    "doodem",
+    "the clan",
+    "the crane, the loon, the bear, the fish, the marten, the deer, the bird"
+   ],
+   "domains": [
+    "clan",
+    "descent",
+    "marriage rules",
+    "the roles of the clans"
+   ],
+   "symbols": [
+    "the clan animal drawn as a signature on treaties",
+    "the crane and the loon, who lead"
+   ],
+   "mount": null,
+   "abode": "Inherited",
+   "festivals": [],
+   "worship": "",
+   "bio": "Ojibwe leaders signed nineteenth-century treaties by drawing their clan animal.",
+   "longBio": "Every Anishinaabe belongs to a doodem inherited from the father, and the clans have functions: crane and loon provide leadership, bear looks after protection and medicine, fish the intellectual and philosophical work, marten war and provisioning, deer poetry and gentleness, bird spiritual leadership. Two people of the same doodem may not marry, wherever they are from, which made a stranger of the same clan an instant relative anywhere across a very large territory. The English word totem comes from doodem and lost nearly all of this on the way into anthropology.",
+   "variantTraditions": "Clan animals appear as signatures on the treaty documents of the nineteenth century, drawn by the men signing them.",
+   "storyIds": [
+    "the-rice"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "king-ruler",
+    "preserver",
+    "divine-beast",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "ojiig",
+   "name": "Ojiig",
+   "sanskrit": "Ojiig",
+   "category": "beast",
+   "era": "How to Live",
+   "role": "The fisher, who broke a hole in the sky to let the summer out, and is now the Big Dipper",
+   "wikipedia": "Fisher_(animal)",
+   "portrait": "portraits/anishinaabe/ojiig.webp",
+   "epithets": [
+    "the fisher",
+    "the one in the sky"
+   ],
+   "domains": [
+    "summer",
+    "the seasons",
+    "sacrifice",
+    "the Big Dipper"
+   ],
+   "symbols": [
+    "the fisher",
+    "the hole in the sky",
+    "the arrow in the tail"
+   ],
+   "mount": null,
+   "abode": "The northern sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "The last three stars of the Dipper are his tail, with the arrow still in it.",
+   "longBio": "It was winter all the time and the birds and warmth were being kept in the sky world, and Ojiig the fisher went up with others to get them. They broke a hole through and the summer birds and the warm air came pouring down - and the skykeepers came after them and shot Ojiig as he ran. He could not get back down through the hole. He is in the northern sky now as the group of stars English calls the Big Dipper, with the arrow still in his tail, and as he turns through the year he brings the seasons round with him.",
+   "variantTraditions": "Told across the Great Lakes and into the Northeast; the identification with the Dipper is constant.",
+   "storyIds": [
+    "the-fisher"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "hero-champion",
+    "fate-time",
+    "sun"
+   ]
+  },
+  {
+   "id": "birch",
+   "name": "The Birch",
+   "sanskrit": "Wiigwaas",
+   "category": "nature",
+   "era": "How to Live",
+   "role": "Canoes, baskets, scrolls, roofing and torches from one tree, and Nanabozho marked it",
+   "wikipedia": "Birch_bark",
+   "portrait": "portraits/anishinaabe/birch.webp",
+   "epithets": [
+    "wiigwaas, the birchbark",
+    "the tree with the marks on it"
+   ],
+   "domains": [
+    "canoes",
+    "containers",
+    "the scrolls",
+    "shelter",
+    "the marks on the bark"
+   ],
+   "symbols": [
+    "the dark horizontal marks on white bark",
+    "the canoe",
+    "the folded makak"
+   ],
+   "mount": null,
+   "abode": "The northern forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "The horizontal marks on the bark are where Nanabozho got hold of it, in most tellings.",
+   "longBio": "Birchbark is the single most useful material in the boreal forest: it is waterproof, peels in large sheets, is light, does not rot quickly, and burns even wet. From it come the canoe that made the whole country navigable, containers for everything including boiling water, roofing, torches, and the scrolls of the Midewiwin. The dark horizontal marks on white birch are explained in several Nanabozho stories, usually as the place where he seized it, and the tree is said to have been given its usefulness as a reward or as compensation.",
+   "variantTraditions": "The birchbark canoe is one of the most efficient vehicles ever built for the country it was built for, and the design was adopted wholesale by the fur trade.",
+   "storyIds": [
+    "the-rice"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "earth-mother",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "hiawatha_confusion",
+   "name": "The Hiawatha Mistake",
+   "sanskrit": "Longfellow's error",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "Longfellow took Nanabozho's stories and put a real Haudenosaunee statesman's name on them",
+   "wikipedia": "The_Song_of_Hiawatha",
+   "portrait": "portraits/anishinaabe/hiawatha_confusion.webp",
+   "epithets": [
+    "the wrong name",
+    "Longfellow's Hiawatha"
+   ],
+   "domains": [
+    "confusion",
+    "the nineteenth century",
+    "what happens when nobody checks"
+   ],
+   "symbols": [
+    "the 1855 poem",
+    "the trochaic metre borrowed from the Kalevala"
+   ],
+   "mount": null,
+   "abode": "A library in Cambridge, Massachusetts",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Hiawatha in the poem is Nanabozho. The real Hiawatha was an Iroquois statesman, four hundred miles away.",
+   "longBio": "Longfellow read Schoolcraft's Ojibwe collections, took the Nanabozho stories - the naming of the animals, the fight with his father, the fasting, the corn - and published them in 1855 under the name Hiawatha, in a metre he borrowed from the Finnish Kalevala. Hiawatha was a real person: a Haudenosaunee statesman who, with the Peacemaker, founded the Iroquois Confederacy, an entirely different nation with an entirely different language several hundred miles away. The poem was enormously popular, and the result is that two unrelated traditions have been merged in the public mind for a hundred and seventy years.",
+   "variantTraditions": "The confusion appears to originate with Schoolcraft rather than Longfellow, who took it on trust; either way it has never been undone.",
+   "storyIds": [
+    "the-wrong-name"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "messenger-trickster",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "gichi_manidoo",
+   "to": "manidoog",
+   "type": "parent",
+   "note": "The greatest of them, and the rest are everywhere"
+  },
+  {
+   "from": "gichi_manidoo",
+   "to": "nanabozho",
+   "type": "guru",
+   "note": "Sent to name things and to teach"
+  },
+  {
+   "from": "manidoog",
+   "to": "nanabozho",
+   "type": "ally",
+   "note": "Half of what he is"
+  },
+  {
+   "from": "nanabozho",
+   "to": "winona",
+   "type": "parent",
+   "note": "She was warned about the west wind and went out anyway"
+  },
+  {
+   "from": "winona",
+   "to": "nokomis",
+   "type": "parent",
+   "note": "Who then raised the boy"
+  },
+  {
+   "from": "nokomis",
+   "to": "nanabozho",
+   "type": "guru",
+   "note": "Everything useful he knows, she taught him"
+  },
+  {
+   "from": "nanabozho",
+   "to": "chibiabos",
+   "type": "sibling",
+   "note": "His brother and his companion"
+  },
+  {
+   "from": "chibiabos",
+   "to": "mishipeshu",
+   "type": "enemy",
+   "note": "They pulled him through the ice"
+  },
+  {
+   "from": "mishipeshu",
+   "to": "chibiabos",
+   "type": "enemy",
+   "note": "To punish his brother, in most tellings"
+  },
+  {
+   "from": "nanabozho",
+   "to": "midewiwin",
+   "type": "guru",
+   "note": "His grief was so bad they gave him the lodge to stop it"
+  },
+  {
+   "from": "chibiabos",
+   "to": "midewiwin",
+   "type": "guru",
+   "note": "Which is why the medicine society exists at all"
+  },
+  {
+   "from": "nanabozho",
+   "to": "flood",
+   "type": "ally",
+   "note": "On the raft with all the animals, after the water rose"
+  },
+  {
+   "from": "flood",
+   "to": "manoomin",
+   "type": "ally",
+   "note": "Land, and then eventually the rice beds"
+  },
+  {
+   "from": "nanabozho",
+   "to": "birch",
+   "type": "guru",
+   "note": "The marks on it are where he got hold of it"
+  },
+  {
+   "from": "nanabozho",
+   "to": "mishipeshu",
+   "type": "enemy",
+   "note": "He hunted them, which is what started it"
+  },
+  {
+   "from": "mishipeshu",
+   "to": "animikii",
+   "type": "enemy",
+   "note": "The permanent war, under the lake and over it"
+  },
+  {
+   "from": "animikii",
+   "to": "mishipeshu",
+   "type": "enemy",
+   "note": "They come north in spring for it and leave in autumn"
+  },
+  {
+   "from": "mishipeshu",
+   "to": "mishiginebig",
+   "type": "ally",
+   "note": "Both of them are the party under the water"
+  },
+  {
+   "from": "mishiginebig",
+   "to": "animikii",
+   "type": "enemy",
+   "note": "And both of them are hunted by the thunderers"
+  },
+  {
+   "from": "animikii",
+   "to": "nanabozho",
+   "type": "ally",
+   "note": "Which is why his stories are told only in winter"
+  },
+  {
+   "from": "memegwesi",
+   "to": "mishipeshu",
+   "type": "sibling",
+   "note": "Both live at the water, and only one is dangerous"
+  },
+  {
+   "from": "memegwesi",
+   "to": "manidoog",
+   "type": "devotee",
+   "note": "Tobacco is left where they live, at the rapids"
+  },
+  {
+   "from": "wendigo",
+   "to": "manidoog",
+   "type": "enemy",
+   "note": "Everything that a manidoo is not"
+  },
+  {
+   "from": "wendigo",
+   "to": "bimaadiziwin",
+   "type": "enemy",
+   "note": "Consumption without limit, against living well"
+  },
+  {
+   "from": "wendigo",
+   "to": "manoomin",
+   "type": "enemy",
+   "note": "Famine, in a country where famine was real"
+  },
+  {
+   "from": "pauguk",
+   "to": "wendigo",
+   "type": "sibling",
+   "note": "Two things a person can turn into"
+  },
+  {
+   "from": "pauguk",
+   "to": "chibiabos",
+   "type": "enemy",
+   "note": "The ordinary dead go west; this one does not"
+  },
+  {
+   "from": "midewiwin",
+   "to": "bimaadiziwin",
+   "type": "guru",
+   "note": "The institution exists to produce it"
+  },
+  {
+   "from": "midewiwin",
+   "to": "birch",
+   "type": "ally",
+   "note": "The scrolls are made of it, and are not public"
+  },
+  {
+   "from": "midewiwin",
+   "to": "migration",
+   "type": "ally",
+   "note": "The megis shell is a Mide emblem"
+  },
+  {
+   "from": "migration",
+   "to": "manoomin",
+   "type": "guru",
+   "note": "Go west until you find food growing on water"
+  },
+  {
+   "from": "migration",
+   "to": "seven_grandfathers",
+   "type": "sibling",
+   "note": "Two bodies of teaching that shape the whole thing"
+  },
+  {
+   "from": "seven_grandfathers",
+   "to": "bimaadiziwin",
+   "type": "guru",
+   "note": "The seven are what living well consists of"
+  },
+  {
+   "from": "seven_grandfathers",
+   "to": "dodem",
+   "type": "ally",
+   "note": "Each teaching has its animal, and so does each clan"
+  },
+  {
+   "from": "dodem",
+   "to": "bimaadiziwin",
+   "type": "ally",
+   "note": "Whom you may marry, and what work is yours"
+  },
+  {
+   "from": "dodem",
+   "to": "ojiig",
+   "type": "sibling",
+   "note": "Animals that mean something, in the sky and on the ground"
+  },
+  {
+   "from": "ojiig",
+   "to": "animikii",
+   "type": "sibling",
+   "note": "Both bring the summer, in different ways"
+  },
+  {
+   "from": "ojiig",
+   "to": "flood",
+   "type": "sibling",
+   "note": "Two animals that fixed something at their own cost"
+  },
+  {
+   "from": "manoomin",
+   "to": "birch",
+   "type": "ally",
+   "note": "You harvest one from a canoe made of the other"
+  },
+  {
+   "from": "manoomin",
+   "to": "dodem",
+   "type": "ally",
+   "note": "Rice beds belong to particular families"
+  },
+  {
+   "from": "hiawatha_confusion",
+   "to": "nanabozho",
+   "type": "enemy",
+   "note": "It is his material with somebody else's name on it"
+  },
+  {
+   "from": "hiawatha_confusion",
+   "to": "nokomis",
+   "type": "enemy",
+   "note": "And her name is a kinship term, not a name"
+  },
+  {
+   "from": "hiawatha_confusion",
+   "to": "winona",
+   "type": "enemy",
+   "note": "As is hers"
+  },
+  {
+   "from": "hiawatha_confusion",
+   "to": "midewiwin",
+   "type": "enemy",
+   "note": "The 1855 poem is what most people have instead of any of this"
+  },
+  {
+   "from": "gichi_manidoo",
+   "to": "bimaadiziwin",
+   "type": "ally",
+   "note": "Not petitioned for small things, and this is the large one"
+  },
+  {
+   "from": "nokomis",
+   "to": "seven_grandfathers",
+   "type": "ally",
+   "note": "The grandmother teaches, which is what a grandmother is for"
+  },
+  {
+   "from": "birch",
+   "to": "memegwesi",
+   "type": "ally",
+   "note": "Both belong to the water's edge"
+  },
+  {
+   "from": "flood",
+   "to": "gichi_manidoo",
+   "type": "devotee",
+   "note": "The world remade on a turtle's back"
+  }
+ ]
+}

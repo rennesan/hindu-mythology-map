@@ -126,6 +126,10 @@
    "destination": "/lakota/index.html"
   },
   {
+   "source": "/anishinaabe/:path*",
+   "destination": "/anishinaabe/index.html"
+  },
+  {
    "source": "/guarani/:path*",
    "destination": "/guarani/index.html"
   },

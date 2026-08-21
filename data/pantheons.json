@@ -393,10 +393,15 @@
    "label": "Anishinaabe",
    "sublabel": "Great Lakes",
    "accent": "#8a9e7a",
-   "status": "planned",
+   "status": "live",
    "blurb": "Nanabozho, the shapeshifting trickster who is also the one who made the world habitable.",
    "family": "The Americas",
-   "glyph": "◈"
+   "glyph": "◈",
+   "figures": 22,
+   "stories": 8,
+   "links": 48,
+   "levels": 3,
+   "cover": "portraits/anishinaabe/gichi_manidoo.webp"
   },
   {
    "id": "apache",
