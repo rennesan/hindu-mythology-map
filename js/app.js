@@ -395,32 +395,60 @@ function buildLanding() {
     cta.textContent = "Explore " + first.label + " mythology";
   }
 
-  /* browse by tradition */
-  $("#pantheon-grid").innerHTML = live.map(p =>
+  /* Browse by tradition, grouped by region. One flat run of cards worked at
+     eight traditions and stops working at twenty-five. Grouping puts the
+     Indigenous American nations together on the shelf without merging them
+     into one dataset - they are separate nations, languages and living
+     communities, and the pack boundary reflects that. */
+  const REGION_ORDER = ["Indigenous Traditions", "Africa", "Asia", "Europe",
+                        "Oceania", "Elsewhere"];
+
+  const liveCard = p =>
     '<a class="pantheon-card" href="/' + esc(p.id) + '/map">' +
       '<img src="/' + esc(p.cover) + '" alt="" loading="lazy" width="96" height="96">' +
       '<h4 class="pantheon-name">' + esc(p.label) + "</h4>" +
       '<p class="pantheon-sub">' + esc(p.sublabel || "") + "</p>" +
       '<p class="pantheon-blurb">' + esc(p.blurb || "") + "</p>" +
       '<p class="pantheon-stats">' + p.figures + " figures &middot; " + p.stories + " stories</p>" +
-    "</a>"
-  ).join("") + priv.map(p =>
+    "</a>";
+  const privCard = p =>
     '<a class="pantheon-card is-private" href="/' + esc(p.id) + '/map">' +
       '<span class="soon-glyph" aria-hidden="true">&#128274;</span>' +
       '<h4 class="pantheon-name">' + esc(p.label) + "</h4>" +
       '<p class="pantheon-sub">' + esc(p.sublabel || "") + "</p>" +
       '<p class="pantheon-blurb">' + esc(p.blurb || "") + "</p>" +
       '<p class="pantheon-stats">' + (Vault.isOpen(p.id) ? "Open" : "Locked") + "</p>" +
-    "</a>"
-  ).join("") + planned.map(p =>
+    "</a>";
+  const soonCard = p =>
     '<div class="pantheon-card is-soon">' +
       '<span class="soon-glyph" aria-hidden="true">&#10022;</span>' +
       '<h4 class="pantheon-name">' + esc(p.label) + "</h4>" +
       '<p class="pantheon-sub">' + esc(p.sublabel || "") + "</p>" +
       '<p class="pantheon-blurb">' + esc(p.blurb || "") + "</p>" +
       '<p class="pantheon-stats">In preparation</p>' +
-    "</div>"
-  ).join("");
+    "</div>";
+
+  const shown = live.concat(priv).concat(planned);
+  const cardFor = p => p.status === "live" ? liveCard(p)
+                     : p.status === "private" ? privCard(p) : soonCard(p);
+  const regions = REGION_ORDER
+    .map(name => [name, shown.filter(p => (p.family || "Elsewhere") === name)])
+    .filter(pair => pair[1].length);
+
+  $("#pantheon-grid").innerHTML = regions.map(pair => {
+    const name = pair[0], packs = pair[1];
+    const liveN = packs.filter(p => p.status === "live").length;
+    return '<section class="region">' +
+      '<h4 class="region-name">' + esc(name) +
+        '<span class="region-count">' + liveN + " of " + packs.length + " mapped</span>" +
+      "</h4>" +
+      (name === "Indigenous Traditions"
+        ? '<p class="region-note">Separate nations with separate languages and living '
+          + 'communities, gathered here to be easy to find and kept as independent '
+          + 'collections. Each is built only from the published record.</p>' : "") +
+      '<div class="region-cards">' + packs.map(cardFor).join("") + "</div>" +
+    "</section>";
+  }).join("");
 
   /* ways to explore, counted from the live packs */
   const pid = first ? first.id : "";

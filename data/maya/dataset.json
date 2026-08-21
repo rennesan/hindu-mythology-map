@@ -1,0 +1,2571 @@
+{
+ "title": "Maya Mythology: Figures, Relationships and Story Cycles",
+ "description": "The Popol Vuh and the gods of Yucatan mapped as one relationship graph: the world talked into being, three failed drafts of humanity, the Hero Twins in Xibalba, and the kings who carved it all in stone.",
+ "generated": "2026-08-20",
+ "sources": [
+  "The Popol Vuh, tr. Lewis Spence (1908) - the K'iche' council book",
+  "Diego de Landa, Yucatan Before and After the Conquest, tr. William Gates (1937)",
+  "Lewis Spence, The Myths of Mexico and Peru (1913)",
+  "Hartley Burr Alexander, Latin-American Mythology (1920)",
+  "Daniel G. Brinton, The Maya Chronicles (1882)",
+  "Note: the standard modern Popol Vuh translations (Tedlock, Christenson) are in copyright and are not used here",
+  "Encyclopaedia Britannica and Wikipedia for cross-checking decipherment and current readings"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/maya/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "popolvuh": {
+   "t": "The Popol Vuh",
+   "tr": "Lewis Spence, 1908",
+   "u": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+  },
+  "spence": {
+   "t": "The Myths of Mexico and Peru",
+   "tr": "Lewis Spence, 1913",
+   "u": "https://sacred-texts.com/nam/mmp/index.htm"
+  },
+  "alexander": {
+   "t": "Latin-American Mythology (Mythology of All Races XI)",
+   "tr": "Hartley Burr Alexander, 1920",
+   "u": "https://archive.org/details/mythologyofallra11alex"
+  },
+  "landa": {
+   "t": "Yucatan Before and After the Conquest",
+   "tr": "Diego de Landa, tr. William Gates, 1937",
+   "u": "https://sacred-texts.com/nam/maya/ybac/index.htm"
+  },
+  "brinton": {
+   "t": "The Maya Chronicles",
+   "tr": "Daniel G. Brinton, 1882",
+   "u": "https://archive.org/details/mayachronicles00brin"
+  },
+  "bancroft": {
+   "t": "The Native Races of the Pacific States, Vol. III",
+   "tr": "Hubert Howe Bancroft, 1875",
+   "u": "https://archive.org/details/nativeracesofpac03banc"
+  }
+ },
+ "meta": {
+  "id": "maya",
+  "label": "Maya",
+  "sublabel": "K'iche', Yucatec & Classic",
+  "accent": "#7ab5a0",
+  "root": "huracan"
+ },
+ "profile": {
+  "cosmicNature": "Drafted, tested, and rewritten. The gods made people three times before it worked - out of mud, which dissolved; out of wood, which walked but could not think or remember its makers; and finally out of maize, which could. The failures are not forgotten: the wooden people were destroyed by a flood and by their own tools and animals turning on them, and the survivors are the monkeys in the forest.",
+  "natureOfDivinity": "Layered and slippery. The same god appears young and old, male and female, in the sky and in the underworld, and Maya art is comfortable with all of it at once. Gods are also numbers, days and directions - each of the four world-quarters has its colour, its tree and its Bacab holding the sky up. The most important god of all, the maize god, is a young man who is killed and comes back, because that is what maize does.",
+  "afterlife": "Down, and unpleasant, unless you were lucky in how you died. Xibalba, the place of fright, is reached through a cave or a ball court and is run by twelve lords with names like Bloody Teeth and Pus Demon, whose entire method is trickery - trick houses, trick greetings, trick tests. Those who died in childbirth, in war, in sacrifice or by hanging went somewhere better, which made Ixtab, goddess of the hanged, a genuinely merciful figure.",
+  "systemMechanism": "Time is the machinery, and blood pays for it. The Maya ran several interlocking calendars at once and read the day you were born as a description of you. Kings drew their own blood - through the tongue, through the penis - to open a channel and bring an ancestor up through the smoke, and the inscriptions record it as routine statecraft. What holds the world together is the calendar kept correctly and the debt kept paid.",
+  "canonTexts": "The Popol Vuh, the K'iche' council book; the Books of Chilam Balam from Yucatan; the four surviving codices, chiefly the Dresden; Diego de Landa's account, written by the man who burned most of the rest; and several thousand carved and painted inscriptions, readable since the 1980s."
+ },
+ "hierarchy": [
+  {
+   "title": "The Makers in the Water",
+   "blurb": "Only sea and sky, and two things thinking in it. They talk, they agree, and one of them says the word earth - and the mountains come up. Creation here happens by conversation.",
+   "memberIds": [
+    "huracan",
+    "gucumatz",
+    "tepeu",
+    "xmucane",
+    "xpiyacoc"
+   ],
+   "connectorCaption": "They try three times to make people, and the first two attempts have to be destroyed"
+  },
+  {
+   "title": "The Drafts That Failed",
+   "blurb": "Mud people who dissolved. Wooden people who walked and talked but could not remember their makers, and were destroyed by a flood and by their own pots and dogs turning on them. The survivors are the monkeys.",
+   "memberIds": [
+    "balam_quitze",
+    "hun_batz",
+    "tohil"
+   ],
+   "connectorCaption": "Before the real sun rises, a macaw is claiming to be it"
+  },
+  {
+   "title": "The False Sun and His Sons",
+   "blurb": "Seven Macaw says he is the sun and the moon on the strength of jewelled teeth. One son makes mountains, the other knocks them down. All three have to go before the world can start properly.",
+   "memberIds": [
+    "vucub_caquix",
+    "zipacna",
+    "cabracan"
+   ],
+   "connectorCaption": "Two brothers play ball too loudly, and are heard from below"
+  },
+  {
+   "title": "Xibalba",
+   "blurb": "The place of fright, reached through a cave or a ball court, run by twelve lords with names like Bloody Teeth and Pus Demon whose entire method is trickery - trick benches, trick greetings, trick houses.",
+   "memberIds": [
+    "hun_came",
+    "xibalba_lords",
+    "camazotz",
+    "ah_puch",
+    "god_l",
+    "ah_mun"
+   ],
+   "connectorCaption": "A skull in a tree spits into a girl's hand, and the second generation is coming"
+  },
+  {
+   "title": "The Hero Twins",
+   "blurb": "They survive every trick house, let themselves be burned and ground up, come back as dancers, and talk the lords of death into asking to be killed. Then they go up into the sky.",
+   "memberIds": [
+    "hunahpu",
+    "xbalanque",
+    "hun_hunahpu",
+    "vucub_hunahpu",
+    "xquic"
+   ],
+   "connectorCaption": "In Yucatan the same world is described by a different set of names"
+  },
+  {
+   "title": "The Gods of Yucatan",
+   "blurb": "An old creator who invented writing, a rain god invoked more than anyone because there are no rivers, a maize god who is always young and always about to be cut down, and a death god who stinks.",
+   "memberIds": [
+    "itzamna",
+    "ix_chel",
+    "kinich_ahau",
+    "chaac",
+    "yum_kaax",
+    "kukulkan",
+    "ek_chuah",
+    "xaman_ek",
+    "ixtab",
+    "buluc_chabtan"
+   ],
+   "connectorCaption": "Four old men hold the corners up, and the king holds the lightning in his hand"
+  },
+  {
+   "title": "The Sky-Bearers and the Sceptre",
+   "blurb": "Four brothers at the corners of the world, one colour each. A lightning god with an axe in his forehead and a snake for a leg, carried as a sceptre in half the royal portraits ever carved.",
+   "memberIds": [
+    "bacabs",
+    "pauahtun",
+    "kawiil",
+    "vision_serpent",
+    "hunab_ku"
+   ],
+   "connectorCaption": "And the people who held him: real kings, in cities that are still standing"
+  },
+  {
+   "title": "The Classic Cities",
+   "blurb": "Pakal of Palenque, buried under a pyramid with a jade mask. The founder of Copan, whose bones show he came from somewhere else. And a queen carved pulling a thorned rope through her own tongue.",
+   "memberIds": [
+    "pakal",
+    "yax_kuk_mo",
+    "lady_xoc"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "makers",
+   "label": "The Makers",
+   "memberIds": [
+    "huracan",
+    "gucumatz",
+    "tepeu",
+    "xmucane",
+    "xpiyacoc"
+   ]
+  },
+  {
+   "id": "twins",
+   "label": "The Hero Twins and Their Father",
+   "memberIds": [
+    "hunahpu",
+    "xbalanque",
+    "hun_hunahpu",
+    "vucub_hunahpu",
+    "xquic",
+    "hun_batz"
+   ]
+  },
+  {
+   "id": "xibalba",
+   "label": "Xibalba",
+   "memberIds": [
+    "hun_came",
+    "xibalba_lords",
+    "camazotz",
+    "ah_puch",
+    "god_l",
+    "ah_mun"
+   ]
+  },
+  {
+   "id": "falsesun",
+   "label": "The False Sun and His Sons",
+   "memberIds": [
+    "vucub_caquix",
+    "zipacna",
+    "cabracan"
+   ]
+  },
+  {
+   "id": "yucatec",
+   "label": "The Gods of Yucatan",
+   "memberIds": [
+    "itzamna",
+    "ix_chel",
+    "kinich_ahau",
+    "chaac",
+    "yum_kaax",
+    "kukulkan",
+    "ek_chuah",
+    "xaman_ek",
+    "ixtab",
+    "buluc_chabtan",
+    "kawiil"
+   ]
+  },
+  {
+   "id": "corners",
+   "label": "The Four Corners",
+   "memberIds": [
+    "bacabs",
+    "pauahtun",
+    "chaac"
+   ]
+  },
+  {
+   "id": "kings",
+   "label": "The Classic Kings",
+   "memberIds": [
+    "pakal",
+    "yax_kuk_mo",
+    "lady_xoc",
+    "kawiil",
+    "vision_serpent"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-word-earth",
+   "title": "The Word Earth",
+   "era": "The Popol Vuh",
+   "cast": [
+    "huracan",
+    "gucumatz",
+    "tepeu"
+   ],
+   "summary": "There is only the sea, and the sky above it, and nothing else - no person, no animal, no tree, no stone, and no sound. In the water, under green and blue quetzal feathers, lies Gucumatz. Above is Heart of Sky, who is three lightnings in one. They come together in the dark and talk, and they agree, and what they agree is that the water should draw back and the earth should appear. Then they say the word: earth. And it comes, like a mist, like a cloud forming, and the mountains rise out of the water and cypress and pine groves cover them. Creation in this book is a conversation that reaches agreement.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part I, Chapter 1",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    }
+   ]
+  },
+  {
+   "id": "three-drafts",
+   "title": "Mud, Wood, and Maize",
+   "era": "The Popol Vuh",
+   "cast": [
+    "huracan",
+    "gucumatz",
+    "xmucane",
+    "hun_batz",
+    "balam_quitze"
+   ],
+   "summary": "The gods want something that will speak and keep the days and pray to them. The first attempt is mud: it will not hold together, it dissolves, it cannot turn its head, and they break it up. The second is wood: it walks, talks and multiplies, but has nothing in its face and nothing in its heart, and forgets its makers. So a flood of resin comes down, and the animals and the grinding stones and the cooking pots turn on them - you burned us, you beat us, now it is our turn - and the wooden people are destroyed. Their descendants are the monkeys in the forest. Only on the fourth attempt, with ground maize, does it work.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part I, Chapters 2-3",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    },
+    {
+     "book": "Latin-American Mythology (Mythology of All Races XI)",
+     "translation": "Hartley Burr Alexander, 1920",
+     "location": "Chapter 4",
+     "url": "https://archive.org/details/mythologyofallra11alex"
+    }
+   ]
+  },
+  {
+   "id": "seven-macaw",
+   "title": "The Shooting of Seven Macaw",
+   "era": "The Popol Vuh",
+   "cast": [
+    "vucub_caquix",
+    "hunahpu",
+    "xbalanque",
+    "zipacna",
+    "cabracan"
+   ],
+   "summary": "Before the real sun exists, a great macaw with teeth of jewels and silver eyes announces that he is the sun, the moon and the light. The twins do not accept it. Hunahpu shoots him in the jaw with a blowgun while he is feeding in his nance tree; the bird falls, but tears Hunahpu's arm off in the struggle and hangs it over the fire. So the twins come back with an old couple, posing as dentists, and offer to cure the terrible pain in his jaw by replacing his teeth. They fit him with white maize kernels. His face falls in, his lustre goes, and he dies of it - and they take the arm back and put it on.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part II, Chapters 1-2",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    }
+   ]
+  },
+  {
+   "id": "skull-in-the-tree",
+   "title": "The Skull in the Calabash Tree",
+   "era": "The Popol Vuh",
+   "cast": [
+    "hun_hunahpu",
+    "vucub_hunahpu",
+    "hun_came",
+    "xquic"
+   ],
+   "summary": "Two brothers play ball so noisily above Xibalba that the lords summon them down, and they fail every test: they greet wooden mannequins as lords, sit on a burning bench, and cannot return the cigars and torch unburned. They are sacrificed, and Hun Hunahpu's head is set in the fork of a dead calabash tree, which immediately fruits so that the head cannot be told from the rest. Xibalba forbids anyone to go near it. A girl called Xquic goes anyway, out of curiosity. The skull asks her to hold out her hand, spits into it, and tells her that a father leaves his image behind in his children - and that she is now carrying his.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part II, Chapters 3-4",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    }
+   ]
+  },
+  {
+   "id": "bowl-of-sap",
+   "title": "The Bowl of Sap",
+   "era": "The Popol Vuh",
+   "cast": [
+    "xquic",
+    "hun_came",
+    "xibalba_lords",
+    "xmucane"
+   ],
+   "summary": "When Xquic's pregnancy shows, her father demands to know who is responsible, and she will not say. He orders her killed and her heart brought back in a bowl. The owl messengers take her out, and she talks them round on the road: she has done nothing wrong, and the heart can be got some other way. They cut into a croton tree and let the red sap run into the bowl, where it clots into something convincing. The lords burn it and are satisfied by the smell. Xquic goes up to the world above and presents herself to Xmucane, who does not believe a word of it until she is made to gather a netful of maize from a single plant.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part II, Chapters 4-5",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    }
+   ]
+  },
+  {
+   "id": "trial-houses",
+   "title": "The Houses of Xibalba",
+   "era": "The Popol Vuh",
+   "cast": [
+    "hunahpu",
+    "xbalanque",
+    "hun_came",
+    "camazotz",
+    "xibalba_lords"
+   ],
+   "summary": "The twins go down knowing what happened to their father, and they prepare. They send a mosquito ahead to bite the seated lords, so that the ones who cry out give away their names and the wooden dummies are exposed. They refuse the hot bench. They survive the House of Darkness by making the torch look lit with a macaw's tail and putting fireflies on the cigars. They pass the House of Cold, the House of Jaguars, the House of Fire. In the House of Bats they hide inside their own blowguns all night - and Hunahpu puts his head out to check for dawn a moment too early, and Camazotz takes it off.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part II, Chapters 6-10",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    }
+   ]
+  },
+  {
+   "id": "squash-head",
+   "title": "The Ball Game With a Squash",
+   "era": "The Popol Vuh",
+   "cast": [
+    "hunahpu",
+    "xbalanque",
+    "camazotz",
+    "hun_came"
+   ],
+   "summary": "With his brother's head gone and hanging in the ball court to be used as the ball, Xbalanque improvises. He calls all the animals to bring their food, and from the coati's squash he carves a passable head, with eyes and a mouth, and fits it on Hunahpu's shoulders. Then they play. Xbalanque kicks the real head out of the court into the oak scrub, a rabbit hidden there bolts and the Xibalbans chase it thinking it is the ball, and in the confusion the head is swapped back and the squash put in play instead. The squash bursts open on the court in front of the lords, and their defeat is now only a matter of time.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part II, Chapter 11",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    }
+   ]
+  },
+  {
+   "id": "dance-of-death",
+   "title": "The Trick the Lords Asked For",
+   "era": "The Popol Vuh",
+   "cast": [
+    "hunahpu",
+    "xbalanque",
+    "hun_came",
+    "xibalba_lords"
+   ],
+   "summary": "Told by two seers exactly what to do, the twins let themselves be thrown into an oven, and their bones are ground like maize flour and scattered in the river. Five days later they reappear as catfish, then as two ragged vagabonds who dance and perform miracles - burning a house that is not consumed, killing a dog and bringing it back, cutting a man apart and restoring him. Word reaches the lords, who send for them. They kill and revive each other to order. One Death and Seven Death, delighted, demand to be done next. The twins sacrifice them and do not bring them back, and Xibalba's claim on people is cut down to the guilty from that day.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part II, Chapters 12-14",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    }
+   ]
+  },
+  {
+   "id": "fogged-eyes",
+   "title": "The Fogging of the Eyes",
+   "era": "The Popol Vuh",
+   "cast": [
+    "balam_quitze",
+    "xmucane",
+    "huracan",
+    "gucumatz"
+   ],
+   "summary": "Xmucane grinds yellow and white maize nine times and the makers form four men from the dough, with the water of her rinsing hands for their strength. These ones work: they speak, they think, they give thanks. But they also see everything - to the four corners of the sky and the four corners of the earth, everything hidden, the whole world at once, without moving. Heart of Sky says: they are not gods, and this is not what we made them for. So the gods breathe a fog onto their eyes, like breath on a mirror, and their sight is clouded until they can see only what is near. Then four women are made while they sleep.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part III, Chapters 1-2",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    }
+   ]
+  },
+  {
+   "id": "price-of-fire",
+   "title": "The Price of Fire",
+   "era": "The Popol Vuh",
+   "cast": [
+    "tohil",
+    "balam_quitze"
+   ],
+   "summary": "Before the first sunrise it is dark and cold and raining, and the people are shivering. Tohil makes fire by turning in his sandal, and the K'iche' warm themselves. The other tribes come through the cold and ask for a little of it. Tohil's answer, through his messenger, is a question: what will they give in return? They must give him their sides and their armpits - which means their hearts, and the tribes understand it. Some agree and take the fire. One people take a different route: they pass through the smoke, steal fire without asking, and owe nothing. The Popol Vuh sets its own nation's sacrificial obligation down here, in plain terms, at the very start.",
+   "sources": [
+    {
+     "book": "The Popol Vuh",
+     "translation": "Lewis Spence, 1908",
+     "location": "Part III, Chapters 5-6",
+     "url": "https://sacred-texts.com/nam/maya/pvuheng.htm"
+    }
+   ]
+  },
+  {
+   "id": "rain-and-maize",
+   "title": "Chaac and the Maize",
+   "era": "The Yucatec Pantheon",
+   "cast": [
+    "chaac",
+    "yum_kaax",
+    "ix_chel",
+    "itzamna"
+   ],
+   "summary": "Yucatan is limestone. There are no rivers on the surface, and the only water is rain and what collects in cenotes where the rock has collapsed. So the most-drawn figure in the surviving codices is Chaac, long-snouted, striking the clouds with a stone axe, and the second is the young maize god, beautiful and entirely at his mercy. Chaac is four gods as well as one - a Chaac for each direction with its own colour - and Ix Chel pours water from a jar alongside him. When she pours too much, in her aged aspect with a serpent on her head and claws for hands, the age ends in a flood. The whole religion is arranged around the arrival of water.",
+   "sources": [
+    {
+     "book": "Yucatan Before and After the Conquest",
+     "translation": "Diego de Landa, tr. William Gates, 1937",
+     "location": "Sections XXVI-XL",
+     "url": "https://sacred-texts.com/nam/maya/ybac/index.htm"
+    },
+    {
+     "book": "The Myths of Mexico and Peru",
+     "translation": "Lewis Spence, 1913",
+     "location": "Chapter 5",
+     "url": "https://sacred-texts.com/nam/mmp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "bloodletting",
+   "title": "The Rope Through the Tongue",
+   "era": "The Classic Cities",
+   "cast": [
+    "lady_xoc",
+    "vision_serpent",
+    "kawiil",
+    "pakal"
+   ],
+   "summary": "Lintel 24 at Yaxchilan shows a queen kneeling while her husband holds a torch over her, drawing a rope set with thorns through a hole pierced in her tongue. The blood falls onto strips of bark paper in a basket at her feet. On the next lintel the paper is burning, and out of the smoke rises an enormous serpent with an armed ancestor leaning from its jaws. This was not private penance but public government: royal blood opened the channel, the ancestor spoke, and the reign was confirmed. The kings of Palenque and Copan recorded the same rite. It is the mechanism by which Maya authority actually worked, carved in stone by the people doing it.",
+   "sources": [
+    {
+     "book": "Latin-American Mythology (Mythology of All Races XI)",
+     "translation": "Hartley Burr Alexander, 1920",
+     "location": "Chapter 5",
+     "url": "https://archive.org/details/mythologyofallra11alex"
+    },
+    {
+     "book": "Yucatan Before and After the Conquest",
+     "translation": "Diego de Landa, tr. William Gates, 1937",
+     "location": "Section XXVIII",
+     "url": "https://sacred-texts.com/nam/maya/ybac/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "pakal-tomb",
+   "title": "The Man Under the Pyramid",
+   "era": "The Classic Cities",
+   "cast": [
+    "pakal",
+    "yum_kaax",
+    "kinich_ahau"
+   ],
+   "summary": "In 1948 an archaeologist noticed that the floor slabs in the Temple of the Inscriptions at Palenque had holes drilled in them, as if for lifting. Under it was a stairway packed solid with rubble, which took four seasons to clear, and at the bottom a sealed chamber with a five-tonne carved lid over a sarcophagus. Inside was K'inich Janaab' Pakal, who ruled for sixty-eight years, with a jade mosaic mask over his face. The lid shows him at the instant of death, falling backwards into the open jaws of the underworld with the world tree rising above him - the maize god's descent, which is also the maize god's return.",
+   "sources": [
+    {
+     "book": "Latin-American Mythology (Mythology of All Races XI)",
+     "translation": "Hartley Burr Alexander, 1920",
+     "location": "Chapter 5",
+     "url": "https://archive.org/details/mythologyofallra11alex"
+    },
+    {
+     "book": "The Maya Chronicles",
+     "translation": "Daniel G. Brinton, 1882",
+     "location": "Introduction",
+     "url": "https://archive.org/details/mayachronicles00brin"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "huracan",
+   "name": "Huracan",
+   "sanskrit": "Juraqan",
+   "category": "creator",
+   "era": "The Popol Vuh",
+   "role": "Heart of Sky, who spoke the word 'earth' and the earth came",
+   "wikipedia": "Huracan",
+   "portrait": "portraits/maya/huracan.webp",
+   "epithets": [
+    "Heart of Sky",
+    "the one-legged",
+    "Thunderbolt Hurricane"
+   ],
+   "domains": [
+    "creation by speech",
+    "storm",
+    "lightning",
+    "the flood"
+   ],
+   "symbols": [
+    "the single leg",
+    "the lightning bolt",
+    "the whirlwind"
+   ],
+   "mount": null,
+   "abode": "The sky, over the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "Three lightnings in one god - and the origin of the word hurricane.",
+   "longBio": "At the start there is only sea and sky, and two things thinking in the water. Huracan is Heart of Sky, and he is three at once: Thunderbolt, Newborn Thunderbolt and Sudden Thunderbolt. Together with Gucumatz he says the word earth, and the mountains come up out of the water. He also sends the flood that destroys the wooden people when they turn out to be useless. His name has one leg because he is depicted that way, and it travelled into Spanish and then English as hurricane - one of very few English words taken from a Maya god.",
+   "variantTraditions": "The route from Huracan to hurricane runs through Taino huracan in the Caribbean; whether the Maya and Taino words share an origin is argued.",
+   "storyIds": [
+    "the-word-earth",
+    "three-drafts",
+    "fogged-eyes"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "sky-thunder",
+    "wind-storm",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "gucumatz",
+   "name": "Gucumatz",
+   "sanskrit": "Q'uq'umatz",
+   "category": "creator",
+   "era": "The Popol Vuh",
+   "role": "The feathered serpent in the water, who thought the world up with Huracan",
+   "wikipedia": "Q'uq'umatz",
+   "portrait": "portraits/maya/gucumatz.webp",
+   "epithets": [
+    "Kukulkan in Yucatec",
+    "the Sovereign Plumed Serpent",
+    "the quetzal serpent"
+   ],
+   "domains": [
+    "creation",
+    "water",
+    "wind",
+    "the sea before the world"
+   ],
+   "symbols": [
+    "quetzal feathers on a serpent",
+    "the still water"
+   ],
+   "mount": null,
+   "abode": "In the sea, under green and blue feathers",
+   "festivals": [],
+   "worship": "",
+   "bio": "He lay in the water wrapped in quetzal feathers, and between them they talked the world into existence.",
+   "longBio": "Gucumatz is in the sea at the beginning, covered in green and blue feathers, and he and Huracan discuss what to do. The Popol Vuh is specific that creation happens by conversation: they talk, they agree, and then they speak the word. He is the K'iche' form of the feathered serpent who is Kukulkan in Yucatan and Quetzalcoatl in central Mexico, and the sharing of that figure across Mesoamerica is one of the clearest signs of how much these cultures traded with one another.",
+   "variantTraditions": "The three names are the same figure in three languages. How much of the Yucatec Kukulkan cult was imported from central Mexico after 900 is disputed.",
+   "storyIds": [
+    "the-word-earth",
+    "three-drafts",
+    "fogged-eyes"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "serpent-dragon",
+    "sea-waters",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "tepeu",
+   "name": "Tepeu",
+   "sanskrit": "Tepew",
+   "category": "creator",
+   "era": "The Popol Vuh",
+   "role": "The Sovereign, who makes up the other half of every creative conversation",
+   "wikipedia": "Tepeu",
+   "portrait": "portraits/maya/tepeu.webp",
+   "epithets": [
+    "the Sovereign",
+    "the Maker",
+    "the Bearer, the Begetter"
+   ],
+   "domains": [
+    "creation",
+    "sovereignty"
+   ],
+   "symbols": [
+    "the paired names",
+    "the word spoken together"
+   ],
+   "mount": null,
+   "abode": "The primordial sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "Almost never named alone - the Popol Vuh works in pairs, and he is half of one.",
+   "longBio": "Tepeu appears throughout the Popol Vuh joined to Gucumatz, and the text almost never separates them. This is not sloppiness: K'iche' religious language works in couplets, pairing terms so that the pair means more than either half - Maker and Modeler, Bearer and Begetter, Heart of Sky and Heart of Earth. The whole book is written in that parallel style, which is why reading it feels like listening to two voices. Tepeu is what the pattern requires: a sovereign to go with a serpent.",
+   "variantTraditions": "The paired structure of K'iche' ritual speech is preserved in the Popol Vuh and is still used by present-day Maya prayer-makers.",
+   "storyIds": [
+    "the-word-earth"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "king-ruler",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "xmucane",
+   "name": "Xmucane",
+   "sanskrit": "Xmukane",
+   "category": "creator",
+   "era": "The Popol Vuh",
+   "role": "The grandmother who ground the maize that people are made of",
+   "wikipedia": "Xmucane_and_Xpiacoc",
+   "portrait": "portraits/maya/xmucane.webp",
+   "epithets": [
+    "Grandmother of Day",
+    "the midwife",
+    "the diviner"
+   ],
+   "domains": [
+    "divination",
+    "maize",
+    "midwifery",
+    "the making of humanity"
+   ],
+   "symbols": [
+    "the grinding stone",
+    "the maize kernels used for counting"
+   ],
+   "mount": null,
+   "abode": "The house at the edge of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "She ground yellow and white maize nine times, and the dough became the first real people.",
+   "longBio": "Xmucane and her husband are the old diviners the other gods consult when a decision is difficult. After the mud people and the wood people fail, she grinds yellow and white maize nine times, and from the dough - with the water of her rinsing hands for the fat and strength - the first four true men are made. She is also the grandmother who raises the Hero Twins after their father is killed, badly and grudgingly, having been fooled by their older half-brothers. Her divination method, counting maize kernels and coral seeds, is still used in Guatemala.",
+   "variantTraditions": "The day-keepers of highland Guatemala continue to divine with maize kernels and tz'ite seeds in a manner very close to the Popol Vuh's description.",
+   "storyIds": [
+    "three-drafts",
+    "bowl-of-sap",
+    "fogged-eyes"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother",
+    "sage-seer",
+    "creator",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "xpiyacoc",
+   "name": "Xpiyacoc",
+   "sanskrit": "Xpiyakok",
+   "category": "creator",
+   "era": "The Popol Vuh",
+   "role": "The grandfather diviner, consulted whenever the gods are stuck",
+   "wikipedia": "Xmucane_and_Xpiacoc",
+   "portrait": "portraits/maya/xpiyacoc.webp",
+   "epithets": [
+    "Grandfather of Day",
+    "the matchmaker",
+    "the diviner"
+   ],
+   "domains": [
+    "divination",
+    "counsel",
+    "the calendar"
+   ],
+   "symbols": [
+    "the coral seeds",
+    "the divining bundle"
+   ],
+   "mount": null,
+   "abode": "The house at the edge of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "The oldest pair in the book, and the ones everyone else asks when the creation goes wrong.",
+   "longBio": "Xpiyacoc works with Xmucane as the divining couple - grandfather and grandmother of the day - and they are called in when the makers cannot decide what to do about people. Their answer about the wooden people is wrong, which the text notes without much comment: even the best diviners get it wrong. The pairing of an old man and an old woman as the source of counsel is standard across Mesoamerica, and their titles connect them directly to the calendar, which is the instrument through which all such questions were actually asked.",
+   "variantTraditions": "The names are difficult and their etymologies are not settled; the titles Grandmother and Grandfather of Day are secure.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sage-seer",
+    "wisdom-craft",
+    "creator"
+   ]
+  },
+  {
+   "id": "hunahpu",
+   "name": "Hunahpu",
+   "sanskrit": "Junajpu",
+   "category": "hero",
+   "era": "The Popol Vuh",
+   "role": "Hero Twin, blowgunner, who had his head cut off and used a squash instead",
+   "wikipedia": "Hunahpu_and_Xbalanque",
+   "portrait": "portraits/maya/hunahpu.webp",
+   "epithets": [
+    "One Blowgunner",
+    "the elder twin"
+   ],
+   "domains": [
+    "the blowgun",
+    "the ball game",
+    "trickery",
+    "the sun"
+   ],
+   "symbols": [
+    "the blowgun",
+    "the rubber ball",
+    "spots on the cheek"
+   ],
+   "mount": null,
+   "abode": "The ball court, and Xibalba",
+   "festivals": [],
+   "worship": "",
+   "bio": "Decapitated by a bat in the dark, and his brother put a squash on his shoulders until they got the head back.",
+   "longBio": "Hunahpu and his brother are the second generation to be summoned down to Xibalba, and unlike their father they win. They survive the trick houses, they cheat the tests, and when the bat Camazotz takes Hunahpu's head off in the House of Bats, Xbalanque rigs a squash to serve as a replacement and plays the ball game with the lords using his brother's actual head as the ball, until they can swap it back. Afterwards the two of them rise into the sky as the sun and the moon. He is depicted with black spots and is the model for the young lords of Classic art.",
+   "variantTraditions": "The Classic Maya Hero Twins are attested centuries before the Popol Vuh was written, on painted vessels, which shows the story is far older than the manuscript.",
+   "storyIds": [
+    "seven-macaw",
+    "trial-houses",
+    "squash-head",
+    "dance-of-death"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sun",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "xbalanque",
+   "name": "Xbalanque",
+   "sanskrit": "Xb'alanke",
+   "category": "hero",
+   "era": "The Popol Vuh",
+   "role": "Hero Twin, the one who thinks of the plan, and afterwards the moon",
+   "wikipedia": "Hunahpu_and_Xbalanque",
+   "portrait": "portraits/maya/xbalanque.webp",
+   "epithets": [
+    "Jaguar Deer",
+    "Little Jaguar Sun",
+    "the younger twin"
+   ],
+   "domains": [
+    "the ball game",
+    "cunning",
+    "resurrection",
+    "the moon"
+   ],
+   "symbols": [
+    "jaguar patches of skin",
+    "the rubber ball"
+   ],
+   "mount": null,
+   "abode": "The ball court, and Xibalba",
+   "festivals": [],
+   "worship": "",
+   "bio": "He talked the lords of death into letting themselves be killed, having first shown them it was reversible.",
+   "longBio": "Xbalanque is the strategist of the pair. The endgame in Xibalba is his: the twins let themselves be burned to death and their bones ground and thrown in a river, come back five days later as catfish and then as ragged dancers, and perform a trick in which one kills the other and brings him back. The lords of Xibalba are so delighted they ask to be done next - and are killed, and not brought back. It is the coldest and best-plotted scene in Mesoamerican literature, and it is why Xibalba's power over people is reduced afterwards.",
+   "variantTraditions": "Whether Xbalanque becomes the moon or a second solar aspect is debated; the Popol Vuh's phrasing is ambiguous and Classic-era evidence points to a solar pairing.",
+   "storyIds": [
+    "seven-macaw",
+    "trial-houses",
+    "squash-head",
+    "dance-of-death"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "moon",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "hun_hunahpu",
+   "name": "Hun Hunahpu",
+   "sanskrit": "Jun Junajpu",
+   "category": "deity",
+   "era": "The Popol Vuh",
+   "role": "The maize god: killed in Xibalba, his skull spat in a girl's hand and fathered the twins",
+   "wikipedia": "Maya_maize_god",
+   "portrait": "portraits/maya/hun_hunahpu.webp",
+   "epithets": [
+    "One Hunahpu",
+    "the maize god",
+    "the father of the twins"
+   ],
+   "domains": [
+    "maize",
+    "the ball game",
+    "death and return"
+   ],
+   "symbols": [
+    "the calabash tree hung with skulls",
+    "the maize ear",
+    "the ball court"
+   ],
+   "mount": null,
+   "abode": "The ball court, then a tree in Xibalba",
+   "festivals": [],
+   "worship": "",
+   "bio": "His head was hung in a tree, the tree fruited, and the fruit talked a girl into holding out her hand.",
+   "longBio": "Hun Hunahpu and his brother make too much noise playing ball above Xibalba, are summoned down, fail every test and are sacrificed. His head is set in the fork of a calabash tree, which immediately covers itself in fruit so his head cannot be told from the rest. A girl called Xquic comes to look at it; the skull spits into her palm and she conceives the Hero Twins. He is the maize god, and everything about him is maize: buried, and coming up again through his sons. Classic Maya art shows him young and beautiful with a maize-cob head, rising from a cracked turtle shell.",
+   "variantTraditions": "The identification of Hun Hunahpu with the Classic maize god is standard though not universally accepted; the resurrection imagery on painted vessels is the main evidence.",
+   "storyIds": [
+    "skull-in-the-tree"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "vucub_hunahpu",
+   "name": "Vucub Hunahpu",
+   "sanskrit": "Wuqub' Junajpu",
+   "category": "deity",
+   "era": "The Popol Vuh",
+   "role": "The brother who went down with him and stayed there",
+   "wikipedia": "Hunahpu_and_Xbalanque",
+   "portrait": "portraits/maya/vucub_hunahpu.webp",
+   "epithets": [
+    "Seven Hunahpu",
+    "the younger brother"
+   ],
+   "domains": [
+    "the ball game",
+    "the first defeat in Xibalba"
+   ],
+   "symbols": [
+    "the ball court",
+    "the grave under the ball court"
+   ],
+   "mount": null,
+   "abode": "Xibalba",
+   "festivals": [],
+   "worship": "",
+   "bio": "Buried under the ball court he lost in, and not brought back.",
+   "longBio": "Vucub Hunahpu goes down to Xibalba with his brother and shares every mistake: they greet wooden mannequins as if they were lords, sit on a burning-hot stone bench, and fail the test of the cigars and torch that must burn all night and be returned whole. Both are sacrificed. Only his brother's head is taken for the tree; the rest of them is buried at the ball court. When the Hero Twins finally win, they try to restore both fathers and cannot fully do it - the text says the attempt to name their body parts fails - and leave them to be prayed to instead.",
+   "variantTraditions": "The failure of the twins to fully resurrect their father is one of the more striking refusals of a happy ending in the book.",
+   "storyIds": [
+    "skull-in-the-tree"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "hero-champion",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "xquic",
+   "name": "Xquic",
+   "sanskrit": "Xkik'",
+   "category": "deity",
+   "era": "The Popol Vuh",
+   "role": "Blood Moon, who got pregnant from a skull in a tree and outwitted her father",
+   "wikipedia": "Xquic",
+   "portrait": "portraits/maya/xquic.webp",
+   "epithets": [
+    "Blood Moon",
+    "Blood Woman",
+    "daughter of Cuchumaquic"
+   ],
+   "domains": [
+    "conception",
+    "escape from Xibalba",
+    "the counterfeit heart"
+   ],
+   "symbols": [
+    "the calabash tree",
+    "the bowl of red sap"
+   ],
+   "mount": null,
+   "abode": "Xibalba, then the world above",
+   "festivals": [],
+   "worship": "",
+   "bio": "Sent to be killed and have her heart cut out, she talked the executioners into faking it with tree sap.",
+   "longBio": "Xquic is the daughter of a Xibalban lord. Curious about the forbidden tree, she goes to look, and the skull of Hun Hunahpu spits into her hand and tells her she is now pregnant, and that a father leaves his image behind in his children. When it shows, her father orders her killed and her heart brought back in a bowl. She persuades the owl messengers to take her to the world above instead, and they fill the bowl with the red sap of a croton tree, which hardens into a convincing heart. She goes to Xmucane, is disbelieved, proves herself, and bears the Hero Twins.",
+   "variantTraditions": "The substituted heart of tree sap has been read as an aetiology for copal and other resins used in Maya offerings in place of blood.",
+   "storyIds": [
+    "skull-in-the-tree",
+    "bowl-of-sap"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "moon",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "hun_batz",
+   "name": "Hun Batz and Hun Chouen",
+   "sanskrit": "Jun B'atz' and Jun Chowen",
+   "category": "deity",
+   "era": "The Popol Vuh",
+   "role": "The talented older brothers who bullied the twins and were turned into monkeys",
+   "wikipedia": "Hun_Batz_and_Hun_Chouen",
+   "portrait": "portraits/maya/hun_batz.webp",
+   "epithets": [
+    "One Howler and One Spider Monkey",
+    "the patrons of the arts"
+   ],
+   "domains": [
+    "writing",
+    "carving",
+    "music",
+    "flute and singing"
+   ],
+   "symbols": [
+    "the monkey",
+    "the brush and the flute"
+   ],
+   "mount": null,
+   "abode": "The tree they could not get down from",
+   "festivals": [],
+   "worship": "",
+   "bio": "Musicians, writers and carvers - and so unpleasant to their half-brothers that they ended up in the trees.",
+   "longBio": "Hun Batz and Hun Chouen are the Hero Twins' older half-brothers, and they are gifted: flautists, singers, painters, carvers, and the patrons of every art. They are also cruel, refusing the twins food and making them sleep on the ground. The twins get their own back by asking them to climb a tree to fetch birds, and making the tree grow. Told to loosen their belts to climb down, the brothers find the belts have become tails, and they go off into the forest as monkeys. Their grandmother is told not to laugh, and cannot help it, and they never come back.",
+   "variantTraditions": "The howler monkey is the patron of scribes in Classic Maya art, shown holding brushes and codices, which confirms the association independently of the Popol Vuh.",
+   "storyIds": [
+    "three-drafts"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft",
+    "divine-beast",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "vucub_caquix",
+   "name": "Vucub Caquix",
+   "sanskrit": "Wuqub' Kaqix",
+   "category": "beast",
+   "era": "The Popol Vuh",
+   "role": "Seven Macaw, who claimed to be the sun and the moon and had teeth of jewels",
+   "wikipedia": "Vucub_Caquix",
+   "portrait": "portraits/maya/vucub_caquix.webp",
+   "epithets": [
+    "Seven Macaw",
+    "the false sun"
+   ],
+   "domains": [
+    "vanity",
+    "false claims to divinity",
+    "jewelled teeth"
+   ],
+   "symbols": [
+    "the macaw",
+    "the nance tree",
+    "the jewelled teeth and silver eyes"
+   ],
+   "mount": null,
+   "abode": "His nance tree",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was neither the sun nor the moon and said he was both, so the twins shot his jaw off.",
+   "longBio": "Vucub Caquix is a great macaw who declares himself the sun, the moon and the light, on the strength of glittering teeth, gleaming eyes and metal ornaments. The twins deal with him by ambush: Hunahpu shoots him in the jaw with a blowgun as he feeds in his nance tree, and though he tears Hunahpu's arm off in the struggle, the twins come back disguised as travelling dentists and offer to fix the pain by replacing his teeth - with white maize kernels, which ruin his face and his lustre. He dies of it, and they get the arm back.",
+   "variantTraditions": "The shooting of Seven Macaw appears on Izapan monuments from around 100 BC, making it one of the oldest datable Maya narrative scenes.",
+   "storyIds": [
+    "seven-macaw"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "divine-beast",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "zipacna",
+   "name": "Zipacna",
+   "sanskrit": "Sipakna",
+   "category": "beast",
+   "era": "The Popol Vuh",
+   "role": "Seven Macaw's son, who made the mountains and was buried under one",
+   "wikipedia": "Zipacna",
+   "portrait": "portraits/maya/zipacna.webp",
+   "epithets": [
+    "the mountain-maker",
+    "the crocodile"
+   ],
+   "domains": [
+    "mountains",
+    "brute strength",
+    "the earth's crust"
+   ],
+   "symbols": [
+    "the crab used as bait",
+    "the mountain Meavan"
+   ],
+   "mount": null,
+   "abode": "Under a mountain",
+   "festivals": [],
+   "worship": "",
+   "bio": "He killed four hundred boys by pulling their house down, and was trapped by a fake crab.",
+   "longBio": "Zipacna carries mountains around at night and makes them, and he is strong enough that four hundred young men trying to bury him under a house-post fail completely - he digs sideways, waits, and then pulls the building down on all of them. They become the Pleiades. The twins finish him by exploiting appetite: they build a very convincing artificial crab and put it in a ravine under Meavan mountain, and when he crawls in after it on his back, the mountain comes down on his chest and turns him to stone.",
+   "variantTraditions": "The four hundred boys becoming the Pleiades connects the episode to a widespread Mesoamerican star-group tradition.",
+   "storyIds": [
+    "seven-macaw"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "cabracan",
+   "name": "Cabracan",
+   "sanskrit": "Kab'raqan",
+   "category": "beast",
+   "era": "The Popol Vuh",
+   "role": "Earthquake: the brother who knocked mountains down, fed poisoned bird",
+   "wikipedia": "Cabracan",
+   "portrait": "portraits/maya/cabracan.webp",
+   "epithets": [
+    "Earthquake",
+    "Two-Legs",
+    "the mountain-shaker"
+   ],
+   "domains": [
+    "earthquakes",
+    "the levelling of mountains"
+   ],
+   "symbols": [
+    "the shaken ground",
+    "the roast bird rubbed with chalk"
+   ],
+   "mount": null,
+   "abode": "Buried in the east",
+   "festivals": [],
+   "worship": "",
+   "bio": "The twins told him about a mountain he had not yet flattened, and fed him a bird on the way.",
+   "longBio": "Where his brother made mountains, Cabracan knocks them down, and he boasts about it. The twins tell him there is a mountain in the east growing so tall it will not stop, and offer to take him there. On the way they shoot birds and roast them, and rub one with chalk. He eats it, his strength drains out of him, and by the time they reach the place he cannot lift anything. They tie him up and bury him. The three of them - the false sun and his two sons - are all disposed of by the twins before the real work in Xibalba begins.",
+   "variantTraditions": "The trio of Vucub Caquix and his sons is often read as an older order of pretenders that has to be cleared away before the true sun can rise.",
+   "storyIds": [
+    "seven-macaw"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "hun_came",
+   "name": "One Death and Seven Death",
+   "sanskrit": "Jun Kame and Wuqub' Kame",
+   "category": "underworld",
+   "era": "Xibalba",
+   "role": "The two chief lords of the underworld, killed by a trick they asked for",
+   "wikipedia": "Xibalba",
+   "portrait": "portraits/maya/hun_came.webp",
+   "epithets": [
+    "One Death",
+    "Seven Death",
+    "the lords of Xibalba"
+   ],
+   "domains": [
+    "death",
+    "trickery",
+    "the summoning of ball players"
+   ],
+   "symbols": [
+    "the ball court of Xibalba",
+    "the owl messengers"
+   ],
+   "mount": null,
+   "abode": "Xibalba",
+   "festivals": [],
+   "worship": "",
+   "bio": "They watched the twins kill and resurrect each other, asked to try it, and were obliged.",
+   "longBio": "One Death and Seven Death preside over the twelve lords of Xibalba and run it as a series of practical jokes with fatal endings. Their downfall is vanity. After the twins have died, been ground up and come back as dancers who perform miracles - burning a house that is not consumed, killing a dog and reviving it, sacrificing a man and restoring him - the two lords demand to be sacrificed and brought back as well. The twins do the first half. Afterwards Xibalba's rights over people are cut down to the unworthy and the guilty.",
+   "variantTraditions": "The reduction rather than destruction of Xibalba's power is important: the underworld continues, but on limited terms.",
+   "storyIds": [
+    "skull-in-the-tree",
+    "bowl-of-sap",
+    "trial-houses",
+    "squash-head",
+    "dance-of-death"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "xibalba_lords",
+   "name": "The Lords of Xibalba",
+   "sanskrit": "Ajawab' Xib'alb'a",
+   "category": "underworld",
+   "era": "Xibalba",
+   "role": "Ten more lords with names like Bloody Teeth, Pus Demon and Bone Staff",
+   "wikipedia": "Xibalba",
+   "portrait": "portraits/maya/xibalba_lords.webp",
+   "epithets": [
+    "Xiquiripat and Cuchumaquic",
+    "Ahalpuh and Ahalgana",
+    "Chamiabac and Chamiaholom",
+    "Quicxic and Patan"
+   ],
+   "domains": [
+    "specific diseases",
+    "swelling and jaundice",
+    "sudden death on the road"
+   ],
+   "symbols": [
+    "the staffs of bone",
+    "the owl messengers"
+   ],
+   "mount": null,
+   "abode": "Xibalba",
+   "festivals": [],
+   "worship": "",
+   "bio": "Each one causes a named affliction: this pair makes you swell up, that pair makes you cough blood on the road.",
+   "longBio": "The Popol Vuh lists the lords in pairs and says exactly what each does. Xiquiripat and Cuchumaquic sicken people's blood. Ahalpuh and Ahalgana cause swelling of the legs and jaundice. Chamiabac and Chamiaholom reduce people to bones and skulls. Quicxic and Patan make travellers vomit blood and die on the road. It is a catalogue of the ways people actually died, given faces and a bureaucracy - which is a colder and more recognisable picture of death than a single dark lord would be.",
+   "variantTraditions": "The naming of specific diseases suggests the Xibalban lords functioned partly as an aetiology of illness rather than purely as an underworld pantheon.",
+   "storyIds": [
+    "bowl-of-sap",
+    "trial-houses",
+    "dance-of-death"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "camazotz",
+   "name": "Camazotz",
+   "sanskrit": "Kamasotz'",
+   "category": "beast",
+   "era": "Xibalba",
+   "role": "The death bat in the House of Bats, who took Hunahpu's head off",
+   "wikipedia": "Camazotz",
+   "portrait": "portraits/maya/camazotz.webp",
+   "epithets": [
+    "the snatch-bat",
+    "the death bat"
+   ],
+   "domains": [
+    "bats",
+    "decapitation",
+    "the House of Bats"
+   ],
+   "symbols": [
+    "the huge bat with a knife nose",
+    "the darkness"
+   ],
+   "mount": null,
+   "abode": "The House of Bats",
+   "festivals": [],
+   "worship": "",
+   "bio": "The twins hid inside their blowguns all night; one looked out at dawn too early.",
+   "longBio": "The House of Bats is one of the trial houses of Xibalba, full of shrieking bats, and the twins survive it by climbing inside their own blowguns. Near dawn Hunahpu puts his head out to see whether it is getting light, and Camazotz takes it off in one pass. Xbalanque improvises: he calls the animals, has a coati carve a squash into a passable head, and fits it. Meanwhile the lords hang the real head in the ball court and use it as the ball. Xbalanque kicks it out of play, swaps it back during the confusion, and the game is won with a squash bursting on the court.",
+   "variantTraditions": "Bat imagery is common in Maya underworld art, and a leaf-nosed bat deity appears on Classic vessels centuries before the Popol Vuh.",
+   "storyIds": [
+    "trial-houses",
+    "squash-head"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "divine-beast",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "balam_quitze",
+   "name": "The Four First Men",
+   "sanskrit": "Balam Ki'tze' and his brothers",
+   "category": "mortal",
+   "era": "The Popol Vuh",
+   "role": "Made of maize, and so clear-sighted the gods had to fog their eyes",
+   "wikipedia": "Popol_Vuh",
+   "portrait": "portraits/maya/balam_quitze.webp",
+   "epithets": [
+    "Balam Quitze",
+    "Balam Acab",
+    "Mahucutah",
+    "Iqui Balam"
+   ],
+   "domains": [
+    "the founding of the K'iche' lineages",
+    "sight",
+    "the first prayer"
+   ],
+   "symbols": [
+    "the maize dough",
+    "the breath on the eyes"
+   ],
+   "mount": null,
+   "abode": "The place of the first dawn",
+   "festivals": [],
+   "worship": "",
+   "bio": "They could see to the ends of the earth, which the gods decided was too much.",
+   "longBio": "The fourth attempt works. Four men are made from ground maize and they turn out too well: they see everything, understand everything, know the whole of the earth and sky at once. Heart of Sky says that this is a problem - they are not gods and should not know as much as gods - and breathes fog onto their eyes so that they can see only what is near. Then four women are made for them while they sleep, and from those four couples the K'iche' lineages descend. The book is a genealogy as much as a cosmology, and this is where it turns into one.",
+   "variantTraditions": "The deliberate clouding of human sight is unusual: the fall here is imposed by the gods for their own security, not earned by human disobedience.",
+   "storyIds": [
+    "three-drafts",
+    "fogged-eyes",
+    "price-of-fire"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "tohil",
+   "name": "Tohil",
+   "sanskrit": "Tojil",
+   "category": "deity",
+   "era": "The Popol Vuh",
+   "role": "The god who gave the K'iche' fire and charged for it afterwards",
+   "wikipedia": "Tohil",
+   "portrait": "portraits/maya/tohil.webp",
+   "epithets": [
+    "the giver of fire",
+    "the god of the K'iche'"
+   ],
+   "domains": [
+    "fire",
+    "rain",
+    "the price of fire",
+    "human sacrifice"
+   ],
+   "symbols": [
+    "the fire struck from his sandal",
+    "the bundle carried on the back"
+   ],
+   "mount": null,
+   "abode": "Carried in a bundle, then Hacavitz",
+   "festivals": [],
+   "worship": "",
+   "bio": "He gave fire to everyone shivering in the dark, and then named his price.",
+   "longBio": "In the cold and dark before the first sunrise, the tribes are freezing, and Tohil makes fire by striking his sandal. The other peoples come and ask for some. Tohil's messenger asks what they will give in return, and the price is stated plainly - they must give him their sides and armpits, meaning their hearts. Some agree, one people refuse and steal fire in the smoke instead. The Popol Vuh does not flinch from what its own patron god demanded, and puts the founding of the sacrificial obligation right at the start of the K'iche' nation's history.",
+   "variantTraditions": "Tohil is often equated with the central Mexican Tezcatlipoca or Quetzalcoatl; the K'iche' text keeps him distinct.",
+   "storyIds": [
+    "price-of-fire"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "king-ruler",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "itzamna",
+   "name": "Itzamna",
+   "sanskrit": "Itzamnaaj",
+   "category": "creator",
+   "era": "The Yucatec Pantheon",
+   "role": "The old creator god who invented writing and never seems to do anyone harm",
+   "wikipedia": "Itzamna",
+   "portrait": "portraits/maya/itzamna.webp",
+   "epithets": [
+    "God D",
+    "the Lizard House",
+    "Itzamnaaj"
+   ],
+   "domains": [
+    "creation",
+    "writing",
+    "medicine",
+    "the day",
+    "priesthood"
+   ],
+   "symbols": [
+    "the old man with a hooked nose",
+    "the mirror on the forehead",
+    "the codex"
+   ],
+   "mount": null,
+   "abode": "The sky and the temple",
+   "festivals": [],
+   "worship": "",
+   "bio": "The one great Maya god that no source has anything bad to say about.",
+   "longBio": "Itzamna is the supreme god in Landa's account and God D in the codices - an old man with a hooked nose, sunken cheeks, and a headband with a mirror. He is credited with inventing writing and books, teaching medicine and the calendar, and naming the places of Yucatan. Landa says no ceremony to him ever involved blood, which stands out sharply in this pantheon. He is often shown as an aged version of the same figure who appears as a great bird, and his female counterpart is Ix Chel. His name is usually read as something like lizard house.",
+   "variantTraditions": "The equation of God D with the name Itzamnaaj in the inscriptions is now secure; older debates about whether Itzamna was a single deity have largely settled.",
+   "storyIds": [
+    "rain-and-maize"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "wisdom-craft",
+    "healer",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "ix_chel",
+   "name": "Ix Chel",
+   "sanskrit": "Ixchel",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "Weaving, medicine, childbirth and floods - young goddess and terrifying old one at once",
+   "wikipedia": "Ixchel",
+   "portrait": "portraits/maya/ix_chel.webp",
+   "epithets": [
+    "Goddess O",
+    "Chak Chel, the great rainbow",
+    "Lady Rainbow"
+   ],
+   "domains": [
+    "childbirth",
+    "weaving",
+    "medicine",
+    "the moon",
+    "floods"
+   ],
+   "symbols": [
+    "the backstrap loom",
+    "the serpent headdress",
+    "the overturned water jar"
+   ],
+   "mount": null,
+   "abode": "Cozumel, and the island of Isla Mujeres",
+   "festivals": [],
+   "worship": "",
+   "bio": "Young she is the moon and the loom; old she is the one pouring the flood out of a jar.",
+   "longBio": "Ix Chel covers everything to do with women's work and women's danger: weaving, pregnancy, birth, medicine and the moon. Women made pilgrimages by canoe across to Cozumel to her shrine, one of the few Maya pilgrimages we know much about. Her other face is Chak Chel, an old woman with claws and a coiled serpent on her head, shown in the Dresden Codex tipping a jar of water over the world - the flood that ends an age. Young and old, benign and destructive, are the same goddess, and Maya art does not treat that as a contradiction.",
+   "variantTraditions": "Whether the young moon goddess and the aged Chak Chel were originally one deity is disputed; the codices distinguish them and colonial sources merge them.",
+   "storyIds": [
+    "rain-and-maize"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "earth-mother",
+    "healer",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "kinich_ahau",
+   "name": "Kinich Ahau",
+   "sanskrit": "K'inich Ajaw",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "The sun-faced lord, who goes into the underworld at night as a jaguar",
+   "wikipedia": "Kinich_Ahau",
+   "portrait": "portraits/maya/kinich_ahau.webp",
+   "epithets": [
+    "God G",
+    "Sun-Faced Lord",
+    "the Jaguar God of the Underworld by night"
+   ],
+   "domains": [
+    "the sun",
+    "kingship",
+    "day",
+    "war at night"
+   ],
+   "symbols": [
+    "the square eye and filed T-shaped tooth",
+    "the k'in sun sign",
+    "the jaguar"
+   ],
+   "mount": null,
+   "abode": "The sky by day, Xibalba by night",
+   "festivals": [],
+   "worship": "",
+   "bio": "Crossed the sky as the sun, and went through the underworld at night as a jaguar with a burning brow.",
+   "longBio": "Kinich Ahau is the sun as a lord, recognisable by a square crossed eye, a big filed front tooth and the k'in sign. What makes him interesting is the night shift: after sunset he passes under the earth and becomes the Jaguar God of the Underworld, with jaguar ears and a twisted cord over the nose, which is why that god turns up on war shields. Maya kings took his name into their own - K'inich Janaab' Pakal of Palenque begins with it - because a ruler who is the sun is a claim worth making in stone.",
+   "variantTraditions": "The identity of the daytime sun and the Jaguar God of the Underworld as one deity in two phases is widely but not universally accepted.",
+   "storyIds": [
+    "pakal-tomb"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "king-ruler",
+    "war",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "chaac",
+   "name": "Chaac",
+   "sanskrit": "Chaak",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "The rain god with a long drooping nose, who splits the clouds with a stone axe",
+   "wikipedia": "Chaac",
+   "portrait": "portraits/maya/chaac.webp",
+   "epithets": [
+    "God B",
+    "the four Chaacs of the directions",
+    "Yaxha Chaac"
+   ],
+   "domains": [
+    "rain",
+    "lightning",
+    "agriculture",
+    "the cenotes"
+   ],
+   "symbols": [
+    "the long curling snout",
+    "the lightning axe",
+    "the water jar"
+   ],
+   "mount": null,
+   "abode": "The cenotes, and the four corners of the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most-invoked god in the codices, because in Yucatan there are no rivers at all.",
+   "longBio": "Chaac appears more often than any other figure in the surviving codices, which tells you what mattered. The Yucatan peninsula is limestone with essentially no surface water - rain and cenotes are the entire supply - and Chaac controls both. He has a long drooping snout and carries a stone axe he strikes the clouds with to make lightning. He is four gods as well as one, a Chaac for each direction with its own colour. The Sacred Cenote at Chichen Itza received offerings to him, and the dredging of it in 1904 brought up jade, gold and human remains.",
+   "variantTraditions": "The reading Chaak is now standard. He corresponds to Tlaloc in central Mexico and Cocijo among the Zapotec.",
+   "storyIds": [
+    "rain-and-maize"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "sky-thunder",
+    "sea-waters",
+    "preserver"
+   ]
+  },
+  {
+   "id": "yum_kaax",
+   "name": "Yum Kaax",
+   "sanskrit": "Yum K'aax",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "The young maize god, beautiful and permanently in danger",
+   "wikipedia": "Yum_Kaax",
+   "portrait": "portraits/maya/yum_kaax.webp",
+   "epithets": [
+    "God E",
+    "Lord of the Forests",
+    "the young maize god"
+   ],
+   "domains": [
+    "maize",
+    "agriculture",
+    "the forest",
+    "the harvest"
+   ],
+   "symbols": [
+    "the maize-cob headdress",
+    "the tonsured head",
+    "the jade ear"
+   ],
+   "mount": null,
+   "abode": "The milpa",
+   "festivals": [],
+   "worship": "",
+   "bio": "Always shown young and handsome, and always about to be cut down.",
+   "longBio": "The maize god is depicted as a beautiful young man with a head shaped like an ear of corn and hair like maize silk, and he is the most attractive figure in the whole of Maya art. His story is agricultural and therefore fatal: he is planted, dies, and comes up again, which is the shape underlying Hun Hunahpu in the Popol Vuh. He depends on rain and is at the mercy of Chaac and of the death gods. The Classic figure rising from a cracked turtle shell, helped up by the Hero Twins, is one of the great images of Mesoamerican art.",
+   "variantTraditions": "God E and the Classic maize god are the same figure; Yum Kaax is a colonial-era name that has stuck more firmly than the evidence quite warrants.",
+   "storyIds": [
+    "rain-and-maize",
+    "pakal-tomb"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "ah_puch",
+   "name": "Ah Puch",
+   "sanskrit": "Kisin",
+   "category": "underworld",
+   "era": "The Yucatec Pantheon",
+   "role": "God A, the death god - a bloated corpse with bells, and he stinks",
+   "wikipedia": "Kisin",
+   "portrait": "portraits/maya/ah_puch.webp",
+   "epithets": [
+    "God A",
+    "Kisin, the flatulent one",
+    "Yum Cimil",
+    "Lord of Death"
+   ],
+   "domains": [
+    "death",
+    "decay",
+    "the ninth hell"
+   ],
+   "symbols": [
+    "the exposed spine and ribs",
+    "black spots of decay",
+    "bells in the hair",
+    "the owl"
+   ],
+   "mount": null,
+   "abode": "Mitnal, the lowest of the nine underworlds",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Maya death god is not dignified: he is a rotting body with bells on, and his name means the farter.",
+   "longBio": "Ah Puch is drawn as a skeleton or a swollen corpse marked with black rings of decomposition, with bells tied in his hair or at his ankles. The Yucatec name Kisin means something like the stinking one or the flatulent one, and there is nothing solemn about him - Maya art treats death as physically disgusting rather than austere. He rules Mitnal, the lowest of nine levels, and is associated with the owl, the dog and the moan bird, whose calls were taken as death omens. After the conquest he was mapped straight onto the Christian devil.",
+   "variantTraditions": "God A and the separate God A-prime are distinguished in the codices; the colonial name Ah Puch is applied loosely across both.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "ek_chuah",
+   "name": "Ek Chuah",
+   "sanskrit": "Ek' Chuah",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "Black-painted god of merchants and cacao, who is also a god of war",
+   "wikipedia": "Ek_Chuah",
+   "portrait": "portraits/maya/ek_chuah.webp",
+   "epithets": [
+    "God M",
+    "the Black Scorpion",
+    "the merchant god"
+   ],
+   "domains": [
+    "trade",
+    "cacao",
+    "travel",
+    "war"
+   ],
+   "symbols": [
+    "the black body paint",
+    "the merchant's pack",
+    "the drooping lip",
+    "the scorpion tail"
+   ],
+   "mount": null,
+   "abode": "The roads",
+   "festivals": [],
+   "worship": "",
+   "bio": "Patron of merchants and of cacao, which was money - so he is the god of money twice over.",
+   "longBio": "Ek Chuah is painted black, has a long drooping lower lip and a scorpion's tail, and carries a merchant's bundle on his back. Cacao beans were the currency of Mesoamerica as well as the drink, so a god who covers both traders and the cacao crop is covering commerce entirely. Landa reports growers holding a festival for him in the month of Muan, sacrificing a dog with cacao-coloured markings. He also appears as a war god, which is less contradictory than it sounds when long-distance traders travelled armed and doubled as intelligence.",
+   "variantTraditions": "The identification of God M with the name Ek Chuah rests on colonial sources rather than on the inscriptions.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune",
+    "war",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "kukulkan",
+   "name": "Kukulkan",
+   "sanskrit": "K'uk'ulkan",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "The feathered serpent who comes down the pyramid steps as a shadow twice a year",
+   "wikipedia": "Kukulkan",
+   "portrait": "portraits/maya/kukulkan.webp",
+   "epithets": [
+    "the Feathered Serpent",
+    "Quetzalcoatl in Nahuatl",
+    "Gucumatz in K'iche'"
+   ],
+   "domains": [
+    "wind",
+    "rain",
+    "learning",
+    "the calendar",
+    "kingship"
+   ],
+   "symbols": [
+    "the serpent with quetzal feathers",
+    "the pyramid at Chichen Itza"
+   ],
+   "mount": null,
+   "abode": "Chichen Itza",
+   "festivals": [],
+   "worship": "",
+   "bio": "At the equinoxes the sun throws a shadow down the pyramid that turns into a serpent.",
+   "longBio": "Kukulkan is the Yucatec feathered serpent, the same figure as K'iche' Gucumatz and Nahua Quetzalcoatl. The building most associated with him is El Castillo at Chichen Itza, whose stairway balustrades end in serpent heads - and at the spring and autumn equinoxes the stepped corner of the pyramid casts a line of triangular shadows down the balustrade so that a snake appears to descend it. The alignment is deliberate. Whether the effect was the point of the design or a by-product of a calendrically-driven geometry is argued, but the geometry itself is not in doubt.",
+   "variantTraditions": "Later Yucatec sources also describe a historical ruler called Kukulkan who arrived from the west, which may reflect Toltec contact around 1000.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "serpent-dragon",
+    "wind-storm",
+    "wisdom-craft",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "bacabs",
+   "name": "The Bacabs",
+   "sanskrit": "Bakab",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "Four brothers holding up the corners of the sky, one per direction and colour",
+   "wikipedia": "Bacab",
+   "portrait": "portraits/maya/bacabs.webp",
+   "epithets": [
+    "Hobnil",
+    "Can Tzicnal",
+    "Zac Cimi",
+    "Hozanek"
+   ],
+   "domains": [
+    "the four directions",
+    "the sky's support",
+    "the bee-keepers"
+   ],
+   "symbols": [
+    "the shell or turtle carapace on the back",
+    "the four colours - red, white, black, yellow"
+   ],
+   "mount": null,
+   "abode": "The four corners of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "Survivors of the flood who were set at the corners to hold the sky off the ground.",
+   "longBio": "The Bacabs are four brothers placed at the corners of the world to hold up the sky after the flood destroyed the previous age. Each has a direction and a colour: red for east, white for north, black for west, yellow for south. They are shown carrying the sky on their backs, often with a turtle shell or conch on the body. They are also patrons of beekeeping, which mattered - Yucatan exported honey and wax - and each year one of them presided, so the character of the year depended on which Bacab held it.",
+   "variantTraditions": "The four-part directional colour scheme runs through the whole of Maya thought, applying to trees, birds, rain gods and years as well.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "ixtab",
+   "name": "Ixtab",
+   "sanskrit": "Ix Tab",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "Goddess of the hanged, who came for suicides and took them somewhere good",
+   "wikipedia": "Ixtab",
+   "portrait": "portraits/maya/ixtab.webp",
+   "epithets": [
+    "the rope woman",
+    "goddess of the noose"
+   ],
+   "domains": [
+    "suicide by hanging",
+    "the escort of the dead",
+    "paradise"
+   ],
+   "symbols": [
+    "the noose around her neck",
+    "the closed eyes",
+    "the body suspended from the sky"
+   ],
+   "mount": null,
+   "abode": "The paradise of the shade tree",
+   "festivals": [],
+   "worship": "",
+   "bio": "In Yucatan, hanging yourself was an honourable death, and she came personally.",
+   "longBio": "Landa records that the Maya believed those who hanged themselves went straight to paradise - along with the sacrificed, women who died in childbirth, warriors killed in battle and priests - where they rested under a great shade tree with plenty to eat and no more work. Ixtab is shown in the Dresden Codex hanging from a noose in the sky with her eyes closed and a black circle of decay on her cheek, and she came to collect them. A goddess whose job is to make a particular death safe is unusual and worth pausing on.",
+   "variantTraditions": "The identification of the hanged figure in the Dresden Codex with Landa's Ixtab has been questioned by some epigraphers.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "death-judge",
+    "preserver"
+   ]
+  },
+  {
+   "id": "kawiil",
+   "name": "K'awiil",
+   "sanskrit": "K'awiil",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "Lightning god with a smoking axe in his forehead and one leg that is a snake",
+   "wikipedia": "Kawil",
+   "portrait": "portraits/maya/kawiil.webp",
+   "epithets": [
+    "God K",
+    "Bolon Dzacab",
+    "the flare god"
+   ],
+   "domains": [
+    "lightning",
+    "royal lineage",
+    "abundance",
+    "the sceptre"
+   ],
+   "symbols": [
+    "the axe or torch driven into the forehead",
+    "the serpent leg",
+    "the manikin sceptre"
+   ],
+   "mount": null,
+   "abode": "In the king's right hand",
+   "festivals": [],
+   "worship": "",
+   "bio": "Kings held him as a sceptre - a small figure with an axe in his head and a snake for a leg.",
+   "longBio": "K'awiil is lightning, and by extension the force that runs through a royal bloodline. He has a torch or a celt driven into his forehead, still smoking, a long upturned snout, and one leg that tapers into a serpent. Classic kings are shown holding a small K'awiil figure by the serpent leg as a sceptre, which is why he is the single most commonly depicted god in the inscriptions - the object being held in half the royal portraits carved in stone. He is also invoked for abundance and for the continuity of the line.",
+   "variantTraditions": "God K's name was read as Bolon Dzacab in colonial sources; the decipherment K'awiil is now standard.",
+   "storyIds": [
+    "bloodletting"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "king-ruler",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "god_l",
+   "name": "God L",
+   "sanskrit": "God L",
+   "category": "underworld",
+   "era": "The Yucatec Pantheon",
+   "role": "The old cigar-smoking merchant lord of the underworld, in a jaguar cape and an owl hat",
+   "wikipedia": "God_L",
+   "portrait": "portraits/maya/god_l.webp",
+   "epithets": [
+    "the old jaguar merchant",
+    "the black lord",
+    "the smoker"
+   ],
+   "domains": [
+    "the underworld",
+    "trade",
+    "tobacco",
+    "wealth",
+    "the Venus cycle"
+   ],
+   "symbols": [
+    "the broad-brimmed hat with a muan owl",
+    "the jaguar-skin cape",
+    "the cigar"
+   ],
+   "mount": null,
+   "abode": "Xibalba",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most vivid character in Classic Maya art: rich, old, smoking, and being robbed by rabbits.",
+   "longBio": "God L is an aged black-painted lord in a jaguar cape and a wide hat trimmed with owl feathers, usually smoking a cigar, usually surrounded by young women. He is a merchant and a lord of the underworld and one of the wealthiest-looking figures in Maya art. He also has the indignity of being the butt of the best joke in the corpus: on a series of painted vases a rabbit steals his hat, staff and clothes and he is shown naked, complaining to the sun god. He is stripped of power at the start of the current era in a scene on a Palenque tablet.",
+   "variantTraditions": "God L has no secure colonial-era name; he is known entirely from the codices, painted vessels and inscriptions.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "wealth-fortune",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "xaman_ek",
+   "name": "Xaman Ek",
+   "sanskrit": "Xaman Ek'",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "The North Star, the merchant's compass, and the only star that stays put",
+   "wikipedia": "Xaman_Ek",
+   "portrait": "portraits/maya/xaman_ek.webp",
+   "epithets": [
+    "God C in older schemes",
+    "the North Star",
+    "the guide of merchants"
+   ],
+   "domains": [
+    "the pole star",
+    "navigation",
+    "travel",
+    "trade"
+   ],
+   "symbols": [
+    "the snub-nosed monkey-like face",
+    "the fixed star"
+   ],
+   "mount": null,
+   "abode": "Due north, permanently",
+   "festivals": [],
+   "worship": "",
+   "bio": "Traders burned copal to him at roadside shrines, because he is the one thing in the sky that does not move.",
+   "longBio": "Xaman Ek is the North Star, drawn with a snub-nosed monkey-like face, and he is the patron of merchants for an entirely practical reason: he tells you which way you are going. Landa reports that travellers set up stone altars at the roadside and burned copal to him. In a region without draft animals or wheeled transport, where all trade moved on human backs and in canoes along the coast, a reliable star was infrastructure. He is described as a benevolent god, which in this pantheon is worth noting.",
+   "variantTraditions": "The lettered designations of codex gods have shifted between scholars; Xaman Ek is God C in Schellhas's original scheme and has been renumbered since.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune",
+    "preserver",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "buluc_chabtan",
+   "name": "Buluc Chabtan",
+   "sanskrit": "Buluk Chabtan",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "God F, the war god, marked with a black line across the eye",
+   "wikipedia": "Buluc_Chabtan",
+   "portrait": "portraits/maya/buluc_chabtan.webp",
+   "epithets": [
+    "God F",
+    "Eleven Chabtan"
+   ],
+   "domains": [
+    "war",
+    "violent death",
+    "human sacrifice",
+    "burning"
+   ],
+   "symbols": [
+    "the black line curling from the eye",
+    "the torch",
+    "the flint knife"
+   ],
+   "mount": null,
+   "abode": "The battlefield",
+   "festivals": [],
+   "worship": "",
+   "bio": "Shown setting fire to houses and holding people down for the knife.",
+   "longBio": "Buluc Chabtan is the god of war and violent death in the codices, distinguished by a black line that runs down from his eye and curls on the cheek. He appears burning buildings, killing captives, and working alongside the death god - the pairing of God F and God A on the same page is common. Warfare among the Classic Maya was as much about taking high-status captives for sacrifice as about territory, and the inscriptions record captures by name, so a god who covers both the fighting and the killing afterwards is doing one job rather than two.",
+   "variantTraditions": "The name comes from a colonial source and its match to God F is conventional rather than proven.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "death-judge",
+    "fire"
+   ]
+  },
+  {
+   "id": "ah_mun",
+   "name": "The Moan Bird",
+   "sanskrit": "Muwan",
+   "category": "beast",
+   "era": "The Yucatec Pantheon",
+   "role": "A screech owl whose call means somebody is going to die",
+   "wikipedia": "Muwan_bird",
+   "portrait": "portraits/maya/ah_mun.webp",
+   "epithets": [
+    "the muan bird",
+    "the moan bird",
+    "the owl of Xibalba"
+   ],
+   "domains": [
+    "omens of death",
+    "rain clouds",
+    "the underworld"
+   ],
+   "symbols": [
+    "the owl with a beaded eye",
+    "God L's hat"
+   ],
+   "mount": null,
+   "abode": "The clouds, and Xibalba",
+   "festivals": [],
+   "worship": "",
+   "bio": "It sits in the death god's company and on God L's hat, and hearing it is bad news.",
+   "longBio": "The muan is a screech owl associated with rain clouds and with death, and its call was read as an omen that someone would die - a belief still current in parts of the Maya region. It is the bird trimming God L's hat, and owls serve as the messengers of Xibalba in the Popol Vuh, sent up to fetch the ball players and later to escort Xquic to her execution. The same birds disobey and save her, which is worth remembering: the messengers of death in this tradition can be talked round.",
+   "variantTraditions": "The muan is a month name in the Maya calendar as well as a bird, and appears as a glyph sign.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "death-judge",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "hunab_ku",
+   "name": "Hunab Ku",
+   "sanskrit": "Hunab K'u",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "The One God - who is probably a colonial invention, and needs saying",
+   "wikipedia": "Hunab_Ku",
+   "portrait": "portraits/maya/hunab_ku.webp",
+   "epithets": [
+    "the One God",
+    "the single living god"
+   ],
+   "domains": [
+    "supremacy",
+    "the colonial reframing of Maya religion"
+   ],
+   "symbols": [
+    "the black-and-white quartered disc, which is not Maya"
+   ],
+   "mount": null,
+   "abode": "Nowhere, before the sixteenth century",
+   "festivals": [],
+   "worship": "",
+   "bio": "Presented everywhere as the supreme Maya god, and there is almost no pre-conquest evidence for him.",
+   "longBio": "Hunab Ku means one god, and appears in colonial Yucatec documents - the Books of Chilam Balam and Spanish-Maya dictionaries - written after the conquest, by people describing the Christian god in Maya. There is no securely pre-Columbian occurrence. The familiar black-and-white circular symbol sold as his emblem is worse: it derives from a rectangular design in a sixteenth-century manuscript, was reshaped into a circle in the twentieth century, and became popular through New Age writing in the 1980s. He is here because readers will meet the claim constantly and deserve to know where it comes from.",
+   "variantTraditions": "This entry is included specifically to correct a widespread misattribution; the scholarly consensus that Hunab Ku is a colonial construct is strong.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "pakal",
+   "name": "K'inich Janaab' Pakal",
+   "sanskrit": "K'inich Janaab' Pakal",
+   "category": "mortal",
+   "era": "The Classic Cities",
+   "role": "Ruler of Palenque for 68 years, buried under a pyramid with a jade mask",
+   "wikipedia": "Pakal_the_Great",
+   "portrait": "portraits/maya/pakal.webp",
+   "epithets": [
+    "Pakal the Great",
+    "Shield",
+    "the sun-faced lord of Palenque"
+   ],
+   "domains": [
+    "kingship",
+    "Palenque",
+    "the tomb",
+    "the maize god's descent"
+   ],
+   "symbols": [
+    "the jade mosaic mask",
+    "the carved sarcophagus lid",
+    "the Temple of the Inscriptions"
+   ],
+   "mount": null,
+   "abode": "Palenque",
+   "festivals": [],
+   "worship": "",
+   "bio": "His sarcophagus lid shows him falling into the underworld as the maize god - and got misread as a spaceship.",
+   "longBio": "Pakal took the throne at twelve and held it for sixty-eight years, and rebuilt Palenque into one of the finest cities of the Classic Maya. His tomb was found in 1952 under the Temple of the Inscriptions, at the bottom of a stairway deliberately filled with rubble, with a jade mosaic death mask and a five-tonne carved sarcophagus lid. The lid shows him at the moment of death, falling into the jaws of the underworld with the world tree rising above him - an image of the maize god's descent and return. It is also, unfortunately, the carving Erich von Daniken decided was an astronaut.",
+   "variantTraditions": "The ancient-astronaut reading of the sarcophagus lid is comprehensively refuted by the iconography, which is a standard Maya composition with named elements.",
+   "storyIds": [
+    "bloodletting",
+    "pakal-tomb"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "yax_kuk_mo",
+   "name": "K'inich Yax K'uk' Mo'",
+   "sanskrit": "K'inich Yax K'uk' Mo'",
+   "category": "mortal",
+   "era": "The Classic Cities",
+   "role": "Founder of the Copan dynasty, who arrived from somewhere else and whose bones prove it",
+   "wikipedia": "K'inich_Yax_K'uk'_Mo'",
+   "portrait": "portraits/maya/yax_kuk_mo.webp",
+   "epithets": [
+    "Radiant First Quetzal Macaw",
+    "the founder"
+   ],
+   "domains": [
+    "the founding of a dynasty",
+    "Copan",
+    "arrival from the west"
+   ],
+   "symbols": [
+    "the goggle-eyed Teotihuacan war costume",
+    "the shields"
+   ],
+   "mount": null,
+   "abode": "Copan",
+   "festivals": [],
+   "worship": "",
+   "bio": "The inscriptions say he came from far away, and the isotopes in his teeth agree.",
+   "longBio": "Yax K'uk' Mo' founded the ruling line at Copan in 426 and sixteen kings descended from him. The monuments show him in central Mexican war costume with goggle eyes, and later rulers took care to depict themselves receiving authority from him. What makes him unusual is that the archaeology confirms the text: strontium isotope analysis of his skeleton shows he did not grow up at Copan, and his bones carry healed fractures consistent with a lifetime of combat. A founding legend that turns out to be checkable is rare anywhere.",
+   "variantTraditions": "The Altar Q monument depicts all sixteen Copan kings in sequence, with the founder handing the sceptre to the sixteenth - a dynastic statement carved four centuries after the fact.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion",
+    "war"
+   ]
+  },
+  {
+   "id": "lady_xoc",
+   "name": "Lady K'ab'al Xook",
+   "sanskrit": "Ix K'ab'al Xook",
+   "category": "mortal",
+   "era": "The Classic Cities",
+   "role": "Queen of Yaxchilan, carved pulling a thorned rope through her own tongue",
+   "wikipedia": "Lady_Xoc",
+   "portrait": "portraits/maya/lady_xoc.webp",
+   "epithets": [
+    "Lady Xoc",
+    "queen of Yaxchilan"
+   ],
+   "domains": [
+    "bloodletting",
+    "the vision serpent",
+    "royal ritual"
+   ],
+   "symbols": [
+    "the barbed rope drawn through the tongue",
+    "the basket of stained paper",
+    "the vision serpent"
+   ],
+   "mount": null,
+   "abode": "Yaxchilan",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most famous carving in Maya art shows her drawing a rope of thorns through her tongue.",
+   "longBio": "Lintel 24 at Yaxchilan shows Lady Xook kneeling, pulling a rope set with thorns through a hole in her tongue, the blood falling onto strips of paper in a basket at her feet while her husband holds a torch above her. On the next lintel the burning paper produces a vision serpent, and an armed ancestor leans out of its mouth. This was not private devotion but public statecraft: royal blood opened the channel to the ancestors, and the queen's participation was as necessary as the king's. The carving is now in the British Museum.",
+   "variantTraditions": "The Yaxchilan lintels are among the finest Maya carvings known and are unusually explicit about the mechanics of the bloodletting rite.",
+   "storyIds": [
+    "bloodletting"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "pauahtun",
+   "name": "Pauahtun",
+   "sanskrit": "Pawahtuun",
+   "category": "deity",
+   "era": "The Yucatec Pantheon",
+   "role": "God N: an old man climbing out of a shell, holding up the sky and patronising scribes",
+   "wikipedia": "Pauahtun",
+   "portrait": "portraits/maya/pauahtun.webp",
+   "epithets": [
+    "God N",
+    "the shell-bearer",
+    "the four Pauahtuns"
+   ],
+   "domains": [
+    "the four directions",
+    "the sky's support",
+    "scribes",
+    "the interior of the earth"
+   ],
+   "symbols": [
+    "the conch or turtle shell he wears",
+    "the netted headdress",
+    "the aged face"
+   ],
+   "mount": null,
+   "abode": "The four corners, and inside a shell",
+   "festivals": [],
+   "worship": "",
+   "bio": "Four old men in shells at the corners of the world, and they also taught people to write.",
+   "longBio": "God N is an aged god who emerges from a conch or turtle shell, wearing a netted headdress, and like the Bacabs he is four at once, holding up the sky at the corners. He overlaps with them so closely that the two are often treated as the same set. His other role is scribal: he appears on painted vessels teaching or writing alongside the monkey scribes, and Classic scribes invoked him. An old man in a shell who holds up the world and also does the paperwork is a very Maya combination of duties.",
+   "variantTraditions": "The relationship between God N, Pauahtun and the Bacabs is one of the tangles of Maya deity studies; the sources overlap them without ever quite equating them.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "wisdom-craft",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "vision_serpent",
+   "name": "The Vision Serpent",
+   "sanskrit": "Wakah Chan",
+   "category": "beast",
+   "era": "The Yucatec Pantheon",
+   "role": "The snake that rises out of burning blood with an ancestor in its mouth",
+   "wikipedia": "Vision_Serpent",
+   "portrait": "portraits/maya/vision_serpent.webp",
+   "epithets": [
+    "the sky serpent",
+    "the double-headed serpent bar"
+   ],
+   "domains": [
+    "visions",
+    "ancestors",
+    "the channel between worlds",
+    "royal legitimacy"
+   ],
+   "symbols": [
+    "the serpent with a figure emerging from its jaws",
+    "the burning offering"
+   ],
+   "mount": null,
+   "abode": "In the smoke above the offering",
+   "festivals": [],
+   "worship": "",
+   "bio": "You cut yourself, you burn the paper, and it comes up out of the smoke with your grandfather inside.",
+   "longBio": "The vision serpent is what appears when a royal bloodletting works. Blood is drawn - through the tongue, the ear, the penis - onto strips of bark paper, the paper is burned, and out of the rising smoke comes an enormous serpent with an ancestor or a god leaning from its open jaws to speak. Lady Xook's lintel at Yaxchilan shows the whole sequence in two panels. The double-headed serpent bar carried across the chest by kings in portrait after portrait is the same creature, held as the emblem of that access.",
+   "variantTraditions": "Whether the visions involved hallucinogens as well as blood loss and fasting is argued; the iconography does not settle it.",
+   "storyIds": [
+    "bloodletting"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "sage-seer",
+    "king-ruler"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "huracan",
+   "to": "gucumatz",
+   "type": "ally",
+   "note": "Heart of Sky and the feathered serpent, talking the world up"
+  },
+  {
+   "from": "gucumatz",
+   "to": "tepeu",
+   "type": "ally",
+   "note": "Almost never named apart"
+  },
+  {
+   "from": "huracan",
+   "to": "tepeu",
+   "type": "ally",
+   "note": "The makers in council"
+  },
+  {
+   "from": "xmucane",
+   "to": "xpiyacoc",
+   "type": "consort",
+   "note": "The old diviners the other gods consult"
+  },
+  {
+   "from": "huracan",
+   "to": "xmucane",
+   "type": "devotee",
+   "note": "The makers asked the diviners what to do"
+  },
+  {
+   "from": "huracan",
+   "to": "xpiyacoc",
+   "type": "devotee",
+   "note": "And got a wrong answer about the wooden people"
+  },
+  {
+   "from": "xmucane",
+   "to": "balam_quitze",
+   "type": "parent",
+   "note": "She ground the maize the first men were made from"
+  },
+  {
+   "from": "gucumatz",
+   "to": "balam_quitze",
+   "type": "parent",
+   "note": "The fourth attempt, and the one that worked"
+  },
+  {
+   "from": "huracan",
+   "to": "balam_quitze",
+   "type": "enemy",
+   "note": "He fogged their eyes because they saw too much"
+  },
+  {
+   "from": "gucumatz",
+   "to": "kukulkan",
+   "type": "form",
+   "note": "The same serpent in Yucatec"
+  },
+  {
+   "from": "xmucane",
+   "to": "hun_hunahpu",
+   "type": "parent",
+   "note": "The grandmother of the twins, and mother of their father"
+  },
+  {
+   "from": "xpiyacoc",
+   "to": "hun_hunahpu",
+   "type": "parent",
+   "note": "The old diviners' son"
+  },
+  {
+   "from": "hun_hunahpu",
+   "to": "vucub_hunahpu",
+   "type": "sibling",
+   "note": "Summoned down together, and both lost"
+  },
+  {
+   "from": "hun_hunahpu",
+   "to": "xquic",
+   "type": "consort",
+   "note": "His skull spat into her hand in the calabash tree"
+  },
+  {
+   "from": "xquic",
+   "to": "hunahpu",
+   "type": "parent",
+   "note": "Born after she escaped Xibalba"
+  },
+  {
+   "from": "xquic",
+   "to": "xbalanque",
+   "type": "parent",
+   "note": "The second of the twins"
+  },
+  {
+   "from": "hun_hunahpu",
+   "to": "hunahpu",
+   "type": "parent",
+   "note": "The maize god's son"
+  },
+  {
+   "from": "hun_hunahpu",
+   "to": "xbalanque",
+   "type": "parent",
+   "note": "The maize god's son"
+  },
+  {
+   "from": "hunahpu",
+   "to": "xbalanque",
+   "type": "sibling",
+   "note": "The Hero Twins"
+  },
+  {
+   "from": "hun_hunahpu",
+   "to": "hun_batz",
+   "type": "parent",
+   "note": "The older half-brothers, by another mother"
+  },
+  {
+   "from": "hun_batz",
+   "to": "hunahpu",
+   "type": "enemy",
+   "note": "They made the twins sleep on the ground and go hungry"
+  },
+  {
+   "from": "hunahpu",
+   "to": "hun_batz",
+   "type": "enemy",
+   "note": "And were left up a tree with tails"
+  },
+  {
+   "from": "xmucane",
+   "to": "hun_batz",
+   "type": "foster",
+   "note": "She favoured them, and could not stop laughing when they changed"
+  },
+  {
+   "from": "hun_hunahpu",
+   "to": "yum_kaax",
+   "type": "form",
+   "note": "The maize god of the Popol Vuh and of the codices"
+  },
+  {
+   "from": "vucub_caquix",
+   "to": "zipacna",
+   "type": "parent",
+   "note": "The mountain-maker"
+  },
+  {
+   "from": "vucub_caquix",
+   "to": "cabracan",
+   "type": "parent",
+   "note": "The earthquake"
+  },
+  {
+   "from": "hunahpu",
+   "to": "vucub_caquix",
+   "type": "enemy",
+   "note": "Shot through the jaw with a blowgun in his nance tree"
+  },
+  {
+   "from": "xbalanque",
+   "to": "vucub_caquix",
+   "type": "enemy",
+   "note": "And finished off by two travelling dentists"
+  },
+  {
+   "from": "hunahpu",
+   "to": "zipacna",
+   "type": "enemy",
+   "note": "Baited into a ravine with an artificial crab"
+  },
+  {
+   "from": "xbalanque",
+   "to": "cabracan",
+   "type": "enemy",
+   "note": "Fed a bird rubbed with chalk on the way to the mountain"
+  },
+  {
+   "from": "hun_came",
+   "to": "xibalba_lords",
+   "type": "ally",
+   "note": "The two chief lords and the ten beneath them"
+  },
+  {
+   "from": "hun_came",
+   "to": "camazotz",
+   "type": "ally",
+   "note": "The bat in the House of Bats"
+  },
+  {
+   "from": "hun_came",
+   "to": "hun_hunahpu",
+   "type": "enemy",
+   "note": "They summoned him down and sacrificed him"
+  },
+  {
+   "from": "hun_came",
+   "to": "vucub_hunahpu",
+   "type": "enemy",
+   "note": "And buried him under the ball court"
+  },
+  {
+   "from": "hun_came",
+   "to": "hunahpu",
+   "type": "enemy",
+   "note": "The second generation, who did not lose"
+  },
+  {
+   "from": "hun_came",
+   "to": "xbalanque",
+   "type": "enemy",
+   "note": "They asked to be killed and revived, and got half of it"
+  },
+  {
+   "from": "camazotz",
+   "to": "hunahpu",
+   "type": "enemy",
+   "note": "It took his head off when he looked out at dawn"
+  },
+  {
+   "from": "xibalba_lords",
+   "to": "xquic",
+   "type": "parent",
+   "note": "Cuchumaquic's daughter, who got away"
+  },
+  {
+   "from": "xquic",
+   "to": "hun_came",
+   "type": "enemy",
+   "note": "Ordered killed, and sent up a bowl of tree sap instead"
+  },
+  {
+   "from": "ah_puch",
+   "to": "hun_came",
+   "type": "ally",
+   "note": "The death gods of two traditions, in the same place"
+  },
+  {
+   "from": "god_l",
+   "to": "hun_came",
+   "type": "ally",
+   "note": "The old merchant lord of the same underworld"
+  },
+  {
+   "from": "ah_mun",
+   "to": "god_l",
+   "type": "mount",
+   "note": "The owl on his hat"
+  },
+  {
+   "from": "ah_mun",
+   "to": "hun_came",
+   "type": "ally",
+   "note": "The owls of Xibalba carry the summons"
+  },
+  {
+   "from": "itzamna",
+   "to": "ix_chel",
+   "type": "consort",
+   "note": "The old creator and the goddess of the loom"
+  },
+  {
+   "from": "itzamna",
+   "to": "kinich_ahau",
+   "type": "form",
+   "note": "The sun as an aspect of the creator, in some readings"
+  },
+  {
+   "from": "itzamna",
+   "to": "bacabs",
+   "type": "parent",
+   "note": "The four who hold the corners"
+  },
+  {
+   "from": "bacabs",
+   "to": "pauahtun",
+   "type": "form",
+   "note": "Two sets of four old men holding up the sky, endlessly confused"
+  },
+  {
+   "from": "chaac",
+   "to": "yum_kaax",
+   "type": "ally",
+   "note": "No rain, no maize - the most important relationship in Yucatan"
+  },
+  {
+   "from": "chaac",
+   "to": "kawiil",
+   "type": "ally",
+   "note": "The rain and the lightning that comes with it"
+  },
+  {
+   "from": "ix_chel",
+   "to": "chaac",
+   "type": "ally",
+   "note": "She pours the jar and he splits the cloud"
+  },
+  {
+   "from": "kinich_ahau",
+   "to": "ah_puch",
+   "type": "enemy",
+   "note": "The sun passes through the underworld every night"
+  },
+  {
+   "from": "kukulkan",
+   "to": "itzamna",
+   "type": "ally",
+   "note": "The serpent and the old god of Yucatan"
+  },
+  {
+   "from": "ek_chuah",
+   "to": "xaman_ek",
+   "type": "ally",
+   "note": "The merchant god and the star merchants steered by"
+  },
+  {
+   "from": "ek_chuah",
+   "to": "buluc_chabtan",
+   "type": "ally",
+   "note": "Trade and war, on the same roads"
+  },
+  {
+   "from": "buluc_chabtan",
+   "to": "ah_puch",
+   "type": "ally",
+   "note": "Shown on the same page, burning and killing"
+  },
+  {
+   "from": "ixtab",
+   "to": "ah_puch",
+   "type": "ally",
+   "note": "Two ways of arriving in the underworld, one of them kind"
+  },
+  {
+   "from": "god_l",
+   "to": "ek_chuah",
+   "type": "form",
+   "note": "Old merchant and young merchant, probably the same office"
+  },
+  {
+   "from": "vision_serpent",
+   "to": "kawiil",
+   "type": "ally",
+   "note": "Both are what the king holds to reach the ancestors"
+  },
+  {
+   "from": "hunab_ku",
+   "to": "itzamna",
+   "type": "form",
+   "note": "The colonial One God, mapped onto the old creator"
+  },
+  {
+   "from": "tohil",
+   "to": "balam_quitze",
+   "type": "guru",
+   "note": "He gave them fire and named his price"
+  },
+  {
+   "from": "tohil",
+   "to": "gucumatz",
+   "type": "ally",
+   "note": "The patron god of the K'iche' among the makers"
+  },
+  {
+   "from": "pakal",
+   "to": "yum_kaax",
+   "type": "devotee",
+   "note": "His sarcophagus shows him falling as the maize god"
+  },
+  {
+   "from": "pakal",
+   "to": "kinich_ahau",
+   "type": "devotee",
+   "note": "K'inich - the sun - is the first word of his name"
+  },
+  {
+   "from": "yax_kuk_mo",
+   "to": "pakal",
+   "type": "guru",
+   "note": "Two dynasties, two cities, one model of kingship"
+  },
+  {
+   "from": "lady_xoc",
+   "to": "vision_serpent",
+   "type": "devotee",
+   "note": "She drew the rope through her tongue and it came"
+  },
+  {
+   "from": "lady_xoc",
+   "to": "kawiil",
+   "type": "devotee",
+   "note": "The lightning god in the royal line"
+  },
+  {
+   "from": "yax_kuk_mo",
+   "to": "kawiil",
+   "type": "devotee",
+   "note": "The sceptre the founder handed down sixteen times"
+  }
+ ]
+}

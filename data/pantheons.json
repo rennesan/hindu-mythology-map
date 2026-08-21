@@ -12,7 +12,8 @@
    "stories": 44,
    "links": 226,
    "levels": 6,
-   "glyph": "ॐ"
+   "glyph": "ॐ",
+   "family": "Asia"
   },
   {
    "id": "greek",
@@ -26,7 +27,8 @@
    "stories": 49,
    "links": 248,
    "levels": 6,
-   "glyph": "Ω"
+   "glyph": "Ω",
+   "family": "Europe"
   },
   {
    "id": "egyptian",
@@ -40,7 +42,8 @@
    "links": 145,
    "levels": 6,
    "cover": "portraits/egyptian/ra.webp",
-   "glyph": "☥"
+   "glyph": "☥",
+   "family": "Africa"
   },
   {
    "id": "norse",
@@ -54,7 +57,8 @@
    "links": 131,
    "levels": 6,
    "cover": "portraits/norse/odin.webp",
-   "glyph": "ᚦ"
+   "glyph": "ᚦ",
+   "family": "Europe"
   },
   {
    "id": "mesopotamian",
@@ -68,7 +72,8 @@
    "stories": 25,
    "links": 152,
    "levels": 8,
-   "cover": "portraits/mesopotamian/apsu.webp"
+   "cover": "portraits/mesopotamian/apsu.webp",
+   "family": "Asia"
   },
   {
    "id": "persian",
@@ -82,7 +87,8 @@
    "stories": 18,
    "links": 113,
    "levels": 8,
-   "cover": "portraits/persian/ahura_mazda.webp"
+   "cover": "portraits/persian/ahura_mazda.webp",
+   "family": "Asia"
   },
   {
    "id": "chinese",
@@ -96,7 +102,8 @@
    "links": 101,
    "levels": 6,
    "cover": "portraits/chinese/nuwa.webp",
-   "glyph": "☯"
+   "glyph": "☯",
+   "family": "Asia"
   },
   {
    "id": "aztec",
@@ -110,7 +117,8 @@
    "links": 75,
    "levels": 6,
    "cover": "portraits/aztec/quetzalcoatl.webp",
-   "glyph": "☉"
+   "glyph": "☉",
+   "family": "Indigenous Traditions"
   },
   {
    "id": "japanese",
@@ -124,7 +132,8 @@
    "links": 81,
    "levels": 6,
    "cover": "portraits/japanese/amaterasu.webp",
-   "glyph": "⛩"
+   "glyph": "⛩",
+   "family": "Asia"
   },
   {
    "id": "celtic",
@@ -138,7 +147,8 @@
    "links": 172,
    "levels": 8,
    "cover": "portraits/celtic/danu.webp",
-   "glyph": "᚛"
+   "glyph": "᚛",
+   "family": "Europe"
   },
   {
    "id": "roman",
@@ -152,7 +162,8 @@
    "stories": 14,
    "links": 80,
    "levels": 8,
-   "cover": "portraits/roman/janus.webp"
+   "cover": "portraits/roman/janus.webp",
+   "family": "Europe"
   },
   {
    "id": "maya",
@@ -160,7 +171,8 @@
    "sublabel": "Classic & Post-Classic",
    "accent": "#7ab8a8",
    "status": "planned",
-   "blurb": "The Popol Vuh: the Hero Twins, the lords of Xibalba, and the making of people from maize."
+   "blurb": "The Popol Vuh: the Hero Twins, the lords of Xibalba, and the making of people from maize.",
+   "family": "Indigenous Traditions"
   },
   {
    "id": "inca",
@@ -168,7 +180,8 @@
    "sublabel": "Andean",
    "accent": "#c98f6a",
    "status": "planned",
-   "blurb": "Viracocha, Inti and Pachamama, and the huacas of the Huarochiri Manuscript. A smaller pantheon, honestly sized."
+   "blurb": "Viracocha, Inti and Pachamama, and the huacas of the Huarochiri Manuscript. A smaller pantheon, honestly sized.",
+   "family": "Indigenous Traditions"
   },
   {
    "id": "hopi",
@@ -182,7 +195,8 @@
    "stories": 8,
    "links": 44,
    "levels": 7,
-   "cover": "portraits/hopi/tawa.webp"
+   "cover": "portraits/hopi/tawa.webp",
+   "family": "Indigenous Traditions"
   },
   {
    "id": "aboriginal",
@@ -190,7 +204,8 @@
    "sublabel": "Held for scoping",
    "accent": "#b8895e",
    "status": "review",
-   "blurb": "Not published. Hundreds of distinct traditions rather than one pantheon, much of it restricted. Needs narrow scoping and the gated treatment."
+   "blurb": "Not published. Hundreds of distinct traditions rather than one pantheon, much of it restricted. Needs narrow scoping and the gated treatment.",
+   "family": "Indigenous Traditions"
   },
   {
    "id": "arabian",
@@ -198,7 +213,8 @@
    "sublabel": "Pre-Islamic",
    "accent": "#cbb08a",
    "status": "review",
-   "blurb": "Too thin for a full pack: names survive, narrative largely does not. Candidate to merge into a Semitic pack with Canaanite and Ugaritic material."
+   "blurb": "Too thin for a full pack: names survive, narrative largely does not. Candidate to merge into a Semitic pack with Canaanite and Ugaritic material.",
+   "family": "Asia"
   }
  ]
 }
