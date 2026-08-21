@@ -130,6 +130,10 @@
    "destination": "/anishinaabe/index.html"
   },
   {
+   "source": "/apache/:path*",
+   "destination": "/apache/index.html"
+  },
+  {
    "source": "/guarani/:path*",
    "destination": "/guarani/index.html"
   },

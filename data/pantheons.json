@@ -408,10 +408,15 @@
    "label": "Apache",
    "sublabel": "Southwest",
    "accent": "#b58a72",
-   "status": "planned",
+   "status": "live",
    "blurb": "White Painted Woman and Child of the Water, from the published record only.",
    "family": "The Americas",
-   "glyph": "✧"
+   "glyph": "✧",
+   "figures": 20,
+   "stories": 8,
+   "links": 46,
+   "levels": 3,
+   "cover": "portraits/apache/ussen.webp"
   },
   {
    "id": "guarani",

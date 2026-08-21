@@ -1,0 +1,1466 @@
+{
+ "title": "Apache",
+ "description": "Chiricahua, Mescalero and Jicarilla: power that arrives unasked and states its terms, a baby hidden under a fire pit while the monsters searched, and four days in which a girl can heal.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Pliny Earle Goddard, Jicarilla Apache Texts (1911) and White Mountain material (1919)",
+  "Grenville Goodwin, Myths and Tales of the White Mountain Apache (1939)",
+  "Morris E. Opler, An Apache Life-Way (1941) and the Chiricahua, Mescalero and Jicarilla collections",
+  "Note: no Gaan regalia is depicted. Crown Dancer headdresses and body paint are ceremonial and belong to particular ceremonies and particular men",
+  "Note: nothing from the Sunrise Ceremony is reproduced beyond what Apache communities publish themselves",
+  "Note: 'Apache tears' is a twentieth-century tourist invention and is included here as one - see the last entry"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/apache/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "goddard_j": {
+   "t": "Jicarilla Apache Texts",
+   "tr": "Pliny Earle Goddard, 1911",
+   "u": "https://archive.org/details/jicarillaapachet08godd"
+  },
+  "goddard_w": {
+   "t": "Myths and Tales from the White Mountain Apache",
+   "tr": "Pliny Earle Goddard, 1919",
+   "u": "https://archive.org/details/mythstalesfromwh24godd"
+  },
+  "goodwin": {
+   "t": "Myths and Tales of the White Mountain Apache",
+   "tr": "Grenville Goodwin, 1939",
+   "u": "https://archive.org/details/mythstalesofwhit0000good"
+  },
+  "opler_c": {
+   "t": "Myths and Tales of the Chiricahua Apache Indians",
+   "tr": "Morris E. Opler, 1942",
+   "u": "https://archive.org/details/mythstalesofchir0000ople"
+  },
+  "opler_life": {
+   "t": "An Apache Life-Way",
+   "tr": "Morris E. Opler, 1941",
+   "u": "https://archive.org/details/apachelifewayeco0000ople"
+  }
+ },
+ "meta": {
+  "id": "apache",
+  "label": "Apache",
+  "sublabel": "Chiricahua, Mescalero & Jicarilla",
+  "accent": "#b58a72",
+  "root": "ussen"
+ },
+ "profile": {
+  "cosmicNature": "It depends which Apache you ask, and that is worth saying rather than smoothing over. The Jicarilla have an emergence: people and animals living in darkness underground, a ladder or a mountain grown upward, and a coming out into this world. The Chiricahua and Mescalero begin with Ussen, the Giver of Life, and with a world already made and full of monsters that have to be cleared out before anyone can live in it.",
+  "natureOfDivinity": "Diyi - power - which is not a thing anyone owns but a thing that comes to a person and offers itself. Power approaches, usually in a dream or a vision, names what it can do, states its conditions, and can be accepted or refused; refusing is allowed and is sometimes wise. A person with power in snakes or in lightning or in horses uses it under those terms. Above all of it, for the Chiricahua, is Ussen, who is remote.",
+  "afterlife": "Underground and to the west, and reached by a journey - but the strong emphasis is on the danger of the dead rather than the destination. Ghost sickness is a real diagnosis with real symptoms. The name of a dead person is not spoken, their possessions are destroyed or given away, and the place they died is avoided. The owl is bound up with all of this and is bad news wherever it is heard.",
+  "systemMechanism": "The Sunrise Ceremony and the Gaan. Na'ii'ees, held for a girl at her first menstruation, runs four days and identifies her with White Painted Woman - she is danced, blessed, painted, and during it she can heal, and what she does in those four days is understood to set the shape of her life. The Gaan, the Mountain Spirits, are called down into dancers to drive out sickness and evil. Both are living practice, not history.",
+  "canonTexts": "Nothing written. Pliny Earle Goddard published Jicarilla Apache Texts in 1911 and White Mountain material in 1919; Grenville Goodwin's White Mountain collection appeared in 1939; Morris Opler worked with Chiricahua, Mescalero and Jicarilla people through the 1930s and published the fullest accounts, including An Apache Life-Way in 1941. Apache communities publish their own material now, and it is the better source where it exists."
+ },
+ "hierarchy": [
+  {
+   "title": "The Powers",
+   "blurb": "It depends which Apache you ask, and the pack says so. The Jicarilla have Hactcin - a personified power for every object and force - and an emergence from a dark world below. The Chiricahua have Ussen, remote, and a world already made and full of things that eat people.",
+   "memberIds": [
+    "ussen",
+    "hactcin",
+    "black_hactcin",
+    "emergence",
+    "diyi"
+   ],
+   "connectorCaption": "Either way, the first job was making the country liveable"
+  },
+  {
+   "title": "The Clearing Out",
+   "blurb": "A woman survives the monsters by hiding in a cave and hiding her children, one of them under a fire pit. Grown, he goes to the Sun, is tested, is armed with lightning, and kills them - the giant in four coats of flint, the antelope that killed by looking, the eagles on the cliff.",
+   "memberIds": [
+    "white_painted_woman",
+    "child_of_water",
+    "killer_of_enemies",
+    "monsters",
+    "sun",
+    "coyote"
+   ],
+   "connectorCaption": "And what has been done ever since, most of it still being done"
+  },
+  {
+   "title": "What Is Done",
+   "blurb": "Mountain Spirits called down into dancers to drive sickness out. Four days in which a girl is White Painted Woman and can heal. Power that arrives unasked and states its terms. And a great deal of care about the dead, the owl, the bear and the lightning.",
+   "memberIds": [
+    "gaan",
+    "naiiees",
+    "ghost",
+    "owl",
+    "bear",
+    "snake",
+    "lightning",
+    "horse",
+    "apache_tears"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "jicarilla",
+   "label": "The Jicarilla Beginning",
+   "memberIds": [
+    "hactcin",
+    "black_hactcin",
+    "emergence"
+   ]
+  },
+  {
+   "id": "chiricahua",
+   "label": "The Chiricahua Beginning",
+   "memberIds": [
+    "ussen",
+    "white_painted_woman",
+    "child_of_water"
+   ]
+  },
+  {
+   "id": "twins",
+   "label": "The Two Brothers",
+   "memberIds": [
+    "child_of_water",
+    "killer_of_enemies",
+    "sun",
+    "monsters"
+   ]
+  },
+  {
+   "id": "power",
+   "label": "Power",
+   "memberIds": [
+    "diyi",
+    "bear",
+    "snake",
+    "lightning",
+    "horse"
+   ]
+  },
+  {
+   "id": "ceremony",
+   "label": "The Ceremonies",
+   "memberIds": [
+    "gaan",
+    "naiiees",
+    "white_painted_woman",
+    "diyi"
+   ]
+  },
+  {
+   "id": "danger",
+   "label": "What Is Avoided",
+   "memberIds": [
+    "ghost",
+    "owl",
+    "bear",
+    "snake"
+   ]
+  },
+  {
+   "id": "invented",
+   "label": "Made Up Later",
+   "memberIds": [
+    "apache_tears"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "under-the-fire-pit",
+   "title": "She Hid Him Under the Fire",
+   "era": "The Clearing Out",
+   "cast": [
+    "white_painted_woman",
+    "child_of_water",
+    "monsters"
+   ],
+   "summary": "When the monsters were eating everyone, White Painted Woman survived by hiding, and every child she bore was found and taken. So when Child of the Water was born she dug a hole under the fire pit and put him in it and built the fire on top, and when the giant came and demanded to know where the child was she said there was no child, and he searched the camp and found nothing. She kept him there for a long time. When he was old enough she let him out at night to play and made him go back in before dawn. He grew, and asked who his father was, and went to find out, and came back armed, and cleared the country - and the reason there was anybody left to clear it for is that one woman was better at hiding a baby than a giant was at finding one.",
+   "sources": [
+    {
+     "book": "Myths and Tales of the Chiricahua Apache Indians",
+     "translation": "Morris E. Opler, 1942",
+     "location": "The monsters",
+     "url": "https://archive.org/details/mythstalesofchir0000ople"
+    },
+    {
+     "book": "Myths and Tales of the White Mountain Apache",
+     "translation": "Grenville Goodwin, 1939",
+     "location": "Child of the Water",
+     "url": "https://archive.org/details/mythstalesofwhit0000good"
+    }
+   ]
+  },
+  {
+   "id": "the-clay-animal",
+   "title": "He Drew Round Himself",
+   "era": "The Powers",
+   "cast": [
+    "black_hactcin",
+    "hactcin",
+    "emergence"
+   ],
+   "summary": "In the world below, Black Hactcin took a lump of clay and shaped it and put four legs on it and a head and a tail, and told it to stand up and walk, and it did - and from that first animal all the four-legged animals were made and sent out to the places they were to live. Then he took drops of water and made birds from them and threw them into the air. The animals said he ought to have a companion of his own kind, so he lay down on the ground and traced round the outline of his own body, and made a man to that shape out of pollen and turquoise and the colours of the four directions, and breathed into him, and he stood up. It is one of the more literal accounts of being made in somebody's image that any tradition offers.",
+   "sources": [
+    {
+     "book": "Jicarilla Apache Texts",
+     "translation": "Pliny Earle Goddard, 1911",
+     "location": "The creation",
+     "url": "https://archive.org/details/jicarillaapachet08godd"
+    },
+    {
+     "book": "An Apache Life-Way",
+     "translation": "Morris E. Opler, 1941",
+     "location": "Jicarilla origins",
+     "url": "https://archive.org/details/apachelifewayeco0000ople"
+    }
+   ]
+  },
+  {
+   "id": "the-ladders",
+   "title": "Two Girls Climbed It Too Soon",
+   "era": "The Powers",
+   "cast": [
+    "emergence",
+    "hactcin"
+   ],
+   "summary": "The sun and the moon left the world below through a hole in its sky, and the people wanted to follow. So they piled up earth in the middle and sang at it, four times, and it grew into a mountain reaching upward - and while the singing was going on two girls climbed up it, which was not allowed, and the mountain stopped growing short of the hole. Four ladders were made, one of each of the four colours, and set on the summit, and the people climbed out through the hole onto the surface of this world. Not everybody came. The ones who stayed are still down there. And the Chiricahua tell no emergence at all, which is a real difference between two branches of the same people.",
+   "sources": [
+    {
+     "book": "Jicarilla Apache Texts",
+     "translation": "Pliny Earle Goddard, 1911",
+     "location": "The emergence",
+     "url": "https://archive.org/details/jicarillaapachet08godd"
+    }
+   ]
+  },
+  {
+   "id": "the-gaan",
+   "title": "Four Dancers and the Grey One",
+   "era": "What Is Done",
+   "cast": [
+    "gaan",
+    "ghost",
+    "naiiees"
+   ],
+   "summary": "The Gaan lived in the mountains before people and taught the Apache how to live, and left when people would not do it. They are called back down into dancers: four men, painted in the four colours, in tall wooden crown headdresses with the face covered, and a fifth called the Grey One who capers about behaving like a clown, mimicking the others and getting in the way. The Grey One is not comic relief - he is generally reckoned the most powerful of the five and does the actual work of driving the sickness out. They dance around a fire at night. What is happening is not a performance: the Gaan are understood to be present in the dancers, and the regalia belongs to specific ceremonies and specific men.",
+   "sources": [
+    {
+     "book": "An Apache Life-Way",
+     "translation": "Morris E. Opler, 1941",
+     "location": "The Mountain Spirits",
+     "url": "https://archive.org/details/apachelifewayeco0000ople"
+    },
+    {
+     "book": "Myths and Tales of the White Mountain Apache",
+     "translation": "Grenville Goodwin, 1939",
+     "location": "The gaan",
+     "url": "https://archive.org/details/mythstalesofwhit0000good"
+    }
+   ]
+  },
+  {
+   "id": "four-days",
+   "title": "For Four Days She Is Her",
+   "era": "What Is Done",
+   "cast": [
+    "naiiees",
+    "white_painted_woman"
+   ],
+   "summary": "Na'ii'ees is held for a girl at her first period and it runs four days. She is dressed in buckskin, painted with white clay and pollen, and for the whole of it she is White Painted Woman - not representing her, being her - and people come to her to be blessed and to be healed, and she does it. She dances for hours at a stretch to a singer who works through a long fixed sequence, is massaged into the shape her life is to take, runs to each of the four directions, and receives a cane that she is to lean on in old age, which is a statement about how long she is expected to live. It costs a family enormously and the whole community turns out. It was suppressed by federal policy for decades and is now held more than it was.",
+   "sources": [
+    {
+     "book": "An Apache Life-Way",
+     "translation": "Morris E. Opler, 1941",
+     "location": "The girl's puberty rite",
+     "url": "https://archive.org/details/apachelifewayeco0000ople"
+    }
+   ]
+  },
+  {
+   "id": "power-comes",
+   "title": "It Offers, and You May Say No",
+   "era": "The Powers",
+   "cast": [
+    "diyi",
+    "bear",
+    "snake",
+    "lightning"
+   ],
+   "summary": "Power is not studied for and not inherited. It arrives - in a dream, or in a vision that was not being sought - from a particular source: snake, lightning, bear, horse, water, a specific animal or place. It tells the person what it can do for them, gives them songs, and states its conditions, which usually include a prohibition that must be kept for life. Then it waits. The person may accept it or refuse it, and refusal is entirely permitted and is often the sensible choice, because accepted power has to be maintained and can turn on somebody who handles it wrongly. This is why bear and snake and lightning are simultaneously avoided as sources of sickness and sought as sources of ability: they are the same thing on different terms.",
+   "sources": [
+    {
+     "book": "An Apache Life-Way",
+     "translation": "Morris E. Opler, 1941",
+     "location": "Supernatural power",
+     "url": "https://archive.org/details/apachelifewayeco0000ople"
+    }
+   ]
+  },
+  {
+   "id": "the-owl",
+   "title": "Something Is Calling Outside",
+   "era": "What Is Done",
+   "cast": [
+    "owl",
+    "ghost"
+   ],
+   "summary": "An owl calling close to a dwelling at night is not treated as a bird. The dead use owls - a ghost may appear as one, or speak through one - and the message is not going to be good. Feathers are not picked up and owls are not killed casually. This belongs to a much larger and very serious set of practices around the dead: the name of a dead person is not spoken afterwards, their possessions are burned or given away rather than kept, the place where the death happened is left, and mourners are ceremonially cleaned. Ghost sickness has a recognised presentation - bad dreams, wasting, the sense of being followed - and a recognised treatment. None of this means the mourning is muted. It is loud and public. It means the dead are a hazard.",
+   "sources": [
+    {
+     "book": "An Apache Life-Way",
+     "translation": "Morris E. Opler, 1941",
+     "location": "Death and the dead",
+     "url": "https://archive.org/details/apachelifewayeco0000ople"
+    }
+   ]
+  },
+  {
+   "id": "the-gift-shop",
+   "title": "The Stones With the Card in the Packet",
+   "era": "What Is Done",
+   "cast": [
+    "apache_tears",
+    "horse"
+   ],
+   "summary": "In gift shops across the Southwest there are small rounded black stones in net bags with a card explaining that in 1870 a band of Apache warriors, trapped by the cavalry, rode off a cliff rather than be taken, and that their women wept where they fell, and their tears turned to stone, and whoever carries one will never have to cry again. The stones are real: they are obsidian nodules weathered out of perlite, and the geologists' term for them genuinely is Apache tears, which is where the whole thing started. The legend appears in no Apache source of any kind and is a twentieth-century commercial invention grafted onto a mangled version of a real engagement. It is in this pack because it is the piece of Apache tradition that most visitors have actually met.",
+   "sources": [
+    {
+     "book": "An Apache Life-Way",
+     "translation": "Morris E. Opler, 1941",
+     "location": "For comparison - what the record actually contains",
+     "url": "https://archive.org/details/apachelifewayeco0000ople"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "ussen",
+   "name": "Ussen",
+   "sanskrit": "Ussen",
+   "category": "primordial",
+   "era": "The Powers",
+   "role": "The Giver of Life, remote, and the one Geronimo said his power came from",
+   "wikipedia": "Ussen",
+   "portrait": "portraits/apache/ussen.webp",
+   "epithets": [
+    "Yusn",
+    "the Giver of Life",
+    "the life giver"
+   ],
+   "domains": [
+    "life",
+    "the whole of it",
+    "the granting of power"
+   ],
+   "symbols": [
+    "the sun",
+    "the four directions",
+    "pollen"
+   ],
+   "mount": null,
+   "abode": "Not localised",
+   "festivals": [],
+   "worship": "",
+   "bio": "Chiricahua and Mescalero. Distant, not much described, and above everything.",
+   "longBio": "Ussen is the Giver of Life among the Chiricahua and Mescalero, and like a good many high figures in this collection he is remote and thinly characterised - he does not have adventures and is not petitioned about small things. He gives power and he gives life. Geronimo, who was a di-yin as well as a war leader, said repeatedly that his power came from Ussen and that he had been told he could not be killed by a bullet, which is a claim that his career does something to support and nothing to settle.",
+   "variantTraditions": "The Jicarilla organise things differently, around the Hactcin; Ussen is chiefly Chiricahua and Mescalero.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "sun",
+    "preserver"
+   ]
+  },
+  {
+   "id": "hactcin",
+   "name": "The Hactcin",
+   "sanskrit": "Hactcin",
+   "category": "primordial",
+   "era": "The Powers",
+   "role": "Jicarilla: personified powers who existed in the dark before anything else did",
+   "wikipedia": "Jicarilla_Apache",
+   "portrait": "portraits/apache/hactcin.webp",
+   "epithets": [
+    "the Hactcin",
+    "the personified powers"
+   ],
+   "domains": [
+    "the powers of objects and places",
+    "the underworld before the emergence",
+    "making"
+   ],
+   "symbols": [
+    "the four colours",
+    "the sacred mountains made in the underworld"
+   ],
+   "mount": null,
+   "abode": "The world below, before the coming up",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every object and every natural force had its Hactcin, and they were there first.",
+   "longBio": "In the Jicarilla account there was darkness and water and the Hactcin - personified powers, one for every object and force there is - and they made the underworld with mountains in it and the four directions, and then made the sun and the moon. When the sun and moon left the underworld through a hole in the sky, the people had to follow, and the emergence began. The Hactcin are a distinctly Jicarilla arrangement and they have no exact equivalent among the Chiricahua, which is one of the clearer places where the Apache groups diverge.",
+   "variantTraditions": "Goddard and Opler both recorded the Jicarilla account in full; the Hactcin do not appear in Chiricahua material.",
+   "storyIds": [
+    "the-clay-animal",
+    "the-ladders"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "preserver",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "black_hactcin",
+   "name": "Black Hactcin",
+   "sanskrit": "Hactcin",
+   "category": "creator",
+   "era": "The Powers",
+   "role": "He made the first animals out of clay, and then made a man from his own outline",
+   "wikipedia": "Jicarilla_Apache",
+   "portrait": "portraits/apache/black_hactcin.webp",
+   "epithets": [
+    "the black one",
+    "the maker of animals"
+   ],
+   "domains": [
+    "animals",
+    "birds",
+    "the first man",
+    "clay"
+   ],
+   "symbols": [
+    "the lump of clay with four legs put on it",
+    "the bird made from a drop of water"
+   ],
+   "mount": null,
+   "abode": "The world below",
+   "festivals": [],
+   "worship": "",
+   "bio": "He lay down, drew round himself, and made the first man to that outline.",
+   "longBio": "Black Hactcin took a lump of clay and gave it four legs and a head and a tail and told it to walk, and it did, and that was the first animal, and from it all the four-legged animals were made. Then he made birds out of drops of water. Then the animals asked for a companion for him, and he lay down on the ground and traced round his own body and made the first man to that outline, from pollen and turquoise and the colours of the four directions, and breathed into him. The first woman was made afterwards, from one of the man's ribs in some tellings and independently in others.",
+   "variantTraditions": "The clay-animal and drawn-outline sequence is specific to the Jicarilla account.",
+   "storyIds": [
+    "the-clay-animal"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "wisdom-craft",
+    "divine-beast",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "emergence",
+   "name": "The Coming Up",
+   "sanskrit": "The emergence",
+   "category": "primordial",
+   "era": "The Powers",
+   "role": "Four ladders, or a mountain grown upward, and a hole in the sky of the world below",
+   "wikipedia": "Jicarilla_Apache",
+   "portrait": "portraits/apache/emergence.webp",
+   "epithets": [
+    "the emergence",
+    "the ladder of four colours"
+   ],
+   "domains": [
+    "emergence",
+    "the world below",
+    "the four ladders",
+    "the mountain that grew"
+   ],
+   "symbols": [
+    "the four ladders",
+    "the mountain grown upward by singing",
+    "the hole in the sky"
+   ],
+   "mount": null,
+   "abode": "From below to here",
+   "festivals": [],
+   "worship": "",
+   "bio": "They grew a mountain by singing at it, and it stopped growing when two girls interfered.",
+   "longBio": "In the Jicarilla account the people below wanted to follow the sun and the moon, so they piled up earth and sang, and the mound grew into a mountain reaching upward - and it stopped short of the hole because two girls climbed it while the singing was going on and broke the conditions. So four ladders of the four colours were made and set on the top, and the people climbed out onto the surface of this world, and the ones who did not come up are still there. The Chiricahua do not tell an emergence at all, which is a real and substantial difference between the groups.",
+   "variantTraditions": "The interfering girls are a constant in the Jicarilla telling and are the reason the mountain stopped growing.",
+   "storyIds": [
+    "the-clay-animal",
+    "the-ladders"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "fate-time",
+    "earth-mother",
+    "preserver"
+   ]
+  },
+  {
+   "id": "diyi",
+   "name": "Diyi",
+   "sanskrit": "Diyi'",
+   "category": "primordial",
+   "era": "The Powers",
+   "role": "Power, which comes and offers itself and states its conditions - and can be refused",
+   "wikipedia": "Apache",
+   "portrait": "portraits/apache/diyi.webp",
+   "epithets": [
+    "diyi'",
+    "power",
+    "the power that comes to a person"
+   ],
+   "domains": [
+    "power",
+    "dreams",
+    "the conditions attached",
+    "refusal"
+   ],
+   "symbols": [
+    "the vision",
+    "the song that comes with it",
+    "the specific prohibition"
+   ],
+   "mount": null,
+   "abode": "Wherever it decides to go",
+   "festivals": [],
+   "worship": "",
+   "bio": "Refusing an offer of power is permitted, and is sometimes the sensible thing to do.",
+   "longBio": "Diyi' is power and it is not owned, learned or bought - it comes. It approaches a person, usually in a dream or an unsought vision, from a particular source: snakes, lightning, horses, bear, water. It says what it can do, gives songs, and states its conditions, which may include a permanent prohibition. The person may accept or refuse, and refusal is allowed and is sometimes wise, because power that has been accepted has to be lived with and can turn on a holder who mishandles it. A di-yin is someone who has accepted and is using it.",
+   "variantTraditions": "The same word underlies Navajo diyin. The Apache emphasis on power being offered and refusable is particularly clear in Opler's material.",
+   "storyIds": [
+    "power-comes"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "sage-seer",
+    "healer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "white_painted_woman",
+   "name": "White Painted Woman",
+   "sanskrit": "Isdzanadleeshe",
+   "category": "deity",
+   "era": "The Clearing Out",
+   "role": "She survived the monsters by hiding, bore two sons, and every Apache girl becomes her for four days",
+   "wikipedia": "White_Painted_Woman",
+   "portrait": "portraits/apache/white_painted_woman.webp",
+   "epithets": [
+    "Isdzanadleeshe",
+    "Changing Woman",
+    "White Shell Woman",
+    "Painted Woman"
+   ],
+   "domains": [
+    "survival",
+    "motherhood",
+    "the Sunrise Ceremony",
+    "long life",
+    "renewal"
+   ],
+   "symbols": [
+    "white clay",
+    "the pollen",
+    "the cave she hid in",
+    "the four days"
+   ],
+   "mount": null,
+   "abode": "The mountains, and then everywhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "In Na'ii'ees a girl is painted with white clay and is her, and can heal, for four days.",
+   "longBio": "White Painted Woman lived when the monsters were eating everyone and survived by hiding in a cave and by hiding her children. She bore Child of the Water to the rain and Killer of Enemies to the Sun, and she concealed the younger under a fire pit while the monsters searched. When they had been cleared she gave the people the ceremonies. She is the exact counterpart of the Navajo Changing Woman and is renewed rather than aging. At the Sunrise Ceremony a girl is dressed and painted as her and is understood to be her for the four days, with her power to heal.",
+   "variantTraditions": "Named differently by group - White Painted Woman among the Chiricahua, Changing Woman among the Mescalero and Jicarilla - and the same figure throughout.",
+   "storyIds": [
+    "under-the-fire-pit",
+    "four-days"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "healer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "child_of_water",
+   "name": "Child of the Water",
+   "sanskrit": "Tobajishchini",
+   "category": "hero",
+   "era": "The Clearing Out",
+   "role": "The son of the rain, hidden under a fire pit as a baby, and the one who killed the monsters",
+   "wikipedia": "Child_of_the_Water",
+   "portrait": "portraits/apache/child_of_water.webp",
+   "epithets": [
+    "Tobajishchini",
+    "the son of water"
+   ],
+   "domains": [
+    "monster-killing",
+    "water",
+    "the hunt",
+    "protection"
+   ],
+   "symbols": [
+    "the fire pit he was hidden under",
+    "the lightning arrows",
+    "the first hunt"
+   ],
+   "mount": null,
+   "abode": "The mountains",
+   "festivals": [],
+   "worship": "",
+   "bio": "Among the Chiricahua he is the elder and the one who acts, which reverses the Navajo order.",
+   "longBio": "Child of the Water was conceived from rain or dripping water and was hidden from the monsters under a fire pit while they searched the camp. Grown, he went to his father the Sun, was tested and armed, and killed the monsters one by one - the giant, the antelope, the eagles, the buffalo. Here is the interesting divergence: among the Navajo the son of the Sun does the killing and the son of the water waits, and among the Chiricahua it is the other way round, with Child of the Water as the elder and the actor and Killer of Enemies the lesser figure.",
+   "variantTraditions": "The reversal of the twins' seniority relative to the Navajo is real and is one of the sharper differences between two closely related traditions.",
+   "storyIds": [
+    "under-the-fire-pit"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sea-waters",
+    "war",
+    "preserver"
+   ]
+  },
+  {
+   "id": "killer_of_enemies",
+   "name": "Killer of Enemies",
+   "sanskrit": "Naiyenesgani",
+   "category": "hero",
+   "era": "The Clearing Out",
+   "role": "Son of the Sun - and in the Chiricahua telling he is the one who does not do very much",
+   "wikipedia": "Child_of_the_Water",
+   "portrait": "portraits/apache/killer_of_enemies.webp",
+   "epithets": [
+    "Naiyenesgani",
+    "the son of the sun"
+   ],
+   "domains": [
+    "war",
+    "the elder brother in some tellings",
+    "the lesser twin in others"
+   ],
+   "symbols": [
+    "the bow",
+    "the shadow of his brother"
+   ],
+   "mount": null,
+   "abode": "The mountains",
+   "festivals": [],
+   "worship": "",
+   "bio": "The two brothers swap places between the Apache groups and between them and the Navajo.",
+   "longBio": "Killer of Enemies is the son of the Sun and the brother of Child of the Water, and which of them is senior and which does the killing varies. Among the Chiricahua, Child of the Water is the hero and Killer of Enemies is the timid one who is of little use; among the Jicarilla and among the Navajo the arrangement is reversed and the sun's son is the fighter. The name means what it says. He is also, in some Chiricahua accounts, the one from whom white people are descended, which is a piece of post-contact commentary embedded in the older story.",
+   "variantTraditions": "The reassignment of the two brothers between groups is well documented and Opler discusses it directly.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "sun",
+    "preserver"
+   ]
+  },
+  {
+   "id": "monsters",
+   "name": "The Monsters",
+   "sanskrit": "The Naayee",
+   "category": "beast",
+   "era": "The Clearing Out",
+   "role": "A giant, an antelope that killed with a look, man-eating eagles, and a killing buffalo",
+   "wikipedia": "Child_of_the_Water",
+   "portrait": "portraits/apache/monsters.webp",
+   "epithets": [
+    "the giant",
+    "the antelope",
+    "the eagles",
+    "the buffalo"
+   ],
+   "domains": [
+    "eating people",
+    "the world before it was liveable",
+    "the four killings"
+   ],
+   "symbols": [
+    "the giant's four coats of flint",
+    "the eagle's nest on the cliff",
+    "the antelope's stare"
+   ],
+   "mount": null,
+   "abode": "The country, before it was cleared",
+   "festivals": [],
+   "worship": "",
+   "bio": "Each was killed by a different trick, and the eagles' nestlings were spared and changed.",
+   "longBio": "Before people could live here the country held a giant in four coats of flint, an antelope that killed by looking, a pair of eagles that carried people to a cliff nest for their young, and a buffalo that gored everyone it met. Child of the Water killed each in turn - the giant with lightning arrows that took the coats off one at a time, the antelope by burrowing under it with gopher's help, the eagles by letting himself be carried up and then killing the adults. He spared the eaglets and turned them into ordinary eagles, which is why there are eagles now and they do not take people.",
+   "variantTraditions": "The list and order vary between groups; the giant and the eagles are constant.",
+   "storyIds": [
+    "under-the-fire-pit"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "sun",
+   "name": "The Sun",
+   "sanskrit": "Chigashe",
+   "category": "deity",
+   "era": "The Clearing Out",
+   "role": "Father of one of the twins, and he made them prove it before he helped",
+   "wikipedia": "Apache",
+   "portrait": "portraits/apache/sun.webp",
+   "epithets": [
+    "the sun",
+    "the father"
+   ],
+   "domains": [
+    "the sun",
+    "fatherhood on conditions",
+    "the arming of the twins"
+   ],
+   "symbols": [
+    "the sun",
+    "the weapons handed over",
+    "the tests"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "The same shape as the Navajo account: cross the world, be tested, be acknowledged, be armed.",
+   "longBio": "The Sun fathered one of the twins on White Painted Woman and did nothing further about it until they came to him, at which point he tested them - which they survived - and acknowledged them and gave them the weapons to deal with the monsters. The pattern is the same across the Southern Athabaskan traditions and the differences between the Apache and Navajo versions are in the detail rather than the shape. He is not a warm father in either.",
+   "variantTraditions": "Chiricahua accounts are terser about the Sun than the Navajo ones, which give the visit to his house at length.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "king-ruler",
+    "war",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "coyote",
+   "name": "Coyote",
+   "sanskrit": "Ma'ye",
+   "category": "hero",
+   "era": "The Clearing Out",
+   "role": "Greedy, lecherous, dead at the end of most of his stories, and back at the start of the next",
+   "wikipedia": "Coyote_(mythology)",
+   "portrait": "portraits/apache/coyote.webp",
+   "epithets": [
+    "Ma'ye",
+    "the trickster"
+   ],
+   "domains": [
+    "greed",
+    "appetite",
+    "stupidity",
+    "the introduction of death",
+    "sex"
+   ],
+   "symbols": [
+    "the coyote",
+    "the plan that will not work",
+    "the punchline"
+   ],
+   "mount": null,
+   "abode": "Everywhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "Apache Coyote stories are funnier and considerably ruder than most in this collection.",
+   "longBio": "Coyote in Apache tradition is less of a world-shaper than the Navajo one and more of a comedian. He forms elaborate plans driven entirely by appetite, is defeated by his own stupidity, is frequently killed at the end of a story, and is alive again at the beginning of the next one without comment. A great many of the stories are obscene and were told as entertainment among adults. He is also, as everywhere in the Southwest, held responsible for death being permanent, having argued for it or spoiled the arrangement that would have prevented it.",
+   "variantTraditions": "The Coyote cycle is large in every Apache group and much of it was recorded in expurgated form or not at all.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "destroyer",
+    "divine-beast",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "gaan",
+   "name": "The Gaan",
+   "sanskrit": "Ga'an",
+   "category": "deity",
+   "era": "What Is Done",
+   "role": "The Mountain Spirits, called down into dancers, and they drive sickness out",
+   "wikipedia": "Apache",
+   "portrait": "portraits/apache/gaan.webp",
+   "epithets": [
+    "the Mountain Spirits",
+    "the Crown Dancers",
+    "the mountain people"
+   ],
+   "domains": [
+    "healing",
+    "the mountains",
+    "the driving out of evil",
+    "the four dancers and the clown"
+   ],
+   "symbols": [
+    "the wooden crown headdress",
+    "the body paint",
+    "the fire they dance around"
+   ],
+   "mount": null,
+   "abode": "The mountains, and the dance ground",
+   "festivals": [],
+   "worship": "",
+   "bio": "Four dancers and a fifth who is the clown, and the clown is not comic relief.",
+   "longBio": "The Gaan live in the mountains and were here before people, and they taught the Apache how to live and then withdrew when people would not follow it. They are called down into dancers - four of them, painted, in tall wooden crown headdresses, with a fifth, the Grey One, who behaves like a clown and is in fact the most powerful of the five and the one who does the real work. They dance around a fire, at night, to drive sickness and evil out of a place or a person, and they appear at the Sunrise Ceremony. The regalia belongs to particular ceremonies and to particular men and is not depicted here.",
+   "variantTraditions": "Called Crown Dancers or Devil Dancers in older English writing; the second is a missionary coinage and is not used by Apache people.",
+   "storyIds": [
+    "the-gaan"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "preserver",
+    "divine-beast",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "naiiees",
+   "name": "The Sunrise Ceremony",
+   "sanskrit": "Na'ii'ees",
+   "category": "primordial",
+   "era": "What Is Done",
+   "role": "Four days in which a girl is White Painted Woman, and can heal, and dances a very long time",
+   "wikipedia": "Sunrise_Ceremony",
+   "portrait": "portraits/apache/naiiees.webp",
+   "epithets": [
+    "Na'ii'ees",
+    "the Sunrise Dance",
+    "the puberty ceremony"
+   ],
+   "domains": [
+    "coming of age",
+    "White Painted Woman",
+    "healing",
+    "endurance",
+    "the four days"
+   ],
+   "symbols": [
+    "the white clay",
+    "the buckskin",
+    "the cane she will use in old age",
+    "the pollen"
+   ],
+   "mount": null,
+   "abode": "The dance ground, over four days",
+   "festivals": [],
+   "worship": "",
+   "bio": "The United States effectively banned it. It was held anyway and it is now larger than before.",
+   "longBio": "Na'ii'ees is held for a girl at her first menstruation and runs four days. She is dressed in buckskin, painted with white clay and pollen, and for the duration she is White Painted Woman: people come to her to be blessed and to be healed and she does it. She dances for very long stretches, is massaged into the shape her life should take, runs to the four directions, and is given a cane she will lean on when she is old. It costs a family a great deal and the whole community comes. Federal policy suppressed it for decades; it is now held more, not less, than it was.",
+   "variantTraditions": "Practice varies between Apache groups and families. Nothing beyond what Apache communities publish themselves is reproduced here.",
+   "storyIds": [
+    "the-gaan",
+    "four-days"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "healer",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "owl",
+   "name": "The Owl",
+   "sanskrit": "Bu",
+   "category": "beast",
+   "era": "What Is Done",
+   "role": "The worst bird there is - the dead speak through it, and hearing one is bad news",
+   "wikipedia": "Owl",
+   "portrait": "portraits/apache/owl.webp",
+   "epithets": [
+    "bu",
+    "the ghost bird"
+   ],
+   "domains": [
+    "ghosts",
+    "death",
+    "warning",
+    "witchcraft"
+   ],
+   "symbols": [
+    "the call at night",
+    "the feathers, which are not handled",
+    "the ghost speaking through it"
+   ],
+   "mount": null,
+   "abode": "Near the camp, at night",
+   "festivals": [],
+   "worship": "",
+   "bio": "An owl near a house at night is not a bird. It is somebody dead, and it is not a good sign.",
+   "longBio": "The owl carries more dread in Apache tradition than almost anything. The dead use it: a ghost may appear as one or speak through one, and an owl calling near a dwelling at night is understood as a message and a bad one. Owl feathers are not handled, owls are not killed casually, and children are warned about them. This sits inside a wider and very serious avoidance of the dead - the names of the dead are not spoken, their belongings are destroyed, and the place of a death is left. Ghost sickness is a recognised condition with recognised symptoms and a recognised treatment.",
+   "variantTraditions": "Owl dread is shared with the Navajo and with much of the Southwest and is one of the strongest continuing beliefs.",
+   "storyIds": [
+    "the-owl"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "ghost",
+   "name": "The Ghost",
+   "sanskrit": "Chidn",
+   "category": "underworld",
+   "era": "What Is Done",
+   "role": "Ghost sickness is a diagnosis, with symptoms, and it is treated",
+   "wikipedia": "Apache",
+   "portrait": "portraits/apache/ghost.webp",
+   "epithets": [
+    "chidn",
+    "the dead",
+    "what is left"
+   ],
+   "domains": [
+    "the dead",
+    "contamination",
+    "sickness",
+    "the avoidance of names"
+   ],
+   "symbols": [
+    "the destroyed possessions",
+    "the abandoned place",
+    "the unspoken name"
+   ],
+   "mount": null,
+   "abode": "Where somebody died",
+   "festivals": [],
+   "worship": "",
+   "bio": "You do not say the name of a dead person. Not out of grief - out of caution.",
+   "longBio": "The Apache dead are dangerous and the practices around them are strict: the name of a dead person is not spoken, their property is burned or given away, the dwelling where they died is abandoned or destroyed, and mourners are purified. Contact produces ghost sickness, which is a real diagnostic category with a recognised presentation - bad dreams, weakness, a feeling of being followed, wasting - and a recognised ceremonial treatment. None of this is about grief being suppressed; the mourning is intense and public. It is about the dead being understood as a hazard.",
+   "variantTraditions": "Closely paralleled by Navajo ch'iidii belief; ghost sickness is listed in psychiatric literature as a culture-bound syndrome, a framing many Apache people would not accept.",
+   "storyIds": [
+    "the-gaan",
+    "the-owl"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "destroyer",
+    "healer"
+   ]
+  },
+  {
+   "id": "bear",
+   "name": "The Bear",
+   "sanskrit": "Shash",
+   "category": "beast",
+   "era": "What Is Done",
+   "role": "Not eaten, not hunted casually, not pointed at - and bear sickness is a specific illness",
+   "wikipedia": "American_black_bear",
+   "portrait": "portraits/apache/bear.webp",
+   "epithets": [
+    "shash",
+    "the one you do not name lightly"
+   ],
+   "domains": [
+    "bear",
+    "avoidance",
+    "sickness",
+    "power"
+   ],
+   "symbols": [
+    "the tracks",
+    "the illness that follows contact",
+    "the ceremony to treat it"
+   ],
+   "mount": null,
+   "abode": "The mountains",
+   "festivals": [],
+   "worship": "",
+   "bio": "Bear meat is not eaten. Contact with a bear, or its tracks, can make you ill.",
+   "longBio": "The bear is avoided rather than revered. Apache people traditionally do not eat bear meat, do not hunt bear except under particular circumstances, and treat contact with a bear - or even with its tracks, or with a place it has been - as a source of illness. Bear sickness has its own symptoms and its own ceremony. Some of this is explained by the bear's resemblance to a person when skinned, some by the belief that witches take bear form. Bear is also a genuine source of diyi' for those who accept it, which puts it in the same category as lightning: powerful, and not to be handled without terms.",
+   "variantTraditions": "The avoidance is strong and continuing and is shared with the Navajo.",
+   "storyIds": [
+    "power-comes"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "primordial-adversary",
+    "healer",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "snake",
+   "name": "The Snake",
+   "sanskrit": "Tliish",
+   "category": "beast",
+   "era": "What Is Done",
+   "role": "Same treatment as the bear: avoided, respected, and a source of power if it offers",
+   "wikipedia": "Rattlesnake",
+   "portrait": "portraits/apache/snake.webp",
+   "epithets": [
+    "tliish",
+    "the one in the rocks"
+   ],
+   "domains": [
+    "snakes",
+    "lightning",
+    "sickness",
+    "power"
+   ],
+   "symbols": [
+    "the rattle",
+    "the illness that follows",
+    "the songs that come with the power"
+   ],
+   "mount": null,
+   "abode": "The rocks and the dry ground",
+   "festivals": [],
+   "worship": "",
+   "bio": "Snake sickness and lightning sickness are treated by the same kind of ceremony.",
+   "longBio": "Snakes are avoided and not killed unnecessarily, and contact - or a bite, or in some accounts merely a sighting under bad circumstances - can produce snake sickness, which is treated ceremonially. Snake is also one of the standard sources of diyi', and a person who accepts power from snakes gets songs with it and prohibitions. The Apache grouping of snake, lightning and bear as powers that are dangerous, that cause specific named illnesses, and that can also be accepted as sources of ability is a consistent and characteristic piece of thinking.",
+   "variantTraditions": "Snake, lightning and bear form a recognised cluster in Opler's account of Chiricahua power.",
+   "storyIds": [
+    "power-comes"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "healer",
+    "primordial-adversary",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "lightning",
+   "name": "Lightning",
+   "sanskrit": "Ilkidn",
+   "category": "nature",
+   "era": "What Is Done",
+   "role": "A power that offers itself, and a sickness if it does not go well",
+   "wikipedia": "Lightning",
+   "portrait": "portraits/apache/lightning.webp",
+   "epithets": [
+    "the lightning",
+    "the thunder"
+   ],
+   "domains": [
+    "lightning",
+    "power",
+    "sickness",
+    "the arrow"
+   ],
+   "symbols": [
+    "the zigzag",
+    "a tree that has been struck",
+    "wood from a struck tree, which is avoided"
+   ],
+   "mount": null,
+   "abode": "The summer sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Wood from a tree that has been struck is not brought into a house or used for a fire.",
+   "longBio": "Lightning is one of the great sources of diyi' and one of the most dangerous. A person struck and surviving may be given power; a person who mishandles the encounter, or who comes into contact with something lightning has touched, may get lightning sickness. Wood from a struck tree is not used for building or burning and the tree is avoided. Child of the Water's weapons against the monsters were lightning arrows given by the Sun, which puts lightning at the centre of the founding story as well as in the ordinary practical world.",
+   "variantTraditions": "The prohibition on struck wood is widely observed and is one of the more visible everyday consequences of the belief.",
+   "storyIds": [
+    "power-comes"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sky-thunder",
+    "healer",
+    "war",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "horse",
+   "name": "The Horse",
+   "sanskrit": "Lii",
+   "category": "beast",
+   "era": "What Is Done",
+   "role": "Arrived in the seventeenth century and remade Apache life inside two generations",
+   "wikipedia": "Horses_in_Native_American_cultures",
+   "portrait": "portraits/apache/horse.webp",
+   "epithets": [
+    "lii",
+    "the horse"
+   ],
+   "domains": [
+    "mobility",
+    "raiding",
+    "wealth",
+    "power in horses"
+   ],
+   "symbols": [
+    "the raid",
+    "the herd",
+    "the songs of horse power"
+   ],
+   "mount": null,
+   "abode": "The Southwest, from about 1650",
+   "festivals": [],
+   "worship": "",
+   "bio": "Horse power is a genuine category of diyi' - some people have it and it is about horses.",
+   "longBio": "Horses came out of the Spanish settlements in the seventeenth century and within two generations had transformed Apache life: range, raiding, wealth, warfare and diet all changed. Apache raiding economy - which the Spanish, Mexicans and Americans all found intolerable and none could stop for two centuries - is built on it. Horse is also a source of diyi': there are people with power in horses, with the songs that come with it, who are consulted about horses. The Apache wars ended in 1886 with Geronimo's surrender, and the mounted period lasted about two hundred and thirty years.",
+   "variantTraditions": "Apache raiding was economically distinct from warfare and the two had different rules, personnel and ceremonies.",
+   "storyIds": [
+    "the-gift-shop"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "war",
+    "wealth-fortune",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "apache_tears",
+   "name": "Apache Tears",
+   "sanskrit": "the gift shop version",
+   "category": "primordial",
+   "era": "What Is Done",
+   "role": "Little black stones sold in gift shops with a made-up legend attached",
+   "wikipedia": "Apache_tears",
+   "portrait": "portraits/apache/apache_tears.webp",
+   "epithets": [
+    "the obsidian pebbles",
+    "the tourist legend"
+   ],
+   "domains": [
+    "invention",
+    "the twentieth century",
+    "obsidian"
+   ],
+   "symbols": [
+    "the rounded obsidian nodules",
+    "the printed card in the packet"
+   ],
+   "mount": null,
+   "abode": "A rack near the till",
+   "festivals": [],
+   "worship": "",
+   "bio": "The stones are real geology. The story on the card is not real anything.",
+   "longBio": "Small rounded nodules of obsidian, sold across the Southwest with a card explaining that they are the tears of Apache women who wept when their men rode off a cliff rather than surrender to the US cavalry, and that whoever holds one need never cry again. The stones are genuine - they are obsidian nodules weathered out of perlite, and the geological name for them is Apache tears, which is where the confusion starts. The legend is a twentieth-century invention, attached to a garbled account of an 1870 engagement, and it appears in no Apache source. It is here because it is the Apache thing most visitors have actually encountered.",
+   "variantTraditions": "Included on the same principle as the Slavic and Baltic sections: what most people have already read should be addressed rather than silently omitted.",
+   "storyIds": [
+    "the-gift-shop"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "messenger-trickster",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "ussen",
+   "to": "diyi",
+   "type": "guru",
+   "note": "He gives it, and it comes and offers itself"
+  },
+  {
+   "from": "ussen",
+   "to": "white_painted_woman",
+   "type": "ally",
+   "note": "The Chiricahua arrangement, above and central"
+  },
+  {
+   "from": "hactcin",
+   "to": "black_hactcin",
+   "type": "sibling",
+   "note": "One of them, and the one who did the making"
+  },
+  {
+   "from": "hactcin",
+   "to": "emergence",
+   "type": "guru",
+   "note": "They made the world below and then the sun left it"
+  },
+  {
+   "from": "black_hactcin",
+   "to": "emergence",
+   "type": "ally",
+   "note": "And the people had to follow"
+  },
+  {
+   "from": "black_hactcin",
+   "to": "coyote",
+   "type": "enemy",
+   "note": "Made the animals; one of them turned out badly"
+  },
+  {
+   "from": "hactcin",
+   "to": "ussen",
+   "type": "sibling",
+   "note": "Two different arrangements, in two different Apache groups"
+  },
+  {
+   "from": "emergence",
+   "to": "diyi",
+   "type": "ally",
+   "note": "Power was in the world below too"
+  },
+  {
+   "from": "white_painted_woman",
+   "to": "child_of_water",
+   "type": "parent",
+   "note": "Hidden under a fire pit while they searched"
+  },
+  {
+   "from": "white_painted_woman",
+   "to": "killer_of_enemies",
+   "type": "parent",
+   "note": "The other one, whose father is the sun"
+  },
+  {
+   "from": "sun",
+   "to": "killer_of_enemies",
+   "type": "parent",
+   "note": "And who is the lesser of the two, among the Chiricahua"
+  },
+  {
+   "from": "child_of_water",
+   "to": "killer_of_enemies",
+   "type": "sibling",
+   "note": "And the two of them swap places between groups"
+  },
+  {
+   "from": "sun",
+   "to": "child_of_water",
+   "type": "guru",
+   "note": "Tested them, acknowledged them, and armed them"
+  },
+  {
+   "from": "child_of_water",
+   "to": "monsters",
+   "type": "enemy",
+   "note": "The giant, the antelope, the eagles, the buffalo"
+  },
+  {
+   "from": "monsters",
+   "to": "white_painted_woman",
+   "type": "enemy",
+   "note": "She survived them by hiding, and hid her children"
+  },
+  {
+   "from": "child_of_water",
+   "to": "lightning",
+   "type": "devotee",
+   "note": "The arrows he was given were lightning"
+  },
+  {
+   "from": "white_painted_woman",
+   "to": "naiiees",
+   "type": "guru",
+   "note": "For four days a girl is her and can heal"
+  },
+  {
+   "from": "naiiees",
+   "to": "gaan",
+   "type": "ally",
+   "note": "The Mountain Spirits dance at it"
+  },
+  {
+   "from": "gaan",
+   "to": "ussen",
+   "type": "devotee",
+   "note": "They were here before people and taught them how to live"
+  },
+  {
+   "from": "gaan",
+   "to": "ghost",
+   "type": "enemy",
+   "note": "They are called down to drive sickness and evil out"
+  },
+  {
+   "from": "gaan",
+   "to": "diyi",
+   "type": "ally",
+   "note": "A dancer is not performing; the Gaan are in him"
+  },
+  {
+   "from": "coyote",
+   "to": "ghost",
+   "type": "guru",
+   "note": "He is why death is permanent, as everywhere in the Southwest"
+  },
+  {
+   "from": "coyote",
+   "to": "child_of_water",
+   "type": "enemy",
+   "note": "One clears the world and the other spoils it"
+  },
+  {
+   "from": "owl",
+   "to": "ghost",
+   "type": "ally",
+   "note": "The dead use it, and it calls at night near a house"
+  },
+  {
+   "from": "ghost",
+   "to": "naiiees",
+   "type": "enemy",
+   "note": "One is the beginning of a life and the other is the hazard at the end"
+  },
+  {
+   "from": "owl",
+   "to": "coyote",
+   "type": "sibling",
+   "note": "Two animals nobody wants to hear from"
+  },
+  {
+   "from": "bear",
+   "to": "diyi",
+   "type": "ally",
+   "note": "A source of it, on terms"
+  },
+  {
+   "from": "snake",
+   "to": "diyi",
+   "type": "ally",
+   "note": "As is this one"
+  },
+  {
+   "from": "lightning",
+   "to": "diyi",
+   "type": "ally",
+   "note": "And this one, and it is the most dangerous"
+  },
+  {
+   "from": "bear",
+   "to": "snake",
+   "type": "sibling",
+   "note": "Two avoidances, and two named sicknesses"
+  },
+  {
+   "from": "snake",
+   "to": "lightning",
+   "type": "sibling",
+   "note": "Treated by the same kind of ceremony"
+  },
+  {
+   "from": "bear",
+   "to": "ghost",
+   "type": "ally",
+   "note": "Witches are said to take bear form"
+  },
+  {
+   "from": "horse",
+   "to": "diyi",
+   "type": "ally",
+   "note": "There are people with power in horses"
+  },
+  {
+   "from": "horse",
+   "to": "monsters",
+   "type": "sibling",
+   "note": "Two things that changed what the country was like to live in"
+  },
+  {
+   "from": "horse",
+   "to": "gaan",
+   "type": "enemy",
+   "note": "Two hundred and thirty years of one, and the other is still going"
+  },
+  {
+   "from": "apache_tears",
+   "to": "ussen",
+   "type": "enemy",
+   "note": "It appears in no Apache source at all"
+  },
+  {
+   "from": "apache_tears",
+   "to": "white_painted_woman",
+   "type": "enemy",
+   "note": "And it is what most visitors have instead of her"
+  },
+  {
+   "from": "apache_tears",
+   "to": "horse",
+   "type": "enemy",
+   "note": "Attached to a garbled account of an 1870 engagement"
+  },
+  {
+   "from": "naiiees",
+   "to": "diyi",
+   "type": "ally",
+   "note": "What she can do in those four days is not metaphorical"
+  },
+  {
+   "from": "ussen",
+   "to": "sun",
+   "type": "ally",
+   "note": "The Giver of Life, and the one who does the arming"
+  },
+  {
+   "from": "emergence",
+   "to": "white_painted_woman",
+   "type": "sibling",
+   "note": "Two beginnings, and the groups do not agree"
+  },
+  {
+   "from": "monsters",
+   "to": "owl",
+   "type": "sibling",
+   "note": "What the world held before it was fit to live in"
+  },
+  {
+   "from": "hactcin",
+   "to": "diyi",
+   "type": "guru",
+   "note": "A power for every object and every force there is"
+  },
+  {
+   "from": "black_hactcin",
+   "to": "horse",
+   "type": "parent",
+   "note": "He made the four-legged animals out of one lump of clay"
+  },
+  {
+   "from": "gaan",
+   "to": "bear",
+   "type": "enemy",
+   "note": "The dance drives out what should not be there"
+  },
+  {
+   "from": "killer_of_enemies",
+   "to": "horse",
+   "type": "ally",
+   "note": "In some accounts white people descend from him"
+  }
+ ]
+}
