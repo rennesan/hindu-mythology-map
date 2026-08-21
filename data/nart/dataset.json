@@ -1,0 +1,1327 @@
+{
+ "title": "Nart Sagas",
+ "description": "The Caucasus: a race of heroes who chose fame over long life, a hero of steel whose sword had to go into the sea before he could die, and the Scythian material underneath it.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Georges Dumezil, Legendes sur les Nartes (1930) and later works - the foundation of the comparative reading",
+  "John Colarusso, Nart Sagas from the Caucasus (2002) - the Circassian, Abaza, Abkhaz and Ubykh material in English",
+  "Walter May's translation of the Ossetian cycle (2016)",
+  "Herodotus, Histories IV - the Scythian religion, including the sword set upright and worshipped",
+  "C. S. Littleton and L. Malcor, From Scythia to Camelot (1994) - the Sarmatian-Arthurian argument, which is contested and is presented here as contested"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/nart/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "dumezil": {
+   "t": "Legendes sur les Nartes / Romans de Scythie et d'alentour",
+   "tr": "Georges Dumezil, 1930 and 1978",
+   "u": "https://archive.org/details/legendessurlesna0000dume"
+  },
+  "colarusso": {
+   "t": "Nart Sagas from the Caucasus: Myths and Legends from the Circassians, Abazas, Abkhaz and Ubykhs",
+   "tr": "John Colarusso, 2002",
+   "u": "https://archive.org/details/nartsagasfromcau0000unse"
+  },
+  "ossetian": {
+   "t": "Nart Sagas: Ancient Myths and Legends of the Ossetians",
+   "tr": "Walter May trans., ed. Tamerlan Salbiev, 2016",
+   "u": "https://archive.org/details/nartsagasancient0000unse"
+  },
+  "herodotus": {
+   "t": "The Histories, Book IV",
+   "tr": "Herodotus, c. 430 BC - on the Scythians",
+   "u": "https://sacred-texts.com/cla/hh/hh4000.htm"
+  },
+  "littleton": {
+   "t": "From Scythia to Camelot",
+   "tr": "C. Scott Littleton and Linda Malcor, 1994 - the Arthurian argument",
+   "u": "https://archive.org/details/fromscythiatocam0000litt"
+  }
+ },
+ "meta": {
+  "id": "nart",
+  "label": "Nart Sagas",
+  "sublabel": "The Caucasus",
+  "accent": "#b8967a",
+  "root": "narts"
+ },
+ "profile": {
+  "cosmicNature": "Not addressed, and that is unusual. The Nart cycle has almost no cosmogony: there is no creation, no ordering of the world, no account of where anything came from. It opens with the Narts already there, living in their villages, holding their assembly, raiding, feasting and quarrelling. What it has instead of a cosmology is a society, described in enormous detail.",
+  "natureOfDivinity": "Thin above and crowded at ground level. There are sky powers - a smith in heaven, a lord of the game animals, a protector of sheep, a figure on a white horse who became Saint George - and they intervene, and nobody builds much theology on them. The Narts themselves are not gods and are not immortal; they are a race of heroes who lived before people and were eventually destroyed, in most tellings by their own arrogance.",
+  "afterlife": "A land of the dead that a living hero occasionally visits and comes back from, and which is described with unsettling matter-of-factness: the dead are there doing what they did, and what they see is instructive rather than terrible. The Ossetian version has a long guided tour with a moral attached to each sight. When the Narts are offered the choice between long life and lasting fame, they take fame, and are wiped out.",
+  "systemMechanism": "The assembly, the feast, and shame. Nart society runs on an assembly where anyone may speak, on hospitality that cannot be refused, on the raid, and above all on reputation - what is said about you at the feast is the operative sanction. Much of the cycle is about status contests conducted through drinking, boasting and the seating order, and the humiliations are remembered for generations.",
+  "canonTexts": "Nothing written before the nineteenth century. The cycle was collected from singers and reciters in several unrelated languages - Ossetian is Iranian, Circassian and Abkhaz are Northwest Caucasian, Chechen is Northeast Caucasian - and the same characters and episodes cross all of them. Georges Dumezil began publishing in 1930; John Colarusso's English collection of 2002 is the fullest available outside Russian."
+ },
+ "hierarchy": [
+  {
+   "title": "The Narts",
+   "blurb": "A race of heroes who lived before people, with an assembly, three competing families, feasts and raids and no cosmology whatsoever. Offered a long quiet existence or a short famous one, they chose the second on purpose and were wiped out. Their mother runs the whole thing.",
+   "memberIds": [
+    "narts",
+    "satanaya",
+    "uryzmag",
+    "sosruquo",
+    "batraz",
+    "syrdon",
+    "nasren"
+   ],
+   "connectorCaption": "Around them, a thin layer above and a crowded one at ground level"
+  },
+  {
+   "title": "Above and Below",
+   "blurb": "A smith in the sky who tempers heroes exactly as he tempers blades. A figure on a white horse whom women may not name and who became Saint George without losing anything. An owner of the game animals. And a wheel of steel that thinks, and that goes for the knees.",
+   "memberIds": [
+    "kurdalagon",
+    "wasterji",
+    "afsati",
+    "donbettyr",
+    "balsag_wheel",
+    "giants"
+   ],
+   "connectorCaption": "And the passage that makes the whole cycle famous outside the Caucasus"
+  },
+  {
+   "title": "The Endings",
+   "blurb": "Batraz will not die until his sword goes into the sea, and they lie to him about it twice, and when it finally goes in the water boils and turns red. Herodotus says the Scythians worshipped an upright iron sword. Sarmatian cavalry served in Britain from 175. The argument goes from there.",
+   "memberIds": [
+    "sword",
+    "scythians",
+    "camelot"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "family",
+   "label": "The Senior Line",
+   "memberIds": [
+    "satanaya",
+    "uryzmag",
+    "donbettyr",
+    "narts"
+   ]
+  },
+  {
+   "id": "heroes",
+   "label": "The Heroes",
+   "memberIds": [
+    "sosruquo",
+    "batraz",
+    "nasren",
+    "uryzmag"
+   ]
+  },
+  {
+   "id": "steel",
+   "label": "Steel",
+   "memberIds": [
+    "kurdalagon",
+    "sosruquo",
+    "batraz",
+    "sword"
+   ]
+  },
+  {
+   "id": "trouble",
+   "label": "Trouble",
+   "memberIds": [
+    "syrdon",
+    "balsag_wheel",
+    "giants"
+   ]
+  },
+  {
+   "id": "powers",
+   "label": "The Powers",
+   "memberIds": [
+    "wasterji",
+    "afsati",
+    "donbettyr",
+    "kurdalagon"
+   ]
+  },
+  {
+   "id": "far",
+   "label": "How Far It Goes",
+   "memberIds": [
+    "scythians",
+    "camelot",
+    "sword",
+    "nasren"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-sword",
+   "title": "They Lied to Him Twice",
+   "era": "The Endings",
+   "cast": [
+    "batraz",
+    "sword",
+    "narts",
+    "camelot"
+   ],
+   "summary": "Batraz was dying and could not die, and he told the Narts what was required: his sword must be thrown into the sea. It took a great many of them to move it. They took it away, and hid it, and came back and said it was done. He asked what had happened when it went in. They said nothing had happened. He told them to go and do it properly. They tried again, and lied again, and he asked again, and their answer gave them away again. The third time they threw it in, and the sea rose up and boiled and turned red, and birds and fish came up out of it. They came back and told him, and he said yes, that is what happens, and then he died. Bedivere does the same thing, twice, with Excalibur.",
+   "sources": [
+    {
+     "book": "Legendes sur les Nartes / Romans de Scythie et d'alentour",
+     "translation": "Georges Dumezil, 1930 and 1978",
+     "location": "The death of Batraz",
+     "url": "https://archive.org/details/legendessurlesna0000dume"
+    },
+    {
+     "book": "From Scythia to Camelot",
+     "translation": "C. Scott Littleton and Linda Malcor, 1994 - the Arthurian argument",
+     "location": "The sword in the water",
+     "url": "https://archive.org/details/fromscythiatocam0000litt"
+    }
+   ]
+  },
+  {
+   "id": "the-tongs",
+   "title": "He Held Him By the Knees",
+   "era": "The Narts",
+   "cast": [
+    "sosruquo",
+    "kurdalagon",
+    "satanaya",
+    "balsag_wheel"
+   ],
+   "summary": "A shepherd saw Satanaya washing at the river and could not contain himself, and what he spilled went onto a stone on the bank. Nine months later the stone was hot to the touch, and Satanaya had it cut open, and inside was a boy glowing like something out of a furnace. The smith Kurdalagon took him and treated him exactly as he would a blade - into the fire, out of the fire, into the water - so that he came out proof against weapons. But he had to hold him, and he held him with the tongs by the knees, and the knees never got hardened. Sosruquo grew up to be the cleverest and least scrupulous of the Narts, and when they finally sent the Balsag Wheel after him, it went straight for the knees.",
+   "sources": [
+    {
+     "book": "Nart Sagas: Ancient Myths and Legends of the Ossetians",
+     "translation": "Walter May trans., ed. Tamerlan Salbiev, 2016",
+     "location": "The birth of Soslan",
+     "url": "https://archive.org/details/nartsagasancient0000unse"
+    },
+    {
+     "book": "Nart Sagas from the Caucasus: Myths and Legends from the Circassians, Abazas, Abkhaz and Ubykhs",
+     "translation": "John Colarusso, 2002",
+     "location": "Sosruquo",
+     "url": "https://archive.org/details/nartsagasfromcau0000unse"
+    }
+   ]
+  },
+  {
+   "id": "the-harp",
+   "title": "He Made It Out of His Son",
+   "era": "The Narts",
+   "cast": [
+    "syrdon",
+    "narts"
+   ],
+   "summary": "Syrdon had spent a lifetime setting the Narts against each other, and when they finally caught up with him they could not find him, so they killed his twelve sons instead. He came home and found them. Then he took the body of the youngest, and out of it he made the first fandyr: he shaped the frame from the boy, strung it with his sinews, and made the neck out of his hand, so that the twelve strings were the twelve sons. Then he walked into the Nart assembly and played it. Nobody had heard anything like it. They wept, and they forgave him everything, and they gave him a seat among them, and he sat down and went on exactly as before.",
+   "sources": [
+    {
+     "book": "Nart Sagas: Ancient Myths and Legends of the Ossetians",
+     "translation": "Walter May trans., ed. Tamerlan Salbiev, 2016",
+     "location": "Syrdon and the fandyr",
+     "url": "https://archive.org/details/nartsagasancient0000unse"
+    }
+   ]
+  },
+  {
+   "id": "satanaya",
+   "title": "Go and Ask Her",
+   "era": "The Narts",
+   "cast": [
+    "satanaya",
+    "uryzmag",
+    "narts"
+   ],
+   "summary": "The Narts are brave and they are not clever, and the structure of an enormous number of these stories is the same: something has gone wrong, or somebody has been challenged, or there is a famine, and the men sit in the assembly and get nowhere, and then somebody says go and ask Satanaya. She feeds them out of her storehouse through winters that should have killed them. She invents beer by watching hops fall into water. She has a mirror in which she can see the whole world and uses it to find out where people are. She is married to her own brother, which the sagas mention without any embarrassment at all. She is the most capable person in the cycle by a distance and everybody in it knows it.",
+   "sources": [
+    {
+     "book": "Nart Sagas from the Caucasus: Myths and Legends from the Circassians, Abazas, Abkhaz and Ubykhs",
+     "translation": "John Colarusso, 2002",
+     "location": "Setenaya",
+     "url": "https://archive.org/details/nartsagasfromcau0000unse"
+    },
+    {
+     "book": "Nart Sagas: Ancient Myths and Legends of the Ossetians",
+     "translation": "Walter May trans., ed. Tamerlan Salbiev, 2016",
+     "location": "Satana",
+     "url": "https://archive.org/details/nartsagasancient0000unse"
+    }
+   ]
+  },
+  {
+   "id": "the-upright-sword",
+   "title": "An Iron Sword on a Pile of Brushwood",
+   "era": "The Endings",
+   "cast": [
+    "scythians",
+    "sword",
+    "batraz"
+   ],
+   "summary": "Herodotus, writing in the fifth century BC about the Scythians, says they made no images or altars or temples for any god except one. For that one they piled up an enormous platform of brushwood, three furlongs each way, and set an ancient iron sword upright on top of it, and that was their Ares, and they sacrificed to it. The Ossetians descend from the Scythians by way of the Sarmatians and the Alans, speak an Iranian language, and tell stories in which a hero made of steel is essentially a sword, and in which a sword must be given back to the water before he can die. Dumezil spent fifty years on the correspondences. Two and a half thousand years is a long time and the case is nonetheless strong.",
+   "sources": [
+    {
+     "book": "The Histories, Book IV",
+     "translation": "Herodotus, c. 430 BC - on the Scythians",
+     "location": "Histories IV.62",
+     "url": "https://sacred-texts.com/cla/hh/hh4000.htm"
+    },
+    {
+     "book": "Legendes sur les Nartes / Romans de Scythie et d'alentour",
+     "translation": "Georges Dumezil, 1930 and 1978",
+     "location": "Romans de Scythie",
+     "url": "https://archive.org/details/legendessurlesna0000dume"
+    }
+   ]
+  },
+  {
+   "id": "the-mountain",
+   "title": "Chained Where the Greeks Put Prometheus",
+   "era": "The Narts",
+   "cast": [
+    "nasren",
+    "sosruquo",
+    "giants"
+   ],
+   "summary": "Nasren the Bearded challenged God and was chained to the mountain in the cold with a bird at him, and a Nart climbed up and cut him loose. The Georgians tell it about Amirani, the Abkhaz about Abrskil, the Chechens about Pkharmat, and in several of those versions the offence is specifically that he brought fire down to people. Aeschylus chained Prometheus to these same mountains in the 450s BC, and the Greeks were quite clear about where the Caucasus was. Which direction the story travelled - out of the Caucasus into Greek literature, or back the other way, or both from something older on the steppe - is not settled, and the Caucasian versions are not obviously the derivative ones.",
+   "sources": [
+    {
+     "book": "Nart Sagas from the Caucasus: Myths and Legends from the Circassians, Abazas, Abkhaz and Ubykhs",
+     "translation": "John Colarusso, 2002",
+     "location": "Nasren",
+     "url": "https://archive.org/details/nartsagasfromcau0000unse"
+    },
+    {
+     "book": "Legendes sur les Nartes / Romans de Scythie et d'alentour",
+     "translation": "Georges Dumezil, 1930 and 1978",
+     "location": "The chained figure",
+     "url": "https://archive.org/details/legendessurlesna0000dume"
+    }
+   ]
+  },
+  {
+   "id": "the-giant-and-the-hide",
+   "title": "Out Under the Animals",
+   "era": "Above and Below",
+   "cast": [
+    "giants",
+    "uryzmag",
+    "sosruquo"
+   ],
+   "summary": "A Nart gets into a giant's cave and cannot get out. The giant is enormous, sometimes one-eyed, rich in flocks, and slow. The Nart blinds him, or tricks him, and then when the flocks are let out in the morning he goes out under them - hanging beneath a ram, or sewn into a hide - and the giant runs his hands over the backs of the animals and misses him. That is the Cyclops episode, and it is told across the Caucasus in Ossetian, Circassian, Abkhaz and Chechen. Whether Homer got it from this region, or whether it travelled the other way, or whether both drew on something already circulating, is one of the older arguments in comparative folklore.",
+   "sources": [
+    {
+     "book": "Nart Sagas from the Caucasus: Myths and Legends from the Circassians, Abazas, Abkhaz and Ubykhs",
+     "translation": "John Colarusso, 2002",
+     "location": "The giants",
+     "url": "https://archive.org/details/nartsagasfromcau0000unse"
+    },
+    {
+     "book": "Legendes sur les Nartes / Romans de Scythie et d'alentour",
+     "translation": "Georges Dumezil, 1930 and 1978",
+     "location": "Polyphemus in the Caucasus",
+     "url": "https://archive.org/details/legendessurlesna0000dume"
+    }
+   ]
+  },
+  {
+   "id": "fame",
+   "title": "They Chose the Short One",
+   "era": "The Narts",
+   "cast": [
+    "narts",
+    "batraz",
+    "satanaya"
+   ],
+   "summary": "At the end of the cycle God puts a question to the Narts. They may have a long existence, quiet and comfortable and unremarkable, and their name will go out with them. Or they may have a short one, and be destroyed, and be talked about for as long as there are people to talk. They discuss it in the assembly, in the ordinary way, and they decide that a people who are not remembered have not really existed, and they take the second. And they are destroyed - by God, or by Batraz's vengeance, or by their own arrogance, depending which telling you have. And here we are, in a different century and a different language, discussing them.",
+   "sources": [
+    {
+     "book": "Nart Sagas: Ancient Myths and Legends of the Ossetians",
+     "translation": "Walter May trans., ed. Tamerlan Salbiev, 2016",
+     "location": "The end of the Narts",
+     "url": "https://archive.org/details/nartsagasancient0000unse"
+    },
+    {
+     "book": "Legendes sur les Nartes / Romans de Scythie et d'alentour",
+     "translation": "Georges Dumezil, 1930 and 1978",
+     "location": "The destruction",
+     "url": "https://archive.org/details/legendessurlesna0000dume"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "narts",
+   "name": "The Narts",
+   "sanskrit": "Narts",
+   "category": "primordial",
+   "era": "The Narts",
+   "role": "A race of heroes who lived before people, and who chose fame over long life",
+   "wikipedia": "Nart_saga",
+   "portrait": "portraits/nart/narts.webp",
+   "epithets": [
+    "the Narts",
+    "the ones who were here before"
+   ],
+   "domains": [
+    "the assembly",
+    "the feast",
+    "raiding",
+    "reputation",
+    "their own destruction"
+   ],
+   "symbols": [
+    "the round assembly",
+    "the drinking cup that fills for a truthful boast",
+    "the three families"
+   ],
+   "mount": null,
+   "abode": "The Caucasus, before people",
+   "festivals": [],
+   "worship": "",
+   "bio": "Offered a long quiet existence or a short famous one, they took the second and were wiped out.",
+   "longBio": "The Narts are not gods and were not immortal. They are a race of heroes who lived in the Caucasus before people, in villages, with an assembly where anyone might speak, three great families who competed for precedence, feasts, raids, quarrels and a great deal of boasting. There is no creation story and no cosmology; the cycle simply opens with them there. At the end they are destroyed - by God, or by their own arrogance, depending on the telling - and in the Ossetian version they are offered the choice between a long unremarkable existence and a short one that will be talked about forever, and they choose the second deliberately.",
+   "variantTraditions": "Told in Ossetian, Circassian, Abkhaz, Chechen, Ingush, Karachay-Balkar and Abaza - languages from three unrelated families.",
+   "storyIds": [
+    "the-sword",
+    "the-harp",
+    "satanaya",
+    "fame"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "fate-time",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "satanaya",
+   "name": "Satanaya",
+   "sanskrit": "Satanaya",
+   "category": "hero",
+   "era": "The Narts",
+   "role": "The mother of the Narts, and by a distance the most capable person in the cycle",
+   "wikipedia": "Satanaya",
+   "portrait": "portraits/nart/satanaya.webp",
+   "epithets": [
+    "Satana in Ossetian",
+    "Setenaya in Circassian",
+    "the mother of the Narts"
+   ],
+   "domains": [
+    "counsel",
+    "provision",
+    "the household",
+    "cunning",
+    "the brewing of beer"
+   ],
+   "symbols": [
+    "the great storehouse",
+    "the mirror that shows the whole world",
+    "the beer she invented"
+   ],
+   "mount": null,
+   "abode": "The Nart village, running it",
+   "festivals": [],
+   "worship": "",
+   "bio": "When the Narts are stuck - which is constantly - they go and ask her, and she tells them.",
+   "longBio": "Satanaya is the presiding intelligence of the whole cycle. She is not a warrior and does not need to be: she feeds the Narts through famines out of her storehouse, invents beer, sees everything in her mirror, and produces the plan every time the heroes have got themselves into something. She conceived Sosruquo by an accident with a stone and raised him. She married her own brother Uryzmag - which the sagas handle without embarrassment - and she outmanoeuvres everyone. She is more central than any of the men and is the reason Nart society functions.",
+   "variantTraditions": "Some scholars connect her to Scythian and Sarmatian material about powerful women, and to the Greek reports of Amazons in the same region.",
+   "storyIds": [
+    "the-tongs",
+    "satanaya",
+    "fame"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother",
+    "sage-seer",
+    "wisdom-craft",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "uryzmag",
+   "name": "Uryzmag",
+   "sanskrit": "Uryzmag",
+   "category": "hero",
+   "era": "The Narts",
+   "role": "The eldest of the Narts, Satanaya's brother and husband, and the one who is listened to",
+   "wikipedia": "Nart_saga",
+   "portrait": "portraits/nart/uryzmag.webp",
+   "epithets": [
+    "Uruzmag",
+    "Warzameg in Circassian",
+    "the eldest"
+   ],
+   "domains": [
+    "age",
+    "authority",
+    "the assembly",
+    "the raid",
+    "being outwitted and not minding"
+   ],
+   "symbols": [
+    "the seat at the head of the assembly",
+    "the horn of wine"
+   ],
+   "mount": null,
+   "abode": "The Nart village",
+   "festivals": [],
+   "worship": "",
+   "bio": "He and Satanaya are brother and sister and also husband and wife, and nobody comments.",
+   "longBio": "Uryzmag is the senior Nart, the one who presides at the assembly and whose word settles things, and he is married to his own sister Satanaya. The sagas state this without apparent difficulty, which has interested comparativists a good deal - close-kin marriage among a ruling pair is an Iranian pattern and is attested for the Achaemenids and the Sasanians. He is brave, wily, occasionally ridiculous, and repeatedly saved by his wife's better planning. In one famous episode he escapes a giant by hiding in the skin of a slaughtered animal, which is very old and very widely told.",
+   "variantTraditions": "The brother-sister marriage is one of Dumezil's exhibits for Iranian continuity.",
+   "storyIds": [
+    "satanaya",
+    "the-giant-and-the-hide"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion",
+    "sage-seer",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "sosruquo",
+   "name": "Sosruquo",
+   "sanskrit": "Sosruquo",
+   "category": "hero",
+   "era": "The Narts",
+   "role": "Born out of a stone, tempered like a blade everywhere except the knees",
+   "wikipedia": "Sosruko",
+   "portrait": "portraits/nart/sosruquo.webp",
+   "epithets": [
+    "Soslan in Ossetian",
+    "Sosryko",
+    "the one born from the rock"
+   ],
+   "domains": [
+    "fire",
+    "steel",
+    "cunning",
+    "the theft of fire",
+    "the vulnerable knees"
+   ],
+   "symbols": [
+    "the stone he was cut out of",
+    "the tongs the smith held him with",
+    "the wheel that killed him"
+   ],
+   "mount": null,
+   "abode": "The Nart village",
+   "festivals": [],
+   "worship": "",
+   "bio": "The smith held him with tongs at the knees while quenching him, so the knees stayed soft.",
+   "longBio": "A shepherd saw Satanaya washing at the river and his desire went into a stone on the bank, and nine months later the stone was hot and had to be cut open, and the child inside came out glowing. The smith took him and tempered him in water like a blade - but he held him with tongs by the knees, and so the knees alone were never hardened. That is exactly how he dies. He is the cleverest of the Narts and the least scrupulous: he steals fire from a giant, wins impossible contests by trickery, and is repeatedly resented for it, and the Balsag Wheel that finally kills him was sent by people who had had enough.",
+   "variantTraditions": "The stone birth and the vulnerable point are Indo-European commonplaces; the tongs at the knees is a distinctively Caucasian and extremely satisfying version.",
+   "storyIds": [
+    "the-tongs",
+    "the-mountain",
+    "the-giant-and-the-hide"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "fire",
+    "messenger-trickster",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "batraz",
+   "name": "Batraz",
+   "sanskrit": "Batraz",
+   "category": "hero",
+   "era": "The Narts",
+   "role": "A hero of steel who lives in the sky and comes down as a falling blade",
+   "wikipedia": "Batradz",
+   "portrait": "portraits/nart/batraz.webp",
+   "epithets": [
+    "Batradz",
+    "Pataraz in Circassian",
+    "the steel Nart"
+   ],
+   "domains": [
+    "steel",
+    "vengeance",
+    "the sky",
+    "the sword",
+    "his own death"
+   ],
+   "symbols": [
+    "the sword that had to go into the sea",
+    "the sky he lives in",
+    "the tempering in the furnace"
+   ],
+   "mount": null,
+   "abode": "The sky, mostly, coming down when required",
+   "festivals": [],
+   "worship": "",
+   "bio": "He does not walk into a fight. He falls out of the sky onto it, like a blade dropped point-first.",
+   "longBio": "Batraz was born from a swelling on his father's back, came out white-hot, and was quenched - in the sea, in some tellings, which boiled. He lives in the sky and comes down when he is needed, arriving like a thrown blade, and he is essentially indestructible. His subject is vengeance: he pursues the killers of his father through the entire cycle and destroys most of the Narts doing it, and in the end God has to intervene to stop him. His death is the single most famous passage in the sagas and is the reason the cycle is discussed outside the Caucasus at all.",
+   "variantTraditions": "Dumezil connected him to Ares as described by Herodotus among the Scythians - a god worshipped as an upright sword - and to the Arthurian material.",
+   "storyIds": [
+    "the-sword",
+    "the-upright-sword",
+    "fame"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "war",
+    "hero-champion",
+    "sky-thunder",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "syrdon",
+   "name": "Syrdon",
+   "sanskrit": "Syrdon",
+   "category": "hero",
+   "era": "The Narts",
+   "role": "The Narts' evil genius - and he invented the harp out of his own dead sons",
+   "wikipedia": "Syrdon",
+   "portrait": "portraits/nart/syrdon.webp",
+   "epithets": [
+    "the Nart's bane",
+    "the trickster"
+   ],
+   "domains": [
+    "mischief",
+    "malice",
+    "the harp",
+    "words",
+    "being unkillable by ordinary means"
+   ],
+   "symbols": [
+    "the twelve-stringed fandyr",
+    "the hand of his last son on the neck of it"
+   ],
+   "mount": null,
+   "abode": "Between everybody, causing trouble",
+   "festivals": [],
+   "worship": "",
+   "bio": "He made the first Ossetian harp from his son's body, and the Narts forgave him for it.",
+   "longBio": "Syrdon is the Narts' plague: a shape-shifter and a liar who sets them against one another for entertainment, and whose tongue is worse than anyone's weapon. It was he who arranged the death of Sosruquo. When the Narts finally caught him they killed his twelve sons in revenge, and he came back and found them - and out of the body of the youngest he made the first fandyr, the Ossetian harp, stringing it with his son's sinews and shaping the neck from his hand, and played it to them. They were so undone by the music that they forgave him and gave him a seat at the assembly.",
+   "variantTraditions": "The fandyr episode is Ossetian and is among the most-quoted passages in the whole cycle.",
+   "storyIds": [
+    "the-harp"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "wisdom-craft",
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "nasren",
+   "name": "Nasren the Bearded",
+   "sanskrit": "Nasren Zhache",
+   "category": "hero",
+   "era": "The Narts",
+   "role": "Chained to the mountain with a bird at his liver, and freed by a hero who climbed up",
+   "wikipedia": "Prometheus",
+   "portrait": "portraits/nart/nasren.webp",
+   "epithets": [
+    "Nasren Zhache",
+    "the chained one",
+    "Amran and Abrskil in neighbouring versions"
+   ],
+   "domains": [
+    "defiance",
+    "chains",
+    "the mountain",
+    "the bird",
+    "the fire"
+   ],
+   "symbols": [
+    "the iron chain",
+    "the eagle",
+    "the peak of Elbrus"
+   ],
+   "mount": null,
+   "abode": "Chained to the mountain",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Caucasus is where the Greeks put Prometheus, and the local versions may be older.",
+   "longBio": "Nasren the Bearded challenged God, or offended him, and was chained to the mountain in perpetual cold with a bird tearing at him, until a Nart hero climbed up and cut the chain. The Georgians have Amirani, the Abkhaz Abrskil, the Chechens Pkharmat, all chained to the same mountains for comparable offences, several of them explicitly for bringing fire to people. Aeschylus set Prometheus on these mountains in the fifth century BC. Whether the Greeks took the story from the Caucasus, or the reverse, or both from something older, is genuinely open.",
+   "variantTraditions": "Amirani, the Georgian version, is the fullest and was collected in dozens of variants in the nineteenth century.",
+   "storyIds": [
+    "the-mountain"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "fire",
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "kurdalagon",
+   "name": "Kurdalagon",
+   "sanskrit": "Kurdalagon",
+   "category": "deity",
+   "era": "Above and Below",
+   "role": "The smith in the sky, who tempers heroes in the same way he tempers blades",
+   "wikipedia": "Nart_saga",
+   "portrait": "portraits/nart/kurdalagon.webp",
+   "epithets": [
+    "the heavenly smith",
+    "Tlepsh in Circassian",
+    "Debet"
+   ],
+   "domains": [
+    "smithing",
+    "steel",
+    "the quenching",
+    "the making of heroes"
+   ],
+   "symbols": [
+    "the furnace",
+    "the tongs",
+    "the trough of water",
+    "the hammer"
+   ],
+   "mount": null,
+   "abode": "His forge in the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "He treats a newborn hero exactly as he treats a piece of steel, and it works.",
+   "longBio": "Kurdalagon keeps a forge in the sky and makes weapons for the Narts, and his other function is the interesting one: when a hero is born hot he takes him and tempers him - into the furnace, out, into the water trough - in precisely the manner of a blade, and the hero comes out proof against weapons. Sosruquo was made this way, and the tongs at the knees are why he could be killed. In the Circassian tradition the same figure is Tlepsh, who is a considerably fuller character and is credited with inventing the tongs, the sickle and the plough.",
+   "variantTraditions": "The heavenly smith is one of the strongest points of contact between the Nart cycle and Norse, Greek and Ossetian-Iranian material.",
+   "storyIds": [
+    "the-tongs"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "wisdom-craft",
+    "creator",
+    "healer"
+   ]
+  },
+  {
+   "id": "wasterji",
+   "name": "Wasterji",
+   "sanskrit": "Uastyrdzhi",
+   "category": "deity",
+   "era": "Above and Below",
+   "role": "A figure on a white horse who fathers a hero's child and later became Saint George",
+   "wikipedia": "Uastyrdzhi",
+   "portrait": "portraits/nart/wasterji.webp",
+   "epithets": [
+    "Uastyrdzhi",
+    "the one on the white horse",
+    "Saint George, after the church arrived"
+   ],
+   "domains": [
+    "travellers",
+    "men",
+    "the white horse",
+    "protection",
+    "the toast"
+   ],
+   "symbols": [
+    "the three-legged white horse",
+    "the felt cloak",
+    "the sanctuary by the road"
+   ],
+   "mount": null,
+   "abode": "The road, and a shrine above it",
+   "festivals": [],
+   "worship": "",
+   "bio": "Women may not say his name. They call him the men's deity instead.",
+   "longBio": "Uastyrdzhi rides a white horse - three-legged, in some tellings - wears a felt cloak, and looks after travellers and men. He is the most actively venerated figure in Ossetia and his sanctuaries stand above roads and passes, and the first toast at any serious gathering goes to him. He fathered Satana on the dead body of Dzerassa, which is an episode the tradition does not soften. When Christianity arrived he was identified with Saint George and kept his day, his horse and his function, and lost almost nothing. Women traditionally do not speak his name and use a circumlocution.",
+   "variantTraditions": "The enormous roadside statue of him bursting from a cliff on the Transcaucasian Highway is the best-known landmark in Ossetia.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion",
+    "preserver",
+    "war"
+   ]
+  },
+  {
+   "id": "afsati",
+   "name": "Afsati",
+   "sanskrit": "Afsati",
+   "category": "deity",
+   "era": "Above and Below",
+   "role": "The owner of the game animals, and you do not get one unless he gives it",
+   "wikipedia": "Afsati",
+   "portrait": "portraits/nart/afsati.webp",
+   "epithets": [
+    "the lord of the wild animals",
+    "Mezitha in Circassian"
+   ],
+   "domains": [
+    "hunting",
+    "deer",
+    "the mountains",
+    "permission"
+   ],
+   "symbols": [
+    "the herds on the mountain",
+    "the hunter's song sung before setting out",
+    "the shared kill"
+   ],
+   "mount": null,
+   "abode": "The high mountains",
+   "festivals": [],
+   "worship": "",
+   "bio": "Hunters sang to him going out, and the kill was divided with everyone who was present.",
+   "longBio": "Afsati owns the wild animals of the mountains and hunters get nothing without his agreement, which is asked for in songs sung on the way out and thanked for on the way back. He is described as an old man on the high pastures with his herds around him. Ossetian hunters had a whole set of practices attached to him - a special language used on the hunt so that the animals would not understand, and the rule that a kill is divided among everyone present including bystanders. He belongs to the same family of figures as Tapio, Tapio's wife and the master of the animals everywhere else in this collection.",
+   "variantTraditions": "The hunters' secret language is attested in the Caucasus and is paralleled in Siberia and northern Europe.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "king-ruler",
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "donbettyr",
+   "name": "Donbettyr",
+   "sanskrit": "Donbettyr",
+   "category": "deity",
+   "era": "Above and Below",
+   "role": "Lord of the waters, whose daughters keep marrying into the Nart families",
+   "wikipedia": "Nart_saga",
+   "portrait": "portraits/nart/donbettyr.webp",
+   "epithets": [
+    "the water lord",
+    "the father of Dzerassa"
+   ],
+   "domains": [
+    "water",
+    "rivers",
+    "the sea",
+    "the marriages that produced the Narts"
+   ],
+   "symbols": [
+    "the underwater house",
+    "the fish",
+    "the daughters"
+   ],
+   "mount": null,
+   "abode": "Under the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "The name is water plus Peter, which means the Christian saint got attached to something older.",
+   "longBio": "Donbettyr rules the waters and his daughters marry into the Narts repeatedly - Dzerassa, the mother of Satana and Uryzmag, is one of them, so the whole senior line of the cycle is half water-people. His underwater household is described as a house like any other, reached by going down. The name is transparently don, water, plus Bettyr, which is Peter, so a Christian saint has been laid over an older water figure and the older one is plainly showing through, which is the general condition of Ossetian religion.",
+   "variantTraditions": "The pattern of a hero's line descending from a water-woman is widespread and turns up in the Irish and Germanic material too.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "king-ruler",
+    "earth-mother",
+    "preserver"
+   ]
+  },
+  {
+   "id": "balsag_wheel",
+   "name": "The Balsag Wheel",
+   "sanskrit": "Balsagy calx",
+   "category": "beast",
+   "era": "Above and Below",
+   "role": "A living wheel of steel, sent to kill a man, and it goes for the knees",
+   "wikipedia": "Sosruko",
+   "portrait": "portraits/nart/balsag_wheel.webp",
+   "epithets": [
+    "Jara's wheel",
+    "the wheel of Balsag",
+    "the sun wheel in some readings"
+   ],
+   "domains": [
+    "killing",
+    "the wheel",
+    "the knees",
+    "sent vengeance"
+   ],
+   "symbols": [
+    "the rolling steel wheel",
+    "the road it comes down"
+   ],
+   "mount": null,
+   "abode": "Rolling",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is talked to, deceived, and sent back - and it comes again, and gets him.",
+   "longBio": "The Balsag Wheel is a wheel of steel that moves by itself and is sent against Sosruquo by his enemies. He meets it and defeats it the first time by talking to it and turning it back on the ones who sent it, and it comes again, and takes him at the knees - the one place the smith's tongs left soft. Some readings make it a solar object and connect it to Scythian sun symbolism, others to a real weapon or a siege device. Whatever it began as, in the cycle it is a thing that rolls, that thinks, and that has been given one job.",
+   "variantTraditions": "The wheel is Ossetian; the Circassian tradition kills Sosruquo differently, though the knees are constant.",
+   "storyIds": [
+    "the-tongs"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "sun",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "giants",
+   "name": "The Waig",
+   "sanskrit": "Waig",
+   "category": "beast",
+   "era": "Above and Below",
+   "role": "Giants who are large, rich, stupid, and consistently taken advantage of",
+   "wikipedia": "Nart_saga",
+   "portrait": "portraits/nart/giants.webp",
+   "epithets": [
+    "the waig",
+    "the one-eyed one",
+    "the giants"
+   ],
+   "domains": [
+    "size",
+    "wealth",
+    "stupidity",
+    "fire",
+    "being robbed"
+   ],
+   "symbols": [
+    "the cave",
+    "the flocks",
+    "the single eye in some of them",
+    "the fire they own"
+   ],
+   "mount": null,
+   "abode": "The caves and the high country",
+   "festivals": [],
+   "worship": "",
+   "bio": "One of them keeps fire in a cave and is robbed of it by a Nart, which is a very old plot.",
+   "longBio": "The waig are giants: enormous, wealthy in flocks and treasure, sometimes one-eyed, and reliably outwitted. A very great deal of the cycle consists of Narts going to a giant's place, being trapped, and getting out by a trick - hiding in a hide, blinding the single eye, escaping under a ram. The one-eyed cave-dwelling shepherd-giant who traps a hero and is blinded and escaped from beneath his own animals is the Cyclops episode of the Odyssey, told in the Caucasus in several languages, and the Caucasian versions may not be borrowed from Homer.",
+   "variantTraditions": "The Polyphemus tale has one of the widest distributions of any narrative and its Caucasian forms are among the fullest recorded.",
+   "storyIds": [
+    "the-mountain",
+    "the-giant-and-the-hide"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "wealth-fortune",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "sword",
+   "name": "The Sword in the Sea",
+   "sanskrit": "Batraz's sword",
+   "category": "primordial",
+   "era": "The Endings",
+   "role": "He would not die until it went into the water, and they lied to him about it twice",
+   "wikipedia": "Batradz",
+   "portrait": "portraits/nart/sword.webp",
+   "epithets": [
+    "Batraz's sword",
+    "the blade that had to be returned"
+   ],
+   "domains": [
+    "death",
+    "the sea",
+    "the lie",
+    "the boiling water"
+   ],
+   "symbols": [
+    "the sword",
+    "the sea turning red",
+    "the Narts failing to lift it"
+   ],
+   "mount": null,
+   "abode": "The sea, eventually",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sea boiled and went red, and only then would he let go.",
+   "longBio": "Batraz, dying and unable to die, told the Narts that he would not go until his sword was thrown into the sea. It took a great many of them to lift it. They tried twice to get away with lying about it, and each time he asked what had happened when it went in, and each time their answer told him they had not done it, and he sent them back. When they finally threw it, the sea rose, boiled, and turned red, and they came and told him, and he said that was right, and died. It is the best-told passage in the cycle and it is the reason people outside the Caucasus have heard of it at all.",
+   "variantTraditions": "The parallel with Bedivere and Excalibur - including the two false reports - is exact, and it is the strongest single piece of evidence in the Sarmatian-Arthurian argument.",
+   "storyIds": [
+    "the-sword",
+    "the-upright-sword"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "war",
+    "fate-time",
+    "sea-waters",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "scythians",
+   "name": "The Scythians",
+   "sanskrit": "Skythai",
+   "category": "primordial",
+   "era": "The Endings",
+   "role": "Herodotus describes them worshipping a sword set upright, and the Narts do the same thing",
+   "wikipedia": "Scythians",
+   "portrait": "portraits/nart/scythians.webp",
+   "epithets": [
+    "the Scythians",
+    "the Sarmatians",
+    "the Alans",
+    "the ancestors of the Ossetians"
+   ],
+   "domains": [
+    "the steppe",
+    "Iranian speech",
+    "the sword worshipped upright",
+    "continuity"
+   ],
+   "symbols": [
+    "the sword driven into a platform of brushwood",
+    "the gold",
+    "the horses"
+   ],
+   "mount": null,
+   "abode": "The Pontic steppe, from about 700 BC",
+   "festivals": [],
+   "worship": "",
+   "bio": "Herodotus, Book IV: they pile brushwood, set an iron sword upright on it, and that is Ares.",
+   "longBio": "The Ossetians speak an Iranian language and descend from the Alans, who descend from the Sarmatians, who descend from the Scythians - steppe nomads who left no literature and whose religion is known chiefly from Herodotus. He records that they had no images or temples except for Ares, whom they worshipped as an ancient iron sword set upright on an enormous platform of piled brushwood, and to whom they sacrificed. The Narts do the same thing, and Batraz is a hero of steel who is essentially a sword. Dumezil built a career on this and the case for continuity across two and a half thousand years is strong.",
+   "variantTraditions": "Scythian gold from the kurgans is among the finest metalwork of antiquity and depicts scenes that comparativists have tried, with mixed success, to read against the Nart cycle.",
+   "storyIds": [
+    "the-upright-sword"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "war",
+    "fate-time",
+    "preserver",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "camelot",
+   "name": "From Scythia to Camelot",
+   "sanskrit": "the Sarmatian connection",
+   "category": "primordial",
+   "era": "The Endings",
+   "role": "Sarmatian cavalry served in Roman Britain, and the argument runs from there",
+   "wikipedia": "Sarmatian_hypothesis",
+   "portrait": "portraits/nart/camelot.webp",
+   "epithets": [
+    "the Sarmatian hypothesis",
+    "the Alans in the west"
+   ],
+   "domains": [
+    "diffusion",
+    "the sword returned to water",
+    "the contested argument"
+   ],
+   "symbols": [
+    "the 5,500 Sarmatian horsemen sent to Britain in 175",
+    "Lucius Artorius Castus"
+   ],
+   "mount": null,
+   "abode": "Ribchester, Lancashire, and the Caucasus",
+   "festivals": [],
+   "worship": "",
+   "bio": "The two false reports before the sword goes into the water are in both stories.",
+   "longBio": "In 175 the emperor Marcus Aurelius sent 5,500 Sarmatian heavy cavalry to Britain, where a unit remained at Ribchester for generations. Alans moved west in force in the fifth century. Littleton and Malcor argued from this that the Arthurian material carries Sarmatian narrative - a hero whose sword must be returned to a lake before he can die, reported back to twice with lies before it is finally done, appears in both the Nart cycle and in Malory, and the correspondence is not vague. Most Arthurian specialists do not accept the whole thesis. Nobody has a good alternative explanation of that one episode.",
+   "variantTraditions": "Included here as a contested argument rather than a fact, which is what it is. The sword episode is the part that resists dismissal.",
+   "storyIds": [
+    "the-sword"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "war",
+    "messenger-trickster",
+    "sage-seer"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "narts",
+   "to": "satanaya",
+   "type": "parent",
+   "note": "She is their mother, and she runs them"
+  },
+  {
+   "from": "satanaya",
+   "to": "uryzmag",
+   "type": "consort",
+   "note": "Her brother, and her husband, and nobody comments"
+  },
+  {
+   "from": "uryzmag",
+   "to": "satanaya",
+   "type": "sibling",
+   "note": "Which is an Iranian pattern rather than an oversight"
+  },
+  {
+   "from": "satanaya",
+   "to": "sosruquo",
+   "type": "parent",
+   "note": "Conceived by an accident with a stone at the river"
+  },
+  {
+   "from": "satanaya",
+   "to": "syrdon",
+   "type": "enemy",
+   "note": "The only one who is more than a match for him"
+  },
+  {
+   "from": "satanaya",
+   "to": "narts",
+   "type": "guru",
+   "note": "When they are stuck they go and ask her"
+  },
+  {
+   "from": "sosruquo",
+   "to": "kurdalagon",
+   "type": "devotee",
+   "note": "Tempered like a blade, and held by the knees"
+  },
+  {
+   "from": "kurdalagon",
+   "to": "sosruquo",
+   "type": "guru",
+   "note": "Which is precisely how he was killed later"
+  },
+  {
+   "from": "sosruquo",
+   "to": "balsag_wheel",
+   "type": "enemy",
+   "note": "It came twice, and the second time it took the knees"
+  },
+  {
+   "from": "balsag_wheel",
+   "to": "syrdon",
+   "type": "devotee",
+   "note": "He arranged it"
+  },
+  {
+   "from": "syrdon",
+   "to": "sosruquo",
+   "type": "enemy",
+   "note": "The Nart's bane, and this was his best work"
+  },
+  {
+   "from": "syrdon",
+   "to": "narts",
+   "type": "enemy",
+   "note": "They killed his twelve sons for it"
+  },
+  {
+   "from": "narts",
+   "to": "syrdon",
+   "type": "ally",
+   "note": "And forgave him when he brought the harp"
+  },
+  {
+   "from": "sosruquo",
+   "to": "giants",
+   "type": "enemy",
+   "note": "He stole the fire out of a giant's cave"
+  },
+  {
+   "from": "uryzmag",
+   "to": "giants",
+   "type": "enemy",
+   "note": "And got out of one by hiding inside a hide"
+  },
+  {
+   "from": "giants",
+   "to": "narts",
+   "type": "enemy",
+   "note": "Large, rich, stupid and consistently robbed"
+  },
+  {
+   "from": "batraz",
+   "to": "kurdalagon",
+   "type": "devotee",
+   "note": "Born white hot and quenched, and the sea boiled"
+  },
+  {
+   "from": "batraz",
+   "to": "narts",
+   "type": "enemy",
+   "note": "He destroyed most of them avenging his father"
+  },
+  {
+   "from": "batraz",
+   "to": "sword",
+   "type": "ally",
+   "note": "He would not die until it went into the sea"
+  },
+  {
+   "from": "sword",
+   "to": "batraz",
+   "type": "guru",
+   "note": "And they lied to him about it twice"
+  },
+  {
+   "from": "batraz",
+   "to": "scythians",
+   "type": "devotee",
+   "note": "A hero of steel who is essentially a sword"
+  },
+  {
+   "from": "scythians",
+   "to": "sword",
+   "type": "guru",
+   "note": "Herodotus: an iron sword set upright, and that is their Ares"
+  },
+  {
+   "from": "scythians",
+   "to": "narts",
+   "type": "parent",
+   "note": "Scythian to Sarmatian to Alan to Ossetian"
+  },
+  {
+   "from": "sword",
+   "to": "camelot",
+   "type": "guru",
+   "note": "The two false reports are in both stories"
+  },
+  {
+   "from": "camelot",
+   "to": "scythians",
+   "type": "devotee",
+   "note": "Five and a half thousand Sarmatian horsemen, sent to Britain in 175"
+  },
+  {
+   "from": "wasterji",
+   "to": "satanaya",
+   "type": "parent",
+   "note": "An episode the tradition does not soften"
+  },
+  {
+   "from": "wasterji",
+   "to": "narts",
+   "type": "ally",
+   "note": "The first toast at any gathering goes to him"
+  },
+  {
+   "from": "wasterji",
+   "to": "afsati",
+   "type": "sibling",
+   "note": "Two powers who are asked for things on the road and the mountain"
+  },
+  {
+   "from": "afsati",
+   "to": "giants",
+   "type": "enemy",
+   "note": "One owns the animals and the other owns the caves"
+  },
+  {
+   "from": "donbettyr",
+   "to": "satanaya",
+   "type": "parent",
+   "note": "Her mother was one of his daughters"
+  },
+  {
+   "from": "donbettyr",
+   "to": "uryzmag",
+   "type": "parent",
+   "note": "So the whole senior line is half water-people"
+  },
+  {
+   "from": "donbettyr",
+   "to": "wasterji",
+   "type": "enemy",
+   "note": "Dzerassa is between them, and it is not a good story"
+  },
+  {
+   "from": "kurdalagon",
+   "to": "batraz",
+   "type": "guru",
+   "note": "Both of the great heroes came out of his forge"
+  },
+  {
+   "from": "kurdalagon",
+   "to": "giants",
+   "type": "enemy",
+   "note": "He makes what the Narts use on them"
+  },
+  {
+   "from": "nasren",
+   "to": "batraz",
+   "type": "devotee",
+   "note": "A hero climbed the mountain and cut the chain"
+  },
+  {
+   "from": "nasren",
+   "to": "sosruquo",
+   "type": "sibling",
+   "note": "Fire brought down, and fire stolen out of a cave"
+  },
+  {
+   "from": "nasren",
+   "to": "scythians",
+   "type": "sibling",
+   "note": "Aeschylus put Prometheus on these same mountains"
+  },
+  {
+   "from": "narts",
+   "to": "wasterji",
+   "type": "devotee",
+   "note": "Sanctuaries above every road and pass in Ossetia"
+  },
+  {
+   "from": "balsag_wheel",
+   "to": "scythians",
+   "type": "sibling",
+   "note": "Read by some as a sun wheel, which would make it very old"
+  },
+  {
+   "from": "syrdon",
+   "to": "kurdalagon",
+   "type": "sibling",
+   "note": "Two makers, and one of them made a harp out of his son"
+  },
+  {
+   "from": "uryzmag",
+   "to": "narts",
+   "type": "guru",
+   "note": "The seat at the head of the assembly"
+  },
+  {
+   "from": "afsati",
+   "to": "donbettyr",
+   "type": "sibling",
+   "note": "The mountains and the water, each with an owner"
+  },
+  {
+   "from": "camelot",
+   "to": "batraz",
+   "type": "sibling",
+   "note": "Two heroes and one sword, three thousand miles apart"
+  },
+  {
+   "from": "giants",
+   "to": "nasren",
+   "type": "enemy",
+   "note": "Both of them are up in the high country"
+  }
+ ]
+}

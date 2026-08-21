@@ -563,10 +563,15 @@
    "label": "Nart Sagas",
    "sublabel": "Caucasus",
    "accent": "#b8967a",
-   "status": "planned",
+   "status": "live",
    "blurb": "Ossetian and Circassian epic: Sosruquo born from a stone, and a cycle almost unknown in English.",
    "family": "Europe",
-   "glyph": "⛰"
+   "glyph": "⛰",
+   "figures": 16,
+   "stories": 8,
+   "links": 44,
+   "levels": 3,
+   "cover": "portraits/nart/narts.webp"
   }
  ]
 }
