@@ -126,6 +126,10 @@
    "destination": "/slavic/index.html"
   },
   {
+   "source": "/baltic/:path*",
+   "destination": "/baltic/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }

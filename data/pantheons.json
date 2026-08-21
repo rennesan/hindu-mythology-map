@@ -493,10 +493,15 @@
    "label": "Baltic",
    "sublabel": "Lithuania & Latvia",
    "accent": "#9eb87a",
-   "status": "planned",
+   "status": "live",
    "blurb": "Perkunas, Saule and Laima, preserved in folk song - among the most archaic Indo-European material in Europe.",
    "family": "Europe",
-   "glyph": "☀"
+   "glyph": "☀",
+   "figures": 30,
+   "stories": 9,
+   "links": 60,
+   "levels": 6,
+   "cover": "portraits/baltic/dievs.webp"
   },
   {
    "id": "nart",

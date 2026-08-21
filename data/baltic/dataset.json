@@ -1,0 +1,2068 @@
+{
+ "title": "Baltic",
+ "description": "Lithuania and Latvia, the last pagans in Europe: a sky that is a farmstead, a sun who is a woman, and two hundred thousand four-line songs that carry the whole thing.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Krisjanis Barons, Latvju dainas (1894-1915) - the primary body of evidence, c. 218,000 quatrains",
+  "Michel Jonval, Les chansons mythologiques lettonnes (1929) - the mythological dainas, translated",
+  "A. J. Greimas, Of Gods and Men: Studies in Lithuanian Mythology (1990)",
+  "Jonas Balys, Lithuanian folk legend collections; Matthaeus Praetorius, Deliciae Prussicae (c. 1690)",
+  "Treated with caution: Simon Grunau's Prussian Chronicle (c. 1520), whose temple at Romuva and priestly triad are substantially fabricated",
+  "Flagged as invented: Milda and several other 'goddesses' first attested in nineteenth-century literature"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/baltic/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "barons": {
+   "t": "Latvju dainas",
+   "tr": "Krisjanis Barons, 1894-1915 - c. 218,000 folk quatrains",
+   "u": "https://www.dainuskapis.lv/"
+  },
+  "jonval": {
+   "t": "Les chansons mythologiques lettonnes",
+   "tr": "Michel Jonval, 1929 - the mythological dainas in translation",
+   "u": "https://archive.org/details/leschansonsmytho0000jonv"
+  },
+  "greimas": {
+   "t": "Of Gods and Men: Studies in Lithuanian Mythology",
+   "tr": "Algirdas Julius Greimas, 1990",
+   "u": "https://archive.org/details/ofgodsmenstudies0000grei"
+  },
+  "balys": {
+   "t": "Lithuanian Folk Legends",
+   "tr": "Jonas Balys, 1940s collections",
+   "u": "https://archive.org/details/lithuanianfolklo0000baly"
+  },
+  "eagle": {
+   "t": "Egle, the Queen of Serpents",
+   "tr": "Lithuanian folk tale, collected from the nineteenth century",
+   "u": "https://en.wikipedia.org/wiki/Egl%C4%97_the_Queen_of_Serpents"
+  }
+ },
+ "meta": {
+  "id": "baltic",
+  "label": "Baltic",
+  "sublabel": "Lithuania & Latvia",
+  "accent": "#9eb87a",
+  "root": "dievs"
+ },
+ "profile": {
+  "cosmicNature": "A farm. Genuinely - the sky in Baltic song is a homestead on a hill, with a house, a garden, an orchard, a bathhouse, horses and a fence, and Dievs walks about in it in a grey coat like any farmer. The sun is a woman who does the washing, the moon is her husband, the stars are their daughters, and the whole cosmology is described in the vocabulary of an ordinary Latvian farmstead, because that is the only vocabulary the singers needed.",
+  "natureOfDivinity": "Domestic and female-weighted. Dievs is the sky and does not do very much; the figures who matter daily are Saule the sun, Laima who decides your fate at your birth, Mara who owns the material world, and Zemes mate the earth. The gender balance is unusual: the sun, fate, the earth, fire and the bees are all feminine, and the thunder god is powerful but not supreme.",
+  "afterlife": "The veli, the souls, who come back in autumn and are fed. Veli laiks - the season of souls, roughly October into November - is when the dead return to the homestead and the household lays food for them in the bathhouse or the barn, speaks to them by name, and sees them off again. The dead are family members with continuing rights, not spirits to be feared. The Christian All Souls slotted onto it without much friction.",
+  "systemMechanism": "The daina, and Laima's decision. Everything is in short four-line songs, sung by women, at every point of the agricultural and domestic year, and it is in them rather than in temples that this religion lived. The other mechanism is fate: Laima comes at a birth and settles what the life will be, and much of the song tradition consists of arguing with her about it, which she permits and does not act on.",
+  "canonTexts": "There is no scripture and there is a great deal of song. Krisjanis Barons's Latvju dainas (1894-1915) holds around 218,000 quatrains. For Lithuania, the sutartines and the folk tales, with Matthaeus Praetorius and the Jesuit visitation reports as the early witnesses. Everything before 1600 is written by hostile outsiders, and one of them - Grunau - simply made things up."
+ },
+ "hierarchy": [
+  {
+   "title": "The Sky Farm",
+   "blurb": "The sky is a farmstead on a hill and Dievs walks about in it in a grey coat. The sun is a woman, the moon is her husband, the stars are their daughters, and the marriage has broken down. Almost all of it is known from four-line songs sung by women at work.",
+   "memberIds": [
+    "dievs",
+    "saule",
+    "meness",
+    "perkons",
+    "auseklis",
+    "saules_meitas",
+    "dieva_deli"
+   ],
+   "connectorCaption": "And the ones who settle what actually happens to you"
+  },
+  {
+   "title": "What Is Decided",
+   "blurb": "Laima comes to the birth and fixes the whole life in that hour. Mara owns the body and the cattle and the milk. Zemes mate is the ground. Giltine, Laima's sister, comes at the other end. The dead come home each autumn and are fed.",
+   "memberIds": [
+    "laima",
+    "mara",
+    "zemes_mate",
+    "giltine",
+    "veli"
+   ],
+   "connectorCaption": "Below them, everything that lives on the farm itself"
+  },
+  {
+   "title": "Around the Farm",
+   "blurb": "The fire is a person and is put to bed with clean water. Bees are spoken of with the verb used for people dying. A grass snake lives under the bed and is fed milk. And something in the barn is bringing you grain that belongs to your neighbour.",
+   "memberIds": [
+    "gabija",
+    "austeja",
+    "jumis",
+    "usins",
+    "medeina",
+    "zaltys",
+    "aitvaras",
+    "kaukas",
+    "laume",
+    "velns",
+    "ragana"
+   ],
+   "connectorCaption": "And one full story, which this tradition otherwise hardly has"
+  },
+  {
+   "title": "The Great Tale",
+   "blurb": "A girl promises to marry a grass snake as a joke and has to keep it. Twelve years under the sea and four children later, her brothers call her husband up onto the shore and cut him to pieces, and she turns her whole family into trees.",
+   "memberIds": [
+    "egle",
+    "zilvinas"
+   ],
+   "connectorCaption": "The year, which is where all of this was actually practised"
+  },
+  {
+   "title": "The Year",
+   "blurb": "Midsummer, which nobody sleeps through and the Soviet period could not suppress. Shrovetide, with carved wooden masks and a staged fight between a fat man and a thin one. And the songs themselves - two hundred and eighteen thousand of them, in a cabinet.",
+   "memberIds": [
+    "jani",
+    "uzgavenes",
+    "daina"
+   ],
+   "connectorCaption": "And two famous things that are not evidence at all"
+  },
+  {
+   "title": "Probably Not True",
+   "blurb": "A goddess of love manufactured in 1835 by a man building a national mythology, whose name-day is still in the calendar. And a great pagan temple with a high priest and an eternal flame, described in loving detail by a chronicler known to have invented documents.",
+   "memberIds": [
+    "milda",
+    "romuva"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "sky",
+   "label": "The Sky Farm",
+   "memberIds": [
+    "dievs",
+    "saule",
+    "meness",
+    "perkons",
+    "auseklis"
+   ]
+  },
+  {
+   "id": "wedding",
+   "label": "The Wedding Cycle",
+   "memberIds": [
+    "saules_meitas",
+    "dieva_deli",
+    "auseklis",
+    "meness"
+   ]
+  },
+  {
+   "id": "fate",
+   "label": "Fate and the Dead",
+   "memberIds": [
+    "laima",
+    "giltine",
+    "veli",
+    "mara",
+    "zemes_mate"
+   ]
+  },
+  {
+   "id": "hearth",
+   "label": "Inside the House",
+   "memberIds": [
+    "gabija",
+    "zaltys",
+    "kaukas",
+    "laume"
+   ]
+  },
+  {
+   "id": "increase",
+   "label": "Things That Multiply",
+   "memberIds": [
+    "austeja",
+    "jumis",
+    "usins",
+    "aitvaras"
+   ]
+  },
+  {
+   "id": "outside",
+   "label": "Out Beyond the Fence",
+   "memberIds": [
+    "medeina",
+    "velns",
+    "ragana",
+    "aitvaras"
+   ]
+  },
+  {
+   "id": "serpents",
+   "label": "The Serpents",
+   "memberIds": [
+    "zaltys",
+    "zilvinas",
+    "egle",
+    "velns"
+   ]
+  },
+  {
+   "id": "year",
+   "label": "The Year",
+   "memberIds": [
+    "jani",
+    "uzgavenes",
+    "usins",
+    "veli"
+   ]
+  },
+  {
+   "id": "invented",
+   "label": "Made Up Later",
+   "memberIds": [
+    "milda",
+    "romuva"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "sun-and-moon",
+   "title": "The Marriage That Did Not Hold",
+   "era": "The Sky Farm",
+   "cast": [
+    "saule",
+    "meness",
+    "perkons",
+    "auseklis"
+   ],
+   "summary": "The sun is a woman and the moon is a man and they were married, and it ended. In the Lithuanian telling Menuo went after Ausrine, the morning star, and Perkunas came with a sword and cut his face, which is why the moon is not whole and why the cut comes back every month. In the Latvian songs there is no sword and no explanation - only the fact that they no longer go together, that he travels by night and she by day, and that the daughter is argued over. What is striking is not the story but the arrangement behind it, which is very old: a feminine sun and a masculine moon are the normal state of affairs across the whole northern half of Europe and the reverse of the Mediterranean pattern that most people assume is universal.",
+   "sources": [
+    {
+     "book": "Les chansons mythologiques lettonnes",
+     "translation": "Michel Jonval, 1929 - the mythological dainas in translation",
+     "location": "The mythological dainas",
+     "url": "https://archive.org/details/leschansonsmytho0000jonv"
+    },
+    {
+     "book": "Of Gods and Men: Studies in Lithuanian Mythology",
+     "translation": "Algirdas Julius Greimas, 1990",
+     "location": "Menuo and Ausrine",
+     "url": "https://archive.org/details/ofgodsmenstudies0000grei"
+    }
+   ]
+  },
+  {
+   "id": "laima-at-the-bed",
+   "title": "The Hour It Is All Decided",
+   "era": "What Is Decided",
+   "cast": [
+    "laima",
+    "giltine",
+    "mara"
+   ],
+   "summary": "A birth happened in the bathhouse, and a clean towel was laid out because Laima was coming. She arrives, and in that hour she settles everything: how long the life will run, whether it will be easy or hard, whom the child will marry, and how it will end. Then she leaves and does not revisit it. The songs address her endlessly and mostly in complaint - why did you give me this, why did you set me here, could you not have looked more carefully - and she does not answer and does not change anything, and being able to say it to her is apparently the point. Her sister Giltine comes at the far end for what Laima measured out. The Latvian word for happiness is still Laima's name.",
+   "sources": [
+    {
+     "book": "Latvju dainas",
+     "translation": "Krisjanis Barons, 1894-1915 - c. 218,000 folk quatrains",
+     "location": "The Laima songs",
+     "url": "https://www.dainuskapis.lv/"
+    },
+    {
+     "book": "Les chansons mythologiques lettonnes",
+     "translation": "Michel Jonval, 1929 - the mythological dainas in translation",
+     "location": "Laima",
+     "url": "https://archive.org/details/leschansonsmytho0000jonv"
+    }
+   ]
+  },
+  {
+   "id": "egle",
+   "title": "Calling Him Up From the Shore",
+   "era": "The Great Tale",
+   "cast": [
+    "egle",
+    "zilvinas",
+    "zaltys"
+   ],
+   "summary": "Three sisters bathing; the youngest finds a grass snake in her clothes and it will not leave until she promises to marry it, and she promises, laughing. Then the serpents come for her. Under the sea Zilvinas is a man, and she lives with him twelve years and bears three sons and a daughter and is not unhappy. She asks to visit her family and is allowed on conditions, and while she is there her brothers question the children, one at a time, about how their mother calls their father. The boys will not say. The girl does. The brothers go to the shore and speak the rhyme, and cut him to pieces when he comes. Egle calls him herself and the foam comes up red, and she turns her sons into an oak, an ash and a birch, her daughter into an aspen that shakes for telling, and herself into a spruce.",
+   "sources": [
+    {
+     "book": "Egle, the Queen of Serpents",
+     "translation": "Lithuanian folk tale, collected from the nineteenth century",
+     "location": "The tale",
+     "url": "https://en.wikipedia.org/wiki/Egl%C4%97_the_Queen_of_Serpents"
+    },
+    {
+     "book": "Lithuanian Folk Legends",
+     "translation": "Jonas Balys, 1940s collections",
+     "location": "Variants",
+     "url": "https://archive.org/details/lithuanianfolklo0000baly"
+    }
+   ]
+  },
+  {
+   "id": "catching-jumis",
+   "title": "The Handful Left Standing",
+   "era": "Around the Farm",
+   "cast": [
+    "jumis",
+    "zemes_mate"
+   ],
+   "summary": "Jumis is doubling: the word means two things joined, and he lives in a double ear of corn, two stalks grown together on one stem. Finding one while reaping means you have caught him, and it is luck for the year. At the very end of the harvest the reapers deliberately do not cut everything - a last handful is left standing in the corner of the field, because Jumis has to have somewhere to go, and he is understood to run ahead of the scythes into it. Then it is twisted down, bent to the ground and pinned with a stone so that he stays in the field over winter and is there again in the spring. Hundreds of dainas are about this one small piece of business.",
+   "sources": [
+    {
+     "book": "Latvju dainas",
+     "translation": "Krisjanis Barons, 1894-1915 - c. 218,000 folk quatrains",
+     "location": "The harvest songs",
+     "url": "https://www.dainuskapis.lv/"
+    }
+   ]
+  },
+  {
+   "id": "gabija",
+   "title": "Putting the Fire to Bed",
+   "era": "Around the Farm",
+   "cast": [
+    "gabija"
+   ],
+   "summary": "The last thing done at night was to see to the fire. The coals were raked together and banked and covered over, and a bowl of clean water was set down beside the hearth so that she could wash, and the words spoken were that holy Gabija be satisfied. She is fed during the day too - salt, a crust, a handful of grain thrown into the flames. What must not happen is anything unclean: she must not be spat on, stepped over, poked with a dirty stick, or put out with anything but water. If she is offended she gets up and goes walking, and a fire that walks around a wooden farmhouse at night is the single worst thing that can happen to a family, which is exactly why the manners existed.",
+   "sources": [
+    {
+     "book": "Of Gods and Men: Studies in Lithuanian Mythology",
+     "translation": "Algirdas Julius Greimas, 1990",
+     "location": "Gabija",
+     "url": "https://archive.org/details/ofgodsmenstudies0000grei"
+    },
+    {
+     "book": "Lithuanian Folk Legends",
+     "translation": "Jonas Balys, 1940s collections",
+     "location": "Fire customs",
+     "url": "https://archive.org/details/lithuanianfolklo0000baly"
+    }
+   ]
+  },
+  {
+   "id": "the-snake-under-the-bed",
+   "title": "The One They Kept Indoors",
+   "era": "Around the Farm",
+   "cast": [
+    "zaltys",
+    "saule",
+    "mara"
+   ],
+   "summary": "Grass snakes are harmless and Baltic farms kept them - under the bed, behind the stove, in a corner - and put out milk for them, and considered a household with one to be lucky. Children played with them. To kill one was a serious business: the sun was said to weep over a dead grass snake, and the household's luck, its milk and its children would suffer. Jesuit visitors reported the practice with disbelief in the sixteenth century and it went on being reported for three hundred years afterwards, because it went on. Of everything in this pack it is the practice that outsiders found strangest and the one the people themselves were least willing to give up.",
+   "sources": [
+    {
+     "book": "Of Gods and Men: Studies in Lithuanian Mythology",
+     "translation": "Algirdas Julius Greimas, 1990",
+     "location": "The zaltys",
+     "url": "https://archive.org/details/ofgodsmenstudies0000grei"
+    },
+    {
+     "book": "Lithuanian Folk Legends",
+     "translation": "Jonas Balys, 1940s collections",
+     "location": "Snake customs",
+     "url": "https://archive.org/details/lithuanianfolklo0000baly"
+    }
+   ]
+  },
+  {
+   "id": "jani",
+   "title": "The Night Nobody Sleeps",
+   "era": "The Year",
+   "cast": [
+    "jani",
+    "saule",
+    "perkons"
+   ],
+   "summary": "Midsummer in Latvia is two days of public holiday and one night that nobody sleeps through. Men wear wreaths of oak leaves and women wreaths of flowers. Fires are lit, often raised on a pole so they can be seen across the fields, and kept going until the sun comes back. There is caraway cheese and beer and songs that all end in the refrain ligo. Couples go off into the woods, officially to look for the flowering fern, which does not exist and never has. Herbs gathered that night are the strongest of the year. It was discouraged during the Soviet period and observed anyway, and it is now larger than it has ever been.",
+   "sources": [
+    {
+     "book": "Latvju dainas",
+     "translation": "Krisjanis Barons, 1894-1915 - c. 218,000 folk quatrains",
+     "location": "The Jani songs",
+     "url": "https://www.dainuskapis.lv/"
+    }
+   ]
+  },
+  {
+   "id": "the-cabinet",
+   "title": "Two Hundred Thousand Slips of Paper",
+   "era": "The Year",
+   "cast": [
+    "daina",
+    "dievs",
+    "laima"
+   ],
+   "summary": "Krisjanis Barons began in 1878 and finished in 1915. Latvians sent him songs by post - hundreds of thousands of them, from all over the country - and he wrote each one on a small slip of paper and sorted it, by subject, into a purpose-built oak cabinet of seventy drawers, each drawer subdivided. Around two hundred and eighteen thousand quatrains went into it. There is no other body of evidence like it for any European folk religion, and the reason it is so useful is precisely that nobody ever tidied it: the gods appear in it casually, doing domestic things, without a system imposed on them. The cabinet is in the National Library in Riga and is on the UNESCO Memory of the World register.",
+   "sources": [
+    {
+     "book": "Latvju dainas",
+     "translation": "Krisjanis Barons, 1894-1915 - c. 218,000 folk quatrains",
+     "location": "Latvju dainas",
+     "url": "https://www.dainuskapis.lv/"
+    },
+    {
+     "book": "Les chansons mythologiques lettonnes",
+     "translation": "Michel Jonval, 1929 - the mythological dainas in translation",
+     "location": "Introduction",
+     "url": "https://archive.org/details/leschansonsmytho0000jonv"
+    }
+   ]
+  },
+  {
+   "id": "the-invented-temple",
+   "title": "A Chronicler Who Made Things Up",
+   "era": "Probably Not True",
+   "cast": [
+    "romuva",
+    "milda"
+   ],
+   "summary": "Everybody knows about Romuva: the sacred evergreen oak with three idols set into the trunk, the fire that never goes out, the high priest Krive whose word ran across all the Baltic lands, the ranked priesthood beneath him. It comes almost entirely from Simon Grunau, writing a Prussian chronicle about 1520, three centuries after Prussia was conquered, and Grunau is known to have forged documents and invented sources. Earlier writers mention a place and a priest and nothing resembling the structure. There was probably a real cult site with a real name. What everyone pictures is a Renaissance fabrication - and the same is true of Milda, a goddess of love manufactured in 1835 out of a dictionary and a political need, whose name-day is still printed in the calendar.",
+   "sources": [
+    {
+     "book": "Of Gods and Men: Studies in Lithuanian Mythology",
+     "translation": "Algirdas Julius Greimas, 1990",
+     "location": "On the sources",
+     "url": "https://archive.org/details/ofgodsmenstudies0000grei"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "dievs",
+   "name": "Dievs",
+   "sanskrit": "Dievs",
+   "category": "primordial",
+   "era": "The Sky Farm",
+   "role": "The sky, who lives on a hill in a farmstead and comes down the slope in a grey coat",
+   "wikipedia": "Dievs",
+   "portrait": "portraits/baltic/dievs.webp",
+   "epithets": [
+    "Dievas in Lithuanian",
+    "the old man on the hill",
+    "the one in the grey coat"
+   ],
+   "domains": [
+    "the sky",
+    "the homestead above",
+    "quiet authority",
+    "the harvest"
+   ],
+   "symbols": [
+    "the grey coat",
+    "the hat",
+    "the horse he rides down",
+    "the hill"
+   ],
+   "mount": null,
+   "abode": "A farmstead at the top of a hill in the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "In the songs he wears a grey coat, rides a grey horse, and mostly turns up to help.",
+   "longBio": "Dievs is the sky, and the sky in Baltic song is a farm on a hill - with a house, a garden, an orchard, a bathhouse, a fence and horses in it. He is not a thundering monarch. He is an old man in a grey coat who rides or walks down the hill to the human farm, sits at the table, helps with the harvest, gives away brides, argues mildly with Laima about fate, and goes home again. His name is the direct descendant of the Indo-European word for sky and day, the same root as Zeus, Dyaus and Latin deus. When Christianity came the word simply became the word for God, which it still is in both languages.",
+   "variantTraditions": "Latvian Dievs and Lithuanian Dievas are the same figure; the domestic register is stronger in the Latvian dainas.",
+   "storyIds": [
+    "the-cabinet"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "sky-thunder",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "saule",
+   "name": "Saule",
+   "sanskrit": "Saule",
+   "category": "deity",
+   "era": "The Sky Farm",
+   "role": "The sun is a woman, she is married to the moon, and it did not last",
+   "wikipedia": "Saule",
+   "portrait": "portraits/baltic/saule.webp",
+   "epithets": [
+    "the mother of the daughters",
+    "the one who dries her kerchief on the branch"
+   ],
+   "domains": [
+    "the sun",
+    "warmth",
+    "orphans",
+    "weaving",
+    "the apple tree",
+    "justice"
+   ],
+   "symbols": [
+    "the copper boat she crosses in",
+    "the apple tree at the end of the sea",
+    "the amber tears"
+   ],
+   "mount": null,
+   "abode": "The sky by day, the sea and a copper boat by night",
+   "festivals": [],
+   "worship": "",
+   "bio": "She watches over orphans and the mistreated, and she is the reason it is bad luck to hurt one.",
+   "longBio": "Saule is the sun and she is a woman, which is the single most distinctive thing about this tradition. She drives across the sky, comes down at evening into the sea, and crosses back in a boat of copper or gold. She has an apple tree at the end of the sea and daughters who are the stars or the planets. She is married to Meness, the moon, and the marriage broke down badly. Her particular care is orphans and the ill-treated, and a great many dainas are sung by or about a bareheaded orphan girl whom Saule dresses and defends, which tells you most of what you need to know about who was singing them.",
+   "variantTraditions": "The sun is feminine and the moon masculine across the Baltic and Finnic and Germanic north, and the reverse in the Mediterranean.",
+   "storyIds": [
+    "sun-and-moon",
+    "the-snake-under-the-bed",
+    "jani"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sun",
+    "earth-mother",
+    "healer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "meness",
+   "name": "Meness",
+   "sanskrit": "Meness",
+   "category": "deity",
+   "era": "The Sky Farm",
+   "role": "The moon, who married the sun and then ran off with the morning star's wife",
+   "wikipedia": "Meness",
+   "portrait": "portraits/baltic/meness.webp",
+   "epithets": [
+    "Menuo in Lithuanian",
+    "the counter of the stars"
+   ],
+   "domains": [
+    "the moon",
+    "the night",
+    "war",
+    "time",
+    "counting",
+    "unfaithfulness"
+   ],
+   "symbols": [
+    "the star-strewn cloak",
+    "the counting of stars",
+    "the face split by a sword"
+   ],
+   "mount": null,
+   "abode": "The night sky, at a distance from his wife",
+   "festivals": [],
+   "worship": "",
+   "bio": "Perkons cut him in half with a sword for it, which is why the moon is not always whole.",
+   "longBio": "Meness is the moon and he is male, and he is married to Saule. The marriage ends because he goes after Ausrine, the morning star, and in the Lithuanian version the punishment is delivered by Perkunas with a sword, which is why the moon's face is cut and why it wanes. In the Latvian songs the split is quieter and simply permanent: they no longer walk together, he goes by night and she by day, and their daughter is fought over. He counts the stars, and one of them - the Pleiades, or the morning star - is always missing when he does.",
+   "variantTraditions": "The Lithuanian version with the sword is more dramatic; the Latvian dainas mostly present the separation without an explanation.",
+   "storyIds": [
+    "sun-and-moon"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "war",
+    "fate-time",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "perkons",
+   "name": "Perkons",
+   "sanskrit": "Perkons",
+   "category": "deity",
+   "era": "The Sky Farm",
+   "role": "Thunder, and his name is a straight cognate of the Vedic rain god",
+   "wikipedia": "Perkunas",
+   "portrait": "portraits/baltic/perkons.webp",
+   "epithets": [
+    "Perkunas in Lithuanian",
+    "the thunderer",
+    "the one who splits the oak"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "rain",
+    "oaks",
+    "justice",
+    "the driving off of the devil"
+   ],
+   "symbols": [
+    "the oak",
+    "the axe or hammer",
+    "the fire-cross",
+    "the stone axes found in fields, called his bullets"
+   ],
+   "mount": null,
+   "abode": "The sky, driving",
+   "festivals": [],
+   "worship": "",
+   "bio": "Neolithic stone axes turned up by the plough were called Perkons's bullets and kept in the house.",
+   "longBio": "Perkons is the thunder and the rain and he is the god who does things - he drives across the sky in a cart, splits oaks, and above all chases Velns, who hides under stones and trees and inside animals and people. Lightning striking anything is Perkons hitting what is hiding in it. His oak groves were the last pagan sanctuaries in Europe and Jerome of Prague reported cutting them down in the 1390s to the fury of the local women, who said he was destroying the house of the god who gave them rain and sunshine. Stone axeheads ploughed up in fields were kept as his, and set in walls against lightning.",
+   "variantTraditions": "Perkunas, Slavic Perun, Vedic Parjanya and Norse Fjorgyn all descend from the same Indo-European root for oak or striking.",
+   "storyIds": [
+    "sun-and-moon",
+    "jani"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "war",
+    "king-ruler",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "auseklis",
+   "name": "Auseklis",
+   "sanskrit": "Auseklis",
+   "category": "deity",
+   "era": "The Sky Farm",
+   "role": "The morning star, whose wedding is the most-sung event in the dainas",
+   "wikipedia": "Auseklis",
+   "portrait": "portraits/baltic/auseklis.webp",
+   "epithets": [
+    "Ausrine in Lithuanian",
+    "the dawn star",
+    "the one whose bride was taken"
+   ],
+   "domains": [
+    "the morning star",
+    "dawn",
+    "weddings",
+    "Venus"
+   ],
+   "symbols": [
+    "the eight-pointed star that carries his name",
+    "the wedding party",
+    "the horse"
+   ],
+   "mount": null,
+   "abode": "The eastern sky before sunrise",
+   "festivals": [],
+   "worship": "",
+   "bio": "The eight-pointed Auseklis star is on more Latvian mittens and blankets than anything else.",
+   "longBio": "Auseklis is the morning star, Venus, and the great recurring event of the mythological dainas is his wedding - the whole sky turns out for it, Dievs, Saule, Perkons and the Sons of God, and something always goes wrong, usually the bride being carried off or Perkons riding through the middle of it. The eight-pointed star named after him is the commonest ornament in Latvian folk textile, worked into mittens, sashes and blankets, and it has been used as a protective sign for so long that during the Soviet period it became a quiet way of saying something else.",
+   "variantTraditions": "In Lithuania Ausrine is female, the morning star as a woman, and it is she whom Menuo pursues.",
+   "storyIds": [
+    "sun-and-moon"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "dawn",
+    "love-desire",
+    "sky-thunder",
+    "preserver"
+   ]
+  },
+  {
+   "id": "saules_meitas",
+   "name": "The Daughters of the Sun",
+   "sanskrit": "Saules meitas",
+   "category": "deity",
+   "era": "The Sky Farm",
+   "role": "Saule's daughters, who are the stars, and whose marriages are constantly being arranged",
+   "wikipedia": "Saule",
+   "portrait": "portraits/baltic/saules_meitas.webp",
+   "epithets": [
+    "the sun's daughters",
+    "the ones the Sons of God court"
+   ],
+   "domains": [
+    "the stars",
+    "marriage",
+    "weaving",
+    "the sea"
+   ],
+   "symbols": [
+    "the golden ring dropped in the sea",
+    "the boat",
+    "the woven cloth"
+   ],
+   "mount": null,
+   "abode": "The sky, and the shore",
+   "festivals": [],
+   "worship": "",
+   "bio": "Half the mythological dainas are about who is courting them and whether Saule approves.",
+   "longBio": "The Saules meitas are the daughters of the sun, and they are the stars, or the planets, or sometimes just young women of the sky farm. They are courted at length by the Dieva deli, the Sons of God, and the courtship is the connecting thread of the whole mythological song cycle: rings are dropped in the sea and dived for, horses are drowned, boats are rowed to the far shore, and Saule sits over the negotiations. It is a mythology conducted almost entirely as a series of weddings, which is unsurprising given who was singing it and when.",
+   "variantTraditions": "The number varies from one to several; in some songs there is a single Saules meita, in others a whole household of them.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "sun",
+    "wisdom-craft",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "dieva_deli",
+   "name": "The Sons of God",
+   "sanskrit": "Dieva deli",
+   "category": "deity",
+   "era": "The Sky Farm",
+   "role": "Twin horsemen who court the sun's daughters and rescue them out of the sea",
+   "wikipedia": "Dieva_deli",
+   "portrait": "portraits/baltic/dieva_deli.webp",
+   "epithets": [
+    "Dievo suneliai",
+    "the divine twins",
+    "the horsemen"
+   ],
+   "domains": [
+    "horses",
+    "rescue",
+    "courtship",
+    "the sea",
+    "dawn and dusk"
+   ],
+   "symbols": [
+    "two horses",
+    "the boat",
+    "the ring recovered from the water"
+   ],
+   "mount": null,
+   "abode": "The sky farm",
+   "festivals": [],
+   "worship": "",
+   "bio": "They are the Baltic version of the Asvins and the Dioskouroi, and they mostly ride and rescue.",
+   "longBio": "The Dieva deli are Dievs's sons and they come in pairs, on horses, and what they do is court the Saules meitas and pull them out of the water. They dive for a dropped ring, they row across, they lift a drowning girl and her horse out of the sea. They are one of the securest pieces of Indo-European comparison there is: divine horse-twins who rescue from drowning and court a sun-maiden turn up as the Vedic Asvins, the Greek Dioskouroi and the Baltic Dieva deli, with the same job description in all three.",
+   "variantTraditions": "The comparison with the Asvins and the Dioskouroi is old and well supported - the drowning-rescue and the sun-maiden courtship are specific enough to be diagnostic.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "hero-champion",
+    "healer",
+    "dawn"
+   ]
+  },
+  {
+   "id": "laima",
+   "name": "Laima",
+   "sanskrit": "Laima",
+   "category": "deity",
+   "era": "What Is Decided",
+   "role": "She comes to the birth, decides the whole life in that hour, and cannot be argued out of it",
+   "wikipedia": "Laima",
+   "portrait": "portraits/baltic/laima.webp",
+   "epithets": [
+    "the fate-setter",
+    "Laime",
+    "the one at the foot of the bed"
+   ],
+   "domains": [
+    "fate",
+    "birth",
+    "luck",
+    "marriage",
+    "the length of a life"
+   ],
+   "symbols": [
+    "the linden",
+    "the bathhouse where births happened",
+    "the towel laid out for her"
+   ],
+   "mount": null,
+   "abode": "At the foot of the bed, in the bathhouse, at every birth",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Latvian word for happiness is her name, and it is still the ordinary word.",
+   "longBio": "Laima comes when a child is born and settles what its life will be - how long, how hard, whom it will marry, how it will die - and she does it then and there and does not revise it. She is spoken to constantly in the songs, argued with, reproached, thanked, blamed. She is not cruel and not kind; she is simply the one who decided. Births took place in the bathhouse and a clean towel was laid out for her. Her name is the ordinary Latvian word for happiness or luck to this day, and Laima is a common woman's name and, less mythologically, the national chocolate.",
+   "variantTraditions": "In Lithuania Laima is joined by Giltine, death, who is described as her sister - the one who sets the life and the one who ends it.",
+   "storyIds": [
+    "laima-at-the-bed",
+    "the-cabinet"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "fate-time",
+    "earth-mother",
+    "wealth-fortune",
+    "healer"
+   ]
+  },
+  {
+   "id": "mara",
+   "name": "Mara",
+   "sanskrit": "Mara",
+   "category": "deity",
+   "era": "What Is Decided",
+   "role": "She owns everything material - the body, the cattle, the milk - and she became the Virgin Mary",
+   "wikipedia": "Mara_(Latvian_deity)",
+   "portrait": "portraits/baltic/mara.webp",
+   "epithets": [
+    "Mara, Marsava, Mara of the cattle",
+    "Maria in the church version"
+   ],
+   "domains": [
+    "the material world",
+    "the body",
+    "cattle",
+    "milk",
+    "childbirth",
+    "the earth's produce"
+   ],
+   "symbols": [
+    "the cow",
+    "the milk",
+    "the black grass snake at the milk dish"
+   ],
+   "mount": null,
+   "abode": "The byre, the field, the body",
+   "festivals": [],
+   "worship": "",
+   "bio": "The formula in the songs is exact: Dievs gives the soul and Mara gives the body.",
+   "longBio": "Mara is the material world - not the earth as a place but the substance of things, the body as distinct from the soul, the cattle, the milk, the crops. The dainas set her explicitly against Dievs in that division: he gives the soul, she gives the body, and at death each takes back what they gave. Her name and much of her cult merged with the Virgin Mary so completely that it is often impossible to say which layer a given song belongs to, and that is probably the point - the merger was easy because both were the mother who deals with the physical facts of birth and milk and death.",
+   "variantTraditions": "How much of Mara is pre-Christian and how much is Marian is genuinely disputed; the Dievs-body-soul formula looks old.",
+   "storyIds": [
+    "laima-at-the-bed",
+    "the-snake-under-the-bed"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "healer",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "zemes_mate",
+   "name": "Zemes Mate",
+   "sanskrit": "Zemes mate",
+   "category": "deity",
+   "era": "What Is Decided",
+   "role": "Mother Earth, and the first of a very long list of Mothers",
+   "wikipedia": "Zemyna",
+   "portrait": "portraits/baltic/zemes_mate.webp",
+   "epithets": [
+    "Zemyna in Lithuanian",
+    "the earth mother",
+    "the mother of the field"
+   ],
+   "domains": [
+    "the earth",
+    "the grave",
+    "growth",
+    "the ploughing"
+   ],
+   "symbols": [
+    "the first cup poured on the ground",
+    "the ploughed field",
+    "the grave"
+   ],
+   "mount": null,
+   "abode": "Underfoot",
+   "festivals": [],
+   "worship": "",
+   "bio": "Latvian song has a Mother of the sea, the wind, the road, the forest, the grave - dozens of them.",
+   "longBio": "Zemes mate is the earth, and she is the head of a category rather than a single figure: Latvian folk song has a Mother of the sea, the wind, the forest, the road, the bathhouse, the grave, the garden, mothers of very nearly everything, and the number runs well past sixty. Lithuanian Zemyna received the first of every drink poured onto the ground and the first bite of bread, and a Jesuit visitation report from 1600 complains at length that this was still happening. The earth was kissed on rising and on lying down, and struck or spat on by nobody.",
+   "variantTraditions": "The proliferation of Mothers is a Latvian feature; Lithuanian keeps a smaller set with Zemyna at the head.",
+   "storyIds": [
+    "catching-jumis"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "death-judge",
+    "preserver",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "giltine",
+   "name": "Giltine",
+   "sanskrit": "Giltine",
+   "category": "underworld",
+   "era": "What Is Decided",
+   "role": "Death, who licks the corpse, and whose tongue is poisoned",
+   "wikipedia": "Giltine",
+   "portrait": "portraits/baltic/giltine.webp",
+   "epithets": [
+    "the licker",
+    "Laima's sister",
+    "the one in white"
+   ],
+   "domains": [
+    "death",
+    "plague",
+    "the end of a life",
+    "the poison tongue"
+   ],
+   "symbols": [
+    "the long blue tongue",
+    "the white shroud",
+    "the scythe in later imagery"
+   ],
+   "mount": null,
+   "abode": "Wherever a life is ending",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her name is from a word meaning to sting, and Laima sets the life she comes to take.",
+   "longBio": "Giltine is death in Lithuanian tradition: a tall thin figure in white, sometimes with a very long tongue which she uses to lick the poison from a corpse and pass it to the next person, which is a plague explanation of some sophistication. She is described as the sister of Laima, and the pairing is the point - one comes at the beginning and fixes the length, the other comes at the end and collects. She cannot be bargained with, though the folk tales are full of people trying, and one of the standard stories has her trapped in a bottle or up a tree, after which nobody can die and everything goes wrong.",
+   "variantTraditions": "The Latvian equivalent is Nave, less vividly described. The tongue detail is specifically Lithuanian.",
+   "storyIds": [
+    "laima-at-the-bed"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "destroyer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "veli",
+   "name": "The Veli",
+   "sanskrit": "Veli",
+   "category": "underworld",
+   "era": "What Is Decided",
+   "role": "The dead come home in autumn, are fed in the bathhouse, and are seen off again",
+   "wikipedia": "Vele_(mythology)",
+   "portrait": "portraits/baltic/veli.webp",
+   "epithets": [
+    "veles in Lithuanian",
+    "the souls",
+    "the season of souls"
+   ],
+   "domains": [
+    "the dead",
+    "autumn",
+    "the family",
+    "the meal set out"
+   ],
+   "symbols": [
+    "the table laid in the bathhouse or barn",
+    "the food left overnight",
+    "the names spoken"
+   ],
+   "mount": null,
+   "abode": "The far side, and the homestead in the veli season",
+   "festivals": [],
+   "worship": "",
+   "bio": "You lay the table, name your dead one by one, leave the room, and let them eat.",
+   "longBio": "Veli laiks - the time of the souls, running roughly through October and into November - is when the dead come back to the farm. The household heats the bathhouse or clears the barn, lays a table with the food of the season, names the dead of the family aloud one at a time, and then withdraws and leaves them to it, and in the morning the food is taken away. At the end of the season they are formally seen off. The dead here are relatives with continuing claims rather than ghosts, and the whole practice slid into All Souls without much resistance and in places has not stopped.",
+   "variantTraditions": "Attested in the Jesuit reports, in Praetorius, and in living memory across both countries.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "gabija",
+   "name": "Gabija",
+   "sanskrit": "Gabija",
+   "category": "deity",
+   "era": "Around the Farm",
+   "role": "The fire in the hearth, who is a person, and who is put to bed every night",
+   "wikipedia": "Gabija",
+   "portrait": "portraits/baltic/gabija.webp",
+   "epithets": [
+    "the covered one",
+    "the fire",
+    "holy Gabija"
+   ],
+   "domains": [
+    "fire",
+    "the hearth",
+    "the house",
+    "cleanliness"
+   ],
+   "symbols": [
+    "the banked embers",
+    "the clean water set beside them",
+    "the bread"
+   ],
+   "mount": null,
+   "abode": "The hearth, banked for the night",
+   "festivals": [],
+   "worship": "",
+   "bio": "You bank the coals, set clean water beside them, and say: holy Gabija, be satisfied.",
+   "longBio": "Gabija is the hearth fire treated as a person with preferences. She is fed - salt, bread, a handful of grain thrown in - and she is put to bed: the last thing at night the embers are banked and covered and a bowl of clean water is set beside them so she can wash, and the formula spoken is that holy Gabija be satisfied. She must never be spat on, stepped over, or put out with anything unclean, and if she is offended she gets up and walks, which means the house burns down. Her name comes from a verb meaning to cover.",
+   "variantTraditions": "Attested in Lithuanian folk practice and in early modern reports; the fire-as-person idea is shared with the Vedic Agni and the Roman Vesta.",
+   "storyIds": [
+    "gabija"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "preserver",
+    "healer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "austeja",
+   "name": "Austeja",
+   "sanskrit": "Austeja",
+   "category": "deity",
+   "era": "Around the Farm",
+   "role": "The bee goddess, and in Lithuanian bees do not die, they pass away",
+   "wikipedia": "Austeja",
+   "portrait": "portraits/baltic/austeja.webp",
+   "epithets": [
+    "the bee mother",
+    "the weaver"
+   ],
+   "domains": [
+    "bees",
+    "honey",
+    "families",
+    "marriage",
+    "brewing"
+   ],
+   "symbols": [
+    "the hive",
+    "the swarm",
+    "mead"
+   ],
+   "mount": null,
+   "abode": "The hives at the edge of the garden",
+   "festivals": [],
+   "worship": "",
+   "bio": "Lithuanian has a separate, respectful verb for the death of a bee, used otherwise only of people.",
+   "longBio": "Austeja is the goddess of bees and the beekeeper's household, and the seriousness of it is measurable in the language: Lithuanian uses the same respectful word for a bee dying as for a person dying, never the ordinary one used for animals, and two beekeepers who shared hives called each other by a kinship term. Bees were told of a death in the family. Swarming is her multiplying a family. She is one of the very few named Lithuanian deities that scholars are fairly confident about, because she is in the early sources and because the practice around bees is so distinctive and so persistent.",
+   "variantTraditions": "Named in sixteenth-century sources; the linguistic evidence around bees is independent of any list of gods.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wisdom-craft",
+    "wealth-fortune",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "jumis",
+   "name": "Jumis",
+   "sanskrit": "Jumis",
+   "category": "deity",
+   "era": "Around the Farm",
+   "role": "The double ear of grain - two stalks grown together - and you have to catch him",
+   "wikipedia": "Jumis",
+   "portrait": "portraits/baltic/jumis.webp",
+   "epithets": [
+    "the double one",
+    "the two-in-one"
+   ],
+   "domains": [
+    "the harvest",
+    "doubling",
+    "fertility of the field",
+    "the last sheaf"
+   ],
+   "symbols": [
+    "two ears of grain fused on one stalk",
+    "the last handful left standing",
+    "the crossed roof gable"
+   ],
+   "mount": null,
+   "abode": "The last unharvested corner of the field",
+   "festivals": [],
+   "worship": "",
+   "bio": "Finding a doubled ear means you catch him, and the last sheaf is left standing so he can hide.",
+   "longBio": "Jumis is doubling itself: the word means two things joined, and he is embodied in a double ear of corn, two stalks grown from one, or a twinned apple or nut. At the end of the harvest the reapers deliberately leave a last handful standing, and Jumis is understood to hide in it, and it is bent down and pinned to the ground with a stone so he stays in the field until spring. Whoever finds a doubled ear while reaping has caught him and has luck for the year. The crossed gable-boards on the roof of an old Latvian farmhouse are called jumis too.",
+   "variantTraditions": "The catching of Jumis is one of the best-documented harvest rites in the dainas, with hundreds of songs attached to it.",
+   "storyIds": [
+    "catching-jumis"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune",
+    "earth-mother",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "usins",
+   "name": "Usins",
+   "sanskrit": "Usins",
+   "category": "deity",
+   "era": "Around the Farm",
+   "role": "Horses, and the night in spring when they are first taken out to graze",
+   "wikipedia": "Usins",
+   "portrait": "portraits/baltic/usins.webp",
+   "epithets": [
+    "the horse god",
+    "Jurgis in the Christianised version"
+   ],
+   "domains": [
+    "horses",
+    "spring",
+    "bees in some songs",
+    "the first grazing night"
+   ],
+   "symbols": [
+    "two horses",
+    "the fire lit in the pasture",
+    "the cockerel offered"
+   ],
+   "mount": null,
+   "abode": "The pasture at night",
+   "festivals": [],
+   "worship": "",
+   "bio": "On his night the lads take the horses out, light a fire, and stay up with them till dawn.",
+   "longBio": "Usins is the horse god and his day is in April, when the horses are turned out to graze at night for the first time in the year. The young men take them, light a fire in the pasture, cook and eat and stay out until dawn - a genuine agricultural necessity dressed as a festival, since the horses need watching. A cockerel was killed for him and eaten there. The church put St George over the top of the day, and in Latvian the festival is now Jurgi, but the songs still address Usins and ask him to keep the horses fat and see them through the summer.",
+   "variantTraditions": "The identification of Usins with a horse god is secure in the dainas; a proposed connection to the Vedic Asvins is debated.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "wealth-fortune",
+    "dawn",
+    "preserver"
+   ]
+  },
+  {
+   "id": "medeina",
+   "name": "Medeina",
+   "sanskrit": "Medeina",
+   "category": "deity",
+   "era": "Around the Farm",
+   "role": "The forest and the hunt, as a young woman who does not want the forest hunted",
+   "wikipedia": "Medeina",
+   "portrait": "portraits/baltic/medeina.webp",
+   "epithets": [
+    "Zveryne",
+    "the forest one",
+    "the she-wolf"
+   ],
+   "domains": [
+    "the forest",
+    "wild animals",
+    "the hunt",
+    "trees"
+   ],
+   "symbols": [
+    "the wolf",
+    "the deer",
+    "the standing forest"
+   ],
+   "mount": null,
+   "abode": "The deep forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "She is a hunt goddess who is on the animals' side, which is an unusual arrangement.",
+   "longBio": "Medeina appears in the thirteenth-century Hypatian Chronicle's list of gods worshipped by the Lithuanian king Mindaugas, which makes her one of the earliest attested Baltic deities by name. She is the forest and the hunt, described as a young woman or a she-wolf, and the striking thing about her is her alignment: she is not the patron of hunters but the protector of the wood, uninterested in helping anyone kill anything in it. Lithuania was heavily forested and remained so, and a forest deity who obstructs the hunt is a reasonable thing for such a country to produce.",
+   "variantTraditions": "Named in the Hypatian Chronicle for 1252; most of the detail is reconstructed from folklore and from the name, which contains the word for tree.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "earth-mother",
+    "war",
+    "preserver"
+   ]
+  },
+  {
+   "id": "zaltys",
+   "name": "The Zaltys",
+   "sanskrit": "Zaltys",
+   "category": "beast",
+   "era": "Around the Farm",
+   "role": "A grass snake kept under the bed and fed milk, and killing one brought disaster",
+   "wikipedia": "Zaltys",
+   "portrait": "portraits/baltic/zaltys.webp",
+   "epithets": [
+    "the house snake",
+    "the grass snake"
+   ],
+   "domains": [
+    "the household",
+    "fertility",
+    "milk",
+    "luck",
+    "the sun"
+   ],
+   "symbols": [
+    "the dish of milk",
+    "the corner under the bed or the stove",
+    "the coiled snake"
+   ],
+   "mount": null,
+   "abode": "Under the bed, under the stove, in the corner of the house",
+   "festivals": [],
+   "worship": "",
+   "bio": "Jesuit reports complain that families kept snakes indoors and fed them, and they did.",
+   "longBio": "Lithuanian and Latvian farms kept grass snakes - harmless, non-venomous - in the house, under the bed or the stove, and put out milk for them, and regarded them as bringing luck and fertility to the household. To kill one was a serious matter: the sun was said to weep at the sight of a dead zaltys, and misfortune followed. Missionaries and Jesuit visitors report the practice with exasperation from the sixteenth century onwards, and it persisted. The snake is connected to the sun, to milk, to the health of children, and to the underworld all at once.",
+   "variantTraditions": "One of the most consistently attested practices in Baltic religion, complained about by outsiders for four hundred years.",
+   "storyIds": [
+    "egle",
+    "the-snake-under-the-bed"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "divine-beast",
+    "wealth-fortune",
+    "healer"
+   ]
+  },
+  {
+   "id": "aitvaras",
+   "name": "The Aitvaras",
+   "sanskrit": "Aitvaras",
+   "category": "beast",
+   "era": "Around the Farm",
+   "role": "A flying household dragon that brings you grain and money, all of it stolen from a neighbour",
+   "wikipedia": "Aitvaras",
+   "portrait": "portraits/baltic/aitvaras.webp",
+   "epithets": [
+    "the flying one",
+    "the fire-tail",
+    "the rooster indoors and the fiery snake outdoors"
+   ],
+   "domains": [
+    "stolen wealth",
+    "grain",
+    "milk",
+    "the household that is doing suspiciously well"
+   ],
+   "symbols": [
+    "a black cockerel in the house",
+    "a fiery streak across the night sky",
+    "the corner it lives in"
+   ],
+   "mount": null,
+   "abode": "The corner of a barn, or the sky at night",
+   "festivals": [],
+   "worship": "",
+   "bio": "It looks like a cockerel indoors and a burning snake in the air, and everything it brings is somebody else's.",
+   "longBio": "An aitvaras lives in the house or barn - a black cockerel indoors, a fiery serpent with a long tail across the sky at night - and it brings the household grain, milk and money. All of it is taken from the neighbours, so a family whose fortunes improve unaccountably is suspected of keeping one. You get one by buying it from the devil for your soul, or by hatching it from the egg of a seven-year-old cockerel carried under your arm. Getting rid of one is difficult, and the usual method is to burn everything it brought. It is a folk theory of unexplained prosperity in a small community, and a sharp one.",
+   "variantTraditions": "Widely attested in Lithuanian folk legend; a similar being, the pukis, appears in Latvian.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "wealth-fortune",
+    "primordial-adversary",
+    "fire"
+   ]
+  },
+  {
+   "id": "kaukas",
+   "name": "The Kaukas",
+   "sanskrit": "Kaukas",
+   "category": "nature",
+   "era": "Around the Farm",
+   "role": "A small being in the barn who does the work if it is fed, and leaves if you thank it",
+   "wikipedia": "Kaukas",
+   "portrait": "portraits/baltic/kaukas.webp",
+   "epithets": [
+    "the little one",
+    "barstukai",
+    "the ones under the ground"
+   ],
+   "domains": [
+    "the barn",
+    "grain",
+    "small labour",
+    "the corner of the field"
+   ],
+   "symbols": [
+    "the small offering left in the barn",
+    "the grain that increases",
+    "the linen shirt"
+   ],
+   "mount": null,
+   "abode": "Under the barn floor, under a stone, in the corner of the field",
+   "festivals": [],
+   "worship": "",
+   "bio": "You leave it food and say nothing about it; make a fuss and it goes.",
+   "longBio": "The kaukai are small beings living under the barn or in a corner of the field who quietly improve the household's grain and luck if food is left for them and nobody makes anything of it. They are related to the earth and to the dead, and Prussian sources call them barstukai and connect them with an underground being. The rule is consistent across the whole northern European version of this idea: the help is conditional on discretion, and thanking them, praising them, or giving them clothes ends the arrangement immediately and permanently.",
+   "variantTraditions": "The kaukas is attested in Lithuanian and Old Prussian material; some of the Prussian detail comes through Grunau and should be handled carefully.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wealth-fortune",
+    "preserver",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "laume",
+   "name": "The Laumes",
+   "sanskrit": "Laume",
+   "category": "nature",
+   "era": "Around the Farm",
+   "role": "They spin beautifully, they help, and they take babies out of cradles",
+   "wikipedia": "Laume",
+   "portrait": "portraits/baltic/laume.webp",
+   "epithets": [
+    "laumes",
+    "the sky-women",
+    "the ones who wash linen at midnight"
+   ],
+   "domains": [
+    "spinning",
+    "weaving",
+    "childbirth",
+    "the stealing and swapping of infants"
+   ],
+   "symbols": [
+    "the linen washed by moonlight",
+    "the flat stone",
+    "the changeling"
+   ],
+   "mount": null,
+   "abode": "The riverbank, the bathhouse, the sky at the edge of a storm",
+   "festivals": [],
+   "worship": "",
+   "bio": "The word for changeling in Lithuanian says outright that a laume swapped the child.",
+   "longBio": "The laumes are women of the sky and the water who spin and weave extraordinarily well, and who will help a household - washing, spinning, minding a child - and who also take infants out of cradles and leave one of their own instead. They are strongly associated with unmarried women, with childbirth, and with the bathhouse where births happened. Their character shifts by region from something close to a goddess to something close to a witch, and there are hints that they were once considerably grander and were demoted when the church arrived, which is the usual story.",
+   "variantTraditions": "Laume may originally have been connected to Perkunas as a consort; the child-stealing layer is the one that survives most strongly.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "earth-mother",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "velns",
+   "name": "Velns",
+   "sanskrit": "Velns",
+   "category": "underworld",
+   "era": "Around the Farm",
+   "role": "Once a god of the dead and of cattle; Christianity turned him into the devil and the songs kept him",
+   "wikipedia": "Velnias",
+   "portrait": "portraits/baltic/velns.webp",
+   "epithets": [
+    "Velnias in Lithuanian",
+    "the old one",
+    "the lame one",
+    "the one under the stone"
+   ],
+   "domains": [
+    "the dead",
+    "cattle",
+    "wealth",
+    "swamps",
+    "stones",
+    "being struck by lightning"
+   ],
+   "symbols": [
+    "the cloven hoof in the later form",
+    "the stone he hides under",
+    "the bog"
+   ],
+   "mount": null,
+   "abode": "The swamp, under a stone, in a hollow tree",
+   "festivals": [],
+   "worship": "",
+   "bio": "Perkons hunts him, and every lightning strike is a near miss on him hiding in something.",
+   "longBio": "Velns is cognate with Slavic Veles and with the word for the dead, and he was almost certainly a god of the underworld, the cattle and the wealth below ground. Christianity gave him the devil's job, and he kept it, and in Baltic folk tale he is a distinctly local devil: a landowner in a black coat, lame, not very clever, frequently cheated by peasants in bargains, and permanently hunted by Perkunas, who strikes at him wherever he hides - under a stone, in a tree, in a cow, in a person - which is what lightning is. He is also, in the older layer, the one who owns the herds of the dead.",
+   "variantTraditions": "The demotion is visible in the language: velns is now simply the word for devil, but veles, the souls of the dead, is the same root.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "wealth-fortune",
+    "serpent-dragon"
+   ]
+  },
+  {
+   "id": "ragana",
+   "name": "The Ragana",
+   "sanskrit": "Ragana",
+   "category": "underworld",
+   "era": "Around the Farm",
+   "role": "The witch - and the name means the one who sees, which is a clue about what she used to be",
+   "wikipedia": "Ragana",
+   "portrait": "portraits/baltic/ragana.webp",
+   "epithets": [
+    "the seer",
+    "the one who knows"
+   ],
+   "domains": [
+    "witchcraft",
+    "milk",
+    "seeing",
+    "shapeshifting",
+    "the crossroads"
+   ],
+   "symbols": [
+    "the toad or the magpie she becomes",
+    "the milk taken from another man's cow",
+    "the sieve"
+   ],
+   "mount": null,
+   "abode": "The village, indistinguishable from anyone else",
+   "festivals": [],
+   "worship": "",
+   "bio": "Ragana is built on the verb to see, not on any word for harm.",
+   "longBio": "The ragana is the witch of Baltic folklore - she spoils milk, takes it from other people's cows at a distance, turns into a toad or a magpie, and is dealt with by the usual counter-measures. But the etymology points somewhere else: the name is formed on the verb regeti, to see, so she was originally the one who sees or knows, a seeress rather than a malefactor. The shift from diviner to witch is the same demotion that happened to Velns and to Hiisi in Finnish, and it is the clearest linguistic fossil of what happened to this religion.",
+   "variantTraditions": "The etymology from 'to see' is standard and is the main evidence for an earlier and more respectable role.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sage-seer",
+    "primordial-adversary",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "egle",
+   "name": "Egle",
+   "sanskrit": "Egle zalciu karaliene",
+   "category": "hero",
+   "era": "The Great Tale",
+   "role": "She married a serpent, lived twelve years under the sea, and turned her children into trees",
+   "wikipedia": "Egl%C4%97_the_Queen_of_Serpents",
+   "portrait": "portraits/baltic/egle.webp",
+   "epithets": [
+    "Egle the Queen of Serpents",
+    "the spruce"
+   ],
+   "domains": [
+    "marriage between worlds",
+    "betrayal by family",
+    "transformation",
+    "trees"
+   ],
+   "symbols": [
+    "the spruce she became",
+    "the sea",
+    "the three sons and one daughter"
+   ],
+   "mount": null,
+   "abode": "The sea, then a spruce wood",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her daughter told, her brothers killed him, and she turned the whole family into trees.",
+   "longBio": "The best-known Lithuanian tale and the closest thing the Baltic has to a myth with a plot. A girl finds a grass snake in her clothes after bathing; it will not give them back unless she promises to marry it. She does, as a joke, and a procession of serpents arrives. She lives twelve years under the sea as the wife of Zilvinas, their king, and has three sons and a daughter, and is happy. Visiting her family, she is pressed to reveal how she calls her husband. Only the youngest child, the daughter, breaks, and the brothers go to the shore, call him up, and cut him to pieces. Egle turns her sons into an oak, an ash and a birch, her daughter into a trembling aspen for telling, and herself into a spruce.",
+   "variantTraditions": "Recorded in hundreds of variants across Lithuania. The transformation of the children into named trees is constant; which tree each child becomes varies.",
+   "storyIds": [
+    "egle"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "love-desire",
+    "fate-time",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "zilvinas",
+   "name": "Zilvinas",
+   "sanskrit": "Zilvinas",
+   "category": "beast",
+   "era": "The Great Tale",
+   "role": "King of the grass snakes, a handsome man under the sea, and cut to pieces on the shore",
+   "wikipedia": "Egl%C4%97_the_Queen_of_Serpents",
+   "portrait": "portraits/baltic/zilvinas.webp",
+   "epithets": [
+    "the serpent king",
+    "the green one"
+   ],
+   "domains": [
+    "the sea",
+    "serpents",
+    "the other world",
+    "the husband from elsewhere"
+   ],
+   "symbols": [
+    "the foam on the water, white for come and bloody for dead",
+    "the palace under the sea"
+   ],
+   "mount": null,
+   "abode": "A palace at the bottom of the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "She called him with a rhyme, and the sea came up white if he was alive and red if he was not.",
+   "longBio": "Zilvinas is the king of the grass snakes, a serpent on land and a man in his own country under the sea, and he is the only genuinely sympathetic husband-from-elsewhere in northern European folklore - there is no cruelty in him, no test, no forbidden room. He is killed because his wife's family cannot tolerate the marriage. The signal is what makes the tale: Egle calls him from the shore with a rhyme, and the foam comes up white when he is coming and red with blood when he has already been killed, and she learns of his death from the colour of the water.",
+   "variantTraditions": "The calling-rhyme is preserved almost verbatim across variants, which is unusual and suggests it is the oldest part of the tale.",
+   "storyIds": [
+    "egle"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "sea-waters",
+    "king-ruler",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "jani",
+   "name": "Jani",
+   "sanskrit": "Jani",
+   "category": "primordial",
+   "era": "The Year",
+   "role": "Midsummer, and the biggest thing in the Latvian year by a very wide margin",
+   "wikipedia": "J%C4%81%C5%86i",
+   "portrait": "portraits/baltic/jani.webp",
+   "epithets": [
+    "Ligo",
+    "Jani nakts",
+    "the shortest night"
+   ],
+   "domains": [
+    "midsummer",
+    "fire",
+    "oak",
+    "cheese",
+    "beer",
+    "staying awake"
+   ],
+   "symbols": [
+    "the oak wreath for men and flowers for women",
+    "the fire on a pole",
+    "caraway cheese"
+   ],
+   "mount": null,
+   "abode": "Everywhere in Latvia, on the shortest night",
+   "festivals": [],
+   "worship": "",
+   "bio": "You do not sleep. Sleeping through Jani night is genuinely held against you.",
+   "longBio": "Jani is midsummer and it is the central event of the Latvian year - a public holiday of two days, and the one night nobody sleeps. Men wear oak-leaf wreaths and women wear flowers, fires are lit on poles so they can be seen from far off and kept burning until sunrise, there is caraway cheese and beer, and the songs sung all have the refrain ligo. Couples go into the woods to look for the flowering fern, which does not exist. Herbs picked that night are strongest. The church attached St John to it and made no other impression on it whatsoever.",
+   "variantTraditions": "The equivalent Lithuanian feast is Jonines or Rasos. Both survived the Soviet period, during which Jani was officially discouraged and universally observed.",
+   "storyIds": [
+    "jani"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fire",
+    "love-desire",
+    "healer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "uzgavenes",
+   "name": "Uzgavenes",
+   "sanskrit": "Uzgavenes",
+   "category": "primordial",
+   "era": "The Year",
+   "role": "Shrovetide: masks, a straw effigy burned, and a staged fight between fat and thin",
+   "wikipedia": "U%C5%BEgav%C4%97n%C4%97s",
+   "portrait": "portraits/baltic/uzgavenes.webp",
+   "epithets": [
+    "Shrovetide",
+    "the driving out of winter"
+   ],
+   "domains": [
+    "winter's end",
+    "masks",
+    "excess",
+    "the burning of the effigy"
+   ],
+   "symbols": [
+    "carved wooden masks of devils and goats and Jews and gypsies",
+    "the More effigy",
+    "pancakes"
+   ],
+   "mount": null,
+   "abode": "Lithuanian villages, in February",
+   "festivals": [],
+   "worship": "",
+   "bio": "Lasininis the fat man fights Kanapinis the hemp man, and the thin one has to win.",
+   "longBio": "Uzgavenes is the last day before Lent and it is a masked riot. Villagers put on carved wooden masks - devils, goats, cranes, horses, witches, and stock outsiders - and go about causing trouble. The set piece is a staged wrestling match between Lasininis, the fat bacon man who represents winter and feasting, and Kanapinis, the thin hemp man who represents Lent, and the thin one always wins, because he has to. At the end an effigy called More is carried out and burned. It is the Lithuanian sibling of the Slavic drowning of Marzanna and it is equally unstoppable.",
+   "variantTraditions": "The wooden masks are a genuine and continuing craft tradition; the fat-and-thin combat is attested from the early modern period.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fire",
+    "destroyer",
+    "messenger-trickster",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "daina",
+   "name": "The Daina",
+   "sanskrit": "Daina",
+   "category": "primordial",
+   "era": "The Year",
+   "role": "Two hundred and eighteen thousand four-line songs, sorted into a cabinet of drawers",
+   "wikipedia": "Latvian_dainas",
+   "portrait": "portraits/baltic/daina.webp",
+   "epithets": [
+    "the folk quatrain",
+    "the songs in the cabinet"
+   ],
+   "domains": [
+    "song",
+    "the whole of the evidence",
+    "women's work",
+    "every occasion there is"
+   ],
+   "symbols": [
+    "the four lines",
+    "the oak cabinet of small drawers",
+    "the paper slips"
+   ],
+   "mount": null,
+   "abode": "Sung at work, at weddings, at funerals, in the fields",
+   "festivals": [],
+   "worship": "",
+   "bio": "Krisjanis Barons spent thirty years filing them, and the cabinet is now a national monument.",
+   "longBio": "A daina is four lines, unrhymed, in a fixed metre, and there are hundreds of thousands of them, and they are where this entire religion actually lives. They were sung by women, at work and at every occasion in the year and in a life, and they carry the gods casually and constantly - Dievs coming down the hill, Saule drying her kerchief, Laima at the foot of the bed. Krisjanis Barons collected and sorted them onto paper slips in a purpose-built oak cabinet of seventy drawers between 1878 and 1915. The cabinet survives, is in the National Library in Riga, and is on the UNESCO Memory of the World register.",
+   "variantTraditions": "The dainas are unusual as evidence because they were never edited into a system - which is why they preserve so much that a systematiser would have tidied away.",
+   "storyIds": [
+    "the-cabinet"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "sage-seer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "milda",
+   "name": "Milda",
+   "sanskrit": "Milda",
+   "category": "deity",
+   "era": "Probably Not True",
+   "role": "The Lithuanian goddess of love, invented in the nineteenth century by a man with a dictionary",
+   "wikipedia": "Lithuanian_mythology",
+   "portrait": "portraits/baltic/milda.webp",
+   "epithets": [
+    "the love goddess who is not one"
+   ],
+   "domains": [
+    "nothing attested",
+    "love, by assertion"
+   ],
+   "symbols": [
+    "a name in a name-day calendar"
+   ],
+   "mount": null,
+   "abode": "Nowhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her feast is 13 May, her name is common, and she appears in no source before about 1850.",
+   "longBio": "Milda is presented everywhere as the Lithuanian goddess of love and freedom, with a month named for her and a feast day. She appears in no early source at all. She was manufactured in the nineteenth century, along with several companions, by writers building a national mythology out of a Lithuanian word for love and the shape of a Roman pantheon, at a time when having one mattered politically. The name caught on as a girl's name, the name-day stuck in the calendar, and the goddess is now repeated in guidebooks and on the internet as though she were ancient.",
+   "variantTraditions": "Theodor Narbutt's Lithuanian history of 1835 is the source of Milda and of much else that is not real.",
+   "storyIds": [
+    "the-invented-temple"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "romuva",
+   "name": "The Temple at Romuva",
+   "sanskrit": "Romuva",
+   "category": "primordial",
+   "era": "Probably Not True",
+   "role": "A grand pagan sanctuary with a high priest and an eternal flame, described by a known fabricator",
+   "wikipedia": "Romuva_(temple)",
+   "portrait": "portraits/baltic/romuva.webp",
+   "epithets": [
+    "Romowe",
+    "the sanctuary of the Prussians",
+    "Krive the high priest"
+   ],
+   "domains": [
+    "invented antiquity",
+    "the eternal oak",
+    "a priesthood that probably was not there"
+   ],
+   "symbols": [
+    "an evergreen oak with three idols in it",
+    "the perpetual fire",
+    "the priest's staff"
+   ],
+   "mount": null,
+   "abode": "Prussia, allegedly",
+   "festivals": [],
+   "worship": "",
+   "bio": "Simon Grunau described it in detail in about 1520 and is known to have invented a great deal.",
+   "longBio": "Romuva is the great Prussian sanctuary: an evergreen oak with three idols set in its trunk, a perpetual fire, a high priest called Krive whose authority ran across all the Baltic peoples, and a whole hierarchy beneath him. It is described at length by Simon Grunau in his Prussian Chronicle around 1520 - and Grunau is demonstrably unreliable, invented documents, and wrote three hundred years after the conquest of Prussia. Earlier sources mention a place-name and a priest and nothing like the structure. Some real cult site probably existed. Almost every detail anyone knows about it comes from a man who was making it up.",
+   "variantTraditions": "Included because Romuva is now the name of the revived Lithuanian pagan movement, and because the fabricated version is what almost everyone has read.",
+   "storyIds": [
+    "the-invented-temple"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "messenger-trickster",
+    "primordial-adversary",
+    "fire"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "dievs",
+   "to": "saule",
+   "type": "ally",
+   "note": "The two of them run the sky farm between them"
+  },
+  {
+   "from": "dievs",
+   "to": "laima",
+   "type": "ally",
+   "note": "He gives the soul, she decides what it will get"
+  },
+  {
+   "from": "dievs",
+   "to": "mara",
+   "type": "ally",
+   "note": "He gives the soul and she gives the body, and both take theirs back"
+  },
+  {
+   "from": "dievs",
+   "to": "dieva_deli",
+   "type": "parent",
+   "note": "The two horsemen who do the rescuing"
+  },
+  {
+   "from": "dievs",
+   "to": "perkons",
+   "type": "parent",
+   "note": "The son who actually does things"
+  },
+  {
+   "from": "dievs",
+   "to": "velns",
+   "type": "enemy",
+   "note": "The one above and the one under the stone"
+  },
+  {
+   "from": "saule",
+   "to": "meness",
+   "type": "consort",
+   "note": "A marriage that did not hold"
+  },
+  {
+   "from": "meness",
+   "to": "saule",
+   "type": "enemy",
+   "note": "He went after the morning star"
+  },
+  {
+   "from": "saule",
+   "to": "saules_meitas",
+   "type": "parent",
+   "note": "Her daughters, who are the stars"
+  },
+  {
+   "from": "saules_meitas",
+   "to": "dieva_deli",
+   "type": "consort",
+   "note": "The courtship that half the mythological songs are about"
+  },
+  {
+   "from": "dieva_deli",
+   "to": "saules_meitas",
+   "type": "ally",
+   "note": "Diving for the dropped ring, pulling the horse out of the sea"
+  },
+  {
+   "from": "meness",
+   "to": "auseklis",
+   "type": "enemy",
+   "note": "He took the morning star's bride, or was the morning star's rival"
+  },
+  {
+   "from": "perkons",
+   "to": "meness",
+   "type": "enemy",
+   "note": "And cut his face in half with a sword for it"
+  },
+  {
+   "from": "perkons",
+   "to": "velns",
+   "type": "enemy",
+   "note": "Every strike is a hit on something he is hiding in"
+  },
+  {
+   "from": "velns",
+   "to": "perkons",
+   "type": "enemy",
+   "note": "Under a stone, in a tree, in a cow, in a man"
+  },
+  {
+   "from": "perkons",
+   "to": "auseklis",
+   "type": "ally",
+   "note": "He rides through the middle of the wedding"
+  },
+  {
+   "from": "auseklis",
+   "to": "saules_meitas",
+   "type": "consort",
+   "note": "The wedding the whole sky attends"
+  },
+  {
+   "from": "saule",
+   "to": "zaltys",
+   "type": "ally",
+   "note": "She is said to weep at the sight of a dead grass snake"
+  },
+  {
+   "from": "saule",
+   "to": "egle",
+   "type": "ally",
+   "note": "The sun's care for the badly used, again"
+  },
+  {
+   "from": "laima",
+   "to": "giltine",
+   "type": "sibling",
+   "note": "One sets the length of the life and the other collects it"
+  },
+  {
+   "from": "laima",
+   "to": "mara",
+   "type": "ally",
+   "note": "Both of them are at every birth"
+  },
+  {
+   "from": "laima",
+   "to": "veli",
+   "type": "ally",
+   "note": "She decided it, and this is where it ends up"
+  },
+  {
+   "from": "laima",
+   "to": "laume",
+   "type": "sibling",
+   "note": "Both turn up at a birth and neither is entirely safe"
+  },
+  {
+   "from": "mara",
+   "to": "zemes_mate",
+   "type": "sibling",
+   "note": "The substance of things and the ground it grows out of"
+  },
+  {
+   "from": "mara",
+   "to": "zaltys",
+   "type": "ally",
+   "note": "The snake at the milk dish is hers"
+  },
+  {
+   "from": "zemes_mate",
+   "to": "veli",
+   "type": "ally",
+   "note": "The dead are in her"
+  },
+  {
+   "from": "zemes_mate",
+   "to": "jumis",
+   "type": "ally",
+   "note": "Whatever the field produces, doubled if you are lucky"
+  },
+  {
+   "from": "giltine",
+   "to": "velns",
+   "type": "ally",
+   "note": "Death and the owner of the herds of the dead"
+  },
+  {
+   "from": "veli",
+   "to": "velns",
+   "type": "devotee",
+   "note": "The souls, and the old god whose name they share"
+  },
+  {
+   "from": "gabija",
+   "to": "mara",
+   "type": "ally",
+   "note": "The fire in the house and the milk in the byre"
+  },
+  {
+   "from": "gabija",
+   "to": "velns",
+   "type": "enemy",
+   "note": "Offend her and she gets up and walks, and the house burns"
+  },
+  {
+   "from": "austeja",
+   "to": "jumis",
+   "type": "sibling",
+   "note": "Two kinds of increase, and both have to be caught properly"
+  },
+  {
+   "from": "austeja",
+   "to": "laume",
+   "type": "sibling",
+   "note": "Both of them spin, and one of them takes children"
+  },
+  {
+   "from": "usins",
+   "to": "dieva_deli",
+   "type": "sibling",
+   "note": "Horses, and two young men who ride"
+  },
+  {
+   "from": "usins",
+   "to": "jani",
+   "type": "ally",
+   "note": "The spring festival and the summer one"
+  },
+  {
+   "from": "medeina",
+   "to": "velns",
+   "type": "ally",
+   "note": "Both of them live out where nobody farms"
+  },
+  {
+   "from": "medeina",
+   "to": "ragana",
+   "type": "sibling",
+   "note": "The forest, and the woman who knows it"
+  },
+  {
+   "from": "zaltys",
+   "to": "zilvinas",
+   "type": "sibling",
+   "note": "The grass snake at the hearth and the grass snake king"
+  },
+  {
+   "from": "zilvinas",
+   "to": "egle",
+   "type": "consort",
+   "note": "Twelve years under the sea, and three sons and a daughter"
+  },
+  {
+   "from": "egle",
+   "to": "zilvinas",
+   "type": "enemy",
+   "note": "Her brothers went down to the shore and called him up"
+  },
+  {
+   "from": "aitvaras",
+   "to": "kaukas",
+   "type": "sibling",
+   "note": "Two ways of explaining a farm that is doing too well"
+  },
+  {
+   "from": "aitvaras",
+   "to": "velns",
+   "type": "devotee",
+   "note": "You buy one from him, and the price is the usual one"
+  },
+  {
+   "from": "kaukas",
+   "to": "zemes_mate",
+   "type": "devotee",
+   "note": "Under the barn floor and under the field"
+  },
+  {
+   "from": "laume",
+   "to": "ragana",
+   "type": "sibling",
+   "note": "The demotion happened to both of them"
+  },
+  {
+   "from": "ragana",
+   "to": "velns",
+   "type": "ally",
+   "note": "In the Christian layer they were put on the same side"
+  },
+  {
+   "from": "jani",
+   "to": "saule",
+   "type": "devotee",
+   "note": "The shortest night, kept awake until she comes back"
+  },
+  {
+   "from": "jani",
+   "to": "perkons",
+   "type": "devotee",
+   "note": "Oak wreaths, and the oak is his"
+  },
+  {
+   "from": "uzgavenes",
+   "to": "jani",
+   "type": "sibling",
+   "note": "The two ends of the year, and both involve a fire"
+  },
+  {
+   "from": "uzgavenes",
+   "to": "velns",
+   "type": "ally",
+   "note": "Half the masks are devils, and he is a landowner in a black coat"
+  },
+  {
+   "from": "daina",
+   "to": "saule",
+   "type": "guru",
+   "note": "Everything anyone knows about her is in them"
+  },
+  {
+   "from": "daina",
+   "to": "laima",
+   "type": "guru",
+   "note": "And about her, and they argue with her constantly"
+  },
+  {
+   "from": "daina",
+   "to": "dievs",
+   "type": "guru",
+   "note": "The grey coat and the hill are from the songs and nowhere else"
+  },
+  {
+   "from": "daina",
+   "to": "auseklis",
+   "type": "guru",
+   "note": "The wedding cycle is entirely a song cycle"
+  },
+  {
+   "from": "milda",
+   "to": "romuva",
+   "type": "sibling",
+   "note": "One invented in 1835 and one about 1520"
+  },
+  {
+   "from": "romuva",
+   "to": "perkons",
+   "type": "enemy",
+   "note": "It puts an oak and a priesthood around him that he probably never had"
+  },
+  {
+   "from": "milda",
+   "to": "laima",
+   "type": "enemy",
+   "note": "A real goddess of fate, and an invented one of love"
+  },
+  {
+   "from": "romuva",
+   "to": "daina",
+   "type": "enemy",
+   "note": "One is a fabrication and one is two hundred thousand pieces of evidence"
+  },
+  {
+   "from": "jumis",
+   "to": "daina",
+   "type": "devotee",
+   "note": "Hundreds of songs for one doubled ear of corn"
+  },
+  {
+   "from": "veli",
+   "to": "uzgavenes",
+   "type": "ally",
+   "note": "Masked visitors, and who the masks might be"
+  },
+  {
+   "from": "giltine",
+   "to": "daina",
+   "type": "devotee",
+   "note": "Sung about at every funeral there was"
+  }
+ ]
+}
