@@ -1,0 +1,1769 @@
+{
+ "title": "Cherokee Mythology: Figures, Relationships and Story Cycles",
+ "description": "Southeastern traditions mapped as a relationship graph: the water beetle who brought up the mud, Corn Mother and the Lucky Hunter, the council at which the animals invented disease and the plants invented the cures.",
+ "generated": "2026-08-21",
+ "sources": [
+  "James Mooney, Myths of the Cherokee (1900) - collected from Swimmer (Ayunini) and other Cherokee narrators in North Carolina",
+  "James Adair, The History of the American Indians (1775) - an eighteenth-century trader's account",
+  "The Payne-Butrick Papers, 1830s, as summarised by Mooney",
+  "Note: Mooney's Sacred Formulas of the Cherokees (1891) records medicine texts rather than narrative and is deliberately not drawn on here",
+  "Note: the Cherokee Nation, the Eastern Band and the United Keetoowah Band are living nations; nothing ceremonial is reconstructed in this pack"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/cherokee/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "mooney": {
+   "t": "Myths of the Cherokee (BAE 19th Annual Report)",
+   "tr": "James Mooney, 1900",
+   "u": "https://sacred-texts.com/nam/cher/motc/index.htm"
+  },
+  "mooney_h": {
+   "t": "Historical Sketch of the Cherokee (in Myths of the Cherokee)",
+   "tr": "James Mooney, 1900",
+   "u": "https://archive.org/details/annualreportofbu19smit"
+  },
+  "payne": {
+   "t": "The Payne-Butrick Papers (nineteenth-century Cherokee material)",
+   "tr": "John Howard Payne and Daniel Butrick, 1830s",
+   "u": "https://archive.org/details/annualreportofbu19smit"
+  },
+  "adair": {
+   "t": "The History of the American Indians",
+   "tr": "James Adair, 1775",
+   "u": "https://archive.org/details/historyofamerica00adai"
+  }
+ },
+ "meta": {
+  "id": "cherokee",
+  "label": "Cherokee",
+  "sublabel": "Southeastern Woodlands",
+  "accent": "#9bb87a",
+  "root": "dayunisi"
+ },
+ "profile": {
+  "cosmicNature": "A stone vault with an island hung inside it. Above is Galunlati, the sky world, solid rock; below is water. The earth is a flat island floating on the sea, slung from the vault at four cords, one at each cardinal point - and the cords are wearing out. When they break the island sinks and everything goes back to water. Nobody in the tradition treats that as far off or as anything other than certain.",
+  "natureOfDivinity": "Not a pantheon. There is a creator, Unetlanvhi, invoked rather than described, and after that the world is populated by peoples - the animal people, the plant people, the Thunders, the Little People, the Immortals - who hold councils, make agreements, take offence and retaliate. Power sits with whoever knows the right formula, which is why the medicine men matter more than any god does.",
+  "afterlife": "The Darkening Land in the west, where the sun goes. It is not a punishment and not much described. What the tradition is far more interested in is the traffic in the other direction - the Nunnehi and the Little People, who live alongside and can be met on a mountain, and the dead who can be brought back if the rules are followed exactly, which they never quite are.",
+  "systemMechanism": "Balance, and the formula. Almost every story turns on somebody taking more than their share or breaking a stated condition. The animals invented disease because people were killing them carelessly; the plants then invented the cures, one plant per disease, which is why a Cherokee medicine man's practice is botanical. Everything is reciprocal, and the ledger is kept.",
+  "canonTexts": "James Mooney's Myths of the Cherokee (1900), taken down from Swimmer and other narrators; his earlier Sacred Formulas of the Cherokees (1891), which records medicine texts and is deliberately not drawn on here; and the Cherokee syllabary itself, invented by Sequoyah around 1821, which made the nation literate in its own language within a few years."
+ },
+ "hierarchy": [
+  {
+   "title": "The Making",
+   "blurb": "There is water below and a solid rock vault above, and the animals are crowded up in it. A water beetle dives and brings up mud. A tired buzzard drags the mountains up with his wings. The earth hangs from the vault by four cords, and the cords are wearing out.",
+   "memberIds": [
+    "dayunisi",
+    "unetlanvhi",
+    "galunlati",
+    "buzzard",
+    "nvda"
+   ],
+   "connectorCaption": "Then the first two people, and everything they lost"
+  },
+  {
+   "title": "The First People",
+   "blurb": "Corn came out of Selu's body until her sons decided she was a witch. Every game animal was locked in Kanati's mountain until the same two boys rolled the rock away. Between them they end agriculture as a free gift and hunting as a certainty.",
+   "memberIds": [
+    "selu",
+    "kanati",
+    "thunder_boys"
+   ],
+   "connectorCaption": "Meanwhile the animals have been keeping count of what people do to them"
+  },
+  {
+   "title": "The Council",
+   "blurb": "The animals met tribe by tribe and each named a disease, and the grubworm laughed so hard he fell over backwards. Then the plants heard about it and each agreed to be the cure for one. That is the whole of Cherokee medicine in two sittings.",
+   "memberIds": [
+    "animal_council",
+    "plant_council",
+    "awi_usdi"
+   ],
+   "connectorCaption": "Out in the mountains and the rivers, the things that are not on anyone's side"
+  },
+  {
+   "title": "The Monsters",
+   "blurb": "A horned serpent with a crystal that kills whoever looks at it. A stone-skinned woman who takes livers so smoothly you walk home unaware. A witch that eats the hearts of the dying and adds their years to its own.",
+   "memberIds": [
+    "uktena",
+    "agan_unitsi",
+    "spearfinger",
+    "stone_coat",
+    "raven_mocker",
+    "tlanuwa",
+    "dakwa"
+   ],
+   "connectorCaption": "And alongside them, neighbours who are mostly friendly"
+  },
+  {
+   "title": "The Neighbours and the Tricksters",
+   "blurb": "The Nunnehi hold townhouses inside the mountains and you hear their drums from a bare hillside. The Little People bring lost children home. A giant left a thousand carvings on a real boulder. And the Rabbit gets stuck to a tar figure.",
+   "memberIds": [
+    "nunnehi",
+    "yunwi_tsunsdi",
+    "tsulkalu",
+    "untsaiyi",
+    "tsistu",
+    "terrapin"
+   ],
+   "connectorCaption": "In the sky, seven boys who danced out of reach - and on the ground, a history"
+  },
+  {
+   "title": "The Sky and the Nation",
+   "blurb": "Seven children fed a stone for supper danced themselves into the Pleiades. A silversmith who could not read invented a writing system and made a nation literate. And in 1838 the United States marched that nation west at gunpoint.",
+   "memberIds": [
+    "anitsutsa",
+    "sequoyah",
+    "nunna_daul"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "making",
+   "label": "The Making",
+   "memberIds": [
+    "dayunisi",
+    "unetlanvhi",
+    "galunlati",
+    "buzzard"
+   ]
+  },
+  {
+   "id": "first",
+   "label": "Corn Mother and the Lucky Hunter",
+   "memberIds": [
+    "selu",
+    "kanati",
+    "thunder_boys"
+   ]
+  },
+  {
+   "id": "council",
+   "label": "The Council of the Animals",
+   "memberIds": [
+    "animal_council",
+    "plant_council",
+    "awi_usdi",
+    "tsistu",
+    "terrapin"
+   ]
+  },
+  {
+   "id": "monsters",
+   "label": "The Monsters",
+   "memberIds": [
+    "uktena",
+    "spearfinger",
+    "stone_coat",
+    "raven_mocker",
+    "tlanuwa",
+    "dakwa"
+   ]
+  },
+  {
+   "id": "neighbours",
+   "label": "The Immortals and the Little People",
+   "memberIds": [
+    "nunnehi",
+    "yunwi_tsunsdi",
+    "tsulkalu"
+   ]
+  },
+  {
+   "id": "sky",
+   "label": "The Sky",
+   "memberIds": [
+    "nvda",
+    "anitsutsa",
+    "galunlati",
+    "untsaiyi"
+   ]
+  },
+  {
+   "id": "nation",
+   "label": "The Nation",
+   "memberIds": [
+    "sequoyah",
+    "nunna_daul",
+    "nunnehi"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-beetle-dives",
+   "title": "The Beetle Dives",
+   "era": "The Making",
+   "cast": [
+    "dayunisi",
+    "galunlati",
+    "buzzard"
+   ],
+   "summary": "In the beginning everything is water, and all the animals are up in Galunlati, the rock vault above the sky, and they are running out of room. Dayunisi, the little water beetle, goes down to look. He darts about on the surface and finds nowhere to rest, then dives, and comes back up with a bit of soft mud - which begins to spread out and grow until it is an island, hung from the vault by four cords. It is still too wet to walk on, so they send the Great Buzzard ahead to check, and by the time he reaches Cherokee country he is tired and flying low, and his wings strike the ground and make the mountains.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "How the World Was Made",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "corn-out-of-her-body",
+   "title": "The Corn Came Out of Her Body",
+   "era": "The First People",
+   "cast": [
+    "selu",
+    "kanati",
+    "thunder_boys"
+   ],
+   "summary": "Selu went to the storehouse every day and came back with a full basket, and her two sons decided to find out how. They watched through a chink and saw her rub her stomach and her sides, and the corn and the beans fell out of her body into the basket. They said, our mother is a witch, and we must kill her. She knew what they were thinking before they said it. She told them: clear a large circle of ground, drag my body over it seven times, and stay awake all night. They cleared two small patches, dragged her over twice, and fell asleep - which is why corn grows only in places and must be worked twice a year.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "Kanati and Selu",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "rock-in-the-mountain",
+   "title": "The Rock in the Mountain",
+   "era": "The First People",
+   "cast": [
+    "kanati",
+    "thunder_boys",
+    "awi_usdi"
+   ],
+   "summary": "Kanati never came back from a hunt without meat, and his sons wanted to know why. They followed him and watched him go to a place on the mountainside, roll away a rock, and let one deer out. When he had gone they went back and rolled the rock away themselves, to see - and the deer came out, and then all the deer, and then every rabbit and every bird and every four-footed animal in the world, pouring past them in a flood while they beat at them uselessly. That is why hunting is difficult, and why hunters have to ask pardon of the deer, and why Awi Usdi follows the careless ones home.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "Kanati and Selu",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "animals-invent-disease",
+   "title": "The Animals Hold a Council",
+   "era": "The Council",
+   "cast": [
+    "animal_council",
+    "plant_council",
+    "awi_usdi",
+    "tsistu"
+   ],
+   "summary": "People had multiplied and invented weapons and were killing animals carelessly and treading on the small ones without noticing. So the animals held councils. The bears discussed fighting back with bows and gave it up, because their claws caught on the string. The deer settled on rheumatism, and Awi Usdi undertook to enforce it. The fish and reptiles sent bad dreams. The birds and insects each named a disease, and by the end the grubworm was so pleased he rolled over backwards and could not get up. Then the plants heard about it, and every tree and herb and moss agreed to furnish a cure for one.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "The Origin of Disease and Medicine",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "uktena-crystal",
+   "title": "The Crystal in the Serpent's Head",
+   "era": "The Monsters",
+   "cast": [
+    "uktena",
+    "agan_unitsi"
+   ],
+   "summary": "Agan-unitsi was a Shawano medicine man held prisoner and facing execution, and he offered to buy his life by bringing back an Ulunsuti - the blazing crystal in the forehead of the Uktena, which no one had ever taken. He hunted monsters the length of the mountains until he found the serpent asleep on Gahuti. He dug a trench, laid a circle of pine cones round the sleeping coils and lit them, put an arrow through the seventh scale from the head, and ran and threw himself in the trench while the venomous blood poured over the ground above him. Seven days later he went back and picked the crystal out of the ashes.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "The Uktena and the Ulunsuti",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "spearfinger-heart",
+   "title": "Where Her Heart Was",
+   "era": "The Monsters",
+   "cast": [
+    "spearfinger",
+    "yunwi_tsunsdi"
+   ],
+   "summary": "Spearfinger's skin was stone and no arrow marked it, and the forefinger of her right hand was a long stone awl. She would come as a pleasant old woman, offer to comb a child's hair, and take the liver out so neatly that the child walked home feeling nothing and died days later. They finally got her into a pit, and still the arrows glanced off. Then a chickadee flew down and landed on her right hand, and they understood - and when a titmouse indicated the same place they knew it for certain, because the chickadee tells the truth and the titmouse does not. An arrow into her hand killed her, because that is where her heart was.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "Utlunta, the Spear-finger",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "stone-coat-burning",
+   "title": "What Stone Coat Sang",
+   "era": "The Monsters",
+   "cast": [
+    "stone_coat",
+    "plant_council"
+   ],
+   "summary": "Nvyunuwi came down out of the mountains with a staff that pointed at people, and his skin was rock and nothing touched it. A medicine man who knew what was coming stationed seven menstruating women along the path. As he passed the first he began to weaken; by the seventh he was on the ground vomiting blood. They piled wood on him and set it alight - and as he burned he began to sing, and he sang out everything he knew: the songs for hunting, for healing, for love, for war. The people wrote nothing down and simply remembered. Out of his ashes came the red paint and a crystal.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "Nunyunuwi, the Stone Man",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "raven-mocker",
+   "title": "The One That Takes the Years",
+   "era": "The Monsters",
+   "cast": [
+    "raven_mocker",
+    "yunwi_tsunsdi"
+   ],
+   "summary": "The Raven Mocker is the most dreaded of all witches. It comes to a house where somebody is dying, flying through the air with its arms stretched out and fire trailing behind it, and crying as it comes with a sound like a raven diving. It torments the sick person until they die, then takes out the heart and eats it, and adds every year the dead person had left to its own life. Nobody sees it except a medicine man. If one is seen and named aloud, it will die within seven days. You can tell them, Mooney's informants said, because they look impossibly old and withered - all those hoarded years.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "The Raven Mocker",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "drums-in-the-hill",
+   "title": "The Drums Inside the Hill",
+   "era": "The Neighbours",
+   "cast": [
+    "nunnehi",
+    "yunwi_tsunsdi",
+    "nunna_daul"
+   ],
+   "summary": "Travellers in the mountains hear drumming and dance songs coming out of a bare hillside, and go and look, and there is nothing there. The Nunnehi live inside the mountains in their own townhouses, and they are like the Cherokee in every way except that they never die and are usually invisible. They take lost hunters in and feed them, they warn of raids, and more than once they are said to have come out and fought. Before the Removal, one account has them offer to take whole towns into the mountains with them and hide them there - and says that one town accepted, and went in, and did not come out.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "The Nunnehi and Other Spirit Folk",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "pleiades-boys",
+   "title": "The Boys Who Danced Away",
+   "era": "The Sky",
+   "cast": [
+    "anitsutsa",
+    "nvda"
+   ],
+   "summary": "Seven boys spent every day playing gatayusti, rolling the stone and throwing the pole, instead of working in the fields. Their mothers scolded them and got nowhere, so one evening they gathered the game stones, boiled them, and served them for supper - since the boys liked them so much. The boys went out and danced round the townhouse, and as they danced they began to rise. Their mothers came running and one caught her son with a pole and pulled him down, and he hit the ground so hard he sank into it, and a pine grew there. The other six went on up, and they are the Pleiades.",
+   "sources": [
+    {
+     "book": "Myths of the Cherokee (BAE 19th Annual Report)",
+     "translation": "James Mooney, 1900",
+     "location": "The Pleiades and the Pine",
+     "url": "https://sacred-texts.com/nam/cher/motc/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "talking-leaves",
+   "title": "The Talking Leaves",
+   "era": "The Nation",
+   "cast": [
+    "sequoyah",
+    "nunna_daul"
+   ],
+   "summary": "Sequoyah could not read or write in any language, and he did not believe the whites' talking leaves were magic - he thought it was a thing that could be worked out. It took him twelve years. He tried a picture for every word and abandoned it, then arrived at eighty-five characters, one per syllable of Cherokee. His own people thought he had lost his mind and burned his first work. He proved it by sending his young daughter out of earshot and having her read back a message. Within a few years the Cherokee Nation had a higher literacy rate than the settlers around it, and by 1828 a newspaper.",
+   "sources": [
+    {
+     "book": "Historical Sketch of the Cherokee (in Myths of the Cherokee)",
+     "translation": "James Mooney, 1900",
+     "location": "Historical Sketch, on Sequoyah",
+     "url": "https://archive.org/details/annualreportofbu19smit"
+    }
+   ]
+  },
+  {
+   "id": "trail-where-they-cried",
+   "title": "The Trail Where They Cried",
+   "era": "The Nation",
+   "cast": [
+    "nunna_daul",
+    "sequoyah",
+    "nunnehi"
+   ],
+   "summary": "In 1838 soldiers came into the Cherokee country and took people out of their houses at gunpoint - some of them still holding what they had been doing - and put them in stockades, and then marched them west through the winter. About four thousand died on the road. This is not mythology and it belongs in the pack anyway, because the only reason there were still Cherokee narrators for Mooney to sit with in 1890 is that some people survived it. A group hid in the mountains of North Carolina rather than go, and their descendants are there now, and the stories in this pack are theirs.",
+   "sources": [
+    {
+     "book": "Historical Sketch of the Cherokee (in Myths of the Cherokee)",
+     "translation": "James Mooney, 1900",
+     "location": "Historical Sketch, the Removal",
+     "url": "https://archive.org/details/annualreportofbu19smit"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "dayunisi",
+   "name": "Dayunisi",
+   "sanskrit": "Dâyuni'sï",
+   "category": "primordial",
+   "era": "The Making",
+   "role": "The little water beetle who dived and brought up the mud the world is made of",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/dayunisi.webp",
+   "epithets": [
+    "Beaver's Grandchild",
+    "the water beetle"
+   ],
+   "domains": [
+    "the first dive",
+    "the making of the earth",
+    "mud"
+   ],
+   "symbols": [
+    "the beetle darting on the water",
+    "the soft mud that spread"
+   ],
+   "mount": null,
+   "abode": "The water, before there was anything else",
+   "festivals": [],
+   "worship": "",
+   "bio": "Everybody was crowded up in the sky vault, so somebody had to go down and look.",
+   "longBio": "At the start there is only water below and Galunlati, the solid rock sky vault, above - and the animals are all up there and running out of room. Dayunisi, the little water beetle, goes down to see what is under the water. He darts about on the surface and finds nothing, then dives to the bottom and comes up with soft mud, which begins to spread and grow until it becomes the island we live on. It is one of the shortest creation accounts anywhere and it starts with a beetle rather than a god, which tells you a good deal about the tradition's priorities.",
+   "variantTraditions": "Earth-diver creations are found across North America and Siberia; the Cherokee version is unusually spare.",
+   "storyIds": [
+    "the-beetle-dives"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "divine-beast",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "unetlanvhi",
+   "name": "Unetlanvhi",
+   "sanskrit": "Unelanvhi",
+   "category": "creator",
+   "era": "The Making",
+   "role": "The Apportioner - invoked constantly, described almost never",
+   "wikipedia": "Unetlanvhi",
+   "portrait": "portraits/cherokee/unetlanvhi.webp",
+   "epithets": [
+    "the Apportioner",
+    "Yowa",
+    "the Provider"
+   ],
+   "domains": [
+    "creation",
+    "the ordering of the world",
+    "the sun's course"
+   ],
+   "symbols": [
+    "no image",
+    "the number seven",
+    "the sacred fire"
+   ],
+   "mount": null,
+   "abode": "Galunlati, the sky vault",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Cherokee creator has no body, no story and no picture, and is not much talked about.",
+   "longBio": "Unetlanvhi is the creator, and the name means something like the Apportioner - the one who assigns what each thing gets. The tradition invokes the creator and does not describe him, and the narratives are simply not interested: the stories are about animals, plants, Thunder Boys and medicine men, and the creator sets the terms and stays out. Some nineteenth-century sources give a name Yowa said to be so sacred that only priests might speak it, which Mooney treated with suspicion because it looks suspiciously like a missionary import.",
+   "variantTraditions": "The Yowa material comes from the Payne-Butrick papers and may reflect Christian influence; Mooney flagged it and modern scholars mostly agree.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator"
+   ]
+  },
+  {
+   "id": "galunlati",
+   "name": "Galunlati",
+   "sanskrit": "Galunlati",
+   "category": "primordial",
+   "era": "The Making",
+   "role": "The sky vault - solid rock, and the animals lived up there first",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/galunlati.webp",
+   "epithets": [
+    "the sky world",
+    "the seventh height",
+    "the stone vault"
+   ],
+   "domains": [
+    "the world above",
+    "the origin of the animals",
+    "the four cords"
+   ],
+   "symbols": [
+    "the arch of rock",
+    "the four cords at the cardinal points"
+   ],
+   "mount": null,
+   "abode": "Above the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "The earth hangs from it by four cords, and the cords are wearing out.",
+   "longBio": "Galunlati is the world above the sky, made of solid rock, and it is where everything was before there was an earth. It is also what the earth is attached to: the island floats on water and is slung from the sky vault by four cords, one at each cardinal point. The tradition states plainly that when the cords wear through the island will sink back into the water and everything will be as it was. There is no rescue in that account and nothing is promised afterwards - it is simply what will happen, said in the same tone as everything else.",
+   "variantTraditions": "The four-cord cosmology is recorded by Mooney directly from Cherokee narrators and has no obvious external parallel.",
+   "storyIds": [
+    "the-beetle-dives"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "buzzard",
+   "name": "The Great Buzzard",
+   "sanskrit": "Sulikwiyi",
+   "category": "beast",
+   "era": "The Making",
+   "role": "He got tired flying over wet mud and made the Smoky Mountains with his wings",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/buzzard.webp",
+   "epithets": [
+    "the grandfather of all buzzards",
+    "the tired one"
+   ],
+   "domains": [
+    "mountains and valleys",
+    "the shaping of the land"
+   ],
+   "symbols": [
+    "the great wings",
+    "the ridges of the Appalachians"
+   ],
+   "mount": null,
+   "abode": "Over the new earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "Where his wingtips struck the soft ground there is a valley, and where they lifted, a mountain.",
+   "longBio": "When the new earth was still soft, the animals sent the Great Buzzard down to see whether it was dry enough to live on. He flew and flew, and by the time he reached the country that is now Cherokee land he was tired and flying low, and every time his wings came down they struck the wet ground and made a valley, and every time they lifted they dragged up a mountain. The other animals called him back before he ruined the whole world, but the damage was done, which is why the Cherokee country is all mountains - and it is, and that is a fair description of the Smokies.",
+   "variantTraditions": "The story is an aetiology of the southern Appalachians specifically, and only works if you know the terrain.",
+   "storyIds": [
+    "the-beetle-dives"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "creator",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "nvda",
+   "name": "Nvda",
+   "sanskrit": "Nûñdâ",
+   "category": "deity",
+   "era": "The Making",
+   "role": "The sun is a woman, and she hated being looked at until her daughter died",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/nvda.webp",
+   "epithets": [
+    "the Sun",
+    "Unelanuhi, the apportioner of time",
+    "the grandmother"
+   ],
+   "domains": [
+    "the sun",
+    "daylight",
+    "the measuring of time",
+    "grief"
+   ],
+   "symbols": [
+    "the sun's path",
+    "the rattlesnake at the door"
+   ],
+   "mount": null,
+   "abode": "Overhead, and her daughter's house at noon",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Cherokee sun is female and the moon is her brother, and she resented people squinting at her.",
+   "longBio": "Nvda is the sun, and she is a woman. She used to stop at her daughter's house in the middle of the sky each noon, and she disliked the people below because they screwed up their faces when they looked at her - unlike her brother the Moon, at whom they smiled. So she sent a fever that killed them in numbers. The Little Men set an ambush with a rattlesnake, meaning to kill her; the snake struck her daughter instead. Then the sun shut herself away in grief and the world went dark, and the story turns into an attempt to bring the daughter back from the Darkening Land.",
+   "variantTraditions": "The female sun and male moon are a genuine and consistent feature of Southeastern traditions and distinguish them from most of Eurasia.",
+   "storyIds": [
+    "pleiades-boys"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "fate-time",
+    "destroyer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "selu",
+   "name": "Selu",
+   "sanskrit": "Selu",
+   "category": "creator",
+   "era": "The First People",
+   "role": "Corn Mother - she produced food from her own body, and her sons killed her for it",
+   "wikipedia": "Selu",
+   "portrait": "portraits/cherokee/selu.webp",
+   "epithets": [
+    "Corn",
+    "the Corn Mother",
+    "the first woman"
+   ],
+   "domains": [
+    "corn",
+    "agriculture",
+    "provision",
+    "the price of it"
+   ],
+   "symbols": [
+    "the storehouse",
+    "the seven times round the field",
+    "corn springing where she was dragged"
+   ],
+   "mount": null,
+   "abode": "The house at Pilot Knob",
+   "festivals": [],
+   "worship": "",
+   "bio": "The corn came out of her body. When her sons found out, they decided she was a witch.",
+   "longBio": "Selu is the first woman and the origin of corn. Every day she went to the storehouse and came back with a full basket, and her two sons spied on her and saw that she was rubbing her stomach and her sides and the corn and beans were falling out of her body. They decided she was a witch and resolved to kill her. She knew before they said anything, and gave them instructions: clear a circle of ground, drag my body over it seven times, and stay awake all night. They cleared only two small patches and dragged her over twice, and slept - which is why corn grows only in some places and must be tended twice a year.",
+   "variantTraditions": "Corn Mother traditions run across the Southeast and the Southwest; the Cherokee version is unusual in having her killed by her own sons and consenting to it.",
+   "storyIds": [
+    "corn-out-of-her-body"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother",
+    "creator",
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "kanati",
+   "name": "Kanati",
+   "sanskrit": "Kanati",
+   "category": "creator",
+   "era": "The First People",
+   "role": "The Lucky Hunter, who kept all the game locked in a mountain",
+   "wikipedia": "Kanati",
+   "portrait": "portraits/cherokee/kanati.webp",
+   "epithets": [
+    "the Lucky Hunter",
+    "the first man"
+   ],
+   "domains": [
+    "hunting",
+    "game animals",
+    "the rock door in the mountain"
+   ],
+   "symbols": [
+    "the cave in the mountainside",
+    "the arrow",
+    "the two wolves"
+   ],
+   "mount": null,
+   "abode": "Pilot Knob",
+   "festivals": [],
+   "worship": "",
+   "bio": "He never came home empty-handed because he had them all shut up behind a rock.",
+   "longBio": "Kanati is Selu's husband, and his hunting was infallible for a simple reason: every game animal in the world was locked in a cave in the mountain, and he went and let one out whenever he needed meat. His sons followed him and found the door, and rolled the rock away to see, and every deer, every rabbit, every bird and every wild animal came pouring out past them and scattered across the world - and that is why hunting is hard. Kanati was not pleased. After Selu's death he and she leave, and the boys follow them, and the family is finished.",
+   "variantTraditions": "Kanati and Selu are the Cherokee first couple and their story is the tradition's central narrative, explaining agriculture and hunting in one connected sequence.",
+   "storyIds": [
+    "corn-out-of-her-body",
+    "rock-in-the-mountain"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "hero-champion",
+    "divine-beast",
+    "preserver"
+   ]
+  },
+  {
+   "id": "thunder_boys",
+   "name": "The Thunder Boys",
+   "sanskrit": "Anisgaya Tsunsdi",
+   "category": "hero",
+   "era": "The First People",
+   "role": "Two brothers - one of them born from blood washed into the river - who ruined everything",
+   "wikipedia": "Kanati",
+   "portrait": "portraits/cherokee/thunder_boys.webp",
+   "epithets": [
+    "the Little Men",
+    "Inage Utasuhi, He Who Grew Up Wild",
+    "the Thunders"
+   ],
+   "domains": [
+    "mischief",
+    "the release of the game",
+    "thunder",
+    "help given to heroes"
+   ],
+   "symbols": [
+    "the two boys",
+    "the rock rolled from the cave",
+    "thunder in the west"
+   ],
+   "mount": null,
+   "abode": "The west, in the Thunder country",
+   "festivals": [],
+   "worship": "",
+   "bio": "The wild one came out of the river, and between them they let out every animal on earth.",
+   "longBio": "Selu washed the blood of the game at the river, and a boy grew up out of it and lived in the water - the Wild Boy - and eventually joined his brother. Between them the two release all the game from Kanati's cave, spy on their mother and kill her, and then follow their parents to the Darkening Land. Afterwards they become the Thunders, living in the west, and in later stories they are the ones a person in trouble may be sent to for help. They are the closest thing in the Cherokee corpus to a pair of divine tricksters, and they cause every major loss in the tradition.",
+   "variantTraditions": "The Thunder Boys are also identified with the Little Men who appear as helpers in later stories, and the two roles are not always distinguished.",
+   "storyIds": [
+    "corn-out-of-her-body",
+    "rock-in-the-mountain"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sky-thunder",
+    "messenger-trickster",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "awi_usdi",
+   "name": "Little Deer",
+   "sanskrit": "Awi Usdi",
+   "category": "beast",
+   "era": "The Council",
+   "role": "Chief of the deer, who gives every careless hunter rheumatism",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/awi_usdi.webp",
+   "epithets": [
+    "the chief of the deer",
+    "the white deer"
+   ],
+   "domains": [
+    "deer",
+    "hunting etiquette",
+    "rheumatism",
+    "the asking of pardon"
+   ],
+   "symbols": [
+    "the small white deer",
+    "the drop of blood at the wound"
+   ],
+   "mount": null,
+   "abode": "Wherever a deer is killed",
+   "festivals": [],
+   "worship": "",
+   "bio": "He arrives at the body, asks whether the hunter said the pardon, and if not, cripples him.",
+   "longBio": "When the animals held council about people killing them, the deer's answer was procedural. Awi Usdi, their chief, decreed that hunters must ask pardon of each deer they kill. He is quick and invisible: he goes to the spot where a deer has fallen, bends over the blood and asks whether the hunter offered the prayer. If yes, nothing happens. If no, he follows the hunter home along his trail and strikes him with crippling rheumatism, so that the man can never hunt again. It is an entirely practical piece of game management, enforced by arthritis.",
+   "variantTraditions": "Mooney records that hunters recited a formula over the killed deer, which is exactly the practice the story enforces.",
+   "storyIds": [
+    "rock-in-the-mountain",
+    "animals-invent-disease"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "death-judge",
+    "preserver"
+   ]
+  },
+  {
+   "id": "animal_council",
+   "name": "The Council of the Animals",
+   "sanskrit": "Anitsiskwa",
+   "category": "beast",
+   "era": "The Council",
+   "role": "They met to decide what to do about people, and invented every disease there is",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/animal_council.webp",
+   "epithets": [
+    "the animals in council",
+    "the bears, deer, fish, birds and insects"
+   ],
+   "domains": [
+    "the invention of disease",
+    "revenge",
+    "the crowded earth"
+   ],
+   "symbols": [
+    "the council fire",
+    "the townhouse under the mountain"
+   ],
+   "mount": null,
+   "abode": "Each animal tribe's own townhouse",
+   "festivals": [],
+   "worship": "",
+   "bio": "Each species proposed a disease. The grubworm was so pleased it fell over backwards laughing.",
+   "longBio": "People multiplied, invented weapons, and began killing animals carelessly and crushing the small ones underfoot. So the animals held councils, tribe by tribe. The bears considered fighting back with bows and gave it up because their claws got in the way. The deer produced rheumatism. The fish and reptiles sent bad dreams. The birds, insects and smaller creatures met and each named a disease, and by the end the grubworm was so delighted at the list that he rolled over backwards and could not get up again, and that is why grubs wriggle on their backs. Then they all went home.",
+   "variantTraditions": "The council is immediately followed by the plants' response, and Mooney presents the two as a single narrative.",
+   "storyIds": [
+    "animals-invent-disease"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "divine-beast",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "plant_council",
+   "name": "The Plants",
+   "sanskrit": "Anitsuwatsi",
+   "category": "nature",
+   "era": "The Council",
+   "role": "They heard what the animals had done and each agreed to be the cure for one disease",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/plant_council.webp",
+   "epithets": [
+    "the plant people",
+    "the friendly ones"
+   ],
+   "domains": [
+    "medicine",
+    "the cures",
+    "the botanical pharmacopoeia"
+   ],
+   "symbols": [
+    "the herb gathered with a formula",
+    "the seven-times prayer"
+   ],
+   "mount": null,
+   "abode": "The forest and the riverbank",
+   "festivals": [],
+   "worship": "",
+   "bio": "This is why every disease has a plant, and why the medicine man is a botanist.",
+   "longBio": "The plants, who are friendly to people, heard what the animals had decided and each one - every tree, shrub, herb, grass and moss - agreed to furnish the cure for one of the diseases if called on by name. That is the whole basis of Cherokee medicine: the remedy exists, one plant per ailment, and the medicine man's job is to identify which spirit has caused the illness and then know which plant answers it. Mooney records hundreds of these pairings. It is one of the most economical explanations of a working pharmacopoeia in any tradition, and it makes the plants the moral counterweight to the animals.",
+   "variantTraditions": "Mooney's parallel work on the sacred formulas records the plant-disease pairings in detail; the formulas themselves are medicine texts and are not used in this pack.",
+   "storyIds": [
+    "animals-invent-disease",
+    "stone-coat-burning"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "healer",
+    "preserver",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "uktena",
+   "name": "Uktena",
+   "sanskrit": "Uktena",
+   "category": "beast",
+   "era": "The Monsters",
+   "role": "A horned serpent with a blazing crystal in its forehead that no one can look at and live",
+   "wikipedia": "Uktena",
+   "portrait": "portraits/cherokee/uktena.webp",
+   "epithets": [
+    "the keen-eyed",
+    "the horned serpent"
+   ],
+   "domains": [
+    "the deep pools and high passes",
+    "the Ulunsuti crystal",
+    "death by sight"
+   ],
+   "symbols": [
+    "the crest like a blazing diamond",
+    "scales with a white spot on the seventh"
+   ],
+   "mount": null,
+   "abode": "Deep water and lonely mountain passes",
+   "festivals": [],
+   "worship": "",
+   "bio": "Looking at it kills you - not it looking at you, which is worse.",
+   "longBio": "The Uktena is as thick as a tree trunk, with horns, scales that flash like sparks, and a crest on its forehead like a blazing diamond called the Ulunsuti. Anyone who so much as looks at the Uktena is doomed - not the person, but the family, since the sight draws them to it and they run toward it instead of away. The only vulnerable spot is the seventh scale from the head, over the heart. The Ulunsuti is the greatest of all talismans, and a man who owns one can foretell everything, but it must be fed blood or it will find its own.",
+   "variantTraditions": "The horned serpent is common across the Southeast and Great Lakes; the Ulunsuti stone and its blood-feeding are specifically Cherokee.",
+   "storyIds": [
+    "uktena-crystal"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "agan_unitsi",
+   "name": "Agan-unitsi",
+   "sanskrit": "Aganunitsi",
+   "category": "hero",
+   "era": "The Monsters",
+   "role": "A prisoner who bought his life by promising to bring back the Uktena's crystal",
+   "wikipedia": "Uktena",
+   "portrait": "portraits/cherokee/agan_unitsi.webp",
+   "epithets": [
+    "the Shawano medicine man",
+    "the groundhog's mother"
+   ],
+   "domains": [
+    "monster-killing",
+    "the winning of the Ulunsuti",
+    "bargaining"
+   ],
+   "symbols": [
+    "the circle of fire and pine cones",
+    "the trench",
+    "the arrow through the seventh scale"
+   ],
+   "mount": null,
+   "abode": "Gahuti mountain",
+   "festivals": [],
+   "worship": "",
+   "bio": "Condemned to death, he offered to fetch the one thing nobody had ever fetched.",
+   "longBio": "Agan-unitsi is a Shawano medicine man held prisoner by the Cherokee and facing execution, who offers to buy his freedom by bringing back an Ulunsuti. He hunts monsters up and down the mountains until he finds the Uktena asleep on Gahuti. He digs a trench, builds a circle of pine cones round the serpent and sets them alight, then shoots an arrow through the seventh scale and runs for the trench. The serpent's blood pours down in a flood and he is protected by the ditch. Seven days later he goes back and finds the crystal, and lives.",
+   "variantTraditions": "Mooney gives the story from Swimmer; the detail of the trench protecting him from the venomous blood is consistent across tellings.",
+   "storyIds": [
+    "uktena-crystal"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sage-seer",
+    "war"
+   ]
+  },
+  {
+   "id": "spearfinger",
+   "name": "Spearfinger",
+   "sanskrit": "Utlunta",
+   "category": "beast",
+   "era": "The Monsters",
+   "role": "Stone skin, a finger like an awl, and she takes livers without you noticing",
+   "wikipedia": "Spearfinger",
+   "portrait": "portraits/cherokee/spearfinger.webp",
+   "epithets": [
+    "Utlunta, the one with a pointed spear",
+    "Nunyunuwi, dressed in stone"
+   ],
+   "domains": [
+    "stone skin",
+    "the taking of livers",
+    "disguise as a grandmother"
+   ],
+   "symbols": [
+    "the stone forefinger",
+    "the skin no weapon can pierce",
+    "the song about liver"
+   ],
+   "mount": null,
+   "abode": "Whiteside Mountain, and the road",
+   "festivals": [],
+   "worship": "",
+   "bio": "She could take your liver and eat it and you would walk on not knowing anything had happened.",
+   "longBio": "Spearfinger's skin is solid stone and no weapon touches it, and the forefinger of her right hand is a long stone awl. She takes the shape of a harmless old woman, offers to comb a child's hair, and stabs the liver out and eats it - and the victim feels nothing and walks home unaware, and dies later. She was finally trapped in a pit, and even then arrows bounced off her, until a chickadee landed on her right hand and a titmouse indicated the same place, and they understood that her heart was in her hand. An arrow there killed her.",
+   "variantTraditions": "The chickadee is regarded as a truthful bird in Cherokee tradition and the titmouse as a liar, and both appear in this story doing their respective jobs.",
+   "storyIds": [
+    "spearfinger-heart"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "stone_coat",
+   "name": "Stone Coat",
+   "sanskrit": "Nvyunuwi",
+   "category": "beast",
+   "era": "The Monsters",
+   "role": "A cannibal in stone armour, brought down by seven menstruating women",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/stone_coat.webp",
+   "epithets": [
+    "Nunyunuwi, dressed in stone",
+    "the stone man"
+   ],
+   "domains": [
+    "cannibalism",
+    "stone armour",
+    "the gift of medicine given while dying"
+   ],
+   "symbols": [
+    "the stone skin",
+    "the staff that finds people",
+    "the burning pyre"
+   ],
+   "mount": null,
+   "abode": "The mountains",
+   "festivals": [],
+   "worship": "",
+   "bio": "No weapon touched him, so they used the one thing his power could not survive.",
+   "longBio": "Nvyunuwi is a stone-skinned cannibal who hunts people with a staff that points at them. A medicine man, told what was coming, set seven menstruating women in the path, and as he passed each one his power drained - by the seventh he was on the ground vomiting blood. Then they stacked wood on him and burned him, and while he burned he sang and told them everything: the songs for hunting, for healing, for love, for war. Out of his ashes came the red paint and a crystal. He is destroyed by the specific ritual power the tradition assigns to women, and pays for his death with the whole medicine corpus.",
+   "variantTraditions": "The story is one of the clearest statements of the ritual power attributed to menstruation in Southeastern tradition, which is treated as dangerous rather than shameful.",
+   "storyIds": [
+    "stone-coat-burning"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "raven_mocker",
+   "name": "The Raven Mocker",
+   "sanskrit": "Kalona Ayeliski",
+   "category": "beast",
+   "era": "The Monsters",
+   "role": "The most feared witch of all - it takes the heart of a dying person and adds their years",
+   "wikipedia": "Raven_Mocker",
+   "portrait": "portraits/cherokee/raven_mocker.webp",
+   "epithets": [
+    "Kalona Ayeliski",
+    "the one who flies with a sound like a raven"
+   ],
+   "domains": [
+    "witchcraft",
+    "the stealing of life",
+    "the dying"
+   ],
+   "symbols": [
+    "the fiery shape with outstretched arms",
+    "the raven's cry",
+    "the withered old body"
+   ],
+   "mount": null,
+   "abode": "The sky over a sick house",
+   "festivals": [],
+   "worship": "",
+   "bio": "It flies with arms out and sparks trailing, and it cries out like a raven diving.",
+   "longBio": "A Raven Mocker is a witch who robs the dying of their remaining years. It comes through the air with a rushing sound, arms stretched out, trailing sparks like fire, and it cries as it goes - a sound like a raven diving. When it reaches the house it torments the sick person until they die, then takes the heart and eats it and adds their unlived years to its own. Only a medicine man can see it. If one is seen and named, it dies within seven days. They are recognisable in life as very old and withered people, because they have hoarded so many stolen years.",
+   "variantTraditions": "The Raven Mocker is described by Mooney as the most dreaded of all Cherokee witches, and belief in it was current at the time he was collecting.",
+   "storyIds": [
+    "raven-mocker"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "death-judge",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "tlanuwa",
+   "name": "The Tlanuwa",
+   "sanskrit": "Tlanuwa",
+   "category": "beast",
+   "era": "The Monsters",
+   "role": "Great hawks that nested on a cliff and carried off children",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/tlanuwa.webp",
+   "epithets": [
+    "the great mythic hawks"
+   ],
+   "domains": [
+    "the cliffs over the river",
+    "the taking of children"
+   ],
+   "symbols": [
+    "the cave high on the rock face",
+    "the enormous wings"
+   ],
+   "mount": null,
+   "abode": "Tlanuwa'i, the cliff over the Little Tennessee",
+   "festivals": [],
+   "worship": "",
+   "bio": "A medicine man went down the cliff on ropes and threw the young ones into the river.",
+   "longBio": "The Tlanuwa are enormous hawks that nested in a cave high on a cliff above the Little Tennessee river and carried off children from the settlements below. A medicine man was let down the rock face on ropes while the old birds were away, and threw the young ones out of the nest into the water, where a great serpent living in the river ate them. When the parents came back and found the nest empty they circled screaming, and then flew off over the mountains and were never seen again. The cliff and the cave are real places and are still pointed out.",
+   "variantTraditions": "Tlanuwa imagery - the raptor with a serpent - appears on Mississippian shell gorgets from the region, which is suggestive rather than proof of continuity.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "nunnehi",
+   "name": "The Nunnehi",
+   "sanskrit": "Nvnehi",
+   "category": "deity",
+   "era": "The Neighbours",
+   "role": "The immortals who live inside the mountains and turn up when you are in trouble",
+   "wikipedia": "Nunnehi",
+   "portrait": "portraits/cherokee/nunnehi.webp",
+   "epithets": [
+    "the people who live anywhere",
+    "the immortals",
+    "the invisible townspeople"
+   ],
+   "domains": [
+    "the townhouses inside the mountains",
+    "help in war",
+    "hospitality",
+    "music"
+   ],
+   "symbols": [
+    "the drumming heard from inside a hill",
+    "the townhouse at Pilot Knob"
+   ],
+   "mount": null,
+   "abode": "Inside the mountains, in townhouses",
+   "festivals": [],
+   "worship": "",
+   "bio": "You hear drumming and singing from inside a hill, go and look, and there is nobody there.",
+   "longBio": "The Nunnehi are a people like the Cherokee in every way except that they are immortal and usually invisible. They have their own townhouses inside the mountains and under the water, and travellers hear drums and dance songs coming out of a bare hillside. They are friendly: they take in lost hunters and feed them, they warn of attacks, and in more than one account they appeared as warriors and fought alongside the Cherokee. Before the Removal, some stories say, they offered to take whole towns into the mountains with them, and one town accepted.",
+   "variantTraditions": "The account of a town going into the mountain with the Nunnehi is attached to the period of the Removal and reads as a response to it.",
+   "storyIds": [
+    "drums-in-the-hill",
+    "trail-where-they-cried"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "hero-champion",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "yunwi_tsunsdi",
+   "name": "The Little People",
+   "sanskrit": "Yvwi Tsunsdi",
+   "category": "deity",
+   "era": "The Neighbours",
+   "role": "Waist-high, long-haired, helpful - and they do not want to be followed home",
+   "wikipedia": "Yunwi_Tsunsdi",
+   "portrait": "portraits/cherokee/yunwi_tsunsdi.webp",
+   "epithets": [
+    "the Little People",
+    "the ones about knee high"
+   ],
+   "domains": [
+    "the return of lost children",
+    "help with work",
+    "music in the woods",
+    "punishment of the rude"
+   ],
+   "symbols": [
+    "drumming in a rock cleft",
+    "small footprints",
+    "the child brought back"
+   ],
+   "mount": null,
+   "abode": "Rock shelters and laurel thickets",
+   "festivals": [],
+   "worship": "",
+   "bio": "They will bring your lost child back. Follow them home afterwards and you will be sorry.",
+   "longBio": "The Yunwi Tsunsdi are about waist high with hair to the ground, and they live in caves and rock shelters in the mountains. They are generally kind: they find lost children and bring them home, they finish work left undone overnight, and they are heard drumming. But they are private, and the rule is firm - if you meet them or hear them, do not go looking, and do not speak of it for seven years, or something will happen to you. Cherokee people in western North Carolina still leave them alone, and the tradition is entirely current rather than historical.",
+   "variantTraditions": "Belief in the Little People is very much alive; they are among the most frequently mentioned figures in contemporary Cherokee communities.",
+   "storyIds": [
+    "spearfinger-heart",
+    "raven-mocker",
+    "drums-in-the-hill"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "healer",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "tsulkalu",
+   "name": "Tsulkalu",
+   "sanskrit": "Tsulkalu",
+   "category": "deity",
+   "era": "The Neighbours",
+   "role": "The slant-eyed giant who owns the game, and left his fingerprints in a rock",
+   "wikipedia": "Judaculla_Rock",
+   "portrait": "portraits/cherokee/tsulkalu.webp",
+   "epithets": [
+    "Judaculla",
+    "the slant-eyed one",
+    "the great lord of the game"
+   ],
+   "domains": [
+    "hunting",
+    "the mountains",
+    "game animals",
+    "the giant's farm"
+   ],
+   "symbols": [
+    "Judaculla Rock, carved all over",
+    "the seven-furrow leap",
+    "Tanasee Bald"
+   ],
+   "mount": null,
+   "abode": "Tsunegunyi, the Judaculla mountains",
+   "festivals": [],
+   "worship": "",
+   "bio": "There is a soapstone boulder in North Carolina covered in carvings, and this is whose it is.",
+   "longBio": "Tsulkalu is a giant who owns the game and lives in the high mountains, with slanting eyes and a stride that clears whole valleys. He married a Cherokee woman and her family found him impossible to live with. His farm was on the mountainside and he cleared it in a night. What makes him unusual among the figures here is the rock: Judaculla Rock, a soapstone boulder in Jackson County, North Carolina, is covered with over a thousand carved figures of genuinely unknown date and meaning, and the tradition says he left the marks jumping down from his mountain and landing on it.",
+   "variantTraditions": "The carvings on Judaculla Rock are archaeologically real, of contested date - estimates run from 3,000 to 1,500 years ago - and undeciphered.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "king-ruler",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "untsaiyi",
+   "name": "Untsaiyi",
+   "sanskrit": "Untsaiyi",
+   "category": "beast",
+   "era": "The Neighbours",
+   "role": "The Gambler, made of brass, who plays for stakes and never intended to pay",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/untsaiyi.webp",
+   "epithets": [
+    "Brass",
+    "the Gambler",
+    "the one who wagers"
+   ],
+   "domains": [
+    "gambling",
+    "the gatayusti game",
+    "cheating",
+    "the end of the world"
+   ],
+   "symbols": [
+    "the brass body",
+    "the stone wheel and pole",
+    "the stakes driven through his hands"
+   ],
+   "mount": null,
+   "abode": "The far west, pegged to the ground",
+   "festivals": [],
+   "worship": "",
+   "bio": "They finally staked him to the ground under the sky at the western edge, and he is still there.",
+   "longBio": "Untsaiyi is made of brass and he is the great gambler, playing gatayusti - the wheel-and-pole game - for everything anyone will stake, and cheating. The Sun's grandson pursues him across the world and eventually he is caught. Because he cannot be killed they drive stakes through his hands and feet and pin him to the ground at the far western edge of the world under the sky vault, and two great rocks lean over him. He is still lying there. He gnaws at the stakes constantly, and when he finally gets loose the world will end - which is a second doomsday running alongside the fraying cords.",
+   "variantTraditions": "The gatayusti game is real and was played across the Southeast; stone discs used for it survive in large numbers.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "wealth-fortune",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "tsistu",
+   "name": "Tsistu",
+   "sanskrit": "Tsistu",
+   "category": "beast",
+   "era": "The Tricksters",
+   "role": "The Rabbit - vain, greedy, endlessly outsmarted, and the ancestor of Br'er Rabbit",
+   "wikipedia": "Br'er_Rabbit",
+   "portrait": "portraits/cherokee/tsistu.webp",
+   "epithets": [
+    "the Rabbit",
+    "the trickster"
+   ],
+   "domains": [
+    "trickery",
+    "vanity",
+    "getting caught",
+    "the tar trap"
+   ],
+   "symbols": [
+    "the split lip",
+    "the short tail",
+    "the tar wolf"
+   ],
+   "mount": null,
+   "abode": "Everywhere, in trouble",
+   "festivals": [],
+   "worship": "",
+   "bio": "He stole from a garden, got stuck in a tar figure, and the story reached the Carolinas twice.",
+   "longBio": "Tsistu is the Cherokee trickster and he loses almost as often as he wins - he is caught stealing, he is beaten in races he has rigged, and he is the reason he has a split lip and a short tail. One of his stories has him raiding a garden until the owner sets up a figure smeared with pitch, and the Rabbit strikes it and sticks fast. That is the Tar Baby, and the same story exists in West Africa, and both traditions met in the American South. The Uncle Remus versions collected in the 1880s draw on both, and untangling which came from where is a live scholarly argument.",
+   "variantTraditions": "The Tar Baby motif is found in both Cherokee and West African tradition; the direction of borrowing in the American South is genuinely unresolved.",
+   "storyIds": [
+    "animals-invent-disease"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "terrapin",
+   "name": "The Terrapin",
+   "sanskrit": "Tuksi",
+   "category": "beast",
+   "era": "The Tricksters",
+   "role": "He beat the rabbit in a race by stationing his brothers along the ridges",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/terrapin.webp",
+   "epithets": [
+    "the turtle",
+    "the one with the cracked shell"
+   ],
+   "domains": [
+    "cunning",
+    "the rigged race",
+    "the cracked shell"
+   ],
+   "symbols": [
+    "the shell mended with cords",
+    "the four ridges"
+   ],
+   "mount": null,
+   "abode": "The four ridges",
+   "festivals": [],
+   "worship": "",
+   "bio": "The rabbit never saw him move, because it was never him.",
+   "longBio": "The Rabbit boasted he was the fastest and challenged the Terrapin, expecting an easy win. The Terrapin arranged for a brother to be waiting at the crest of each of the four ridges the race crossed, all looking alike, so that whenever the Rabbit came over a rise the Terrapin was already ahead of him. He lost. The Terrapin's own cracked shell comes from a different story, where he boasted about killing a wolf and the wolves caught him and threw him against a rock, and the pieces were sung back together, which is why every terrapin's shell is a pattern of joins.",
+   "variantTraditions": "The relay-race trick is told across the Southeast and reappears in African-American storytelling with the same structure.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "dakwa",
+   "name": "Dakwa",
+   "sanskrit": "Dakwa",
+   "category": "beast",
+   "era": "The Monsters",
+   "role": "A fish big enough to swallow a man, who cut his way out from inside",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/dakwa.webp",
+   "epithets": [
+    "the great fish",
+    "the one in the river"
+   ],
+   "domains": [
+    "the deep river",
+    "swallowing",
+    "the escape from inside"
+   ],
+   "symbols": [
+    "the enormous fish",
+    "the mussel shell used as a knife"
+   ],
+   "mount": null,
+   "abode": "The Tennessee river",
+   "festivals": [],
+   "worship": "",
+   "bio": "He cut at the liver from the inside with a mussel shell until it let him out.",
+   "longBio": "The Dakwa is a fish of enormous size living in the deep part of the river, which swallowed a man whole out of a canoe. Inside, in the dark, he found he could feel something soft and got hold of a mussel shell and began scraping and cutting at it - the fish's liver - until the creature was in such pain that it swam to shallow water and put him out. When he got home his skin was covered in red spots where the fish's juices had burned him, and his hair had been scalded off, and it never grew back. It is the oldest of story-shapes told with unusual physical specificity.",
+   "variantTraditions": "The swallowed-hero motif is worldwide; the mussel-shell detail and the burned skin are Cherokee particulars.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "divine-beast",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "anitsutsa",
+   "name": "The Pleiades",
+   "sanskrit": "Anitsutsa",
+   "category": "primordial",
+   "era": "The Sky",
+   "role": "Seven boys who danced until they rose into the sky, and one fell back as a pine",
+   "wikipedia": "Cherokee_spiritual_beliefs",
+   "portrait": "portraits/cherokee/anitsutsa.webp",
+   "epithets": [
+    "the Boys",
+    "the seven who went up"
+   ],
+   "domains": [
+    "the Pleiades",
+    "the pine tree",
+    "children who will not work"
+   ],
+   "symbols": [
+    "seven stars",
+    "the gatayusti stone",
+    "the pine"
+   ],
+   "mount": null,
+   "abode": "The sky, and one pine in the yard",
+   "festivals": [],
+   "worship": "",
+   "bio": "Their mothers fed them a stone for supper, so they danced themselves out of reach.",
+   "longBio": "Seven boys spent all their time playing gatayusti instead of working in the fields, and their mothers, exasperated, boiled the game stones and served them for supper - saying that since they liked the stones so much they could eat them. The boys went out and danced round the townhouse, and began to rise into the air. Their mothers came running and one caught her son with a pole and pulled him down, and he struck the ground so hard he sank out of sight, and a pine tree grew there. The other six went on up and are the Pleiades. The pine is why the tree is regarded as related to them.",
+   "variantTraditions": "Pleiades stories about a group of children or dancers who rise are widespread in North America; the pine is the Cherokee addition.",
+   "storyIds": [
+    "pleiades-boys"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "sequoyah",
+   "name": "Sequoyah",
+   "sanskrit": "Sequoyah",
+   "category": "mortal",
+   "era": "The Nation",
+   "role": "He could not read any language, and invented a writing system for his own",
+   "wikipedia": "Sequoyah",
+   "portrait": "portraits/cherokee/sequoyah.webp",
+   "epithets": [
+    "George Guess",
+    "the one who made the talking leaves"
+   ],
+   "domains": [
+    "the Cherokee syllabary",
+    "literacy",
+    "the written language"
+   ],
+   "symbols": [
+    "the eighty-five characters",
+    "the pipe",
+    "the Cherokee Phoenix"
+   ],
+   "mount": null,
+   "abode": "Willstown, then Arkansas",
+   "festivals": [],
+   "worship": "",
+   "bio": "The only documented case of an illiterate person inventing a working writing system from scratch.",
+   "longBio": "Sequoyah was a silversmith who could neither read nor write in any language, and he became convinced the whites' talking leaves were a skill rather than magic. He worked for over a decade, tried and abandoned a picture system, and arrived at a syllabary of eighty-five characters, one per syllable of Cherokee. He proved it by having his young daughter Ayokeh read out messages he could not have known. It spread so fast that within a few years the literacy rate of the Cherokee Nation exceeded that of the surrounding white settlers, and by 1828 there was a bilingual newspaper.",
+   "variantTraditions": "Sequoyah's achievement is the only well-documented instance of an individual with no prior literacy independently devising a functional writing system.",
+   "storyIds": [
+    "talking-leaves",
+    "trail-where-they-cried"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "nunna_daul",
+   "name": "Nunna daul Tsuny",
+   "sanskrit": "Nvna Daula Tsvyi",
+   "category": "mortal",
+   "era": "The Nation",
+   "role": "The Trail Where They Cried - and the ones who stayed in the mountains",
+   "wikipedia": "Trail_of_Tears",
+   "portrait": "portraits/cherokee/nunna_daul.webp",
+   "epithets": [
+    "the Trail of Tears",
+    "the trail where they cried",
+    "the Removal"
+   ],
+   "domains": [
+    "forced removal",
+    "survival",
+    "the Eastern Band"
+   ],
+   "symbols": [
+    "the stockades",
+    "the winter road west",
+    "the mountains they hid in"
+   ],
+   "mount": null,
+   "abode": "From the southern Appalachians to Indian Territory",
+   "festivals": [],
+   "worship": "",
+   "bio": "About four thousand died on the road. Several hundred hid in the mountains and never left.",
+   "longBio": "In 1838 the United States removed the Cherokee Nation from its homeland at gunpoint, holding people in stockades and marching them west through the winter. Something like four thousand died. It is not mythology, and it is in this pack because the tradition here is not a dead one and the reason the stories were still being told in 1890 for Mooney to write down is that people survived. A group led by Tsali resisted, and several hundred stayed hidden in the mountains of North Carolina, and their descendants are the Eastern Band of Cherokee Indians, still there.",
+   "variantTraditions": "Mooney's Historical Sketch, published with the myths, is one of the earliest detailed accounts of the Removal and drew directly on survivors' testimony.",
+   "storyIds": [
+    "drums-in-the-hill",
+    "talking-leaves",
+    "trail-where-they-cried"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "fate-time",
+    "hero-champion",
+    "preserver"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "dayunisi",
+   "to": "galunlati",
+   "type": "ally",
+   "note": "He went down from the sky vault to see what was below"
+  },
+  {
+   "from": "unetlanvhi",
+   "to": "galunlati",
+   "type": "ally",
+   "note": "The creator's country, above the stone arch"
+  },
+  {
+   "from": "unetlanvhi",
+   "to": "dayunisi",
+   "type": "guru",
+   "note": "The apportioner sets the terms and stays out of the story"
+  },
+  {
+   "from": "dayunisi",
+   "to": "buzzard",
+   "type": "sibling",
+   "note": "One brought up the mud, the other shaped it"
+  },
+  {
+   "from": "buzzard",
+   "to": "galunlati",
+   "type": "ally",
+   "note": "Sent down to see whether the new earth was dry"
+  },
+  {
+   "from": "nvda",
+   "to": "galunlati",
+   "type": "ally",
+   "note": "She crosses under the vault every day"
+  },
+  {
+   "from": "nvda",
+   "to": "anitsutsa",
+   "type": "sibling",
+   "note": "The sun and the seven who went up"
+  },
+  {
+   "from": "selu",
+   "to": "kanati",
+   "type": "consort",
+   "note": "Corn Mother and the Lucky Hunter"
+  },
+  {
+   "from": "selu",
+   "to": "thunder_boys",
+   "type": "parent",
+   "note": "They spied on her and decided she was a witch"
+  },
+  {
+   "from": "kanati",
+   "to": "thunder_boys",
+   "type": "parent",
+   "note": "They followed him and opened the mountain"
+  },
+  {
+   "from": "thunder_boys",
+   "to": "selu",
+   "type": "enemy",
+   "note": "They killed her, and she told them how to plant her"
+  },
+  {
+   "from": "thunder_boys",
+   "to": "kanati",
+   "type": "enemy",
+   "note": "And let out every animal in the world"
+  },
+  {
+   "from": "thunder_boys",
+   "to": "animal_council",
+   "type": "enemy",
+   "note": "Their carelessness is where the trouble starts"
+  },
+  {
+   "from": "kanati",
+   "to": "awi_usdi",
+   "type": "ally",
+   "note": "The hunter and the chief of the deer, on terms"
+  },
+  {
+   "from": "animal_council",
+   "to": "awi_usdi",
+   "type": "ally",
+   "note": "The deer's contribution to the council was rheumatism"
+  },
+  {
+   "from": "animal_council",
+   "to": "plant_council",
+   "type": "enemy",
+   "note": "The diseases, and the cures that answered them"
+  },
+  {
+   "from": "plant_council",
+   "to": "awi_usdi",
+   "type": "enemy",
+   "note": "Every affliction got a plant, including his"
+  },
+  {
+   "from": "awi_usdi",
+   "to": "tsistu",
+   "type": "sibling",
+   "note": "Two animal chiefs, one severe and one not"
+  },
+  {
+   "from": "uktena",
+   "to": "agan_unitsi",
+   "type": "enemy",
+   "note": "An arrow through the seventh scale, from a trench"
+  },
+  {
+   "from": "agan_unitsi",
+   "to": "uktena",
+   "type": "devotee",
+   "note": "He wanted the crystal, and bought his life with it"
+  },
+  {
+   "from": "uktena",
+   "to": "tlanuwa",
+   "type": "enemy",
+   "note": "The great hawks and the great serpent, on the same cliffs"
+  },
+  {
+   "from": "tlanuwa",
+   "to": "dakwa",
+   "type": "ally",
+   "note": "The serpent in the river ate what was thrown down to it"
+  },
+  {
+   "from": "spearfinger",
+   "to": "stone_coat",
+   "type": "sibling",
+   "note": "Two cannibals in stone skin, killed by different means"
+  },
+  {
+   "from": "spearfinger",
+   "to": "yunwi_tsunsdi",
+   "type": "enemy",
+   "note": "The birds and the Little People gave her away"
+  },
+  {
+   "from": "stone_coat",
+   "to": "plant_council",
+   "type": "guru",
+   "note": "Burning, he sang out the songs and the medicine"
+  },
+  {
+   "from": "raven_mocker",
+   "to": "yunwi_tsunsdi",
+   "type": "enemy",
+   "note": "Only a medicine man or the Little People see one"
+  },
+  {
+   "from": "raven_mocker",
+   "to": "nunnehi",
+   "type": "enemy",
+   "note": "The witch that takes years, and the people who give help"
+  },
+  {
+   "from": "nunnehi",
+   "to": "yunwi_tsunsdi",
+   "type": "sibling",
+   "note": "The immortals and the Little People, both living alongside"
+  },
+  {
+   "from": "nunnehi",
+   "to": "tsulkalu",
+   "type": "ally",
+   "note": "All of them keep townhouses inside the mountains"
+  },
+  {
+   "from": "tsulkalu",
+   "to": "awi_usdi",
+   "type": "ally",
+   "note": "The giant owns the game and the deer chief keeps its terms"
+  },
+  {
+   "from": "untsaiyi",
+   "to": "nvda",
+   "type": "enemy",
+   "note": "The Sun's grandson chased him to the western edge"
+  },
+  {
+   "from": "untsaiyi",
+   "to": "galunlati",
+   "type": "enemy",
+   "note": "Staked under the vault, gnawing, and when he is loose it ends"
+  },
+  {
+   "from": "untsaiyi",
+   "to": "anitsutsa",
+   "type": "ally",
+   "note": "The gatayusti game, in the sky and on the ground"
+  },
+  {
+   "from": "tsistu",
+   "to": "terrapin",
+   "type": "enemy",
+   "note": "He lost the race and never worked out how"
+  },
+  {
+   "from": "tsistu",
+   "to": "animal_council",
+   "type": "ally",
+   "note": "One of the animals, and the worst behaved"
+  },
+  {
+   "from": "dakwa",
+   "to": "uktena",
+   "type": "sibling",
+   "note": "Two things in the deep water"
+  },
+  {
+   "from": "anitsutsa",
+   "to": "thunder_boys",
+   "type": "sibling",
+   "note": "Children who would not do as they were told"
+  },
+  {
+   "from": "sequoyah",
+   "to": "nunna_daul",
+   "type": "ally",
+   "note": "The syllabary, and then the removal"
+  },
+  {
+   "from": "sequoyah",
+   "to": "unetlanvhi",
+   "type": "devotee",
+   "note": "The nation became literate in its own language"
+  },
+  {
+   "from": "nunna_daul",
+   "to": "nunnehi",
+   "type": "ally",
+   "note": "One town is said to have gone into the mountain instead"
+  },
+  {
+   "from": "nunna_daul",
+   "to": "yunwi_tsunsdi",
+   "type": "ally",
+   "note": "Several hundred hid in the mountains and stayed"
+  },
+  {
+   "from": "galunlati",
+   "to": "nvda",
+   "type": "ally",
+   "note": "The vault, and the woman who crosses it"
+  },
+  {
+   "from": "selu",
+   "to": "plant_council",
+   "type": "sibling",
+   "note": "Corn, and every other plant that agreed to help"
+  }
+ ]
+}
