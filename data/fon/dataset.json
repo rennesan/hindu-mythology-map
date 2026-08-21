@@ -1,0 +1,1832 @@
+{
+ "title": "Fon",
+ "description": "Dahomey and Benin: Mawu-Lisa who are one being with two faces, the serpent holding the world up, and Legba at the gate - and the religion that crossed the Atlantic and became Vodou.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Melville J. Herskovits, Dahomey: An Ancient West African Kingdom (1938) - fieldwork of 1931, still the standard reference",
+  "Bernard Maupoil, La geomancie a l'ancienne Cote des Esclaves (1943) - on Fa divination",
+  "A. B. Ellis, The Ewe-Speaking Peoples of the Slave Coast (1890); Auguste Le Herisse (1911)",
+  "Richard F. Burton, A Mission to Gelele (1864) - an eyewitness who despised his hosts; used with that in mind",
+  "Note: Vodun is a living religion, officially recognised in Benin with a national holiday on 10 January. The zombie-and-pins version is a twentieth-century American invention and appears nowhere in this pack"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/fon/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "herskovits": {
+   "t": "Dahomey: An Ancient West African Kingdom",
+   "tr": "Melville J. Herskovits, 1938",
+   "u": "https://archive.org/details/dahomeyancientwe0001hers"
+  },
+  "ellis": {
+   "t": "The Ewe-Speaking Peoples of the Slave Coast of West Africa",
+   "tr": "A. B. Ellis, 1890",
+   "u": "https://sacred-texts.com/afr/ewe/index.htm"
+  },
+  "burton": {
+   "t": "A Mission to Gelele, King of Dahome",
+   "tr": "Richard F. Burton, 1864 - hostile, and useful anyway",
+   "u": "https://archive.org/details/missiontogelelek01burt"
+  },
+  "leherisse": {
+   "t": "L'Ancien Royaume du Dahomey",
+   "tr": "Auguste Le Herisse, 1911",
+   "u": "https://archive.org/details/lanciennroyaumed00lehe"
+  },
+  "maupoil": {
+   "t": "La geomancie a l'ancienne Cote des Esclaves",
+   "tr": "Bernard Maupoil, 1943 - the standard work on Fa",
+   "u": "https://archive.org/details/lageomancielanc00maup"
+  }
+ },
+ "meta": {
+  "id": "fon",
+  "label": "Fon",
+  "sublabel": "Dahomey & Benin",
+  "accent": "#c47f5a",
+  "root": "nana_buluku"
+ },
+ "profile": {
+  "cosmicNature": "A creator who made a pair and then left. Nana Buluku brought forth Mawu-Lisa - one being with two aspects, the moon and the sun, female and male - and retired completely from the business of the world. Mawu-Lisa then made everything, carried through the process in the mouth of an enormous serpent whose coils are still under the earth holding it steady. When the serpent shifts, there is an earthquake.",
+  "natureOfDivinity": "Vodun, which is not a word for god exactly - it is closer to a force or a presence that can be approached, served and made to act. They come in pantheons, each headed by one of Mawu-Lisa's children and each holding a domain: the sky, the earth, the thunder, the iron, the sea. Below them are ancestors, who are served just as seriously, and above them a creator who does not intervene and is not petitioned.",
+  "afterlife": "Kutome, the land of the dead, which is organised like the land of the living. The dead keep their rank and their family and can be reached, consulted and offended. The obligation runs the other way too: they must be fed and named, and a family that neglects its dead will hear about it. Great ancestors of the royal line become tohosu and get their own cult, and the boundary between an ancestor and a vodun is one of scale.",
+  "systemMechanism": "Fa, and possession. Fa is the divination system - the same one the Yoruba call Ifa - in which a diviner casts palm nuts or a chain and reads one of two hundred and fifty-six figures, each with a body of verse attached, and the verse tells you what your situation is and what it will cost to change it. Possession is the other half: at ceremony a vodun mounts a devotee, who is then not themselves, and speaks and acts as the vodun.",
+  "canonTexts": "None written. The tradition is held in Fa verse, in ritual, in songs, and in the appliqued cloths of Abomey, which record the reigns and emblems of the kings. It was recorded from the outside by Burton in 1864 and Ellis in 1890, and from close up by Melville and Frances Herskovits, who did fieldwork in Dahomey in 1931 and published two volumes that remain the standard reference."
+ },
+ "hierarchy": [
+  {
+   "title": "The Making",
+   "blurb": "A creator who made one being with two faces - the moon who is female and the sun who is male - and then withdrew entirely and has never been petitioned since. The world was made carried in the mouth of a serpent, who is now coiled underneath it holding it up.",
+   "memberIds": [
+    "nana_buluku",
+    "mawu_lisa",
+    "dan",
+    "legba",
+    "vodun"
+   ],
+   "connectorCaption": "Their children took the world and divided it between them"
+  },
+  {
+   "title": "The Pantheons",
+   "blurb": "The earth and smallpox to the eldest. The thunder, whose lightning is a verdict. The iron, and every tool made of it, and a famous statue of him with a sword where the head should be. The sea, the bush, and the trees you do not cut down.",
+   "memberIds": [
+    "sakpata",
+    "hevioso",
+    "gu",
+    "hu",
+    "naete",
+    "age",
+    "loko",
+    "dangbe"
+   ],
+   "connectorCaption": "And the apparatus for finding out what is going to happen to you"
+  },
+  {
+   "title": "What Is Known",
+   "blurb": "Two hundred and fifty-six figures, each with a body of memorised verse, cast with palm nuts that are the sixteen eyes of a woman sitting in a tree who opens as many as she chooses. And small people in the forest who taught all of it to a hunter.",
+   "memberIds": [
+    "fa",
+    "gbadu",
+    "minona",
+    "aziza",
+    "bo"
+   ],
+   "connectorCaption": "Around all of it, a kingdom, and then the water"
+  },
+  {
+   "title": "The Kingdom",
+   "blurb": "A royal house descended from a leopard. Regiments of women soldiers that European officers who fought them said were the best troops on the field. Night watchmen who are not men in costume. And a history recorded in cut and stitched cloth, because there was no writing.",
+   "memberIds": [
+    "agasu",
+    "tohosu",
+    "mino",
+    "zangbeto",
+    "kutome",
+    "appliques",
+    "diaspora"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "making",
+   "label": "The Making",
+   "memberIds": [
+    "nana_buluku",
+    "mawu_lisa",
+    "dan",
+    "legba"
+   ]
+  },
+  {
+   "id": "earth",
+   "label": "The Earth Pantheon",
+   "memberIds": [
+    "sakpata",
+    "loko",
+    "age",
+    "aziza"
+   ]
+  },
+  {
+   "id": "sky",
+   "label": "The Sky Pantheon",
+   "memberIds": [
+    "hevioso",
+    "gu",
+    "mawu_lisa",
+    "dan"
+   ]
+  },
+  {
+   "id": "sea",
+   "label": "The Sea Pantheon",
+   "memberIds": [
+    "hu",
+    "naete",
+    "dangbe",
+    "tohosu"
+   ]
+  },
+  {
+   "id": "knowing",
+   "label": "Finding Out",
+   "memberIds": [
+    "fa",
+    "gbadu",
+    "minona",
+    "legba"
+   ]
+  },
+  {
+   "id": "made",
+   "label": "Made Things",
+   "memberIds": [
+    "bo",
+    "aziza",
+    "loko",
+    "appliques"
+   ]
+  },
+  {
+   "id": "kingdom",
+   "label": "Dahomey",
+   "memberIds": [
+    "agasu",
+    "mino",
+    "tohosu",
+    "appliques",
+    "zangbeto"
+   ]
+  },
+  {
+   "id": "water",
+   "label": "Across the Water",
+   "memberIds": [
+    "diaspora",
+    "legba",
+    "dan",
+    "gu",
+    "sakpata"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-serpent-under-the-world",
+   "title": "Iron Under the Sea",
+   "era": "The Making",
+   "cast": [
+    "dan",
+    "mawu_lisa"
+   ],
+   "summary": "Dan carried Mawu-Lisa in his mouth while the world was being made, and the winding of that journey is why the rivers bend and the hills are where they are. When it was finished, the world would not sit still - it was too heavy and it slid - so Dan coiled himself beneath it in the sea, in three thousand five hundred coils above and three thousand five hundred below, and holds it steady. When he shifts to be more comfortable the ground shakes. He eats nothing but iron, and red monkeys under the sea forge bars of it and feed him. When the iron runs out he will start on his own tail, and when he has eaten enough of it the world will overbalance and go into the water.",
+   "sources": [
+    {
+     "book": "Dahomey: An Ancient West African Kingdom",
+     "translation": "Melville J. Herskovits, 1938",
+     "location": "The creation",
+     "url": "https://archive.org/details/dahomeyancientwe0001hers"
+    },
+    {
+     "book": "The Ewe-Speaking Peoples of the Slave Coast of West Africa",
+     "translation": "A. B. Ellis, 1890",
+     "location": "Dan",
+     "url": "https://sacred-texts.com/afr/ewe/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "legba-gets-the-languages",
+   "title": "The Youngest Got Nothing",
+   "era": "The Making",
+   "cast": [
+    "legba",
+    "mawu_lisa",
+    "sakpata",
+    "hevioso"
+   ],
+   "summary": "Mawu-Lisa divided the world among their children. The eldest got the earth, another the sky and the thunder, another the sea, another the iron, another the bush. The youngest, Legba, got nothing at all, and stayed at home with his parents. What he was given instead was the languages: he alone can speak to every one of his siblings and to human beings as well, so nothing said to any of them can arrive except through him. He is therefore greeted first at every ceremony without exception, and if he is skipped, nothing works, and there are a great many stories in which he demonstrates this by making trouble between the others and standing back to watch it develop.",
+   "sources": [
+    {
+     "book": "Dahomey: An Ancient West African Kingdom",
+     "translation": "Melville J. Herskovits, 1938",
+     "location": "Legba",
+     "url": "https://archive.org/details/dahomeyancientwe0001hers"
+    }
+   ]
+  },
+  {
+   "id": "the-sixteen-eyes",
+   "title": "How Many She Chooses to Open",
+   "era": "What Is Known",
+   "cast": [
+    "gbadu",
+    "fa",
+    "minona"
+   ],
+   "summary": "Mawu set her daughter Gbadu in the top of a palm tree to watch the earth, the sea and the sky and to make sure none of the three pantheons grew strong enough to take the others. She has sixteen eyes and they are closed. Every morning a monkey called Aklasu climbs the palm and asks her to open them, and she opens as many as she likes, and how many she opens is the figure. Those eyes are the palm nuts a diviner casts. What follows from this is a rather honest account of what divination is: you are consulting a being who is deliberately not telling you everything, and the answer you get is as much as she felt like giving that morning.",
+   "sources": [
+    {
+     "book": "La geomancie a l'ancienne Cote des Esclaves",
+     "translation": "Bernard Maupoil, 1943 - the standard work on Fa",
+     "location": "The origin of Fa",
+     "url": "https://archive.org/details/lageomancielanc00maup"
+    },
+    {
+     "book": "Dahomey: An Ancient West African Kingdom",
+     "translation": "Melville J. Herskovits, 1938",
+     "location": "Divination",
+     "url": "https://archive.org/details/dahomeyancientwe0001hers"
+    }
+   ]
+  },
+  {
+   "id": "the-aziza",
+   "title": "What the Hunter Was Taught",
+   "era": "What Is Known",
+   "cast": [
+    "aziza",
+    "age",
+    "loko",
+    "vodun"
+   ],
+   "summary": "The knowledge of how to deal with the vodun did not come down from the vodun. It was taught to human beings by the aziza, small hairy people who live in the forest in anthills and in the roots of great trees, and it was taught to hunters - to men who happened to be out in the bush working when they met them. The aziza gave them the leaves and what each is for, and the way a shrine is made, and how a vodun is approached and fed and asked. It is a modest and rather grounded origin for a religion: not a revelation from above, but instruction picked up in the woods by people doing their jobs.",
+   "sources": [
+    {
+     "book": "Dahomey: An Ancient West African Kingdom",
+     "translation": "Melville J. Herskovits, 1938",
+     "location": "The aziza",
+     "url": "https://archive.org/details/dahomeyancientwe0001hers"
+    }
+   ]
+  },
+  {
+   "id": "gu-with-no-head",
+   "title": "A Sword Where the Head Should Be",
+   "era": "The Pantheons",
+   "cast": [
+    "gu",
+    "mawu_lisa",
+    "age"
+   ],
+   "summary": "Mawu-Lisa sent Gu down to make the world fit to live in, and he did it with iron - clearing the bush, breaking the ground, building. He is war and he is also the hoe, the axe, the knife, the gun, and in due course the car and the railway, because iron is iron. The great Fon figure of him made in the nineteenth century, taken to France after the sack of Abomey and now in the Louvre, shows a man built out of hammered iron with blades in both hands, and where his head ought to be there is a sword. It is not a symbol that needs interpreting. He is a body that does work, and the working part is on top.",
+   "sources": [
+    {
+     "book": "Dahomey: An Ancient West African Kingdom",
+     "translation": "Melville J. Herskovits, 1938",
+     "location": "Gu",
+     "url": "https://archive.org/details/dahomeyancientwe0001hers"
+    },
+    {
+     "book": "L'Ancien Royaume du Dahomey",
+     "translation": "Auguste Le Herisse, 1911",
+     "location": "The royal collections",
+     "url": "https://archive.org/details/lanciennroyaumed00lehe"
+    }
+   ]
+  },
+  {
+   "id": "the-cloths",
+   "title": "A Kingdom With No Alphabet",
+   "era": "The Kingdom",
+   "cast": [
+    "appliques",
+    "agasu",
+    "mino"
+   ],
+   "summary": "Dahomey did not write, and it had a professional guild of applique workers at Abomey whose job was the record. Each king took a strong name and an emblem, and the emblems were cut out of coloured cloth and sewn onto a ground and hung in the palace: Guezo's buffalo, Glele's lion, Behanzin's shark and egg. The cloths carry the battles, the sayings, the succession. They are the chronicle, the heraldry and the art of the kingdom at once, and the same families are still making them in Abomey now. Much of what was looted from the palaces by the French in 1892 was returned to Benin in 2021.",
+   "sources": [
+    {
+     "book": "L'Ancien Royaume du Dahomey",
+     "translation": "Auguste Le Herisse, 1911",
+     "location": "The royal emblems",
+     "url": "https://archive.org/details/lanciennroyaumed00lehe"
+    },
+    {
+     "book": "Dahomey: An Ancient West African Kingdom",
+     "translation": "Melville J. Herskovits, 1938",
+     "location": "Art and craft",
+     "url": "https://archive.org/details/dahomeyancientwe0001hers"
+    }
+   ]
+  },
+  {
+   "id": "the-mino",
+   "title": "Our Mothers",
+   "era": "The Kingdom",
+   "cast": [
+    "mino",
+    "agasu",
+    "gu"
+   ],
+   "summary": "Dahomey fielded regiments of women, several thousand at their height, formally reckoned as wives of the king and quartered in the palace. They drilled with muskets and machetes, took the hardest part of an assault, and sang going in. European officers who fought them during the French conquest in the 1890s recorded - without wanting to - that they were the most determined troops in the field and repeatedly outfought the men beside them. How individual women came to be in the corps varied: some volunteered, some were given by their families, some were conscripted. Europeans called them Amazons. Their own words for themselves were mino, our mothers, and ahosi, the king's wives.",
+   "sources": [
+    {
+     "book": "A Mission to Gelele, King of Dahome",
+     "translation": "Richard F. Burton, 1864 - hostile, and useful anyway",
+     "location": "The king's women",
+     "url": "https://archive.org/details/missiontogelelek01burt"
+    },
+    {
+     "book": "L'Ancien Royaume du Dahomey",
+     "translation": "Auguste Le Herisse, 1911",
+     "location": "The army",
+     "url": "https://archive.org/details/lanciennroyaumed00lehe"
+    }
+   ]
+  },
+  {
+   "id": "across-the-water",
+   "title": "What They Carried",
+   "era": "The Kingdom",
+   "cast": [
+    "diaspora",
+    "legba",
+    "dan",
+    "gu",
+    "sakpata"
+   ],
+   "summary": "Something like a million people were shipped out of this coast, most of them through Ouidah, and they were permitted to carry nothing. What went across anyway was in their heads. In Haiti the Fon material combined with Yoruba and Kongo into Vodou, and the vodun became the lwa: Legba stayed at the gate as Papa Legba, Dan became Damballa, Gu became Ogou, Sakpata became Babalu Aye. Catholic saints were adopted as covers under regimes that punished the practice, which is where the pairing of a lwa with a saint's picture comes from. The ceremony at Bois Caiman in August 1791 is where Haiti dates the beginning of its revolution - the only slave revolt in history that took a country and kept it.",
+   "sources": [
+    {
+     "book": "Dahomey: An Ancient West African Kingdom",
+     "translation": "Melville J. Herskovits, 1938",
+     "location": "New World parallels",
+     "url": "https://archive.org/details/dahomeyancientwe0001hers"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "nana_buluku",
+   "name": "Nana Buluku",
+   "sanskrit": "Nana Buluku",
+   "category": "primordial",
+   "era": "The Making",
+   "role": "The creator, who made the moon and the sun as one being and then retired entirely",
+   "wikipedia": "Nana_Buluku",
+   "portrait": "portraits/fon/nana_buluku.webp",
+   "epithets": [
+    "the grandmother",
+    "the one before everything"
+   ],
+   "domains": [
+    "creation",
+    "withdrawal",
+    "the origin of the pair"
+   ],
+   "symbols": [
+    "absence",
+    "the space above everything else"
+   ],
+   "mount": null,
+   "abode": "Beyond, and not involved",
+   "festivals": [],
+   "worship": "",
+   "bio": "She made Mawu-Lisa, handed over the world, and has not been petitioned since.",
+   "longBio": "Nana Buluku is the creator and there is almost nothing to say about her, which is the point. She brought forth Mawu-Lisa, gave them the world to make and run, and withdrew completely. She has no cult, no offerings and no stories in which she does anything, and nobody prays to her, because she is not in the business. This shape - a high creator who steps back and leaves everything to intermediaries who can actually be dealt with - is extremely common in West African religion and is one of the sharpest differences from the traditions that put a single active god at the top.",
+   "variantTraditions": "Known as Nana Buruku or Nana Buluku among the Yoruba and in the diaspora, where she is often more actively venerated than in Dahomey itself.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "mawu_lisa",
+   "name": "Mawu-Lisa",
+   "sanskrit": "Mawu-Lisa",
+   "category": "creator",
+   "era": "The Making",
+   "role": "One being with two faces: the moon who is female and cool, the sun who is male and hot",
+   "wikipedia": "Mawu",
+   "portrait": "portraits/fon/mawu_lisa.webp",
+   "epithets": [
+    "Mawu the moon",
+    "Lisa the sun",
+    "the twins",
+    "the two-in-one"
+   ],
+   "domains": [
+    "creation",
+    "the moon and the sun",
+    "night and day",
+    "wisdom and strength"
+   ],
+   "symbols": [
+    "the moon and the sun together",
+    "the chameleon",
+    "the eyes of Mawu, which are the moon and sun"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Mawu is night, coolness, rest and wisdom; Lisa is day, heat, work and strength. They are one.",
+   "longBio": "Mawu-Lisa is a single deity understood as a pair, and the pairing is the whole theology: Mawu is the moon, female, cool, associated with night, rest, motherhood and knowledge, and Lisa is the sun, male, hot, associated with day, work, strength and the hard business of getting things done. Neither is complete alone and neither ranks above the other, and the world was made by both together. They are sometimes described as twins and sometimes as a married couple, and Fon thought is comfortable with the fact that these are not the same thing.",
+   "variantTraditions": "In some accounts Mawu alone is the creator and Lisa is her son or her partner; the strict dual reading is the one Herskovits recorded at Abomey.",
+   "storyIds": [
+    "the-serpent-under-the-world",
+    "legba-gets-the-languages",
+    "gu-with-no-head"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "sun",
+    "moon",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "dan",
+   "name": "Dan Ayido Hwedo",
+   "sanskrit": "Dan Ayido Hwedo",
+   "category": "primordial",
+   "era": "The Making",
+   "role": "The rainbow serpent who carried the creator in his mouth and now holds the world up",
+   "wikipedia": "Ayida-Weddo",
+   "portrait": "portraits/fon/dan.webp",
+   "epithets": [
+    "the rainbow serpent",
+    "Aido Hwedo",
+    "the one who eats iron"
+   ],
+   "domains": [
+    "the rainbow",
+    "motion",
+    "the coils under the earth",
+    "iron",
+    "earthquakes"
+   ],
+   "symbols": [
+    "the serpent biting its own tail",
+    "the rainbow",
+    "iron bars fed to him under the sea"
+   ],
+   "mount": null,
+   "abode": "Coiled beneath the earth, in the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is fed iron bars by red monkeys under the sea, and when he runs out he will eat his own tail.",
+   "longBio": "Dan carried Mawu-Lisa in his mouth while the world was being made, and the winding of the journey is why rivers and hills are the shape they are. When it was finished the world was too heavy, so Dan coiled beneath it in the sea and holds it up, and when he shifts to get comfortable there is an earthquake. He can only eat iron, and red monkeys under the sea forge iron bars to feed him. The tradition says that when the iron runs out he will begin on his own tail, and when he has eaten enough of it the world will tip into the sea. He is also the rainbow, and movement, and everything sinuous.",
+   "variantTraditions": "Dan crossed the Atlantic and is Damballa in Haitian Vodou, where the rainbow serpent and his consort Ayida-Weddo remain among the most important lwa.",
+   "storyIds": [
+    "the-serpent-under-the-world",
+    "across-the-water"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "serpent-dragon",
+    "preserver",
+    "creator",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "legba",
+   "name": "Legba",
+   "sanskrit": "Legba",
+   "category": "deity",
+   "era": "The Making",
+   "role": "The youngest child, who got no kingdom, so he took every language and every gate instead",
+   "wikipedia": "Papa_Legba",
+   "portrait": "portraits/fon/legba.webp",
+   "epithets": [
+    "Elegba",
+    "Aflakete, I have tricked you",
+    "the linguist",
+    "the one at the gate"
+   ],
+   "domains": [
+    "gates",
+    "crossroads",
+    "language",
+    "communication",
+    "mischief",
+    "the beginning of everything"
+   ],
+   "symbols": [
+    "the mound of earth outside the door",
+    "the phallus",
+    "the pipe",
+    "the dog"
+   ],
+   "mount": null,
+   "abode": "The threshold, the crossroads, outside every house",
+   "festivals": [],
+   "worship": "",
+   "bio": "No ceremony can start until he is greeted, because he is the only one who can carry the message.",
+   "longBio": "Legba is the last-born of Mawu-Lisa and was given no domain at all, and so was given something better: he alone knows the languages of all his siblings and of human beings, so nothing can be said to any vodun except through him. He sits outside every compound as a mound of earth, and he is greeted first at every ceremony without exception, and if he is not, nothing works. He is also a trickster of considerable appetite and no shame, and a great many stories exist in which he sets his brothers and sisters against each other and stands back to watch, and gets away with it.",
+   "variantTraditions": "He is Eshu-Elegba among the Yoruba and Papa Legba in Haiti, where he keeps the gate function and loses most of the sexual and mischievous material.",
+   "storyIds": [
+    "legba-gets-the-languages",
+    "across-the-water"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "wisdom-craft",
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "sakpata",
+   "name": "Sakpata",
+   "sanskrit": "Sakpata",
+   "category": "deity",
+   "era": "The Pantheons",
+   "role": "The earth and smallpox at once, and the kings of Dahomey were afraid of his priests",
+   "wikipedia": "Sakpata",
+   "portrait": "portraits/fon/sakpata.webp",
+   "epithets": [
+    "Ayinon, lord of the earth",
+    "the king of the earth",
+    "Babalu Aye in the diaspora"
+   ],
+   "domains": [
+    "the earth",
+    "smallpox",
+    "disease",
+    "healing",
+    "the grain"
+   ],
+   "symbols": [
+    "the pockmarks",
+    "the broom",
+    "the millet",
+    "the burial in the earth"
+   ],
+   "mount": null,
+   "abode": "The earth, and the villages of his priests",
+   "festivals": [],
+   "worship": "",
+   "bio": "His priests inherited the property of anyone who died of smallpox, which made them rich.",
+   "longBio": "Sakpata is the eldest of Mawu-Lisa's children and the earth is his, and so is smallpox, which is his to send and his to withdraw - the pustules were spoken of as his marks and as a sign of his attention rather than only his anger. His priesthood was correspondingly powerful and correspondingly feared: those who died of the disease belonged to him and were buried by his people, who took their property, and the kings of Dahomey moved against the cult more than once because it was a rival concentration of wealth and authority they could not control.",
+   "variantTraditions": "He is Babalu Aye in Cuba and Omolu or Obaluaye in Brazil, where he keeps the disease-and-healing double function.",
+   "storyIds": [
+    "legba-gets-the-languages",
+    "across-the-water"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "destroyer",
+    "healer",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "hevioso",
+   "name": "Hevioso",
+   "sanskrit": "Xevioso",
+   "category": "deity",
+   "era": "The Pantheons",
+   "role": "Thunder, and lightning is the axe he throws - the stone axes found afterwards are his",
+   "wikipedia": "Xevioso",
+   "portrait": "portraits/fon/hevioso.webp",
+   "epithets": [
+    "Xevioso",
+    "So",
+    "Hevie",
+    "the ram of the sky"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "rain",
+    "justice",
+    "the punishment of thieves and liars"
+   ],
+   "symbols": [
+    "the double-headed axe",
+    "the ram",
+    "the thunderstones ploughed up in fields"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Being struck by lightning was not an accident; it was a judgement, and the body was treated accordingly.",
+   "longBio": "Hevioso is thunder and rain and, crucially, justice: a person struck by lightning was understood to have been executed for something, and the corpse was not mourned in the ordinary way but handled by his priests, who required payment from the family before the burial could proceed. His emblem is a double-headed axe, his animal is the ram, and neolithic stone axeheads turned up by ploughing are said to be the ones he threw. The same complex - thunder god, double axe, ram, thunderstones, lightning as verdict - is Shango among the Yoruba, and the resemblance is not a coincidence.",
+   "variantTraditions": "Closely parallel to Yoruba Shango and to Haitian Sobo and Bade; the two peoples' thunder cults influenced each other for centuries.",
+   "storyIds": [
+    "legba-gets-the-languages"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "war",
+    "death-judge",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "gu",
+   "name": "Gu",
+   "sanskrit": "Gu",
+   "category": "deity",
+   "era": "The Pantheons",
+   "role": "Iron, war and every tool - and he had no head, because he is a body that works",
+   "wikipedia": "Ogun",
+   "portrait": "portraits/fon/gu.webp",
+   "epithets": [
+    "the vodun of iron",
+    "Ogun among the Yoruba"
+   ],
+   "domains": [
+    "iron",
+    "war",
+    "smithing",
+    "tools",
+    "clearing the bush",
+    "surgery"
+   ],
+   "symbols": [
+    "the iron blade",
+    "the anvil",
+    "the sword instead of a head"
+   ],
+   "mount": null,
+   "abode": "The forge, and wherever iron is used",
+   "festivals": [],
+   "worship": "",
+   "bio": "In the great brass figure of him, where the head should be there is a sword.",
+   "longBio": "Gu is iron and everything made of it - the blade, the hoe, the axe, the gun, and later the car and the rail - and so he is war and also all the useful work that iron makes possible: clearing the forest, farming, building, surgery. Mawu-Lisa sent him down to make the world habitable and he did it with tools. The famous nineteenth-century Fon figure of Gu, taken to Paris and now in the Louvre, shows him as a man made of iron with weapons in his hands and, in place of a head, a blade - which is a very direct statement about what he is for.",
+   "variantTraditions": "Ogun among the Yoruba, Ogou in Haiti, Ogum in Brazil. He is one of the most consistently transmitted figures across the Atlantic.",
+   "storyIds": [
+    "gu-with-no-head",
+    "the-mino",
+    "across-the-water"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "fire",
+    "wisdom-craft",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "hu",
+   "name": "Hu",
+   "sanskrit": "Hu",
+   "category": "deity",
+   "era": "The Pantheons",
+   "role": "The sea, and Dahomey was a kingdom that made most of its money from the coast",
+   "wikipedia": "Olokun",
+   "portrait": "portraits/fon/hu.webp",
+   "epithets": [
+    "Agbe in some accounts",
+    "the vodun of the sea",
+    "Naete's husband"
+   ],
+   "domains": [
+    "the sea",
+    "fish",
+    "wealth from the coast",
+    "storms",
+    "the crossing"
+   ],
+   "symbols": [
+    "the sea",
+    "the canoe",
+    "white cloth"
+   ],
+   "mount": null,
+   "abode": "The Atlantic",
+   "festivals": [],
+   "worship": "",
+   "bio": "The ocean was the direction wealth came from, and also the direction people were taken.",
+   "longBio": "Hu is the sea, and for Dahomey the sea was where the money was: the kingdom's wealth in the seventeenth and eighteenth centuries came very largely from the coast at Ouidah and the trade conducted there, which was the trade in people. That is not a comfortable thing to put in an entry about a sea god and it is the plain historical situation. The sea is also, for the millions taken across it, the thing they went into and did not come back from, and Hu and his consort Naete carry that in the diaspora traditions as much as they carry fishing and storms.",
+   "variantTraditions": "Related to Yoruba Olokun. In Haiti the sea-crossing became bound up with the idea of the ancestors 'below the water' in Ginen.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "wealth-fortune",
+    "destroyer",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "age",
+   "name": "Age",
+   "sanskrit": "Age",
+   "category": "deity",
+   "era": "The Pantheons",
+   "role": "The bush, the animals in it, and the hunters who go there",
+   "wikipedia": "Fon_people",
+   "portrait": "portraits/fon/age.webp",
+   "epithets": [
+    "the vodun of the wild",
+    "the hunter"
+   ],
+   "domains": [
+    "the bush",
+    "wild animals",
+    "hunting",
+    "the uncleared land"
+   ],
+   "symbols": [
+    "the gun and the bow",
+    "the leopard",
+    "the untouched forest"
+   ],
+   "mount": null,
+   "abode": "Outside the cleared land",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is the son of Mawu-Lisa who took the part of the world nobody farms.",
+   "longBio": "Age is the wild - the bush beyond the fields, the animals in it and the business of hunting them. He belongs to the same division of labour as his siblings: Sakpata got the earth that is worked, Hu the sea, Gu the iron that clears the bush, and Age got what is left when you stop clearing. Hunters served him and hunting societies were organised around him, and he stands in the usual West African relationship between the settlement and the forest, where the forest is not scenery but a different jurisdiction with its own owner and its own etiquette.",
+   "variantTraditions": "The hunting societies and their relation to the bush are widespread in the region; Age is the Fon holder of that role.",
+   "storyIds": [
+    "the-aziza",
+    "gu-with-no-head"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "war",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "loko",
+   "name": "Loko",
+   "sanskrit": "Loko",
+   "category": "nature",
+   "era": "The Pantheons",
+   "role": "The iroko tree, which is a vodun in itself and which you do not cut down casually",
+   "wikipedia": "Loco_(loa)",
+   "portrait": "portraits/fon/loko.webp",
+   "epithets": [
+    "the tree",
+    "the iroko"
+   ],
+   "domains": [
+    "trees",
+    "medicine",
+    "the leaves used in healing",
+    "shade"
+   ],
+   "symbols": [
+    "the great iroko standing alone in a field",
+    "the cloth tied round the trunk",
+    "leaves"
+   ],
+   "mount": null,
+   "abode": "The tree itself",
+   "festivals": [],
+   "worship": "",
+   "bio": "Farmers clearing a field will leave one iroko standing, and you can see them from a distance.",
+   "longBio": "Loko is the iroko tree and trees generally, and he is the source of the leaves and barks that medicine is made from - which puts him in charge of healing knowledge as well as of the tree. A great iroko is a vodun in its own right, receives offerings, is wrapped in cloth, and is not felled: fields are cleared around them and a solitary huge tree standing in open farmland is the ordinary sight that results. In Haiti, Loko becomes the patron of the priesthood and of herbal knowledge specifically, which is a fairly direct continuation.",
+   "variantTraditions": "Loco in Haitian Vodou is closely associated with Ayizan and with the initiation of priests.",
+   "storyIds": [
+    "the-aziza"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "healer",
+    "preserver",
+    "wisdom-craft",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "fa",
+   "name": "Fa",
+   "sanskrit": "Fa",
+   "category": "primordial",
+   "era": "What Is Known",
+   "role": "Two hundred and fifty-six figures, each with a body of verse, and one of them is yours",
+   "wikipedia": "Ifa",
+   "portrait": "portraits/fon/fa.webp",
+   "epithets": [
+    "Ifa among the Yoruba",
+    "the writing of Mawu",
+    "the destiny"
+   ],
+   "domains": [
+    "divination",
+    "destiny",
+    "the palm nuts",
+    "the chain",
+    "knowledge"
+   ],
+   "symbols": [
+    "sixteen palm nuts",
+    "the divining chain of eight half-seeds",
+    "the tray"
+   ],
+   "mount": null,
+   "abode": "Wherever a diviner is working",
+   "festivals": [],
+   "worship": "",
+   "bio": "The diviner does not guess. He casts, reads which of the 256 figures came up, and recites.",
+   "longBio": "Fa is the divination system and it is the intellectual centre of the whole tradition. The diviner manipulates sixteen palm nuts, or throws a chain of eight half-seeds, and the result is one of two hundred and fifty-six figures, each of which has a large body of memorised verse attached - stories, precedents, prescriptions. He recites, and the client identifies their own situation in it. Every person also has a personal Fa, revealed at an initiation, which is their destiny in the sense of the terms they were born under. The whole apparatus is the same one the Yoruba call Ifa.",
+   "variantTraditions": "UNESCO listed Ifa as Intangible Cultural Heritage in 2005. The Fon and Yoruba systems are the same system with different names for the figures.",
+   "storyIds": [
+    "the-sixteen-eyes"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "sage-seer",
+    "wisdom-craft",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "gbadu",
+   "name": "Gbadu",
+   "sanskrit": "Gbadu",
+   "category": "deity",
+   "era": "What Is Known",
+   "role": "She sits in a palm tree with sixteen eyes and will not open them without being asked",
+   "wikipedia": "Ifa",
+   "portrait": "portraits/fon/gbadu.webp",
+   "epithets": [
+    "the daughter of Mawu",
+    "the one in the palm tree"
+   ],
+   "domains": [
+    "divination",
+    "the sixteen eyes",
+    "the palm nuts",
+    "balance between the pantheons"
+   ],
+   "symbols": [
+    "the sixteen eyes",
+    "the palm tree she sits in",
+    "the monkey who opens them"
+   ],
+   "mount": null,
+   "abode": "The top of a palm tree",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her eyes are the palm nuts, and a monkey has to be sent up to make her open them.",
+   "longBio": "Gbadu is the daughter of Mawu, set in a palm tree to keep watch and to hold the balance between the pantheons of the earth, the sea and the sky, so that no one of them takes too much. She has sixteen eyes, which are the palm nuts of the divination, and they are shut. Each morning a monkey called Aklasu goes up and asks her to open them, and she opens as many as she chooses, and that is the figure. The divination system is thus a conversation with a being who is deliberately not telling you everything, which is a more honest account of prophecy than most.",
+   "variantTraditions": "Also given as Minona in some accounts, where she is the protector of women and of diviners.",
+   "storyIds": [
+    "the-sixteen-eyes"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sage-seer",
+    "fate-time",
+    "wisdom-craft",
+    "preserver"
+   ]
+  },
+  {
+   "id": "minona",
+   "name": "Minona",
+   "sanskrit": "Minona",
+   "category": "deity",
+   "era": "What Is Known",
+   "role": "The protector of women, whose offering is left at the foot of the household's palm",
+   "wikipedia": "Fon_people",
+   "portrait": "portraits/fon/minona.webp",
+   "epithets": [
+    "the mother of the diviners",
+    "the one who watches the women"
+   ],
+   "domains": [
+    "women",
+    "the household",
+    "protection",
+    "the harvest",
+    "divination"
+   ],
+   "symbols": [
+    "the palm nuts",
+    "the offering left at the palm",
+    "the calabash"
+   ],
+   "mount": null,
+   "abode": "The compound, and the palm at the edge of it",
+   "festivals": [],
+   "worship": "",
+   "bio": "She gave people the palm nuts for divination, so that they would not be helpless.",
+   "longBio": "Minona is a daughter of Mawu who looks after women in particular, and who is credited in some accounts with giving human beings the palm nuts by which the future can be read - so that people would not have to go through life without information. Offerings are made to her at the household's palm tree. She is one of several figures in this pack whose function is to make sure that ordinary people, and especially women, have some leverage: Fa itself is only useful if someone puts the means of consulting it into your hands.",
+   "variantTraditions": "Sources vary on whether Minona and Gbadu are two figures or two names for one; Herskovits treats them separately.",
+   "storyIds": [
+    "the-sixteen-eyes"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "sage-seer",
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "aziza",
+   "name": "The Aziza",
+   "sanskrit": "Aziza",
+   "category": "nature",
+   "era": "What Is Known",
+   "role": "Small forest people who taught human beings how to use the vodun in the first place",
+   "wikipedia": "Aziza_(African_mythology)",
+   "portrait": "portraits/fon/aziza.webp",
+   "epithets": [
+    "the little people of the forest",
+    "the ones who gave the knowledge"
+   ],
+   "domains": [
+    "the forest",
+    "magic",
+    "herbs",
+    "the teaching of hunters"
+   ],
+   "symbols": [
+    "the anthill they are said to live in",
+    "the silk-cotton tree",
+    "leaves"
+   ],
+   "mount": null,
+   "abode": "The deep forest, in anthills and hollow trees",
+   "festivals": [],
+   "worship": "",
+   "bio": "Everything people know about medicine and about the vodun, the Aziza taught to a hunter.",
+   "longBio": "The aziza are small hairy people who live in the forest, in anthills and in the roots of great trees, and they are the source of knowledge rather than a danger. The tradition is explicit: the practical knowledge of leaves and of how the vodun are to be approached did not come from the vodun themselves but from the aziza, who taught it to hunters who met them in the bush. It is a quietly striking idea - that the religion was learned from small beings in the wood by people who happened to be out working, rather than handed down from above.",
+   "variantTraditions": "Comparable forest teachers appear across West Africa; the specific attribution of vodun knowledge to them is Fon.",
+   "storyIds": [
+    "the-aziza"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "healer",
+    "sage-seer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "bo",
+   "name": "Bo",
+   "sanskrit": "Bo",
+   "category": "primordial",
+   "era": "What Is Known",
+   "role": "Made objects that do work - the part outsiders latched onto and got wrong",
+   "wikipedia": "Nkisi",
+   "portrait": "portraits/fon/bo.webp",
+   "epithets": [
+    "the charm",
+    "the made thing",
+    "gbo"
+   ],
+   "domains": [
+    "magic",
+    "protection",
+    "made objects",
+    "the specific task"
+   ],
+   "symbols": [
+    "the bundle",
+    "the horn packed with material",
+    "the wooden figure with nails and cloth"
+   ],
+   "mount": null,
+   "abode": "Carried, worn, or set in a doorway",
+   "festivals": [],
+   "worship": "",
+   "bio": "A bo is made for a purpose by someone who knows how, and it is not the same as a vodun.",
+   "longBio": "Bo are made objects that do specific work: protect a house, guard a field, catch a thief, help a case, harm an enemy. They are assembled by a specialist from named materials and activated, and they are not vodun and not worshipped - they are more like tools with instructions. This is the category that European and American observers fixed on, photographed, and turned into the whole of what they thought the religion was, and the nail-studded figures in museum cases are largely bo or their Kongo equivalents. Mistaking the toolbox for the theology is roughly the error involved.",
+   "variantTraditions": "The nail-studded nkisi nkondi most people picture are Kongo rather than Fon, which compounds the confusion.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "healer",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "agasu",
+   "name": "Agasu",
+   "sanskrit": "Agasu",
+   "category": "beast",
+   "era": "The Kingdom",
+   "role": "A leopard, and the royal house of Dahomey claimed descent from it",
+   "wikipedia": "Dahomey",
+   "portrait": "portraits/fon/agasu.webp",
+   "epithets": [
+    "the leopard ancestor",
+    "the founder of the Agasuvi"
+   ],
+   "domains": [
+    "the royal line",
+    "leopards",
+    "descent",
+    "legitimacy"
+   ],
+   "symbols": [
+    "the leopard",
+    "the royal stool",
+    "the appliqued cloth"
+   ],
+   "mount": null,
+   "abode": "Abomey",
+   "festivals": [],
+   "worship": "",
+   "bio": "A princess of Tado met a leopard in the bush, and the kings descend from what followed.",
+   "longBio": "The royal line of Dahomey traced itself to Agasu, the offspring of a princess of Tado and a leopard, and the kings called themselves Agasuvi, children of Agasu. Leopards were kept at the palace, the leopard is on the royal cloths, and to kill one without permission was a serious offence. The story does the work that royal descent stories do everywhere: it puts the dynasty outside the ordinary run of families and gives it a claim that cannot be matched by anyone else's genealogy. Agasu himself became a vodun with a cult of his own.",
+   "variantTraditions": "Agasou survives in Haitian Vodou as a lwa, one of the clearest single traces of the Dahomean royal cult in the diaspora.",
+   "storyIds": [
+    "the-cloths",
+    "the-mino"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "king-ruler",
+    "hero-champion",
+    "preserver"
+   ]
+  },
+  {
+   "id": "tohosu",
+   "name": "The Tohosu",
+   "sanskrit": "Tohosu",
+   "category": "underworld",
+   "era": "The Kingdom",
+   "role": "Children born visibly different, understood as royal spirits, with their own cult",
+   "wikipedia": "Fon_people",
+   "portrait": "portraits/fon/tohosu.webp",
+   "epithets": [
+    "the water kings",
+    "the royal spirits"
+   ],
+   "domains": [
+    "water",
+    "the royal line",
+    "children born unlike others",
+    "the pool"
+   ],
+   "symbols": [
+    "the river or pool they return to",
+    "the royal palace shrines"
+   ],
+   "mount": null,
+   "abode": "Pools and rivers, and the palace at Abomey",
+   "festivals": [],
+   "worship": "",
+   "bio": "A child born with a marked difference was held to be a tohosu who had come deliberately.",
+   "longBio": "The tohosu are spirits of the royal line associated with water. A child born visibly different - a serious congenital difference - was understood in Dahomey not as a misfortune but as a tohosu, a being who had chosen to come, and such children were treated as sacred and belonged to the palace and to the cult, and were said to return to the water. Whether that treatment was in practice kind is a question the sources do not answer honestly in either direction, and it should not be prettified. What is certain is that the category existed and had a large royal cult attached.",
+   "variantTraditions": "Herskovits records the tohosu cult in detail; earlier European accounts are unreliable and often lurid on this point.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "king-ruler",
+    "sea-waters",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "mino",
+   "name": "The Mino",
+   "sanskrit": "Mino",
+   "category": "hero",
+   "era": "The Kingdom",
+   "role": "The women's regiments of Dahomey, and they were the best troops the kingdom had",
+   "wikipedia": "Dahomey_Amazons",
+   "portrait": "portraits/fon/mino.webp",
+   "epithets": [
+    "Ahosi, the king's wives",
+    "the ones called Amazons by Europeans"
+   ],
+   "domains": [
+    "war",
+    "discipline",
+    "the palace",
+    "celibacy while serving"
+   ],
+   "symbols": [
+    "the musket and the machete",
+    "the blue tunic",
+    "the songs sung going into battle"
+   ],
+   "mount": null,
+   "abode": "The palace at Abomey, and the field",
+   "festivals": [],
+   "worship": "",
+   "bio": "European observers who fought them said, repeatedly and grudgingly, that they were better than the men.",
+   "longBio": "Dahomey fielded regiments of women soldiers, several thousand strong at their height, formally counted as wives of the king and living in the palace, and they were not ceremonial. They drilled hard, took the most difficult positions in an assault, and European officers who fought them in the French wars of the 1890s recorded that they were the most determined troops on the field and consistently outfought the men beside them. Whether individual women joined by choice or were conscripted or given by their families varied. They are the only documented sustained regular female combat corps in modern history.",
+   "variantTraditions": "The name Amazon is European. The Fon terms are mino, our mothers, and ahosi, king's wives.",
+   "storyIds": [
+    "the-cloths",
+    "the-mino"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "war",
+    "hero-champion",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "zangbeto",
+   "name": "The Zangbeto",
+   "sanskrit": "Zangbeto",
+   "category": "nature",
+   "era": "The Kingdom",
+   "role": "The night watchmen: a spinning haystack with nobody inside it",
+   "wikipedia": "Zangbeto",
+   "portrait": "portraits/fon/zangbeto.webp",
+   "epithets": [
+    "the night watchmen",
+    "the hunters of the night"
+   ],
+   "domains": [
+    "the night",
+    "policing",
+    "the village",
+    "the spirit in the costume"
+   ],
+   "symbols": [
+    "the conical raffia costume",
+    "the spinning",
+    "the empty inside shown to the crowd"
+   ],
+   "mount": null,
+   "abode": "The streets, at night",
+   "festivals": [],
+   "worship": "",
+   "bio": "At the climax it is lifted, and what is under it is shown to be empty, or holding something else.",
+   "longBio": "The zangbeto are the traditional night guard of Fon towns, and they appear as tall conical costumes of raffia that spin at speed through the streets. They are not understood as men in costume: they are the spirits of the night, and the performance makes the claim visible by lifting the costume in front of the crowd to show that there is nobody inside - or that there is a snake, a bird, or a small carved figure. They policed the village before there were police, and they have not gone away: zangbeto societies still operate and are still, in places, the effective local order.",
+   "variantTraditions": "Zangbeto societies are active in Benin and Togo today and have at times been formally recognised in local security arrangements.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "preserver",
+    "king-ruler",
+    "primordial-adversary",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "kutome",
+   "name": "Kutome",
+   "sanskrit": "Kutome",
+   "category": "underworld",
+   "era": "The Kingdom",
+   "role": "The land of the dead, organised exactly like the land of the living",
+   "wikipedia": "Fon_people",
+   "portrait": "portraits/fon/kutome.webp",
+   "epithets": [
+    "the country of the dead",
+    "where the ancestors are"
+   ],
+   "domains": [
+    "the dead",
+    "the ancestors",
+    "rank",
+    "the obligation to feed them"
+   ],
+   "symbols": [
+    "the family shrine",
+    "the offering set out",
+    "the drum at the funeral"
+   ],
+   "mount": null,
+   "abode": "Kutome",
+   "festivals": [],
+   "worship": "",
+   "bio": "The dead keep their rank, their family and their opinions, and they expect to be fed.",
+   "longBio": "Kutome is where the dead go and it is arranged like Dahomey: there are households, ranks, a king, and the same obligations. The dead are not gone and not abstract - they retain their position in the family, they can be consulted, and they can be seriously offended by neglect. The living owe them food, naming and proper ceremony, and a family that lets this slide will be told about it through illness or misfortune or a diviner. A great funeral in Dahomey was less a farewell than a formal installation of someone into their new post.",
+   "variantTraditions": "The ancestor cult is at least as important in daily practice as the vodun and considerably more frequent.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "preserver",
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "appliques",
+   "name": "The Abomey Cloths",
+   "sanskrit": "Adanuvo",
+   "category": "primordial",
+   "era": "The Kingdom",
+   "role": "The kingdom's history, cut out of coloured cloth and stitched down",
+   "wikipedia": "Fon_people",
+   "portrait": "portraits/fon/appliques.webp",
+   "epithets": [
+    "the applique banners",
+    "the royal cloths"
+   ],
+   "domains": [
+    "history",
+    "the reigns of the kings",
+    "emblems",
+    "the record"
+   ],
+   "symbols": [
+    "the strong-name emblem of each king",
+    "the flat cut shapes",
+    "the guild at Abomey"
+   ],
+   "mount": null,
+   "abode": "The palace at Abomey, and the workshops of the Yemadje family",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every king had an emblem, and the cloths are the record of who did what.",
+   "longBio": "Dahomey had no writing and it had a professional guild of applique workers at Abomey, who recorded the reigns of the kings in flat shapes cut from coloured cloth and sewn onto a ground: each king's strong name and emblem, the battles, the sayings. King Glele's emblem was a lion, Guezo's a buffalo, Behanzin's a shark. The cloths hung in the palace and were carried in procession, and they are simultaneously the kingdom's chronicle, its heraldry and its art. The same families are still making them, and the style is the visual signature of the whole culture.",
+   "variantTraditions": "The Abomey royal palaces are a UNESCO World Heritage site, and much of the applique and regalia looted in 1892 was returned by France to Benin in 2021.",
+   "storyIds": [
+    "the-cloths"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "king-ruler",
+    "preserver",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "naete",
+   "name": "Naete",
+   "sanskrit": "Naete",
+   "category": "deity",
+   "era": "The Pantheons",
+   "role": "Hu's consort, and the sea pantheon is hers as much as his",
+   "wikipedia": "Olokun",
+   "portrait": "portraits/fon/naete.webp",
+   "epithets": [
+    "the mother of the sea",
+    "Hu's wife"
+   ],
+   "domains": [
+    "the sea",
+    "salt",
+    "the coast",
+    "fish",
+    "the wealth and the grief of the shore"
+   ],
+   "symbols": [
+    "white cloth",
+    "the shoreline",
+    "salt"
+   ],
+   "mount": null,
+   "abode": "The Atlantic",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sea pantheon at Ouidah is served by her people as much as by his.",
+   "longBio": "Naete is Hu's wife and the sea pantheon belongs to both of them - in Fon practice the vodun come in couples and in households rather than as single figures, and the sea is not one god but a family with its own priests, its own initiations and its own quarrel with the earth and sky pantheons. She holds the salt, the shore, and the productive side of the ocean. In the diaspora the sea keeps this doubled character, holding both the fish and the wealth on one side and the crossing and the dead on the other.",
+   "variantTraditions": "Fon vodun are consistently organised as households rather than individuals, which is a structural difference from most pantheons in this collection.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "dangbe",
+   "name": "Dangbe",
+   "sanskrit": "Dangbe",
+   "category": "beast",
+   "era": "The Pantheons",
+   "role": "The python at Ouidah, in a temple with about sixty live snakes in it, right now",
+   "wikipedia": "Temple_of_Pythons",
+   "portrait": "portraits/fon/dangbe.webp",
+   "epithets": [
+    "the royal python",
+    "the serpent of Ouidah"
+   ],
+   "domains": [
+    "pythons",
+    "protection of the city",
+    "fertility",
+    "peace"
+   ],
+   "symbols": [
+    "the royal python, which is not venomous",
+    "the temple opposite the basilica"
+   ],
+   "mount": null,
+   "abode": "The Temple of Pythons at Ouidah",
+   "festivals": [],
+   "worship": "",
+   "bio": "The temple stands directly across the street from the Catholic basilica, and both are busy.",
+   "longBio": "Dangbe is the royal python and the protective vodun of Ouidah, and his temple there holds a live population of pythons which are handled by visitors, taken out at night to move about the town, and brought back. Killing one is a serious offence. The temple is directly opposite the Basilica of the Immaculate Conception, and the arrangement is not an accident or an irony - a great many people in Ouidah attend both, and Beninese Vodun and Catholicism have coexisted in the same households for a very long time without either giving way.",
+   "variantTraditions": "The royal python is non-venomous and the practice is genuinely ancient; the temple's current buildings date largely from the twentieth century.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "preserver",
+    "divine-beast",
+    "healer"
+   ]
+  },
+  {
+   "id": "vodun",
+   "name": "Vodun",
+   "sanskrit": "Vodun",
+   "category": "primordial",
+   "era": "The Making",
+   "role": "The word itself - not a god, but a presence that can be approached and made to act",
+   "wikipedia": "West_African_Vodun",
+   "portrait": "portraits/fon/vodun.webp",
+   "epithets": [
+    "the vodun",
+    "voodoo, in the corrupted English form"
+   ],
+   "domains": [
+    "the whole system",
+    "possession",
+    "the pantheons",
+    "service"
+   ],
+   "symbols": [
+    "the shrine",
+    "the drum",
+    "the initiate mounted by a vodun"
+   ],
+   "mount": null,
+   "abode": "Everywhere it is served",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is a recognised religion in Benin with a public holiday on the tenth of January.",
+   "longBio": "Vodun is not quite translatable as god. It is closer to a force with a personality that can be approached, housed in a shrine, fed, served, and induced to act, and which in return takes possession of its devotees at ceremony - the person mounted by a vodun is not themselves, and speaks and behaves as the vodun for as long as it lasts. Vodun are organised into pantheons and households. The religion is officially recognised in Benin, has a national holiday, and is practised by a large proportion of the population alongside, rather than instead of, Christianity and Islam.",
+   "variantTraditions": "The English word voodoo derives from this and now denotes something almost entirely invented in twentieth-century America. The two should not be confused.",
+   "storyIds": [
+    "the-aziza"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "preserver",
+    "healer",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "diaspora",
+   "name": "Across the Water",
+   "sanskrit": "Ginen",
+   "category": "primordial",
+   "era": "The Kingdom",
+   "role": "The same gods, in Haiti and Cuba and Brazil, carried by people who had nothing else",
+   "wikipedia": "Haitian_Vodou",
+   "portrait": "portraits/fon/diaspora.webp",
+   "epithets": [
+    "Ginen, the ancestral home below the water",
+    "the lwa"
+   ],
+   "domains": [
+    "the Middle Passage",
+    "survival",
+    "syncretism",
+    "the saints used as cover"
+   ],
+   "symbols": [
+    "the veve drawn in flour",
+    "the drum",
+    "the Catholic chromolithograph on the altar"
+   ],
+   "mount": null,
+   "abode": "Haiti, Cuba, Brazil, Louisiana",
+   "festivals": [],
+   "worship": "",
+   "bio": "Legba became Papa Legba. Dan became Damballa. Gu became Ogou. Sakpata became Babalu Aye.",
+   "longBio": "Between the seventeenth and nineteenth centuries around a million people were shipped from this coast, and what they carried was not property. In Haiti the Fon and Yoruba and Kongo material combined into Vodou, with the vodun as lwa; in Cuba it became Santeria and in Brazil Candomble. Catholic saints were used as covers for particular vodun under regimes that punished the practice, which is where the pairing of a lwa with a saint comes from. The ceremony at Bois Caiman in 1791 is traditionally where the Haitian Revolution began - the only successful large slave revolt in history.",
+   "variantTraditions": "Whether Bois Caiman happened as described is debated by historians; that it is central to how Haiti understands its own founding is not.",
+   "storyIds": [
+    "across-the-water"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "preserver",
+    "hero-champion",
+    "fate-time",
+    "supreme-source"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "nana_buluku",
+   "to": "mawu_lisa",
+   "type": "parent",
+   "note": "She made them and then withdrew completely"
+  },
+  {
+   "from": "mawu_lisa",
+   "to": "dan",
+   "type": "ally",
+   "note": "He carried them in his mouth while the world was being made"
+  },
+  {
+   "from": "dan",
+   "to": "mawu_lisa",
+   "type": "devotee",
+   "note": "And then coiled underneath it to hold it up"
+  },
+  {
+   "from": "mawu_lisa",
+   "to": "legba",
+   "type": "parent",
+   "note": "The last-born, who was given no kingdom at all"
+  },
+  {
+   "from": "mawu_lisa",
+   "to": "sakpata",
+   "type": "parent",
+   "note": "The eldest, who took the earth"
+  },
+  {
+   "from": "mawu_lisa",
+   "to": "hevioso",
+   "type": "parent",
+   "note": "And the sky and the thunder"
+  },
+  {
+   "from": "mawu_lisa",
+   "to": "gu",
+   "type": "parent",
+   "note": "And the iron, sent down to make the place habitable"
+  },
+  {
+   "from": "mawu_lisa",
+   "to": "hu",
+   "type": "parent",
+   "note": "And the sea"
+  },
+  {
+   "from": "mawu_lisa",
+   "to": "age",
+   "type": "parent",
+   "note": "And whatever was left after the others had chosen"
+  },
+  {
+   "from": "mawu_lisa",
+   "to": "gbadu",
+   "type": "parent",
+   "note": "And a daughter put in a palm tree to keep the balance"
+  },
+  {
+   "from": "mawu_lisa",
+   "to": "minona",
+   "type": "parent",
+   "note": "And one who looks after the women"
+  },
+  {
+   "from": "legba",
+   "to": "sakpata",
+   "type": "sibling",
+   "note": "He alone can carry a message to any of them"
+  },
+  {
+   "from": "legba",
+   "to": "hevioso",
+   "type": "sibling",
+   "note": "Which is why nothing begins until he has been greeted"
+  },
+  {
+   "from": "legba",
+   "to": "gu",
+   "type": "sibling",
+   "note": "The youngest, and the one they all have to go through"
+  },
+  {
+   "from": "legba",
+   "to": "fa",
+   "type": "ally",
+   "note": "Fa says what will happen; Legba is how anything gets done about it"
+  },
+  {
+   "from": "legba",
+   "to": "vodun",
+   "type": "guru",
+   "note": "Every ceremony opens by greeting him at the gate"
+  },
+  {
+   "from": "sakpata",
+   "to": "hevioso",
+   "type": "enemy",
+   "note": "The earth pantheon and the sky pantheon, and they compete"
+  },
+  {
+   "from": "sakpata",
+   "to": "kutome",
+   "type": "ally",
+   "note": "Those he takes are buried by his own people"
+  },
+  {
+   "from": "sakpata",
+   "to": "loko",
+   "type": "ally",
+   "note": "Disease and the leaves that treat it"
+  },
+  {
+   "from": "hevioso",
+   "to": "dan",
+   "type": "ally",
+   "note": "The storm and the rainbow that comes after it"
+  },
+  {
+   "from": "hevioso",
+   "to": "gu",
+   "type": "sibling",
+   "note": "The axe from the sky and the iron on the ground"
+  },
+  {
+   "from": "gu",
+   "to": "age",
+   "type": "ally",
+   "note": "The blade, and the bush it is used to clear"
+  },
+  {
+   "from": "gu",
+   "to": "mino",
+   "type": "guru",
+   "note": "Whatever a soldier carries is his"
+  },
+  {
+   "from": "hu",
+   "to": "naete",
+   "type": "consort",
+   "note": "The sea is a household, not a single god"
+  },
+  {
+   "from": "hu",
+   "to": "dangbe",
+   "type": "ally",
+   "note": "Both of them are of the coast, and of Ouidah"
+  },
+  {
+   "from": "hu",
+   "to": "diaspora",
+   "type": "enemy",
+   "note": "The direction the wealth came from, and the direction people were taken"
+  },
+  {
+   "from": "naete",
+   "to": "diaspora",
+   "type": "ally",
+   "note": "And the water they went across and did not come back over"
+  },
+  {
+   "from": "age",
+   "to": "aziza",
+   "type": "ally",
+   "note": "Hunters in the bush are who they taught"
+  },
+  {
+   "from": "aziza",
+   "to": "vodun",
+   "type": "guru",
+   "note": "The knowledge of how to approach them came from the forest, not from above"
+  },
+  {
+   "from": "aziza",
+   "to": "loko",
+   "type": "ally",
+   "note": "The leaves, and who knows what to do with them"
+  },
+  {
+   "from": "aziza",
+   "to": "bo",
+   "type": "guru",
+   "note": "And how a made thing is put together"
+  },
+  {
+   "from": "loko",
+   "to": "bo",
+   "type": "ally",
+   "note": "The materials come off the tree"
+  },
+  {
+   "from": "fa",
+   "to": "gbadu",
+   "type": "devotee",
+   "note": "Her sixteen eyes are the palm nuts"
+  },
+  {
+   "from": "gbadu",
+   "to": "minona",
+   "type": "sibling",
+   "note": "Two daughters, and the sources cannot agree whether they are one"
+  },
+  {
+   "from": "minona",
+   "to": "fa",
+   "type": "guru",
+   "note": "She gave people the nuts so they would not be helpless"
+  },
+  {
+   "from": "fa",
+   "to": "kutome",
+   "type": "ally",
+   "note": "A person's destiny is settled before they are born and read afterwards"
+  },
+  {
+   "from": "fa",
+   "to": "legba",
+   "type": "ally",
+   "note": "Between them they cover what is fixed and what can be shifted"
+  },
+  {
+   "from": "agasu",
+   "to": "tohosu",
+   "type": "parent",
+   "note": "The royal line, and the spirits of the royal line"
+  },
+  {
+   "from": "agasu",
+   "to": "mino",
+   "type": "guru",
+   "note": "They were the king's, and the king was Agasu's"
+  },
+  {
+   "from": "agasu",
+   "to": "appliques",
+   "type": "devotee",
+   "note": "The leopard is on the cloths, because the kings put it there"
+  },
+  {
+   "from": "tohosu",
+   "to": "kutome",
+   "type": "ally",
+   "note": "Royal dead, with a cult of their own"
+  },
+  {
+   "from": "tohosu",
+   "to": "hu",
+   "type": "devotee",
+   "note": "Water spirits, who go back into the pool"
+  },
+  {
+   "from": "mino",
+   "to": "hevioso",
+   "type": "devotee",
+   "note": "Going into an assault, and asking for it to go their way"
+  },
+  {
+   "from": "mino",
+   "to": "appliques",
+   "type": "ally",
+   "note": "The battles are recorded in cut cloth"
+  },
+  {
+   "from": "zangbeto",
+   "to": "kutome",
+   "type": "devotee",
+   "note": "The night belongs to what is under the raffia, and it is not a man"
+  },
+  {
+   "from": "zangbeto",
+   "to": "bo",
+   "type": "ally",
+   "note": "What is shown when the costume is lifted"
+  },
+  {
+   "from": "zangbeto",
+   "to": "legba",
+   "type": "sibling",
+   "note": "Two things that stand between the village and everything outside it"
+  },
+  {
+   "from": "kutome",
+   "to": "vodun",
+   "type": "ally",
+   "note": "The ancestors are served at least as often as the gods"
+  },
+  {
+   "from": "appliques",
+   "to": "kutome",
+   "type": "guru",
+   "note": "No writing, so the record is sewn"
+  },
+  {
+   "from": "appliques",
+   "to": "fa",
+   "type": "sibling",
+   "note": "Two ways of keeping a great deal of information without an alphabet"
+  },
+  {
+   "from": "vodun",
+   "to": "diaspora",
+   "type": "parent",
+   "note": "It went across the water with the people who were taken"
+  },
+  {
+   "from": "diaspora",
+   "to": "legba",
+   "type": "devotee",
+   "note": "He became Papa Legba and kept the gate"
+  },
+  {
+   "from": "diaspora",
+   "to": "dan",
+   "type": "devotee",
+   "note": "And Dan became Damballa"
+  },
+  {
+   "from": "diaspora",
+   "to": "gu",
+   "type": "devotee",
+   "note": "And Gu became Ogou"
+  },
+  {
+   "from": "diaspora",
+   "to": "sakpata",
+   "type": "devotee",
+   "note": "And Sakpata became Babalu Aye"
+  },
+  {
+   "from": "dan",
+   "to": "dangbe",
+   "type": "sibling",
+   "note": "Two serpents, and one of them has a temple full of live ones"
+  },
+  {
+   "from": "dangbe",
+   "to": "vodun",
+   "type": "ally",
+   "note": "The temple is opposite the basilica and both are busy"
+  },
+  {
+   "from": "bo",
+   "to": "vodun",
+   "type": "enemy",
+   "note": "A made tool, and the thing outsiders mistook for the whole religion"
+  },
+  {
+   "from": "nana_buluku",
+   "to": "vodun",
+   "type": "ally",
+   "note": "She is above all of it and is never petitioned"
+  },
+  {
+   "from": "gbadu",
+   "to": "sakpata",
+   "type": "ally",
+   "note": "Holding the balance so the earth does not take too much"
+  },
+  {
+   "from": "gbadu",
+   "to": "hu",
+   "type": "ally",
+   "note": "Nor the sea"
+  },
+  {
+   "from": "gbadu",
+   "to": "hevioso",
+   "type": "ally",
+   "note": "Nor the sky"
+  }
+ ]
+}

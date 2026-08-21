@@ -278,10 +278,15 @@
    "label": "Fon",
    "sublabel": "Dahomey & Benin",
    "accent": "#c47f5a",
-   "status": "planned",
+   "status": "live",
    "blurb": "Mawu-Lisa, Legba and the serpent Dan - the direct ancestor of Vodun and Haitian Vodou.",
    "family": "Africa",
-   "glyph": "◎"
+   "glyph": "◎",
+   "figures": 25,
+   "stories": 8,
+   "links": 62,
+   "levels": 4,
+   "cover": "portraits/fon/nana_buluku.webp"
   },
   {
    "id": "san",

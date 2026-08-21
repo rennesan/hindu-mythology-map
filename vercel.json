@@ -98,6 +98,10 @@
    "destination": "/akan/index.html"
   },
   {
+   "source": "/fon/:path*",
+   "destination": "/fon/index.html"
+  },
+  {
    "source": "/inuit/:path*",
    "destination": "/inuit/index.html"
   },
