@@ -433,10 +433,15 @@
    "label": "Korean",
    "sublabel": "Korea",
    "accent": "#8a9ec4",
-   "status": "planned",
+   "status": "live",
    "blurb": "Dangun the bear's son, and the shamanic muga that were still being sung in the twentieth century.",
    "family": "Asia",
-   "glyph": "☰"
+   "glyph": "☰",
+   "figures": 28,
+   "stories": 8,
+   "links": 53,
+   "levels": 5,
+   "cover": "portraits/korean/hwanin.webp"
   },
   {
    "id": "balinese",

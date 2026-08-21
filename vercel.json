@@ -118,6 +118,10 @@
    "destination": "/hittite/index.html"
   },
   {
+   "source": "/korean/:path*",
+   "destination": "/korean/index.html"
+  },
+  {
    "source": "/finnish/:path*",
    "destination": "/finnish/index.html"
   },

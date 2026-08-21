@@ -1,0 +1,1874 @@
+{
+ "title": "Korean",
+ "description": "Founding legends written down by monks, and the shaman songs they never wrote down: a bear who became a woman, kings hatched from eggs, and a discarded seventh daughter who guides the dead.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Iryeon, Samguk Yusa (c. 1281) - the founding legends, preserved by a Buddhist monk",
+  "Kim Busik, Samguk Sagi (1145) - the official, and more sceptical, history",
+  "Homer B. Hulbert, The Passing of Korea (1906); Horace N. Allen, Korean Tales (1889)",
+  "The muga, Korean shaman narrative songs, recorded from named living mudang from the 1930s onward",
+  "Note: muism is a living practice, not a historical religion, and the gut is still performed"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/korean/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "yusa": {
+   "t": "Samguk Yusa (Memorabilia of the Three Kingdoms)",
+   "tr": "Iryeon, c. 1281; Ha & Mintz trans. 1972",
+   "u": "https://archive.org/details/samgukyusalegend0000iryo"
+  },
+  "sagi": {
+   "t": "Samguk Sagi (History of the Three Kingdoms)",
+   "tr": "Kim Busik, 1145",
+   "u": "https://en.wikipedia.org/wiki/Samguk_sagi"
+  },
+  "hulbert": {
+   "t": "The Passing of Korea",
+   "tr": "Homer B. Hulbert, 1906",
+   "u": "https://archive.org/details/passingofkorea00hulb"
+  },
+  "allen": {
+   "t": "Korean Tales",
+   "tr": "Horace N. Allen, 1889",
+   "u": "https://archive.org/details/koreantalesbeing00alle"
+  },
+  "muga": {
+   "t": "The muga - Korean shaman narrative songs",
+   "tr": "Recorded from living singers from the 1930s onward",
+   "u": "https://en.wikipedia.org/wiki/Korean_shamanism"
+  }
+ },
+ "meta": {
+  "id": "korean",
+  "label": "Korean",
+  "sublabel": "Muism & the founding legends",
+  "accent": "#8a9ec4",
+  "root": "hwanin"
+ },
+ "profile": {
+  "cosmicNature": "A sky that sends its son down onto a mountain because he wants to come, and a ground that meets him halfway. There is no creation from nothing and no cosmic war. Hwanung asks to go down, is given three seals and three thousand followers, and lands on Baekdu under a sandalwood tree, and the world's business starts from there. In the shaman songs the sky and the underworld are places you can walk to if you are determined enough.",
+  "natureOfDivinity": "Enormously crowded, and mostly local. There is a Jade Emperor at the top borrowed from China and he is remote. Everything that matters is nearer: a god in the roof beam, a goddess of the kitchen hearth, one for the outhouse who is dangerous, one for the gate, one for the site the house stands on, a mountain spirit for every mountain with a tiger beside him. The dead are managed by ten judges and by one princess who volunteered.",
+  "afterlife": "Ten courts, ten judges, and a guide who was thrown in a box as a baby. The Buddhist underworld supplied the bureaucracy - the ten kings, the ledgers, the sentence - and muism supplied the person who takes you there: Princess Bari, discarded at birth for being a girl, who went and got the water of life for the parents who threw her away and was made the ferryman of the dead in payment. Every Korean funeral gut is her story.",
+  "systemMechanism": "The gut, and the mudang who runs it. A gut is a ritual lasting hours or days in which a shaman, almost always a woman, invites gods and dead relatives into her body one after another and lets them speak - complaining, demanding, forgiving, joking with the family. The muga sung in it carry the mythology. It is not a survival: it went on all through the Joseon Confucian centuries, through Japanese occupation, through modernisation, and it goes on now.",
+  "canonTexts": "The Samguk Yusa (c. 1281), compiled by the monk Iryeon, which preserves the founding legends the official histories left out, and the Samguk Sagi (1145) beside it. For muism there is no book at all - the muga were transmitted by singing and were only written down when folklorists began recording them in the twentieth century, from named living shamans."
+ },
+ "hierarchy": [
+  {
+   "title": "The Beginning",
+   "blurb": "Preserved not by the monks but by the shamans of Jeju: sky and earth stuck together until a gap opened and three roosters crowed, and then two suns and two moons that made the world unliveable, and two brothers who fixed it and then cheated each other for the better job.",
+   "memberIds": [
+    "cheonjiwang",
+    "daebyeol_sobyeol"
+   ],
+   "connectorCaption": "The version the monks did write down starts on a mountain"
+  },
+  {
+   "title": "The Founding",
+   "blurb": "A prince asks his father if he can go down and live among people, and is given three seals and let go. A bear and a tiger ask to be human and one of them lasts the course. And then a run of kings hatched out of eggs, which is how Korean kingdoms begin.",
+   "memberIds": [
+    "hwanin",
+    "hwanung",
+    "ungnyeo",
+    "dangun",
+    "jumong",
+    "yuhwa",
+    "hyeokgeose"
+   ],
+   "connectorCaption": "And underneath all of it, the tradition that never stopped"
+  },
+  {
+   "title": "The Shamans",
+   "blurb": "A seventh daughter thrown in the water for being a girl, who went to the far country for the medicine that saved the parents who discarded her, and asked to be made guide of the dead. A man sent to arrest Death, who managed it. Songs carried by women, sung at rituals that are still held.",
+   "memberIds": [
+    "bari",
+    "gangnim",
+    "yeomra",
+    "jacheongbi",
+    "samsin",
+    "mudang"
+   ],
+   "connectorCaption": "And a god for every part of the building"
+  },
+  {
+   "title": "Around the House",
+   "blurb": "One in the ridge beam, one in the kitchen stove who reports on you, one in the outhouse with very long hair whom you cough at before entering, and one in a jar in the yard who owns the ground rather than the house. They divide the property with some precision.",
+   "memberIds": [
+    "seongju",
+    "jowang",
+    "cheukshin",
+    "teoju",
+    "sanshin"
+   ],
+   "connectorCaption": "Beyond the gate, what is out there"
+  },
+  {
+   "title": "What Is Out There",
+   "blurb": "Goblins grown out of old brooms who love wrestling and pay their debts. A fox that has waited a thousand years to be human and will fail on the last day. A serpent waiting in a pool for someone to look up. And smallpox, which you address as an honoured guest and see off with a paper horse.",
+   "memberIds": [
+    "dokkaebi",
+    "gumiho",
+    "imugi",
+    "yongwang",
+    "samjoko",
+    "haetae",
+    "tiger",
+    "sonnim"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "descent",
+   "label": "The Descent",
+   "memberIds": [
+    "hwanin",
+    "hwanung",
+    "ungnyeo",
+    "dangun"
+   ]
+  },
+  {
+   "id": "eggs",
+   "label": "Kings Out of Eggs",
+   "memberIds": [
+    "jumong",
+    "hyeokgeose",
+    "yuhwa",
+    "samjoko"
+   ]
+  },
+  {
+   "id": "jeju",
+   "label": "The Jeju Creation",
+   "memberIds": [
+    "cheonjiwang",
+    "daebyeol_sobyeol",
+    "jacheongbi"
+   ]
+  },
+  {
+   "id": "dead",
+   "label": "The Road of the Dead",
+   "memberIds": [
+    "bari",
+    "gangnim",
+    "yeomra",
+    "sonnim"
+   ]
+  },
+  {
+   "id": "women",
+   "label": "Carried by Women",
+   "memberIds": [
+    "mudang",
+    "bari",
+    "samsin",
+    "jowang",
+    "jacheongbi"
+   ]
+  },
+  {
+   "id": "house",
+   "label": "The Household Gods",
+   "memberIds": [
+    "seongju",
+    "jowang",
+    "cheukshin",
+    "teoju",
+    "samsin"
+   ]
+  },
+  {
+   "id": "mountain",
+   "label": "The Mountain",
+   "memberIds": [
+    "sanshin",
+    "tiger",
+    "dangun",
+    "ungnyeo"
+   ]
+  },
+  {
+   "id": "beasts",
+   "label": "What Is Out There",
+   "memberIds": [
+    "dokkaebi",
+    "gumiho",
+    "imugi",
+    "haetae",
+    "yongwang"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "garlic-and-mugwort",
+   "title": "Twenty-One Days in a Cave",
+   "era": "The Founding",
+   "cast": [
+    "hwanung",
+    "ungnyeo",
+    "tiger",
+    "dangun"
+   ],
+   "summary": "Hwanung came down onto Mount Baekdu with three thousand followers and three ministers - Earl Wind, Master Rain, Master Cloud - and took charge of some three hundred and sixty human affairs. A bear and a tiger came to him and asked to be made human. He gave each of them a bundle of mugwort and twenty bulbs of garlic and told them to eat nothing else and to stay out of the sunlight for a hundred days. The tiger could not stand it and left. The bear stayed, and on the twenty-first day came out a woman. Having no husband, she went and prayed under the sandalwood tree for a child, and Hwanung briefly took human shape and married her, and their son Dangun founded the first Korean kingdom. A national origin story that turns entirely on one animal being more patient than another.",
+   "sources": [
+    {
+     "book": "Samguk Yusa (Memorabilia of the Three Kingdoms)",
+     "translation": "Iryeon, c. 1281; Ha & Mintz trans. 1972",
+     "location": "Gojoseon",
+     "url": "https://archive.org/details/samgukyusalegend0000iryo"
+    }
+   ]
+  },
+  {
+   "id": "the-egg-and-the-river",
+   "title": "The Fish Came Up",
+   "era": "The Founding",
+   "cast": [
+    "jumong",
+    "yuhwa",
+    "yongwang"
+   ],
+   "summary": "Yuhwa, daughter of the river god, was shut in a room, and the sunlight came through and followed her wherever she moved in it, and she conceived and laid an egg. The king ordered it thrown to the pigs and the dogs, and they would not touch it; left on the road, and the oxen went round it; put out in the field, and the birds covered it with their wings. So it was given back to her and it hatched. The boy could shoot flies off a wall at seven and they named him Good Archer. The king's sons meant to kill him and he rode south with two companions, and came to a river with no boat and no bridge, and called out that he was the son of heaven and the grandson of the river god - and the fish and the turtles rose and made a bridge, and he crossed, and it went down behind him before the pursuit arrived.",
+   "sources": [
+    {
+     "book": "Samguk Sagi (History of the Three Kingdoms)",
+     "translation": "Kim Busik, 1145",
+     "location": "Goguryeo annals",
+     "url": "https://en.wikipedia.org/wiki/Samguk_sagi"
+    },
+    {
+     "book": "Samguk Yusa (Memorabilia of the Three Kingdoms)",
+     "translation": "Iryeon, c. 1281; Ha & Mintz trans. 1972",
+     "location": "Goguryeo",
+     "url": "https://archive.org/details/samgukyusalegend0000iryo"
+    }
+   ]
+  },
+  {
+   "id": "bari",
+   "title": "The Seventh Daughter",
+   "era": "The Shamans",
+   "cast": [
+    "bari",
+    "yeomra",
+    "mudang"
+   ],
+   "summary": "The king and queen wanted a son, and had six daughters, and when the seventh was also a girl the king had her put in a stone chest and thrown into the water. She was found and raised. Years later both parents fell ill with a sickness whose only cure was the water of life from the country beyond the western sky, and each of the six daughters they had kept found a reason not to go. So they sent for the one they had thrown away, and she went. She walked to the far country, and the guardian of the water would not give it up except at a price - nine years of service and seven sons - and she paid it. She came back to find the funeral procession already moving, stopped it, opened the coffins, and brought them back with the flower and the water. Her father offered her half the kingdom. She asked instead to be the one who guides the dead, and she has been ever since.",
+   "sources": [
+    {
+     "book": "The muga - Korean shaman narrative songs",
+     "translation": "Recorded from living singers from the 1930s onward",
+     "location": "The Bari Gongju muga",
+     "url": "https://en.wikipedia.org/wiki/Korean_shamanism"
+    }
+   ]
+  },
+  {
+   "id": "arresting-death",
+   "title": "The Warrant Served on Yeomra",
+   "era": "The Shamans",
+   "cast": [
+    "gangnim",
+    "yeomra",
+    "bari"
+   ],
+   "summary": "A magistrate, out of patience with a case he could not solve, ordered a minor official named Gangnim to go to the underworld and bring back Yeomra, the king of the dead, in person. It was intended as a death sentence. His wife fed him, made him clothes for the journey, and told him which road to take and what to do when he got there. He went, and waited, and served the warrant - and Yeomra, who is subject to procedure, came. Having demonstrated that he could do the one thing nobody can do, Gangnim was taken permanently into the underworld's service as the one who goes to collect the dying. It is a promotion, and it is also the end of his life, and the song does not pretend otherwise.",
+   "sources": [
+    {
+     "book": "The muga - Korean shaman narrative songs",
+     "translation": "Recorded from living singers from the 1930s onward",
+     "location": "The Chasa Bonpuli, Jeju",
+     "url": "https://en.wikipedia.org/wiki/Korean_shamanism"
+    }
+   ]
+  },
+  {
+   "id": "two-suns",
+   "title": "Shooting Down the Extra Sun",
+   "era": "The Beginning",
+   "cast": [
+    "cheonjiwang",
+    "daebyeol_sobyeol"
+   ],
+   "summary": "In the beginning the sky and the earth were stuck together. A gap opened, and a blue rooster crowed in the sky and a red one in the earth and a white one in between, and the world started - but with two suns in it and two moons, so that people burned by day and froze by night and nothing could live. Cheonjiwang's twin sons shot down the second of each. Then they competed for which of them would govern the world of the living, and the last test was to grow a flower, and the elder brother's bloomed. The younger waited until he slept and swapped the pots. So the younger took the living world by cheating, and the elder took the dead, and told him that a world run by someone who got it that way would be full of theft and lies and killing. The song says plainly that this is why it is.",
+   "sources": [
+    {
+     "book": "The muga - Korean shaman narrative songs",
+     "translation": "Recorded from living singers from the 1930s onward",
+     "location": "The Cheonjiwang Bonpuli, Jeju",
+     "url": "https://en.wikipedia.org/wiki/Korean_shamanism"
+    }
+   ]
+  },
+  {
+   "id": "the-guests",
+   "title": "The Paper Horse",
+   "era": "What Is Out There",
+   "cast": [
+    "sonnim",
+    "samsin",
+    "mudang"
+   ],
+   "summary": "Smallpox could not be fought, so it was received. When it came to a house the family did not speak of disease - they spoke of guests, sonnim, who had arrived from far away and had to be treated properly. A table was laid for them. Nobody quarrelled in the house, nobody built or dug or did anything unclean, and everyone was careful how they spoke. Around the thirteenth day, if the child had lived, a mudang was called to hold the sending-off: a small horse of paper and straw was made, provisions were packed on it for the journey, the guests were thanked for their visit, and they were asked to go home. It is a strategy of complete helplessness carried out with immaculate manners, and it is one of the saddest things in the tradition.",
+   "sources": [
+    {
+     "book": "The muga - Korean shaman narrative songs",
+     "translation": "Recorded from living singers from the 1930s onward",
+     "location": "The Sonnim-gut",
+     "url": "https://en.wikipedia.org/wiki/Korean_shamanism"
+    },
+    {
+     "book": "The Passing of Korea",
+     "translation": "Homer B. Hulbert, 1906",
+     "location": "Sickness and the shamans",
+     "url": "https://archive.org/details/passingofkorea00hulb"
+    }
+   ]
+  },
+  {
+   "id": "the-persimmon",
+   "title": "The Tiger and the Dried Persimmon",
+   "era": "What Is Out There",
+   "cast": [
+    "tiger",
+    "dokkaebi"
+   ],
+   "summary": "A child would not stop crying. Its mother said the tiger will come and get you, and the child cried on. She said here is a dried persimmon - and the child stopped at once. A tiger outside the window, who had been about to come in, heard the whole exchange and drew the obvious conclusion: it had just been named as a threat and had failed, and this gotgam, whatever it was, had succeeded instantly. It fled. Korea had real tigers in real numbers well into the twentieth century and they killed a great many people, and the culture responded by making the tiger simultaneously the mountain god's companion, the standard subject of folk painting - cross-eyed, daft, with a magpie scolding it - and the butt of the joke.",
+   "sources": [
+    {
+     "book": "Korean Tales",
+     "translation": "Horace N. Allen, 1889",
+     "location": "Korean Tales",
+     "url": "https://archive.org/details/koreantalesbeing00alle"
+    },
+    {
+     "book": "The Passing of Korea",
+     "translation": "Homer B. Hulbert, 1906",
+     "location": "Folk tales",
+     "url": "https://archive.org/details/passingofkorea00hulb"
+    }
+   ]
+  },
+  {
+   "id": "the-gut",
+   "title": "Letting Them Speak",
+   "era": "The Shamans",
+   "cast": [
+    "mudang",
+    "seongju",
+    "jowang",
+    "yeomra"
+   ],
+   "summary": "A gut runs for hours and sometimes days. The mudang changes robes for each god in turn and is entered by them one after another, and they speak through her - complaining that the family has neglected them, demanding food and money, making jokes at the expense of people in the room. Then the dead come, and a mother says the thing she did not say, and the family answers, and there is a great deal of weeping and, usually, some laughing. Some mudang dance barefoot on the edges of upturned blades to demonstrate that the god is really present and holding them up. Confucian officials despised it as vulgar, missionaries denounced it as devilry, the Japanese colonial government banned it, modernisation was supposed to finish it, and it is still going.",
+   "sources": [
+    {
+     "book": "The muga - Korean shaman narrative songs",
+     "translation": "Recorded from living singers from the 1930s onward",
+     "location": "Ritual practice",
+     "url": "https://en.wikipedia.org/wiki/Korean_shamanism"
+    },
+    {
+     "book": "The Passing of Korea",
+     "translation": "Homer B. Hulbert, 1906",
+     "location": "The mudang",
+     "url": "https://archive.org/details/passingofkorea00hulb"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "hwanin",
+   "name": "Hwanin",
+   "sanskrit": "Hwanin",
+   "category": "primordial",
+   "era": "The Founding",
+   "role": "The lord of heaven, who looked at what his son wanted and let him go",
+   "wikipedia": "Hwanin",
+   "portrait": "portraits/korean/hwanin.webp",
+   "epithets": [
+    "the heavenly emperor",
+    "the lord above"
+   ],
+   "domains": [
+    "heaven",
+    "permission",
+    "the three seals"
+   ],
+   "symbols": [
+    "the three heavenly seals",
+    "the view down at the mountains"
+   ],
+   "mount": null,
+   "abode": "Heaven",
+   "festivals": [],
+   "worship": "",
+   "bio": "He looked down at the three highest peaks, agreed they would do, and gave his son three seals.",
+   "longBio": "Hwanin is the lord of heaven and he appears in the Samguk Yusa for about two sentences. His son Hwanung wanted to go down and live among people, and Hwanin looked down at the world, decided that the three peaks would be a suitable place, gave him three heavenly seals and sent him off with three thousand followers. That is the whole of his part. There is no reluctance, no test, no cosmic conflict - a father agrees to something reasonable, and the world begins. It is one of the mildest openings any mythology has.",
+   "variantTraditions": "Iryeon glosses the name with a Buddhist term, which has led to long argument about how much of the story is a thirteenth-century Buddhist framing of something older.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "sky-thunder",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "hwanung",
+   "name": "Hwanung",
+   "sanskrit": "Hwanung",
+   "category": "deity",
+   "era": "The Founding",
+   "role": "He came down onto a mountain with three thousand followers and started running things",
+   "wikipedia": "Hwanung",
+   "portrait": "portraits/korean/hwanung.webp",
+   "epithets": [
+    "the heavenly prince",
+    "the one under the sandalwood tree"
+   ],
+   "domains": [
+    "descent",
+    "government",
+    "agriculture",
+    "medicine",
+    "law",
+    "weather"
+   ],
+   "symbols": [
+    "the sandalwood tree on the summit",
+    "the three seals",
+    "his three ministers of wind, rain and cloud"
+   ],
+   "mount": null,
+   "abode": "Mount Baekdu, under the sandalwood tree",
+   "festivals": [],
+   "worship": "",
+   "bio": "He brought ministers of wind, rain and cloud, and took charge of about three hundred and sixty affairs.",
+   "longBio": "Hwanung came down to the top of Mount Baekdu with three thousand followers and set up under a sandalwood tree, and the Samguk Yusa says he took charge of some three hundred and sixty human affairs - grain, lives, sickness, punishment, good and evil - along with three ministers named Earl Wind, Master Rain and Master Cloud. Into this arrangement walked a bear and a tiger who wanted to be human. He gave them the terms, one of them managed it, and he married her. He is a governor rather than a warrior, and the story is about administration, which is unusual and rather Korean.",
+   "variantTraditions": "The three ministers of wind, rain and cloud may be a Chinese-influenced element; the mountain and the tree are not.",
+   "storyIds": [
+    "garlic-and-mugwort"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "king-ruler",
+    "creator",
+    "wind-storm",
+    "healer"
+   ]
+  },
+  {
+   "id": "ungnyeo",
+   "name": "Ungnyeo",
+   "sanskrit": "Ungnyeo",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "A bear who ate garlic and mugwort in a cave for twenty-one days and came out a woman",
+   "wikipedia": "Dangun",
+   "portrait": "portraits/korean/ungnyeo.webp",
+   "epithets": [
+    "the bear woman",
+    "the mother of Dangun"
+   ],
+   "domains": [
+    "patience",
+    "transformation",
+    "the cave",
+    "motherhood"
+   ],
+   "symbols": [
+    "twenty bulbs of garlic and a bundle of mugwort",
+    "the cave",
+    "the sandalwood tree she prayed under"
+   ],
+   "mount": null,
+   "abode": "A cave, then the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "The tiger gave up after about twenty days. She did not.",
+   "longBio": "A bear and a tiger came to Hwanung and asked to be made human, and he gave them a bundle of mugwort and twenty bulbs of garlic each and told them to eat nothing else and stay out of the sunlight for a hundred days. The tiger could not do it and left. The bear stayed in the cave and after twenty-one days became a woman. Having no husband, she went and prayed under the sandalwood tree for a child, and Hwanung took human form briefly and married her, and their son was Dangun. The whole national origin story turns on one animal being more patient than another, which is a striking thing to build an identity on.",
+   "variantTraditions": "Bear ancestry links this to a wide circumpolar and Siberian complex of bear ceremonialism; the tiger's failure is sometimes read as one clan displacing another.",
+   "storyIds": [
+    "garlic-and-mugwort"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "divine-beast",
+    "hero-champion",
+    "preserver"
+   ]
+  },
+  {
+   "id": "dangun",
+   "name": "Dangun",
+   "sanskrit": "Dangun Wanggeom",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "Founded the first Korean kingdom in 2333 BC and then became a mountain god",
+   "wikipedia": "Dangun",
+   "portrait": "portraits/korean/dangun.webp",
+   "epithets": [
+    "Dangun Wanggeom",
+    "the sandalwood lord",
+    "the founder"
+   ],
+   "domains": [
+    "kingship",
+    "the founding of Gojoseon",
+    "the mountain"
+   ],
+   "symbols": [
+    "Pyongyang, his first capital",
+    "Mount Asadal",
+    "the altar on Mani-san"
+   ],
+   "mount": null,
+   "abode": "Asadal, and afterwards the mountain itself",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is said to have ruled for over a thousand years and then retired into a mountain as its god.",
+   "longBio": "Dangun, son of Hwanung and the bear woman, founded Gojoseon - the first Korean state - in a year traditionally reckoned as 2333 BC, which is still the basis of the Korean traditional calendar and of a public holiday. He is said to have reigned for well over a thousand years and then to have withdrawn into Mount Asadal and become its mountain god, which is the ordinary retirement for a Korean founder. He appears first in the Samguk Yusa in 1281, and his political weight since has been enormous: he was a rallying point under Japanese occupation and is claimed by both Koreas.",
+   "variantTraditions": "The Samguk Sagi, written 136 years earlier, does not mention him. What that means has been argued about for a century.",
+   "storyIds": [
+    "garlic-and-mugwort"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "preserver",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "jumong",
+   "name": "Jumong",
+   "sanskrit": "Jumong",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "Hatched from an egg, could shoot flies off a wall at seven, founded Goguryeo",
+   "wikipedia": "Dongmyeong_of_Goguryeo",
+   "portrait": "portraits/korean/jumong.webp",
+   "epithets": [
+    "Dongmyeongseong",
+    "the good archer",
+    "the one from the egg"
+   ],
+   "domains": [
+    "archery",
+    "flight",
+    "the founding of Goguryeo",
+    "horses"
+   ],
+   "symbols": [
+    "the egg no animal would harm",
+    "the bow",
+    "the fish and turtles that made him a bridge"
+   ],
+   "mount": null,
+   "abode": "Jolbon, and the kingdom of Goguryeo",
+   "festivals": [],
+   "worship": "",
+   "bio": "His name simply means good archer, and the fish came up and made him a bridge across the river.",
+   "longBio": "Jumong's mother Yuhwa was shut up by a king, was touched by sunlight that followed her about, and laid an egg. The king tried to have it thrown to the pigs and the dogs and left on the road, and no animal would touch it and the birds sheltered it, so it was given back and it hatched. The boy could shoot flies off a wall at seven and was named Good Archer. The king's sons plotted to kill him and he fled south, and at a river with no crossing he called out who his father was, and the fish and the turtles came up and made a bridge, and let it down behind him. He founded Goguryeo.",
+   "variantTraditions": "Told in both the Samguk Sagi and the Samguk Yusa, and inscribed on the Gwanggaeto stele of 414, which makes it one of the earliest attested Korean narratives.",
+   "storyIds": [
+    "the-egg-and-the-river"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "war",
+    "sun"
+   ]
+  },
+  {
+   "id": "hyeokgeose",
+   "name": "Bak Hyeokgeose",
+   "sanskrit": "Bak Hyeokgeose",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "Found in a red egg beside a kneeling white horse, and made king at thirteen",
+   "wikipedia": "Hyeokgeose_of_Silla",
+   "portrait": "portraits/korean/hyeokgeose.webp",
+   "epithets": [
+    "the founder of Silla",
+    "the bright one"
+   ],
+   "domains": [
+    "kingship",
+    "light",
+    "the founding of Silla",
+    "the horse"
+   ],
+   "symbols": [
+    "the red egg",
+    "the white horse that knelt and then flew away",
+    "the well"
+   ],
+   "mount": null,
+   "abode": "Saro, which became Silla",
+   "festivals": [],
+   "worship": "",
+   "bio": "The horse knelt beside the egg, and when people came near it whinnied and went up into the sky.",
+   "longBio": "The six chiefs of the valley were looking for a king, and saw a strange light by a well with a white horse kneeling beside it. When they came near, the horse whinnied and went up into the sky, and where it had been was a large red egg, and in it a boy. They washed him and he shone, and the birds and animals danced, and they made him king at thirteen and called the country Saro, later Silla. His queen was born from the side of a dragon that appeared at another well. Silla went on to unify the peninsula, so this is the founding story that won.",
+   "variantTraditions": "The egg-birth pattern repeats across every Korean and Manchurian founding legend, which is the strongest argument that it is genuinely old rather than borrowed.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "sun",
+    "dawn"
+   ]
+  },
+  {
+   "id": "yuhwa",
+   "name": "Yuhwa",
+   "sanskrit": "Yuhwa",
+   "category": "deity",
+   "era": "The Founding",
+   "role": "Sunlight followed her round the room and would not leave her alone, and she laid an egg",
+   "wikipedia": "Lady_Yuhwa",
+   "portrait": "portraits/korean/yuhwa.webp",
+   "epithets": [
+    "the willow flower",
+    "the river god's daughter",
+    "the mother of Jumong"
+   ],
+   "domains": [
+    "rivers",
+    "grain",
+    "motherhood",
+    "the sun that pursued her"
+   ],
+   "symbols": [
+    "the sunbeam that moved with her",
+    "the egg",
+    "the seeds she sent after her son"
+   ],
+   "mount": null,
+   "abode": "The Amnok river, and a king's house",
+   "festivals": [],
+   "worship": "",
+   "bio": "She is worshipped in Goguryeo as a grain goddess as well as a mother.",
+   "longBio": "Yuhwa was a daughter of the river god Habaek, and after a scandal was shut in a room by the king of Buyeo, and sunlight came in and followed her wherever she moved, and she conceived and laid an egg. Jumong hatched from it. When he fled south she sent him barley seeds after him by a pair of doves. Goguryeo worshipped her as a state deity alongside her son, and specifically as a giver of grain, which makes her one of the very few figures in Korean myth whose cult is attested in the historical record rather than only in a story.",
+   "variantTraditions": "The Gwanggaeto stele and Chinese sources both record Goguryeo state worship of Jumong's mother.",
+   "storyIds": [
+    "the-egg-and-the-river"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "sun",
+    "sea-waters",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "bari",
+   "name": "Princess Bari",
+   "sanskrit": "Bari Gongju",
+   "category": "hero",
+   "era": "The Shamans",
+   "role": "Thrown away for being a seventh daughter, she went to the underworld for the medicine that saved her parents",
+   "wikipedia": "Princess_Bari",
+   "portrait": "portraits/korean/bari.webp",
+   "epithets": [
+    "the abandoned princess",
+    "Barideogi, the thrown-away one",
+    "the first mudang"
+   ],
+   "domains": [
+    "the dead",
+    "healing",
+    "abandonment",
+    "the water of life",
+    "guiding souls"
+   ],
+   "symbols": [
+    "the stone chest she was put in",
+    "the flower that revives",
+    "the water of life"
+   ],
+   "mount": null,
+   "abode": "The far country beyond the western sky, and then every funeral",
+   "festivals": [],
+   "worship": "",
+   "bio": "She is the guide of the dead in Korea, and every funeral gut is her story.",
+   "longBio": "A king and queen wanted a son and had six daughters, and when the seventh was another girl they put her in a stone chest and threw her in the water. She was raised elsewhere. Years later both parents fell mortally ill and the only cure was the water of life from the far western country, and each of the six kept daughters found a reason not to go. Bari went. She served nine years as a wife and bore seven sons to the guardian of the water to get it, and came back to find her parents dead, and revived them with the flower and the water. Offered half the kingdom, she asked instead to be the one who leads the dead, and that is what she does.",
+   "variantTraditions": "The Bari muga is sung at funeral gut across Korea in many regional versions; it is probably the most widely performed piece of Korean oral literature.",
+   "storyIds": [
+    "bari",
+    "arresting-death"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "healer",
+    "death-judge",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "gangnim",
+   "name": "Gangnim",
+   "sanskrit": "Gangnim Doryeong",
+   "category": "underworld",
+   "era": "The Shamans",
+   "role": "A mortal sent to arrest Death itself - and he did it",
+   "wikipedia": "Gangnim",
+   "portrait": "portraits/korean/gangnim.webp",
+   "epithets": [
+    "the messenger",
+    "the one who fetched Yeomra"
+   ],
+   "domains": [
+    "death",
+    "arrest",
+    "the summoning of souls",
+    "the errand nobody survives"
+   ],
+   "symbols": [
+    "the red warrant",
+    "the road to the underworld",
+    "the wife who fed him"
+   ],
+   "mount": null,
+   "abode": "The underworld, on duty",
+   "festivals": [],
+   "worship": "",
+   "bio": "A magistrate ordered him to go and bring back the king of the dead, and he came back with him.",
+   "longBio": "Gangnim was a minor official given an impossible errand: his magistrate, out of patience with an unsolved case, ordered him to go to the underworld and fetch Yeomra, the king of the dead, in person. His wife fed him and equipped him and told him the road. He went, waited, and served the warrant, and Yeomra came. Having proved himself, Gangnim was taken into the underworld's service permanently as the one who comes to fetch the dying - which is a promotion and also the end of his life. He is the figure who actually arrives when someone dies, and his story is sung at the funeral gut alongside Bari's.",
+   "variantTraditions": "The Chasa Bonpuli, the muga in which this is told, is chiefly recorded from Jeju Island and is one of the richest of them.",
+   "storyIds": [
+    "arresting-death"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "hero-champion",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "yeomra",
+   "name": "Yeomra",
+   "sanskrit": "Yeomra Daewang",
+   "category": "underworld",
+   "era": "The Shamans",
+   "role": "The fifth of the ten judges, and the one whose name everyone actually knows",
+   "wikipedia": "Yama_(East_Asia)",
+   "portrait": "portraits/korean/yeomra.webp",
+   "epithets": [
+    "King Yama",
+    "the great king",
+    "the fifth judge"
+   ],
+   "domains": [
+    "judgement",
+    "the ledger of a life",
+    "the dead",
+    "the mirror of karma"
+   ],
+   "symbols": [
+    "the ledger",
+    "the mirror that shows what you did",
+    "the ten courts"
+   ],
+   "mount": null,
+   "abode": "The fifth court of the underworld",
+   "festivals": [],
+   "worship": "",
+   "bio": "The mirror shows the dead their own life, and there is no arguing with it.",
+   "longBio": "Yeomra is the Korean form of Yama, arrived by way of Buddhism and China, and he presides over the fifth of ten courts through which the dead pass in sequence, each with its own judge and its own department. He keeps the ledger, and the mirror in his court replays the dead person's life so that denial is pointless. Korean tradition folds him into narrative rather than leaving him an abstraction: he is fetched by Gangnim, he argues, he is subject to procedure, and he can be reasoned with, which is not how the imported version of him behaves.",
+   "variantTraditions": "The ten kings of the underworld are a Chinese Buddhist development that spread to Korea and Japan; the Korean muga treat them as characters rather than as offices.",
+   "storyIds": [
+    "bari",
+    "arresting-death",
+    "the-gut"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "jacheongbi",
+   "name": "Jacheongbi",
+   "sanskrit": "Jacheongbi",
+   "category": "deity",
+   "era": "The Shamans",
+   "role": "She dressed as a man for three years to study beside the boy she wanted, and got him",
+   "wikipedia": "Jacheongbi",
+   "portrait": "portraits/korean/jacheongbi.webp",
+   "epithets": [
+    "the grain goddess of Jeju",
+    "the self-appointed one"
+   ],
+   "domains": [
+    "grain",
+    "seeds",
+    "persistence",
+    "disguise",
+    "the five grains"
+   ],
+   "symbols": [
+    "the five grains she brought back",
+    "the man's clothes she wore",
+    "the flowers of life and death"
+   ],
+   "mount": null,
+   "abode": "Jeju, and the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her name means roughly the one who asked for herself, which is the whole character.",
+   "longBio": "Jacheongbi saw Mun Doryeong on the road, wanted him, and dressed as a boy to go and study alongside him for three years without being found out. When he left she revealed herself and he went to heaven and did not come back, so she went after him - fought a war in the sky on his behalf, refused the reward she was offered, and asked instead for the seeds of the five grains, which she brought back to earth. She is the grain goddess of Jeju, and she is the most sheerly determined figure in Korean myth: everything she has, she went and got, usually over the objections of everybody involved.",
+   "variantTraditions": "From the Segyeong Bonpuli, a Jeju muga. Jeju has the densest and best-preserved body of shaman narrative in Korea.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "hero-champion",
+    "love-desire",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "samsin",
+   "name": "Samsin Halmoni",
+   "sanskrit": "Samsin Halmeoni",
+   "category": "deity",
+   "era": "The Shamans",
+   "role": "The birth grandmother, who brings the child and leaves the mark on its back",
+   "wikipedia": "Samsin",
+   "portrait": "portraits/korean/samsin.webp",
+   "epithets": [
+    "the grandmother of three",
+    "the birth goddess"
+   ],
+   "domains": [
+    "childbirth",
+    "conception",
+    "the first seven years of a child",
+    "seaweed soup"
+   ],
+   "symbols": [
+    "the bowl of rice and the bowl of water set out",
+    "seaweed soup",
+    "the blue mark on a baby"
+   ],
+   "mount": null,
+   "abode": "The corner of the room where a birth is happening",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Mongolian spot on a baby's back is said to be where she smacked it to get it moving.",
+   "longBio": "Samsin Halmoni brings children, oversees the birth, and looks after them for their first years, and she is addressed directly by mothers and grandmothers rather than through any priest. A bowl of rice and a bowl of clean water are set out for her in the corner of the room, and seaweed soup is eaten after a birth partly for her. The blue-grey Mongolian spot on the lower back of most Korean babies is explained as the place where she slapped the reluctant child to send it out into the world. She has no temple and needs none; she is the most immediately practical deity in the country.",
+   "variantTraditions": "A domestic cult, conducted by women, with no professional priesthood - which is why it survived Confucianism, Christianity and modernisation intact.",
+   "storyIds": [
+    "the-guests"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "healer",
+    "fate-time",
+    "preserver"
+   ]
+  },
+  {
+   "id": "mudang",
+   "name": "The Mudang",
+   "sanskrit": "Mudang",
+   "category": "hero",
+   "era": "The Shamans",
+   "role": "She lets the gods and the dead speak through her, in front of the family, for hours",
+   "wikipedia": "Korean_shamanism",
+   "portrait": "portraits/korean/mudang.webp",
+   "epithets": [
+    "the shaman",
+    "manshin",
+    "the one who holds the gut"
+   ],
+   "domains": [
+    "possession",
+    "the gut",
+    "the dead",
+    "negotiation with gods"
+   ],
+   "symbols": [
+    "the fan and the bells",
+    "the knife blades danced on",
+    "the coloured robes changed for each spirit"
+   ],
+   "mount": null,
+   "abode": "Wherever a gut is being held",
+   "festivals": [],
+   "worship": "",
+   "bio": "Some are chosen by a sickness that only stops when they accept; others inherit the job.",
+   "longBio": "A mudang is almost always a woman, and she becomes one either by inheritance or by being seized - a long illness that no doctor can touch and that lifts the moment she accepts the calling. At a gut she changes robes for each god in turn, is entered by them, and lets them speak: complaining about the family's neglect, demanding food, making jokes, and eventually letting a dead relative say what was never said. Some dance barefoot on knife blades to prove the god is present. Confucian officials despised the profession, Christian missionaries denounced it, the Japanese banned it, and it is still going.",
+   "variantTraditions": "The muga sung at a gut are the main vehicle of Korean myth and were transmitted entirely orally until the twentieth century.",
+   "storyIds": [
+    "bari",
+    "the-guests",
+    "the-gut"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sage-seer",
+    "healer",
+    "messenger-trickster",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "seongju",
+   "name": "Seongju",
+   "sanskrit": "Seongju",
+   "category": "deity",
+   "era": "Around the House",
+   "role": "The god in the ridge beam, who is the house and is installed when it is built",
+   "wikipedia": "Korean_shamanism",
+   "portrait": "portraits/korean/seongju.webp",
+   "epithets": [
+    "the master of the house",
+    "the one in the roof beam"
+   ],
+   "domains": [
+    "the house",
+    "the household head",
+    "the building of it",
+    "prosperity"
+   ],
+   "symbols": [
+    "the ridge beam",
+    "the paper and rice tied to it",
+    "the jar of grain"
+   ],
+   "mount": null,
+   "abode": "The main ridge beam of the house",
+   "festivals": [],
+   "worship": "",
+   "bio": "When a house was built there was a ceremony to install him in the beam, and he stayed.",
+   "longBio": "Seongju is the household god and he lives in the ridge beam of the main room. When a house was raised there was a ceremony to bring him into it - paper, thread and grain fastened to the beam, food set out, a mudang called if the family could afford one - and after that he is the house's own god and the fortune of the household is tied to him. He is paired with the male head of the family the way the kitchen goddess is paired with the wife. Move house and you install a new one; let the ceremony lapse and the household is understood to be unprotected.",
+   "variantTraditions": "One of a set of gasin, household gods, whose worship was carried out by women even though Seongju himself is associated with the husband.",
+   "storyIds": [
+    "the-gut"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "wealth-fortune",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "jowang",
+   "name": "Jowang",
+   "sanskrit": "Jowang",
+   "category": "deity",
+   "era": "Around the House",
+   "role": "The goddess of the kitchen fire, and she reports on the household",
+   "wikipedia": "Korean_shamanism",
+   "portrait": "portraits/korean/jowang.webp",
+   "epithets": [
+    "the hearth goddess",
+    "the one in the stove"
+   ],
+   "domains": [
+    "fire",
+    "the kitchen",
+    "the wife",
+    "cleanliness",
+    "reporting"
+   ],
+   "symbols": [
+    "a bowl of clean water set on the stove ledge each morning",
+    "the flame"
+   ],
+   "mount": null,
+   "abode": "The kitchen stove",
+   "festivals": [],
+   "worship": "",
+   "bio": "The wife of the house changed her water every morning, first thing, before anything else.",
+   "longBio": "Jowang lives in the kitchen stove and is served by the woman of the house, who set a fresh bowl of clean water on the ledge above it every morning before doing anything else. She watches everything that happens in the house and reports it upward, which is a Chinese element - the stove god who goes to heaven and tells - but the Korean version is less punitive and more domestic. She must not be spoken rudely to, spat near, or have anything unclean burned in her. She and Seongju divide the house between them, and the division follows the marriage.",
+   "variantTraditions": "The Jowang cult is closely paralleled by the Chinese Zao Jun and the Japanese kamado gods, and predates Buddhism in all three.",
+   "storyIds": [
+    "the-gut"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "earth-mother",
+    "preserver",
+    "healer"
+   ]
+  },
+  {
+   "id": "cheukshin",
+   "name": "Cheukshin",
+   "sanskrit": "Cheukshin Gaksi",
+   "category": "deity",
+   "era": "Around the House",
+   "role": "The outhouse goddess, who has very long hair and a bad temper",
+   "wikipedia": "Korean_shamanism",
+   "portrait": "portraits/korean/cheukshin.webp",
+   "epithets": [
+    "the privy maiden",
+    "the one with the hair"
+   ],
+   "domains": [
+    "the outhouse",
+    "sudden illness",
+    "resentment",
+    "long hair"
+   ],
+   "symbols": [
+    "fifty fathoms of hair she counts",
+    "the wooden clogs",
+    "the three coughs before entering"
+   ],
+   "mount": null,
+   "abode": "The outhouse, which stands away from the house",
+   "festivals": [],
+   "worship": "",
+   "bio": "You cough three times before going in, so as not to startle her, and you never linger.",
+   "longBio": "Cheukshin lives in the privy, counting her enormously long hair, and if she is surprised she throws it over the intruder and they sicken and sometimes die. The rule is to cough three times before going in and never to stay longer than necessary or to look about. She is on very bad terms with Jowang the kitchen goddess - the two are enemies in the myth, which is a sensible thing to say about a kitchen and a latrine - and nothing from one place may be carried to the other. She is the most feared of the household gods and the least respected.",
+   "variantTraditions": "The enmity between the kitchen and the privy goddess is a genuine feature of the household myth and functions as a hygiene rule.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "sanshin",
+   "name": "Sanshin",
+   "sanskrit": "Sanshin",
+   "category": "deity",
+   "era": "Around the House",
+   "role": "The mountain god, an old man with a tiger, and there is one for every mountain",
+   "wikipedia": "Sanshin",
+   "portrait": "portraits/korean/sanshin.webp",
+   "epithets": [
+    "the mountain spirit",
+    "the old man of the mountain"
+   ],
+   "domains": [
+    "mountains",
+    "tigers",
+    "ginseng",
+    "the safety of travellers",
+    "sons"
+   ],
+   "symbols": [
+    "the tiger lying beside him",
+    "the ginseng root",
+    "the fan",
+    "the pine"
+   ],
+   "mount": null,
+   "abode": "Every mountain in Korea, one each",
+   "festivals": [],
+   "worship": "",
+   "bio": "Nearly every Buddhist temple in Korea has a small side hall for him, because it had to.",
+   "longBio": "Every mountain has a god, usually pictured as a white-bearded old man seated under a pine with a tiger lying beside him like a dog, sometimes with a boy attendant holding ginseng. Founders retire into mountains and become one - Dangun did. He is asked for safe passage, for good luck in the hills, and above all for sons. The clearest measure of how deep this goes is that when Buddhism established itself it did not displace him: nearly every Korean Buddhist temple has a small separate hall, the Sanshin-gak, tucked behind the main one, with his painting in it.",
+   "variantTraditions": "The Sanshin halls are the standard visible evidence of Buddhism accommodating the older mountain cult rather than replacing it.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "divine-beast",
+    "preserver",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "teoju",
+   "name": "Teoju",
+   "sanskrit": "Teoju",
+   "category": "nature",
+   "era": "Around the House",
+   "role": "The god of the ground the house stands on, who was there first",
+   "wikipedia": "Korean_shamanism",
+   "portrait": "portraits/korean/teoju.webp",
+   "epithets": [
+    "the site god",
+    "the one of the plot"
+   ],
+   "domains": [
+    "the site",
+    "the land under the house",
+    "permission to build"
+   ],
+   "symbols": [
+    "a straw jar in the back yard",
+    "grain kept in it and changed each year"
+   ],
+   "mount": null,
+   "abode": "The back yard, in a small straw-covered jar",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is kept in a jar of grain in the yard, and the grain is changed every autumn.",
+   "longBio": "Teoju owns the piece of ground, as distinct from the house standing on it, and he was there before anybody built. He is housed in a small jar of grain in the back yard with a little straw roof over it, and the grain in it is replaced after each harvest. Disturbing the ground - digging, building, moving a wall - without acknowledging him brings trouble on the family. The distinction between the site and the structure, each with its own god and its own etiquette, is a very precise piece of thinking and is characteristic of how the household gods divide the world up.",
+   "variantTraditions": "Part of the gasin complex; the straw-roofed jar is still occasionally seen in rural Korea.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "cheonjiwang",
+   "name": "Cheonjiwang",
+   "sanskrit": "Cheonjiwang",
+   "category": "creator",
+   "era": "The Beginning",
+   "role": "The sky and earth split apart, and there were two suns and two moons, and it was unliveable",
+   "wikipedia": "Cheonjiwang_bonpuli",
+   "portrait": "portraits/korean/cheonjiwang.webp",
+   "epithets": [
+    "the king of heaven and earth"
+   ],
+   "domains": [
+    "the separation of sky and earth",
+    "the first order",
+    "the twin sons"
+   ],
+   "symbols": [
+    "two suns and two moons",
+    "the gap that opened",
+    "the rooster crowing at the split"
+   ],
+   "mount": null,
+   "abode": "Heaven, and briefly a woman's house on earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Jeju shamans have a creation the mainland chronicles never recorded.",
+   "longBio": "The Jeju muga preserve a creation the Buddhist chroniclers never wrote down. In the beginning sky and earth were stuck together, and then a gap opened, and a blue rooster and a red rooster and a white rooster crowed, and the world began - but with two suns and two moons in it, so that people burned by day and froze by night. Cheonjiwang came down, stayed with a woman called Chongmyeong Buin, and went back up, leaving her two sons and two combs. The sons went up to find him, and he set them the job of fixing the sky.",
+   "variantTraditions": "The Cheonjiwang Bonpuli is a Jeju shaman song. There is no comparable creation account in the mainland written sources at all.",
+   "storyIds": [
+    "two-suns"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "supreme-source",
+    "sky-thunder"
+   ]
+  },
+  {
+   "id": "daebyeol_sobyeol",
+   "name": "Daebyeol and Sobyeol",
+   "sanskrit": "Daebyeolwang gwa Sobyeolwang",
+   "category": "creator",
+   "era": "The Beginning",
+   "role": "They shot down the extra sun and moon, then cheated each other for the better job",
+   "wikipedia": "Cheonjiwang_bonpuli",
+   "portrait": "portraits/korean/daebyeol_sobyeol.webp",
+   "epithets": [
+    "the two kings",
+    "the elder and the younger"
+   ],
+   "domains": [
+    "the sun and moon",
+    "the division of the living and the dead",
+    "a contest that was rigged"
+   ],
+   "symbols": [
+    "the bow",
+    "the flower that had to be grown",
+    "the swapped pots"
+   ],
+   "mount": null,
+   "abode": "One rules the living, the other the dead",
+   "festivals": [],
+   "worship": "",
+   "bio": "The younger swapped the flowerpots while his brother slept, and that is why this world is unjust.",
+   "longBio": "Cheonjiwang's twin sons shot down the second sun and the second moon so that the world was liveable. Then they competed for which world each would govern, and the final test was to grow a flower - whoever's bloomed would take the world of the living. The elder's flourished. The younger waited until he was asleep and swapped the pots, and so took the living world for himself. The elder took the dead instead, and warned him that a world governed by someone who won it by cheating would be full of theft, lies and murder. The song says outright that this is why it is.",
+   "variantTraditions": "A theodicy in a shaman song: the world is unjust because the god who runs it cheated to get the job. It has no parallel in the written Korean sources.",
+   "storyIds": [
+    "two-suns"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "sun",
+    "moon",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "dokkaebi",
+   "name": "The Dokkaebi",
+   "sanskrit": "Dokkaebi",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "Goblins born out of discarded objects, who love wrestling, and who pay their debts",
+   "wikipedia": "Dokkaebi",
+   "portrait": "portraits/korean/dokkaebi.webp",
+   "epithets": [
+    "the goblins",
+    "the ones from old brooms"
+   ],
+   "domains": [
+    "mischief",
+    "wrestling",
+    "wealth",
+    "old objects",
+    "buckwheat jelly"
+   ],
+   "symbols": [
+    "the spiked club that produces whatever you name",
+    "the horn",
+    "the single leg"
+   ],
+   "mount": null,
+   "abode": "Old houses, roadsides, anywhere something was left to rot",
+   "festivals": [],
+   "worship": "",
+   "bio": "They come from objects stained with human blood - an old broom, a poker, a millstone.",
+   "longBio": "A dokkaebi grows out of a discarded household object, especially one that has human blood on it - an old broom, a whisk, a poker - and it is not a ghost, having never been alive. They are ugly, strong, extremely fond of wrestling, and beatable if you know that they can only be thrown to the left. They like buckwheat jelly and they hate horse blood. They carry a spiked club that produces whatever they name, and they will reward a person who deals honestly with them and torment one who does not, and they are always keeping score. They are much closer to a rowdy neighbour than to a demon.",
+   "variantTraditions": "The blue-skinned horned image most people picture is largely borrowed from the Japanese oni during the colonial period; the traditional dokkaebi looks more like a scruffy man.",
+   "storyIds": [
+    "the-persimmon"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "wealth-fortune",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "gumiho",
+   "name": "The Gumiho",
+   "sanskrit": "Gumiho",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "A nine-tailed fox, a thousand years old, and unlike the Chinese and Japanese ones she rarely gets to be good",
+   "wikipedia": "Kumiho",
+   "portrait": "portraits/korean/gumiho.webp",
+   "epithets": [
+    "the nine-tailed fox"
+   ],
+   "domains": [
+    "transformation",
+    "seduction",
+    "livers",
+    "the hundred days"
+   ],
+   "symbols": [
+    "nine tails",
+    "the fox bead passed mouth to mouth",
+    "the beautiful woman at the roadside"
+   ],
+   "mount": null,
+   "abode": "The hills, and the road at night",
+   "festivals": [],
+   "worship": "",
+   "bio": "The condition for becoming human is usually to abstain from killing for a hundred days, and it usually fails.",
+   "longBio": "A fox that lives a thousand years grows nine tails and can take human form, almost always a beautiful woman. The Korean gumiho is markedly darker than the Chinese huli jing or the Japanese kitsune, which are often benign: hers is a story about wanting to become human and not managing it. She is given a condition - abstain from eating human flesh for a hundred days, or keep a secret for a set time - and she nearly always fails at the last moment, and is exposed and killed. The fox bead, which she passes from her mouth to a man's during a kiss to draw out his energy, is the standard motif.",
+   "variantTraditions": "Modern Korean drama has spent twenty years rehabilitating the gumiho into a romantic lead, which is a genuine and recent change to a very old figure.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "primordial-adversary",
+    "love-desire",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "imugi",
+   "name": "The Imugi",
+   "sanskrit": "Imugi",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "A serpent that has to wait a thousand years in the water to become a dragon, and can still fail",
+   "wikipedia": "Imugi",
+   "portrait": "portraits/korean/imugi.webp",
+   "epithets": [
+    "the lesser dragon",
+    "the hornless serpent"
+   ],
+   "domains": [
+    "water",
+    "patience",
+    "the thousand years",
+    "not quite making it"
+   ],
+   "symbols": [
+    "the yeouiju, the dragon pearl",
+    "the deep pool",
+    "the rain at the moment of ascent"
+   ],
+   "mount": null,
+   "abode": "A deep pool, waiting",
+   "festivals": [],
+   "worship": "",
+   "bio": "It must be seen by a human at the moment it rises, or it falls back and starts again.",
+   "longBio": "An imugi is a great serpent that lives in deep water and is not yet a dragon. It must wait a thousand years, and then either catch a yeouiju - a pearl fallen from heaven - or be witnessed by a person at the moment it ascends, and then it becomes a yong, a proper dragon, and can make rain. If the conditions are not met it falls back into the water and the thousand years begin again. It is a striking idea: the gap between the almost and the actual, with an enormous waiting time attached, and a failure condition that depends on somebody happening to look up.",
+   "variantTraditions": "The details vary between regions - some accounts make the imugi cursed, others simply immature.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "sea-waters",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "yongwang",
+   "name": "The Dragon King",
+   "sanskrit": "Yongwang",
+   "category": "deity",
+   "era": "What Is Out There",
+   "role": "The dragon of the sea, who brings the rain and to whom fishermen still make offerings",
+   "wikipedia": "Dragon_King",
+   "portrait": "portraits/korean/yongwang.webp",
+   "epithets": [
+    "the sea dragon king",
+    "the four dragon kings"
+   ],
+   "domains": [
+    "the sea",
+    "rain",
+    "fishermen",
+    "the underwater palace"
+   ],
+   "symbols": [
+    "the yeouiju pearl under the chin",
+    "the palace under the sea",
+    "the rain"
+   ],
+   "mount": null,
+   "abode": "A palace at the bottom of the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "King Munmu asked to be buried at sea so he could become one and defend the coast.",
+   "longBio": "The dragon king rules the sea and controls the rain, and he keeps a palace under the water where a great deal of Korean folk narrative takes place - the rabbit who talks his way off the operating table when the dragon king needs a rabbit's liver is the most famous. Fishing villages made offerings to him and some still do. King Munmu of Silla, who died in 681, asked to be buried in the sea off the coast so that he could become a dragon and guard the kingdom against Japanese raiders, and there is a rock formation off Gyeongju that is treated as his tomb.",
+   "variantTraditions": "Chiefly a Chinese Buddhist import layered onto an older sea cult; the Munmu burial is historical and the site is real.",
+   "storyIds": [
+    "the-egg-and-the-river"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "serpent-dragon",
+    "sea-waters",
+    "king-ruler",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "samjoko",
+   "name": "The Three-Legged Crow",
+   "sanskrit": "Samjogo",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "A crow with three legs living in the sun, painted on Goguryeo tomb walls",
+   "wikipedia": "Three-legged_crow",
+   "portrait": "portraits/korean/samjoko.webp",
+   "epithets": [
+    "Samjogo",
+    "the crow in the sun"
+   ],
+   "domains": [
+    "the sun",
+    "Goguryeo",
+    "power",
+    "the sky"
+   ],
+   "symbols": [
+    "three legs",
+    "the sun disc it sits inside",
+    "the tomb ceiling"
+   ],
+   "mount": null,
+   "abode": "Inside the sun",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is on the ceilings of fifth-century Goguryeo tombs, opposite a toad in the moon.",
+   "longBio": "The three-legged crow lives in the sun, and is painted inside a red sun disc on the ceilings of Goguryeo tombs from the fourth and fifth centuries, usually with a toad or a rabbit in the moon on the opposite side. The motif is shared with China and Japan, but Goguryeo made more of it than either, and it has been adopted in modern South Korea as an emblem of the northern kingdom - it appears on football kit, in television dramas and in national branding, which is an unusually vigorous afterlife for a tomb painting.",
+   "variantTraditions": "Present in Chinese sources earlier, but the Goguryeo tomb murals are the richest surviving body of images of it.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sun",
+    "divine-beast",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "haetae",
+   "name": "The Haetae",
+   "sanskrit": "Haetae",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "A horned lion that can tell who is lying, and eats fire",
+   "wikipedia": "Xiezhi",
+   "portrait": "portraits/korean/haetae.webp",
+   "epithets": [
+    "Haechi",
+    "the one who knows right from wrong"
+   ],
+   "domains": [
+    "justice",
+    "fire",
+    "law",
+    "the recognition of guilt"
+   ],
+   "symbols": [
+    "the single horn",
+    "the scaled body",
+    "the bell around its neck"
+   ],
+   "mount": null,
+   "abode": "The gates of Gyeongbokgung, and the city of Seoul",
+   "festivals": [],
+   "worship": "",
+   "bio": "It was put in front of the palace because Seoul was thought vulnerable to fire.",
+   "longBio": "The haetae is a horned lion-like creature that recognises guilt on sight and butts the guilty party with its horn, which made it the emblem of judges and censors. It also eats fire, and pairs of stone haetae were set in front of Gyeongbokgung palace in Seoul specifically because the city was believed to be geomantically vulnerable to fire, with Gwanaksan to the south held responsible. They are still there. Seoul adopted a cartoon version, Haechi, as the official city mascot in 2008, so the fire-eating justice beast is now on the buses.",
+   "variantTraditions": "Shared with the Chinese xiezhi and the Japanese kaichi; the Seoul palace pair and the fire-geomancy reason are specifically Korean.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "fire",
+    "king-ruler",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "tiger",
+   "name": "The Tiger",
+   "sanskrit": "Horangi",
+   "category": "beast",
+   "era": "What Is Out There",
+   "role": "The most Korean animal there is: terrifying, sacred, and constantly made a fool of",
+   "wikipedia": "Tiger",
+   "portrait": "portraits/korean/tiger.webp",
+   "epithets": [
+    "the mountain lord",
+    "the one who smokes a pipe",
+    "sanshin's companion"
+   ],
+   "domains": [
+    "mountains",
+    "fear",
+    "protection",
+    "comedy"
+   ],
+   "symbols": [
+    "the pipe in the old stories",
+    "the persimmon it was afraid of",
+    "the magpie beside it in folk painting"
+   ],
+   "mount": null,
+   "abode": "The mountains, when there were still tigers",
+   "festivals": [],
+   "worship": "",
+   "bio": "Korean tales begin: in the days when tigers smoked pipes - the equivalent of once upon a time.",
+   "longBio": "Korea was full of tigers until the twentieth century and they killed a great many people, and the tiger accordingly occupies more space in Korean culture than any other animal. It failed the test in the cave and did not become human. It sits beside the mountain god as his companion. It is the standard subject of folk painting, where it is drawn cross-eyed and daft with a magpie scolding it from a branch, and in the tales it is regularly outwitted by rabbits, by a mother selling rice cakes, and famously by a dried persimmon, which it took for a monster more terrible than itself.",
+   "variantTraditions": "The Korean tiger was hunted to extinction on the peninsula during the Japanese occupation; the last confirmed wild one in the south was killed in 1922.",
+   "storyIds": [
+    "garlic-and-mugwort",
+    "the-persimmon"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "primordial-adversary",
+    "messenger-trickster",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "sonnim",
+   "name": "The Sonnim",
+   "sanskrit": "Sonnim",
+   "category": "underworld",
+   "era": "What Is Out There",
+   "role": "Smallpox, addressed politely as visiting guests, and seen off with a farewell party",
+   "wikipedia": "Korean_shamanism",
+   "portrait": "portraits/korean/sonnim.webp",
+   "epithets": [
+    "the guests",
+    "the honoured visitors",
+    "the smallpox gods"
+   ],
+   "domains": [
+    "smallpox",
+    "disease",
+    "hospitality under duress",
+    "the seeing-off"
+   ],
+   "symbols": [
+    "the little paper horse made for their journey",
+    "the table of food",
+    "the send-off on the thirteenth day"
+   ],
+   "mount": null,
+   "abode": "Wherever they choose to visit",
+   "festivals": [],
+   "worship": "",
+   "bio": "You could not fight them, so you called them guests, fed them, and asked them to leave.",
+   "longBio": "Smallpox was not treated as an affliction but as a visit. The sonnim - the word simply means guests - were said to come from elsewhere, and a household with a sick child laid on hospitality: a table of food, respectful language, no quarrelling, no building work, no unclean act anywhere in the house. On about the thirteenth day, if the child survived, a mudang held the sending-off gut, and a small paper horse was made and provisions packed for the guests' journey home, and they were thanked and asked to go. It is a strategy of last resort dressed as good manners, and it is one of the most poignant things in the tradition.",
+   "variantTraditions": "The Sonnim-gut is well documented. Smallpox was eradicated in Korea by the 1960s and the ritual persists in the shaman repertoire.",
+   "storyIds": [
+    "the-guests"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "destroyer",
+    "death-judge",
+    "primordial-adversary",
+    "healer"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "hwanin",
+   "to": "hwanung",
+   "type": "parent",
+   "note": "The son asked to go down, and was given three seals and let go"
+  },
+  {
+   "from": "hwanung",
+   "to": "ungnyeo",
+   "type": "consort",
+   "note": "She prayed under his tree for a child and he came down and married her"
+  },
+  {
+   "from": "ungnyeo",
+   "to": "dangun",
+   "type": "parent",
+   "note": "Twenty-one days of garlic and mugwort, and then a son"
+  },
+  {
+   "from": "hwanung",
+   "to": "dangun",
+   "type": "parent",
+   "note": "The heavenly prince and the bear woman between them"
+  },
+  {
+   "from": "ungnyeo",
+   "to": "tiger",
+   "type": "enemy",
+   "note": "One of them lasted the hundred days and one did not"
+  },
+  {
+   "from": "dangun",
+   "to": "sanshin",
+   "type": "devotee",
+   "note": "He went into the mountain at the end and became its god"
+  },
+  {
+   "from": "dangun",
+   "to": "hyeokgeose",
+   "type": "sibling",
+   "note": "Two founders, and there is an egg in most of these stories"
+  },
+  {
+   "from": "yuhwa",
+   "to": "jumong",
+   "type": "parent",
+   "note": "Sunlight followed her round the room and she laid an egg"
+  },
+  {
+   "from": "jumong",
+   "to": "yuhwa",
+   "type": "devotee",
+   "note": "She sent barley seeds after him by two doves"
+  },
+  {
+   "from": "jumong",
+   "to": "hyeokgeose",
+   "type": "sibling",
+   "note": "Goguryeo in the north and Silla in the south, both out of eggs"
+  },
+  {
+   "from": "jumong",
+   "to": "yongwang",
+   "type": "ally",
+   "note": "The fish and the turtles came up and made him a bridge"
+  },
+  {
+   "from": "hyeokgeose",
+   "to": "samjoko",
+   "type": "ally",
+   "note": "Light out of the sky, and a bird that lives in the sun"
+  },
+  {
+   "from": "cheonjiwang",
+   "to": "daebyeol_sobyeol",
+   "type": "parent",
+   "note": "Two sons, two combs, and a job to finish"
+  },
+  {
+   "from": "daebyeol_sobyeol",
+   "to": "cheonjiwang",
+   "type": "devotee",
+   "note": "They went up to find him and were set the sky to fix"
+  },
+  {
+   "from": "daebyeol_sobyeol",
+   "to": "yeomra",
+   "type": "ally",
+   "note": "The elder took the dead when he was cheated out of the living"
+  },
+  {
+   "from": "cheonjiwang",
+   "to": "hwanin",
+   "type": "sibling",
+   "note": "Two versions of the sky, and only one of them got written down"
+  },
+  {
+   "from": "bari",
+   "to": "yeomra",
+   "type": "ally",
+   "note": "She works the road he judges at the end of"
+  },
+  {
+   "from": "bari",
+   "to": "gangnim",
+   "type": "sibling",
+   "note": "One leads them there and the other fetches them"
+  },
+  {
+   "from": "gangnim",
+   "to": "yeomra",
+   "type": "enemy",
+   "note": "He served a warrant on the king of the dead, and it held"
+  },
+  {
+   "from": "yeomra",
+   "to": "gangnim",
+   "type": "guru",
+   "note": "And then kept him, permanently, as staff"
+  },
+  {
+   "from": "bari",
+   "to": "mudang",
+   "type": "guru",
+   "note": "She is sung at every funeral gut there is"
+  },
+  {
+   "from": "mudang",
+   "to": "bari",
+   "type": "devotee",
+   "note": "The first of them, in most tellings"
+  },
+  {
+   "from": "mudang",
+   "to": "sonnim",
+   "type": "enemy",
+   "note": "Somebody has to hold the sending-off"
+  },
+  {
+   "from": "mudang",
+   "to": "seongju",
+   "type": "ally",
+   "note": "A gut is held when the house god is installed"
+  },
+  {
+   "from": "mudang",
+   "to": "jowang",
+   "type": "ally",
+   "note": "And the kitchen is where half of it happens"
+  },
+  {
+   "from": "jacheongbi",
+   "to": "mudang",
+   "type": "devotee",
+   "note": "Sung on Jeju, where the songs are richest"
+  },
+  {
+   "from": "jacheongbi",
+   "to": "yuhwa",
+   "type": "sibling",
+   "note": "Two women who came back with the grain"
+  },
+  {
+   "from": "samsin",
+   "to": "bari",
+   "type": "sibling",
+   "note": "One brings them in and one takes them out"
+  },
+  {
+   "from": "samsin",
+   "to": "jowang",
+   "type": "ally",
+   "note": "Both of them are served by the women of the house"
+  },
+  {
+   "from": "seongju",
+   "to": "jowang",
+   "type": "consort",
+   "note": "The beam and the stove, and the division follows the marriage"
+  },
+  {
+   "from": "jowang",
+   "to": "cheukshin",
+   "type": "enemy",
+   "note": "The kitchen and the privy, and nothing passes between them"
+  },
+  {
+   "from": "seongju",
+   "to": "teoju",
+   "type": "ally",
+   "note": "The house, and the ground it was put on"
+  },
+  {
+   "from": "teoju",
+   "to": "sanshin",
+   "type": "devotee",
+   "note": "Whoever was there before you built"
+  },
+  {
+   "from": "sanshin",
+   "to": "tiger",
+   "type": "mount",
+   "note": "The tiger lies beside him like a dog"
+  },
+  {
+   "from": "sanshin",
+   "to": "dangun",
+   "type": "ally",
+   "note": "Founders retire into mountains and become one"
+  },
+  {
+   "from": "tiger",
+   "to": "dokkaebi",
+   "type": "sibling",
+   "note": "Two things that are frightening and end up being laughed at"
+  },
+  {
+   "from": "dokkaebi",
+   "to": "seongju",
+   "type": "enemy",
+   "note": "Something out of an old broom, against the god of the house"
+  },
+  {
+   "from": "gumiho",
+   "to": "tiger",
+   "type": "sibling",
+   "note": "Two animals in the hills, and only one gets to be sacred"
+  },
+  {
+   "from": "gumiho",
+   "to": "mudang",
+   "type": "enemy",
+   "note": "A fox trying to become human, and a woman the gods enter"
+  },
+  {
+   "from": "imugi",
+   "to": "yongwang",
+   "type": "devotee",
+   "note": "A thousand years in a pool, waiting to be one"
+  },
+  {
+   "from": "yongwang",
+   "to": "imugi",
+   "type": "guru",
+   "note": "And it still needs somebody to look up at the right moment"
+  },
+  {
+   "from": "yongwang",
+   "to": "jumong",
+   "type": "ally",
+   "note": "The water rose to help him and let down behind him"
+  },
+  {
+   "from": "haetae",
+   "to": "yeomra",
+   "type": "sibling",
+   "note": "Two things that can tell what you actually did"
+  },
+  {
+   "from": "haetae",
+   "to": "yongwang",
+   "type": "enemy",
+   "note": "One eats fire and one brings the rain"
+  },
+  {
+   "from": "samjoko",
+   "to": "yongwang",
+   "type": "sibling",
+   "note": "The sun above and the sea below, on the tomb ceilings"
+  },
+  {
+   "from": "sonnim",
+   "to": "samsin",
+   "type": "enemy",
+   "note": "She looks after the first seven years and they are what takes them"
+  },
+  {
+   "from": "sonnim",
+   "to": "yeomra",
+   "type": "devotee",
+   "note": "Guests, and where the visit ends if it goes badly"
+  },
+  {
+   "from": "cheukshin",
+   "to": "sonnim",
+   "type": "sibling",
+   "note": "Two household dangers handled by being extremely polite"
+  },
+  {
+   "from": "dokkaebi",
+   "to": "gumiho",
+   "type": "sibling",
+   "note": "Both are out there and neither is a ghost"
+  },
+  {
+   "from": "mudang",
+   "to": "yeomra",
+   "type": "enemy",
+   "note": "She argues with him at every funeral"
+  },
+  {
+   "from": "daebyeol_sobyeol",
+   "to": "tiger",
+   "type": "enemy",
+   "note": "They shot down the extra sun, which is why anything survives"
+  },
+  {
+   "from": "bari",
+   "to": "samsin",
+   "type": "ally",
+   "note": "The two ends of a life, both women, both volunteers"
+  },
+  {
+   "from": "hwanung",
+   "to": "sanshin",
+   "type": "guru",
+   "note": "He came down onto a mountain and the mountains have had gods since"
+  }
+ ]
+}
