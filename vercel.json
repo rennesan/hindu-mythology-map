@@ -50,6 +50,10 @@
    "destination": "/mesopotamian/index.html"
   },
   {
+   "source": "/persian/:path*",
+   "destination": "/persian/index.html"
+  },
+  {
    "source": "/chinese/:path*",
    "destination": "/chinese/index.html"
   },

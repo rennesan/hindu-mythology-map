@@ -1,0 +1,4305 @@
+{
+ "title": "Persian Mythology: Figures, Relationships and Story Cycles",
+ "description": "Zoroastrian scripture and Ferdowsi's Shahnameh mapped as one relationship graph: the two spirits and the Amesha Spentas, the bridge where your own conscience meets you, and the kings and heroes the epic made of them.",
+ "generated": "2026-08-20",
+ "sources": [
+  "The Zend-Avesta, tr. James Darmesteter (1880-1883) - the Vendidad, Yashts and Sirozahs",
+  "The Yasna and Gathas, tr. L. H. Mills (1887) - including the hymns attributed to Zarathustra",
+  "The Bundahishn, tr. E. W. West (1880) - the Zoroastrian creation account",
+  "Ferdowsi, the Shahnameh, tr. A. G. and E. Warner in nine volumes (1905-1925)",
+  "Helen Zimmern, The Epic of Kings (1883) - the prose retelling",
+  "Pahlavi Texts, tr. E. W. West - the Denkard, Dadistan-i Dinik and Menog-i Khrad",
+  "Encyclopaedia Iranica, Encyclopaedia Britannica and Wikipedia for cross-checking transliteration"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/persian/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "avesta": {
+   "t": "The Zend-Avesta (Sacred Books of the East IV, XXIII)",
+   "tr": "James Darmesteter, 1880-1883",
+   "u": "https://sacred-texts.com/zor/index.htm"
+  },
+  "yasna": {
+   "t": "The Yasna and the Gathas (Sacred Books of the East XXXI)",
+   "tr": "L. H. Mills, 1887",
+   "u": "https://sacred-texts.com/zor/sbe31/index.htm"
+  },
+  "bundahishn": {
+   "t": "The Bundahishn (Sacred Books of the East V)",
+   "tr": "E. W. West, 1880",
+   "u": "https://sacred-texts.com/zor/sbe05/index.htm"
+  },
+  "shahnameh": {
+   "t": "The Shahnama of Firdausi",
+   "tr": "Arthur George Warner and Edmond Warner, 1905-1925",
+   "u": "https://archive.org/details/shahnamaoffirdau01firduoft"
+  },
+  "zimmern": {
+   "t": "The Epic of Kings: Stories Retold from Firdusi",
+   "tr": "Helen Zimmern, 1883",
+   "u": "https://sacred-texts.com/neu/pers/eok/index.htm"
+  },
+  "pahlavi": {
+   "t": "Pahlavi Texts (Sacred Books of the East XVIII, XXIV, XXXVII, XLVII)",
+   "tr": "E. W. West, 1882-1897",
+   "u": "https://sacred-texts.com/zor/sbe18/index.htm"
+  }
+ },
+ "meta": {
+  "id": "persian",
+  "label": "Persian",
+  "sublabel": "Zoroastrian & the Shahnameh",
+  "accent": "#6ba3c9",
+  "root": "ahura_mazda"
+ },
+ "profile": {
+  "cosmicNature": "A war with a deadline. Two spirits existed at the start, one good and one destructive, and everything that happens is that fight working itself out over twelve thousand years. Unlike almost every other system here, this one ends - and it ends well. Evil is not eternal, it is temporary, and it loses. The world is not an illusion or a punishment; it is the good creation, invaded.",
+  "natureOfDivinity": "One god, and a staff. Ahura Mazda is the wise lord who created everything good, and around him stand six Amesha Spentas who are simultaneously archangels and abstractions - Good Purpose, Best Truth, Desirable Dominion, Holy Devotion, Wholeness, Immortality. Below them a crowd of yazatas, beings worthy of worship, several of whom are older Indo-Iranian gods kept on staff: Mithra, Anahita, Verethragna.",
+  "afterlife": "You are judged at a bridge, and the bridge changes width. Three days after death your soul comes to the Chinvat Bridge, where your own deeds meet you as a girl - beautiful if you lived well, hideous if you did not. For the good the bridge is broad and easy. For the wicked it narrows to a blade and they fall. But not forever: at the end everyone, including the damned, is purified in molten metal and restored.",
+  "systemMechanism": "Choose, and choose actively. The whole ethical system is three words - good thoughts, good words, good deeds - and the point is that a human being's choices are a real contribution to the outcome of the war. Farming, having children, keeping your word, killing vermin: these are all on the good side of the ledger. Asceticism is not a virtue here. Fasting is discouraged. Being useful is the religion.",
+  "canonTexts": "The Avesta - the Gathas attributed to Zarathustra himself, the Yasna, the Yashts and the Vendidad; the Pahlavi books, especially the Bundahishn, which is where the creation account is set out in full; and Ferdowsi's Shahnameh, a poem of some fifty thousand couplets that saved the Persian language and the old stories together."
+ },
+ "hierarchy": [
+  {
+   "title": "The Two Spirits",
+   "blurb": "Not a creation from nothing but a war with a start date. One spirit made everything good; the other can only spoil it. The whole system is that fight, and it is scheduled to end - with the good side winning.",
+   "memberIds": [
+    "ahura_mazda",
+    "angra_mainyu",
+    "spenta_mainyu",
+    "zurvan"
+   ],
+   "connectorCaption": "Around the Wise Lord stand six beings who are simultaneously virtues and things"
+  },
+  {
+   "title": "The Amesha Spentas",
+   "blurb": "Six Bounteous Immortals, each an abstract quality and a physical creation at once: Good Purpose has cattle, Best Truth has fire, Holy Devotion is the earth you stand on.",
+   "memberIds": [
+    "vohu_manah",
+    "asha_vahishta",
+    "khshathra_vairya",
+    "spenta_armaiti",
+    "haurvatat",
+    "ameretat"
+   ],
+   "connectorCaption": "Below them, the yazatas - several of them older gods kept on the payroll"
+  },
+  {
+   "title": "The Yazatas",
+   "blurb": "Beings worthy of worship. Mithra is the contract itself, Anahita the world river, Tishtrya the star that fights for rain. Some are older than Zoroastrianism and were too useful to demote.",
+   "memberIds": [
+    "mithra",
+    "anahita",
+    "verethragna",
+    "sraosha",
+    "rashnu",
+    "ashi",
+    "tishtrya",
+    "atar",
+    "haoma",
+    "vayu",
+    "daena",
+    "hvare_khshaeta",
+    "mah",
+    "fravashi",
+    "khvarenah"
+   ],
+   "connectorCaption": "Against them, everything the Destructive Spirit could counterfeit"
+  },
+  {
+   "title": "The Daevas",
+   "blurb": "Wrath, Greed, the Lie, the corpse fly, drought and the demon who is death itself. None of them create anything; each is a spoiling of something that already worked.",
+   "memberIds": [
+    "aeshma",
+    "az",
+    "druj",
+    "nasu",
+    "apaosha",
+    "astvidatu",
+    "jahi",
+    "azhi_dahaka"
+   ],
+   "connectorCaption": "The war is fought over a world with a first man, a first ox and a first couple in it"
+  },
+  {
+   "title": "The First Creation",
+   "blurb": "A bright first man whose body became the metals, an ox whose death produced every useful plant and animal, and a first couple who grew as a rhubarb plant and lied within a month.",
+   "memberIds": [
+    "gayomard",
+    "mashya",
+    "gavaevodata",
+    "geush_urvan",
+    "chinvat",
+    "saoshyant",
+    "simurgh",
+    "zarathustra",
+    "vishtaspa"
+   ],
+   "connectorCaption": "A thousand years later a poet took the same figures and made them kings"
+  },
+  {
+   "title": "The Shahnameh: the First Kings",
+   "blurb": "Fire discovered by a thrown stone, demons made to teach writing, three hundred years of paradise ended by one boast - and then a tyrant with serpents growing out of his shoulders.",
+   "memberIds": [
+    "hushang",
+    "tahmuras",
+    "jamshid",
+    "zahhak",
+    "kaveh",
+    "fereydun",
+    "iraj",
+    "salm_tur",
+    "manuchehr"
+   ],
+   "connectorCaption": "A brother is murdered over an inheritance, and the war lasts the rest of the poem"
+  },
+  {
+   "title": "The House of Sam",
+   "blurb": "A champion abandons his albino son, a giant bird raises him, and the boy grows up to father the greatest hero in Persian literature - who kills his own son at a ford without knowing him.",
+   "memberIds": [
+    "sam",
+    "zal",
+    "rudabeh",
+    "rostam",
+    "rakhsh",
+    "sohrab",
+    "tahmineh",
+    "gordafarid",
+    "div_e_sepid",
+    "akvan"
+   ],
+   "connectorCaption": "They serve kings who are, with one exception, not worth serving"
+  },
+  {
+   "title": "Kings, Turan and the End",
+   "blurb": "A king who tried to fly to heaven on eagles, a prince who rode through fire to prove his innocence and was murdered anyway, the one just king in the poem - and Iran's great enemy, given more depth than most of its heroes.",
+   "memberIds": [
+    "kay_kavus",
+    "siyavash",
+    "sudabeh",
+    "kay_khosrow",
+    "afrasiyab",
+    "esfandiyar",
+    "goshtasp",
+    "bizhan",
+    "bahram_gur",
+    "khosrow_parviz"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "amesha",
+   "label": "The Amesha Spentas",
+   "memberIds": [
+    "ahura_mazda",
+    "vohu_manah",
+    "asha_vahishta",
+    "khshathra_vairya",
+    "spenta_armaiti",
+    "haurvatat",
+    "ameretat"
+   ]
+  },
+  {
+   "id": "bridge",
+   "label": "The Judges at the Bridge",
+   "memberIds": [
+    "mithra",
+    "sraosha",
+    "rashnu",
+    "daena",
+    "chinvat"
+   ]
+  },
+  {
+   "id": "olddevas",
+   "label": "Gods Older Than the Religion",
+   "memberIds": [
+    "mithra",
+    "anahita",
+    "verethragna",
+    "haoma",
+    "vayu",
+    "tishtrya"
+   ]
+  },
+  {
+   "id": "daevas",
+   "label": "The Daevas",
+   "memberIds": [
+    "angra_mainyu",
+    "aeshma",
+    "az",
+    "druj",
+    "nasu",
+    "apaosha",
+    "astvidatu",
+    "jahi",
+    "azhi_dahaka"
+   ]
+  },
+  {
+   "id": "firsts",
+   "label": "The First of Everything",
+   "memberIds": [
+    "gayomard",
+    "mashya",
+    "gavaevodata",
+    "geush_urvan"
+   ]
+  },
+  {
+   "id": "pishdadian",
+   "label": "The First Kings",
+   "memberIds": [
+    "gayomard",
+    "hushang",
+    "tahmuras",
+    "jamshid",
+    "fereydun",
+    "manuchehr"
+   ]
+  },
+  {
+   "id": "sistan",
+   "label": "The House of Sam",
+   "memberIds": [
+    "sam",
+    "zal",
+    "rudabeh",
+    "rostam",
+    "sohrab",
+    "rakhsh"
+   ]
+  },
+  {
+   "id": "turan",
+   "label": "Turan",
+   "memberIds": [
+    "salm_tur",
+    "afrasiyab",
+    "siyavash",
+    "bizhan",
+    "tahmineh"
+   ]
+  },
+  {
+   "id": "end",
+   "label": "The End of the World",
+   "memberIds": [
+    "saoshyant",
+    "azhi_dahaka",
+    "khshathra_vairya",
+    "ameretat",
+    "angra_mainyu"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "two-spirits",
+   "title": "The Two Spirits Choose",
+   "era": "The Two Spirits",
+   "cast": [
+    "ahura_mazda",
+    "angra_mainyu",
+    "spenta_mainyu",
+    "asha_vahishta",
+    "druj"
+   ],
+   "summary": "The oldest hymn in the book describes two spirits meeting at the beginning, twins in thought and word and deed, one good and one bad. They choose. One takes life, truth and the good creation; the other takes non-life and the Lie, and the daevas choose wrong along with him. This is the passage the entire religion rests on and the one nobody agrees about: is Spenta Mainyu the good god himself, which keeps it monotheist, or his brother, with Ahura Mazda above them both? Zoroastrian tradition took the first answer. What is not ambiguous is the consequence - evil is a choice something made, not something the good god built.",
+   "sources": [
+    {
+     "book": "The Yasna and the Gathas (Sacred Books of the East XXXI)",
+     "translation": "L. H. Mills, 1887",
+     "location": "Yasna 30",
+     "url": "https://sacred-texts.com/zor/sbe31/index.htm"
+    },
+    {
+     "book": "The Yasna and the Gathas (Sacred Books of the East XXXI)",
+     "translation": "L. H. Mills, 1887",
+     "location": "Yasna 45",
+     "url": "https://sacred-texts.com/zor/sbe31/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-assault",
+   "title": "Ahriman Attacks the World",
+   "era": "The First Creation",
+   "cast": [
+    "angra_mainyu",
+    "ahura_mazda",
+    "gayomard",
+    "gavaevodata",
+    "jahi"
+   ],
+   "summary": "Ohrmazd creates the world in six stages - sky, water, earth, plants, the sole-created ox, and the first man - and holds it perfect and motionless for three thousand years. Then Ahriman breaks in through the base of the sky. He fouls the water with salt, drives winter into the earth, withers the plants, kills the ox and kills Gayomard. But he is trapped inside: the sky closes behind him like a fortress with the enemy shut in, and he must fight there until he is destroyed. Ohrmazd's counter-attack knocks him senseless for three thousand years, and the demons cannot rouse him until Jahi promises to ruin everything he made.",
+   "sources": [
+    {
+     "book": "The Bundahishn (Sacred Books of the East V)",
+     "translation": "E. W. West, 1880",
+     "location": "Chapters I-III",
+     "url": "https://sacred-texts.com/zor/sbe05/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "bull-and-man",
+   "title": "The Ox, the Man and the Metals",
+   "era": "The First Creation",
+   "cast": [
+    "gavaevodata",
+    "gayomard",
+    "mashya",
+    "geush_urvan",
+    "mah"
+   ],
+   "summary": "Both first creatures die in the assault, and both deaths are productive. From the ox come fifty-five grains and twelve healing plants; its seed goes up to the moon, is purified there, and becomes every beneficial animal species. Gayomard holds out thirty years and his body yields the seven metals - gold from his seed, which is purified in the sun for forty years and grows as a rhubarb plant with fifteen leaves. The plant becomes Mashya and Mashyana, so joined that it was not clear which was which. They are told they are human, to think and speak and act well, and not to worship demons. It takes them about thirty days to get it wrong.",
+   "sources": [
+    {
+     "book": "The Bundahishn (Sacred Books of the East V)",
+     "translation": "E. W. West, 1880",
+     "location": "Chapters IV, X, XV",
+     "url": "https://sacred-texts.com/zor/sbe05/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "ox-complains",
+   "title": "The Soul of the Ox Files a Complaint",
+   "era": "The First Creation",
+   "cast": [
+    "geush_urvan",
+    "ahura_mazda",
+    "asha_vahishta",
+    "zarathustra"
+   ],
+   "summary": "The soul of the murdered ox goes up and cries out: for whom was I made, who appointed a protector for me, why am I given over to violence and cruelty? Asha answers that there is no herdsman on earth free of sin. The soul demands someone with power to help. Ahura Mazda names Zarathustra, a man who has learned the words. The soul is openly disappointed - it wanted a mighty prince and has been offered someone with, it says, a feeble voice - and accepts him grudgingly. It is one of the oldest passages in the corpus and it opens the founding scripture of the religion with livestock lodging a grievance and finding the response inadequate.",
+   "sources": [
+    {
+     "book": "The Yasna and the Gathas (Sacred Books of the East XXXI)",
+     "translation": "L. H. Mills, 1887",
+     "location": "Yasna 29",
+     "url": "https://sacred-texts.com/zor/sbe31/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "tishtrya-rain",
+   "title": "The Rain-Star Fights the Drought",
+   "era": "The Yazatas",
+   "cast": [
+    "tishtrya",
+    "apaosha",
+    "ahura_mazda",
+    "anahita"
+   ],
+   "summary": "Tishtrya goes down to the cosmic sea as a white stallion with golden ears and golden trappings, and Apaosha meets him as a black horse, bald, with no hair on ears or tail. They fight three days and nights and the drought demon wins, driving the star back a full league from the water. Tishtrya cries out to Ahura Mazda that he has not the strength because people have not sacrificed to him and named him in worship. He is given the strength of ten horses, ten camels, ten bulls, ten mountains and ten rivers, comes back, drives Apaosha off, and the waters go out over the earth. The bargain between people and gods has rarely been put so plainly.",
+   "sources": [
+    {
+     "book": "The Zend-Avesta (Sacred Books of the East IV, XXIII)",
+     "translation": "James Darmesteter, 1880-1883",
+     "location": "Tir Yasht",
+     "url": "https://sacred-texts.com/zor/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "bridge",
+   "title": "The Bridge and the Girl",
+   "era": "The First Creation",
+   "cast": [
+    "daena",
+    "chinvat",
+    "mithra",
+    "sraosha",
+    "rashnu"
+   ],
+   "summary": "For three days after death the soul stays near the body. On the dawn of the fourth it goes to the Chinvat Bridge, where Mithra, Sraosha and Rashnu wait with golden scales. A wind meets it, and a young woman. If the life was good she is fifteen years old and more beautiful than anything the soul has seen, and she says: I am your own conscience, I was lovely and your good thoughts and words and deeds made me lovelier. The bridge widens to nine spears and she leads the way across. If the life was bad the same figure meets the soul as a hag, says the same words in reverse, and the bridge narrows to a razor's edge.",
+   "sources": [
+    {
+     "book": "Pahlavi Texts (Sacred Books of the East XVIII, XXIV, XXXVII, XLVII)",
+     "translation": "E. W. West, 1882-1897",
+     "location": "Hadhokht Nask, Dadistan-i Dinik",
+     "url": "https://sacred-texts.com/zor/sbe18/index.htm"
+    },
+    {
+     "book": "The Zend-Avesta (Sacred Books of the East IV, XXIII)",
+     "translation": "James Darmesteter, 1880-1883",
+     "location": "Vendidad XIX",
+     "url": "https://sacred-texts.com/zor/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "frashokereti",
+   "title": "The Making Wonderful",
+   "era": "The First Creation",
+   "cast": [
+    "saoshyant",
+    "khshathra_vairya",
+    "ameretat",
+    "angra_mainyu",
+    "azhi_dahaka"
+   ],
+   "summary": "At the end of twelve thousand years the last saviour is born to a virgin who bathes in the lake where Zarathustra's seed has been kept. Azhi Dahaka breaks his chains and destroys a third of everything before he is killed. The dead are raised, body and soul reunited. All the metal in the mountains melts into a river and everyone passes through it - to the righteous it feels like warm milk, and the wicked are burned, but the burning takes the evil out of them rather than destroying them. Then Ahriman is finished, and everyone, including those who were in hell, goes on into a world made new and deathless. Nobody is left behind.",
+   "sources": [
+    {
+     "book": "The Bundahishn (Sacred Books of the East V)",
+     "translation": "E. W. West, 1880",
+     "location": "Chapter XXX",
+     "url": "https://sacred-texts.com/zor/sbe05/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "zarathustra-called",
+   "title": "The Prophet Is Called",
+   "era": "The First Creation",
+   "cast": [
+    "zarathustra",
+    "vohu_manah",
+    "ahura_mazda",
+    "haoma",
+    "vishtaspa"
+   ],
+   "summary": "At thirty Zarathustra goes to draw water for a spring festival and wades out to where the stream runs pure. Coming up the bank he sees Vohu Manah, Good Purpose, nine times the height of a man, who asks who he is and what he most wants in life, and takes him to the assembly of Ahura Mazda. He preaches for ten years and converts one person, his cousin. Then he reaches the court of Vishtaspa, is framed by jealous priests who plant unclean things in his lodging, and is imprisoned - until the king's favourite horse has its legs drawn up into its body, and Zarathustra offers to cure it one leg at a time in exchange for four things.",
+   "sources": [
+    {
+     "book": "Pahlavi Texts (Sacred Books of the East XVIII, XXIV, XXXVII, XLVII)",
+     "translation": "E. W. West, 1882-1897",
+     "location": "Denkard VII",
+     "url": "https://sacred-texts.com/zor/sbe18/index.htm"
+    },
+    {
+     "book": "The Yasna and the Gathas (Sacred Books of the East XXXI)",
+     "translation": "L. H. Mills, 1887",
+     "location": "Yasna 43",
+     "url": "https://sacred-texts.com/zor/sbe31/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "jamshid-falls",
+   "title": "Jamshid Loses the Glory",
+   "era": "The Shahnameh",
+   "cast": [
+    "jamshid",
+    "khvarenah",
+    "zahhak",
+    "hushang",
+    "tahmuras"
+   ],
+   "summary": "Jamshid's three hundred years are the golden age - classes established, weaving, medicine, ships, mining, perfume, and death itself abolished. He founds Nowruz by having demons carry his throne into the sky on the first day of spring, and the world looks up at him. Then he calls the assembly and tells them he is god, and that they should worship no one else. The royal glory leaves him in three flights, in the form of a bird. His nobles turn to the serpent-shouldered Zahhak, who invades. Jamshid runs for a hundred years, is caught at last by the sea, and is sawn in half. Everything he built survives him; the reign is remembered as both the best and the cautionary one.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volume I: Jamshid",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "The Shahs of Old",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "kaveh-revolt",
+   "title": "The Blacksmith's Apron",
+   "era": "The Shahnameh",
+   "cast": [
+    "zahhak",
+    "kaveh",
+    "fereydun",
+    "azhi_dahaka"
+   ],
+   "summary": "Zahhak rules a thousand years and two young men are killed every day to feed the serpents on his shoulders. Kaveh the blacksmith has lost seventeen sons to them. When the officers come for the eighteenth he goes to the palace, where the king is circulating a document for the nobles to sign attesting that he has always ruled with justice. Kaveh reads it aloud, denounces it in front of the whole court, tears it up and walks out with his son. In the street he raises his leather apron on the point of a spear, and people follow him. Fereydun takes the throne with that mob behind him, and the apron becomes the royal standard of Iran for a thousand years.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volume I: Zahhak",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "The Shahs of Old",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "iraj-murdered",
+   "title": "The Division of the World",
+   "era": "The Shahnameh",
+   "cast": [
+    "fereydun",
+    "iraj",
+    "salm_tur",
+    "manuchehr",
+    "afrasiyab"
+   ],
+   "summary": "Fereydun divides the world between his three sons: Rome and the west to Salm, Turan and China to Tur, and Iran - the middle and the best - to the youngest, Iraj. The two elder brothers demand that Iraj be disinherited. Iraj goes to them alone and unarmed and offers to give up the throne entirely rather than have a war over it, and Tur kills him with a golden stool and then a dagger, and they send the head back to their father in a box. Fereydun's grief takes up pages. Iraj's grandson Manuchehr eventually kills them both and returns two heads. Iran is named after Iraj, Turan after Tur, and the feud runs the rest of the poem.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volume I: Feridun",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "Feridun and His Sons",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "zal-simurgh",
+   "title": "The Bird Who Raised a Child",
+   "era": "The Shahnameh",
+   "cast": [
+    "sam",
+    "zal",
+    "simurgh",
+    "rudabeh",
+    "rostam"
+   ],
+   "summary": "Sam's son is born perfect except for white hair, and Sam - afraid of being laughed at - has him left on the Alborz to die. The Simurgh takes the baby to her nest and raises him with her own young. Years later Sam dreams of him and rides out, and finds a young man on the mountain. The bird gives him back and leaves three feathers: burn one and she will come. Zal uses two of them. The first is for Rudabeh, who cannot deliver their child - the Simurgh arrives and dictates the procedure, wine for the pain, an incision in the side, the baby lifted out, and a herb rubbed on the wound. The child is Rostam.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volume I: Zal",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "Zal and Rudabeh",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "seven-trials",
+   "title": "The Seven Trials of Rostam",
+   "era": "The Shahnameh",
+   "cast": [
+    "rostam",
+    "rakhsh",
+    "div_e_sepid",
+    "kay_kavus"
+   ],
+   "summary": "Kay Kavus invades Mazandaran on a demon's advice, and the White Demon blinds him and his whole army and locks them up. Rostam goes after them alone. A lion attacks while he sleeps and Rakhsh kills it without waking him, and gets scolded for the risk. He nearly dies of thirst and the horse finds water. He kills a dragon that is invisible each time he looks, and a sorceress who comes as a beautiful woman and turns black when he says a holy name. At the last he finds the White Demon asleep in a cave, wakes it rather than strike a sleeping enemy, tears off a leg, and takes its liver - the blood of which restores the army's sight.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volume II: The Seven Stages",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "Rustem and the Seven Adventures",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "rostam-sohrab",
+   "title": "Rostam and Sohrab",
+   "era": "The Shahnameh",
+   "cast": [
+    "rostam",
+    "sohrab",
+    "tahmineh",
+    "kay_kavus",
+    "gordafarid"
+   ],
+   "summary": "Tahmineh sends Rostam word that their child was a girl, so that he will not be taken away for war. Sohrab grows up enormous, learns who his father is, and marches on Iran meaning to put Rostam on the throne. At the White Castle he is fought to a standstill by Gordafarid in armour. At the Iranian camp the two champions meet and neither knows the other. Sohrab asks twice whether he is Rostam and is told no. On the first day Sohrab throws him and spares him; on the second Rostam throws Sohrab and stabs him at once, and then sees the onyx armlet. He sends to Kay Kavus for the healing elixir. The king refuses it, and the boy dies.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volume II: Sohrab",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "Rustem and Sohrab",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "siyavash-fire",
+   "title": "Siyavash Rides Through the Fire",
+   "era": "The Shahnameh",
+   "cast": [
+    "siyavash",
+    "sudabeh",
+    "kay_kavus",
+    "afrasiyab",
+    "kay_khosrow"
+   ],
+   "summary": "Sudabeh, his stepmother, has Siyavash brought to the women's quarters, propositions him, and is refused. She tears her clothes and accuses him. To settle it two mountains of wood are built and set alight, and Siyavash rides between them on a black horse and comes out the far side with his clothes unmarked. His father, who has watched this, still cannot be relied on. Ordered later to break a treaty he has sworn to, Siyavash refuses and goes into exile in Turan instead, where Afrasiyab receives him as a son and marries him to his daughter - and then, worked on by slander, has him beheaded. A plant grows where the blood fell.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volumes II-III: Siyawush",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "Siyawush",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "bizhan-pit",
+   "title": "Bizhan in the Pit",
+   "era": "The Shahnameh",
+   "cast": [
+    "bizhan",
+    "afrasiyab",
+    "rostam",
+    "kay_khosrow"
+   ],
+   "summary": "Bizhan crosses into Turan and meets Manizheh, Afrasiyab's daughter, at a festival; she drugs him and has him carried into her father's palace. When they are found the king throws Bizhan into a pit and seals it with an enormous stone, and strips Manizheh of everything and drives her out. She begs in the streets for months and passes food down to him through a gap. Kay Khosrow locates him in the world-revealing cup, and Rostam goes into Turan disguised as a merchant. Manizheh knows him when he drops a ring into her water jug. Rostam lifts the stone alone, and they take her back to Iran with them and receive her honourably.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volume III: Bizhan and Manizha",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "Byzun and Manijeh",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "rostam-esfandiyar",
+   "title": "Rostam and Esfandiyar",
+   "era": "The Shahnameh",
+   "cast": [
+    "rostam",
+    "esfandiyar",
+    "goshtasp",
+    "simurgh",
+    "zal"
+   ],
+   "summary": "Goshtasp has promised his son the throne repeatedly and each time found one more task first. The last is to bring Rostam to court in chains. Both men know the order is unjust and neither can refuse it - Esfandiyar because a son obeys, Rostam because he will not be chained. They talk for a long time before they fight, each trying to find a way out. Then they fight, and Rostam cannot wound him, because Zarathustra made him invulnerable. Wounded and losing, Rostam burns a Simurgh feather. The bird tells him to find a tamarisk by the sea, cut a double-headed arrow, and aim for the eyes, which were shut when the blessing was given.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volume V: Rustam and Isfandiyar",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "Rustem and Isfendiyar",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "kay-khosrow-leaves",
+   "title": "The King Who Walked Away",
+   "era": "The Shahnameh",
+   "cast": [
+    "kay_khosrow",
+    "afrasiyab",
+    "siyavash",
+    "khvarenah"
+   ],
+   "summary": "Kay Khosrow finishes the war his grandfather started. He hunts Afrasiyab down at last, avenges his father Siyavash, and stands at the head of an undefeated empire with the royal glory visibly on him. Then he stops. He tells his nobles he has been thinking about Jamshid, who had everything and let it turn him, and that he does not trust himself to hold this much and stay just. He names a successor, distributes his treasure, takes formal leave of everyone, and walks up into the mountains. Several of his companions follow and are lost in a snowstorm. The poem does not say he died. It simply stops following him.",
+   "sources": [
+    {
+     "book": "The Shahnama of Firdausi",
+     "translation": "Arthur George Warner and Edmond Warner, 1905-1925",
+     "location": "Volume IV: Kai Khusrau",
+     "url": "https://archive.org/details/shahnamaoffirdau01firduoft"
+    },
+    {
+     "book": "The Epic of Kings: Stories Retold from Firdusi",
+     "translation": "Helen Zimmern, 1883",
+     "location": "The Passing of Kai Khosrau",
+     "url": "https://sacred-texts.com/neu/pers/eok/index.htm"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "ahura_mazda",
+   "name": "Ahura Mazda",
+   "sanskrit": "Ahura Mazdā",
+   "category": "creator",
+   "era": "The Two Spirits",
+   "role": "The Wise Lord, who made everything good and is winning slowly",
+   "wikipedia": "Ahura_Mazda",
+   "portrait": "portraits/persian/ahura_mazda.webp",
+   "epithets": [
+    "Ohrmazd",
+    "the Wise Lord",
+    "the Creator",
+    "Spenta Mainyu"
+   ],
+   "domains": [
+    "creation",
+    "wisdom",
+    "light",
+    "truth",
+    "the good creation"
+   ],
+   "symbols": [
+    "the winged disc of the Faravahar",
+    "fire",
+    "the sun"
+   ],
+   "mount": null,
+   "abode": "Endless Light",
+   "festivals": [],
+   "worship": "",
+   "bio": "The one god - wise rather than almighty, which is the whole point of the system.",
+   "longBio": "Ahura Mazda made everything good: the sky, water, earth, plants, animals, people, and fire. What he did not make is evil, and that is deliberate. Zoroastrianism's answer to why a good god permits suffering is that he does not - there is a second spirit doing it, and the good god is not yet in full control. He is called wise rather than all-powerful, and the war is real. His symbol is fire, kept burning in temples for centuries at a time, and Iranian kings from Darius onward credited him personally with their thrones.",
+   "variantTraditions": "The Gathas present him as sole creator with Spenta Mainyu as his own bounteous spirit; later Zurvanite tradition made him and Ahriman twin sons of Time, which mainstream Zoroastrianism rejects.",
+   "storyIds": [
+    "two-spirits",
+    "the-assault",
+    "ox-complains",
+    "tishtrya-rain",
+    "zarathustra-called"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "wisdom-craft",
+    "fire"
+   ]
+  },
+  {
+   "id": "angra_mainyu",
+   "name": "Angra Mainyu",
+   "sanskrit": "Aŋra Mainiiu",
+   "category": "primordial",
+   "era": "The Two Spirits",
+   "role": "The Destructive Spirit, who invented death and cannot invent anything else",
+   "wikipedia": "Angra_Mainyu",
+   "portrait": "portraits/persian/angra_mainyu.webp",
+   "epithets": [
+    "Ahriman",
+    "the Destructive Spirit",
+    "the Lie",
+    "the Evil One"
+   ],
+   "domains": [
+    "destruction",
+    "the lie",
+    "death",
+    "disease",
+    "winter"
+   ],
+   "symbols": [
+    "darkness",
+    "the fly",
+    "the serpent",
+    "the noxious creature"
+   ],
+   "mount": null,
+   "abode": "Endless Darkness, below",
+   "festivals": [],
+   "worship": "",
+   "bio": "He can only spoil what already exists - every evil is a counterfeit of something good.",
+   "longBio": "Angra Mainyu is not a rebel angel and not a tempter; he is a separate origin, coeternal at the start, whose entire method is ruination. He cannot create. Everything he produces is a corruption of an existing good thing - Ahura Mazda makes life, he makes death; makes health, he makes disease; makes summer, he makes winter. He attacks the world at the beginning, is trapped inside it, and thrashes about for nine thousand years. At the end he is defeated absolutely and destroyed, which is the crucial difference from later devils: he is temporary.",
+   "variantTraditions": "Ahriman is the Middle Persian form. The Zoroastrian solution to evil - a second uncreated principle - is the origin of the word dualism as used in religious studies.",
+   "storyIds": [
+    "two-spirits",
+    "the-assault",
+    "frashokereti"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "zurvan",
+   "name": "Zurvan",
+   "sanskrit": "Zurwān",
+   "category": "primordial",
+   "era": "The Two Spirits",
+   "role": "Infinite Time, who sacrificed for a son and got two",
+   "wikipedia": "Zurvanism",
+   "portrait": "portraits/persian/zurvan.webp",
+   "epithets": [
+    "Zurvan Akarana",
+    "Boundless Time",
+    "Fate"
+   ],
+   "domains": [
+    "time",
+    "fate",
+    "the origin of both spirits"
+   ],
+   "symbols": [
+    "the ring of time",
+    "the lion-headed figure"
+   ],
+   "mount": null,
+   "abode": "Before either spirit",
+   "festivals": [],
+   "worship": "",
+   "bio": "A heretical answer to an awkward question: if good and evil are twins, who was their father?",
+   "longBio": "Zurvan is Time, and he belongs to a branch of Zoroastrianism that mainstream priests rejected. The story: Zurvan sacrificed for a thousand years wanting a son, then doubted for a moment - and got two, Ohrmazd from the sacrifice and Ahriman from the doubt. He had promised the kingship to whichever came first, and Ahriman tore his way out early to claim it, so Zurvan gave him nine thousand years and Ohrmazd everything after. It is a neat fix for the problem of where the two spirits came from, and orthodox Zoroastrianism has always regarded it as a mistake.",
+   "variantTraditions": "Zurvanism is known largely from hostile Christian and Manichaean reports and from a few Pahlavi passages; how widespread it was under the Sasanians is disputed.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "supreme-source",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "spenta_mainyu",
+   "name": "Spenta Mainyu",
+   "sanskrit": "Spəṇta Mainiiu",
+   "category": "creator",
+   "era": "The Two Spirits",
+   "role": "The Bounteous Spirit - Ahura Mazda's own creative energy, or his twin",
+   "wikipedia": "Spenta_Mainyu",
+   "portrait": "portraits/persian/spenta_mainyu.webp",
+   "epithets": [
+    "the Bounteous Spirit",
+    "the Holy Spirit"
+   ],
+   "domains": [
+    "creation",
+    "the good choice",
+    "growth"
+   ],
+   "symbols": [
+    "light",
+    "the flourishing plant"
+   ],
+   "mount": null,
+   "abode": "With Ahura Mazda",
+   "festivals": [],
+   "worship": "",
+   "bio": "Whether he is the good god himself or the good god's active spirit is the oldest argument in the religion.",
+   "longBio": "In the Gathas, two spirits meet at the beginning and choose - one takes life and truth, the other non-life and the lie. Spenta Mainyu is the one who chooses well. The problem is what he is: read one way he is Ahura Mazda's own creative aspect, the way the god acts in the world, which keeps the system monotheistic. Read another he is a twin brother of Angra Mainyu, with Ahura Mazda above both. Zoroastrian tradition took the first reading and later collapsed the two together entirely.",
+   "variantTraditions": "The interpretation of Yasna 30, the twin-spirits hymn, is the single most contested passage in Zoroastrian scholarship.",
+   "storyIds": [
+    "two-spirits"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "preserver",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "vohu_manah",
+   "name": "Vohu Manah",
+   "sanskrit": "Vohu Manah",
+   "category": "deity",
+   "era": "The Amesha Spentas",
+   "role": "Good Purpose, who guards cattle and met Zarathustra first",
+   "wikipedia": "Vohu_Manah",
+   "portrait": "portraits/persian/vohu_manah.webp",
+   "epithets": [
+    "Bahman",
+    "Good Mind",
+    "Good Purpose"
+   ],
+   "domains": [
+    "good intention",
+    "cattle",
+    "the reception of the soul"
+   ],
+   "symbols": [
+    "the ox",
+    "the white garment",
+    "the throne beside Ahura Mazda"
+   ],
+   "mount": null,
+   "abode": "At Ahura Mazda's left hand",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first of the six, and the one who came to fetch Zarathustra when the revelation started.",
+   "longBio": "Vohu Manah is Good Purpose - the settled intention to do right, as opposed to a passing good mood - and he is the highest of the Amesha Spentas. He is also the one who appears at the beginning of the prophet's career: Zarathustra, aged thirty, comes up from a river at a spring festival and Vohu Manah is standing there, nine times a man's height, and takes him to Ahura Mazda. He looks after cattle, which in a herding society is not a minor portfolio, and he greets the righteous soul in paradise and shows it to a seat.",
+   "variantTraditions": "Each Amesha Spenta guards one of the seven creations. Vohu Manah has cattle; the pairing of abstract virtue with concrete stuff runs through the whole set.",
+   "storyIds": [
+    "zarathustra-called"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "asha_vahishta",
+   "name": "Asha Vahishta",
+   "sanskrit": "Aša Vahišta",
+   "category": "deity",
+   "era": "The Amesha Spentas",
+   "role": "Best Truth: the order of the universe, and the guardian of fire",
+   "wikipedia": "Asha_Vahishta",
+   "portrait": "portraits/persian/asha_vahishta.webp",
+   "epithets": [
+    "Ardwahisht",
+    "Best Truth",
+    "Best Righteousness"
+   ],
+   "domains": [
+    "truth",
+    "cosmic order",
+    "fire",
+    "healing"
+   ],
+   "symbols": [
+    "fire",
+    "the straight path"
+   ],
+   "mount": null,
+   "abode": "With Ahura Mazda",
+   "festivals": [],
+   "worship": "",
+   "bio": "Not honesty - the correct working of everything, from the seasons to a promise kept.",
+   "longBio": "Asha is the largest idea in the religion and the hardest to translate. It is truth, rightness, and the order by which the world actually functions, all at once; its opposite, Druj, is the Lie in the same expanded sense - disorder, falsehood, and everything out of joint. Asha Vahishta is Best Truth personified, and his creation is fire, which is why fire sits at the centre of every temple. The word is cognate with Sanskrit rta, the cosmic order of the Vedas, which puts it among the oldest religious concepts anyone has written down.",
+   "variantTraditions": "Asha, Vedic rta and possibly Greek arete descend from a shared Indo-European root. Fire is not worshipped in Zoroastrianism; it is faced, as the visible form of Asha.",
+   "storyIds": [
+    "two-spirits",
+    "ox-complains"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "fire",
+    "wisdom-craft",
+    "healer"
+   ]
+  },
+  {
+   "id": "khshathra_vairya",
+   "name": "Khshathra Vairya",
+   "sanskrit": "Xšaθra Vairiia",
+   "category": "deity",
+   "era": "The Amesha Spentas",
+   "role": "Desirable Dominion: the kingdom worth having, and the guardian of metal",
+   "wikipedia": "Khshathra_Vairya",
+   "portrait": "portraits/persian/khshathra_vairya.webp",
+   "epithets": [
+    "Shahrewar",
+    "Desirable Dominion",
+    "the Wished-for Kingdom"
+   ],
+   "domains": [
+    "just rule",
+    "metals",
+    "the defence of the poor",
+    "molten metal at the end"
+   ],
+   "symbols": [
+    "metal",
+    "the crown",
+    "the mace"
+   ],
+   "mount": null,
+   "abode": "With Ahura Mazda",
+   "festivals": [],
+   "worship": "",
+   "bio": "The power that ought to be, rather than the power that is - and he owns all the metal.",
+   "longBio": "Khshathra Vairya is dominion as it should be exercised: rule that protects rather than exploits, which the texts tie directly to defending the weak. His creation is metal, and that connects to the end of the world - at the Frashokereti all metal in the mountains melts into a river that everyone must cross. To the righteous it feels like warm milk; to the wicked it burns, but it burns the evil out of them rather than destroying them, and afterwards everyone continues. A god of both kingship and molten metal is not a coincidence.",
+   "variantTraditions": "The molten-metal ordeal is the mechanism of universal salvation in Zoroastrianism: punishment is corrective and finite, not eternal.",
+   "storyIds": [
+    "frashokereti"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "war",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "spenta_armaiti",
+   "name": "Spenta Armaiti",
+   "sanskrit": "Spəṇtā Ārmaiti",
+   "category": "deity",
+   "era": "The Amesha Spentas",
+   "role": "Holy Devotion, who is also the earth you are standing on",
+   "wikipedia": "Spenta_Armaiti",
+   "portrait": "portraits/persian/spenta_armaiti.webp",
+   "epithets": [
+    "Spandarmad",
+    "Holy Devotion",
+    "Bounteous Right-Mindedness"
+   ],
+   "domains": [
+    "devotion",
+    "the earth",
+    "fertility",
+    "loyal service"
+   ],
+   "symbols": [
+    "the earth itself",
+    "the ploughed field"
+   ],
+   "mount": null,
+   "abode": "The earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "Devotion personified, and the ground - which is why polluting the earth is a religious offence.",
+   "longBio": "Spenta Armaiti is the settled loyal devotion of a person who serves willingly, and she is the earth. The identification is not decorative: because the earth is a holy being, burying a corpse in it is a serious pollution, which is why Zoroastrians exposed their dead on towers instead. Farming, irrigating and cultivating are acts of piety toward her. In the Gathas she is Ahura Mazda's daughter, and she is the Amesha Spenta most often invoked in ordinary domestic life.",
+   "variantTraditions": "The prohibition on burial follows directly from her identification with the earth, together with the corpse demon Nasu.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "haurvatat",
+   "name": "Haurvatat",
+   "sanskrit": "Haurvatāt",
+   "category": "deity",
+   "era": "The Amesha Spentas",
+   "role": "Wholeness, who guards the waters",
+   "wikipedia": "Haurvatat",
+   "portrait": "portraits/persian/haurvatat.webp",
+   "epithets": [
+    "Hordad",
+    "Wholeness",
+    "Perfection",
+    "Health"
+   ],
+   "domains": [
+    "health",
+    "completeness",
+    "water"
+   ],
+   "symbols": [
+    "water",
+    "the full vessel"
+   ],
+   "mount": null,
+   "abode": "With Ahura Mazda",
+   "festivals": [],
+   "worship": "",
+   "bio": "Health in the largest sense - being entire and unbroken - and all the water in the world.",
+   "longBio": "Haurvatat is wholeness: physical health, but more broadly the state of being complete and undamaged, which is what the good creation was before it was attacked. Her creation is water. She goes everywhere with Ameretat, Immortality, and the pair are almost never named separately - wholeness and deathlessness are what a person gets at the end, and what the world gets back at the renovation. Her name is related to Sanskrit sarvatat, and the pairing survives, oddly, into the Islamic angels Harut and Marut.",
+   "variantTraditions": "The identification of Harut and Marut in the Quran with Haurvatat and Ameretat is widely accepted by scholars though the two figures behave very differently.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "sea-waters",
+    "preserver"
+   ]
+  },
+  {
+   "id": "ameretat",
+   "name": "Ameretat",
+   "sanskrit": "Amərətāt",
+   "category": "deity",
+   "era": "The Amesha Spentas",
+   "role": "Immortality, who guards plants",
+   "wikipedia": "Ameretat",
+   "portrait": "portraits/persian/ameretat.webp",
+   "epithets": [
+    "Amurdad",
+    "Immortality",
+    "Deathlessness"
+   ],
+   "domains": [
+    "immortality",
+    "plants",
+    "the end of death"
+   ],
+   "symbols": [
+    "the plant",
+    "the haoma twig"
+   ],
+   "mount": null,
+   "abode": "With Ahura Mazda",
+   "festivals": [],
+   "worship": "",
+   "bio": "Deathlessness, in charge of vegetation - because plants come back and that is the proof.",
+   "longBio": "Ameretat is immortality, the condition the world will be restored to, and her creation is plants. The logic is agricultural: vegetation dies back and returns, which is deathlessness demonstrated annually. She and Haurvatat travel as a pair. At the renovation of the world, the saviour prepares a drink from the fat of a sacred bull and white haoma, and everyone who takes it becomes immortal - Ameretat's portfolio delivered. The Iranian month Amordad and the Persian name Mordad both come from her.",
+   "variantTraditions": "Six Amesha Spentas plus Ahura Mazda make seven, and each holds one of the seven creations - sky, water, earth, plants, cattle, humanity and fire.",
+   "storyIds": [
+    "frashokereti"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "earth-mother",
+    "healer"
+   ]
+  },
+  {
+   "id": "mithra",
+   "name": "Mithra",
+   "sanskrit": "Miθra",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "God of the contract, who has a thousand ears and never blinks",
+   "wikipedia": "Mithra",
+   "portrait": "portraits/persian/mithra.webp",
+   "epithets": [
+    "Mihr",
+    "Lord of Wide Pastures",
+    "the Contract",
+    "he of ten thousand eyes"
+   ],
+   "domains": [
+    "contracts and oaths",
+    "the sun",
+    "cattle",
+    "war against oath-breakers"
+   ],
+   "symbols": [
+    "the mace",
+    "the chariot with white horses",
+    "the sun disc"
+   ],
+   "mount": null,
+   "abode": "The peak of Hara, ahead of the sun",
+   "festivals": [],
+   "worship": "",
+   "bio": "Break a promise and he comes for you - which is why every deal in Iran was sworn on his name.",
+   "longBio": "Mithra is the contract itself, made into a god. The great hymn to him says he has a thousand ears and ten thousand eyes, never sleeps, and rides ahead of the sunrise over the mountains to see whether anyone has broken faith. A man who lies to a contract-partner ruins his whole country. He is old - the same god as Vedic Mitra, and named in a Hittite treaty from 1400 BC - and he outlasted Zoroastrianism's attempt to demote him. Later, and quite separately, a Roman mystery cult built itself around a figure called Mithras who kills a bull.",
+   "variantTraditions": "The relationship between Iranian Mithra and Roman Mithras is disputed. The Roman cult's central image, the bull-killing, has no Iranian counterpart at all.",
+   "storyIds": [
+    "bridge"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "war",
+    "death-judge",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "anahita",
+   "name": "Anahita",
+   "sanskrit": "Arəduuī Sūrā Anāhitā",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "Goddess of the waters, who wears beaver furs and grants nothing to the wicked",
+   "wikipedia": "Anahita",
+   "portrait": "portraits/persian/anahita.webp",
+   "epithets": [
+    "Aredvi Sura Anahita",
+    "the Moist, Mighty, Immaculate",
+    "Nahid"
+   ],
+   "domains": [
+    "water",
+    "fertility",
+    "wisdom",
+    "victory in battle"
+   ],
+   "symbols": [
+    "the golden crown with eight rays",
+    "the beaver-skin cloak",
+    "the river from Mount Hara"
+   ],
+   "mount": null,
+   "abode": "Mount Hara, from which all waters flow",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every hero asks her for a favour, and she refuses the ones who do not deserve it.",
+   "longBio": "Anahita is the world river, pouring off the mythical mountain into the sea, and the source of all fresh water and fertility. Her hymn describes her physically in unusual detail - a tall strong woman in a gold-embroidered mantle and beaver furs, with a jewelled crown. The structure of the hymn is a queue: hero after hero sacrifices a hundred horses and a thousand cattle and asks for something, and she grants it - except to Azhi Dahaka and Afrasiyab, who ask for the same power and are refused. Artaxerxes II put up statues of her, which was a scandal.",
+   "variantTraditions": "Her cult absorbed Mesopotamian Ishtar material under the Achaemenids, and the statue-building marks a real break with earlier Iranian aniconism.",
+   "storyIds": [
+    "tishtrya-rain"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother",
+    "war",
+    "healer"
+   ]
+  },
+  {
+   "id": "verethragna",
+   "name": "Verethragna",
+   "sanskrit": "Vərəθraγna",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "Victory, who shows up in ten different bodies including a boar and a strong wind",
+   "wikipedia": "Verethragna",
+   "portrait": "portraits/persian/verethragna.webp",
+   "epithets": [
+    "Bahram",
+    "Victory",
+    "the Smiter of Resistance"
+   ],
+   "domains": [
+    "victory",
+    "aggression",
+    "the breaking of obstacles"
+   ],
+   "symbols": [
+    "the boar",
+    "the ram with curved horns",
+    "the bird of prey",
+    "the wind"
+   ],
+   "mount": null,
+   "abode": "Wherever the fighting is",
+   "festivals": [],
+   "worship": "",
+   "bio": "Ten incarnations, and the best of them is a wild boar that comes through the ranks sideways.",
+   "longBio": "Verethragna is the smashing of resistance rather than victory in the abstract, and his hymn lists ten forms he takes: a wind, a bull with gold horns, a white horse, a rutting camel, a boar, a fifteen-year-old youth, a raven, a ram, a buck, and an armed man. The boar is the most vividly described - sharp-tusked, killing at one stroke, working itself into a fury. He is the same word as Vedic Vritrahan, the epithet of Indra, so the name is older than the religion. He gives strength to the arm and health to the body, and the Sasanian kings named themselves after him.",
+   "variantTraditions": "Bahram is the later Persian form, and the name is common as both a royal name and, via the fire-temple grade Bahram, a fire classification.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "divine-beast",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "sraosha",
+   "name": "Sraosha",
+   "sanskrit": "Sraoša",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "Obedience: the only god who stays awake all night guarding the world",
+   "wikipedia": "Sraosha",
+   "portrait": "portraits/persian/sraosha.webp",
+   "epithets": [
+    "Srosh",
+    "Obedience",
+    "the Listener",
+    "the guardian of the sleeping"
+   ],
+   "domains": [
+    "hearing and obedience",
+    "prayer",
+    "the guarding of souls",
+    "the judgement"
+   ],
+   "symbols": [
+    "the cockerel",
+    "the mace raised against demons",
+    "the house on Hara with a thousand pillars"
+   ],
+   "mount": null,
+   "abode": "The mountain Hara",
+   "festivals": [],
+   "worship": "",
+   "bio": "The demons come out at night, so he does not sleep - and the rooster is his herald.",
+   "longBio": "Sraosha means hearing or obedience, and he is what happens when you listen to what the religion tells you. His job is practical: he patrols the world from sunset onward with a raised mace, because that is when the daevas move. The cockerel is his bird, calling people to get up and pray and driving off the demon of sloth, and killing one is a sin. He is one of the three judges at the Chinvat Bridge with Mithra and Rashnu, and he escorts the righteous soul across. He is also the last thing the dying hear about.",
+   "variantTraditions": "Sraosha is the only yazata who receives a full liturgy of his own. The connection between a god of obedience and a rooster is drawn explicitly in the Vendidad.",
+   "storyIds": [
+    "bridge"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "death-judge",
+    "preserver",
+    "divine-beast",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "rashnu",
+   "name": "Rashnu",
+   "sanskrit": "Rašnu",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "The judge, who holds the scales at the bridge and cannot be bribed",
+   "wikipedia": "Rashnu",
+   "portrait": "portraits/persian/rashnu.webp",
+   "epithets": [
+    "Rashn",
+    "the Judge",
+    "the Truest-True"
+   ],
+   "domains": [
+    "justice",
+    "the weighing of deeds",
+    "ordeals"
+   ],
+   "symbols": [
+    "the golden scales",
+    "the bridge"
+   ],
+   "mount": null,
+   "abode": "The Chinvat Bridge",
+   "festivals": [],
+   "worship": "",
+   "bio": "He weighs your deeds on golden scales, and the texts stress he does not favour anyone.",
+   "longBio": "Rashnu stands at the Chinvat Bridge with a pair of golden scales and weighs the soul's good deeds against the bad. He is described as absolutely impartial: he does not favour the rich, the strong or the well-connected, and the texts return to this point often enough that one suspects earthly judges of the period did. He also presided over ordeals in the living world, where an accused person swore an oath or underwent a physical test in his name. With Mithra and Sraosha he makes the tribunal of three.",
+   "variantTraditions": "The weighing of deeds at a bridge influenced later Islamic imagery of the Sirat bridge, though how directly is argued.",
+   "storyIds": [
+    "bridge"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "death-judge",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "tishtrya",
+   "name": "Tishtrya",
+   "sanskrit": "Tištriia",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "The star Sirius, who fights the drought demon as a white horse and loses the first round",
+   "wikipedia": "Tishtrya",
+   "portrait": "portraits/persian/tishtrya.webp",
+   "epithets": [
+    "Tir",
+    "the Dog Star",
+    "the bright and glorious star"
+   ],
+   "domains": [
+    "rain",
+    "the star Sirius",
+    "the ending of drought"
+   ],
+   "symbols": [
+    "the white stallion with gold ears",
+    "the rising star",
+    "the lake Vourukasha"
+   ],
+   "mount": null,
+   "abode": "The sky, and the shore of the cosmic sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "He fights for rain in the shape of a white horse, and how much sacrifice he gets decides whether he wins.",
+   "longBio": "Tishtrya is Sirius, and his hymn is one of the most exciting things in the Avesta. He goes down to the cosmic sea in the form of a white stallion with golden ears to make rain, and the drought demon Apaosha meets him as a black horse with no hair. They fight for three days and nights and Apaosha wins, driving him back - because, Tishtrya complains to Ahura Mazda, people have not sacrificed to him and he has not got the strength. Given a proper sacrifice he returns with the strength of ten horses, drives Apaosha off, and the water comes. The bargain is stated with unusual bluntness.",
+   "variantTraditions": "The Tir festival Tiregan is still kept, and the star's heliacal rising marked the start of the rains in the Iranian year.",
+   "storyIds": [
+    "tishtrya-rain"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "war",
+    "divine-beast",
+    "preserver"
+   ]
+  },
+  {
+   "id": "atar",
+   "name": "Atar",
+   "sanskrit": "Ātar",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "Fire, the son of Ahura Mazda, who once wrestled a dragon for the royal glory",
+   "wikipedia": "Atar",
+   "portrait": "portraits/persian/atar.webp",
+   "epithets": [
+    "Adar",
+    "the Fire",
+    "son of Ahura Mazda"
+   ],
+   "domains": [
+    "fire",
+    "purity",
+    "the hearth and the temple"
+   ],
+   "symbols": [
+    "the fire altar",
+    "the ever-burning flame",
+    "the barsom"
+   ],
+   "mount": null,
+   "abode": "Every hearth and every temple",
+   "festivals": [],
+   "worship": "",
+   "bio": "Not a symbol of the god but a being in his own right - and he fought Azhi Dahaka personally.",
+   "longBio": "Atar is fire as a person, called the son of Ahura Mazda, and Zoroastrians pray facing him rather than to him. Temple fires are graded, and the highest, the Atash Behram, is assembled from sixteen different fires including one caused by lightning and one from a cremation pyre, then purified over about a year. Some have burned continuously for over a thousand years. In myth he has a real fight: when Azhi Dahaka grabs at the khvarenah, the royal glory, Atar goes after it too, and the dragon threatens to put him out while he threatens to burn its mouth.",
+   "variantTraditions": "The label fire-worshipper is a persistent and resented mischaracterisation; fire is the visible sign of Asha and the direction of prayer, not its object.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "preserver",
+    "war"
+   ]
+  },
+  {
+   "id": "haoma",
+   "name": "Haoma",
+   "sanskrit": "Haoma",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "A plant, a drink, and a god - who visits Zarathustra and asks to be pressed",
+   "wikipedia": "Haoma",
+   "portrait": "portraits/persian/haoma.webp",
+   "epithets": [
+    "Hom",
+    "the golden",
+    "the healer",
+    "the one who drives death far away"
+   ],
+   "domains": [
+    "the sacred drink",
+    "healing",
+    "strength",
+    "immortality"
+   ],
+   "symbols": [
+    "the mortar and pestle",
+    "the golden-green stalks",
+    "the strainer"
+   ],
+   "mount": null,
+   "abode": "The mountains, and the ritual",
+   "festivals": [],
+   "worship": "",
+   "bio": "The god turns up in person and asks the prophet to press him - which is exactly as strange as it sounds.",
+   "longBio": "Haoma is simultaneously a plant, the drink pressed from it, and the god of both. His hymn opens with Zarathustra tending a fire at dawn when Haoma comes to him and asks to be pressed and praised, and then explains who has pressed him before and what each of them got. The drink is central to the Yasna liturgy and is still prepared. It is the same word and the same substance as Vedic soma, and what the original plant was has been argued about for two centuries - ephedra is the current favourite, opinions have included wild rue, mushrooms and cannabis.",
+   "variantTraditions": "Modern Zoroastrian practice uses ephedra. The Vedic soma and Iranian haoma are cognate, which puts the ritual before the two traditions separated.",
+   "storyIds": [
+    "zarathustra-called"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "wisdom-craft",
+    "preserver",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "vayu",
+   "name": "Vayu",
+   "sanskrit": "Vaiiu",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "The wind, who works for both sides and is prayed to carefully",
+   "wikipedia": "Vayu-Vata",
+   "portrait": "portraits/persian/vayu.webp",
+   "epithets": [
+    "Vay",
+    "the wind",
+    "he who moves in both worlds"
+   ],
+   "domains": [
+    "wind",
+    "the space between",
+    "the breath",
+    "death"
+   ],
+   "symbols": [
+    "the sharp spear",
+    "the golden helmet",
+    "the empty space"
+   ],
+   "mount": null,
+   "abode": "The space between sky and earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "There are two of him - a good wind and a bad one - and his hymn hedges the whole way through.",
+   "longBio": "Vayu is the wind and the empty space between heaven and earth, and he is genuinely ambiguous in a religion that does not usually permit that. Part of him belongs to Ahura Mazda and part to Angra Mainyu; one Vayu brings the breath of life and the other takes it away at death. His hymn addresses him with visible caution, praising the good part by name. Heroes sacrifice to him for favours and get them. He is the same god as Vedic Vayu, and this two-sidedness is very likely older than the sorting of the world into good and evil.",
+   "variantTraditions": "The good Vayu and bad Vayu are separated more firmly in the Pahlavi books than in the Avesta, which reads as later tidying-up.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "death-judge",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "ashi",
+   "name": "Ashi",
+   "sanskrit": "Aši",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "Fortune and reward, who complains that the wicked hide her from her own worshippers",
+   "wikipedia": "Ashi",
+   "portrait": "portraits/persian/ashi.webp",
+   "epithets": [
+    "Ard",
+    "Reward",
+    "Fortune",
+    "daughter of Ahura Mazda"
+   ],
+   "domains": [
+    "reward",
+    "prosperity",
+    "good fortune earned"
+   ],
+   "symbols": [
+    "the full storehouse",
+    "the chariot"
+   ],
+   "mount": null,
+   "abode": "Riding with the righteous",
+   "festivals": [],
+   "worship": "",
+   "bio": "Not luck - what you have earned, which the texts insist is a different thing.",
+   "longBio": "Ashi is the reward that follows right action, and specifically the material kind: cattle, crops, a full house, healthy children. She is the sister of Sraosha, Mithra's charioteer, and one of the few figures who gets an emotional moment - in her hymn she takes refuge under Zarathustra's chariot and complains bitterly about two kinds of people who cheat her, courtesans and men who do not father children, since neither produces the households she exists to fill. It is a startlingly practical grievance for a divine being.",
+   "variantTraditions": "The pairing of a reward goddess with a fertility complaint reflects Zoroastrianism's insistence that producing and sustaining life is a religious duty.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune",
+    "fate-time",
+    "preserver"
+   ]
+  },
+  {
+   "id": "daena",
+   "name": "Daena",
+   "sanskrit": "Daēnā",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "Your own conscience, who meets you after death wearing the face you gave her",
+   "wikipedia": "Daena",
+   "portrait": "portraits/persian/daena.webp",
+   "epithets": [
+    "Den",
+    "Conscience",
+    "Religion",
+    "the Self"
+   ],
+   "domains": [
+    "conscience",
+    "religion",
+    "the self one has made"
+   ],
+   "symbols": [
+    "the beautiful maiden",
+    "the hideous hag",
+    "the dogs at the bridge"
+   ],
+   "mount": null,
+   "abode": "The head of the Chinvat Bridge",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most vivid image in the religion: your soul meets a girl, and she looks exactly like your life.",
+   "longBio": "Three days after death the soul goes to the bridge and meets a young woman. If you lived well she is the most beautiful thing you have ever seen, fifteen years old, radiant, and she says: I am your own daena, your conscience - I was lovely and you made me lovelier. If you lived badly the same figure meets you as a hag so foul the soul recoils, and she says the same thing in reverse. She is not a judge and she does not punish. She is what you turned yourself into, standing in front of you.",
+   "variantTraditions": "Daena also means religion in the ordinary sense - the modern Persian din, and the same word borrowed into Arabic. The doubled meaning is not an accident.",
+   "storyIds": [
+    "bridge"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "death-judge",
+    "fate-time",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "hvare_khshaeta",
+   "name": "Hvare Khshaeta",
+   "sanskrit": "Huuarə Xšaēta",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "The visible sun, whose rising drives the demons out of the world every morning",
+   "wikipedia": "Hvare-khshaeta",
+   "portrait": "portraits/persian/hvare_khshaeta.webp",
+   "epithets": [
+    "Khorshid",
+    "the Radiant Sun",
+    "the swift-horsed sun"
+   ],
+   "domains": [
+    "the sun",
+    "light",
+    "the purification of the world"
+   ],
+   "symbols": [
+    "the swift horses",
+    "the eye of Ahura Mazda"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "When he comes up the daevas run, and that happens every single day.",
+   "longBio": "Hvare Khshaeta is the actual sun in the sky, distinct from Mithra, and his function is daily disinfection: when the sun rises the earth is made clean and the demons that gather in the dark are scattered. Where he does not shine, the texts say, the daevas destroy everything. He is called the eye of Ahura Mazda, and his light is one of the things a Zoroastrian prays facing. His name survives as Khorshid, still a common Persian given name, and the fourth watch of the day belongs to him.",
+   "variantTraditions": "The distinction between Hvare Khshaeta as the sun's disc and Mithra as the contract-god associated with sunrise blurs steadily in later texts.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "preserver",
+    "fire"
+   ]
+  },
+  {
+   "id": "mah",
+   "name": "Mah",
+   "sanskrit": "Māh",
+   "category": "deity",
+   "era": "The Yazatas",
+   "role": "The moon, who keeps the seed of the primordial bull",
+   "wikipedia": "Mah",
+   "portrait": "portraits/persian/mah.webp",
+   "epithets": [
+    "the Moon",
+    "the one that holds the cattle seed"
+   ],
+   "domains": [
+    "the moon",
+    "the month",
+    "cattle",
+    "the growth of plants"
+   ],
+   "symbols": [
+    "the crescent",
+    "the bull's seed purified in moonlight"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "The moon holds the seed of the first bull, which is where every useful animal came from.",
+   "longBio": "Mah is the moon and, in the Zoroastrian scheme, a storage facility: when the primordial bull was killed, its seed was carried up to the moon, purified there, and from it came every species of beneficent animal. The moon's phases govern the calendar and the growth of plants, and the hymn addresses him as the one who keeps the seed of cattle. His portfolio is agricultural rather than romantic; there is nothing lunar-feminine about him, and he is male.",
+   "variantTraditions": "The bull's seed in the moon is from the Bundahishn rather than the Avesta, part of the fuller Pahlavi creation account.",
+   "storyIds": [
+    "bull-and-man"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "fate-time",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "aeshma",
+   "name": "Aeshma",
+   "sanskrit": "Aēšma",
+   "category": "beast",
+   "era": "The Daevas",
+   "role": "Wrath, who carries a bloody club and became Asmodeus",
+   "wikipedia": "Aeshma",
+   "portrait": "portraits/persian/aeshma.webp",
+   "epithets": [
+    "Eshm",
+    "Wrath",
+    "the Fury",
+    "he of the bloody mace"
+   ],
+   "domains": [
+    "rage",
+    "violence",
+    "cruelty to cattle"
+   ],
+   "symbols": [
+    "the bloody club",
+    "the raised weapon"
+   ],
+   "mount": null,
+   "abode": "Wherever tempers go",
+   "festivals": [],
+   "worship": "",
+   "bio": "The demon of rage, and one of the few figures here with a straight line into the Bible.",
+   "longBio": "Aeshma is fury - the loss of control that ends in violence - and he is the standing enemy of Sraosha, obedience. He rushes at cattle and at people with a bloody club, and the texts treat losing your temper as an actual invasion rather than a character flaw. The interesting part is where he ends up: Aeshma-daeva becomes Asmodeus in the Book of Tobit, the demon who kills seven bridegrooms, and later a duke of hell in medieval demonology. He is one of the clearest imports from Iranian religion into Jewish and Christian tradition.",
+   "variantTraditions": "The etymology Aeshma-daeva to Asmodeus is generally accepted, and Tobit is among the strongest evidence for Zoroastrian influence on Second Temple Judaism.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "war"
+   ]
+  },
+  {
+   "id": "az",
+   "name": "Az",
+   "sanskrit": "Āz",
+   "category": "beast",
+   "era": "The Daevas",
+   "role": "Greed, who eats everything including, at the very end, herself",
+   "wikipedia": "Az_(demon)",
+   "portrait": "portraits/persian/az.webp",
+   "epithets": [
+    "Greed",
+    "Concupiscence",
+    "the never-filled"
+   ],
+   "domains": [
+    "greed",
+    "lust",
+    "consumption without end"
+   ],
+   "symbols": [
+    "the open mouth",
+    "the empty stomach"
+   ],
+   "mount": null,
+   "abode": "In the appetite",
+   "festivals": [],
+   "worship": "",
+   "bio": "The demon of wanting more, who will devour the other demons when nothing else is left.",
+   "longBio": "Az is greed in the broad sense - appetite that cannot be satisfied, covering food, wealth and sex alike. She is described as swallowing everything, and when there is nothing left she starts on the demons themselves, and finally on Ahriman, which is one way of saying that evil consumes itself. Zoroastrian ethics is unusually blunt here: excessive fasting is a sin as well, because starving the body is Az winning from the other direction. Manichaeism took her over and made her considerably more central.",
+   "variantTraditions": "Az is more prominent in the Pahlavi books and in Manichaean texts than in the Avesta itself.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "druj",
+   "name": "Druj",
+   "sanskrit": "Druj",
+   "category": "beast",
+   "era": "The Daevas",
+   "role": "The Lie - not lying, but everything false and out of joint",
+   "wikipedia": "Druj",
+   "portrait": "portraits/persian/druj.webp",
+   "epithets": [
+    "the Lie",
+    "Falsehood",
+    "Deceit"
+   ],
+   "domains": [
+    "falsehood",
+    "disorder",
+    "the opposite of Asha"
+   ],
+   "symbols": [
+    "the crooked path",
+    "corruption"
+   ],
+   "mount": null,
+   "abode": "Against the order of things",
+   "festivals": [],
+   "worship": "",
+   "bio": "The single word the whole religion is arranged against, and it means much more than dishonesty.",
+   "longBio": "Druj is the exact opposite of Asha, and like Asha it is bigger than its English translation. It is falsehood, but also disorder, corruption, and the state of things being wrong - a rotting corpse is druj, a broken contract is druj, and so is a lie. Human beings are sorted into ashavan, those who belong to Truth, and dregvant, those who belong to the Lie, and the choice is made in the ordinary business of living rather than in a moment of conversion. The word is cognate with English betray by way of a shared root meaning to deceive.",
+   "variantTraditions": "Druj is both an abstract principle and a class of female demons in the Vendidad, most importantly Nasu, the corpse demon.",
+   "storyIds": [
+    "two-spirits"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "nasu",
+   "name": "Nasu",
+   "sanskrit": "Nasu",
+   "category": "beast",
+   "era": "The Daevas",
+   "role": "The corpse demon, who arrives as a fly the instant someone dies",
+   "wikipedia": "Nasu",
+   "portrait": "portraits/persian/nasu.webp",
+   "epithets": [
+    "the Corpse Demon",
+    "the Druj Nasu",
+    "the fly from the north"
+   ],
+   "domains": [
+    "death pollution",
+    "decay",
+    "contagion"
+   ],
+   "symbols": [
+    "the fly",
+    "the corpse",
+    "the two dogs whose gaze drives her off"
+   ],
+   "mount": null,
+   "abode": "Wherever a body lies",
+   "festivals": [],
+   "worship": "",
+   "bio": "She comes in the shape of a fly from the north, and the whole Zoroastrian funeral is designed around her.",
+   "longBio": "The moment life leaves a body, Nasu rushes into it as a fly and the corpse becomes the most polluting thing there is. Everything about Zoroastrian death practice follows from this: bodies are not buried, because the earth is holy, and not burned, because fire is holy, so they are exposed on towers for the birds. She is driven back by the sagdid, the gaze of a dog - a four-eyed dog, meaning one with spots above the eyes, is led in to look at the body. Whatever the theology, it is also a strikingly good account of contagion.",
+   "variantTraditions": "The dog's importance in Zoroastrianism is unusual among Near Eastern religions, and killing one carries severe penalties in the Vendidad.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "apaosha",
+   "name": "Apaosha",
+   "sanskrit": "Apaoša",
+   "category": "beast",
+   "era": "The Daevas",
+   "role": "The drought demon, a black horse with no hair",
+   "wikipedia": "Apaosha",
+   "portrait": "portraits/persian/apaosha.webp",
+   "epithets": [
+    "the Drought",
+    "the black horse"
+   ],
+   "domains": [
+    "drought",
+    "the withholding of rain"
+   ],
+   "symbols": [
+    "the bald black stallion",
+    "the dry lake bed"
+   ],
+   "mount": null,
+   "abode": "The shore of the cosmic sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "He beat Tishtrya the first time, and in a country like Iran that is the worst news there is.",
+   "longBio": "Apaosha is drought as a person, and he appears in the shape of a black stallion, bald, with no hair on ears or tail. He meets Tishtrya at the cosmic sea and they fight for three days, and Apaosha wins the first bout and drives the rain-star back a full league. Only after a proper sacrifice does Tishtrya come back strong enough to beat him. In a land where the whole agricultural year depends on the rains arriving, making drought an enemy who can actually win the fight is a more honest theology than most.",
+   "variantTraditions": "The Tishtrya-Apaosha combat is the clearest surviving Iranian version of the widespread Indo-European storm-god versus withholding-demon pattern.",
+   "storyIds": [
+    "tishtrya-rain"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "astvidatu",
+   "name": "Astvidatu",
+   "sanskrit": "Asto-vidhotu",
+   "category": "beast",
+   "era": "The Daevas",
+   "role": "The bone-divider: the demon who is the actual moment of death",
+   "wikipedia": "Astwihad",
+   "portrait": "portraits/persian/astvidatu.webp",
+   "epithets": [
+    "Astwihad",
+    "the Bone-Divider",
+    "the noose-caster"
+   ],
+   "domains": [
+    "death",
+    "the separation of soul and body"
+   ],
+   "symbols": [
+    "the noose thrown around the neck",
+    "the shadow at the door"
+   ],
+   "mount": null,
+   "abode": "At the end of every life",
+   "festivals": [],
+   "worship": "",
+   "bio": "He throws a noose over your neck at birth, and it stays there loose until it does not.",
+   "longBio": "Astvidatu is death itself rather than a god of the dead. He casts a noose around the neck of every person at birth; if they die righteous it falls away, and if not it drags them down. He is described as the one from whom no one escapes, including kings and heroes, and the Pahlavi texts stress that the strong and the clever fare no better. He works with Vayu, the wind that takes the breath. There is nothing negotiable about him, and no story in which anyone gets away.",
+   "variantTraditions": "The Menog-i Khrad devotes a passage to the impossibility of escaping him, which reads as a genuine attempt to console rather than to frighten.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "jahi",
+   "name": "Jahi",
+   "sanskrit": "Jahī",
+   "category": "beast",
+   "era": "The Daevas",
+   "role": "The demon who woke Ahriman up when he had lost the will to fight",
+   "wikipedia": "Jeh",
+   "portrait": "portraits/persian/jahi.webp",
+   "epithets": [
+    "Jeh",
+    "the Whore",
+    "the primal woman of the Lie"
+   ],
+   "domains": [
+    "menstruation as pollution",
+    "the rousing of Ahriman",
+    "corruption"
+   ],
+   "symbols": [
+    "the kiss that started menstruation"
+   ],
+   "mount": null,
+   "abode": "Beside Ahriman",
+   "festivals": [],
+   "worship": "",
+   "bio": "After three thousand years flattened, Ahriman was finished - and she got him back on his feet.",
+   "longBio": "When Ahriman first attacks the good creation, Ohrmazd's counter-attack knocks him unconscious for three thousand years, and the demons cannot rouse him. Jahi does it: she promises to ruin the righteous man, the fire, the water, the earth, the plants and everything else, and Ahriman rises, kisses her on the head, and menstruation appears in the world from that kiss. This passage is the source of the harshest treatment of women in the Zoroastrian corpus, and it sits badly beside a religion that elsewhere treats men and women as equally capable of choosing truth.",
+   "variantTraditions": "The Bundahishn passage is late and its misogyny is not characteristic of the Gathas, which address men and women together. It is reported here because it is in the text.",
+   "storyIds": [
+    "the-assault"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "azhi_dahaka",
+   "name": "Azhi Dahaka",
+   "sanskrit": "Aži Dahāka",
+   "category": "beast",
+   "era": "The Daevas",
+   "role": "The three-headed dragon with six eyes, chained under a mountain until the end",
+   "wikipedia": "Zahhak",
+   "portrait": "portraits/persian/azhi_dahaka.webp",
+   "epithets": [
+    "Zahhak in the epic",
+    "the three-jawed",
+    "the six-eyed",
+    "the thousand-skilled"
+   ],
+   "domains": [
+    "storm",
+    "tyranny",
+    "destruction",
+    "the serpent"
+   ],
+   "symbols": [
+    "three heads",
+    "six eyes",
+    "the mountain Damavand",
+    "the chains"
+   ],
+   "mount": null,
+   "abode": "Chained inside Mount Damavand",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Avesta's dragon and the epic's tyrant are the same creature, and he is not dead - only chained.",
+   "longBio": "In the Avesta, Azhi Dahaka is a dragon with three mouths, three heads and six eyes, made by Angra Mainyu to ruin the world, and full of vermin - snakes, lizards and scorpions crawl in his body. Thraetaona fights him and does not kill him, because striking him open would release the vermin over the earth; instead he binds him inside Mount Damavand. At the end of the world he breaks loose, destroys a third of everything, and is finally killed by the resurrected hero Keresaspa. The Shahnameh keeps every beat and makes him a human king with serpents on his shoulders.",
+   "variantTraditions": "Damavand is a real volcano north-east of Tehran, and the tradition of the chained dragon inside it is still current in Iranian folklore.",
+   "storyIds": [
+    "frashokereti",
+    "kaveh-revolt"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary",
+    "destroyer",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "gayomard",
+   "name": "Gayomard",
+   "sanskrit": "Gaiiō.marətan",
+   "category": "primordial",
+   "era": "The First Creation",
+   "role": "The first man, shaped like a bright cylinder, whose body became metal",
+   "wikipedia": "Keyumars",
+   "portrait": "portraits/persian/gayomard.webp",
+   "epithets": [
+    "Keyumars",
+    "Gayomartan",
+    "the Mortal Life",
+    "the first man"
+   ],
+   "domains": [
+    "the first human",
+    "metals",
+    "the origin of the human race"
+   ],
+   "symbols": [
+    "the shining white figure",
+    "gold",
+    "the rhubarb plant"
+   ],
+   "mount": null,
+   "abode": "The middle of the earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "He shone like the sun, lived thirty years after the attack, and when he died the metals came out of him.",
+   "longBio": "Gayomard is the first man, created bright and tall and shaped, the Bundahishn says, like the sun. Ahriman's assault kills him, but he holds out thirty years first, and as he dies his body yields the seven metals - gold from his seed, and the rest from his limbs. His seed is purified in the sun for forty years, and from it grows a rhubarb plant which becomes the first human couple. In the Shahnameh he is demoted to the first king instead, ruling from a mountain and dressed in leopard skins, and the metaphysics is dropped.",
+   "variantTraditions": "The name means mortal life. The transformation from cosmic first-man to first king is one of the clearest cases of the epic historicising scripture.",
+   "storyIds": [
+    "the-assault",
+    "bull-and-man"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "hero-champion",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "mashya",
+   "name": "Mashya and Mashyana",
+   "sanskrit": "Mašiia and Mašiiānag",
+   "category": "mortal",
+   "era": "The First Creation",
+   "role": "The first couple, who grew as a rhubarb plant and lied within a month",
+   "wikipedia": "Mashya_and_Mashyana",
+   "portrait": "portraits/persian/mashya.webp",
+   "epithets": [
+    "the first man and woman",
+    "the rhubarb pair"
+   ],
+   "domains": [
+    "the origin of humanity",
+    "the first lie",
+    "the first sacrifice"
+   ],
+   "symbols": [
+    "the rhubarb plant with fifteen leaves",
+    "the black goat's milk"
+   ],
+   "mount": null,
+   "abode": "The earth, after Gayomard",
+   "festivals": [],
+   "worship": "",
+   "bio": "They grew out of the ground as one plant with fifteen leaves, and got it wrong almost immediately.",
+   "longBio": "Mashya and Mashyana grow from Gayomard's purified seed as a single rhubarb plant so joined that it was not clear which was which, and then become human. Ahura Mazda tells them they are people, to think good thoughts and do good deeds and not worship demons. They manage about thirty days. First they declare that Ahriman created the world, which is the first lie and costs them heaven. Then they lose the taste for food, kill a goat and roast it, quarrel, and go fifty years without children out of spite. Eventually they produce twins, and eat them.",
+   "variantTraditions": "The account is from the Bundahishn. The parallel with Genesis is often noted, but the sin here is a false statement about who made the world rather than disobedience.",
+   "storyIds": [
+    "bull-and-man"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "gavaevodata",
+   "name": "The Primordial Bull",
+   "sanskrit": "Gav-aēvō.dāta",
+   "category": "beast",
+   "era": "The First Creation",
+   "role": "The uniquely created ox, from whose death every useful plant and animal came",
+   "wikipedia": "Gavaevodata",
+   "portrait": "portraits/persian/gavaevodata.webp",
+   "epithets": [
+    "the Sole-Created Ox",
+    "the primeval bull",
+    "Gawiewdad"
+   ],
+   "domains": [
+    "cattle",
+    "the origin of animals and plants",
+    "the good creation"
+   ],
+   "symbols": [
+    "the white bull",
+    "the moon that holds its seed"
+   ],
+   "mount": null,
+   "abode": "By the bank of the river Veh Daiti",
+   "festivals": [],
+   "worship": "",
+   "bio": "White as the moon, killed in the first attack - and everything useful grew out of the corpse.",
+   "longBio": "The Sole-Created Ox is made before people, white and shining, and Ahriman kills it in the assault on the good creation. That death is generative: from its body come fifty-five kinds of grain and twelve kinds of healing plant, from its seed - carried to the moon and purified there - come all the beneficial animal species, and from its fat comes the drink of immortality at the end of time. Its soul, Geush Urvan, goes up and complains to Ahura Mazda about being abandoned, and is told that a prophet will come who will protect cattle. That prophet is Zarathustra.",
+   "variantTraditions": "The bull's protest in Yasna 29 is one of the oldest and strangest passages in the Gathas, and reads as a genuine plea about the treatment of livestock.",
+   "storyIds": [
+    "the-assault",
+    "bull-and-man"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "creator",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "geush_urvan",
+   "name": "Geush Urvan",
+   "sanskrit": "Gəuš Urvan",
+   "category": "deity",
+   "era": "The First Creation",
+   "role": "The Soul of the Ox, who took the case of all cattle to the gods and won",
+   "wikipedia": "Geush_Urvan",
+   "portrait": "portraits/persian/geush_urvan.webp",
+   "epithets": [
+    "the Soul of the Bull",
+    "Gosh"
+   ],
+   "domains": [
+    "the welfare of cattle",
+    "protest",
+    "the appeal to heaven"
+   ],
+   "symbols": [
+    "the ox",
+    "the raised complaint"
+   ],
+   "mount": null,
+   "abode": "In the presence of Ahura Mazda",
+   "festivals": [],
+   "worship": "",
+   "bio": "The soul of the murdered bull went up and complained, and the answer was: we are sending you a prophet.",
+   "longBio": "Geush Urvan is the Soul of the Ox, and Yasna 29 is essentially a courtroom scene. The soul cries out to Ahura Mazda about the violence and cruelty it suffers on earth and demands to know who was appointed to protect it. Asha answers that there is no herdsman free of sin. Ahura Mazda names Zarathustra. The soul is unimpressed - it wanted a mighty prince and it has been given a man with a weak voice - and the hymn ends with it accepting the appointment reluctantly. A religion whose founding text opens with livestock filing a grievance is not like the others.",
+   "variantTraditions": "Yasna 29 is among the oldest Gathic material and its reading is difficult; the disappointed tone of the soul's response is generally agreed.",
+   "storyIds": [
+    "bull-and-man",
+    "ox-complains"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "preserver",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "saoshyant",
+   "name": "The Saoshyant",
+   "sanskrit": "Saošiiaṇt",
+   "category": "hero",
+   "era": "The First Creation",
+   "role": "The future saviour, conceived from the prophet's seed kept in a lake for millennia",
+   "wikipedia": "Saoshyant",
+   "portrait": "portraits/persian/saoshyant.webp",
+   "epithets": [
+    "Astvat-ereta",
+    "the Benefactor",
+    "he who brings benefit"
+   ],
+   "domains": [
+    "the renovation of the world",
+    "resurrection",
+    "the final victory"
+   ],
+   "symbols": [
+    "the lake Kansaoya",
+    "the club of Verethragna"
+   ],
+   "mount": null,
+   "abode": "Yet to come",
+   "festivals": [],
+   "worship": "",
+   "bio": "Zarathustra's seed is preserved in a lake, and a virgin bathing there will bear the one who ends the war.",
+   "longBio": "The Saoshyant is the world-saviour who arrives at the end of the twelve thousand years. Zarathustra's seed is kept in Lake Kansaoya, guarded by ninety-nine thousand fravashis, and a virgin who bathes in it conceives him. He raises the dead, everyone passes through the river of molten metal, evil is destroyed and the world is made new and perfect - the Frashokereti, the making wonderful. Three saviours come in sequence at thousand-year intervals, the last being the Saoshyant proper. The whole apparatus of a virgin-born saviour, resurrection and a final judgement sits here in a religion older than the ones usually credited with it.",
+   "variantTraditions": "How far Zoroastrian eschatology shaped Jewish, Christian and Islamic messianism is one of the long-running arguments in the history of religion; the direction of borrowing is hard to prove but the dates favour Iran.",
+   "storyIds": [
+    "frashokereti"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "preserver",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "chinvat",
+   "name": "The Chinvat Bridge",
+   "sanskrit": "Činvat Pərətu",
+   "category": "primordial",
+   "era": "The First Creation",
+   "role": "The bridge of the separator, which is broad for the good and a blade for the wicked",
+   "wikipedia": "Chinvat_Bridge",
+   "portrait": "portraits/persian/chinvat.webp",
+   "epithets": [
+    "the Bridge of the Separator",
+    "the Bridge of Judgement"
+   ],
+   "domains": [
+    "judgement",
+    "the passage of the soul",
+    "the crossing"
+   ],
+   "symbols": [
+    "the bridge",
+    "the two dogs",
+    "the golden scales"
+   ],
+   "mount": null,
+   "abode": "Between the worlds",
+   "festivals": [],
+   "worship": "",
+   "bio": "Not a test you take - a bridge that measures you and changes width accordingly.",
+   "longBio": "Three days after death the soul comes to the Chinvat Bridge, guarded by two dogs, where Mithra, Sraosha and Rashnu wait with scales. The bridge is not fixed. For the righteous it broadens to the width of nine spears and their daena meets them as a beautiful woman and leads them across to the House of Song. For the wicked it narrows to the edge of a razor, their daena meets them as a hag, and they fall into the House of Lies. Those exactly balanced go to Hamistagan, a neutral place, until the end. Nobody stays anywhere forever.",
+   "variantTraditions": "The bridge appears in the Gathas already, which makes it one of the oldest elements of the eschatology. The Islamic Sirat bridge is very probably descended from it.",
+   "storyIds": [
+    "bridge"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "death-judge",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "simurgh",
+   "name": "The Simurgh",
+   "sanskrit": "Sēnmurw",
+   "category": "beast",
+   "era": "The First Creation",
+   "role": "The great bird who raised an abandoned baby and taught a surgeon how to operate",
+   "wikipedia": "Simurgh",
+   "portrait": "portraits/persian/simurgh.webp",
+   "epithets": [
+    "Senmurv",
+    "the bird of Alborz",
+    "the healer"
+   ],
+   "domains": [
+    "wisdom",
+    "healing",
+    "the nest on the world-mountain",
+    "protection"
+   ],
+   "symbols": [
+    "the enormous bird with a dog's head in early art",
+    "the healing feather"
+   ],
+   "mount": null,
+   "abode": "A nest in the Alborz mountains, on the tree of all seeds",
+   "festivals": [],
+   "worship": "",
+   "bio": "She found a white-haired baby left to die on a mountain and raised him - and his family got the bill later.",
+   "longBio": "The Simurgh nests on the tree that holds every seed in the world, and when she takes off the seeds scatter and the rains carry them everywhere. In the Shahnameh she is the making of a dynasty: Sam exposes his albino son Zal on a mountain, the Simurgh takes him to her nest and raises him, and when his father comes back ashamed she returns him with three feathers - burn one and she will come. Zal uses them twice: once for Rudabeh's obstructed labour, where the Simurgh dictates what is effectively a caesarean section, and once to tell Rostam how to kill Esfandiyar.",
+   "variantTraditions": "The earlier Senmurv is depicted as a winged creature with a dog's head; the fully avian Simurgh is later. She has no connection to the Arabic roc beyond both being large birds.",
+   "storyIds": [
+    "zal-simurgh",
+    "rostam-esfandiyar"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sage-seer",
+    "healer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "zarathustra",
+   "name": "Zarathustra",
+   "sanskrit": "Zaraθuštra",
+   "category": "mortal",
+   "era": "The First Creation",
+   "role": "The prophet who laughed when he was born and argued with god about cattle",
+   "wikipedia": "Zoroaster",
+   "portrait": "portraits/persian/zarathustra.webp",
+   "epithets": [
+    "Zoroaster",
+    "Zardosht",
+    "the prophet",
+    "Spitama"
+   ],
+   "domains": [
+    "revelation",
+    "the Gathas",
+    "the reform of the old religion"
+   ],
+   "symbols": [
+    "the fire",
+    "the barsom twigs",
+    "the white robe"
+   ],
+   "mount": null,
+   "abode": "Airyanem Vaejah, and the court of Vishtaspa",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first person to say there is one god and you have to choose sides - and possibly the first prophet anywhere.",
+   "longBio": "Zarathustra is a real person who left real poetry: seventeen hymns, the Gathas, in a language so archaic they can barely be translated. He takes the old Indo-Iranian pantheon and reorganises it around a single creator and a moral choice, demoting the daevas to demons in the process. Tradition says he laughed at his own birth instead of crying, received the revelation at thirty from Vohu Manah, was rejected for ten years, converted King Vishtaspa by curing his horse, and was murdered at seventy-seven while tending a fire. When he lived is genuinely unknown - estimates run from 1500 to 600 BC.",
+   "variantTraditions": "The Gathas are linguistically close to the Rigveda, which argues for the earlier dating. The traditional date of 258 years before Alexander is now generally rejected.",
+   "storyIds": [
+    "ox-complains",
+    "zarathustra-called"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "wisdom-craft",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "vishtaspa",
+   "name": "Vishtaspa",
+   "sanskrit": "Vīštāspa",
+   "category": "mortal",
+   "era": "The First Creation",
+   "role": "The king who converted, after the prophet cured his favourite horse",
+   "wikipedia": "Vishtaspa",
+   "portrait": "portraits/persian/vishtaspa.webp",
+   "epithets": [
+    "Goshtasp in the epic",
+    "the patron of Zarathustra"
+   ],
+   "domains": [
+    "royal patronage",
+    "the first Zoroastrian state",
+    "war for the faith"
+   ],
+   "symbols": [
+    "the horse whose legs were restored",
+    "the throne"
+   ],
+   "mount": null,
+   "abode": "Balkh",
+   "festivals": [],
+   "worship": "",
+   "bio": "His horse's legs withdrew into its body; Zarathustra cured it one leg per concession.",
+   "longBio": "Vishtaspa is the first king to adopt the new religion, which is what turns Zarathustra from a rejected preacher into the founder of a state faith. The conversion story is a negotiation: the king's favourite black horse has all four legs drawn up into its belly, and Zarathustra offers to cure it a leg at a time in exchange for four things - that the king accept the religion, that his son take up arms for it, that the queen convert, and that the courtiers who framed the prophet be named. He gets all four. In the Shahnameh he becomes Goshtasp, a considerably less admirable figure.",
+   "variantTraditions": "Whether Vishtaspa is the same man as the father of Darius I is an old question, generally answered no on chronological grounds.",
+   "storyIds": [
+    "zarathustra-called"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "fravashi",
+   "name": "The Fravashis",
+   "sanskrit": "Fravaši",
+   "category": "deity",
+   "era": "The First Creation",
+   "role": "The guardian spirits of everyone who ever lived, who ride out in armour once a year",
+   "wikipedia": "Fravashi",
+   "portrait": "portraits/persian/fravashi.webp",
+   "epithets": [
+    "the pre-existing souls",
+    "the guardian spirits",
+    "the chosen ones"
+   ],
+   "domains": [
+    "protection",
+    "ancestry",
+    "the pre-existent soul",
+    "the waters"
+   ],
+   "symbols": [
+    "the winged disc",
+    "the armed riders",
+    "the ten days of remembrance"
+   ],
+   "mount": null,
+   "abode": "With every living thing, and in the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every person has one, they existed before you did, and they fought on the good side before you were born.",
+   "longBio": "A fravashi is the pre-existent higher self of a person, and everyone has one - including the unborn, the dead, and Ahura Mazda himself. Before the world was made they were asked whether they would go down and be embodied and fight, and they agreed. Their great hymn describes them riding in thousands like armoured horsemen, and they are asked for help in battle, in childbirth and for rain. During the last ten days of the year they come home and the household prepares food for them, which is still kept as Farvardigan. The winged figure on Persepolis is very probably one.",
+   "variantTraditions": "The identity of the Faravahar, the winged disc, is disputed - fravashi, khvarenah or Ahura Mazda himself have all been argued.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "war",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "khvarenah",
+   "name": "The Khvarenah",
+   "sanskrit": "Xᵛarənah",
+   "category": "deity",
+   "era": "The First Creation",
+   "role": "The royal glory: a visible radiance that leaves a king the moment he lies",
+   "wikipedia": "Khvarenah",
+   "portrait": "portraits/persian/khvarenah.webp",
+   "epithets": [
+    "Farr",
+    "the Glory",
+    "the Royal Fortune"
+   ],
+   "domains": [
+    "legitimate kingship",
+    "divine favour",
+    "radiance"
+   ],
+   "symbols": [
+    "the halo of light",
+    "the ram",
+    "the falcon that carries it away"
+   ],
+   "mount": null,
+   "abode": "On the rightful king, and nowhere else",
+   "festivals": [],
+   "worship": "",
+   "bio": "It looks like light around a king, and it physically departs when he stops deserving it.",
+   "longBio": "Khvarenah is the glory that marks a legitimate ruler, and the crucial thing is that it can leave. When Yima lies, it flies off him in the shape of a bird, three times, and passes to others. Azhi Dahaka grabs at it and Atar fights him for it. It falls into Lake Vourukasha and Afrasiyab dives three times trying to seize it and fails. The whole Iranian theory of kingship is here: authority is conditional, visible, and revocable by heaven rather than by people. As farr it stays central in Persian political thought for two thousand years.",
+   "variantTraditions": "Khvarenah is the origin of the halo in later religious art by one well-supported line of argument, travelling west through Kushan and Buddhist iconography.",
+   "storyIds": [
+    "jamshid-falls",
+    "kay-khosrow-leaves"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "fate-time",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "hushang",
+   "name": "Hushang",
+   "sanskrit": "Hōšang",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "He threw a stone at a snake, missed, and discovered fire",
+   "wikipedia": "Hushang",
+   "portrait": "portraits/persian/hushang.webp",
+   "epithets": [
+    "the second king",
+    "the discoverer of fire"
+   ],
+   "domains": [
+    "fire",
+    "smithcraft",
+    "irrigation",
+    "the first laws"
+   ],
+   "symbols": [
+    "the flint",
+    "the forge",
+    "the festival of Sadeh"
+   ],
+   "mount": null,
+   "abode": "The first city",
+   "festivals": [],
+   "worship": "",
+   "bio": "The stone missed the snake, hit rock, and struck a spark - and that is the Persian origin of fire.",
+   "longBio": "Hushang is Gayomard's grandson and the second king. Out walking he sees a long dark snake with smoke coming from its mouth, picks up a stone and throws it; the snake escapes but the stone strikes rock and a spark jumps out. He understands at once what he has been given, and that night is celebrated as Sadeh, a midwinter fire festival still kept in Iran. He goes on to separate iron from stone, build the first forge, dig irrigation channels and teach people to farm. He is a culture-hero in the plainest sense: everything useful starts with him.",
+   "variantTraditions": "Ferdowsi is careful to say the fire came from god through the accident, not from Hushang's cleverness.",
+   "storyIds": [
+    "jamshid-falls"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "fire",
+    "king-ruler",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "tahmuras",
+   "name": "Tahmuras",
+   "sanskrit": "Tahmūraṯ",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "The Demon-Binder, who beat the divs and made them teach him to write",
+   "wikipedia": "Tahmuras",
+   "portrait": "portraits/persian/tahmuras.webp",
+   "epithets": [
+    "Div-band, the Demon-Binder",
+    "the third king"
+   ],
+   "domains": [
+    "the subjugation of demons",
+    "writing",
+    "weaving",
+    "the taming of animals"
+   ],
+   "symbols": [
+    "the lasso",
+    "the bound demons",
+    "the alphabet"
+   ],
+   "mount": null,
+   "abode": "The throne of Iran",
+   "festivals": [],
+   "worship": "",
+   "bio": "He defeated the demons and spared them on one condition: teach me to write.",
+   "longBio": "Tahmuras binds the divs - the demons of the epic - and rides one as a mount, and when he has them beaten they offer him a ransom. What they teach him is writing, in some thirty scripts, and Ferdowsi treats literacy as something extracted from the enemy under duress rather than a gift from heaven, which is an interesting position for a poet to take. He also domesticates animals, teaches shearing and spinning, and trains hawks. His epithet Div-band sticks to him permanently.",
+   "variantTraditions": "The Avestan Taxma Urupi rides Angra Mainyu himself as a horse for thirty years; the epic keeps the image and lowers the target.",
+   "storyIds": [
+    "jamshid-falls"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "wisdom-craft",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "jamshid",
+   "name": "Jamshid",
+   "sanskrit": "Jamšīd",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "The greatest king in the world, ruined by saying so out loud",
+   "wikipedia": "Jamshid",
+   "portrait": "portraits/persian/jamshid.webp",
+   "epithets": [
+    "Yima in the Avesta",
+    "the shining",
+    "the splendid"
+   ],
+   "domains": [
+    "the golden age",
+    "medicine and building",
+    "the founding of Nowruz",
+    "pride"
+   ],
+   "symbols": [
+    "the throne carried into the sky",
+    "the wine cup that shows the world",
+    "the golden age"
+   ],
+   "mount": null,
+   "abode": "Persepolis, called the Throne of Jamshid",
+   "festivals": [],
+   "worship": "",
+   "bio": "Three hundred years of paradise, and then he claimed to be god and the glory left him in three pieces.",
+   "longBio": "Jamshid's reign is the golden age: he divides society into classes, invents weaving, medicine, ships and the working of metals, builds baths and perfume, and abolishes death and disease so that for three hundred years nobody dies. He founds Nowruz by having demons lift his throne into the air on the first day of spring. Then he calls an assembly and declares himself god. The khvarenah leaves him in three flights, his nobles desert, and Zahhak invades. He runs for a hundred years and is caught and sawn in half. Persepolis is still called Takht-e Jamshid, his throne.",
+   "variantTraditions": "The Avestan Yima builds an underground refuge, the vara, to survive a killing winter - the closest thing in Iranian tradition to a flood story, and dropped from the epic.",
+   "storyIds": [
+    "jamshid-falls"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "wisdom-craft",
+    "destroyer",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "zahhak",
+   "name": "Zahhak",
+   "sanskrit": "Żaḥḥāk",
+   "category": "beast",
+   "era": "The Shahnameh",
+   "role": "The king with two serpents on his shoulders that had to be fed human brains",
+   "wikipedia": "Zahhak",
+   "portrait": "portraits/persian/zahhak.webp",
+   "epithets": [
+    "Azhi Dahaka in the Avesta",
+    "the thousand-skilled",
+    "the serpent-shouldered"
+   ],
+   "domains": [
+    "tyranny",
+    "the serpents",
+    "a thousand years of misrule"
+   ],
+   "symbols": [
+    "the two black snakes from his shoulders",
+    "the daily ration of two young men"
+   ],
+   "mount": null,
+   "abode": "Jerusalem in the epic, then chained in Damavand",
+   "festivals": [],
+   "worship": "",
+   "bio": "The devil kissed his shoulders and snakes grew there, and they had to be fed two human brains a day.",
+   "longBio": "Zahhak is a foreign prince whom Ahriman persuades to murder his own father. Then Ahriman comes back as a cook, feeds him meat until he is grateful, and asks only to kiss his shoulders - and two black serpents grow there. They cannot be cut off; they grow back. A physician, Ahriman again, advises that the only remedy is to feed them human brains daily. Zahhak takes Iran and rules a thousand years, two young men killed every day, until Fereydun and the blacksmith Kaveh bring him down. He is not killed but chained inside Mount Damavand, alive, until the end of the world.",
+   "variantTraditions": "The cooks Armayel and Garmayel save one of each pair by substituting sheep's brains and send them to the mountains, where they become the Kurds - Ferdowsi's own etymology.",
+   "storyIds": [
+    "jamshid-falls",
+    "kaveh-revolt"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "king-ruler",
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "kaveh",
+   "name": "Kaveh",
+   "sanskrit": "Kāva",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "A blacksmith who lost seventeen sons, tore up the king's petition, and raised his apron as a flag",
+   "wikipedia": "Kaveh_the_Blacksmith",
+   "portrait": "portraits/persian/kaveh.webp",
+   "epithets": [
+    "Kaveh Ahangar, the blacksmith",
+    "the standard-bearer"
+   ],
+   "domains": [
+    "revolt",
+    "the smith's apron as a banner",
+    "justice from below"
+   ],
+   "symbols": [
+    "the leather apron on a spear",
+    "the hammer"
+   ],
+   "mount": null,
+   "abode": "The forge, and the road to Fereydun",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most famous act of defiance in Persian literature, and it is performed by a tradesman.",
+   "longBio": "Zahhak's men have taken seventeen of Kaveh's eighteen sons for the serpents. When they come for the last, Kaveh goes to the palace, where the king is circulating a document attesting that he has always ruled justly, requiring signatures. Kaveh reads it, denounces it in front of the court, tears it to pieces and walks out with his son. In the street he puts his leather apron on the point of a spear and raises it, and people follow. That apron becomes the Derafsh Kaviani, the royal standard of Iran for a thousand years, jewelled and enlarged by every dynasty until the Arabs captured it.",
+   "variantTraditions": "The Derafsh Kaviani was real and was taken at the battle of Qadisiyyah in 636 and cut up for its jewels.",
+   "storyIds": [
+    "kaveh-revolt"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "fereydun",
+   "name": "Fereydun",
+   "sanskrit": "Frēdōn",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "He overthrew the serpent king with a cow-headed mace and then divided the world badly",
+   "wikipedia": "Fereydun",
+   "portrait": "portraits/persian/fereydun.webp",
+   "epithets": [
+    "Thraetaona in the Avesta",
+    "the victorious"
+   ],
+   "domains": [
+    "the overthrow of Zahhak",
+    "the division of the world",
+    "justice"
+   ],
+   "symbols": [
+    "the ox-headed mace",
+    "the cow Barmayeh who nursed him"
+   ],
+   "mount": null,
+   "abode": "The throne of Iran",
+   "festivals": [],
+   "worship": "",
+   "bio": "He beat the tyrant, ruled five hundred years, and then made one decision that ruined everything after.",
+   "longBio": "Fereydun is hidden at birth from Zahhak and suckled by a cow, Barmayeh, whose head he later has cast onto his mace. With Kaveh's revolt behind him he takes the palace, and is stopped by an angel from killing Zahhak - he must chain him in Damavand instead. He then rules five hundred years. His error is at the end: he divides the world between three sons, giving Rome and the west to Salm, Turan and China to Tur, and Iran itself - the best portion - to the youngest, Iraj. The two elder brothers murder Iraj, and the war between Iran and Turan that follows runs through the rest of the epic.",
+   "variantTraditions": "Thraetaona of the Avesta is a dragon-slayer pure and simple; the three sons and the division of the world are the epic's development.",
+   "storyIds": [
+    "kaveh-revolt",
+    "iraj-murdered"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "war"
+   ]
+  },
+  {
+   "id": "iraj",
+   "name": "Iraj",
+   "sanskrit": "Iraj",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "Murdered by his own brothers for being given the better country",
+   "wikipedia": "Iraj",
+   "portrait": "portraits/persian/iraj.webp",
+   "epithets": [
+    "the youngest son of Fereydun",
+    "the namesake of Iran"
+   ],
+   "domains": [
+    "Iran",
+    "innocence",
+    "the founding murder"
+   ],
+   "symbols": [
+    "the severed head in a box",
+    "the untouched crown"
+   ],
+   "mount": null,
+   "abode": "Iran",
+   "festivals": [],
+   "worship": "",
+   "bio": "He offered to give up his kingdom to keep the peace, and they killed him anyway.",
+   "longBio": "Iraj gets Iran, and his brothers Salm and Tur cannot bear it. He goes to them alone and unarmed and offers to renounce the throne entirely rather than fight, and Tur kills him with a golden stool and a dagger, and they send his head back to their father in a box. Fereydun's grief is one of the great set pieces of the poem. The murder is the founding crime of the whole epic - Iran is named for Iraj, the war with Turan is named for Tur, and every generation afterwards inherits the feud. His grandson Manuchehr eventually avenges him.",
+   "variantTraditions": "Ferdowsi uses the fratricide to set up the entire Iran-Turan conflict, which occupies more of the epic than anything else.",
+   "storyIds": [
+    "iraj-murdered"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "salm_tur",
+   "name": "Salm and Tur",
+   "sanskrit": "Salm o Tūr",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "The two brothers who murdered the third, and named a country by doing it",
+   "wikipedia": "Salm",
+   "portrait": "portraits/persian/salm_tur.webp",
+   "epithets": [
+    "the elder sons of Fereydun",
+    "the kings of the west and the east"
+   ],
+   "domains": [
+    "envy",
+    "fratricide",
+    "the origin of the long war"
+   ],
+   "symbols": [
+    "the golden stool used as a weapon",
+    "the divided world"
+   ],
+   "mount": null,
+   "abode": "Rome, and Turan",
+   "festivals": [],
+   "worship": "",
+   "bio": "Given the west and the east, they wanted the middle, and killed their brother to get it.",
+   "longBio": "Salm receives Rome and the west, Tur receives Turan and China, and Iraj receives Iran. The two elder brothers, envious, demand that Iraj be disinherited, and when he comes to them offering exactly that they kill him regardless - which tells you the grievance was never about territory. Manuchehr avenges Iraj a generation later and kills them both. Turan takes its name from Tur, and every Turanian king in the rest of the epic, Afrasiyab most of all, descends from him. Ferdowsi's Turanians are not caricatures; several are more honourable than the Iranians they fight.",
+   "variantTraditions": "Turan is a real geographical term for the lands north-east of Iran; the epic's Turanians are generally identified with Central Asian steppe peoples.",
+   "storyIds": [
+    "iraj-murdered"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "primordial-adversary",
+    "king-ruler",
+    "war"
+   ]
+  },
+  {
+   "id": "manuchehr",
+   "name": "Manuchehr",
+   "sanskrit": "Manūčehr",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "Iraj's avenger, who killed both uncles and sent their heads home",
+   "wikipedia": "Manuchehr",
+   "portrait": "portraits/persian/manuchehr.webp",
+   "epithets": [
+    "the avenger of Iraj"
+   ],
+   "domains": [
+    "vengeance",
+    "the restoration of the line",
+    "kingship"
+   ],
+   "symbols": [
+    "the crown",
+    "the two returned heads"
+   ],
+   "mount": null,
+   "abode": "Iran",
+   "festivals": [],
+   "worship": "",
+   "bio": "Raised for one purpose, he did it, and then ruled a hundred and twenty years.",
+   "longBio": "Manuchehr is descended from Iraj through a daughter, raised by Fereydun for the specific purpose of revenge. He kills Tur in battle and then Salm, and sends their heads back to his great-grandfather, which closes the account opened with the box containing Iraj's head. His long reign is the setting for the rise of the house of Sam - Zal is born and raised by the Simurgh during it, and Rostam is born at its end. He is a competent, unremarkable king whose importance is that the epic's real heroes appear on his watch.",
+   "variantTraditions": "The Avestan Manush.chithra is a much smaller figure; the epic gives him the whole vengeance narrative.",
+   "storyIds": [
+    "iraj-murdered"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "war",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "sam",
+   "name": "Sam",
+   "sanskrit": "Sām",
+   "category": "hero",
+   "era": "The Shahnameh",
+   "role": "The champion who exposed his own albino son on a mountain and regretted it for years",
+   "wikipedia": "Sam_(Shahnameh)",
+   "portrait": "portraits/persian/sam.webp",
+   "epithets": [
+    "Sam son of Nariman",
+    "the champion of Iran"
+   ],
+   "domains": [
+    "championship",
+    "shame",
+    "regret"
+   ],
+   "symbols": [
+    "the mace",
+    "the mountain where he left the child"
+   ],
+   "mount": null,
+   "abode": "Zabulistan",
+   "festivals": [],
+   "worship": "",
+   "bio": "His son was born with white hair, he took it for a demon's mark, and he left the baby to die.",
+   "longBio": "Sam is the greatest warrior of his generation and the story attached to him is not about fighting. His son is born perfect in every way except that his hair is white, and Sam - ashamed, afraid the nobles will laugh - has the infant carried to the Alborz and abandoned. Years later he dreams of the child and rides out to find the Simurgh has raised him. He is given his son back and spends the rest of his life making it up to him. Ferdowsi does not excuse him; he lets Zal say exactly what was done to him, and Sam has no answer.",
+   "variantTraditions": "The exposure motif is common in Indo-European epic; what is unusual here is that the father survives, admits it, and has to live with the son.",
+   "storyIds": [
+    "zal-simurgh"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war"
+   ]
+  },
+  {
+   "id": "zal",
+   "name": "Zal",
+   "sanskrit": "Zāl",
+   "category": "hero",
+   "era": "The Shahnameh",
+   "role": "Raised by a giant bird, married against everyone's advice, father of Rostam",
+   "wikipedia": "Zal",
+   "portrait": "portraits/persian/zal.webp",
+   "epithets": [
+    "Zal-e Zar, the golden",
+    "Dastan",
+    "the white-haired"
+   ],
+   "domains": [
+    "wisdom",
+    "the Simurgh's protection",
+    "riddles",
+    "counsel"
+   ],
+   "symbols": [
+    "white hair from birth",
+    "the three feathers of the Simurgh"
+   ],
+   "mount": null,
+   "abode": "Zabulistan",
+   "festivals": [],
+   "worship": "",
+   "bio": "Albino, abandoned, bird-raised, and the wisest man in the epic.",
+   "longBio": "Zal comes down from the mountain as a young man raised by the Simurgh, with three of her feathers and instructions to burn one if he ever needs her. He wins a court contest of riddles put by the mobeds, which establishes him as clever rather than merely large. Then he falls in love with Rudabeh, daughter of Mehrab, who is descended from Zahhak - a match everyone opposes and the astrologers eventually approve because the child will be extraordinary. It is: Rostam. Zal outlives his son and most of his line, and the epic keeps returning to him as its longest-serving voice of sense.",
+   "variantTraditions": "The name Zal means old man, given for his white hair. Dastan, his other name, means trick or story.",
+   "storyIds": [
+    "zal-simurgh",
+    "rostam-esfandiyar"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sage-seer",
+    "hero-champion",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "rudabeh",
+   "name": "Rudabeh",
+   "sanskrit": "Rūdāba",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "She let down her hair for Zal to climb, and he refused to use it",
+   "wikipedia": "Rudaba",
+   "portrait": "portraits/persian/rudabeh.webp",
+   "epithets": [
+    "daughter of Mehrab",
+    "the moon of Kabul"
+   ],
+   "domains": [
+    "love",
+    "courage",
+    "the birth of Rostam"
+   ],
+   "symbols": [
+    "the tower",
+    "her long hair let down",
+    "the lasso Zal used instead"
+   ],
+   "mount": null,
+   "abode": "Kabul",
+   "festivals": [],
+   "worship": "",
+   "bio": "The tower, the hair, the lover below - and then he throws up a rope rather than hurt her.",
+   "longBio": "Rudabeh's courtship with Zal is the finest love story in the epic and the detail everyone remembers is her hair: she lets it down from the tower for him to climb, and he refuses to pull on it, throwing his lasso over a battlement instead. Both families object - she is descended from Zahhak - and the couple simply persist until the astrologers are consulted and produce a favourable answer. Her labour with Rostam nearly kills her: the child is too large, and Zal burns a Simurgh feather. The bird arrives and dictates the procedure - wine as anaesthetic, an incision in the side, the child lifted out, and a herb on the wound.",
+   "variantTraditions": "The caesarean passage is often cited as an early literary description of the operation, with the child named for the delivery: rost, delivered, and tan, body.",
+   "storyIds": [
+    "zal-simurgh"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "love-desire",
+    "earth-mother",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "rostam",
+   "name": "Rostam",
+   "sanskrit": "Rostam",
+   "category": "hero",
+   "era": "The Shahnameh",
+   "role": "The greatest hero in Persian literature, who killed his own son and could not undo it",
+   "wikipedia": "Rostam",
+   "portrait": "portraits/persian/rostam.webp",
+   "epithets": [
+    "Tahamtan, the strong-bodied",
+    "the champion of champions"
+   ],
+   "domains": [
+    "strength",
+    "the seven trials",
+    "loyal service to bad kings"
+   ],
+   "symbols": [
+    "the tiger-skin coat",
+    "the ox-headed mace",
+    "the horse Rakhsh"
+   ],
+   "mount": null,
+   "abode": "Zabulistan and Sistan",
+   "festivals": [],
+   "worship": "",
+   "bio": "Six hundred years of service to a succession of kings who mostly did not deserve him.",
+   "longBio": "Rostam is the centre of the epic. Delivered by caesarean, he kills a mad elephant as a child, and thereafter carries Iran on his back for six centuries - fighting the White Demon in the Seven Trials to free Kay Kavus, whom he rescues repeatedly from consequences of his own stupidity. The two things that define him are losses. He kills Sohrab at the ford without knowing him, and learns who he was as the boy is dying. And he is forced to fight Esfandiyar, kills him with the Simurgh's trick, and is cursed for it. He dies in a pit of spears dug by his own half-brother.",
+   "variantTraditions": "Rostam belongs to the Sistan cycle and is largely absent from Zoroastrian scripture; he may come from Saka rather than Persian tradition.",
+   "storyIds": [
+    "zal-simurgh",
+    "seven-trials",
+    "rostam-sohrab",
+    "bizhan-pit",
+    "rostam-esfandiyar"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "rakhsh",
+   "name": "Rakhsh",
+   "sanskrit": "Raxš",
+   "category": "beast",
+   "era": "The Shahnameh",
+   "role": "The horse who killed a lion while his master slept and did not wake him",
+   "wikipedia": "Rakhsh",
+   "portrait": "portraits/persian/rakhsh.webp",
+   "epithets": [
+    "the rose-coloured",
+    "the horse of Rostam"
+   ],
+   "domains": [
+    "strength",
+    "loyalty",
+    "the first of the seven trials"
+   ],
+   "symbols": [
+    "the roan coat with rose spots",
+    "the hooves"
+   ],
+   "mount": null,
+   "abode": "With Rostam",
+   "festivals": [],
+   "worship": "",
+   "bio": "The only horse in Iran that did not buckle when Rostam pressed down on its spine.",
+   "longBio": "Rostam tests every horse in Iran by pressing his hand on its back until its belly touches the ground, and Rakhsh is the only one that does not flinch. He is the equal of his rider and behaves like it. In the first of the Seven Trials, a lion comes on them at night while Rostam sleeps; Rakhsh kills it alone and only then wakes him, and gets told off for taking the risk. He finds water in the desert by scenting it. At the end he dies in the same pit of spears as his master, which is the correct ending for him.",
+   "variantTraditions": "The hero's horse as a near-equal companion is an Iranian speciality and passes into later Persian and Turkic epic.",
+   "storyIds": [
+    "seven-trials"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "hero-champion",
+    "preserver"
+   ]
+  },
+  {
+   "id": "sohrab",
+   "name": "Sohrab",
+   "sanskrit": "Sohrāb",
+   "category": "hero",
+   "era": "The Shahnameh",
+   "role": "Killed by the father he was looking for, who did not ask his name until too late",
+   "wikipedia": "Rostam_and_Sohrab",
+   "portrait": "portraits/persian/sohrab.webp",
+   "epithets": [
+    "son of Rostam and Tahmineh",
+    "the young champion"
+   ],
+   "domains": [
+    "the search for a father",
+    "single combat",
+    "tragedy"
+   ],
+   "symbols": [
+    "the onyx armlet his father left",
+    "the ford"
+   ],
+   "mount": null,
+   "abode": "Turan, then the battlefield",
+   "festivals": [],
+   "worship": "",
+   "bio": "He went to war specifically to find his father, and found him.",
+   "longBio": "Tahmineh bears Rostam's son after a single night and sends word that the child is a girl, to keep him. Sohrab grows enormous, learns who his father is, and raises an army with the intention of putting Rostam on the throne of Iran. At the Iranian camp the two are matched in single combat, neither knowing the other. Sohrab asks twice whether his opponent is Rostam and is lied to. He wins the first day and spares him. On the second Rostam throws him and stabs him, and only then sees the onyx armlet on his arm. Rostam sends for the king's healing elixir and Kay Kavus refuses it.",
+   "variantTraditions": "Matthew Arnold's Sohrab and Rustum (1853) made the story famous in English; the parallel with the Irish Cu Chulainn and Connla is often noted.",
+   "storyIds": [
+    "rostam-sohrab"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "fate-time",
+    "war"
+   ]
+  },
+  {
+   "id": "tahmineh",
+   "name": "Tahmineh",
+   "sanskrit": "Tahmīna",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "She came to Rostam's room at night, proposed, and lied about the child to keep him",
+   "wikipedia": "Tahmineh",
+   "portrait": "portraits/persian/tahmineh.webp",
+   "epithets": [
+    "princess of Samangan",
+    "mother of Sohrab"
+   ],
+   "domains": [
+    "desire",
+    "motherhood",
+    "the concealment"
+   ],
+   "symbols": [
+    "the candle in the doorway",
+    "the onyx armlet"
+   ],
+   "mount": null,
+   "abode": "Samangan",
+   "festivals": [],
+   "worship": "",
+   "bio": "She wanted a child by the greatest man alive and said so directly.",
+   "longBio": "Rostam's horse is stolen in Samangan and he is lodged in the palace. That night Tahmineh comes to his room with a candle, tells him she has heard of him all her life, that she wants him and wants a child by him, and that she will find his horse. He marries her at once. He leaves an onyx armlet for the child - to wear on the arm if a boy, in the hair if a girl. When Sohrab is born she sends Rostam word that it was a girl, because a son would be taken from her for war. That single lie kills the boy sixteen years later.",
+   "variantTraditions": "Ferdowsi gives Tahmineh the initiative in the encounter without embarrassment, which is characteristic of his women.",
+   "storyIds": [
+    "rostam-sohrab"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "love-desire",
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "kay_kavus",
+   "name": "Kay Kavus",
+   "sanskrit": "Kay Kāvūs",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "The king who tried to fly to heaven on a throne pulled by eagles",
+   "wikipedia": "Kay_Kavus",
+   "portrait": "portraits/persian/kay_kavus.webp",
+   "epithets": [
+    "the second Kayanian king"
+   ],
+   "domains": [
+    "bad judgement",
+    "ambition",
+    "the repeated rescue"
+   ],
+   "symbols": [
+    "the throne lifted by four eagles",
+    "the meat on poles"
+   ],
+   "mount": null,
+   "abode": "Mount Alborz, and the throne of Iran",
+   "festivals": [],
+   "worship": "",
+   "bio": "Vain, gullible, and permanently in a hole Rostam has to pull him out of.",
+   "longBio": "Kay Kavus is a disaster with a crown. He invades Mazandaran on a demon's advice and is blinded and imprisoned there, and Rostam performs the Seven Trials to get him out. He tries to reach heaven by tying four starved eagles to a throne with meat on poles above them; they fly until they tire and he crashes in a forest. He believes his wife Sudabeh's accusation against his own son Siyavash and puts him to an ordeal by fire. He refuses Rostam the elixir that would save the dying Sohrab. He reigns a hundred and fifty years and Ferdowsi does not soften him.",
+   "variantTraditions": "The flying-throne episode is one of the best-known scenes in Persian manuscript painting.",
+   "storyIds": [
+    "seven-trials",
+    "rostam-sohrab",
+    "siyavash-fire"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "siyavash",
+   "name": "Siyavash",
+   "sanskrit": "Siyāvaš",
+   "category": "hero",
+   "era": "The Shahnameh",
+   "role": "He rode through fire to prove his innocence and was murdered anyway, in exile",
+   "wikipedia": "Siyavash",
+   "portrait": "portraits/persian/siyavash.webp",
+   "epithets": [
+    "son of Kay Kavus",
+    "the innocent"
+   ],
+   "domains": [
+    "innocence",
+    "the ordeal by fire",
+    "exile",
+    "the broken oath"
+   ],
+   "symbols": [
+    "the black horse",
+    "the wall of fire he rode through",
+    "the plant that grew from his blood"
+   ],
+   "mount": null,
+   "abode": "Iran, then Turan",
+   "festivals": [],
+   "worship": "",
+   "bio": "The purest figure in the epic, destroyed by everyone around him behaving badly.",
+   "longBio": "Siyavash is Kay Kavus's son, raised by Rostam. His stepmother Sudabeh propositions him, is refused, and accuses him of assaulting her. To settle it he rides through a mountain of burning wood and comes out the other side untouched - and his father, having seen it, still cannot be trusted. He makes a treaty with Turan, which Kay Kavus orders him to break; rather than break his word he goes into exile in Turan instead, marries Afrasiyab's daughter, and is beheaded there on a slander. From his blood a plant grows. His death is the grievance that drives the rest of the war.",
+   "variantTraditions": "Mourning rituals for Siyavash are attested in Central Asia from the pre-Islamic period and are among the oldest datable elements of the epic.",
+   "storyIds": [
+    "siyavash-fire",
+    "kay-khosrow-leaves"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "fate-time",
+    "preserver"
+   ]
+  },
+  {
+   "id": "sudabeh",
+   "name": "Sudabeh",
+   "sanskrit": "Sūdāba",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "She wanted her stepson, was refused, and accused him of the crime she had attempted",
+   "wikipedia": "Sudabeh",
+   "portrait": "portraits/persian/sudabeh.webp",
+   "epithets": [
+    "queen of Iran",
+    "daughter of the king of Hamavaran"
+   ],
+   "domains": [
+    "desire",
+    "false accusation",
+    "the ruin of Siyavash"
+   ],
+   "symbols": [
+    "the chamber",
+    "the false miscarriage"
+   ],
+   "mount": null,
+   "abode": "The palace of Kay Kavus",
+   "festivals": [],
+   "worship": "",
+   "bio": "The oldest false-accusation plot in literature, and Ferdowsi's version is the cruellest.",
+   "longBio": "Sudabeh has Siyavash brought to the women's quarters, propositions him, and is refused twice. She then tears her own clothes and accuses him of attacking her, and produces a stillborn child claimed as the miscarriage he caused - a substitution that is exposed and which she survives anyway, because Kay Kavus cannot bear to lose her. Siyavash's fire ordeal clears him and she remains at court, and he leaves for Turan and his death. Rostam kills her afterwards with his own hand. The story type is Potiphar's wife, Phaedra and Hippolytus, and Ferdowsi's telling is the least forgiving of the three.",
+   "variantTraditions": "Ferdowsi's women are more often admirable than not, and Sudabeh stands out precisely because she is an exception.",
+   "storyIds": [
+    "siyavash-fire"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "love-desire",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "kay_khosrow",
+   "name": "Kay Khosrow",
+   "sanskrit": "Kay Khosrow",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "The perfect king, who avenged his father, won everything, and then walked into the snow",
+   "wikipedia": "Kay_Khosrow",
+   "portrait": "portraits/persian/kay_khosrow.webp",
+   "epithets": [
+    "son of Siyavash",
+    "the just king"
+   ],
+   "domains": [
+    "justice",
+    "the vengeance for Siyavash",
+    "voluntary abdication"
+   ],
+   "symbols": [
+    "the cup that shows the whole world",
+    "the mountain snow"
+   ],
+   "mount": null,
+   "abode": "Iran, then out of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "He achieved everything a king could, feared what it might do to him, and left.",
+   "longBio": "Kay Khosrow is Siyavash's son by Afrasiyab's daughter, smuggled out of Turan and raised in secret. He becomes the ideal king the epic has been waiting for: just, restrained, and finally victorious in the long war, killing Afrasiyab himself and avenging his father. Then he does something no other king does. Fearing that success will corrupt him as it corrupted Jamshid, he appoints a successor, takes leave of his nobles, and walks up into the mountains. Several who follow him are lost in a snowstorm. He is not said to die - the epic simply stops following him.",
+   "variantTraditions": "Kay Khosrow is Kavi Haosravah in the Avesta and is one of the figures expected to return at the end of the world in Zoroastrian eschatology.",
+   "storyIds": [
+    "siyavash-fire",
+    "bizhan-pit",
+    "kay-khosrow-leaves"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "afrasiyab",
+   "name": "Afrasiyab",
+   "sanskrit": "Afrāsiyāb",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "King of Turan for centuries, Iran's great enemy, and not a monster",
+   "wikipedia": "Afrasiab",
+   "portrait": "portraits/persian/afrasiyab.webp",
+   "epithets": [
+    "Frangrasyan in the Avesta",
+    "king of Turan"
+   ],
+   "domains": [
+    "the long war",
+    "sorcery",
+    "the murder of Siyavash"
+   ],
+   "symbols": [
+    "the throne of Turan",
+    "the lake he dived into after the glory"
+   ],
+   "mount": null,
+   "abode": "Turan",
+   "festivals": [],
+   "worship": "",
+   "bio": "The villain of the epic, given more depth than most of its heroes.",
+   "longBio": "Afrasiyab descends from Tur and fights Iran for most of the poem. He is genuinely dangerous - a capable general and a sorcerer - and genuinely conflicted: he takes Siyavash in as a son-in-law and treats him well before being talked into killing him, and he regrets it afterwards. He dives three times into Lake Vourukasha trying to seize the royal glory and it eludes him every time, which is the Avesta's judgement on him in one image. Kay Khosrow finally hunts him down, and he is killed after a long pursuit. Ferdowsi allows him a real death scene.",
+   "variantTraditions": "The Avestan Frangrasyan is a straightforward villain; the epic's Afrasiyab is one of Ferdowsi's most developed characters.",
+   "storyIds": [
+    "iraj-murdered",
+    "siyavash-fire",
+    "bizhan-pit",
+    "kay-khosrow-leaves"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "primordial-adversary",
+    "war"
+   ]
+  },
+  {
+   "id": "esfandiyar",
+   "name": "Esfandiyar",
+   "sanskrit": "Esfandiyār",
+   "category": "hero",
+   "era": "The Shahnameh",
+   "role": "Invulnerable everywhere except his eyes, and killed there by a tamarisk arrow",
+   "wikipedia": "Esfandiyar",
+   "portrait": "portraits/persian/esfandiyar.webp",
+   "epithets": [
+    "the brazen-bodied",
+    "son of Goshtasp"
+   ],
+   "domains": [
+    "invulnerability",
+    "the seven trials",
+    "obedience to a father who wants him dead"
+   ],
+   "symbols": [
+    "the bronze body",
+    "the closed eyes",
+    "the double-headed tamarisk arrow"
+   ],
+   "mount": null,
+   "abode": "Iran",
+   "festivals": [],
+   "worship": "",
+   "bio": "His father kept promising him the throne and kept inventing one more task first.",
+   "longBio": "Esfandiyar is made invulnerable by Zarathustra, with his eyes the single exception because they were closed when the blessing was given. He performs his own Seven Trials, spreads the faith by the sword, and is repeatedly promised the crown by his father Goshtasp, who has no intention of giving it up and keeps setting him further tasks. The last is to bring Rostam back in chains. Both men know it is wrong and neither can refuse; they fight, and Rostam, losing, burns a Simurgh feather. The bird tells him where to find a tamarisk and how to make the arrow. He shoots Esfandiyar through both eyes.",
+   "variantTraditions": "Rostam is cursed for the killing and dies not long after, so the episode ends the heroic age of the epic on both sides at once.",
+   "storyIds": [
+    "rostam-esfandiyar"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "goshtasp",
+   "name": "Goshtasp",
+   "sanskrit": "Goštāsp",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "The king who accepted the new religion and would not give his son the throne",
+   "wikipedia": "Vishtaspa",
+   "portrait": "portraits/persian/goshtasp.webp",
+   "epithets": [
+    "Vishtaspa in the Avesta",
+    "the patron of Zarathustra"
+   ],
+   "domains": [
+    "the state religion",
+    "the withheld crown",
+    "the death of his own son"
+   ],
+   "symbols": [
+    "the crown he would not surrender",
+    "the cypress of Kashmar"
+   ],
+   "mount": null,
+   "abode": "Balkh",
+   "festivals": [],
+   "worship": "",
+   "bio": "Zoroastrianism's royal patron in scripture, and in the epic a father who sends his son to die.",
+   "longBio": "Goshtasp is the Shahnameh's version of Vishtaspa, and Ferdowsi does something uncomfortable with him. In scripture he is the king who accepts the true religion and makes it the faith of the realm, which the epic keeps. But it adds his treatment of Esfandiyar - promise after promise of the throne, each followed by another impossible errand, until he sends him against Rostam knowing what will happen. The poem's judgement is unmistakable: he gets his son killed rather than abdicate. It is one of the sharpest things in the epic, aimed at a figure the official religion revered.",
+   "variantTraditions": "Ferdowsi wrote for a Muslim court about Zoroastrian kings, and his freedom to criticise a scriptural figure is worth noticing.",
+   "storyIds": [
+    "rostam-esfandiyar"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "div_e_sepid",
+   "name": "The White Demon",
+   "sanskrit": "Dīv-e Sepīd",
+   "category": "beast",
+   "era": "The Shahnameh",
+   "role": "The demon of Mazandaran, whose liver cured an army's blindness",
+   "wikipedia": "Div-e_Sepid",
+   "portrait": "portraits/persian/div_e_sepid.webp",
+   "epithets": [
+    "the White Div",
+    "the chief of the demons of Mazandaran"
+   ],
+   "domains": [
+    "demons",
+    "blindness",
+    "the seventh trial"
+   ],
+   "symbols": [
+    "the white hair and black body",
+    "the cave",
+    "the liver"
+   ],
+   "mount": null,
+   "abode": "A cave in Mazandaran",
+   "festivals": [],
+   "worship": "",
+   "bio": "He blinded a whole Iranian army, and the cure was his own liver.",
+   "longBio": "The White Demon is the strongest of the divs of Mazandaran. He defeats Kay Kavus's invasion and strikes the king and his army blind, and it is to undo this that Rostam performs the Seven Trials. The last of them is the demon itself: Rostam finds it asleep in a cave, wakes it - refusing to strike a sleeping enemy - and they wrestle. Rostam tears off a leg, then kills it and takes the liver, and blood from it restores the sight of the king and his men. Persian miniature painters returned to the cave fight more than to almost any other scene.",
+   "variantTraditions": "Divs in the epic are a mixed category - sometimes demons, sometimes read as hostile hill peoples described in demonic terms.",
+   "storyIds": [
+    "seven-trials"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "akvan",
+   "name": "Akvan Div",
+   "sanskrit": "Akvān Dīv",
+   "category": "beast",
+   "era": "The Shahnameh",
+   "role": "The demon who picked up a sleeping Rostam, ground and all, and asked him a trick question",
+   "wikipedia": "Akvan_Div",
+   "portrait": "portraits/persian/akvan.webp",
+   "epithets": [
+    "the wind demon",
+    "Akvan the div"
+   ],
+   "domains": [
+    "trickery",
+    "the whirlwind",
+    "the demon who bargains"
+   ],
+   "symbols": [
+    "the piece of earth lifted whole",
+    "the sea"
+   ],
+   "mount": null,
+   "abode": "The plain, and the air above it",
+   "festivals": [],
+   "worship": "",
+   "bio": "Throw me in the sea or on the mountain? Rostam knew the answer was to say the opposite.",
+   "longBio": "Akvan appears as a whirlwind and carries off horses. When Rostam sleeps, the demon cuts out the whole patch of ground he is lying on and lifts it into the air, then offers him a choice: to be thrown into the sea or onto the mountains. Rostam knows a demon does the reverse of what it is asked, so he says the mountains, and is thrown into the sea, where he can swim. He gets out and kills it. It is a small, sharp episode and one of the few times the epic's strongest man wins by thinking rather than by force.",
+   "variantTraditions": "The Akvan episode is a self-contained tale sometimes treated as a later insertion into the Rostam cycle.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "messenger-trickster",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "bizhan",
+   "name": "Bizhan and Manizheh",
+   "sanskrit": "Bīžan o Manīža",
+   "category": "hero",
+   "era": "The Shahnameh",
+   "role": "He was thrown down a pit for loving the enemy king's daughter, and she begged in the streets to feed him",
+   "wikipedia": "Bizhan_and_Manizheh",
+   "portrait": "portraits/persian/bizhan.webp",
+   "epithets": [
+    "Bizhan son of Giv",
+    "Manizheh daughter of Afrasiyab"
+   ],
+   "domains": [
+    "love across the war",
+    "imprisonment",
+    "rescue"
+   ],
+   "symbols": [
+    "the covered pit sealed with a boulder",
+    "the ring dropped in the water"
+   ],
+   "mount": null,
+   "abode": "Turan, in a pit",
+   "festivals": [],
+   "worship": "",
+   "bio": "The best-loved romance in the epic, and the woman does almost all of the work.",
+   "longBio": "Bizhan, an Iranian hero, meets Manizheh, Afrasiyab's daughter, at a festival across the border, and she drugs him and carries him into her father's palace. Discovered, he is thrown into a covered pit under a great stone and she is stripped of everything and driven out. She survives by begging and passes food down to him for months. Kay Khosrow finds him in the world-revealing cup, and Rostam comes disguised as a merchant; Manizheh recognises the ring he drops into her water jug. Rostam lifts the stone. She comes back to Iran with them and is received honourably.",
+   "variantTraditions": "The Bizhan and Manizheh episode is told by Ferdowsi as a story his wife recites to him by candlelight, one of the few personal frames in the poem.",
+   "storyIds": [
+    "bizhan-pit"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "love-desire",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "gordafarid",
+   "name": "Gordafarid",
+   "sanskrit": "Gordāfarīd",
+   "category": "hero",
+   "era": "The Shahnameh",
+   "role": "She fought Sohrab in armour, and when her helmet came off she talked her way out",
+   "wikipedia": "Gordafarid",
+   "portrait": "portraits/persian/gordafarid.webp",
+   "epithets": [
+    "the warrior woman",
+    "the defender of the White Castle"
+   ],
+   "domains": [
+    "single combat",
+    "courage",
+    "quick thinking"
+   ],
+   "symbols": [
+    "the armour",
+    "the hair falling loose",
+    "the castle gate"
+   ],
+   "mount": null,
+   "abode": "The White Castle",
+   "festivals": [],
+   "worship": "",
+   "bio": "The only person to fight Sohrab to a standstill and then beat him again with words.",
+   "longBio": "When Sohrab's army reaches the White Castle and the Iranian champion is killed, Gordafarid puts on armour, hides her hair under a helmet and rides out. She fights Sohrab with arrows, then with a lance, and holds him; he catches her at last and pulls off her helmet, and her hair falls out. Astonished, he presses his suit. She talks - suggesting terms, flattering him, promising the castle - and rides back through the gate, which shuts behind her. From the wall she tells him exactly what she thinks of him. The castle is evacuated overnight through a tunnel.",
+   "variantTraditions": "Ferdowsi's epic contains several warrior women; Gordafarid is the most famous and remains a common Iranian given name.",
+   "storyIds": [
+    "rostam-sohrab"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war"
+   ]
+  },
+  {
+   "id": "bahram_gur",
+   "name": "Bahram Gur",
+   "sanskrit": "Bahrām Gūr",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "A Sasanian king remembered for hunting onagers, music, and a very bad day with a harpist",
+   "wikipedia": "Bahram_V",
+   "portrait": "portraits/persian/bahram_gur.webp",
+   "epithets": [
+    "Bahram V",
+    "the onager hunter"
+   ],
+   "domains": [
+    "hunting",
+    "music",
+    "justice in disguise",
+    "the historical kings"
+   ],
+   "symbols": [
+    "the onager",
+    "the bow",
+    "the harp"
+   ],
+   "mount": null,
+   "abode": "Ctesiphon",
+   "festivals": [],
+   "worship": "",
+   "bio": "He proved a throne claim by taking the crown from between two lions, and he is real.",
+   "longBio": "Bahram Gur is a historical Sasanian king, Bahram V, and with him the Shahnameh moves from myth into recorded history without changing gear. He claims the throne by placing the crown between two lions and inviting his rival to fetch it; he takes it himself. His epithet comes from his passion for hunting the wild ass. The famous scene has him showing off to a favourite slave girl by pinning a gazelle's hoof to its ear with an arrow, and her unimpressed reply that it is practice, not skill - after which he tries to have her killed. He also imports thousands of Indian musicians.",
+   "variantTraditions": "The later section of the Shahnameh covers the Sasanians with reasonable historical fidelity, drawing on lost Middle Persian chronicles.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "khosrow_parviz",
+   "name": "Khosrow and Shirin",
+   "sanskrit": "Khosrow o Šīrīn",
+   "category": "mortal",
+   "era": "The Shahnameh",
+   "role": "A king, an Armenian princess, and the stonemason who loved her and lost",
+   "wikipedia": "Khosrow_and_Shirin",
+   "portrait": "portraits/persian/khosrow_parviz.webp",
+   "epithets": [
+    "Khosrow II Parviz",
+    "Shirin the Armenian"
+   ],
+   "domains": [
+    "love",
+    "the last great Sasanian reign",
+    "the fall of the empire"
+   ],
+   "symbols": [
+    "the portrait that started it",
+    "the milk channel cut through rock"
+   ],
+   "mount": null,
+   "abode": "Ctesiphon, and the rock of Bisotun",
+   "festivals": [],
+   "worship": "",
+   "bio": "The great Persian love story, and the mason cutting a mountain is the part everyone remembers.",
+   "longBio": "Khosrow II falls in love with Shirin from a description before ever seeing her, and the courtship runs for years through wars, misunderstandings and separations. The part that took hold is not theirs: Farhad, a stonemason, also loves Shirin, and Khosrow sets him to cut a channel through Mount Bisotun for milk to flow, expecting it to be impossible. Farhad nearly finishes it. Khosrow sends a false message that Shirin has died, and Farhad throws himself from the rock. Khosrow's reign ends with the empire exhausted, and the Arab conquest follows within a generation.",
+   "variantTraditions": "Nezami's twelfth-century romance made the story famous; Ferdowsi's version is shorter and Farhad is a minor figure in it.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "love-desire",
+    "king-ruler"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "ahura_mazda",
+   "to": "angra_mainyu",
+   "type": "enemy",
+   "note": "Two spirits at the beginning, and only one made anything"
+  },
+  {
+   "from": "zurvan",
+   "to": "ahura_mazda",
+   "type": "parent",
+   "note": "In the Zurvanite heresy, born of a thousand years of sacrifice"
+  },
+  {
+   "from": "zurvan",
+   "to": "angra_mainyu",
+   "type": "parent",
+   "note": "And of one moment of doubt"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "spenta_mainyu",
+   "type": "form",
+   "note": "His own bounteous spirit, or his twin - the oldest argument"
+  },
+  {
+   "from": "spenta_mainyu",
+   "to": "angra_mainyu",
+   "type": "enemy",
+   "note": "The two who chose, at the start of everything"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "vohu_manah",
+   "type": "parent",
+   "note": "Good Purpose, first of the six"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "asha_vahishta",
+   "type": "parent",
+   "note": "Best Truth, who holds fire"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "khshathra_vairya",
+   "type": "parent",
+   "note": "Desirable Dominion, who holds metal"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "spenta_armaiti",
+   "type": "parent",
+   "note": "Holy Devotion, who is the earth"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "haurvatat",
+   "type": "parent",
+   "note": "Wholeness, who holds the waters"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "ameretat",
+   "type": "parent",
+   "note": "Immortality, who holds the plants"
+  },
+  {
+   "from": "haurvatat",
+   "to": "ameretat",
+   "type": "sibling",
+   "note": "Never named apart - wholeness and deathlessness together"
+  },
+  {
+   "from": "asha_vahishta",
+   "to": "druj",
+   "type": "enemy",
+   "note": "Truth against the Lie, which is the whole system"
+  },
+  {
+   "from": "asha_vahishta",
+   "to": "atar",
+   "type": "ally",
+   "note": "Fire is his creation and the visible sign of him"
+  },
+  {
+   "from": "vohu_manah",
+   "to": "zarathustra",
+   "type": "guru",
+   "note": "He came nine times a man's height and took him to Ahura Mazda"
+  },
+  {
+   "from": "vohu_manah",
+   "to": "gavaevodata",
+   "type": "ally",
+   "note": "Cattle are his creation"
+  },
+  {
+   "from": "khshathra_vairya",
+   "to": "saoshyant",
+   "type": "ally",
+   "note": "The molten metal at the end is his"
+  },
+  {
+   "from": "spenta_armaiti",
+   "to": "mashya",
+   "type": "parent",
+   "note": "The earth from which the first couple grew"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "mithra",
+   "type": "parent",
+   "note": "The contract, kept on staff from the older religion"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "anahita",
+   "type": "parent",
+   "note": "The waters, from the mountain of the world"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "sraosha",
+   "type": "parent",
+   "note": "Obedience, who does not sleep"
+  },
+  {
+   "from": "ahura_mazda",
+   "to": "atar",
+   "type": "parent",
+   "note": "Fire, called his son outright"
+  },
+  {
+   "from": "mithra",
+   "to": "sraosha",
+   "type": "ally",
+   "note": "Two of the three judges at the bridge"
+  },
+  {
+   "from": "mithra",
+   "to": "rashnu",
+   "type": "ally",
+   "note": "The third judge, with the scales"
+  },
+  {
+   "from": "sraosha",
+   "to": "rashnu",
+   "type": "ally",
+   "note": "The tribunal at the Chinvat Bridge"
+  },
+  {
+   "from": "sraosha",
+   "to": "ashi",
+   "type": "sibling",
+   "note": "Obedience and Reward"
+  },
+  {
+   "from": "sraosha",
+   "to": "aeshma",
+   "type": "enemy",
+   "note": "Obedience against Wrath, permanently"
+  },
+  {
+   "from": "mithra",
+   "to": "hvare_khshaeta",
+   "type": "ally",
+   "note": "The contract rides ahead of the sun"
+  },
+  {
+   "from": "tishtrya",
+   "to": "apaosha",
+   "type": "enemy",
+   "note": "The white horse against the black, for the rain"
+  },
+  {
+   "from": "tishtrya",
+   "to": "anahita",
+   "type": "ally",
+   "note": "The rain-star and the world river"
+  },
+  {
+   "from": "verethragna",
+   "to": "mithra",
+   "type": "ally",
+   "note": "Victory rides with the contract against oath-breakers"
+  },
+  {
+   "from": "haoma",
+   "to": "zarathustra",
+   "type": "devotee",
+   "note": "He came at dawn and asked to be pressed"
+  },
+  {
+   "from": "haoma",
+   "to": "ameretat",
+   "type": "ally",
+   "note": "The drink and the immortality it promises"
+  },
+  {
+   "from": "mah",
+   "to": "gavaevodata",
+   "type": "ally",
+   "note": "The moon holds the seed of the bull"
+  },
+  {
+   "from": "atar",
+   "to": "azhi_dahaka",
+   "type": "enemy",
+   "note": "They fought over the royal glory, threat for threat"
+  },
+  {
+   "from": "daena",
+   "to": "chinvat",
+   "type": "ally",
+   "note": "She meets the soul at the head of the bridge"
+  },
+  {
+   "from": "rashnu",
+   "to": "chinvat",
+   "type": "ally",
+   "note": "The scales are set at the bridge"
+  },
+  {
+   "from": "vayu",
+   "to": "astvidatu",
+   "type": "ally",
+   "note": "The wind that takes the breath, and the noose"
+  },
+  {
+   "from": "anahita",
+   "to": "afrasiyab",
+   "type": "enemy",
+   "note": "He sacrificed to her for power and was refused"
+  },
+  {
+   "from": "anahita",
+   "to": "azhi_dahaka",
+   "type": "enemy",
+   "note": "He asked her for the same thing and was refused too"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "aeshma",
+   "type": "parent",
+   "note": "Wrath, with the bloody club"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "az",
+   "type": "parent",
+   "note": "Greed, who eats the demons last"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "druj",
+   "type": "parent",
+   "note": "The Lie itself"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "nasu",
+   "type": "parent",
+   "note": "The corpse fly out of the north"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "apaosha",
+   "type": "parent",
+   "note": "Drought, as a hairless black horse"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "astvidatu",
+   "type": "parent",
+   "note": "The bone-divider, from whom nobody escapes"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "azhi_dahaka",
+   "type": "parent",
+   "note": "The three-headed dragon, made to ruin the world"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "jahi",
+   "type": "ally",
+   "note": "She woke him after three thousand years flattened"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "gavaevodata",
+   "type": "enemy",
+   "note": "He killed the sole-created ox in the first assault"
+  },
+  {
+   "from": "angra_mainyu",
+   "to": "gayomard",
+   "type": "enemy",
+   "note": "And the first man, who held out thirty years"
+  },
+  {
+   "from": "druj",
+   "to": "nasu",
+   "type": "parent",
+   "note": "The corpse demon is a druj"
+  },
+  {
+   "from": "nasu",
+   "to": "spenta_armaiti",
+   "type": "enemy",
+   "note": "Why the dead are not given to the earth"
+  },
+  {
+   "from": "gayomard",
+   "to": "mashya",
+   "type": "parent",
+   "note": "From his seed, purified forty years in the sun"
+  },
+  {
+   "from": "gavaevodata",
+   "to": "geush_urvan",
+   "type": "form",
+   "note": "The soul of the murdered ox"
+  },
+  {
+   "from": "geush_urvan",
+   "to": "zarathustra",
+   "type": "devotee",
+   "note": "It asked for a protector and got him, reluctantly"
+  },
+  {
+   "from": "geush_urvan",
+   "to": "ahura_mazda",
+   "type": "devotee",
+   "note": "The complaint that opens the Gathas"
+  },
+  {
+   "from": "zarathustra",
+   "to": "saoshyant",
+   "type": "parent",
+   "note": "His seed, kept in a lake for three thousand years"
+  },
+  {
+   "from": "zarathustra",
+   "to": "vishtaspa",
+   "type": "guru",
+   "note": "He cured the king's horse a leg at a time"
+  },
+  {
+   "from": "zarathustra",
+   "to": "ahura_mazda",
+   "type": "devotee",
+   "note": "The prophet and the god who answered him"
+  },
+  {
+   "from": "saoshyant",
+   "to": "angra_mainyu",
+   "type": "enemy",
+   "note": "The one who ends the war"
+  },
+  {
+   "from": "simurgh",
+   "to": "zal",
+   "type": "foster",
+   "note": "She raised the abandoned child in her nest"
+  },
+  {
+   "from": "fravashi",
+   "to": "ahura_mazda",
+   "type": "ally",
+   "note": "They agreed to be embodied and fight"
+  },
+  {
+   "from": "khvarenah",
+   "to": "jamshid",
+   "type": "form",
+   "note": "It left him in three flights when he lied"
+  },
+  {
+   "from": "khvarenah",
+   "to": "kay_khosrow",
+   "type": "form",
+   "note": "The glory on a king who deserved it"
+  },
+  {
+   "from": "azhi_dahaka",
+   "to": "zahhak",
+   "type": "form",
+   "note": "The dragon of scripture becomes the tyrant of the epic"
+  },
+  {
+   "from": "gayomard",
+   "to": "hushang",
+   "type": "parent",
+   "note": "The first man becomes the first king, and this is his grandson"
+  },
+  {
+   "from": "vishtaspa",
+   "to": "goshtasp",
+   "type": "form",
+   "note": "The same king, treated very differently by the two texts"
+  },
+  {
+   "from": "hushang",
+   "to": "tahmuras",
+   "type": "parent",
+   "note": "Fire, then the binding of the demons"
+  },
+  {
+   "from": "tahmuras",
+   "to": "jamshid",
+   "type": "parent",
+   "note": "The demon-binder and the golden age"
+  },
+  {
+   "from": "jamshid",
+   "to": "zahhak",
+   "type": "enemy",
+   "note": "A hundred years of running, and then sawn in half"
+  },
+  {
+   "from": "zahhak",
+   "to": "kaveh",
+   "type": "enemy",
+   "note": "He took seventeen of the blacksmith's sons"
+  },
+  {
+   "from": "kaveh",
+   "to": "fereydun",
+   "type": "ally",
+   "note": "The apron on a spear, and the man it was raised for"
+  },
+  {
+   "from": "fereydun",
+   "to": "zahhak",
+   "type": "enemy",
+   "note": "Chained him in Damavand rather than killing him"
+  },
+  {
+   "from": "fereydun",
+   "to": "iraj",
+   "type": "parent",
+   "note": "The youngest, given Iran"
+  },
+  {
+   "from": "fereydun",
+   "to": "salm_tur",
+   "type": "parent",
+   "note": "The elder two, given the west and the east"
+  },
+  {
+   "from": "salm_tur",
+   "to": "iraj",
+   "type": "enemy",
+   "note": "They killed him after he offered them everything"
+  },
+  {
+   "from": "iraj",
+   "to": "manuchehr",
+   "type": "parent",
+   "note": "The avenger, raised for the purpose"
+  },
+  {
+   "from": "manuchehr",
+   "to": "salm_tur",
+   "type": "enemy",
+   "note": "Two heads sent back, closing the account"
+  },
+  {
+   "from": "salm_tur",
+   "to": "afrasiyab",
+   "type": "parent",
+   "note": "Turan takes its name and its kings from Tur"
+  },
+  {
+   "from": "sam",
+   "to": "zal",
+   "type": "parent",
+   "note": "He left the child on a mountain and spent his life sorry"
+  },
+  {
+   "from": "sam",
+   "to": "zal",
+   "type": "enemy",
+   "note": "The abandonment the epic never lets him off"
+  },
+  {
+   "from": "zal",
+   "to": "rudabeh",
+   "type": "consort",
+   "note": "The tower, the hair, and the lasso he used instead"
+  },
+  {
+   "from": "zal",
+   "to": "simurgh",
+   "type": "devotee",
+   "note": "Three feathers, and he burned two"
+  },
+  {
+   "from": "zal",
+   "to": "rostam",
+   "type": "parent",
+   "note": "Delivered by the Simurgh's instructions"
+  },
+  {
+   "from": "rudabeh",
+   "to": "rostam",
+   "type": "parent",
+   "note": "The birth that nearly killed her"
+  },
+  {
+   "from": "rostam",
+   "to": "rakhsh",
+   "type": "mount",
+   "note": "The only horse whose back did not buckle"
+  },
+  {
+   "from": "rostam",
+   "to": "tahmineh",
+   "type": "consort",
+   "note": "One night in Samangan, and an onyx armlet left behind"
+  },
+  {
+   "from": "tahmineh",
+   "to": "sohrab",
+   "type": "parent",
+   "note": "She sent word it was a girl, to keep him"
+  },
+  {
+   "from": "rostam",
+   "to": "sohrab",
+   "type": "parent",
+   "note": "He asked his name too late"
+  },
+  {
+   "from": "rostam",
+   "to": "sohrab",
+   "type": "enemy",
+   "note": "Two days at the ford, neither knowing the other"
+  },
+  {
+   "from": "sohrab",
+   "to": "gordafarid",
+   "type": "enemy",
+   "note": "She fought him to a standstill and then talked her way out"
+  },
+  {
+   "from": "rostam",
+   "to": "div_e_sepid",
+   "type": "enemy",
+   "note": "The seventh trial, and the liver that cured the blindness"
+  },
+  {
+   "from": "rostam",
+   "to": "akvan",
+   "type": "enemy",
+   "note": "Thrown into the sea by asking for the mountain"
+  },
+  {
+   "from": "rostam",
+   "to": "kay_kavus",
+   "type": "devotee",
+   "note": "Six hundred years pulling one king out of holes"
+  },
+  {
+   "from": "kay_kavus",
+   "to": "div_e_sepid",
+   "type": "enemy",
+   "note": "Blinded with his whole army in Mazandaran"
+  },
+  {
+   "from": "kay_kavus",
+   "to": "siyavash",
+   "type": "parent",
+   "note": "He watched his son ride through fire and still doubted him"
+  },
+  {
+   "from": "kay_kavus",
+   "to": "sudabeh",
+   "type": "consort",
+   "note": "He could not bear to lose her, whatever she did"
+  },
+  {
+   "from": "sudabeh",
+   "to": "siyavash",
+   "type": "enemy",
+   "note": "Refused twice, she accused him of the crime she attempted"
+  },
+  {
+   "from": "siyavash",
+   "to": "rostam",
+   "type": "guru",
+   "note": "Rostam raised him"
+  },
+  {
+   "from": "siyavash",
+   "to": "afrasiyab",
+   "type": "enemy",
+   "note": "Taken in as a son-in-law and beheaded on a slander"
+  },
+  {
+   "from": "siyavash",
+   "to": "kay_khosrow",
+   "type": "parent",
+   "note": "The son smuggled out of Turan"
+  },
+  {
+   "from": "kay_khosrow",
+   "to": "afrasiyab",
+   "type": "enemy",
+   "note": "The long pursuit that ended the war"
+  },
+  {
+   "from": "kay_khosrow",
+   "to": "rostam",
+   "type": "ally",
+   "note": "The best king the epic has, and the best warrior"
+  },
+  {
+   "from": "afrasiyab",
+   "to": "bizhan",
+   "type": "enemy",
+   "note": "He threw him down a pit under a boulder"
+  },
+  {
+   "from": "afrasiyab",
+   "to": "khvarenah",
+   "type": "enemy",
+   "note": "He dived three times for the glory and never touched it"
+  },
+  {
+   "from": "bizhan",
+   "to": "rostam",
+   "type": "devotee",
+   "note": "Rostam came disguised as a merchant and lifted the stone"
+  },
+  {
+   "from": "goshtasp",
+   "to": "esfandiyar",
+   "type": "parent",
+   "note": "Promise after promise, and one more errand each time"
+  },
+  {
+   "from": "goshtasp",
+   "to": "esfandiyar",
+   "type": "enemy",
+   "note": "He sent his son to die rather than abdicate"
+  },
+  {
+   "from": "esfandiyar",
+   "to": "rostam",
+   "type": "enemy",
+   "note": "Neither wanted it and neither could refuse"
+  },
+  {
+   "from": "simurgh",
+   "to": "rostam",
+   "type": "ally",
+   "note": "She told him where the tamarisk grew"
+  },
+  {
+   "from": "esfandiyar",
+   "to": "zarathustra",
+   "type": "devotee",
+   "note": "Made invulnerable by the prophet, except the eyes"
+  },
+  {
+   "from": "bahram_gur",
+   "to": "khosrow_parviz",
+   "type": "guru",
+   "note": "The epic runs on into recorded history"
+  },
+  {
+   "from": "goshtasp",
+   "to": "kay_khosrow",
+   "type": "guru",
+   "note": "The Kayanian line, king to king"
+  }
+ ]
+}

@@ -71,6 +71,20 @@
    "cover": "portraits/mesopotamian/apsu.webp"
   },
   {
+   "id": "persian",
+   "label": "Persian",
+   "sublabel": "Zoroastrian & the Shahnameh",
+   "accent": "#6ba3c9",
+   "status": "live",
+   "blurb": "Two spirits at war with a deadline, a bridge where your own conscience meets you, and the kings and heroes Ferdowsi made of them.",
+   "glyph": "☼",
+   "figures": 71,
+   "stories": 18,
+   "links": 113,
+   "levels": 8,
+   "cover": "portraits/persian/ahura_mazda.webp"
+  },
+  {
    "id": "chinese",
    "label": "Chinese",
    "sublabel": "Classical & Daoist",
