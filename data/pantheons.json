@@ -117,7 +117,7 @@
    "links": 75,
    "levels": 6,
    "cover": "portraits/aztec/quetzalcoatl.webp",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "☉"
   },
   {
@@ -172,7 +172,7 @@
    "accent": "#7ab8a8",
    "status": "live",
    "blurb": "The Popol Vuh: the Hero Twins, the lords of Xibalba, and the making of people from maize.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "figures": 40,
    "stories": 13,
    "links": 67,
@@ -187,7 +187,7 @@
    "accent": "#c98f6a",
    "status": "live",
    "blurb": "Viracocha, Inti and Pachamama, and the huacas of the Huarochiri Manuscript. A smaller pantheon, honestly sized.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "figures": 27,
    "stories": 9,
    "links": 42,
@@ -207,7 +207,7 @@
    "links": 44,
    "levels": 7,
    "cover": "portraits/hopi/tawa.webp",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "✺"
   },
   {
@@ -217,7 +217,7 @@
    "accent": "#b8895e",
    "status": "review",
    "blurb": "Not published. Hundreds of distinct traditions rather than one pantheon, much of it restricted. Needs narrow scoping and the gated treatment.",
-   "family": "Indigenous Traditions"
+   "family": "Oceania"
   },
   {
    "id": "arabian",
@@ -300,7 +300,7 @@
    "accent": "#8fb8cc",
    "status": "live",
    "blurb": "Sedna at the bottom of the sea, and the fingers that became every animal worth hunting.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "❄",
    "figures": 20,
    "stories": 10,
@@ -315,7 +315,7 @@
    "accent": "#9bb87a",
    "status": "live",
    "blurb": "The water beetle who brought up the mud, and the largest body of Native American narrative ever published.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "✻",
    "figures": 27,
    "stories": 12,
@@ -330,7 +330,7 @@
    "accent": "#7ba88f",
    "status": "planned",
    "blurb": "Sky Woman falling through a hole in the sky, and the twins who made the world between them.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "❖"
   },
   {
@@ -340,7 +340,7 @@
    "accent": "#6f8fa8",
    "status": "planned",
    "blurb": "Raven steals the light, the sun and the fresh water - and is neither hero nor villain about it.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "◉"
   },
   {
@@ -350,7 +350,7 @@
    "accent": "#c08f6a",
    "status": "planned",
    "blurb": "The Emergence, Changing Woman and the Hero Twins, from the published record only.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "✣"
   },
   {
@@ -360,7 +360,7 @@
    "accent": "#a8896a",
    "status": "planned",
    "blurb": "White Buffalo Calf Woman, Iktomi the spider, and the ledger art the Lakota drew themselves.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "⊕"
   },
   {
@@ -370,7 +370,7 @@
    "accent": "#8a9e7a",
    "status": "planned",
    "blurb": "Nanabozho, the shapeshifting trickster who is also the one who made the world habitable.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "◈"
   },
   {
@@ -380,7 +380,7 @@
    "accent": "#b58a72",
    "status": "planned",
    "blurb": "White Painted Woman and Child of the Water, from the published record only.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "✧"
   },
   {
@@ -390,7 +390,7 @@
    "accent": "#8fb87a",
    "status": "planned",
    "blurb": "Namandu, the Land Without Evil, and the seven monstrous children of Kerana.",
-   "family": "Indigenous Traditions",
+   "family": "The Americas",
    "glyph": "❀"
   },
   {
@@ -400,7 +400,7 @@
    "accent": "#6fa8a0",
    "status": "planned",
    "blurb": "Maui who fished up islands and tried to kill death, kept by island group rather than blended.",
-   "family": "Indigenous Traditions",
+   "family": "Oceania",
    "glyph": "≋"
   },
   {

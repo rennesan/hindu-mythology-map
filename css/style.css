@@ -1248,10 +1248,14 @@ th[aria-sort="descending"] .sort-btn::after { content: "\2193"; }
 .fig-chips.left { justify-content: flex-start; }
 
 /* ---------------- landing ---------------- */
+/* The grid lives on .region-cards, one grid per continent. This wrapper only
+   stacks the continent containers - it used to be a grid itself, which laid the
+   continents out as narrow side-by-side columns above ~1000px and stranded the
+   last one thousands of pixels down the page. */
 .pantheon-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }
 .pantheon-card {
   background: var(--bg-raised);
@@ -1261,8 +1265,13 @@ th[aria-sort="descending"] .sort-btn::after { content: "\2193"; }
   text-align: center;
   text-decoration: none;
   box-shadow: var(--shadow-soft);
-  display: block;
+  /* column flex, not block: the blurb takes the slack so the stats line sits on
+     the same baseline across a row however long the blurbs are */
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
+.pantheon-card > .pantheon-blurb { flex: 1 1 auto; }
 .pantheon-card:hover { border-color: var(--gold-line); }
 .pantheon-card img {
   width: 96px; height: 96px; border-radius: 50%;
@@ -1792,8 +1801,16 @@ body.on-hub .topbar {
 @media (max-width: 700px) { .fig-lead { font-size: 16px; } }
 
 
-/* ---------------- hub: traditions grouped by region --------------------- */
-.region { margin-bottom: 30px; }
+/* ---------------- hub: traditions grouped by continent ------------------ */
+/* Each continent is a container that owns its own tiles, so a shelf can never
+   borrow height or columns from the shelf above it. */
+.region {
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  background: var(--bg-raised-2);
+  padding: 18px 20px 20px;
+  min-width: 0;
+}
 .region-name {
   font-family: var(--serif);
   font-size: 15px;
@@ -1817,17 +1834,22 @@ body.on-hub .topbar {
   opacity: 0.75;
   white-space: nowrap;
 }
+/* min() on the track floor is what makes this resolution-proof: the column can
+   never demand more width than the container has, so narrow viewports collapse
+   to one column on their own instead of overflowing. No column-count media
+   queries - they were guessing at widths the container no longer has. */
 .region-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr));
   gap: 14px;
+  align-items: stretch;
 }
 @media (max-width: 700px) {
-  .region-cards { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .region { padding: 15px 14px 16px; border-radius: 16px; }
+  .region-cards { gap: 10px; }
   .region-name { font-size: 13px; }
-}
-@media (max-width: 430px) {
-  .region-cards { grid-template-columns: 1fr; }
+  .pantheon-card { padding: 20px 16px 18px; }
+  .pantheon-name { font-size: 22px; }
 }
 
 .region-note {

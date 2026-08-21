@@ -395,13 +395,25 @@ function buildLanding() {
     cta.textContent = "Explore " + first.label + " mythology";
   }
 
-  /* Browse by tradition, grouped by region. One flat run of cards worked at
-     eight traditions and stops working at twenty-five. Grouping puts the
-     Indigenous American nations together on the shelf without merging them
-     into one dataset - they are separate nations, languages and living
-     communities, and the pack boundary reflects that. */
-  const REGION_ORDER = ["Indigenous Traditions", "Africa", "Asia", "Europe",
+  /* Browse by tradition, one shelf per continent. One flat run of cards worked
+     at eight traditions and stops working at twenty-five. Continents are the
+     axis a reader already navigates by, so they beat the editorial grouping
+     that used to sit here - that grouping had no shelf for the Americas or
+     Oceania and read as a category when it was really a caveat. The caveat
+     survives as REGION_NOTE: separate nations kept as separate collections,
+     shelved together only so they are easy to find. */
+  const REGION_ORDER = ["Africa", "The Americas", "Asia", "Europe",
                         "Oceania", "Elsewhere"];
+  const REGION_NOTE = {
+    "The Americas":
+      "The Indigenous nations here are separate peoples with separate "
+      + "languages and living communities, kept as independent collections "
+      + "and shelved together only so they are easy to find. Each is built "
+      + "from the published record alone.",
+    "Oceania":
+      "Island groups and language groups are kept apart rather than blended, "
+      + "and only the already-published record is used.",
+  };
 
   const liveCard = p =>
     '<a class="pantheon-card" href="/' + esc(p.id) + '/map">' +
@@ -438,14 +450,12 @@ function buildLanding() {
   $("#pantheon-grid").innerHTML = regions.map(pair => {
     const name = pair[0], packs = pair[1];
     const liveN = packs.filter(p => p.status === "live").length;
+    const note = REGION_NOTE[name];
     return '<section class="region">' +
       '<h4 class="region-name">' + esc(name) +
         '<span class="region-count">' + liveN + " of " + packs.length + " mapped</span>" +
       "</h4>" +
-      (name === "Indigenous Traditions"
-        ? '<p class="region-note">Separate nations with separate languages and living '
-          + 'communities, gathered here to be easy to find and kept as independent '
-          + 'collections. Each is built only from the published record.</p>' : "") +
+      (note ? '<p class="region-note">' + esc(note) + "</p>" : "") +
       '<div class="region-cards">' + packs.map(cardFor).join("") + "</div>" +
     "</section>";
   }).join("");
