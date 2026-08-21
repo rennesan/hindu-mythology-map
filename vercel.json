@@ -122,6 +122,10 @@
    "destination": "/finnish/index.html"
   },
   {
+   "source": "/slavic/:path*",
+   "destination": "/slavic/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }

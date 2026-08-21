@@ -478,10 +478,15 @@
    "label": "Slavic",
    "sublabel": "Pre-Christian Eastern Europe",
    "accent": "#a89e7a",
-   "status": "planned",
+   "status": "live",
    "blurb": "Perun, Veles and Baba Yaga - and a hard line drawn against the Romantic inventions and outright forgeries.",
    "family": "Europe",
-   "glyph": "✷"
+   "glyph": "✷",
+   "figures": 36,
+   "stories": 10,
+   "links": 65,
+   "levels": 6,
+   "cover": "portraits/slavic/perun.webp"
   },
   {
    "id": "baltic",

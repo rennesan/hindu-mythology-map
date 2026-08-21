@@ -1,0 +1,2319 @@
+{
+ "title": "Slavic",
+ "description": "Pre-Christian Eastern Europe, sorted by how much evidence there actually is: the chronicled gods, the household spirits that never stopped, and the famous ones that were invented later.",
+ "generated": "2026-08-21",
+ "sources": [
+  "The Rus Primary Chronicle (c. 1113) - Vladimir's six idols, raised 980 and destroyed 988",
+  "Saxo Grammaticus, Gesta Danorum (c. 1200) - the temple of Svantovit at Arkona and its destruction in 1168",
+  "Helmold of Bosau, Chronica Slavorum (c. 1170); Thietmar of Merseburg; Adam of Bremen",
+  "Ibn Fadlan, Risala (922) - an eyewitness account of a Rus ship funeral on the Volga",
+  "W. R. S. Ralston, The Songs of the Russian People (1872); Alexander Afanasyev, Russian Fairy Tales (1855-63)",
+  "Deliberately excluded: the Book of Veles, a 1950s forgery still widely circulated as an ancient text",
+  "Flagged rather than excluded: Lada, Lel, Polel and Belobog, which are probably not ancient gods at all - see the last section"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/slavic/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "pvl": {
+   "t": "The Russian Primary Chronicle (Povest vremennykh let)",
+   "tr": "c. 1113; Cross & Sherbowitz-Wetzor trans. 1930",
+   "u": "https://archive.org/details/russianprimarych00cros"
+  },
+  "saxo": {
+   "t": "Gesta Danorum",
+   "tr": "Saxo Grammaticus, c. 1200; Elton trans. 1894",
+   "u": "https://sacred-texts.com/neu/saxo/index.htm"
+  },
+  "helmold": {
+   "t": "Chronica Slavorum",
+   "tr": "Helmold of Bosau, c. 1170; Tschan trans. 1935",
+   "u": "https://archive.org/details/chronicleofslavs00helm"
+  },
+  "fadlan": {
+   "t": "Risala - the Volga Rus funeral",
+   "tr": "Ibn Fadlan, 922",
+   "u": "https://archive.org/details/ibnfadlanandthel0000unse"
+  },
+  "ralston": {
+   "t": "The Songs of the Russian People",
+   "tr": "W. R. S. Ralston, 1872 - folk practice, collected late",
+   "u": "https://archive.org/details/songsofrussianpe00rals"
+  },
+  "afanasyev": {
+   "t": "Russian Fairy Tales",
+   "tr": "Alexander Afanasyev, 1855-63",
+   "u": "https://archive.org/details/russianfolktales00afanuoft"
+  }
+ },
+ "meta": {
+  "id": "slavic",
+  "label": "Slavic",
+  "sublabel": "Pre-Christian Eastern Europe",
+  "accent": "#a89e7a",
+  "root": "perun"
+ },
+ "profile": {
+  "cosmicNature": "A world split between a thunder god above and a cattle god below, and the tension between them is the engine of the whole thing. The best-supported reconstruction has Perun in the sky and Veles in the wet ground beneath, and a storm is Perun hunting Veles, who hides as a tree, a stone, an animal, a man. Every strike is a hit. The rain that follows is the point.",
+  "natureOfDivinity": "Named gods at the top, thinly documented; a very crowded floor beneath. Vladimir's six idols are recorded because a chronicler wrote down what was torn down. Below them the tradition is dense and extremely well attested: a spirit in the house, the yard, the barn, the bathhouse, the field, the forest and the water, each with its own manners, and offending any of them has practical consequences.",
+  "afterlife": "Nav, the other side, and the dead who stay interested. The most durable practice is not a doctrine but a meal: Dziady, the ancestors, fed several times a year with a place laid and food left out. The idea that the dead remain part of the household, hungry and touchy and entitled to be included, outlasted the gods by a thousand years and is still going in places.",
+  "systemMechanism": "Reciprocity with things that live where you do. The house spirit gets bread and salt and is moved to the new house in an old shoe or a pot of coals. The bathhouse spirit gets the fourth steam and nobody washes after him. The forest spirit gets your first catch. None of this is worship in a temple sense. It is closer to keeping on good terms with a difficult neighbour who was there first.",
+  "canonTexts": "There is no canon and that is the whole difficulty. The Rus Primary Chronicle (c. 1113), Saxo Grammaticus's Gesta Danorum (c. 1200), Thietmar of Merseburg, Adam of Bremen, Helmold of Bosau, Ibn Fadlan's Risala (922), and the anti-pagan sermons. Everything else is folklore collected much later, or invented much later, and this pack tries very hard to keep those two apart."
+ },
+ "hierarchy": [
+  {
+   "title": "The Chronicled",
+   "blurb": "The gods somebody actually wrote down - mostly people who came to destroy them. Vladimir raised six idols in Kiev in 980 and threw them in the river in 988, and a chronicler listed both events. Saxo watched the temple at Arkona come down. That is the evidence.",
+   "memberIds": [
+    "perun",
+    "veles",
+    "mokosh",
+    "dazhbog",
+    "stribog",
+    "svarog",
+    "khors",
+    "simargl",
+    "rod"
+   ],
+   "connectorCaption": "And on the Baltic coast, three temples the Germans described while wrecking them"
+  },
+  {
+   "title": "The Temples",
+   "blurb": "Four heads at Arkona, three at Szczecin, nine gates at Rethra. All three had a sacred horse walked over crossed spears to decide a war, and all three were described in detail by the missionaries and crusaders who pulled them down.",
+   "memberIds": [
+    "svantovit",
+    "triglav",
+    "radegast",
+    "chernobog"
+   ],
+   "connectorCaption": "Below the named gods, the part that never actually stopped"
+  },
+  {
+   "title": "The Household",
+   "blurb": "A spirit behind the stove, in the bathhouse, in the yard, the field, the wood and the water, each with its own manners. This is where the real evidence is thickest, and it was still being practised within living memory.",
+   "memberIds": [
+    "domovoi",
+    "bannik",
+    "kikimora",
+    "leshy",
+    "vodyanoy",
+    "polevik",
+    "rusalka",
+    "dziady",
+    "mat_zemlya"
+   ],
+   "connectorCaption": "And the year, which had a shape whatever anybody believed"
+  },
+  {
+   "title": "The Year",
+   "blurb": "Winter drowned as a straw doll in March. Spring buried in June with mock weeping. Bonfires jumped in pairs at midsummer and a fern that flowers for one moment. Masked carollers at the door in the dark. Most of it is still going.",
+   "memberIds": [
+    "marzanna",
+    "yarilo",
+    "kupala",
+    "koliada"
+   ],
+   "connectorCaption": "In the tales, a different cast, and the famous one"
+  },
+  {
+   "title": "The Tales",
+   "blurb": "A house on chicken legs with a fence of skulls, whose owner may feed you or eat you depending on your manners. A man whose death is in a needle in an egg in a duck in a hare in a chest under an oak. And a bird whose feather you should not pick up.",
+   "memberIds": [
+    "baba_yaga",
+    "koschei",
+    "zmey",
+    "firebird",
+    "sirin",
+    "upyr",
+    "vila"
+   ],
+   "connectorCaption": "And finally, the ones that are not real, which is worth knowing"
+  },
+  {
+   "title": "Probably Not True",
+   "blurb": "A white god invented to balance a black one. Three deities taken from the fa-la-la of a folk song by a chronicler who wanted a proper pantheon. And a scripture forged in the 1950s that is now the most-quoted source on Slavic religion there is.",
+   "memberIds": [
+    "belobog",
+    "lada",
+    "veles_book"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "kiev",
+   "label": "Vladimir's Six Idols",
+   "memberIds": [
+    "perun",
+    "khors",
+    "dazhbog",
+    "stribog",
+    "simargl",
+    "mokosh"
+   ]
+  },
+  {
+   "id": "duel",
+   "label": "The Storm Duel",
+   "memberIds": [
+    "perun",
+    "veles",
+    "zmey",
+    "mat_zemlya"
+   ]
+  },
+  {
+   "id": "temples",
+   "label": "The Baltic Temples",
+   "memberIds": [
+    "svantovit",
+    "triglav",
+    "radegast",
+    "chernobog"
+   ]
+  },
+  {
+   "id": "house",
+   "label": "Inside the House",
+   "memberIds": [
+    "domovoi",
+    "kikimora",
+    "bannik",
+    "dziady"
+   ]
+  },
+  {
+   "id": "outside",
+   "label": "Outside the House",
+   "memberIds": [
+    "leshy",
+    "vodyanoy",
+    "polevik",
+    "rusalka",
+    "vila"
+   ]
+  },
+  {
+   "id": "deadwrong",
+   "label": "The Dead Who Will Not Settle",
+   "memberIds": [
+    "upyr",
+    "rusalka",
+    "kikimora",
+    "dziady"
+   ]
+  },
+  {
+   "id": "year",
+   "label": "The Turning Year",
+   "memberIds": [
+    "marzanna",
+    "yarilo",
+    "kupala",
+    "koliada"
+   ]
+  },
+  {
+   "id": "tales",
+   "label": "The Tales",
+   "memberIds": [
+    "baba_yaga",
+    "koschei",
+    "zmey",
+    "firebird",
+    "sirin"
+   ]
+  },
+  {
+   "id": "invented",
+   "label": "Made Up Later",
+   "memberIds": [
+    "belobog",
+    "lada",
+    "veles_book"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "idols-in-the-river",
+   "title": "Eight Years on the Hill",
+   "era": "The Chronicled",
+   "cast": [
+    "perun",
+    "veles",
+    "mokosh",
+    "dazhbog",
+    "stribog",
+    "khors",
+    "simargl"
+   ],
+   "summary": "In 980 Vladimir of Kiev set up idols on the hill outside his hall: Perun of wood with a head of silver and a moustache of gold, and Khors, Dazhbog, Stribog, Simargl and Mokosh beside him, and the chronicler says the people sacrificed to them and called them gods. In 988 the same prince accepted baptism, and had the idols pulled down - some cut up, some burned - and Perun tied to a horse's tail and dragged down to the Dnieper while twelve men beat him with sticks. He was thrown in, and men were sent along the bank with poles to push him off wherever he came ashore, and to keep doing it until he was past the rapids. Almost everything anyone knows about the Slavic gods comes from those two paragraphs, written by a man who approved of the second one.",
+   "sources": [
+    {
+     "book": "The Russian Primary Chronicle (Povest vremennykh let)",
+     "translation": "c. 1113; Cross & Sherbowitz-Wetzor trans. 1930",
+     "location": "Entries for 980 and 988",
+     "url": "https://archive.org/details/russianprimarych00cros"
+    }
+   ]
+  },
+  {
+   "id": "arkona",
+   "title": "The Horn of Wine",
+   "era": "The Temples",
+   "cast": [
+    "svantovit"
+   ],
+   "summary": "At Arkona on the island of Rugen stood a temple with an idol bigger than a man, with four heads facing four ways, holding a horn of wine in its right hand. Once a year the priest - the only person permitted to enter, and required to hold his breath and run outside to breathe so as not to pollute the place - took the horn out and examined it. If the wine had gone down over the year, a bad harvest was coming and the people should store what they had; if it stood full, plenty. A white horse was kept there that only the priest might ride, and it was walked over three rows of crossed spears before a campaign, and which foot it led with decided whether to go. In 1168 the Danes took the town and pulled the idol down with ropes and cut it up for firewood, and Saxo, writing for the winners, records that the local people watched.",
+   "sources": [
+    {
+     "book": "Gesta Danorum",
+     "translation": "Saxo Grammaticus, c. 1200; Elton trans. 1894",
+     "location": "Book XIV",
+     "url": "https://sacred-texts.com/neu/saxo/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-storm-duel",
+   "title": "What the Thunder Is Doing",
+   "era": "The Chronicled",
+   "cast": [
+    "perun",
+    "veles",
+    "mat_zemlya"
+   ],
+   "summary": "This is the reconstruction rather than a text, and it is worth being clear about that. Perun is above, armed, in the oak and the sky. Veles is below, in the wet ground, with the cattle and the wealth and the dead. Veles takes something - the cattle, the water, the wife, the son, depending on which version of the reconstruction you follow - and Perun comes after him, and Veles runs and hides as a tree, a stone, a cow, a man, and each time he is found and struck, which is what lightning is. At the end Veles is driven back down into the water, and the rain falls, and the order of the world is restored until the next storm. Ivanov and Toporov assembled this in the 1960s and 70s out of Baltic and Slavic fragments. It is elegant, widely accepted, and no medieval source says it.",
+   "sources": [
+    {
+     "book": "The Russian Primary Chronicle (Povest vremennykh let)",
+     "translation": "c. 1113; Cross & Sherbowitz-Wetzor trans. 1930",
+     "location": "The oath formulas",
+     "url": "https://archive.org/details/russianprimarych00cros"
+    },
+    {
+     "book": "The Songs of the Russian People",
+     "translation": "W. R. S. Ralston, 1872 - folk practice, collected late",
+     "location": "Thunder beliefs",
+     "url": "https://archive.org/details/songsofrussianpe00rals"
+    }
+   ]
+  },
+  {
+   "id": "rusalka-week",
+   "title": "The Week They Come Out of the Water",
+   "era": "The Household",
+   "cast": [
+    "rusalka",
+    "mat_zemlya",
+    "kupala"
+   ],
+   "summary": "For one week at the beginning of summer the rusalki leave the water and go into the birch groves and the rye. They are the girls who died wrong - drowned, or unbaptised, or unmarried and pregnant - and who could not be buried properly and so did not stay buried. During that week nobody swims, nobody works alone in the fields, and nobody goes out at midday. Girls take food into the rye and leave it. At the end of the week the village holds the seeing-off: a doll or a birch is carried out beyond the fields with singing and weeping, half funeral and half eviction, and the rusalki are told to go back to the water and stay there. Then the harvest can be got in.",
+   "sources": [
+    {
+     "book": "The Songs of the Russian People",
+     "translation": "W. R. S. Ralston, 1872 - folk practice, collected late",
+     "location": "The Rusalki",
+     "url": "https://archive.org/details/songsofrussianpe00rals"
+    }
+   ]
+  },
+  {
+   "id": "chicken-legs",
+   "title": "Turn Your Back to the Forest",
+   "era": "The Tales",
+   "cast": [
+    "baba_yaga"
+   ],
+   "summary": "The hut stands in a clearing on two chicken legs, turning, with its door facing away, and it is surrounded by a fence of bones with a skull on every post whose eye sockets light the yard at dark. You say: hut, hut, turn your back to the forest and your front to me. It does. Inside is Baba Yaga, filling the whole room, and she says she smells a Russian smell, and the correct move is not to grovel or to lie but to say that you have come a long way, that you would like a bath and something to eat, and that you will answer questions afterwards. She feeds you, steams you, asks you what you want, gives it to you, and tells you what you will need. Or she does not, and you are the next skull. She is the border of the world, and the toll is manners.",
+   "sources": [
+    {
+     "book": "Russian Fairy Tales",
+     "translation": "Alexander Afanasyev, 1855-63",
+     "location": "Vasilisa the Beautiful, and others",
+     "url": "https://archive.org/details/russianfolktales00afanuoft"
+    }
+   ]
+  },
+  {
+   "id": "death-in-a-needle",
+   "title": "Where He Keeps It",
+   "era": "The Tales",
+   "cast": [
+    "koschei"
+   ],
+   "summary": "Koschei has taken the hero's wife and cannot be killed, so the wife is told to ask him, sweetly, where his death is. He lies twice - it is in the broom, it is in the fence - and she gilds the broom and decorates the fence, and he is flattered enough to tell her the truth. On the sea is an island, and on the island an oak, and under the oak a buried iron chest, and in the chest a hare, and in the hare a duck, and in the duck an egg, and in the egg a needle, and the point of the needle is his death. The hero goes, and at each stage the animal bolts and is caught by a beast he spared on the road - a wolf, an eagle, a pike. He breaks the needle. It is the most thoroughly worked-out version of the external soul anywhere in Europe.",
+   "sources": [
+    {
+     "book": "Russian Fairy Tales",
+     "translation": "Alexander Afanasyev, 1855-63",
+     "location": "Marya Morevna",
+     "url": "https://archive.org/details/russianfolktales00afanuoft"
+    }
+   ]
+  },
+  {
+   "id": "marzanna",
+   "title": "Drowning Winter",
+   "era": "The Year",
+   "cast": [
+    "marzanna",
+    "yarilo"
+   ],
+   "summary": "At the spring equinox a doll is made of straw and rags, dressed as a woman, and carried out of the village in procession with singing. At the river she is set alight, or torn apart, or simply thrown in and watched until the current takes her, and then everyone goes home carrying green branches. Fifteenth-century Polish bishops issued repeated prohibitions against it and it made no difference at all. It is still done - in Poland, Slovakia and the Czech Republic, mostly by schoolchildren, on the twenty-first of March, sometimes with a permit from the local council because of the litter. Of everything in this pack it is the piece with the longest continuous run.",
+   "sources": [
+    {
+     "book": "The Songs of the Russian People",
+     "translation": "W. R. S. Ralston, 1872 - folk practice, collected late",
+     "location": "The rites of spring",
+     "url": "https://archive.org/details/songsofrussianpe00rals"
+    }
+   ]
+  },
+  {
+   "id": "the-fern-flower",
+   "title": "The One Night It Flowers",
+   "era": "The Year",
+   "cast": [
+    "kupala",
+    "leshy"
+   ],
+   "summary": "On the shortest night the bonfires are lit and jumped in pairs, hand in hand, and whether you keep hold of each other tells the village what to expect. Girls put wreaths of flowers with candles in them on the river and watch where they go and whether they sink. Everything gathered that night has more power in it than at any other time. And somewhere in the forest, on that night only, the fern flowers - for a moment, and the moment is guarded, and whoever gets the flower will understand what animals say and see through the ground to where treasure is buried. Ferns do not flower. Everyone went and looked anyway.",
+   "sources": [
+    {
+     "book": "The Songs of the Russian People",
+     "translation": "W. R. S. Ralston, 1872 - folk practice, collected late",
+     "location": "Kupalo",
+     "url": "https://archive.org/details/songsofrussianpe00rals"
+    }
+   ]
+  },
+  {
+   "id": "bread-and-salt",
+   "title": "Moving the Grandfather",
+   "era": "The Household",
+   "cast": [
+    "domovoi",
+    "dziady"
+   ],
+   "summary": "When a family moved house they did not simply leave. The old stove was opened and coals were taken out and carried to the new one, or a pot, or an old shoe, or a piece of bread from the old table, and as it was carried the head of the household said aloud: grandfather, here is your sledge, come with us. To leave him behind would be an insult with consequences - the new house would not settle, the animals would sicken, nobody would sleep. He is fed bread and salt, spoken of only respectfully and never by name, and consulted in a way, since if he weeps in the night something is coming. Of all the beings in this pack he is the one people were most sure about, and the last one they stopped believing in.",
+   "sources": [
+    {
+     "book": "The Songs of the Russian People",
+     "translation": "W. R. S. Ralston, 1872 - folk practice, collected late",
+     "location": "The House Spirit",
+     "url": "https://archive.org/details/songsofrussianpe00rals"
+    }
+   ]
+  },
+  {
+   "id": "the-forged-book",
+   "title": "Planks That Were Never Produced",
+   "era": "Probably Not True",
+   "cast": [
+    "veles_book",
+    "belobog",
+    "lada"
+   ],
+   "summary": "In the years after the Second World War, Russian emigres began publishing a text they said had been copied from ancient wooden planks discovered in a wrecked manor house in 1919, planks which were subsequently lost, leaving one photograph. It gives nine hundred years of Slavic history and a full pagan theology. Linguists examined it and found a language that is not Old Church Slavonic, not Old Russian and not any real dialect, but a modern construction full of impossible forms - the sort of errors a nineteenth-century enthusiast makes and a ninth-century scribe cannot. The verdict has been unanimous for sixty years and has changed nothing: it is translated, reprinted, taught in places, and cited online as the primary source for a religion that it made up. It is not the only such invention, only the largest.",
+   "sources": [
+    {
+     "book": "The Russian Primary Chronicle (Povest vremennykh let)",
+     "translation": "c. 1113; Cross & Sherbowitz-Wetzor trans. 1930",
+     "location": "For comparison - what a real chronicle looks like",
+     "url": "https://archive.org/details/russianprimarych00cros"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "perun",
+   "name": "Perun",
+   "sanskrit": "Perun",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "The thunder god, and the one figure here everybody agrees actually existed",
+   "wikipedia": "Perun",
+   "portrait": "portraits/slavic/perun.webp",
+   "epithets": [
+    "the thunderer",
+    "Perkunas to the Balts",
+    "the one with the silver head and gold moustache"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "oaths",
+    "war",
+    "the oak",
+    "rain"
+   ],
+   "symbols": [
+    "the oak",
+    "the axe",
+    "the thunderbolt",
+    "the six-petalled thunder mark",
+    "the iris"
+   ],
+   "mount": null,
+   "abode": "The top of the sky, or the crown of the oak",
+   "festivals": [],
+   "worship": "",
+   "bio": "Vladimir set his idol up in Kiev in 980 with a silver head and a gold moustache, then had it flogged and thrown in the Dnieper in 988.",
+   "longBio": "Perun is the best-attested Slavic god by a distance. The Primary Chronicle describes his idol on the hill at Kiev - wooden, with a head of silver and a moustache of gold - and describes what happened to it eight years later, when Vladimir converted and had it tied to a horse's tail, beaten by twelve men with sticks and thrown into the Dnieper, with men posted along the bank to push it off if it came ashore. Rus treaties were sworn on him and on Veles. His tree is the oak, his mark is a six-petalled rosette still carved on old roof beams to keep lightning off, and his name survives across Slavic languages in the ordinary words for thunder and for lightning-struck.",
+   "variantTraditions": "Cognate with Baltic Perkunas, Norse Fjorgyn and Vedic Parjanya - one of the more secure pieces of Indo-European comparison there is.",
+   "storyIds": [
+    "idols-in-the-river",
+    "the-storm-duel"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sky-thunder",
+    "king-ruler",
+    "war",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "veles",
+   "name": "Veles",
+   "sanskrit": "Veles",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "Cattle, oaths, poetry and the wet ground - and Perun's opposite in everything",
+   "wikipedia": "Veles",
+   "portrait": "portraits/slavic/veles.webp",
+   "epithets": [
+    "Volos",
+    "the cattle god",
+    "the god of the herds",
+    "the one below"
+   ],
+   "domains": [
+    "cattle",
+    "wealth",
+    "oaths",
+    "the underworld",
+    "poetry",
+    "magic",
+    "water"
+   ],
+   "symbols": [
+    "the serpent or dragon",
+    "wool",
+    "the bear",
+    "the wet lowland"
+   ],
+   "mount": null,
+   "abode": "The damp ground, the marsh, below",
+   "festivals": [],
+   "worship": "",
+   "bio": "Rus oaths were sworn on Perun and on Veles - the weapon and the herd, the sky and the mud.",
+   "longBio": "Veles appears in the Primary Chronicle as the god by whom the Rus swore alongside Perun, and the pairing is the tell: one is the armed retinue and the other is the wealth in livestock. His idol stood not on the hill with Perun but down by the river among the merchants. He owns the herds, the underworld, the damp lowland, poetry and oath-breaking, and in the reconstructed myth he is the serpent Perun hunts through every thunderstorm, hiding in trees and stones and animals until he is struck and the rain comes. After conversion his functions and his cattle were transferred wholesale to Saint Blaise.",
+   "variantTraditions": "Firmly attested in the Chronicle. The storm-duel with Perun is a modern reconstruction by Ivanov and Toporov - persuasive, widely accepted, and not something any medieval source actually says.",
+   "storyIds": [
+    "idols-in-the-river",
+    "the-storm-duel"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "serpent-dragon",
+    "wealth-fortune",
+    "death-judge",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "mokosh",
+   "name": "Mokosh",
+   "sanskrit": "Mokosh",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "The only goddess on Vladimir's list, and she survived Christianity better than any of them",
+   "wikipedia": "Mokosh",
+   "portrait": "portraits/slavic/mokosh.webp",
+   "epithets": [
+    "Mother Moist Earth in her later form",
+    "the spinner",
+    "Mokusha"
+   ],
+   "domains": [
+    "women's work",
+    "spinning",
+    "weaving",
+    "fertility",
+    "moisture",
+    "sheep-shearing",
+    "fate"
+   ],
+   "symbols": [
+    "the spindle",
+    "wet earth",
+    "the sheep",
+    "the Friday"
+   ],
+   "mount": null,
+   "abode": "The damp earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her name is from a root meaning wet, and Friday was hers - you did not spin on it.",
+   "longBio": "Mokosh is the only female name in the list of idols Vladimir raised in Kiev, and the only one of the six whose cult can be traced continuing for centuries afterwards, because she was absorbed rather than destroyed. She governs spinning, weaving, shearing and childbirth - the whole of women's work - and Friday was her day, on which spinning and washing were forbidden. That prohibition transferred intact to Saint Paraskeva Pyatnitsa, whose name simply means Friday, and Russian peasant women were still observing it in the nineteenth century. Confessional questionnaires for priests asked, into the seventeenth century, whether the penitent had been to Mokosh.",
+   "variantTraditions": "The later figure of Mat Syra Zemlya, Mother Moist Earth, may be her continuation or may be a separate and older idea; the sources do not settle it.",
+   "storyIds": [
+    "idols-in-the-river"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "fate-time",
+    "wisdom-craft",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "dazhbog",
+   "name": "Dazhbog",
+   "sanskrit": "Dazhbog",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "The giving god, and the Rus princes claimed to be his grandsons",
+   "wikipedia": "Dazhbog",
+   "portrait": "portraits/slavic/dazhbog.webp",
+   "epithets": [
+    "the giving god",
+    "the sun",
+    "Dabog in the south"
+   ],
+   "domains": [
+    "the sun",
+    "giving",
+    "the day",
+    "royal descent",
+    "fire"
+   ],
+   "symbols": [
+    "the sun disc",
+    "the white horses",
+    "the chariot"
+   ],
+   "mount": null,
+   "abode": "The sky, going east to west",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Tale of Igor's Campaign calls the Rus people the grandchildren of Dazhbog.",
+   "longBio": "Dazhbog stands in Vladimir's list and his name is transparent: dazh is give, bog is god, so he is the giving god, and the giving is understood as the sun and what it makes grow. The Hypatian Chronicle glosses him as the sun and as the son of Svarog. The Tale of Igor's Campaign calls the Rus the grandsons of Dazhbog, which is a dynastic claim, and one of the very few places a Slavic god is used the way Greek and Norse ones are - as an ancestor for a ruling house. In the South Slavic lands the name resurfaces as Dabog, by then bent into a figure of the underworld.",
+   "variantTraditions": "Attested in the Primary Chronicle and glossed in the Hypatian; the solar identification is medieval rather than modern speculation.",
+   "storyIds": [
+    "idols-in-the-river"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "wealth-fortune",
+    "king-ruler",
+    "creator"
+   ]
+  },
+  {
+   "id": "stribog",
+   "name": "Stribog",
+   "sanskrit": "Stribog",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "The winds are called his grandsons, and that is nearly everything anyone knows",
+   "wikipedia": "Stribog",
+   "portrait": "portraits/slavic/stribog.webp",
+   "epithets": [
+    "the wind god"
+   ],
+   "domains": [
+    "wind",
+    "the air",
+    "storms at sea",
+    "dispersal"
+   ],
+   "symbols": [
+    "the winds from all directions",
+    "arrows on the wind"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Tale of Igor's Campaign: the winds, Stribog's grandsons, blow arrows from the sea.",
+   "longBio": "Stribog is on Vladimir's list and appears once more, in the Tale of Igor's Campaign, where the winds are called Stribog's grandsons blowing arrows from the sea against Igor's men. That is the entire evidence. Everything written about him beyond it - his character, his relationships, his supposed opposition to other gods - is reconstruction or invention, and there is a great deal of it about. He is a useful reminder of how thin the ground actually is: a name in a list, one metaphor in a poem, and then eight hundred years of people filling in the blanks.",
+   "variantTraditions": "The etymology is disputed - possibly from a root meaning to spread or scatter, possibly Iranian. Nobody knows.",
+   "storyIds": [
+    "idols-in-the-river"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "sky-thunder"
+   ]
+  },
+  {
+   "id": "svarog",
+   "name": "Svarog",
+   "sanskrit": "Svarog",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "The smith who forged the sun, known from a single chronicler's marginal note",
+   "wikipedia": "Svarog",
+   "portrait": "portraits/slavic/svarog.webp",
+   "epithets": [
+    "the heavenly smith",
+    "the father of Dazhbog"
+   ],
+   "domains": [
+    "fire",
+    "smithing",
+    "the sky",
+    "marriage law"
+   ],
+   "symbols": [
+    "the forge",
+    "the hammer",
+    "the tongs said to have fallen from heaven"
+   ],
+   "mount": null,
+   "abode": "The sky, at his forge",
+   "festivals": [],
+   "worship": "",
+   "bio": "One glossator in 1114 equated him with Hephaistos, and an entire mythology has been built on it.",
+   "longBio": "Svarog is not in Vladimir's list. He appears in a Slavonic translation of a Byzantine chronicle where the scribe, reaching Hephaistos, glossed the name as Svarog, and reaching Helios, glossed it Dazhbog and called him Svarog's son. That is the whole basis. From it comes the picture of a heavenly smith who forged the sun, instituted monogamy, and gave people the plough and the tongs - much of which is the Greek material showing through the gloss. He is genuine in the sense that the scribe knew a real name; almost everything attached to that name afterwards is not evidence.",
+   "variantTraditions": "Related to Svarozhits, attested independently among the Polabian Slavs by Thietmar and Bruno of Querfurt as the god of the temple at Rethra.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "wisdom-craft",
+    "creator",
+    "sky-thunder"
+   ]
+  },
+  {
+   "id": "khors",
+   "name": "Khors",
+   "sanskrit": "Khors",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "On Vladimir's list, and probably not Slavic at all",
+   "wikipedia": "Khors",
+   "portrait": "portraits/slavic/khors.webp",
+   "epithets": [
+    "Khors Dazhbog in one reading of the text"
+   ],
+   "domains": [
+    "the sun",
+    "possibly the moon",
+    "light"
+   ],
+   "symbols": [
+    "the sun disc",
+    "the path across the sky"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "The name looks Iranian, and he may be a borrowed god standing in a Slavic list.",
+   "longBio": "Khors stands second in Vladimir's list of idols and is one of the genuine puzzles. The name has no convincing Slavic etymology and looks Iranian - from the same root as the Persian khursed, the sun - which would make him a borrowing, perhaps from the Sarmatians or Alans, standing in the middle of a Kievan pantheon. The Tale of Igor's Campaign has a prince crossing Khors's path by night, which some read as making him lunar instead. He is attested and he is real and almost nothing else about him is settled.",
+   "variantTraditions": "The lack of a Slavic etymology is the strongest argument for an Iranian borrowing and is widely but not universally accepted.",
+   "storyIds": [
+    "idols-in-the-river"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "moon",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "simargl",
+   "name": "Simargl",
+   "sanskrit": "Simargl",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "A winged dog on Vladimir's list, and nobody has ever explained him",
+   "wikipedia": "Simargl",
+   "portrait": "portraits/slavic/simargl.webp",
+   "epithets": [
+    "Semargl",
+    "the winged hound"
+   ],
+   "domains": [
+    "seeds",
+    "plants",
+    "guarding",
+    "whatever he actually guarded"
+   ],
+   "symbols": [
+    "the winged dog",
+    "the tree of seeds"
+   ],
+   "mount": null,
+   "abode": "Unknown",
+   "festivals": [],
+   "worship": "",
+   "bio": "The best guess is that he is the Persian Simurgh, and it is only a guess.",
+   "longBio": "Simargl is the fifth of Vladimir's idols and the most obscure. The name resembles the Persian Simurgh, the great bird, and Iranian art has a winged dog-bird called the senmurv associated with the tree that holds all seeds, which turns up on silverware traded north. So the usual reconstruction is a borrowed winged hound guarding vegetation. It is a reasonable guess resting on a resemblance. He does nothing in any story, has no cult anyone recorded, and is a name in a list that happens to sound like a name in another language.",
+   "variantTraditions": "Some readings split the name into two gods, Sim and Rgl, which would make Vladimir's list seven rather than six.",
+   "storyIds": [
+    "idols-in-the-river"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "preserver"
+   ]
+  },
+  {
+   "id": "svantovit",
+   "name": "Svantovit",
+   "sanskrit": "Svantovit",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "Four faces, a white horse and a horn of wine read once a year to forecast the harvest",
+   "wikipedia": "Svetovid",
+   "portrait": "portraits/slavic/svantovit.webp",
+   "epithets": [
+    "Svetovid",
+    "the god of Arkona",
+    "the four-headed"
+   ],
+   "domains": [
+    "war",
+    "divination",
+    "the harvest",
+    "prophecy"
+   ],
+   "symbols": [
+    "four heads facing four ways",
+    "the horn of wine",
+    "the white horse",
+    "the great sword"
+   ],
+   "mount": null,
+   "abode": "The temple at Arkona on Rugen",
+   "festivals": [],
+   "worship": "",
+   "bio": "The priest measured the wine left in the horn each year to say how good the harvest would be.",
+   "longBio": "Saxo Grammaticus describes the temple at Arkona on Rugen in detail, because he was writing about its destruction by the Danes in 1168. The idol was enormous, four-headed, facing four directions, holding a horn of wine. Once a year the priest examined the horn: if the wine had gone down, a lean year was coming and people should store grain. A white horse was kept in the temple and no one but the priest might ride it, and it was led over crossed spears to divine the outcome of a war. When the Danes finally pulled the idol down and burned it, Saxo notes with some satisfaction that it took several men and an axe.",
+   "variantTraditions": "One of the best-described Slavic cults precisely because a hostile eyewitness wanted to record its downfall.",
+   "storyIds": [
+    "arkona"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "sage-seer",
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "triglav",
+   "name": "Triglav",
+   "sanskrit": "Triglav",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "Three heads, and a gold blindfold so he would not have to watch what people did",
+   "wikipedia": "Triglav_(mythology)",
+   "portrait": "portraits/slavic/triglav.webp",
+   "epithets": [
+    "the three-headed",
+    "the god of Szczecin and Wolin"
+   ],
+   "domains": [
+    "the three worlds",
+    "divination",
+    "the black horse"
+   ],
+   "symbols": [
+    "three heads",
+    "the gold band over the eyes",
+    "the black horse"
+   ],
+   "mount": null,
+   "abode": "The temples at Szczecin and Wolin",
+   "festivals": [],
+   "worship": "",
+   "bio": "The priests said his eyes were covered so he could not see people's sins.",
+   "longBio": "Triglav had temples at Szczecin and Wolin and had three heads, and the priests told Otto of Bamberg's missionaries that the gold band across his eyes was there so that the god would not have to see human sin. The three heads were explained as rule over three realms: the sky, the earth and the underworld. He had a black horse used for divination, walked over spears laid on the ground. Otto destroyed the images in 1127 and sent the silver-plated triple head to Rome. He is well attested by people who were there to smash him, which is the general condition of this material.",
+   "variantTraditions": "Described by Ebbo and Herbord in their lives of Otto of Bamberg, written within living memory of the events.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "sage-seer",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "radegast",
+   "name": "Radegast",
+   "sanskrit": "Radegast",
+   "category": "deity",
+   "era": "The Chronicled",
+   "role": "The god at Rethra, whose priests read the future from a horse walking over spears",
+   "wikipedia": "Radegast_(god)",
+   "portrait": "portraits/slavic/radegast.webp",
+   "epithets": [
+    "Redigost",
+    "Svarozhits at Rethra",
+    "the god of the Redarians"
+   ],
+   "domains": [
+    "war",
+    "hospitality",
+    "divination",
+    "the assembly"
+   ],
+   "symbols": [
+    "the golden idol",
+    "the horse over the spears",
+    "the nine-gated temple"
+   ],
+   "mount": null,
+   "abode": "Rethra, in the land of the Redarians",
+   "festivals": [],
+   "worship": "",
+   "bio": "Thietmar says the temple had nine gates and stood in a wood surrounded by a lake.",
+   "longBio": "Thietmar of Merseburg describes the temple at Rethra, standing in a wood on a lake, with nine gates and one approach, holding idols in armour and helmets with their names cut into them, the chief of which he calls Zuarasici - Svarozhits. Adam of Bremen, later, calls the god of the same place Redigost. Whether Radegast is a god's name, a place name, or a chronicler's confusion is still argued. The divination method is consistent across all these Baltic Slav temples: a sacred horse is led over crossed spears, and which foot it leads with decides the campaign.",
+   "variantTraditions": "The name may originally have been the town's rather than the god's - Adam of Bremen and Thietmar disagree, and the site of Rethra has never been found.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "sage-seer",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "rod",
+   "name": "Rod and the Rozhanitsy",
+   "sanskrit": "Rod i rozhanitsy",
+   "category": "primordial",
+   "era": "The Chronicled",
+   "role": "Denounced in sermons for centuries, which is the best evidence anyone was doing it",
+   "wikipedia": "Rod_(Slavic_religion)",
+   "portrait": "portraits/slavic/rod.webp",
+   "epithets": [
+    "the kin",
+    "the birth-givers",
+    "the ones who set a child's fate"
+   ],
+   "domains": [
+    "birth",
+    "kinship",
+    "fate",
+    "the second meal after a birth"
+   ],
+   "symbols": [
+    "the bread and cheese and mead set out",
+    "the newborn",
+    "the family line"
+   ],
+   "mount": null,
+   "abode": "Wherever a child has just been born",
+   "festivals": [],
+   "worship": "",
+   "bio": "You laid a second table for them after a birth, and priests spent five hundred years telling you not to.",
+   "longBio": "Rod and the Rozhanitsy are known almost entirely from the complaints of churchmen. Sermon after sermon, from the eleventh century onwards, attacks the practice of setting out bread, cheese and mead for Rod and the birth-givers after a child was born, so that they would set its fate. The clergy could not stop it and kept writing about it, which is why we know. Rod means kin, clan, birth and stock all at once - the word is still in Slavic languages everywhere, in the words for family, parents, homeland and nation. Whether he was a great creator or a household spirit of lineage is genuinely unclear.",
+   "variantTraditions": "Some twentieth-century writers promoted Rod into a supreme creator god. The medieval sources describe a birth custom, not a cosmology.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "earth-mother",
+    "supreme-source",
+    "preserver"
+   ]
+  },
+  {
+   "id": "domovoi",
+   "name": "Domovoi",
+   "sanskrit": "Domovoi",
+   "category": "nature",
+   "era": "The Household",
+   "role": "The spirit of the house, and you moved him to the new one in a pot of coals",
+   "wikipedia": "Domovoi",
+   "portrait": "portraits/slavic/domovoi.webp",
+   "epithets": [
+    "grandfather",
+    "the master",
+    "himself",
+    "the one behind the stove"
+   ],
+   "domains": [
+    "the house",
+    "the family",
+    "the stove",
+    "warning of trouble"
+   ],
+   "symbols": [
+    "the stove",
+    "the bread and salt left out",
+    "the old shoe or the coals he travelled in"
+   ],
+   "mount": null,
+   "abode": "Behind or under the stove",
+   "festivals": [],
+   "worship": "",
+   "bio": "You did not say his name. You called him grandfather, or master, or just himself.",
+   "longBio": "The domovoi lives behind the stove and looks after the household, and the household looks after him: bread and salt left out, the first of anything new, and never a bad word about him inside the house. He is not called by his name - he is grandfather, or the master, or himself - because naming him is rude and possibly dangerous. He warns of coming trouble by weeping, or by pulling hair, and he sits on a sleeper's chest at night and presses, and the sleeper is supposed to ask whether it means good or ill. When a family moved house, the coals from the old stove were carried to the new one so that he came too.",
+   "variantTraditions": "The best-attested being in the entire Slavic complex, recorded in every Slavic country, and still spoken about in the twentieth century.",
+   "storyIds": [
+    "bread-and-salt"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "preserver",
+    "wealth-fortune",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "bannik",
+   "name": "Bannik",
+   "sanskrit": "Bannik",
+   "category": "nature",
+   "era": "The Household",
+   "role": "The bathhouse spirit, who takes the fourth steam, and you do not go in after him",
+   "wikipedia": "Bannik",
+   "portrait": "portraits/slavic/bannik.webp",
+   "epithets": [
+    "the one in the bathhouse"
+   ],
+   "domains": [
+    "the bathhouse",
+    "steam",
+    "births",
+    "scalding"
+   ],
+   "symbols": [
+    "the empty bathhouse at night",
+    "the fourth round of steam",
+    "the back turned to the door"
+   ],
+   "mount": null,
+   "abode": "The bathhouse, which stands apart from the house",
+   "festivals": [],
+   "worship": "",
+   "bio": "Three parties may bathe. The fourth steam is his, and people who took it were found scalded.",
+   "longBio": "The bathhouse stands away from the house, it is hot and dark and dangerous, and women gave birth in it - so of course something lives there. The bannik takes the fourth round of steam, after three groups have bathed, and anyone who goes in for it is liable to be found scalded or suffocated. He is placated with soap, water and birch twigs left ready, and a black hen buried under the doorstep. Girls told fortunes by reaching a bare back through the bathhouse door at night: a soft touch meant a kind husband, a rough or clawed one meant otherwise.",
+   "variantTraditions": "Bathhouse divination is recorded in detail across Russia and Belarus in the nineteenth century.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "healer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "leshy",
+   "name": "Leshy",
+   "sanskrit": "Leshy",
+   "category": "nature",
+   "era": "The Household",
+   "role": "The forest, walking about - as tall as the trees inside the wood and as low as the grass outside it",
+   "wikipedia": "Leshy",
+   "portrait": "portraits/slavic/leshy.webp",
+   "epithets": [
+    "the forest master",
+    "the wood-goblin",
+    "the one who leads you astray"
+   ],
+   "domains": [
+    "the forest",
+    "wolves",
+    "getting lost",
+    "game"
+   ],
+   "symbols": [
+    "boots on the wrong feet",
+    "the coat buttoned the wrong way",
+    "no shadow"
+   ],
+   "mount": null,
+   "abode": "The deep wood",
+   "festivals": [],
+   "worship": "",
+   "bio": "You get out of his forest by turning every piece of clothing inside out and swapping your boots.",
+   "longBio": "The leshy is the forest and he is exactly as tall as it - level with the pines in the middle of the wood and no higher than the grass at its edge. He leads people in circles for the fun of it, imitating voices, and the way out is to reverse yourself: turn your clothes inside out, put your boots on the wrong feet, walk backwards. He can be identified because he casts no shadow and his coat is buttoned the wrong way round. He herds wolves and owns the game, and a hunter or a herdsman could strike a deal with him, on terms that were not always favourable.",
+   "variantTraditions": "Widely attested across the East Slavic lands, with regional variants; in some he is one being per forest and in others a whole population of them.",
+   "storyIds": [
+    "the-fern-flower"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "divine-beast",
+    "messenger-trickster",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "vodyanoy",
+   "name": "Vodyanoy",
+   "sanskrit": "Vodyanoy",
+   "category": "nature",
+   "era": "The Household",
+   "role": "The water spirit, who drowns people and keeps the drowned as servants",
+   "wikipedia": "Vodyanoy",
+   "portrait": "portraits/slavic/vodyanoy.webp",
+   "epithets": [
+    "the water grandfather",
+    "the one in the mill pond"
+   ],
+   "domains": [
+    "rivers",
+    "mill ponds",
+    "drowning",
+    "fish",
+    "the millers who dealt with him"
+   ],
+   "symbols": [
+    "the green beard",
+    "the water weed",
+    "the mill wheel",
+    "the sturgeon he rides"
+   ],
+   "mount": null,
+   "abode": "The deep pool, especially under a mill",
+   "festivals": [],
+   "worship": "",
+   "bio": "Millers were suspected of feeding him, because their ponds drowned people and their mills worked.",
+   "longBio": "The vodyanoy is an old man made of river weed and slime with a green beard, and he lives in the deep water, especially the pool under a mill. He drags swimmers down and keeps the drowned in his household. Millers had a reputation for being on terms with him - a mill needs deep water, deep water drowns people, and the miller's business prospers - and were widely suspected of feeding him, sometimes with a black animal, and in the darker stories worse. Fishermen gave him the first of a catch, and nobody swam after dark or on his days.",
+   "variantTraditions": "The association of millers with the water spirit is consistent across the Slavic countries and made millers socially suspect well into the modern period.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sea-waters",
+    "primordial-adversary",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "rusalka",
+   "name": "Rusalka",
+   "sanskrit": "Rusalka",
+   "category": "nature",
+   "era": "The Household",
+   "role": "Not a mermaid. A girl who died wrong, out in the rye in the week she comes back",
+   "wikipedia": "Rusalka",
+   "portrait": "portraits/slavic/rusalka.webp",
+   "epithets": [
+    "the ones in the rye",
+    "the unclean dead",
+    "mavka in the south"
+   ],
+   "domains": [
+    "water",
+    "the rye fields",
+    "drowned and unbaptised girls",
+    "the week of Semik"
+   ],
+   "symbols": [
+    "loose unbound hair",
+    "the birch",
+    "the rye at the start of summer",
+    "the swing in the branches"
+   ],
+   "mount": null,
+   "abode": "The water in winter, the fields and birches in early summer",
+   "festivals": [],
+   "worship": "",
+   "bio": "In Rusalka Week they leave the water and go into the rye, and nobody works and nobody swims.",
+   "longBio": "The rusalki are the wrong dead: girls who drowned, or died unbaptised, or were pregnant and unmarried, and so could not be buried properly and did not stay put. For one week at the start of summer they come out of the water into the birches and the rye, and during it no one swims, no one works in the fields alone, and the week ends with the ceremonial seeing-off of the rusalki out of the village. They are dangerous, they laugh, they tickle people to death, and they are also pitied - the rites for them are somewhere between an exorcism and a funeral that was never held. The nineteenth-century image of a beautiful water-maiden is a literary softening.",
+   "variantTraditions": "The connection to the rye rather than to water is the older layer and was still the living form of the belief in Ukraine and Belarus when it was collected.",
+   "storyIds": [
+    "rusalka-week"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sea-waters",
+    "death-judge",
+    "love-desire",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "kikimora",
+   "name": "Kikimora",
+   "sanskrit": "Kikimora",
+   "category": "nature",
+   "era": "The Household",
+   "role": "She lives behind the stove too, and she spins all night, badly, and ruins your wool",
+   "wikipedia": "Kikimora",
+   "portrait": "portraits/slavic/kikimora.webp",
+   "epithets": [
+    "the one in the cellar",
+    "the domovoi's wife in some accounts"
+   ],
+   "domains": [
+    "spinning",
+    "chickens",
+    "insomnia",
+    "petty ruin"
+   ],
+   "symbols": [
+    "the spindle turning at night",
+    "tangled wool",
+    "the doll walled into a house by a bad carpenter"
+   ],
+   "mount": null,
+   "abode": "Behind the stove, or in the cellar",
+   "festivals": [],
+   "worship": "",
+   "bio": "A carpenter with a grudge could put one in a house on purpose, built into the walls.",
+   "longBio": "The kikimora is heard rather than seen, spinning at night behind the stove, and what she spins she spoils. She tangles the wool, torments the chickens, keeps the household awake and makes a noise. She may be the ghost of a child that died unbaptised or was cursed, and - in a detail that says a great deal about how people got on with tradesmen - a carpenter or stove-builder who felt he had been underpaid could deliberately install one in a house by building a small figure into the walls, and the family would have to move.",
+   "variantTraditions": "The malicious-carpenter belief is well recorded in northern Russia and shows the spirit-world doubling as a labour dispute.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "wisdom-craft",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "polevik",
+   "name": "Polevik",
+   "sanskrit": "Polevik",
+   "category": "nature",
+   "era": "The Household",
+   "role": "The field spirit, who walks the rows at noon and kills people asleep in them",
+   "wikipedia": "Field_spirit",
+   "portrait": "portraits/slavic/polevik.webp",
+   "epithets": [
+    "the noon-spirit",
+    "Poludnitsa, the noon-lady"
+   ],
+   "domains": [
+    "the fields",
+    "midday",
+    "sunstroke",
+    "harvest"
+   ],
+   "symbols": [
+    "the shimmer of heat at noon",
+    "the scythe",
+    "the white figure in the rye"
+   ],
+   "mount": null,
+   "abode": "The open field, at noon",
+   "festivals": [],
+   "worship": "",
+   "bio": "Poludnitsa walks the rye at midday and asks hard questions, and answers badly are fatal.",
+   "longBio": "The fields have their own owner, and the dangerous hour is not midnight but noon. Poludnitsa, the noon-lady, walks between the rows in the full heat in white, and finds anyone still working or asleep out there, and asks them questions - about flax, about work, about the harvest - and if they answer badly or stop answering she twists their head round or strikes them down. This is heatstroke given a shape and a set of manners, and the practical instruction underneath it is the correct one: get out of the field at noon.",
+   "variantTraditions": "Poludnitsa is best attested among the West Slavs and in Russia; the male polevik is the more general field-owner.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "primordial-adversary",
+    "sun"
+   ]
+  },
+  {
+   "id": "dziady",
+   "name": "The Dziady",
+   "sanskrit": "Dziady",
+   "category": "underworld",
+   "era": "The Household",
+   "role": "The ancestors, fed at a laid table several times a year, and they notice if you skip it",
+   "wikipedia": "Dziady",
+   "portrait": "portraits/slavic/dziady.webp",
+   "epithets": [
+    "the grandfathers",
+    "the forefathers",
+    "the ones who are still owed a meal"
+   ],
+   "domains": [
+    "the dead",
+    "the family",
+    "the feast",
+    "remembrance"
+   ],
+   "symbols": [
+    "the extra place laid",
+    "food left on the table overnight",
+    "the window left open"
+   ],
+   "mount": null,
+   "abode": "The other side, and the house on the right nights",
+   "festivals": [],
+   "worship": "",
+   "bio": "You set a place, you name them, you leave the food, and you do not clear it until morning.",
+   "longBio": "The most durable thing in this whole tradition is not a god but a meal. Several times a year - most importantly in autumn - the household laid an extra place, opened a window or a door, named the dead of the family aloud, and left food and drink out overnight for them. The dead were understood as still part of the household and entitled to be included, and being forgotten was the thing that made them dangerous. The church spent centuries trying to redirect the custom and eventually settled for absorbing it. Mickiewicz wrote a play about it in 1823 and it is still the most famous thing in Polish literature.",
+   "variantTraditions": "Recorded across the Slavic and Baltic lands; the rite survives in Christianised form in All Souls observances in Poland, Belarus and Ukraine.",
+   "storyIds": [
+    "bread-and-salt"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "baba_yaga",
+   "name": "Baba Yaga",
+   "sanskrit": "Baba Yaga",
+   "category": "underworld",
+   "era": "The Tales",
+   "role": "A house on chicken legs, a fence of skulls, and she may help you or eat you",
+   "wikipedia": "Baba_Yaga",
+   "portrait": "portraits/slavic/baba_yaga.webp",
+   "epithets": [
+    "the bony-legged",
+    "the one in the wood"
+   ],
+   "domains": [
+    "the forest",
+    "initiation",
+    "the threshold",
+    "tests",
+    "eating people"
+   ],
+   "symbols": [
+    "the hut on chicken legs",
+    "the mortar and pestle she flies in",
+    "the fence of bones with skulls on the posts"
+   ],
+   "mount": null,
+   "abode": "A hut in the deepest forest that turns on chicken legs",
+   "festivals": [],
+   "worship": "",
+   "bio": "She flies in a mortar, steering with the pestle and sweeping her tracks away behind her with a broom.",
+   "longBio": "Baba Yaga is the most recognisable figure in Slavic folklore and the least predictable. Her hut stands on chicken legs and turns to face whoever asks it properly; her fence is bone with skulls on the posts, and the skulls' eyes light the yard. She flies in a mortar and rows it with the pestle and sweeps away her tracks with a broom. She eats people. She also, quite often, feeds, bathes, advises and equips the hero who comes to her with correct manners and a straight answer. She is not a devil and not a goddess - she is the test at the edge of the known world, and passing it depends almost entirely on politeness.",
+   "variantTraditions": "Baba Yaga is a folktale figure, collected by Afanasyev and others. There is no medieval evidence for her as a goddess, whatever the internet says.",
+   "storyIds": [
+    "chicken-legs"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sage-seer",
+    "primordial-adversary",
+    "death-judge",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "koschei",
+   "name": "Koschei the Deathless",
+   "sanskrit": "Koschei Bessmertny",
+   "category": "underworld",
+   "era": "The Tales",
+   "role": "His death is in a needle, in an egg, in a duck, in a hare, in a chest, up an oak, on an island",
+   "wikipedia": "Koschei",
+   "portrait": "portraits/slavic/koschei.webp",
+   "epithets": [
+    "Koschei the Immortal",
+    "the bony one"
+   ],
+   "domains": [
+    "deathlessness",
+    "abduction",
+    "gold",
+    "the hidden soul"
+   ],
+   "symbols": [
+    "the needle",
+    "the egg",
+    "the iron chest under the oak",
+    "the horse that outruns anything"
+   ],
+   "mount": null,
+   "abode": "A castle at the end of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "He cannot be killed while his death is elsewhere, and finding it takes the whole story.",
+   "longBio": "Koschei steals the hero's wife and cannot be killed, because his death is not in his body. It is kept in a needle, and the needle is in an egg, and the egg is inside a duck, and the duck is inside a hare, and the hare is in an iron chest buried under an oak on an island in the sea. Getting to it is the plot: the hero is helped by animals he spared earlier, one at each stage. Break the needle and Koschei dies. The motif of the external soul turns up from Egypt to Scotland, and this is its most elaborate and most famous version.",
+   "variantTraditions": "A folktale figure. Afanasyev collected several versions; the nested-death sequence varies in its animals but never in its logic.",
+   "storyIds": [
+    "death-in-a-needle"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "death-judge",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "zmey",
+   "name": "Zmey Gorynych",
+   "sanskrit": "Zmey Gorynych",
+   "category": "beast",
+   "era": "The Tales",
+   "role": "A dragon with three heads that grow back, and a taste for princesses and tribute",
+   "wikipedia": "Zmey_Gorynych",
+   "portrait": "portraits/slavic/zmey.webp",
+   "epithets": [
+    "the mountain serpent",
+    "the three-headed"
+   ],
+   "domains": [
+    "fire",
+    "abduction",
+    "tribute",
+    "the mountains"
+   ],
+   "symbols": [
+    "three heads, or six, or twelve",
+    "fire from the mouths",
+    "the river crossing he guards"
+   ],
+   "mount": null,
+   "abode": "The mountains, or the far side of a river",
+   "festivals": [],
+   "worship": "",
+   "bio": "Cut off a head and it grows back unless you do something about the stump.",
+   "longBio": "Zmey Gorynych is the dragon of the East Slavic tales and the byliny: three heads at least, sometimes nine or twelve, fire from all of them, flying, and demanding tribute in people from whichever town he has settled near. Heads cut off grow back, so the hero has to burn or salt the stumps. He guards a river crossing - the Smorodina, with the Kalinov bridge over it, which is the boundary between the living and the dead - and Dobrynya Nikitich's fight with him at the ford is one of the standard episodes. He is a dragon in the plainest sense and does very little that is subtle.",
+   "variantTraditions": "A folktale and bylina figure. The reconstructed Perun-Veles duel is sometimes read behind him, which is speculation, though the serpent-at-the-water pattern is suggestive.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "primordial-adversary",
+    "fire",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "firebird",
+   "name": "The Firebird",
+   "sanskrit": "Zhar-ptitsa",
+   "category": "beast",
+   "era": "The Tales",
+   "role": "One feather lights a room, and finding one is the beginning of all your trouble",
+   "wikipedia": "Firebird_(Slavic_folklore)",
+   "portrait": "portraits/slavic/firebird.webp",
+   "epithets": [
+    "the glow-bird"
+   ],
+   "domains": [
+    "fire",
+    "light",
+    "the impossible quest",
+    "trouble that looks like luck"
+   ],
+   "symbols": [
+    "a single burning feather",
+    "golden apples",
+    "the cage"
+   ],
+   "mount": null,
+   "abode": "A garden at the end of the world",
+   "festivals": [],
+   "worship": "",
+   "bio": "The tales are unanimous: picking up the feather is the mistake, and the hero always does it.",
+   "longBio": "The firebird glows so brightly that one dropped feather lights a whole room, and it comes at night to steal golden apples from a tsar's garden. A prince is sent to catch it, and the quest runs through every other tale-motif there is - the grey wolf who helps, the horse that must not be touched, the brothers who betray him. The moral is stated outright at the start and always ignored: whoever picks up the feather will know great trouble. Stravinsky took it for a ballet in 1910 and made it the most internationally famous thing in Russian folklore.",
+   "variantTraditions": "Collected by Afanasyev in several forms; the warning about the feather is the constant element.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "fire",
+    "divine-beast",
+    "wealth-fortune",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "sirin",
+   "name": "Sirin and Alkonost",
+   "sanskrit": "Sirin i Alkonost",
+   "category": "beast",
+   "era": "The Tales",
+   "role": "Bird-women who sing - one so beautifully that men forget everything and die of it",
+   "wikipedia": "Sirin",
+   "portrait": "portraits/slavic/sirin.webp",
+   "epithets": [
+    "the birds of paradise",
+    "Gamayun the prophetic bird"
+   ],
+   "domains": [
+    "song",
+    "joy and sorrow",
+    "prophecy",
+    "paradise"
+   ],
+   "symbols": [
+    "a woman's head and a bird's body",
+    "the halo",
+    "the scroll Gamayun carries"
+   ],
+   "mount": null,
+   "abode": "The trees of paradise, and sometimes a Russian apple orchard",
+   "festivals": [],
+   "worship": "",
+   "bio": "Sirin's song makes men forget their lives; Alkonost's makes them forget their sorrow.",
+   "longBio": "Sirin and Alkonost are birds with women's heads, and they sing. Sirin's song is so beautiful that whoever hears it forgets everything he has and follows her until he dies; Alkonost's is the song of joy that takes away sorrow. They descend from the Greek sirens and the halcyon by way of Byzantium and appear all over medieval Russian art, on lubok prints, on carved house boards and painted chests. Gamayun, the third of them, is prophetic, and Vasnetsov painted her in 1897 as a dark bird with a woman's face on a branch, which is how most people picture her now.",
+   "variantTraditions": "Medieval Christian-era Russian material of Byzantine descent, not pre-Christian Slavic. Included because they are inseparable from the imagery.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "sage-seer",
+    "love-desire",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "upyr",
+   "name": "The Upyr",
+   "sanskrit": "Upyr",
+   "category": "underworld",
+   "era": "The Tales",
+   "role": "The original vampire, and the word reaches Western Europe from here",
+   "wikipedia": "Vampire_folklore",
+   "portrait": "portraits/slavic/upyr.webp",
+   "epithets": [
+    "upior",
+    "vampir",
+    "the one who does not lie still"
+   ],
+   "domains": [
+    "the restless dead",
+    "blood",
+    "plague",
+    "improper burial"
+   ],
+   "symbols": [
+    "the body that does not decay",
+    "the aspen stake",
+    "the grave dug up"
+   ],
+   "mount": null,
+   "abode": "A grave that will not settle",
+   "festivals": [],
+   "worship": "",
+   "bio": "It was a burial problem long before it was a literary genre.",
+   "longBio": "The upyr is the dead who will not stay dead - a suicide, a sorcerer, an excommunicate, somebody buried wrong or born with teeth or a caul - who leaves the grave and comes back to the family and the livestock, and brings sickness with them. The remedies were practical and physical: dig the body up, look at it, stake it with aspen, turn it face down, cut off the head, burn it. The word travelled west in the eighteenth century when Habsburg officials investigating village panics in Serbia wrote reports that were published, read across Europe, and eventually turned into fiction.",
+   "variantTraditions": "Attested in eleventh-century Rus texts as a term of abuse for pagans, and in burial archaeology across the Slavic lands.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "vila",
+   "name": "The Vily",
+   "sanskrit": "Vila",
+   "category": "nature",
+   "era": "The Tales",
+   "role": "South Slavic mountain women who dance, heal, shoot, and do not forgive interruption",
+   "wikipedia": "Vila_(fairy)",
+   "portrait": "portraits/slavic/vila.webp",
+   "epithets": [
+    "samodiva",
+    "samovila",
+    "the mountain maidens"
+   ],
+   "domains": [
+    "mountains",
+    "clouds",
+    "healing",
+    "archery",
+    "the dance"
+   ],
+   "symbols": [
+    "long unbound hair",
+    "the ring danced into the grass",
+    "the arrow",
+    "the horse or stag they ride"
+   ],
+   "mount": null,
+   "abode": "The mountains, the clouds, the springs",
+   "festivals": [],
+   "worship": "",
+   "bio": "Step into their dancing ring and you may not come out, and if you do it will not be this year.",
+   "longBio": "The vily of the South Slavs are women of the mountains and the clouds, with long loose hair and the power to heal or to shoot. They dance in rings in high meadows, and the ring is visible in the grass afterwards, and a person who blunders into one is taken. They can be forced into service if you steal the veil or a hair, which never ends well. They swear blood-sisterhood with heroes - Marko Kraljevic has one, who taught him and warned him - and they are the closest thing in the Slavic world to a being that is genuinely both benevolent and lethal depending on your manners.",
+   "variantTraditions": "Chiefly Serbian, Croatian, Bulgarian and Macedonian; the northern Slavic lands have nothing quite equivalent.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "divine-beast",
+    "healer",
+    "war",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "marzanna",
+   "name": "Marzanna",
+   "sanskrit": "Marzanna",
+   "category": "deity",
+   "era": "The Year",
+   "role": "Winter, made into a straw doll, and drowned in the river every March",
+   "wikipedia": "Marzanna",
+   "portrait": "portraits/slavic/marzanna.webp",
+   "epithets": [
+    "Morana",
+    "Morena",
+    "Smrtka",
+    "death, winter"
+   ],
+   "domains": [
+    "winter",
+    "death",
+    "the end of the cold",
+    "the effigy"
+   ],
+   "symbols": [
+    "the straw and rag doll",
+    "the river she is thrown into",
+    "the green branch carried back"
+   ],
+   "mount": null,
+   "abode": "The river, once a year",
+   "festivals": [],
+   "worship": "",
+   "bio": "Polish and Czech schoolchildren still do it, and the church spent centuries trying to stop them.",
+   "longBio": "Marzanna is winter and death in the form of a doll of straw and rags, carried out of the village in a procession at the spring equinox, set on fire or torn or simply thrown into the river, and left to go downstream. A green branch is then carried back in. Fifteenth-century Polish bishops condemned it repeatedly and it did not stop; it is still done in Poland, Slovakia and the Czech lands, mostly by children, and it is one of the very few pieces of this material that never went away at all. Whether she was ever a goddess or only ever an effigy is not something the sources can settle.",
+   "variantTraditions": "The rite is securely attested from the fifteenth century. The goddess behind it is an inference from the rite, not the other way round.",
+   "storyIds": [
+    "marzanna"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "destroyer",
+    "death-judge",
+    "fate-time",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "kupala",
+   "name": "Kupala Night",
+   "sanskrit": "Kupala",
+   "category": "deity",
+   "era": "The Year",
+   "role": "Midsummer: fires, jumping them in pairs, wreaths on the water, and the fern that flowers once",
+   "wikipedia": "Ivan_Kupala_Night",
+   "portrait": "portraits/slavic/kupala.webp",
+   "epithets": [
+    "Ivan Kupala after the church got hold of it",
+    "the bathing"
+   ],
+   "domains": [
+    "midsummer",
+    "fire",
+    "water",
+    "courtship",
+    "herbs"
+   ],
+   "symbols": [
+    "the bonfire jumped in pairs",
+    "the wreath floated downstream",
+    "the fern flower"
+   ],
+   "mount": null,
+   "abode": "Everywhere, on the shortest night",
+   "festivals": [],
+   "worship": "",
+   "bio": "The one night the fern flowers, and whoever finds it can understand animals and locate treasure.",
+   "longBio": "Midsummer night: bonfires lit and jumped over, in pairs, hand in hand, and whether you keep hold tells you whether the match will hold. Girls float wreaths of flowers and candles downstream and watch which way they go. Everyone bathes, herbs gathered that night are the strongest of the year, and somewhere in the forest the fern flowers for one moment, and whoever finds it will understand the speech of animals and see where treasure is buried. The church attached it to St John the Baptist, whose feast is the same week and who also involves water, and everyone carried on exactly as before.",
+   "variantTraditions": "Kupala as a god is probably a back-formation from the name of the feast, which appears to derive from a word for bathing. The festival is unquestionably ancient.",
+   "storyIds": [
+    "rusalka-week",
+    "the-fern-flower"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "love-desire",
+    "sea-waters",
+    "healer"
+   ]
+  },
+  {
+   "id": "yarilo",
+   "name": "Yarilo",
+   "sanskrit": "Yarilo",
+   "category": "deity",
+   "era": "The Year",
+   "role": "Spring, on a white horse, buried in effigy in June when the spring is over",
+   "wikipedia": "Jarilo",
+   "portrait": "portraits/slavic/yarilo.webp",
+   "epithets": [
+    "Yarila",
+    "the ardent one",
+    "the young one"
+   ],
+   "domains": [
+    "spring",
+    "fertility",
+    "grain",
+    "vigour",
+    "the young man"
+   ],
+   "symbols": [
+    "the white horse",
+    "the wreath of flowers",
+    "the effigy buried with mock weeping"
+   ],
+   "mount": null,
+   "abode": "The fields in spring, and a grave in early summer",
+   "festivals": [],
+   "worship": "",
+   "bio": "A young man in white on a white horse comes in; a few weeks later they bury a doll and pretend to mourn.",
+   "longBio": "Yarilo arrives in spring, represented in the rites by a young man dressed in white on a white horse crowned with flowers, and he is welcomed through the fields. Then, in June, a Yarilo doll is made, sometimes with an enormous phallus, and carried out and buried with loud mock lamentation and considerable laughter, because the spring is over and the growing is done and he is finished for the year. The rite is well recorded in nineteenth-century Russia and Serbia. Whether there was ever a god behind it, or only the ritual, is exactly the argument that runs through this whole pack.",
+   "variantTraditions": "The ritual is well attested. The reconstruction of Yarilo as an ancient god - the son of Perun, stolen by Veles - is a modern comparative hypothesis, not a recorded myth.",
+   "storyIds": [
+    "marzanna"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fate-time",
+    "earth-mother",
+    "love-desire",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "koliada",
+   "name": "Koliada",
+   "sanskrit": "Koliada",
+   "category": "deity",
+   "era": "The Year",
+   "role": "Midwinter carolling, in masks, with a star on a pole, demanding food with menaces",
+   "wikipedia": "Koliada",
+   "portrait": "portraits/slavic/koliada.webp",
+   "epithets": [
+    "Kolyada",
+    "the carol",
+    "the winter round"
+   ],
+   "domains": [
+    "midwinter",
+    "the turning of the year",
+    "carolling",
+    "masks"
+   ],
+   "symbols": [
+    "the star on a pole",
+    "the goat mask",
+    "the sack for what you are given"
+   ],
+   "mount": null,
+   "abode": "Village to village, in the twelve nights",
+   "festivals": [],
+   "worship": "",
+   "bio": "The songs promise prosperity if you give and a cheerfully specific ruin if you do not.",
+   "longBio": "At midwinter the young people went from house to house in masks - a goat, a bear, a crane, a dead man - carrying a star on a pole, singing at each door, and being given food and drink. The songs bless the household extravagantly and, if nothing is forthcoming, curse it with equal energy and some humour. It is attested everywhere in the Slavic world and it merged seamlessly into Christmas without changing very much. Koliada as a goddess of the winter sun is a nineteenth-century idea; the word almost certainly comes from the Latin calendae.",
+   "variantTraditions": "The custom is ancient and unquestioned. The deity is not: the name is a borrowed calendar term, and no medieval source treats Koliada as a person.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fate-time",
+    "wealth-fortune",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "mat_zemlya",
+   "name": "Mother Moist Earth",
+   "sanskrit": "Mat Syra Zemlya",
+   "category": "deity",
+   "era": "The Year",
+   "role": "You could swear an oath by putting earth on your head, and it was the oath nobody broke",
+   "wikipedia": "Mat_Zemlya",
+   "portrait": "portraits/slavic/mat_zemlya.webp",
+   "epithets": [
+    "Mat Syra Zemlya",
+    "damp mother earth"
+   ],
+   "domains": [
+    "the earth",
+    "oaths",
+    "healing",
+    "boundaries",
+    "sin"
+   ],
+   "symbols": [
+    "a handful of soil",
+    "the earth eaten or placed on the head to swear",
+    "the confession made to the ground"
+   ],
+   "mount": null,
+   "abode": "Underfoot",
+   "festivals": [],
+   "worship": "",
+   "bio": "In a boundary dispute a man walked the line with turf on his head, and his word was final.",
+   "longBio": "Mother Moist Earth is the most viscerally believed thing in Russian peasant religion and outlasted every god in this pack. You swore by her by putting a clod of earth on your head or swallowing a pinch of it, and that oath was held to be unbreakable - in land disputes the man who walked the boundary with turf on his head settled it. She could be sinned against by striking her, by ploughing before she had woken in spring, or by spitting on her. People confessed to her directly when no priest was available, and there are nineteenth-century accounts of the dying asking the earth's forgiveness.",
+   "variantTraditions": "Recorded in enormous detail in the nineteenth century. Whether she continues Mokosh or is an older and separate idea is unsettled.",
+   "storyIds": [
+    "the-storm-duel",
+    "rusalka-week"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "fate-time",
+    "healer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "chernobog",
+   "name": "Chernobog",
+   "sanskrit": "Chernobog",
+   "category": "deity",
+   "era": "The Year",
+   "role": "The black god, from one line of one chronicle, and everything else is later",
+   "wikipedia": "Chernobog",
+   "portrait": "portraits/slavic/chernobog.webp",
+   "epithets": [
+    "the black god"
+   ],
+   "domains": [
+    "misfortune",
+    "the bad luck cursed at a feast"
+   ],
+   "symbols": [
+    "the cup passed round with a curse over it"
+   ],
+   "mount": null,
+   "abode": "Unstated",
+   "festivals": [],
+   "worship": "",
+   "bio": "Helmold saw Slavs pass a cup at a feast and speak words over it against a black god.",
+   "longBio": "Helmold of Bosau, writing about 1170, says that at their feasts the Slavs passed a bowl round and spoke words over it in the name of a good god and an evil one, and that they called the evil one Chernobog, the black god. That is the entire medieval evidence, one sentence. It is enough to say there was a name and an idea of ill fortune attached to it. It is not enough for anything else - not a devil, not a lord of an underworld, not a cosmic adversary - and the towering figure of modern fantasy and of Disney's Night on Bald Mountain is built on that single line and nothing else.",
+   "variantTraditions": "Helmold does not name the good god. That silence is important - see Belobog, in the last section.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "belobog",
+   "name": "Belobog",
+   "sanskrit": "Belobog",
+   "category": "deity",
+   "era": "Probably Not True",
+   "role": "The white god - invented, almost certainly, as a mirror for the black one",
+   "wikipedia": "Belobog",
+   "portrait": "portraits/slavic/belobog.webp",
+   "epithets": [
+    "the white god",
+    "the one nobody actually recorded"
+   ],
+   "domains": [
+    "nothing attested",
+    "good fortune, by assumption"
+   ],
+   "symbols": [
+    "a symmetry that no source supports"
+   ],
+   "mount": null,
+   "abode": "Nowhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "Helmold mentions a good god at those feasts and pointedly does not give a name.",
+   "longBio": "Belobog is the good white god set opposite Chernobog, and he is almost certainly not real. Helmold, the only source for Chernobog, refers to a good god at the same feast but gives no name for him. Later writers, from the sixteenth century onwards, supplied one by simply inverting the word, and by the nineteenth century Belobog had a full character, a temple and a mythology, none of which rests on anything. He is the clearest single example of how this subject went wrong: an absence in a source, filled in because a symmetry felt right, and then repeated until it looked like evidence.",
+   "variantTraditions": "A handful of place names in Germany and the Czech lands contain bel- elements and have been offered as support. They are not good enough to carry it.",
+   "storyIds": [
+    "the-forged-book"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "supreme-source",
+    "preserver"
+   ]
+  },
+  {
+   "id": "lada",
+   "name": "Lada and Lel",
+   "sanskrit": "Lada, Lel, Polel",
+   "category": "deity",
+   "era": "Probably Not True",
+   "role": "A Polish chronicler heard a song refrain in 1450 and wrote down three gods",
+   "wikipedia": "Lada",
+   "portrait": "portraits/slavic/lada.webp",
+   "epithets": [
+    "Lada and Lelia",
+    "Lel and Polel",
+    "the refrain gods"
+   ],
+   "domains": [
+    "love and marriage, allegedly",
+    "nothing attested"
+   ],
+   "symbols": [
+    "a spring song nobody wrote the meaning of"
+   ],
+   "mount": null,
+   "abode": "Nowhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "Lado, lado, leli-leli is what you sing in a Slavic folk song, the way English sings fa-la-la.",
+   "longBio": "Jan Dlugosz, writing a history of Poland in the fifteenth century, wanted his Slavs to have a proper classical pantheon and set about supplying one, matching names to Roman gods. Among them are Lada, Lel and Polel, taken from the refrains of spring and wedding songs - lado, lado, leli-leli - which are nonsense syllables of the fa-la-la kind, still sung, and not names at all. From Dlugosz they went into every subsequent handbook, and Lada is now firmly established as a Slavic goddess of love and marriage in places where nobody has checked. She is a chorus.",
+   "variantTraditions": "The same process produced several other Polish 'gods' in Dlugosz and his successors; the refrain-etymology has been the scholarly consensus for over a century.",
+   "storyIds": [
+    "the-forged-book"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "veles_book",
+   "name": "The Book of Veles",
+   "sanskrit": "Vlesova kniga",
+   "category": "primordial",
+   "era": "Probably Not True",
+   "role": "A forged scripture from the 1950s, still quoted as an ancient text",
+   "wikipedia": "Book_of_Veles",
+   "portrait": "portraits/slavic/veles_book.webp",
+   "epithets": [
+    "Vlesova kniga",
+    "the wooden planks nobody has seen"
+   ],
+   "domains": [
+    "forgery",
+    "invented antiquity",
+    "national myth-making"
+   ],
+   "symbols": [
+    "planks of birch that only ever existed as photographs",
+    "a language that is not any real Slavic language"
+   ],
+   "mount": null,
+   "abode": "A Russian emigre's desk in Belgium or San Francisco",
+   "festivals": [],
+   "worship": "",
+   "bio": "It claims to be a ninth-century chronicle on wooden boards. The boards were never produced.",
+   "longBio": "The Book of Veles surfaced after the Second World War, presented by Russian emigres as a text copied from ancient wooden planks found in a ruined house in 1919 and subsequently lost, leaving only a photograph. It purports to give nine centuries of Slavic history and religion. Linguists went through it and found a language that is not Old Church Slavonic and not any attested Slavic dialect, but a modern mixture with errors no ninth-century writer could make. The scholarly verdict has been unanimous for sixty years. It is nonetheless printed, translated, taught in some schools, and quoted online as the primary source for a religion it invented.",
+   "variantTraditions": "Included here deliberately. It is the single largest source of false information about Slavic religion, and the pack would be dishonest to leave it out.",
+   "storyIds": [
+    "the-forged-book"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "messenger-trickster",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "perun",
+   "to": "veles",
+   "type": "enemy",
+   "note": "The storm is one hunting the other, and every strike is a hit"
+  },
+  {
+   "from": "veles",
+   "to": "perun",
+   "type": "enemy",
+   "note": "He hides as a tree, a stone, a cow, a man, and is found each time"
+  },
+  {
+   "from": "perun",
+   "to": "mokosh",
+   "type": "consort",
+   "note": "Reconstructed, not recorded - the sky and the wet earth"
+  },
+  {
+   "from": "perun",
+   "to": "svantovit",
+   "type": "sibling",
+   "note": "The same god, or a local one, depending on which scholar"
+  },
+  {
+   "from": "perun",
+   "to": "triglav",
+   "type": "sibling",
+   "note": "Both stood in temples the Germans came and knocked down"
+  },
+  {
+   "from": "perun",
+   "to": "zmey",
+   "type": "enemy",
+   "note": "The serpent at the water crossing, in the later telling"
+  },
+  {
+   "from": "veles",
+   "to": "zmey",
+   "type": "sibling",
+   "note": "The serpent form is his, if the reconstruction holds"
+  },
+  {
+   "from": "veles",
+   "to": "mat_zemlya",
+   "type": "ally",
+   "note": "Wealth, cattle and the damp ground all belong together"
+  },
+  {
+   "from": "veles",
+   "to": "upyr",
+   "type": "ally",
+   "note": "The dead who will not lie down are on his side of the line"
+  },
+  {
+   "from": "svarog",
+   "to": "dazhbog",
+   "type": "parent",
+   "note": "One glossator's note, and a whole mythology built on it"
+  },
+  {
+   "from": "svarog",
+   "to": "radegast",
+   "type": "parent",
+   "note": "Svarozhits, the little Svarog, at the temple at Rethra"
+  },
+  {
+   "from": "dazhbog",
+   "to": "khors",
+   "type": "sibling",
+   "note": "Two suns in one list, which nobody has ever explained"
+  },
+  {
+   "from": "dazhbog",
+   "to": "stribog",
+   "type": "sibling",
+   "note": "Side by side in Vladimir's list and in the Igor Tale"
+  },
+  {
+   "from": "stribog",
+   "to": "perun",
+   "type": "devotee",
+   "note": "The winds and the thunder, working the same weather"
+  },
+  {
+   "from": "mokosh",
+   "to": "mat_zemlya",
+   "type": "ally",
+   "note": "She may be the same idea, five centuries later"
+  },
+  {
+   "from": "mokosh",
+   "to": "rod",
+   "type": "ally",
+   "note": "Between them they decide what a newborn gets"
+  },
+  {
+   "from": "mokosh",
+   "to": "kikimora",
+   "type": "enemy",
+   "note": "Spinning done well and spinning done to spite you"
+  },
+  {
+   "from": "rod",
+   "to": "dziady",
+   "type": "ally",
+   "note": "The line running forward, and the line running back"
+  },
+  {
+   "from": "simargl",
+   "to": "khors",
+   "type": "sibling",
+   "note": "Two names on the list that look Iranian rather than Slavic"
+  },
+  {
+   "from": "svantovit",
+   "to": "triglav",
+   "type": "sibling",
+   "note": "Four heads at Arkona and three at Szczecin"
+  },
+  {
+   "from": "svantovit",
+   "to": "radegast",
+   "type": "ally",
+   "note": "A sacred horse walked over crossed spears, at both"
+  },
+  {
+   "from": "triglav",
+   "to": "radegast",
+   "type": "ally",
+   "note": "And at the third temple as well"
+  },
+  {
+   "from": "chernobog",
+   "to": "belobog",
+   "type": "enemy",
+   "note": "Except that only one of them is in any source"
+  },
+  {
+   "from": "belobog",
+   "to": "veles_book",
+   "type": "sibling",
+   "note": "Two things people are sure about that were made up"
+  },
+  {
+   "from": "lada",
+   "to": "veles_book",
+   "type": "sibling",
+   "note": "One from a misheard chorus, one from a typewriter"
+  },
+  {
+   "from": "lada",
+   "to": "kupala",
+   "type": "ally",
+   "note": "The songs the refrain was taken from are sung at midsummer"
+  },
+  {
+   "from": "domovoi",
+   "to": "kikimora",
+   "type": "consort",
+   "note": "The two behind the stove, in the accounts that pair them"
+  },
+  {
+   "from": "domovoi",
+   "to": "bannik",
+   "type": "sibling",
+   "note": "The house and the bathhouse, and only one of them is safe"
+  },
+  {
+   "from": "domovoi",
+   "to": "dziady",
+   "type": "ally",
+   "note": "In some accounts he simply is an ancestor of the house"
+  },
+  {
+   "from": "domovoi",
+   "to": "mat_zemlya",
+   "type": "devotee",
+   "note": "Bread and salt, given to whatever was there first"
+  },
+  {
+   "from": "leshy",
+   "to": "vodyanoy",
+   "type": "sibling",
+   "note": "The forest and the water, and both of them own what is in them"
+  },
+  {
+   "from": "leshy",
+   "to": "polevik",
+   "type": "sibling",
+   "note": "The wood and the field, and different hours to fear"
+  },
+  {
+   "from": "leshy",
+   "to": "baba_yaga",
+   "type": "ally",
+   "note": "Both of them are the far edge of the wood, with a test in it"
+  },
+  {
+   "from": "vodyanoy",
+   "to": "rusalka",
+   "type": "ally",
+   "note": "The drowned stay in his household"
+  },
+  {
+   "from": "rusalka",
+   "to": "upyr",
+   "type": "sibling",
+   "note": "Two kinds of dead that were buried wrong"
+  },
+  {
+   "from": "rusalka",
+   "to": "kupala",
+   "type": "ally",
+   "note": "Their week runs into midsummer and the wreaths on the water"
+  },
+  {
+   "from": "rusalka",
+   "to": "mat_zemlya",
+   "type": "devotee",
+   "note": "Out of the water and into the rye for one week"
+  },
+  {
+   "from": "bannik",
+   "to": "polevik",
+   "type": "sibling",
+   "note": "One kills you in the steam, the other in the sun"
+  },
+  {
+   "from": "polevik",
+   "to": "marzanna",
+   "type": "enemy",
+   "note": "Noon in the rye, and winter in the river"
+  },
+  {
+   "from": "baba_yaga",
+   "to": "koschei",
+   "type": "ally",
+   "note": "The two of them turn up in the same tales, usually in that order"
+  },
+  {
+   "from": "baba_yaga",
+   "to": "firebird",
+   "type": "guru",
+   "note": "She is where the hero is told what to do next"
+  },
+  {
+   "from": "koschei",
+   "to": "firebird",
+   "type": "enemy",
+   "note": "Both are at the end of the same road"
+  },
+  {
+   "from": "koschei",
+   "to": "zmey",
+   "type": "sibling",
+   "note": "Two ways of taking a woman and refusing to die"
+  },
+  {
+   "from": "firebird",
+   "to": "sirin",
+   "type": "sibling",
+   "note": "Bird-figures from very different centuries"
+  },
+  {
+   "from": "sirin",
+   "to": "vila",
+   "type": "sibling",
+   "note": "Both of them sing, and neither song is safe"
+  },
+  {
+   "from": "vila",
+   "to": "rusalka",
+   "type": "sibling",
+   "note": "The south and the north of the same idea, with different manners"
+  },
+  {
+   "from": "vila",
+   "to": "perun",
+   "type": "devotee",
+   "note": "They live in the clouds, and the clouds are his"
+  },
+  {
+   "from": "marzanna",
+   "to": "yarilo",
+   "type": "enemy",
+   "note": "One is drowned in March so the other can arrive"
+  },
+  {
+   "from": "yarilo",
+   "to": "kupala",
+   "type": "ally",
+   "note": "He is buried in June, and midsummer follows"
+  },
+  {
+   "from": "kupala",
+   "to": "koliada",
+   "type": "sibling",
+   "note": "The two ends of the year, and the two big fires"
+  },
+  {
+   "from": "koliada",
+   "to": "dziady",
+   "type": "ally",
+   "note": "Masked visitors at the door in the dark of the year"
+  },
+  {
+   "from": "koliada",
+   "to": "marzanna",
+   "type": "ally",
+   "note": "Winter greeted at one end and drowned at the other"
+  },
+  {
+   "from": "mat_zemlya",
+   "to": "dziady",
+   "type": "ally",
+   "note": "The ancestors are in her"
+  },
+  {
+   "from": "yarilo",
+   "to": "perun",
+   "type": "parent",
+   "note": "A modern reconstruction, and worth flagging as one"
+  },
+  {
+   "from": "yarilo",
+   "to": "veles",
+   "type": "enemy",
+   "note": "In the same reconstruction, stolen by him as an infant"
+  },
+  {
+   "from": "chernobog",
+   "to": "upyr",
+   "type": "ally",
+   "note": "Whatever ill luck was being cursed away over that cup"
+  },
+  {
+   "from": "veles_book",
+   "to": "perun",
+   "type": "enemy",
+   "note": "It puts words in his mouth that he never had"
+  },
+  {
+   "from": "veles_book",
+   "to": "veles",
+   "type": "enemy",
+   "note": "And uses his name on the cover"
+  },
+  {
+   "from": "zmey",
+   "to": "vila",
+   "type": "enemy",
+   "note": "In the southern songs, the dragon and the mountain women"
+  },
+  {
+   "from": "upyr",
+   "to": "dziady",
+   "type": "enemy",
+   "note": "The dead who are fed, and the dead who come and take"
+  },
+  {
+   "from": "khors",
+   "to": "yarilo",
+   "type": "sibling",
+   "note": "Two figures with the sun somewhere behind them"
+  },
+  {
+   "from": "svantovit",
+   "to": "koliada",
+   "type": "ally",
+   "note": "Both concerned with what the coming year will bring"
+  },
+  {
+   "from": "firebird",
+   "to": "koschei",
+   "type": "ally",
+   "note": "The grey wolf carries the hero between the two of them"
+  },
+  {
+   "from": "kikimora",
+   "to": "rusalka",
+   "type": "sibling",
+   "note": "Both may be a child that died unbaptised"
+  },
+  {
+   "from": "baba_yaga",
+   "to": "mat_zemlya",
+   "type": "sibling",
+   "note": "The oldest woman in the wood, and the oldest woman there is"
+  }
+ ]
+}
