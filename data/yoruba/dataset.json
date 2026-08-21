@@ -1,0 +1,1798 @@
+{
+ "title": "Yoruba Mythology: Figures, Relationships and Story Cycles",
+ "description": "Olodumare and the orisha mapped as a relationship graph: the chain let down at Ile-Ife, the warriors at the crossroads, the destiny each person chose before birth, and the crossing to the Americas.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Samuel Johnson, The History of the Yorubas (written 1897, published 1921) - by a Yoruba historian, and the best of the early sources",
+  "A. B. Ellis, The Yoruba-Speaking Peoples (1894) - useful, and condescending in the manner of its day",
+  "R. E. Dennett, Nigerian Studies (1910)",
+  "Leo Frobenius, The Voice of Africa (1913) - vivid, and unreliable where he theorises",
+  "Note: the Ifa corpus is oral and held by trained babalawo; no published source contains it, and none is claimed here",
+  "Encyclopaedia Britannica and Wikipedia for cross-checking orthography and diaspora correspondences"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/yoruba/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "johnson": {
+   "t": "The History of the Yorubas",
+   "tr": "Samuel Johnson, written 1897, published 1921",
+   "u": "https://archive.org/details/historyofyorubas00john"
+  },
+  "ellis": {
+   "t": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+   "tr": "A. B. Ellis, 1894",
+   "u": "https://sacred-texts.com/afr/yor/index.htm"
+  },
+  "dennett": {
+   "t": "Nigerian Studies, or the Religious and Political System of the Yoruba",
+   "tr": "R. E. Dennett, 1910",
+   "u": "https://archive.org/details/nigerianstudieso00denn"
+  },
+  "frobenius": {
+   "t": "The Voice of Africa",
+   "tr": "Leo Frobenius, tr. Rudolf Blind, 1913",
+   "u": "https://archive.org/details/voiceofafricabei01frob"
+  },
+  "lucas": {
+   "t": "The Religion of the Yorubas",
+   "tr": "J. Olumide Lucas, 1948",
+   "u": "https://archive.org/details/religionofyoruba0000luca"
+  }
+ },
+ "meta": {
+  "id": "yoruba",
+  "label": "Yoruba",
+  "sublabel": "West Africa & the diaspora",
+  "accent": "#7fb069",
+  "root": "olodumare"
+ },
+ "profile": {
+  "cosmicNature": "Two halves of a calabash. The upper is orun, the invisible world of Olodumare and the orisha and the ancestors; the lower is aye, the world we walk about in. They are not far apart and traffic between them is constant. Creation happens at Ile-Ife, where a chain was let down and earth poured onto water, and every Yoruba town measures its founding from there.",
+  "natureOfDivinity": "A remote source and hundreds of working intermediaries. Olodumare made everything and is not approached directly - there are no temples and no priesthood for him. Everything you actually do is done with an orisha, of whom there are said to be four hundred and one, and each has a colour, a food, a rhythm, a set of taboos and a personality with real edges. Some were people once and were elevated after death.",
+  "afterlife": "You go back and you come again. The dead join the ancestors in orun and are consulted, fed and expected to take an interest; the egungun masquerade brings them into the street to speak. Good people return, often into their own lineage - a child may be named Babatunde, father returns, or Yetunde, mother returns. Bad conduct is punished by an unpleasant afterlife and, worse, by not being reborn.",
+  "systemMechanism": "Character, and asking properly. Iwa pele - good character, gentle character - is the thing the whole ethical system rests on, and the Ifa verses repeat that it outweighs wealth, beauty and cleverness. The mechanism for finding out what to do is divination: a babalawo casts the opele chain or the ikin nuts, arrives at one of 256 odu, and recites the verses attached to it until the client recognises their own situation.",
+  "canonTexts": "There is no scripture. The Ifa corpus - 256 odu, each with hundreds of verses - is held in the memory of trained babalawo and was not written down as a whole. Beside it sit the oriki, praise-poems for each orisha and each lineage, the itan or histories, and the drum and song repertoires. The published sources are transcriptions made from the 1890s onward."
+ },
+ "hierarchy": [
+  {
+   "title": "The Source",
+   "blurb": "Olodumare made everything and has no temple, no priest and no image anywhere, which is not neglect - you go through the orisha instead. Below him, three who did the actual work, and the destiny each person chose before they were born.",
+   "memberIds": [
+    "olodumare",
+    "obatala",
+    "oduduwa",
+    "orunmila",
+    "ori"
+   ],
+   "connectorCaption": "Everything sent up or down passes through one figure at the crossroads"
+  },
+  {
+   "title": "The Warriors and the Road",
+   "blurb": "Eshu opens the way and takes every offering to where it is going. Ogun cuts the path with iron. Oshosi tracks what is being looked for. They are kept together, and they are received together.",
+   "memberIds": [
+    "eshu",
+    "ogun",
+    "oshosi"
+   ],
+   "connectorCaption": "Behind them, the great orisha of weather, water and fire"
+  },
+  {
+   "title": "The Great Orisha",
+   "blurb": "A king who hanged himself and became thunder. The wind that arrives before the storm and owns the cemetery gate. A river that crossed the Atlantic and became the ocean. And the one who stopped the rain until the men apologised.",
+   "memberIds": [
+    "shango",
+    "oya",
+    "yemoja",
+    "oshun",
+    "oba",
+    "olokun"
+   ],
+   "connectorCaption": "Beside them the working orisha - medicine, farming, disease, money"
+  },
+  {
+   "title": "The Working Orisha",
+   "blurb": "Smallpox and its cure in one figure. A one-legged, one-eyed lord of every leaf. The yam and the settling of land disputes. And a whirlwind that carries herbalists into the forest and gives them back trained.",
+   "memberIds": [
+    "obaluaye",
+    "osanyin",
+    "aja",
+    "orisha_oko",
+    "aje",
+    "ibeji"
+   ],
+   "connectorCaption": "And around all of it the human institutions: the twins, the masks, the dead"
+  },
+  {
+   "title": "The Histories and the Crossing",
+   "blurb": "A queen who let herself be captured and paid for it with her son. Masks that honour the power of elder women. Ancestors who come back into the street in cloth. And the passage that carried all of it to the Americas.",
+   "memberIds": [
+    "moremi",
+    "gelede",
+    "egungun",
+    "olokun_diaspora"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "source",
+   "label": "The Source",
+   "memberIds": [
+    "olodumare",
+    "obatala",
+    "oduduwa",
+    "orunmila",
+    "ori"
+   ]
+  },
+  {
+   "id": "warriors",
+   "label": "The Warriors",
+   "memberIds": [
+    "eshu",
+    "ogun",
+    "oshosi"
+   ]
+  },
+  {
+   "id": "waters",
+   "label": "The Waters",
+   "memberIds": [
+    "yemoja",
+    "oshun",
+    "oba",
+    "olokun",
+    "aje"
+   ]
+  },
+  {
+   "id": "storm",
+   "label": "Thunder and Wind",
+   "memberIds": [
+    "shango",
+    "oya",
+    "ogun"
+   ]
+  },
+  {
+   "id": "healers",
+   "label": "Medicine and the Leaves",
+   "memberIds": [
+    "obaluaye",
+    "osanyin",
+    "aja",
+    "orisha_oko"
+   ]
+  },
+  {
+   "id": "human",
+   "label": "Masks, Twins and Ancestors",
+   "memberIds": [
+    "gelede",
+    "egungun",
+    "ibeji",
+    "moremi"
+   ]
+  },
+  {
+   "id": "diaspora",
+   "label": "Across the Atlantic",
+   "memberIds": [
+    "olokun_diaspora",
+    "shango",
+    "yemoja",
+    "obaluaye",
+    "eshu",
+    "oshun"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-chain",
+   "title": "The Chain Let Down at Ife",
+   "era": "The Source",
+   "cast": [
+    "olodumare",
+    "obatala",
+    "oduduwa"
+   ],
+   "summary": "There is only water. Olodumare gives Obatala a snail shell packed with earth, a five-toed hen and a chain, and tells him to go down and make land. On the way Obatala passes a party, drinks palm wine, and falls asleep. Oduduwa picks up the load, climbs down the chain, pours out the earth on the water and sets the hen on it - and the hen scratches, and the soil spreads out under her feet in every direction until there is dry ground. The place is Ile-Ife, and it is still the centre of the Yoruba world. Obatala wakes up, and the argument about who really made the earth has never been settled.",
+   "sources": [
+    {
+     "book": "The History of the Yorubas",
+     "translation": "Samuel Johnson, written 1897, published 1921",
+     "location": "Chapter 1",
+     "url": "https://archive.org/details/historyofyorubas00john"
+    },
+    {
+     "book": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+     "translation": "A. B. Ellis, 1894",
+     "location": "Chapter 2",
+     "url": "https://sacred-texts.com/afr/yor/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "drunk-at-the-clay",
+   "title": "The Ones He Made While Drunk",
+   "era": "The Source",
+   "cast": [
+    "obatala",
+    "olodumare"
+   ],
+   "summary": "Obatala's work is to shape the bodies, out of clay, before Olodumare puts breath in them. One day he drank palm wine first and kept working, and the bodies came out wrong - limbs bent, spines curved, eyes that would not see, parts missing. When he understood what he had done he swore never to touch palm wine again, and he took those people as his own, under his particular protection. So in Yorubaland a person born with a disability is called eni orisa, a person of the orisha, and belongs to Obatala, and to mock one is a serious religious offence. It is an unusually humane use of a creation story.",
+   "sources": [
+    {
+     "book": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+     "translation": "A. B. Ellis, 1894",
+     "location": "Chapter 3",
+     "url": "https://sacred-texts.com/afr/yor/index.htm"
+    },
+    {
+     "book": "The Religion of the Yorubas",
+     "translation": "J. Olumide Lucas, 1948",
+     "location": "On Obatala",
+     "url": "https://archive.org/details/religionofyoruba0000luca"
+    }
+   ]
+  },
+  {
+   "id": "choosing-ori",
+   "title": "Choosing a Head",
+   "era": "The Source",
+   "cast": [
+    "ori",
+    "olodumare",
+    "orunmila"
+   ],
+   "summary": "Before a person is born they kneel in orun in front of Olodumare and choose an ori - the destiny they will live, its length, its luck, its shape. Then they cross into the world and forget entirely what they picked. That forgetting is why Ifa exists: Orunmila was standing there, he saw the choice, and a babalawo can ask him what it was. But it is not fatalism. The tradition holds that iwa pele, good character, can improve a poor destiny, and that bad character will waste a good one - so the head you chose sets the terms and what you do with it is still yours.",
+   "sources": [
+    {
+     "book": "The Religion of the Yorubas",
+     "translation": "J. Olumide Lucas, 1948",
+     "location": "On Ori",
+     "url": "https://archive.org/details/religionofyoruba0000luca"
+    },
+    {
+     "book": "Nigerian Studies, or the Religious and Political System of the Yoruba",
+     "translation": "R. E. Dennett, 1910",
+     "location": "Chapter on destiny",
+     "url": "https://archive.org/details/nigerianstudieso00denn"
+    }
+   ]
+  },
+  {
+   "id": "black-and-white-cap",
+   "title": "The Cap That Was Two Colours",
+   "era": "The Orisha",
+   "cast": [
+    "eshu"
+   ],
+   "summary": "Two men had been friends since childhood, farmed adjoining fields, dressed alike and were held up by everyone as inseparable. Eshu walked the boundary between their farms wearing a cap that was black on one side and white on the other, and said nothing. Afterwards one said, did you see that man in the white cap, and the other said, it was black. They argued, then shouted, then fought, and the friendship was finished. Eshu came back and told them what he had done and asked why they had assumed the other was lying. The story is not about mischief for its own sake - it is about how little it takes.",
+   "sources": [
+    {
+     "book": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+     "translation": "A. B. Ellis, 1894",
+     "location": "Chapter 5",
+     "url": "https://sacred-texts.com/afr/yor/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "ogun-cuts-the-path",
+   "title": "The Only Blade That Would Cut",
+   "era": "The Orisha",
+   "cast": [
+    "ogun",
+    "obatala",
+    "oshosi",
+    "eshu"
+   ],
+   "summary": "When the orisha first came down, the world was solid bush and none of them could get through it. They tried in turn and failed, because their tools were soft metal and wood. Ogun had iron. He cut the road, and the others followed him along it, and afterwards they offered him the kingship for it - which he took, briefly, and then went back to the forest, because he preferred it. Everything made of iron has been his since: the smith's forge, the hunter's gun, the surgeon's knife, the lorry on the road. A Yoruba witness in a Nigerian court may still swear on a piece of iron rather than a book.",
+   "sources": [
+    {
+     "book": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+     "translation": "A. B. Ellis, 1894",
+     "location": "Chapter 4",
+     "url": "https://sacred-texts.com/afr/yor/index.htm"
+    },
+    {
+     "book": "The History of the Yorubas",
+     "translation": "Samuel Johnson, written 1897, published 1921",
+     "location": "Chapter 2",
+     "url": "https://archive.org/details/historyofyorubas00john"
+    }
+   ]
+  },
+  {
+   "id": "oba-koso",
+   "title": "The King Did Not Hang",
+   "era": "The Orisha",
+   "cast": [
+    "shango",
+    "oya",
+    "oshun"
+   ],
+   "summary": "Shango was the fourth Alaafin of Oyo and a frightening one. Experimenting with a charm that pulled lightning down, he brought it onto his own palace and killed his own family. He left the city, and in the bush he hanged himself from a tree. His enemies mocked his followers with oba so - the king hanged - and the followers answered oba koso, the king did not hang, and that is his praise name still. He became an orisha. When lightning destroys a building in Yorubaland his priests attend, dig in the ruins for a thunderstone - a neolithic axe head - and take it away to the shrine.",
+   "sources": [
+    {
+     "book": "The History of the Yorubas",
+     "translation": "Samuel Johnson, written 1897, published 1921",
+     "location": "Chapter 3",
+     "url": "https://archive.org/details/historyofyorubas00john"
+    },
+    {
+     "book": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+     "translation": "A. B. Ellis, 1894",
+     "location": "Chapter 4",
+     "url": "https://sacred-texts.com/afr/yor/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "seventeenth",
+   "title": "The Seventeenth Was a Woman",
+   "era": "The Orisha",
+   "cast": [
+    "oshun",
+    "obatala",
+    "ogun",
+    "shango",
+    "olodumare"
+   ],
+   "summary": "Olodumare sent seventeen orisha down to put the world in order: sixteen men and Oshun. The men held their meetings and made their plans without asking her. Nothing worked. The rain stopped, the seeds did not come up, the women did not conceive, and everything they attempted failed. They went back up to complain, and Olodumare asked one question - where was Oshun when you did all this. They came back down and asked her properly, and she agreed to help, and the rain came and the crops grew and children were born. Her weapons in that story are diplomacy and withdrawal, and they are enough.",
+   "sources": [
+    {
+     "book": "Nigerian Studies, or the Religious and Political System of the Yoruba",
+     "translation": "R. E. Dennett, 1910",
+     "location": "Chapter on the orisha",
+     "url": "https://archive.org/details/nigerianstudieso00denn"
+    },
+    {
+     "book": "The Religion of the Yorubas",
+     "translation": "J. Olumide Lucas, 1948",
+     "location": "On Oshun",
+     "url": "https://archive.org/details/religionofyoruba0000luca"
+    }
+   ]
+  },
+  {
+   "id": "the-ear-in-the-soup",
+   "title": "The Ear in the Soup",
+   "era": "The Orisha",
+   "cast": [
+    "oba",
+    "oshun",
+    "shango"
+   ],
+   "summary": "Oba was Shango's senior wife and losing his attention, so she asked Oshun what to do. Oshun told her that Shango loved a soup made with a wife's own ear, and let her see a mushroom floating in her own pot as evidence that she had done it herself. Oba went home and cut off her ear and cooked it and served it. Shango found it in the bowl and was appalled and drove her out of the house. She fled and became the river Oba, and where the Oba meets the Osun there is a violent stretch of rapids that people will point out to you as the two of them still going at it. The story does not excuse Oshun.",
+   "sources": [
+    {
+     "book": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+     "translation": "A. B. Ellis, 1894",
+     "location": "Chapter 4",
+     "url": "https://sacred-texts.com/afr/yor/index.htm"
+    },
+    {
+     "book": "The Religion of the Yorubas",
+     "translation": "J. Olumide Lucas, 1948",
+     "location": "On Oba",
+     "url": "https://archive.org/details/religionofyoruba0000luca"
+    }
+   ]
+  },
+  {
+   "id": "moremi-and-the-raffia",
+   "title": "Moremi and the Raffia",
+   "era": "The Histories",
+   "cast": [
+    "moremi",
+    "oduduwa"
+   ],
+   "summary": "Ife was being raided by attackers who seemed not to be men at all - shapeless, covered, terrifying - and the town could not stand against them. Moremi went to the river Esimirin and vowed to give whatever was asked if she could learn what they were. Then she let herself be captured. She became the wife of their king, and in time learned the secret: they were men wearing raffia, and raffia burns. She escaped back to Ife, the town met the next raid with torches, and the raiders were finished. Then the river named its price, and it was her only son Oluorogbo. She paid it. Her festival is still kept.",
+   "sources": [
+    {
+     "book": "The History of the Yorubas",
+     "translation": "Samuel Johnson, written 1897, published 1921",
+     "location": "Chapter 1",
+     "url": "https://archive.org/details/historyofyorubas00john"
+    },
+    {
+     "book": "The Voice of Africa",
+     "translation": "Leo Frobenius, tr. Rudolf Blind, 1913",
+     "location": "On Ife",
+     "url": "https://archive.org/details/voiceofafricabei01frob"
+    }
+   ]
+  },
+  {
+   "id": "crossing",
+   "title": "How the Orisha Crossed",
+   "era": "The Histories",
+   "cast": [
+    "olokun_diaspora",
+    "shango",
+    "yemoja",
+    "obaluaye",
+    "eshu"
+   ],
+   "summary": "Millions of West Africans were carried to the Americas, a great many of them Yoruba-speaking, and concentrated in Cuba and in Bahia. Practising openly was not possible, so the orisha were placed behind Catholic saints whose pictures could sit on a wall without comment - Shango behind Saint Barbara, who is invoked against lightning; Yemoja behind Our Lady of Regla; Babalu Aye behind Saint Lazarus, covered in sores. Eshu was placed behind the Devil, which was a missionary's error rather than a worshipper's, and it has done lasting damage. Whether this was disguise or genuine belief varied by place. Either way the tradition survived.",
+   "sources": [
+    {
+     "book": "The History of the Yorubas",
+     "translation": "Samuel Johnson, written 1897, published 1921",
+     "location": "Preface",
+     "url": "https://archive.org/details/historyofyorubas00john"
+    },
+    {
+     "book": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+     "translation": "A. B. Ellis, 1894",
+     "location": "Introduction",
+     "url": "https://sacred-texts.com/afr/yor/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "gelede-night",
+   "title": "The Spectacle for the Mothers",
+   "era": "The Histories",
+   "cast": [
+    "gelede",
+    "oya",
+    "ibeji"
+   ],
+   "summary": "Awon iya wa - our mothers - are elder women whose power is real and is not discussed directly, and which can hold a town together or take it apart. Gelede is the festival that keeps that power well disposed. Men wear carved wooden headdresses above their faces and dance in the marketplace, and the carvings show ordinary life: a woman with a baby, a hunter, a policeman, a man on a motorbike. The performance is comic and sharply satirical, and it names local hypocrites without naming them. The serious part runs at night, the display by day. UNESCO listed it in 2001.",
+   "sources": [
+    {
+     "book": "Nigerian Studies, or the Religious and Political System of the Yoruba",
+     "translation": "R. E. Dennett, 1910",
+     "location": "On masquerade",
+     "url": "https://archive.org/details/nigerianstudieso00denn"
+    },
+    {
+     "book": "The Voice of Africa",
+     "translation": "Leo Frobenius, tr. Rudolf Blind, 1913",
+     "location": "On the mask societies",
+     "url": "https://archive.org/details/voiceofafricabei01frob"
+    }
+   ]
+  },
+  {
+   "id": "egungun-in-the-street",
+   "title": "The Cloth in the Street",
+   "era": "The Histories",
+   "cast": [
+    "egungun",
+    "oya",
+    "ori"
+   ],
+   "summary": "An egungun comes out covered head to foot in layers of expensive cloth, with not a fingertip showing, moving in a way that is not quite a person's walk and speaking in a voice that is not quite a person's voice. Attendants go ahead of it with whips to keep the crowd from touching the cloth, because what is under it is an ancestor rather than the man everybody knows is under it, and both of those things are true at once. It blesses, it settles disputes, it says things about the living that the living would rather not have said in public, and it collects on family obligations.",
+   "sources": [
+    {
+     "book": "The History of the Yorubas",
+     "translation": "Samuel Johnson, written 1897, published 1921",
+     "location": "Chapter on customs",
+     "url": "https://archive.org/details/historyofyorubas00john"
+    },
+    {
+     "book": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+     "translation": "A. B. Ellis, 1894",
+     "location": "Chapter 7",
+     "url": "https://sacred-texts.com/afr/yor/index.htm"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "olodumare",
+   "name": "Olodumare",
+   "sanskrit": "Olódùmarè",
+   "category": "creator",
+   "era": "The Source",
+   "role": "The owner of everything, who has no temple and is not asked for favours",
+   "wikipedia": "Olodumare",
+   "portrait": "portraits/yoruba/olodumare.webp",
+   "epithets": [
+    "Olorun, owner of the sky",
+    "Eleda, the creator",
+    "Olofin"
+   ],
+   "domains": [
+    "creation",
+    "destiny",
+    "the breath of life",
+    "final authority"
+   ],
+   "symbols": [
+    "the sky",
+    "no image at all",
+    "white cloth"
+   ],
+   "mount": null,
+   "abode": "Orun, the invisible world",
+   "festivals": [],
+   "worship": "",
+   "bio": "There is no shrine to him anywhere, and that is the point - you go through the orisha instead.",
+   "longBio": "Olodumare is the source: he made everything, he gives each person their ori, the destiny they choose before birth, and the breath in a body is his. And he has no priesthood, no temple, no festival and no image, which is not neglect but design. He is approached through the orisha, who are near enough to have personalities and preferences and to be argued with. The name is usually parsed as owner of the stretch that never ends. When he wants something done in the world he delegates, and the whole rest of this pack is the delegation.",
+   "variantTraditions": "Whether Olodumare was always understood as a single supreme god, or whether missionary contact sharpened that, is argued; the remoteness and the lack of cult are well attested from the earliest sources.",
+   "storyIds": [
+    "the-chain",
+    "drunk-at-the-clay",
+    "choosing-ori",
+    "seventeenth"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "obatala",
+   "name": "Obatala",
+   "sanskrit": "Ọbàtálá",
+   "category": "creator",
+   "era": "The Source",
+   "role": "The one who shapes bodies, and who once did it drunk",
+   "wikipedia": "Obatala",
+   "portrait": "portraits/yoruba/obatala.webp",
+   "epithets": [
+    "Orisanla, the great orisha",
+    "King of the White Cloth",
+    "Oxala in Brazil"
+   ],
+   "domains": [
+    "the shaping of human bodies",
+    "purity",
+    "calm",
+    "white cloth",
+    "the disabled"
+   ],
+   "symbols": [
+    "white cloth",
+    "the lead staff",
+    "chalk",
+    "the snail shell"
+   ],
+   "mount": null,
+   "abode": "Ile-Ife, and every white shrine",
+   "festivals": [],
+   "worship": "",
+   "bio": "He makes every human body by hand - and the ones he made while drunk are sacred to him.",
+   "longBio": "Olodumare gave Obatala the job of forming human bodies out of clay before Olodumare breathes life into them. One day he drank too much palm wine and worked anyway, and the people he made that day came out with crooked limbs, blind eyes and missing parts. When he sobered up he swore off palm wine forever and took those people under his particular protection, so that in Yorubaland a person born disabled is called eni orisa, a person of the orisha, and is his. His colour is white, his followers wear it, and his taboos are palm wine, salt and dogs.",
+   "variantTraditions": "Obatala and Orisanla are treated as one here, following most sources; some traditions distinguish them.",
+   "storyIds": [
+    "the-chain",
+    "drunk-at-the-clay",
+    "ogun-cuts-the-path",
+    "seventeenth"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "preserver",
+    "healer",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "oduduwa",
+   "name": "Oduduwa",
+   "sanskrit": "Odùduwà",
+   "category": "creator",
+   "era": "The Source",
+   "role": "He got the job of making land when Obatala was drunk, and founded a dynasty on it",
+   "wikipedia": "Oduduwa",
+   "portrait": "portraits/yoruba/oduduwa.webp",
+   "epithets": [
+    "the first Ooni of Ife",
+    "ancestor of the Yoruba kings"
+   ],
+   "domains": [
+    "the making of dry land",
+    "kingship",
+    "Ile-Ife",
+    "the royal lineages"
+   ],
+   "symbols": [
+    "the beaded crown with a veil",
+    "the chain let down from the sky",
+    "the five-toed hen"
+   ],
+   "mount": null,
+   "abode": "Ile-Ife",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every Yoruba king traces his crown to him, which makes him the most politically loaded figure here.",
+   "longBio": "The world is water. Obatala is sent down with a snail shell of earth, a hen and a chain - and stops for palm wine on the way. Oduduwa takes the load, climbs down the chain at Ile-Ife, pours out the earth, sets the hen on it, and the hen scratches the soil out in all directions until there is land. Ile-Ife is where it happened and is still the ritual centre of the Yoruba world. His sixteen sons and grandsons went out and founded the kingdoms, so a Yoruba oba's right to a beaded crown is a claim of descent from him. In a few traditions Oduduwa is female.",
+   "variantTraditions": "The Oduduwa material is dynastic charter as much as cosmology, and rival towns tell it in ways that favour their own claim.",
+   "storyIds": [
+    "the-chain",
+    "moremi-and-the-raffia"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "king-ruler",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "orunmila",
+   "name": "Orunmila",
+   "sanskrit": "Ọ̀rúnmìlà",
+   "category": "creator",
+   "era": "The Source",
+   "role": "He was present when each person chose their destiny, so he is the one who remembers it",
+   "wikipedia": "Orunmila",
+   "portrait": "portraits/yoruba/orunmila.webp",
+   "epithets": [
+    "Ifa",
+    "Eleri Ipin, witness to destiny",
+    "Orula in Cuba"
+   ],
+   "domains": [
+    "divination",
+    "wisdom",
+    "destiny",
+    "the 256 odu"
+   ],
+   "symbols": [
+    "the sixteen palm nuts",
+    "the opele divining chain",
+    "the carved tray"
+   ],
+   "mount": null,
+   "abode": "Oke Igeti, and every babalawo's tray",
+   "festivals": [],
+   "worship": "",
+   "bio": "He watched you choose your fate before you were born, which is why he can tell you what it was.",
+   "longBio": "Orunmila was there in orun when each person knelt and chose their ori - their destiny - so he alone knows what anybody actually agreed to. That is the basis of Ifa divination: a babalawo, father of secrets, casts palm nuts or the opele chain, marks the result on a tray of powdered wood, arrives at one of 256 odu, and then recites verses from that odu until the client hears their own case in one. The system is enormous, entirely memorised, and works by story rather than by rule. UNESCO listed Ifa as intangible heritage in 2005.",
+   "variantTraditions": "Ifa and Orunmila are used almost interchangeably; strictly Orunmila is the orisha and Ifa is the system and its corpus.",
+   "storyIds": [
+    "choosing-ori"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sage-seer",
+    "wisdom-craft",
+    "fate-time",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "eshu",
+   "name": "Eshu",
+   "sanskrit": "Èṣù",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "He stands at every crossroads and every doorway, and nothing works if he is not paid first",
+   "wikipedia": "Eshu",
+   "portrait": "portraits/yoruba/eshu.webp",
+   "epithets": [
+    "Elegba",
+    "Elegbara",
+    "Legba in the diaspora",
+    "the opener of the road"
+   ],
+   "domains": [
+    "crossroads",
+    "language and translation",
+    "mischief",
+    "the carrying of offerings"
+   ],
+   "symbols": [
+    "the laterite mound at the gate",
+    "the hooked staff",
+    "cowries",
+    "red and black"
+   ],
+   "mount": null,
+   "abode": "The crossroads, and the front of every compound",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every offering to any orisha goes through him. Skip him and it does not arrive.",
+   "longBio": "Eshu carries messages between orun and aye and takes every sacrifice to its destination, which makes him the first one greeted in any ceremony. He is also the reason things go wrong: he tests people, exposes what they actually are, and enjoys it. The most quoted story has him walk between two lifelong friends wearing a cap black on one side and white on the other, then ask each what colour it was - and they nearly kill each other over it. He is not evil. Missionaries translated him as Satan anyway, and the mistranslation has done a great deal of damage.",
+   "variantTraditions": "The equation of Eshu with the Devil is a missionary imposition rejected by practitioners and by scholarship; the trickster who tests and reveals is a different figure entirely.",
+   "storyIds": [
+    "black-and-white-cap",
+    "ogun-cuts-the-path",
+    "crossing"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "fate-time",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "ogun",
+   "name": "Ogun",
+   "sanskrit": "Ògún",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Iron, and everything made of it - blades, cars, surgery, and the oath sworn on a blade",
+   "wikipedia": "Ogun",
+   "portrait": "portraits/yoruba/ogun.webp",
+   "epithets": [
+    "lord of iron",
+    "Osin Imole, first of the orisha",
+    "Ogou in Haiti"
+   ],
+   "domains": [
+    "iron",
+    "war",
+    "hunting",
+    "technology",
+    "oaths",
+    "clearing the path"
+   ],
+   "symbols": [
+    "the machete and anvil",
+    "palm fronds",
+    "dog",
+    "iron and dark green"
+   ],
+   "mount": null,
+   "abode": "The forge, the road and the bush",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first orisha to come down, because he had the only blade that could cut a way through.",
+   "longBio": "When the orisha came down to a world choked with bush, only Ogun had iron, and he cut the path. Everything made of metal is his - the smith's forge, the hunter's gun, the soldier's blade, the surgeon's scalpel, the taxi and the lorry, so drivers keep him. He is also the guarantor of truth: in Nigerian courts a Yoruba witness may swear on a piece of iron rather than a Bible, and it is taken seriously. His temper is famous. One story has him return from war and, deaf with fury and drink, kill his own townspeople before realising, then plant his sword in the ground and sink into the earth after it.",
+   "variantTraditions": "Ogun's association with motor vehicles is a genuine twentieth-century extension of his domain rather than a modern joke - lorry drivers keep his festival.",
+   "storyIds": [
+    "ogun-cuts-the-path",
+    "seventeenth"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "wisdom-craft",
+    "fire",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "shango",
+   "name": "Shango",
+   "sanskrit": "Ṣàngó",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Thunder - a king of Oyo who hanged himself and was elevated to an orisha for it",
+   "wikipedia": "Shango",
+   "portrait": "portraits/yoruba/shango.webp",
+   "epithets": [
+    "Alaafin of Oyo",
+    "Xango in Brazil",
+    "Chango in Cuba",
+    "the thunderer"
+   ],
+   "domains": [
+    "thunder",
+    "lightning",
+    "fire",
+    "kingship",
+    "drumming",
+    "male virility"
+   ],
+   "symbols": [
+    "the double-headed axe",
+    "the thunderstone",
+    "red and white",
+    "the mortar"
+   ],
+   "mount": null,
+   "abode": "Oyo, and the storm",
+   "festivals": [],
+   "worship": "",
+   "bio": "Lightning strikes a house and the priests come to dig a thunderstone out of the ruins.",
+   "longBio": "Shango was the fourth Alaafin of Oyo, a real king, a fierce one, and reckless with the power he had - he experimented with a charm that brought lightning down on his own palace and killed his family. He left the city and hanged himself from a tree, and his followers, taunted with oba so, the king hanged, answered oba koso, the king did not hang. He is an orisha now. When lightning destroys a building, his priests attend and recover the thunderstone, a neolithic axe head, which becomes a cult object. He is the most theatrical of the orisha - drums, dancing, fire-eating - and the most popular in Brazil.",
+   "variantTraditions": "The historical king and the thunder god are the same figure in the tradition; scholars debate whether an older thunder orisha was merged with the dynastic ancestor.",
+   "storyIds": [
+    "oba-koso",
+    "seventeenth",
+    "the-ear-in-the-soup",
+    "crossing"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sky-thunder",
+    "fire",
+    "king-ruler",
+    "war"
+   ]
+  },
+  {
+   "id": "oya",
+   "name": "Oya",
+   "sanskrit": "Ọya",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "The wind before the storm, the Niger river, and the one who guards the gate of the dead",
+   "wikipedia": "Oya",
+   "portrait": "portraits/yoruba/oya.webp",
+   "epithets": [
+    "Yansan",
+    "Iyansan, mother of nine",
+    "the tornado"
+   ],
+   "domains": [
+    "wind",
+    "storms",
+    "the river Niger",
+    "the marketplace",
+    "the dead",
+    "change"
+   ],
+   "symbols": [
+    "the buffalo horn",
+    "the horsetail whisk",
+    "nine copper bracelets",
+    "maroon"
+   ],
+   "mount": null,
+   "abode": "The Niger, the cemetery gate and the marketplace",
+   "festivals": [],
+   "worship": "",
+   "bio": "Shango's wife, and the only orisha the egungun masquerades will answer to.",
+   "longBio": "Oya is the wind that arrives ahead of a storm and takes the roof off, and she is the Niger river. She is Shango's favourite wife and fights beside him - in one story she steals the secret of fire-breathing from him. Her other office is with the dead: she owns the cemetery gate and the egungun masquerades, and the ancestors come through her. She is called mother of nine, which is why nine is her number, and the association with change is not decorative - she is the orisha you deal with when a life turns over. In Brazil she is Iansa, one of the most powerful figures in Candomble.",
+   "variantTraditions": "The buffalo is her other form; a widely told story has a hunter find her hidden buffalo skin and use the knowledge to marry her.",
+   "storyIds": [
+    "oba-koso",
+    "gelede-night",
+    "egungun-in-the-street"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "death-judge",
+    "war",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "yemoja",
+   "name": "Yemoja",
+   "sanskrit": "Yemọja",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Mother of the fish - a river in Africa who became the ocean in the Americas",
+   "wikipedia": "Yemoja",
+   "portrait": "portraits/yoruba/yemoja.webp",
+   "epithets": [
+    "Yemanja in Brazil",
+    "Yemaya in Cuba",
+    "mother whose children are fish"
+   ],
+   "domains": [
+    "motherhood",
+    "rivers and the sea",
+    "fertility",
+    "protection of children"
+   ],
+   "symbols": [
+    "blue and white",
+    "the fan",
+    "cowries",
+    "the crescent"
+   ],
+   "mount": null,
+   "abode": "The Ogun river, and the Atlantic",
+   "festivals": [],
+   "worship": "",
+   "bio": "On New Year's Eve in Rio, two million people put flowers into the sea for her.",
+   "longBio": "In Yorubaland Yemoja is a river orisha - the Ogun river specifically - and the mother of many of the other orisha. Crossing the Atlantic changed her: the people carried on slave ships arrived somewhere with no Ogun river and an enormous ocean, and she became the sea. As Yemanja she is now one of the most visible religious figures in Brazil, and on the night of 31 December people wade into the surf at Copacabana in white and float candles and white flowers out on little boats for her, in numbers that run to millions. Her name is a contraction of Yeye omo eja, mother whose children are fish.",
+   "variantTraditions": "The shift from river to ocean is one of the clearest documented cases of a deity being changed by the geography of the diaspora.",
+   "storyIds": [
+    "crossing"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "sea-waters",
+    "preserver"
+   ]
+  },
+  {
+   "id": "oshun",
+   "name": "Oshun",
+   "sanskrit": "Ọ̀ṣun",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Fresh water, love and money - and the orisha who saved the world by being asked nicely",
+   "wikipedia": "Oshun",
+   "portrait": "portraits/yoruba/oshun.webp",
+   "epithets": [
+    "Oxum in Brazil",
+    "Ochun in Cuba",
+    "the owner of the beaded comb"
+   ],
+   "domains": [
+    "fresh water",
+    "love",
+    "beauty",
+    "wealth",
+    "fertility",
+    "diplomacy"
+   ],
+   "symbols": [
+    "the brass fan and bracelets",
+    "honey",
+    "the mirror",
+    "yellow and gold"
+   ],
+   "mount": null,
+   "abode": "The Osun river at Osogbo",
+   "festivals": [],
+   "worship": "",
+   "bio": "The male orisha excluded her from their council, so she stopped the rain until they apologised.",
+   "longBio": "When the orisha came down to organise the world, the seventeen who came were sixteen men and Oshun, and the men held their meetings without her. Nothing they attempted worked - the rain stopped, the crops failed, women stopped conceiving - until they went back to Olodumare, who asked what they had done with Oshun. They returned and asked her properly, and she agreed, and things began working again. She is fresh water, sweetness and money, and she is not soft: her weapons are diplomacy and withdrawal. Her grove at Osogbo is a UNESCO World Heritage Site and her festival there draws enormous crowds.",
+   "variantTraditions": "The Osun-Osogbo grove was saved largely by the Austrian artist Susanne Wenger, who became a priestess of the tradition and rebuilt its shrines from the 1950s.",
+   "storyIds": [
+    "oba-koso",
+    "seventeenth",
+    "the-ear-in-the-soup"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "sea-waters",
+    "wealth-fortune",
+    "healer"
+   ]
+  },
+  {
+   "id": "obaluaye",
+   "name": "Obaluaye",
+   "sanskrit": "Ọbalúayé",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Smallpox and healing in one orisha, whose name you avoid saying out loud",
+   "wikipedia": "Babalú-Ayé",
+   "portrait": "portraits/yoruba/obaluaye.webp",
+   "epithets": [
+    "Sopona",
+    "Babalu Aye",
+    "king of the hot earth",
+    "the one whose name is not called"
+   ],
+   "domains": [
+    "smallpox and epidemic disease",
+    "healing",
+    "the earth",
+    "the poor"
+   ],
+   "symbols": [
+    "the raffia veil that hides his face",
+    "the broom",
+    "sesame",
+    "brown and black"
+   ],
+   "mount": null,
+   "abode": "The hot earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "The British banned his worship in 1917 on the theory that his priests were spreading smallpox.",
+   "longBio": "Obaluaye owns smallpox, and by extension all epidemic disease - which means he both sends it and lifts it, and either way he is not to be irritated. His true name Sopona is avoided, and he is addressed by titles instead. He appears veiled in raffia, because his body is marked. In 1917 the colonial government of Nigeria banned his cult outright, believing his priests deliberately spread infection by handling the dead and their scrapings; the evidence was thin and the ban drove the worship underground. Smallpox was eradicated in 1980, and he continues as a healer.",
+   "variantTraditions": "The 1917 proscription is documented; whether any priests actually practised deliberate variolation, and whether it was inoculation rather than infection, is still discussed.",
+   "storyIds": [
+    "crossing"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "death-judge",
+    "earth-mother",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "osanyin",
+   "name": "Osanyin",
+   "sanskrit": "Ọ̀sanyìn",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "The orisha of leaves, who has one leg, one arm and one eye and knows every plant",
+   "wikipedia": "Osanyin",
+   "portrait": "portraits/yoruba/osanyin.webp",
+   "epithets": [
+    "lord of the leaves",
+    "Ossain in Brazil",
+    "the one-legged"
+   ],
+   "domains": [
+    "herbal medicine",
+    "leaves and roots",
+    "the forest",
+    "healing"
+   ],
+   "symbols": [
+    "the iron staff with sixteen birds",
+    "the single leg",
+    "the gourd of medicine"
+   ],
+   "mount": null,
+   "abode": "The forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "No orisha's medicine works without leaves, and every leaf is his.",
+   "longBio": "Osanyin knows what every plant in the forest does, and since Yoruba medicine is leaf-based, all of it passes through him - even other orisha need his consent to heal. He is depicted as a one-legged, one-armed, one-eyed figure with a tiny voice, and hunters tell of hearing him whistling in the bush. His emblem is an iron staff crowned with a ring of small birds and one larger bird above them. The tradition that Orunmila once obtained the secret of the leaves from him, or stole it, appears in several forms and is the standard explanation of why a babalawo also knows medicine.",
+   "variantTraditions": "The one-legged form appears in most accounts; some traditions explain it as an injury and others as his original shape.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "wisdom-craft",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "orisha_oko",
+   "name": "Orisha Oko",
+   "sanskrit": "Òrìṣà Oko",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Farming, and the settling of quarrels that would otherwise ruin a harvest",
+   "wikipedia": "Orisha_Oko",
+   "portrait": "portraits/yoruba/orisha_oko.webp",
+   "epithets": [
+    "the farm orisha",
+    "the settler of disputes"
+   ],
+   "domains": [
+    "agriculture",
+    "the yam harvest",
+    "fertility of the soil",
+    "arbitration"
+   ],
+   "symbols": [
+    "the iron staff",
+    "the yam",
+    "the bee"
+   ],
+   "mount": null,
+   "abode": "The farm",
+   "festivals": [],
+   "worship": "",
+   "bio": "His priests judged land disputes, which in a farming society is most of the disputes.",
+   "longBio": "Orisha Oko is agriculture, and specifically the yam, which in Yorubaland is not a vegetable but the crop the year is measured by. His annual festival opens the new yam season and nobody eats the new crop before it. Because his authority covered fields, his priesthood also arbitrated boundary and land quarrels, which gave them real civil power. Ellis records that his emblem was an iron staff and that bees were associated with him. He is a plain, unglamorous, essential orisha of the sort that gets less attention than the thunder gods and mattered more day to day.",
+   "variantTraditions": "The early sources record an unusually large and organised priesthood for him, which fits an office with judicial as well as ritual functions.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "olokun",
+   "name": "Olokun",
+   "sanskrit": "Olókun",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Owner of the sea, and of everything that went into it and did not come back",
+   "wikipedia": "Olokun",
+   "portrait": "portraits/yoruba/olokun.webp",
+   "epithets": [
+    "owner of the ocean",
+    "the deep"
+   ],
+   "domains": [
+    "the sea and its depths",
+    "wealth",
+    "the unknown",
+    "the Middle Passage"
+   ],
+   "symbols": [
+    "coral and cowries",
+    "deep blue",
+    "the chain"
+   ],
+   "mount": null,
+   "abode": "The bottom of the ocean",
+   "festivals": [],
+   "worship": "",
+   "bio": "For the people carried across the Atlantic, this orisha owned the water they crossed.",
+   "longBio": "Olokun is the ocean itself, and in particular its depth and everything hidden in it, including wealth. In one widely told story Olokun challenges Olodumare to a contest of splendour and is out-dressed by a chameleon, which changes to match every garment the sea produces - and concedes. The Middle Passage attached a terrible second meaning: the sea holds the people who died on the crossing, and Olokun holds them. In Benin and among diaspora communities that reading is explicit. Whether Olokun is male or female varies by town, and both are correct locally.",
+   "variantTraditions": "Olokun is prominent in Benin (Edo) religion as well as Yoruba, and the two traditions are related but not identical.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "wealth-fortune",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "aja",
+   "name": "Aja",
+   "sanskrit": "Àjà",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "The whirlwind who carries herbalists into the forest and gives them back trained",
+   "wikipedia": "Aja_(orisha)",
+   "portrait": "portraits/yoruba/aja.webp",
+   "epithets": [
+    "the wind that takes people",
+    "the forest teacher"
+   ],
+   "domains": [
+    "the forest",
+    "herbal knowledge",
+    "the whirlwind"
+   ],
+   "symbols": [
+    "the spinning wind",
+    "forest leaves"
+   ],
+   "mount": null,
+   "abode": "The deep forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "If you disappear into the bush and come back knowing medicine, this is who had you.",
+   "longBio": "Aja is a whirlwind who carries a person off into the forest and keeps them for a stretch of time - days, or much longer - and teaches them the medicinal use of plants, then returns them. Someone who comes back is a fully made herbalist. It is a startlingly specific explanation for the vocation of the healer, and it means a Yoruba herbalist's authority does not come only from apprenticeship. She is a small figure in the published record and a memorable one, and she sits alongside Osanyin as the other route by which the knowledge of leaves reaches people.",
+   "variantTraditions": "Aja appears in relatively few sources and mostly in connection with the training of herbalists.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wind-storm",
+    "healer",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "oshosi",
+   "name": "Oshosi",
+   "sanskrit": "Ọ̀ṣọ́ọ̀sì",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "The hunter whose arrow does not miss, and a judge because a hunter tracks the truth",
+   "wikipedia": "Ochosi",
+   "portrait": "portraits/yoruba/oshosi.webp",
+   "epithets": [
+    "Oxossi in Brazil",
+    "the hunter",
+    "the archer"
+   ],
+   "domains": [
+    "hunting",
+    "the bow",
+    "justice",
+    "the forest"
+   ],
+   "symbols": [
+    "the bow and arrow",
+    "the horn",
+    "turquoise and light blue"
+   ],
+   "mount": null,
+   "abode": "The forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "He is paired with Ogun, who cuts the path, because a hunter needs one.",
+   "longBio": "Oshosi is the hunter and the archer, and his arrow finds what it is sent for - which is why he is also invoked for justice and for finding out who did something. He works with Ogun, who clears the way with iron, and with Eshu, who opens the road: the three are often kept together as the warriors. One story has him shoot a bird his mother had been warned not to interfere with, and kill her by the same arrow, which is the sort of ending Yoruba narrative does not soften. In Brazil, where hunting mattered to survival for escaped and freed communities, Oxossi became a major figure.",
+   "variantTraditions": "In Cuban Lucumi, Oshosi is one of the three Guerreros received at initiation together with Elegba and Ogun.",
+   "storyIds": [
+    "ogun-cuts-the-path"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "hero-champion",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "ibeji",
+   "name": "The Ibeji",
+   "sanskrit": "Ìbejì",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Twins, who are holy - and the Yoruba have more of them than anyone on earth",
+   "wikipedia": "Ibeji",
+   "portrait": "portraits/yoruba/ibeji.webp",
+   "epithets": [
+    "the twins",
+    "Taiwo and Kehinde",
+    "Ibejis in Brazil"
+   ],
+   "domains": [
+    "twins",
+    "childhood",
+    "luck",
+    "the linked soul"
+   ],
+   "symbols": [
+    "the pair of carved wooden figures",
+    "cowries",
+    "beans and palm oil"
+   ],
+   "mount": null,
+   "abode": "Every household with twins",
+   "festivals": [],
+   "worship": "",
+   "bio": "The southwest of Nigeria has the highest twinning rate recorded anywhere, by a long way.",
+   "longBio": "Yoruba twins are born at roughly four times the world average rate, for reasons still argued over - a yam variety with natural oestrogens is one suggestion. They are treated as holy and slightly dangerous, sharing one soul between two bodies. Taiwo, the first out, is considered the younger, sent ahead by Kehinde to see whether the world is fit. If a twin dies, a small wooden figure, an ere ibeji, is carved and kept, washed, fed and dressed by the mother for the rest of her life, so that the surviving twin's other half is still present. Thousands of these figures exist and they are among the most collected of African sculptures.",
+   "variantTraditions": "The high twinning rate is real and well documented; the earlier Yoruba practice of regarding twins as ill-omened was reversed and is remembered in the tradition.",
+   "storyIds": [
+    "gelede-night"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "wealth-fortune",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "aje",
+   "name": "Aje Shaluga",
+   "sanskrit": "Àjé Ṣàlúgà",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Money - specifically the cowrie shell, which was the currency",
+   "wikipedia": "Aje_(orisha)",
+   "portrait": "portraits/yoruba/aje.webp",
+   "epithets": [
+    "the orisha of wealth",
+    "owner of the cowrie"
+   ],
+   "domains": [
+    "wealth",
+    "trade",
+    "the cowrie",
+    "the marketplace"
+   ],
+   "symbols": [
+    "cowrie shells",
+    "the large snail shell"
+   ],
+   "mount": null,
+   "abode": "The market",
+   "festivals": [],
+   "worship": "",
+   "bio": "Before coins, West African money was a shell that came out of the sea, and it had an owner.",
+   "longBio": "Aje Shaluga is prosperity in the concrete sense - the cowrie shell, which functioned as currency across West Africa for centuries and arrived from the Indian Ocean by way of an enormous trade network. He is a sea orisha because that is where his money comes from. His worship belongs to the market and to traders, which in Yorubaland means largely to women, since market trade was and is substantially in women's hands. Cowries also serve as a divination instrument, cast in sets of sixteen for the simpler system of dilogun, so his shell is both the money and the oracle.",
+   "variantTraditions": "The cowries used in West Africa were largely Maldivian, shipped through the Indian Ocean and Atlantic trades, which makes the currency itself a record of global commerce.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune",
+    "sea-waters",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "oba",
+   "name": "Oba",
+   "sanskrit": "Ọba",
+   "category": "deity",
+   "era": "The Orisha",
+   "role": "Shango's first wife, who cut off her own ear on bad advice",
+   "wikipedia": "Oba_(orisha)",
+   "portrait": "portraits/yoruba/oba.webp",
+   "epithets": [
+    "the river Oba",
+    "the first wife"
+   ],
+   "domains": [
+    "the river Oba",
+    "marriage",
+    "jealousy",
+    "domestic sacrifice"
+   ],
+   "symbols": [
+    "the severed ear",
+    "the river",
+    "pink and maroon"
+   ],
+   "mount": null,
+   "abode": "The river Oba",
+   "festivals": [],
+   "worship": "",
+   "bio": "Oshun told her Shango loved a soup made with her own ear. It was not true.",
+   "longBio": "Oba is Shango's senior wife and a river. Wanting to hold his affection, she asked Oshun how to do it, and Oshun - who is her rival - told her that Shango loved a soup made from a wife's own ear, and showed her a mushroom in her own pot as proof. Oba cut off her ear and cooked it. Shango, finding it in the bowl, was horrified and drove her out. She fled and became the river Oba, which meets the river Oshun at a violent stretch of rapids that people will show you. The story is unusually cruel about what rivalry does, and it does not let Oshun off.",
+   "variantTraditions": "The rapids at the confluence of the Oba and Osun rivers are pointed out as the two of them still fighting.",
+   "storyIds": [
+    "the-ear-in-the-soup"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "love-desire",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "moremi",
+   "name": "Moremi Ajasoro",
+   "sanskrit": "Mọremí Àjàṣorò",
+   "category": "hero",
+   "era": "The Histories",
+   "role": "She let herself be captured to learn the enemy's secret, and paid for it with her son",
+   "wikipedia": "Moremi",
+   "portrait": "portraits/yoruba/moremi.webp",
+   "epithets": [
+    "the queen of Ife",
+    "the one who gave her son"
+   ],
+   "domains": [
+    "self-sacrifice",
+    "cunning",
+    "the defence of Ife"
+   ],
+   "symbols": [
+    "the river Esimirin",
+    "raffia",
+    "the torch"
+   ],
+   "mount": null,
+   "abode": "Ile-Ife",
+   "festivals": [],
+   "worship": "",
+   "bio": "The raiders looked like spirits. She found out they were men in raffia, and told Ife to bring fire.",
+   "longBio": "Ife was being raided by attackers who appeared to be supernatural, covered in raffia, and the town could not fight them. Moremi vowed at the river Esimirin to give whatever was asked if she could learn their secret, then allowed herself to be taken. She became the wife of their king, learned that the raiders were men in raffia costumes and that fire would defeat them, and escaped back to Ife. It worked. Then the river demanded its price: her only son Oluorogbo. She gave him. Her festival, Edi, is still kept at Ife, and a very large statue of her was raised there in 2016.",
+   "variantTraditions": "The identity of the raiders is variously given as the Igbo of the forest - a different people from the modern Igbo - and the tradition is a foundation story for Ife's survival.",
+   "storyIds": [
+    "moremi-and-the-raffia"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "gelede",
+   "name": "The Gelede",
+   "sanskrit": "Gẹ̀lẹ̀dẹ́",
+   "category": "deity",
+   "era": "The Histories",
+   "role": "A masked festival that exists to keep the mothers happy, and nobody says why out loud",
+   "wikipedia": "Gelede",
+   "portrait": "portraits/yoruba/gelede.webp",
+   "epithets": [
+    "the spectacle for the mothers",
+    "awon iya wa, our mothers"
+   ],
+   "domains": [
+    "the power of elder women",
+    "masquerade",
+    "social satire",
+    "placation"
+   ],
+   "symbols": [
+    "the carved headdress worn above the face",
+    "the drums",
+    "the night ceremony"
+   ],
+   "mount": null,
+   "abode": "The market place, at night and again by day",
+   "festivals": [],
+   "worship": "",
+   "bio": "The masks are worn by men, and the entire point is to honour the power of women.",
+   "longBio": "Gelede honours awon iya wa, our mothers - elder women whose power is real, ambiguous and not discussed directly. That power can protect a town or ruin it, and Gelede is the spectacle that keeps it on the right side. Men wear elaborate carved headdresses depicting scenes from ordinary life, and the performance is funny, satirical and pointed, mocking drunks, unfaithful spouses and self-important officials by name. It runs at night for the serious part and by day for the display. UNESCO listed it in 2001. It is one of the few places where the word for witch is not an accusation but a form of respect.",
+   "variantTraditions": "Aje, usually translated witch, does not carry the European sense; Gelede is an acknowledgement of female power rather than a defence against evil.",
+   "storyIds": [
+    "gelede-night"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "egungun",
+   "name": "Egungun",
+   "sanskrit": "Egúngún",
+   "category": "underworld",
+   "era": "The Histories",
+   "role": "The ancestors come back into the street in cloth, and you must not touch them",
+   "wikipedia": "Egungun",
+   "portrait": "portraits/yoruba/egungun.webp",
+   "epithets": [
+    "the masquerade of the ancestors",
+    "ara orun, people of heaven"
+   ],
+   "domains": [
+    "the ancestors",
+    "masquerade",
+    "judgement of the living",
+    "the family line"
+   ],
+   "symbols": [
+    "the layered cloth costume covering every inch",
+    "the whip-bearers",
+    "the deep voice"
+   ],
+   "mount": null,
+   "abode": "The lineage compound, at festival",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every inch is covered, because what is under the cloth is not supposed to be a person.",
+   "longBio": "An egungun is an ancestor made visible: a dancer entirely covered in layers of rich cloth so that no skin shows anywhere, moving through the town with attendants who keep the crowd back with whips. The voice is disguised. They bless, they judge, they say things about the living that the living would rather not hear, and they collect on family obligations. Contact with the cloth is dangerous and the attendants are there to prevent it. The masquerade belongs to a lineage, not to the town, and Oya is the orisha who governs it. Egungun societies continued in Brazil, where they still perform.",
+   "variantTraditions": "The taboo on touching the costume is strict; the theological point is that the ancestor is present rather than represented.",
+   "storyIds": [
+    "egungun-in-the-street"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "preserver",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "olokun_diaspora",
+   "name": "The Middle Passage",
+   "sanskrit": "Ìrìn Àjò",
+   "category": "mortal",
+   "era": "The Histories",
+   "role": "How the orisha crossed the Atlantic and were hidden behind Catholic saints",
+   "wikipedia": "Santería",
+   "portrait": "portraits/yoruba/olokun_diaspora.webp",
+   "epithets": [
+    "Santeria",
+    "Candomble",
+    "Lucumi",
+    "Vodou"
+   ],
+   "domains": [
+    "the diaspora",
+    "syncretism",
+    "concealment",
+    "survival"
+   ],
+   "symbols": [
+    "the saint's chromolithograph over the shrine",
+    "the drums",
+    "white clothing"
+   ],
+   "mount": null,
+   "abode": "Cuba, Brazil, Haiti, Trinidad",
+   "festivals": [],
+   "worship": "",
+   "bio": "Shango behind Saint Barbara, Yemoja behind Our Lady - and everyone knew which was which.",
+   "longBio": "Between the sixteenth and nineteenth centuries millions of West Africans were carried to the Americas, a large number of them Yoruba-speaking, especially into Cuba and Bahia. Practising the tradition openly was forbidden, so the orisha were paired with Catholic saints whose images could stand on an altar without comment - Shango with Saint Barbara, who is associated with lightning, Yemoja with Our Lady of Regla, Babalu Aye with Saint Lazarus. Whether that was concealment, genuine blending, or both at once has been argued for a century. What is certain is that it worked: the tradition survived.",
+   "variantTraditions": "Recent scholarship stresses that syncretism varied by place and was not always a disguise; in some communities the identifications were sincerely held.",
+   "storyIds": [
+    "crossing"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "preserver",
+    "messenger-trickster",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "ori",
+   "name": "Ori",
+   "sanskrit": "Orí",
+   "category": "primordial",
+   "era": "The Source",
+   "role": "Your own head, chosen before birth - the only orisha nobody else can serve for you",
+   "wikipedia": "Ori_(Yoruba)",
+   "portrait": "portraits/yoruba/ori.webp",
+   "epithets": [
+    "the inner head",
+    "ori inu",
+    "the personal destiny"
+   ],
+   "domains": [
+    "destiny",
+    "personal fate",
+    "the self",
+    "consciousness"
+   ],
+   "symbols": [
+    "the head",
+    "the beaded crown-shaped ibori container",
+    "white cloth"
+   ],
+   "mount": null,
+   "abode": "Inside your own head",
+   "festivals": [],
+   "worship": "",
+   "bio": "Before you were born you knelt and chose a destiny, and then you forgot what you picked.",
+   "longBio": "Ori is both the physical head and the destiny inside it. In orun, before birth, each person kneels before Olodumare and chooses an ori - a life, its length, its shape and its luck - and then crosses to the world and forgets the choice. Everything afterwards is working with what you picked, which is why divination exists and why Orunmila, who watched you choose, matters so much. Your ori is your own personal orisha and is fed and addressed directly. The tradition holds that a good character can improve a poor destiny and a bad one can waste a good destiny, so it is not fatalism.",
+   "variantTraditions": "Ori is arguably the single most important concept in Yoruba religion and has no close equivalent in the other traditions on this site.",
+   "storyIds": [
+    "choosing-ori",
+    "egungun-in-the-street"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "supreme-source",
+    "sage-seer"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "olodumare",
+   "to": "obatala",
+   "type": "guru",
+   "note": "He gave him the job of shaping bodies out of clay"
+  },
+  {
+   "from": "olodumare",
+   "to": "oduduwa",
+   "type": "guru",
+   "note": "And gave the land-making to whoever turned up sober"
+  },
+  {
+   "from": "olodumare",
+   "to": "orunmila",
+   "type": "ally",
+   "note": "The one permitted to watch each destiny being chosen"
+  },
+  {
+   "from": "olodumare",
+   "to": "ori",
+   "type": "parent",
+   "note": "Every ori is chosen kneeling in front of him"
+  },
+  {
+   "from": "olodumare",
+   "to": "eshu",
+   "type": "ally",
+   "note": "Nothing reaches him except through the one at the crossroads"
+  },
+  {
+   "from": "obatala",
+   "to": "oduduwa",
+   "type": "sibling",
+   "note": "He stopped for palm wine; his brother took the load"
+  },
+  {
+   "from": "obatala",
+   "to": "oduduwa",
+   "type": "enemy",
+   "note": "And the quarrel over who really made the land never closed"
+  },
+  {
+   "from": "oduduwa",
+   "to": "moremi",
+   "type": "guru",
+   "note": "The founding line of Ife, and the queen who saved it"
+  },
+  {
+   "from": "orunmila",
+   "to": "eshu",
+   "type": "ally",
+   "note": "The oracle and the one who carries what it asks for"
+  },
+  {
+   "from": "orunmila",
+   "to": "ori",
+   "type": "guru",
+   "note": "He alone remembers what you chose"
+  },
+  {
+   "from": "orunmila",
+   "to": "osanyin",
+   "type": "guru",
+   "note": "The secret of the leaves passed between them"
+  },
+  {
+   "from": "eshu",
+   "to": "ogun",
+   "type": "ally",
+   "note": "The road opened, and the blade that cuts it"
+  },
+  {
+   "from": "eshu",
+   "to": "oshosi",
+   "type": "ally",
+   "note": "The warriors, kept together at initiation"
+  },
+  {
+   "from": "ogun",
+   "to": "oshosi",
+   "type": "ally",
+   "note": "The one clears the path, the other follows the track"
+  },
+  {
+   "from": "ogun",
+   "to": "shango",
+   "type": "enemy",
+   "note": "Iron against fire, and a long rivalry in the stories"
+  },
+  {
+   "from": "shango",
+   "to": "oya",
+   "type": "consort",
+   "note": "His favourite wife, who fights beside him"
+  },
+  {
+   "from": "shango",
+   "to": "oshun",
+   "type": "consort",
+   "note": "The sweet one, and the one he came back to"
+  },
+  {
+   "from": "shango",
+   "to": "oba",
+   "type": "consort",
+   "note": "His senior wife, who cut off her own ear for him"
+  },
+  {
+   "from": "oba",
+   "to": "oshun",
+   "type": "enemy",
+   "note": "The advice about the soup was not given in good faith"
+  },
+  {
+   "from": "oya",
+   "to": "egungun",
+   "type": "ally",
+   "note": "She owns the gate the ancestors come through"
+  },
+  {
+   "from": "oya",
+   "to": "olokun",
+   "type": "sibling",
+   "note": "The river and the deep"
+  },
+  {
+   "from": "yemoja",
+   "to": "oshun",
+   "type": "sibling",
+   "note": "The two great water orisha, mother and daughter in some tellings"
+  },
+  {
+   "from": "yemoja",
+   "to": "shango",
+   "type": "parent",
+   "note": "Named as his mother in several traditions"
+  },
+  {
+   "from": "yemoja",
+   "to": "ogun",
+   "type": "parent",
+   "note": "Mother of many of the orisha"
+  },
+  {
+   "from": "yemoja",
+   "to": "olokun",
+   "type": "ally",
+   "note": "The river that became an ocean, and the ocean itself"
+  },
+  {
+   "from": "oshun",
+   "to": "obatala",
+   "type": "devotee",
+   "note": "She is the one they had to go back and ask properly"
+  },
+  {
+   "from": "oshun",
+   "to": "ibeji",
+   "type": "parent",
+   "note": "The twins are given to her in several accounts"
+  },
+  {
+   "from": "obaluaye",
+   "to": "osanyin",
+   "type": "ally",
+   "note": "The disease and the leaves that answer it"
+  },
+  {
+   "from": "obaluaye",
+   "to": "yemoja",
+   "type": "parent",
+   "note": "Given as her son, and cast out for his marked skin"
+  },
+  {
+   "from": "osanyin",
+   "to": "aja",
+   "type": "sibling",
+   "note": "Two routes by which the knowledge of leaves reaches people"
+  },
+  {
+   "from": "osanyin",
+   "to": "orisha_oko",
+   "type": "ally",
+   "note": "The forest and the farm"
+  },
+  {
+   "from": "orisha_oko",
+   "to": "obatala",
+   "type": "devotee",
+   "note": "The yam festival opens under the white orisha"
+  },
+  {
+   "from": "olokun",
+   "to": "aje",
+   "type": "ally",
+   "note": "The sea, and the shell money that comes out of it"
+  },
+  {
+   "from": "aje",
+   "to": "oshun",
+   "type": "ally",
+   "note": "Cowries and gold, the two kinds of prosperity"
+  },
+  {
+   "from": "ibeji",
+   "to": "gelede",
+   "type": "ally",
+   "note": "Children, and the mothers whose power protects them"
+  },
+  {
+   "from": "gelede",
+   "to": "oya",
+   "type": "devotee",
+   "note": "The masked spectacle and the wind that owns the masks"
+  },
+  {
+   "from": "egungun",
+   "to": "ori",
+   "type": "ally",
+   "note": "The ancestor was a destiny once, and is consulted as one"
+  },
+  {
+   "from": "moremi",
+   "to": "eshu",
+   "type": "devotee",
+   "note": "She learned the enemy's secret by going into it"
+  },
+  {
+   "from": "olokun_diaspora",
+   "to": "yemoja",
+   "type": "ally",
+   "note": "The river became the sea on the far side"
+  },
+  {
+   "from": "olokun_diaspora",
+   "to": "shango",
+   "type": "ally",
+   "note": "Behind Saint Barbara, who is struck by lightning"
+  },
+  {
+   "from": "olokun_diaspora",
+   "to": "obaluaye",
+   "type": "ally",
+   "note": "Behind Saint Lazarus, covered in sores"
+  },
+  {
+   "from": "olokun_diaspora",
+   "to": "eshu",
+   "type": "ally",
+   "note": "Behind the Devil, which was a mistranslation and stuck"
+  },
+  {
+   "from": "olokun_diaspora",
+   "to": "olokun",
+   "type": "ally",
+   "note": "The sea they were carried across, and its owner"
+  },
+  {
+   "from": "ori",
+   "to": "eshu",
+   "type": "ally",
+   "note": "Character meets the one who tests it"
+  }
+ ]
+}

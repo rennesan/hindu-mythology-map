@@ -90,6 +90,10 @@
    "destination": "/canaanite/index.html"
   },
   {
+   "source": "/yoruba/:path*",
+   "destination": "/yoruba/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }

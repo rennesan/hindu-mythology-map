@@ -248,10 +248,15 @@
    "label": "Yoruba",
    "sublabel": "West Africa & the diaspora",
    "accent": "#7fb069",
-   "status": "planned",
+   "status": "live",
    "blurb": "Olodumare and the orisha - a living tradition that crossed the Atlantic and became Santeria and Candomble.",
    "family": "Africa",
-   "glyph": "✵"
+   "glyph": "✵",
+   "figures": 24,
+   "stories": 12,
+   "links": 44,
+   "levels": 5,
+   "cover": "portraits/yoruba/olodumare.webp"
   },
   {
    "id": "akan",

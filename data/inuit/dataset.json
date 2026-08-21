@@ -1,0 +1,1472 @@
+{
+ "title": "Inuit Mythology: Figures, Relationships and Story Cycles",
+ "description": "Arctic traditions mapped as a relationship graph: the woman at the bottom of the sea who owns the animals, the sun and moon who are still chasing each other, and the specialists who go down to put things right.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Franz Boas, The Central Eskimo (1888) - Baffin Island, and the fullest early account",
+  "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos (1929) - Rasmussen was part Kalaallit and spoke the language",
+  "Edward William Nelson, The Eskimo About Bering Strait (1900) - the Alaskan material",
+  "Henry Rink, Tales and Traditions of the Eskimo (1875) - Greenland",
+  "William Thalbitzer, The Ammassalik Eskimo (1914) - East Greenland",
+  "Note: these are living communities across four countries; nothing ceremonial is reconstructed here, and the versions differ by region"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/inuit/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "boas": {
+   "t": "The Central Eskimo (BAE 6th Annual Report)",
+   "tr": "Franz Boas, 1888",
+   "u": "https://sacred-texts.com/nam/inu/te/index.htm"
+  },
+  "rasmussen": {
+   "t": "Intellectual Culture of the Iglulik Eskimos (Fifth Thule Expedition)",
+   "tr": "Knud Rasmussen, 1929",
+   "u": "https://archive.org/details/reportoffifththu07rasm"
+  },
+  "nelson": {
+   "t": "The Eskimo About Bering Strait (BAE 18th Annual Report)",
+   "tr": "Edward William Nelson, 1900",
+   "u": "https://archive.org/details/eskimoaboutberin00nels"
+  },
+  "rink": {
+   "t": "Tales and Traditions of the Eskimo",
+   "tr": "Henry Rink, 1875",
+   "u": "https://sacred-texts.com/nam/inu/tte/index.htm"
+  },
+  "thalbitzer": {
+   "t": "The Ammassalik Eskimo",
+   "tr": "William Thalbitzer, 1914",
+   "u": "https://archive.org/details/ammassalikeskimo01thal"
+  }
+ },
+ "meta": {
+  "id": "inuit",
+  "label": "Inuit",
+  "sublabel": "Arctic North America",
+  "accent": "#8fb8cc",
+  "root": "sedna"
+ },
+ "profile": {
+  "cosmicNature": "No creation account worth the name, and no interest in one. The world is simply here and always has been; what the stories care about is the arrangement between people and the animals they have to kill to live. Where there is a beginning it is small and domestic - two men, or a woman and a dog - rather than cosmic.",
+  "natureOfDivinity": "Not gods so much as owners and inua. Almost everything has an inua, an indwelling person - the sea, the moon, a lake, a knife. The great powers are three: the woman at the bottom of the sea who owns the game animals, the moon man, and the weather. None of them is worshipped in the way that word usually means. They are dealt with, and mostly they are dealt with when something has gone wrong.",
+  "afterlife": "Up or down, and neither is a reward. One land is under the sea with Sedna, one is in the sky, and which you go to depends on how you died rather than how you behaved - drowning, murder and death in childbirth send you one way, ordinary death another. The dead are near. A newborn takes the name of someone recently dead, and with it something of that person, so the dead keep returning into the family.",
+  "systemMechanism": "Rules, and the angakkuq who fixes it when they are broken. Life in the Arctic runs on an enormous body of prohibitions - what may not be sewn at what season, what land food may not touch sea food, what a woman may not do after a birth. Break them and the offence collects in Sedna's hair, the animals withdraw, and people starve. Then the angakkuq travels down to comb her hair and put it right.",
+  "canonTexts": "Nothing written. Everything here was recorded from Inuit narrators between the 1880s and 1920s - Boas among the Central Inuit, Rasmussen across the Northwest Passage, Nelson in Alaska - and published in ethnographic reports. The same story varies enormously between Greenland, Baffin Island, Netsilik country and Alaska, and this pack keeps the variation rather than smoothing it."
+ },
+ "hierarchy": [
+  {
+   "title": "The Great Powers",
+   "blurb": "Three things decide whether you eat: the woman at the bottom of the sea who owns the animals, the weather, and the moon. None of them is worshipped in any ordinary sense. They are dealt with, usually after something has gone wrong.",
+   "memberIds": [
+    "sedna",
+    "anguta",
+    "sila",
+    "malina",
+    "igaluk",
+    "tornarsuk"
+   ],
+   "connectorCaption": "When the animals stop coming, somebody has to go down and find out why"
+  },
+  {
+   "title": "The Angakkuit",
+   "blurb": "Not priests. Specialists in crisis, who put out the lamps, get themselves tied up, and travel - to Sedna's house to comb her hair, or to the moon. The usual finding is that somebody broke a rule, and the cure is saying so out loud.",
+   "memberIds": [
+    "angakkuq",
+    "tupilaq"
+   ],
+   "connectorCaption": "Everything they negotiate about is an animal, and the animals have terms"
+  },
+  {
+   "title": "The Animals",
+   "blurb": "The bear whose soul stays with its skin for days and must be given the right tools. The wolf that keeps the caribou herd healthy by taking the sick ones - an ecological observation, and a correct one.",
+   "memberIds": [
+    "nanook",
+    "amarok",
+    "agloolik"
+   ],
+   "connectorCaption": "And on the land and under the ice, the things you do not want to meet"
+  },
+  {
+   "title": "The Land and the Ice",
+   "blurb": "Something humming under the floe edge with a pouch on her back. Shape-changers seen only at the corner of the eye. A hairless dog that leaves no tracks. And a stone figure that means the thing which acts in the capacity of a person.",
+   "memberIds": [
+    "qalupalik",
+    "ijiraq",
+    "tarriassuk",
+    "keelut",
+    "inuksuk"
+   ],
+   "connectorCaption": "Where everyone goes afterwards, and how the peoples of the world began"
+  },
+  {
+   "title": "The Dead and the Beginning",
+   "blurb": "A year in the house under the sea, then up to the warm country near the moon - where the aurora is the dead playing ball with a walrus skull. And a girl who refused every husband, married a dog, and started several nations.",
+   "memberIds": [
+    "adlivun",
+    "qudlivun",
+    "aningaaq_dog",
+    "kiviuq"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "powers",
+   "label": "The Great Powers",
+   "memberIds": [
+    "sedna",
+    "sila",
+    "igaluk",
+    "malina",
+    "tornarsuk",
+    "anguta"
+   ]
+  },
+  {
+   "id": "sea",
+   "label": "The Sea",
+   "memberIds": [
+    "sedna",
+    "anguta",
+    "qalupalik",
+    "agloolik",
+    "adlivun"
+   ]
+  },
+  {
+   "id": "sky",
+   "label": "Sun, Moon and Air",
+   "memberIds": [
+    "malina",
+    "igaluk",
+    "sila",
+    "qudlivun"
+   ]
+  },
+  {
+   "id": "animals",
+   "label": "The Animals",
+   "memberIds": [
+    "nanook",
+    "amarok",
+    "agloolik",
+    "keelut"
+   ]
+  },
+  {
+   "id": "shaman",
+   "label": "The Angakkuit",
+   "memberIds": [
+    "angakkuq",
+    "tornarsuk",
+    "tupilaq",
+    "sedna"
+   ]
+  },
+  {
+   "id": "land",
+   "label": "Things On The Land",
+   "memberIds": [
+    "ijiraq",
+    "tarriassuk",
+    "keelut",
+    "qalupalik",
+    "inuksuk"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-fingers",
+   "title": "The Fingers",
+   "era": "The Great Powers",
+   "cast": [
+    "sedna",
+    "anguta",
+    "nanook"
+   ],
+   "summary": "The versions differ about how she got into the water - a marriage she refused, a husband who turned out to be a bird, a storm the boat could not carry her through - but they agree on what happened next. She held on to the gunwale, and her father took his knife and cut her fingers off at the joints so she would let go. The first joints fell into the water and became the seals. The second became the walrus. The third became the whales. She sank, and she is down there, and because every animal in the sea came off her hands she decides who gets to catch one. Nothing in the story is ever made right.",
+   "sources": [
+    {
+     "book": "The Central Eskimo (BAE 6th Annual Report)",
+     "translation": "Franz Boas, 1888",
+     "location": "The Sedna myth",
+     "url": "https://sacred-texts.com/nam/inu/te/index.htm"
+    },
+    {
+     "book": "Intellectual Culture of the Iglulik Eskimos (Fifth Thule Expedition)",
+     "translation": "Knud Rasmussen, 1929",
+     "location": "Iglulik traditions",
+     "url": "https://archive.org/details/reportoffifththu07rasm"
+    }
+   ]
+  },
+  {
+   "id": "combing-her-hair",
+   "title": "Combing Her Hair",
+   "era": "The Angakkuit",
+   "cast": [
+    "sedna",
+    "angakkuq",
+    "tornarsuk",
+    "adlivun"
+   ],
+   "summary": "The seals have stopped coming and the camp is going hungry. The lamps are put out, the angakkuq is bound hand and foot, and the drum starts. The people in the dark hear him go down through the floor. What he finds is Sedna, filthy, her hair matted with every taboo anyone in the camp has broken - and she has no fingers, so she cannot clean it herself. He combs it out for her, braids it, and she releases the animals. He comes back up and names what people have done, and they confess, one after another, in front of everyone. The seals return. As social machinery it is hard to improve on.",
+   "sources": [
+    {
+     "book": "The Central Eskimo (BAE 6th Annual Report)",
+     "translation": "Franz Boas, 1888",
+     "location": "Religion and shamanism",
+     "url": "https://sacred-texts.com/nam/inu/te/index.htm"
+    },
+    {
+     "book": "Intellectual Culture of the Iglulik Eskimos (Fifth Thule Expedition)",
+     "translation": "Knud Rasmussen, 1929",
+     "location": "The shaman's journey",
+     "url": "https://archive.org/details/reportoffifththu07rasm"
+    }
+   ]
+  },
+  {
+   "id": "soot-on-his-face",
+   "title": "The Soot on His Face",
+   "era": "The Great Powers",
+   "cast": [
+    "malina",
+    "igaluk"
+   ],
+   "summary": "Somebody came to her in the dark, night after night, and would not say who. So she blackened her hands in the soot of the seal-oil lamp, and when he came she marked his face. When the lamps were lit she saw her brother. She took a torch and ran, and he took one and ran after her, and they went up out of the house and into the sky, and they are there now - she is the sun and he is the moon. His torch went out in the chase, which is why the moon gives light and no heat. The marks are still on his face. Neither of them has stopped.",
+   "sources": [
+    {
+     "book": "Tales and Traditions of the Eskimo",
+     "translation": "Henry Rink, 1875",
+     "location": "Greenland tales",
+     "url": "https://sacred-texts.com/nam/inu/tte/index.htm"
+    },
+    {
+     "book": "The Central Eskimo (BAE 6th Annual Report)",
+     "translation": "Franz Boas, 1888",
+     "location": "Sun and moon",
+     "url": "https://sacred-texts.com/nam/inu/te/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "bear-etiquette",
+   "title": "What You Owe a Bear",
+   "era": "The Animals",
+   "cast": [
+    "nanook",
+    "angakkuq"
+   ],
+   "summary": "A killed polar bear's soul does not leave. It stays with the skin for several days, in the house, and it is watching how it is treated. So the skin is hung in a place of honour and given gifts - if the bear was male, a knife, a drill, a bow; if female, needles, an ulu, a scraper. It is offered fresh water to drink, because the soul is thirsty from the salt. Do all of it properly and the bear goes home and tells the other bears that this is a house worth visiting, and they will come and offer themselves. Do it badly and they will not, and you will not eat.",
+   "sources": [
+    {
+     "book": "The Central Eskimo (BAE 6th Annual Report)",
+     "translation": "Franz Boas, 1888",
+     "location": "Hunting customs",
+     "url": "https://sacred-texts.com/nam/inu/te/index.htm"
+    },
+    {
+     "book": "The Eskimo About Bering Strait (BAE 18th Annual Report)",
+     "translation": "Edward William Nelson, 1900",
+     "location": "The bear ceremonies",
+     "url": "https://archive.org/details/eskimoaboutberin00nels"
+    }
+   ]
+  },
+  {
+   "id": "boot-of-children",
+   "title": "The Children in the Boot",
+   "era": "The Origins",
+   "cast": [
+    "aningaaq_dog",
+    "sedna",
+    "kiviuq"
+   ],
+   "summary": "A girl refused every man brought to her, one after another, until her family gave up. Then she took a dog. She bore a litter of children who were partly dogs, and her father, unable to bear it, moved the whole family to an island and finally put the children into the sole of a sealskin boot and pushed it out into the sea. They drifted, and they landed, and they became the Europeans - or in other tellings the Indians, or several peoples at once. It is an origin story for everyone else, told from inside, and in several regions this same woman is the one who ends up at the bottom of the sea.",
+   "sources": [
+    {
+     "book": "Intellectual Culture of the Iglulik Eskimos (Fifth Thule Expedition)",
+     "translation": "Knud Rasmussen, 1929",
+     "location": "Netsilik traditions",
+     "url": "https://archive.org/details/reportoffifththu07rasm"
+    },
+    {
+     "book": "Tales and Traditions of the Eskimo",
+     "translation": "Henry Rink, 1875",
+     "location": "Greenland tales",
+     "url": "https://sacred-texts.com/nam/inu/tte/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "aurora-game",
+   "title": "The Ball Game in the Sky",
+   "era": "The Dead",
+   "cast": [
+    "qudlivun",
+    "adlivun",
+    "igaluk"
+   ],
+   "summary": "The dead go first to Adlivun, the country under the sea in Sedna's house, where a dog watches the door and Anguta pinches them for about a year. Then most of them go up to Qudlivun, the country near the moon, where it is warm and there is game everywhere and nobody is hungry. What you can see of it from here is the aurora: that is the dead up there, playing a ball game with a walrus skull, and the lights are the game in progress. In some regions you may whistle and they will come nearer to look. In others, whistling is how you lose your own head to the ball.",
+   "sources": [
+    {
+     "book": "The Central Eskimo (BAE 6th Annual Report)",
+     "translation": "Franz Boas, 1888",
+     "location": "The afterlife",
+     "url": "https://sacred-texts.com/nam/inu/te/index.htm"
+    },
+    {
+     "book": "The Ammassalik Eskimo",
+     "translation": "William Thalbitzer, 1914",
+     "location": "East Greenland beliefs",
+     "url": "https://archive.org/details/ammassalikeskimo01thal"
+    }
+   ]
+  },
+  {
+   "id": "kiviuq-still-going",
+   "title": "Kiviuq Is Still Going",
+   "era": "The Origins",
+   "cast": [
+    "kiviuq",
+    "amarok",
+    "tarriassuk",
+    "ijiraq"
+   ],
+   "summary": "Kiviuq set out a long time ago and has not stopped. The cycle runs to dozens of episodes and no two tellers order them the same way: he escapes a wife who turns out to be a fox and smells of it; he is carried off by a giant bee-woman; he meets a woman who is a wolf; he is nearly killed by a mother avenging a son and gets away by knowing one thing she does not. He keeps moving. Elders recorded in Nunavut in the 2000s said he is not dead - that he is very old now and slowly turning to stone, and that when Kiviuq finally stops, so does everything else.",
+   "sources": [
+    {
+     "book": "Intellectual Culture of the Iglulik Eskimos (Fifth Thule Expedition)",
+     "translation": "Knud Rasmussen, 1929",
+     "location": "The Kiviuq cycle",
+     "url": "https://archive.org/details/reportoffifththu07rasm"
+    },
+    {
+     "book": "Tales and Traditions of the Eskimo",
+     "translation": "Henry Rink, 1875",
+     "location": "Greenland tales",
+     "url": "https://sacred-texts.com/nam/inu/tte/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "humming-under-ice",
+   "title": "The Humming Under the Ice",
+   "era": "The Land",
+   "cast": [
+    "qalupalik",
+    "ijiraq"
+   ],
+   "summary": "Qalupalik has green skin, long hair, fingernails like knives and wears an amautik, the parka with a pouch on the back for carrying a baby. She lives under the sea ice and she takes children who go too near the edge, and puts them in the pouch, and takes them under. You hear her humming through the ice before you see anything. This is a story told to children about the floe edge, which is the single most dangerous place in an Inuit child's world - thin, moving, and over water that kills in minutes. A child who hears humming and runs is a child who lives.",
+   "sources": [
+    {
+     "book": "The Central Eskimo (BAE 6th Annual Report)",
+     "translation": "Franz Boas, 1888",
+     "location": "Tales",
+     "url": "https://sacred-texts.com/nam/inu/te/index.htm"
+    },
+    {
+     "book": "Intellectual Culture of the Iglulik Eskimos (Fifth Thule Expedition)",
+     "translation": "Knud Rasmussen, 1929",
+     "location": "Iglulik tales",
+     "url": "https://archive.org/details/reportoffifththu07rasm"
+    }
+   ]
+  },
+  {
+   "id": "be-not-afraid",
+   "title": "Be Not Afraid of the Universe",
+   "era": "The Great Powers",
+   "cast": [
+    "sila",
+    "angakkuq"
+   ],
+   "summary": "Rasmussen asked an Alaskan angakkuq named Najagneq what he believed in, and got one of the most quoted answers in the ethnographic record. Sila, he said, cannot be explained in ordinary words: a strong spirit, the upholder of the universe and the weather and all life on earth, so mighty that its speech to people is not through common words but through storms and snow and the sea and everything that frightens them. When things are going well for people it says nothing at all. It has gone away into endless nothingness, apart. And its message, when it does speak, is: be not afraid of the universe.",
+   "sources": [
+    {
+     "book": "Intellectual Culture of the Iglulik Eskimos (Fifth Thule Expedition)",
+     "translation": "Knud Rasmussen, 1929",
+     "location": "Intellectual Culture, on Sila",
+     "url": "https://archive.org/details/reportoffifththu07rasm"
+    }
+   ]
+  },
+  {
+   "id": "stones-that-act",
+   "title": "The Stones That Act As People",
+   "era": "The Land",
+   "cast": [
+    "inuksuk",
+    "amarok",
+    "kiviuq"
+   ],
+   "summary": "There are no trees on the tundra and very little that stays put. So people built with what there was, and an inuksuk - the word means the thing that acts in the capacity of a person - is stacked stone that tells you something: the way home, a cache under this rock, good fishing here, do not go that way. Long converging lines of them were built to funnel migrating caribou toward a place where hunters were waiting, and the herd would follow the line because it read as people standing. Some are centuries old and still standing and still working. One is on the flag of Nunavut.",
+   "sources": [
+    {
+     "book": "The Central Eskimo (BAE 6th Annual Report)",
+     "translation": "Franz Boas, 1888",
+     "location": "Material culture",
+     "url": "https://sacred-texts.com/nam/inu/te/index.htm"
+    },
+    {
+     "book": "Intellectual Culture of the Iglulik Eskimos (Fifth Thule Expedition)",
+     "translation": "Knud Rasmussen, 1929",
+     "location": "Hunting methods",
+     "url": "https://archive.org/details/reportoffifththu07rasm"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "sedna",
+   "name": "Sedna",
+   "sanskrit": "Sanna",
+   "category": "primordial",
+   "era": "The Great Powers",
+   "role": "Her father cut her fingers off, they became the seals, and she owns them still",
+   "wikipedia": "Sedna_(mythology)",
+   "portrait": "portraits/inuit/sedna.webp",
+   "epithets": [
+    "Nuliajuk",
+    "Takannaaluk, the one down there",
+    "Arnakuagsak",
+    "the sea woman"
+   ],
+   "domains": [
+    "the sea",
+    "seals, whales and walrus",
+    "famine",
+    "the enforcement of taboo"
+   ],
+   "symbols": [
+    "hands with no fingers",
+    "tangled hair",
+    "the seal, walrus and whale"
+   ],
+   "mount": null,
+   "abode": "The bottom of the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every seal, walrus and whale came off her hands, which is why she decides whether you eat.",
+   "longBio": "The versions differ but the joint is the same: a girl ends up in the water beside her father's boat, and he cuts her fingers off to make her let go of the gunwale. The first joints become seals, the second walrus, the third whales, and she sinks and stays. Because the animals came from her body she owns them, and when people break the rules the offences settle in her hair as filth - and she has no fingers, so she cannot comb it out. Then the animals stay away and the camp starves, and an angakkuq has to go down and comb her hair for her.",
+   "variantTraditions": "Sedna is the Baffin Island name; she is Nuliajuk in Netsilik country, Arnakuagsak in Greenland, and the reasons for her fall vary - a refused marriage, a bird-husband, a dog-husband, or simply being thrown over in a storm.",
+   "storyIds": [
+    "the-fingers",
+    "combing-her-hair",
+    "boot-of-children"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother",
+    "death-judge",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "anguta",
+   "name": "Anguta",
+   "sanskrit": "Anguta",
+   "category": "primordial",
+   "era": "The Great Powers",
+   "role": "The father who did it, and who now ferries the dead down to her house",
+   "wikipedia": "Anguta",
+   "portrait": "portraits/inuit/anguta.webp",
+   "epithets": [
+    "the father",
+    "the one who takes them down"
+   ],
+   "domains": [
+    "the passage of the dead",
+    "the underworld",
+    "the sea"
+   ],
+   "symbols": [
+    "the boat",
+    "the hand that cut"
+   ],
+   "mount": null,
+   "abode": "The bottom of the sea, with his daughter",
+   "festivals": [],
+   "worship": "",
+   "bio": "He cut her fingers off; now he lives at the bottom of the sea and collects the dead.",
+   "longBio": "Anguta is Sedna's father in the Baffin Island telling, and the man who took his knife to her hands. He went down with her, and he lives in the house at the bottom of the sea, and his work now is to fetch the dead and bring them there, where they lie for a year while he pinches them. The relationship at the centre of the Inuit cosmos is therefore a mutilation inside a family, never resolved and never mentioned as a wrong. He is one of the least sentimental figures in any tradition on this site.",
+   "variantTraditions": "Anguta is not named in every regional version; in several the father goes unnamed or the fall has nothing to do with him.",
+   "storyIds": [
+    "the-fingers"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "death-judge",
+    "sea-waters",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "sila",
+   "name": "Sila",
+   "sanskrit": "Silap Inua",
+   "category": "primordial",
+   "era": "The Great Powers",
+   "role": "The air, the weather, and the intelligence in both - and there is no image of it",
+   "wikipedia": "Silap_Inua",
+   "portrait": "portraits/inuit/sila.webp",
+   "epithets": [
+    "Silap Inua, the person of the air",
+    "Sila",
+    "the breath of the world"
+   ],
+   "domains": [
+    "air",
+    "weather",
+    "the sky",
+    "consciousness",
+    "the life in a body"
+   ],
+   "symbols": [
+    "the storm",
+    "the breath",
+    "no image at all"
+   ],
+   "mount": null,
+   "abode": "Everywhere, as the air",
+   "festivals": [],
+   "worship": "",
+   "bio": "The same word covers the weather outside and the mind inside, and that is not an accident.",
+   "longBio": "Sila means the air, the weather, the outdoors, the universe, and also the intelligence in a person - one word doing all of it. Silap Inua is the person of the air, and Rasmussen recorded one of the most striking statements in the ethnographic record about it: an angakkuq told him that Sila cannot be explained in ordinary words, that it is a strong spirit whose voice is gentle like a woman's, and that its message is simply be not afraid of the universe. It has no shape, no story and no image, and it is the closest thing the tradition has to a supreme being.",
+   "variantTraditions": "Rasmussen's informant Najagneq gave the fullest statement of Sila; how representative it is of Inuit thought generally has been discussed ever since.",
+   "storyIds": [
+    "be-not-afraid"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wind-storm",
+    "supreme-source",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "malina",
+   "name": "Malina",
+   "sanskrit": "Malina",
+   "category": "deity",
+   "era": "The Great Powers",
+   "role": "The sun, a woman who fled her brother and has never stopped running",
+   "wikipedia": "Anningan",
+   "portrait": "portraits/inuit/malina.webp",
+   "epithets": [
+    "the sun woman",
+    "Siqiniq",
+    "Seqineq in Greenland"
+   ],
+   "domains": [
+    "the sun",
+    "light",
+    "the chase across the sky"
+   ],
+   "symbols": [
+    "the torch",
+    "soot smeared on a face",
+    "the running figure"
+   ],
+   "mount": null,
+   "abode": "The sky, ahead of the moon",
+   "festivals": [],
+   "worship": "",
+   "bio": "She smeared soot on his face in the dark so she would know him, and you can still see it.",
+   "longBio": "A brother and sister; somebody comes to the sister in the dark night after night and will not say who. She blackens her hands with soot from the lamp and marks his face, and when the lamps are lit it is her brother. She takes a torch and runs, and he takes one and follows, and both go up into the sky - she as the sun, he as the moon. His torch went out in the chase, which is why the moon gives no heat, and the marks are still on his face. The sun and moon are therefore a family disaster that never ends, and the two are not on speaking terms.",
+   "variantTraditions": "The story is told across the Arctic with the roles and details varying; in Greenland the moon's name is Aningaaq.",
+   "storyIds": [
+    "soot-on-his-face"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "fate-time",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "igaluk",
+   "name": "Igaluk",
+   "sanskrit": "Aningaaq",
+   "category": "deity",
+   "era": "The Great Powers",
+   "role": "The moon man, still chasing his sister, and he controls the tides and the game",
+   "wikipedia": "Anningan",
+   "portrait": "portraits/inuit/igaluk.webp",
+   "epithets": [
+    "Anningan",
+    "Tarqiup Inua, the person of the moon",
+    "the moon man"
+   ],
+   "domains": [
+    "the moon",
+    "tides",
+    "the animals of the land",
+    "fertility"
+   ],
+   "symbols": [
+    "the sooted face",
+    "the sledge",
+    "the whip"
+   ],
+   "mount": null,
+   "abode": "The moon, and a house in the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "He forgets to eat while chasing her, which is why the moon thins away and comes back.",
+   "longBio": "The moon is Malina's brother, chasing her across the sky since the night she marked his face. He grows thin because he forgets to eat while chasing, then disappears to hunt, then returns full - which is the phases. He controls the tides, and in most regions he owns the land animals as Sedna owns the sea ones. He is also dangerous to women: in several regions a woman who looked at the moon too long, or slept where his light fell, might be made pregnant by him. Angakkuit travel to his house in the sky in trance, and he is often helpful once they get there.",
+   "variantTraditions": "The moon's control of land animals is stronger in Alaskan and Iglulik material; elsewhere it is less developed.",
+   "storyIds": [
+    "soot-on-his-face",
+    "aurora-game"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "sea-waters",
+    "divine-beast",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "nanook",
+   "name": "Nanook",
+   "sanskrit": "Nanuq",
+   "category": "beast",
+   "era": "The Animals",
+   "role": "The polar bear, who taught people how to hunt him and expects to be treated properly",
+   "wikipedia": "Nanook",
+   "portrait": "portraits/inuit/nanook.webp",
+   "epithets": [
+    "Nanuq",
+    "the great one",
+    "the ten-legged bear in some tellings"
+   ],
+   "domains": [
+    "polar bears",
+    "hunting",
+    "the courtesy owed to killed game"
+   ],
+   "symbols": [
+    "the white bear",
+    "the tools hung on the skin for four days"
+   ],
+   "mount": null,
+   "abode": "The sea ice",
+   "festivals": [],
+   "worship": "",
+   "bio": "A killed bear's soul stays in the camp for days, and gets given the tools it will need.",
+   "longBio": "Nanuq is the master of bears and the hardest, most prestigious animal to hunt. The obligations after a kill are exact: the bear's soul remains with its skin for several days, and the skin is hung in the house and offered gifts appropriate to the bear's sex - knives and drills for a male, needles and scrapers for a female. Treat it well and it will speak favourably of you to other bears, and they will offer themselves. Treat it badly and they will not. Inuit tradition also holds that people learned seal-hunting technique by watching bears do it, which is very probably true.",
+   "variantTraditions": "The reciprocal etiquette of the hunt is documented across the Arctic and is the practical centre of Inuit religion rather than a decorative belief.",
+   "storyIds": [
+    "the-fingers",
+    "bear-etiquette"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "preserver",
+    "war"
+   ]
+  },
+  {
+   "id": "tornarsuk",
+   "name": "Tornarsuk",
+   "sanskrit": "Toornaarsuk",
+   "category": "deity",
+   "era": "The Great Powers",
+   "role": "Chief of the helping spirits - and the one the missionaries turned into the Devil",
+   "wikipedia": "Torngarsuk",
+   "portrait": "portraits/inuit/tornarsuk.webp",
+   "epithets": [
+    "Torngarsuk",
+    "the great tornaq",
+    "chief of the helping spirits"
+   ],
+   "domains": [
+    "the helping spirits",
+    "the angakkuq's power",
+    "the underworld in Greenland"
+   ],
+   "symbols": [
+    "the bear form",
+    "the one-armed man form",
+    "the shapeless form"
+   ],
+   "mount": null,
+   "abode": "Below, or in the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "Nobody agreed what he looked like, including the people who dealt with him.",
+   "longBio": "Tornarsuk is the greatest of the tornait, the helping spirits an angakkuq works with, and the sources cannot agree on his shape: a great bear, a one-armed man, something with no shape at all, or a small being the length of a forearm. He gives the angakkuq their power and is called on in the descent to Sedna. When Moravian missionaries arrived in Labrador and Greenland they used his name to translate Satan, which is the same move made on Eshu in Yorubaland and did the same damage - the figure in the sources is a source of power rather than an adversary.",
+   "variantTraditions": "The name shifts across regions and so does the being; Greenlandic Toornaarsuk and Labrador Torngarsuk may not be the same figure at all.",
+   "storyIds": [
+    "combing-her-hair"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "supreme-source",
+    "sage-seer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "angakkuq",
+   "name": "The Angakkuq",
+   "sanskrit": "Angakkuq",
+   "category": "hero",
+   "era": "The Angakkuit",
+   "role": "Not a priest - a specialist who travels, and comes back with an answer",
+   "wikipedia": "Angakkuq",
+   "portrait": "portraits/inuit/angakkuq.webp",
+   "epithets": [
+    "the shaman",
+    "angakok",
+    "the one who can go down"
+   ],
+   "domains": [
+    "healing",
+    "the journey to Sedna",
+    "finding game",
+    "confession"
+   ],
+   "symbols": [
+    "the drum",
+    "the qilaut",
+    "the bound hands",
+    "the helping spirits"
+   ],
+   "mount": null,
+   "abode": "The floor of the snow house, in the dark",
+   "festivals": [],
+   "worship": "",
+   "bio": "The lamps go out, he is tied up, and the audience hears him leave through the floor.",
+   "longBio": "An angakkuq is a technician of crisis: when the game vanishes, someone is sick or the weather will not break, they go and find out why. The performance is theatrical and deliberately so - lamps extinguished, the angakkuq bound, the drum, voices in the dark, the sound of travel. The usual finding is that somebody has broken a taboo, and the cure is public confession, often of things everyone half knew. It works as social machinery as much as religion. The office was suppressed hard by missionaries from the eighteenth century, and much of what is recorded was recorded as it was ending.",
+   "variantTraditions": "Rasmussen's accounts are the fullest because he spoke the language and travelled with practitioners; earlier missionary accounts are hostile and less reliable.",
+   "storyIds": [
+    "combing-her-hair",
+    "bear-etiquette",
+    "be-not-afraid"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sage-seer",
+    "healer",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "tupilaq",
+   "name": "The Tupilaq",
+   "sanskrit": "Tupilaq",
+   "category": "beast",
+   "era": "The Angakkuit",
+   "role": "A murder weapon assembled from bones and animal parts and sent after somebody",
+   "wikipedia": "Tupilaq",
+   "portrait": "portraits/inuit/tupilaq.webp",
+   "epithets": [
+    "the made thing",
+    "the sent one"
+   ],
+   "domains": [
+    "revenge",
+    "sorcery",
+    "the thing that turns on its maker"
+   ],
+   "symbols": [
+    "a bundle of bones, hair and animal parts",
+    "the carved figure sold to collectors"
+   ],
+   "mount": null,
+   "abode": "The sea, on its way to a victim",
+   "festivals": [],
+   "worship": "",
+   "bio": "If the intended victim is the stronger magician, it turns round and comes back for you.",
+   "longBio": "A tupilaq is manufactured: bones, hair, skin, parts of several animals and sometimes a child's body, bound together in secret and animated by chanting, then sent to kill a specific person. The danger is structural - if the target has stronger power, the tupilaq turns and destroys its maker instead, so making one is a genuine gamble. Because they were made in secret and destroyed after use, none survives. What does survive is a large trade in carved figures: when Europeans asked what a tupilaq looked like, Greenlanders carved representations for them, and tupilaq carving is now a substantial Greenlandic art form.",
+   "variantTraditions": "The carved souvenir tupilaq dates from European contact; the objects themselves were never meant to be seen or kept.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "wisdom-craft",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "qalupalik",
+   "name": "Qalupalik",
+   "sanskrit": "Qallupilluk",
+   "category": "beast",
+   "era": "The Sea",
+   "role": "She waits under the sea ice for children who go too near the edge",
+   "wikipedia": "Qalupalik",
+   "portrait": "portraits/inuit/qalupalik.webp",
+   "epithets": [
+    "the one with the amautik",
+    "the green-skinned one"
+   ],
+   "domains": [
+    "the edge of the sea ice",
+    "the taking of children",
+    "the humming under the ice"
+   ],
+   "symbols": [
+    "green skin and long hair",
+    "long fingernails",
+    "the pouch on her back"
+   ],
+   "mount": null,
+   "abode": "Under the sea ice, at the floe edge",
+   "festivals": [],
+   "worship": "",
+   "bio": "You hear her humming through the ice, and by then you are already too close.",
+   "longBio": "Qalupalik has green skin, long hair and very long nails, wears an amautik - the parka with a pouch for carrying a child - and lives under the sea ice. She takes children who wander to the ice edge and puts them in the pouch and keeps them under the water. This is unambiguously a story told to children about the single most lethal feature of their environment, and it works: the floe edge kills people, and a child who hears humming and runs is a child who lives. Whether that makes it less of a story is a question the tradition does not think is interesting.",
+   "variantTraditions": "Qalupalik remains widely known in Nunavut and has been the subject of modern Inuit-made films and books.",
+   "storyIds": [
+    "humming-under-ice"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "sea-waters",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "amarok",
+   "name": "Amarok",
+   "sanskrit": "Amaruq",
+   "category": "beast",
+   "era": "The Animals",
+   "role": "The giant wolf that takes the weak and sick - and is therefore doing you a favour",
+   "wikipedia": "Amarok",
+   "portrait": "portraits/inuit/amarok.webp",
+   "epithets": [
+    "the great wolf",
+    "the lone hunter"
+   ],
+   "domains": [
+    "wolves",
+    "the culling of the weak",
+    "the herd's health"
+   ],
+   "symbols": [
+    "the enormous wolf",
+    "the night"
+   ],
+   "mount": null,
+   "abode": "The land, hunting alone",
+   "festivals": [],
+   "worship": "",
+   "bio": "The story says plainly that the caribou herd is healthier for what he takes.",
+   "longBio": "Amarok is a wolf of enormous size that hunts alone rather than in a pack, and takes people foolish enough to hunt at night by themselves. But the best-known Amarok story is not a horror story at all: a boy who is small and weak and mocked prays for strength, and Amarok comes, wrestles him, and knocks loose the small bones that were holding back his growth, and he becomes strong. And the tradition holds explicitly that the wolves keep the caribou healthy by taking the sick ones. That is an ecological observation dressed as a story, and it is correct.",
+   "variantTraditions": "The idea that predation improves the herd is stated directly in Inuit tradition and long predates its arrival in Western wildlife biology.",
+   "storyIds": [
+    "kiviuq-still-going",
+    "stones-that-act"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "destroyer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "adlivun",
+   "name": "Adlivun",
+   "sanskrit": "Adlivun",
+   "category": "underworld",
+   "era": "The Sea",
+   "role": "The land under the sea, where the dead lie a year before moving on",
+   "wikipedia": "Adlivun",
+   "portrait": "portraits/inuit/adlivun.webp",
+   "epithets": [
+    "those beneath us",
+    "the land under the sea"
+   ],
+   "domains": [
+    "the dead",
+    "purification",
+    "the year below"
+   ],
+   "symbols": [
+    "Sedna's house",
+    "the guarding dog at the door"
+   ],
+   "mount": null,
+   "abode": "Under the sea, in Sedna's country",
+   "festivals": [],
+   "worship": "",
+   "bio": "Not a punishment - a waiting room, with a dog at the door and a year to serve.",
+   "longBio": "Adlivun is the country beneath the sea where the dead go first, in Sedna's house, guarded by a dog at the entrance. They stay about a year, being purified, and then most go on to Quidlivun, the land of the moon, where it is warm and there is rest and plenty. It is not a moral sorting - who goes where depends on the manner of death rather than the conduct of the life. Those who were bad, in the specific sense of having broken the rules that keep people alive, stay below with Sedna and are put to work. The dog at the door is not decorative; dogs guard doors in this world too.",
+   "variantTraditions": "The geography varies: some regions place the good afterlife in the sky and some under the sea, and the two are sometimes reversed.",
+   "storyIds": [
+    "combing-her-hair",
+    "aurora-game"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "qudlivun",
+   "name": "Qudlivun",
+   "sanskrit": "Qudlivun",
+   "category": "underworld",
+   "era": "The Sea",
+   "role": "The land above, where it is warm and nobody is hungry",
+   "wikipedia": "Adlivun",
+   "portrait": "portraits/inuit/qudlivun.webp",
+   "epithets": [
+    "those above us",
+    "the land of the moon"
+   ],
+   "domains": [
+    "the pleasant afterlife",
+    "rest",
+    "plenty"
+   ],
+   "symbols": [
+    "the moon",
+    "warmth",
+    "the aurora"
+   ],
+   "mount": null,
+   "abode": "In the sky, near the moon",
+   "festivals": [],
+   "worship": "",
+   "bio": "The northern lights are the dead up there playing football with a walrus skull.",
+   "longBio": "Qudlivun is the good country in the sky, warm, with game everywhere and no hunger, reached after the year in Adlivun. The most-repeated detail about it is what the aurora is: the dead, playing a ball game up there with a walrus skull, and the lights are the game. In some regions you can whistle to make them come closer, and in others whistling at the lights is dangerous and they will come down and take your head for the ball. Both are told in earnest, in adjacent regions, which is a useful reminder about how Arctic tradition actually varies.",
+   "variantTraditions": "The aurora-as-ball-game is recorded across the Arctic; the safety of whistling at it is genuinely disputed between regions.",
+   "storyIds": [
+    "aurora-game"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "preserver",
+    "moon"
+   ]
+  },
+  {
+   "id": "aningaaq_dog",
+   "name": "The Woman and the Dog",
+   "sanskrit": "Uinigumasuittuq",
+   "category": "primordial",
+   "era": "The Origins",
+   "role": "She refused every husband, married a dog, and her children became several nations",
+   "wikipedia": "Inuit_religion",
+   "portrait": "portraits/inuit/aningaaq_dog.webp",
+   "epithets": [
+    "the girl who would not marry",
+    "Uinigumasuittuq"
+   ],
+   "domains": [
+    "the origin of peoples",
+    "refusal",
+    "the dog husband"
+   ],
+   "symbols": [
+    "the boot filled with children",
+    "the dog",
+    "the island"
+   ],
+   "mount": null,
+   "abode": "An island offshore",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her children were put in a boot and pushed out to sea, and became Europeans.",
+   "longBio": "A girl refuses every man offered to her and eventually takes a dog as a husband, and bears a litter of children who are part dog. Her father, disgusted, moves them to an island and eventually casts the children adrift in the sole of a boot - and from them come the Europeans, or in other tellings the Indians and various other peoples. It is an origin story for everybody who is not Inuit, told from inside, and the tone is somewhere between explanation and joke. In several versions it is the same woman who later becomes Sedna.",
+   "variantTraditions": "The story is widely distributed and the identification of the dog-wife with Sedna is explicit in Netsilik and Iglulik versions.",
+   "storyIds": [
+    "boot-of-children"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "creator",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "kiviuq",
+   "name": "Kiviuq",
+   "sanskrit": "Kiviuq",
+   "category": "hero",
+   "era": "The Origins",
+   "role": "The wanderer who has been travelling for so long that he is turning to stone",
+   "wikipedia": "Kiviuq",
+   "portrait": "portraits/inuit/kiviuq.webp",
+   "epithets": [
+    "the eternal traveller",
+    "the one still going"
+   ],
+   "domains": [
+    "the long journey",
+    "survival",
+    "the many episodes"
+   ],
+   "symbols": [
+    "the kayak",
+    "the wolf-skin",
+    "the stone he is becoming"
+   ],
+   "mount": null,
+   "abode": "Still travelling",
+   "festivals": [],
+   "worship": "",
+   "bio": "The largest story cycle in the Arctic, and the elders say he is not dead yet.",
+   "longBio": "Kiviuq is the Inuit wanderer, and his cycle is enormous - dozens of episodes strung along a journey with no end, in which he escapes a murderous fox-wife, is carried off by a giant bee-woman, meets a woman who is really a wolf, outruns things that should have killed him and always moves on. The cycle is the largest single body of narrative in Inuit tradition and no two tellers give the same sequence. Elders interviewed in Nunavut in the 2000s said he is still alive, very old, and slowly turning to stone, and that when he finally stops the world will end.",
+   "variantTraditions": "The Kiviuq Elders' Archive, recorded in Nunavut in the 2000s, preserves many tellings; older published versions are only a fraction of the cycle.",
+   "storyIds": [
+    "boot-of-children",
+    "kiviuq-still-going",
+    "stones-that-act"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "fate-time",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "ijiraq",
+   "name": "The Ijiraq",
+   "sanskrit": "Ijiraq",
+   "category": "beast",
+   "era": "The Land",
+   "role": "Shape-shifters who take children and hide them, and can only be seen sideways",
+   "wikipedia": "Ijiraq",
+   "portrait": "portraits/inuit/ijiraq.webp",
+   "epithets": [
+    "the ones who hide",
+    "the shape-changers"
+   ],
+   "domains": [
+    "the tundra",
+    "getting lost",
+    "the taking and hiding of children"
+   ],
+   "symbols": [
+    "red eyes",
+    "the inuksuk that marks where one passed",
+    "the corner of the eye"
+   ],
+   "mount": null,
+   "abode": "The tundra, between things",
+   "festivals": [],
+   "worship": "",
+   "bio": "You catch one at the edge of your vision, and when you look straight at it there is nothing.",
+   "longBio": "The ijiraq are beings of the land who change shape and who take children and hide them somewhere between the visible world and elsewhere. They can be glimpsed only in peripheral vision - look at one directly and it is gone. Stone inuksuit, the built figures used across the Arctic for navigation and as markers, are in some accounts connected with them, one kind marking places where an ijiraq is or was. A child taken by an ijiraq is not necessarily dead; they are hidden, which is worse. The name is related to the word for the eye.",
+   "variantTraditions": "The connection between ijiraq and particular inuksuit varies by region; the inuksuk itself is primarily a practical navigation and hunting structure.",
+   "storyIds": [
+    "kiviuq-still-going",
+    "humming-under-ice"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "tarriassuk",
+   "name": "The Tarriassuit",
+   "sanskrit": "Tarriassuit",
+   "category": "beast",
+   "era": "The Land",
+   "role": "The shadow people, who live alongside and are almost never seen",
+   "wikipedia": "Inuit_religion",
+   "portrait": "portraits/inuit/tarriassuk.webp",
+   "epithets": [
+    "the shadow people",
+    "the ones just out of sight"
+   ],
+   "domains": [
+    "a parallel people",
+    "shyness",
+    "the edge of vision"
+   ],
+   "symbols": [
+    "shadow",
+    "the felt presence",
+    "footprints with no maker"
+   ],
+   "mount": null,
+   "abode": "Alongside, in a world beside this one",
+   "festivals": [],
+   "worship": "",
+   "bio": "They live exactly as Inuit do, hunt the same animals, and are simply never quite visible.",
+   "longBio": "The tarriassuit are a people who live in the same country, hunting the same seals, keeping the same kind of camps, and existing just out of sight. They are not hostile and not dead - a parallel population that human beings only rarely glimpse. Occasionally one is seen, or marries a human, or is heard. It is one of the least dramatic ideas in the Arctic corpus and one of the most quietly unsettling: not a monster in the dark, but neighbours you cannot see, going about the same difficult business of staying alive.",
+   "variantTraditions": "Named and described chiefly in Greenlandic and eastern Canadian sources.",
+   "storyIds": [
+    "kiviuq-still-going"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "preserver"
+   ]
+  },
+  {
+   "id": "keelut",
+   "name": "Keelut",
+   "sanskrit": "Qiqirn",
+   "category": "beast",
+   "era": "The Land",
+   "role": "A hairless dog-spirit that follows people home at night",
+   "wikipedia": "Keelut",
+   "portrait": "portraits/inuit/keelut.webp",
+   "epithets": [
+    "Qiqirn",
+    "the hairless dog"
+   ],
+   "domains": [
+    "death",
+    "the road home at night",
+    "seizures"
+   ],
+   "symbols": [
+    "hairlessness except at feet, ears and mouth",
+    "no tracks in the snow"
+   ],
+   "mount": null,
+   "abode": "Following, behind you",
+   "festivals": [],
+   "worship": "",
+   "bio": "It leaves no tracks, which is how you know what has been following you.",
+   "longBio": "Keelut is an earth spirit in the shape of a hairless black dog that attaches itself to a traveller at night and follows them home, and the person dies. The related Qiqirn of other regions is a large dog with hair only at the feet, ears and mouth, so frightening that both people and dogs have seizures when it comes near - though it is itself easily scared off by shouting its name. The Arctic produces a lot of stories about things behind you on a long walk in the dark, which is not surprising in a place where a long walk in the dark is routine.",
+   "variantTraditions": "Keelut and Qiqirn are separate beings in the sources and are frequently conflated in later popular writing.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "death-judge",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "agloolik",
+   "name": "Agloolik",
+   "sanskrit": "Agloolik",
+   "category": "deity",
+   "era": "The Sea",
+   "role": "A helpful spirit under the ice who guides hunters to the seals",
+   "wikipedia": "Inuit_religion",
+   "portrait": "portraits/inuit/agloolik.webp",
+   "epithets": [
+    "the one under the ice",
+    "the helper at the breathing hole"
+   ],
+   "domains": [
+    "seal hunting",
+    "the breathing hole",
+    "help given to hunters"
+   ],
+   "symbols": [
+    "the aglu, the seal's breathing hole",
+    "the harpoon"
+   ],
+   "mount": null,
+   "abode": "Under the ice",
+   "festivals": [],
+   "worship": "",
+   "bio": "One of the few beings in this pack whose entire function is to be useful.",
+   "longBio": "Agloolik lives under the ice and helps hunters and fishermen - guiding them to breathing holes, giving good luck with the harpoon, keeping a kayak steady. The name comes from aglu, the hole a seal keeps open in the ice to breathe through, which is where seal hunting actually happens: a hunter stands motionless over one, sometimes for many hours in extreme cold, waiting for a nose. That a benevolent spirit is attached to that specific and gruelling activity says something about what people most wanted help with.",
+   "variantTraditions": "Agloolik appears mostly in Canadian Arctic sources and is one of relatively few unambiguously benign figures in the record.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "sea-waters",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "inuksuk",
+   "name": "The Inuksuk",
+   "sanskrit": "Inuksuk",
+   "category": "primordial",
+   "era": "The Land",
+   "role": "A stone figure meaning acts in the capacity of a person - and it does",
+   "wikipedia": "Inuksuk",
+   "portrait": "portraits/inuit/inuksuk.webp",
+   "epithets": [
+    "the stone marker",
+    "inunnguaq, in the likeness of a person"
+   ],
+   "domains": [
+    "navigation",
+    "the caribou drive",
+    "memory",
+    "message"
+   ],
+   "symbols": [
+    "stacked stone",
+    "the window aligned on a landmark"
+   ],
+   "mount": null,
+   "abode": "The tundra, on ridgelines",
+   "festivals": [],
+   "worship": "",
+   "bio": "In a landscape with no trees and no landmarks, a person-shaped stone is infrastructure.",
+   "longBio": "An inuksuk is a built stone structure, and the name means that which acts in the capacity of a human. They mark routes, indicate caches, point at good fishing, warn of danger, and were built in long converging lines to funnel caribou toward waiting hunters. The human-shaped kind, with head, arms and legs, is properly an inunnguaq and is less common than popular use suggests. Some are centuries old and still standing and still working. One appears on the flag of Nunavut. In a country with no trees and few fixed landmarks they are the difference between knowing where you are and not.",
+   "variantTraditions": "The distinction between inuksuk (a marker of any shape) and inunnguaq (a human likeness) is often lost in southern usage.",
+   "storyIds": [
+    "stones-that-act"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "preserver",
+    "wisdom-craft",
+    "sage-seer"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "sedna",
+   "to": "anguta",
+   "type": "parent",
+   "note": "The father who took the knife to her hands"
+  },
+  {
+   "from": "anguta",
+   "to": "sedna",
+   "type": "enemy",
+   "note": "And went down with her, and never made it right"
+  },
+  {
+   "from": "sedna",
+   "to": "nanook",
+   "type": "parent",
+   "note": "Every sea animal came off her fingers"
+  },
+  {
+   "from": "sedna",
+   "to": "adlivun",
+   "type": "ally",
+   "note": "Her house is the first country the dead come to"
+  },
+  {
+   "from": "sedna",
+   "to": "angakkuq",
+   "type": "enemy",
+   "note": "He goes down to comb the filth out of her hair"
+  },
+  {
+   "from": "sedna",
+   "to": "aningaaq_dog",
+   "type": "form",
+   "note": "In several regions the dog-wife and the sea woman are one"
+  },
+  {
+   "from": "sedna",
+   "to": "qalupalik",
+   "type": "ally",
+   "note": "Two reasons to stay back from the water"
+  },
+  {
+   "from": "sedna",
+   "to": "agloolik",
+   "type": "ally",
+   "note": "She owns the seals; he shows you where they breathe"
+  },
+  {
+   "from": "sila",
+   "to": "malina",
+   "type": "ally",
+   "note": "The air, and the light crossing it"
+  },
+  {
+   "from": "sila",
+   "to": "angakkuq",
+   "type": "guru",
+   "note": "Be not afraid of the universe - the one message recorded"
+  },
+  {
+   "from": "malina",
+   "to": "igaluk",
+   "type": "sibling",
+   "note": "She marked his face with soot and ran"
+  },
+  {
+   "from": "igaluk",
+   "to": "malina",
+   "type": "enemy",
+   "note": "And he has been chasing her ever since"
+  },
+  {
+   "from": "igaluk",
+   "to": "qudlivun",
+   "type": "ally",
+   "note": "The good country lies near the moon"
+  },
+  {
+   "from": "igaluk",
+   "to": "amarok",
+   "type": "ally",
+   "note": "The moon owns the land animals as Sedna owns the sea"
+  },
+  {
+   "from": "igaluk",
+   "to": "nanook",
+   "type": "ally",
+   "note": "The bear belongs to the land as much as the ice"
+  },
+  {
+   "from": "tornarsuk",
+   "to": "angakkuq",
+   "type": "guru",
+   "note": "The greatest of the helping spirits, and the source of the power"
+  },
+  {
+   "from": "tornarsuk",
+   "to": "sedna",
+   "type": "ally",
+   "note": "Invoked on the way down to her house"
+  },
+  {
+   "from": "angakkuq",
+   "to": "tupilaq",
+   "type": "guru",
+   "note": "The same craft, turned to killing"
+  },
+  {
+   "from": "angakkuq",
+   "to": "adlivun",
+   "type": "ally",
+   "note": "He can go there and come back, which is the whole point"
+  },
+  {
+   "from": "angakkuq",
+   "to": "nanook",
+   "type": "devotee",
+   "note": "The courtesies after a kill are his department"
+  },
+  {
+   "from": "tupilaq",
+   "to": "angakkuq",
+   "type": "enemy",
+   "note": "If the target is stronger it turns and comes home"
+  },
+  {
+   "from": "nanook",
+   "to": "amarok",
+   "type": "sibling",
+   "note": "The two great hunters of the land"
+  },
+  {
+   "from": "amarok",
+   "to": "kiviuq",
+   "type": "enemy",
+   "note": "One of the many things on the road that did not stop him"
+  },
+  {
+   "from": "kiviuq",
+   "to": "ijiraq",
+   "type": "enemy",
+   "note": "The tundra is full of things that hide"
+  },
+  {
+   "from": "kiviuq",
+   "to": "tarriassuk",
+   "type": "ally",
+   "note": "He has met the people who are not quite visible"
+  },
+  {
+   "from": "qalupalik",
+   "to": "ijiraq",
+   "type": "ally",
+   "note": "Both take children, one from the ice and one from the land"
+  },
+  {
+   "from": "keelut",
+   "to": "adlivun",
+   "type": "ally",
+   "note": "What follows you home, and where you go afterwards"
+  },
+  {
+   "from": "keelut",
+   "to": "amarok",
+   "type": "sibling",
+   "note": "Two dogs on the road at night, one helpful and one not"
+  },
+  {
+   "from": "adlivun",
+   "to": "qudlivun",
+   "type": "sibling",
+   "note": "A year below, then up - for most people"
+  },
+  {
+   "from": "anguta",
+   "to": "adlivun",
+   "type": "ally",
+   "note": "He fetches the dead and pinches them for a year"
+  },
+  {
+   "from": "aningaaq_dog",
+   "to": "kiviuq",
+   "type": "parent",
+   "note": "The peoples of the world, and the one still travelling"
+  },
+  {
+   "from": "inuksuk",
+   "to": "ijiraq",
+   "type": "ally",
+   "note": "Some stones mark where one of them passed"
+  },
+  {
+   "from": "inuksuk",
+   "to": "amarok",
+   "type": "enemy",
+   "note": "Lines of them funnel the caribou away from the wolves and to the hunters"
+  },
+  {
+   "from": "inuksuk",
+   "to": "kiviuq",
+   "type": "ally",
+   "note": "How anyone finds their way at all"
+  },
+  {
+   "from": "agloolik",
+   "to": "nanook",
+   "type": "guru",
+   "note": "People learned the breathing-hole hunt by watching bears do it"
+  },
+  {
+   "from": "sila",
+   "to": "sedna",
+   "type": "sibling",
+   "note": "The air and the sea, the two powers that decide whether you live"
+  },
+  {
+   "from": "malina",
+   "to": "aningaaq_dog",
+   "type": "sibling",
+   "note": "Two stories about a family that went wrong"
+  }
+ ]
+}
