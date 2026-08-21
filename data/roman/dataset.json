@@ -1,0 +1,3157 @@
+{
+ "title": "Roman Mythology: Figures, Relationships and Story Cycles",
+ "description": "The Roman gods mapped as a relationship graph, with the Greek borrowing made visible: the old Italic gods of doors and boundaries, the Capitoline Triad, Aeneas out of Troy, the wolf and the wall, and the imported cults.",
+ "generated": "2026-08-20",
+ "sources": [
+  "Ovid, Metamorphoses (tr. Brookes More, 1922) and Fasti (tr. J. G. Frazer, 1931)",
+  "Virgil, The Aeneid (tr. John Dryden, 1697)",
+  "Livy, The History of Rome, Book I (tr. Canon Roberts, 1912)",
+  "Plutarch, Lives of Romulus and Numa (tr. Bernadotte Perrin, 1914)",
+  "William Smith, Dictionary of Greek and Roman Biography and Mythology (1849)",
+  "Encyclopaedia Britannica and Wikipedia for cross-checking cult titles and dates"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/roman/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "ovid_meta": {
+   "t": "Metamorphoses",
+   "tr": "Ovid, tr. Brookes More, 1922",
+   "u": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0028"
+  },
+  "ovid_fasti": {
+   "t": "Fasti",
+   "tr": "Ovid, tr. James George Frazer, 1931",
+   "u": "https://archive.org/details/ovidsfasti0000ovid"
+  },
+  "aeneid": {
+   "t": "The Aeneid",
+   "tr": "Virgil, tr. John Dryden, 1697",
+   "u": "https://sacred-texts.com/cla/virgil/aen/index.htm"
+  },
+  "livy": {
+   "t": "The History of Rome, Book I",
+   "tr": "Livy, tr. Rev. Canon Roberts, 1912",
+   "u": "https://www.gutenberg.org/ebooks/19725"
+  },
+  "plutarch": {
+   "t": "Parallel Lives: Romulus and Numa",
+   "tr": "Plutarch, tr. Bernadotte Perrin, 1914",
+   "u": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/home.html"
+  },
+  "smith": {
+   "t": "Dictionary of Greek and Roman Biography and Mythology",
+   "tr": "William Smith, 1849",
+   "u": "https://archive.org/details/dictionaryofgree01smit"
+  }
+ },
+ "meta": {
+  "id": "roman",
+  "label": "Roman",
+  "sublabel": "Italic & Imperial",
+  "accent": "#c9a227",
+  "root": "janus"
+ },
+ "profile": {
+  "cosmicNature": "Nobody asks. Rome inherited a Greek cosmology it did not much care about and had no creation story of its own worth the name. What it had instead was a beginning in time rather than in the void: a city founded on a specific date, by a specific man, who killed his brother to do it.",
+  "natureOfDivinity": "A contract, correctly executed. Roman religion is less about belief than about procedure - the right words, in the right order, by the right official, and if a syllable is fumbled the whole rite is repeated from the start. There is a god for the hinge of the door and a god for the first appearance of a plant above the soil, because coverage matters. Foreign gods were adopted freely, sometimes by formal invitation.",
+  "afterlife": "Thin and borrowed. The underworld is Greek with Latin labels. What Romans actually attended to were the di manes, the family dead, fed at the tomb at set festivals, and the lares of the household, who got a portion at the hearth. The dead were relatives with ongoing entitlements, not souls awaiting judgement.",
+  "systemMechanism": "The pax deorum - the peace with the gods, held by the state as an act of administration. Magistrates take the auspices before business. Armies do not march on a bad omen. When Rome loses a battle it is because a rite was botched, and the response is to find the error and repeat the ceremony. Religion is a department of government, and it is competent.",
+  "canonTexts": "Ovid's Metamorphoses and Fasti, Virgil's Aeneid, Livy's first book, and the antiquarian fragments of Varro. Almost all of it is late, literary and self-conscious - written when educated Romans were already looking back at their own religion and explaining it to themselves."
+ },
+ "hierarchy": [
+  {
+   "title": "The Gods Rome Had First",
+   "blurb": "Before any of it was Greek: a god who is the hinge of a door and comes first in every prayer, a boundary stone with a veto over Jupiter, a fire tended by six women, and the small gods of the larder who got a share of dinner.",
+   "memberIds": [
+    "janus",
+    "terminus",
+    "vesta",
+    "lares",
+    "penates",
+    "genius",
+    "quirinus"
+   ],
+   "connectorCaption": "Then Greek literature arrived, and every major god was matched to one"
+  },
+  {
+   "title": "The Capitoline Triad",
+   "blurb": "Jupiter, Juno and Minerva on the Capitoline - an arrangement copied from the Etruscans, not the Greeks. All three are real Italic gods wearing borrowed biographies.",
+   "memberIds": [
+    "jupiter",
+    "juno",
+    "minerva",
+    "mars",
+    "saturn"
+   ],
+   "connectorCaption": "Around them, the working gods of farms, guilds, doors and drains"
+  },
+  {
+   "title": "The Working Gods",
+   "blurb": "Ceres holds the grain supply and the plebeian archives. Vulcan is kept outside the walls in case of fire. Fortuna has a wheel, a rudder and a blindfold. These are gods with jobs.",
+   "memberIds": [
+    "ceres",
+    "vulcan",
+    "fortuna",
+    "bellona",
+    "faunus",
+    "flora",
+    "pomona",
+    "vertumnus",
+    "bacchus"
+   ],
+   "connectorCaption": "And the Greek gods, taken over wholesale and given Latin names"
+  },
+  {
+   "title": "The Greek Gods in Latin",
+   "blurb": "Neptune was about springs and horses before Poseidon reached him. Mercury was about profit margins. Apollo was the one they did not bother renaming, because there was nothing to rename him from.",
+   "memberIds": [
+    "neptune",
+    "pluto",
+    "proserpina",
+    "venus",
+    "cupid",
+    "mercury",
+    "apollo",
+    "diana",
+    "hercules_roman"
+   ],
+   "connectorCaption": "Underneath all of it, the story that is Rome's alone"
+  },
+  {
+   "title": "Troy to Latium",
+   "blurb": "A refugee carries his father out of a burning city and spends the rest of his life doing what he is told rather than what he wants. On the way he ruins a queen, and a war is fought over a girl who never speaks.",
+   "memberIds": [
+    "aeneas",
+    "dido",
+    "latinus",
+    "lavinia",
+    "turnus",
+    "sibyl",
+    "cacus"
+   ],
+   "connectorCaption": "Four hundred years later at Alba Longa, a king locks his niece away"
+  },
+  {
+   "title": "The Wolf and the Wall",
+   "blurb": "Twins set adrift, fed by a wolf, raised by a herdsman. They disagree about a hill, take the auspices, and get an answer that settles nothing. Then one of them steps over the other's furrow.",
+   "memberIds": [
+    "rhea_silvia",
+    "lupa",
+    "romulus",
+    "remus"
+   ],
+   "connectorCaption": "The city exists. Now somebody has to give it a religion and a constitution"
+  },
+  {
+   "title": "Kings, and the End of Them",
+   "blurb": "Numa gets the sacred law from a nymph he meets at night. Tarquin knocks the heads off poppies to explain what to do with a captured town. And a woman's suicide ends the monarchy in a week.",
+   "memberIds": [
+    "numa",
+    "egeria",
+    "tarquin",
+    "lucretia",
+    "brutus",
+    "libertas"
+   ],
+   "connectorCaption": "The empire that followed imported its gods from everywhere it conquered"
+  },
+  {
+   "title": "The Imported Cults",
+   "blurb": "A black stone shipped from Asia Minor to beat Hannibal. A bull-slaying god the whole army worshipped in cellars and wrote nothing down about. An Egyptian goddess banned five times and worshipped anyway.",
+   "memberIds": [
+    "cybele",
+    "mithras",
+    "sol_invictus",
+    "isis_roman",
+    "victoria"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "capitoline",
+   "label": "The Capitoline Triad",
+   "memberIds": [
+    "jupiter",
+    "juno",
+    "minerva"
+   ]
+  },
+  {
+   "id": "archaic",
+   "label": "The Archaic Triad",
+   "memberIds": [
+    "jupiter",
+    "mars",
+    "quirinus"
+   ]
+  },
+  {
+   "id": "italic",
+   "label": "Gods With No Greek Equivalent",
+   "memberIds": [
+    "janus",
+    "terminus",
+    "lares",
+    "penates",
+    "genius",
+    "quirinus",
+    "bellona"
+   ]
+  },
+  {
+   "id": "household",
+   "label": "The Household Gods",
+   "memberIds": [
+    "lares",
+    "penates",
+    "genius",
+    "vesta"
+   ]
+  },
+  {
+   "id": "aeneid",
+   "label": "The Aeneid",
+   "memberIds": [
+    "aeneas",
+    "dido",
+    "turnus",
+    "lavinia",
+    "latinus",
+    "sibyl",
+    "venus"
+   ]
+  },
+  {
+   "id": "founding",
+   "label": "The Founding of Rome",
+   "memberIds": [
+    "romulus",
+    "remus",
+    "lupa",
+    "rhea_silvia",
+    "mars"
+   ]
+  },
+  {
+   "id": "republic",
+   "label": "The Birth of the Republic",
+   "memberIds": [
+    "tarquin",
+    "lucretia",
+    "brutus",
+    "libertas"
+   ]
+  },
+  {
+   "id": "imports",
+   "label": "The Imported Cults",
+   "memberIds": [
+    "cybele",
+    "mithras",
+    "sol_invictus",
+    "isis_roman",
+    "bacchus"
+   ]
+  },
+  {
+   "id": "greekdress",
+   "label": "Greek Gods in Latin Dress",
+   "memberIds": [
+    "neptune",
+    "pluto",
+    "proserpina",
+    "venus",
+    "cupid",
+    "mercury",
+    "apollo",
+    "diana",
+    "hercules_roman"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "terminus-refuses",
+   "title": "The Stone That Would Not Move",
+   "era": "The Old Italic Gods",
+   "cast": [
+    "terminus",
+    "jupiter"
+   ],
+   "summary": "Clearing the Capitoline to build the great temple of Jupiter, the augurs put the question formally to every god with a shrine on the hill: will you make way? All consented except Terminus, who was a boundary stone, and who did not. Roman religious law being what it was, that settled it. The temple was built around him, with an opening left in the roof above because a boundary stone must stand under open sky. The Romans took it as an omen that their frontiers would never move back, and it is hard to think of another religion that would let a rock outvote the king of the gods.",
+   "sources": [
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book I",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    },
+    {
+     "book": "Fasti",
+     "translation": "Ovid, tr. James George Frazer, 1931",
+     "location": "Book II",
+     "url": "https://archive.org/details/ovidsfasti0000ovid"
+    }
+   ]
+  },
+  {
+   "id": "aeneas-leaves-troy",
+   "title": "Out of Troy",
+   "era": "The Founding",
+   "cast": [
+    "aeneas",
+    "venus",
+    "penates"
+   ],
+   "summary": "Troy is burning and Aeneas means to die fighting until his mother stops him and shows him the gods themselves pulling the walls down - this is decided, and he has a different job. He goes home, takes his father Anchises on his back, his son by the hand and the household gods under his arm, and walks out. His wife Creusa follows behind and is lost in the dark; he goes back for her and meets her ghost, who tells him not to. That image - the old man on the shoulders, the child at the hand - is the one every Roman knew, and it is a picture of duty carrying the past and leading the future out of a disaster.",
+   "sources": [
+    {
+     "book": "The Aeneid",
+     "translation": "Virgil, tr. John Dryden, 1697",
+     "location": "Book II",
+     "url": "https://sacred-texts.com/cla/virgil/aen/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "dido",
+   "title": "Dido and Aeneas",
+   "era": "The Founding",
+   "cast": [
+    "dido",
+    "aeneas",
+    "venus",
+    "cupid"
+   ],
+   "summary": "Shipwrecked at Carthage, Aeneas is received by its queen, and Venus sends Cupid to make sure she falls in love with him. They shelter from a storm in a cave and Dido calls it a marriage. For a season he stays and helps build her city. Then the gods send word that Italy is his business, and he prepares to leave - secretly, until she finds out. Her fury and his stiff, dutiful answers are the most quoted exchange in Latin poetry. She builds a pyre, climbs it, and falls on the sword he left, cursing his people forever as the fleet clears the harbour. Virgil is explaining the Punic Wars as a broken promise.",
+   "sources": [
+    {
+     "book": "The Aeneid",
+     "translation": "Virgil, tr. John Dryden, 1697",
+     "location": "Book IV",
+     "url": "https://sacred-texts.com/cla/virgil/aen/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "turnus",
+   "title": "The End of the Aeneid",
+   "era": "The Founding",
+   "cast": [
+    "turnus",
+    "aeneas",
+    "lavinia",
+    "latinus"
+   ],
+   "summary": "The war in Italy comes down to single combat. Turnus is beaten, wounded, on the ground, and he asks - not for his life exactly, but that his body be returned to his father. Aeneas hesitates, and the hesitation is the whole point of the poem: he is about to be merciful. Then he sees, on Turnus's shoulder, the sword-belt stripped from the boy Pallas, whom Turnus killed and whom Aeneas had promised to protect. He kills him in a rage, and the poem stops on that line. No funeral, no marriage, no founding. Readers have been arguing for two thousand years about whether Virgil approved.",
+   "sources": [
+    {
+     "book": "The Aeneid",
+     "translation": "Virgil, tr. John Dryden, 1697",
+     "location": "Book XII",
+     "url": "https://sacred-texts.com/cla/virgil/aen/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "twins-exposed",
+   "title": "The Wolf at the River",
+   "era": "The Founding",
+   "cast": [
+    "rhea_silvia",
+    "romulus",
+    "remus",
+    "lupa",
+    "mars"
+   ],
+   "summary": "Amulius takes his brother's throne and forces his niece into the Vestal priesthood so there will be no heirs. She bears twins anyway, and says the father was Mars - Livy notes drily that she said so. The babies are set adrift in a basket on the flooded Tiber and ground at the foot of the Palatine. A she-wolf coming down to drink finds them and suckles them in a cave, and a herdsman takes them home. Grown, they learn who they are, kill Amulius, restore their grandfather, and go off to found a city of their own. Every precaution taken to prevent them produced them.",
+   "sources": [
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book I",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    },
+    {
+     "book": "Parallel Lives: Romulus and Numa",
+     "translation": "Plutarch, tr. Bernadotte Perrin, 1914",
+     "location": "Romulus",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/home.html"
+    }
+   ]
+  },
+  {
+   "id": "wall",
+   "title": "Six Vultures and Twelve",
+   "era": "The Founding",
+   "cast": [
+    "romulus",
+    "remus"
+   ],
+   "summary": "The brothers cannot agree which hill, so they take the auspices - Remus on the Aventine, Romulus on the Palatine - and the result settles nothing: Remus sees six vultures first, Romulus sees twelve afterwards. Both claim the omen. Romulus begins ploughing the boundary furrow of his city, and Remus jumps across it to show that a wall that low would stop nobody. Romulus kills him on the spot, and says: so shall it be for anyone who crosses my walls. Rome had four hundred years to invent a nicer founding story and kept this one, and Horace later wrote that the brother's blood was why the civil wars kept coming.",
+   "sources": [
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book I",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    },
+    {
+     "book": "Parallel Lives: Romulus and Numa",
+     "translation": "Plutarch, tr. Bernadotte Perrin, 1914",
+     "location": "Romulus",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/home.html"
+    }
+   ]
+  },
+  {
+   "id": "numa-egeria",
+   "title": "The King and the Nymph",
+   "era": "The Founding",
+   "cast": [
+    "numa",
+    "egeria",
+    "vesta",
+    "janus"
+   ],
+   "summary": "After Romulus, Rome chose a Sabine known for good sense, and Numa reigned forty-three years without a single war - the gates of Janus stayed shut the whole time, which never happened again for six centuries. He founded the priesthoods, the Vestals and their fire, and the calendar itself, dividing the year into days on which public business was and was not lawful. He said he had it all from the nymph Egeria, whom he met by night at her spring, and Plutarch records the raised eyebrows without endorsing them. When he died she wept until Diana turned her into water.",
+   "sources": [
+    {
+     "book": "Parallel Lives: Romulus and Numa",
+     "translation": "Plutarch, tr. Bernadotte Perrin, 1914",
+     "location": "Numa",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/home.html"
+    },
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book I",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    },
+    {
+     "book": "Metamorphoses",
+     "translation": "Ovid, tr. Brookes More, 1922",
+     "location": "Book XV",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0028"
+    }
+   ]
+  },
+  {
+   "id": "lucretia",
+   "title": "Lucretia and the End of the Kings",
+   "era": "The Founding",
+   "cast": [
+    "lucretia",
+    "tarquin",
+    "brutus",
+    "libertas"
+   ],
+   "summary": "A drunken argument in camp about whose wife is the most virtuous ends with the young men riding home unannounced to check. The others' wives are at dinner parties; Lucretia is working wool with her servants. Days later Sextus Tarquinius comes back alone, and takes her at knifepoint. She sends for her father and her husband, tells them plainly what happened, makes them swear vengeance, and kills herself in front of them despite everything they say. Brutus pulls the knife out of her body, holds it up, and swears by her blood to drive out the kings. Within days the monarchy is over and Rome is a Republic.",
+   "sources": [
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book I",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    },
+    {
+     "book": "Fasti",
+     "translation": "Ovid, tr. James George Frazer, 1931",
+     "location": "Book II",
+     "url": "https://archive.org/details/ovidsfasti0000ovid"
+    }
+   ]
+  },
+  {
+   "id": "brutus-sons",
+   "title": "Brutus and His Sons",
+   "era": "The Founding",
+   "cast": [
+    "brutus",
+    "tarquin",
+    "libertas"
+   ],
+   "summary": "Brutus had survived Tarquin's purge by pretending to be simple - his name means dull - and now he is one of the first two consuls of the new Republic. Then a plot to restore the monarchy is uncovered, and among the conspirators are his own two sons. He tries them himself, sitting on the tribunal, and has them beaten and beheaded in front of him without leaving his seat. Roman writers presented it as the highest possible statement that the state outranks the family, and were not entirely comfortable with it either. David painted the aftermath in 1789, and the timing was not accidental.",
+   "sources": [
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book II",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    },
+    {
+     "book": "Parallel Lives: Romulus and Numa",
+     "translation": "Plutarch, tr. Bernadotte Perrin, 1914",
+     "location": "Publicola",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/home.html"
+    }
+   ]
+  },
+  {
+   "id": "saturnalia",
+   "title": "The Week the Slaves Were Served",
+   "era": "The Old Italic Gods",
+   "cast": [
+    "saturn"
+   ],
+   "summary": "For a week in December, Rome inverted itself. Business stopped, courts closed, gambling was legal, togas were swapped for loose coloured clothes, everyone wore the freedman's cap, and gifts were exchanged - candles and small clay figures. A mock king was chosen by lot to give absurd orders. And masters waited at table on their own slaves, or ate with them, depending on the household. Saturn had ruled a Golden Age in Latium when there was no property and no servitude, and for one week a year the city acted it out. Almost everything December still does, it was already doing.",
+   "sources": [
+    {
+     "book": "Fasti",
+     "translation": "Ovid, tr. James George Frazer, 1931",
+     "location": "Book I",
+     "url": "https://archive.org/details/ovidsfasti0000ovid"
+    },
+    {
+     "book": "Dictionary of Greek and Roman Biography and Mythology",
+     "translation": "William Smith, 1849",
+     "location": "Saturnalia",
+     "url": "https://archive.org/details/dictionaryofgree01smit"
+    }
+   ]
+  },
+  {
+   "id": "great-mother",
+   "title": "Shipping a Goddess to Win a War",
+   "era": "The Imperial Cults",
+   "cast": [
+    "cybele",
+    "victoria"
+   ],
+   "summary": "In 204 BC, with Hannibal loose in Italy and the war going badly, the Senate consulted the Sibylline Books and was told to bring the Great Mother to Rome. An embassy went to Pessinus in Asia Minor and came back with her: a black stone, probably a meteorite. It was carried up the Tiber and installed on the Palatine with enormous ceremony, and Hannibal left Italy two years later, which was taken as settling the question. Then Rome discovered what came with her - eunuch priests who castrated themselves in ecstatic rites - and forbade citizens to join. They kept the goddess and quarantined the clergy.",
+   "sources": [
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book XXIX",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    },
+    {
+     "book": "Fasti",
+     "translation": "Ovid, tr. James George Frazer, 1931",
+     "location": "Book IV",
+     "url": "https://archive.org/details/ovidsfasti0000ovid"
+    }
+   ]
+  },
+  {
+   "id": "bacchanalia",
+   "title": "The Senate Bans a God",
+   "era": "The Imperial Cults",
+   "cast": [
+    "bacchus",
+    "ceres"
+   ],
+   "summary": "In 186 BC the Senate decided that the rites of Bacchus had become a conspiracy - secret meetings, mixed sexes, night gatherings, oaths - and moved against them with the machinery normally reserved for a rebellion. Livy says several thousand people were executed. The decree restricting the cult survives, cut into a bronze tablet, one of the oldest substantial Latin documents we have. What makes it remarkable is that this was not a foreign religion being expelled: Liber Pater was an old Italic god with a temple on the Aventine. Rome had adopted the Greek version itself, and then found it could not live with it.",
+   "sources": [
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book XXXIX",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    },
+    {
+     "book": "Dictionary of Greek and Roman Biography and Mythology",
+     "translation": "William Smith, 1849",
+     "location": "Bacchanalia",
+     "url": "https://archive.org/details/dictionaryofgree01smit"
+    }
+   ]
+  },
+  {
+   "id": "cacus",
+   "title": "Hercules and the Cattle Thief",
+   "era": "The Founding",
+   "cast": [
+    "hercules_roman",
+    "cacus",
+    "vulcan"
+   ],
+   "summary": "Driving Geryon's cattle home across Italy, Hercules stops to sleep by the future site of Rome. Cacus - a fire-breathing giant living in a cave on the Aventine, with the heads of previous victims nailed up at his door - steals some of the herd and drags them in backwards by the tails, so the tracks lead away from his cave. It is a good trick and it very nearly works. Then the stolen cattle inside hear the herd outside and call back, and Hercules tears the top off the hill, gets in, and strangles him. The Great Altar in the cattle market was said to date from that afternoon.",
+   "sources": [
+    {
+     "book": "The Aeneid",
+     "translation": "Virgil, tr. John Dryden, 1697",
+     "location": "Book VIII",
+     "url": "https://sacred-texts.com/cla/virgil/aen/index.htm"
+    },
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book I",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    }
+   ]
+  },
+  {
+   "id": "sibyl-books",
+   "title": "The Books He Should Have Bought",
+   "era": "The Founding",
+   "cast": [
+    "sibyl",
+    "tarquin"
+   ],
+   "summary": "An old woman came to Tarquin the Proud offering nine books of prophecy at an enormous price. He laughed at her. She burned three and offered the remaining six at the same price. He refused again, so she burned three more and offered the last three - still at the price of nine. He bought them. Those were the Sibylline Books, kept under guard in the Capitoline temple and consulted by the state only in emergencies, by decree of the Senate, never for private questions. They told Rome to import the Great Mother. They burned in a fire in 83 BC, and the replacement collection was destroyed around AD 405.",
+   "sources": [
+    {
+     "book": "Dictionary of Greek and Roman Biography and Mythology",
+     "translation": "William Smith, 1849",
+     "location": "Sibyllini Libri",
+     "url": "https://archive.org/details/dictionaryofgree01smit"
+    },
+    {
+     "book": "The History of Rome, Book I",
+     "translation": "Livy, tr. Rev. Canon Roberts, 1912",
+     "location": "Book I",
+     "url": "https://www.gutenberg.org/ebooks/19725"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "janus",
+   "name": "Janus",
+   "sanskrit": "Ianus",
+   "category": "creator",
+   "era": "The Old Italic Gods",
+   "role": "Two faces, no Greek equivalent, and first in every prayer including Jupiter's",
+   "wikipedia": "Janus",
+   "portrait": "portraits/roman/janus.webp",
+   "epithets": [
+    "Ianus Bifrons, the two-faced",
+    "Patulcius the opener",
+    "Clusius the closer"
+   ],
+   "domains": [
+    "beginnings and endings",
+    "doorways",
+    "war and peace",
+    "time"
+   ],
+   "symbols": [
+    "the two faces, one each way",
+    "the key",
+    "the doubled gate"
+   ],
+   "mount": null,
+   "abode": "The gates of his shrine in the Forum",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most Roman god there is: he has no Greek counterpart, and he is named first in every prayer.",
+   "longBio": "Janus is the god of the doorway and therefore of every beginning, which is why he is invoked before any other god - before Jupiter - at the start of a rite. He has a face on each side of his head because a door faces both ways. His shrine in the Forum had gates that stood open in wartime and shut in peace, and in the whole of the Republic they were closed three times. January is his. That the Romans built a major deity out of the hinge of a door, gave him priority over the king of the gods, and never bothered to invent a myth for him, tells you most of what you need to know about Roman religion.",
+   "variantTraditions": "No Greek equivalent exists and none was invented, which is unusual. Almost everything else in the pantheon was matched to something Hellenic sooner or later.",
+   "storyIds": [
+    "numa-egeria"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "supreme-source",
+    "fate-time",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "jupiter",
+   "name": "Jupiter",
+   "sanskrit": "Iuppiter Optimus Maximus",
+   "category": "creator",
+   "era": "The Capitoline Triad",
+   "role": "Sky, thunder, oaths and the Roman state - a real Italic god who got Zeus's biography",
+   "wikipedia": "Jupiter_(mythology)",
+   "portrait": "portraits/roman/jupiter.webp",
+   "epithets": [
+    "Optimus Maximus, best and greatest",
+    "Capitolinus",
+    "Stator the stayer",
+    "Feretrius",
+    "Tonans the thunderer"
+   ],
+   "domains": [
+    "the sky",
+    "thunder",
+    "oaths and treaties",
+    "the Roman state"
+   ],
+   "symbols": [
+    "the thunderbolt",
+    "the eagle",
+    "the oak",
+    "the sceptre"
+   ],
+   "mount": null,
+   "abode": "The temple on the Capitoline Hill",
+   "festivals": [],
+   "worship": "",
+   "bio": "An authentically Italic sky god who was handed the entire Greek Zeus story and kept his own job anyway.",
+   "longBio": "Jupiter is old, Italic and linguistically the same word as Zeus - both from a sky-father root - so the identification was not invented, it was recognised. But his Roman functions are his own: he guarantees oaths and treaties, he is consulted through the auspices before any public business, and his temple on the Capitoline is where a triumphing general goes, face painted red, to give the victory back. Everything glamorous about him - the affairs, the swan, the abductions - is imported Greek narrative. Everything constitutional about him is Roman. He is the clearest case in the pack of a real god wearing a borrowed story.",
+   "variantTraditions": "Identified with Zeus from early on. His flamen, the flamen Dialis, lived under such elaborate ritual restrictions that he could not spend a night outside the city or see an army under arms.",
+   "storyIds": [
+    "terminus-refuses"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sky-thunder",
+    "king-ruler",
+    "supreme-source",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "juno",
+   "name": "Juno",
+   "sanskrit": "Iuno Regina",
+   "category": "creator",
+   "era": "The Capitoline Triad",
+   "role": "Queen of the gods, protector of the state - and the reason we call it money",
+   "wikipedia": "Juno",
+   "portrait": "portraits/roman/juno.webp",
+   "epithets": [
+    "Regina, the queen",
+    "Moneta the warner",
+    "Lucina who brings to light",
+    "Sospita the saviour"
+   ],
+   "domains": [
+    "marriage",
+    "childbirth",
+    "the wellbeing of the state",
+    "women's lives"
+   ],
+   "symbols": [
+    "the peacock",
+    "the goat skin and spear of Sospita",
+    "the sacred geese"
+   ],
+   "mount": null,
+   "abode": "The Capitoline, and the Aventine",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her temple held the mint, so coins were struck at Juno Moneta - which is where money comes from.",
+   "longBio": "Juno is matched to Hera and the marriage-and-jealousy material comes with the match, but her Roman offices are broader and more official: as Regina she is one third of the state cult on the Capitoline, as Lucina she is invoked at every birth, and as Moneta - the warner - her temple housed Rome's mint, which is why every coin in every European language descends from her epithet. The sacred geese in her precinct famously woke the garrison when the Gauls tried the Capitoline by night. June is hers, and it is still the month people marry in.",
+   "variantTraditions": "Identified with Hera. Juno Sospita of Lanuvium, in a goatskin with spear and shield, is a wholly Italic figure with no Greek content at all.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother",
+    "king-ruler",
+    "war",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "minerva",
+   "name": "Minerva",
+   "sanskrit": "Minerva",
+   "category": "deity",
+   "era": "The Capitoline Triad",
+   "role": "Crafts, trades and schoolteachers, before anyone made her a war goddess",
+   "wikipedia": "Minerva",
+   "portrait": "portraits/roman/minerva.webp",
+   "epithets": [
+    "Medica the healer",
+    "Capta",
+    "the patron of guilds"
+   ],
+   "domains": [
+    "craft",
+    "trades and guilds",
+    "wisdom",
+    "war by strategy"
+   ],
+   "symbols": [
+    "the owl",
+    "the olive",
+    "the aegis",
+    "the loom"
+   ],
+   "mount": null,
+   "abode": "The Capitoline, and the Aventine",
+   "festivals": [],
+   "worship": "",
+   "bio": "Originally the goddess of everyone who made things for a living - the war came with the Greek merger.",
+   "longBio": "Minerva is Etruscan Menrva before she is anything else, and her Roman constituency was practical: craftsmen, weavers, doctors, fullers, and schoolteachers, who took their holiday at her festival. The Quinquatrus in March was effectively the guilds' week off. Her identification with Athena brought the helmet, the aegis and the war portfolio, none of which she originally needed. She completes the Capitoline Triad with Jupiter and Juno, an arrangement borrowed from the Etruscans rather than the Greeks, and one of the few structural things Rome took from its neighbours to the north.",
+   "variantTraditions": "Identified with Athena. The birth-from-the-head story is Greek and arrives with the identification.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft",
+    "war",
+    "healer"
+   ]
+  },
+  {
+   "id": "mars",
+   "name": "Mars",
+   "sanskrit": "Mars Gradivus",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "A farmers' god who became the god of war, and the father of Rome",
+   "wikipedia": "Mars_(mythology)",
+   "portrait": "portraits/roman/mars.webp",
+   "epithets": [
+    "Gradivus the marcher",
+    "Silvanus",
+    "Ultor the avenger",
+    "father Mars"
+   ],
+   "domains": [
+    "war",
+    "agriculture and the fields",
+    "the boundary of the farm",
+    "Rome itself"
+   ],
+   "symbols": [
+    "the wolf",
+    "the woodpecker",
+    "the spears kept in the Regia"
+   ],
+   "mount": null,
+   "abode": "The Campus Martius",
+   "festivals": [],
+   "worship": "",
+   "bio": "Second only to Jupiter, and unlike Ares he was respected - because he was Rome's father, not a bully.",
+   "longBio": "The difference between Mars and Ares is the difference between the two cultures. Ares is disliked by his own family; Mars is the father of Romulus and Remus, and therefore of Rome. He begins as a god of the farm - the oldest surviving Latin prayer asks Mars to keep disease, bad weather and barrenness off the land - and the war function grows out of protecting the boundary. March, the campaigning season, is his. His sacred spears were kept in the Regia and a general shook them before a campaign. When they moved by themselves, Rome expected trouble.",
+   "variantTraditions": "Identified with Ares, and the identification flatters neither. Mars's agricultural aspect is authentically old and has no Greek parallel.",
+   "storyIds": [
+    "twins-exposed"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "earth-mother",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "vesta",
+   "name": "Vesta",
+   "sanskrit": "Vesta",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "The state hearth, tended by six women, and the fire must not go out",
+   "wikipedia": "Vesta",
+   "portrait": "portraits/roman/vesta.webp",
+   "epithets": [
+    "the hearth",
+    "mother Vesta"
+   ],
+   "domains": [
+    "the hearth fire",
+    "the continuity of Rome",
+    "the household"
+   ],
+   "symbols": [
+    "the perpetual flame",
+    "the round temple",
+    "the ass"
+   ],
+   "mount": null,
+   "abode": "The round temple in the Forum",
+   "festivals": [],
+   "worship": "",
+   "bio": "No statue, no myth to speak of - just a fire that six women kept alight for a thousand years.",
+   "longBio": "Vesta's temple is round, like an old Italic hut, and contains no image of her: the fire is the goddess. Six Vestal Virgins, taken as children, served thirty years to keep it burning, and if it went out the state was in danger and the responsible Vestal was whipped. They were the only women in Rome free of male guardianship, could give evidence without oath, and a condemned man who met one by chance went free. A Vestal who broke her vow was buried alive, because her blood could not be spilled. It is the most Roman institution in the pantheon and there is barely a story attached to it.",
+   "variantTraditions": "Identified with Hestia, who is similarly storyless. The Vestals' legal privileges are real and documented and were unique among Roman women.",
+   "storyIds": [
+    "numa-egeria"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "preserver",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "terminus",
+   "name": "Terminus",
+   "sanskrit": "Terminus",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "The god who is a boundary stone, and who refused to move for Jupiter",
+   "wikipedia": "Terminus_(god)",
+   "portrait": "portraits/roman/terminus.webp",
+   "epithets": [
+    "the boundary stone"
+   ],
+   "domains": [
+    "boundaries",
+    "property limits",
+    "the permanence of Rome"
+   ],
+   "symbols": [
+    "the stone in the ground",
+    "the unroofed shrine"
+   ],
+   "mount": null,
+   "abode": "In the Temple of Jupiter, under an open roof",
+   "festivals": [],
+   "worship": "",
+   "bio": "When the Capitoline temple was built, every god agreed to move except him - so they built the roof around him.",
+   "longBio": "Terminus is a boundary marker, worshipped as a god. Each stone was consecrated with a small sacrifice at the moment it was set. When Tarquin cleared the Capitoline to build Jupiter's temple, the augurs asked each resident deity to make way and all consented but Terminus, whose stone stayed exactly where it was - so the great temple was built around it with a hole left in the roof above, as it had to stand under open sky. The Romans read this as an omen that their borders would never retreat. A god of property law with a veto over the king of heaven is an entirely Roman idea.",
+   "variantTraditions": "No Greek equivalent. The Terminalia was celebrated in February by neighbours garlanding the shared stone between their farms.",
+   "storyIds": [
+    "terminus-refuses"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "lares",
+   "name": "The Lares",
+   "sanskrit": "Lares",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "The household gods, who got a share of every meal",
+   "wikipedia": "Lares",
+   "portrait": "portraits/roman/lares.webp",
+   "epithets": [
+    "Lares familiares",
+    "Lares compitales of the crossroads"
+   ],
+   "domains": [
+    "the household",
+    "the crossroads",
+    "the family's continuity"
+   ],
+   "symbols": [
+    "the small dancing figures at the shrine",
+    "the wine cup",
+    "the wreath"
+   ],
+   "mount": null,
+   "abode": "The lararium, by the hearth",
+   "festivals": [],
+   "worship": "",
+   "bio": "Small figures in a cupboard by the hearth, given food at every meal, in every house in Rome.",
+   "longBio": "The Lares are the gods people actually lived with. Every house had a lararium - a niche or painted cupboard - holding small bronze figures of dancing youths with cups, and a portion of the meal went to them daily. They protected the household and its land, and there were public Lares at crossroads whose festival, the Compitalia, was run by neighbourhood associations of freedmen and slaves. Whether they began as ancestral dead or as spirits of the farmland was argued in antiquity and still is. For most Romans, most of the time, this and the Penates were their religion.",
+   "variantTraditions": "No Greek equivalent. Augustus reorganised the crossroads cult and inserted his own genius alongside the Lares, which was effective politics.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "earth-mother",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "penates",
+   "name": "The Penates",
+   "sanskrit": "Di Penates",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "Gods of the store cupboard, carried out of burning Troy by Aeneas",
+   "wikipedia": "Penates",
+   "portrait": "portraits/roman/penates.webp",
+   "epithets": [
+    "Di Penates",
+    "the gods of the larder"
+   ],
+   "domains": [
+    "food stores",
+    "the household",
+    "the survival of the state"
+   ],
+   "symbols": [
+    "the store cupboard",
+    "the images Aeneas carried"
+   ],
+   "mount": null,
+   "abode": "The penus, the household store",
+   "festivals": [],
+   "worship": "",
+   "bio": "They live in the pantry, and the state's own set was said to be the ones Aeneas rescued from Troy.",
+   "longBio": "The Penates take their name from the penus, the inner store where food was kept, and they are the gods of having enough. Alongside the Lares they received a share at meals. The state kept a public set, held to be the very images Aeneas carried out of Troy and eventually installed at Lavinium, which made Roman national survival literally continuous with a household larder. Consuls sacrificed to them on taking office. Rome's habit of scaling the domestic straight up to the constitutional is nowhere clearer.",
+   "variantTraditions": "No Greek equivalent. Their Trojan pedigree is a literary construction of the Aeneid tradition, which does not make it less important to how Romans understood themselves.",
+   "storyIds": [
+    "aeneas-leaves-troy"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "genius",
+   "name": "The Genius",
+   "sanskrit": "Genius",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "Every man had one, every place had one, and you swore by the emperor's",
+   "wikipedia": "Genius_(mythology)",
+   "portrait": "portraits/roman/genius.webp",
+   "epithets": [
+    "the genius of a man",
+    "the iuno of a woman",
+    "genius loci, the spirit of a place"
+   ],
+   "domains": [
+    "personal divine double",
+    "generative power",
+    "the spirit of a place"
+   ],
+   "symbols": [
+    "the snake",
+    "the toga-veiled figure pouring an offering"
+   ],
+   "mount": null,
+   "abode": "With the person, from birth to death",
+   "festivals": [],
+   "worship": "",
+   "bio": "Not a talent - a being. Your genius was born with you and was given cake on your birthday.",
+   "longBio": "A Roman's genius was his personal divinity, present from birth, receiving offerings on his birthday; a woman's equivalent was her iuno. Places had them too - a genius loci - and are often shown as a snake painted on a wall to mark a spot as spiritually occupied. Under the empire the emperor's genius became the thing subjects swore by and sacrificed to, which neatly allowed a living man to be honoured without technically calling him a god. That workaround caused the specific conflict that made Christians refuse and be prosecuted.",
+   "variantTraditions": "No real Greek equivalent, though later writers matched it to the daimon. The modern word genius, meaning ability, is a much later drift.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "saturn",
+   "name": "Saturn",
+   "sanskrit": "Saturnus",
+   "category": "creator",
+   "era": "The Old Italic Gods",
+   "role": "An Italic god of sowing who got Kronos's ugly story bolted on",
+   "wikipedia": "Saturn_(mythology)",
+   "portrait": "portraits/roman/saturn.webp",
+   "epithets": [
+    "Saturnus",
+    "the sower",
+    "lord of the Golden Age"
+   ],
+   "domains": [
+    "sowing",
+    "the Golden Age",
+    "the treasury",
+    "time by later confusion"
+   ],
+   "symbols": [
+    "the pruning hook",
+    "the sickle",
+    "the freed feet of his statue"
+   ],
+   "mount": null,
+   "abode": "The temple at the foot of the Capitoline",
+   "festivals": [],
+   "worship": "",
+   "bio": "His festival was the one week a year when slaves were served by their masters.",
+   "longBio": "Saturn is Italic and agricultural - his name is connected to sowing - and he ruled a Golden Age in Latium when there was no slavery and no property. The Greeks' Kronos was matched to him and brought along the child-eating and the castration, which sit oddly with a genial harvest god. His temple housed the state treasury. And his festival, the Saturnalia in December, inverted everything: gifts, gambling, informal dress, a mock king chosen by lot, and masters waiting on their own slaves at table. Much of what Christmas does in December, Saturn was already doing.",
+   "variantTraditions": "Identified with Kronos. The later Greek pun linking Kronos to chronos, time, is why Saturn ends up as Father Time with a scythe - a confusion, not a tradition.",
+   "storyIds": [
+    "saturnalia"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "wealth-fortune",
+    "fate-time",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "neptune",
+   "name": "Neptune",
+   "sanskrit": "Neptunus",
+   "category": "deity",
+   "era": "The Greek Gods in Latin",
+   "role": "A god of fresh water and horses, pushed out to sea by Poseidon",
+   "wikipedia": "Neptune_(mythology)",
+   "portrait": "portraits/roman/neptune.webp",
+   "epithets": [
+    "Neptunus Equester, of horses",
+    "lord of the sea"
+   ],
+   "domains": [
+    "fresh water and springs",
+    "the sea after the merger",
+    "horses",
+    "racing"
+   ],
+   "symbols": [
+    "the trident",
+    "the horse",
+    "the dolphin"
+   ],
+   "mount": null,
+   "abode": "The sea, and the Circus",
+   "festivals": [],
+   "worship": "",
+   "bio": "Before the Greeks got hold of him he was about springs and horses, which is why the chariot races are his.",
+   "longBio": "Neptunus was originally a god of fresh water - springs, streams, and the water supply, which mattered in a way the sea did not to an inland people. The identification with Poseidon handed him the ocean, and Rome then went and acquired a navy, so the fit improved. His older character survives in Neptunus Equester, patron of horses and of the chariot races in the Circus, an association Poseidon also had, which is probably why the two were matched in the first place. His festival, the Neptunalia, fell in the worst heat of July, when water was on everyone's mind.",
+   "variantTraditions": "Identified with Poseidon. The fresh-water origin is securely attested and is the reason his festival sits in high summer.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "pluto",
+   "name": "Pluto",
+   "sanskrit": "Dis Pater",
+   "category": "underworld",
+   "era": "The Greek Gods in Latin",
+   "role": "The rich one - god of the dead, named for the wealth that comes out of the ground",
+   "wikipedia": "Pluto_(mythology)",
+   "portrait": "portraits/roman/pluto.webp",
+   "epithets": [
+    "Dis Pater, the rich father",
+    "Orcus",
+    "the wealthy one"
+   ],
+   "domains": [
+    "the underworld",
+    "the dead",
+    "mineral wealth"
+   ],
+   "symbols": [
+    "the key",
+    "the cypress",
+    "the two-pronged fork"
+   ],
+   "mount": null,
+   "abode": "Beneath",
+   "festivals": [],
+   "worship": "",
+   "bio": "Both his names mean rich, because metals and crops come up out of the same place the dead go down into.",
+   "longBio": "Dis Pater is a straight Latin translation of the Greek Plouton, the wealthy one, and the logic behind both is that everything valuable - silver, iron, and next year's grain - comes out of the ground the dead are buried in. Orcus is a separate and older Italic death god who gets folded in, harsher and more punitive, and who survives in Italian folklore as an ogre - the word orc travels from him through Tolkien to every fantasy game since. Rome had no great myth of the underworld of its own; the Persephone story arrives whole from Greece with Proserpina.",
+   "variantTraditions": "Identified with Hades and Plouton. Orcus was probably originally distinct and was merged; the etymology of orc runs through him.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "proserpina",
+   "name": "Proserpina",
+   "sanskrit": "Proserpina",
+   "category": "underworld",
+   "era": "The Greek Gods in Latin",
+   "role": "Taken while picking flowers, and the reason there is winter",
+   "wikipedia": "Proserpina",
+   "portrait": "portraits/roman/proserpina.webp",
+   "epithets": [
+    "queen of the dead",
+    "the maiden"
+   ],
+   "domains": [
+    "spring",
+    "grain",
+    "the underworld",
+    "the divided year"
+   ],
+   "symbols": [
+    "the pomegranate seeds",
+    "the narcissus",
+    "the sheaf"
+   ],
+   "mount": null,
+   "abode": "Above for half the year, below for the other half",
+   "festivals": [],
+   "worship": "",
+   "bio": "Six pomegranate seeds, six months below - the neatest bargain in mythology.",
+   "longBio": "Proserpina is Persephone with a Latin name and the same story: gathering flowers, snatched by the lord of the dead, searched for by her mother whose grief stops everything growing. The settlement is that she ate six pomegranate seeds in the underworld and so must spend part of each year there, which is why there is a season when nothing grows. Ovid tells it twice, in the Metamorphoses and the Fasti, and his is the version most readers have met. It is wholly Greek in origin and thoroughly at home in Latin.",
+   "variantTraditions": "Identified with Persephone. Her name may be an Italic form independently, but the story is imported entire.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "death-judge",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "ceres",
+   "name": "Ceres",
+   "sanskrit": "Ceres",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "Grain, and the plebeians' own goddess - and the root of the word cereal",
+   "wikipedia": "Ceres",
+   "portrait": "portraits/roman/ceres.webp",
+   "epithets": [
+    "Ceres Legifera, the lawgiver",
+    "mother Ceres"
+   ],
+   "domains": [
+    "grain",
+    "the harvest",
+    "motherhood",
+    "the plebeian order"
+   ],
+   "symbols": [
+    "the wheat sheaf",
+    "the torch",
+    "the pig"
+   ],
+   "mount": null,
+   "abode": "The temple on the Aventine",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her Aventine temple was the plebeians' headquarters, and archive, and treasury.",
+   "longBio": "Ceres is genuinely Italic and genuinely important: cereal is her word. She was matched to Demeter and given the Proserpina story, but her Roman role was political as much as agricultural - her temple on the Aventine was the centre of the plebeian order, holding its archives and its treasury, and her aediles were plebeian officers. To be a goddess of grain in a city that lived on subsidised bread was to be a goddess of the food supply, and the food supply was politics. Her festival, the Cerialia, included letting foxes loose in the Circus with torches tied to their tails, for reasons nobody could explain even then.",
+   "variantTraditions": "Identified with Demeter. The plebeian association is Roman and has no Greek counterpart.",
+   "storyIds": [
+    "bacchanalia"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "venus",
+   "name": "Venus",
+   "sanskrit": "Venus",
+   "category": "deity",
+   "era": "The Greek Gods in Latin",
+   "role": "Goddess of love, and the ancestress of the Julian family",
+   "wikipedia": "Venus_(mythology)",
+   "portrait": "portraits/roman/venus.webp",
+   "epithets": [
+    "Genetrix the mother",
+    "Victrix the victorious",
+    "Verticordia, turner of hearts"
+   ],
+   "domains": [
+    "love",
+    "beauty",
+    "gardens",
+    "the descent of the Romans"
+   ],
+   "symbols": [
+    "the dove",
+    "the myrtle",
+    "the rose",
+    "the shell"
+   ],
+   "mount": null,
+   "abode": "The Forum of Caesar, and Mount Eryx",
+   "festivals": [],
+   "worship": "",
+   "bio": "Julius Caesar built her a temple because he claimed her as his direct ancestor, through Aeneas.",
+   "longBio": "Venus starts as a minor Italic goddess of gardens and cultivated growth, is identified with Aphrodite, and then becomes politically enormous: as the mother of Aeneas she is the ancestress of the Roman people and specifically of the Julian family, which Julius Caesar advertised by building the Temple of Venus Genetrix in his own forum. Sulla claimed her favour too. A goddess of love doubling as a dynastic charter is a very Roman use of a Greek import, and it is why her cult titles run to Victrix, the victorious, alongside the softer ones.",
+   "variantTraditions": "Identified with Aphrodite. The Aeneas descent is from the Greek Homeric tradition but its political use is entirely Roman.",
+   "storyIds": [
+    "aeneas-leaves-troy",
+    "dido"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "earth-mother",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "cupid",
+   "name": "Cupid",
+   "sanskrit": "Cupido",
+   "category": "deity",
+   "era": "The Greek Gods in Latin",
+   "role": "Desire with a bow, and the hero of the one great Latin fairy tale",
+   "wikipedia": "Cupid",
+   "portrait": "portraits/roman/cupid.webp",
+   "epithets": [
+    "Amor",
+    "desire"
+   ],
+   "domains": [
+    "desire",
+    "love at first sight",
+    "the arrow"
+   ],
+   "symbols": [
+    "the bow and two arrows, gold and lead",
+    "the wings",
+    "the blindfold"
+   ],
+   "mount": null,
+   "abode": "With Venus",
+   "festivals": [],
+   "worship": "",
+   "bio": "Two arrows: gold makes you fall in love, lead makes you flee it - and he uses both on the same story.",
+   "longBio": "Cupid is Eros in Latin, Venus's son and instrument, and his equipment is precise: a gold-tipped arrow that causes love and a lead-tipped one that causes revulsion. Ovid opens the Daphne story by having him shoot Apollo with the first and Daphne with the second, which is what makes it a tragedy rather than a courtship. His own tale, Cupid and Psyche, comes from Apuleius: a girl forbidden to look at her husband, a drop of hot lamp oil, and a series of impossible tasks set by a furious mother-in-law. It is the oldest recognisable version of the Beauty and the Beast pattern in European literature.",
+   "variantTraditions": "Identified with Eros. Cupid and Psyche appears only in Apuleius's second-century novel, embedded as a tale told by an old woman.",
+   "storyIds": [
+    "dido"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "mercury",
+   "name": "Mercury",
+   "sanskrit": "Mercurius",
+   "category": "deity",
+   "era": "The Greek Gods in Latin",
+   "role": "God of merchants first, messenger second - his name is the word for merchandise",
+   "wikipedia": "Mercury_(mythology)",
+   "portrait": "portraits/roman/mercury.webp",
+   "epithets": [
+    "Mercurius",
+    "the messenger",
+    "conductor of souls"
+   ],
+   "domains": [
+    "trade and profit",
+    "messages",
+    "travellers",
+    "thieves",
+    "guiding the dead"
+   ],
+   "symbols": [
+    "the caduceus",
+    "the winged sandals and hat",
+    "the purse"
+   ],
+   "mount": null,
+   "abode": "The temple by the Circus Maximus",
+   "festivals": [],
+   "worship": "",
+   "bio": "Merx means merchandise. He was a god of the profit margin before he was anything else.",
+   "longBio": "Mercury's Roman origin is commercial - his name comes from merx, goods, and his first temple was dedicated with a guild of merchants attached. The identification with Hermes brought the winged sandals, the messenger role, the trickery and the job of leading souls down. Roman traders sprinkled themselves and their goods with water from his spring at the Porta Capena while asking, in so many words, to be forgiven for the lies they had told and to be allowed to tell more profitably. That prayer is recorded by Ovid and is one of the most likeable things in Latin literature.",
+   "variantTraditions": "Identified with Hermes. The commercial etymology is secure and the merchants' prayer is in Ovid's Fasti.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "wealth-fortune",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "apollo",
+   "name": "Apollo",
+   "sanskrit": "Apollo",
+   "category": "deity",
+   "era": "The Greek Gods in Latin",
+   "role": "The one god Rome imported without bothering to rename him",
+   "wikipedia": "Apollo",
+   "portrait": "portraits/roman/apollo.webp",
+   "epithets": [
+    "Phoebus",
+    "Medicus the healer",
+    "Palatinus"
+   ],
+   "domains": [
+    "prophecy",
+    "healing and plague",
+    "music",
+    "the sun in later usage"
+   ],
+   "symbols": [
+    "the lyre",
+    "the bow",
+    "the laurel",
+    "the tripod"
+   ],
+   "mount": null,
+   "abode": "The temple on the Palatine",
+   "festivals": [],
+   "worship": "",
+   "bio": "Rome brought him in during a plague and never gave him a Latin name, because there was no Italic god to match.",
+   "longBio": "Apollo is the exception that proves the pattern: there was no Italic deity close enough to identify him with, so Rome took him whole, name and all, first as a healer during a plague in 431 BC. Augustus then made him a personal patron, crediting him with the victory at Actium and building him a temple on the Palatine adjoining his own house, which put a Greek god at the centre of Roman imperial ideology. The Sibylline Books, consulted by the state in emergencies, were under his authority. He is the clearest evidence that Roman religion imported by choice rather than by accident.",
+   "variantTraditions": "Not renamed, unlike almost every other Greek god. The later identification of Apollo with the sun is a Hellenistic development that Rome inherited rather than invented.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "healer",
+    "sage-seer",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "diana",
+   "name": "Diana",
+   "sanskrit": "Diana",
+   "category": "deity",
+   "era": "The Greek Gods in Latin",
+   "role": "Woodland goddess of an old Latin sanctuary, where the priest was a runaway slave",
+   "wikipedia": "Diana",
+   "portrait": "portraits/roman/diana.webp",
+   "epithets": [
+    "Diana Nemorensis, of the wood",
+    "Trivia, of the three ways",
+    "Lucina"
+   ],
+   "domains": [
+    "the hunt",
+    "the moon",
+    "woodland",
+    "childbirth",
+    "slaves"
+   ],
+   "symbols": [
+    "the bow and quiver",
+    "the crescent",
+    "the stag",
+    "the torch"
+   ],
+   "mount": null,
+   "abode": "The grove at Lake Nemi",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her priest at Nemi held office by killing his predecessor, and waited to be killed in turn.",
+   "longBio": "Diana is Italic, identified with Artemis, and her strangest cult is entirely her own. At the grove by Lake Nemi her priest was titled Rex Nemorensis, king of the wood, and the post was held by an escaped slave who had broken a branch from a particular tree and then killed the man holding it - and who kept it only until someone did the same to him. Frazer opened The Golden Bough with that image and built an entire theory of religion on it, most of which has not survived scrutiny. Diana was also a goddess of the enslaved and of the lower orders, and her Aventine festival was a slaves' holiday.",
+   "variantTraditions": "Identified with Artemis. The Nemi priesthood is genuinely attested; Frazer's interpretation of it is not accepted today.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "divine-beast",
+    "healer"
+   ]
+  },
+  {
+   "id": "vulcan",
+   "name": "Vulcan",
+   "sanskrit": "Volcanus",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "God of destructive fire, kept outside the walls on purpose",
+   "wikipedia": "Vulcan_(mythology)",
+   "portrait": "portraits/roman/vulcan.webp",
+   "epithets": [
+    "Volcanus",
+    "Mulciber the softener",
+    "Quietus"
+   ],
+   "domains": [
+    "fire, especially fire that destroys",
+    "the forge",
+    "volcanoes"
+   ],
+   "symbols": [
+    "the hammer and tongs",
+    "the anvil",
+    "the pointed cap"
+   ],
+   "mount": null,
+   "abode": "The Volcanal, and Mount Etna",
+   "festivals": [],
+   "worship": "",
+   "bio": "His temples were deliberately sited outside the city, on the theory that a fire god should be kept at a distance.",
+   "longBio": "Vulcan is Italic and his original concern is fire out of control - conflagration rather than craft. Roman practice was pointed: his shrines were placed outside the walls, and his festival in August, at the driest time of year, involved throwing live fish into a fire as a substitute for human lives. The Greek Hephaestus identification brought the forge, the lameness, the marriage to Venus and the net he catches her in with Mars. He is the god you appease rather than the one you like, and the placement of his temples says so.",
+   "variantTraditions": "Identified with Hephaestus. The extramural siting is documented and was explicitly explained by Roman writers as fire prevention by theology.",
+   "storyIds": [
+    "cacus"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "wisdom-craft",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "bacchus",
+   "name": "Bacchus",
+   "sanskrit": "Liber Pater",
+   "category": "deity",
+   "era": "The Greek Gods in Latin",
+   "role": "Wine and release - and the cult the Senate tried to crush in 186 BC",
+   "wikipedia": "Dionysus",
+   "portrait": "portraits/roman/bacchus.webp",
+   "epithets": [
+    "Liber Pater, the free father",
+    "Bacchus",
+    "Bromius"
+   ],
+   "domains": [
+    "wine",
+    "ecstatic release",
+    "fertility",
+    "freedom"
+   ],
+   "symbols": [
+    "the thyrsus",
+    "the vine and ivy",
+    "the leopard",
+    "the mask"
+   ],
+   "mount": null,
+   "abode": "The Aventine, with Ceres and Libera",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Senate banned his rites, executed thousands, and the decree survives cut into bronze.",
+   "longBio": "Liber Pater is an old Italic god of fertility and freedom whose name means the free one, worshipped on the Aventine alongside Ceres. Identified with Dionysus, he acquired the wine, the maenads and the ecstatic rites - and in 186 BC the Senate decided those rites were a conspiracy, restricted them severely and, according to Livy, executed several thousand people. The decree survives, inscribed on bronze. It is the sharpest instance in Roman history of the state deciding a religion was a political problem, and it happened to a god they had adopted themselves.",
+   "variantTraditions": "Identified with Dionysus. The Bacchanalia suppression is documented by Livy and by the surviving Senatus consultum de Bacchanalibus.",
+   "storyIds": [
+    "bacchanalia"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "destroyer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "fortuna",
+   "name": "Fortuna",
+   "sanskrit": "Fortuna",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "Luck, with a wheel and a rudder and a blindfold",
+   "wikipedia": "Fortuna",
+   "portrait": "portraits/roman/fortuna.webp",
+   "epithets": [
+    "Fors Fortuna",
+    "Primigenia the firstborn",
+    "Redux who brings you home"
+   ],
+   "domains": [
+    "luck",
+    "chance",
+    "the turning of circumstances"
+   ],
+   "symbols": [
+    "the wheel",
+    "the rudder",
+    "the cornucopia",
+    "the blindfold"
+   ],
+   "mount": null,
+   "abode": "Praeneste, and the Tiber bank",
+   "festivals": [],
+   "worship": "",
+   "bio": "The wheel of fortune is hers, and so is the idea that luck is blind - both go straight into the Middle Ages.",
+   "longBio": "Fortuna is Italic and enormously popular, with an oracle at Praeneste where a child drew lots inscribed on oak. Her attributes tell the whole story: a rudder because she steers events, a wheel because they turn, a cornucopia because she can give, and a blindfold because she does not look at who she is giving to. Boethius put her and the wheel at the centre of the Consolation of Philosophy in the sixth century, and from there the image runs through medieval art, Chaucer, Shakespeare and eventually a television game show.",
+   "variantTraditions": "Identified with Tyche. The blindfold and the wheel are the most durable pieces of Roman religious iconography anywhere.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wealth-fortune",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "bellona",
+   "name": "Bellona",
+   "sanskrit": "Bellona",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "War goddess at whose temple Rome formally declared war by throwing a spear",
+   "wikipedia": "Bellona_(goddess)",
+   "portrait": "portraits/roman/bellona.webp",
+   "epithets": [
+    "the war goddess",
+    "sister of Mars"
+   ],
+   "domains": [
+    "war",
+    "the declaration of war",
+    "battle frenzy"
+   ],
+   "symbols": [
+    "the spear thrown at the column",
+    "the torch",
+    "the whip"
+   ],
+   "mount": null,
+   "abode": "The temple by the Circus Flaminius",
+   "festivals": [],
+   "worship": "",
+   "bio": "A patch of ground by her temple was legally foreign soil, so war could be declared into it.",
+   "longBio": "Bellona is an Italic war goddess whose temple served a specific constitutional purpose. When Rome grew too large for a fetial priest to travel to the enemy's border and hurl a spear into their territory, a column was set up near her temple and the ground beyond it declared to be enemy soil - so the spear could be thrown there instead, and the legal form observed. That is Roman religion in miniature: a genuine ritual requirement, a practical obstacle, and a legal fiction that satisfies both. Her priests in the later imperial cult, imported from Asia Minor, cut themselves and offered the blood.",
+   "variantTraditions": "The spear-throwing column is attested by several authors. The frenzied Bellonarii belong to the later imported Cappadocian cult rather than the old Italic one.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "aeneas",
+   "name": "Aeneas",
+   "sanskrit": "Aeneas",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "The refugee who carried his father out of Troy and founded the Roman line",
+   "wikipedia": "Aeneas",
+   "portrait": "portraits/roman/aeneas.webp",
+   "epithets": [
+    "pius Aeneas, the dutiful",
+    "son of Venus",
+    "father of the Roman people"
+   ],
+   "domains": [
+    "duty",
+    "exile and refuge",
+    "the founding of the line",
+    "the Penates"
+   ],
+   "symbols": [
+    "his father on his shoulders",
+    "the Trojan Penates",
+    "the golden bough"
+   ],
+   "mount": null,
+   "abode": "Troy, then Carthage, then Latium",
+   "festivals": [],
+   "worship": "",
+   "bio": "Rome's national hero is a defeated refugee whose defining quality is doing what he must rather than what he wants.",
+   "longBio": "Aeneas escapes burning Troy carrying his father Anchises on his back and leading his son by the hand - the image every Roman knew. His epithet is pius, which does not mean pious so much as dutiful: he does what is owed to gods, father and people, and it costs him everything he wants. He and Dido fall in love at Carthage and he leaves anyway, because he is told to, and she kills herself on a pyre as his ships go. Choosing Rome's founder from the losing side of the Trojan War was a deliberate literary decision, and Virgil made it carry the whole weight of what Romans thought duty was.",
+   "variantTraditions": "Aeneas appears in Homer with a prophecy that his descendants will rule; the Roman development of that hint is centuries later and largely Virgil's.",
+   "storyIds": [
+    "aeneas-leaves-troy",
+    "dido",
+    "turnus"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "dido",
+   "name": "Dido",
+   "sanskrit": "Dido",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "Queen of Carthage, who loved Aeneas, was left, and cursed his people forever",
+   "wikipedia": "Dido",
+   "portrait": "portraits/roman/dido.webp",
+   "epithets": [
+    "Elissa",
+    "queen of Carthage"
+   ],
+   "domains": [
+    "the founding of Carthage",
+    "love and abandonment",
+    "the curse that becomes the Punic Wars"
+   ],
+   "symbols": [
+    "the sword he left behind",
+    "the pyre",
+    "the oxhide that measured her city"
+   ],
+   "mount": null,
+   "abode": "Carthage",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her dying curse is Virgil explaining the Punic Wars as a broken heart.",
+   "longBio": "Dido founds Carthage by a trick - granted as much land as an oxhide would cover, she cuts it into strips and encircles a hill. Aeneas arrives shipwrecked, they become lovers, and when the gods order him on she watches the fleet leave, builds a pyre, and falls on the sword he gave her. Dying she calls for eternal enmity between her people and his, which is Virgil supplying a mythic cause for three ruinous wars and the destruction of Carthage nine hundred years later. When Aeneas later meets her shade in the underworld and tries to explain, she turns away and will not speak, which is the best moment in the poem.",
+   "variantTraditions": "The historical Dido, if she existed, was Phoenician and predates Aeneas by centuries; the affair is Virgil's invention and was recognised as such in antiquity.",
+   "storyIds": [
+    "dido"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "love-desire",
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "latinus",
+   "name": "Latinus",
+   "sanskrit": "Latinus",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "King of the Latins, who gave Aeneas his daughter and started a war doing it",
+   "wikipedia": "Latinus",
+   "portrait": "portraits/roman/latinus.webp",
+   "epithets": [
+    "king of Latium"
+   ],
+   "domains": [
+    "kingship in Latium",
+    "the alliance with the Trojans"
+   ],
+   "symbols": [
+    "the laurel in his courtyard",
+    "the treaty"
+   ],
+   "mount": null,
+   "abode": "Laurentum",
+   "festivals": [],
+   "worship": "",
+   "bio": "An oracle told him to marry his daughter to a foreigner, which was very unwelcome news locally.",
+   "longBio": "Latinus rules the Latins when the Trojans land, and an oracle instructs him to marry his daughter Lavinia to a stranger rather than to Turnus, the local prince she was promised to. He agrees; his wife and Turnus do not; and the second half of the Aeneid is the war that follows. He is a decent, tired king who cannot control events, and Virgil gives him the recognisable posture of a ruler who knows what is coming and lacks the power to stop it. The Latin language and the Latin people take their name from him.",
+   "variantTraditions": "Latinus is a genealogical construction linking the Trojan and Italic strands, with several incompatible parentages in the sources.",
+   "storyIds": [
+    "turnus"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "lavinia",
+   "name": "Lavinia",
+   "sanskrit": "Lavinia",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "Married to Aeneas to seal an alliance, and never given a line to say",
+   "wikipedia": "Lavinia",
+   "portrait": "portraits/roman/lavinia.webp",
+   "epithets": [
+    "daughter of Latinus"
+   ],
+   "domains": [
+    "the alliance of Trojan and Latin",
+    "the founding of Lavinium"
+   ],
+   "symbols": [
+    "the blush",
+    "the burning hair in the omen"
+   ],
+   "mount": null,
+   "abode": "Lavinium",
+   "festivals": [],
+   "worship": "",
+   "bio": "Two peoples go to war over her and she does not speak once in the entire poem.",
+   "longBio": "Lavinia is promised to Turnus, given to Aeneas, and is the cause of the war that occupies half the Aeneid. She has no dialogue at all. Her one memorable moment is a blush - described at length while Turnus watches - and an omen in which her hair catches fire without burning her, foretelling a famous destiny and a great war. Aeneas names the town of Lavinium for her, and from there the line runs to Alba Longa and eventually Rome. Modern readers notice her silence immediately; that a war is fought over someone the poem never lets speak has been the subject of a good deal of recent writing.",
+   "variantTraditions": "Ursula K. Le Guin's novel Lavinia (2008) is written to give her the voice Virgil withheld, and is the best-known modern response to that gap.",
+   "storyIds": [
+    "turnus"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "turnus",
+   "name": "Turnus",
+   "sanskrit": "Turnus",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "The man Lavinia was promised to, and the best argument against Aeneas",
+   "wikipedia": "Turnus",
+   "portrait": "portraits/roman/turnus.webp",
+   "epithets": [
+    "king of the Rutulians"
+   ],
+   "domains": [
+    "war",
+    "the defence of Italy",
+    "the losing side"
+   ],
+   "symbols": [
+    "the sword-belt he takes from Pallas",
+    "the spear"
+   ],
+   "mount": null,
+   "abode": "Ardea",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Aeneid ends the instant he dies, mid-plea, and readers have argued about it ever since.",
+   "longBio": "Turnus is the Rutulian prince engaged to Lavinia before the Trojans arrive, and his case is not weak: a foreigner has landed and taken his marriage and his country. He is brave, and Virgil writes him sympathetically enough that generations of readers have found him the more attractive figure. At the end, beaten and asking for mercy, he almost gets it - and then Aeneas sees the belt Turnus stripped from the dead boy Pallas, and kills him in a rage. The poem stops there, on that line, with no resolution. Whether Virgil meant it as vindication or as an indictment of the cost of empire is the oldest live question in Latin studies.",
+   "variantTraditions": "The abrupt ending is genuine, not a lost fragment. The reading of the Aeneid as quietly critical of Augustan Rome dates from the twentieth century and remains contested.",
+   "storyIds": [
+    "turnus"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war"
+   ]
+  },
+  {
+   "id": "rhea_silvia",
+   "name": "Rhea Silvia",
+   "sanskrit": "Rhea Silvia",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "A Vestal forced into the priesthood so she would have no sons, who had two",
+   "wikipedia": "Rhea_Silvia",
+   "portrait": "portraits/roman/rhea_silvia.webp",
+   "epithets": [
+    "Ilia",
+    "the Vestal of Alba Longa"
+   ],
+   "domains": [
+    "the birth of the twins",
+    "enforced virginity",
+    "the Tiber"
+   ],
+   "symbols": [
+    "the Vestal's headband",
+    "the river"
+   ],
+   "mount": null,
+   "abode": "Alba Longa",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her uncle made her a Vestal to end the bloodline. Mars got to her anyway.",
+   "longBio": "Amulius deposes his brother Numitor and, to make sure no nephew ever comes for him, forces Numitor's daughter Rhea Silvia into the Vestal priesthood where she must stay a virgin thirty years. She becomes pregnant by Mars - or, in the flatter versions the Romans themselves floated, by Amulius or by a stranger - and bears twins. Amulius has her imprisoned or drowned depending on the source, and orders the babies exposed in the Tiber. Every element of the precaution produces the outcome it was designed to prevent, which is a structure that turns up from Balor's tower to Oedipus.",
+   "variantTraditions": "Livy pointedly leaves open whether the father was really a god, noting only that she said so. The scepticism is in the source, not added later.",
+   "storyIds": [
+    "twins-exposed"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "romulus",
+   "name": "Romulus",
+   "sanskrit": "Romulus",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "Suckled by a wolf, founded Rome, killed his brother over a wall",
+   "wikipedia": "Romulus_and_Remus",
+   "portrait": "portraits/roman/romulus.webp",
+   "epithets": [
+    "Quirinus after his deification",
+    "the founder",
+    "first king of Rome"
+   ],
+   "domains": [
+    "the founding of Rome",
+    "kingship",
+    "the pomerium",
+    "war"
+   ],
+   "symbols": [
+    "the she-wolf",
+    "the plough that cut the first boundary",
+    "the augural staff"
+   ],
+   "mount": null,
+   "abode": "The Palatine",
+   "festivals": [],
+   "worship": "",
+   "bio": "Rome's founder murdered his twin on the first day, and Romans told that story about themselves on purpose.",
+   "longBio": "Set adrift, suckled by a she-wolf, raised by a herdsman, Romulus and his brother overthrow Amulius and go to found a city - and disagree about which hill. They take the auspices; Remus sees six vultures first, Romulus sees twelve; both claim it. Romulus ploughs the boundary furrow of his city, Remus jumps over it in mockery, and Romulus kills him, saying that so shall it be for anyone who crosses my walls. He then rules for decades, fills the city with fugitives, and eventually vanishes in a storm and is declared the god Quirinus - or, Livy notes, was torn apart by senators who found him overbearing.",
+   "variantTraditions": "Livy reports both the ascension and the murder rumour without choosing. The wolf may be a misreading of lupa, which also meant prostitute - an ancient suggestion, not a modern joke.",
+   "storyIds": [
+    "twins-exposed",
+    "wall"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler",
+    "war"
+   ]
+  },
+  {
+   "id": "remus",
+   "name": "Remus",
+   "sanskrit": "Remus",
+   "category": "hero",
+   "era": "The Founding",
+   "role": "The twin who lost the augury, mocked the wall, and was killed for it",
+   "wikipedia": "Romulus_and_Remus",
+   "portrait": "portraits/roman/remus.webp",
+   "epithets": [
+    "the other twin"
+   ],
+   "domains": [
+    "the founding quarrel",
+    "the crossed boundary"
+   ],
+   "symbols": [
+    "the six vultures",
+    "the low wall he stepped over"
+   ],
+   "mount": null,
+   "abode": "The Aventine",
+   "festivals": [],
+   "worship": "",
+   "bio": "He jumped over his brother's half-built wall to show how useless it was.",
+   "longBio": "Remus is the same story from the losing side. He takes the auspices on the Aventine and sees six vultures before Romulus sees twelve on the Palatine - so he was first but fewer, and the dispute has no clean answer. When Romulus marks out his boundary, Remus steps across the low furrow to demonstrate that it would stop nobody, and is struck down. The Romans kept this story rather than a cleaner one, and later writers were uneasy about it: the fratricide at the origin was read, in the civil war years, as the founding stain that explained everything that followed.",
+   "variantTraditions": "Horace makes the fratricide the source of Rome's recurring civil wars. That reading was current in the first century BC, not invented afterwards.",
+   "storyIds": [
+    "twins-exposed",
+    "wall"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "lupa",
+   "name": "The She-Wolf",
+   "sanskrit": "Lupa",
+   "category": "beast",
+   "era": "The Founding",
+   "role": "She found two babies by the river and fed them, and became the emblem of an empire",
+   "wikipedia": "Capitoline_Wolf",
+   "portrait": "portraits/roman/lupa.webp",
+   "epithets": [
+    "the Lupa",
+    "the wolf of the Lupercal"
+   ],
+   "domains": [
+    "the nursing of the twins",
+    "Rome itself"
+   ],
+   "symbols": [
+    "the bronze statue",
+    "the cave at the foot of the Palatine"
+   ],
+   "mount": null,
+   "abode": "The Lupercal cave",
+   "festivals": [],
+   "worship": "",
+   "bio": "The single most recognisable image Rome ever produced, and it is a wild animal feeding two abandoned children.",
+   "longBio": "The basket carrying the twins grounds at the foot of the Palatine and a she-wolf, come down to drink, suckles them until a herdsman finds them. The cave was identified as the Lupercal and the Lupercalia festival was held there in February. The bronze Capitoline Wolf is the emblem of the city to this day, though radiocarbon work now dates the statue to the medieval period rather than the Etruscan, and the twins beneath her were added in the Renaissance. The ancient suggestion that lupa also meant prostitute, and that the wolf was a euphemism for the herdsman's wife, was already being floated by Roman writers.",
+   "variantTraditions": "The dating of the Capitoline Wolf is contested; recent analysis points to the eleventh or twelfth century AD, overturning a long-standing Etruscan attribution.",
+   "storyIds": [
+    "twins-exposed"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "earth-mother",
+    "preserver"
+   ]
+  },
+  {
+   "id": "numa",
+   "name": "Numa Pompilius",
+   "sanskrit": "Numa Pompilius",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "The second king, who invented Roman religion in consultation with a spring nymph",
+   "wikipedia": "Numa_Pompilius",
+   "portrait": "portraits/roman/numa.webp",
+   "epithets": [
+    "the second king",
+    "the lawgiver of the sacred"
+   ],
+   "domains": [
+    "religious institutions",
+    "the calendar",
+    "peace"
+   ],
+   "symbols": [
+    "the shields that fell from the sky",
+    "the closed gates of Janus"
+   ],
+   "mount": null,
+   "abode": "Rome, and the grove of Egeria",
+   "festivals": [],
+   "worship": "",
+   "bio": "Romulus made the city; Numa made the religion, and claimed he got it from a nymph he met at night.",
+   "longBio": "Numa is the anti-Romulus: a Sabine, chosen for wisdom, who reigns forty-three years without a single war and shuts the gates of Janus for the whole of it. He establishes the priesthoods, the Vestals, the calendar with its months and its lawful and unlawful days, and the whole apparatus of state religion. He said he received it from the nymph Egeria, whom he met at night by her spring, and Plutarch reports the scepticism about that arrangement without much comment. A shield fell from the sky in his reign as a pledge of Rome's power, and he had eleven identical copies made so nobody could steal the real one.",
+   "variantTraditions": "Numa is probably not historical. The tradition of assigning all religious institutions to one legendary founder is a pattern rather than a record.",
+   "storyIds": [
+    "numa-egeria"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "sage-seer",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "egeria",
+   "name": "Egeria",
+   "sanskrit": "Egeria",
+   "category": "deity",
+   "era": "The Founding",
+   "role": "A spring nymph who dictated Rome's religious law to a king, and dissolved into water when he died",
+   "wikipedia": "Egeria_(mythology)",
+   "portrait": "portraits/roman/egeria.webp",
+   "epithets": [
+    "the nymph of the grove",
+    "counsellor of Numa"
+   ],
+   "domains": [
+    "springs",
+    "counsel",
+    "childbirth",
+    "sacred law"
+   ],
+   "symbols": [
+    "the spring",
+    "the grove outside the Porta Capena"
+   ],
+   "mount": null,
+   "abode": "The grove by the Porta Capena, and Aricia",
+   "festivals": [],
+   "worship": "",
+   "bio": "She grieved so hard when Numa died that Diana turned her into a spring, which is the least she could do.",
+   "longBio": "Egeria met Numa by night in her grove and gave him the religious institutions of Rome, which is the tradition's way of saying that the constitution of Roman worship came from outside human invention. Pregnant women made offerings to her for easy delivery. When Numa died she wept without stopping until Diana, out of pity or impatience, turned her into a spring, and Ovid tells it with real tenderness. Her name entered English in the nineteenth century as a word for a woman who is a trusted adviser, which is a small strange afterlife for a Latin water nymph.",
+   "variantTraditions": "The word egeria for a female counsellor is recorded in English from the 1800s.",
+   "storyIds": [
+    "numa-egeria"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sage-seer",
+    "sea-waters",
+    "healer"
+   ]
+  },
+  {
+   "id": "tarquin",
+   "name": "Tarquin the Proud",
+   "sanskrit": "Tarquinius Superbus",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "The last king, whose son's crime ended the monarchy forever",
+   "wikipedia": "Lucius_Tarquinius_Superbus",
+   "portrait": "portraits/roman/tarquin.webp",
+   "epithets": [
+    "Superbus, the arrogant",
+    "the seventh and last king"
+   ],
+   "domains": [
+    "tyranny",
+    "the end of the monarchy",
+    "the Capitoline temple"
+   ],
+   "symbols": [
+    "the poppies he struck the heads from",
+    "the Sibylline Books"
+   ],
+   "mount": null,
+   "abode": "Rome",
+   "festivals": [],
+   "worship": "",
+   "bio": "Asked how to control a captured city, he silently walked through a garden knocking the heads off the tallest poppies.",
+   "longBio": "Tarquin seizes the throne by murder and rules without the Senate, and Livy gives him the poppy scene: asked by a messenger what to do with a town he has taken, he says nothing and walks through his garden striking the heads off the tallest flowers, which the messenger correctly understands. He also buys the Sibylline Books after refusing them twice at a higher price each time. His son Sextus rapes Lucretia; she names him and kills herself; and the resulting revolt ends the monarchy and founds the Republic. For five hundred years afterwards, calling a Roman politician a would-be king was the gravest available insult.",
+   "variantTraditions": "The Tarquins were probably real Etruscan rulers of Rome. The narrative around the expulsion is heavily shaped by later Republican ideology.",
+   "storyIds": [
+    "lucretia",
+    "brutus-sons",
+    "sibyl-books"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "lucretia",
+   "name": "Lucretia",
+   "sanskrit": "Lucretia",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "Raped by the king's son, she named him, killed herself, and the monarchy fell within days",
+   "wikipedia": "Lucretia",
+   "portrait": "portraits/roman/lucretia.webp",
+   "epithets": [
+    "the chaste",
+    "wife of Collatinus"
+   ],
+   "domains": [
+    "the end of the monarchy",
+    "honour",
+    "the founding of the Republic"
+   ],
+   "symbols": [
+    "the dagger",
+    "the spindle and wool"
+   ],
+   "mount": null,
+   "abode": "Collatia, and Rome",
+   "festivals": [],
+   "worship": "",
+   "bio": "She made them swear vengeance before she used the knife, and that oath became the Republic.",
+   "longBio": "A drinking argument among young nobles about whose wife is the most virtuous ends with them riding home unannounced; the others' wives are at parties, Lucretia is at home working wool with her servants. Sextus Tarquinius returns days later and rapes her at knifepoint. She summons her father and husband, tells them what happened, makes them swear to avenge it, and stabs herself in front of them despite their absolution. Brutus pulls the knife out, holds it up, and swears by it to drive out the kings. The revolt succeeds within days. She is painted by Titian, Rembrandt and Artemisia Gentileschi, and written by Chaucer and Shakespeare.",
+   "variantTraditions": "Whether Lucretia was historical is unknowable. The story is the Republic's founding document about itself and functions as one.",
+   "storyIds": [
+    "lucretia"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "brutus",
+   "name": "Lucius Junius Brutus",
+   "sanskrit": "Lucius Iunius Brutus",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "He pretended to be a fool for years, then founded the Republic and executed his own sons",
+   "wikipedia": "Lucius_Junius_Brutus",
+   "portrait": "portraits/roman/brutus.webp",
+   "epithets": [
+    "the first consul",
+    "the dull one"
+   ],
+   "domains": [
+    "the founding of the Republic",
+    "the oath against kings",
+    "severity"
+   ],
+   "symbols": [
+    "the knife drawn from Lucretia",
+    "the consul's axes"
+   ],
+   "mount": null,
+   "abode": "Rome",
+   "festivals": [],
+   "worship": "",
+   "bio": "His name meant idiot. He wore it as camouflage until the day he did not need it.",
+   "longBio": "Brutus survives Tarquin's purge of his family by playing the fool - brutus means dull-witted, and he accepted the name. When Lucretia dies he pulls the knife from her body, swears by her blood to drive out the kings, and does. Elected one of the first two consuls, he then discovers his own sons in a plot to restore the monarchy, and presides over their trial and execution personally, watching from the tribunal. That image - a father enforcing the law on his own children - became the ultimate Roman statement about the state outranking the family, and David painted it on the eve of the French Revolution.",
+   "variantTraditions": "His descendant Marcus Junius Brutus invoked this ancestry when killing Caesar, and the Roman public were explicitly reminded of it at the time.",
+   "storyIds": [
+    "lucretia",
+    "brutus-sons"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "quirinus",
+   "name": "Quirinus",
+   "sanskrit": "Quirinus",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "An old Sabine god who ended up being the deified Romulus",
+   "wikipedia": "Quirinus",
+   "portrait": "portraits/roman/quirinus.webp",
+   "epithets": [
+    "the deified Romulus",
+    "the Sabine god of the Quirinal"
+   ],
+   "domains": [
+    "the Roman citizen body",
+    "war in its civil aspect",
+    "the assembly"
+   ],
+   "symbols": [
+    "the myrtle",
+    "the flamen's cap"
+   ],
+   "mount": null,
+   "abode": "The Quirinal Hill",
+   "festivals": [],
+   "worship": "",
+   "bio": "One of only three gods with their own high priest - and nobody is quite sure who he originally was.",
+   "longBio": "Quirinus is old and important - he had his own flamen, one of only three major ones alongside Jupiter's and Mars's - and his original identity is genuinely lost. He was probably a Sabine god of the Quirinal hill, absorbed when the two communities merged. By the late Republic he had been identified with the deified Romulus, which tidied him into the founding story. He and Jupiter and Mars form what scholars call the Archaic Triad, the pre-Capitoline arrangement, and Dumezil built his whole three-function theory of Indo-European society on that trio - sovereignty, war and production.",
+   "variantTraditions": "Dumezil's trifunctional hypothesis remains influential and heavily criticised. The identification of Quirinus with Romulus is late and looks like tidying-up.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "war",
+    "preserver"
+   ]
+  },
+  {
+   "id": "sibyl",
+   "name": "The Cumaean Sibyl",
+   "sanskrit": "Sibylla Cumana",
+   "category": "mortal",
+   "era": "The Founding",
+   "role": "She asked for as many years as grains of sand and forgot to ask to stay young",
+   "wikipedia": "Cumaean_Sibyl",
+   "portrait": "portraits/roman/sibyl.webp",
+   "epithets": [
+    "the Sibyl of Cumae",
+    "the prophetess"
+   ],
+   "domains": [
+    "prophecy",
+    "the gateway to the underworld",
+    "the Sibylline Books"
+   ],
+   "symbols": [
+    "the hundred mouths of her cave",
+    "the leaves she wrote on",
+    "the golden bough"
+   ],
+   "mount": null,
+   "abode": "The cave at Cumae",
+   "festivals": [],
+   "worship": "",
+   "bio": "Granted a thousand years and no youth, she shrank until she hung in a jar wanting only to die.",
+   "longBio": "The Sibyl guides Aeneas into the underworld, requiring him to find the golden bough first. Her own story is bleak: Apollo offered her a wish and she scooped up a handful of sand and asked for a year for every grain, but forgot to ask for youth, so she aged and dwindled for a thousand years. Petronius has travellers ask the shrivelled thing hanging in a jar what she wants, and she answers: I want to die. T. S. Eliot put that exchange at the head of The Waste Land. She wrote her prophecies on leaves at the mouth of her cave, and if the wind took them she would not repeat them.",
+   "variantTraditions": "The Sibylline Books held by the Roman state were consulted in emergencies and burned in 83 BC; a reconstructed collection was destroyed around AD 405.",
+   "storyIds": [
+    "sibyl-books"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "faunus",
+   "name": "Faunus",
+   "sanskrit": "Faunus",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "Woodland god of the Lupercalia, whose priests ran the streets hitting women with strips of goat hide",
+   "wikipedia": "Faunus",
+   "portrait": "portraits/roman/faunus.webp",
+   "epithets": [
+    "Lupercus",
+    "the woodland voice",
+    "Inuus"
+   ],
+   "domains": [
+    "woodland",
+    "flocks",
+    "prophecy in dreams",
+    "fertility"
+   ],
+   "symbols": [
+    "the goat",
+    "the strips of hide",
+    "the wolf-skin"
+   ],
+   "mount": null,
+   "abode": "The Lupercal, and the woods",
+   "festivals": [],
+   "worship": "",
+   "bio": "His February festival is the one where naked young men ran through Rome striking women with goatskin thongs for fertility.",
+   "longBio": "Faunus is genuinely Italic, a god of woods and flocks who speaks in dreams and in strange sounds heard in the forest. His festival, the Lupercalia on 15 February, is the strangest thing in the Roman calendar: goats were sacrificed at the Lupercal cave, young men of good family were smeared with the blood, and then ran a circuit of the Palatine nearly naked striking bystanders - especially women hoping to conceive - with strips of the hide. It survived until the fifth century AD. Its relationship to Valentine's Day is often asserted and rests on very little.",
+   "variantTraditions": "Identified with Pan. The claim that the Lupercalia was converted into St Valentine's Day is a much later and poorly evidenced suggestion.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "divine-beast",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "flora",
+   "name": "Flora",
+   "sanskrit": "Flora",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "Goddess of flowering, whose games were played by prostitutes and involved released hares",
+   "wikipedia": "Flora_(mythology)",
+   "portrait": "portraits/roman/flora.webp",
+   "epithets": [
+    "the flowering one"
+   ],
+   "domains": [
+    "blossom",
+    "spring",
+    "the flowering of crops"
+   ],
+   "symbols": [
+    "flowers and garlands",
+    "the released hares and goats"
+   ],
+   "mount": null,
+   "abode": "The temple by the Circus Maximus",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her festival was famously indecent, and Roman writers were still embarrassed about it centuries later.",
+   "longBio": "Flora governs the moment of flowering - not the harvest but the blossom that must survive if there is to be one, which in a farming calendar is genuinely precarious. Her Floralia in late April and early May involved games, released hares and goats, scattered beans and lupins, and performances by prostitutes that later authors described with varying degrees of prim disapproval. Ovid, asking her why her rites are so free, gets the answer that there is nothing severe about flowers. Her Sabine origins are claimed by the tradition and she has no Greek equivalent worth speaking of.",
+   "variantTraditions": "Sometimes matched with the Greek Chloris, and Ovid tells a story in which Flora simply is Chloris after a name change.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "pomona",
+   "name": "Pomona",
+   "sanskrit": "Pomona",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "Goddess of fruit trees, won by a suitor disguised as an old woman",
+   "wikipedia": "Pomona",
+   "portrait": "portraits/roman/pomona.webp",
+   "epithets": [
+    "the fruit goddess"
+   ],
+   "domains": [
+    "orchards",
+    "grafting and pruning",
+    "fruit"
+   ],
+   "symbols": [
+    "the pruning knife",
+    "the apple",
+    "the orchard wall"
+   ],
+   "mount": null,
+   "abode": "Her walled orchard",
+   "festivals": [],
+   "worship": "",
+   "bio": "She cared about pruning and nothing else, until Vertumnus talked his way in dressed as an old woman.",
+   "longBio": "Pomona tends fruit trees and specifically the craft of them - grafting, pruning, watering - and wants nothing to do with anyone, keeping her orchard walled and locked. Vertumnus, god of change and the turning seasons, tries every disguise and finally gets in as an old woman, sits down beside her, and delivers a long recommendation of Vertumnus. It works, eventually. She is entirely Italic, has her own minor priest, and the story is Ovid's - a light, domestic comedy in the middle of the Metamorphoses, and one of very few tales in the poem where nobody is destroyed.",
+   "variantTraditions": "No Greek equivalent. The Pomona and Vertumnus story appears only in Ovid and may be his own composition.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "vertumnus",
+   "name": "Vertumnus",
+   "sanskrit": "Vertumnus",
+   "category": "deity",
+   "era": "The Old Italic Gods",
+   "role": "God of change and the turning year, who could take any shape he liked",
+   "wikipedia": "Vertumnus",
+   "portrait": "portraits/roman/vertumnus.webp",
+   "epithets": [
+    "the turner",
+    "the changing one"
+   ],
+   "domains": [
+    "seasonal change",
+    "shapeshifting",
+    "gardens",
+    "trade"
+   ],
+   "symbols": [
+    "the pruning hook",
+    "the many disguises"
+   ],
+   "mount": null,
+   "abode": "The Vicus Tuscus in Rome",
+   "festivals": [],
+   "worship": "",
+   "bio": "He could become anyone, and used the ability to court a woman who had locked her gate.",
+   "longBio": "Vertumnus is Etruscan in origin and Roman in function: a god of turning and change, of the year's shift and of the ripening of things. His gift is shape - he appears as a reaper, a ploughman, a soldier, a fisherman - and he spends the whole Pomona story cycling through them before the disguise that works. His statue stood in the Vicus Tuscus and was dressed in different clothes according to the season, which is an unusually literal piece of cult practice. He is one of the few Roman gods whose defining trait is his instability.",
+   "variantTraditions": "His name is connected either to vertere, to turn, or to an Etruscan original, Voltumna; the sources disagree.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "cybele",
+   "name": "Cybele",
+   "sanskrit": "Magna Mater",
+   "category": "deity",
+   "era": "The Imperial Cults",
+   "role": "A foreign goddess formally invited to Rome as a black stone, on the advice of a prophecy",
+   "wikipedia": "Cybele",
+   "portrait": "portraits/roman/cybele.webp",
+   "epithets": [
+    "Magna Mater, the Great Mother",
+    "the Idaean Mother"
+   ],
+   "domains": [
+    "the earth",
+    "wild animals",
+    "the state's protection"
+   ],
+   "symbols": [
+    "the mural crown",
+    "the lions drawing her chariot",
+    "the black stone of Pessinus"
+   ],
+   "mount": null,
+   "abode": "The temple on the Palatine",
+   "festivals": [],
+   "worship": "",
+   "bio": "In 204 BC the Senate consulted a prophecy, sent an embassy, and shipped a meteorite home to win a war.",
+   "longBio": "With Hannibal in Italy and the war going badly, the Sibylline Books were consulted and advised that the Great Mother be brought to Rome. An embassy went to Pessinus in Asia Minor and returned with her - a black stone, probably a meteorite - which was carried up the Tiber and installed on the Palatine, and Hannibal left Italy two years later. But her priests, the Galli, were eunuchs who castrated themselves in ecstatic rites, and Roman citizens were forbidden to join. So Rome imported a goddess, credited her with a war, and then spent centuries uncomfortable about her clergy.",
+   "variantTraditions": "Identified with Rhea. The prohibition on citizens serving as Galli is documented, and the tension between official honour and social disapproval is well attested.",
+   "storyIds": [
+    "great-mother"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "divine-beast",
+    "preserver"
+   ]
+  },
+  {
+   "id": "mithras",
+   "name": "Mithras",
+   "sanskrit": "Mithras",
+   "category": "deity",
+   "era": "The Imperial Cults",
+   "role": "The soldiers' god, worshipped in cellars, whose beliefs nobody wrote down",
+   "wikipedia": "Mithraism",
+   "portrait": "portraits/roman/mithras.webp",
+   "epithets": [
+    "Sol Invictus Mithras",
+    "the bull-slayer"
+   ],
+   "domains": [
+    "the bull sacrifice",
+    "soldierly initiation",
+    "the sun"
+   ],
+   "symbols": [
+    "the Phrygian cap",
+    "the bull and the knife",
+    "the raven, dog, snake and scorpion"
+   ],
+   "mount": null,
+   "abode": "Underground mithraea across the empire",
+   "festivals": [],
+   "worship": "",
+   "bio": "Hundreds of temples survive, thousands of images - and not one line of scripture.",
+   "longBio": "Mithraism ran through the Roman army from Britain to Syria for three centuries, with initiates in seven graded ranks meeting in small windowless rooms built to look like caves. The central image is everywhere: Mithras in a Phrygian cap kneeling on a bull and cutting its throat, with a dog, a snake, a raven and a scorpion attending. What it meant is unknown, because the cult was oral and nothing doctrinal survives. The astronomical reading - that the tableau maps a set of constellations - is the leading modern theory and is not settled. It is the best-attested and least-understood religion of the Roman world.",
+   "variantTraditions": "Despite the name, the relationship to the Iranian Mithra is disputed and may be little more than a borrowed name.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "war",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "sol_invictus",
+   "name": "Sol Invictus",
+   "sanskrit": "Sol Invictus",
+   "category": "deity",
+   "era": "The Imperial Cults",
+   "role": "The unconquered sun, whose feast on 25 December is either the origin of Christmas or a coincidence",
+   "wikipedia": "Sol_Invictus",
+   "portrait": "portraits/roman/sol_invictus.webp",
+   "epithets": [
+    "the unconquered sun"
+   ],
+   "domains": [
+    "the sun",
+    "imperial power",
+    "victory"
+   ],
+   "symbols": [
+    "the radiate crown",
+    "the four-horse chariot"
+   ],
+   "mount": null,
+   "abode": "The temple in the Campus Martius",
+   "festivals": [],
+   "worship": "",
+   "bio": "Aurelian made him the empire's chief god in 274, and his birthday was the winter solstice.",
+   "longBio": "Aurelian elevated Sol Invictus to head of the Roman state cult in AD 274, giving the empire something close to a single supreme god at precisely the moment it needed unifying. His festival, the Dies Natalis Solis Invicti, fell on 25 December. Whether that is where the date of Christmas comes from, or whether both derive independently from the solstice, has been argued for centuries and remains genuinely open. Constantine minted coins with Sol on them years after his conversion, which is either political caution or a slower change of mind than the histories suggest.",
+   "variantTraditions": "The Christmas-date question is unresolved. The alternative theory, calculating the date from a supposed date of the crucifixion, has serious support.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "king-ruler",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "isis_roman",
+   "name": "Isis",
+   "sanskrit": "Isis",
+   "category": "deity",
+   "era": "The Imperial Cults",
+   "role": "The Egyptian goddess who conquered Rome, banned five times and worshipped anyway",
+   "wikipedia": "Isis",
+   "portrait": "portraits/roman/isis_roman.webp",
+   "epithets": [
+    "the goddess of many names",
+    "Stella Maris, star of the sea"
+   ],
+   "domains": [
+    "salvation",
+    "the sea and sailors",
+    "magic",
+    "motherhood"
+   ],
+   "symbols": [
+    "the sistrum",
+    "the knotted robe",
+    "the throne headdress"
+   ],
+   "mount": null,
+   "abode": "The Iseum in the Campus Martius",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Senate destroyed her altars repeatedly. Her cult outlasted the Senate.",
+   "longBio": "Isis arrived through traders and sailors and spread without official sponsorship, which is exactly why the authorities kept trying to suppress her - her temples were demolished by decree five times in the first century BC alone, and on one occasion no workman would strike the first blow so a consul did it himself. She offered what the state cult did not: personal devotion, an initiation, and a promise about death. Apuleius ends the Golden Ass with a genuine account of what conversion to her felt like. She was still being worshipped at Philae in the sixth century AD, long after the empire had turned Christian.",
+   "variantTraditions": "Her Roman cult is a genuine transplant rather than an identification with an existing goddess, which makes it unusual among imports.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "sea-waters",
+    "healer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "victoria",
+   "name": "Victoria",
+   "sanskrit": "Victoria",
+   "category": "deity",
+   "era": "The Imperial Cults",
+   "role": "Winged victory, whose altar in the Senate house caused the last public fight over paganism",
+   "wikipedia": "Victoria_(mythology)",
+   "portrait": "portraits/roman/victoria.webp",
+   "epithets": [
+    "the winged one"
+   ],
+   "domains": [
+    "victory",
+    "the success of Roman arms"
+   ],
+   "symbols": [
+    "the wings",
+    "the laurel wreath",
+    "the palm branch"
+   ],
+   "mount": null,
+   "abode": "The Senate House",
+   "festivals": [],
+   "worship": "",
+   "bio": "Senators burned incense at her altar for four centuries. Removing it in 382 caused a constitutional crisis.",
+   "longBio": "Victoria is the personification of winning, and her altar stood in the Curia where senators offered incense before business. When Gratian had it removed in AD 382, the pagan senator Symmachus petitioned for its return in a famous appeal arguing that so great a mystery cannot be reached by one road alone - and was answered, at length and successfully, by Ambrose of Milan. The exchange survives and is the closest thing we have to a formal debate between the old religion and the new. The altar did not go back. Her image, winged with a wreath, went on to become every war memorial in Europe.",
+   "variantTraditions": "Identified with Nike. The Symmachus and Ambrose exchange is preserved in full and is a genuinely important document.",
+   "storyIds": [
+    "great-mother"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "libertas",
+   "name": "Libertas",
+   "sanskrit": "Libertas",
+   "category": "deity",
+   "era": "The Republic",
+   "role": "Freedom as a goddess, holding a cap given to freed slaves - and later a torch in New York harbour",
+   "wikipedia": "Libertas",
+   "portrait": "portraits/roman/libertas.webp",
+   "epithets": [
+    "the free one"
+   ],
+   "domains": [
+    "political liberty",
+    "manumission",
+    "the Republic"
+   ],
+   "symbols": [
+    "the pileus, the freedman's cap",
+    "the rod of manumission",
+    "the broken chain"
+   ],
+   "mount": null,
+   "abode": "The temple on the Aventine",
+   "festivals": [],
+   "worship": "",
+   "bio": "The cap she holds is the one a slave received on being freed, and it became the Phrygian cap of every revolution since.",
+   "longBio": "Libertas is liberty in the specific Roman sense - not a general principle but the legal condition of not being a slave, and the political condition of not being ruled by a king. Her attribute is the pileus, the felt cap given to a manumitted slave, which is why Brutus put it on coins after killing Caesar. That cap becomes the bonnet rouge of the French Revolution and turns up on flags from Argentina to New York State. The Statue of Liberty is her, by direct descent, with the cap swapped for a crown and a torch added.",
+   "variantTraditions": "The chain of transmission from the Roman pileus to the revolutionary Phrygian cap is real, though the two hat styles were conflated somewhere along the way.",
+   "storyIds": [
+    "lucretia",
+    "brutus-sons"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "hercules_roman",
+   "name": "Hercules",
+   "sanskrit": "Hercules",
+   "category": "hero",
+   "era": "The Greek Gods in Latin",
+   "role": "Greek Heracles, but in Rome he was mainly the god merchants tithed to",
+   "wikipedia": "Hercules",
+   "portrait": "portraits/roman/hercules_roman.webp",
+   "epithets": [
+    "Hercules Invictus",
+    "Victor"
+   ],
+   "domains": [
+    "strength",
+    "trade and the tithe",
+    "the cattle market",
+    "travel"
+   ],
+   "symbols": [
+    "the club",
+    "the lion skin",
+    "the Great Altar in the Forum Boarium"
+   ],
+   "mount": null,
+   "abode": "The Ara Maxima in the Forum Boarium",
+   "festivals": [],
+   "worship": "",
+   "bio": "Romans gave him a tenth of their profits, which is the least Greek thing about him.",
+   "longBio": "Heracles arrives early and thoroughly and keeps his labours, but Rome's practical relationship with him was financial: the Ara Maxima in the cattle market received a tithe of the profits of merchants and generals, and vows to Hercules were a normal part of commercial life. He also got a local myth: passing through with Geryon's cattle he was robbed by the fire-breathing Cacus, who lived in a cave on the Aventine and dragged the beasts in backwards to hide the tracks - and Hercules tore the hill open to get at him. Virgil tells it in the Aeneid as an origin story for the altar.",
+   "variantTraditions": "Identified with Heracles from very early, probably via Etruscan Hercle. The Cacus story is Italic and attaches a local monster to an imported hero.",
+   "storyIds": [
+    "cacus"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "wealth-fortune",
+    "war"
+   ]
+  },
+  {
+   "id": "cacus",
+   "name": "Cacus",
+   "sanskrit": "Cacus",
+   "category": "beast",
+   "era": "The Founding",
+   "role": "Fire-breathing monster of the Aventine, who stole cattle by dragging them in backwards",
+   "wikipedia": "Cacus",
+   "portrait": "portraits/roman/cacus.webp",
+   "epithets": [
+    "son of Vulcan",
+    "the cave-dweller"
+   ],
+   "domains": [
+    "theft",
+    "fire",
+    "the Aventine cave"
+   ],
+   "symbols": [
+    "the smoke from his mouth",
+    "the cattle tracks pointing the wrong way"
+   ],
+   "mount": null,
+   "abode": "A cave on the Aventine",
+   "festivals": [],
+   "worship": "",
+   "bio": "He dragged the stolen cattle in by their tails so the tracks pointed away - and they lowed and gave him away.",
+   "longBio": "Cacus is a genuinely Italic monster: a fire-breathing giant living in a cave on the Aventine, nailing the heads of his victims to the doorposts. When Hercules passes through with Geryon's cattle, Cacus steals some and drags them backwards into his cave so that the hoofprints lead outward. It nearly works. Then the cattle inside call to the herd outside, and Hercules tears the roof off the hill and strangles him. Virgil gives it two hundred lines in the Aeneid. The backwards-dragging trick is the same one told of Hermes stealing Apollo's cattle, which suggests a shared inheritance rather than a borrowing.",
+   "variantTraditions": "Some older Roman antiquarians made Cacus a local hero or king rather than a monster, which the Virgilian version buried.",
+   "storyIds": [
+    "cacus"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "fire"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "jupiter",
+   "to": "juno",
+   "type": "consort",
+   "note": "King and queen of the gods, and two thirds of the state cult"
+  },
+  {
+   "from": "jupiter",
+   "to": "minerva",
+   "type": "parent",
+   "note": "The Capitoline Triad, borrowed whole from the Etruscans"
+  },
+  {
+   "from": "jupiter",
+   "to": "mars",
+   "type": "parent",
+   "note": "The sky father and the god who fathered Rome"
+  },
+  {
+   "from": "juno",
+   "to": "mars",
+   "type": "parent",
+   "note": "Borne, in Ovid's telling, without a father at all"
+  },
+  {
+   "from": "jupiter",
+   "to": "quirinus",
+   "type": "ally",
+   "note": "With Mars, the older Archaic Triad before the Capitoline one"
+  },
+  {
+   "from": "jupiter",
+   "to": "vulcan",
+   "type": "parent",
+   "note": "The thunderbolt and the forge that makes it"
+  },
+  {
+   "from": "jupiter",
+   "to": "apollo",
+   "type": "parent",
+   "note": "The one Greek god Rome never renamed"
+  },
+  {
+   "from": "jupiter",
+   "to": "diana",
+   "type": "parent",
+   "note": "Twin to Apollo"
+  },
+  {
+   "from": "jupiter",
+   "to": "mercury",
+   "type": "parent",
+   "note": "The messenger who is also the god of profit"
+  },
+  {
+   "from": "jupiter",
+   "to": "bacchus",
+   "type": "parent",
+   "note": "Liber Pater, an Italic god given a Greek father"
+  },
+  {
+   "from": "jupiter",
+   "to": "saturn",
+   "type": "parent",
+   "note": "The son who displaced him, in the imported Greek story"
+  },
+  {
+   "from": "saturn",
+   "to": "juno",
+   "type": "parent",
+   "note": "By the Kronos identification"
+  },
+  {
+   "from": "saturn",
+   "to": "neptune",
+   "type": "parent",
+   "note": "By the Kronos identification"
+  },
+  {
+   "from": "saturn",
+   "to": "pluto",
+   "type": "parent",
+   "note": "By the Kronos identification"
+  },
+  {
+   "from": "saturn",
+   "to": "ceres",
+   "type": "parent",
+   "note": "By the Kronos identification"
+  },
+  {
+   "from": "saturn",
+   "to": "vesta",
+   "type": "parent",
+   "note": "By the Kronos identification"
+  },
+  {
+   "from": "janus",
+   "to": "jupiter",
+   "type": "ally",
+   "note": "Named first in every prayer, ahead of the king of the gods"
+  },
+  {
+   "from": "janus",
+   "to": "saturn",
+   "type": "ally",
+   "note": "He received Saturn in Latium when Jupiter drove him out"
+  },
+  {
+   "from": "mars",
+   "to": "bellona",
+   "type": "sibling",
+   "note": "War, and the formal declaration of it"
+  },
+  {
+   "from": "mars",
+   "to": "faunus",
+   "type": "ally",
+   "note": "Two gods of the woods and the flock, before Mars was only war"
+  },
+  {
+   "from": "vesta",
+   "to": "lares",
+   "type": "ally",
+   "note": "The state hearth and the household one"
+  },
+  {
+   "from": "lares",
+   "to": "penates",
+   "type": "ally",
+   "note": "The two sets of gods a Roman actually fed"
+  },
+  {
+   "from": "penates",
+   "to": "aeneas",
+   "type": "devotee",
+   "note": "He carried them out of Troy and they became the state's own"
+  },
+  {
+   "from": "genius",
+   "to": "lares",
+   "type": "ally",
+   "note": "The household's divinities, and the man's own"
+  },
+  {
+   "from": "terminus",
+   "to": "jupiter",
+   "type": "enemy",
+   "note": "He refused to move for the Capitoline temple and won"
+  },
+  {
+   "from": "ceres",
+   "to": "proserpina",
+   "type": "parent",
+   "note": "The grain mother and the daughter taken below"
+  },
+  {
+   "from": "pluto",
+   "to": "proserpina",
+   "type": "consort",
+   "note": "Six pomegranate seeds, six months"
+  },
+  {
+   "from": "ceres",
+   "to": "bacchus",
+   "type": "ally",
+   "note": "The Aventine triad with Libera, the plebeians' own gods"
+  },
+  {
+   "from": "flora",
+   "to": "pomona",
+   "type": "sibling",
+   "note": "The blossom and the fruit it becomes"
+  },
+  {
+   "from": "pomona",
+   "to": "vertumnus",
+   "type": "consort",
+   "note": "He got past her wall dressed as an old woman"
+  },
+  {
+   "from": "fortuna",
+   "to": "jupiter",
+   "type": "parent",
+   "note": "Fortuna Primigenia, called his firstborn at Praeneste"
+  },
+  {
+   "from": "minerva",
+   "to": "vulcan",
+   "type": "ally",
+   "note": "The two gods of the guilds and the crafts"
+  },
+  {
+   "from": "mercury",
+   "to": "pluto",
+   "type": "ally",
+   "note": "He leads the dead down to him"
+  },
+  {
+   "from": "venus",
+   "to": "cupid",
+   "type": "parent",
+   "note": "Desire and its instrument"
+  },
+  {
+   "from": "venus",
+   "to": "vulcan",
+   "type": "consort",
+   "note": "The marriage the net was set for"
+  },
+  {
+   "from": "venus",
+   "to": "mars",
+   "type": "consort",
+   "note": "Caught together in Vulcan's net, in the Greek story"
+  },
+  {
+   "from": "venus",
+   "to": "aeneas",
+   "type": "parent",
+   "note": "Which makes her the ancestress of the Roman people"
+  },
+  {
+   "from": "cupid",
+   "to": "apollo",
+   "type": "enemy",
+   "note": "He shot him with the gold arrow and Daphne with the lead"
+  },
+  {
+   "from": "aeneas",
+   "to": "latinus",
+   "type": "ally",
+   "note": "The oracle said marry your daughter to a foreigner"
+  },
+  {
+   "from": "aeneas",
+   "to": "lavinia",
+   "type": "consort",
+   "note": "The marriage the second half of the Aeneid is fought over"
+  },
+  {
+   "from": "latinus",
+   "to": "lavinia",
+   "type": "parent",
+   "note": "Promised to one man and given to another"
+  },
+  {
+   "from": "aeneas",
+   "to": "dido",
+   "type": "consort",
+   "note": "He left because he was told to, and she burned"
+  },
+  {
+   "from": "aeneas",
+   "to": "turnus",
+   "type": "enemy",
+   "note": "The poem ends on the blow"
+  },
+  {
+   "from": "turnus",
+   "to": "lavinia",
+   "type": "consort",
+   "note": "Promised to him first"
+  },
+  {
+   "from": "aeneas",
+   "to": "sibyl",
+   "type": "devotee",
+   "note": "She took him down, once he had found the golden bough"
+  },
+  {
+   "from": "aeneas",
+   "to": "hercules_roman",
+   "type": "ally",
+   "note": "Both passed through the site of Rome before there was a Rome"
+  },
+  {
+   "from": "aeneas",
+   "to": "romulus",
+   "type": "parent",
+   "note": "The line runs through Alba Longa to the twins"
+  },
+  {
+   "from": "rhea_silvia",
+   "to": "romulus",
+   "type": "parent",
+   "note": "A Vestal made pregnant to end a bloodline that did not end"
+  },
+  {
+   "from": "rhea_silvia",
+   "to": "remus",
+   "type": "parent",
+   "note": "The other twin"
+  },
+  {
+   "from": "mars",
+   "to": "romulus",
+   "type": "parent",
+   "note": "Which makes the war god the father of Rome"
+  },
+  {
+   "from": "mars",
+   "to": "remus",
+   "type": "parent",
+   "note": "And of the brother who died first"
+  },
+  {
+   "from": "romulus",
+   "to": "remus",
+   "type": "sibling",
+   "note": "Six vultures against twelve, and then a wall"
+  },
+  {
+   "from": "romulus",
+   "to": "remus",
+   "type": "enemy",
+   "note": "So shall it be for anyone who crosses my walls"
+  },
+  {
+   "from": "lupa",
+   "to": "romulus",
+   "type": "foster",
+   "note": "She came down to drink and fed them instead"
+  },
+  {
+   "from": "lupa",
+   "to": "remus",
+   "type": "foster",
+   "note": "Both of them, in the cave at the Lupercal"
+  },
+  {
+   "from": "romulus",
+   "to": "quirinus",
+   "type": "form",
+   "note": "Deified after he vanished in a storm - or was killed by senators"
+  },
+  {
+   "from": "romulus",
+   "to": "numa",
+   "type": "guru",
+   "note": "The founder, and the man who gave the city its religion"
+  },
+  {
+   "from": "numa",
+   "to": "egeria",
+   "type": "consort",
+   "note": "She dictated Rome's sacred law to him by night"
+  },
+  {
+   "from": "egeria",
+   "to": "diana",
+   "type": "devotee",
+   "note": "Diana turned her into a spring when she would not stop weeping"
+  },
+  {
+   "from": "numa",
+   "to": "vesta",
+   "type": "ally",
+   "note": "He established her priesthood and her fire"
+  },
+  {
+   "from": "numa",
+   "to": "janus",
+   "type": "devotee",
+   "note": "He shut the gates for the whole of his reign"
+  },
+  {
+   "from": "tarquin",
+   "to": "sibyl",
+   "type": "devotee",
+   "note": "He bought her books after refusing them twice"
+  },
+  {
+   "from": "tarquin",
+   "to": "lucretia",
+   "type": "enemy",
+   "note": "His son's crime, and his own throne lost for it"
+  },
+  {
+   "from": "lucretia",
+   "to": "brutus",
+   "type": "ally",
+   "note": "He drew the knife out of her and swore by it"
+  },
+  {
+   "from": "brutus",
+   "to": "tarquin",
+   "type": "enemy",
+   "note": "He drove out the kings and founded the Republic"
+  },
+  {
+   "from": "brutus",
+   "to": "libertas",
+   "type": "devotee",
+   "note": "Freedom in the Roman sense: not being ruled by a king"
+  },
+  {
+   "from": "faunus",
+   "to": "lupa",
+   "type": "ally",
+   "note": "The Lupercal is his cave and hers"
+  },
+  {
+   "from": "hercules_roman",
+   "to": "cacus",
+   "type": "enemy",
+   "note": "He tore the roof off the Aventine to get at him"
+  },
+  {
+   "from": "cacus",
+   "to": "vulcan",
+   "type": "parent",
+   "note": "The fire-breather, son of the god of fire"
+  },
+  {
+   "from": "cybele",
+   "to": "jupiter",
+   "type": "parent",
+   "note": "As Rhea, in the Greek identification"
+  },
+  {
+   "from": "cybele",
+   "to": "victoria",
+   "type": "ally",
+   "note": "Imported to win a war, and credited with it"
+  },
+  {
+   "from": "mithras",
+   "to": "sol_invictus",
+   "type": "form",
+   "note": "Sol Invictus Mithras, on the inscriptions"
+  },
+  {
+   "from": "sol_invictus",
+   "to": "apollo",
+   "type": "form",
+   "note": "The sun god the late empire needed, absorbing the older one"
+  },
+  {
+   "from": "isis_roman",
+   "to": "ceres",
+   "type": "form",
+   "note": "Matched to her by Romans looking for a familiar shape"
+  },
+  {
+   "from": "isis_roman",
+   "to": "venus",
+   "type": "form",
+   "note": "The goddess of many names took several of them here"
+  },
+  {
+   "from": "victoria",
+   "to": "mars",
+   "type": "ally",
+   "note": "War, and the winning of it"
+  },
+  {
+   "from": "bellona",
+   "to": "victoria",
+   "type": "ally",
+   "note": "Declaring it and completing it"
+  },
+  {
+   "from": "libertas",
+   "to": "fortuna",
+   "type": "sibling",
+   "note": "Two abstractions Rome built temples to"
+  },
+  {
+   "from": "bacchus",
+   "to": "cybele",
+   "type": "ally",
+   "note": "Two ecstatic cults the Senate found difficult"
+  },
+  {
+   "from": "mercury",
+   "to": "hercules_roman",
+   "type": "ally",
+   "note": "The two gods a Roman merchant actually paid"
+  }
+ ]
+}

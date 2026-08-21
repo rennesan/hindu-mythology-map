@@ -131,9 +131,14 @@
    "label": "Roman",
    "sublabel": "Italic & Imperial",
    "accent": "#c9a227",
-   "status": "planned",
+   "status": "live",
    "blurb": "The numina and the Capitoline triad, the state cult that bound them to Rome, and the founding legends of the city.",
-   "glyph": "⚡"
+   "glyph": "⚡",
+   "figures": 52,
+   "stories": 14,
+   "links": 80,
+   "levels": 8,
+   "cover": "portraits/roman/janus.webp"
   },
   {
    "id": "maya",

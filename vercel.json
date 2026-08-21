@@ -66,6 +66,10 @@
    "destination": "/celtic/index.html"
   },
   {
+   "source": "/roman/:path*",
+   "destination": "/roman/index.html"
+  },
+  {
    "source": "/hopi/:path*",
    "destination": "/hopi/index.html"
   },
