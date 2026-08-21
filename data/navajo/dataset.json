@@ -1,0 +1,1719 @@
+{
+ "title": "Navajo",
+ "description": "Dine of the Southwest: four worlds left behind, a woman who ages through the seasons and walks east and comes back young, and monsters that are each a mesa you can drive to.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Washington Matthews, Navaho Legends (1897) and The Night Chant (1902)",
+  "Sandoval (Hastin Tlo'tsi hee), told to Aileen O'Bryan in 1928 and published as BAE Bulletin 163 (1956) - given expressly so it would be preserved",
+  "Gladys Reichard, Navaho Religion (1950); Berard Haile on the Enemy Way",
+  "Note: no sandpainting imagery is reproduced anywhere in this pack. A sandpainting is made and destroyed within one day and is not a picture; permanent reproduction is disputed and is not done here",
+  "Note: the yee naaldlooshii is deliberately absent. Dine people do not discuss it with outsiders and this pack respects that rather than treating it as content"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/navajo/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "matthews": {
+   "t": "Navaho Legends",
+   "tr": "Washington Matthews, 1897",
+   "u": "https://sacred-texts.com/nam/nav/nleg/index.htm"
+  },
+  "nightchant": {
+   "t": "The Night Chant, a Navaho Ceremony",
+   "tr": "Washington Matthews, 1902",
+   "u": "https://archive.org/details/nightchantnavaho00matt"
+  },
+  "obryan": {
+   "t": "The Dine: Origin Myths of the Navaho Indians (BAE Bulletin 163)",
+   "tr": "Told by Sandoval, Hastin Tlo'tsi hee, to Aileen O'Bryan, 1928",
+   "u": "https://sacred-texts.com/nam/nav/omni/index.htm"
+  },
+  "reichard": {
+   "t": "Navaho Religion: A Study of Symbolism",
+   "tr": "Gladys Reichard, 1950",
+   "u": "https://archive.org/details/navahoreligionst0000reic"
+  },
+  "haile": {
+   "t": "Origin Legend of the Navaho Enemy Way",
+   "tr": "Berard Haile, 1938",
+   "u": "https://archive.org/details/originlegendofna0000hail"
+  }
+ },
+ "meta": {
+  "id": "navajo",
+  "label": "Navajo",
+  "sublabel": "Dine, the Southwest",
+  "accent": "#c08f6a",
+  "root": "diyin_dine"
+ },
+ "profile": {
+  "cosmicNature": "Four worlds stacked below this one, each abandoned in turn because the people in it behaved badly, and an emergence upward through a reed. This is not a creation from nothing - it is a migration. Everything that exists was brought up from below or made afterward out of what was carried, and the Fourth World was left because of a quarrel between men and women that got completely out of hand.",
+  "natureOfDivinity": "The Diyin Dine'e, the Holy People, who are not worshipped so much as dealt with. They made the Earth Surface People, taught them how to live, and withdrew - but they remain reachable, and the ceremonies are the procedure for reaching them. Changing Woman is the central figure and the most benevolent: she was found as a baby on a mountain, grew to womanhood in twelve days, and made the first four clans out of skin rubbed from her own body.",
+  "afterlife": "Not dwelt on, and deliberately so. Death is dangerous and the dead are dangerous, and the chindi - what is left behind when a person dies, the residue of everything that was out of harmony in them - contaminates the place it happened. A hogan in which someone died was traditionally abandoned or destroyed. There is no attractive afterlife in this tradition and no interest in describing one; the emphasis is entirely on living correctly now.",
+  "systemMechanism": "Hozho, which is the whole thing. It is usually translated as beauty, harmony or balance and it is all of those and none of them exactly - it is the state of things being right, and it can be lost and it can be restored. Illness is hozho lost. A ceremony is the procedure for putting it back, and it works by retelling the relevant story and putting the patient into it. The Blessingway prayer ends by placing the speaker with beauty before, behind, below, above and all around.",
+  "canonTexts": "Nothing written by the Dine before the twentieth century, and a substantial published record since - most of it given deliberately. Washington Matthews, an army surgeon who learned the language, published Navaho Legends in 1897 and The Night Chant in 1902. Sandoval told the origin accounts to Aileen O'Bryan in 1928 expressly so they would survive, and they were published in 1956. Gladys Reichard and Berard Haile added a great deal more."
+ },
+ "hierarchy": [
+  {
+   "title": "The Coming Up",
+   "blurb": "Four worlds below, each left because the people in it behaved badly - a founding story whose central event is an eviction, repeated three times. They came up through a reed. Nobody is created here; everything was carried up or made afterwards out of what was carried.",
+   "memberIds": [
+    "diyin_dine",
+    "four_worlds",
+    "first_man",
+    "first_woman",
+    "coyote",
+    "changing_woman",
+    "white_shell_woman",
+    "johonaa_ei",
+    "black_god",
+    "talking_god",
+    "spider_woman"
+   ],
+   "connectorCaption": "And when they got here, the place was full of things that ate people"
+  },
+  {
+   "title": "The Monsters",
+   "blurb": "Twin sons of Changing Woman walked to the Sun's house at the edge of the world, survived four attempts on their lives there, and were armed. Every monster they killed is a specific mesa or butte you can drive to. And four of them talked their way out of it.",
+   "memberIds": [
+    "monster_slayer",
+    "born_for_water",
+    "yeiitsoh",
+    "naayee",
+    "the_spared"
+   ],
+   "connectorCaption": "What was left afterwards was the question of how to live in it"
+  },
+  {
+   "title": "How to Live",
+   "blurb": "Hozho, which is beauty and harmony and order and health all at once, can be lost, and a ceremony is the technical procedure for putting it back. Corn pollen is what it looks like when you have to hold it. And the door faces east.",
+   "memberIds": [
+    "hozho",
+    "blessingway",
+    "nightway",
+    "four_mountains",
+    "hogan",
+    "chindi",
+    "corn_pollen",
+    "weaving"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "emergence",
+   "label": "The Emergence",
+   "memberIds": [
+    "four_worlds",
+    "first_man",
+    "first_woman",
+    "coyote"
+   ]
+  },
+  {
+   "id": "holy",
+   "label": "The Holy People",
+   "memberIds": [
+    "diyin_dine",
+    "changing_woman",
+    "johonaa_ei",
+    "black_god",
+    "talking_god"
+   ]
+  },
+  {
+   "id": "women",
+   "label": "The Two Women",
+   "memberIds": [
+    "changing_woman",
+    "white_shell_woman",
+    "spider_woman",
+    "first_woman"
+   ]
+  },
+  {
+   "id": "twins",
+   "label": "The Hero Twins",
+   "memberIds": [
+    "monster_slayer",
+    "born_for_water",
+    "johonaa_ei",
+    "spider_woman"
+   ]
+  },
+  {
+   "id": "monsters",
+   "label": "The Naayee",
+   "memberIds": [
+    "yeiitsoh",
+    "naayee",
+    "the_spared",
+    "monster_slayer"
+   ]
+  },
+  {
+   "id": "ceremony",
+   "label": "The Ceremonies",
+   "memberIds": [
+    "blessingway",
+    "nightway",
+    "hozho",
+    "corn_pollen"
+   ]
+  },
+  {
+   "id": "place",
+   "label": "The Country",
+   "memberIds": [
+    "four_mountains",
+    "hogan",
+    "weaving",
+    "chindi"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-emergence",
+   "title": "Asked to Leave, Three Times",
+   "era": "The Coming Up",
+   "cast": [
+    "four_worlds",
+    "first_man",
+    "first_woman",
+    "coyote"
+   ],
+   "summary": "The first world was black and small and the insect people in it were expelled for adultery. The second was blue and it happened again. The third was yellow and it held the rivers and the mountains, and there the men and the women fell out - First Woman said the women could manage perfectly well alone, and the men crossed the river, and they lived apart for four years, and both sides went badly wrong in ways the tellings do not soften. They reconciled because they had to. Then Coyote stole the water monster's baby and hid it under his coat, and the water came after him and rose, and they planted a reed and climbed it and came up through a hole into this world. The founding event of this mythology is not a creation. It is being asked to leave, three times, and finally arriving somewhere.",
+   "sources": [
+    {
+     "book": "The Dine: Origin Myths of the Navaho Indians (BAE Bulletin 163)",
+     "translation": "Told by Sandoval, Hastin Tlo'tsi hee, to Aileen O'Bryan, 1928",
+     "location": "The First through Fourth Worlds",
+     "url": "https://sacred-texts.com/nam/nav/omni/index.htm"
+    },
+    {
+     "book": "Navaho Legends",
+     "translation": "Washington Matthews, 1897",
+     "location": "The Emergence",
+     "url": "https://sacred-texts.com/nam/nav/nleg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "twelve-days",
+   "title": "Found on the Mountain",
+   "era": "The Coming Up",
+   "cast": [
+    "changing_woman",
+    "talking_god",
+    "corn_pollen"
+   ],
+   "summary": "Talking God found a baby on Gobernador Knob, lying in a cradle of rainbow with dark cloud over her, and brought her to First Man and First Woman, who raised her. She was fed on pollen and on dew and she grew to womanhood in twelve days, and a ceremony was held for her that is the origin of the Kinaalda, which is still held for Navajo girls. She is the earth and the year: she ages through the seasons into an old woman, walks east, and returns young, and does it again without end. Later she made the first four Navajo clans by rubbing skin from her own body, which makes her the literal ancestor rather than a figurative one, and she is the only one of the Holy People about whom nobody in the record has anything bad to say.",
+   "sources": [
+    {
+     "book": "The Dine: Origin Myths of the Navaho Indians (BAE Bulletin 163)",
+     "translation": "Told by Sandoval, Hastin Tlo'tsi hee, to Aileen O'Bryan, 1928",
+     "location": "Changing Woman",
+     "url": "https://sacred-texts.com/nam/nav/omni/index.htm"
+    },
+    {
+     "book": "Navaho Legends",
+     "translation": "Washington Matthews, 1897",
+     "location": "Estsanatlehi",
+     "url": "https://sacred-texts.com/nam/nav/nleg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-sun-house",
+   "title": "Four Attempts Before He Admitted It",
+   "era": "The Monsters",
+   "cast": [
+    "monster_slayer",
+    "born_for_water",
+    "johonaa_ei",
+    "spider_woman"
+   ],
+   "summary": "The twins set out to find their father and Spider Woman took them into her hole in the ground, gave them protective feathers and taught them the words to say to stop danger, without which the road would have killed them. They passed the crushing rocks, the cutting reeds, the cactus and the boiling sand, and reached the turquoise house in the east. The Sun denied them. Then he tried to kill them four times - spikes of white shell, poisoned tobacco, a steam pit, being crushed - and each time the feathers and the words held. When there was nothing left to try he acknowledged them, gave them flint armour and arrows of lightning, and set conditions. Then they went home and started on the monsters.",
+   "sources": [
+    {
+     "book": "Navaho Legends",
+     "translation": "Washington Matthews, 1897",
+     "location": "The visit to the Sun",
+     "url": "https://sacred-texts.com/nam/nav/nleg/index.htm"
+    },
+    {
+     "book": "The Dine: Origin Myths of the Navaho Indians (BAE Bulletin 163)",
+     "translation": "Told by Sandoval, Hastin Tlo'tsi hee, to Aileen O'Bryan, 1928",
+     "location": "The Twins",
+     "url": "https://sacred-texts.com/nam/nav/omni/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-four-who-argued",
+   "title": "Why He Let Them Live",
+   "era": "The Monsters",
+   "cast": [
+    "the_spared",
+    "monster_slayer",
+    "hozho"
+   ],
+   "summary": "When the naayee were cleared Monster Slayer found four more and raised his weapon. Old Age said: kill me and nobody dies, nobody makes room, and the young will never come into anything. Hunger said: kill me and nobody ever enjoys a meal again, because they will never want one. Poverty said: kill me and nothing is ever replaced, and people will wear the same clothes until they fall off them. Cold Woman said: kill me and the snow will not melt, and the rivers will not run, and nothing will grow. He put the weapon down and let all four of them go. It is the sharpest thing in the cycle: an argument that the unpleasant parts of existence are load-bearing, made by the unpleasant parts themselves, and won.",
+   "sources": [
+    {
+     "book": "Navaho Legends",
+     "translation": "Washington Matthews, 1897",
+     "location": "The slaying of the monsters",
+     "url": "https://sacred-texts.com/nam/nav/nleg/index.htm"
+    },
+    {
+     "book": "The Dine: Origin Myths of the Navaho Indians (BAE Bulletin 163)",
+     "translation": "Told by Sandoval, Hastin Tlo'tsi hee, to Aileen O'Bryan, 1928",
+     "location": "Old Age, Cold, Poverty and Hunger",
+     "url": "https://sacred-texts.com/nam/nav/omni/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-stars",
+   "title": "He Threw the Rest of Them",
+   "era": "The Coming Up",
+   "cast": [
+    "black_god",
+    "coyote"
+   ],
+   "summary": "Black God had a pouch of stars and he was setting them in the sky one at a time, deliberately, each in its correct position, naming it and assigning it what it was for. He had placed a handful of the constellations. Coyote watched this for a while, lost patience, took the blanket the remaining stars were lying on and flung the whole lot at the sky. That is why a small number of constellations are ordered and named and carry meaning, and the rest of the night sky is a scatter with nothing to say for itself. The Pleiades are on Black God's own forehead, where they landed when they jumped onto him, and he left them there.",
+   "sources": [
+    {
+     "book": "The Dine: Origin Myths of the Navaho Indians (BAE Bulletin 163)",
+     "translation": "Told by Sandoval, Hastin Tlo'tsi hee, to Aileen O'Bryan, 1928",
+     "location": "The placing of the stars",
+     "url": "https://sacred-texts.com/nam/nav/omni/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "hozho",
+   "title": "In Beauty It Is Finished",
+   "era": "How to Live",
+   "cast": [
+    "hozho",
+    "blessingway",
+    "corn_pollen"
+   ],
+   "summary": "Hozho has no clean English equivalent. Beauty is the usual translation and harmony and balance are the usual alternatives, and it is all three at once and also health, order and being in right relation to everything around you - and crucially it is a condition that can be lost and put back. Illness is a form of having lost it. A ceremony is not a prayer for help; it is a technical procedure for restoring it, which works by retelling the relevant story correctly and placing the patient inside it. The Blessingway closes by putting the speaker with beauty before, behind, below and above, walking with beauty, and then says four times that it is finished in beauty. That is the end of the whole system and also the whole of it.",
+   "sources": [
+    {
+     "book": "Navaho Religion: A Study of Symbolism",
+     "translation": "Gladys Reichard, 1950",
+     "location": "Hozho",
+     "url": "https://archive.org/details/navahoreligionst0000reic"
+    },
+    {
+     "book": "Navaho Legends",
+     "translation": "Washington Matthews, 1897",
+     "location": "The Night Chant prayers",
+     "url": "https://sacred-texts.com/nam/nav/nleg/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "the-loom",
+   "title": "Sky, Earth, Lightning and Sun",
+   "era": "How to Live",
+   "cast": [
+    "spider_woman",
+    "weaving"
+   ],
+   "summary": "Spider Man made the first loom and every part of it is something: the crosspieces are sky and earth, the warp sticks are sun rays, the heald is a rock crystal and sheet lightning, the batten is a sun halo, the comb is white shell. Spider Woman taught the Dine to use it. After the Spanish brought churro sheep, weaving became the economic spine of Navajo households, and it still is for a good many. Weavers commonly leave a deliberate imperfection - a single thin line of a different colour running out through the border to the edge of the rug - so that the weaver's spirit does not stay shut inside the finished work and can come out and start the next one.",
+   "sources": [
+    {
+     "book": "Navaho Legends",
+     "translation": "Washington Matthews, 1897",
+     "location": "Spider Woman",
+     "url": "https://sacred-texts.com/nam/nav/nleg/index.htm"
+    },
+    {
+     "book": "Navaho Religion: A Study of Symbolism",
+     "translation": "Gladys Reichard, 1950",
+     "location": "Weaving",
+     "url": "https://archive.org/details/navahoreligionst0000reic"
+    }
+   ]
+  },
+  {
+   "id": "the-four-mountains",
+   "title": "Fastened Down",
+   "era": "How to Live",
+   "cast": [
+    "four_mountains",
+    "first_man",
+    "hogan"
+   ],
+   "summary": "First Man carried up soil from the mountains of the world below and built four peaks with it and fastened each one in place: Blanca Peak in the east with a bolt of lightning, white shell and the dawn; Mount Taylor in the south with a stone knife, turquoise and the blue sky; the San Francisco Peaks in the west with a sunbeam, abalone and the yellow evening; Hesperus Peak in the north with a rainbow, jet and the darkness. The land between them is Dinetah and it is where the Dine are supposed to live. In 1864 the United States removed them from it at gunpoint and marched them three hundred miles to Bosque Redondo, and the Long Walk is understood, exactly and literally, as having been taken outside the mountains.",
+   "sources": [
+    {
+     "book": "The Dine: Origin Myths of the Navaho Indians (BAE Bulletin 163)",
+     "translation": "Told by Sandoval, Hastin Tlo'tsi hee, to Aileen O'Bryan, 1928",
+     "location": "The sacred mountains",
+     "url": "https://sacred-texts.com/nam/nav/omni/index.htm"
+    },
+    {
+     "book": "Navaho Legends",
+     "translation": "Washington Matthews, 1897",
+     "location": "The mountains",
+     "url": "https://sacred-texts.com/nam/nav/nleg/index.htm"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "diyin_dine",
+   "name": "The Diyin Dine'e",
+   "sanskrit": "Diyin Dine'e",
+   "category": "primordial",
+   "era": "The Coming Up",
+   "role": "The Holy People - not worshipped, but reachable, and the ceremonies are how you reach them",
+   "wikipedia": "Navajo_religion",
+   "portrait": "portraits/navajo/diyin_dine.webp",
+   "epithets": [
+    "the Holy People",
+    "the ones who are diyin"
+   ],
+   "domains": [
+    "the making of things",
+    "teaching",
+    "the ceremonies",
+    "withdrawal"
+   ],
+   "symbols": [
+    "the four sacred mountains",
+    "corn pollen",
+    "the hogan"
+   ],
+   "mount": null,
+   "abode": "The mountains and the worlds below",
+   "festivals": [],
+   "worship": "",
+   "bio": "Diyin does not mean holy in the church sense. It is closer to charged, or dangerous, or effective.",
+   "longBio": "The Diyin Dine'e came up through the worlds with the insect people and the animal people, made the Earth Surface People, taught them how to build a hogan and how to live in hozho, and withdrew into the mountains and the natural world. They are not prayed to as superiors so much as summoned and put under obligation: a ceremony is a procedure that compels their attention by retelling their own story correctly and placing the patient inside it. The word diyin is not really holy - it is nearer to charged, potent, and requiring careful handling.",
+   "variantTraditions": "The distinction between the Diyin Dine'e and the Nihokaa Dine'e, the Earth Surface People, is the basic division of beings in Navajo thought.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "preserver",
+    "healer"
+   ]
+  },
+  {
+   "id": "four_worlds",
+   "name": "The Four Worlds Below",
+   "sanskrit": "Ni'hodilhil",
+   "category": "primordial",
+   "era": "The Coming Up",
+   "role": "Black, blue, yellow, and then this one - each left because the people behaved badly",
+   "wikipedia": "Din%C3%A9_B%C3%A1hane%CA%BC",
+   "portrait": "portraits/navajo/four_worlds.webp",
+   "epithets": [
+    "the Black World",
+    "the Blue World",
+    "the Yellow World",
+    "the Glittering World"
+   ],
+   "domains": [
+    "emergence",
+    "migration",
+    "leaving somewhere in disgrace",
+    "the reed"
+   ],
+   "symbols": [
+    "the hollow reed grown to the ceiling",
+    "the flood behind them",
+    "the hole in the sky of each world"
+   ],
+   "mount": null,
+   "abode": "Stacked beneath this one",
+   "festivals": [],
+   "worship": "",
+   "bio": "Nobody is created here. They come up, from below, having been asked to leave three times.",
+   "longBio": "The first world was black and small and full of insect people, and they were expelled for adultery. The second was blue and they were expelled again. The third was yellow, and it held the great rivers and the mountains, and it was there that the men and women quarrelled and separated for four years, and it ended in a flood. Each time, the people planted a reed and climbed. This is a mythology whose founding event is not a creation but an eviction, repeated, and the emergence into this world is the fourth attempt at getting it right.",
+   "variantTraditions": "The number of worlds varies between three, four and five depending on the account and the ceremony being told; four or five are the commonest.",
+   "storyIds": [
+    "the-emergence"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "destroyer",
+    "fate-time",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "first_man",
+   "name": "First Man",
+   "sanskrit": "Altse Hastiin",
+   "category": "primordial",
+   "era": "The Coming Up",
+   "role": "Made from an ear of white corn, and he is not a straightforwardly good figure",
+   "wikipedia": "Din%C3%A9_B%C3%A1hane%CA%BC",
+   "portrait": "portraits/navajo/first_man.webp",
+   "epithets": [
+    "Altse Hastiin",
+    "the first man"
+   ],
+   "domains": [
+    "the first people",
+    "planning",
+    "the medicine bundle",
+    "leadership"
+   ],
+   "symbols": [
+    "the ear of white corn he was made from",
+    "the mountain soil bundle"
+   ],
+   "mount": null,
+   "abode": "The worlds below, and then this one",
+   "festivals": [],
+   "worship": "",
+   "bio": "He carried up the soil from the sacred mountains, and he also made things nobody asked for.",
+   "longBio": "First Man was made from an ear of white corn and First Woman from an ear of yellow, and they were the leaders of the people through the worlds. He carried up soil from the mountains of the world below, from which the four sacred mountains of this world were made. He is not simply benevolent: in a number of accounts he is a planner and a manipulator, he is credited with bringing witchcraft up from below, and his relationship with First Woman is difficult. He is a founder rather than a hero.",
+   "variantTraditions": "The moral complexity of First Man is stronger in some tellings than others; O'Bryan's Sandoval version is franker about it than Matthews.",
+   "storyIds": [
+    "the-emergence",
+    "the-four-mountains"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "king-ruler",
+    "wisdom-craft",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "first_woman",
+   "name": "First Woman",
+   "sanskrit": "Altse Asdzaa",
+   "category": "primordial",
+   "era": "The Coming Up",
+   "role": "Made from yellow corn, and she started the quarrel that ended the Third World",
+   "wikipedia": "Din%C3%A9_B%C3%A1hane%CA%BC",
+   "portrait": "portraits/navajo/first_woman.webp",
+   "epithets": [
+    "Altse Asdzaa",
+    "the first woman"
+   ],
+   "domains": [
+    "the first people",
+    "the separation of the sexes",
+    "argument",
+    "the making of the sun"
+   ],
+   "symbols": [
+    "the ear of yellow corn",
+    "the river the men crossed",
+    "the four years apart"
+   ],
+   "mount": null,
+   "abode": "The worlds below, and then this one",
+   "festivals": [],
+   "worship": "",
+   "bio": "She said the women could manage without the men. Both sides then spent four years proving otherwise.",
+   "longBio": "First Woman is made from yellow corn and is the counterpart to First Man in everything, including the difficulty. The Third World ended because of an argument between them over her conduct, which escalated into a general quarrel in which she declared that women could do perfectly well without men. The men crossed the river and the sexes lived apart for four years, and both sides went badly wrong in ways the accounts describe frankly, and the reconciliation was necessary rather than happy. She also has a hand in the placing of the sun and moon.",
+   "variantTraditions": "The separation of the sexes is one of the most fully told episodes in the Navajo record and is not moralised in a simple direction.",
+   "storyIds": [
+    "the-emergence"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "creator",
+    "primordial-adversary",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "coyote",
+   "name": "Coyote",
+   "sanskrit": "Ma'ii",
+   "category": "hero",
+   "era": "The Coming Up",
+   "role": "He is why there is death, why the stars are a mess, and why the third world flooded",
+   "wikipedia": "Coyote_(mythology)",
+   "portrait": "portraits/navajo/coyote.webp",
+   "epithets": [
+    "Ma'ii",
+    "the trickster",
+    "First Angry",
+    "Atse Hashke"
+   ],
+   "domains": [
+    "disorder",
+    "appetite",
+    "death",
+    "the scattering of the stars",
+    "theft"
+   ],
+   "symbols": [
+    "the coyote",
+    "the blanket of stars he threw",
+    "the water baby he stole"
+   ],
+   "mount": null,
+   "abode": "Everywhere, uninvited",
+   "festivals": [],
+   "worship": "",
+   "bio": "Black God was laying the stars out in order. Coyote got impatient and flung the rest at the sky.",
+   "longBio": "Coyote appears in every part of this material and his function is to introduce disorder that then cannot be removed. Black God was placing the constellations one by one, carefully, and Coyote seized the blanket and threw the remaining stars across the sky, which is why most of them are scattered and unnamed. He argued for death when the question was being settled, and won. And in the Third World he stole the water monster's baby and hid it under his coat, which is what caused the flood that ended that world - and he did it because he wanted it.",
+   "variantTraditions": "Coyote is genuinely ambivalent rather than simply evil, and some ceremonies require his presence. Certain Coyote stories are told only in winter.",
+   "storyIds": [
+    "the-emergence",
+    "the-stars"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "messenger-trickster",
+    "destroyer",
+    "divine-beast",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "changing_woman",
+   "name": "Changing Woman",
+   "sanskrit": "Asdzaa Nadleehe",
+   "category": "deity",
+   "era": "The Coming Up",
+   "role": "Found as a baby on a mountain, grown in twelve days, and the most loved figure there is",
+   "wikipedia": "Changing_Woman",
+   "portrait": "portraits/navajo/changing_woman.webp",
+   "epithets": [
+    "Asdzaa Nadleehe, the woman who changes",
+    "the one who is renewed"
+   ],
+   "domains": [
+    "the seasons",
+    "growth",
+    "the earth",
+    "the clans",
+    "the Blessingway",
+    "kinship"
+   ],
+   "symbols": [
+    "corn pollen",
+    "the white shell",
+    "the four seasons of her body"
+   ],
+   "mount": null,
+   "abode": "The west, in a house on the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "She ages to an old woman and walks east and comes back young, and does it again, endlessly.",
+   "longBio": "Changing Woman was found as an infant on Gobernador Knob, wrapped in dark cloud, and was raised on pollen and dew and grew to womanhood in twelve days. She is the earth and the year: she ages through the seasons into an old woman, walks east, and returns young, and repeats it without end. She made the first four Navajo clans from skin rubbed from parts of her own body, which makes her the literal ancestor of the people. She is the central figure of the Blessingway and is the one Diyin Dine'e about whom nobody has a bad word.",
+   "variantTraditions": "Sometimes identified with White Shell Woman and sometimes distinguished as her sister; the accounts differ and both readings are current.",
+   "storyIds": [
+    "twelve-days"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "healer",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "white_shell_woman",
+   "name": "White Shell Woman",
+   "sanskrit": "Yoolgai Asdzaa",
+   "category": "deity",
+   "era": "The Coming Up",
+   "role": "Changing Woman's sister, or Changing Woman under another name - the sources disagree",
+   "wikipedia": "Changing_Woman",
+   "portrait": "portraits/navajo/white_shell_woman.webp",
+   "epithets": [
+    "Yoolgai Asdzaa",
+    "the white shell one"
+   ],
+   "domains": [
+    "water",
+    "shell",
+    "the west",
+    "the mother of Born for Water"
+   ],
+   "symbols": [
+    "white shell",
+    "the dripping spring",
+    "the sea in the west"
+   ],
+   "mount": null,
+   "abode": "The west",
+   "festivals": [],
+   "worship": "",
+   "bio": "One twin's father is the Sun and the other's is the water, and this is the second mother.",
+   "longBio": "White Shell Woman is either Changing Woman's sister or Changing Woman herself under a second name, depending which telling you have, and the distinction matters chiefly for the parentage of the twins: Monster Slayer is the son of the Sun, and Born for Water is the son of water - conceived from a dripping spring or a waterfall. She is associated with white shell, with the west and with water, as Changing Woman is with turquoise. The doubling is characteristic of Navajo thought, which is comfortable with a being that is one and also two.",
+   "variantTraditions": "Matthews keeps them separate; O'Bryan's Sandoval account treats the relationship differently again.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother",
+    "preserver",
+    "healer"
+   ]
+  },
+  {
+   "id": "johonaa_ei",
+   "name": "The Sun",
+   "sanskrit": "Johonaa'ei",
+   "category": "deity",
+   "era": "The Coming Up",
+   "role": "He carries the sun across on his back, and he made his sons pass four tests before helping them",
+   "wikipedia": "Din%C3%A9_B%C3%A1hane%CA%BC",
+   "portrait": "portraits/navajo/johonaa_ei.webp",
+   "epithets": [
+    "Johonaa'ei, the one who rules the day",
+    "the sun bearer"
+   ],
+   "domains": [
+    "the sun",
+    "the day",
+    "the turquoise house in the east",
+    "fatherhood on strict terms"
+   ],
+   "symbols": [
+    "the turquoise disc carried on his back",
+    "the horses of five colours in his corral",
+    "the house in the east"
+   ],
+   "mount": null,
+   "abode": "A turquoise house in the east, and the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "His sons walked to his house and he tried to kill them four times before he admitted who they were.",
+   "longBio": "The Sun carries the sun disc across the sky on his back each day and returns it to his house in the east. He is the father of Monster Slayer and, in most accounts, the husband of Changing Woman, but he is not a warm figure: when the twins arrived at his house having crossed the whole world to get there, he denied them and put them through four lethal tests - smoking poisoned tobacco, being steamed, being crushed between rocks - before acknowledging them and arming them. Even then he made conditions.",
+   "variantTraditions": "The bargain he makes with Changing Woman - a house in the west in exchange for his visits - is one of the sharper negotiations in the material.",
+   "storyIds": [
+    "the-sun-house"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "king-ruler",
+    "war",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "black_god",
+   "name": "Black God",
+   "sanskrit": "Haashch'eeshzhini",
+   "category": "deity",
+   "era": "The Coming Up",
+   "role": "Fire, and the one who was carefully arranging the stars when Coyote ruined it",
+   "wikipedia": "Black_God",
+   "portrait": "portraits/navajo/black_god.webp",
+   "epithets": [
+    "Haashch'eeshzhini",
+    "the fire god"
+   ],
+   "domains": [
+    "fire",
+    "the fire drill",
+    "the stars",
+    "the constellations"
+   ],
+   "symbols": [
+    "the fire drill",
+    "the Pleiades on his temple",
+    "the buckskin pouch of stars"
+   ],
+   "mount": null,
+   "abode": "With the Holy People",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Pleiades are on his forehead, put there by accident when he was startled.",
+   "longBio": "Black God owns fire and made the first fire drill, and he was the one placing the stars in the sky - taking them out of a pouch one at a time and setting each in its proper position with a name and a purpose - when Coyote lost patience and threw the rest of them up at random. That is why a handful of constellations are ordered and named and the remainder of the sky is a scatter. The Pleiades sit on Black God's own forehead, put there when the group jumped onto him and he decided to leave them where they landed.",
+   "variantTraditions": "The star-placing episode is told in the Blessingway and in several other contexts; the Pleiades detail is constant.",
+   "storyIds": [
+    "the-stars"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "fire",
+    "wisdom-craft",
+    "sage-seer",
+    "creator"
+   ]
+  },
+  {
+   "id": "talking_god",
+   "name": "Talking God",
+   "sanskrit": "Haashch'eelti'i",
+   "category": "deity",
+   "era": "The Coming Up",
+   "role": "The chief of the ye'ii, who calls out four times and cannot be approached casually",
+   "wikipedia": "Yei",
+   "portrait": "portraits/navajo/talking_god.webp",
+   "epithets": [
+    "Haashch'eelti'i",
+    "the chief of the ye'ii",
+    "Grandfather of the Gods"
+   ],
+   "domains": [
+    "dawn",
+    "the east",
+    "corn",
+    "the calling",
+    "the ceremonies"
+   ],
+   "symbols": [
+    "the white mask with corn and eagle feathers",
+    "the call, four times, from a distance"
+   ],
+   "mount": null,
+   "abode": "The east, and the ceremonies",
+   "festivals": [],
+   "worship": "",
+   "bio": "You hear him before you see him. Four calls, each closer than the last.",
+   "longBio": "Talking God is the chief of the ye'ii and is associated with the dawn and the east and with corn. His approach is announced by a call given four times, each nearer, and it is one of the most striking things in Navajo ceremony. He appears in the Nightway, which is the great nine-night healing ceremony held only in winter, and he was the one who found Changing Woman as a baby on the mountain. His mask and his role belong to the ceremony and are not depicted in this pack.",
+   "variantTraditions": "Talking God and Calling God appear as a pair; the Nightway is performed only between first frost and first thunder.",
+   "storyIds": [
+    "twelve-days"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "dawn",
+    "king-ruler",
+    "healer",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "spider_woman",
+   "name": "Spider Woman",
+   "sanskrit": "Na'ashje'ii Asdzaa",
+   "category": "deity",
+   "era": "The Coming Up",
+   "role": "She taught the Dine to weave, and she told the twins the words that got them past their father",
+   "wikipedia": "Spider_Grandmother",
+   "portrait": "portraits/navajo/spider_woman.webp",
+   "epithets": [
+    "Na'ashje'ii Asdzaa",
+    "the spider woman"
+   ],
+   "domains": [
+    "weaving",
+    "advice",
+    "the loom",
+    "the words that stop danger"
+   ],
+   "symbols": [
+    "the loom, whose parts are named after sky and earth",
+    "the hole in the ground she lives in",
+    "the feathers she gave the twins"
+   ],
+   "mount": null,
+   "abode": "Spider Rock, in Canyon de Chelly",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every Navajo rug has a small deliberate flaw so the weaver's spirit is not trapped in it.",
+   "longBio": "Spider Woman lives in a hole in the ground and she is the one who taught the Dine to weave: her husband Spider Man made the loom out of sky and earth and sun and lightning, and she showed the people how to use it. When the Hero Twins set out to find their father she took them in, gave them protective feathers, and taught them the words to say to stop danger, without which they would not have survived the road. Weavers still leave a small deliberate flaw in a rug, a line out to the edge, so the weaver's spirit can leave the work.",
+   "variantTraditions": "Spider Rock in Canyon de Chelly is identified as her home; the weaving-flaw practice is widely observed and variously explained.",
+   "storyIds": [
+    "the-sun-house",
+    "the-loom"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "healer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "monster_slayer",
+   "name": "Monster Slayer",
+   "sanskrit": "Naayee' Neizghani",
+   "category": "hero",
+   "era": "The Monsters",
+   "role": "Son of the Sun, and he cleared the world of the things that were eating people",
+   "wikipedia": "Monster_Slayer",
+   "portrait": "portraits/navajo/monster_slayer.webp",
+   "epithets": [
+    "Naayee' Neizghani",
+    "the elder twin"
+   ],
+   "domains": [
+    "war",
+    "the killing of monsters",
+    "protection",
+    "lightning"
+   ],
+   "symbols": [
+    "the flint armour",
+    "the lightning arrows his father gave him",
+    "the scalp of Ye'iitsoh"
+   ],
+   "mount": null,
+   "abode": "The four directions, hunting",
+   "festivals": [],
+   "worship": "",
+   "bio": "He and his brother walked to the Sun's house at the edge of the world to be given the weapons.",
+   "longBio": "Monster Slayer is the elder of the Hero Twins, son of Changing Woman and the Sun, and his business is the naayee - the things that were preying on people after the emergence. He and his brother crossed the whole world to their father's house, survived four attempts to kill them there, and were finally given flint armour and arrows of lightning, and then went after the monsters one by one. He is the model of the protector, and the Enemy Way ceremony - which treats the harm done to a person by violence and by contact with outsiders - is built on his story.",
+   "variantTraditions": "The Enemy Way was performed for Navajo servicemen returning from both world wars and from later conflicts, and still is.",
+   "storyIds": [
+    "the-sun-house",
+    "the-four-who-argued"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "sky-thunder",
+    "healer"
+   ]
+  },
+  {
+   "id": "born_for_water",
+   "name": "Born for Water",
+   "sanskrit": "To Bajishchini",
+   "category": "hero",
+   "era": "The Monsters",
+   "role": "The younger twin, who stayed behind and held the lightning while his brother fought",
+   "wikipedia": "Monster_Slayer",
+   "portrait": "portraits/navajo/born_for_water.webp",
+   "epithets": [
+    "To Bajishchini",
+    "the younger twin"
+   ],
+   "domains": [
+    "water",
+    "waiting",
+    "the support of the fighter",
+    "the sign of life"
+   ],
+   "symbols": [
+    "the water",
+    "the lightning held for his brother",
+    "the plume that showed whether he still lived"
+   ],
+   "mount": null,
+   "abode": "Behind the fight, holding",
+   "festivals": [],
+   "worship": "",
+   "bio": "His job is to wait, and it is treated as being exactly as important as the fighting.",
+   "longBio": "Born for Water is the younger twin, conceived from water rather than from the Sun, and his role is unusual: he does not do the killing. He waits at a distance, holding his brother's lightning and watching a feather that stands upright while Monster Slayer lives and falls if he dies. The pairing - the one who acts and the one who holds and watches - is treated as a genuine partnership rather than a hero and a sidekick, and both of them are invoked together. In ceremony the two are always named as a pair.",
+   "variantTraditions": "The two are the standard Navajo model of complementary rather than ranked pairs, like Changing Woman and White Shell Woman.",
+   "storyIds": [
+    "the-sun-house"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sea-waters",
+    "healer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "yeiitsoh",
+   "name": "Ye'iitsoh",
+   "sanskrit": "Ye'iitsoh",
+   "category": "beast",
+   "era": "The Monsters",
+   "role": "The Big Giant, the first and worst of them, and the Sun's own son by another woman",
+   "wikipedia": "Din%C3%A9_B%C3%A1hane%CA%BC",
+   "portrait": "portraits/navajo/yeiitsoh.webp",
+   "epithets": [
+    "the Big Giant",
+    "the great ye'ii"
+   ],
+   "domains": [
+    "eating people",
+    "size",
+    "the lake he drank from"
+   ],
+   "symbols": [
+    "the lava beds, which are his blood",
+    "Mount Taylor, where he was killed"
+   ],
+   "mount": null,
+   "abode": "The country around Mount Taylor",
+   "festivals": [],
+   "worship": "",
+   "bio": "The malpais lava flows in New Mexico are pointed to as his blood, congealed.",
+   "longBio": "Ye'iitsoh was the largest and worst of the naayee, and the twins went after him first, at the lake below Mount Taylor. He was, awkwardly, another son of the Sun, and the Sun's reluctance to arm the twins was partly about that. The fight took four exchanges of lightning and the giant's own hurled weapons, and Monster Slayer killed him and scalped him. The great black lava flows across northwestern New Mexico - the malpais, which are real and extensive and startling to see - are given as his blood, which is the sort of explanation this landscape invites.",
+   "variantTraditions": "The identification of specific lava fields, mesas and rock formations with the killed monsters is consistent and geographically precise.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "naayee",
+   "name": "The Naayee",
+   "sanskrit": "Naayee",
+   "category": "beast",
+   "era": "The Monsters",
+   "role": "The things that were eating people - and each one is a rock formation you can drive to",
+   "wikipedia": "Din%C3%A9_B%C3%A1hane%CA%BC",
+   "portrait": "portraits/navajo/naayee.webp",
+   "epithets": [
+    "the monsters",
+    "Deelgeed the horned monster",
+    "Tse Ninahaleeh the monster bird",
+    "Binaa' yee Aghanii the eye killers",
+    "the kicking rock"
+   ],
+   "domains": [
+    "preying on people",
+    "the landscape",
+    "specific places"
+   ],
+   "symbols": [
+    "Shiprock, said to be the monster bird",
+    "the horned monster's remains",
+    "the cliff with the kicking rock"
+   ],
+   "mount": null,
+   "abode": "Named places across the Colorado Plateau",
+   "festivals": [],
+   "worship": "",
+   "bio": "This is not a general bestiary. Each monster is a particular feature of a particular landscape.",
+   "longBio": "After the emergence the world was full of naayee - a horned monster on the plain, a bird that carried people off to a cliff and dropped them, a pair of beings that killed with a look, a rock that kicked travellers off a ledge, and others. Monster Slayer went after them in order. What makes this different from a monster list anywhere else is that every one of them is a place: the remains are identified with specific mesas, buttes and formations across the Navajo country, and Shiprock is commonly given as the monster bird. The story is a map.",
+   "variantTraditions": "Which formation corresponds to which monster varies somewhat between families and regions.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "divine-beast",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "the_spared",
+   "name": "The Ones He Spared",
+   "sanskrit": "Sa, Dichin, Te'e'i",
+   "category": "beast",
+   "era": "The Monsters",
+   "role": "Old Age, Hunger, Poverty and Cold - he was going to kill them and they argued him out of it",
+   "wikipedia": "Din%C3%A9_B%C3%A1hane%CA%BC",
+   "portrait": "portraits/navajo/the_spared.webp",
+   "epithets": [
+    "Sa, Old Age",
+    "Dichin, Hunger",
+    "Te'e'i, Poverty",
+    "Hak'az Asdzaa, Cold Woman"
+   ],
+   "domains": [
+    "old age",
+    "hunger",
+    "poverty",
+    "cold",
+    "the necessity of unpleasant things"
+   ],
+   "symbols": [
+    "the old woman leaning on a stick",
+    "the thin figure",
+    "the ragged one",
+    "the woman with no clothes"
+   ],
+   "mount": null,
+   "abode": "Still here",
+   "festivals": [],
+   "worship": "",
+   "bio": "Each of them explained why killing it would be worse, and each was right.",
+   "longBio": "When Monster Slayer had cleared the naayee he came upon four more and meant to kill them too. Old Age said that without her nobody would die and nobody would make room for the young, and the world would fill up. Hunger said that without him nobody would ever enjoy eating. Poverty said that without her nothing would ever be replaced and people would keep their clothes until they rotted. Cold Woman said that without her the snow would not melt and the rivers would not run. He let all four live. It is the most interesting passage in the whole cycle and it is an argument about why suffering is structurally necessary, conducted by the suffering.",
+   "variantTraditions": "The number and identity of the spared vary slightly; Old Age, Hunger, Poverty and Cold are the standard four.",
+   "storyIds": [
+    "the-four-who-argued"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "fate-time",
+    "death-judge",
+    "preserver",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "hozho",
+   "name": "Hozho",
+   "sanskrit": "Hozho",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "The whole of it in one word, and English has no equivalent worth using",
+   "wikipedia": "H%C3%B3zh%C7%AB",
+   "portrait": "portraits/navajo/hozho.webp",
+   "epithets": [
+    "beauty",
+    "harmony",
+    "balance",
+    "the way things ought to be"
+   ],
+   "domains": [
+    "order",
+    "health",
+    "beauty",
+    "right relation",
+    "restoration"
+   ],
+   "symbols": [
+    "the Blessingway prayer",
+    "corn pollen",
+    "the circle left open"
+   ],
+   "mount": null,
+   "abode": "The state of things, when they are right",
+   "festivals": [],
+   "worship": "",
+   "bio": "In beauty before me, in beauty behind me, in beauty below me, in beauty above me.",
+   "longBio": "Hozho is usually translated beauty, or harmony, or balance, and it is all of those and none of them precisely: it is the condition of things being as they should be, in which health, order, beauty and right relation are not separate ideas. It can be lost, and illness is a form of losing it, and a ceremony is the technical procedure for putting it back. The closing formula of the Blessingway places the speaker with beauty before, behind, below and above, and ends by saying that it is finished in beauty - four times. It is the single most important word in the language.",
+   "variantTraditions": "Frequently rendered as 'walk in beauty' in English. The translation is not wrong and is a great deal thinner than the original.",
+   "storyIds": [
+    "the-four-who-argued",
+    "hozho"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "healer",
+    "preserver",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "blessingway",
+   "name": "The Blessingway",
+   "sanskrit": "Hozhooji",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "The backbone ceremony, and the one everything else is measured against",
+   "wikipedia": "Blessingway",
+   "portrait": "portraits/navajo/blessingway.webp",
+   "epithets": [
+    "Hozhooji",
+    "the way of blessing"
+   ],
+   "domains": [
+    "blessing",
+    "birth",
+    "marriage",
+    "a new hogan",
+    "putting things right before they go wrong"
+   ],
+   "symbols": [
+    "corn pollen",
+    "the mountain soil bundle",
+    "the two nights of singing"
+   ],
+   "mount": null,
+   "abode": "In a hogan",
+   "festivals": [],
+   "worship": "",
+   "bio": "Unlike the healing ceremonies it is not for fixing something. It is for keeping it from breaking.",
+   "longBio": "The Blessingway is the central Navajo ceremony and it is preventive rather than curative: it is held for a birth, a marriage, a girl's coming of age, a new hogan, a departure, a return - occasions when things should be set right in advance rather than repaired afterwards. It runs two nights and is built on the story of Changing Woman. Every other ceremony is understood to have Blessingway in it somewhere, and a healing ceremony that has gone on for nine nights is usually closed with a Blessingway song to seal it.",
+   "variantTraditions": "Kinaalda, the girls' puberty ceremony, is a Blessingway rite and is one of the most widely maintained.",
+   "storyIds": [
+    "hozho"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "healer",
+    "preserver",
+    "supreme-source",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "nightway",
+   "name": "The Nightway",
+   "sanskrit": "Tleeji",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "Nine nights of chanting, held only between the first frost and the first thunder",
+   "wikipedia": "Nightway",
+   "portrait": "portraits/navajo/nightway.webp",
+   "epithets": [
+    "Tleeji",
+    "the Night Chant",
+    "the ye'ii bicheii dance"
+   ],
+   "domains": [
+    "healing",
+    "the ye'ii",
+    "the winter",
+    "nine nights",
+    "the masked dancers"
+   ],
+   "symbols": [
+    "the ye'ii bicheii dancers on the last night",
+    "the sweat lodge",
+    "the sandpaintings, which are destroyed"
+   ],
+   "mount": null,
+   "abode": "A hogan, in winter",
+   "festivals": [],
+   "worship": "",
+   "bio": "It cannot be held in summer. Snakes are awake and the thunder is out, and it would be dangerous.",
+   "longBio": "The Nightway is a nine-night healing ceremony, one of the largest and most demanding in North America, and it can only be performed between the first killing frost and the first thunder of spring, because in summer the snakes and the thunder are awake and the material handled is too dangerous. Sandpaintings are made and destroyed on successive days. On the final night the ye'ii bicheii dancers appear in masks and the public is admitted. Matthews published a full account in 1902; a singer must know the whole of it, which takes many years to learn.",
+   "variantTraditions": "The training required to perform it correctly is enormous, and the number of singers who hold the complete Nightway has declined sharply.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "healer",
+    "sage-seer",
+    "preserver",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "four_mountains",
+   "name": "The Four Sacred Mountains",
+   "sanskrit": "Dine Bikeyah",
+   "category": "nature",
+   "era": "How to Live",
+   "role": "Four peaks that mark the boundaries, and the country between them is where you are supposed to be",
+   "wikipedia": "Din%C3%A9tah",
+   "portrait": "portraits/navajo/four_mountains.webp",
+   "epithets": [
+    "Sisnaajini, Blanca Peak",
+    "Tsoodzil, Mount Taylor",
+    "Dook'o'osliid, the San Francisco Peaks",
+    "Dibe Nitsaa, Hesperus Peak"
+   ],
+   "domains": [
+    "the four directions",
+    "the boundaries of the homeland",
+    "white shell, turquoise, abalone, jet"
+   ],
+   "symbols": [
+    "white shell in the east",
+    "turquoise in the south",
+    "abalone in the west",
+    "jet in the north"
+   ],
+   "mount": null,
+   "abode": "Colorado, New Mexico, Arizona",
+   "festivals": [],
+   "worship": "",
+   "bio": "First Man built them from soil brought up out of the world below and fastened each one down.",
+   "longBio": "Four peaks mark the corners of Dinetah: Blanca Peak in the east, associated with white shell and dawn; Mount Taylor in the south, turquoise and blue; the San Francisco Peaks in the west, abalone and yellow; and Hesperus Peak in the north, jet and darkness. First Man built them from soil carried up from the world below and fastened each with something - lightning, a stone knife, a sunbeam, a rainbow. The country between them is where the Dine are meant to live, and the Long Walk of 1864, which removed them from it, is understood in exactly those terms.",
+   "variantTraditions": "Two further mountains, Huerfano and Gobernador Knob, are also sacred and are central to Changing Woman's story.",
+   "storyIds": [
+    "the-four-mountains"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "supreme-source",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "hogan",
+   "name": "The Hogan",
+   "sanskrit": "Hooghan",
+   "category": "nature",
+   "era": "How to Live",
+   "role": "Door east, and the way you move around inside it is not arbitrary",
+   "wikipedia": "Hogan",
+   "portrait": "portraits/navajo/hogan.webp",
+   "epithets": [
+    "hooghan",
+    "the home"
+   ],
+   "domains": [
+    "the house",
+    "the east",
+    "ceremony",
+    "the correct direction of movement"
+   ],
+   "symbols": [
+    "the doorway facing east",
+    "the smoke hole",
+    "the sunwise movement inside"
+   ],
+   "mount": null,
+   "abode": "Everywhere in Dinetah",
+   "festivals": [],
+   "worship": "",
+   "bio": "You go round the inside clockwise, always, and the doorway faces the sunrise, always.",
+   "longBio": "A hogan is round or many-sided with a doorway that faces east to the sunrise, and it is not merely a dwelling: the first one was built by the Holy People and it is the correct setting for ceremony, so a family may keep one for that purpose even if they live in a modern house. Movement inside it goes sunwise, clockwise, and this is observed. There are male and female forms, the conical forked-stick hogan and the larger round one. If someone dies inside, the hogan is abandoned or destroyed and a hole is broken in the north wall.",
+   "variantTraditions": "The blessing of a new hogan is a Blessingway occasion; hogans are still built and used ceremonially throughout the Navajo Nation.",
+   "storyIds": [
+    "the-four-mountains"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "preserver",
+    "wisdom-craft",
+    "earth-mother",
+    "healer"
+   ]
+  },
+  {
+   "id": "chindi",
+   "name": "The Chindi",
+   "sanskrit": "Ch'iidii",
+   "category": "underworld",
+   "era": "How to Live",
+   "role": "What is left when a person dies - everything in them that was out of harmony",
+   "wikipedia": "Ch%C4%B1%CC%81%C4%B1%CC%81dii",
+   "portrait": "portraits/navajo/chindi.webp",
+   "epithets": [
+    "ch'iidii",
+    "the residue",
+    "what stays behind"
+   ],
+   "domains": [
+    "death",
+    "contamination",
+    "the avoidance of the dead",
+    "the whirlwind that turns the wrong way"
+   ],
+   "symbols": [
+    "the abandoned hogan",
+    "the hole broken in the north wall",
+    "a dust devil turning anticlockwise"
+   ],
+   "mount": null,
+   "abode": "Wherever a death happened",
+   "festivals": [],
+   "worship": "",
+   "bio": "A dust devil turning the wrong way round is one, and you do not go near it.",
+   "longBio": "When a person dies, everything in them that was out of hozho stays behind as the ch'iidii, and it is dangerous. Only the good goes on; the residue remains at the place of death and contaminates it. This is why a hogan in which a death occurred is abandoned, with a hole broken through the north wall to let the ch'iidii out and to warn others, and why a dying person was sometimes moved outside beforehand. It is also why speaking the name of the dead is avoided. A dust devil rotating anticlockwise is a ch'iidii and is given a wide berth.",
+   "variantTraditions": "These practices are widely maintained and are a common source of misunderstanding in hospitals and among outsiders.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "corn_pollen",
+   "name": "Corn Pollen",
+   "sanskrit": "Tadidiin",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "The single most-used sacred substance there is, and it is applied to the tongue and the head",
+   "wikipedia": "Maize",
+   "portrait": "portraits/navajo/corn_pollen.webp",
+   "epithets": [
+    "tadidiin",
+    "the pollen"
+   ],
+   "domains": [
+    "blessing",
+    "prayer",
+    "corn",
+    "the beginning of anything"
+   ],
+   "symbols": [
+    "the buckskin pouch carried on the person",
+    "the pinch taken and touched to the tongue and the crown"
+   ],
+   "mount": null,
+   "abode": "Carried",
+   "festivals": [],
+   "worship": "",
+   "bio": "A pinch on the tongue, a pinch on the top of the head, a pinch cast to the east.",
+   "longBio": "Corn pollen is the working substance of Navajo practice - collected from the tassels, carried in a small pouch, and used constantly: touched to the tongue and to the top of the head, sprinkled on a person, cast toward the sunrise, laid down in a line to make a path. It is used at the opening of ceremonies, before a journey, at a birth, at a marriage. Its association is with life, with growth, with peace and with the correct order of things, and it is the physical form that hozho takes when it needs to be handled.",
+   "variantTraditions": "The pollen path - shitsijii hozhoogo naasha doo, may I walk with beauty before me - is one of the best-known Navajo phrases in English.",
+   "storyIds": [
+    "twelve-days",
+    "hozho"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "healer",
+    "preserver",
+    "earth-mother",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "weaving",
+   "name": "The Weaving",
+   "sanskrit": "Diyogi",
+   "category": "primordial",
+   "era": "How to Live",
+   "role": "Spider Woman taught it, the loom is made of sky and lightning, and every rug has a flaw on purpose",
+   "wikipedia": "Navajo_weaving",
+   "portrait": "portraits/navajo/weaving.webp",
+   "epithets": [
+    "diyogi, the rug",
+    "the loom"
+   ],
+   "domains": [
+    "weaving",
+    "wool",
+    "the churro sheep",
+    "trade",
+    "the deliberate flaw"
+   ],
+   "symbols": [
+    "the upright loom",
+    "the churro fleece",
+    "the line running out to the edge of a rug"
+   ],
+   "mount": null,
+   "abode": "Every household that keeps sheep",
+   "festivals": [],
+   "worship": "",
+   "bio": "The crossbeams of the loom are named for sky and earth, the warp for rain, the batten for sun.",
+   "longBio": "Spider Man made the first loom from sky and earth for the crosspieces, sun rays for the warp sticks, lightning for the batten and a sun halo for the comb, and Spider Woman taught the Dine to use it. Weaving became the economic backbone of Navajo households after the Spanish introduced churro sheep, and Navajo rugs are among the most collected textiles in the world. Many weavers leave a deliberate flaw - a thin line running out to the edge - so that the weaver's spirit is not shut inside the finished work.",
+   "variantTraditions": "The churro was nearly exterminated in the nineteenth-century campaigns and again in the 1930s stock reduction; the breed has been recovered since.",
+   "storyIds": [
+    "the-loom"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "wealth-fortune",
+    "earth-mother",
+    "preserver"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "diyin_dine",
+   "to": "four_worlds",
+   "type": "guru",
+   "note": "They came up through them with everyone else"
+  },
+  {
+   "from": "four_worlds",
+   "to": "first_man",
+   "type": "parent",
+   "note": "Made from an ear of white corn, down below"
+  },
+  {
+   "from": "four_worlds",
+   "to": "first_woman",
+   "type": "parent",
+   "note": "And from an ear of yellow"
+  },
+  {
+   "from": "first_man",
+   "to": "first_woman",
+   "type": "consort",
+   "note": "And it was not an easy marriage"
+  },
+  {
+   "from": "first_woman",
+   "to": "first_man",
+   "type": "enemy",
+   "note": "The quarrel that ended the Third World was theirs"
+  },
+  {
+   "from": "first_man",
+   "to": "four_mountains",
+   "type": "parent",
+   "note": "He carried the soil up and built them"
+  },
+  {
+   "from": "first_man",
+   "to": "diyin_dine",
+   "type": "ally",
+   "note": "One of the Holy People, and not a simple one"
+  },
+  {
+   "from": "coyote",
+   "to": "four_worlds",
+   "type": "enemy",
+   "note": "He stole the water monster's baby and the world flooded"
+  },
+  {
+   "from": "coyote",
+   "to": "black_god",
+   "type": "enemy",
+   "note": "He grabbed the blanket and threw the rest of the stars"
+  },
+  {
+   "from": "black_god",
+   "to": "coyote",
+   "type": "enemy",
+   "note": "Which is why most of the sky is unnamed"
+  },
+  {
+   "from": "coyote",
+   "to": "chindi",
+   "type": "guru",
+   "note": "He argued for death when it was being decided, and won"
+  },
+  {
+   "from": "coyote",
+   "to": "first_man",
+   "type": "ally",
+   "note": "Called First Angry, and present from the beginning"
+  },
+  {
+   "from": "talking_god",
+   "to": "changing_woman",
+   "type": "guru",
+   "note": "He found her as a baby on the mountain"
+  },
+  {
+   "from": "changing_woman",
+   "to": "johonaa_ei",
+   "type": "consort",
+   "note": "On terms she negotiated"
+  },
+  {
+   "from": "changing_woman",
+   "to": "monster_slayer",
+   "type": "parent",
+   "note": "The elder twin, whose father is the sun"
+  },
+  {
+   "from": "white_shell_woman",
+   "to": "born_for_water",
+   "type": "parent",
+   "note": "The younger, whose father is the water"
+  },
+  {
+   "from": "changing_woman",
+   "to": "white_shell_woman",
+   "type": "sibling",
+   "note": "Her sister, or herself, depending which telling"
+  },
+  {
+   "from": "changing_woman",
+   "to": "blessingway",
+   "type": "guru",
+   "note": "The whole ceremony is built on her story"
+  },
+  {
+   "from": "changing_woman",
+   "to": "four_mountains",
+   "type": "ally",
+   "note": "She was found on Gobernador Knob and raised on the pollen"
+  },
+  {
+   "from": "changing_woman",
+   "to": "corn_pollen",
+   "type": "guru",
+   "note": "She was fed on pollen and dew and grew in twelve days"
+  },
+  {
+   "from": "johonaa_ei",
+   "to": "monster_slayer",
+   "type": "parent",
+   "note": "Who denied them and tested them four times first"
+  },
+  {
+   "from": "johonaa_ei",
+   "to": "yeiitsoh",
+   "type": "parent",
+   "note": "Which is why he was reluctant to arm the twins"
+  },
+  {
+   "from": "monster_slayer",
+   "to": "born_for_water",
+   "type": "sibling",
+   "note": "One fights and one holds, and neither ranks above the other"
+  },
+  {
+   "from": "spider_woman",
+   "to": "monster_slayer",
+   "type": "guru",
+   "note": "She gave them the feathers and the words to say"
+  },
+  {
+   "from": "spider_woman",
+   "to": "born_for_water",
+   "type": "guru",
+   "note": "Without which they would not have got there"
+  },
+  {
+   "from": "spider_woman",
+   "to": "weaving",
+   "type": "guru",
+   "note": "She taught it, and her husband made the loom"
+  },
+  {
+   "from": "monster_slayer",
+   "to": "yeiitsoh",
+   "type": "enemy",
+   "note": "The first and the worst, at the lake below Mount Taylor"
+  },
+  {
+   "from": "monster_slayer",
+   "to": "naayee",
+   "type": "enemy",
+   "note": "And then the rest of them, in order"
+  },
+  {
+   "from": "yeiitsoh",
+   "to": "naayee",
+   "type": "sibling",
+   "note": "Every one of them is a place you can drive to"
+  },
+  {
+   "from": "monster_slayer",
+   "to": "the_spared",
+   "type": "enemy",
+   "note": "He meant to kill these four as well"
+  },
+  {
+   "from": "the_spared",
+   "to": "monster_slayer",
+   "type": "guru",
+   "note": "And each of them explained why that would be worse"
+  },
+  {
+   "from": "the_spared",
+   "to": "hozho",
+   "type": "ally",
+   "note": "An argument that suffering is structurally required"
+  },
+  {
+   "from": "monster_slayer",
+   "to": "hozho",
+   "type": "ally",
+   "note": "The Enemy Way puts back what violence takes out"
+  },
+  {
+   "from": "hozho",
+   "to": "blessingway",
+   "type": "ally",
+   "note": "The ceremony for keeping it rather than repairing it"
+  },
+  {
+   "from": "hozho",
+   "to": "nightway",
+   "type": "ally",
+   "note": "And the one for nine nights when it has gone badly wrong"
+  },
+  {
+   "from": "hozho",
+   "to": "corn_pollen",
+   "type": "ally",
+   "note": "The physical form it takes when it has to be handled"
+  },
+  {
+   "from": "blessingway",
+   "to": "hogan",
+   "type": "ally",
+   "note": "A new one is blessed before anyone lives in it"
+  },
+  {
+   "from": "blessingway",
+   "to": "corn_pollen",
+   "type": "ally",
+   "note": "Opened with it, closed with it"
+  },
+  {
+   "from": "nightway",
+   "to": "talking_god",
+   "type": "devotee",
+   "note": "The ye'ii bicheii come on the last night"
+  },
+  {
+   "from": "nightway",
+   "to": "diyin_dine",
+   "type": "devotee",
+   "note": "It is a procedure for compelling their attention"
+  },
+  {
+   "from": "nightway",
+   "to": "chindi",
+   "type": "enemy",
+   "note": "Held only between the first frost and the first thunder"
+  },
+  {
+   "from": "chindi",
+   "to": "hogan",
+   "type": "enemy",
+   "note": "A death in one, and it is abandoned with a hole in the north wall"
+  },
+  {
+   "from": "chindi",
+   "to": "diyin_dine",
+   "type": "enemy",
+   "note": "The residue of everything that was out of harmony"
+  },
+  {
+   "from": "hogan",
+   "to": "four_mountains",
+   "type": "devotee",
+   "note": "Door east, always, toward the sunrise"
+  },
+  {
+   "from": "four_mountains",
+   "to": "hozho",
+   "type": "ally",
+   "note": "The country between them is where you are meant to be"
+  },
+  {
+   "from": "weaving",
+   "to": "hozho",
+   "type": "ally",
+   "note": "The flaw is left so the spirit can get out of the work"
+  },
+  {
+   "from": "weaving",
+   "to": "four_mountains",
+   "type": "ally",
+   "note": "Sheep, and the land to run them on"
+  },
+  {
+   "from": "black_god",
+   "to": "diyin_dine",
+   "type": "ally",
+   "note": "He owns fire and made the first drill"
+  },
+  {
+   "from": "talking_god",
+   "to": "black_god",
+   "type": "sibling",
+   "note": "Two of the ye'ii, and the second one is angrier"
+  },
+  {
+   "from": "first_woman",
+   "to": "johonaa_ei",
+   "type": "guru",
+   "note": "She had a hand in placing the sun and the moon"
+  },
+  {
+   "from": "naayee",
+   "to": "four_worlds",
+   "type": "devotee",
+   "note": "They came up too, and had to be dealt with afterwards"
+  },
+  {
+   "from": "corn_pollen",
+   "to": "weaving",
+   "type": "sibling",
+   "note": "Corn and wool, and a household ran on both"
+  }
+ ]
+}

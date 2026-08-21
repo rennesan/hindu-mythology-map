@@ -363,10 +363,15 @@
    "label": "Navajo",
    "sublabel": "Dine, Southwest",
    "accent": "#c08f6a",
-   "status": "planned",
+   "status": "live",
    "blurb": "The Emergence, Changing Woman and the Hero Twins, from the published record only.",
    "family": "The Americas",
-   "glyph": "✣"
+   "glyph": "✣",
+   "figures": 24,
+   "stories": 8,
+   "links": 52,
+   "levels": 3,
+   "cover": "portraits/navajo/diyin_dine.webp"
   },
   {
    "id": "lakota",
