@@ -263,10 +263,15 @@
    "label": "Akan",
    "sublabel": "Ashanti & Ghana",
    "accent": "#d99a4e",
-   "status": "planned",
+   "status": "live",
    "blurb": "Nyame, Asase Yaa, and Anansi the spider, who travelled the Middle Passage and turned up in the Carolinas.",
    "family": "Africa",
-   "glyph": "✳"
+   "glyph": "✳",
+   "figures": 25,
+   "stories": 11,
+   "links": 41,
+   "levels": 6,
+   "cover": "portraits/akan/nyame.webp"
   },
   {
    "id": "fon",

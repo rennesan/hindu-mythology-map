@@ -1,0 +1,1712 @@
+{
+ "title": "Akan Mythology: Figures, Relationships and Story Cycles",
+ "description": "Ashanti and Akan traditions mapped as a relationship graph: the sky that moved out of reach, the four prices Anansi paid for every story in the world, and the stool that came down carrying the soul of a nation.",
+ "generated": "2026-08-21",
+ "sources": [
+  "R. S. Rattray, Ashanti (1923), Religion and Art in Ashanti (1927) and Akan-Ashanti Folk-Tales (1930)",
+  "A. B. Ellis, The Tshi-Speaking Peoples of the Gold Coast (1887)",
+  "T. E. Bowdich, Mission from Cape Coast Castle to Ashantee (1819) - the first detailed European account of Kumasi",
+  "Note: Rattray was an officer of the colonial administration and his framing reflects it; he also recorded more, and more carefully, than any contemporary",
+  "Note: the Asante are a living people with a reigning Asantehene; nothing ceremonial is reconstructed here"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/akan/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "rattray_a": {
+   "t": "Ashanti",
+   "tr": "R. S. Rattray, 1923",
+   "u": "https://archive.org/details/ashanti00ratt"
+  },
+  "rattray_r": {
+   "t": "Religion and Art in Ashanti",
+   "tr": "R. S. Rattray, 1927",
+   "u": "https://archive.org/details/religionartinash00ratt"
+  },
+  "rattray_f": {
+   "t": "Akan-Ashanti Folk-Tales",
+   "tr": "R. S. Rattray, 1930",
+   "u": "https://archive.org/details/akanashantifolkt00ratt"
+  },
+  "ellis_tsp": {
+   "t": "The Tshi-Speaking Peoples of the Gold Coast",
+   "tr": "A. B. Ellis, 1887",
+   "u": "https://sacred-texts.com/afr/tsp/index.htm"
+  },
+  "bowdich": {
+   "t": "Mission from Cape Coast Castle to Ashantee",
+   "tr": "T. E. Bowdich, 1819",
+   "u": "https://archive.org/details/missionfromcape00bowdgoog"
+  }
+ },
+ "meta": {
+  "id": "akan",
+  "label": "Akan",
+  "sublabel": "Ashanti & Ghana",
+  "accent": "#d99a4e",
+  "root": "nyame"
+ },
+ "profile": {
+  "cosmicNature": "The sky went away, and it was somebody's fault. Nyame lived close enough to touch until an old woman pounding fufu kept knocking him with her pestle, and he withdrew upward out of reach - so the distance between people and the creator is the result of a domestic accident. There is no cosmogony to speak of beyond that. What the tradition explains at length is not how the world began but how obligations work.",
+  "natureOfDivinity": "A remote sky god, his children the abosom, and the dead. Nyame has few temples and is not much petitioned directly. The abosom - gods of rivers, lakes and particular places, chief among them Tano - are his children and do the work, possessing their priests at festivals. Beneath them, and closer to daily life than either, are the nsamanfo, the ancestors, who are fed, consulted and expected to take an interest.",
+  "afterlife": "Asamando, and you arrive as what you were. The dead go to a country that is much like this one, keep their rank, and remain part of the family - stools are blackened for dead chiefs and fed, and the ancestors are addressed at every serious occasion. What matters is being remembered and having descendants to do the remembering, which makes childlessness the real catastrophe rather than death.",
+  "systemMechanism": "You are made of parts, and they come from different places. A person has kra, the soul sent by Nyame that returns to him; mogya, blood from the mother, which fixes the lineage; ntoro, spirit from the father; and sunsum, the personality that can be strengthened or damaged. The Akan are matrilineal - you belong to your mother's abusua - and the whole social system follows from which part of you came from whom.",
+  "canonTexts": "Nothing written before the twentieth century. The tradition lives in the Anansesem - spider stories, meaning all stories - in the adinkra symbols stamped on cloth, each carrying a proverb, in the drum languages that speak real sentences, and in the gold weights, thousands of small brass figures cast for weighing gold dust, each illustrating a saying."
+ },
+ "hierarchy": [
+  {
+   "title": "The Sky That Went Away",
+   "blurb": "Nyame lived close enough to touch until an old woman pounding fufu kept catching him with the pestle, and he withdrew upward. The distance between people and god is the result of a domestic accident, and her attempt to fix it made it worse.",
+   "memberIds": [
+    "nyame",
+    "asase_yaa",
+    "abrewa"
+   ],
+   "connectorCaption": "He keeps the stories, and something small and greedy comes to buy them"
+  },
+  {
+   "title": "The Spider",
+   "blurb": "All stories are called spider stories, because he bought them. The price was a python, a leopard, a nest of hornets and a forest dwarf nobody had ever caught, and he got all four without once using force.",
+   "memberIds": [
+    "anansi",
+    "onini",
+    "osebo",
+    "mmoboro",
+    "mmoatia",
+    "ntikuma",
+    "aso"
+   ],
+   "connectorCaption": "Below the sky god, his children hold the rivers and the rocks"
+  },
+  {
+   "title": "The Abosom",
+   "blurb": "Nyame's children, each belonging to a named river or lake or grove, who possess their priests at festival and speak in their own voices. Tano is the senior, and he got that way by bribing a goat and swapping clothes with his brother.",
+   "memberIds": [
+    "tano",
+    "bia",
+    "abosom"
+   ],
+   "connectorCaption": "Closer than any of them are the dead, who are fed at every occasion"
+  },
+  {
+   "title": "The Ancestors",
+   "blurb": "The first of every drink goes on the ground before anyone else gets any. The dead keep their rank, take an interest, and are addressed by name - and a dead chief's stool is blackened and kept and fed.",
+   "memberIds": [
+    "nsamanfo",
+    "asamando",
+    "kra",
+    "akuaba"
+   ],
+   "connectorCaption": "And in the forest, and inside your neighbours, the things to be afraid of"
+  },
+  {
+   "title": "The Forest",
+   "blurb": "A hairy thing with iron teeth hanging by its hooked feet from a branch. And an ordinary person, often a relative, whose spirit goes out at night as a small light and drains the children and the crops.",
+   "memberIds": [
+    "sasabonsam",
+    "obayifo"
+   ],
+   "connectorCaption": "Above all of it, a stool that came down out of the sky"
+  },
+  {
+   "title": "The Nation",
+   "blurb": "A stool of solid gold called down from the sky onto a king's knees, holding the soul of the whole people, never sat on by anybody. And a queen mother who went to war when a colonial governor asked to sit on it.",
+   "memberIds": [
+    "golden_stool",
+    "okomfo_anokye",
+    "osei_tutu",
+    "yaa_asantewaa",
+    "adinkra",
+    "goldweights"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "sky",
+   "label": "The Sky",
+   "memberIds": [
+    "nyame",
+    "asase_yaa",
+    "abrewa",
+    "kra"
+   ]
+  },
+  {
+   "id": "spider",
+   "label": "The Four Prices",
+   "memberIds": [
+    "anansi",
+    "onini",
+    "osebo",
+    "mmoboro",
+    "mmoatia"
+   ]
+  },
+  {
+   "id": "family",
+   "label": "Anansi's House",
+   "memberIds": [
+    "anansi",
+    "aso",
+    "ntikuma"
+   ]
+  },
+  {
+   "id": "abosom",
+   "label": "The Abosom",
+   "memberIds": [
+    "tano",
+    "bia",
+    "abosom",
+    "nyame"
+   ]
+  },
+  {
+   "id": "dead",
+   "label": "The Ancestors",
+   "memberIds": [
+    "nsamanfo",
+    "asamando",
+    "asase_yaa",
+    "golden_stool"
+   ]
+  },
+  {
+   "id": "forest",
+   "label": "The Forest",
+   "memberIds": [
+    "sasabonsam",
+    "obayifo",
+    "mmoatia"
+   ]
+  },
+  {
+   "id": "nation",
+   "label": "The Asante Nation",
+   "memberIds": [
+    "golden_stool",
+    "okomfo_anokye",
+    "osei_tutu",
+    "yaa_asantewaa",
+    "adinkra",
+    "goldweights"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-pestle",
+   "title": "The Woman With the Pestle",
+   "era": "The Sky",
+   "cast": [
+    "nyame",
+    "abrewa",
+    "asase_yaa"
+   ],
+   "summary": "Nyame used to live just above the earth, low enough to touch. An old woman pounding fufu in her mortar kept catching him with the top of the pestle, over and over, and eventually he moved up out of reach and stayed there - which is why the sky is where it is and why god is far away. Then she tried to repair it. She told her children to collect every mortar in the village and stack them one on top of another to climb up after him, and they built the tower and found they were one mortar short. So she told them to take the one at the bottom and put it on the top. The whole thing came down.",
+   "sources": [
+    {
+     "book": "Akan-Ashanti Folk-Tales",
+     "translation": "R. S. Rattray, 1930",
+     "location": "How the sky god went away",
+     "url": "https://archive.org/details/akanashantifolkt00ratt"
+    },
+    {
+     "book": "The Tshi-Speaking Peoples of the Gold Coast",
+     "translation": "A. B. Ellis, 1887",
+     "location": "Chapter 2",
+     "url": "https://sacred-texts.com/afr/tsp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "price-of-stories",
+   "title": "The Price of All the Stories",
+   "era": "The Spider",
+   "cast": [
+    "anansi",
+    "nyame",
+    "onini",
+    "osebo",
+    "mmoboro",
+    "mmoatia"
+   ],
+   "summary": "Anansi asked Nyame what the stories of the world would cost. Kings had asked before and been refused. Nyame named a price he thought impossible: Onini the python, Osebo the leopard, the Mmoboro hornets, and Mmoatia the dwarf whom nobody has ever seen. Anansi said he would bring them, and his mother and his wife laughed at him. He caught the python by arguing with himself about the length of a stick. He caught the leopard by digging a hole and then offering to help. He caught the hornets by pouring water on them and telling them it was raining. And he caught the dwarf with a wooden doll smeared in gum. Nyame handed the stories over and they have been called spider stories ever since.",
+   "sources": [
+    {
+     "book": "Akan-Ashanti Folk-Tales",
+     "translation": "R. S. Rattray, 1930",
+     "location": "How we got the name Spider Stories",
+     "url": "https://archive.org/details/akanashantifolkt00ratt"
+    }
+   ]
+  },
+  {
+   "id": "gum-doll",
+   "title": "The Doll Smeared With Gum",
+   "era": "The Spider",
+   "cast": [
+    "anansi",
+    "mmoatia"
+   ],
+   "summary": "The mmoatia are a foot high, live in the deep forest, speak by whistling and have feet that point backwards, and nobody catches one. Anansi carved a small wooden doll, covered it in sticky gum from head to foot, put a bowl of mashed yam in its lap, and left it standing on a path with a string tied to it. A mmoatia came along, greeted the doll politely, got no answer, ate some of the yam, thanked it, got no answer again - and slapped it. Her hand stuck. She slapped it with the other hand and that stuck too, and then she kicked it with both feet. This is the Tar Baby, and the Cherokee tell it as well, and the argument about which way it travelled across the American South is still open.",
+   "sources": [
+    {
+     "book": "Akan-Ashanti Folk-Tales",
+     "translation": "R. S. Rattray, 1930",
+     "location": "How we got the name Spider Stories",
+     "url": "https://archive.org/details/akanashantifolkt00ratt"
+    }
+   ]
+  },
+  {
+   "id": "calabash-of-wisdom",
+   "title": "The Calabash of Wisdom",
+   "era": "The Spider",
+   "cast": [
+    "anansi",
+    "ntikuma"
+   ],
+   "summary": "Anansi gathered all the wisdom in the world into one calabash and decided to hide it at the top of a tall tree where nobody could reach it. He tied the pot in front of his chest and tried to climb, and could not - the pot was in the way. He tried again and again. His small son Ntikuma, watching from the bottom of the tree, eventually said: father, would it not be easier if you tied it on your back. Anansi, who was holding a container of all the wisdom in the world and had just been out-thought by a child, threw it down in a temper. It broke, and the wisdom went everywhere - which is why nobody has all of it and everybody has a little.",
+   "sources": [
+    {
+     "book": "Akan-Ashanti Folk-Tales",
+     "translation": "R. S. Rattray, 1930",
+     "location": "The pot of wisdom",
+     "url": "https://archive.org/details/akanashantifolkt00ratt"
+    }
+   ]
+  },
+  {
+   "id": "goat-and-the-coat",
+   "title": "The Goat and the Coat",
+   "era": "The Abosom",
+   "cast": [
+    "tano",
+    "bia",
+    "nyame"
+   ],
+   "summary": "Nyame meant to give the good land to his favourite son Bia and the poor country to Tano, and sent a goat to summon them, telling it to fetch Bia first. Tano got to the goat and bribed it, so the message went the wrong way round; and then he borrowed his brother's clothes. Nyame, who had said he would give the fertile land to whichever son came first in the clothes he knew, gave it to the wrong one. Tano got the good country and Bia got the bush. The two rivers are real, they run through land of noticeably different quality, and the story explains the difference by fraud rather than by geology.",
+   "sources": [
+    {
+     "book": "Religion and Art in Ashanti",
+     "translation": "R. S. Rattray, 1927",
+     "location": "The gods of the rivers",
+     "url": "https://archive.org/details/religionartinash00ratt"
+    },
+    {
+     "book": "The Tshi-Speaking Peoples of the Gold Coast",
+     "translation": "A. B. Ellis, 1887",
+     "location": "Chapter 3",
+     "url": "https://sacred-texts.com/afr/tsp/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "stool-from-the-sky",
+   "title": "The Stool That Came Down",
+   "era": "The Nation",
+   "cast": [
+    "okomfo_anokye",
+    "osei_tutu",
+    "golden_stool"
+   ],
+   "summary": "The Akan states around Kumasi had been quarrelling and paying tribute to Denkyira. Okomfo Anokye assembled the chiefs, and out of a black cloud with a noise like thunder and a shower of white dust, a stool of solid gold came down and settled on Osei Tutu's knees. Anokye told them it held the sunsum, the soul, of the whole Asante nation, and that if it were ever destroyed or taken the nation would sicken and cease to be a people. Every chief's own stool was subordinated to it. It has never been sat on by anyone, including the king; it has its own chair, and it is not allowed to touch the ground.",
+   "sources": [
+    {
+     "book": "Ashanti",
+     "translation": "R. S. Rattray, 1923",
+     "location": "The Golden Stool",
+     "url": "https://archive.org/details/ashanti00ratt"
+    },
+    {
+     "book": "Mission from Cape Coast Castle to Ashantee",
+     "translation": "T. E. Bowdich, 1819",
+     "location": "On Kumasi",
+     "url": "https://archive.org/details/missionfromcape00bowdgoog"
+    }
+   ]
+  },
+  {
+   "id": "hidden-stool",
+   "title": "The Stool They Never Got",
+   "era": "The Nation",
+   "cast": [
+    "golden_stool",
+    "yaa_asantewaa",
+    "osei_tutu"
+   ],
+   "summary": "In 1900 the British governor Frederick Hodgson came to Kumasi with the Asantehene already exiled, demanded the Golden Stool, and asked why it had not been brought for him to sit on. He appears to have thought it was a throne. The Asante said nothing at the time and went home. Afterwards, with the chiefs hesitating, the queen mother of Ejisu stood up and said that if the men of Asante would not go forward then the women would, and she led the rising. The fort at Kumasi was besieged for months. Yaa Asantewaa was captured and exiled to the Seychelles and died there. The British never got the stool - a false one was produced, and the real one was buried in the forest for twenty years.",
+   "sources": [
+    {
+     "book": "Ashanti",
+     "translation": "R. S. Rattray, 1923",
+     "location": "The Golden Stool",
+     "url": "https://archive.org/details/ashanti00ratt"
+    }
+   ]
+  },
+  {
+   "id": "sword-in-the-ground",
+   "title": "The Sword Nobody Has Pulled Out",
+   "era": "The Nation",
+   "cast": [
+    "okomfo_anokye",
+    "osei_tutu",
+    "golden_stool"
+   ],
+   "summary": "Okomfo Anokye drove a sword into the ground at Kumasi and said that the Asante nation would last as long as it stayed there. It is still there. It stands in the grounds of the hospital that is named after him, and it has been left alone by everybody who has tried, including - by local tradition - Muhammad Ali, who visited in 1964 and gave it a go. Whether the blade is fused into rock underneath is a question that misses what the object is for. It is a national guarantee made physical and left in public where anyone can go and fail to move it, which is a far more confident piece of theatre than locking it away.",
+   "sources": [
+    {
+     "book": "Ashanti",
+     "translation": "R. S. Rattray, 1923",
+     "location": "Anokye",
+     "url": "https://archive.org/details/ashanti00ratt"
+    }
+   ]
+  },
+  {
+   "id": "light-at-night",
+   "title": "The Light Crossing the Field",
+   "era": "The Forest",
+   "cast": [
+    "obayifo",
+    "sasabonsam",
+    "kra"
+   ],
+   "summary": "An obayifo is not a stranger. It is an ordinary person - very often a relative - whose spirit leaves the body at night as a small ball of light and goes out over the fields to feed on the life of children and the sap of the cacao. Rattray asked how one is recognised and was given the signs: a shifty restless look about the eyes, and an inordinate and obvious interest in food, particularly meat. Failed farms and dead infants were explained this way as a matter of course. Witchcraft in this tradition is inherited rather than learned, which means the accusation lands inside the family, and that is what makes it dangerous rather than picturesque.",
+   "sources": [
+    {
+     "book": "Religion and Art in Ashanti",
+     "translation": "R. S. Rattray, 1927",
+     "location": "Witchcraft",
+     "url": "https://archive.org/details/religionartinash00ratt"
+    },
+    {
+     "book": "Ashanti",
+     "translation": "R. S. Rattray, 1923",
+     "location": "Obayifo",
+     "url": "https://archive.org/details/ashanti00ratt"
+    }
+   ]
+  },
+  {
+   "id": "weights-and-proverbs",
+   "title": "Proverbs You Could Hold",
+   "era": "The Nation",
+   "cast": [
+    "goldweights",
+    "adinkra",
+    "anansi"
+   ],
+   "summary": "Akan trade ran on gold dust, weighed against small brass counterweights cast by the lost-wax method - and by the eighteenth century those weights had become a way of carrying sayings around. Two crocodiles sharing a single stomach and fighting over the food: a family quarrelling over what it already holds in common. A bird looking backward to take an egg off its own back: go back and fetch what you left, there is no shame in it. That one is also an adinkra symbol, Sankofa. Tens of thousands of the weights survive, in the pockets of ordinary traders, and between them they carry the largest body of Akan thought that exists.",
+   "sources": [
+    {
+     "book": "Religion and Art in Ashanti",
+     "translation": "R. S. Rattray, 1927",
+     "location": "Gold weights",
+     "url": "https://archive.org/details/religionartinash00ratt"
+    },
+    {
+     "book": "Ashanti",
+     "translation": "R. S. Rattray, 1923",
+     "location": "Adinkra",
+     "url": "https://archive.org/details/ashanti00ratt"
+    }
+   ]
+  },
+  {
+   "id": "four-parts",
+   "title": "What a Person Is Made Of",
+   "era": "The Ancestors",
+   "cast": [
+    "kra",
+    "nsamanfo",
+    "akuaba",
+    "nyame"
+   ],
+   "summary": "An Akan person is assembled from parts with different origins. The kra is the soul, on loan from Nyame, arriving with a destiny already agreed and going back to him at death - which is why every child is named for the day of the week they were born, because that is the soul's name. The mogya is blood, and it comes from the mother, and it fixes which abusua you belong to, because the Akan are matrilineal. The ntoro comes from the father. The sunsum is the personality, and unlike the others it can be strengthened, damaged or attacked. Four parts, four sources, and the whole social system follows from it.",
+   "sources": [
+    {
+     "book": "Religion and Art in Ashanti",
+     "translation": "R. S. Rattray, 1927",
+     "location": "The soul",
+     "url": "https://archive.org/details/religionartinash00ratt"
+    },
+    {
+     "book": "Ashanti",
+     "translation": "R. S. Rattray, 1923",
+     "location": "Kinship",
+     "url": "https://archive.org/details/ashanti00ratt"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "nyame",
+   "name": "Nyame",
+   "sanskrit": "Nyame",
+   "category": "creator",
+   "era": "The Sky",
+   "role": "The creator, who moved out of reach because an old woman kept hitting him with a pestle",
+   "wikipedia": "Nyame",
+   "portrait": "portraits/akan/nyame.webp",
+   "epithets": [
+    "Onyankopon, the greater one",
+    "Odomankoma, the infinite",
+    "the sky"
+   ],
+   "domains": [
+    "creation",
+    "the sky",
+    "rain",
+    "the soul given to each person"
+   ],
+   "symbols": [
+    "the nyame dua - a forked post with a pot in it",
+    "the sky",
+    "no image"
+   ],
+   "mount": null,
+   "abode": "The sky, and formerly much lower",
+   "festivals": [],
+   "worship": "",
+   "bio": "The distance between people and god is the result of a woman pounding fufu carelessly.",
+   "longBio": "Nyame lived so close to the earth that you could touch him. An old woman pounding fufu in a mortar kept striking him with the end of her pestle, and after enough of it he withdrew upward, out of reach, and has stayed there. She told her children to stack all the mortars in the village to climb after him; they ran out one short, so she told them to take the bottom one and put it on top - and the whole tower came down. He has no great temple and no priesthood of his own. What he has is the nyame dua, a forked branch set in the yard with a pot in the fork to catch rainwater.",
+   "variantTraditions": "The pestle story is told across West Africa with local variation; the detail of the mortar tower collapsing is Akan.",
+   "storyIds": [
+    "the-pestle",
+    "price-of-stories",
+    "goat-and-the-coat",
+    "four-parts"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "sky-thunder"
+   ]
+  },
+  {
+   "id": "asase_yaa",
+   "name": "Asase Yaa",
+   "sanskrit": "Asaase Yaa",
+   "category": "creator",
+   "era": "The Sky",
+   "role": "The earth, who owns Thursday and will not let you dig on it",
+   "wikipedia": "Asase_Ya",
+   "portrait": "portraits/akan/asase_yaa.webp",
+   "epithets": [
+    "Asaase Afua in some areas",
+    "Old Mother Earth",
+    "the second person"
+   ],
+   "domains": [
+    "the earth",
+    "farming",
+    "the receiving of the dead",
+    "truth"
+   ],
+   "symbols": [
+    "the ground itself",
+    "no shrine",
+    "the day Thursday"
+   ],
+   "mount": null,
+   "abode": "The earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "No temple, no image, no priest - but nobody farms on a Thursday, because it is her day.",
+   "longBio": "Asase Yaa is the earth and is named second after Nyame in libations, and like him she has no temple and no image. Her observance is a prohibition: Thursday is hers, and no one tills the ground on it. She receives the dead and she guarantees oaths - a man swearing truthfully will touch his lips to the soil. Her name carries the day: Yaa is the female Thursday-born name, and in areas where Friday is kept instead she is Asaase Afua. A goddess whose entire cult is a day off and a habit of touching the ground is one of the least ornamented in this whole site.",
+   "variantTraditions": "Whether Thursday or Friday is her day varies by Akan group; the prohibition on farming is constant.",
+   "storyIds": [
+    "the-pestle"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "earth-mother",
+    "death-judge",
+    "preserver"
+   ]
+  },
+  {
+   "id": "anansi",
+   "name": "Anansi",
+   "sanskrit": "Kwaku Ananse",
+   "category": "creator",
+   "era": "The Spider",
+   "role": "The spider who bought every story in the world from the sky god and paid in monsters",
+   "wikipedia": "Anansi",
+   "portrait": "portraits/akan/anansi.webp",
+   "epithets": [
+    "Kwaku Ananse",
+    "Anancy in Jamaica",
+    "Aunt Nancy in the Carolinas",
+    "Kompa Nanzi"
+   ],
+   "domains": [
+    "stories",
+    "cunning",
+    "greed",
+    "talking your way out",
+    "the trickster"
+   ],
+   "symbols": [
+    "the web",
+    "the calabash of wisdom",
+    "the eight legs"
+   ],
+   "mount": null,
+   "abode": "Everywhere there is a bargain to be made",
+   "festivals": [],
+   "worship": "",
+   "bio": "All stories belong to him. He bought them, and the price was four things nobody could catch.",
+   "longBio": "Anansi wanted the sky god's stories - all stories, which are called Anansesem, spider stories, to this day - and asked the price. Nyame named four things: Onini the python, Osebo the leopard, the Mmoboro hornets, and Mmoatia the dwarf who is never seen. Kings had failed. Anansi got all four by talking, and Nyame handed the stories over. He is greedy, vain, lazy and usually the smallest thing in the room, and he wins by getting other creatures to volunteer for their own downfall. Carried across the Atlantic he becomes Anancy, Aunt Nancy, Kompa Nanzi, and feeds into Br'er Rabbit.",
+   "variantTraditions": "Anansi's survival through the Middle Passage into Caribbean, Surinamese and North American tradition is one of the best-documented cultural transmissions of the slave trade.",
+   "storyIds": [
+    "price-of-stories",
+    "gum-doll",
+    "calabash-of-wisdom",
+    "weights-and-proverbs"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "messenger-trickster",
+    "wisdom-craft",
+    "divine-beast",
+    "creator"
+   ]
+  },
+  {
+   "id": "onini",
+   "name": "Onini",
+   "sanskrit": "Onini",
+   "category": "beast",
+   "era": "The Spider",
+   "role": "The python, measured against a pole to settle an argument about his own length",
+   "wikipedia": "Anansi",
+   "portrait": "portraits/akan/onini.webp",
+   "epithets": [
+    "the python"
+   ],
+   "domains": [
+    "the river",
+    "vanity",
+    "being measured"
+   ],
+   "symbols": [
+    "the bamboo pole",
+    "the creeper rope"
+   ],
+   "mount": null,
+   "abode": "The river bank",
+   "festivals": [],
+   "worship": "",
+   "bio": "Anansi walked past muttering about whether he was longer than a stick, loudly enough to be heard.",
+   "longBio": "The first of Nyame's four prices. Anansi cut a long bamboo pole and walked along the riverbank arguing with himself out loud - my wife says the python is longer than this pole, I say the pole is longer than the python, and it is impossible to settle. Onini, listening, proposed the obvious solution and lay down beside the pole. Anansi pointed out he kept curling, and offered to tie him to it so he would stretch out straight and the measurement would be fair. Onini agreed to that too. It is the cleanest of the four and the one that best shows the method: he never lies, he just leaves a gap.",
+   "variantTraditions": "The four-tasks structure is stable across tellings; the details of each trick vary.",
+   "storyIds": [
+    "price-of-stories"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "serpent-dragon"
+   ]
+  },
+  {
+   "id": "osebo",
+   "name": "Osebo",
+   "sanskrit": "Osebo",
+   "category": "beast",
+   "era": "The Spider",
+   "role": "The leopard, who fell in a hole and accepted an offer of help",
+   "wikipedia": "Anansi",
+   "portrait": "portraits/akan/osebo.webp",
+   "epithets": [
+    "the leopard"
+   ],
+   "domains": [
+    "the forest",
+    "strength",
+    "the pit"
+   ],
+   "symbols": [
+    "the covered pit",
+    "the bent sapling"
+   ],
+   "mount": null,
+   "abode": "The forest floor",
+   "festivals": [],
+   "worship": "",
+   "bio": "Anansi dug a hole in the leopard's path and then very kindly offered to pull him out.",
+   "longBio": "The second price. Anansi dug a deep pit where Osebo walked at night and covered it, and in the morning found the leopard in it, unable to climb out. He came to the edge, was sympathetic, and pointed out that if he pulled him out the leopard would probably eat him - to which Osebo swore he would not. So Anansi bent a tall sapling down over the hole, tied a rope to it and told the leopard to fasten the other end to his tail. Then he cut the rope holding the sapling and the leopard was flung up out of the pit and into the air, and stayed there.",
+   "variantTraditions": "In several versions Anansi kills the leopard outright; Rattray's is closer to a trap than a hunt.",
+   "storyIds": [
+    "price-of-stories"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "mmoboro",
+   "name": "The Mmoboro",
+   "sanskrit": "Mmoboro",
+   "category": "beast",
+   "era": "The Spider",
+   "role": "The hornets, who took shelter from a rainstorm that was a calabash of water",
+   "wikipedia": "Anansi",
+   "portrait": "portraits/akan/mmoboro.webp",
+   "epithets": [
+    "the hornets",
+    "the swarm"
+   ],
+   "domains": [
+    "the nest",
+    "the swarm",
+    "shelter"
+   ],
+   "symbols": [
+    "the calabash",
+    "the plantain leaf held as an umbrella"
+   ],
+   "mount": null,
+   "abode": "The hornets' nest",
+   "festivals": [],
+   "worship": "",
+   "bio": "He poured water over them and over himself, then offered them somewhere dry.",
+   "longBio": "The third price. Anansi filled a calabash with water, went to the hornets' nest, and poured some over himself and the rest over them - then held a plantain leaf over his own head and shouted that it was raining and they should get out of it and come into the gourd he was carrying. They did, all of them, and he stopped up the mouth of it with grass. The hornets are the purest example of his method: he arranges circumstances, makes a reasonable suggestion, and lets his target walk into the container voluntarily. Nobody is forced into anything in the whole sequence.",
+   "variantTraditions": "The hornets in some tellings are bees; the calabash and the false rain are constant.",
+   "storyIds": [
+    "price-of-stories"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "mmoatia",
+   "name": "Mmoatia",
+   "sanskrit": "Mmoatia",
+   "category": "deity",
+   "era": "The Spider",
+   "role": "The forest dwarfs, whose feet point backwards, caught with a gum doll",
+   "wikipedia": "Mmoatia",
+   "portrait": "portraits/akan/mmoatia.webp",
+   "epithets": [
+    "the little people",
+    "the ones whose feet are turned round"
+   ],
+   "domains": [
+    "the forest",
+    "herbal knowledge",
+    "invisibility",
+    "medicine"
+   ],
+   "symbols": [
+    "backward-pointing feet",
+    "the whistling language",
+    "the doll smeared with gum"
+   ],
+   "mount": null,
+   "abode": "The deep forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "The one that everybody knows: a sticky doll, a rude refusal, and a slap that sticks.",
+   "longBio": "The fourth and hardest price - the mmoatia are forest beings a foot high whose feet point backwards, who speak by whistling, and who are never seen. Anansi carved a wooden doll, smeared it head to foot with sticky gum, put a bowl of mashed yam in its lap and set it on the path. A mmoatia came, greeted it, got no answer, and slapped it - and stuck. Then slapped it with the other hand, and stuck. Then kicked with both feet. This is the Tar Baby, and the same story is told by the Cherokee and appears in the Uncle Remus collections, and the argument about which way it travelled is still running.",
+   "variantTraditions": "The mmoatia are also regarded as the source of herbal medicine, and a healer who disappears into the forest may be said to have been with them.",
+   "storyIds": [
+    "price-of-stories",
+    "gum-doll"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "healer",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "ntikuma",
+   "name": "Ntikuma",
+   "sanskrit": "Ntikuma",
+   "category": "hero",
+   "era": "The Spider",
+   "role": "Anansi's son, who is cleverer than his father and gets no credit for it",
+   "wikipedia": "Anansi",
+   "portrait": "portraits/akan/ntikuma.webp",
+   "epithets": [
+    "the son of Anansi"
+   ],
+   "domains": [
+    "cleverness",
+    "the correction of his father",
+    "the calabash of wisdom"
+   ],
+   "symbols": [
+    "the calabash carried on the back",
+    "the palm tree"
+   ],
+   "mount": null,
+   "abode": "Anansi's house",
+   "festivals": [],
+   "worship": "",
+   "bio": "He watched his father struggle up a tree with a pot and suggested carrying it on his back.",
+   "longBio": "Anansi collected all the wisdom in the world into a calabash and decided to hide it at the top of a tall tree where nobody else could reach it. He tied it in front of him and tried to climb and got nowhere, over and over. His small son Ntikuma, watching from below, said: father, would it not be easier to carry it on your back. Anansi, furious that the pot of all wisdom had not contained that particular thought, threw it down and it smashed, and the wisdom scattered everywhere - which is why nobody has all of it and everybody has some.",
+   "variantTraditions": "The scattering of wisdom is one of the most-told Anansi stories and is the tradition's account of why cleverness is distributed rather than held.",
+   "storyIds": [
+    "calabash-of-wisdom"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "wisdom-craft",
+    "messenger-trickster",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "aso",
+   "name": "Aso",
+   "sanskrit": "Aso",
+   "category": "mortal",
+   "era": "The Spider",
+   "role": "Anansi's wife, who is usually right and is usually ignored",
+   "wikipedia": "Anansi",
+   "portrait": "portraits/akan/aso.webp",
+   "epithets": [
+    "the wife of Anansi"
+   ],
+   "domains": [
+    "the household",
+    "sensible advice",
+    "the schemes she is dragged into"
+   ],
+   "symbols": [
+    "the cooking pot",
+    "the farm"
+   ],
+   "mount": null,
+   "abode": "Anansi's house",
+   "festivals": [],
+   "worship": "",
+   "bio": "She tells him it will not work. It does not work. This happens in most of the stories.",
+   "longBio": "Aso appears in a great many of the tales as the person who has to live with the consequences. She warns Anansi off his plans, is overruled, and is generally implicated when they collapse - in the famine stories he schemes to eat while she and the children go hungry, and in others she is the one who quietly sorts out the mess. She is invoked in the python story as the supposed source of the argument about length. In a body of narrative that is otherwise entirely about a clever man being clever, she is the standing reminder that somebody is keeping the household running.",
+   "variantTraditions": "Aso's name and role are constant in Rattray's texts; some Caribbean versions rename or drop her.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "preserver",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "tano",
+   "name": "Tano",
+   "sanskrit": "Ta Kora",
+   "category": "deity",
+   "era": "The Abosom",
+   "role": "The river, the greatest of Nyame's children, who cheated his brother out of Saturday",
+   "wikipedia": "Tano_(mythology)",
+   "portrait": "portraits/akan/tano.webp",
+   "epithets": [
+    "Ta Kora",
+    "Tano Akora",
+    "the river god"
+   ],
+   "domains": [
+    "the Tano river",
+    "war",
+    "the abosom",
+    "possession of priests"
+   ],
+   "symbols": [
+    "the river",
+    "the brass pan",
+    "the shrine carried on a priest's head"
+   ],
+   "mount": null,
+   "abode": "The river Tano",
+   "festivals": [],
+   "worship": "",
+   "bio": "He and his brother were promised the world in birth order, and he swapped clothes with him.",
+   "longBio": "Tano is the senior of the abosom, the children of Nyame, and the great river god of the Akan. His story with his brother Bia is about inheritance: Nyame intended to give the fertile land to the elder, Bia, and the harsh land to Tano, and sent word by a goat which Tano bribed. When they came the next morning Tano had put on his brother's clothes and Nyame, going by appearance, gave the good country to the wrong son. He is a war god as well as a river, and his priests are possessed at festival and speak for him.",
+   "variantTraditions": "Whether the abosom are Nyame's children or older local deities absorbed into that scheme is a real question; the river cults are certainly older than the Ashanti state.",
+   "storyIds": [
+    "goat-and-the-coat"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "war",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "bia",
+   "name": "Bia",
+   "sanskrit": "Bia",
+   "category": "deity",
+   "era": "The Abosom",
+   "role": "The brother who was supposed to inherit the good land and got the bush instead",
+   "wikipedia": "Bia_(mythology)",
+   "portrait": "portraits/akan/bia.webp",
+   "epithets": [
+    "the younger son",
+    "the river Bia"
+   ],
+   "domains": [
+    "the river Bia",
+    "the poorer country",
+    "being cheated"
+   ],
+   "symbols": [
+    "the river",
+    "the forest"
+   ],
+   "mount": null,
+   "abode": "The river Bia",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was the favourite, which is exactly why the story is about him losing.",
+   "longBio": "Bia is Nyame's favoured son and the one intended to receive the fertile land near the coast. His brother Tano got wind of the arrangement, bribed the messenger goat to deliver the summons a day late, and swapped clothing so that Nyame - who had said he would give the land to whoever came first, in the clothes he knew - gave Bia's inheritance away by mistake. Bia was given the thin ground and the bush. The story is doing something specific: it explains a real distribution of good and bad farming country between two river valleys, and it blames trickery rather than geography.",
+   "variantTraditions": "The Tano and Bia are both real rivers in Ghana and the Ivory Coast, and the story maps onto the land quality along them.",
+   "storyIds": [
+    "goat-and-the-coat"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "abosom",
+   "name": "The Abosom",
+   "sanskrit": "Abosom",
+   "category": "deity",
+   "era": "The Abosom",
+   "role": "The children of Nyame - gods of particular rivers, lakes and rocks, who possess their priests",
+   "wikipedia": "Abosom",
+   "portrait": "portraits/akan/abosom.webp",
+   "epithets": [
+    "the lesser gods",
+    "the children of Nyame",
+    "the obosom in the singular"
+   ],
+   "domains": [
+    "rivers and lakes",
+    "possession",
+    "healing",
+    "particular places"
+   ],
+   "symbols": [
+    "the brass pan shrine",
+    "the priest carried staggering",
+    "white clay"
+   ],
+   "mount": null,
+   "abode": "Each in its own water or rock",
+   "festivals": [],
+   "worship": "",
+   "bio": "They are not general gods. Each one belongs to a specific river and knows its own territory.",
+   "longBio": "The abosom are Nyame's children and the working deities of Akan religion: gods of named rivers, lakes, rocks and groves, each with its own shrine, priest and prohibitions. They are approached for healing, for children, for protection, and they answer by possessing the okomfo, the priest, who dances at festival and speaks in the god's own voice while attendants hold him up. Rattray describes the possession in detail and treats it as a real professional practice rather than a curiosity. When a river dries or a grove is cut, the obosom of that place is understood to leave.",
+   "variantTraditions": "The abosom system is local and plural; there is no fixed pantheon list, and new abosom appear and old ones lapse.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "sea-waters",
+    "sage-seer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "nsamanfo",
+   "name": "The Nsamanfo",
+   "sanskrit": "Nsamanfo",
+   "category": "underworld",
+   "era": "The Ancestors",
+   "role": "The ancestors, who are closer than any god and are fed at every serious occasion",
+   "wikipedia": "Akan_religion",
+   "portrait": "portraits/akan/nsamanfo.webp",
+   "epithets": [
+    "the ancestors",
+    "the spirits of the dead",
+    "the samanfo"
+   ],
+   "domains": [
+    "the dead",
+    "the lineage",
+    "libation",
+    "authority over the living"
+   ],
+   "symbols": [
+    "the blackened stool",
+    "the poured drink",
+    "the first drops on the ground"
+   ],
+   "mount": null,
+   "abode": "Asamando, and at the family stool",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first of every drink goes on the ground for them, before anybody else gets any.",
+   "longBio": "The nsamanfo are the dead of the lineage, and in practice they matter more to daily Akan life than Nyame does. They are addressed at every serious occasion by libation - a drink poured on the ground with the names spoken - and they are expected to take an active interest in whether their descendants behave. A dead chief's stool is blackened with soot and egg and kept, and fed at intervals, and those stools are the physical continuity of the office. Being remembered is the whole point, which is why having no children is the real disaster in Akan thought.",
+   "variantTraditions": "Blackened stools are among the most sacred Akan objects and are kept in a stool house; they are the ancestors' seats rather than representations.",
+   "storyIds": [
+    "four-parts"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "preserver",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "asamando",
+   "name": "Asamando",
+   "sanskrit": "Asamando",
+   "category": "underworld",
+   "era": "The Ancestors",
+   "role": "The land of the dead, which is much like this one and keeps your rank",
+   "wikipedia": "Akan_religion",
+   "portrait": "portraits/akan/asamando.webp",
+   "epithets": [
+    "the place of the dead",
+    "the country of the samanfo"
+   ],
+   "domains": [
+    "the dead",
+    "the continuation of status",
+    "the crossing"
+   ],
+   "symbols": [
+    "the river to be crossed",
+    "the funeral goods"
+   ],
+   "mount": null,
+   "abode": "Beyond the river",
+   "festivals": [],
+   "worship": "",
+   "bio": "You arrive as what you were - a chief is still a chief, and a debtor still owes.",
+   "longBio": "Asamando is where the dead go, and Akan accounts of it are notably unmetaphysical: it is a country resembling this one, reached by crossing a river, where people keep their rank, their trade and their obligations. Funerals are correspondingly serious and expensive - the dead need to arrive properly equipped and properly accompanied, and a badly conducted funeral is a wrong done to the person. There is no judgement and no torment. What there is instead is a continuing relationship, since the dead can be spoken to and are assumed to be listening.",
+   "variantTraditions": "The scale and expense of Akan funerals is often remarked on and follows directly from this understanding rather than from display.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "preserver"
+   ]
+  },
+  {
+   "id": "sasabonsam",
+   "name": "Sasabonsam",
+   "sanskrit": "Sasabonsam",
+   "category": "beast",
+   "era": "The Forest",
+   "role": "A forest monster with iron teeth and hooked feet, hanging in a tree by its legs",
+   "wikipedia": "Sasabonsam",
+   "portrait": "portraits/akan/sasabonsam.webp",
+   "epithets": [
+    "the forest monster",
+    "the hairy one"
+   ],
+   "domains": [
+    "the deep forest",
+    "the ambush from above",
+    "witchcraft"
+   ],
+   "symbols": [
+    "iron teeth",
+    "long dangling legs with hooked feet",
+    "the odum tree"
+   ],
+   "mount": null,
+   "abode": "High in the branches of an odum tree",
+   "festivals": [],
+   "worship": "",
+   "bio": "It sits in the branches with its legs hanging down and hooks whatever walks underneath.",
+   "longBio": "Sasabonsam is a hairy man-shaped forest being with iron teeth, huge bloodshot eyes and very long thin legs ending in hooks, which it dangles from a branch of a tall odum tree to catch anyone passing below. It is associated with the obayifo - the witches - who are said to be on good terms with it. It is one of the reasons people do not go into deep forest alone at night, and Rattray records that hunters claimed to have killed one. In the twentieth century its name got attached to a bat-like cryptid in popular writing, which is not what the sources describe.",
+   "variantTraditions": "The name is used in modern Twi for a devil or monster generally; the cryptozoological flying version is a later Western invention.",
+   "storyIds": [
+    "light-at-night"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "obayifo",
+   "name": "The Obayifo",
+   "sanskrit": "Obayifo",
+   "category": "beast",
+   "era": "The Forest",
+   "role": "A witch who leaves her body at night as a ball of light and drains children",
+   "wikipedia": "Obayifo",
+   "portrait": "portraits/akan/obayifo.webp",
+   "epithets": [
+    "the witch",
+    "the one who goes out at night"
+   ],
+   "domains": [
+    "witchcraft",
+    "the draining of crops and children",
+    "the light seen at night"
+   ],
+   "symbols": [
+    "the phosphorescent light from armpits and anus",
+    "the shifty eyes",
+    "obsession with food"
+   ],
+   "mount": null,
+   "abode": "Inside an ordinary neighbour",
+   "festivals": [],
+   "worship": "",
+   "bio": "You can see them crossing the fields at night - a small light moving where no light should be.",
+   "longBio": "An obayifo is an ordinary person, often a relative, whose spirit leaves the body at night as a small ball of light and goes out to feed on the vitality of children and the sap of crops. Rattray records the diagnostic signs given to him: a restless shifty look, an inordinate interest in food and especially in meat. Cacao farms failing was routinely explained this way. Witchcraft in the Akan sense is an inherited capacity rather than a practice learned, and the accusation is made within families, which is what makes it genuinely dangerous rather than folkloric.",
+   "variantTraditions": "Witchcraft accusation remains a live social problem in parts of Ghana; this entry describes the traditional belief rather than endorsing it.",
+   "storyIds": [
+    "light-at-night"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "golden_stool",
+   "name": "The Golden Stool",
+   "sanskrit": "Sika Dwa Kofi",
+   "category": "primordial",
+   "era": "The Nation",
+   "role": "It came down out of the sky and holds the soul of the whole nation - and is never sat on",
+   "wikipedia": "Golden_Stool",
+   "portrait": "portraits/akan/golden_stool.webp",
+   "epithets": [
+    "Sika Dwa Kofi, the golden stool born on a Friday",
+    "the soul of the Asante"
+   ],
+   "domains": [
+    "the nation",
+    "sovereignty",
+    "the collective soul",
+    "unity"
+   ],
+   "symbols": [
+    "the stool itself, resting on its own throne",
+    "the bells and effigies hung on it"
+   ],
+   "mount": null,
+   "abode": "Kumasi, on its own chair",
+   "festivals": [],
+   "worship": "",
+   "bio": "Not a throne. It is never sat on by anybody, including the king, and it has its own chair.",
+   "longBio": "At the founding of the Asante union, the priest Okomfo Anokye called a stool of solid gold down out of the sky in a cloud of white dust, and it settled on Osei Tutu's knees. It contains the sunsum - the soul - of the Asante nation, and if it were destroyed the nation would sicken and lose its identity. It is never sat upon. It has its own chair, is never allowed to touch the ground, and travels under its own umbrella. A false stool was produced when the British demanded it in 1900, and the real one was buried in the forest and stayed hidden for twenty years.",
+   "variantTraditions": "The details given publicly by the Asante are the limit of what is described here; the stool's care and contents are not a matter for outsiders.",
+   "storyIds": [
+    "stool-from-the-sky",
+    "hidden-stool",
+    "sword-in-the-ground"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "king-ruler",
+    "preserver"
+   ]
+  },
+  {
+   "id": "okomfo_anokye",
+   "name": "Okomfo Anokye",
+   "sanskrit": "Okomfo Anokye",
+   "category": "hero",
+   "era": "The Nation",
+   "role": "The priest who called the Golden Stool down, and planted a sword nobody has pulled out",
+   "wikipedia": "Okomfo_Anokye",
+   "portrait": "portraits/akan/okomfo_anokye.webp",
+   "epithets": [
+    "the priest Anokye",
+    "the one who brought the stool"
+   ],
+   "domains": [
+    "priesthood",
+    "the founding of the Asante union",
+    "prophecy"
+   ],
+   "symbols": [
+    "the sword driven into the ground at Kumasi",
+    "the stool from the sky"
+   ],
+   "mount": null,
+   "abode": "Kumasi and Agona",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sword he planted is still there, in a hospital courtyard, and still has not come out.",
+   "longBio": "Okomfo Anokye is the priest and co-founder of the Asante state with Osei Tutu, and the man who brought down the Golden Stool. He is also credited with driving a sword into the ground at Kumasi and declaring that the Asante nation would stand as long as it stayed there. The sword is still in place, in the grounds of the hospital named after him, and attempts to remove it - including, by tradition, one by Muhammad Ali in 1964 - have failed. Whether it is welded into rock below is beside the point; nobody has taken it out.",
+   "variantTraditions": "The sword at Okomfo Anokye Teaching Hospital in Kumasi is a real object and a real tourist site; the historical Anokye is attested in oral tradition rather than documents.",
+   "storyIds": [
+    "stool-from-the-sky",
+    "sword-in-the-ground"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sage-seer",
+    "wisdom-craft",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "osei_tutu",
+   "name": "Osei Tutu",
+   "sanskrit": "Osei Tutu",
+   "category": "mortal",
+   "era": "The Nation",
+   "role": "The first Asantehene, who turned a group of quarrelling states into an empire",
+   "wikipedia": "Osei_Tutu",
+   "portrait": "portraits/akan/osei_tutu.webp",
+   "epithets": [
+    "the first Asantehene",
+    "the founder of the union"
+   ],
+   "domains": [
+    "kingship",
+    "the founding of Asante",
+    "war against Denkyira"
+   ],
+   "symbols": [
+    "the Golden Stool on his knees",
+    "Kumasi"
+   ],
+   "mount": null,
+   "abode": "Kumasi",
+   "festivals": [],
+   "worship": "",
+   "bio": "The stool came down onto his knees, and the states that had been fighting stopped.",
+   "longBio": "Osei Tutu united the Akan states around Kumasi in the late seventeenth century, threw off the overlordship of Denkyira, and built the Asante empire, which within a century controlled most of what is now Ghana and fought the British to a standstill more than once. The mechanism of the union was the Golden Stool: Anokye called it down onto Osei Tutu's knees in front of the assembled chiefs, and declared that the soul of the nation was in it. Each chief's own stool was symbolically subordinated. It is one of the more effective pieces of political theatre in any tradition.",
+   "variantTraditions": "The Asante state Osei Tutu founded lasted until 1900 and the office of Asantehene continues today.",
+   "storyIds": [
+    "stool-from-the-sky",
+    "hidden-stool",
+    "sword-in-the-ground"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion",
+    "war"
+   ]
+  },
+  {
+   "id": "yaa_asantewaa",
+   "name": "Yaa Asantewaa",
+   "sanskrit": "Yaa Asantewaa",
+   "category": "mortal",
+   "era": "The Nation",
+   "role": "The queen mother who led a war because the British asked to sit on the Golden Stool",
+   "wikipedia": "Yaa_Asantewaa",
+   "portrait": "portraits/akan/yaa_asantewaa.webp",
+   "epithets": [
+    "the Queen Mother of Ejisu",
+    "the leader of the last war"
+   ],
+   "domains": [
+    "the War of the Golden Stool",
+    "leadership",
+    "the refusal"
+   ],
+   "symbols": [
+    "the rifle",
+    "the stool she defended",
+    "the siege of the fort"
+   ],
+   "mount": null,
+   "abode": "Ejisu",
+   "festivals": [],
+   "worship": "",
+   "bio": "If you men will not go forward, she said, then we the women will.",
+   "longBio": "In 1900 the British governor Hodgson came to Kumasi, demanded the Golden Stool, and sat down and asked why he had not been given it to sit on. The Asante said nothing at the time. Afterwards, with the Asantehene exiled and the chiefs hesitating, the queen mother of Ejisu, Yaa Asantewaa, stood up in the council and said that if the men would not go forward then the women would - and she led the rising. Several thousand died, the British fort at Kumasi was besieged for months, and she was captured and exiled to the Seychelles, where she died. The stool was never handed over.",
+   "variantTraditions": "The War of the Golden Stool is also called the Yaa Asantewaa War; the demand for the stool by a colonial governor who did not understand what it was is documented on both sides.",
+   "storyIds": [
+    "hidden-stool"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "adinkra",
+   "name": "The Adinkra",
+   "sanskrit": "Adinkra",
+   "category": "primordial",
+   "era": "The Nation",
+   "role": "Stamped symbols, each one a proverb - a writing system for things worth remembering",
+   "wikipedia": "Adinkra_symbols",
+   "portrait": "portraits/akan/adinkra.webp",
+   "epithets": [
+    "the adinkra symbols",
+    "Gye Nyame",
+    "Sankofa"
+   ],
+   "domains": [
+    "proverbs",
+    "cloth",
+    "memory",
+    "the sayings of the elders"
+   ],
+   "symbols": [
+    "the carved calabash stamps",
+    "the black dye",
+    "the combed grid"
+   ],
+   "mount": null,
+   "abode": "Stamped on cloth",
+   "festivals": [],
+   "worship": "",
+   "bio": "Sankofa is a bird looking backwards: go back and get it, there is no shame in that.",
+   "longBio": "Adinkra are symbols stamped onto cloth with carved calabash stamps and black bark dye, and each one carries a proverb. Gye Nyame - except for God - is the best known and appears on everything from cloth to currency. Sankofa is a bird with its head turned back to take an egg from its own back, and it means go back and fetch it: whatever has been left behind can be retrieved, and returning for it is not a disgrace. Adinkra cloth was originally worn for funerals. The symbols are a real system of encoded meaning, and there are several hundred of them.",
+   "variantTraditions": "The name is traditionally derived from a defeated Gyaman king, Nana Kwadwo Adinkra, whose cloth the Asante took; the etymology is contested.",
+   "storyIds": [
+    "weights-and-proverbs"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "kra",
+   "name": "The Kra",
+   "sanskrit": "Okra",
+   "category": "primordial",
+   "era": "The Person",
+   "role": "The soul that comes from Nyame, arrives with a destiny, and goes back when you are done",
+   "wikipedia": "Akan_religion",
+   "portrait": "portraits/akan/kra.webp",
+   "epithets": [
+    "the okra",
+    "the soul",
+    "the bearer of destiny"
+   ],
+   "domains": [
+    "the soul",
+    "destiny",
+    "the day-name",
+    "the return to Nyame"
+   ],
+   "symbols": [
+    "the day of the week you were born",
+    "the kra dinsuo washing"
+   ],
+   "mount": null,
+   "abode": "Inside a person, on loan",
+   "festivals": [],
+   "worship": "",
+   "bio": "Your day-name is your soul's name, which is why every Akan is named for a weekday.",
+   "longBio": "The kra is the piece of Nyame in a person - given at birth with a destiny already agreed, and returning to him at death. It is why every Akan child receives a day-name from the day of the week they were born: Kwame, Kofi, Ama, Akosua. That name is the soul's name. The kra can be washed and strengthened in a ritual, and it can be offended. Alongside it a person has mogya, blood from the mother that fixes the lineage; ntoro, spirit from the father; and sunsum, the personality. The Akan are matrilineal, so it is the mother's blood that decides who you belong to.",
+   "variantTraditions": "The four-part account of the person is set out most fully in Rattray and is one of the more elaborate anthropologies of the self in West Africa.",
+   "storyIds": [
+    "light-at-night",
+    "four-parts"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "supreme-source",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "akuaba",
+   "name": "The Akua'ba",
+   "sanskrit": "Akua'ba",
+   "category": "primordial",
+   "era": "The Person",
+   "role": "A carved figure with a great flat disc of a head, carried by women wanting a child",
+   "wikipedia": "Akuaba",
+   "portrait": "portraits/akan/akuaba.webp",
+   "epithets": [
+    "Akua's child",
+    "the fertility figure"
+   ],
+   "domains": [
+    "fertility",
+    "pregnancy",
+    "the desired appearance of a child"
+   ],
+   "symbols": [
+    "the flat round head",
+    "the ringed neck",
+    "the small body"
+   ],
+   "mount": null,
+   "abode": "Carried on the back, like a baby",
+   "festivals": [],
+   "worship": "",
+   "bio": "A woman named Akua carried a wooden doll on her back and was laughed at, and then had a daughter.",
+   "longBio": "The akua'ba is the most recognisable Akan object: a small wooden figure with a very large flat disc head, a ringed neck and a rudimentary body. The name comes from a woman called Akua who could not conceive, was told by a priest to have a figure carved and carry it on her back as if it were a baby, was mocked for doing it, and then had a child - so the figures are Akua's child. Women wanting children carry them, and the figure's features are deliberately idealised: the high flat forehead and ringed neck are what a beautiful child should look like.",
+   "variantTraditions": "Akua'ba are now collected and sold widely as art objects; their original use is a specific and continuing fertility practice.",
+   "storyIds": [
+    "four-parts"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "goldweights",
+   "name": "The Gold Weights",
+   "sanskrit": "Abrammuo",
+   "category": "primordial",
+   "era": "The Nation",
+   "role": "Thousands of tiny brass figures for weighing gold dust, each one a proverb",
+   "wikipedia": "Akan_goldweights",
+   "portrait": "portraits/akan/goldweights.webp",
+   "epithets": [
+    "abrammuo",
+    "the brass weights"
+   ],
+   "domains": [
+    "gold dust as currency",
+    "proverbs",
+    "trade",
+    "the lost-wax casting"
+   ],
+   "symbols": [
+    "the small cast brass figures",
+    "the scales",
+    "the spoon"
+   ],
+   "mount": null,
+   "abode": "The trader's bag",
+   "festivals": [],
+   "worship": "",
+   "bio": "A weight shaped like two crocodiles sharing one stomach, and still fighting over the food.",
+   "longBio": "Before coins, Akan trade ran on gold dust weighed against small brass counterweights, cast by the lost-wax method, and by the eighteenth century these had become an art form: tens of thousands survive, showing animals, tools, people, and scenes that each illustrate a proverb. Two crocodiles sharing a single stomach and still fighting over food means a family quarrelling over what it holds in common. A man climbing a tree with help means nobody succeeds alone. They were the everyday objects of ordinary traders, and they carry the largest surviving body of Akan thought.",
+   "variantTraditions": "Gold weight production stopped in the nineteenth century when coinage arrived; the surviving corpus runs into the tens of thousands.",
+   "storyIds": [
+    "weights-and-proverbs"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wealth-fortune",
+    "wisdom-craft",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "abrewa",
+   "name": "The Old Woman",
+   "sanskrit": "Aberewa",
+   "category": "mortal",
+   "era": "The Sky",
+   "role": "She is the one with the pestle, and everything that followed is her doing",
+   "wikipedia": "Nyame",
+   "portrait": "portraits/akan/abrewa.webp",
+   "epithets": [
+    "the old woman",
+    "she who pounded fufu"
+   ],
+   "domains": [
+    "the separation of sky and earth",
+    "the tower of mortars"
+   ],
+   "symbols": [
+    "the mortar and pestle",
+    "the tower that fell"
+   ],
+   "mount": null,
+   "abode": "Her yard",
+   "festivals": [],
+   "worship": "",
+   "bio": "One woman, one pestle, and the distance between people and god.",
+   "longBio": "The old woman pounds fufu in her mortar and the end of the pestle keeps striking Nyame, who at that time was low enough to touch. She does not stop. He withdraws upward, and the sky moves out of reach permanently. Then she tries to fix it: she tells her children to fetch every mortar in the village and stack them one on another to climb up after him, and they build the tower and find they are one mortar short of reaching. She tells them to take the one from the bottom and put it on the top. The whole thing comes down. Both halves of the story are her.",
+   "variantTraditions": "The mortar-tower is a widespread West African motif and is the Akan explanation for why the sky cannot be reached.",
+   "storyIds": [
+    "the-pestle"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "fate-time"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "nyame",
+   "to": "asase_yaa",
+   "type": "consort",
+   "note": "Named first and second in every libation"
+  },
+  {
+   "from": "nyame",
+   "to": "abrewa",
+   "type": "enemy",
+   "note": "She kept hitting him with a pestle until he left"
+  },
+  {
+   "from": "nyame",
+   "to": "anansi",
+   "type": "guru",
+   "note": "He named four prices and the spider paid all of them"
+  },
+  {
+   "from": "nyame",
+   "to": "tano",
+   "type": "parent",
+   "note": "The senior of the abosom"
+  },
+  {
+   "from": "nyame",
+   "to": "bia",
+   "type": "parent",
+   "note": "The favoured son, who was cheated"
+  },
+  {
+   "from": "nyame",
+   "to": "abosom",
+   "type": "parent",
+   "note": "The children who do the actual work"
+  },
+  {
+   "from": "nyame",
+   "to": "kra",
+   "type": "parent",
+   "note": "The soul is his, given at birth and returned at death"
+  },
+  {
+   "from": "asase_yaa",
+   "to": "nsamanfo",
+   "type": "ally",
+   "note": "She receives the dead into the ground"
+  },
+  {
+   "from": "asase_yaa",
+   "to": "asamando",
+   "type": "ally",
+   "note": "The earth, and the country under it"
+  },
+  {
+   "from": "anansi",
+   "to": "onini",
+   "type": "enemy",
+   "note": "Measured against a pole and tied to it"
+  },
+  {
+   "from": "anansi",
+   "to": "osebo",
+   "type": "enemy",
+   "note": "Flung out of a pit by a bent sapling"
+  },
+  {
+   "from": "anansi",
+   "to": "mmoboro",
+   "type": "enemy",
+   "note": "Told it was raining, and shown a dry gourd"
+  },
+  {
+   "from": "anansi",
+   "to": "mmoatia",
+   "type": "enemy",
+   "note": "The gum doll, and the slap that stuck"
+  },
+  {
+   "from": "anansi",
+   "to": "ntikuma",
+   "type": "parent",
+   "note": "The son who was right about the calabash"
+  },
+  {
+   "from": "ntikuma",
+   "to": "anansi",
+   "type": "guru",
+   "note": "Carry it on your back, father"
+  },
+  {
+   "from": "anansi",
+   "to": "aso",
+   "type": "consort",
+   "note": "She tells him it will not work, and it does not"
+  },
+  {
+   "from": "aso",
+   "to": "anansi",
+   "type": "guru",
+   "note": "Usually right, usually overruled"
+  },
+  {
+   "from": "anansi",
+   "to": "abrewa",
+   "type": "sibling",
+   "note": "Two figures whose small acts changed everything"
+  },
+  {
+   "from": "tano",
+   "to": "bia",
+   "type": "sibling",
+   "note": "Two rivers, and an inheritance settled by a swapped coat"
+  },
+  {
+   "from": "bia",
+   "to": "tano",
+   "type": "enemy",
+   "note": "The goat was bribed and the clothes were changed"
+  },
+  {
+   "from": "tano",
+   "to": "abosom",
+   "type": "ally",
+   "note": "The senior obosom among his brothers"
+  },
+  {
+   "from": "abosom",
+   "to": "nsamanfo",
+   "type": "ally",
+   "note": "The gods and the dead, both approached at the shrine"
+  },
+  {
+   "from": "abosom",
+   "to": "mmoatia",
+   "type": "ally",
+   "note": "The forest people are where the medicine comes from"
+  },
+  {
+   "from": "nsamanfo",
+   "to": "asamando",
+   "type": "ally",
+   "note": "The dead, and the country they are in"
+  },
+  {
+   "from": "nsamanfo",
+   "to": "golden_stool",
+   "type": "ally",
+   "note": "The blackened stools are the ancestors' own seats"
+  },
+  {
+   "from": "sasabonsam",
+   "to": "obayifo",
+   "type": "ally",
+   "note": "The forest monster and the witches are on good terms"
+  },
+  {
+   "from": "sasabonsam",
+   "to": "mmoatia",
+   "type": "enemy",
+   "note": "Two things in the forest, and only one is helpful"
+  },
+  {
+   "from": "obayifo",
+   "to": "kra",
+   "type": "enemy",
+   "note": "What a witch drains is the vitality of a person"
+  },
+  {
+   "from": "golden_stool",
+   "to": "okomfo_anokye",
+   "type": "ally",
+   "note": "He called it down out of the sky"
+  },
+  {
+   "from": "golden_stool",
+   "to": "osei_tutu",
+   "type": "ally",
+   "note": "It settled onto his knees"
+  },
+  {
+   "from": "okomfo_anokye",
+   "to": "osei_tutu",
+   "type": "ally",
+   "note": "The priest and the king who made a nation"
+  },
+  {
+   "from": "okomfo_anokye",
+   "to": "nyame",
+   "type": "devotee",
+   "note": "The stool came down from the sky"
+  },
+  {
+   "from": "osei_tutu",
+   "to": "yaa_asantewaa",
+   "type": "guru",
+   "note": "The union he founded, and the war she led for it"
+  },
+  {
+   "from": "yaa_asantewaa",
+   "to": "golden_stool",
+   "type": "devotee",
+   "note": "A governor asked to sit on it and she went to war"
+  },
+  {
+   "from": "adinkra",
+   "to": "golden_stool",
+   "type": "ally",
+   "note": "The nation's symbols and the nation's soul"
+  },
+  {
+   "from": "adinkra",
+   "to": "goldweights",
+   "type": "sibling",
+   "note": "Two systems of proverbs in objects"
+  },
+  {
+   "from": "goldweights",
+   "to": "anansi",
+   "type": "ally",
+   "note": "A great many of the weights illustrate his stories"
+  },
+  {
+   "from": "kra",
+   "to": "akuaba",
+   "type": "ally",
+   "note": "The soul that arrives, and the figure carried to bring it"
+  },
+  {
+   "from": "akuaba",
+   "to": "asase_yaa",
+   "type": "devotee",
+   "note": "Fertility asked of the earth"
+  },
+  {
+   "from": "abrewa",
+   "to": "asase_yaa",
+   "type": "form",
+   "note": "An old woman and the old mother, not always distinguished"
+  },
+  {
+   "from": "mmoatia",
+   "to": "obayifo",
+   "type": "enemy",
+   "note": "The forest people and the ones who feed on people"
+  }
+ ]
+}

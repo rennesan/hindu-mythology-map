@@ -94,6 +94,10 @@
    "destination": "/yoruba/index.html"
   },
   {
+   "source": "/akan/:path*",
+   "destination": "/akan/index.html"
+  },
+  {
    "source": "/inuit/:path*",
    "destination": "/inuit/index.html"
   },
