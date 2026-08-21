@@ -154,6 +154,10 @@
    "destination": "/korean/index.html"
   },
   {
+   "source": "/balinese/:path*",
+   "destination": "/balinese/index.html"
+  },
+  {
    "source": "/finnish/:path*",
    "destination": "/finnish/index.html"
   },

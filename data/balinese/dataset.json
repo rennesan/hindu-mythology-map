@@ -1,0 +1,1622 @@
+{
+ "title": "Balinese",
+ "description": "Bali: an empty stone throne for the god who cannot be shown, a fight between a lion and a witch that never resolves, and a thousand-year-old irrigation system run through temples.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Miguel Covarrubias, Island of Bali (1937) - dated in places and still the fullest single description",
+  "Jane Belo, Trance in Bali (1960) and Traditional Balinese Culture (1970)",
+  "J. Stephen Lansing, Priests and Programmers (1991) - the water temple system, and the best thing written about how Bali actually works",
+  "P. J. Zoetmulder, Kalangwan (1974) - the Old Javanese literature behind the Balinese material",
+  "Note: Agama Hindu Dharma is a living religion practised by around four million people. Nothing here is historical"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/balinese/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "covarrubias": {
+   "t": "Island of Bali",
+   "tr": "Miguel Covarrubias, 1937",
+   "u": "https://archive.org/details/islandofbali0000cova"
+  },
+  "belo": {
+   "t": "Traditional Balinese Culture",
+   "tr": "Jane Belo, ed., 1970",
+   "u": "https://archive.org/details/traditionalbalin0000belo"
+  },
+  "geertz": {
+   "t": "Negara: The Theatre State in Nineteenth-Century Bali",
+   "tr": "Clifford Geertz, 1980",
+   "u": "https://archive.org/details/negaratheatresta0000geer"
+  },
+  "lansing": {
+   "t": "Priests and Programmers: Technologies of Power in the Engineered Landscape of Bali",
+   "tr": "J. Stephen Lansing, 1991 - on the subak water temples",
+   "u": "https://archive.org/details/priestsprogramme0000lans"
+  },
+  "zoetmulder": {
+   "t": "Kalangwan: A Survey of Old Javanese Literature",
+   "tr": "P. J. Zoetmulder, 1974",
+   "u": "https://archive.org/details/kalangwansurveyo0000zoet"
+  }
+ },
+ "meta": {
+  "id": "balinese",
+  "label": "Balinese",
+  "sublabel": "Bali & Java",
+  "accent": "#c48f9e",
+  "root": "acintya"
+ },
+ "profile": {
+  "cosmicNature": "Vertical and oriented. The mountain is up and pure, the sea is down and dangerous, and everything on the island is arranged along that axis - which way a temple faces, which end of the house you sleep at, which way you lie your head. Kaja is toward the mountain and kelod is toward the sea, and Balinese give directions in those terms rather than north and south, which means the whole population navigates by a moral gradient.",
+  "natureOfDivinity": "One, officially, and enormously many in practice. Sanghyang Widhi Wasa is the single godhead - a formulation sharpened in the twentieth century partly to satisfy Indonesian state requirements that a religion have one - and everything else, Shiva and Vishnu included, is an aspect. Below that: the deity of every temple, every village, every spring and lake and mountain, the deified ancestors of every family, and the demons at the bottom of the yard who get their share.",
+  "afterlife": "Cremation, and then back into the family. The body is burned - eventually, sometimes years later when the family can afford it, with the bones dug up for the purpose - and the soul is freed, purified in further ceremonies, and enshrined in the family temple as a deified ancestor, from which position it is fed and consulted and eventually reborn into the same family. Ngaben, the cremation, is loud, expensive and not sad.",
+  "systemMechanism": "Offerings, and balance. A Balinese household makes canang sari - small palm-leaf trays of flowers, rice and incense - several times a day, placing them at the house shrine, the gate, the kitchen, the vehicle and on the ground for the demons, and the ones on the ground matter as much as the ones on the shrine. The point is not to defeat the negative forces but to give them their portion so that things stay level. Rwa bhineda: two opposed things, both necessary.",
+  "canonTexts": "Palm-leaf manuscripts - lontar - covering theology, medicine, architecture, magic and law, still held and copied in households and temples. Behind them the Old Javanese literature of Majapahit, including the Kakawin Ramayana, and behind that the Sanskrit epics. But the working authority in Bali is not a text; it is the priest, the calendar, and what the village has always done."
+ },
+ "hierarchy": [
+  {
+   "title": "The Frame",
+   "blurb": "One godhead, represented by an empty stone throne in the corner of every temple. A world made of necessary opposites in which the aim is never to win. And an island oriented not by compass but by a gradient running from the mountain, which is pure, to the sea, which is not.",
+   "memberIds": [
+    "acintya",
+    "rwa_bhineda",
+    "kaja_kelod"
+   ],
+   "connectorCaption": "The clearest illustration of it is a fight that is staged repeatedly and never ends"
+  },
+  {
+   "title": "The Pair",
+   "blurb": "A shaggy lion worked by two men against a widow-witch with a tongue to her knees. Both masks are consecrated and kept in temples. The men who rush her with krises fall into real trance and turn the blades on themselves, and a priest has to bring them out of it. Nobody wins.",
+   "memberIds": [
+    "barong",
+    "rangda",
+    "calon_arang",
+    "leyak",
+    "kris"
+   ],
+   "connectorCaption": "Underneath the drama, the thing the island actually runs on"
+  },
+  {
+   "title": "The Water",
+   "blurb": "A goddess in a crater lake whose temple network scheduled irrigation across the island for a thousand years - and when agricultural planners overrode it in the 1970s as superstition, the harvests failed and the pests arrived. Computer modelling later showed the temples had it close to optimal.",
+   "memberIds": [
+    "dewi_danu",
+    "dewi_sri",
+    "subak",
+    "tirta"
+   ],
+   "connectorCaption": "And in every compound, several times a day"
+  },
+  {
+   "title": "The Household",
+   "blurb": "Four siblings born with you, buried by the door in a coconut and fed for life. Grandparents in the family shrine, being consulted, waiting to be reborn as your children. A cremation that is loud and funny and at which crying is discouraged. And an island that goes completely dark for one day a year.",
+   "memberIds": [
+    "kanda_empat",
+    "ancestors",
+    "ngaben",
+    "nyepi",
+    "canang",
+    "bhuta_kala"
+   ],
+   "connectorCaption": "All of it performed, painted, played and shown"
+  },
+  {
+   "title": "The Arts",
+   "blurb": "One man behind a screen with a lamp, doing every voice from dark until dawn. An orchestra owned by the village and tuned deliberately out of tune with itself so the notes beat. And taksu - the thing that either arrives during a performance or does not, and everyone can tell.",
+   "memberIds": [
+    "wayang",
+    "kamasan",
+    "taksu",
+    "gamelan",
+    "besakih"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "frame",
+   "label": "The Frame",
+   "memberIds": [
+    "acintya",
+    "rwa_bhineda",
+    "kaja_kelod"
+   ]
+  },
+  {
+   "id": "pair",
+   "label": "Barong and Rangda",
+   "memberIds": [
+    "barong",
+    "rangda",
+    "kris",
+    "taksu"
+   ]
+  },
+  {
+   "id": "night",
+   "label": "After Dark",
+   "memberIds": [
+    "leyak",
+    "calon_arang",
+    "bhuta_kala",
+    "rangda"
+   ]
+  },
+  {
+   "id": "water",
+   "label": "Water and Rice",
+   "memberIds": [
+    "dewi_danu",
+    "dewi_sri",
+    "subak",
+    "tirta"
+   ]
+  },
+  {
+   "id": "compound",
+   "label": "The House Compound",
+   "memberIds": [
+    "kanda_empat",
+    "ancestors",
+    "canang",
+    "kaja_kelod"
+   ]
+  },
+  {
+   "id": "calendar",
+   "label": "On the Calendar",
+   "memberIds": [
+    "nyepi",
+    "ngaben",
+    "besakih",
+    "bhuta_kala"
+   ]
+  },
+  {
+   "id": "arts",
+   "label": "The Arts",
+   "memberIds": [
+    "wayang",
+    "kamasan",
+    "gamelan",
+    "taksu"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-empty-throne",
+   "title": "Nobody Is Sitting On It",
+   "era": "The Frame",
+   "cast": [
+    "acintya",
+    "rwa_bhineda"
+   ],
+   "summary": "In the most sacred corner of every Balinese temple stands a padmasana - a tall stone seat on a carved base, elaborately worked, facing kaja-kangin - and it is empty. That is not an omission. Sanghyang Widhi Wasa, who is also Acintya, the unthinkable, is the one godhead of which everything else including Shiva and Vishnu is an aspect, and he cannot be represented, so the throne is left for him and nobody sits on it. The modern emphasis on his oneness was sharpened in the twentieth century, partly because Indonesian law requires a recognised religion to be monotheistic, but the empty seat is older than the argument and says the thing more economically than any doctrine could.",
+   "sources": [
+    {
+     "book": "Island of Bali",
+     "translation": "Miguel Covarrubias, 1937",
+     "location": "The gods",
+     "url": "https://archive.org/details/islandofbali0000cova"
+    },
+    {
+     "book": "Traditional Balinese Culture",
+     "translation": "Jane Belo, ed., 1970",
+     "location": "Temple structure",
+     "url": "https://archive.org/details/traditionalbalin0000belo"
+    }
+   ]
+  },
+  {
+   "id": "nobody-wins",
+   "title": "The Fight That Does Not End",
+   "era": "The Pair",
+   "cast": [
+    "barong",
+    "rangda",
+    "kris",
+    "taksu"
+   ],
+   "summary": "The Barong comes out - a shaggy beast with a gilded snapping mask, worked by two men - and the village is pleased to see him. Then Rangda comes: the widow, tusks, bulging eyes, a tongue to her knees, white cloth. The Barong's supporters draw their krises and rush her, and she raises the white cloth and turns them, and every one of them goes into trance and turns the point of his own blade inward and presses it against his chest with both hands, and the blades do not go in. Men have to be caught and held. Afterwards a priest sprinkles holy water and brings them round, and some of them have no memory of it. The fight does not resolve. It is not supposed to. Both masks go back into the temple and are given offerings.",
+   "sources": [
+    {
+     "book": "Traditional Balinese Culture",
+     "translation": "Jane Belo, ed., 1970",
+     "location": "Trance in Bali",
+     "url": "https://archive.org/details/traditionalbalin0000belo"
+    },
+    {
+     "book": "Island of Bali",
+     "translation": "Miguel Covarrubias, 1937",
+     "location": "The Barong play",
+     "url": "https://archive.org/details/islandofbali0000cova"
+    }
+   ]
+  },
+  {
+   "id": "the-water-temples",
+   "title": "They Turned Off the Schedule",
+   "era": "The Water",
+   "cast": [
+    "dewi_danu",
+    "subak",
+    "dewi_sri"
+   ],
+   "summary": "For a thousand years the planting of rice across Bali was scheduled through a network of water temples running down from Lake Batur, and the schedule staggered planting between subaks so that water was shared and pests had nowhere to move to. In the 1970s the Green Revolution arrived, agricultural planners identified the temples as religious superstition obstructing modern practice, and continuous cropping of new varieties was imposed from above. Within a few years there were water shortages and enormous pest outbreaks. In the 1980s Stephen Lansing and a systems ecologist modelled the old temple schedule and found it produced yields close to the theoretical optimum, and that no central planner had designed it - it had emerged from neighbouring subaks negotiating.",
+   "sources": [
+    {
+     "book": "Priests and Programmers: Technologies of Power in the Engineered Landscape of Bali",
+     "translation": "J. Stephen Lansing, 1991 - on the subak water temples",
+     "location": "Priests and Programmers",
+     "url": "https://archive.org/details/priestsprogramme0000lans"
+    }
+   ]
+  },
+  {
+   "id": "the-day-of-silence",
+   "title": "The Island Goes Dark",
+   "era": "The Household",
+   "cast": [
+    "nyepi",
+    "bhuta_kala",
+    "canang"
+   ],
+   "summary": "On the night before Nyepi the villages bring out the ogoh-ogoh - enormous papier-mache demons that the youth groups have spent weeks building, some of them several metres high - and parade them through the streets with gongs and torches, spinning them at crossroads, and then burn them. The next day the entire island stops. No lights, no fires, no work, no travel, no entertainment; the strict do not eat or speak. Ngurah Rai airport shuts for twenty-four hours, the only airport on earth that closes annually for a religious observance, and traffic on the island is limited to ambulances. The reasoning is that demons passing over will look down, see a dark and silent and apparently empty island, and go elsewhere.",
+   "sources": [
+    {
+     "book": "Island of Bali",
+     "translation": "Miguel Covarrubias, 1937",
+     "location": "The calendar",
+     "url": "https://archive.org/details/islandofbali0000cova"
+    }
+   ]
+  },
+  {
+   "id": "four-siblings",
+   "title": "Buried By the Door in a Coconut",
+   "era": "The Household",
+   "cast": [
+    "kanda_empat",
+    "ancestors",
+    "canang"
+   ],
+   "summary": "Everyone is born with four siblings: the amniotic fluid, the blood, the caul and the placenta with its cord. They are physical, and they are also beings who stay with the person for the whole of their life. The placenta is washed, placed in a coconut and buried immediately beside the door of the house compound - on the right for a boy, on the left for a girl - with a stone laid over it and a small shrine set up, and offerings are put there. The four are fed at particular ceremonies and addressed by name, and looked after properly they protect the person, particularly in infancy when the leyak are interested. It is one of the pieces of Balinese religion with no Indian antecedent at all.",
+   "sources": [
+    {
+     "book": "Island of Bali",
+     "translation": "Miguel Covarrubias, 1937",
+     "location": "Birth",
+     "url": "https://archive.org/details/islandofbali0000cova"
+    },
+    {
+     "book": "Traditional Balinese Culture",
+     "translation": "Jane Belo, ed., 1970",
+     "location": "The kanda empat",
+     "url": "https://archive.org/details/traditionalbalin0000belo"
+    }
+   ]
+  },
+  {
+   "id": "the-tower",
+   "title": "Spun Round at the Crossroads",
+   "era": "The Household",
+   "cast": [
+    "ngaben",
+    "ancestors"
+   ],
+   "summary": "A body may wait in the ground for years until the family can afford ngaben or until enough families can share one. Then it is exhumed and carried to the cremation ground on a wadah - a tiered tower, sometimes eleven levels, built of bamboo and paper and gilt, borne on the shoulders of a hundred men at a run - and put into a wooden bull and burned. At every crossroads on the route the whole tower is spun round several times as fast as the bearers can manage, to disorient the soul so that it cannot find its way back to the house. It is chaotic, extremely loud, frequently funny, and weeping is discouraged, because grief is understood to hold the soul back from going.",
+   "sources": [
+    {
+     "book": "Island of Bali",
+     "translation": "Miguel Covarrubias, 1937",
+     "location": "Death and cremation",
+     "url": "https://archive.org/details/islandofbali0000cova"
+    }
+   ]
+  },
+  {
+   "id": "taksu",
+   "title": "It Either Arrives or It Does Not",
+   "era": "The Arts",
+   "cast": [
+    "taksu",
+    "wayang",
+    "gamelan",
+    "barong"
+   ],
+   "summary": "There is a word for the difference between a performance that is technically correct and one in which something is present, and the word is taksu. A dancer with taksu is not understood to be dancing well; she is understood to be occupied - the character has come. It cannot be practised into existence and it is asked for: there is a taksu shrine in every house compound and behind every performance space, and offerings are made at it before going on. Afterwards people will say plainly whether it was there. The same word is used of a healer whose treatments work and of a shop that unaccountably does better than the identical shop next to it.",
+   "sources": [
+    {
+     "book": "Traditional Balinese Culture",
+     "translation": "Jane Belo, ed., 1970",
+     "location": "Performance",
+     "url": "https://archive.org/details/traditionalbalin0000belo"
+    },
+    {
+     "book": "Island of Bali",
+     "translation": "Miguel Covarrubias, 1937",
+     "location": "The dance",
+     "url": "https://archive.org/details/islandofbali0000cova"
+    }
+   ]
+  },
+  {
+   "id": "the-lava",
+   "title": "It Stopped Short of the Temple",
+   "era": "The Arts",
+   "cast": [
+    "besakih",
+    "acintya",
+    "kaja_kelod"
+   ],
+   "summary": "In 1963 the priests of Besakih were preparing Eka Dasa Rudra, the greatest ceremony in the Balinese calendar, held once every hundred years. It had been brought forward on the instructions of the political authorities. While the preparations were under way Gunung Agung, the volcano on whose slope the temple sits, erupted - one of the largest eruptions of the twentieth century. Around fifteen hundred people were killed. The pyroclastic flows came down the mountain past Besakih, within metres of it, and did not touch the temple. Both of the available conclusions were drawn at the time, loudly, and both are still drawn. The ceremony was eventually completed in 1979.",
+   "sources": [
+    {
+     "book": "Negara: The Theatre State in Nineteenth-Century Bali",
+     "translation": "Clifford Geertz, 1980",
+     "location": "Bali and the state",
+     "url": "https://archive.org/details/negaratheatresta0000geer"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "acintya",
+   "name": "Sanghyang Widhi Wasa",
+   "sanskrit": "Acintya",
+   "category": "primordial",
+   "era": "The Frame",
+   "role": "The one godhead, shown as an empty throne with nobody sitting in it",
+   "wikipedia": "Acintya",
+   "portrait": "portraits/balinese/acintya.webp",
+   "epithets": [
+    "Acintya, the unthinkable",
+    "Sanghyang Widhi Wasa",
+    "Tunggal, the one"
+   ],
+   "domains": [
+    "the whole of it",
+    "everything else being an aspect of him",
+    "emptiness"
+   ],
+   "symbols": [
+    "the padmasana, a tall empty stone throne",
+    "the naked figure ringed with flame",
+    "the empty seat"
+   ],
+   "mount": null,
+   "abode": "The northeast corner of every temple, unoccupied",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every temple has a tall stone throne in the corner with nothing on it. That is the point.",
+   "longBio": "Sanghyang Widhi Wasa is the single godhead of which Shiva, Vishnu, Brahma and everything else are aspects, and the formulation was sharpened in the twentieth century partly because the Indonesian state required a recognised religion to have one god. It rests on an older idea: Acintya, the unthinkable, who cannot be represented. In every Balinese temple there is a padmasana - a tall stone seat in the most sacred corner - and it is empty. Where he is depicted at all he is a plain figure ringed with flames, and the flames matter more than the figure.",
+   "variantTraditions": "The padmasana became standard relatively late, from around the sixteenth century, and is now the most recognisable feature of a Balinese temple.",
+   "storyIds": [
+    "the-empty-throne",
+    "the-lava"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "creator",
+    "fire"
+   ]
+  },
+  {
+   "id": "rwa_bhineda",
+   "name": "Rwa Bhineda",
+   "sanskrit": "Rwa Bhineda",
+   "category": "primordial",
+   "era": "The Frame",
+   "role": "Two opposed things, both necessary - and the aim is never to win",
+   "wikipedia": "Balinese_Hinduism",
+   "portrait": "portraits/balinese/rwa_bhineda.webp",
+   "epithets": [
+    "the two that differ",
+    "the black and white cloth"
+   ],
+   "domains": [
+    "balance",
+    "opposition",
+    "the poleng cloth",
+    "day and night"
+   ],
+   "symbols": [
+    "the black and white chequered poleng cloth wrapped round statues and trees"
+   ],
+   "mount": null,
+   "abode": "Everywhere in Bali",
+   "festivals": [],
+   "worship": "",
+   "bio": "The black-and-white chequered cloth on every statue and tree on the island is this idea.",
+   "longBio": "Rwa bhineda means the two that differ, and it is the load-bearing idea of Balinese thought: good and bad, order and disorder, mountain and sea, are a pair, both are necessary, and the aim is not for one to defeat the other but for the two to be held level. This is why the Barong and Rangda never resolve, why offerings go to the demons on the ground as well as to the gods on the shrine, and why the black-and-white chequered poleng cloth is tied round statues, trees, gateposts and shrines all over the island. It is not decoration; it is a statement.",
+   "variantTraditions": "The related three-colour form, tridatu, adds red and is worn as a bracelet.",
+   "storyIds": [
+    "the-empty-throne"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "fate-time",
+    "preserver",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "kaja_kelod",
+   "name": "Kaja and Kelod",
+   "sanskrit": "Kaja-kelod",
+   "category": "primordial",
+   "era": "The Frame",
+   "role": "Toward the mountain and toward the sea - and Balinese give directions this way",
+   "wikipedia": "Balinese_Hinduism",
+   "portrait": "portraits/balinese/kaja_kelod.webp",
+   "epithets": [
+    "kaja, toward the mountain",
+    "kelod, toward the sea"
+   ],
+   "domains": [
+    "orientation",
+    "purity",
+    "the layout of houses and temples",
+    "which way you sleep"
+   ],
+   "symbols": [
+    "the mountain",
+    "the sea",
+    "the head of the bed"
+   ],
+   "mount": null,
+   "abode": "The whole island",
+   "festivals": [],
+   "worship": "",
+   "bio": "Ask a direction in Bali and you may be told kaja, which means uphill, which means north or south depending where you stand.",
+   "longBio": "Bali is oriented on a moral axis rather than a compass one. Kaja is toward the mountain and is pure; kelod is toward the sea and is not. Every house compound puts the family temple kaja and the pigsty and the rubbish kelod; every village has its main temple at the kaja end and its temple of the dead at the kelod end; you sleep with your head kaja. Because the mountains are in the middle of the island, kaja is north on the south coast and south on the north coast, and Balinese give directions this way, so the entire population navigates by a gradient of purity.",
+   "variantTraditions": "In the mountains the axis is supplemented by kangin and kauh, east and west, and the resulting nine-point scheme is the nawa sanga.",
+   "storyIds": [
+    "the-lava"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "barong",
+   "name": "Barong",
+   "sanskrit": "Barong Ket",
+   "category": "beast",
+   "era": "The Pair",
+   "role": "A shaggy lion worked by two men, protector of the village, and he never actually wins",
+   "wikipedia": "Barong",
+   "portrait": "portraits/balinese/barong.webp",
+   "epithets": [
+    "Barong Ket",
+    "the lord of the forest",
+    "banas pati raja"
+   ],
+   "domains": [
+    "protection",
+    "the village",
+    "the forest",
+    "good, insofar as that means anything here"
+   ],
+   "symbols": [
+    "the gilded mask with a beard of human hair",
+    "the two dancers",
+    "the clacking jaw"
+   ],
+   "mount": null,
+   "abode": "The village temple, in his own shrine",
+   "festivals": [],
+   "worship": "",
+   "bio": "The mask is charged and is kept in the temple, not in a props cupboard.",
+   "longBio": "The Barong is a large shaggy beast operated by two dancers, with a gilded snapping-jawed mask and a beard into which human hair is worked, and he is the protector of the village against Rangda and against sickness. The mask is not a costume: it is consecrated, kept in the temple, given offerings, and a man wearing it may be entered by the spirit it houses. He is the good half of the pair, with the qualification that Balinese thought does not really work that way. The fight with Rangda is performed regularly and neither of them ever wins it.",
+   "variantTraditions": "Several kinds of barong exist - boar, tiger, elephant - but Barong Ket, the lion form, is the commonest and the one meant when the word is used alone.",
+   "storyIds": [
+    "nobody-wins",
+    "taksu"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "preserver",
+    "divine-beast",
+    "healer",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "rangda",
+   "name": "Rangda",
+   "sanskrit": "Rangda",
+   "category": "underworld",
+   "era": "The Pair",
+   "role": "The widow-witch with the long tongue and the entrails, and she is not simply evil",
+   "wikipedia": "Rangda",
+   "portrait": "portraits/balinese/rangda.webp",
+   "epithets": [
+    "the widow",
+    "the queen of the leyak",
+    "Calon Arang in the story behind her"
+   ],
+   "domains": [
+    "witchcraft",
+    "plague",
+    "the leyak",
+    "childbed death",
+    "the necessary other half"
+   ],
+   "symbols": [
+    "the mask with bulging eyes and tusks",
+    "the enormously long tongue",
+    "the white cloth"
+   ],
+   "mount": null,
+   "abode": "The temple of the dead, at the kelod end",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her mask is also consecrated, also kept in a temple, and is treated with more care than the Barong's.",
+   "longBio": "Rangda's name simply means widow. She has bulging eyes, tusks, pendulous breasts, a tongue reaching to her knees, and she leads the leyak and sends plague. Her mask is at least as sacred as the Barong's and is treated with more caution: it is kept in a temple, given offerings, and a dancer wearing it is understood to be at genuine risk. She is not the devil and she is not defeated. In the performance the Barong's supporters attack her with krises, she turns the blades back on them so that they stab at themselves, and the trance is real and has to be undone by a priest afterwards.",
+   "variantTraditions": "The story behind her is Calon Arang, an eleventh-century Javanese tale of a widow whose daughter nobody would marry and who took it out on the kingdom.",
+   "storyIds": [
+    "nobody-wins"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "destroyer",
+    "primordial-adversary",
+    "death-judge",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "calon_arang",
+   "name": "Calon Arang",
+   "sanskrit": "Calon Arang",
+   "category": "underworld",
+   "era": "The Pair",
+   "role": "A widow whose daughter nobody would marry, so she killed half the kingdom",
+   "wikipedia": "Calon_Arang",
+   "portrait": "portraits/balinese/calon_arang.webp",
+   "epithets": [
+    "the widow of Girah",
+    "the one behind Rangda"
+   ],
+   "domains": [
+    "plague",
+    "insult",
+    "revenge",
+    "the daughter nobody would marry"
+   ],
+   "symbols": [
+    "the graveyard",
+    "the book of black magic",
+    "the daughter, Ratna Manggali"
+   ],
+   "mount": null,
+   "abode": "Girah, in eleventh-century Java",
+   "festivals": [],
+   "worship": "",
+   "bio": "Everyone was too frightened of her to marry the girl, so she made it much worse.",
+   "longBio": "Calon Arang was a widow in eleventh-century Java, a formidable practitioner of magic, whose daughter Ratna Manggali was beautiful and whom nobody in the kingdom would marry because they were all afraid of her mother. Enraged, she went to the graveyard with her followers and raised a plague that killed a great part of the population. King Airlangga sent his priest Mpu Bharada, who arranged for his own son to marry the daughter, obtained her book of magic, and confronted and destroyed her. The story is performed as drama, and the Rangda who appears at the end of it is her.",
+   "variantTraditions": "Airlangga was a real king who reigned in Java from 1019 to 1049; the tale is preserved in Old Javanese and is still staged.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "destroyer",
+    "primordial-adversary",
+    "love-desire",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "leyak",
+   "name": "The Leyak",
+   "sanskrit": "Leyak",
+   "category": "underworld",
+   "era": "The Pair",
+   "role": "A head with the entrails still attached, flying about at night looking for a pregnant woman",
+   "wikipedia": "Leak_(mythology)",
+   "portrait": "portraits/balinese/leyak.webp",
+   "epithets": [
+    "leak",
+    "the flying head",
+    "Rangda's followers"
+   ],
+   "domains": [
+    "black magic",
+    "the night",
+    "graveyards",
+    "newborns and pregnant women"
+   ],
+   "symbols": [
+    "the detached head trailing lungs and heart",
+    "the graveyard",
+    "the blue flame"
+   ],
+   "mount": null,
+   "abode": "Graveyards, and the air above the village at night",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is a living person who has learned to detach their head and go out with it.",
+   "longBio": "A leyak is not a ghost - it is a living practitioner of the left-hand side of Balinese magic who has learned to leave the body: the head detaches with the entrails hanging from it and flies about at night, and it is particularly interested in pregnant women and newborn babies, whose blood it wants. They are said to appear as fireballs, or as a monkey or a pig or a large bird. Belief is widespread and current, and precautions around childbirth are taken accordingly. Rangda is their queen. Everyone knows somebody who has seen one.",
+   "variantTraditions": "The word is often spelled leak; balian - traditional healers - are consulted about them and some are suspected of being them.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "sage-seer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "kris",
+   "name": "The Kris",
+   "sanskrit": "Keris",
+   "category": "primordial",
+   "era": "The Pair",
+   "role": "A wavy blade with a name, a personality and a temperature, and it can turn on its holder",
+   "wikipedia": "Kris",
+   "portrait": "portraits/balinese/kris.webp",
+   "epithets": [
+    "keris",
+    "the family blade"
+   ],
+   "domains": [
+    "heirloom",
+    "power",
+    "the trance",
+    "protection"
+   ],
+   "symbols": [
+    "the wavy pamor-patterned blade",
+    "the offerings made to it",
+    "the blade turned inward"
+   ],
+   "mount": null,
+   "abode": "The family shrine",
+   "festivals": [],
+   "worship": "",
+   "bio": "In the Barong dance the men stab at their own chests and the blade does not go in.",
+   "longBio": "A kris is not simply a weapon. It has a name, an inherited history, a temperature, and a disposition, and a family heirloom blade is kept in the house shrine and given offerings on its own festival day. The pattern in the steel, pamor, is made by folding nickel-bearing meteoric iron into the blade. In the Barong and Rangda performance the Barong's men draw their krises and rush Rangda, and she turns them, and they fall into trance and press the points against their own chests - and the blades do not go in, and the men have to be brought out of it by a priest afterwards.",
+   "variantTraditions": "The kris is Indonesian rather than specifically Balinese and is on the UNESCO Intangible Heritage list.",
+   "storyIds": [
+    "nobody-wins"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "war",
+    "wisdom-craft",
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "dewi_danu",
+   "name": "Dewi Danu",
+   "sanskrit": "Dewi Danu",
+   "category": "deity",
+   "era": "The Water",
+   "role": "The goddess of the crater lake, and her priests ran the island's irrigation for a thousand years",
+   "wikipedia": "Batur_(volcano)",
+   "portrait": "portraits/balinese/dewi_danu.webp",
+   "epithets": [
+    "the goddess of the lake",
+    "the one at Batur"
+   ],
+   "domains": [
+    "water",
+    "lakes",
+    "irrigation",
+    "the rice terraces",
+    "the temple at Batur"
+   ],
+   "symbols": [
+    "Lake Batur",
+    "the water temple",
+    "the flow of water down the terraces"
+   ],
+   "mount": null,
+   "abode": "Lake Batur, in the crater",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Green Revolution overrode her temple's schedule in the 1970s and the harvest collapsed.",
+   "longBio": "Dewi Danu is the goddess of Lake Batur, which is the source of the water for a large part of Bali's rice terraces, and her temple sat at the head of a network of water temples that coordinated irrigation across the island. Each subak - a farmers' association - drew water on a schedule set through that network, which staggered planting so that pests had nowhere to go and water was shared. In the 1970s agricultural planners dismissed the temples as superstition and imposed continuous cropping, and pests and water shortage followed, and computer modelling in the 1980s showed the temple schedule had been close to optimal.",
+   "variantTraditions": "Lansing's work in the 1980s and 90s established this and the subak system was inscribed by UNESCO in 2012.",
+   "storyIds": [
+    "the-water-temples"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother",
+    "wealth-fortune",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "dewi_sri",
+   "name": "Dewi Sri",
+   "sanskrit": "Dewi Sri",
+   "category": "deity",
+   "era": "The Water",
+   "role": "Rice, which is not a crop here but a person, and she is in the field and the granary",
+   "wikipedia": "Dewi_Sri",
+   "portrait": "portraits/balinese/dewi_sri.webp",
+   "epithets": [
+    "Nini Pantun",
+    "the rice mother",
+    "Sri"
+   ],
+   "domains": [
+    "rice",
+    "fertility",
+    "the granary",
+    "the harvest"
+   ],
+   "symbols": [
+    "the cili, a fan-shaped female figure woven from palm leaf",
+    "the rice granary",
+    "the first sheaf"
+   ],
+   "mount": null,
+   "abode": "The rice field and the granary",
+   "festivals": [],
+   "worship": "",
+   "bio": "The little fan-shaped palm-leaf figures on every shrine and granary in Bali are her.",
+   "longBio": "Dewi Sri is rice, and rice in Bali is not treated as a crop. She is in the field from planting, is addressed at each stage, is carried home as the rice mother in a bundle of the first stalks, and is installed in the granary. The cili - a flat fan-shaped female figure with a wide headdress, woven from young palm leaf - is her sign and is on shrines, granaries and offerings everywhere. Cutting rice with a large blade was avoided so as not to frighten her, and the small palm-leaf finger knife was used instead, one stalk at a time.",
+   "variantTraditions": "Dewi Sri is Javanese and Balinese and considerably older than the Hindu layer; she is identified with Lakshmi secondarily.",
+   "storyIds": [
+    "the-water-temples"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wealth-fortune",
+    "preserver",
+    "healer"
+   ]
+  },
+  {
+   "id": "subak",
+   "name": "The Subak",
+   "sanskrit": "Subak",
+   "category": "primordial",
+   "era": "The Water",
+   "role": "A farmers' association that is also a congregation, and it has run for a thousand years",
+   "wikipedia": "Subak_(irrigation)",
+   "portrait": "portraits/balinese/subak.webp",
+   "epithets": [
+    "the irrigation association",
+    "the water society"
+   ],
+   "domains": [
+    "irrigation",
+    "cooperation",
+    "the water temple",
+    "the rice terraces"
+   ],
+   "symbols": [
+    "the weir",
+    "the water temple at the head of the channel",
+    "the terraces"
+   ],
+   "mount": null,
+   "abode": "Every watershed in Bali",
+   "festivals": [],
+   "worship": "",
+   "bio": "Membership is by which channel your field is on, and it comes with religious obligations.",
+   "longBio": "A subak is the group of farmers whose fields draw from one water channel, and it is simultaneously a cooperative, a legal body and a religious congregation with its own temple at the head of the channel. It sets the planting schedule, maintains the works, allocates the water and fines people who take more than their share, and it has done so since at least the ninth century. The system is bottom-up: no central authority ever ran it, and the coordination emerged from neighbouring subaks negotiating through their temples. It is one of the best-documented cases anywhere of a common resource managed without a state.",
+   "variantTraditions": "UNESCO inscribed the subak landscape in 2012 explicitly on the basis of Tri Hita Karana, the philosophy of balance it embodies.",
+   "storyIds": [
+    "the-water-temples"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "wealth-fortune",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "tirta",
+   "name": "Holy Water",
+   "sanskrit": "Tirta",
+   "category": "primordial",
+   "era": "The Water",
+   "role": "The whole religion is named after it - Agama Tirta, the religion of holy water",
+   "wikipedia": "Balinese_Hinduism",
+   "portrait": "portraits/balinese/tirta.webp",
+   "epithets": [
+    "tirta",
+    "the water of the priest"
+   ],
+   "domains": [
+    "purification",
+    "blessing",
+    "every ceremony",
+    "the priest's bell"
+   ],
+   "symbols": [
+    "the priest's vessel and flower",
+    "the sprinkling",
+    "the water taken home in a bottle"
+   ],
+   "mount": null,
+   "abode": "Everywhere a ceremony happens",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is sprinkled on you, sipped three times, and put on the head. Every ceremony ends this way.",
+   "longBio": "Balinese Hinduism was called Agama Tirta, the religion of holy water, before it was called anything else, and tirta is the operative substance of the whole system. A pedanda, a high priest, makes it by ritual over water in a vessel while ringing a bell, and it is then sprinkled on people and objects, sipped three times from the palm, and put on the head. Every ceremony of any kind ends this way. It is carried home in bottles, used on new vehicles and buildings, and given to the sick, and it is the practical mechanism by which a blessing gets from a priest to a person.",
+   "variantTraditions": "The making of tirta is the pedanda's central function and the sequence is long and precise.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "healer",
+    "preserver",
+    "supreme-source",
+    "sea-waters"
+   ]
+  },
+  {
+   "id": "kanda_empat",
+   "name": "The Kanda Empat",
+   "sanskrit": "Kanda Empat",
+   "category": "nature",
+   "era": "The Household",
+   "role": "Four siblings born with you - the blood, the caul, the fluid and the cord",
+   "wikipedia": "Balinese_Hinduism",
+   "portrait": "portraits/balinese/kanda_empat.webp",
+   "epithets": [
+    "the four siblings",
+    "the four brothers"
+   ],
+   "domains": [
+    "birth",
+    "protection",
+    "the placenta",
+    "the four directions"
+   ],
+   "symbols": [
+    "the placenta buried in a coconut by the house door",
+    "the four offerings"
+   ],
+   "mount": null,
+   "abode": "Buried at the gate of the house you were born in",
+   "festivals": [],
+   "worship": "",
+   "bio": "The placenta is buried by the door in a coconut and is fed for the rest of your life.",
+   "longBio": "Every Balinese is born with four siblings: the amniotic fluid, the blood, the vernix or caul, and the umbilical cord and placenta. They are real physical things and they are also beings who accompany the person for life, and they are fed - small offerings, at particular ceremonies, addressed by name. The placenta is washed, put in a coconut and buried beside the house door, on the right for a boy and the left for a girl, with a stone over it and a small shrine, and it is given offerings. Handled properly the four protect you; neglected, they do not.",
+   "variantTraditions": "The kanda empat belief is distinctively Balinese and has no close Indian parallel.",
+   "storyIds": [
+    "four-siblings"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "preserver",
+    "healer",
+    "fate-time",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "ancestors",
+   "name": "The Deified Ancestors",
+   "sanskrit": "Betara Hyang",
+   "category": "underworld",
+   "era": "The Household",
+   "role": "Your grandparents, in the family shrine, being fed - and eventually reborn as your children",
+   "wikipedia": "Balinese_Hinduism",
+   "portrait": "portraits/balinese/ancestors.webp",
+   "epithets": [
+    "the ancestors",
+    "the ones in the sanggah",
+    "betara hyang"
+   ],
+   "domains": [
+    "the family",
+    "the compound temple",
+    "rebirth into the same family",
+    "offerings"
+   ],
+   "symbols": [
+    "the sanggah or merajan in the kaja-kangin corner",
+    "the daily offerings",
+    "the family line"
+   ],
+   "mount": null,
+   "abode": "The family temple in the corner of the house compound",
+   "festivals": [],
+   "worship": "",
+   "bio": "Balinese reincarnation is local: you come back into your own family, usually within a few generations.",
+   "longBio": "After cremation and the further purification ceremonies, a soul is installed in the family temple as a deified ancestor - not a ghost but a member of the household in a new capacity, with a shrine, daily offerings and a say in things. From there it is expected to be reborn into the same descent group, often as a great-grandchild, and a baby may be identified by a balian as a particular returning ancestor. The Balinese arrangement is therefore closed and local: the family is a rotating population of the same people, and the obligations run in both directions.",
+   "variantTraditions": "This differs substantially from Indian conceptions of rebirth, which are not confined to a lineage.",
+   "storyIds": [
+    "four-siblings",
+    "the-tower"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "preserver",
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "ngaben",
+   "name": "Ngaben",
+   "sanskrit": "Ngaben",
+   "category": "primordial",
+   "era": "The Household",
+   "role": "The cremation - loud, enormous, expensive, and emphatically not a sad occasion",
+   "wikipedia": "Ngaben",
+   "portrait": "portraits/balinese/ngaben.webp",
+   "epithets": [
+    "the cremation",
+    "the burning"
+   ],
+   "domains": [
+    "death",
+    "release",
+    "the tower",
+    "the bull-shaped sarcophagus"
+   ],
+   "symbols": [
+    "the multi-tiered cremation tower carried by dozens of men",
+    "the wooden bull",
+    "the crossroads spin"
+   ],
+   "mount": null,
+   "abode": "The cremation ground, at the kelod end",
+   "festivals": [],
+   "worship": "",
+   "bio": "The tower is deliberately spun round at crossroads so the soul cannot find its way back.",
+   "longBio": "A body may be buried for years until the family can afford ngaben, or until several families can share one. Then the body is brought out, carried to the cremation ground on a towering multi-tiered wadah borne on the shoulders of a large crowd, transferred into a wooden bull or other creature according to caste, and burned. The tower is spun round at every crossroads on the way so that the soul becomes disoriented and cannot find the route home. It is noisy, chaotic, sometimes very funny, and crying is discouraged, because grief holds the soul back.",
+   "variantTraditions": "Mass cremations organised by a village or a temple make the cost bearable and are increasingly the norm.",
+   "storyIds": [
+    "the-tower"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "death-judge",
+    "fire",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "nyepi",
+   "name": "Nyepi",
+   "sanskrit": "Nyepi",
+   "category": "primordial",
+   "era": "The Household",
+   "role": "The whole island shuts down for a day - no light, no work, no travel, and the airport closes",
+   "wikipedia": "Nyepi",
+   "portrait": "portraits/balinese/nyepi.webp",
+   "epithets": [
+    "the day of silence",
+    "the Balinese new year"
+   ],
+   "domains": [
+    "silence",
+    "the new year",
+    "the ogoh-ogoh",
+    "hiding from the demons"
+   ],
+   "symbols": [
+    "the ogoh-ogoh paraded and burned the night before",
+    "the empty streets",
+    "the dark island"
+   ],
+   "mount": null,
+   "abode": "The whole of Bali, for twenty-four hours",
+   "festivals": [],
+   "worship": "",
+   "bio": "The airport closes. Nobody drives. Lights stay off. Even tourists have to stay inside.",
+   "longBio": "The night before Nyepi, villages parade enormous papier-mache demon effigies - ogoh-ogoh, built for weeks by the youth groups, some of them several metres tall - through the streets with gongs and torches, then burn them. The following day the island stops completely: no fires or lights, no work, no travel, no entertainment, and for the strict no eating or speaking. Ngurah Rai airport shuts for twenty-four hours, the only airport in the world that closes annually for a religious observance. The stated logic is that the demons passing over will see an empty, dark, silent island and conclude nobody lives there.",
+   "variantTraditions": "The ogoh-ogoh tradition in its current elaborate form dates only from the 1980s; Nyepi itself is old.",
+   "storyIds": [
+    "the-day-of-silence"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fate-time",
+    "destroyer",
+    "preserver",
+    "fire"
+   ]
+  },
+  {
+   "id": "canang",
+   "name": "Canang Sari",
+   "sanskrit": "Canang sari",
+   "category": "primordial",
+   "era": "The Household",
+   "role": "Small palm-leaf trays of flowers put out several times a day, including on the ground",
+   "wikipedia": "Canang_sari",
+   "portrait": "portraits/balinese/canang.webp",
+   "epithets": [
+    "the daily offering",
+    "the little tray"
+   ],
+   "domains": [
+    "offering",
+    "gratitude",
+    "the demons' share",
+    "flowers"
+   ],
+   "symbols": [
+    "the woven palm-leaf tray",
+    "flowers of four colours",
+    "a stick of incense",
+    "a few grains of rice"
+   ],
+   "mount": null,
+   "abode": "The shrine, the gate, the kitchen, the shop counter, the dashboard, the ground",
+   "festivals": [],
+   "worship": "",
+   "bio": "The ones placed on the ground are for the demons and are as important as the ones on the shrine.",
+   "longBio": "A canang sari is a small square tray woven from young palm leaf, filled with flowers of the four colours arranged by direction, a little rice, a sweet, and a lit stick of incense, and Balinese households make and place them several times a day - at the house shrine, at the gate, in the kitchen, at the shop counter, on the motorbike, and on the ground. The ones on the ground are for the bhuta kala, the low spirits, and are not an afterthought: giving the negative forces their share is the mechanism that keeps things level. An estimated several million are made on the island every day.",
+   "variantTraditions": "The making is women's work and takes a substantial part of the day; ready-made trays are now sold in markets.",
+   "storyIds": [
+    "the-day-of-silence",
+    "four-siblings"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "preserver",
+    "healer",
+    "wisdom-craft",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "bhuta_kala",
+   "name": "The Bhuta Kala",
+   "sanskrit": "Bhuta kala",
+   "category": "underworld",
+   "era": "The Household",
+   "role": "The low spirits at ground level, who are given their portion so they will go away",
+   "wikipedia": "Balinese_Hinduism",
+   "portrait": "portraits/balinese/bhuta_kala.webp",
+   "epithets": [
+    "the bhuta",
+    "the kala",
+    "the ones on the ground"
+   ],
+   "domains": [
+    "disorder",
+    "sickness",
+    "the crossroads",
+    "the share they are owed"
+   ],
+   "symbols": [
+    "the offering set on the ground",
+    "the crossroads",
+    "the ogoh-ogoh built in their image"
+   ],
+   "mount": null,
+   "abode": "Ground level, crossroads, the kelod end of everything",
+   "festivals": [],
+   "worship": "",
+   "bio": "You do not fight them. You feed them, correctly, and then they have no business with you.",
+   "longBio": "Bhuta kala are the low, disorderly, hungry forces - not devils exactly, and not moral opponents. They are dealt with by feeding: the offerings placed on the ground at every household several times a day are theirs, and larger periodic ceremonies, mecaru, put out substantial offerings at crossroads and village boundaries specifically to satisfy them. The reasoning is entirely consistent with rwa bhineda: they are a necessary part of the arrangement, they have a legitimate claim, and the way to be untroubled by them is to pay it.",
+   "variantTraditions": "Bhuta means element or being and kala means time or energy; neither word originally meant demon.",
+   "storyIds": [
+    "the-day-of-silence"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "preserver",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "wayang",
+   "name": "Wayang Kulit",
+   "sanskrit": "Wayang kulit",
+   "category": "primordial",
+   "era": "The Arts",
+   "role": "Shadow puppets behind a lamp, run all night by one man doing every voice",
+   "wikipedia": "Wayang",
+   "portrait": "portraits/balinese/wayang.webp",
+   "epithets": [
+    "the shadow play",
+    "the dalang who works it"
+   ],
+   "domains": [
+    "story",
+    "the Mahabharata and Ramayana",
+    "the priest-puppeteer",
+    "the lamp"
+   ],
+   "symbols": [
+    "the perforated leather puppets",
+    "the coconut-oil lamp",
+    "the screen",
+    "the tree-shaped kayonan"
+   ],
+   "mount": null,
+   "abode": "A screen in a village, from dark until dawn",
+   "festivals": [],
+   "worship": "",
+   "bio": "The dalang is a priest as much as a performer and can make holy water.",
+   "longBio": "One man, the dalang, sits behind a white screen with a coconut-oil lamp above him and works perforated leather puppets against it, performing every voice, cueing the gamelan with his foot, and running from dark until dawn. The repertoire is Mahabharata and Ramayana, and the clown-servants who translate the archaic language into Balinese and comment on local politics are the reason people come. The dalang is a religious functionary as well as an entertainer: he is consecrated, he can make holy water, and a wayang lemah is performed in daylight as part of ceremonies with nobody watching.",
+   "variantTraditions": "Wayang kulit is Javanese and Balinese; the Balinese form is faster, rougher and funnier than the Javanese court style.",
+   "storyIds": [
+    "taksu"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "preserver",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "kamasan",
+   "name": "Kamasan Painting",
+   "sanskrit": "Kamasan",
+   "category": "primordial",
+   "era": "The Arts",
+   "role": "The classical Balinese style, painted flat in earth colours, and every gap is filled",
+   "wikipedia": "Kamasan_painting",
+   "portrait": "portraits/balinese/kamasan.webp",
+   "epithets": [
+    "the classical style",
+    "the wayang style"
+   ],
+   "domains": [
+    "painting",
+    "the temple ceiling",
+    "wayang figures",
+    "narrative"
+   ],
+   "symbols": [
+    "figures in strict three-quarter profile",
+    "natural earth pigments on cotton",
+    "no empty space"
+   ],
+   "mount": null,
+   "abode": "Kamasan village, Klungkung",
+   "festivals": [],
+   "worship": "",
+   "bio": "The refinement of a face tells you the rank of the character - coarse features mean coarse nature.",
+   "longBio": "Kamasan is a village near Klungkung where the classical Balinese painting style has been made continuously for centuries, and it is the visual language of this pack. Figures are drawn like wayang puppets - strict three-quarter profile, elongated, with the refinement of the features indicating the moral quality of the character - and painted flat in natural earth pigments on cotton, with every remaining space filled with flame motifs, rock forms and cloud. It covers the ceilings of the Kertha Gosa pavilion at Klungkung with an extremely detailed account of what happens to the wicked after death.",
+   "variantTraditions": "The style is used for temple hangings, ceiling panels and calendars; the modernist Balinese painting of the 1930s is a separate development.",
+   "storyIds": [],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "taksu",
+   "name": "Taksu",
+   "sanskrit": "Taksu",
+   "category": "primordial",
+   "era": "The Arts",
+   "role": "The thing that has to arrive or the performance is only technically correct",
+   "wikipedia": "Taksu",
+   "portrait": "portraits/balinese/taksu.webp",
+   "epithets": [
+    "the charisma",
+    "the divine presence in a performer"
+   ],
+   "domains": [
+    "performance",
+    "inspiration",
+    "presence",
+    "the shrine backstage"
+   ],
+   "symbols": [
+    "the taksu shrine in every house compound and behind every stage",
+    "the offering before going on"
+   ],
+   "mount": null,
+   "abode": "A shrine of its own, behind the stage",
+   "festivals": [],
+   "worship": "",
+   "bio": "A dancer with taksu is not doing it well. Something has arrived and is doing it.",
+   "longBio": "Taksu is the quality that distinguishes a performance which is technically accomplished from one in which something is actually present. A dancer, a puppeteer or a healer with taksu is understood not to be performing at their best but to be occupied - the god or the character has come. It cannot be produced by practice and it is asked for: there is a taksu shrine in every house compound and behind every performance space, and offerings are made at it before going on. A performer who does not have it that night will be told so afterwards, plainly.",
+   "variantTraditions": "The same word is used of a healer's efficacy and of a shop's ability to attract customers.",
+   "storyIds": [
+    "nobody-wins",
+    "taksu"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sage-seer",
+    "healer",
+    "wisdom-craft",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "gamelan",
+   "name": "The Gamelan",
+   "sanskrit": "Gamelan",
+   "category": "primordial",
+   "era": "The Arts",
+   "role": "An orchestra owned by the village, tuned in pairs so the notes beat against each other",
+   "wikipedia": "Gamelan",
+   "portrait": "portraits/balinese/gamelan.webp",
+   "epithets": [
+    "the gong kebyar",
+    "the village orchestra"
+   ],
+   "domains": [
+    "music",
+    "the village",
+    "ceremony",
+    "the shimmer"
+   ],
+   "symbols": [
+    "the bronze keys",
+    "the paired instruments tuned slightly apart",
+    "the great gong"
+   ],
+   "mount": null,
+   "abode": "The village pavilion",
+   "festivals": [],
+   "worship": "",
+   "bio": "Each pair of instruments is tuned deliberately out of tune with itself, and the beating is the sound.",
+   "longBio": "A gamelan is owned by a village or a temple, not by the players, and the players are farmers and drivers who rehearse in the evenings. Its characteristic shimmer is produced deliberately: instruments are made and tuned in pairs, one slightly higher than the other, so that when both play the same note the two frequencies beat against each other several times a second. No two gamelans are tuned alike, so an instrument cannot be borrowed from another set. The Balinese kebyar style, developed in the early twentieth century, is fast, violent and full of sudden unison stops.",
+   "variantTraditions": "Colin McPhee's transcriptions in the 1930s brought it to Western attention and it went on to influence Britten, Cage, Reich and Glass.",
+   "storyIds": [
+    "taksu"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "preserver",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "besakih",
+   "name": "Besakih",
+   "sanskrit": "Pura Besakih",
+   "category": "primordial",
+   "era": "The Arts",
+   "role": "The mother temple on the volcano, and in 1963 the lava stopped just short of it",
+   "wikipedia": "Besakih_Temple",
+   "portrait": "portraits/balinese/besakih.webp",
+   "epithets": [
+    "the mother temple",
+    "the great temple of Agung"
+   ],
+   "domains": [
+    "the mountain",
+    "the state temple",
+    "Gunung Agung",
+    "the whole island"
+   ],
+   "symbols": [
+    "the terraces up the mountainside",
+    "the split gate",
+    "Gunung Agung above it"
+   ],
+   "mount": null,
+   "abode": "The slopes of Gunung Agung",
+   "festivals": [],
+   "worship": "",
+   "bio": "The eruption killed about 1,500 people and the flows passed within metres of the temple.",
+   "longBio": "Besakih is the largest and most important temple in Bali, a complex of more than twenty temples on terraces climbing the slope of Gunung Agung, the volcano that dominates the island and is the reference point for kaja. In 1963, while the greatest of all Balinese ceremonies - Eka Dasa Rudra, held once a century - was being prepared there, Agung erupted. Around 1,500 people died and the lava came down past Besakih within metres of it and did not touch it. Both readings of that were made at the time and are still made.",
+   "variantTraditions": "The ceremony was completed in 1979. The 1963 eruption is among the largest of the twentieth century.",
+   "storyIds": [
+    "the-lava"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "preserver",
+    "king-ruler",
+    "fire",
+    "supreme-source"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "acintya",
+   "to": "rwa_bhineda",
+   "type": "guru",
+   "note": "One godhead, and the world he holds is made of pairs"
+  },
+  {
+   "from": "acintya",
+   "to": "kaja_kelod",
+   "type": "ally",
+   "note": "The empty throne stands at the kaja-kangin corner"
+  },
+  {
+   "from": "rwa_bhineda",
+   "to": "barong",
+   "type": "ally",
+   "note": "Half of the pair, and neither half wins"
+  },
+  {
+   "from": "rwa_bhineda",
+   "to": "rangda",
+   "type": "ally",
+   "note": "And the other half, and she is not simply evil"
+  },
+  {
+   "from": "barong",
+   "to": "rangda",
+   "type": "enemy",
+   "note": "Performed regularly, and it never resolves"
+  },
+  {
+   "from": "rangda",
+   "to": "barong",
+   "type": "enemy",
+   "note": "She turns the krises back on the men who come at her"
+  },
+  {
+   "from": "rangda",
+   "to": "leyak",
+   "type": "parent",
+   "note": "Their queen"
+  },
+  {
+   "from": "rangda",
+   "to": "calon_arang",
+   "type": "sibling",
+   "note": "The story she comes out of"
+  },
+  {
+   "from": "calon_arang",
+   "to": "leyak",
+   "type": "guru",
+   "note": "She took her followers to the graveyard and raised the plague"
+  },
+  {
+   "from": "barong",
+   "to": "kris",
+   "type": "ally",
+   "note": "His men draw them, and then it goes wrong"
+  },
+  {
+   "from": "kris",
+   "to": "rangda",
+   "type": "enemy",
+   "note": "Turned back, and the points go against their own chests"
+  },
+  {
+   "from": "kris",
+   "to": "ancestors",
+   "type": "ally",
+   "note": "A family blade lives in the house shrine and is fed"
+  },
+  {
+   "from": "leyak",
+   "to": "kanda_empat",
+   "type": "enemy",
+   "note": "They want newborns, and the four siblings are the protection"
+  },
+  {
+   "from": "leyak",
+   "to": "bhuta_kala",
+   "type": "sibling",
+   "note": "Two things at ground level after dark"
+  },
+  {
+   "from": "kaja_kelod",
+   "to": "besakih",
+   "type": "ally",
+   "note": "The mountain end, and the temple on it"
+  },
+  {
+   "from": "kaja_kelod",
+   "to": "ngaben",
+   "type": "ally",
+   "note": "The cremation ground is at the kelod end, always"
+  },
+  {
+   "from": "kaja_kelod",
+   "to": "ancestors",
+   "type": "ally",
+   "note": "The family temple goes in the kaja-kangin corner"
+  },
+  {
+   "from": "dewi_danu",
+   "to": "subak",
+   "type": "guru",
+   "note": "Her temple stood at the head of the whole network"
+  },
+  {
+   "from": "subak",
+   "to": "dewi_sri",
+   "type": "devotee",
+   "note": "Rice, and the association that waters it"
+  },
+  {
+   "from": "subak",
+   "to": "tirta",
+   "type": "ally",
+   "note": "Water, in both senses, and the same word for both"
+  },
+  {
+   "from": "dewi_sri",
+   "to": "canang",
+   "type": "ally",
+   "note": "Rice in the offering, and rice in the granary"
+  },
+  {
+   "from": "dewi_danu",
+   "to": "besakih",
+   "type": "sibling",
+   "note": "The lake and the mountain, and both are up"
+  },
+  {
+   "from": "tirta",
+   "to": "canang",
+   "type": "ally",
+   "note": "The two things every ceremony actually consists of"
+  },
+  {
+   "from": "tirta",
+   "to": "wayang",
+   "type": "ally",
+   "note": "A consecrated dalang can make it"
+  },
+  {
+   "from": "canang",
+   "to": "bhuta_kala",
+   "type": "ally",
+   "note": "The ones on the ground are theirs, and they matter"
+  },
+  {
+   "from": "bhuta_kala",
+   "to": "nyepi",
+   "type": "enemy",
+   "note": "The island goes dark so they will pass over it"
+  },
+  {
+   "from": "nyepi",
+   "to": "rwa_bhineda",
+   "type": "devotee",
+   "note": "Burn the demons, then be silent for a day"
+  },
+  {
+   "from": "nyepi",
+   "to": "bhuta_kala",
+   "type": "ally",
+   "note": "And feed them properly first, at the crossroads"
+  },
+  {
+   "from": "kanda_empat",
+   "to": "ancestors",
+   "type": "ally",
+   "note": "Born with you, and the family you go back into"
+  },
+  {
+   "from": "kanda_empat",
+   "to": "canang",
+   "type": "devotee",
+   "note": "Fed, by name, for the whole of your life"
+  },
+  {
+   "from": "ancestors",
+   "to": "ngaben",
+   "type": "guru",
+   "note": "Cremated, purified, and installed in the shrine"
+  },
+  {
+   "from": "ngaben",
+   "to": "acintya",
+   "type": "devotee",
+   "note": "The point of it is release"
+  },
+  {
+   "from": "ancestors",
+   "to": "kaja_kelod",
+   "type": "devotee",
+   "note": "Reborn into the same family, usually within a few generations"
+  },
+  {
+   "from": "wayang",
+   "to": "kamasan",
+   "type": "sibling",
+   "note": "The puppets and the paintings are drawn the same way"
+  },
+  {
+   "from": "wayang",
+   "to": "taksu",
+   "type": "devotee",
+   "note": "It has to arrive, or the night is only competent"
+  },
+  {
+   "from": "taksu",
+   "to": "barong",
+   "type": "ally",
+   "note": "A dancer in the mask is occupied, not performing"
+  },
+  {
+   "from": "taksu",
+   "to": "rangda",
+   "type": "ally",
+   "note": "And more so in that one, which is why it is dangerous"
+  },
+  {
+   "from": "gamelan",
+   "to": "wayang",
+   "type": "ally",
+   "note": "Cued with the dalang's foot"
+  },
+  {
+   "from": "gamelan",
+   "to": "taksu",
+   "type": "ally",
+   "note": "And it can be present in an orchestra as well"
+  },
+  {
+   "from": "kamasan",
+   "to": "besakih",
+   "type": "ally",
+   "note": "The Kertha Gosa ceilings, and what happens to the wicked"
+  },
+  {
+   "from": "besakih",
+   "to": "acintya",
+   "type": "devotee",
+   "note": "The mother temple of the whole island"
+  },
+  {
+   "from": "besakih",
+   "to": "nyepi",
+   "type": "sibling",
+   "note": "Two things the whole island does at once"
+  },
+  {
+   "from": "dewi_sri",
+   "to": "kanda_empat",
+   "type": "sibling",
+   "note": "Two Balinese ideas with no close Indian parallel"
+  },
+  {
+   "from": "subak",
+   "to": "kaja_kelod",
+   "type": "ally",
+   "note": "Water runs downhill, which is what the whole axis is about"
+  },
+  {
+   "from": "kris",
+   "to": "gamelan",
+   "type": "sibling",
+   "note": "Two things a village owns rather than a person"
+  },
+  {
+   "from": "leyak",
+   "to": "taksu",
+   "type": "enemy",
+   "note": "Two kinds of being occupied, and only one is wanted"
+  }
+ ]
+}

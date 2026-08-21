@@ -488,10 +488,15 @@
    "label": "Balinese",
    "sublabel": "Bali & Java",
    "accent": "#c48f9e",
-   "status": "planned",
+   "status": "live",
    "blurb": "Dewi Sri, Rangda and Barong - Hindu material that went to the islands and became something else.",
    "family": "Asia",
-   "glyph": "❁"
+   "glyph": "❁",
+   "figures": 23,
+   "stories": 8,
+   "links": 46,
+   "levels": 5,
+   "cover": "portraits/balinese/acintya.webp"
   },
   {
    "id": "siberian",
