@@ -1,5 +1,5 @@
 /* ============================================================
-   Hindu Mythology Relationship Map — v2
+   World Mythologies — relationship maps
    Two designed themes: "Dark museum" (default) and "Light manuscript"
    ============================================================ */
 
@@ -1760,3 +1760,33 @@ body.on-hub .topbar {
 @media (max-width: 700px) {
   .tab-home { border-right: 0; padding-right: 8px; }
 }
+
+
+/* ---------------- figure panel: read it at a glance ---------------------- */
+/* The one-line hook, which every entity already carried and nothing showed. */
+.fig-lead {
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--ink-strong, var(--ink));
+  margin: 0 0 14px;
+  padding-left: 12px;
+  border-left: 2px solid var(--gold-line);
+}
+/* The long account is available, not imposed. */
+.fig-more { margin: 4px 0 14px; }
+.fig-more-summary {
+  cursor: pointer;
+  font-family: var(--sans, inherit);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--gold-strong);
+  padding: 6px 0;
+  list-style: none;
+}
+.fig-more-summary::-webkit-details-marker { display: none; }
+.fig-more-summary::before { content: "\25B8"; display: inline-block; margin-right: 7px; transition: transform 0.15s ease; }
+.fig-more[open] > .fig-more-summary::before { transform: rotate(90deg); }
+.fig-more-summary:hover { color: var(--gold); }
+.fig-more[open] > .fig-more-summary { margin-bottom: 4px; }
+@media (max-width: 700px) { .fig-lead { font-size: 16px; } }

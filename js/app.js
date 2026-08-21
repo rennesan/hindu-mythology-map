@@ -841,6 +841,7 @@ function figureHtml(e, opts) {
       "</button>" +
     "</header>" +
     '<div class="fig-body">' +
+      (e.bio ? '<p class="fig-lead">' + esc(e.bio) + "</p>" : "") +
       '<div class="chart-add-row">' +
         '<button type="button" class="chart-add' + (inChart ? " is-in" : "") + '" data-chart-add="' + esc(e.id) + '">' +
           (inChart ? "In your chart" : "Add to chart") + "</button>" +
@@ -852,21 +853,21 @@ function figureHtml(e, opts) {
             '<div class="qf' + (f[2] ? " qf-wide" : "") + '"><dt>' + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd></div>"
           ).join("") + "</dl>"
         : "") +
+      (relHtml
+        ? '<section class="fig-section"><h3 class="fig-h">Connected to</h3>' + relHtml + "</section>"
+        : "") +
       listSection("Epithets", e.epithets) +
       listSection("Domains", e.domains) +
       listSection("Symbols", e.symbols) +
       (e.longBio
-        ? '<section class="fig-section"><h3 class="fig-h">The Figure</h3>' +
-          e.longBio.split(/\n+/).map(p => '<p class="fig-prose">' + esc(p) + "</p>").join("") + "</section>"
+        ? '<details class="fig-more"><summary class="fig-more-summary">Read the full account</summary>' +
+          e.longBio.split(/\n+/).map(p => '<p class="fig-prose">' + esc(p) + "</p>").join("") + "</details>"
         : "") +
       (e.worship
         ? '<section class="fig-section"><h3 class="fig-h">Worship</h3><p class="fig-prose">' + esc(e.worship) + "</p></section>"
         : "") +
       (e.variantTraditions
         ? '<section class="fig-section"><h3 class="fig-h">Variant Traditions</h3><p class="fig-note">' + esc(e.variantTraditions) + "</p></section>"
-        : "") +
-      (relHtml
-        ? '<section class="fig-section"><h3 class="fig-h">Relationships</h3>' + relHtml + "</section>"
         : "") +
       (stories.length
         ? '<section class="fig-section"><h3 class="fig-h">Appears In</h3><ul class="story-link-list">' +
