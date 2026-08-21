@@ -62,6 +62,10 @@
    "destination": "/japanese/index.html"
   },
   {
+   "source": "/celtic/:path*",
+   "destination": "/celtic/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }

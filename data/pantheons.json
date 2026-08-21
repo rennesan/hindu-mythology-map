@@ -117,9 +117,14 @@
    "label": "Celtic",
    "sublabel": "Irish & Welsh",
    "accent": "#8fbf9f",
-   "status": "planned",
+   "status": "live",
    "blurb": "The Tuatha De Danann and the Fomorians, the Ulster and Fenian cycles, and the four branches of the Mabinogi.",
-   "glyph": "⚘"
+   "figures": 101,
+   "stories": 25,
+   "links": 172,
+   "levels": 8,
+   "cover": "portraits/celtic/danu.webp",
+   "glyph": "᚛"
   },
   {
    "id": "roman",
