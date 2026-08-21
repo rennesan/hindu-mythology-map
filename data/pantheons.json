@@ -12,8 +12,8 @@
    "stories": 44,
    "links": 226,
    "levels": 6,
-   "glyph": "ॐ",
-   "family": "Asia"
+   "family": "Asia",
+   "glyph": "ॐ"
   },
   {
    "id": "greek",
@@ -27,8 +27,8 @@
    "stories": 49,
    "links": 248,
    "levels": 6,
-   "glyph": "Ω",
-   "family": "Europe"
+   "family": "Europe",
+   "glyph": "Ω"
   },
   {
    "id": "egyptian",
@@ -42,8 +42,8 @@
    "links": 145,
    "levels": 6,
    "cover": "portraits/egyptian/ra.webp",
-   "glyph": "☥",
-   "family": "Africa"
+   "family": "Africa",
+   "glyph": "☥"
   },
   {
    "id": "norse",
@@ -57,8 +57,8 @@
    "links": 131,
    "levels": 6,
    "cover": "portraits/norse/odin.webp",
-   "glyph": "ᚦ",
-   "family": "Europe"
+   "family": "Europe",
+   "glyph": "ᚦ"
   },
   {
    "id": "mesopotamian",
@@ -67,13 +67,13 @@
    "accent": "#b98a5e",
    "status": "live",
    "blurb": "The oldest written mythology: Enuma Elish, the Anunnaki, Inanna's descent, and the epic of Gilgamesh.",
-   "glyph": "✴",
    "figures": 82,
    "stories": 25,
    "links": 152,
    "levels": 8,
    "cover": "portraits/mesopotamian/apsu.webp",
-   "family": "Asia"
+   "family": "Asia",
+   "glyph": "✴"
   },
   {
    "id": "persian",
@@ -82,13 +82,13 @@
    "accent": "#6ba3c9",
    "status": "live",
    "blurb": "Two spirits at war with a deadline, a bridge where your own conscience meets you, and the kings and heroes Ferdowsi made of them.",
-   "glyph": "☼",
    "figures": 71,
    "stories": 18,
    "links": 113,
    "levels": 8,
    "cover": "portraits/persian/ahura_mazda.webp",
-   "family": "Asia"
+   "family": "Asia",
+   "glyph": "☼"
   },
   {
    "id": "chinese",
@@ -102,8 +102,8 @@
    "links": 101,
    "levels": 6,
    "cover": "portraits/chinese/nuwa.webp",
-   "glyph": "☯",
-   "family": "Asia"
+   "family": "Asia",
+   "glyph": "☯"
   },
   {
    "id": "aztec",
@@ -117,8 +117,8 @@
    "links": 75,
    "levels": 6,
    "cover": "portraits/aztec/quetzalcoatl.webp",
-   "glyph": "☉",
-   "family": "Indigenous Traditions"
+   "family": "Indigenous Traditions",
+   "glyph": "☉"
   },
   {
    "id": "japanese",
@@ -132,8 +132,8 @@
    "links": 81,
    "levels": 6,
    "cover": "portraits/japanese/amaterasu.webp",
-   "glyph": "⛩",
-   "family": "Asia"
+   "family": "Asia",
+   "glyph": "⛩"
   },
   {
    "id": "celtic",
@@ -147,8 +147,8 @@
    "links": 172,
    "levels": 8,
    "cover": "portraits/celtic/danu.webp",
-   "glyph": "᚛",
-   "family": "Europe"
+   "family": "Europe",
+   "glyph": "᚛"
   },
   {
    "id": "roman",
@@ -157,13 +157,13 @@
    "accent": "#c9a227",
    "status": "live",
    "blurb": "The numina and the Capitoline triad, the state cult that bound them to Rome, and the founding legends of the city.",
-   "glyph": "⚡",
    "figures": 52,
    "stories": 14,
    "links": 80,
    "levels": 8,
    "cover": "portraits/roman/janus.webp",
-   "family": "Europe"
+   "family": "Europe",
+   "glyph": "⚡"
   },
   {
    "id": "maya",
@@ -177,7 +177,8 @@
    "stories": 13,
    "links": 67,
    "levels": 8,
-   "cover": "portraits/maya/huracan.webp"
+   "cover": "portraits/maya/huracan.webp",
+   "glyph": "✥"
   },
   {
    "id": "inca",
@@ -191,7 +192,8 @@
    "stories": 9,
    "links": 42,
    "levels": 6,
-   "cover": "portraits/inca/viracocha.webp"
+   "cover": "portraits/inca/viracocha.webp",
+   "glyph": "✹"
   },
   {
    "id": "hopi",
@@ -200,13 +202,13 @@
    "accent": "#c98f6a",
    "status": "live",
    "blurb": "A private study collection. Restricted access.",
-   "glyph": "✺",
    "figures": 34,
    "stories": 8,
    "links": 44,
    "levels": 7,
    "cover": "portraits/hopi/tawa.webp",
-   "family": "Indigenous Traditions"
+   "family": "Indigenous Traditions",
+   "glyph": "✺"
   },
   {
    "id": "aboriginal",
@@ -225,6 +227,241 @@
    "status": "review",
    "blurb": "Too thin for a full pack: names survive, narrative largely does not. Candidate to merge into a Semitic pack with Canaanite and Ugaritic material.",
    "family": "Asia"
+  },
+  {
+   "id": "canaanite",
+   "label": "Canaanite",
+   "sublabel": "Ugarit & Phoenicia",
+   "accent": "#a08cc4",
+   "status": "live",
+   "blurb": "The gods the Hebrew Bible argues with, read at last in their own language after a farmer hit a slab in 1928.",
+   "family": "Asia",
+   "figures": 25,
+   "stories": 9,
+   "links": 50,
+   "levels": 5,
+   "cover": "portraits/canaanite/el.webp",
+   "glyph": "✤"
+  },
+  {
+   "id": "yoruba",
+   "label": "Yoruba",
+   "sublabel": "West Africa & the diaspora",
+   "accent": "#7fb069",
+   "status": "planned",
+   "blurb": "Olodumare and the orisha - a living tradition that crossed the Atlantic and became Santeria and Candomble.",
+   "family": "Africa",
+   "glyph": "✵"
+  },
+  {
+   "id": "akan",
+   "label": "Akan",
+   "sublabel": "Ashanti & Ghana",
+   "accent": "#d99a4e",
+   "status": "planned",
+   "blurb": "Nyame, Asase Yaa, and Anansi the spider, who travelled the Middle Passage and turned up in the Carolinas.",
+   "family": "Africa",
+   "glyph": "✳"
+  },
+  {
+   "id": "fon",
+   "label": "Fon",
+   "sublabel": "Dahomey & Benin",
+   "accent": "#c47f5a",
+   "status": "planned",
+   "blurb": "Mawu-Lisa, Legba and the serpent Dan - the direct ancestor of Vodun and Haitian Vodou.",
+   "family": "Africa",
+   "glyph": "◎"
+  },
+  {
+   "id": "san",
+   "label": "San",
+   "sublabel": "Southern Africa",
+   "accent": "#b5a06a",
+   "status": "planned",
+   "blurb": "Kaggen the mantis, and material that may be the oldest continuously told narrative on earth.",
+   "family": "Africa",
+   "glyph": "⁂"
+  },
+  {
+   "id": "inuit",
+   "label": "Inuit",
+   "sublabel": "Arctic North America",
+   "accent": "#8fb8cc",
+   "status": "planned",
+   "blurb": "Sedna at the bottom of the sea, and the fingers that became every animal worth hunting.",
+   "family": "Indigenous Traditions",
+   "glyph": "❄"
+  },
+  {
+   "id": "cherokee",
+   "label": "Cherokee",
+   "sublabel": "Southeastern Woodlands",
+   "accent": "#9bb87a",
+   "status": "planned",
+   "blurb": "The water beetle who brought up the mud, and the largest body of Native American narrative ever published.",
+   "family": "Indigenous Traditions",
+   "glyph": "✻"
+  },
+  {
+   "id": "haudenosaunee",
+   "label": "Haudenosaunee",
+   "sublabel": "Iroquois Confederacy",
+   "accent": "#7ba88f",
+   "status": "planned",
+   "blurb": "Sky Woman falling through a hole in the sky, and the twins who made the world between them.",
+   "family": "Indigenous Traditions",
+   "glyph": "❖"
+  },
+  {
+   "id": "raven",
+   "label": "Raven Cycle",
+   "sublabel": "Tlingit & Haida",
+   "accent": "#6f8fa8",
+   "status": "planned",
+   "blurb": "Raven steals the light, the sun and the fresh water - and is neither hero nor villain about it.",
+   "family": "Indigenous Traditions",
+   "glyph": "◉"
+  },
+  {
+   "id": "navajo",
+   "label": "Navajo",
+   "sublabel": "Dine, Southwest",
+   "accent": "#c08f6a",
+   "status": "planned",
+   "blurb": "The Emergence, Changing Woman and the Hero Twins, from the published record only.",
+   "family": "Indigenous Traditions",
+   "glyph": "✣"
+  },
+  {
+   "id": "lakota",
+   "label": "Lakota",
+   "sublabel": "Northern Plains",
+   "accent": "#a8896a",
+   "status": "planned",
+   "blurb": "White Buffalo Calf Woman, Iktomi the spider, and the ledger art the Lakota drew themselves.",
+   "family": "Indigenous Traditions",
+   "glyph": "⊕"
+  },
+  {
+   "id": "anishinaabe",
+   "label": "Anishinaabe",
+   "sublabel": "Great Lakes",
+   "accent": "#8a9e7a",
+   "status": "planned",
+   "blurb": "Nanabozho, the shapeshifting trickster who is also the one who made the world habitable.",
+   "family": "Indigenous Traditions",
+   "glyph": "◈"
+  },
+  {
+   "id": "apache",
+   "label": "Apache",
+   "sublabel": "Southwest",
+   "accent": "#b58a72",
+   "status": "planned",
+   "blurb": "White Painted Woman and Child of the Water, from the published record only.",
+   "family": "Indigenous Traditions",
+   "glyph": "✧"
+  },
+  {
+   "id": "guarani",
+   "label": "Guarani",
+   "sublabel": "South America",
+   "accent": "#8fb87a",
+   "status": "planned",
+   "blurb": "Namandu, the Land Without Evil, and the seven monstrous children of Kerana.",
+   "family": "Indigenous Traditions",
+   "glyph": "❀"
+  },
+  {
+   "id": "polynesian",
+   "label": "Polynesian",
+   "sublabel": "Hawaii, Aotearoa & the Pacific",
+   "accent": "#6fa8a0",
+   "status": "planned",
+   "blurb": "Maui who fished up islands and tried to kill death, kept by island group rather than blended.",
+   "family": "Indigenous Traditions",
+   "glyph": "≋"
+  },
+  {
+   "id": "hittite",
+   "label": "Hittite",
+   "sublabel": "Anatolia",
+   "accent": "#b08a6a",
+   "status": "planned",
+   "blurb": "Kumarbi biting off the sky god's genitals - the missing link between Mesopotamia and Hesiod.",
+   "family": "Asia",
+   "glyph": "✜"
+  },
+  {
+   "id": "korean",
+   "label": "Korean",
+   "sublabel": "Korea",
+   "accent": "#8a9ec4",
+   "status": "planned",
+   "blurb": "Dangun the bear's son, and the shamanic muga that were still being sung in the twentieth century.",
+   "family": "Asia",
+   "glyph": "☰"
+  },
+  {
+   "id": "balinese",
+   "label": "Balinese",
+   "sublabel": "Bali & Java",
+   "accent": "#c48f9e",
+   "status": "planned",
+   "blurb": "Dewi Sri, Rangda and Barong - Hindu material that went to the islands and became something else.",
+   "family": "Asia",
+   "glyph": "❁"
+  },
+  {
+   "id": "siberian",
+   "label": "Siberian",
+   "sublabel": "Turkic & Mongol",
+   "accent": "#8fa8b8",
+   "status": "planned",
+   "blurb": "Tengri the eternal sky, Erlik below, and the shaman who travels between them.",
+   "family": "Asia",
+   "glyph": "❂"
+  },
+  {
+   "id": "finnish",
+   "label": "Finnish",
+   "sublabel": "Karelian & the Kalevala",
+   "accent": "#9eb8c4",
+   "status": "planned",
+   "blurb": "Vainamoinen, Louhi and the Sampo - with the caveat that the Kalevala is partly Lonnrot's own writing.",
+   "family": "Europe",
+   "glyph": "✼"
+  },
+  {
+   "id": "slavic",
+   "label": "Slavic",
+   "sublabel": "Pre-Christian Eastern Europe",
+   "accent": "#a89e7a",
+   "status": "planned",
+   "blurb": "Perun, Veles and Baba Yaga - and a hard line drawn against the Romantic inventions and outright forgeries.",
+   "family": "Europe",
+   "glyph": "✷"
+  },
+  {
+   "id": "baltic",
+   "label": "Baltic",
+   "sublabel": "Lithuania & Latvia",
+   "accent": "#9eb87a",
+   "status": "planned",
+   "blurb": "Perkunas, Saule and Laima, preserved in folk song - among the most archaic Indo-European material in Europe.",
+   "family": "Europe",
+   "glyph": "☀"
+  },
+  {
+   "id": "nart",
+   "label": "Nart Sagas",
+   "sublabel": "Caucasus",
+   "accent": "#b8967a",
+   "status": "planned",
+   "blurb": "Ossetian and Circassian epic: Sosruquo born from a stone, and a cycle almost unknown in English.",
+   "family": "Europe",
+   "glyph": "⛰"
   }
  ]
 }

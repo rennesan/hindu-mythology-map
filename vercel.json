@@ -86,6 +86,10 @@
    "destination": "/hopi/index.html"
   },
   {
+   "source": "/canaanite/:path*",
+   "destination": "/canaanite/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }
