@@ -94,6 +94,14 @@
    "destination": "/yoruba/index.html"
   },
   {
+   "source": "/inuit/:path*",
+   "destination": "/inuit/index.html"
+  },
+  {
+   "source": "/cherokee/:path*",
+   "destination": "/cherokee/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }

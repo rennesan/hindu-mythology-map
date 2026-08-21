@@ -296,17 +296,27 @@
    "status": "live",
    "blurb": "Sedna at the bottom of the sea, and the fingers that became every animal worth hunting.",
    "family": "Indigenous Traditions",
-   "glyph": "❄"
+   "glyph": "❄",
+   "figures": 20,
+   "stories": 10,
+   "links": 37,
+   "levels": 5,
+   "cover": "portraits/inuit/sedna.webp"
   },
   {
    "id": "cherokee",
    "label": "Cherokee",
    "sublabel": "Southeastern Woodlands",
    "accent": "#9bb87a",
-   "status": "planned",
+   "status": "live",
    "blurb": "The water beetle who brought up the mud, and the largest body of Native American narrative ever published.",
    "family": "Indigenous Traditions",
-   "glyph": "✻"
+   "glyph": "✻",
+   "figures": 27,
+   "stories": 12,
+   "links": 43,
+   "levels": 6,
+   "cover": "portraits/cherokee/dayunisi.webp"
   },
   {
    "id": "haudenosaunee",
