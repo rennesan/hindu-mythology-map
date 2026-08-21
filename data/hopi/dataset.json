@@ -1,0 +1,2047 @@
+{
+ "title": "Hopi Mythology: Figures, Relationships and Story Cycles",
+ "description": "The Hopi world mapped as a relationship graph: the emergence through the sipapu, Masauwu and the short ear of corn, Spider Grandmother and the war twins, and the katsinam who live at the villages for half of every year.",
+ "generated": "2026-08-20",
+ "sources": [
+  "H. R. Voth, The Traditions of the Hopi (1905) - the largest single collection of recorded Hopi narrative",
+  "J. W. Fewkes, Hopi Katcinas Drawn by Native Artists (1903) - the katsina figures, drawn by Hopi artists",
+  "J. W. Fewkes, Tusayan Migration Traditions (1900)",
+  "H. R. Voth, The Oraibi Summer Snake Ceremony (1903)",
+  "Note: the popular Taiowa and Sotuknang creation account comes from Frank Waters, Book of the Hopi (1963), which is not used here and is disputed by many Hopi"
+ ],
+ "portraitNote": "Portraits are original illustrations, never photographs of carved tithu or of ceremonies. Drawn in a single uniform style for the whole pack, stored locally in the portraits/hopi/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "voth": {
+   "t": "The Traditions of the Hopi",
+   "tr": "H. R. Voth, Field Columbian Museum, 1905",
+   "u": "https://archive.org/details/traditionsofhopi00voth"
+  },
+  "fewkes_kat": {
+   "t": "Hopi Katcinas Drawn by Native Artists",
+   "tr": "J. W. Fewkes, BAE 21st Annual Report, 1903",
+   "u": "https://www.gutenberg.org/ebooks/500"
+  },
+  "fewkes_mig": {
+   "t": "Tusayan Migration Traditions",
+   "tr": "J. W. Fewkes, BAE 19th Annual Report, 1900",
+   "u": "https://archive.org/details/annualreportofbu19smit"
+  },
+  "voth_snake": {
+   "t": "The Oraibi Summer Snake Ceremony",
+   "tr": "H. R. Voth, Field Columbian Museum, 1903",
+   "u": "https://archive.org/details/oraibisummersnak00voth"
+  },
+  "fewkes_flute": {
+   "t": "Tusayan Flute and Snake Ceremonies",
+   "tr": "J. W. Fewkes, BAE 19th Annual Report, 1900",
+   "u": "https://archive.org/details/annualreportofbu19smit"
+  }
+ },
+ "meta": {
+  "id": "hopi",
+  "label": "Hopi",
+  "sublabel": "Puebloan, northern Arizona",
+  "accent": "#c98f6a",
+  "root": "tawa"
+ },
+ "profile": {
+  "cosmicNature": "Four worlds, stacked. People climbed up out of each one when it went bad, through a hole called the sipapu, and we are living in the fourth. The first three ended because people forgot how to behave, not because of any flood or fire sent from outside. There is a way out of this one too, and everybody knows roughly where it is.",
+  "natureOfDivinity": "Not a pantheon so much as a crowd of relatives. Tawa the sun, Masauwu who owns this world, Spider Grandmother who fixes things, and several hundred katsinam - spirits of rain, corn, animals and the dead who come and live at the villages for half the year and then go home. The gods are neighbours, and they are expected to show up.",
+  "afterlife": "You go west, to the San Francisco Peaks or down through the sipapu, and if you lived well you come back as a cloud. That is not a metaphor. The dead return as rain, which is the entire point in a place that gets ten inches of it a year.",
+  "systemMechanism": "Reciprocity, and a bargain with the hardest land in North America. Masauwu offered the Hopi a short ear of corn and a hard life at Oraibi, and they took it on purpose. Ceremony is the work of holding up the year: get the dances right, keep a good heart, and the rain comes. Get it wrong and it does not.",
+  "canonTexts": "There is no book. The material below was recorded from Hopi narrators between 1890 and 1905 by H. R. Voth and J. W. Fewkes and printed by the Field Museum and the Bureau of American Ethnology. Different villages tell it differently, and the versions here are the ones that got written down."
+ },
+ "hierarchy": [
+  {
+   "title": "The Makers",
+   "blurb": "The sun, a woman who lives in the sea, and a small spider who is better at everything than anyone. Between them they make the world and the people in it.",
+   "memberIds": [
+    "tawa",
+    "huruing_wuhti",
+    "spider_woman",
+    "masauwu"
+   ],
+   "connectorCaption": "Three worlds go wrong before this one, and the people climb up through a hole"
+  },
+  {
+   "title": "The Emergence",
+   "blurb": "The Fourth World comes with a landlord. Masauwu lays out ears of corn and lets each people choose; the Hopi take the short blue one, and get the hardest country and the longest tenure.",
+   "memberIds": [
+    "sipapu",
+    "masauwu",
+    "matsito",
+    "muyingwa",
+    "poqanghoya",
+    "palongawhoya"
+   ],
+   "connectorCaption": "The world arrives dangerous, and two small boys are sent to clean it up"
+  },
+  {
+   "title": "Monsters, Serpents and the Boy in the Log",
+   "blurb": "A giant bird that takes people off the mesas, a horned serpent living in the springs, and a boy who sealed himself in a cottonwood log to find out where the river went.",
+   "memberIds": [
+    "kwatoko",
+    "mongwu",
+    "palulukang",
+    "tiyo",
+    "snake_maiden"
+   ],
+   "connectorCaption": "He came back with the rain rites - and the rain comes with the katsinam"
+  },
+  {
+   "title": "The Katsinam Arrive",
+   "blurb": "For half the year, several hundred spirits live at the villages. The chief is the plainest-looking of all of them, and the most important thing anyone does is pour water on a cloud drawn in cornmeal.",
+   "memberIds": [
+    "eototo",
+    "aholi",
+    "ahola",
+    "angwusnasomtaka",
+    "hahai_wuhti",
+    "tuwapongtumsi",
+    "talatumsi"
+   ],
+   "connectorCaption": "In February the children find out what the katsinam actually are"
+  },
+  {
+   "title": "Powamu: Whips, Ogres and Bean Sprouts",
+   "blurb": "Beans forced green in heated kivas in the middle of winter, children whipped at their initiation, and an ogre at the door with a basket, negotiating for your son.",
+   "memberIds": [
+    "hu",
+    "soyoko",
+    "nataska",
+    "heheya"
+   ],
+   "connectorCaption": "And then the clowns, who exist to be everything a person should not be"
+  },
+  {
+   "title": "Clowns and the Reckoning",
+   "blurb": "The Koyemsi run the games and the Tsuku behave appallingly for an entire afternoon, until the owl comes down off the roof with a whip. The punishment is the second half of the lesson.",
+   "memberIds": [
+    "koyemsi",
+    "tsuku",
+    "kookopolo",
+    "mongwu",
+    "chakwaina"
+   ],
+   "connectorCaption": "Between them, the dances that actually ask for the rain"
+  },
+  {
+   "title": "The Rain Dances and Going Home",
+   "blurb": "Longhairs singing the best songs of the year, the Water Drinking Girl in the tallest headdress, eagles raised on the rooftops - and in July the first corn comes in and the katsinam leave.",
+   "memberIds": [
+    "angaktsina",
+    "palhikmana",
+    "kwahu",
+    "honan",
+    "hemis"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "makers",
+   "label": "The Makers",
+   "memberIds": [
+    "tawa",
+    "spider_woman",
+    "huruing_wuhti",
+    "masauwu"
+   ]
+  },
+  {
+   "id": "twins",
+   "label": "The War Twins",
+   "memberIds": [
+    "poqanghoya",
+    "palongawhoya",
+    "spider_woman"
+   ]
+  },
+  {
+   "id": "powamu",
+   "label": "Powamu, the Bean Dance",
+   "memberIds": [
+    "ahola",
+    "eototo",
+    "aholi",
+    "angwusnasomtaka",
+    "hu",
+    "muyingwa"
+   ]
+  },
+  {
+   "id": "ogres",
+   "label": "The Ogres",
+   "memberIds": [
+    "soyoko",
+    "nataska",
+    "heheya",
+    "hahai_wuhti"
+   ]
+  },
+  {
+   "id": "clowns",
+   "label": "The Clowns",
+   "memberIds": [
+    "koyemsi",
+    "tsuku",
+    "kookopolo",
+    "mongwu"
+   ]
+  },
+  {
+   "id": "niman",
+   "label": "Niman, the Home Dance",
+   "memberIds": [
+    "hemis",
+    "palhikmana",
+    "angaktsina",
+    "eototo"
+   ]
+  },
+  {
+   "id": "snake",
+   "label": "The Snake Ceremony",
+   "memberIds": [
+    "tiyo",
+    "snake_maiden",
+    "palulukang",
+    "spider_woman"
+   ]
+  },
+  {
+   "id": "mothers",
+   "label": "The Mothers of the Katsinam",
+   "memberIds": [
+    "angwusnasomtaka",
+    "hahai_wuhti",
+    "tuwapongtumsi",
+    "talatumsi"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "emergence",
+   "title": "Coming Up Through the Hole",
+   "era": "The Emergence",
+   "cast": [
+    "sipapu",
+    "masauwu",
+    "spider_woman",
+    "poqanghoya",
+    "palongawhoya"
+   ],
+   "summary": "Three worlds before this one, and each ended the same way - people stopped behaving, the place went bad, and those who still had good hearts left. A reed was planted and grew up through the sky, and they climbed it. Coming out into the Fourth World they found it dark, cold and already owned. Masauwu was there. The world had to be made habitable before anyone could farm it: the elder twin hardened the ground, the younger sent sound through it, and the two of them went hunting the monsters that were already living here.",
+   "sources": [
+    {
+     "book": "The Traditions of the Hopi",
+     "translation": "H. R. Voth, Field Columbian Museum, 1905",
+     "location": "The Traditions of the Hopi, I",
+     "url": "https://archive.org/details/traditionsofhopi00voth"
+    },
+    {
+     "book": "Tusayan Migration Traditions",
+     "translation": "J. W. Fewkes, BAE 19th Annual Report, 1900",
+     "location": "BAE 19th Annual Report",
+     "url": "https://archive.org/details/annualreportofbu19smit"
+    }
+   ]
+  },
+  {
+   "id": "short-ear",
+   "title": "The Short Ear of Corn",
+   "era": "The Emergence",
+   "cast": [
+    "masauwu",
+    "matsito"
+   ],
+   "summary": "At the top, Masauwu laid ears of corn on the ground and told the peoples who had come up to choose. The others went first and took the long fat ears - the easy ones, the ones that promised plenty. What was left when the Hopi came forward was a short blue ear, and they took it. That choice bought them the highest, driest, least promising country in the region, a life of hard farming, and, as it turns out, the longest continuous occupation of anywhere in North America. The whole culture reads that as a deliberate decision rather than bad luck.",
+   "sources": [
+    {
+     "book": "The Traditions of the Hopi",
+     "translation": "H. R. Voth, Field Columbian Museum, 1905",
+     "location": "The Traditions of the Hopi",
+     "url": "https://archive.org/details/traditionsofhopi00voth"
+    },
+    {
+     "book": "Tusayan Migration Traditions",
+     "translation": "J. W. Fewkes, BAE 19th Annual Report, 1900",
+     "location": "BAE 19th Annual Report",
+     "url": "https://archive.org/details/annualreportofbu19smit"
+    }
+   ]
+  },
+  {
+   "id": "boy-in-the-log",
+   "title": "The Boy Who Went Down the River",
+   "era": "The Emergence",
+   "cast": [
+    "tiyo",
+    "spider_woman",
+    "snake_maiden",
+    "palulukang"
+   ],
+   "summary": "Tiyo watched the river running away west and wanted to know where it went. His father hollowed a cottonwood log, sealed him inside with pitch and some food, and pushed it into the water. Spider Grandmother shrank herself and rode behind his ear the whole way, telling him what to do. He came at last to the Snake People, passed their tests, and married a Snake Maiden, bringing home the songs and the altar for making rain. Their first children were born as snakes and bit the village children, so the family moved on - and the snakes went into the ground.",
+   "sources": [
+    {
+     "book": "The Oraibi Summer Snake Ceremony",
+     "translation": "H. R. Voth, Field Columbian Museum, 1903",
+     "location": "The Oraibi Summer Snake Ceremony",
+     "url": "https://archive.org/details/oraibisummersnak00voth"
+    },
+    {
+     "book": "Tusayan Flute and Snake Ceremonies",
+     "translation": "J. W. Fewkes, BAE 19th Annual Report, 1900",
+     "location": "BAE 19th Annual Report",
+     "url": "https://archive.org/details/annualreportofbu19smit"
+    }
+   ]
+  },
+  {
+   "id": "powamu",
+   "title": "Beans in February",
+   "era": "The Katsinam",
+   "cast": [
+    "ahola",
+    "eototo",
+    "aholi",
+    "angwusnasomtaka",
+    "muyingwa"
+   ],
+   "summary": "In February, when there is nothing growing anywhere, beans are planted in boxes in the kivas and the kivas are heated day and night until they come up green. Before dawn Ahola goes to every house in the village and marks it with cornmeal. Eototo walks the plaza at a deliberate pace, stopping to draw clouds on the ground and pour water on them. Crow Mother carries in the sprouts. The whole thing is a demonstration, in the deadest part of the year, that growth is still available - and an argument, addressed to whoever is listening, that it should continue.",
+   "sources": [
+    {
+     "book": "The Traditions of the Hopi",
+     "translation": "H. R. Voth, Field Columbian Museum, 1905",
+     "location": "The Oraibi Powamu Ceremony",
+     "url": "https://archive.org/details/traditionsofhopi00voth"
+    },
+    {
+     "book": "Hopi Katcinas Drawn by Native Artists",
+     "translation": "J. W. Fewkes, BAE 21st Annual Report, 1903",
+     "location": "BAE 21st Annual Report",
+     "url": "https://www.gutenberg.org/ebooks/500"
+    }
+   ]
+  },
+  {
+   "id": "initiation",
+   "title": "What the Children Find Out",
+   "era": "The Katsinam",
+   "cast": [
+    "angwusnasomtaka",
+    "hu",
+    "eototo"
+   ],
+   "summary": "Children are initiated at around eight or nine. Crow Mother brings the yucca whips into the kiva and the Hu katsinam use them, four strokes each, and it is not symbolic. Then, at the end, the katsinam take off their masks - and the children see their own uncles and neighbours underneath. Hopi people who have written about that moment describe the shock of it, and then something larger: not that it was a trick, but that the katsinam are genuinely present in the men who carry them. It is the point at which a child stops being an audience and starts being responsible.",
+   "sources": [
+    {
+     "book": "The Traditions of the Hopi",
+     "translation": "H. R. Voth, Field Columbian Museum, 1905",
+     "location": "The Oraibi Powamu Ceremony",
+     "url": "https://archive.org/details/traditionsofhopi00voth"
+    }
+   ]
+  },
+  {
+   "id": "ogres-at-the-door",
+   "title": "The Ogres Come for the Children",
+   "era": "The Katsinam",
+   "cast": [
+    "soyoko",
+    "nataska",
+    "hahai_wuhti",
+    "heheya"
+   ],
+   "summary": "Soyoko goes house to house with a basket and a knife, naming specific children and demanding them. The Natacka stand behind her clacking enormous wooden beaks. The child has to come out and face her. The family bargains - offering food instead of the child, while the child promises to work harder and behave - and she refuses, and comes back, and the price goes up over several visits until she is finally bought off with meat. The children are genuinely frightened. The adults are visibly enjoying themselves. It is the most effective piece of parenting anyone has ever written down.",
+   "sources": [
+    {
+     "book": "The Traditions of the Hopi",
+     "translation": "H. R. Voth, Field Columbian Museum, 1905",
+     "location": "The Oraibi Powamu Ceremony",
+     "url": "https://archive.org/details/traditionsofhopi00voth"
+    },
+    {
+     "book": "Hopi Katcinas Drawn by Native Artists",
+     "translation": "J. W. Fewkes, BAE 21st Annual Report, 1903",
+     "location": "BAE 21st Annual Report",
+     "url": "https://www.gutenberg.org/ebooks/500"
+    }
+   ]
+  },
+  {
+   "id": "clowns-punished",
+   "title": "The Clowns Go Too Far",
+   "era": "The Katsinam",
+   "cast": [
+    "tsuku",
+    "koyemsi",
+    "mongwu",
+    "chakwaina"
+   ],
+   "summary": "The clowns come down into the plaza backwards and spend the day being everything a person should not be - eating enormously, drinking filthy water, mocking the audience by name, imitating the visitors, getting worse as the hours pass. Everyone can feel where it is going. Then the warriors and Mongwu the great horned owl appear on the rooftops, watch for a while, and come down. The clowns are drenched, thrashed with yucca whips and made to apologise. The excess and the correction are two halves of one argument, delivered over an entire afternoon to the whole village at once.",
+   "sources": [
+    {
+     "book": "Hopi Katcinas Drawn by Native Artists",
+     "translation": "J. W. Fewkes, BAE 21st Annual Report, 1903",
+     "location": "BAE 21st Annual Report",
+     "url": "https://www.gutenberg.org/ebooks/500"
+    },
+    {
+     "book": "The Traditions of the Hopi",
+     "translation": "H. R. Voth, Field Columbian Museum, 1905",
+     "location": "Hopi Proper Names and ceremonial notes",
+     "url": "https://archive.org/details/traditionsofhopi00voth"
+    }
+   ]
+  },
+  {
+   "id": "niman",
+   "title": "The Home Dance",
+   "era": "The Katsinam",
+   "cast": [
+    "hemis",
+    "palhikmana",
+    "eototo",
+    "angaktsina",
+    "kwahu"
+   ],
+   "summary": "In July the Hemis katsinam bring in the first green corn of the year and it is given out. Girls who married that season receive their wedding robes. The Longhairs sing, and the songs are new that year and by common agreement the best of the cycle. Then it is over: the katsinam leave the villages and go back to the San Francisco Peaks for six months, and the eagles raised on the rooftops through the summer are sent home too. The dance is called Niman, which means going home, and it is the most beautiful thing in the calendar because it is the end of it.",
+   "sources": [
+    {
+     "book": "Hopi Katcinas Drawn by Native Artists",
+     "translation": "J. W. Fewkes, BAE 21st Annual Report, 1903",
+     "location": "BAE 21st Annual Report",
+     "url": "https://www.gutenberg.org/ebooks/500"
+    },
+    {
+     "book": "The Traditions of the Hopi",
+     "translation": "H. R. Voth, Field Columbian Museum, 1905",
+     "location": "ceremonial notes",
+     "url": "https://archive.org/details/traditionsofhopi00voth"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "tawa",
+   "name": "Tawa",
+   "sanskrit": "Taawa",
+   "category": "creator",
+   "era": "The Four Worlds",
+   "role": "The sun, who made the world and still crosses it twice a day",
+   "wikipedia": "Tawa_(mythology)",
+   "portrait": "portraits/hopi/tawa.webp",
+   "epithets": [
+    "the Sun",
+    "Taawa",
+    "the one who goes over"
+   ],
+   "domains": [
+    "the sun",
+    "creation",
+    "life and growth"
+   ],
+   "symbols": [
+    "the disc face ringed with feathers and a fox skin",
+    "the eagle feather"
+   ],
+   "mount": null,
+   "abode": "The sky, house to house",
+   "festivals": [],
+   "worship": "",
+   "bio": "The sun god, who leaves his eastern house every morning and gets to the western one by evening.",
+   "longBio": "Tawa is the sun and the maker. In the Hopi telling he does not sit above the world issuing orders; he travels it, every single day, east house to west house, and the whole year is organised around watching exactly where on the horizon he comes up. The Sun Watcher's job was to call the ceremonies by that mark, and getting it wrong meant planting at the wrong time. His face in the art is a disc ringed with eagle feathers and red horsehair. Children are presented to him at dawn on their twentieth day and given their name.",
+   "variantTraditions": "Some accounts pair him with Spider Grandmother as co-creator; the popular version with Taiowa and Sotuknang above him comes from a 1963 book, not from the older recorded material.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sun",
+    "creator",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "spider_woman",
+   "name": "Spider Grandmother",
+   "sanskrit": "Kokyangwuti",
+   "category": "creator",
+   "era": "The Four Worlds",
+   "role": "The small one who fixes everything, and rides behind your ear",
+   "wikipedia": "Spider_Grandmother",
+   "portrait": "portraits/hopi/spider_woman.webp",
+   "epithets": [
+    "Kokyangwuti",
+    "Spider Old Woman",
+    "Grandmother"
+   ],
+   "domains": [
+    "creation",
+    "wisdom",
+    "practical help",
+    "weaving"
+   ],
+   "symbols": [
+    "the web",
+    "the small hole in the ground",
+    "the voice in your ear"
+   ],
+   "mount": null,
+   "abode": "A hole in the ground, which is much bigger inside",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most useful being in Hopi story: she makes people out of clay, and turns up whenever anyone is stuck.",
+   "longBio": "Spider Grandmother lives in an unremarkable hole in the ground that turns out to be a whole house inside. She is the one who moulds the first people from clay and sings over them, and after that her role is essentially technical support - a hero in trouble hears a small voice, looks down, and there she is. Her standard move is to shrink herself and ride along behind the traveller's ear, giving directions. She is never grand and never wrong, and she is easily the most affectionately told figure in the whole record.",
+   "variantTraditions": "She appears across the Pueblo and Navajo traditions in closely related roles, which makes her one of the most widespread figures in the Southwest.",
+   "storyIds": [
+    "emergence",
+    "boy-in-the-log"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "sage-seer",
+    "wisdom-craft",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "masauwu",
+   "name": "Masauwu",
+   "sanskrit": "Maasaw",
+   "category": "creator",
+   "era": "The Four Worlds",
+   "role": "Owner of this world, god of death and fire, and the ugliest thing you will ever meet",
+   "wikipedia": "Maasaw",
+   "portrait": "portraits/hopi/masauwu.webp",
+   "epithets": [
+    "Maasaw",
+    "Skeleton Man",
+    "the owner of the Fourth World",
+    "Man of Death"
+   ],
+   "domains": [
+    "death",
+    "fire",
+    "the earth's surface",
+    "boundaries",
+    "night travel"
+   ],
+   "symbols": [
+    "the burning torch",
+    "the blood-smeared mask",
+    "the planting stick"
+   ],
+   "mount": null,
+   "abode": "The edges of the fields, and the road at night",
+   "festivals": [],
+   "worship": "",
+   "bio": "He owns the world we live on, met the Hopi when they emerged, and offered them the shortest ear of corn on purpose.",
+   "longBio": "Masauwu is terrifying to look at - a great bald head, blood on the face, and he carries fire - and he is not the villain. He owns the Fourth World, and when the people came up out of the sipapu he laid out ears of corn and let each group choose. The others grabbed the long fat ones. The Hopi took the short blue one last, which meant a hard life, little rain, and survival. That choice is the founding decision of the whole culture. He also walks the fields at night and is the one you meet at the boundary between the living and the dead.",
+   "variantTraditions": "His name is written Masauwu, Maasaw and Masau'u across sources. He is simultaneously a death god and a friendly figure to farmers, which the ethnographers found confusing and the Hopi did not.",
+   "storyIds": [
+    "emergence",
+    "short-ear"
+   ],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "death-judge",
+    "fire",
+    "creator",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "muyingwa",
+   "name": "Muyingwa",
+   "sanskrit": "Muy'ingwa",
+   "category": "deity",
+   "era": "The Four Worlds",
+   "role": "God of germination, who lives underground and pushes the seed up",
+   "wikipedia": "Muyingwa",
+   "portrait": "portraits/hopi/muyingwa.webp",
+   "epithets": [
+    "the germ god",
+    "Alosaka in some villages"
+   ],
+   "domains": [
+    "sprouting",
+    "corn",
+    "growth from below"
+   ],
+   "symbols": [
+    "the corn ear",
+    "the four colours of maize"
+   ],
+   "mount": null,
+   "abode": "Below, in the underworld",
+   "festivals": [],
+   "worship": "",
+   "bio": "The one who makes seeds decide to grow, which in a place with ten inches of rain is the whole game.",
+   "longBio": "Muyingwa lives underground and is responsible for the moment a seed cracks and pushes. Hopi farming is dry farming - no irrigation, corn planted a foot deep in sand to reach buried moisture - so germination is not a given, and Muyingwa is petitioned hard. He is closely tied to the four coloured corns, blue, white, red and yellow, and to the Powamu ceremony in February, where bean plants are forced in heated kivas and brought out green in the middle of winter as proof the year will work.",
+   "variantTraditions": "Some villages call the germination deity Alosaka and pair him with Muyingwa; the relationship between the two names varies by mesa.",
+   "storyIds": [
+    "powamu"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "huruing_wuhti",
+   "name": "Hard Beings Woman",
+   "sanskrit": "Huru'ingwuuti",
+   "category": "creator",
+   "era": "The Four Worlds",
+   "role": "The woman who owns all hard things - shell, coral, turquoise - and lives out at sea",
+   "wikipedia": "Hopi_mythology",
+   "portrait": "portraits/hopi/huruing_wuhti.webp",
+   "epithets": [
+    "Huru'ingwuuti",
+    "Hard Substances Old Woman"
+   ],
+   "domains": [
+    "shell and coral",
+    "turquoise",
+    "the ocean",
+    "the making of people"
+   ],
+   "symbols": [
+    "turquoise",
+    "the abalone shell",
+    "the kiva ladder rising from the water"
+   ],
+   "mount": null,
+   "abode": "A kiva in the middle of the water, east and west",
+   "festivals": [],
+   "worship": "",
+   "bio": "There are two of her, one in the eastern ocean and one in the western, and she owns everything hard and precious.",
+   "longBio": "In Voth's creation account the Hard Beings Woman is there at the start with Tawa. She lives in a kiva out in the water, reached by a ladder, and she owns all the hard beautiful substances - turquoise, coral, shell, beads. She and the sun make the first people together. Then the eastern and western ones consult and decide there should be dry land in between, which is how the world gets made. She is an odd, memorable figure: a goddess of the sea and of jewellery, in a culture living in a high desert five hundred miles from any ocean.",
+   "variantTraditions": "The name is also written Huruing Wuhti. That a landlocked people put their creator goddess in the middle of the sea is one of the strongest hints of very old contact and trade routes to the Pacific.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "creator",
+    "sea-waters",
+    "wealth-fortune",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "poqanghoya",
+   "name": "Poqanghoya",
+   "sanskrit": "Pöqangwhoya",
+   "category": "hero",
+   "era": "The Four Worlds",
+   "role": "The elder war twin, who hardened the earth so people could walk on it",
+   "wikipedia": "Pöqangwhoya",
+   "portrait": "portraits/hopi/poqanghoya.webp",
+   "epithets": [
+    "the elder twin",
+    "Spider Grandmother's grandson"
+   ],
+   "domains": [
+    "the solid earth",
+    "war",
+    "monster-killing",
+    "mischief"
+   ],
+   "symbols": [
+    "the shinny ball and stick",
+    "the war club"
+   ],
+   "mount": null,
+   "abode": "The San Francisco Peaks",
+   "festivals": [],
+   "worship": "",
+   "bio": "Half of the pair of small violent boys who make the world safe by killing everything dangerous in it.",
+   "longBio": "Poqanghoya and his younger brother are Spider Grandmother's grandsons, and they are children - they play games, they are cheeky to their grandmother, they get told off. They are also the ones sent to make the world liveable: the elder solidifies the earth, which had been soft and unstable, and between them they hunt down and kill the monsters that made the Fourth World dangerous. In the ceremonies they are the war twins, and their images are set out to guard. Small boys as the most dangerous beings in the world is a Southwestern speciality.",
+   "variantTraditions": "The twins recur through Pueblo and Navajo tradition, and their names shift between villages. They are sometimes said to sit at the north and south poles keeping the earth steady.",
+   "storyIds": [
+    "emergence"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "palongawhoya",
+   "name": "Palongawhoya",
+   "sanskrit": "Palöngawhoya",
+   "category": "hero",
+   "era": "The Four Worlds",
+   "role": "The younger war twin, who sent sound through the world and kept it echoing",
+   "wikipedia": "Pöqangwhoya",
+   "portrait": "portraits/hopi/palongawhoya.webp",
+   "epithets": [
+    "the younger twin",
+    "the echo"
+   ],
+   "domains": [
+    "sound and echo",
+    "war",
+    "vibration",
+    "mischief"
+   ],
+   "symbols": [
+    "the shinny stick",
+    "the resounding earth"
+   ],
+   "mount": null,
+   "abode": "The San Francisco Peaks",
+   "festivals": [],
+   "worship": "",
+   "bio": "His job was sound: he sent it out through the world and it has not stopped bouncing since.",
+   "longBio": "The younger of Spider Grandmother's grandsons. Where his brother makes the earth solid, Palongawhoya's assignment is sound - he carries it out through the world so that the whole thing resonates, and echo is what is left of that. The pair of them then go monster-hunting. They are simultaneously the guardians invoked in serious ceremony and a pair of badly behaved boys who cannot be left alone with anything, and the stories enjoy both. In modern retellings the sound-carrying job has been romanticised considerably; the older accounts are blunter about it.",
+   "variantTraditions": "The elaborate vibration cosmology attached to him in some popular books comes from Frank Waters (1963) rather than from the earlier recorded material.",
+   "storyIds": [
+    "emergence"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "sipapu",
+   "name": "The Sipapu",
+   "sanskrit": "Sipaapuni",
+   "category": "primordial",
+   "era": "The Emergence",
+   "role": "The hole people climbed out of, and the door the dead go back through",
+   "wikipedia": "Sipapu",
+   "portrait": "portraits/hopi/sipapu.webp",
+   "epithets": [
+    "the place of emergence",
+    "the navel"
+   ],
+   "domains": [
+    "emergence",
+    "the road of the dead",
+    "the connection between worlds"
+   ],
+   "symbols": [
+    "the reed that grew up through the sky",
+    "the round hole in the kiva floor"
+   ],
+   "mount": null,
+   "abode": "A travertine dome in the Grand Canyon, on the Little Colorado",
+   "festivals": [],
+   "worship": "",
+   "bio": "Not a person - a hole. The people climbed up through it into this world, and the dead go back down the same way.",
+   "longBio": "The sipapu is where the Third World ended and this one started: a reed grew up through the sky and the people climbed it, and came out here. There is a physical place, a yellow travertine dome on the Little Colorado in the Grand Canyon, that is identified as it. Every kiva has a small round hole in the floor representing it, so that the room you hold ceremonies in is literally built around the door between worlds. The dead take the same road back. It is the single most important location in Hopi thought and it is a hole in the ground.",
+   "variantTraditions": "Related emergence traditions and physical sipapu sites are held by other Pueblo peoples and the Navajo, with different locations.",
+   "storyIds": [
+    "emergence"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "supreme-source",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "matsito",
+   "name": "Matsito",
+   "sanskrit": "Matsito",
+   "category": "mortal",
+   "era": "The Emergence",
+   "role": "The chief who founded Oraibi after a quarrel with his brother",
+   "wikipedia": "Oraibi,_Arizona",
+   "portrait": "portraits/hopi/matsito.webp",
+   "epithets": [
+    "the founder of Oraibi"
+   ],
+   "domains": [
+    "the founding of the village",
+    "the boundary stone"
+   ],
+   "symbols": [
+    "the marked rock",
+    "the field of the chief"
+   ],
+   "mount": null,
+   "abode": "Oraibi",
+   "festivals": [],
+   "worship": "",
+   "bio": "He fell out with his brother, walked away, and started what became the oldest continuously inhabited settlement in North America.",
+   "longBio": "Matsito quarrels with his brother, the chief at Shungopavi, and leaves to found his own village on Third Mesa. That village is Oraibi, and people have lived in it since roughly 1100, which makes it a serious contender for the oldest continuously occupied settlement in the United States. He marks the boundaries of the fields and lays out who holds what. The story is a charter - it explains why Oraibi exists and why its land is divided the way it is - and it is told with the flatness of an actual property dispute.",
+   "variantTraditions": "Oraibi split again in 1906 in a dispute between the Friendlies and Hostiles, settled by a push-of-war across a line scratched in the rock. That line is still there.",
+   "storyIds": [
+    "short-ear"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "tiyo",
+   "name": "Tiyo",
+   "sanskrit": "Tiyo",
+   "category": "hero",
+   "era": "The Emergence",
+   "role": "The boy who floated down the Colorado in a hollow log to find out where the water goes",
+   "wikipedia": "Hopi_mythology",
+   "portrait": "portraits/hopi/tiyo.webp",
+   "epithets": [
+    "the snake youth",
+    "the one who went down the river"
+   ],
+   "domains": [
+    "the river journey",
+    "the snake ceremony",
+    "rain"
+   ],
+   "symbols": [
+    "the hollow cottonwood log sealed with pitch",
+    "the snake"
+   ],
+   "mount": null,
+   "abode": "Down the river, and back to Walpi",
+   "festivals": [],
+   "worship": "",
+   "bio": "He wondered where all the water went, sealed himself into a log, and went to find out.",
+   "longBio": "Tiyo watches the river run away west and wants to know where it ends. His father hollows a cottonwood log, seals him in with pitch and food, and pushes him off. Spider Grandmother rides along behind his ear. He reaches the Snake People, is tested, marries a Snake Maiden and brings her home with the songs and rites for making rain. Their first children are snakes, which does not go well in the village, so the family moves on. The story is the origin of the Snake Dance at Walpi, in which real rattlesnakes are carried in the mouth, and it is why.",
+   "variantTraditions": "Voth and Fewkes both recorded versions, differing in detail. The Snake Dance was closed to outsiders in the twentieth century after decades of intrusive tourism.",
+   "storyIds": [
+    "boy-in-the-log"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "sea-waters",
+    "serpent-dragon"
+   ]
+  },
+  {
+   "id": "snake_maiden",
+   "name": "The Snake Maiden",
+   "sanskrit": "Tsu'mana",
+   "category": "deity",
+   "era": "The Emergence",
+   "role": "Tiyo's wife from the Snake People, who brought the rain ceremony north",
+   "wikipedia": "Hopi_mythology",
+   "portrait": "portraits/hopi/snake_maiden.webp",
+   "epithets": [
+    "Tsu'mana",
+    "the Snake girl"
+   ],
+   "domains": [
+    "snakes",
+    "rain",
+    "the snake ceremony"
+   ],
+   "symbols": [
+    "the snake",
+    "the woven wedding robe"
+   ],
+   "mount": null,
+   "abode": "The Snake kiva, and then Walpi",
+   "festivals": [],
+   "worship": "",
+   "bio": "She married the boy who came down the river in a log, and her children came out as snakes.",
+   "longBio": "The Snake Maiden comes back north with Tiyo, bringing the songs, the altar and the rites that make rain. Her first children are born as snakes and bite the village children, so the family leaves and settles elsewhere - and the snakes go into the ground and become the ones handled in the ceremony. That is the point: the rattlesnakes carried in the dancers' mouths at Walpi are kin. They are sent out afterwards to the four directions to carry the message that the people need rain.",
+   "variantTraditions": "The identification of the ceremonial snakes as relatives is explicit in the recorded accounts and is why the dance is not the daredevil stunt outsiders took it for.",
+   "storyIds": [
+    "boy-in-the-log"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "serpent-dragon",
+    "earth-mother",
+    "preserver"
+   ]
+  },
+  {
+   "id": "palulukang",
+   "name": "Palulukang",
+   "sanskrit": "Paalölöqangw",
+   "category": "beast",
+   "era": "The Emergence",
+   "role": "The horned water serpent who lives in springs and shakes the ground",
+   "wikipedia": "Kolowisi",
+   "portrait": "portraits/hopi/palulukang.webp",
+   "epithets": [
+    "Paalölöqangw",
+    "the plumed serpent",
+    "the water serpent"
+   ],
+   "domains": [
+    "springs and underground water",
+    "earthquakes",
+    "floods"
+   ],
+   "symbols": [
+    "the single horn",
+    "the feathered head",
+    "the spring"
+   ],
+   "mount": null,
+   "abode": "Springs, and the water under the ground",
+   "festivals": [],
+   "worship": "",
+   "bio": "He lives in the springs, and when he moves the earth moves with him.",
+   "longBio": "Palulukang is the great horned serpent who inhabits the water below the ground - the springs, and whatever it is that connects them. When he shifts, there are earthquakes and floods. He is brought out in the Powamu season in a screen ceremony where puppet serpents several feet long lunge out through a painted cloth at the audience, worked from behind by men in the dark, and knock over corn plants. It is genuinely startling to watch and was described with some astonishment by every ethnographer who saw it. He is a relative of the Zuni Kolowisi and of the plumed serpents further south.",
+   "variantTraditions": "The horned or plumed water serpent runs from the Pueblos through Mesoamerica, and how closely Palulukang relates to Quetzalcoatl is an old and unresolved question.",
+   "storyIds": [
+    "boy-in-the-log"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "serpent-dragon",
+    "sea-waters",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "kwatoko",
+   "name": "Kwatoko",
+   "sanskrit": "Kwaatoko",
+   "category": "beast",
+   "era": "The Emergence",
+   "role": "The monster bird that ate people, killed by the twins",
+   "wikipedia": "Hopi_mythology",
+   "portrait": "portraits/hopi/kwatoko.webp",
+   "epithets": [
+    "the man-eating bird"
+   ],
+   "domains": [
+    "predation",
+    "the cliffs"
+   ],
+   "symbols": [
+    "the great wings",
+    "the eyrie on the rock"
+   ],
+   "mount": null,
+   "abode": "A crag above the mesas",
+   "festivals": [],
+   "worship": "",
+   "bio": "A giant bird that carried people off, until two small boys went up the cliff after it.",
+   "longBio": "Kwatoko is one of the monsters left over in the Fourth World, a huge bird that takes people off the mesas. The war twins go after it - climbing to the eyrie, dealing with the chicks, and killing the adult - which is the standard shape of their work: the world is delivered dangerous and has to be cleaned up before it can be farmed. The monster-killing stories are told briskly and with a certain relish, and they are the reason the twins appear as guardians on altars.",
+   "variantTraditions": "Monster-slaying cycles of this kind are shared across the Southwest, most fully developed in the Navajo Hero Twins material.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "mongwu",
+   "name": "Mongwu",
+   "sanskrit": "Mongwu",
+   "category": "beast",
+   "era": "The Emergence",
+   "role": "The great horned owl, who is the one who finally disciplines the clowns",
+   "wikipedia": "Hopi_mythology",
+   "portrait": "portraits/hopi/mongwu.webp",
+   "epithets": [
+    "the great horned owl",
+    "the warrior owl"
+   ],
+   "domains": [
+    "night",
+    "policing",
+    "the punishment of the clowns"
+   ],
+   "symbols": [
+    "the owl",
+    "the whip of yucca"
+   ],
+   "mount": null,
+   "abode": "The night, and the edge of the plaza",
+   "festivals": [],
+   "worship": "",
+   "bio": "When the clowns have gone too far, the owl arrives with a whip, and everybody knows it was coming.",
+   "longBio": "Mongwu is the great horned owl in katsina form, and he functions as law enforcement. During the summer dances the clowns behave worse and worse - gluttony, mockery, obscenity, mimicking the audience - and everyone in the plaza can feel it building. Then Mongwu and the warriors appear on the rooftops, watch for a while, come down and thrash them. The clowns are drenched, whipped, and made to apologise. It is a set piece about excess and consequences played out over an entire afternoon in front of the whole village.",
+   "variantTraditions": "Owls are widely regarded with suspicion across the Southwest and are associated with witchcraft in several Pueblo traditions.",
+   "storyIds": [
+    "clowns-punished"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "death-judge",
+    "divine-beast",
+    "war"
+   ]
+  },
+  {
+   "id": "eototo",
+   "name": "Eototo",
+   "sanskrit": "Eeototo",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The chief of all katsinam, who walks slowly and draws clouds on the ground",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/eototo.webp",
+   "epithets": [
+    "the katsina chief",
+    "the spiritual counterpart of the village chief"
+   ],
+   "domains": [
+    "leadership of the katsinam",
+    "clouds",
+    "water"
+   ],
+   "symbols": [
+    "the plain white mask",
+    "the gourd of water",
+    "the cloud symbols drawn in cornmeal"
+   ],
+   "mount": null,
+   "abode": "The kiva, and the plaza at Powamu and Niman",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most important katsina, and the plainest-looking one in the whole set.",
+   "longBio": "Eototo is the chief. His mask is almost featureless white - no beak, no horns, no colour to speak of - and next to the spectacular ones he looks like nobody. That is the point. He moves at a deliberate walk, stopping to draw cloud symbols on the ground in cornmeal and pour water on them, which is the single most important thing anyone in the plaza is doing. His human counterpart is the village chief, and the two are understood to be the same office in different worlds.",
+   "variantTraditions": "Eototo appears with his lieutenant Aholi and the pairing is fixed; Fewkes's Hopi artists drew them together.",
+   "storyIds": [
+    "powamu",
+    "initiation",
+    "niman"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "king-ruler",
+    "sea-waters",
+    "preserver"
+   ]
+  },
+  {
+   "id": "aholi",
+   "name": "Aholi",
+   "sanskrit": "Aaloosaka",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "Eototo's lieutenant, in a cloak painted with flowers and clouds",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/aholi.webp",
+   "epithets": [
+    "the friend of Eototo",
+    "the one with the long staff"
+   ],
+   "domains": [
+    "assistance to the chief",
+    "flowers",
+    "clouds"
+   ],
+   "symbols": [
+    "the tall conical case mask",
+    "the painted cloak",
+    "the long staff"
+   ],
+   "mount": null,
+   "abode": "The plaza at Powamu",
+   "festivals": [],
+   "worship": "",
+   "bio": "He carries the staff and wears the best cloak, and his job is to follow the chief.",
+   "longBio": "Aholi walks with Eototo and repeats what he does, holding a long staff and wearing a cloak painted with clouds and flowers that is among the most striking things in the ceremony. His mask is a tall case with a crescent and a curved beak. In one account he once allowed his own throat to be cut so that Eototo could get away, which is why the cloak is coloured as it is. He is a good example of how the katsinam work in pairs and how much of the meaning is carried in the clothes rather than the face.",
+   "variantTraditions": "Aholi is sometimes identified with Aaloosaka, the Two Horn society deity, and the relationship between the names is unclear.",
+   "storyIds": [
+    "powamu"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "ahola",
+   "name": "Ahola",
+   "sanskrit": "Ahöla",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The one who opens the season, going house to house at sunrise",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/ahola.webp",
+   "epithets": [
+    "the germ god katsina",
+    "the Powamu chief"
+   ],
+   "domains": [
+    "the opening of the katsina season",
+    "germination",
+    "the sun"
+   ],
+   "symbols": [
+    "the mask divided in two halves",
+    "the chief's stick",
+    "the cornmeal line"
+   ],
+   "mount": null,
+   "abode": "Every house in the village, at dawn",
+   "festivals": [],
+   "worship": "",
+   "bio": "At Powamu he visits every house in the village before sunrise and marks each one.",
+   "longBio": "Ahola opens the great February ceremony. Before dawn he goes to every kiva and every clan house, makes a mark with cornmeal, and asks for a good year. He carries a chief's stick, moves with a peculiar stooping gait, and utters a long groaning call. At sunrise he faces the sun and bows four times. His mask is divided down the middle into two halves of different colour. Of everything in Powamu, his round of the houses at first light is the part that most sounds like what it is: someone going door to door asking for the year to work.",
+   "variantTraditions": "Ahola and Ahöla are the same figure; the germ-god association links him to Muyingwa.",
+   "storyIds": [
+    "powamu"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "preserver",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "angwusnasomtaka",
+   "name": "Crow Mother",
+   "sanskrit": "Angwusnasomtaka",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The mother of the katsinam, with crow wings on either side of her face",
+   "wikipedia": "Crow_Mother",
+   "portrait": "portraits/hopi/angwusnasomtaka.webp",
+   "epithets": [
+    "Angwusnasomtaka",
+    "Tumas",
+    "the mother of all katsinam"
+   ],
+   "domains": [
+    "motherhood of the katsinam",
+    "initiation",
+    "bean sprouts"
+   ],
+   "symbols": [
+    "the black crow wings at the ears",
+    "the basket of bean sprouts",
+    "the yucca whips"
+   ],
+   "mount": null,
+   "abode": "The plaza and the kiva at Powamu",
+   "festivals": [],
+   "worship": "",
+   "bio": "She carries the yucca whips to the children's initiation - and she brings the bean sprouts.",
+   "longBio": "Crow Mother is the mother of the katsinam and the central female figure of Powamu. She has a black crow's wing on each side of her head and carries a basket. At the initiation of children she brings the whips that the Hu katsinam use, which sounds harsh and is: the children are struck, and it is the moment they learn who the katsinam actually are. She also carries in the bean sprouts forced green in the kivas in February. Both things at once - the discipline and the growth - is exactly the point of her.",
+   "variantTraditions": "She is called Tumas on some mesas. Her role at the children's initiation is described in detail in Voth and is the most-cited passage of the whole Powamu literature.",
+   "storyIds": [
+    "powamu",
+    "initiation"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "divine-beast",
+    "preserver"
+   ]
+  },
+  {
+   "id": "hu",
+   "name": "The Hu Katsinam",
+   "sanskrit": "Hu",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The whippers: two of them, and they are the reason children find out",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/hu.webp",
+   "epithets": [
+    "the whipper katsinam",
+    "Tunwup"
+   ],
+   "domains": [
+    "initiation",
+    "discipline",
+    "the yucca whip"
+   ],
+   "symbols": [
+    "the yucca whips",
+    "the black mask with staring eyes",
+    "the fringe of horsehair"
+   ],
+   "mount": null,
+   "abode": "The kiva at the children's initiation",
+   "festivals": [],
+   "worship": "",
+   "bio": "They come into the kiva at the initiation, and afterwards the katsinam take their masks off.",
+   "longBio": "The Hu katsinam arrive at the initiation of children, take the whips from Crow Mother, and strike each child four times. It is real and it hurts. And then, at the end of the ceremony, the katsinam remove their masks in front of the children, who see for the first time that they are their uncles and neighbours. Accounts by Hopi people of that moment describe shock, and then a much larger understanding: the men are not pretending to be katsinam, the katsinam are present in them. Every ethnographer who recorded it understood they had been told something serious.",
+   "variantTraditions": "The unmasking is described from the inside in Hopi autobiographical accounts published in the twentieth century, which is how outsiders know what it meant.",
+   "storyIds": [
+    "initiation"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "death-judge",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "soyoko",
+   "name": "Soyoko",
+   "sanskrit": "Soyok Wuhti",
+   "category": "beast",
+   "era": "The Katsinam",
+   "role": "The ogre woman who comes for children who have not behaved, with a knife and a basket",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/soyoko.webp",
+   "epithets": [
+    "Soyok Wuhti",
+    "the ogre woman",
+    "the Natacka's mother"
+   ],
+   "domains": [
+    "the disciplining of children",
+    "fear",
+    "negotiation"
+   ],
+   "symbols": [
+    "the crook and the long knife",
+    "the burden basket",
+    "the black beak and staring eyes"
+   ],
+   "mount": null,
+   "abode": "The doorstep, in February",
+   "festivals": [],
+   "worship": "",
+   "bio": "She turns up at the door with a basket to carry your children away, and the family has to buy them back.",
+   "longBio": "Soyoko is the single most effective piece of parenting in the ethnographic record. In February she and the Natackas go house to house naming specific children and demanding them, and the child has to come out and face her. She has a huge beak, staring eyes, a knife and a basket. The family negotiates - offering food instead, and the child is made to promise to do better - and over several visits the price is haggled up until she is finally bought off with meat. The children are genuinely frightened, the adults are visibly enjoying it, and the whole village is watching.",
+   "variantTraditions": "The ogre visits are still held. Photographs and detailed descriptions from the 1890s are in the published record; what is here is that material.",
+   "storyIds": [
+    "ogres-at-the-door"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "nataska",
+   "name": "Nataska",
+   "sanskrit": "Nata'aska",
+   "category": "beast",
+   "era": "The Katsinam",
+   "role": "The ogre with the black beak and the saw, who comes with her",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/nataska.webp",
+   "epithets": [
+    "Nata'aska",
+    "the big-mouthed ogre",
+    "the uncle"
+   ],
+   "domains": [
+    "the disciplining of children",
+    "appetite"
+   ],
+   "symbols": [
+    "the great black snapping beak",
+    "the saw or knife",
+    "the bow"
+   ],
+   "mount": null,
+   "abode": "The doorstep, in February",
+   "festivals": [],
+   "worship": "",
+   "bio": "He stands behind the ogre woman clacking an enormous wooden beak, which is somehow worse.",
+   "longBio": "The Natacka are the ogre woman's companions - large, black-beaked, carrying saws and bows, and their beaks are hinged so they can be snapped loudly. They do not do the talking. They stand at the back, working the beak, while she names the child and states the terms, and the effect of the pair is far greater than either alone. The whole performance takes place over several visits across the Powamu season, so the dread builds. It is a piece of theatre with a serious purpose and it is played expertly.",
+   "variantTraditions": "Natacka, Nata'aska and Nataska are the same name in different transcriptions. There are several distinct ogres in the group.",
+   "storyIds": [
+    "ogres-at-the-door"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "koyemsi",
+   "name": "The Mudheads",
+   "sanskrit": "Koyemsi",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "Lumpy brown clowns with knobs on their heads, who are also drummers, announcers and priests",
+   "wikipedia": "Koyemshi",
+   "portrait": "portraits/hopi/koyemsi.webp",
+   "epithets": [
+    "Koyemsi",
+    "the mudheads",
+    "tachukti, ball-heads"
+   ],
+   "domains": [
+    "clowning",
+    "games",
+    "drumming",
+    "announcing"
+   ],
+   "symbols": [
+    "the brown mud-daubed mask with seven knobs",
+    "the black kilt",
+    "the rattle"
+   ],
+   "mount": null,
+   "abode": "The plaza, throughout",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most recognisable figures in the Southwest, and much more serious than they look.",
+   "longBio": "The Koyemsi are lumpy, brown, and covered in knobs stuffed with cotton and seeds. They organise games with the audience, hand out prizes, drum for the dancers, announce what is happening, and clown. They are also, in the Zuni account they come from, born of an incestuous union and dangerous, and are treated with real respect. In Hopi practice they turn up alongside almost any dance. If you have seen one image of a Southwestern ceremonial figure it was probably this one, and it was probably captioned wrongly.",
+   "variantTraditions": "The Koyemsi are Zuni in origin and were adopted by the Hopi, which is why their story and their treatment do not entirely match Hopi patterns.",
+   "storyIds": [
+    "clowns-punished"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "tsuku",
+   "name": "The Clowns",
+   "sanskrit": "Tsuutsu'kt",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "Striped clowns who eat filth, mock everyone, and are publicly punished for it",
+   "wikipedia": "Sacred_clown",
+   "portrait": "portraits/hopi/tsuku.webp",
+   "epithets": [
+    "Tsuutsu'kt",
+    "Paiyakyamu",
+    "the striped ones"
+   ],
+   "domains": [
+    "clowning",
+    "satire",
+    "gluttony",
+    "the demonstration of excess"
+   ],
+   "symbols": [
+    "the black and white horizontal stripes",
+    "the two horns of cornhusk"
+   ],
+   "mount": null,
+   "abode": "The plaza, all day",
+   "festivals": [],
+   "worship": "",
+   "bio": "They arrive on the roof, come down backwards, and spend the day being everything a person should not be.",
+   "longBio": "The clowns paint themselves in black and white stripes with two cornhusk horns, arrive by climbing down into the plaza the wrong way round, and behave appallingly for hours. They eat enormous quantities, drink filthy water, mock the audience by name, imitate visitors, and get more and more out of hand. Then the warriors and Mongwu the owl come and thrash them, and they apologise. It is not comic relief inserted into a serious ceremony. It is a lesson about immoderation delivered by demonstration, and the punishment is the second half of the argument.",
+   "variantTraditions": "Pueblo clowning is a serious institution with genuine authority, and the practice of naming and mocking individuals is a real form of social correction.",
+   "storyIds": [
+    "clowns-punished"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "kookopolo",
+   "name": "Kookopolo",
+   "sanskrit": "Kookopölö",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The real one behind the flute-player on every fridge magnet in Arizona",
+   "wikipedia": "Kokopelli",
+   "portrait": "portraits/hopi/kookopolo.webp",
+   "epithets": [
+    "Kookopölö",
+    "the hump-backed one"
+   ],
+   "domains": [
+    "fertility",
+    "seed-carrying",
+    "sexual humour"
+   ],
+   "symbols": [
+    "the hump",
+    "the flute in the popular image",
+    "the black and white body paint"
+   ],
+   "mount": null,
+   "abode": "The plaza, and the rock walls",
+   "festivals": [],
+   "worship": "",
+   "bio": "The commercialised Kokopelli is a very cleaned-up version of a figure who was frankly obscene.",
+   "longBio": "The hunched flute player is everywhere in the Southwest tourist trade, and the actual Kookopölö katsina is a fertility figure whose performances were explicitly sexual and often very funny - and were suppressed and sanitised after outside observers objected. The rock-art figure the logo derives from appears across the Southwest for well over a thousand years and may or may not be the same being. Almost everything printed on the merchandise is invented. The entry is here mainly so that the difference between the two is on the record.",
+   "variantTraditions": "The name Kokopelli is a garbling. The relationship between the katsina, the ancient petroglyph figure and the modern logo is not straightforward and is often asserted more confidently than the evidence allows.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "love-desire",
+    "messenger-trickster",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "hemis",
+   "name": "Hemis Katsina",
+   "sanskrit": "Hemiskatsina",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The one who closes the season, carrying the first corn of the year",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/hemis.webp",
+   "epithets": [
+    "the Jemez katsina",
+    "the Home Dance katsina"
+   ],
+   "domains": [
+    "the corn harvest",
+    "the departure of the katsinam",
+    "rain"
+   ],
+   "symbols": [
+    "the tall painted tablita above the mask",
+    "the green corn",
+    "the spruce collar"
+   ],
+   "mount": null,
+   "abode": "The plaza at Niman, in July",
+   "festivals": [],
+   "worship": "",
+   "bio": "At the Home Dance in July he brings the year's first corn, and then the katsinam go home.",
+   "longBio": "The Hemis is the katsina of the Niman, the Home Dance, held in July. He wears a tall flat painted board above the mask - the tablita - and brings in the first green corn of the year, which is distributed. It is the last dance of the season. Afterwards the katsinam leave the villages and return to the San Francisco Peaks for six months, and the year turns to the societies' ceremonies instead. Girls who married that year receive their wedding robes at Niman. It is the closing of a door, and it is the most photographed dance because it is also the most beautiful.",
+   "variantTraditions": "Hemis is named for Jemez Pueblo, from which the form was borrowed. The Niman has been closed to outsiders in most villages.",
+   "storyIds": [
+    "niman"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "preserver",
+    "earth-mother",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "palhikmana",
+   "name": "Water Drinking Girl",
+   "sanskrit": "Palhikmana",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The butterfly maiden of the tourist posters, who is actually about drinking water",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/palhikmana.webp",
+   "epithets": [
+    "Palhik Mana",
+    "the butterfly maiden",
+    "the moisture drinking maiden"
+   ],
+   "domains": [
+    "water",
+    "moisture",
+    "corn grinding"
+   ],
+   "symbols": [
+    "the elaborate stepped tablita",
+    "the butterfly whorls of hair"
+   ],
+   "mount": null,
+   "abode": "The plaza",
+   "festivals": [],
+   "worship": "",
+   "bio": "The most elaborate headdress in the whole set, and the name means the girl who drinks water.",
+   "longBio": "Palhikmana wears a tall stepped and painted tablita covered in cloud and rain symbols, and she is a favourite subject for carvers, which is why her image is on everything. The popular name butterfly maiden comes from the whorled hairdressing, but the actual name means something closer to the maiden who drinks moisture, which is a great deal more to the point in that country. She appears in the mixed dances and is sometimes represented as a doll rather than a dancer.",
+   "variantTraditions": "The butterfly identification is a modern gloss. The word palhik refers to moisture.",
+   "storyIds": [
+    "niman"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "chakwaina",
+   "name": "Chakwaina",
+   "sanskrit": "Chakwaina",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The fierce warrior katsina, possibly named after a member of Coronado's expedition",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/chakwaina.webp",
+   "epithets": [
+    "the warrior katsina",
+    "the black one with the beard"
+   ],
+   "domains": [
+    "war",
+    "protection",
+    "ferocity"
+   ],
+   "symbols": [
+    "the black mask with a great beard of hair",
+    "the bulging eyes",
+    "the bow and rattle"
+   ],
+   "mount": null,
+   "abode": "The plaza",
+   "festivals": [],
+   "worship": "",
+   "bio": "One theory has him named for Estevanico, the enslaved African who reached the Southwest in 1539.",
+   "longBio": "Chakwaina is a fierce black-masked warrior katsina with a heavy beard, bulging eyes and a snapping mouth, and he appears among the Hopi, Zuni and Acoma. A long-standing suggestion connects him to Estevanico, the Moroccan-born enslaved man who guided the first Spanish reconnaissance north in 1539 and was killed at Hawikuh. Whether the connection is real is contested and probably unprovable, but the possibility that a katsina commemorates the first non-Native person the Pueblos ever met makes him worth including.",
+   "variantTraditions": "The Estevanico theory is popular and disputed. Chakwaina is female or a mother figure in some Zuni contexts, which complicates it further.",
+   "storyIds": [
+    "clowns-punished"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "war",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "kwahu",
+   "name": "Eagle Katsina",
+   "sanskrit": "Kwahu",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The eagle, danced with the arms held out as wings",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/kwahu.webp",
+   "epithets": [
+    "Kwahu",
+    "the eagle"
+   ],
+   "domains": [
+    "eagles",
+    "the sky",
+    "prayer feathers"
+   ],
+   "symbols": [
+    "the eagle feather wings on the arms",
+    "the yellow beak"
+   ],
+   "mount": null,
+   "abode": "The plaza in spring",
+   "festivals": [],
+   "worship": "",
+   "bio": "The dance is a real imitation of an eagle, and it is one of the finest things to watch.",
+   "longBio": "Kwahu dances with feathered wings bound along his arms and moves like the bird - the head turns, the wings open and close, the body dips. Eagles matter enormously: young eagles are taken from nests on clan-owned cliffs, raised on the rooftops of the villages through the summer, and their feathers are used for prayer sticks. The birds are treated as guests and are sent home after Niman. The relationship is closer and more complicated than a symbol.",
+   "variantTraditions": "Eagle gathering is a regulated traditional practice and remains a live legal question in the United States.",
+   "storyIds": [
+    "niman"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "sky-thunder"
+   ]
+  },
+  {
+   "id": "honan",
+   "name": "Badger Katsina",
+   "sanskrit": "Honan",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The badger, who is the doctor - because badgers dig up roots",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/honan.webp",
+   "epithets": [
+    "Honan",
+    "the badger"
+   ],
+   "domains": [
+    "medicine",
+    "herbs",
+    "digging",
+    "curing"
+   ],
+   "symbols": [
+    "the badger paw",
+    "the black and white face markings"
+   ],
+   "mount": null,
+   "abode": "The plaza",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Badger clan holds the medicine, on the straightforward grounds that badgers know where the roots are.",
+   "longBio": "Honan is the badger, and the Badger clan is the one that holds curing knowledge and the Powamu ceremony. The logic is entirely practical: badgers dig, digging gets you roots, roots are medicine. Katsinam of this kind - badger, bear, wolf, antelope, deer - carry the character of the animal into the plaza, and their clans hold the offices that follow from it. It is a good illustration of how Hopi ceremonial organisation and Hopi natural history are the same subject.",
+   "variantTraditions": "Clan ownership of specific ceremonies is the organising principle of Hopi religious life and varies between villages.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "healer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "hahai_wuhti",
+   "name": "Hahai'i Wuuti",
+   "sanskrit": "Hahay'iwuuti",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The talkative mother, the first doll a Hopi baby is given",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/hahai_wuhti.webp",
+   "epithets": [
+    "Hahay'i Wuuti",
+    "the mother of katsinam",
+    "the one who talks"
+   ],
+   "domains": [
+    "motherhood",
+    "water",
+    "the first tihu"
+   ],
+   "symbols": [
+    "the round white face with a wide smile",
+    "the water gourd"
+   ],
+   "mount": null,
+   "abode": "The plaza, and the cradleboard",
+   "festivals": [],
+   "worship": "",
+   "bio": "She is the flat doll hung over a baby's cradleboard, and she is the one katsina who talks a lot.",
+   "longBio": "Hahai'i Wuuti is a mother figure, always cheerful, with a wide painted smile, and unusually among the katsinam she speaks - a high continuous chatter. Her flat tihu is the first one given to an infant, hung on the cradleboard, and children get more elaborate carved ones as they grow. She appears with the Water Serpent ceremony pouring water, and she accompanies the ogres, where her role is to plead for the children. The carved tihu are teaching objects rather than toys, which is the thing outsiders most consistently get wrong about them.",
+   "variantTraditions": "The flat cradle tihu and the fully carved figures are different classes of object with different purposes.",
+   "storyIds": [
+    "ogres-at-the-door"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "sea-waters",
+    "preserver"
+   ]
+  },
+  {
+   "id": "talatumsi",
+   "name": "Dawn Woman",
+   "sanskrit": "Talatumsi",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "Brought down the mesa by torchlight for the men's initiation",
+   "wikipedia": "Hopi_mythology",
+   "portrait": "portraits/hopi/talatumsi.webp",
+   "epithets": [
+    "Talatumsi",
+    "Dawn Woman"
+   ],
+   "domains": [
+    "dawn",
+    "initiation",
+    "new life"
+   ],
+   "symbols": [
+    "the carved wooden figure",
+    "the torchlit path"
+   ],
+   "mount": null,
+   "abode": "A shrine below the mesa",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her carved image is fetched at night from a shrine below the mesa and carried up by torchlight.",
+   "longBio": "Talatumsi is Dawn Woman, and she is represented by a carved figure kept at a shrine below the village. During the Wuwtsim initiation her image is fetched at night and carried up the mesa by men with torches, a procession that observers described as one of the most striking things they had seen. She belongs to the men's societies rather than the katsina cycle. In 1978 her figure was stolen from its shrine, which is a reminder of why Hopi people are careful about what gets published and photographed.",
+   "variantTraditions": "The theft of ceremonial objects from shrines is a continuing problem and is one reason many ceremonies were closed to outsiders in the twentieth century.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "dawn",
+    "earth-mother",
+    "preserver"
+   ]
+  },
+  {
+   "id": "tuwapongtumsi",
+   "name": "Sand Altar Woman",
+   "sanskrit": "Tuwapongtumsi",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "Mother of the katsinam and of all wild game",
+   "wikipedia": "Hopi_mythology",
+   "portrait": "portraits/hopi/tuwapongtumsi.webp",
+   "epithets": [
+    "Tuwapongtumsi",
+    "Sand Altar Woman",
+    "Tuwapongwuuti"
+   ],
+   "domains": [
+    "fertility of animals",
+    "the hunt",
+    "motherhood of the katsinam"
+   ],
+   "symbols": [
+    "the sand painting on the altar",
+    "the game animals"
+   ],
+   "mount": null,
+   "abode": "The kiva altar",
+   "festivals": [],
+   "worship": "",
+   "bio": "She owns the animals that get hunted, and is named for the sand paintings on the kiva floor.",
+   "longBio": "Tuwapongtumsi is Sand Altar Woman, associated with the dry paintings made in coloured sand on the kiva floor before a ceremony and destroyed after it. She is a mother of the katsinam and the owner of game animals, so hunting is petitioned through her. She is sometimes identified with or paired against Hahai'i Wuuti, and the sources do not agree about how many mother-goddesses there are or which names belong to which. That kind of ambiguity is normal here and is not a gap in the record so much as a feature of it.",
+   "variantTraditions": "Names and functions of the Hopi mother deities vary considerably between the three mesas.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "divine-beast",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "angaktsina",
+   "name": "Longhair Katsina",
+   "sanskrit": "Angakwsina",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "The one with the long loose hair, who sings the best songs",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/angaktsina.webp",
+   "epithets": [
+    "Angak'china",
+    "the longhair"
+   ],
+   "domains": [
+    "rain",
+    "song",
+    "flowers"
+   ],
+   "symbols": [
+    "the long loose black hair",
+    "the small painted mouth tube",
+    "the douglas fir collar"
+   ],
+   "mount": null,
+   "abode": "The plaza in the mixed dances",
+   "festivals": [],
+   "worship": "",
+   "bio": "Long black hair down over the face, and by common consent the most beautiful singing of the year.",
+   "longBio": "The Longhairs dance in long lines with their hair loose over their faces, wearing spruce collars, and their songs are widely considered the finest in the repertoire - slow, low and enormously long. They are rain katsinam. New songs are composed each year, and the composing is taken as seriously as anything else. Recordings made in the early twentieth century are the reason some of this is preserved outside the villages at all, and they are also part of why Hopi people became wary of recording equipment.",
+   "variantTraditions": "Angak'china appear in numerous Pueblo traditions with local variations.",
+   "storyIds": [
+    "niman"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "heheya",
+   "name": "Heheya",
+   "sanskrit": "Heheya",
+   "category": "deity",
+   "era": "The Katsinam",
+   "role": "He says everything backwards, and he is a serious rain katsina anyway",
+   "wikipedia": "Kachina",
+   "portrait": "portraits/hopi/heheya.webp",
+   "epithets": [
+    "Heheya",
+    "the one who speaks in reverse"
+   ],
+   "domains": [
+    "rain",
+    "reversal",
+    "clowning"
+   ],
+   "symbols": [
+    "the zigzag lines on the cheeks",
+    "the reversed speech"
+   ],
+   "mount": null,
+   "abode": "The plaza",
+   "festivals": [],
+   "worship": "",
+   "bio": "Everything he says means the opposite, which is funny until you notice it is also how he asks for rain.",
+   "longBio": "Heheya speaks in reverse - saying the opposite of what he means, and being understood perfectly. He appears in the mixed dances and with the ogres, and his zigzag cheek markings are distinctive. Reversal as a mode is taken seriously across the Pueblos: the clown who does everything backwards, the speech that inverts, the dancer who enters the wrong way. It marks a being as standing outside ordinary rules, which is exactly the position from which you can ask for something as unreasonable as rain in that country.",
+   "variantTraditions": "Several distinct Heheya katsinam exist with different roles.",
+   "storyIds": [
+    "ogres-at-the-door"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "messenger-trickster",
+    "sea-waters"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "tawa",
+   "to": "spider_woman",
+   "type": "ally",
+   "note": "They made the first people together"
+  },
+  {
+   "from": "tawa",
+   "to": "huruing_wuhti",
+   "type": "consort",
+   "note": "The sun and the woman in the sea, at the beginning"
+  },
+  {
+   "from": "huruing_wuhti",
+   "to": "spider_woman",
+   "type": "ally",
+   "note": "The two who shaped people out of clay"
+  },
+  {
+   "from": "spider_woman",
+   "to": "poqanghoya",
+   "type": "parent",
+   "note": "Her grandson, the elder twin"
+  },
+  {
+   "from": "spider_woman",
+   "to": "palongawhoya",
+   "type": "parent",
+   "note": "Her grandson, the younger twin"
+  },
+  {
+   "from": "poqanghoya",
+   "to": "palongawhoya",
+   "type": "sibling",
+   "note": "The earth made solid, and the sound sent through it"
+  },
+  {
+   "from": "poqanghoya",
+   "to": "kwatoko",
+   "type": "enemy",
+   "note": "They climbed the cliff after the man-eating bird"
+  },
+  {
+   "from": "palongawhoya",
+   "to": "kwatoko",
+   "type": "enemy",
+   "note": "The other half of the monster hunt"
+  },
+  {
+   "from": "masauwu",
+   "to": "sipapu",
+   "type": "ally",
+   "note": "He was waiting at the top when the people came up"
+  },
+  {
+   "from": "masauwu",
+   "to": "muyingwa",
+   "type": "ally",
+   "note": "The owner of the surface and the one who pushes the seed"
+  },
+  {
+   "from": "tawa",
+   "to": "masauwu",
+   "type": "sibling",
+   "note": "The sun above and the owner of the ground"
+  },
+  {
+   "from": "spider_woman",
+   "to": "tiyo",
+   "type": "guru",
+   "note": "She rode behind his ear all the way down the river"
+  },
+  {
+   "from": "tiyo",
+   "to": "snake_maiden",
+   "type": "consort",
+   "note": "He came down the river in a log and married her"
+  },
+  {
+   "from": "snake_maiden",
+   "to": "palulukang",
+   "type": "ally",
+   "note": "The Snake People and the water serpent"
+  },
+  {
+   "from": "tiyo",
+   "to": "palulukang",
+   "type": "ally",
+   "note": "The rain rites he brought back north"
+  },
+  {
+   "from": "matsito",
+   "to": "sipapu",
+   "type": "devotee",
+   "note": "He led his people on after the emergence"
+  },
+  {
+   "from": "masauwu",
+   "to": "matsito",
+   "type": "guru",
+   "note": "He gave the Hopi the short ear of corn and the hard country"
+  },
+  {
+   "from": "muyingwa",
+   "to": "sipapu",
+   "type": "ally",
+   "note": "The germination god below the surface"
+  },
+  {
+   "from": "eototo",
+   "to": "aholi",
+   "type": "ally",
+   "note": "The chief and his lieutenant, never apart"
+  },
+  {
+   "from": "eototo",
+   "to": "ahola",
+   "type": "ally",
+   "note": "The two who open and lead the Powamu"
+  },
+  {
+   "from": "eototo",
+   "to": "hemis",
+   "type": "ally",
+   "note": "The one who opens the season and the one who closes it"
+  },
+  {
+   "from": "angwusnasomtaka",
+   "to": "hu",
+   "type": "ally",
+   "note": "She carries the whips; they use them"
+  },
+  {
+   "from": "angwusnasomtaka",
+   "to": "eototo",
+   "type": "consort",
+   "note": "The mother of the katsinam beside their chief"
+  },
+  {
+   "from": "angwusnasomtaka",
+   "to": "hahai_wuhti",
+   "type": "sibling",
+   "note": "Two mothers of the katsinam"
+  },
+  {
+   "from": "soyoko",
+   "to": "nataska",
+   "type": "ally",
+   "note": "She names the child; he works the beak behind her"
+  },
+  {
+   "from": "soyoko",
+   "to": "hahai_wuhti",
+   "type": "enemy",
+   "note": "The one who pleads for the children against the one who takes them"
+  },
+  {
+   "from": "soyoko",
+   "to": "heheya",
+   "type": "ally",
+   "note": "He comes with the ogres"
+  },
+  {
+   "from": "koyemsi",
+   "to": "tsuku",
+   "type": "ally",
+   "note": "The two kinds of clown, working the same plaza"
+  },
+  {
+   "from": "mongwu",
+   "to": "tsuku",
+   "type": "enemy",
+   "note": "The owl comes down off the roof with a whip"
+  },
+  {
+   "from": "mongwu",
+   "to": "koyemsi",
+   "type": "enemy",
+   "note": "Nobody is exempt from the reckoning"
+  },
+  {
+   "from": "tsuku",
+   "to": "hemis",
+   "type": "ally",
+   "note": "The clowns work the dance they are mocking"
+  },
+  {
+   "from": "hahai_wuhti",
+   "to": "palulukang",
+   "type": "ally",
+   "note": "She pours the water at the serpent ceremony"
+  },
+  {
+   "from": "tuwapongtumsi",
+   "to": "hahai_wuhti",
+   "type": "sibling",
+   "note": "Mother goddesses whose names blur between mesas"
+  },
+  {
+   "from": "tuwapongtumsi",
+   "to": "kwahu",
+   "type": "parent",
+   "note": "She owns the game and the birds"
+  },
+  {
+   "from": "tuwapongtumsi",
+   "to": "honan",
+   "type": "parent",
+   "note": "The animals are hers"
+  },
+  {
+   "from": "muyingwa",
+   "to": "ahola",
+   "type": "form",
+   "note": "The germ god and the katsina who carries his work"
+  },
+  {
+   "from": "kookopolo",
+   "to": "tsuku",
+   "type": "ally",
+   "note": "The obscene business belongs to the same afternoon"
+  },
+  {
+   "from": "palhikmana",
+   "to": "hemis",
+   "type": "ally",
+   "note": "They appear together at the Home Dance"
+  },
+  {
+   "from": "angaktsina",
+   "to": "palhikmana",
+   "type": "ally",
+   "note": "The rain katsinam of the mixed dances"
+  },
+  {
+   "from": "chakwaina",
+   "to": "mongwu",
+   "type": "ally",
+   "note": "The warrior katsinam who police the plaza"
+  },
+  {
+   "from": "talatumsi",
+   "to": "masauwu",
+   "type": "ally",
+   "note": "The men's societies, and the owner of this world"
+  },
+  {
+   "from": "kwahu",
+   "to": "honan",
+   "type": "sibling",
+   "note": "Clan animals brought into the plaza"
+  },
+  {
+   "from": "eototo",
+   "to": "matsito",
+   "type": "form",
+   "note": "The katsina chief and the village chief are one office"
+  },
+  {
+   "from": "hemis",
+   "to": "tawa",
+   "type": "devotee",
+   "note": "The corn is brought in and the year turns"
+  }
+ ]
+}

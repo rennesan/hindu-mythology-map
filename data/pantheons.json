@@ -156,8 +156,14 @@
    "label": "Hopi",
    "sublabel": "Private collection",
    "accent": "#c98f6a",
-   "status": "private",
-   "blurb": "A private study collection. Restricted access."
+   "status": "live",
+   "blurb": "A private study collection. Restricted access.",
+   "glyph": "✺",
+   "figures": 34,
+   "stories": 8,
+   "links": 44,
+   "levels": 7,
+   "cover": "portraits/hopi/tawa.webp"
   },
   {
    "id": "aboriginal",

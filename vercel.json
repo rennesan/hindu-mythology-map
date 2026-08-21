@@ -66,6 +66,10 @@
    "destination": "/celtic/index.html"
   },
   {
+   "source": "/hopi/:path*",
+   "destination": "/hopi/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }
