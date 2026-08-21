@@ -118,6 +118,10 @@
    "destination": "/hittite/index.html"
   },
   {
+   "source": "/finnish/:path*",
+   "destination": "/finnish/index.html"
+  },
+  {
    "source": "/(.*)",
    "destination": "/index.html"
   }

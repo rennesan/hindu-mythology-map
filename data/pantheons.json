@@ -463,10 +463,15 @@
    "label": "Finnish",
    "sublabel": "Karelian & the Kalevala",
    "accent": "#9eb8c4",
-   "status": "planned",
+   "status": "live",
    "blurb": "Vainamoinen, Louhi and the Sampo - with the caveat that the Kalevala is partly Lonnrot's own writing.",
    "family": "Europe",
-   "glyph": "✼"
+   "glyph": "✼",
+   "figures": 39,
+   "stories": 12,
+   "links": 71,
+   "levels": 6,
+   "cover": "portraits/finnish/ilmatar.webp"
   },
   {
    "id": "slavic",

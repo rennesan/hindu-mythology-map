@@ -1,0 +1,2591 @@
+{
+ "title": "Finnish",
+ "description": "Karelian and Finnish runic song, and the Kalevala Elias Lonnrot made out of it: a world hatched from a broken egg, and magic that works by knowing where things came from.",
+ "generated": "2026-08-21",
+ "sources": [
+  "Elias Lonnrot, Kalevala (1849), in the Kirby (1907) and Crawford (1888) translations",
+  "Elias Lonnrot, Kanteletar (1840) - the lyric and ritual songs rather than the narrative ones",
+  "John Abercromby, The Pre- and Proto-historic Finns (1898) - the origin-charms in translation",
+  "Uno Holmberg (Harva), Finno-Ugric and Siberian Mythology (1927)",
+  "Named singers whose songs Lonnrot recorded: Arhippa Perttunen, Ontrei Malinen, Vaassila Kieleveinen, Matiska, Juhana Kainulainen",
+  "Note: the Kalevala's continuous plot is Lonnrot's arrangement of separate oral songs, and in places his own verse. Entries flag where that matters"
+ ],
+ "portraitNote": "Portraits are original illustrations in a single uniform style for the whole pack, stored locally in the portraits/finnish/ folder. No images are fetched from the network.",
+ "relationshipTypes": {
+  "parent": "Parent of",
+  "consort": "Consort",
+  "sibling": "Sibling",
+  "avatar": "Avatar",
+  "form": "Form or aspect",
+  "enemy": "Adversary",
+  "devotee": "Devotee",
+  "mount": "Mount",
+  "guru": "Guru",
+  "foster": "Foster parent",
+  "ally": "Ally"
+ },
+ "books": {
+  "kalevala": {
+   "t": "The Kalevala",
+   "tr": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+   "u": "https://sacred-texts.com/neu/kveng/index.htm"
+  },
+  "crawford": {
+   "t": "The Kalevala: The Epic Poem of Finland",
+   "tr": "John Martin Crawford trans., 1888",
+   "u": "https://gutenberg.org/ebooks/5186"
+  },
+  "kanteletar": {
+   "t": "Kanteletar",
+   "tr": "Elias Lonnrot, 1840",
+   "u": "https://gutenberg.org/ebooks/6941"
+  },
+  "abercromby": {
+   "t": "The Pre- and Proto-historic Finns",
+   "tr": "John Abercromby, 1898 - includes translated magic songs",
+   "u": "https://archive.org/details/preprotohistoric02aber"
+  },
+  "harva": {
+   "t": "Finno-Ugric and Siberian Mythology",
+   "tr": "Uno Holmberg (Harva), 1927",
+   "u": "https://archive.org/details/mythologyofallra04grayuoft"
+  }
+ },
+ "meta": {
+  "id": "finnish",
+  "label": "Finnish",
+  "sublabel": "Karelian & the Kalevala",
+  "accent": "#9eb8c4",
+  "root": "ilmatar"
+ },
+ "profile": {
+  "cosmicNature": "A world made from a broken egg on the knee of a woman who had been floating in the sea for seven hundred years. Ilmatar goes down into the water out of boredom, drifts far longer than she meant to, and a bird nests on her raised knee. She flinches, the eggs fall, and the pieces become the sky, the earth, the sun, the moon and the clouds. Then she shapes the coastline with her hands, and only afterwards gives birth.",
+  "natureOfDivinity": "Thin at the top and crowded lower down. Ukko is the sky and the thunder and is invoked rather than described. Below him the world is full of specific owners - Tapio has the forest, Ahti the water, Tuoni the dead - and below them, spirits in every lake, tree, house and sauna, each of which has to be addressed correctly. Nobody worships the heroes. They are singers and smiths, and they are not always admirable.",
+  "afterlife": "Tuonela, across a black river, and it is not a punishment and not a reward - it is simply where everyone ends up, downriver and underground. Tuoni's daughter ferries you over, and the dead are not tortured, only kept. Getting in alive is possible and getting out again is the hard part; Vainamoinen manages it by turning himself into a snake and going out through the net.",
+  "systemMechanism": "Knowing the origin of a thing gives you power over it. This is the load-bearing idea of the whole tradition. A wound is closed by reciting where iron came from; a snakebite by reciting the birth of the serpent; a fire by singing the origin of fire. It is why the great figures are singers rather than fighters, why a contest of magic is a contest of memory, and why the loremaster who knows the most origins is the most dangerous person present.",
+  "canonTexts": "The Kalevala (1835, expanded 1849) and the Kanteletar (1840), both assembled by Elias Lonnrot from songs he collected in Karelia, Ingria and Finnish Lapland. Behind them sit the Suomen Kansan Vanhat Runot - thirty-three volumes of the raw collected songs, published 1908-48, which is where you go to see what the singers actually sang before it was edited into an epic."
+ },
+ "hierarchy": [
+  {
+   "title": "The Making",
+   "blurb": "A woman gets bored, goes down into the sea, and cannot get out. Seven hundred years later a duck nests on her knee, the eggs fall and break, and the pieces are the world. Nobody plans any of it. Her son is born old and turns out to be the best singer alive.",
+   "memberIds": [
+    "ilmatar",
+    "egg",
+    "ukko",
+    "vainamoinen",
+    "sampsa",
+    "great_oak"
+   ],
+   "connectorCaption": "And three men who between them cause everything that follows"
+  },
+  {
+   "title": "The Three",
+   "blurb": "A singer who can put you in a swamp with a verse, a smith who hammered out the sky and can make anything, and a beautiful young man with no judgement whatsoever. None of them is a warrior and none of them ends well.",
+   "memberIds": [
+    "vainamoinen",
+    "ilmarinen",
+    "lemminkainen",
+    "lemminkainen_mother",
+    "joukahainen",
+    "aino",
+    "kyllikki"
+   ],
+   "connectorCaption": "All of them, eventually, going north"
+  },
+  {
+   "title": "The North",
+   "blurb": "Pohjola, where the Sampo is made and kept, run by the best magician in the poem. Louhi is called a gap-toothed hag on every appearance and out-thinks everyone she meets. Her daughter sits on a rainbow setting impossible tasks.",
+   "memberIds": [
+    "louhi",
+    "pohjan_neito",
+    "sampo",
+    "kullervo",
+    "untamo",
+    "marjatta"
+   ],
+   "connectorCaption": "Outside the plot entirely, the beings who actually owned things"
+  },
+  {
+   "title": "The Owners",
+   "blurb": "The forest belongs to Tapio and his wife keeps the keys. The water belongs to Ahti and his wife drives the fish. You did not simply take an animal - you went in singing, addressed the household by name, flattered them, and asked for the loan of it.",
+   "memberIds": [
+    "tapio",
+    "mielikki",
+    "ahti",
+    "vellamo",
+    "otso",
+    "sauna_spirit"
+   ],
+   "connectorCaption": "And downriver, where everyone goes"
+  },
+  {
+   "title": "The Dead and the Dangerous",
+   "blurb": "Tuonela is not hell - it is downstream, and nobody is punished there, only kept. Getting in alive is easy and getting out is not. Elsewhere: a blind woman who bore the nine diseases, a sea monster nobody can identify, and the frost.",
+   "memberIds": [
+    "tuoni",
+    "tuonetar",
+    "swan_of_tuonela",
+    "loviatar",
+    "kalma",
+    "hiisi",
+    "elk_of_hiisi",
+    "iku_turso",
+    "syojatar",
+    "pakkanen"
+   ],
+   "connectorCaption": "Against all of it, the only weapon this tradition has"
+  },
+  {
+   "title": "What Is Known",
+   "blurb": "Knowing where a thing came from gives you power over it. So a wound is closed by reciting the birth of iron, frost is argued down by naming its parents, and the most dangerous person in the room is whoever remembers the most origins.",
+   "memberIds": [
+    "antero_vipunen",
+    "kantele",
+    "iron",
+    "paivatar",
+    "kuutar"
+   ],
+   "connectorCaption": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "making",
+   "label": "The Making",
+   "memberIds": [
+    "ilmatar",
+    "egg",
+    "sampsa",
+    "great_oak",
+    "ukko"
+   ]
+  },
+  {
+   "id": "kalevala",
+   "label": "The Men of Kalevala",
+   "memberIds": [
+    "vainamoinen",
+    "ilmarinen",
+    "lemminkainen",
+    "joukahainen"
+   ]
+  },
+  {
+   "id": "women",
+   "label": "The Women They Wanted",
+   "memberIds": [
+    "aino",
+    "kyllikki",
+    "pohjan_neito",
+    "marjatta",
+    "lemminkainen_mother"
+   ]
+  },
+  {
+   "id": "pohjola",
+   "label": "Pohjola",
+   "memberIds": [
+    "louhi",
+    "pohjan_neito",
+    "sampo",
+    "iku_turso"
+   ]
+  },
+  {
+   "id": "kullervo",
+   "label": "The Kullervo Cycle",
+   "memberIds": [
+    "kullervo",
+    "untamo",
+    "pohjan_neito",
+    "ilmarinen"
+   ]
+  },
+  {
+   "id": "owners",
+   "label": "The Owners of the Wild",
+   "memberIds": [
+    "tapio",
+    "mielikki",
+    "ahti",
+    "vellamo",
+    "otso"
+   ]
+  },
+  {
+   "id": "dead",
+   "label": "Tuonela",
+   "memberIds": [
+    "tuoni",
+    "tuonetar",
+    "swan_of_tuonela",
+    "loviatar",
+    "kalma"
+   ]
+  },
+  {
+   "id": "harm",
+   "label": "The Things a Charm Names",
+   "memberIds": [
+    "syojatar",
+    "hiisi",
+    "loviatar",
+    "pakkanen",
+    "iron",
+    "kalma"
+   ]
+  },
+  {
+   "id": "knowing",
+   "label": "Song and Knowing",
+   "memberIds": [
+    "antero_vipunen",
+    "kantele",
+    "vainamoinen",
+    "iron"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "the-knee",
+   "title": "The Duck on the Knee",
+   "era": "The Making",
+   "cast": [
+    "ilmatar",
+    "egg",
+    "vainamoinen"
+   ],
+   "summary": "There was air, and a maiden in it, and she was bored. She let herself down into the sea and then could not get out, and drifted for seven hundred years, pregnant by the wind and unable to give birth. A scaup came over the water looking for somewhere dry to nest, and she lifted her knee, and the bird laid seven eggs on it - six of gold and one of iron - and settled to brood. The knee grew hot. She flinched, and the eggs rolled off and broke on the water. The lower shell became the earth and the upper the sky, the yolk the sun and the white the moon, the speckled fragments the stars and the dark ones the clouds. Then she reached down and pushed the headlands and the bays into shape with her hands, and only afterwards gave birth to a son who was already old.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Rune I",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Kalevala: The Epic Poem of Finland",
+     "translation": "John Martin Crawford trans., 1888",
+     "location": "The Birth of Wainamoinen",
+     "url": "https://gutenberg.org/ebooks/5186"
+    }
+   ]
+  },
+  {
+   "id": "singing-match",
+   "title": "The Boy Who Wanted a Singing Contest",
+   "era": "The Three",
+   "cast": [
+    "joukahainen",
+    "vainamoinen",
+    "aino"
+   ],
+   "summary": "Joukahainen had heard about Vainamoinen and could not stand it, and rode out to challenge him. He recited what he knew about the origins of things and got them wrong, then claimed he had made the sea and dug out the hollows for the fish himself, and Vainamoinen told him he was lying and began to sing. The boy's harness turned to willow, his sledge to a rotten log, his whip to a reed, his bow to a rainbow, his sword to lightning - and the boy himself began to sink into a swamp, and went in to the waist, the armpits, the mouth. He offered his boats, his fields, his gold, his horses. None of it was taken. Then he offered his sister, and was let out, and rode home and told his mother, who was pleased. Nobody asked the sister.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Rune III",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Kalevala: The Epic Poem of Finland",
+     "translation": "John Martin Crawford trans., 1888",
+     "location": "Wainamoinen and Youkahainen",
+     "url": "https://gutenberg.org/ebooks/5186"
+    }
+   ]
+  },
+  {
+   "id": "aino",
+   "title": "Aino at the Water",
+   "era": "The Three",
+   "cast": [
+    "aino",
+    "vainamoinen"
+   ],
+   "summary": "Aino wept in the wood for three days because she had been promised to an old man, and her mother told her to stop crying and be glad of it. She walked to the shore, took off her rings and her ribbons and her cross and her shift and left them on a rock, and swam out to a stone standing in the water, and climbed onto it, and it tipped, and she went under. A hare was sent to tell her mother, who wept a river. Long after, Vainamoinen fishing hooked a fish he did not recognise, and it slid out of his hands into the water and turned and told him what it was and what he had been offered, and went down and did not come again.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Runes IV-V",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Kalevala: The Epic Poem of Finland",
+     "translation": "John Martin Crawford trans., 1888",
+     "location": "The Fate of Aino",
+     "url": "https://gutenberg.org/ebooks/5186"
+    }
+   ]
+  },
+  {
+   "id": "the-sampo",
+   "title": "Three Days at the Forge",
+   "era": "The North",
+   "cast": [
+    "ilmarinen",
+    "louhi",
+    "sampo",
+    "pohjan_neito"
+   ],
+   "summary": "Louhi's price for her daughter was an object nobody could describe, and Ilmarinen made it. He raised a wind to work the bellows and forged for three days, and what came out of the fire on the first day was a crossbow that wanted blood, and he broke it. The second day a boat that wanted war, and he broke it. The third a cow, then a plough, and he broke those too. On the last day the Sampo came out, with a lid of many colours, and he set it turning: flour from one side, salt from the second, money from the third. Louhi took it into the hill at Pohjola and locked it behind nine doors and grew roots around it, and kept the daughter as well.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Rune X",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Kalevala: The Epic Poem of Finland",
+     "translation": "John Martin Crawford trans., 1888",
+     "location": "Ilmarinen Forges the Sampo",
+     "url": "https://gutenberg.org/ebooks/5186"
+    }
+   ]
+  },
+  {
+   "id": "raking-tuonela",
+   "title": "The Rake with the Hundred-Fathom Handle",
+   "era": "The Three",
+   "cast": [
+    "lemminkainen",
+    "lemminkainen_mother",
+    "tuoni"
+   ],
+   "summary": "Lemminkainen went to shoot the swan on the black river and was killed on the bank by a blind herdsman he had once humiliated and been too proud to bother killing, and Tuoni's son cut him into pieces and threw him in. At home the comb his mother kept for him began to run blood. She went out and asked the road, the trees, and the moon where he was, and none of them would answer, and finally the sun told her. She had Ilmarinen make her a copper rake with a handle a hundred fathoms long and dragged the river with it, pass after pass, until she had every piece and one hand still missing, and dragged again for that. She fitted him together, sinew to sinew and vein to vein, and sent a bee up past the moon and the stars to fetch the honey that would start him breathing. He woke up and complained that he had been sleeping well.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Rune XV",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Kalevala: The Epic Poem of Finland",
+     "translation": "John Martin Crawford trans., 1888",
+     "location": "Lemminkainen's Restoration",
+     "url": "https://gutenberg.org/ebooks/5186"
+    }
+   ]
+  },
+  {
+   "id": "vipunen",
+   "title": "Three Words Short of a Boat",
+   "era": "What Is Known",
+   "cast": [
+    "vainamoinen",
+    "antero_vipunen"
+   ],
+   "summary": "Vainamoinen was singing a boat into existence and ran out three words short of the gunwale, and there were no more to be had anywhere alive. He was told the only one who still had them was Antero Vipunen, who had been dead and under the ground so long that an aspen was growing out of his shoulders and a birch out of his brow. He walked over the points of women's needles and the edges of men's swords and the blades of heroes' axes to get there, cleared the trees off him, and prised the giant's jaws apart with an iron stake - and slipped, and was swallowed. Inside, he made himself a forge out of his shirt and his elbow and his knee and set about hammering. Vipunen tried every expulsion charm he had, and then, in agony and to be rid of him, sang out the whole of what he knew, which was everything, and the words were among it.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Rune XVII",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Kalevala: The Epic Poem of Finland",
+     "translation": "John Martin Crawford trans., 1888",
+     "location": "Wainamoinen Finds the Lost Word",
+     "url": "https://gutenberg.org/ebooks/5186"
+    }
+   ]
+  },
+  {
+   "id": "kullervo",
+   "title": "The Stone in the Bread",
+   "era": "The North",
+   "cast": [
+    "kullervo",
+    "pohjan_neito",
+    "untamo"
+   ],
+   "summary": "Kullervo was set to herd cattle and the mistress of the house baked a stone into the loaf she sent with him. At noon he cut into it and broke his father's knife, the only thing he had left of his family, and he sat down and decided what to do. He drove the cattle into the swamp and lost them, and called bears and wolves out of the wood and drove those home instead, and turned them into cattle at the gate, and told her to go and milk them. She was torn apart in her own byre. What follows is the rest of it: the uncle killed, the farm burned, a girl seduced on the road who turns out to be his sister and drowns herself, and Kullervo in the wood asking his own sword whether it would care to kill a guilty man. It answers that it would rather kill a guilty one than an innocent, and he sets the hilt in the ground.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Runes XXXI-XXXVI",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Kalevala: The Epic Poem of Finland",
+     "translation": "John Martin Crawford trans., 1888",
+     "location": "Kullervo's Life and Death",
+     "url": "https://gutenberg.org/ebooks/5186"
+    }
+   ]
+  },
+  {
+   "id": "stealing-sampo",
+   "title": "The Fight at Sea",
+   "era": "The North",
+   "cast": [
+    "vainamoinen",
+    "ilmarinen",
+    "louhi",
+    "sampo",
+    "iku_turso",
+    "kantele"
+   ],
+   "summary": "They went north to take the Sampo back. On the way Vainamoinen made the first kantele from the jawbone of a pike, and played Pohjola to sleep with it, and they carried the Sampo out of the hill and put to sea. Louhi woke, raised a fog, then raised Iku-Turso out of the water - who was hauled out by the ears, interrogated, and sent home promising never to surface again - and then took the shape of an eagle with a hundred men on her wings and a thousand under her tail, and came down on the boat. The kantele went overboard in the struggle. The Sampo was smashed. The big pieces sank, and Louhi got the lid and nothing else, and the small pieces washed ashore in Kalevala, which is why that country has enough.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Runes XLII-XLIII",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Kalevala: The Epic Poem of Finland",
+     "translation": "John Martin Crawford trans., 1888",
+     "location": "The Rape of the Sampo",
+     "url": "https://gutenberg.org/ebooks/5186"
+    }
+   ]
+  },
+  {
+   "id": "nine-diseases",
+   "title": "What Was Born in the Sauna",
+   "era": "The Dead and the Dangerous",
+   "cast": [
+    "loviatar",
+    "louhi",
+    "sauna_spirit"
+   ],
+   "summary": "Loviatar, Tuoni's blind daughter, was made pregnant by the wind on the open moor and carried for months and could not deliver. She went everywhere asking for somewhere to give birth and was turned away everywhere, until Louhi took her in and heated the sauna and washed the benches. There she bore nine sons in a night, and named them as they came: colic, pleurisy, gout, ulcer, scab, cancer, plague and consumption. The ninth she did not name at all, and it was sent out into the world as a sorcerer. Every Finnish healing charm that begins by reciting where a sickness came from is reciting this, and the point of reciting it is that a thing which hears its own origin told correctly has to do as it is told.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Rune XLV",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Pre- and Proto-historic Finns",
+     "translation": "John Abercromby, 1898 - includes translated magic songs",
+     "location": "The origin of diseases",
+     "url": "https://archive.org/details/preprotohistoric02aber"
+    }
+   ]
+  },
+  {
+   "id": "origin-of-iron",
+   "title": "Iron Broke Its Word",
+   "era": "What Is Known",
+   "cast": [
+    "iron",
+    "ilmarinen",
+    "hiisi"
+   ],
+   "summary": "Three maidens of the air let milk fall on the ground - black from one, white from another, red from the third - and it lay in the swamps under the tracks of a bear until Ilmarinen came and found it and carried it to his fire. Iron wept in the fire and begged to be let out, and swore an oath that it would never cut a man. It was tempered, and a hornet sent by Hiisi dropped its venom into the quenching water, and iron came out of it hard and savage and had forgotten everything it promised. This song was recited over a bleeding wound, in full, at length, at the wound - because iron hearing exactly where it came from and what it swore was believed to be shamed into letting the blood stop.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Rune IX",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Pre- and Proto-historic Finns",
+     "translation": "John Abercromby, 1898 - includes translated magic songs",
+     "location": "The origin of iron",
+     "url": "https://archive.org/details/preprotohistoric02aber"
+    }
+   ]
+  },
+  {
+   "id": "bear-feast",
+   "title": "The Guest of Honour",
+   "era": "The Owners",
+   "cast": [
+    "otso",
+    "tapio",
+    "mielikki"
+   ],
+   "summary": "You did not say the word for bear. You said honey-paw, or broad-brow, or the fair one, or the golden apple of the forest, because saying the real name would call him. He was said to have been born in the sky and let down in a cradle on golden chains. When one was killed the whole village held the karhunpeijaiset - and the killing was politely disowned, the bear having fallen out of a tree or slipped, nobody's fault - and the animal was carried in as an honoured guest, sat at the table, sung to, and feasted for a night and a day. Then the skull was carried out and fixed in the fork of a young pine facing the direction of its home, so it could go back up and be born again and not tell the others what had happened.",
+   "sources": [
+    {
+     "book": "Finno-Ugric and Siberian Mythology",
+     "translation": "Uno Holmberg (Harva), 1927",
+     "location": "Bear ceremonialism",
+     "url": "https://archive.org/details/mythologyofallra04grayuoft"
+    },
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Rune XLVI",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "marjatta",
+   "title": "The Berry and the End of It",
+   "era": "The North",
+   "cast": [
+    "marjatta",
+    "vainamoinen",
+    "kantele"
+   ],
+   "summary": "A girl called Marjatta ate a lingonberry off a hillside and became pregnant from it, and her family turned her out, and she bore her son in a stable among the horses because no one else would take her in. When the child was two weeks old, Vainamoinen was fetched to judge what should be done with a boy born of a berry with no father, and he ruled that the child should be carried out to the swamp and killed. The baby spoke, and told him he had judged wrongly, and reminded him of the times he had done worse and been forgiven. The child was baptised king of Karelia. Vainamoinen, humiliated and finished, sang himself a boat of copper and went out over the sea, leaving his kantele and his songs behind for the people, and saying he would come again when he was needed.",
+   "sources": [
+    {
+     "book": "The Kalevala",
+     "translation": "Elias Lonnrot 1849; W. F. Kirby trans. 1907",
+     "location": "Rune L",
+     "url": "https://sacred-texts.com/neu/kveng/index.htm"
+    },
+    {
+     "book": "The Kalevala: The Epic Poem of Finland",
+     "translation": "John Martin Crawford trans., 1888",
+     "location": "Wainamoinen's Departure",
+     "url": "https://gutenberg.org/ebooks/5186"
+    }
+   ]
+  }
+ ],
+ "entities": [
+  {
+   "id": "ilmatar",
+   "name": "Ilmatar",
+   "sanskrit": "Ilmatar",
+   "category": "primordial",
+   "era": "The Making",
+   "role": "She floated in the sea for seven hundred years and a duck nested on her knee",
+   "wikipedia": "Ilmatar",
+   "portrait": "portraits/finnish/ilmatar.webp",
+   "epithets": [
+    "Luonnotar",
+    "the Air Maiden",
+    "the Water Mother",
+    "the daughter of the air"
+   ],
+   "domains": [
+    "air",
+    "the sea",
+    "creation",
+    "the shaping of the coast"
+   ],
+   "symbols": [
+    "the raised knee",
+    "the seven eggs",
+    "the empty water"
+   ],
+   "mount": null,
+   "abode": "The open sea, before there was land",
+   "festivals": [],
+   "worship": "",
+   "bio": "She went down into the water because she was bored, and could not get out again.",
+   "longBio": "Before anything, there was air and a maiden in it, and she was bored, and she let herself down into the sea. Then she could not get out. She drifted for seven hundred years, pregnant by the wind and unable to give birth, until a scaup came looking for somewhere to nest and she lifted her knee out of the water. The bird laid seven eggs on it and settled to brood, and the knee grew hot, and she flinched - and the eggs rolled off and broke, and the pieces became everything. Afterwards she reached down and shaped the headlands and the bays with her own hands, and only then bore her son, who was already old.",
+   "variantTraditions": "Called Luonnotar in some collected songs, where the creation is sometimes done by the bird alone without her.",
+   "storyIds": [
+    "the-knee"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "earth-mother",
+    "creator",
+    "sea-waters",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "egg",
+   "name": "The Broken Egg",
+   "sanskrit": "munan kappaleet",
+   "category": "primordial",
+   "era": "The Making",
+   "role": "The lower shell became the earth, the upper the sky, the yolk the sun",
+   "wikipedia": "World_egg",
+   "portrait": "portraits/finnish/egg.webp",
+   "epithets": [
+    "the eggs of the scaup",
+    "the pieces"
+   ],
+   "domains": [
+    "creation",
+    "the sky",
+    "the earth",
+    "the sun and moon"
+   ],
+   "symbols": [
+    "the broken shell",
+    "the yolk",
+    "the seven eggs, six gold and one iron"
+   ],
+   "mount": null,
+   "abode": "Ilmatar's knee",
+   "festivals": [],
+   "worship": "",
+   "bio": "Six were gold and the seventh was iron, and all of them fell.",
+   "longBio": "The scaup laid seven eggs on Ilmatar's raised knee - six of gold and one of iron - and brooded until the knee burned, and when she jerked it away they rolled into the sea and broke. The lower half of one shell became the earth beneath, the upper half the sky above, the yolk the sun and the white the moon, the mottled bits the stars and the dark bits the clouds. It is one of the tidiest creations anywhere: nothing is planned, nobody decides anything, and the whole world is the by-product of a woman flinching.",
+   "variantTraditions": "The world-egg motif is shared across Finnic, Baltic and further east; the seven-egg detail with one of iron is specifically Karelian.",
+   "storyIds": [
+    "the-knee"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "creator",
+    "sun",
+    "moon"
+   ]
+  },
+  {
+   "id": "ukko",
+   "name": "Ukko",
+   "sanskrit": "Ukko",
+   "category": "deity",
+   "era": "The Making",
+   "role": "The sky and the thunder, addressed constantly and described almost never",
+   "wikipedia": "Ukko",
+   "portrait": "portraits/finnish/ukko.webp",
+   "epithets": [
+    "Ylijumala, the highest god",
+    "the old man of the sky",
+    "Perkele in older layers"
+   ],
+   "domains": [
+    "thunder",
+    "the sky",
+    "rain",
+    "the harvest",
+    "the granting of requests"
+   ],
+   "symbols": [
+    "the hammer or axe",
+    "the thunderbolt",
+    "the rowan",
+    "the ladybird, ukonlehma"
+   ],
+   "mount": null,
+   "abode": "The sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Thunder is him driving, and the word for thunderstorm in Finnish is still his name.",
+   "longBio": "Ukko is the sky god, and unlike almost every other figure here he is barely characterised at all - he has no adventures, no marriage worth telling, and almost no stories. What he has is invocations: he is called on to send rain, to hold the frost off, to strike an enemy, to bless the sowing. His weapon is a hammer or an axe and thunder is the sound of it or of his cart. The Finnish word for thunderstorm, ukkonen, is his name with a suffix on it. His feast was Ukon vakat, in spring, and it involved a great deal of beer.",
+   "variantTraditions": "Ukko corresponds to Baltic Perkunas and Norse Thor; the older Finnish name Perkele was later dragged down into meaning the devil, and is now the standard swear word.",
+   "storyIds": [],
+   "hierarchyLevel": 1,
+   "archetypes": [
+    "sky-thunder",
+    "supreme-source",
+    "king-ruler",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "vainamoinen",
+   "name": "Vainamoinen",
+   "sanskrit": "Vainamoinen",
+   "category": "hero",
+   "era": "The Making",
+   "role": "Born old, and the best singer alive - which in this tradition is the same as the most dangerous",
+   "wikipedia": "Vainamoinen",
+   "portrait": "portraits/finnish/vainamoinen.webp",
+   "epithets": [
+    "the eternal sage",
+    "the old and steadfast",
+    "the loremaster"
+   ],
+   "domains": [
+    "song",
+    "magic",
+    "knowledge of origins",
+    "the kantele",
+    "the sea"
+   ],
+   "symbols": [
+    "the kantele of pike bone",
+    "the boat he sang",
+    "the white beard he was born with"
+   ],
+   "mount": null,
+   "abode": "Kalevala, and afterwards somewhere between earth and sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "He spent thirty years in the womb and came out with a beard, and it never got easier.",
+   "longBio": "Vainamoinen is the central figure and he is not a warrior - he is a singer, and in a tradition where knowing the origin of a thing gives you power over it, the best singer is the most formidable person alive. He sings a boy into a swamp for challenging him. He sings a boat, and when he runs out of the words to finish it he goes into the belly of a dead giant to get them. He builds the first kantele from the jawbone of a pike and plays it until every animal in the forest comes to listen and he himself weeps into the sea. He wants a wife throughout and never gets one, and both women he pursues would rather die or marry the blacksmith.",
+   "variantTraditions": "Securely attested across the collected songs. His departure at the end, sailing off and promising to return when needed, is Lonnrot's framing, built onto a Christian-influenced song about Marjatta's child.",
+   "storyIds": [
+    "the-knee",
+    "singing-match",
+    "aino",
+    "vipunen",
+    "stealing-sampo",
+    "marjatta"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "sage-seer",
+    "hero-champion",
+    "wisdom-craft",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "ilmarinen",
+   "name": "Ilmarinen",
+   "sanskrit": "Ilmarinen",
+   "category": "hero",
+   "era": "The Making",
+   "role": "He forged the sky, and then had to forge the Sampo to pay for a wife",
+   "wikipedia": "Ilmarinen",
+   "portrait": "portraits/finnish/ilmarinen.webp",
+   "epithets": [
+    "the eternal smith",
+    "the one who hammered the sky",
+    "the craftsman"
+   ],
+   "domains": [
+    "smithing",
+    "iron",
+    "fire",
+    "making",
+    "the Sampo"
+   ],
+   "symbols": [
+    "the hammer and the anvil",
+    "the Sampo with its lid of many colours",
+    "the golden bride"
+   ],
+   "mount": null,
+   "abode": "His smithy in Kalevala",
+   "festivals": [],
+   "worship": "",
+   "bio": "When his wife died he forged a new one out of gold, and she was cold to sleep beside.",
+   "longBio": "Ilmarinen hammered out the vault of the sky so finely that no mark of the hammer shows on it. He is the maker: everything difficult in this world that is not sung is forged by him. Vainamoinen promises him to Louhi as the price of his own escape and he goes north and builds the Sampo, and gets the daughter of Pohjola for it. When she is killed he forges himself a wife out of gold and silver, and finds that the side of the bed she lies on stays cold, and gives her up. He is the most sympathetic figure in the poem and the one it treats worst.",
+   "variantTraditions": "Securely attested, and older than the Kalevala's plot - Ilmarinen appears in Finnish charms as a name invoked over burns and iron wounds.",
+   "storyIds": [
+    "the-sampo",
+    "stealing-sampo",
+    "origin-of-iron"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "wisdom-craft",
+    "fire",
+    "hero-champion",
+    "creator"
+   ]
+  },
+  {
+   "id": "lemminkainen",
+   "name": "Lemminkainen",
+   "sanskrit": "Lemminkainen",
+   "category": "hero",
+   "era": "The Making",
+   "role": "Reckless, handsome, and killed and reassembled by his mother with a rake",
+   "wikipedia": "Lemminkainen",
+   "portrait": "portraits/finnish/lemminkainen.webp",
+   "epithets": [
+    "the lively",
+    "Ahti Saarelainen",
+    "the far-minded",
+    "Kaukomieli"
+   ],
+   "domains": [
+    "war",
+    "seduction",
+    "recklessness",
+    "coming back from the dead"
+   ],
+   "symbols": [
+    "the black river of Tuonela",
+    "the rake his mother used",
+    "the elk of Hiisi"
+   ],
+   "mount": null,
+   "abode": "The island, and his mother's house",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was cut into pieces and thrown in the river of the dead, and his mother went and got him.",
+   "longBio": "Lemminkainen is young, extremely good-looking, entirely without judgement, and cannot be told anything. He carries off Kyllikki and abandons her. He goes uninvited to the wedding at Pohjola and kills the master of the house on the doorstep. Sent to shoot the swan of Tuonela to win a bride, he is shot instead by a blind herdsman he had insulted, cut into pieces and thrown into the black river. His mother rakes the pieces out of the water, puts him back together, and gets the salve to bring him round - and he wakes up complaining that he was having a good sleep, and goes straight back out.",
+   "variantTraditions": "Attested, but Lonnrot merged at least three separate song-heroes into him - Lemminkainen, Ahti Saarelainen and Kaukomieli were not originally one person.",
+   "storyIds": [
+    "raking-tuonela"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "war",
+    "love-desire",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "lemminkainen_mother",
+   "name": "Lemminkainen's Mother",
+   "sanskrit": "Lemminkaisen aiti",
+   "category": "mortal",
+   "era": "The Making",
+   "role": "She raked her son out of the river of death in pieces and put him back together",
+   "wikipedia": "Lemminkainen",
+   "portrait": "portraits/finnish/lemminkainen_mother.webp",
+   "epithets": [
+    "the mother"
+   ],
+   "domains": [
+    "grief",
+    "persistence",
+    "the raking of the river",
+    "healing"
+   ],
+   "symbols": [
+    "the long copper rake",
+    "the pieces of her son",
+    "the bee she sent for honey"
+   ],
+   "mount": null,
+   "abode": "Her house, and then Tuonela",
+   "festivals": [],
+   "worship": "",
+   "bio": "She got the sun to tell her where he was, then made a rake with a hundred-fathom handle.",
+   "longBio": "When her son did not come back and the comb she kept began to bleed, she went out and asked everything in turn where he was - the trees, the road, the moon - and none of them would say, until the sun told her he was in the black river in pieces. She had Ilmarinen make her a copper rake with a handle a hundred fathoms long, and she dragged the river until she had all of him, and put him back together. Then she sent a bee up past the moon and the stars to God's own cellar for the honey-salve that would start him breathing. It is the most purely determined thing anybody does in the Kalevala.",
+   "variantTraditions": "The raking of Tuonela is one of the best-attested song sequences; it was collected many times and Lonnrot changed little.",
+   "storyIds": [
+    "raking-tuonela"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "healer",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "joukahainen",
+   "name": "Joukahainen",
+   "sanskrit": "Joukahainen",
+   "category": "mortal",
+   "era": "The Making",
+   "role": "He challenged the best singer alive to a singing contest and lost the whole family",
+   "wikipedia": "Joukahainen",
+   "portrait": "portraits/finnish/joukahainen.webp",
+   "epithets": [
+    "the young Lapp",
+    "the boaster"
+   ],
+   "domains": [
+    "boasting",
+    "envy",
+    "the crossbow",
+    "grudge"
+   ],
+   "symbols": [
+    "the swamp he sank into",
+    "the crossbow he shot from behind"
+   ],
+   "mount": null,
+   "abode": "Lapland",
+   "festivals": [],
+   "worship": "",
+   "bio": "Sung waist-deep into a bog, he promised his sister to get out, and she drowned herself.",
+   "longBio": "Joukahainen is a young man who has heard of Vainamoinen and cannot stand it, and rides out to challenge him despite everyone telling him not to. He recites the world's origins and gets them wrong, and claims credit for making the sea and the mountains, and Vainamoinen sings him down - his sledge into a lake, his sword into lightning, his bow into a rainbow, and the boy himself into a swamp up to the mouth. To be let out he offers everything, and finally offers his sister Aino, and is released. He goes home and tells his mother, who is delighted. Aino is not.",
+   "variantTraditions": "The singing contest is a well-collected song; Aino herself is largely Lonnrot's creation, expanded from a few lines about a drowned girl.",
+   "storyIds": [
+    "singing-match"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "primordial-adversary",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "aino",
+   "name": "Aino",
+   "sanskrit": "Aino",
+   "category": "mortal",
+   "era": "The Making",
+   "role": "Promised to an old man by her brother, she walked into the sea instead",
+   "wikipedia": "Aino",
+   "portrait": "portraits/finnish/aino.webp",
+   "epithets": [
+    "the only one",
+    "Joukahainen's sister"
+   ],
+   "domains": [
+    "grief",
+    "refusal",
+    "drowning",
+    "the water"
+   ],
+   "symbols": [
+    "the ribbons and rings left on the shore",
+    "the birch",
+    "the fish she became"
+   ],
+   "mount": null,
+   "abode": "The shore, and then the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "She left her clothes on a rock and swam out, and later took a fish's shape.",
+   "longBio": "Her brother, to get himself out of a swamp, promised her to Vainamoinen, and her mother was pleased and told her so. Aino went into the wood and wept, and took off her rings and her ribbons and her shift and left them on the shore, and swam out to a rock in the water, and it tipped, and she drowned. Afterwards Vainamoinen fished and caught a strange fish that spoke to him and told him what it was, and slipped out of his hands back into the water and did not come again. It is the most modern-feeling passage in the poem and the least heroic thing in it, and it is entirely about a girl not being asked.",
+   "variantTraditions": "Aino is largely Lonnrot's own composition, built out of scattered lines. Her name became one of the commonest women's names in Finland because of him.",
+   "storyIds": [
+    "singing-match",
+    "aino"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sea-waters",
+    "fate-time",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "louhi",
+   "name": "Louhi",
+   "sanskrit": "Louhi",
+   "category": "deity",
+   "era": "The North",
+   "role": "Mistress of the North, the best magician in the poem, and the only one who wins anything",
+   "wikipedia": "Louhi",
+   "portrait": "portraits/finnish/louhi.webp",
+   "epithets": [
+    "the Mistress of Pohjola",
+    "the gap-toothed hag of the North",
+    "Pohjolan emanta"
+   ],
+   "domains": [
+    "magic",
+    "the North",
+    "sickness",
+    "the theft of the sun and moon",
+    "shapeshifting"
+   ],
+   "symbols": [
+    "the great eagle she becomes",
+    "the Sampo",
+    "the stone hill she hid it in"
+   ],
+   "mount": null,
+   "abode": "Pohjola, the North Farm",
+   "festivals": [],
+   "worship": "",
+   "bio": "She is called a hag throughout and she out-thinks everyone in the book.",
+   "longBio": "Louhi runs Pohjola, the country in the north where the Sampo is made and kept, and she is the closest thing the Kalevala has to a real antagonist. She extracts the Sampo out of Ilmarinen as a bride-price and then will not share it. When the men of Kalevala steal it back she pursues them across the sea in the shape of an enormous eagle with a hundred men on her wings, and in the fight the Sampo is smashed. Afterwards she steals the sun and the moon and hides them in a hill and shuts the fire away, and she is beaten only by a trick. The poem calls her ugly and toothless and she is comfortably the most capable person in it.",
+   "variantTraditions": "Well attested in the songs, where Pohjola is a real mythic north rather than a specific place; Lonnrot sharpened her into a single continuous villain.",
+   "storyIds": [
+    "the-sampo",
+    "stealing-sampo",
+    "nine-diseases"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "primordial-adversary",
+    "sage-seer",
+    "destroyer",
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "pohjan_neito",
+   "name": "The Maiden of the North",
+   "sanskrit": "Pohjan neiti",
+   "category": "mortal",
+   "era": "The North",
+   "role": "She sat on a rainbow weaving, and set three impossible tasks to anyone who wanted her",
+   "wikipedia": "Kalevala",
+   "portrait": "portraits/finnish/pohjan_neito.webp",
+   "epithets": [
+    "Louhi's daughter",
+    "the maid of Pohja",
+    "the rainbow-sitter"
+   ],
+   "domains": [
+    "beauty",
+    "impossible tasks",
+    "weaving",
+    "the bride-price"
+   ],
+   "symbols": [
+    "the rainbow she sits on",
+    "the golden shuttle",
+    "the field of vipers"
+   ],
+   "mount": null,
+   "abode": "Pohjola",
+   "festivals": [],
+   "worship": "",
+   "bio": "Plough a field of vipers, bridle the elk of Hiisi, catch the pike of Tuonela.",
+   "longBio": "She is first seen sitting on the arch of the rainbow weaving cloth of gold, and Vainamoinen asks her to come down and she sets him a series of tasks that get harder until he cuts his knee. Ilmarinen wins her instead by making the Sampo, and she sets him three: to plough a field full of vipers, to bridle the great elk of Hiisi, and to bring back the pike from the river of the dead. He does all three, mostly with her own coaching. The marriage is short. She is killed by Kullervo after tormenting him, baking a stone into his bread, and she is one of the few characters whose death nobody avenges.",
+   "variantTraditions": "The three tasks and the rainbow-weaving are both securely collected; her marriage to Ilmarinen is standard across variants.",
+   "storyIds": [
+    "the-sampo",
+    "kullervo"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "love-desire",
+    "fate-time",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "sampo",
+   "name": "The Sampo",
+   "sanskrit": "Sampo",
+   "category": "primordial",
+   "era": "The North",
+   "role": "Nobody knows what it was. It ground out flour, salt and money, and the whole poem is about it",
+   "wikipedia": "Sampo",
+   "portrait": "portraits/finnish/sampo.webp",
+   "epithets": [
+    "the many-coloured lid",
+    "the mill"
+   ],
+   "domains": [
+    "wealth",
+    "abundance",
+    "the thing everyone wants",
+    "grinding"
+   ],
+   "symbols": [
+    "the ornamented lid that turns",
+    "the swan's feather, the milk, the barley and the wool it was made from"
+   ],
+   "mount": null,
+   "abode": "Pohjola, then the bottom of the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "It was forged out of a swan's feather, a drop of milk, a grain of barley and a wisp of wool.",
+   "longBio": "The Sampo is the object the entire Kalevala revolves around and nothing in the text says clearly what it is. It has a lid of many colours, it is made in three days from a swan's feather, a drop of milk, one barley grain and a tuft of sheep's wool, and it grinds out grain on one side, salt on another and money on the third, so that whoever owns it never wants for anything. Scholars have argued it is a mill, a pillar holding up the sky, the sun, a coin die, or a lost word. It is stolen, fought over at sea, and broken - and the fragments that wash up on the shore of Kalevala are why that country is not poor.",
+   "variantTraditions": "The Sampo is genuinely ancient in the songs and genuinely unexplained in them. Its destruction and the washing-up of the fragments is Lonnrot's resolution of variants that disagree.",
+   "storyIds": [
+    "the-sampo",
+    "stealing-sampo"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wealth-fortune",
+    "creator",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "kullervo",
+   "name": "Kullervo",
+   "sanskrit": "Kullervo",
+   "category": "hero",
+   "era": "The North",
+   "role": "Every single thing that happens to him is somebody else's fault, and he kills everyone anyway",
+   "wikipedia": "Kullervo",
+   "portrait": "portraits/finnish/kullervo.webp",
+   "epithets": [
+    "Kalervo's son",
+    "the blue-stockinged son of the old man"
+   ],
+   "domains": [
+    "revenge",
+    "slavery",
+    "ruin",
+    "the destruction of a family"
+   ],
+   "symbols": [
+    "the knife that broke on the stone in the bread",
+    "the cattle turned to bears and wolves",
+    "the sword he spoke to"
+   ],
+   "mount": null,
+   "abode": "Nowhere he was not sold to",
+   "festivals": [],
+   "worship": "",
+   "bio": "He asked his sword whether it wanted to kill him, and it said yes.",
+   "longBio": "Kullervo's family is destroyed before he can walk, he is sold into slavery as a child, and every task he is given he ruins because he has no idea how to do anything and nobody taught him. The mistress of the house bakes a stone into his bread and he breaks his father's knife on it, and in revenge he turns her cattle into bears and wolves and they tear her apart. He seduces a girl on the road who turns out to be his lost sister, and she drowns herself. He burns everything, kills his uncle, comes home to find the family dead, and goes into the wood and asks his sword if it will kill a guilty man. It says it would rather kill a guilty one than an innocent, so he does it.",
+   "variantTraditions": "The Kullervo songs are old and were collected separately; Lonnrot fitted them into the Kalevala. Tolkien read them at school, wrote his own version, and turned them into the story of Turin Turambar.",
+   "storyIds": [
+    "kullervo"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "hero-champion",
+    "destroyer",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "untamo",
+   "name": "Untamo",
+   "sanskrit": "Untamo",
+   "category": "mortal",
+   "era": "The North",
+   "role": "He wiped out his brother's household over a fishing dispute and it cost him everything",
+   "wikipedia": "Kullervo",
+   "portrait": "portraits/finnish/untamo.webp",
+   "epithets": [
+    "Kullervo's uncle",
+    "Untamoinen"
+   ],
+   "domains": [
+    "feud",
+    "a family quarrel that gets out of hand",
+    "slavery"
+   ],
+   "symbols": [
+    "the burned farm",
+    "the child he could not kill"
+   ],
+   "mount": null,
+   "abode": "His farm",
+   "festivals": [],
+   "worship": "",
+   "bio": "He tried to drown, burn and hang the baby three times, and it survived all three.",
+   "longBio": "Untamo quarrelled with his brother Kalervo about fish traps and a field, and the quarrel escalated the way they do, and he came with men and killed the whole household except one pregnant woman. The child born to her was Kullervo, and Untamo tried to drown him, then to burn him, then to hang him, and none of it took, and so he raised him as a slave instead and eventually sold him. That decision destroys him. He is a minor character who exists to demonstrate that this poem thinks a feud is a machine: once started, it runs on its own until there is nobody left to run it.",
+   "variantTraditions": "The Untamo-Kalervo feud frames the Kullervo cycle in the collected songs as well.",
+   "storyIds": [
+    "kullervo"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "primordial-adversary",
+    "war",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "kyllikki",
+   "name": "Kyllikki",
+   "sanskrit": "Kyllikki",
+   "category": "mortal",
+   "era": "The North",
+   "role": "Carried off in a sledge, she made him swear off war and he broke it in a fortnight",
+   "wikipedia": "Kalevala",
+   "portrait": "portraits/finnish/kyllikki.webp",
+   "epithets": [
+    "the flower of the island",
+    "the island maiden"
+   ],
+   "domains": [
+    "marriage",
+    "the oath",
+    "the broken agreement"
+   ],
+   "symbols": [
+    "the sledge",
+    "the dance she was taken from"
+   ],
+   "mount": null,
+   "abode": "The island, then Lemminkainen's house",
+   "festivals": [],
+   "worship": "",
+   "bio": "The bargain was: he never goes to war, she never goes to the village dances.",
+   "longBio": "Lemminkainen wanted her, was refused by every girl on the island in turn and then by her, and took her out of a dance in a sledge anyway. She stopped crying eventually and they struck a bargain: he would never go to war and she would never go dancing in the village. She went dancing. He heard about it, and used it as the excuse he had been waiting for, and left for Pohjola that day and did not come back for a very long time. The poem is unusually even-handed about it - the agreement was equally binding on both of them and only one of them was ever going to keep it.",
+   "variantTraditions": "The Kyllikki songs belong to the Ahti Saarelainen cycle that Lonnrot merged into Lemminkainen.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "love-desire",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "marjatta",
+   "name": "Marjatta",
+   "sanskrit": "Marjatta",
+   "category": "mortal",
+   "era": "The North",
+   "role": "She got pregnant from a lingonberry, and her son ended Vainamoinen's world",
+   "wikipedia": "Kalevala",
+   "portrait": "portraits/finnish/marjatta.webp",
+   "epithets": [
+    "the little maid",
+    "the berry-eater"
+   ],
+   "domains": [
+    "virgin birth",
+    "the end of the old order",
+    "the berry"
+   ],
+   "symbols": [
+    "the lingonberry",
+    "the manger in the stable",
+    "the child who judges"
+   ],
+   "mount": null,
+   "abode": "A stable",
+   "festivals": [],
+   "worship": "",
+   "bio": "The last canto of the Kalevala is a Christian nativity in Finnish dress, and it is deliberate.",
+   "longBio": "Marjatta was a girl who ate a lingonberry off a hillside and became pregnant by it, and was turned out by everyone and bore her son in a stable among horses. Vainamoinen was called to judge the child and pronounced that a boy born of a berry should be taken out and killed - and the two-week-old baby spoke and told him he was wrong, and the child was baptised king of Karelia. Vainamoinen, humiliated and finished, sang himself a boat of copper and sailed away, leaving the kantele and his songs behind him for the people, and saying he would come back when he was needed again.",
+   "variantTraditions": "The Marjatta song is a genuine collected piece of Christianised folk poetry. Lonnrot placed it last on purpose, so that the epic ends with the old world being formally retired.",
+   "storyIds": [
+    "marjatta"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "earth-mother",
+    "fate-time",
+    "preserver"
+   ]
+  },
+  {
+   "id": "tapio",
+   "name": "Tapio",
+   "sanskrit": "Tapio",
+   "category": "deity",
+   "era": "The Owners",
+   "role": "The forest belongs to him and you have to ask, out loud, before you take anything",
+   "wikipedia": "Tapio",
+   "portrait": "portraits/finnish/tapio.webp",
+   "epithets": [
+    "the master of the forest",
+    "the green-bearded",
+    "the hat of leaves"
+   ],
+   "domains": [
+    "the forest",
+    "game",
+    "hunting luck",
+    "the trees"
+   ],
+   "symbols": [
+    "a beard of lichen",
+    "a hat of leaves",
+    "the keys to the forest storehouse"
+   ],
+   "mount": null,
+   "abode": "Tapiola, the forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "Finnish for a forest, metsa, is his; a hunter went in singing to ask him for the loan of it.",
+   "longBio": "Tapio owns the forest and everything in it, and a Finnish hunter did not simply go and kill an animal - he went in and sang to Tapio and to his household by name, flattering them, asking for the loan of the game, promising gifts. The songs collected for this are among the largest bodies of material in the tradition and they are startlingly polite. He is pictured with a beard of hanging lichen and a hat of leaves and moss, and the animals are his cattle, kept in a storehouse, released to a hunter who asks properly and withheld from one who does not.",
+   "variantTraditions": "Tapio and the hunting charms are securely attested independently of the Kalevala and are older than it.",
+   "storyIds": [
+    "bear-feast"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "divine-beast",
+    "king-ruler",
+    "wealth-fortune",
+    "preserver"
+   ]
+  },
+  {
+   "id": "mielikki",
+   "name": "Mielikki",
+   "sanskrit": "Mielikki",
+   "category": "deity",
+   "era": "The Owners",
+   "role": "She keeps the keys to the forest storehouse, and she is the one you actually have to persuade",
+   "wikipedia": "Mielikki",
+   "portrait": "portraits/finnish/mielikki.webp",
+   "epithets": [
+    "the mistress of the forest",
+    "the honey-handed",
+    "Tapio's wife"
+   ],
+   "domains": [
+    "the forest",
+    "game",
+    "healing",
+    "herbs",
+    "the honey-salve"
+   ],
+   "symbols": [
+    "the honey on her hands",
+    "the keys at her belt",
+    "the golden and silver ornaments a hunter offers"
+   ],
+   "mount": null,
+   "abode": "Tapiola",
+   "festivals": [],
+   "worship": "",
+   "bio": "The hunting songs flatter Tapio and then get down to business with her.",
+   "longBio": "Mielikki is Tapio's wife and the practical authority in the forest - the game is in her storehouse, the keys are at her belt, and the hunting charms spend most of their length on her rather than on him, promising her gold and silver ornaments and calling her the honey-handed mistress. She is also a healer: it is Mielikki's honey that turns up in the salves. Her name comes from mieli, meaning mind or liking, so she is roughly the Favour of the forest, and the whole relationship a hunter has with the wood runs through whether or not he has it.",
+   "variantTraditions": "One of the best-attested deities in the collected charms, and much better represented there than in the Kalevala.",
+   "storyIds": [
+    "bear-feast"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "healer",
+    "wealth-fortune",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "ahti",
+   "name": "Ahti",
+   "sanskrit": "Ahti",
+   "category": "deity",
+   "era": "The Owners",
+   "role": "The water and everything in it, and the reason a Finnish fisherman talked to the lake",
+   "wikipedia": "Ahti_(mythology)",
+   "portrait": "portraits/finnish/ahti.webp",
+   "epithets": [
+    "Ahto",
+    "the master of the waves",
+    "the old man of the water"
+   ],
+   "domains": [
+    "the sea",
+    "lakes",
+    "fish",
+    "storms",
+    "drowning"
+   ],
+   "symbols": [
+    "the beard of foam",
+    "the herd of fish",
+    "the water-cow"
+   ],
+   "mount": null,
+   "abode": "Ahtola, under the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "Fish are his cattle and he lends them out, on the same terms as Tapio lends game.",
+   "longBio": "Ahti owns the water the way Tapio owns the forest, and the arrangement is the same: the fish are his herd, kept in Ahtola under the waves, and a fisherman sang to him for the loan of them. He raises storms when he is displeased and takes people down. The Kalevala confusingly also uses Ahti as an alternative name for Lemminkainen, which is a leftover from Lonnrot merging separate song-heroes and has nothing to do with the water god.",
+   "variantTraditions": "Ahti as water-master is securely attested in fishing charms; the name-collision with Lemminkainen is an artefact of the Kalevala's construction.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "king-ruler",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "vellamo",
+   "name": "Vellamo",
+   "sanskrit": "Vellamo",
+   "category": "deity",
+   "era": "The Owners",
+   "role": "Ahti's wife, and the one who actually herds the fish",
+   "wikipedia": "Vellamo",
+   "portrait": "portraits/finnish/vellamo.webp",
+   "epithets": [
+    "the mistress of the water",
+    "the reed-breasted"
+   ],
+   "domains": [
+    "the sea",
+    "fish",
+    "the tides of a lake",
+    "generosity"
+   ],
+   "symbols": [
+    "the reeds",
+    "her shift of foam",
+    "the herd of fish driven in to a net"
+   ],
+   "mount": null,
+   "abode": "Ahtola",
+   "festivals": [],
+   "worship": "",
+   "bio": "The fishing charms ask her to drive the herd into the net, and to do it today.",
+   "longBio": "Vellamo is the mistress of the water and the one addressed in the fishing songs, asked to put on her fine shift and take her herding switch and drive the fish into the net. She has the same relation to Ahti that Mielikki has to Tapio: the male owner is the authority and the female one is the person who decides whether you eat. In the Kalevala her maidens are the ones Vainamoinen tries and fails to catch when Aino, in fish form, slips out of his hands.",
+   "variantTraditions": "Attested in fishing charms across Finland and Karelia; the fine-shift-and-switch formula is remarkably consistent between collectors.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sea-waters",
+    "earth-mother",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "otso",
+   "name": "Otso",
+   "sanskrit": "Otso",
+   "category": "beast",
+   "era": "The Owners",
+   "role": "The bear, who could not be called a bear, and whose funeral was the biggest feast of the year",
+   "wikipedia": "Bear_worship",
+   "portrait": "portraits/finnish/otso.webp",
+   "epithets": [
+    "the honey-paw",
+    "the broad-brow",
+    "the golden apple of the forest",
+    "the fair one"
+   ],
+   "domains": [
+    "the forest",
+    "the bear feast",
+    "the ancestor",
+    "the skull returned to the tree"
+   ],
+   "symbols": [
+    "the skull hung in a pine",
+    "the honey",
+    "the many names used to avoid the real one"
+   ],
+   "mount": null,
+   "abode": "The forest, and the sky he came down from",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was killed with an apology, feasted as an honoured guest, and sent home again.",
+   "longBio": "The bear is the great figure of Finnish tradition and it was not safe to say his name, so he collected dozens: honey-paw, broad-brow, the fair one, the golden apple of the forest. He was said to have been born in the sky and lowered down in a cradle on golden chains. A bear hunt ended in the karhunpeijaiset, the bear feast, at which the killing was politely blamed on someone else - the bear fell out of a tree, it was an accident - and the animal was welcomed as a guest of honour, sung to, feasted, and then its skull was carried out and set in the fork of a young pine facing its home so that its spirit could go back up and be born again. The whole thing is older than anything else in this pack.",
+   "variantTraditions": "Finnish bear ceremonialism is attested from the seventeenth century onward and is part of a circumpolar complex running from Finland across Siberia to the Ainu of Japan.",
+   "storyIds": [
+    "bear-feast"
+   ],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "preserver",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "sampsa",
+   "name": "Sampsa Pellervoinen",
+   "sanskrit": "Sampsa Pellervoinen",
+   "category": "deity",
+   "era": "The Owners",
+   "role": "The boy who sowed the first trees, on an empty and completely bare earth",
+   "wikipedia": "Sampsa_Pellervoinen",
+   "portrait": "portraits/finnish/sampsa.webp",
+   "epithets": [
+    "Pellervoinen",
+    "the boy of the fields",
+    "the sower"
+   ],
+   "domains": [
+    "sowing",
+    "trees",
+    "fields",
+    "the first vegetation"
+   ],
+   "symbols": [
+    "the seed bag",
+    "the golden axe",
+    "the great oak"
+   ],
+   "mount": null,
+   "abode": "The bare earth",
+   "festivals": [],
+   "worship": "",
+   "bio": "Vainamoinen woke him up to do it, because nothing grew and there was nothing to be done.",
+   "longBio": "The world came out of the egg bare, and Vainamoinen went and fetched a small boy called Sampsa Pellervoinen, who took a bag of seed and sowed the whole earth - pines on the hills, firs on the moors, birches in the hollows, alders in the loose ground, willows in the wet, rowan in the holy places and oak by the river. Everything came up except the oak, which had to be tried several times. He is otherwise almost absent from the poem. His name survives in Finnish as a word for the sowing season and in the personal name Sampsa.",
+   "variantTraditions": "Attested in the collected songs and connected to spring sowing rites; the name may be a borrowing of Samson.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "creator"
+   ]
+  },
+  {
+   "id": "great_oak",
+   "name": "The Great Oak",
+   "sanskrit": "Iso tammi",
+   "category": "nature",
+   "era": "The Owners",
+   "role": "It grew until it blotted out the sun and nobody was strong enough to cut it",
+   "wikipedia": "World_tree",
+   "portrait": "portraits/finnish/great_oak.webp",
+   "epithets": [
+    "the world tree",
+    "the oak that shaded everything"
+   ],
+   "domains": [
+    "growth",
+    "the blocking of the light",
+    "the tiny man from the sea"
+   ],
+   "symbols": [
+    "the branches over the whole sky",
+    "the copper axe",
+    "the man the length of a thumb"
+   ],
+   "mount": null,
+   "abode": "By the water",
+   "festivals": [],
+   "worship": "",
+   "bio": "The thing that finally felled it was a man the size of a thumb who came out of the sea.",
+   "longBio": "The oak that Sampsa could not get to grow eventually did, and then would not stop - it went up until its branches covered the sky and hid the sun and the moon, and the clouds could not move past it. Nobody could fell it. Vainamoinen asked his mother for help and a tiny man came up out of the sea, the length of a thumb, the height of a man's span, with a copper axe, and grew until his head was in the clouds, and brought the tree down in three strokes. The chips were carried off and whoever got one had luck, and the light came back.",
+   "variantTraditions": "The great oak is one of the most widely collected Finnic songs and has parallels across the Baltic; its felling is not part of the Kalevala's main plot.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "preserver",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "tuoni",
+   "name": "Tuoni",
+   "sanskrit": "Tuoni",
+   "category": "underworld",
+   "era": "The Dead",
+   "role": "Death, who runs a household downriver and does not much care who visits",
+   "wikipedia": "Tuonela",
+   "portrait": "portraits/finnish/tuoni.webp",
+   "epithets": [
+    "the lord of Tuonela",
+    "Mana",
+    "the old man of the dead"
+   ],
+   "domains": [
+    "death",
+    "the black river",
+    "the land below",
+    "keeping"
+   ],
+   "symbols": [
+    "the black river",
+    "the iron nets across it",
+    "the beer of Tuonela full of frogs and worms"
+   ],
+   "mount": null,
+   "abode": "Tuonela, across the river",
+   "festivals": [],
+   "worship": "",
+   "bio": "Tuonela is not hell. It is downstream, and everyone goes, and nothing much happens there.",
+   "longBio": "Tuoni keeps the land of the dead and there is no judgement in it - no reward, no punishment, no sorting. It lies across a black river, underground and downstream, and the dead are simply kept there. What makes it frightening is not cruelty but the door: it is possible to get in alive, by asking the ferry-maiden and lying to her, and it is very hard to get out, because Tuoni's son stretches iron nets across the river behind you. The beer they offer a living guest is full of frogs and worms, which is the tradition's way of saying that nothing there is for you.",
+   "variantTraditions": "Tuoni and Manala are used interchangeably in the songs; Manala is literally 'under the ground'.",
+   "storyIds": [
+    "raking-tuonela"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "king-ruler",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "tuonetar",
+   "name": "Tuonetar",
+   "sanskrit": "Tuonetar",
+   "category": "underworld",
+   "era": "The Dead",
+   "role": "The maiden at the ferry who asks you what killed you, and knows when you are lying",
+   "wikipedia": "Tuonela",
+   "portrait": "portraits/finnish/tuonetar.webp",
+   "epithets": [
+    "the daughter of Tuoni",
+    "the short maid of Tuonela",
+    "the ferry-maiden"
+   ],
+   "domains": [
+    "the crossing",
+    "the questioning",
+    "the beer"
+   ],
+   "symbols": [
+    "the ferry",
+    "the tankard of frogs",
+    "the black river"
+   ],
+   "mount": null,
+   "abode": "The near bank of the river",
+   "festivals": [],
+   "worship": "",
+   "bio": "Vainamoinen told her iron killed him, then water, then fire, and she called him a liar each time.",
+   "longBio": "She stands at the river and ferries the dead, and she asks each arrival how they came to die. When Vainamoinen turned up alive and wanting a spell, he told her iron had killed him and she said there would be blood on him, then that water had, and she said his clothes would be wet, then fire, and she said his hair would be singed. She took him over anyway, and her mother gave him beer with frogs in it and put him to sleep, and her brother spread the iron nets. He got out as an otter, a snake and a worm through the mesh, and afterwards told people not to go.",
+   "variantTraditions": "The interrogation at the ferry is a well-collected sequence and is among the most vivid things in the whole corpus.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "fate-time",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "swan_of_tuonela",
+   "name": "The Swan of Tuonela",
+   "sanskrit": "Tuonelan joutsen",
+   "category": "beast",
+   "era": "The Dead",
+   "role": "One black swan on the river of the dead, and shooting it got Lemminkainen killed",
+   "wikipedia": "Tuonela",
+   "portrait": "portraits/finnish/swan_of_tuonela.webp",
+   "epithets": [
+    "the bird on the black river"
+   ],
+   "domains": [
+    "death",
+    "the river",
+    "the impossible errand"
+   ],
+   "symbols": [
+    "the single swan on dark water",
+    "the current carrying it"
+   ],
+   "mount": null,
+   "abode": "The black river of Tuonela",
+   "festivals": [],
+   "worship": "",
+   "bio": "It is the most famous thing in the poem outside Finland, because Sibelius wrote it.",
+   "longBio": "Louhi set Lemminkainen the task of shooting the swan that swims on the black river of the dead, as the price of her daughter. He went, and never got a shot off: a blind herdsman he had insulted and left alive was waiting, and drove a water-snake through him and threw him in the river, where Tuoni's son cut him to pieces. The swan itself does nothing and says nothing and is on the water for about four lines. Sibelius made those four lines into a tone poem for cor anglais in 1895 and it is now the best-known piece of Finnish music there is.",
+   "variantTraditions": "The swan is in the collected songs; its fame outside Finland is entirely Sibelius's doing.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "death-judge",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "loviatar",
+   "name": "Loviatar",
+   "sanskrit": "Loviatar",
+   "category": "underworld",
+   "era": "The Dead",
+   "role": "Blind, hideous, made pregnant by the wind, and mother of the nine diseases",
+   "wikipedia": "Loviatar",
+   "portrait": "portraits/finnish/loviatar.webp",
+   "epithets": [
+    "the blind daughter of Tuoni",
+    "Lovitar",
+    "the worst of the daughters of death"
+   ],
+   "domains": [
+    "disease",
+    "plague",
+    "blindness",
+    "birth"
+   ],
+   "symbols": [
+    "the nine sons",
+    "the black wind that got her with child",
+    "the ninth child with no name"
+   ],
+   "mount": null,
+   "abode": "Tuonela, and then Pohjola",
+   "festivals": [],
+   "worship": "",
+   "bio": "She bore nine sons - colic, gout, pleurisy, ulcer, scab, cancer, plague, consumption - and a ninth.",
+   "longBio": "Loviatar is Tuoni's blind daughter, and the songs describe her with real disgust. She was made pregnant by the wind on the open moor and could not give birth for months, and went everywhere asking for help, and got it finally from Louhi, who took her into a sauna. There she bore nine sons, and they are the diseases: colic, gout, pleurisy, ulcer, scab, cancer, plague and consumption, one after another. The ninth was the worst and was left unnamed, and was sent out to be a sorcerer. Every Finnish healing charm that recites the origin of a sickness in order to command it is reciting hers.",
+   "variantTraditions": "The birth of the diseases is one of the great collected charm-songs and the origin recited over illness across Finland and Karelia.",
+   "storyIds": [
+    "nine-diseases"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "earth-mother",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "kalma",
+   "name": "Kalma",
+   "sanskrit": "Kalma",
+   "category": "underworld",
+   "era": "The Dead",
+   "role": "The smell of a grave, treated as a being in its own right",
+   "wikipedia": "Tuonela",
+   "portrait": "portraits/finnish/kalma.webp",
+   "epithets": [
+    "the stench of the dead",
+    "the one in the mound"
+   ],
+   "domains": [
+    "the grave",
+    "decay",
+    "the earth over a body"
+   ],
+   "symbols": [
+    "the mound",
+    "the smell",
+    "the earth taken from a grave for a spell"
+   ],
+   "mount": null,
+   "abode": "The graveyard",
+   "festivals": [],
+   "worship": "",
+   "bio": "Finnish sorcery used graveyard earth, and the earth had a name and had to be addressed.",
+   "longBio": "Kalma is the reek of a corpse and the power of a grave, personified far enough to be spoken to. Finnish and Karelian sorcery made heavy use of graveyard earth - taken from a mound, carried, and set against an enemy - and the charms address Kalma directly, ordering the thing to go and to act. There is no story attached and no character to speak of. What there is instead is a very clear illustration of how this tradition works: name a force precisely enough and you can give it instructions.",
+   "variantTraditions": "Kalma appears in charms rather than narrative; the word still means the smell of death in Finnish.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "death-judge",
+    "destroyer",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "hiisi",
+   "name": "Hiisi",
+   "sanskrit": "Hiisi",
+   "category": "underworld",
+   "era": "The Dangerous",
+   "role": "It started as a sacred grove and ended up meaning the devil",
+   "wikipedia": "Hiisi",
+   "portrait": "portraits/finnish/hiisi.webp",
+   "epithets": [
+    "the evil one",
+    "Lempo",
+    "the one in the stony place"
+   ],
+   "domains": [
+    "the sacred grove",
+    "rocky wilderness",
+    "harm",
+    "the elk and the horse that bear his name"
+   ],
+   "symbols": [
+    "the stone field",
+    "the cairn",
+    "the elk of Hiisi",
+    "the horse of Hiisi"
+   ],
+   "mount": null,
+   "abode": "Stony ground away from the settlement",
+   "festivals": [],
+   "worship": "",
+   "bio": "The word first meant a holy place; Christianity spent a few centuries turning it into a curse.",
+   "longBio": "A hiisi was originally a sacred site - a grove, a rocky hill, a burial place kept apart from the settlement - and the change in the word is one of the clearest records anywhere of a religion being converted underneath its own vocabulary. As Christianity came in, the old holy place became the bad place, then the being in it, then a demon, then simply an insult. Hiisi in the Kalevala owns a monstrous elk and a horse, and Hiisi's name is attached to whatever is dangerous and out in the stones. Finnish still uses hiisi and hitto as mild swearing.",
+   "variantTraditions": "The semantic collapse from holy site to devil is documented in place names: there are hundreds of Hiisi- names across Finland, most of them on rocky ground.",
+   "storyIds": [
+    "origin-of-iron"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "destroyer",
+    "divine-beast"
+   ]
+  },
+  {
+   "id": "elk_of_hiisi",
+   "name": "The Elk of Hiisi",
+   "sanskrit": "Hiiden hirvi",
+   "category": "beast",
+   "era": "The Dangerous",
+   "role": "Made out of rotten wood and swamp grass, and it had to be caught alive",
+   "wikipedia": "Kalevala",
+   "portrait": "portraits/finnish/elk_of_hiisi.webp",
+   "epithets": [
+    "the demon elk",
+    "the elk of the stony place"
+   ],
+   "domains": [
+    "the impossible hunt",
+    "the wilderness",
+    "speed"
+   ],
+   "symbols": [
+    "a head of rotten stump",
+    "antlers of willow",
+    "legs of fence stakes",
+    "the skis that caught fire"
+   ],
+   "mount": null,
+   "abode": "Lapland, running",
+   "festivals": [],
+   "worship": "",
+   "bio": "It was assembled: a stump for a head, willow forks for antlers, fence stakes for legs.",
+   "longBio": "The second task set to Ilmarinen was to bridle the elk of Hiisi, which had been put together out of rubbish for the express purpose of not being catchable - a rotten stump for a head, forked willow branches for antlers, fence stakes for legs, swamp grass for a spine. The song about hunting it is one of the best in the corpus: the hunter makes his skis, boasts that no animal in Lapland can outrun them, and pursues it so hard and so far that the skis catch fire from friction and the pole burns in his hands, and it gets away anyway.",
+   "variantTraditions": "The ski-hunt song was collected independently and is older than the Kalevala's use of it as a bridal task.",
+   "storyIds": [],
+   "hierarchyLevel": 4,
+   "archetypes": [
+    "divine-beast",
+    "primordial-adversary",
+    "wind-storm"
+   ]
+  },
+  {
+   "id": "iku_turso",
+   "name": "Iku-Turso",
+   "sanskrit": "Iku-Turso",
+   "category": "underworld",
+   "era": "The Dangerous",
+   "role": "A sea monster nobody has ever satisfactorily identified, dragged up by the ears",
+   "wikipedia": "Iku-Turso",
+   "portrait": "portraits/finnish/iku_turso.webp",
+   "epithets": [
+    "the eternal Turso",
+    "the thousand-horned",
+    "the son of Old Age"
+   ],
+   "domains": [
+    "the sea",
+    "terror",
+    "being sent against people"
+   ],
+   "symbols": [
+    "the horns",
+    "the water",
+    "the ears Vainamoinen grabbed"
+   ],
+   "mount": null,
+   "abode": "The bottom of the sea",
+   "festivals": [],
+   "worship": "",
+   "bio": "Louhi sent him against the Sampo thieves and Vainamoinen hauled him out and told him off.",
+   "longBio": "Iku-Turso comes out of the water and it is never explained what he is - a walrus, an octopus, a whale, a war-god gone feral, all have been argued. Louhi raised him against the boat carrying the stolen Sampo, and Vainamoinen simply reached over the side, took him by the ears, hauled him half out of the water, and asked him why he had come. Turso would not say, was asked twice more, admitted it, promised never to come up again, and was let go, and the songs say he has kept his word. It is a monster defeated entirely by being interrogated, which is very much this tradition's idea of a fight.",
+   "variantTraditions": "Iku-Turso also appears in a Karelian charm as a plague-being; the name is related to Old Norse thurs, giant.",
+   "storyIds": [
+    "stealing-sampo"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sea-waters",
+    "primordial-adversary",
+    "serpent-dragon"
+   ]
+  },
+  {
+   "id": "syojatar",
+   "name": "Syojatar",
+   "sanskrit": "Syojatar",
+   "category": "underworld",
+   "era": "The Dangerous",
+   "role": "She spat, and the spit became the snake",
+   "wikipedia": "Syojatar",
+   "portrait": "portraits/finnish/syojatar.webp",
+   "epithets": [
+    "the devourer",
+    "the mother of snakes"
+   ],
+   "domains": [
+    "snakes",
+    "spite",
+    "the origin of vermin",
+    "witchcraft"
+   ],
+   "symbols": [
+    "the spittle on the water",
+    "the serpent",
+    "the wolf and the dog said to come from her too"
+   ],
+   "mount": null,
+   "abode": "The wilderness",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every Finnish snakebite charm starts by telling the snake exactly where it came from.",
+   "longBio": "Syojatar is a hag in the folktales and the mother of harmful things in the charms - most importantly the snake, which was made from her spittle drifting on the water, given life by the sun and malice by Hiisi. This matters practically: the way to deal with a snakebite in this tradition is to recite the snake's origin at it, in full and correctly, because a thing that hears its own beginning told back to it has to obey. She is credited with the wolf and the dog in some versions, and generally with whatever is unpleasant and alive.",
+   "variantTraditions": "The origin-of-the-snake charm is among the most collected texts in the Finnish corpus, with hundreds of recorded variants.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "primordial-adversary",
+    "serpent-dragon",
+    "destroyer",
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "pakkanen",
+   "name": "Pakkanen",
+   "sanskrit": "Pakkanen",
+   "category": "nature",
+   "era": "The Dangerous",
+   "role": "The frost, argued down by being reminded of its own humble parentage",
+   "wikipedia": "Kalevala",
+   "portrait": "portraits/finnish/pakkanen.webp",
+   "epithets": [
+    "the frost",
+    "the son of the north wind"
+   ],
+   "domains": [
+    "cold",
+    "frost",
+    "the freezing of a boat into the sea"
+   ],
+   "symbols": [
+    "ice on the water",
+    "a frozen beard",
+    "the birch he was suckled behind"
+   ],
+   "mount": null,
+   "abode": "The north",
+   "festivals": [],
+   "worship": "",
+   "bio": "Lemminkainen stopped him by listing exactly who his parents were, which was insulting.",
+   "longBio": "Frost froze Lemminkainen's boat into the sea and set about freezing him too, and he stopped it by singing its origin: born on a willow in the north, suckled by a woman with no milk behind a bare birch, raised in the bushes by the swamp, and with no business at all making itself grand. Told its own low beginnings accurately enough, the frost gave up and went away. It is the clearest demonstration in the poem of how this magic actually works - not force, not a bargain, but knowing precisely where something came from and saying so.",
+   "variantTraditions": "The origin-of-frost charm exists independently and was used against actual frost damage to crops.",
+   "storyIds": [],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wind-storm",
+    "primordial-adversary",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "antero_vipunen",
+   "name": "Antero Vipunen",
+   "sanskrit": "Antero Vipunen",
+   "category": "primordial",
+   "era": "What Is Known",
+   "role": "A giant so long dead there were trees growing out of him, and he still knew the missing words",
+   "wikipedia": "Antero_Vipunen",
+   "portrait": "portraits/finnish/antero_vipunen.webp",
+   "epithets": [
+    "the giant of song",
+    "the one under the ground"
+   ],
+   "domains": [
+    "forgotten knowledge",
+    "the words of origin",
+    "the earth over a body"
+   ],
+   "symbols": [
+    "the aspen on his shoulders",
+    "the birch on his brow",
+    "the smithy Vainamoinen built in his stomach"
+   ],
+   "mount": null,
+   "abode": "Underground, where he fell",
+   "festivals": [],
+   "worship": "",
+   "bio": "Vainamoinen went down his throat to get three words, and would not come out until he got them.",
+   "longBio": "Vainamoinen was building a boat by singing and ran out of words three short of finishing it, and nobody alive had them. He was told to go to Antero Vipunen, who had been dead and underground so long that an aspen was growing on his shoulders and a birch on his brow, and who still held all the songs there had ever been. He cut the trees away, prised the giant's mouth open with an iron stake, and was swallowed. Inside, he built a forge in the stomach and hammered on the walls until Vipunen, in agony, tried every spell he had to expel him, and finally sang out everything he knew just to be rid of him.",
+   "variantTraditions": "The Vipunen episode is securely collected and is the tradition's own statement about where knowledge comes from and what it costs.",
+   "storyIds": [
+    "vipunen"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "sage-seer",
+    "wisdom-craft",
+    "primordial-adversary",
+    "death-judge"
+   ]
+  },
+  {
+   "id": "kantele",
+   "name": "The Kantele",
+   "sanskrit": "Kantele",
+   "category": "primordial",
+   "era": "What Is Known",
+   "role": "Made from the jawbone of a giant pike, and everything alive came to hear it",
+   "wikipedia": "Kantele",
+   "portrait": "portraits/finnish/kantele.webp",
+   "epithets": [
+    "the harp of Vainamoinen",
+    "the pike-bone instrument"
+   ],
+   "domains": [
+    "music",
+    "grief",
+    "the gathering of animals",
+    "the second one, made of birch"
+   ],
+   "symbols": [
+    "the jawbone of the pike",
+    "the hairs of a stallion for strings",
+    "the birch and the girl's hair"
+   ],
+   "mount": null,
+   "abode": "Vainamoinen's hands, then the shore",
+   "festivals": [],
+   "worship": "",
+   "bio": "The first one was pike bone and horsehair; the second was birch and a girl's hair, given freely.",
+   "longBio": "Vainamoinen made the first kantele out of the jawbone of an enormous pike, with pegs of oak and strings of hair from a stallion, and everybody who tried it made a noise. Then he played it, and every animal in the forest and every fish in the water and everyone in the three countries came and stood still to listen, and he played until he wept, and the tears ran into the sea and became pearls. The first kantele was lost overboard in the fight for the Sampo. He made a second from a birch that was complaining about its life, with strings of hair a girl gave him, and left it behind when he sailed away.",
+   "variantTraditions": "The kantele is a real instrument, still played, and the oldest surviving examples are five-stringed and carved from a single piece of wood.",
+   "storyIds": [
+    "stealing-sampo",
+    "marjatta"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "wisdom-craft",
+    "sage-seer",
+    "healer"
+   ]
+  },
+  {
+   "id": "iron",
+   "name": "The Origin of Iron",
+   "sanskrit": "Raudan synty",
+   "category": "primordial",
+   "era": "What Is Known",
+   "role": "Iron is the milk of three maidens, and it swore an oath it broke",
+   "wikipedia": "Kalevala",
+   "portrait": "portraits/finnish/iron.webp",
+   "epithets": [
+    "the birth of iron",
+    "the three drops of milk"
+   ],
+   "domains": [
+    "iron",
+    "wounds",
+    "the staunching of blood",
+    "the broken oath"
+   ],
+   "symbols": [
+    "the three drops of milk on the ground",
+    "the wasp and the hornet",
+    "the bear's tracks in the swamp"
+   ],
+   "mount": null,
+   "abode": "The swamp, under the bear's footprints",
+   "festivals": [],
+   "worship": "",
+   "bio": "It promised never to cut a man, and the first thing it did was open one from wrist to elbow.",
+   "longBio": "Iron was born when three maidens of the air let milk fall on the ground - black, white and red - and it lay in the swamps under the tracks of a bear until Ilmarinen found it and put it in his fire. Poor iron wept at being burned, and swore never to harm a man, and was tempered. But a hornet, prompted by Hiisi, dropped venom into the quenching water, and the iron came out of it savage and forgot its oath, and cut its own brother fire, and has been cutting people ever since. This song was recited over open wounds, in full, and the belief was that iron hearing its own origin would be shamed into letting the blood stop.",
+   "variantTraditions": "The origin of iron is one of the longest and best-attested charms in the corpus; blood-staunching was its practical use.",
+   "storyIds": [
+    "origin-of-iron"
+   ],
+   "hierarchyLevel": 0,
+   "archetypes": [
+    "fire",
+    "wisdom-craft",
+    "healer",
+    "war"
+   ]
+  },
+  {
+   "id": "paivatar",
+   "name": "Paivatar",
+   "sanskrit": "Paivatar",
+   "category": "deity",
+   "era": "What Is Known",
+   "role": "The maiden of the sun, who sits on the edge of a cloud weaving gold",
+   "wikipedia": "Paivatar",
+   "portrait": "portraits/finnish/paivatar.webp",
+   "epithets": [
+    "the sun maiden",
+    "the daughter of the day"
+   ],
+   "domains": [
+    "the sun",
+    "gold",
+    "weaving",
+    "light"
+   ],
+   "symbols": [
+    "the golden shuttle",
+    "the loom at the edge of a cloud",
+    "the gold thread"
+   ],
+   "mount": null,
+   "abode": "The rim of the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "The gold for Ilmarinen's golden bride was asked for from her.",
+   "longBio": "Paivatar sits on the edge of a cloud, or on the arch of the sky, weaving cloth of gold with a golden shuttle, and she is asked in the songs for gold and for fine cloth. She is a personification rather than a character - there is no story where she does anything - but she and her sister the moon maiden are the tradition's picture of the sky as a workshop with two women in it, which is more domestic and much more Finnish than a sun that drives a chariot.",
+   "variantTraditions": "Paivatar and Kuutar appear chiefly in lyric and wedding songs rather than in narrative.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "sun",
+    "wisdom-craft",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "kuutar",
+   "name": "Kuutar",
+   "sanskrit": "Kuutar",
+   "category": "deity",
+   "era": "What Is Known",
+   "role": "The maiden of the moon, weaving silver on the next cloud along",
+   "wikipedia": "Kuutar",
+   "portrait": "portraits/finnish/kuutar.webp",
+   "epithets": [
+    "the moon maiden",
+    "the daughter of the moon"
+   ],
+   "domains": [
+    "the moon",
+    "silver",
+    "spinning",
+    "night"
+   ],
+   "symbols": [
+    "the silver shuttle",
+    "the spindle",
+    "the light on water"
+   ],
+   "mount": null,
+   "abode": "The rim of the sky",
+   "festivals": [],
+   "worship": "",
+   "bio": "Silver is hers, gold is her sister's, and a bride's ornaments came from both.",
+   "longBio": "Kuutar is the moon maiden and does for silver what Paivatar does for gold - she sits on a cloud edge spinning and weaving it, and she is asked for it in the songs, particularly in the ones sung at weddings when a bride is being dressed. Together the two of them make the sky a place where two women are working, which is the register of a great deal of Finnish lyric poetry: the cosmic and the household described in exactly the same words.",
+   "variantTraditions": "Attested mainly in the Kanteletar and in wedding lyric rather than in the Kalevala's narrative.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "moon",
+    "wisdom-craft",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "sauna_spirit",
+   "name": "The Sauna",
+   "sanskrit": "Loylyn henki",
+   "category": "nature",
+   "era": "What Is Known",
+   "role": "Births, healings and the laying out of the dead all happened in it, and it had a spirit",
+   "wikipedia": "Sauna",
+   "portrait": "portraits/finnish/sauna_spirit.webp",
+   "epithets": [
+    "the spirit of the steam",
+    "loyly"
+   ],
+   "domains": [
+    "the steam",
+    "healing",
+    "birth",
+    "cleanliness",
+    "the dead"
+   ],
+   "symbols": [
+    "the steam off the stones",
+    "the birch whisk",
+    "the bench"
+   ],
+   "mount": null,
+   "abode": "Every farm",
+   "festivals": [],
+   "worship": "",
+   "bio": "The old saying is that you behave in a sauna as you would in a church.",
+   "longBio": "The sauna was the cleanest building on a Finnish farm and so it was where women gave birth, where the sick were treated, where the dead were washed, and where a healer worked. It had a spirit and it had rules: no swearing, no quarrelling, no noise. Loviatar bore the nine diseases in one. The word loyly means the steam thrown off the stones and originally meant spirit or breath, which is the same word-history as Latin spiritus, and tells you exactly what the steam was thought to be.",
+   "variantTraditions": "Sauna ritual is attested continuously and is not literary - it is ordinary practice, and much of it survived into living memory.",
+   "storyIds": [
+    "nine-diseases"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "healer",
+    "preserver",
+    "earth-mother"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "ilmatar",
+   "to": "egg",
+   "type": "parent",
+   "note": "The bird nested on her knee and she flinched"
+  },
+  {
+   "from": "ilmatar",
+   "to": "vainamoinen",
+   "type": "parent",
+   "note": "Thirty years in the water before he was born, already old"
+  },
+  {
+   "from": "egg",
+   "to": "ukko",
+   "type": "ally",
+   "note": "The upper shell became the sky he lives in"
+  },
+  {
+   "from": "vainamoinen",
+   "to": "ilmatar",
+   "type": "devotee",
+   "note": "He called on his mother from the water when the oak would not fall"
+  },
+  {
+   "from": "vainamoinen",
+   "to": "sampsa",
+   "type": "guru",
+   "note": "He woke the boy and sent him out to sow the bare earth"
+  },
+  {
+   "from": "sampsa",
+   "to": "great_oak",
+   "type": "parent",
+   "note": "Everything came up except the oak, which took several tries"
+  },
+  {
+   "from": "great_oak",
+   "to": "vainamoinen",
+   "type": "enemy",
+   "note": "It blotted out the sun and nobody could fell it"
+  },
+  {
+   "from": "vainamoinen",
+   "to": "joukahainen",
+   "type": "enemy",
+   "note": "The boy challenged him and was sung into a swamp"
+  },
+  {
+   "from": "joukahainen",
+   "to": "aino",
+   "type": "sibling",
+   "note": "He promised her away to get his mouth above the mud"
+  },
+  {
+   "from": "aino",
+   "to": "vainamoinen",
+   "type": "enemy",
+   "note": "She would rather drown, and did"
+  },
+  {
+   "from": "joukahainen",
+   "to": "vainamoinen",
+   "type": "enemy",
+   "note": "And shot him out of his saddle later, from behind"
+  },
+  {
+   "from": "vainamoinen",
+   "to": "ilmarinen",
+   "type": "ally",
+   "note": "He promised the smith to Louhi to get himself home"
+  },
+  {
+   "from": "ilmarinen",
+   "to": "sampo",
+   "type": "parent",
+   "note": "Three days at the forge for a swan's feather and a drop of milk"
+  },
+  {
+   "from": "louhi",
+   "to": "sampo",
+   "type": "ally",
+   "note": "She took it as the price of her daughter and locked it in a hill"
+  },
+  {
+   "from": "louhi",
+   "to": "ilmarinen",
+   "type": "enemy",
+   "note": "The bride-price kept going up"
+  },
+  {
+   "from": "louhi",
+   "to": "pohjan_neito",
+   "type": "parent",
+   "note": "The daughter every man in the poem wants"
+  },
+  {
+   "from": "pohjan_neito",
+   "to": "ilmarinen",
+   "type": "consort",
+   "note": "She set him three tasks and coached him through all of them"
+  },
+  {
+   "from": "pohjan_neito",
+   "to": "vainamoinen",
+   "type": "enemy",
+   "note": "She was on the rainbow weaving and would not come down"
+  },
+  {
+   "from": "pohjan_neito",
+   "to": "elk_of_hiisi",
+   "type": "enemy",
+   "note": "Bridle the thing made of stumps and fence stakes"
+  },
+  {
+   "from": "elk_of_hiisi",
+   "to": "hiisi",
+   "type": "devotee",
+   "note": "Assembled by him out of rubbish so it could not be caught"
+  },
+  {
+   "from": "pohjan_neito",
+   "to": "kullervo",
+   "type": "enemy",
+   "note": "She baked a stone into his bread and it cost her everything"
+  },
+  {
+   "from": "kullervo",
+   "to": "untamo",
+   "type": "enemy",
+   "note": "The uncle who killed his family and then sold him"
+  },
+  {
+   "from": "untamo",
+   "to": "kullervo",
+   "type": "enemy",
+   "note": "Drowned, burned and hanged him as a baby, and none of it took"
+  },
+  {
+   "from": "kullervo",
+   "to": "ilmarinen",
+   "type": "enemy",
+   "note": "He was the smith's herdsman, briefly and disastrously"
+  },
+  {
+   "from": "lemminkainen",
+   "to": "kyllikki",
+   "type": "consort",
+   "note": "Taken out of a dance in a sledge, and left over a broken oath"
+  },
+  {
+   "from": "lemminkainen",
+   "to": "louhi",
+   "type": "enemy",
+   "note": "He came to the wedding uninvited and killed the host"
+  },
+  {
+   "from": "louhi",
+   "to": "swan_of_tuonela",
+   "type": "ally",
+   "note": "Shoot it, and you can have my daughter"
+  },
+  {
+   "from": "swan_of_tuonela",
+   "to": "lemminkainen",
+   "type": "enemy",
+   "note": "He never got a shot off"
+  },
+  {
+   "from": "lemminkainen",
+   "to": "tuoni",
+   "type": "enemy",
+   "note": "Cut into pieces and thrown in the black river"
+  },
+  {
+   "from": "lemminkainen_mother",
+   "to": "lemminkainen",
+   "type": "parent",
+   "note": "She raked him out of it and put him back together"
+  },
+  {
+   "from": "lemminkainen_mother",
+   "to": "tuoni",
+   "type": "enemy",
+   "note": "A copper rake with a hundred-fathom handle"
+  },
+  {
+   "from": "lemminkainen_mother",
+   "to": "mielikki",
+   "type": "devotee",
+   "note": "The honey-salve came from the forest, and from further up"
+  },
+  {
+   "from": "tuoni",
+   "to": "tuonetar",
+   "type": "parent",
+   "note": "The maiden who works the ferry and checks your story"
+  },
+  {
+   "from": "tuoni",
+   "to": "loviatar",
+   "type": "parent",
+   "note": "The blind daughter nobody wanted"
+  },
+  {
+   "from": "loviatar",
+   "to": "louhi",
+   "type": "devotee",
+   "note": "Louhi was the one who took her into the sauna"
+  },
+  {
+   "from": "loviatar",
+   "to": "sauna_spirit",
+   "type": "enemy",
+   "note": "The nine diseases were born in one"
+  },
+  {
+   "from": "tuonetar",
+   "to": "vainamoinen",
+   "type": "enemy",
+   "note": "She ferried him over and her family tried to keep him"
+  },
+  {
+   "from": "vainamoinen",
+   "to": "antero_vipunen",
+   "type": "enemy",
+   "note": "He prised the dead giant's mouth open with an iron stake"
+  },
+  {
+   "from": "antero_vipunen",
+   "to": "vainamoinen",
+   "type": "guru",
+   "note": "And sang out every word he had, to be rid of him"
+  },
+  {
+   "from": "vainamoinen",
+   "to": "kantele",
+   "type": "parent",
+   "note": "Pike jawbone, oak pegs, and hair from a stallion"
+  },
+  {
+   "from": "kantele",
+   "to": "otso",
+   "type": "ally",
+   "note": "Every animal in the forest came and stood still to listen"
+  },
+  {
+   "from": "kantele",
+   "to": "ahti",
+   "type": "ally",
+   "note": "And the fish came up, and the water people with them"
+  },
+  {
+   "from": "ilmarinen",
+   "to": "iron",
+   "type": "guru",
+   "note": "He found it in the swamp and put it in the fire"
+  },
+  {
+   "from": "iron",
+   "to": "hiisi",
+   "type": "enemy",
+   "note": "A hornet dropped venom in the quenching water"
+  },
+  {
+   "from": "iron",
+   "to": "ukko",
+   "type": "devotee",
+   "note": "The three drops of milk fell from the maidens of the air"
+  },
+  {
+   "from": "ukko",
+   "to": "pakkanen",
+   "type": "ally",
+   "note": "The weather is his, including the part that kills the crop"
+  },
+  {
+   "from": "pakkanen",
+   "to": "lemminkainen",
+   "type": "enemy",
+   "note": "It froze his boat into the sea and started on him"
+  },
+  {
+   "from": "tapio",
+   "to": "mielikki",
+   "type": "consort",
+   "note": "He owns the forest and she keeps the keys to it"
+  },
+  {
+   "from": "tapio",
+   "to": "otso",
+   "type": "ally",
+   "note": "The bear is the greatest of his cattle"
+  },
+  {
+   "from": "mielikki",
+   "to": "otso",
+   "type": "ally",
+   "note": "Released to a hunter who asks properly, held back from one who does not"
+  },
+  {
+   "from": "ahti",
+   "to": "vellamo",
+   "type": "consort",
+   "note": "He owns the water and she drives the fish"
+  },
+  {
+   "from": "vellamo",
+   "to": "aino",
+   "type": "ally",
+   "note": "The fish that spoke and slipped out of his hands"
+  },
+  {
+   "from": "ahti",
+   "to": "iku_turso",
+   "type": "ally",
+   "note": "Whatever it is, it comes up out of his water"
+  },
+  {
+   "from": "louhi",
+   "to": "iku_turso",
+   "type": "guru",
+   "note": "She raised it against the boat carrying the Sampo"
+  },
+  {
+   "from": "iku_turso",
+   "to": "vainamoinen",
+   "type": "enemy",
+   "note": "Hauled out by the ears and asked what it thought it was doing"
+  },
+  {
+   "from": "louhi",
+   "to": "vainamoinen",
+   "type": "enemy",
+   "note": "An eagle with a hundred men on her wings"
+  },
+  {
+   "from": "sampo",
+   "to": "louhi",
+   "type": "enemy",
+   "note": "Smashed in the fight, and the pieces went into the sea"
+  },
+  {
+   "from": "louhi",
+   "to": "paivatar",
+   "type": "enemy",
+   "note": "She stole the sun and hid it in a hill"
+  },
+  {
+   "from": "louhi",
+   "to": "kuutar",
+   "type": "enemy",
+   "note": "And the moon with it, and shut the fire away as well"
+  },
+  {
+   "from": "ukko",
+   "to": "paivatar",
+   "type": "parent",
+   "note": "The sky, and the maiden weaving gold on the edge of it"
+  },
+  {
+   "from": "paivatar",
+   "to": "kuutar",
+   "type": "sibling",
+   "note": "Gold on one cloud and silver on the next"
+  },
+  {
+   "from": "syojatar",
+   "to": "hiisi",
+   "type": "ally",
+   "note": "She spat, the sun warmed it, and he gave it malice"
+  },
+  {
+   "from": "syojatar",
+   "to": "kalma",
+   "type": "sibling",
+   "note": "Two of the things a charm has to be able to name"
+  },
+  {
+   "from": "kalma",
+   "to": "tuoni",
+   "type": "devotee",
+   "note": "The earth over a body, taken and given instructions"
+  },
+  {
+   "from": "hiisi",
+   "to": "kalma",
+   "type": "ally",
+   "note": "Whatever is out in the stones and should be left there"
+  },
+  {
+   "from": "vainamoinen",
+   "to": "marjatta",
+   "type": "enemy",
+   "note": "He judged the child should be killed, and the child answered him"
+  },
+  {
+   "from": "marjatta",
+   "to": "vainamoinen",
+   "type": "enemy",
+   "note": "And that was the end of him"
+  },
+  {
+   "from": "marjatta",
+   "to": "kantele",
+   "type": "devotee",
+   "note": "He left it behind for the people when he sailed"
+  },
+  {
+   "from": "otso",
+   "to": "sauna_spirit",
+   "type": "sibling",
+   "note": "Two pieces of ordinary practice older than any of the poetry"
+  },
+  {
+   "from": "vainamoinen",
+   "to": "iron",
+   "type": "devotee",
+   "note": "The wound in his knee was closed by reciting where iron came from"
+  },
+  {
+   "from": "mielikki",
+   "to": "sauna_spirit",
+   "type": "ally",
+   "note": "Where the herbs from the forest were actually used"
+  }
+ ]
+}
