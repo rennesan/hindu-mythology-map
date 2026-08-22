@@ -188,8 +188,12 @@ const Collections = (function () {
 
   function fileStamp(d) { return "mythology-collection-" + d.stamp; }
 
-  function download(name, mime, text) {
-    const blob = new Blob(["﻿" + text], { type: mime });
+  /* The byte-order mark is per-format, not blanket. Windows Notepad needs it to
+     read .txt as UTF-8, but at byte 0 of a Markdown file it stops `---` being
+     recognised as frontmatter and shows as a stray  in parsers that do not
+     strip it. Word does not need one at all. */
+  function download(name, mime, text, bom) {
+    const blob = new Blob([(bom ? "﻿" : "") + text], { type: mime });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
@@ -313,8 +317,47 @@ const Collections = (function () {
     return out.join("\n");
   }
 
+  /* Word will not fetch a remote image out of a downloaded .doc, so the Word
+     export has to carry its portraits inline as data URIs. The print/PDF path
+     is same-origin and can just use the real paths, which keeps it fast. */
+  function portraitMap() {
+    const srcs = [];
+    grouped().forEach(g => g.entries.forEach(en => {
+      if (en.kind === "figure" && en.data.portrait) {
+        const u = en.data.portrait.charAt(0) === "/" ? en.data.portrait : "/" + en.data.portrait;
+        if (srcs.indexOf(u) === -1) srcs.push(u);
+      }
+    }));
+
+    /* The portraits are WebP, and Word's HTML import does not render WebP
+       dependably across versions - so they are decoded and re-encoded as JPEG
+       on a canvas first. The browser is already displaying these images, so the
+       decode is free, and it also stops the data URI inheriting whatever
+       content-type the server happened to send. */
+    const map = {};
+    return Promise.all(srcs.map(u => new Promise(res => {
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onload = () => {
+        try {
+          const c = document.createElement("canvas");
+          c.width = img.naturalWidth || 260;
+          c.height = img.naturalHeight || 260;
+          const ctx = c.getContext("2d");
+          ctx.fillStyle = "#ffffff";              // JPEG has no alpha
+          ctx.fillRect(0, 0, c.width, c.height);
+          ctx.drawImage(img, 0, 0);
+          map[u] = c.toDataURL("image/jpeg", 0.85);
+        } catch (e) { /* tainted or unsupported; entry simply has no portrait */ }
+        res();
+      };
+      img.onerror = () => res();
+      img.src = u;
+    }))).then(() => map);
+  }
+
   /* --- the shared HTML body, used for both print/PDF and Word --- */
-  function bodyHtml(forWord) {
+  function bodyHtml(imgMap) {
     const d = doc();
     const esc = s => String(s == null ? "" : s)
       .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -336,7 +379,13 @@ const Collections = (function () {
       g.entries.forEach(en => {
         if (en.kind === "figure") {
           const e = en.data;
+          const raw = e.portrait
+            ? (e.portrait.charAt(0) === "/" ? e.portrait : "/" + e.portrait) : "";
+          const src = imgMap ? (imgMap[raw] || "") : raw;
           H.push('<article class="coll-entry">');
+          H.push('<div class="coll-figrow">');
+          if (src) H.push('<img class="coll-portrait" src="' + src + '" alt="">');
+          H.push('<div class="coll-figtext">');
           H.push("<h3>" + esc(e.name) + "</h3>");
           if (e.bio) H.push('<p class="coll-lead">' + esc(e.bio) + "</p>");
           const ff = figureFields(e);
@@ -355,6 +404,7 @@ const Collections = (function () {
             rel.forEach(r => H.push("<li>" + esc(r) + "</li>"));
             H.push("</ul>");
           }
+          H.push("</div></div>");
           H.push("</article>");
         } else {
           const s = en.data;
@@ -407,6 +457,11 @@ const Collections = (function () {
       ".coll-part-sub{font-size:9.5pt;letter-spacing:.14em;text-transform:uppercase;",
       "color:#9a7a2e;font-weight:normal;}",
       ".coll-entry{margin:0 0 18pt;page-break-inside:avoid;}",
+      // Word's CSS support stops well short of flexbox, so the portrait is
+      // floated - which behaves identically in the print path.
+      ".coll-portrait{float:left;width:78pt;height:78pt;margin:2pt 12pt 6pt 0;",
+      "border:1pt solid #c9b47a;border-radius:50%;}",
+      ".coll-figrow:after{content:'';display:block;clear:both;}",
       ".coll-entry h3{font-size:13.5pt;margin:0 0 3pt;color:#2b2418;page-break-after:avoid;}",
       ".coll-tag{font-size:8pt;letter-spacing:.16em;text-transform:uppercase;",
       "color:#9a7a2e;margin-left:8pt;}",
@@ -434,6 +489,10 @@ const Collections = (function () {
   /* --- Word --- */
   function toWord() {
     const d = doc();
+    return portraitMap().then(map => buildWord(d, map));
+  }
+
+  function buildWord(d, map) {
     const html =
       '<html xmlns:o="urn:schemas-microsoft-com:office:office" ' +
       'xmlns:w="urn:schemas-microsoft-com:office:word" ' +
@@ -442,7 +501,7 @@ const Collections = (function () {
       "<!--[if gte mso 9]><xml><w:WordDocument>" +
       "<w:View>Print</w:View><w:Zoom>100</w:Zoom></w:WordDocument></xml><![endif]-->" +
       "<style>@page{size:A4;margin:2cm;}" + docCss(true) + "</style></head><body>" +
-      bodyHtml(true) + "</body></html>";
+      bodyHtml(map) + "</body></html>";
     download(fileStamp(d) + ".doc", "application/msword", html);
   }
 
@@ -458,7 +517,7 @@ const Collections = (function () {
     win.document.write(
       '<!doctype html><html><head><meta charset="utf-8"><title>' + d.title +
       "</title><style>@page{size:A4;margin:18mm;}" + docCss(false) +
-      "</style></head><body>" + bodyHtml(false) + "</body></html>");
+      "</style></head><body>" + bodyHtml(null) + "</body></html>");
     win.document.close();
     win.focus();
     /* let the fonts settle before the dialogue opens */

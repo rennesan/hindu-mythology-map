@@ -388,8 +388,9 @@ function wireCollectionView() {
   }));
   on("#coll-txt", () => Collections.hydrate().then(() => {
     const d = Collections.doc();
+    /* .txt is the one format that wants a BOM - Notepad guesses the encoding */
     Collections.download(Collections.fileStamp(d) + ".txt", "text/plain;charset=utf-8",
-                         Collections.toText());
+                         Collections.toText(), true);
   }));
 }
 

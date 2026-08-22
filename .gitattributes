@@ -1,0 +1,12 @@
+# Every generator in packs/ writes LF, and this repo is checked out on Windows
+# with core.autocrlf=true - so without this, git hands back CRLF, the next
+# rebuild writes LF, and the whole tree reads as modified with an empty diff.
+# That noise buried real changes and made ship.py's staleness check cry wolf.
+* text=auto eol=lf
+
+# binary, never touched
+*.webp  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.zip   binary
