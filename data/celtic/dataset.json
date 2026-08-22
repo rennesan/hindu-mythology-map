@@ -350,7 +350,10 @@
     "gwydion",
     "arianrhod",
     "lleu",
-    "blodeuwedd"
+    "blodeuwedd",
+    "gilfaethwy",
+    "gofannon",
+    "amaethon"
    ]
   },
   {
@@ -4940,6 +4943,116 @@
     "sage-seer",
     "wisdom-craft"
    ]
+  },
+  {
+   "id": "gilfaethwy",
+   "name": "Gilfaethwy",
+   "sanskrit": "Gilfaethwy",
+   "category": "deity",
+   "era": "The Welsh Branches",
+   "role": "Son of Don, who wanted the king's footholder and got his brother to start a war over it",
+   "wikipedia": "Gilfaethwy",
+   "portrait": "portraits/celtic/gilfaethwy.webp",
+   "epithets": [
+    "son of Don",
+    "brother of Gwydion"
+   ],
+   "domains": [
+    "desire",
+    "the war with Dyfed",
+    "punishment by transformation"
+   ],
+   "symbols": [
+    "the three animal shapes",
+    "Math's footstool"
+   ],
+   "mount": null,
+   "abode": "Caer Dathyl, in Gwynedd",
+   "festivals": [],
+   "worship": "",
+   "bio": "He wanted his uncle's footholder, so his brother started a war to get the king out of the house.",
+   "longBio": "Gilfaethwy fell for Goewin, the virgin in whose lap King Math had to keep his feet whenever he was not at war, and could do nothing about it while Math stayed home. His brother Gwydion solved that by provoking a war with Pryderi of Dyfed over a herd of pigs. With Math away Gilfaethwy took Goewin by force. Math's punishment was exact: he turned the pair of them into a deer and a stag, then a sow and a boar, then a wolf pair, a year each, and made them bear one another's young. The Fourth Branch never lets them off.",
+   "variantTraditions": "The Mabinogi tells it without commentary, which has left every modern retelling to decide for itself how much blame Gwydion carries.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "primordial-adversary",
+    "love-desire"
+   ]
+  },
+  {
+   "id": "gofannon",
+   "name": "Gofannon",
+   "sanskrit": "Gofannon",
+   "category": "deity",
+   "era": "The Welsh Branches",
+   "role": "The smith of the children of Don, who killed his own nephew without knowing him",
+   "wikipedia": "Gofannon",
+   "portrait": "portraits/celtic/gofannon.webp",
+   "epithets": [
+    "son of Don",
+    "the smith",
+    "cognate of Goibniu"
+   ],
+   "domains": [
+    "smithcraft",
+    "metalwork",
+    "the killing of Dylan"
+   ],
+   "symbols": [
+    "the hammer and anvil",
+    "the forge"
+   ],
+   "mount": null,
+   "abode": "The forge, in Gwynedd",
+   "festivals": [],
+   "worship": "",
+   "bio": "One of the three unfortunate blows of the island was struck by him, on a nephew he did not recognise.",
+   "longBio": "Gofannon is the smith among the children of Don, the Welsh counterpart of the Irish Goibniu, and like him he is invoked more than he is narrated. His one story is a killing: Dylan ail Don, the boy who took to the sea the moment he was born, was struck down by his uncle Gofannon, and the Triads count it among the Three Unfortunate Blows of the Island of Britain. Nothing explains why. In Culhwch and Olwen his help is demanded as one of the impossible tasks, to set the plough of Amaethon straight.",
+   "variantTraditions": "Whether Gofannon is a god of smithing proper or a euhemerised smith depends on which nineteenth-century commentator is doing the reading; the medieval Welsh text simply calls him a son of Don.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft",
+    "fire"
+   ]
+  },
+  {
+   "id": "amaethon",
+   "name": "Amaethon",
+   "sanskrit": "Amaethon",
+   "category": "deity",
+   "era": "The Welsh Branches",
+   "role": "The ploughman of the children of Don, who started a battle by stealing a dog, a deer and a bird",
+   "wikipedia": "Amaethon",
+   "portrait": "portraits/celtic/amaethon.webp",
+   "epithets": [
+    "son of Don",
+    "the labourer",
+    "the ploughman"
+   ],
+   "domains": [
+    "ploughing and agriculture",
+    "the Cad Goddeu",
+    "theft from the otherworld"
+   ],
+   "symbols": [
+    "the plough",
+    "the ox team"
+   ],
+   "mount": null,
+   "abode": "The fields of Gwynedd",
+   "festivals": [],
+   "worship": "",
+   "bio": "The battle where Gwydion animated a forest was fought because Amaethon stole three animals from the otherworld.",
+   "longBio": "Amaethon is the ploughman among Don's children, and the cause of the strangest battle in Welsh tradition. He took a dog, a roebuck and a lapwing from Arawn of Annwn, and the Cad Goddeu - the Battle of the Trees - followed, in which his brother Gwydion enchanted the trees of the forest into fighting on their side. The poem is difficult, deliberately so, and reads as a riddle rather than a narrative. His name simply means labourer or ploughman, and Culhwch and Olwen sets his ploughing among the impossible tasks.",
+   "variantTraditions": "Cad Goddeu survives in the Book of Taliesin as a dense allusive poem, not a story; almost everything narrative about it comes from a later prose gloss.",
+   "storyIds": [],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "wisdom-craft"
+   ]
   }
  ],
  "links": [
@@ -5974,6 +6087,54 @@
    "to": "nuada",
    "type": "form",
    "note": "Nudd is cognate with Nuada and with British Nodens"
+  },
+  {
+   "from": "don",
+   "to": "gilfaethwy",
+   "type": "parent",
+   "note": "One of the five children named in her line"
+  },
+  {
+   "from": "don",
+   "to": "gofannon",
+   "type": "parent",
+   "note": "The smith among them"
+  },
+  {
+   "from": "don",
+   "to": "amaethon",
+   "type": "parent",
+   "note": "The ploughman among them"
+  },
+  {
+   "from": "gwydion",
+   "to": "gilfaethwy",
+   "type": "sibling",
+   "note": "He started a war so his brother could be alone with Goewin"
+  },
+  {
+   "from": "gofannon",
+   "to": "gwydion",
+   "type": "sibling",
+   "note": "The smith and the magician"
+  },
+  {
+   "from": "amaethon",
+   "to": "gwydion",
+   "type": "sibling",
+   "note": "He stole the animals; Gwydion animated the forest"
+  },
+  {
+   "from": "math",
+   "to": "gilfaethwy",
+   "type": "enemy",
+   "note": "Three years as three pairs of animals"
+  },
+  {
+   "from": "arianrhod",
+   "to": "gilfaethwy",
+   "type": "sibling",
+   "note": "Children of Don"
   }
  ]
 }

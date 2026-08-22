@@ -5545,6 +5545,44 @@
     "hero-champion",
     "fate-time"
    ]
+  },
+  {
+   "id": "diomedes",
+   "name": "Diomedes",
+   "sanskrit": "Diomedes",
+   "category": "hero",
+   "era": "Trojan",
+   "role": "The one mortal who wounded two gods in an afternoon, because Athena told him which ones he could",
+   "wikipedia": "Diomedes",
+   "portrait": "portraits/greek/diomedes.webp",
+   "epithets": [
+    "lord of the war cry",
+    "son of Tydeus",
+    "king of Argos"
+   ],
+   "domains": [
+    "battle",
+    "the favour of Athena",
+    "the theft of the Palladium"
+   ],
+   "symbols": [
+    "the spear",
+    "the bronze corslet",
+    "the stolen Palladium"
+   ],
+   "mount": null,
+   "abode": "Argos, and the Greek camp before Troy",
+   "festivals": [],
+   "worship": "",
+   "bio": "Athena took the mist from his eyes so he could tell gods from men, then told him to go for Aphrodite.",
+   "longBio": "In the fifth book of the Iliad Athena lifts the mist from Diomedes' sight so that he can see which of the fighters are gods, and gives him one instruction: leave the immortals alone, except Aphrodite. He spears Aphrodite through the wrist when she comes to carry Aeneas off, and later, with Athena herself holding the reins of his chariot, drives a spear into Ares and sends him bellowing back to Olympus. He and Odysseus take the Palladium out of Troy by night. Of the major Greek leaders he is almost the only one whose homecoming is not a disaster.",
+   "variantTraditions": "The Iliad is unusually generous to him; later Greek tragedy is colder, and Roman tradition remembers chiefly that he wounded the mother of Aeneas. Not to be confused with Diomedes of Thrace, the owner of the man-eating mares in Heracles' eighth labour - a different man who shares the name.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "war"
+   ]
   }
  ],
  "links": [
@@ -7071,6 +7109,30 @@
    "to": "jason",
    "type": "ally",
    "note": "He boxed for the crew and won"
+  },
+  {
+   "from": "athena",
+   "to": "diomedes",
+   "type": "ally",
+   "note": "She took the mist from his eyes and held his reins"
+  },
+  {
+   "from": "diomedes",
+   "to": "aphrodite",
+   "type": "enemy",
+   "note": "Speared through the wrist over Aeneas"
+  },
+  {
+   "from": "diomedes",
+   "to": "ares",
+   "type": "enemy",
+   "note": "Driven off the field bellowing"
+  },
+  {
+   "from": "diomedes",
+   "to": "odysseus",
+   "type": "ally",
+   "note": "They took the Palladium out of Troy together"
   }
  ]
 }

@@ -8385,6 +8385,265 @@
    "archetypes": [
     "hero-champion"
    ]
+  },
+  {
+   "id": "vidura",
+   "name": "Vidura",
+   "sanskrit": "विदुर",
+   "category": "human",
+   "era": "Epic-Mahabharata",
+   "role": "The wisest man at Hastinapura, and the one nobody had to listen to because his mother was a maid",
+   "wikipedia": "Vidura",
+   "portrait": "portraits/hindu/vidura.webp",
+   "epithets": [
+    "the incarnation of Dharma",
+    "Kshatta",
+    "the half-brother"
+   ],
+   "domains": [
+    "counsel",
+    "dharma",
+    "the warning nobody heeds"
+   ],
+   "symbols": [
+    "the plain seat at court",
+    "the letter of warning in code"
+   ],
+   "mount": null,
+   "abode": "Hastinapura",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was right about everything and outranked by everyone, because of who his mother was.",
+   "longBio": "Vyasa fathered three sons on the widowed queens and their maid: Dhritarashtra born blind, Pandu born pale, and Vidura born to the servant and therefore born out of the succession. He is Dharma himself incarnate, serves as counsellor at Hastinapura, and is right at every turn - he warns the Pandavas about the lacquer house in coded speech so the messenger cannot repeat it, argues against the dice game, and tells Dhritarashtra plainly that his son will destroy the family. Nobody with power ever acts on it. He is the epic's standing demonstration that being correct is not the same as being heard.",
+   "variantTraditions": "His identification with Dharma is a Puranic overlay; the Mahabharata itself is mostly content to make him simply the clever one.",
+   "storyIds": [],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "sage-seer",
+    "wisdom-craft"
+   ]
+  },
+  {
+   "id": "ashvatthama",
+   "name": "Ashvatthama",
+   "sanskrit": "अश्वत्थामा",
+   "category": "human",
+   "era": "Epic-Mahabharata",
+   "role": "Cut down the sleeping camp after the war was over, and was cursed to wander for three thousand years",
+   "wikipedia": "Ashwatthama",
+   "portrait": "portraits/hindu/ashvatthama.webp",
+   "epithets": [
+    "son of Drona",
+    "one of the chiranjivi",
+    "the immortal wanderer"
+   ],
+   "domains": [
+    "the night raid",
+    "grief turned to atrocity",
+    "deathless punishment"
+   ],
+   "symbols": [
+    "the gem set in his forehead",
+    "the sword taken up at night"
+   ],
+   "mount": null,
+   "abode": "The battlefield, and afterwards nowhere",
+   "festivals": [],
+   "worship": "",
+   "bio": "The war was decided. He went into the camp at night anyway and killed everyone asleep in it.",
+   "longBio": "Drona's son, born with a gem in his forehead that kept him safe from hunger and disease, and told at the war's end that his father was dead by a lie the Pandavas had arranged. On the last night, with the fighting finished, he entered the sleeping camp and killed Dhrishtadyumna, the five sons of Draupadi and everyone else he found, then loosed a brahmastra at Uttara's unborn child. Krishna's curse on him is the heaviest in the epic: the gem is torn from his head and he is left to wander for three thousand years, wounded and alone, unable to die.",
+   "variantTraditions": "He is one of the chiranjivi, the deathless, and there are places in India where he is still said to be seen.",
+   "storyIds": [],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "hero-champion",
+    "destroyer",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "kripa",
+   "name": "Kripa",
+   "sanskrit": "कृप",
+   "category": "human",
+   "era": "Epic-Mahabharata",
+   "role": "Found abandoned in a clump of reeds, and still alive at the end of everything",
+   "wikipedia": "Kripacharya",
+   "portrait": "portraits/hindu/kripa.webp",
+   "epithets": [
+    "Kripacharya",
+    "one of the chiranjivi",
+    "the first teacher"
+   ],
+   "domains": [
+    "archery instruction",
+    "survival",
+    "the deathless"
+   ],
+   "symbols": [
+    "the bow",
+    "the reeds he was found in"
+   ],
+   "mount": null,
+   "abode": "Hastinapura",
+   "festivals": [],
+   "worship": "",
+   "bio": "He taught both sets of princes before Drona did, and outlived nearly all of them.",
+   "longBio": "Kripa and his twin sister Kripi were abandoned as infants in a clump of grass and taken in by King Shantanu, who named them for the pity he felt - kripa. He became the first archery teacher of the Kuru princes, before Drona arrived and took over, and his sister married Drona, which makes Ashvatthama his nephew. He fought for the Kauravas out of obligation rather than conviction and survived the war, one of only three on that side to do so. He is counted among the chiranjivi, the immortals, and the epic leaves him teaching the next generation.",
+   "variantTraditions": "The Mahabharata keeps him consistently sympathetic despite his side, which is rare among the Kaurava commanders.",
+   "storyIds": [],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "sage-seer",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "mandodari",
+   "name": "Mandodari",
+   "sanskrit": "मन्दोदरी",
+   "category": "human",
+   "era": "Epic-Ramayana",
+   "role": "Ravana's queen, who told him to give Sita back and was right for ten years",
+   "wikipedia": "Mandodari",
+   "portrait": "portraits/hindu/mandodari.webp",
+   "epithets": [
+    "queen of Lanka",
+    "daughter of Maya",
+    "one of the panchakanya"
+   ],
+   "domains": [
+    "counsel refused",
+    "loyalty",
+    "lament"
+   ],
+   "symbols": [
+    "the palace of Lanka",
+    "the lament over the body"
+   ],
+   "mount": null,
+   "abode": "Lanka",
+   "festivals": [],
+   "worship": "",
+   "bio": "She spent the whole war telling her husband he was going to lose it.",
+   "longBio": "Daughter of the asura architect Maya and chief queen of Ravana, Mandodari is the voice of sense in Lanka and is ignored as completely as Vibhishana is. She tells Ravana repeatedly to return Sita, points out what Rama has already destroyed, and keeps telling him after there is nothing left to save. Her lament over his body at the end of the Yuddha Kanda is one of the most sustained speeches given to a woman in the epic. She is counted among the panchakanya, the five women named in the daily prayer said to dispel sin, alongside Ahalya, Draupadi, Tara and Kunti.",
+   "variantTraditions": "Some southern and Jain versions make her the true mother of Sita, which turns the whole war into a family matter.",
+   "storyIds": [],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "earth-mother",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "maricha",
+   "name": "Maricha",
+   "sanskrit": "मारीच",
+   "category": "asura",
+   "era": "Epic-Ramayana",
+   "role": "Turned himself into a golden deer because he was more frightened of Ravana than of Rama",
+   "wikipedia": "Maricha",
+   "portrait": "portraits/hindu/maricha.webp",
+   "epithets": [
+    "the golden deer",
+    "son of Tataka"
+   ],
+   "domains": [
+    "shape-shifting",
+    "the decoy",
+    "reluctant service"
+   ],
+   "symbols": [
+    "the golden deer with silver spots",
+    "the voice that cried out in Rama's"
+   ],
+   "mount": null,
+   "abode": "A hermitage in the forest, and then the clearing at Panchavati",
+   "festivals": [],
+   "worship": "",
+   "bio": "He had already been shot by Rama once. He knew exactly how it would end.",
+   "longBio": "Maricha had met Rama before - flung into the sea by one of his arrows years earlier - and had retired to the forest to live as an ascetic precisely to stay out of his way. When Ravana ordered him to become the golden deer that would draw Rama away from Sita, he refused, argued, explained that it would kill him, and was told he would die either way. So he did it: a deer of gold with silver spots that Sita wanted, and when Rama's arrow found him he cried out in Rama's own voice for Lakshmana, which emptied the hut. The whole abduction turns on him.",
+   "variantTraditions": "The Ramayana gives him an unusual amount of interiority for a demon, and lets him be right about everything.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "messenger-trickster",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "angada",
+   "name": "Angada",
+   "sanskrit": "अङ्गद",
+   "category": "celestial",
+   "era": "Epic-Ramayana",
+   "role": "Son of the monkey king Rama killed, sent as ambassador to the enemy",
+   "wikipedia": "Angada",
+   "portrait": "portraits/hindu/angada.webp",
+   "epithets": [
+    "son of Vali",
+    "prince of Kishkindha",
+    "the envoy"
+   ],
+   "domains": [
+    "the embassy to Lanka",
+    "the search for Sita",
+    "divided loyalty"
+   ],
+   "symbols": [
+    "the planted foot no one could lift",
+    "the armlet"
+   ],
+   "mount": null,
+   "abode": "Kishkindha, and the war camp before Lanka",
+   "festivals": [],
+   "worship": "",
+   "bio": "He planted his foot in Ravana's hall and told the court to move it if they could.",
+   "longBio": "Angada is the son of Vali, the vanara king Rama shot from cover, and he serves Rama anyway - which the Ramayana notes and does not soften. He leads one of the search parties for Sita, and is sent into Lanka as ambassador, where he plants his foot on the floor of Ravana's hall and invites anyone present to shift it. Nobody can, including Ravana's son. It is a piece of theatre rather than diplomacy and it is meant to be: the point is to show the court what is coming. He fights through the war and is made heir at the end.",
+   "variantTraditions": "His acceptance of Sugriva and Rama after his father's death is handled briefly in the text and has been the subject of a great deal of later commentary.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "messenger-trickster"
+   ]
+  },
+  {
+   "id": "chyavana",
+   "name": "Chyavana",
+   "sanskrit": "च्यवन",
+   "category": "sage",
+   "era": "Puranic",
+   "role": "Buried in an anthill for so long that a princess mistook his eyes for glow-worms and poked them",
+   "wikipedia": "Chyavana",
+   "portrait": "portraits/hindu/chyavana.webp",
+   "epithets": [
+    "son of Bhrigu",
+    "the ant-hill sage"
+   ],
+   "domains": [
+    "austerity",
+    "restored youth",
+    "the Ashvins' share of the sacrifice"
+   ],
+   "symbols": [
+    "the anthill",
+    "the two thorns",
+    "the pool of youth"
+   ],
+   "mount": null,
+   "abode": "A hermitage beside a lake",
+   "festivals": [],
+   "worship": "",
+   "bio": "Sukanya put a thorn in each of his eyes on a dare, and had to marry him for it.",
+   "longBio": "Chyavana, son of Bhrigu, meditated in one place so long that an anthill grew over him with only his eyes showing. King Saryati's daughter Sukanya, out walking, took them for something glittering and pushed a thorn into each, blinding him; the sage's anger stopped the kingdom's bodily functions until her father gave her to him in marriage. She kept faith with a blind old husband, and the Ashvins - divine physicians barred from the soma sacrifice - offered a trade: they would restore his youth if he got them a share. He did, over Indra's furious objection, and the Ashvins have drunk soma ever since.",
+   "variantTraditions": "The story appears in the Shatapatha Brahmana long before the Mahabharata, which is unusual and makes it one of the older narratives in the corpus.",
+   "storyIds": [],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "healer"
+   ]
   }
  ],
  "links": [
@@ -10151,6 +10410,138 @@
    "to": "rahula",
    "type": "parent",
    "note": "She sent him to ask for his inheritance"
+  },
+  {
+   "from": "vyasa",
+   "to": "vidura",
+   "type": "parent",
+   "note": "The third son, by the maid"
+  },
+  {
+   "from": "vidura",
+   "to": "dhritarashtra",
+   "type": "sibling",
+   "note": "He told him plainly and was not heard"
+  },
+  {
+   "from": "vidura",
+   "to": "pandu",
+   "type": "sibling",
+   "note": "Half-brothers by the same father"
+  },
+  {
+   "from": "vidura",
+   "to": "yudhishthira",
+   "type": "ally",
+   "note": "The coded warning about the lacquer house"
+  },
+  {
+   "from": "drona",
+   "to": "ashvatthama",
+   "type": "parent",
+   "note": "The son who avenged him past all measure"
+  },
+  {
+   "from": "ashvatthama",
+   "to": "krishna",
+   "type": "enemy",
+   "note": "Cursed to three thousand years of wandering"
+  },
+  {
+   "from": "ashvatthama",
+   "to": "abhimanyu",
+   "type": "enemy",
+   "note": "Among those who surrounded him in the wheel"
+  },
+  {
+   "from": "kripa",
+   "to": "ashvatthama",
+   "type": "guru",
+   "note": "Uncle and nephew, and both survived"
+  },
+  {
+   "from": "kripa",
+   "to": "drona",
+   "type": "ally",
+   "note": "His sister's husband, and his successor as teacher"
+  },
+  {
+   "from": "kripa",
+   "to": "arjuna",
+   "type": "guru",
+   "note": "He taught the princes before Drona did"
+  },
+  {
+   "from": "shantanu",
+   "to": "kripa",
+   "type": "foster",
+   "note": "He took in the twins found in the reeds"
+  },
+  {
+   "from": "ravana",
+   "to": "mandodari",
+   "type": "consort",
+   "note": "The queen who told him to give Sita back"
+  },
+  {
+   "from": "mandodari",
+   "to": "vibhishana",
+   "type": "ally",
+   "note": "The two voices in Lanka that were ignored"
+  },
+  {
+   "from": "ravana",
+   "to": "maricha",
+   "type": "guru",
+   "note": "Ordered him into the deer shape against his will"
+  },
+  {
+   "from": "maricha",
+   "to": "rama",
+   "type": "enemy",
+   "note": "Shot once before, and again as the deer"
+  },
+  {
+   "from": "maricha",
+   "to": "sita",
+   "type": "enemy",
+   "note": "The deer she wanted, and the voice that emptied the hut"
+  },
+  {
+   "from": "vali",
+   "to": "angada",
+   "type": "parent",
+   "note": "The son of the king Rama shot from cover"
+  },
+  {
+   "from": "angada",
+   "to": "sugriva",
+   "type": "ally",
+   "note": "He served his father's brother"
+  },
+  {
+   "from": "angada",
+   "to": "ravana",
+   "type": "enemy",
+   "note": "He planted his foot in the hall and nobody could move it"
+  },
+  {
+   "from": "angada",
+   "to": "hanuman",
+   "type": "ally",
+   "note": "Both on the search party for Sita"
+  },
+  {
+   "from": "bhrigu",
+   "to": "chyavana",
+   "type": "parent",
+   "note": "The son who sat still until the ants covered him"
+  },
+  {
+   "from": "chyavana",
+   "to": "ashvins",
+   "type": "ally",
+   "note": "Youth restored, in exchange for a share of the soma"
   }
  ],
  "meta": {
