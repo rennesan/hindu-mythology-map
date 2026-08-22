@@ -1674,8 +1674,8 @@
    "note": "Strings given to lift grief at a Condolence"
   },
   {
-   "from": "sky_holder",
-   "to": "sky_woman",
+   "from": "sky_woman",
+   "to": "sky_holder",
    "type": "parent",
    "note": "Her grandson, and the one who finished the work"
   }

@@ -127,7 +127,9 @@
     "daikokuten",
     "benzaiten",
     "kannon",
-    "jizo"
+    "jizo",
+    "raijin",
+    "ryujin"
    ],
    "connectorCaption": "And a separate stream: what is in the mountains, the rivers and the snow"
   },
@@ -141,7 +143,9 @@
     "oni",
     "yukionna",
     "tanuki",
-    "yamata"
+    "yamata",
+    "momotaro",
+    "urashima"
    ],
    "connectorCaption": ""
   }

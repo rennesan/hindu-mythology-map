@@ -236,7 +236,10 @@
     "arawn",
     "gwyn_ap_nudd",
     "ceridwen",
-    "taliesin"
+    "taliesin",
+    "gilfaethwy",
+    "gofannon",
+    "amaethon"
    ],
    "connectorCaption": ""
   }
@@ -5841,12 +5844,6 @@
    "to": "niamh",
    "type": "consort",
    "note": "Three years in Tir na nOg, and three centuries at home"
-  },
-  {
-   "from": "niamh",
-   "to": "manannan",
-   "type": "parent",
-   "note": "The daughter of the sea god"
   },
   {
    "from": "oisin",
