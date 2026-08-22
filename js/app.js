@@ -104,6 +104,15 @@ const $$ = (s, el) => Array.from((el || document).querySelectorAll(s));
 function store(key, val) { try { localStorage.setItem(key, val); } catch (e) { /* private mode */ } }
 function readStore(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
 
+/* Which continent shelves this device has collapsed on the hub. Stored as the
+   CLOSED set rather than the open one, so the default for anything unknown -
+   a first visit, a cleared store, a continent added later - is open. */
+const SHELF_KEY = "hm-shelves";
+const shelfKey = name => name.toLowerCase().replace(/[^a-z]+/g, "-");
+function closedShelves() {
+  return (readStore(SHELF_KEY) || "").split(",").filter(Boolean);
+}
+
 function esc(s) {
   return String(s == null ? "" : s)
     .replace(/&/g, "&amp;").replace(/</g, "&lt;")
@@ -471,14 +480,30 @@ function buildLanding() {
     const name = pair[0], packs = pair[1];
     const liveN = packs.filter(p => p.status === "live").length;
     const note = REGION_NOTE[name];
-    return '<section class="region">' +
-      '<h4 class="region-name">' + esc(name) +
+    const key = shelfKey(name);
+    // open unless this device has explicitly collapsed the shelf before
+    const open = closedShelves().indexOf(key) === -1 ? " open" : "";
+    return '<details class="region" data-shelf="' + esc(key) + '"' + open + ">" +
+      '<summary class="region-name">' + esc(name) +
         '<span class="region-count">' + liveN + " of " + packs.length + " mapped</span>" +
-      "</h4>" +
+      "</summary>" +
       (note ? '<p class="region-note">' + esc(note) + "</p>" : "") +
       '<div class="region-cards">' + packs.map(cardFor).join("") + "</div>" +
-    "</section>";
+    "</details>";
   }).join("");
+
+  /* Remember which shelves the reader closed, the same way the theme and the
+     filter mode are remembered. Default is open: a shelf is only collapsed if
+     its key is in the stored list, so a first visit and a cleared store both
+     show everything. */
+  $("#pantheon-grid").addEventListener("toggle", ev => {
+    const el = ev.target;
+    if (!el.classList || !el.classList.contains("region")) return;
+    const key = el.getAttribute("data-shelf");
+    const shut = closedShelves().filter(k => k !== key);
+    if (!el.open) shut.push(key);
+    store(SHELF_KEY, shut.join(","));
+  }, true);   // capture: toggle does not bubble
 
   /* ways to explore, counted from the live packs */
   const pid = first ? first.id : "";

@@ -1817,7 +1817,10 @@ body.on-hub .topbar {
   padding: 18px 20px 20px;
   min-width: 0;
 }
-.region-name {
+/* The shelf is a <details> so it collapses with no script and stays keyboard
+   accessible; the chevron matches the one on the map legend. Shelves open by
+   default - app.js stores only the ones the reader has closed. */
+.region > summary.region-name {
   font-family: var(--serif);
   font-size: 15px;
   letter-spacing: 0.06em;
@@ -1830,6 +1833,34 @@ body.on-hub .topbar {
   justify-content: space-between;
   align-items: baseline;
   gap: 14px;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 4px;
+}
+.region > summary.region-name::-webkit-details-marker { display: none; }
+.region > summary.region-name::before {
+  content: "\25B8";
+  margin-right: 9px;
+  font-size: 12px;
+  color: var(--gold);
+  transition: transform 0.15s;
+  flex: none;
+  align-self: center;
+}
+.region[open] > summary.region-name::before { transform: rotate(90deg); }
+.region > summary.region-name:hover { color: var(--gold); }
+.region > summary.region-name:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+/* the continent name is the first text node, so let it take the slack and push
+   the count to the right edge as it did when this was an h4 */
+.region > summary.region-name > .region-count { margin-left: auto; }
+/* a collapsed shelf should read as a closed drawer, not an empty box */
+.region:not([open]) { padding-bottom: 4px; }
+.region:not([open]) > summary.region-name { margin-bottom: 0; border-bottom: none; }
+@media (prefers-reduced-motion: reduce) {
+  .region > summary.region-name::before { transition: none; }
 }
 .region-count {
   font-family: var(--sans, inherit);
