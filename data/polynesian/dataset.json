@@ -171,7 +171,8 @@
     "tane",
     "tawhirimatea",
     "tu",
-    "ruaumoko"
+    "ruaumoko",
+    "haumia"
    ]
   },
   {
@@ -258,7 +259,8 @@
     "tawhirimatea",
     "tu",
     "rongo",
-    "tangaroa"
+    "tangaroa",
+    "haumia"
    ],
    "summary": "Ranginui and Papatuanuku held each other so closely that their children grew up between them in total darkness, unable to stand upright. The children argued about it. Tumatauenga proposed killing them. The others preferred separation, and tried in turn - Rongo, Tangaroa, Haumia, Tu - and none of them could shift it. Then Tane put his shoulders against his mother and his feet against his father and straightened his legs, slowly, and they came apart, and light came in for the first time. Tawhirimatea, the only one who had objected, went up with his father and made war on his brothers ever afterwards. And Ranginui grieves: the rain is him weeping down, and the mist that lifts off the land at dawn is Papatuanuku's grief going back up to him.",
    "sources": [
@@ -2002,6 +2004,48 @@
     "divine-beast",
     "fate-time"
    ]
+  },
+  {
+   "id": "haumia",
+   "name": "Haumia",
+   "sanskrit": "Haumia-tiketike",
+   "category": "deity",
+   "era": "Across the Ocean",
+   "role": "Wild uncultivated food, who hid in his mother's body and is why fernroot grows underground",
+   "wikipedia": "Haumia-tiketike",
+   "portrait": "portraits/polynesian/haumia.webp",
+   "epithets": [
+    "Haumia-tiketike",
+    "the fernroot god",
+    "the wild food"
+   ],
+   "domains": [
+    "uncultivated food",
+    "aruhe, the bracken fernroot",
+    "the uncleared bush",
+    "what grows without being planted"
+   ],
+   "symbols": [
+    "the fern frond",
+    "the digging stick",
+    "roots pulled from the ground"
+   ],
+   "mount": null,
+   "abode": "The uncleared bush, and under the ground",
+   "festivals": [],
+   "worship": "",
+   "bio": "He hid inside his own mother to escape his brother, and that is why you have to dig for fernroot.",
+   "longBio": "Haumia is everything edible that nobody planted - and in practice that means aruhe, the bracken fernroot that fed people when the kumara failed, which makes him the god of the food you fall back on. He is the exact counterpart of his brother Rongo, who holds the cultivated crops. When Tawhirimatea came down on his brothers for separating their parents, Haumia and Rongo hid in the body of Papatuanuku and she covered them over, and the storm could not find them. That is the explanation offered for why both fernroot and kumara are dug out of the earth rather than picked off it.",
+   "variantTraditions": "Chiefly a Maori figure. The other island groups divide the food gods differently and several have no separate wild-food god at all.",
+   "storyIds": [
+    "the-separation"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "earth-mother",
+    "preserver",
+    "wealth-fortune"
+   ]
   }
  ],
  "links": [
@@ -2448,6 +2492,48 @@
    "to": "namaka",
    "type": "ally",
    "note": "Snow and sea, and both of them against the fire"
+  },
+  {
+   "from": "rangi",
+   "to": "haumia",
+   "type": "parent",
+   "note": "One of the sons who pushed the sky away"
+  },
+  {
+   "from": "papa",
+   "to": "haumia",
+   "type": "parent",
+   "note": "And the mother who then hid him"
+  },
+  {
+   "from": "papa",
+   "to": "haumia",
+   "type": "ally",
+   "note": "She covered him over and the storm went past"
+  },
+  {
+   "from": "haumia",
+   "to": "rongo",
+   "type": "sibling",
+   "note": "The wild food and the planted food, a matched pair"
+  },
+  {
+   "from": "haumia",
+   "to": "tane",
+   "type": "sibling",
+   "note": "Among the brothers who wanted their parents parted"
+  },
+  {
+   "from": "tawhirimatea",
+   "to": "haumia",
+   "type": "enemy",
+   "note": "He came down on his brothers and could not find this one"
+  },
+  {
+   "from": "haumia",
+   "to": "tu",
+   "type": "sibling",
+   "note": "The one who hid, and the one who stood"
   }
  ]
 }
