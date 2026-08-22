@@ -320,7 +320,9 @@
    "cast": [
     "qudlivun",
     "adlivun",
-    "igaluk"
+    "igaluk",
+    "anguta",
+    "sedna"
    ],
    "summary": "The dead go first to Adlivun, the country under the sea in Sedna's house, where a dog watches the door and Anguta pinches them for about a year. Then most of them go up to Qudlivun, the country near the moon, where it is warm and there is game everywhere and nobody is hungry. What you can see of it from here is the aurora: that is the dead up there, playing a ball game with a walrus skull, and the lights are the game in progress. In some regions you may whistle and they will come nearer to look. In others, whistling is how you lose your own head to the ball.",
    "sources": [
@@ -469,7 +471,8 @@
    "storyIds": [
     "the-fingers",
     "combing-her-hair",
-    "boot-of-children"
+    "boot-of-children",
+    "aurora-game"
    ],
    "hierarchyLevel": 0,
    "archetypes": [
@@ -509,7 +512,8 @@
    "longBio": "Anguta is Sedna's father in the Baffin Island telling, and the man who took his knife to her hands. He went down with her, and he lives in the house at the bottom of the sea, and his work now is to fetch the dead and bring them there, where they lie for a year while he pinches them. The relationship at the centre of the Inuit cosmos is therefore a mutilation inside a family, never resolved and never mentioned as a wrong. He is one of the least sentimental figures in any tradition on this site.",
    "variantTraditions": "Anguta is not named in every regional version; in several the father goes unnamed or the fall has nothing to do with him.",
    "storyIds": [
-    "the-fingers"
+    "the-fingers",
+    "aurora-game"
    ],
    "hierarchyLevel": 0,
    "archetypes": [

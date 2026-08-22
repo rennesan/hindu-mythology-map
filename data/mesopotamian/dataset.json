@@ -362,7 +362,8 @@
     "marduk",
     "anshar",
     "anu",
-    "enki"
+    "enki",
+    "apsu"
    ],
    "summary": "Goaded by her other children for having done nothing while Apsu was killed, Tiamat finally acts. She bears eleven monsters, raises Kingu above all the gods as her consort and commander, and fastens the Tablet of Destinies to his chest. Anshar sends Ea against her, and he turns back. He sends Anu, who turns back. Only then does Marduk come forward, and he names his price: that his word shall fix destinies thereafter, and that the assembly shall make him king. They test him by making a garment vanish and reappear at his command, then hail him. The bargaining is the point of the scene - the poem is careful that the kingship was given rather than seized.",
    "sources": [
@@ -413,7 +414,8 @@
    "cast": [
     "marduk",
     "enki",
-    "kingu"
+    "kingu",
+    "enlil"
    ],
    "summary": "The gods want to be relieved of their labour. Ea proposes that one of the defeated be executed to provide the material, and the assembly names Kingu as the one who incited the war. He is bound, his arteries opened, and humanity is fashioned from his blood mixed with clay - made expressly so the gods can rest. The Atrahasis poem tells it differently and more sharply: there the lesser gods go on strike, surrounding Enlil's house with torches at night and refusing to dig the canals any longer, and people are made to take the shovel. Either way the account is the same in substance. Human beings were manufactured as a labour force, out of the remains of a rebel, and their troublesome nature is inherited from him.",
    "sources": [
@@ -492,7 +494,9 @@
     "neti",
     "namtar",
     "ninshubur",
-    "enki"
+    "enki",
+    "enlil",
+    "nanna"
    ],
    "summary": "Inanna sets her mind on the great below and goes down, having first instructed Ninshubur to raise the alarm if she does not return in three days. At each of seven gates Neti removes one of her ornaments, and when she protests he answers each time that the decrees of the underworld are perfect and must not be questioned. She arrives naked, is turned into a corpse by the eye of death, and is hung on a hook. Ninshubur does exactly as told: Enlil refuses to help, Nanna refuses, and Enki makes two sexless beings from the dirt under his fingernail and sends them down with the food and water of life. They sympathise with Ereshkigal in her pain, are granted a gift, and ask for the corpse.",
    "sources": [
@@ -519,7 +523,8 @@
     "dumuzi",
     "geshtinanna",
     "galla",
-    "utu"
+    "utu",
+    "ninshubur"
    ],
    "summary": "Inanna comes back up with the galla at her heels, required to supply a substitute. They offer to take Ninshubur, and she refuses. They offer to take two other loyal servants, and she refuses. Then she finds Dumuzi sitting on his throne in fine clothes, not mourning her at all, and fixes on him the eye of death. He appeals to Utu, who turns him into a gazelle so he can run, and he is caught anyway after a friend betrays his hiding place. His sister Geshtinanna, who had read his nightmare correctly and refused to give him up even under torture, offers to take half his sentence. So he is below for half the year and she for the other half. Women wept for Tammuz annually for two thousand years afterwards.",
    "sources": [
@@ -969,7 +974,8 @@
    "longBio": "The Enuma Elish opens before the naming of heaven and earth, with two waters mingling their bodies: Apsu the fresh and Tiamat the salt. The gods are born inside them, and are immediately a nuisance - they surge about and make noise, and Apsu cannot sleep. He proposes to destroy them. Tiamat refuses, appalled at the idea of killing what they made, but Apsu takes the counsel of his vizier Mummu and prepares to act anyway. Ea learns of it, puts Apsu to sleep with a spell, strips off his crown and kills him, and then builds his own house on top of the dead body and names it the Apsu. That house is the temple at Eridu. A Mesopotamian sanctuary quite literally stands on a defeated primordial being, and the sacred water basin in the courtyard is named for him.",
    "variantTraditions": "In Sumerian usage Abzu is more a place than a person - the freshwater deep that Enki governs, and the name of the sacred basin in a temple courtyard. The personification as a father-god who is murdered is developed in the Babylonian poem.",
    "storyIds": [
-    "apsu-cannot-sleep"
+    "apsu-cannot-sleep",
+    "tiamat-war"
    ],
    "hierarchyLevel": 0,
    "archetypes": [
@@ -1359,7 +1365,9 @@
    "longBio": "Enlil is the god who actually runs things. Anu grants authority; Enlil exercises it. No Sumerian king was legitimate without recognition at his temple in Nippur, and the Tablet of Destinies - possession of which is effectively the right to determine what happens - is his. He is also genuinely frightening. He is the wind in both senses: the breath that makes crops grow, and the storm that flattens the city. In Atrahasis he responds to human overpopulation and noise first with plague, then with drought, then with famine, and finally with the flood, and is furious when Enki warns a man. Yet the same god is exiled to the underworld for raping Ninlil and follows her down to make it right. He is not moral, and the literature does not pretend he is; he is powerful, and must be housed and fed.",
    "variantTraditions": "Enlil's supremacy fades as Babylon rises. The Enuma Elish transfers his functions and even his epithets to Marduk, and in Assyria to Ashur, in each case by rewriting rather than by argument.",
    "storyIds": [
+    "blood-of-kingu",
     "enlil-and-ninlil",
+    "descent-of-inanna",
     "anzu-steals",
     "ninurta-asag",
     "the-flood",
@@ -1548,6 +1556,7 @@
    "variantTraditions": "Sumerian Nanna and Akkadian Sin are the same god. The bull's horns and the crescent are deliberately conflated in the imagery, and cattle-herding metaphors run all through his hymns.",
    "storyIds": [
     "enlil-and-ninlil",
+    "descent-of-inanna",
     "enheduanna-exile"
    ],
    "hierarchyLevel": 2,
@@ -1847,7 +1856,8 @@
    "variantTraditions": "Ninshubur is female in most Sumerian sources and merges in Akkadian with the male Papsukkal; the sources are not consistent, and the figure is better understood as an office than a fixed person.",
    "storyIds": [
     "inanna-and-enki",
-    "descent-of-inanna"
+    "descent-of-inanna",
+    "dumuzi-taken"
    ],
    "hierarchyLevel": 2,
    "archetypes": [

@@ -214,7 +214,8 @@
     "baal",
     "yamm",
     "el",
-    "kothar"
+    "kothar",
+    "astarte"
    ],
    "summary": "Yamm the Sea sends messengers into the assembly of the gods demanding that Baal be handed over as his slave, and the gods drop their heads to their knees rather than look at them. Baal berates them into lifting their heads and answers the messengers himself. Then Kothar-wa-Khasis forges two clubs and gives each a name and instructions, like a man training falcons. Yagrush, Driver, leaps from Baal's hand and strikes Yamm on the shoulder, and the Sea stands firm. Ayamur, Chaser, strikes him on the skull between the eyes, and he goes down, and Baal is proclaimed king. Astarte tells him to scatter his enemy, and he does.",
    "sources": [
@@ -241,7 +242,8 @@
     "athirat",
     "el",
     "anat",
-    "kothar"
+    "kothar",
+    "yamm"
    ],
    "summary": "Baal is king and has no house, which in this world means he is not really king. Anat threatens El and gets nowhere. So Baal and Anat go to Athirat with gifts of silver and gold worked by Kothar, and she agrees to ask - and El grants it in a sentence, because his wife asked. Kothar builds it of cedar, silver and gold, and proposes a window. Baal refuses: Yamm might come in at his daughters. Kothar says he will change his mind. The house is finished, Baal holds a feast, and then opens a window after all - and gives out his holy voice through it, and the earth shakes and his enemies take to the woods.",
    "sources": [
@@ -307,7 +309,8 @@
     "anat",
     "kothar",
     "danel",
-    "pughat"
+    "pughat",
+    "baal"
    ],
    "summary": "Kothar makes Aqhat a composite bow, and Anat wants it. She offers silver and gold; he refuses. She offers immortality - ask for life, and I will give it, and you will count years with Baal. He tells her not to lie to him, that a man dies as men die, and then adds the sentence that kills him: bows are for men, what business has a woman with them. She goes to El and gets his permission with a threat, and has her man Yatpan carried over Aqhat as an eagle to strike him dead. The bow falls into the water and is lost anyway. The rains fail. His sister Pughat puts on armour under a dress and goes to find Yatpan, and the tablet breaks.",
    "sources": [
@@ -371,7 +374,8 @@
    "cast": [
     "tanit",
     "baal_hammon",
-    "melqart"
+    "melqart",
+    "baal"
    ],
    "summary": "Outside Carthage lay a walled precinct filled with urns, each holding the burned bones of an infant or a young animal, each marked by a small stone carved with the sign of Tanit. There are thousands. Greek and Roman writers said the Carthaginians burned their own children to Baal Hammon in times of crisis, in numbers that grow with every retelling - and those writers were describing a city their own states destroyed. Modern archaeology finds infant remains, many of them newborn or premature, which some read as ritual killing and others as a cemetery for children who died anyway. The argument has run for a century and is not settled.",
    "sources": [
@@ -548,7 +552,9 @@
     "the-window",
     "baal-and-mot",
     "anat-in-the-valley",
-    "lotan-in-isaiah"
+    "bow-of-aqhat",
+    "lotan-in-isaiah",
+    "tophet"
    ],
    "hierarchyLevel": 1,
    "archetypes": [
@@ -640,6 +646,7 @@
    "variantTraditions": "The sea-battle motif is shared across the ancient Near East; the Ugaritic version is the closest in language to the biblical references to Yahweh splitting the sea.",
    "storyIds": [
     "baal-and-yamm",
+    "the-window",
     "lotan-in-isaiah"
    ],
    "hierarchyLevel": 0,
@@ -848,6 +855,7 @@
    "longBio": "Astarte is the Levantine form of Ishtar - love, war and the planet Venus in one figure. At Ugarit she is present but Anat gets the fighting scenes; in Phoenicia proper she becomes the principal goddess, with a great temple at Sidon and cults in every colony from Cyprus to Carthage. Her Cypriot cult is where the Greeks met her, which is why Aphrodite arrives in Greece out of the sea at Paphos rather than out of Olympus, and why Herodotus says plainly that the Cypriots got her from the Phoenicians. The Hebrew Bible calls her Ashtoreth, deliberately mispointed to sound like the word for shame.",
    "variantTraditions": "The deliberate distortion of Ashtart to Ashtoreth, using the vowels of boshet, shame, is a recognised feature of the Masoretic text.",
    "storyIds": [
+    "baal-and-yamm",
     "egersis"
    ],
    "hierarchyLevel": 2,

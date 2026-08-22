@@ -256,7 +256,9 @@
     "papa",
     "tane",
     "tawhirimatea",
-    "tu"
+    "tu",
+    "rongo",
+    "tangaroa"
    ],
    "summary": "Ranginui and Papatuanuku held each other so closely that their children grew up between them in total darkness, unable to stand upright. The children argued about it. Tumatauenga proposed killing them. The others preferred separation, and tried in turn - Rongo, Tangaroa, Haumia, Tu - and none of them could shift it. Then Tane put his shoulders against his mother and his feet against his father and straightened his legs, slowly, and they came apart, and light came in for the first time. Tawhirimatea, the only one who had objected, went up with his father and made war on his brothers ever afterwards. And Ranginui grieves: the rain is him weeping down, and the mist that lifts off the land at dawn is Papatuanuku's grief going back up to him.",
    "sources": [
@@ -537,7 +539,9 @@
    "bio": "The same name is the sea god, the creator, and a banished spirit, depending which island you stand on.",
    "longBio": "Tangaroa is the clearest single demonstration of why these traditions should not be merged. In Aotearoa he is the sea, one of the sons of Rangi and Papa, and the ancestor of fish, and he is on bad terms with his brother Tane because Tane sheltered the reptiles that should have gone into the water. In Tahiti, as Ta'aroa, he is the creator of everything and sits alone in a shell before the world exists. In Samoa, as Tagaloa, he is likewise the supreme creator. In Hawaii, as Kanaloa, he is one of the four great gods and in some later accounts becomes a rebel and something close to an adversary.",
    "variantTraditions": "The Hawaiian demotion of Kanaloa toward a devil figure may be partly a missionary-era development, and this is argued about.",
-   "storyIds": [],
+   "storyIds": [
+    "the-separation"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "sea-waters",
@@ -667,7 +671,9 @@
    "bio": "The Hawaiian Makahiki ran four months, during which fighting was forbidden and taxes were collected.",
    "longBio": "Rongo is the cultivated food - the kumara above all - and by extension peace, since the two go together. In Hawaii, as Lono, he governs rain and agriculture and the Makahiki, a festival running about four months from the rising of the Pleiades, during which war was prohibited, work was reduced, tribute was collected and there were games. Captain Cook arrived off Hawaii during the Makahiki in 1779, at the right season and sailing round the island in the right direction, and what was made of that at the time is still argued about by historians.",
    "variantTraditions": "Whether Cook was taken for Lono, and in what sense, is one of the more heated disputes in Pacific anthropology.",
-   "storyIds": [],
+   "storyIds": [
+    "the-separation"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "earth-mother",
@@ -2072,6 +2078,12 @@
    "note": "And beat the crops down until they hid in the ground"
   },
   {
+   "from": "tawhirimatea",
+   "to": "rongo",
+   "type": "ally",
+   "note": "Matariki rises, and it is time to plant again"
+  },
+  {
    "from": "tu",
    "to": "tawhirimatea",
    "type": "enemy",
@@ -2412,12 +2424,6 @@
    "to": "kumulipo",
    "type": "ally",
    "note": "The Makahiki begins when the Pleiades rise"
-  },
-  {
-   "from": "tawhirimatea",
-   "to": "rongo",
-   "type": "enemy",
-   "note": "Matariki rises, and it is time to plant again"
   },
   {
    "from": "tu",

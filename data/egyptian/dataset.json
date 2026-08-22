@@ -320,7 +320,8 @@
     "set",
     "nephthys",
     "haroeris",
-    "sopdet"
+    "sopdet",
+    "horus"
    ],
    "summary": "Ra, told that Nut's children will displace him, curses her not to give birth on any day of any month of the year. Thoth plays a game with the moon and wins from it a seventieth part of each of its lights, out of which he makes five whole days and adds them to the calendar, days belonging to no month and so outside the curse. On those five days Nut bears Osiris, Horus the Elder, Set, Isis and Nephthys, one each. This is the Egyptian explanation for the five epagomenal days appended to the 360-day civil year, and it is Plutarch who preserves it in full - a Greek writer explaining an Egyptian calendar by way of an Egyptian myth.",
    "sources": [
@@ -495,7 +496,8 @@
     "sokar",
     "aker",
     "osiris",
-    "heka"
+    "heka",
+    "isis"
    ],
    "summary": "At sunset Ra transfers from the day barque to the night barque and enters the Duat, which is divided into twelve hours, each a region with its own gate, its own guardians and its own password. The fourth and fifth hours belong to Sokar and are sand rather than water, so the barque must be dragged. In the seventh hour Apep attacks, and the crew - with Set in the prow with a spear, Heka supplying the force and Isis the spells - drives him off. In the deepest hour the sun's ba unites with the body of Osiris, and from that union the sun is renewed. At the twelfth gate the barque passes through the body of a serpent and emerges as the scarab at dawn.",
    "sources": [
@@ -1395,6 +1397,7 @@
     "gathering",
     "marshes",
     "contendings",
+    "book-of-gates",
     "secret-name",
     "anubis-embalming",
     "abydos-mysteries"
@@ -1539,6 +1542,7 @@
    "longBio": "Horus is really several figures the tradition ran together: Horus the Elder, a sky god whose eyes are the sun and moon and who is a brother of Osiris; and Horus the Child, Harpocrates, son of Isis and Osiris, raised in hiding in the marshes. It is the second who fights Set. The Contendings of Horus and Set is a long, strange and sometimes comic text in which the two are repeatedly judged by the tribunal of gods, transform into hippopotami, and try to disqualify each other, until Osiris himself intervenes from the underworld and the throne is awarded to Horus. In the fighting Set tears out Horus' eye, which is healed by Thoth or Hathor; the restored Eye of Horus, the wedjat, becomes the standard Egyptian symbol of wholeness and healing and the commonest of all amulets. Every living pharaoh was Horus, and every dead one Osiris.",
    "variantTraditions": "The multiplication of Horus forms - Horus the Elder, Harsiese, Harpocrates, Horus of Behdet, Ra-Horakhty - reflects the merging of several originally separate falcon gods, and the sources do not always distinguish them.",
    "storyIds": [
+    "five-days",
     "gathering",
     "marshes",
     "contendings",

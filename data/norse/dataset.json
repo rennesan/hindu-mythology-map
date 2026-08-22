@@ -505,7 +505,8 @@
     "njord",
     "loki",
     "odin",
-    "thjazi"
+    "thjazi",
+    "baldr"
    ],
    "summary": "Skadi comes to Asgard in mail with a drawn bow to avenge her father Thjazi. The gods offer settlement: she may choose a husband from among them, seeing only their feet, and they must make her laugh. She picks the finest pair, expecting Baldr, and gets Njord. Nobody can make her laugh until Loki ties a cord from his testicles to the beard of a goat, and the resulting tug-of-war ends with him falling screeching into her lap. She laughs, and Odin completes the settlement by throwing Thjazi's eyes into the sky as stars. The marriage then fails on geography: nine nights in her mountains, nine at his shore, and each cannot bear the other's home.",
    "sources": [
@@ -592,7 +593,8 @@
     "hrungnir",
     "odin",
     "sif",
-    "freyja"
+    "freyja",
+    "sleipnir"
    ],
    "summary": "Odin wagers his head that no horse in Jotunheim can match Sleipnir, and Hrungnir's Gullfaxi keeps up so closely that the giant rides straight through the gates of Asgard. Given hospitality he drinks Thor's cups and announces that he will sink Asgard, kill the gods and take Freyja and Sif home. Thor arrives and a formal duel is arranged. The giants build a clay man nine leagues tall to second him and put a mare's heart in it, so it is terrified before anything starts. Hrungnir throws his whetstone and Thor throws Mjollnir; they meet in the air, the hone shatters and a fragment lodges in Thor's head, and the hammer kills the giant, whose falling leg pins Thor to the ground.",
    "sources": [
@@ -667,7 +669,8 @@
     "frigg",
     "nanna",
     "vali",
-    "thor"
+    "thor",
+    "odin"
    ],
    "summary": "Loki makes a dart of the mistletoe and finds Hodr standing outside the ring of throwers because he is blind and has nothing to throw. He offers to direct him. The dart goes through Baldr and he falls dead, and the gods stand speechless, unable to take vengeance because the assembly ground is sanctuary. The body is carried to the ship Hringhorni; Nanna's heart breaks at the sight and she is laid on the pyre beside him. Thor hallows the fire with his hammer and kicks a passing dwarf into it. Odin lays Draupnir on the pyre and whispers something in his son's ear that no one hears, and which no source ever reveals.",
    "sources": [
@@ -744,7 +747,8 @@
     "sigyn",
     "skadi",
     "thor",
-    "baldr"
+    "baldr",
+    "kvasir"
    ],
    "summary": "Loki hides in a house on a mountain with four doors, and by day becomes a salmon in the waterfall. Sitting by the fire he plaits the first fishing net out of linen, and burns it when the gods approach - but Kvasir reads the ash. They net the river; Loki leaps the first cast and is caught in the second when Thor grabs him mid-air by the tail, which is why salmon taper. The gods turn one of his sons into a wolf that tears the other apart, and bind Loki to three stones with those entrails, which harden to iron. Skadi fixes a serpent above his face to drip venom. Sigyn stays with a bowl, and when she turns to empty it the earth shakes.",
    "sources": [
@@ -1159,6 +1163,7 @@
     "skadi-settlement",
     "hrungnir-duel",
     "baldr-oaths",
+    "death-of-baldr",
     "lokasenna",
     "gefjon-plough",
     "valhalla",
@@ -1368,6 +1373,7 @@
    "longBio": "Baldr is the best of the gods and the one whose death matters most, because it is the first irreversible thing to happen to them and the beginning of the end. Troubled by dreams of his own death, he tells the Aesir; Frigg extracts oaths from everything, after which the gods amuse themselves by throwing weapons at him and watching them refuse to bite. Loki, disguised as a woman, learns of the overlooked mistletoe, makes a dart of it, and puts it in the hand of Baldr's blind brother Hodr, guiding the throw. Baldr dies. Hermod rides nine nights to Hel, who agrees to release him if every thing in the world weeps - and every thing does, except one giantess in a cave who will not, and who is generally taken to be Loki. Baldr stays dead until after Ragnarok, when he returns to the new world.",
    "variantTraditions": "Saxo tells a completely different and more human version in which Balderus and Hotherus are rivals for a woman and fight a straightforward war; the two accounts cannot be reconciled.",
    "storyIds": [
+    "skadi-settlement",
     "baldr-oaths",
     "death-of-baldr",
     "hermods-ride",
@@ -1791,7 +1797,8 @@
    "variantTraditions": "Kvasir's name may be related to a word for crushed fruit or fermented drink, which would make him a personification of the mead rather than its source.",
    "storyIds": [
     "mead-of-poetry",
-    "aesir-vanir-war"
+    "aesir-vanir-war",
+    "binding-loki"
    ],
    "hierarchyLevel": 2,
    "archetypes": [
@@ -2834,6 +2841,7 @@
    "variantTraditions": "Eight-legged horses appear on Gotland picture stones, so the image is older than Snorri even if his account of the parentage is his own.",
    "storyIds": [
     "asgard-wall",
+    "hrungnir-duel",
     "hermods-ride"
    ],
    "hierarchyLevel": 4,

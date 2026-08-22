@@ -456,7 +456,10 @@
     "morrigan",
     "goibniu",
     "dian_cecht",
-    "bres"
+    "bres",
+    "credne",
+    "luchta",
+    "badb"
    ],
    "summary": "The Fomorians come, and the Tuatha De win on logistics as much as valour: Goibniu, Credne and Luchta run a forge beside the field that turns out spears faster than they can be broken, and Dian Cecht's family chant over a well that returns the dead whole. Balor kills Nuada. Then the lid of his eye is levered up, and Lugh puts a sling-stone through it that drives the eye out through the back of his skull so that it destroys the Fomorian ranks behind him. Bres is captured and spared - in exchange for telling the Tuatha De when to plough, sow and reap. The war poem ends as an agricultural text, and then Badb prophesies a world grown old.",
    "sources": [
@@ -510,7 +513,8 @@
    "cast": [
     "lir",
     "bodb_derg",
-    "aengus"
+    "aengus",
+    "aoife"
    ],
    "summary": "Lir marries Bodb Derg's daughter Aeb, who bears four children and dies. Her sister Aoife takes her place and grows jealous of how much their father loves them. She takes them to a lake, strikes them with a druid's wand, and turns them into four white swans - leaving them their human voices and their reason, which is the cruelty of it - for nine hundred years: three hundred on Lake Derravaragh, three hundred on the cold Sea of Moyle, three hundred at Erris. Lir can only come to the shore and listen to them singing. Bodb turns Aoife into a demon of the air forever. When the term ends the swans become people again, ancient beyond saving, and are baptised and die.",
    "sources": [
@@ -721,7 +725,8 @@
     "donn_cuailnge",
     "finnbhennach",
     "medb",
-    "ailill"
+    "ailill",
+    "donn"
    ],
    "summary": "The brown bull is taken and the armies disengage, and the war is settled by the animals it was fought over. The two bulls were once swineherds of rival lords who quarrelled and fought each other through successive forms - as ravens, as water creatures, as stags, as champions, as demons, as maggots - until each was swallowed by a cow and born as a bull. They meet at Cruachan and fight the length of Ireland for a day and a night. The Donn wins, and scatters pieces of the white bull across the country, leaving place-names behind it. Then it turns for home, and its heart bursts, and it dies. Nobody has gained anything at all, which is the ending the Tain chooses.",
    "sources": [
@@ -1296,7 +1301,9 @@
    "bio": "The war goddess as panic itself: a crow screaming over the ranks, and a woman washing the armour of men about to die.",
    "longBio": "Badb means crow, and specifically the hooded crow that follows armies. Her function is not to fight but to terrify - she shrieks over the host and men lose their nerve, which is a precise piece of observation about how ancient battles were actually decided. She is the most consistently attested of the war trio and outlasts the others, surviving into modern Irish folklore as the bean nighe or washer at the ford, seen scrubbing bloody clothes in a stream by a man who then recognises his own. At the end of Cath Maige Tuired it is Badb who speaks the two prophecies that close the text: first a vision of peace and plenty, then a terrible one of a world grown old, where summer is flowerless and the sea has no fish and old men speak lies.",
    "variantTraditions": "The prophecy of the world's decay at the end of Moytura has been compared to Norse Ragnarok material; whether it reflects a native tradition or Christian apocalyptic is argued.",
-   "storyIds": [],
+   "storyIds": [
+    "second-moytura"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "war",
@@ -1606,7 +1613,9 @@
    "bio": "The third of the three craft gods, who supplied the fittings while the other two made the blades and shafts.",
    "longBio": "Credne is a specialist in the non-ferrous metals - bronze, brass and gold - and his part in the wartime forge is the rivets, the ferrules and the fastenings that turn a head and a shaft into a spear. The image of the three craftsmen working in relay, with the finished parts springing together of their own accord, is one of the most vivid pieces of the Moytura text, and it is essentially an account of a production line. He also helps make Nuada's silver arm. Credne is a reminder that this pantheon takes craft very seriously indeed: three separate gods for what could have been one, distinguished by material and technique, in a society where metalworkers were both indispensable and slightly suspect.",
    "variantTraditions": "Credne is drowned crossing to Ireland from Spain in one late tradition, which does not fit the Moytura material and is probably a separate figure.",
-   "storyIds": [],
+   "storyIds": [
+    "second-moytura"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "wisdom-craft"
@@ -1641,7 +1650,9 @@
    "bio": "The carpenter of the trio, who made the shafts and the shields for the second battle of Moytura.",
    "longBio": "Luchta completes the craft triad. He works wood: the shafts of spears, thrown to Goibniu so fast that they arrive as the heads are finished, and the shields the Tuatha De carry. Alongside the three of them, Cath Maige Tuired lists what every specialist will contribute before the battle - the smith, the wright, the brazier, the physician, the sorcerer, the cupbearers, the druid - each stating what they will do and how. It is one of the most distinctive passages in Irish literature and it reads less like a myth than a muster roll. The gods of this tradition are defined by what they can make and do, and a war is won by having better craftsmen than the other side.",
    "variantTraditions": "The name is sometimes given as Luchtaine. He is otherwise unattested outside the Moytura material.",
-   "storyIds": [],
+   "storyIds": [
+    "second-moytura"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "wisdom-craft"
@@ -2702,7 +2713,8 @@
    "longBio": "Donn is one of Mil's sons, and when the druidic storm hits the fleet he says something contemptuous about the Tuatha De and their arts, and is drowned for it. He is buried on a rock off the south-west coast, still called Tech Duinn, the house of Donn, and from his grave he says: to me, to my house, you shall all come after your deaths. That is very nearly the only statement in the whole Irish corpus of a plain god of the dead with a plain destination, and it survived in local belief into modern times, with the souls of the dead said to gather at that rock before departing. He is dark where the rest of the tradition is bright, and it is not clear whether he is old and mostly suppressed, or a late tidying-up.",
    "variantTraditions": "Tech Duinn is identified with Bull Rock off the Beara peninsula. Whether Donn is an ancient god of the dead or a figure assembled by the Lebor Gabala compilers is disputed.",
    "storyIds": [
-    "milesians-land"
+    "milesians-land",
+    "two-bulls"
    ],
    "hierarchyLevel": 3,
    "archetypes": [
@@ -3337,7 +3349,9 @@
    "bio": "He beat her by asking, mid-fight, whether her chariot horses were falling - and threw her down while she looked.",
    "longBio": "Aoife is Scathach's rival and, the text says, the hardest woman warrior in the world. When she and Scathach come to battle, Cu Chulainn fights her in single combat, and finding her his match he calls out that her chariot, horses and driver - the things she values most - have gone over a cliff. She glances, and he seizes her and carries her off. He spares her on terms, and she bears him a son, Connla. He leaves a ring and the instruction that the boy is to come to Ireland when it fits his finger, and is not to give way to any man, refuse a challenge, or tell his name. Those three conditions kill the child. Aoife's part is small and it sets the whole tragedy in motion.",
    "variantTraditions": "Aoife of the Ulster cycle is a different figure from the Aoife who turns the children of Lir into swans, despite the shared name.",
-   "storyIds": [],
+   "storyIds": [
+    "children-of-lir"
+   ],
    "hierarchyLevel": 4,
    "archetypes": [
     "hero-champion",

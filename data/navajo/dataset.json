@@ -218,7 +218,9 @@
    "cast": [
     "changing_woman",
     "talking_god",
-    "corn_pollen"
+    "corn_pollen",
+    "first_man",
+    "first_woman"
    ],
    "summary": "Talking God found a baby on Gobernador Knob, lying in a cradle of rainbow with dark cloud over her, and brought her to First Man and First Woman, who raised her. She was fed on pollen and on dew and she grew to womanhood in twelve days, and a ceremony was held for her that is the origin of the Kinaalda, which is still held for Navajo girls. She is the earth and the year: she ages through the seasons into an old woman, walks east, and returns young, and does it again without end. Later she made the first four Navajo clans by rubbing skin from her own body, which makes her the literal ancestor rather than a figurative one, and she is the only one of the Holy People about whom nobody in the record has anything bad to say.",
    "sources": [
@@ -497,6 +499,7 @@
    "variantTraditions": "The moral complexity of First Man is stronger in some tellings than others; O'Bryan's Sandoval version is franker about it than Matthews.",
    "storyIds": [
     "the-emergence",
+    "twelve-days",
     "the-four-mountains"
    ],
    "hierarchyLevel": 0,
@@ -539,7 +542,8 @@
    "longBio": "First Woman is made from yellow corn and is the counterpart to First Man in everything, including the difficulty. The Third World ended because of an argument between them over her conduct, which escalated into a general quarrel in which she declared that women could do perfectly well without men. The men crossed the river and the sexes lived apart for four years, and both sides went badly wrong in ways the accounts describe frankly, and the reconciliation was necessary rather than happy. She also has a hand in the placing of the sun and moon.",
    "variantTraditions": "The separation of the sexes is one of the most fully told episodes in the Navajo record and is not moralised in a simple direction.",
    "storyIds": [
-    "the-emergence"
+    "the-emergence",
+    "twelve-days"
    ],
    "hierarchyLevel": 0,
    "archetypes": [

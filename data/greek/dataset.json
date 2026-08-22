@@ -247,7 +247,8 @@
     "erebos",
     "tartaros",
     "eros_primordial",
-    "pontos"
+    "pontos",
+    "nemesis"
    ],
    "summary": "Hesiod's account of how things began. Chaos comes into being first, and after it broad-breasted Gaia, dim Tartaros and Eros, fairest of the deathless gods and the loosener of limbs. From Chaos come Erebos and black Night, and from their union Aither and Day. Gaia then bears, without any partner, the starry sky Ouranos to cover her and be a home for the blessed gods, the mountains, and Pontos the barren sea. There is no maker and no plan: the first beings simply come to be, and generate their own opposites. Night alone produces a catalogue of dooms - Death, Sleep, Blame, the Fates, Nemesis, Strife - and the shape of the world is set before any god has ruled it.",
    "sources": [
@@ -293,7 +294,8 @@
     "demeter",
     "hera",
     "hades",
-    "poseidon"
+    "poseidon",
+    "ouranos"
    ],
    "summary": "Warned by Gaia and Ouranos that his own son will overcome him, Cronus swallows each child Rhea bears as soon as it is born: Hestia, Demeter, Hera, Hades and Poseidon in turn. Pregnant with her sixth, Rhea appeals to her parents, who send her to Lyctus on Crete. She bears Zeus there by night and gives him to Gaia to hide in a cave, and hands Cronus a great stone wrapped in swaddling clothes, which he swallows without looking, believing it is the child. The infant is nursed in hiding while armed Kouretes clash their shields so his crying cannot be heard. Grown, Zeus forces his father to disgorge first the stone, which is set at Delphi as a sign, and then his brothers and sisters, alive and undamaged.",
    "sources": [
@@ -323,7 +325,9 @@
     "atlas",
     "poseidon",
     "hades",
-    "oceanus"
+    "oceanus",
+    "gaia",
+    "tartaros"
    ],
    "summary": "The Olympians hold Olympus and the Titans hold Othrys, and for ten years neither side can gain the advantage. Gaia tells Zeus that victory lies with the prisoners in the earth. He goes down and revives the Cyclopes and the Hundred-Handers with nectar and ambrosia; the Cyclopes give him the thunderbolt, Poseidon the trident and Hades the helm of invisibility, and the Hundred-Handers throw three hundred rocks at once and bury the Titans beneath them. The Titans are confined in Tartaros with the Hundred-Handers as their guards. Atlas, as their leader, is given a different sentence: to stand at the western edge of the world holding the sky apart from the earth. Oceanus, who took no part, is left alone.",
    "sources": [
@@ -465,7 +469,9 @@
     "zeus",
     "athena",
     "hephaestus",
-    "themis"
+    "themis",
+    "gaia",
+    "ouranos"
    ],
    "summary": "Zeus takes Metis, wisest of gods and men, as his first wife. Gaia and Ouranos warn him that she is fated to bear first a daughter of equal spirit and then a son who would be king of gods and men, so Zeus tricks her into becoming small and swallows her, taking her counsel into himself. The child grows inside him until his head splits - in most accounts Hephaestus opens it with an axe - and Athena leaps out fully armed, with a war cry that shakes Olympus. It is the only place in the succession sequence where the pattern of a son overthrowing his father is broken, and it is broken by anticipation: Zeus does not defeat the prophecy, he absorbs the mother and prevents the son from being conceived.",
    "sources": [
@@ -494,7 +500,8 @@
     "hera",
     "zeus",
     "asteria",
-    "eileithyia"
+    "eileithyia",
+    "iris"
    ],
    "summary": "Leto, pregnant by Zeus, is refused a birthplace by every land, because all of them fear Hera. Only Delos will take her, a small floating island of no consequence, and only on the condition that Apollo will build his temple there; the island is thereafter anchored to the sea floor. Even so the labour lasts nine days and nights, because Hera keeps Eileithyia, the goddess of childbirth, beside her on Olympus and does not let her go. The other goddesses send Iris with a necklace nine cubits long as a bribe, and Eileithyia comes. Artemis is born first and, in a detail the tradition keeps, helps at the birth of her brother. Apollo, tasting nectar, at once claims the lyre, the bow and the giving of oracles as his own.",
    "sources": [
@@ -732,7 +739,8 @@
     "apollo",
     "zeus",
     "hades",
-    "cyclopes"
+    "cyclopes",
+    "athena"
    ],
    "summary": "Asclepius, taught medicine by the centaur Chiron, becomes so skilled that he begins to bring the dead back to life - in one account using blood taken from the Gorgon's veins and given him by Athena. Hades complains that his kingdom is being emptied, and Zeus, seeing that the boundary between the living and the dead cannot be crossed without the whole order coming apart, kills Asclepius with a thunderbolt. Apollo cannot strike at Zeus, so he kills the Cyclopes who forged the bolt, and is punished with a year's servitude to the mortal king Admetus. Asclepius is afterwards raised to divine status and given the greatest healing cult in Greece, so that the story ends by granting what it began by refusing.",
    "sources": [
@@ -769,7 +777,8 @@
    "cast": [
     "eos",
     "zeus",
-    "aphrodite"
+    "aphrodite",
+    "achilles"
    ],
    "summary": "Eos, the Dawn, carries off the Trojan prince Tithonus and asks Zeus to make him immortal so that she will not lose him. Zeus grants it exactly as asked. She has forgotten to ask for unending youth, and so Tithonus does not die but simply continues, growing older and frailer without limit, until he cannot move and only a thin endless voice is left, and she shuts him away in a chamber behind golden doors - or, in a later version, turns him into a cicada, which sings without stopping. Their son Memnon, king of the Ethiopians, is killed by Achilles at Troy, and the morning dew was explained as Eos' tears for him. Her habit of taking mortal lovers was said to be a curse laid on her by Aphrodite.",
    "sources": [
@@ -919,7 +928,8 @@
    "cast": [
     "bellerophon",
     "chimera",
-    "athena"
+    "athena",
+    "zeus"
    ],
    "summary": "Falsely accused by the wife he refused, Bellerophon is sent to Lycia carrying a sealed message asking that the bearer be killed - the earliest such letter in Western literature, and one of the very few references to writing in Homer. King Iobates, unwilling to violate hospitality directly, sets him tasks meant to kill him, beginning with the Chimera, a fire-breathing composite of lion, goat and serpent. Athena has given Bellerophon a golden bridle in a dream, with which he catches and tames the winged horse Pegasus; from the air he is out of reach of the fire, and he kills the creature. Having survived every task, he is given half the kingdom. Then he tries to ride Pegasus up to Olympus as though he belonged there, and Zeus sends a gadfly; he falls, and ends alone, avoiding the paths of men.",
    "sources": [
@@ -1080,7 +1090,8 @@
     "athena",
     "aphrodite",
     "helen",
-    "zeus"
+    "zeus",
+    "thetis"
    ],
    "summary": "Eris, not invited to the wedding of Peleus and Thetis, throws among the guests a golden apple inscribed to the fairest. Hera, Athena and Aphrodite each claim it. Zeus refuses to judge between his wife and his daughters and sends them to Mount Ida, where the Trojan prince Paris is herding cattle. Each offers a bribe: Hera power over Asia and Europe, Athena victory in every battle, Aphrodite the most beautiful woman in the world. Paris chooses Aphrodite. The woman is Helen, already married to Menelaus of Sparta, and her oath-bound suitors are obliged to recover her. So the largest story in Greek literature is set in motion by a wedding invitation, a comparison, and a young man asked to say which of three goddesses he prefers.",
    "sources": [
@@ -1277,7 +1288,8 @@
     "persephone",
     "achilles",
     "heracles",
-    "agamemnon"
+    "agamemnon",
+    "circe"
    ],
    "summary": "Following Circe's instructions, Odysseus sails to the edge of the world, digs a trench, and pours offerings of milk, honey, wine and water, then the blood of sacrificed sheep. The shades gather to it and he must hold them off with his sword until Tiresias has drunk and given his prophecy - the only shade Persephone allowed to keep his understanding. Afterwards he speaks with others: his mother, who died of grief for him and whom he cannot embrace; Agamemnon, who describes his own murder; Achilles, who says he would rather be a landless serf among the living than king over all the dead, which is the tradition's bleakest and most quoted statement about the afterlife; and Heracles, or his image, since the man himself is among the gods.",
    "sources": [
@@ -1404,7 +1416,9 @@
     "first-beings",
     "sickle-adamant",
     "cronus-swallows",
-    "typhonomachy"
+    "titanomachy",
+    "typhonomachy",
+    "birth-athena"
    ],
    "hierarchyLevel": 0,
    "archetypes": [
@@ -1441,7 +1455,9 @@
    "variantTraditions": "Some later accounts soften or omit the castration. Roman writers call him Caelus. Orphic theogonies place different figures at the head of the succession, with Phanes or Chronos preceding the sky.",
    "storyIds": [
     "first-beings",
-    "sickle-adamant"
+    "sickle-adamant",
+    "cronus-swallows",
+    "birth-athena"
    ],
    "hierarchyLevel": 0,
    "archetypes": [
@@ -1551,6 +1567,7 @@
    "variantTraditions": "In Homer, Tartaros is essentially the prison of the Titans rather than a place of punishment for mortals; the moralised sense grows later, and Virgil's Aeneid VI gives the fullest developed description.",
    "storyIds": [
     "first-beings",
+    "titanomachy",
     "typhonomachy"
    ],
    "hierarchyLevel": 0,
@@ -2430,6 +2447,7 @@
     "deception-of-zeus",
     "perseus-medusa",
     "robe-of-nessus",
+    "bellerophon-chimera",
     "judgement-paris",
     "wrath-achilles",
     "patroclus-hector",
@@ -2637,6 +2655,7 @@
     "birth-athena",
     "contest-athens",
     "arachne",
+    "asclepius-raises",
     "perseus-medusa",
     "twelve-labours",
     "bellerophon-chimera",
@@ -3441,7 +3460,9 @@
    "bio": "The rainbow personified; the gods' messenger, particularly Hera's.",
    "longBio": "Iris is the daughter of Thaumas and the Oceanid Electra, and sister of the Harpies. She carries messages where Hermes is not sent, and in the Iliad she is the busier of the two, running errands for Zeus and above all for Hera. The rainbow is her path, joining sky to earth, which fits her function exactly. One duty is peculiar to her: when a god must swear the great oath, Iris fetches water from the Styx in a golden pitcher, and a god who swears falsely by it lies breathless for a year and is cut off from the councils of the gods for nine more. Unlike Hermes she does not conduct souls and does not deal in trickery; she is simply fast and reliable. She is sometimes given as the wife of Zephyrus, the west wind, and mother of Pothos, longing.",
    "variantTraditions": "In later poetry Iris is increasingly a servant of Hera specifically rather than of the gods generally, and Virgil has her sent to release the dying from their bodies, a function with no Greek precedent.",
-   "storyIds": [],
+   "storyIds": [
+    "delos-birth"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "messenger-trickster"
@@ -3515,7 +3536,9 @@
    "bio": "The power that corrects excess, especially the arrogance of those who have too much good fortune.",
    "longBio": "Nemesis is born of Nyx and personifies the distribution of what is due. Her concern is not crime in the legal sense but disproportion: the man whose fortune outruns his deserving, or whose success makes him forget his condition, attracts her attention. She carries a measuring rod and a bridle, and her name comes from a verb meaning to give what is owed. The Greeks paired her closely with hybris, and the reason her cult at Rhamnous mattered is a story about the Persians: they were said to have brought a block of marble to Attica to make a victory monument, and after Marathon the Athenians carved it into her statue instead. In one mythological strand she is pursued by Zeus, changes shape to escape him, is caught as a goose, and lays the egg from which Helen hatches, which makes the cause of the Trojan War her daughter.",
    "variantTraditions": "The competing tradition makes Leda rather than Nemesis the mother of Helen; some accounts have Nemesis lay the egg and Leda find it.",
-   "storyIds": [],
+   "storyIds": [
+    "first-beings"
+   ],
    "hierarchyLevel": 3,
    "archetypes": [
     "fate-time"
@@ -3964,6 +3987,7 @@
    "longBio": "Thetis is the most consequential of the Nereids because of a prophecy: Themis, or Prometheus, knew that any son she bore would be greater than his father. Zeus and Poseidon both desired her, and on learning this they married her off to the mortal Peleus, whose wedding all the gods attended and where Eris threw the golden apple. Peleus had to win her by holding on while she changed into fire, water, a lion and a serpent, the same pattern as with Proteus. She tried to make her son Achilles immortal, in the best-known version by dipping him in the Styx while holding his heel. When his death is fated she cannot prevent it, and the Iliad turns on what she can do instead: she goes to Zeus and secures a promise that the Greeks will suffer until her son's honour is restored, and later brings him new armour made by Hephaestus. She had earlier sheltered Hephaestus when he was cast from Olympus and Dionysus when he fled Lycurgus.",
    "variantTraditions": "The dipping in the Styx and the vulnerable heel are not in Homer, who never mentions Achilles being invulnerable; they appear in later sources, most fully in Statius.",
    "storyIds": [
+    "judgement-paris",
     "wrath-achilles",
     "patroclus-hector"
    ],
@@ -4041,6 +4065,7 @@
    "storyIds": [
     "argonauts",
     "circe-aeaea",
+    "nekyia",
     "sirens-scylla"
    ],
    "hierarchyLevel": 4,
@@ -4851,6 +4876,7 @@
    "longBio": "Achilles is offered a choice: a long, obscure life at home, or a short life and undying fame at Troy. The Iliad begins after he has chosen, with Agamemnon taking the captive Briseis from him as a public humiliation. Achilles withdraws from the fighting and asks his mother to persuade Zeus to let the Greeks lose until they understand what he is worth, and the poem then spends most of its length showing exactly what that costs. His friend Patroclus, borrowing his armour to rally the Greeks, is killed by Hector, and Achilles' grief converts into a rage that carries him past every limit: he kills Hector, drags the body behind his chariot, and refuses burial. The poem ends not with a battle but with Priam coming alone into his tent to beg for his son's body, and Achilles, thinking of his own father, giving it back and weeping with him. His own death, by Paris' arrow guided by Apollo, is foretold throughout and falls outside the poem.",
    "variantTraditions": "The invulnerability and the fatal heel are not in Homer and come from later sources. The nature of his bond with Patroclus was already debated in the fifth century BCE and is treated differently by different ancient writers.",
    "storyIds": [
+    "tithonus",
     "wrath-achilles",
     "patroclus-hector",
     "priam-tent",

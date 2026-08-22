@@ -426,7 +426,8 @@
     "numa",
     "egeria",
     "vesta",
-    "janus"
+    "janus",
+    "diana"
    ],
    "summary": "After Romulus, Rome chose a Sabine known for good sense, and Numa reigned forty-three years without a single war - the gates of Janus stayed shut the whole time, which never happened again for six centuries. He founded the priesthoods, the Vestals and their fire, and the calendar itself, dividing the year into days on which public business was and was not lawful. He said he had it all from the nymph Egeria, whom he met by night at her spring, and Plutarch records the raised eyebrows without endorsing them. When he died she wept until Diana turned her into water.",
    "sources": [
@@ -1426,7 +1427,9 @@
    "bio": "Her priest at Nemi held office by killing his predecessor, and waited to be killed in turn.",
    "longBio": "Diana is Italic, identified with Artemis, and her strangest cult is entirely her own. At the grove by Lake Nemi her priest was titled Rex Nemorensis, king of the wood, and the post was held by an escaped slave who had broken a branch from a particular tree and then killed the man holding it - and who kept it only until someone did the same to him. Frazer opened The Golden Bough with that image and built an entire theory of religion on it, most of which has not survived scrutiny. Diana was also a goddess of the enslaved and of the lower orders, and her Aventine festival was a slaves' holiday.",
    "variantTraditions": "Identified with Artemis. The Nemi priesthood is genuinely attested; Frazer's interpretation of it is not accepted today.",
-   "storyIds": [],
+   "storyIds": [
+    "numa-egeria"
+   ],
    "hierarchyLevel": 2,
    "archetypes": [
     "moon",

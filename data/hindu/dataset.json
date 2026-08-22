@@ -87,6 +87,11 @@
    "t": "Classical Dictionary of Hindu Mythology",
    "tr": "John Dowson, 1879",
    "u": "https://archive.org/details/aclassicaldictio00dowsuoft"
+  },
+  "buddhacarita": {
+   "t": "Buddhacarita",
+   "tr": "Ashvaghosha, trans. E. B. Cowell, 1894",
+   "u": "https://sacred-texts.com/bud/sbe49/index.htm"
   }
  },
  "stories": [
@@ -107,7 +112,8 @@
     "rahu",
     "mahabali",
     "shukra",
-    "garuda"
+    "garuda",
+    "ketu"
    ],
    "sources": [
     {
@@ -325,7 +331,9 @@
     "ganga",
     "shiva",
     "bhishma",
-    "shantanu"
+    "shantanu",
+    "sagara",
+    "bhagiratha"
    ],
    "sources": [
     {
@@ -396,7 +404,9 @@
     "vishnu",
     "brahma",
     "kashyapa",
-    "vasishtha"
+    "vasishtha",
+    "manu",
+    "ikshvaku"
    ],
    "sources": [
     {
@@ -540,7 +550,8 @@
     "bhishma",
     "drona",
     "karna",
-    "rama"
+    "rama",
+    "jamadagni"
    ],
    "sources": [
     {
@@ -599,7 +610,8 @@
     "chandra",
     "vishnu",
     "danu",
-    "indra"
+    "indra",
+    "ketu"
    ],
    "sources": [
     {
@@ -1166,7 +1178,9 @@
     "surya",
     "chandra",
     "shiva",
-    "brahma"
+    "brahma",
+    "nirriti",
+    "ishana"
    ],
    "sources": [
     {
@@ -1230,7 +1244,10 @@
     "chandra",
     "rahu",
     "yama",
-    "vishvakarma"
+    "vishvakarma",
+    "mangala",
+    "budha",
+    "ketu"
    ],
    "sources": [
     {
@@ -1326,7 +1343,9 @@
     "vishnu",
     "balarama",
     "kalki",
-    "brahman"
+    "brahman",
+    "yashodhara",
+    "rahula"
    ],
    "sources": [
     {
@@ -1346,6 +1365,341 @@
      "translation": "John Dowson, 1879",
      "location": "entry: Buddha",
      "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "the-abduction-of-tara",
+   "title": "The Abduction of Tara",
+   "era": "Puranic",
+   "cast": [
+    "chandra",
+    "tara_b",
+    "brihaspati",
+    "budha",
+    "shukra",
+    "brahma"
+   ],
+   "summary": "Soma the moon took Tara, the wife of his own teacher Brihaspati, and refused every demand to return her. The quarrel spread until it was no longer private: the devas stood with Brihaspati, and Shukra, who had grievances of his own against the gods, brought the asuras in behind Soma. The Tarakamaya war was fought over one woman and went on until Brahma intervened personally and forced the matter closed. Tara went home pregnant. Asked whose the child was, she refused to answer, and kept refusing, until Brahma pressed her and she said Soma. The child was Budha — the planet Mercury, and the mildest of the nine — and through his son Pururavas the entire Lunar dynasty, and therefore the whole cast of the Mahabharata, descends from this affair.",
+   "sources": [
+    {
+     "book": "Vishnu Purana",
+     "translation": "trans. H. H. Wilson, 1840",
+     "location": "Book IV - the lunar dynasty",
+     "url": "https://sacred-texts.com/hin/vp/index.htm"
+    },
+    {
+     "book": "Bhagavata Purana",
+     "translation": "trans. G. V. Tagare",
+     "location": "Canto 9",
+     "url": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana"
+    },
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Tara; Soma",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "pururavas-and-urvashi",
+   "title": "Pururavas and Urvashi",
+   "era": "Vedic",
+   "cast": [
+    "pururavas",
+    "urvashi",
+    "budha",
+    "ila"
+   ],
+   "summary": "The apsara Urvashi agreed to live with Pururavas on terms: she would keep two rams tethered by the bed and he must never let them be taken, and she must never see him naked. It held until the gandharvas, who wanted her back in heaven, stole the rams in the dark. He leapt up to give chase, and a flash of lightning showed him bare. She was gone in that instant. He went looking for her across the whole country in a state the hymn does not flatter, and found her at last on a lake at Kurukshetra, swimming with her companions in the form of swans. Their exchange there is recorded in Rig Veda X.95, one of the oldest surviving dialogues in any language, and in it she tells him plainly that there is no friendship with women and that their hearts are the hearts of jackals.",
+   "sources": [
+    {
+     "book": "Rig Veda",
+     "translation": "trans. Ralph T. H. Griffith, 1896",
+     "location": "X.95",
+     "url": "https://sacred-texts.com/hin/rigveda/index.htm"
+    },
+    {
+     "book": "Vishnu Purana",
+     "translation": "trans. H. H. Wilson, 1840",
+     "location": "Book IV",
+     "url": "https://sacred-texts.com/hin/vp/index.htm"
+    },
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Urvasi; Pururavas",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "the-curse-of-yayati",
+   "title": "The Curse of Yayati",
+   "era": "Puranic",
+   "cast": [
+    "yayati",
+    "shukra",
+    "puru",
+    "nahusha"
+   ],
+   "summary": "Yayati married Shukra's daughter Devayani and took her servant Sharmishtha as well, and when Shukra learned of it he cursed him into old age on the spot — not gradual, immediate. Yayati went to his five sons and asked each to take the decrepitude and lend him their youth. The four eldest refused and were disinherited where they stood. The youngest, Puru, agreed, and aged a thousand years in his father's place. Yayati spent those thousand years in every pleasure a king can command and arrived at the end of them at a conclusion he states in a verse quoted ever after: desire is never quieted by indulgence, but grows the way fire grows when butter is poured on it. He gave Puru back his years, gave him the kingdom over his brothers, and walked into the forest.",
+   "sources": [
+    {
+     "book": "Mahabharata",
+     "translation": "trans. Kisari Mohan Ganguli, 1883–96",
+     "location": "Adi Parva, Sambhava",
+     "url": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+     "book": "Vishnu Purana",
+     "translation": "trans. H. H. Wilson, 1840",
+     "location": "Book IV",
+     "url": "https://sacred-texts.com/hin/vp/index.htm"
+    },
+    {
+     "book": "Bhagavata Purana",
+     "translation": "trans. G. V. Tagare",
+     "location": "Canto 9",
+     "url": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana"
+    }
+   ]
+  },
+  {
+   "id": "nahusha-the-fallen-indra",
+   "title": "Nahusha, the Indra Who Fell",
+   "era": "Puranic",
+   "cast": [
+    "nahusha",
+    "indra",
+    "yudhishthira",
+    "yayati",
+    "ayu"
+   ],
+   "summary": "Indra killed Vritra, incurred the guilt of killing a brahmin, and hid, and heaven was left without a king. Nahusha, a mortal of the Lunar line, was raised to the throne to hold it. Within a reign he had decided the position came with everything attached to it, including Indra's wife Shachi. She stalled him by demanding to be fetched in a palanquin carried by brahmin sages, expecting him to balk; he agreed. Under the pole, the sage Agastya moved too slowly for him and Nahusha kicked him, and Agastya cursed him into the body of a python on the instant. He lay in a forest for an age, until Yudhishthira came past in exile, and answered his questions on dharma well enough to release him.",
+   "sources": [
+    {
+     "book": "Mahabharata",
+     "translation": "trans. Kisari Mohan Ganguli, 1883–96",
+     "location": "Vana Parva; Udyoga Parva",
+     "url": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Nahusha",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "harishchandras-trial",
+   "title": "The Trial of Harishchandra",
+   "era": "Puranic",
+   "cast": [
+    "harishchandra",
+    "vishvamitra"
+   ],
+   "summary": "Harishchandra was known for never having spoken an untruth, and Vishvamitra set out to find where the limit was. Having been promised the kingdom, the sage claimed it; Harishchandra handed it over and left. Vishvamitra then observed that a gift of gold was still outstanding on top of the kingdom. To raise it the king sold his wife Shaibya and their son Rohitashva into service, and then sold himself to an outcaste keeper of the burning ground. The test arrives at its point when his wife comes to the cremation ground carrying their son, dead of snakebite, and Harishchandra — who now works for another man — cannot let the body burn without collecting the fee, because the fee is his master's. He holds to it. At that the gods stop the trial and give everything back, and the story has been the standard Indian example of truthfulness ever since.",
+   "sources": [
+    {
+     "book": "Markandeya Purana",
+     "translation": "incl. the Devi Mahatmya; trans. F. E. Pargiter, 1904",
+     "location": "The story of Harishchandra",
+     "url": "https://www.wisdomlib.org/hinduism/book/the-markandeya-purana"
+    },
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Harischandra",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "ahalya-and-the-stone",
+   "title": "Ahalya and the Stone",
+   "era": "Puranic",
+   "cast": [
+    "ahalya",
+    "indra",
+    "gautama_m",
+    "rama",
+    "brahma"
+   ],
+   "summary": "Brahma made Ahalya the most beautiful woman in creation and gave her to the sage Gautama, and Indra, who had wanted her, did not let it go. He crowed like a cock long before dawn so that Gautama would rise and leave for the river, then took the sage's own form and went in. Gautama came back too early and understood everything at the door. He cursed Indra, and then he cursed his wife — to lie invisible for an age in the older telling, or as a stone in the version now universally known — until Rama should come along that road. Rama does, years later, walking to Mithila and his own wedding, and the dust of his foot lifts it. Whether Ahalya knew who she was with is the single most argued line in the reception of the Ramayana.",
+   "sources": [
+    {
+     "book": "Ramayana of Valmiki",
+     "translation": "trans. Ralph T. H. Griffith",
+     "location": "Bala Kanda",
+     "url": "https://sacred-texts.com/hin/rama/index.htm"
+    },
+    {
+     "book": "Brahma Purana",
+     "translation": "trans. G. P. Bhatt",
+     "location": "The Ahalya episode",
+     "url": "https://www.wisdomlib.org/hinduism/book/brahma-purana-english"
+    },
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Ahalya",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "parashurama-and-renuka",
+   "title": "The Axe and the Mother",
+   "era": "Puranic",
+   "cast": [
+    "parashurama",
+    "jamadagni",
+    "renuka"
+   ],
+   "summary": "Renuka's discipline was exact enough that she could make a pot from wet clay at the river each morning and carry water home in it unfired. One morning she caught sight of a gandharva king reflected in the water and admired him for a moment, and the clay came apart in her hands. Jamadagni knew what had happened before she reached the house, and ordered each of his sons in turn to behead her. The four eldest refused, and he burnt them to ash. The fifth, Parashurama, took up the axe and did it — and was then offered a boon for his obedience, and used it to ask for his mother's life and his brothers' as well, and got all of them. The texts record the whole exchange without a word of comment on any part of it.",
+   "sources": [
+    {
+     "book": "Mahabharata",
+     "translation": "trans. Kisari Mohan Ganguli, 1883–96",
+     "location": "Vana Parva",
+     "url": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+     "book": "Bhagavata Purana",
+     "translation": "trans. G. V. Tagare",
+     "location": "Canto 9",
+     "url": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana"
+    },
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Parasurama; Renuka",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "shakuntala-and-the-ring",
+   "title": "Shakuntala and the Ring",
+   "era": "Puranic",
+   "cast": [
+    "shakuntala",
+    "dushyanta",
+    "bharata_k",
+    "vishvamitra"
+   ],
+   "summary": "Vishvamitra's austerities had alarmed the gods, who sent the apsara Menaka to break them; it worked, and the child they left behind in the forest was sheltered by shakunta birds until the sage Kanva took her in. Dushyanta, hunting, met her at the hermitage and married her there by gandharva rite — consent and nothing else — and went back to his capital leaving his signet ring. When she came to court pregnant he said he had never seen her. In the Mahabharata this is simple denial and she answers it with a speech that wins on its merits, until a voice from the sky confirms the child. Kalidasa could not accept a hero behaving that way and added a curse and a lost ring, swallowed by a carp and found years later by a fisherman. The child was Bharata, who counted lion cubs' teeth for entertainment, and India is named after him.",
+   "sources": [
+    {
+     "book": "Mahabharata",
+     "translation": "trans. Kisari Mohan Ganguli, 1883–96",
+     "location": "Adi Parva, Sambhava",
+     "url": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Sakuntala; Bharata",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "kurus-field",
+   "title": "The Field That Kuru Ploughed",
+   "era": "Puranic",
+   "cast": [
+    "kuru",
+    "indra",
+    "shantanu"
+   ],
+   "summary": "Kuru, a descendant of Puru, took a golden plough to the plain north of the Yamuna and began turning it over as an act of austerity, and would not stop. He ploughed for years. Indra came eventually to ask what he thought he was doing and what he wanted for it, and the boon Kuru asked was that whoever died on that ground should go to heaven, whatever they had done in life. It was granted, with argument over the terms. That plain is Kurukshetra, the field of the Kurus, and it is where his descendants met generations later to destroy each other over a throne. The Bhagavad Gita opens by naming the place dharmakshetra, the field of dharma, in its first word — and this is the reason the word is there.",
+   "sources": [
+    {
+     "book": "Mahabharata",
+     "translation": "trans. Kisari Mohan Ganguli, 1883–96",
+     "location": "Shalya Parva",
+     "url": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+     "book": "Bhagavad Gita",
+     "translation": "trans. Edwin Arnold, 1885",
+     "location": "1.1",
+     "url": "https://sacred-texts.com/hin/gita/index.htm"
+    },
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Kuru",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "the-seven-sages",
+   "title": "The Seven Sages and the Stars",
+   "era": "Vedic",
+   "cast": [
+    "marichi",
+    "angiras",
+    "atri",
+    "bharadvaja",
+    "gautama_m",
+    "jamadagni",
+    "vasishtha",
+    "vishvamitra",
+    "kashyapa",
+    "bhrigu",
+    "brahma",
+    "brihaspati",
+    "drona"
+   ],
+   "summary": "Brahma produced the first sages from his own mind rather than from any body, and they became the Prajapatis, the progenitors, and were fixed afterwards in the seven stars of the Great Bear where they can be checked nightly. The lists disagree about who exactly the seven are — they change from one world-age to the next, and every Purana orders them differently — but the working set includes Marichi, whose son Kashyapa fathers the devas, the asuras, the nagas and most of the animals between them; Angiras, whose son Brihaspati teaches the gods; Atri, from a drop of light in whose eye the moon was born; Bharadvaja, whose son Drona trains both armies at Kurukshetra; Gautama, who cursed his own wife to stone; and Jamadagni, who told his son to behead his mother. The genealogy of nearly everything in this pack passes through six households.",
+   "sources": [
+    {
+     "book": "Vishnu Purana",
+     "translation": "trans. H. H. Wilson, 1840",
+     "location": "Book I",
+     "url": "https://sacred-texts.com/hin/vp/index.htm"
+    },
+    {
+     "book": "Mahabharata",
+     "translation": "trans. Kisari Mohan Ganguli, 1883–96",
+     "location": "Adi Parva",
+     "url": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Rishi; Prajapati",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    }
+   ]
+  },
+  {
+   "id": "raghu-and-the-fee",
+   "title": "Raghu and the Student's Fee",
+   "era": "Puranic",
+   "cast": [
+    "raghu",
+    "kubera"
+   ],
+   "summary": "Raghu had conquered the four quarters and then, after a great sacrifice, given away everything he owned down to the clay vessels, which was his habit and had stopped being prudent some time earlier. A student named Kautsa arrived immediately afterwards needing fourteen million gold pieces as his teacher's fee, having been told to ask the most generous king alive. Raghu had nothing at all and would not send him away, so he made preparations to attack Kubera, the god of wealth, and take it out of the treasury of wealth itself. Kubera heard what was coming and rained gold on Ayodhya overnight rather than face it. Raghu gave the student the full amount, the student took only what he needed, and the dynasty is called Raghuvamsha after him — which is why Rama is Raghava.",
+   "sources": [
+    {
+     "book": "Classical Dictionary of Hindu Mythology",
+     "translation": "John Dowson, 1879",
+     "location": "Raghu",
+     "url": "https://archive.org/details/aclassicaldictio00dowsuoft"
+    },
+    {
+     "book": "Ramayana of Valmiki",
+     "translation": "trans. Ralph T. H. Griffith",
+     "location": "Bala Kanda - the Ikshvaku line",
+     "url": "https://sacred-texts.com/hin/rama/index.htm"
     }
    ]
   }
@@ -1490,7 +1844,10 @@
     "matsya-pralaya",
     "varaha-hiranyaksha",
     "vak-saraswati",
-    "lokapala"
+    "lokapala",
+    "the-abduction-of-tara",
+    "ahalya-and-the-stone",
+    "the-seven-sages"
    ],
    "hierarchyLevel": 1,
    "archetypes": [
@@ -1833,7 +2190,10 @@
     "karna-vadha",
     "mahaprasthana",
     "lokapala",
-    "ushas-dawn"
+    "ushas-dawn",
+    "nahusha-the-fallen-indra",
+    "ahalya-and-the-stone",
+    "kurus-field"
    ],
    "hierarchyLevel": 3,
    "archetypes": [
@@ -2086,7 +2446,8 @@
    "storyIds": [
     "rahu-grahana",
     "lokapala",
-    "navagraha"
+    "navagraha",
+    "the-abduction-of-tara"
    ],
    "hierarchyLevel": 3,
    "archetypes": [
@@ -2185,7 +2546,8 @@
    "longBio": "Kubera began as something less respectable than a god, a chief of yakshas, the tree and treasure spirits of the earlier folk religion, and his lopsided body keeps that origin visible even after the Puranas made him a dikpala. He won his position and the flying chariot Pushpaka through long austerity, and the Ramayana gives him Lanka as his city until his half-brother Ravana, born of the same father Vishrava by a rakshasa mother, drove him out and took both the city and the chariot. He retreated north to Alaka, the garden capital that Kalidasa's Meghaduta describes as the destination of the cloud, a place of perpetual spring where nobody ages. He is Shiva's friend and neighbour, and one story explains his deformity as the result of looking at Parvati with envy, which cost him an eye. Unlike Lakshmi he does not create wealth or bestow fortune; he stores it, counts it and guards it, which is why the two are worshipped together but asked for different things. Buddhism took him up as Vaishravana, one of the four heavenly kings, and he travelled in that form through Central Asia to Japan as Bishamonten.",
    "variantTraditions": "Son of the sage Vishrava — making him Ravana's elder half-brother.",
    "storyIds": [
-    "lokapala"
+    "lokapala",
+    "raghu-and-the-fee"
    ],
    "hierarchyLevel": 3,
    "archetypes": [
@@ -2370,7 +2732,9 @@
    "longBio": "Brihaspati enters the Rigveda as Brahmanaspati, lord of the sacred formula, whose speech has force in itself: he cracks open the Vala cave with a shout and releases the cattle hidden inside, a myth that runs parallel to Indra's dragon-slaying but is won by utterance rather than a weapon. As the gods acquired a court he became its chaplain, the one who performs their rites and blocks the rites of their enemies, which sets him permanently against Shukra, the Asuras' teacher, in a rivalry the Puranas develop at length. His household provides the tradition with its most awkward scandal: Chandra abducted his wife Tara, refused to return her, and the resulting war among the gods ended only when Brahma intervened, after which Tara bore a son, Budha, whom both fathers claimed. Another episode has him refuse to teach his nephew Kacha, sent by the Asuras to steal the secret of reviving the dead, and the resulting story of Kacha, Devayani and Shukra is one of the great Mahabharata set pieces. Astrology made him the most auspicious of the planets, the one whose aspect on a chart can rescue an otherwise bad configuration, and a Sanskrit school of materialism unrelated to him borrowed his name as Barhaspatya, which is why he is sometimes mistakenly connected with atheist doctrine.",
    "variantTraditions": "Son of the sage Angiras.",
    "storyIds": [
-    "navagraha"
+    "navagraha",
+    "the-abduction-of-tara",
+    "the-seven-sages"
    ],
    "hierarchyLevel": 3,
    "archetypes": [
@@ -2418,7 +2782,9 @@
    "storyIds": [
     "samudra-manthana",
     "vamana-bali",
-    "navagraha"
+    "navagraha",
+    "the-abduction-of-tara",
+    "the-curse-of-yayati"
    ],
    "hierarchyLevel": 5,
    "archetypes": [
@@ -2839,7 +3205,8 @@
    "storyIds": [
     "matsya-pralaya",
     "vamana-bali",
-    "garuda-amrita"
+    "garuda-amrita",
+    "the-seven-sages"
    ],
    "hierarchyLevel": 5,
    "archetypes": [
@@ -3908,7 +4275,8 @@
     "parashurama-kshatriya",
     "sita-swayamvara",
     "bhishma-pratigya",
-    "karna-vadha"
+    "karna-vadha",
+    "parashurama-and-renuka"
    ],
    "hierarchyLevel": 4,
    "archetypes": [
@@ -3961,7 +4329,8 @@
     "sita-harana",
     "hanuman-lanka",
     "lanka-yuddha",
-    "agni-pariksha"
+    "agni-pariksha",
+    "ahalya-and-the-stone"
    ],
    "hierarchyLevel": 4,
    "archetypes": [
@@ -4065,7 +4434,7 @@
    "worship": "As an avatar he receives worship in a handful of Vaishnava settings, notably at Jagannath Puri where some traditions identify him with Buddha, and he appears in dashavatara panels, paintings and dance. His far larger following is as the founder of Buddhism, which does not accept the avatar claim.",
    "bio": "In many Puranic lists, Vishnu incarnated as the Buddha. Traditions differ on the ninth avatar — some substitute Balarama or Vithoba.",
    "longBio": "The inclusion of the Buddha among Vishnu's ten avatars is a late development, appearing in Puranic lists from roughly the sixth century onward, and its motives were plainly polemical in the earliest versions: several Puranas say that Vishnu took this form to teach a false doctrine and lead the Asuras away from the Vedas so they could be defeated, a hostile framing that treats the Buddha as a deliberate deceiver. Later poets and theologians reversed the tone entirely, and Jayadeva's twelfth-century Gita Govinda praises him for condemning animal sacrifice out of compassion, which is how most modern Hindus understand the avatar. The historical Siddhartha Gautama of the Shakya clan, who left his household life, awakened under a tree at Bodh Gaya and taught the four noble truths, has no connection to this Puranic material, and Buddhists have consistently rejected the identification as an absorption of their founder into a system he did not accept. Not every tradition uses him for the ninth place: Vaishnava lists in Maharashtra often put Vithoba there, Bengal and several Puranas give it to Balarama and shift Krishna to the ninth slot with Buddha omitted, and Jayadeva himself counts Balarama separately. The slot is the most contested in the whole avatar scheme, and any list should be read as a claim rather than a consensus.",
-   "variantTraditions": "A contested, historically late inclusion; Buddhists do not accept it.",
+   "variantTraditions": "Not to be confused with Budha, the planet Mercury, who appears separately in this pack among the Navagraha. The names are close and the figures are unrelated. Note also the two frames in play here: the Puranic Buddha-avatar is a theological claim made by Vaishnava texts, while Yashodhara and Rahula belong to the historical prince and come from Buddhist sources, not the Puranas - which never mention that he had a household at all.",
    "storyIds": [
     "buddha-avatara"
    ],
@@ -4864,7 +5233,8 @@
    "longBio": "Vasishtha is one of the Saptarishis and the seer of the seventh mandala of the Rig Veda, and his hymns to Varuna are among the most personal in that collection. Later tradition made him the hereditary preceptor of the Ikshvaku or solar dynasty, so that he officiates at Dasharatha's sacrifices, names Rama and his brothers, teaches them, and in the Ramayana tries to persuade Rama to take the throne rather than the forest. His long conflict with Vishvamitra begins when the king covets his cow Nandini, whose milk feeds an army, and escalates until Vishvamitra kills his hundred sons; Vasishtha refuses revenge, and it is his eventual acknowledgment of his rival as a brahmarishi that ends the feud, which is the point of the whole story. His wife Arundhati is paired with him as the faint companion star to Mizar, shown to brides and grooms as the image of a marriage that holds. The Yoga Vasishtha, a vast later work of Advaita instruction addressed to a despondent young Rama, is attributed to him, though the Vedic seer, the epic chaplain and the philosophical teacher are almost certainly distinct figures gathered under one name.",
    "variantTraditions": null,
    "storyIds": [
-    "matsya-pralaya"
+    "matsya-pralaya",
+    "the-seven-sages"
    ],
    "hierarchyLevel": 5,
    "archetypes": [
@@ -4908,7 +5278,10 @@
    "longBio": "Vishvamitra began as Kaushika, a Kshatriya king of great power, and turned to austerity after Vasishtha's cow defeated his entire army and he understood that brahminical force was of a different order than his own. His penances are the Puranas' favorite study in perseverance and its interruptions: Indra sent the apsara Menaka, with whom he lived ten years and fathered Shakuntala before he tore himself away, and later Rambha, whom he cursed and thereby lost his accumulated merit again. He created a parallel heaven for his protege Trishanku when the gods refused him entry, a piece of cosmic stubbornness that left Trishanku hanging upside down between worlds. The Rig Veda's third mandala is attributed to him, including the Gayatri, and after ages of effort Brahma and finally Vasishtha himself acknowledged him as a brahmarishi, which the tradition treats as the moment he had genuinely stopped needing it. In the Ramayana he takes Rama and Lakshmana from Ayodhya as boys to guard his sacrifice from the rakshasas, teaches them the mantras for the celestial weapons, and brings them to Mithila, so that the epic's whole course runs through a sage who made himself into what he was not born as.",
    "variantTraditions": null,
    "storyIds": [
-    "sita-swayamvara"
+    "sita-swayamvara",
+    "harishchandras-trial",
+    "shakuntala-and-the-ring",
+    "the-seven-sages"
    ],
    "hierarchyLevel": 5,
    "archetypes": [
@@ -5043,7 +5416,8 @@
    "longBio": "Bhrigu is counted among the mind-born sons of Brahma and the Saptarishis of certain manvantaras, and he gives his name to the Bhargavas, the priestly line that includes Shukra, Chyavana, Jamadagni and Parashurama. The most-told story about him is a test: asked by the sages at a Saraswati-bank sacrifice to determine which of the Trimurti was greatest, he found Brahma inattentive and cursed him to receive little worship, found Shiva about to strike him and cursed him to be worshipped as the linga, and found Vishnu asleep, at which he kicked him in the chest; Vishnu woke and pressed his foot in concern that the sage's foot might be hurt, and won the verdict. Lakshmi, who lives on Vishnu's chest, took the insult badly, and one strand of tradition explains her departure and her rebirth as Bhrigu's daughter Bhargavi by this quarrel. He also appears in the Taittiriya Upanishad, where his father Varuna sends him repeatedly to discover Brahman and he arrives by stages at bliss, one of the clearest teaching sequences in the early Upanishads. The astrological compendium Bhrigu Samhita is attributed to him, and Puranic accounts differ on whether his curse on Agni or his wife's killing by Vishnu drove the long Bhargava enmity that later produced Parashurama.",
    "variantTraditions": "Some texts make him foster-father of Lakshmi ('Bhargavi').",
    "storyIds": [
-    "parashurama-kshatriya"
+    "parashurama-kshatriya",
+    "the-seven-sages"
    ],
    "hierarchyLevel": 5,
    "archetypes": [
@@ -5309,7 +5683,7 @@
   },
   {
    "id": "bharata_r",
-   "name": "Bharata",
+   "name": "Bharata (brother of Rama)",
    "sanskrit": "भरत",
    "category": "human",
    "era": "Epic-Ramayana",
@@ -5936,7 +6310,8 @@
    "variantTraditions": null,
    "storyIds": [
     "ganga-avatarana",
-    "bhishma-pratigya"
+    "bhishma-pratigya",
+    "kurus-field"
    ],
    "hierarchyLevel": 6,
    "archetypes": [
@@ -6272,7 +6647,8 @@
     "draupadi-swayamvara",
     "dyuta-sabha",
     "bhagavad-gita",
-    "mahaprasthana"
+    "mahaprasthana",
+    "nahusha-the-fallen-indra"
    ],
    "hierarchyLevel": 6,
    "archetypes": [
@@ -6642,7 +7018,8 @@
     "draupadi-swayamvara",
     "dyuta-sabha",
     "bhagavad-gita",
-    "abhimanyu-chakravyuha"
+    "abhimanyu-chakravyuha",
+    "the-seven-sages"
    ],
    "hierarchyLevel": 6,
    "archetypes": [
@@ -6685,6 +7062,1324 @@
    "variantTraditions": null,
    "storyIds": [
     "abhimanyu-chakravyuha"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "mangala",
+   "name": "Mangala",
+   "sanskrit": "मङ्गल",
+   "category": "deva",
+   "era": "Puranic",
+   "role": "The planet Mars; the red graha of war, born from a drop of Shiva's sweat",
+   "wikipedia": "Mangala",
+   "portrait": "portraits/hindu/mangala.webp",
+   "epithets": [
+    "Angaraka — the burning coal",
+    "Bhauma — son of the earth",
+    "Kuja — born of the earth",
+    "Rinahartha — destroyer of debt"
+   ],
+   "domains": [
+    "war and courage",
+    "land and property",
+    "brothers and siblings",
+    "debt, and release from it"
+   ],
+   "symbols": [
+    "the colour red",
+    "a mace, trident, spear and lotus",
+    "coral",
+    "Tuesday"
+   ],
+   "mount": "A ram; in some panels a chariot drawn by eight red horses",
+   "abode": "Svarga, and the Navagraha shrine of every temple",
+   "festivals": [
+    "Mangalvar vrat — the Tuesday fast, kept with red flowers and jaggery",
+    "Angaraka Chaturthi — a Ganesha fourth-day falling on a Tuesday"
+   ],
+   "worship": "He is approached in the Navagraha shrine that stands in the courtyard of most south Indian temples, circumambulated in his own direction, and petitioned over land disputes, debts and delayed marriages.",
+   "bio": "A drop of Shiva's sweat fell on the earth, and the earth raised it as a son.",
+   "longBio": "Shiva, deep in meditation, let a single drop of perspiration fall to the ground, and Bhumi the earth took it up and raised it — which is why the red planet is Bhauma, the son of the earth, as well as Angaraka, the burning coal. He is four-armed, red as coral, and rides a ram. Astrologically he is a malefic and a difficult tenant: a chart in which he sits badly carries Mangal dosha, still a live consideration in marriage negotiations today. He also cancels debts, and the Tuesday fast kept in his name is as often about money as about courage.",
+   "variantTraditions": "Some Puranas make him a son of Bhumi by Vishnu in his Varaha form rather than by Shiva's sweat; the Skanda Purana gives the sweat version.",
+   "storyIds": [
+    "navagraha"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "war",
+    "fire"
+   ]
+  },
+  {
+   "id": "budha",
+   "name": "Budha (Mercury)",
+   "sanskrit": "बुध",
+   "category": "deva",
+   "era": "Puranic",
+   "role": "The planet Mercury; the child of an abduction who grew up the gentlest of the grahas",
+   "wikipedia": "Budha",
+   "portrait": "portraits/hindu/budha.webp",
+   "epithets": [
+    "Saumya — son of Soma",
+    "Rauhineya",
+    "the green graha",
+    "lord of Wednesday"
+   ],
+   "domains": [
+    "intelligence and speech",
+    "commerce and accounts",
+    "learning and memory",
+    "the planet Mercury"
+   ],
+   "symbols": [
+    "the colour green",
+    "a scimitar, club and shield",
+    "emerald",
+    "Wednesday"
+   ],
+   "mount": "A lion, or a chariot drawn by eight wind-born horses",
+   "abode": "Svarga, and the Navagraha shrine",
+   "festivals": [
+    "Budhvar vrat — the Wednesday fast, kept with green cloth and moong"
+   ],
+   "worship": "Petitioned for success in study, examinations, trade and negotiation, and for children with a gift for speech. Green cloth, emeralds and moong dal are the standard offerings.",
+   "bio": "His father stole his mother from his father's own teacher, and the war that followed was fought over her.",
+   "longBio": "Chandra the moon abducted Tara, the wife of Brihaspati — his own preceptor — and would not give her back. The gods and the asuras took sides and fought the Tarakamaya war over one woman, until Brahma forced the matter and Tara was returned pregnant. She would not name the father, and only under pressure admitted it was Soma. The child was Budha, and he turned out to be the mildest and most intelligent of the nine planets, benefic wherever he sits alone. He married Ila and fathered Pururavas, which makes this scandal the origin of the entire Lunar dynasty.",
+   "variantTraditions": "Budha the planet Mercury and the Buddha are entirely unrelated figures who happen to have similar names. Budha is a graha, son of Chandra and Tara, husband of Ila and father of Pururavas. The Buddha is a historical teacher, listed separately in this pack as Vishnu's contested ninth avatar. Nothing connects them but three letters.",
+   "storyIds": [
+    "navagraha",
+    "the-abduction-of-tara",
+    "pururavas-and-urvashi"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "wisdom-craft",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "ketu",
+   "name": "Ketu",
+   "sanskrit": "केतु",
+   "category": "asura",
+   "era": "Puranic",
+   "role": "The headless half of the asura Rahu — the body that kept moving after the head was cut off",
+   "wikipedia": "Ketu_(mythology)",
+   "portrait": "portraits/hindu/ketu.webp",
+   "epithets": [
+    "the descending node",
+    "the banner",
+    "the tail of the dragon",
+    "Dhvajah — the flag"
+   ],
+   "domains": [
+    "moksha and detachment",
+    "the occult and hidden knowledge",
+    "comets and sudden reversals",
+    "eclipse"
+   ],
+   "symbols": [
+    "a banner",
+    "a gem-crested serpent's tail",
+    "cat's eye chrysoberyl",
+    "smoke and ash grey"
+   ],
+   "mount": "A vulture, or a headless body seated on a serpent",
+   "abode": "The southern lunar node, moving always backwards",
+   "festivals": [
+    "Ketu Peyarchi — observances at his transit between signs"
+   ],
+   "worship": "Approached in the Navagraha shrine for release from entanglement, for occult study, and by those whose charts place him badly. Offerings are grey — sesame, iron, smoke-coloured cloth.",
+   "bio": "Vishnu cut the asura in half at the moment he swallowed the nectar. Both halves were already immortal.",
+   "longBio": "When the amrita was churned from the ocean, the asura Svarbhanu slipped into the line of gods and drank. The sun and moon saw him and told Vishnu, who took off his head with the Sudarshana — but the nectar had already passed his throat, so neither half could die. The head is Rahu, who swallows the sun in revenge. The body is Ketu. Where Rahu is appetite, Ketu is the opposite: he governs renunciation, detachment and the sudden loss that turns someone towards liberation. Astrologically he is the moksha-karaka, the planet of letting go.",
+   "variantTraditions": "Ketu is also the generic Sanskrit word for a comet or banner, and older texts sometimes use it for comets in general rather than the node.",
+   "storyIds": [
+    "samudra-manthana",
+    "rahu-grahana",
+    "navagraha"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "destroyer",
+    "fate-time",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "tara_b",
+   "name": "Tara",
+   "sanskrit": "तारा",
+   "category": "goddess",
+   "era": "Puranic",
+   "role": "Brihaspati's wife, carried off by the moon, and the cause of a war between gods and asuras",
+   "wikipedia": "Tara_(Hinduism)",
+   "portrait": "portraits/hindu/tara_b.webp",
+   "epithets": [
+    "the star",
+    "wife of Brihaspati",
+    "mother of Budha"
+   ],
+   "domains": [
+    "the Tarakamaya war",
+    "abduction and restitution",
+    "the paternity of Budha"
+   ],
+   "symbols": [
+    "the star",
+    "the disputed child"
+   ],
+   "mount": null,
+   "abode": "The house of Brihaspati, and for a time the house of Soma",
+   "festivals": [],
+   "worship": "",
+   "bio": "She was taken, fought over by both halves of the universe, returned — and then asked whose child she was carrying.",
+   "longBio": "Soma the moon took Tara from Brihaspati, his own teacher, and refused every request to return her. Brihaspati had the devas; Shukra, who had his own grudge against the gods, brought the asuras in on Soma's side, and the Tarakamaya war was fought over one woman until Brahma intervened and ended it. Tara went back pregnant. Asked repeatedly whose the child was, she said nothing, and only when pressed by Brahma admitted it was Soma's. The child was Budha. She is one of the few figures in the Puranas whose silence is the whole of her characterisation.",
+   "variantTraditions": "Distinct from Tara the vanara queen, Vali's wife in the Ramayana, and from the Buddhist and Tantric goddess Tara. Three different figures share the name.",
+   "storyIds": [
+    "the-abduction-of-tara"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "ila",
+   "name": "Ila",
+   "sanskrit": "इला",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Born a daughter by ritual error, made a man, then a woman again — and the mother of a dynasty either way",
+   "wikipedia": "Ila_(Hinduism)",
+   "portrait": "portraits/hindu/ila.webp",
+   "epithets": [
+    "Sudyumna — her name as a man",
+    "the alternating one",
+    "mother of Pururavas"
+   ],
+   "domains": [
+    "sex and transformation",
+    "the founding of the Lunar dynasty",
+    "ritual error"
+   ],
+   "symbols": [
+    "the grove of Sharavana",
+    "the alternating months"
+   ],
+   "mount": null,
+   "abode": "Pratishthana, and the forest where Shiva's decree held",
+   "festivals": [],
+   "worship": "",
+   "bio": "Manu asked for a son and got a daughter, because a priest mispronounced one word.",
+   "longBio": "Manu performed a sacrifice for a son; the officiating priest made an error, and a daughter was born instead — Ila. She was turned into a man, Sudyumna, and while hunting rode into a grove where Shiva, wanting privacy with Parvati, had decreed that every male who entered became female. Ila returned. Budha found her there and married her, and their son was Pururavas, from whom the whole Lunar dynasty descends. In most tellings she alternates thereafter, a month as each, remembering nothing of the other life. The Puranas treat the change as a fact of the world rather than a scandal.",
+   "variantTraditions": "The Bhagavata, Vishnu and Devi Bhagavata Puranas differ over whether the alternation is monthly, yearly or permanent, and over whether Ila or Sudyumna is the original state.",
+   "storyIds": [
+    "pururavas-and-urvashi"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "pururavas",
+   "name": "Pururavas",
+   "sanskrit": "पुरूरवस्",
+   "category": "human",
+   "era": "Puranic",
+   "role": "The first king of the Lunar dynasty, who lost an apsara over a pair of stolen rams",
+   "wikipedia": "Pururavas",
+   "portrait": "portraits/hindu/pururavas.webp",
+   "epithets": [
+    "Aila — son of Ila",
+    "the first of the Chandravamsha"
+   ],
+   "domains": [
+    "the founding of the Lunar dynasty",
+    "love and its conditions",
+    "the sacred fires"
+   ],
+   "symbols": [
+    "the two rams tethered by the bed",
+    "lightning",
+    "the aranis of the fire ritual"
+   ],
+   "mount": null,
+   "abode": "Pratishthana on the Ganges",
+   "festivals": [],
+   "worship": "",
+   "bio": "Urvashi would stay on three conditions. Gandharvas broke one of them on purpose.",
+   "longBio": "Son of Budha and Ila, and the first king of the Lunar line. The apsara Urvashi agreed to live with him on conditions: he must care for her two rams, and she must never see him naked. The gandharvas, wanting her back in heaven, stole the rams at night; he sprang up to chase them and a flash of lightning showed him bare. She left that instant. He wandered the country half mad looking for her and found her at last with her companions in the form of swans on a lake at Kurukshetra. Their dialogue in Rig Veda X.95 is one of the oldest recorded conversations in any language.",
+   "variantTraditions": "The Rig Vedic hymn is bleak and gives them no reunion; the Puranas and Kalidasa's play soften it, and Kalidasa gives them a happy ending outright.",
+   "storyIds": [
+    "pururavas-and-urvashi"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "urvashi",
+   "name": "Urvashi",
+   "sanskrit": "उर्वशी",
+   "category": "celestial",
+   "era": "Vedic",
+   "role": "The apsara who left a king over a technicality, and cursed Arjuna for refusing her",
+   "wikipedia": "Urvashi",
+   "portrait": "portraits/hindu/urvashi.webp",
+   "epithets": [
+    "born of the thigh",
+    "the foremost of the apsaras",
+    "the swan on the lake"
+   ],
+   "domains": [
+    "beauty and desire",
+    "the court of Indra",
+    "curses"
+   ],
+   "symbols": [
+    "the swan",
+    "the two rams",
+    "the lake at Kurukshetra"
+   ],
+   "mount": null,
+   "abode": "Svarga, in Indra's court",
+   "festivals": [],
+   "worship": "",
+   "bio": "She turned Arjuna down as a lover, so he spent a year as a eunuch for the insult.",
+   "longBio": "The chief of the apsaras, born — the name is read this way — from the thigh of the sage Narayana, produced to shame Indra's dancers with something better. She lived with Pururavas under conditions and left the moment one was broken. Her other great appearance is in the Mahabharata: sent to Arjuna in Indra's heaven, she is refused on the grounds that she is an ancestress of his line, and curses him to live as a eunuch — a curse Indra reduces to a single year, which Arjuna then spends usefully in hiding as the dance teacher Brihannala.",
+   "variantTraditions": "The Rig Veda already knows her and Pururavas; the Arjuna episode is Mahabharata material and much later.",
+   "storyIds": [
+    "pururavas-and-urvashi"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "love-desire",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "ayu",
+   "name": "Ayu",
+   "sanskrit": "आयु",
+   "category": "human",
+   "era": "Puranic",
+   "role": "The generation between Pururavas and Nahusha, and almost nothing else",
+   "wikipedia": "Ayus",
+   "portrait": "portraits/hindu/ayu.webp",
+   "epithets": [
+    "Ayus",
+    "son of Pururavas"
+   ],
+   "domains": [
+    "the Lunar succession"
+   ],
+   "symbols": [
+    "the king list"
+   ],
+   "mount": null,
+   "abode": "Pratishthana",
+   "festivals": [],
+   "worship": "",
+   "bio": "A name in the list, and honestly not much more than that.",
+   "longBio": "Son of Pururavas and Urvashi, father of Nahusha, and a king of the Lunar dynasty in every genealogy that records the line. Beyond the succession he carries almost no narrative: no test, no curse, no quarrel worth preserving. He is included here because leaving him out would put a false gap between Pururavas and Nahusha, and the Puranic king lists are one of the few places where Indian tradition is scrupulous about generations. Some figures in a genealogy are load-bearing and some are simply the next name, and the honest thing is to say which is which.",
+   "variantTraditions": "The Puranas agree on his position in the line and disagree on the number and names of his brothers.",
+   "storyIds": [
+    "nahusha-the-fallen-indra"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "nahusha",
+   "name": "Nahusha",
+   "sanskrit": "नहुष",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Promoted to king of heaven, and demoted to a python for asking Indra's wife to sleep with him",
+   "wikipedia": "Nahusha",
+   "portrait": "portraits/hindu/nahusha.webp",
+   "epithets": [
+    "the substitute Indra",
+    "the serpent of the forest",
+    "son of Ayu"
+   ],
+   "domains": [
+    "kingship of heaven",
+    "arrogance",
+    "the curse of Agastya"
+   ],
+   "symbols": [
+    "the palanquin carried by sages",
+    "the python's coils"
+   ],
+   "mount": null,
+   "abode": "Svarga, then a forest in the Himalaya, as a snake",
+   "festivals": [],
+   "worship": "",
+   "bio": "He got Indra's throne, Indra's honours, and then asked for Indra's wife. The sages were carrying his chair at the time.",
+   "longBio": "When Indra fled and hid after the killing of Vritra, heaven needed a king and Nahusha was raised to the throne. It went to his head within a reign. He demanded Shachi, Indra's queen; she stalled by insisting she be fetched in a palanquin carried by brahmin sages. He agreed to that too, and when the sage Agastya moved too slowly under the pole, Nahusha kicked him — and was cursed on the spot to crawl as a python. He lay in the forest for an age until Yudhishthira, wandering in exile, answered his questions on dharma correctly and released him.",
+   "variantTraditions": "The Mahabharata tells the fall and the release; the Puranas add the detail of the word sarpa, which Nahusha used carelessly and which became the form of his punishment.",
+   "storyIds": [
+    "the-curse-of-yayati",
+    "nahusha-the-fallen-indra"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler",
+    "primordial-adversary"
+   ]
+  },
+  {
+   "id": "yayati",
+   "name": "Yayati",
+   "sanskrit": "ययाति",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Cursed with instant old age, he borrowed his son's youth for a thousand years and learned nothing until the end of it",
+   "wikipedia": "Yayati",
+   "portrait": "portraits/hindu/yayati.webp",
+   "epithets": [
+    "son of Nahusha",
+    "the borrower of youth"
+   ],
+   "domains": [
+    "desire and its limits",
+    "the curse of Shukra",
+    "the division of the kingdom"
+   ],
+   "symbols": [
+    "the exchanged years",
+    "the chariot of a thousand years"
+   ],
+   "mount": null,
+   "abode": "Pratishthana",
+   "festivals": [],
+   "worship": "",
+   "bio": "Desire is not put out by indulgence. It took him a thousand extra years to work that out.",
+   "longBio": "Son of Nahusha. He married Devayani, daughter of Shukra, and took her servant Sharmishtha as well; when Shukra found out he cursed Yayati into immediate old age. Yayati asked each of his five sons to take the curse and give him their youth. Only the youngest, Puru, agreed. Yayati then spent a thousand years in every pleasure available to a king, and at the end of it concluded that desire is never extinguished by feeding it, but grows like fire fed with butter. He returned the years to Puru, gave him the kingdom over his elder brothers, and went to the forest.",
+   "variantTraditions": "His verse on desire — that it is never quieted by enjoyment — is quoted independently of the story throughout later Sanskrit literature.",
+   "storyIds": [
+    "the-curse-of-yayati",
+    "nahusha-the-fallen-indra"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "puru",
+   "name": "Puru",
+   "sanskrit": "पुरु",
+   "category": "human",
+   "era": "Puranic",
+   "role": "The youngest son, the only one who agreed to grow old for his father, and the one who got the kingdom",
+   "wikipedia": "Puru_(Mahabharata)",
+   "portrait": "portraits/hindu/puru.webp",
+   "epithets": [
+    "the Paurava",
+    "the ancestor of the Kurus"
+   ],
+   "domains": [
+    "filial duty",
+    "the Lunar succession",
+    "the Paurava line"
+   ],
+   "symbols": [
+    "the returned years",
+    "the throne given out of turn"
+   ],
+   "mount": null,
+   "abode": "Pratishthana",
+   "festivals": [],
+   "worship": "",
+   "bio": "Four brothers said no. He said yes, and inherited everything for it.",
+   "longBio": "Youngest son of Yayati and Sharmishtha. When his father, cursed to sudden old age, asked his sons to trade youth for decrepitude, the four elder refused and were disinherited on the spot. Puru accepted, aged a thousand years in his father's place, and had them all returned to him at the end with the throne on top. From him descend the Pauravas, and from the Pauravas the Kurus, and from the Kurus both sides of the war at Kurukshetra — so every figure in the Mahabharata sits downstream of one son's answer to an unreasonable question.",
+   "variantTraditions": "The Mahabharata opens with this genealogy precisely to establish that the Pandavas and Kauravas share it.",
+   "storyIds": [
+    "the-curse-of-yayati"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "dushyanta",
+   "name": "Dushyanta",
+   "sanskrit": "दुष्यन्त",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Married her in the forest, forgot her completely, and remembered when a fisherman found the ring",
+   "wikipedia": "Dushyanta",
+   "portrait": "portraits/hindu/dushyanta.webp",
+   "epithets": [
+    "the Paurava king",
+    "the hunter at Kanva's ashram"
+   ],
+   "domains": [
+    "kingship",
+    "the gandharva marriage",
+    "forgetting and recognition"
+   ],
+   "symbols": [
+    "the signet ring",
+    "the hunt",
+    "the hermitage"
+   ],
+   "mount": null,
+   "abode": "Hastinapura",
+   "festivals": [],
+   "worship": "",
+   "bio": "The ring came off in the river. Everything went wrong from there.",
+   "longBio": "A king of the Paurava line who, hunting near Kanva's hermitage, met and married Shakuntala by gandharva rite — consent alone, no witnesses — and left her his signet ring before returning to the capital. In the Mahabharata he simply denies her when she arrives pregnant, and yields only when a voice from the sky confirms the child. Kalidasa, rewriting it, could not accept a hero behaving that way and added a curse: the ring slips off in a river, the memory goes with it, and a fisherman finds it inside a carp years later. Their son was Bharata.",
+   "variantTraditions": "The Mahabharata version has no curse and no ring — Dushyanta's denial is deliberate. The exculpating curse is Kalidasa's invention.",
+   "storyIds": [
+    "shakuntala-and-the-ring"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "shakuntala",
+   "name": "Shakuntala",
+   "sanskrit": "शकुन्तला",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Abandoned as a baby to birds, abandoned again by a husband who claimed not to know her",
+   "wikipedia": "Shakuntala",
+   "portrait": "portraits/hindu/shakuntala.webp",
+   "epithets": [
+    "the bird-guarded one",
+    "daughter of Vishvamitra and Menaka",
+    "mother of Bharata"
+   ],
+   "domains": [
+    "the forest hermitage",
+    "recognition and denial",
+    "motherhood"
+   ],
+   "symbols": [
+    "the shakunta birds that sheltered her",
+    "the signet ring",
+    "the deer of the ashram"
+   ],
+   "mount": null,
+   "abode": "The hermitage of Kanva, and afterwards Hastinapura",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her mother was an apsara sent to ruin her father's austerities. Both of them left her in the forest.",
+   "longBio": "Vishvamitra's penance alarmed the gods, who sent the apsara Menaka to break it. It worked; the child was left behind when both parents moved on, sheltered by shakunta birds until the sage Kanva took her in. She grew up in his hermitage, married Dushyanta there, and went to his court pregnant to be told he had never seen her before. In the Mahabharata she answers him with one of the fiercest speeches in the epic and wins on argument. Kalidasa's play, the most famous drama in Sanskrit, softens the confrontation into a curse and a lost ring.",
+   "variantTraditions": "The Mahabharata Shakuntala argues and prevails; Kalidasa's is gentler and is rescued rather than victorious. They are two quite different characters.",
+   "storyIds": [
+    "shakuntala-and-the-ring"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "earth-mother",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "bharata_k",
+   "name": "Bharata (the emperor)",
+   "sanskrit": "भरत",
+   "category": "human",
+   "era": "Puranic",
+   "role": "The boy who prised open lion cubs' mouths to count their teeth — and the man India is named after",
+   "wikipedia": "Bharata_(emperor)",
+   "portrait": "portraits/hindu/bharata_k.webp",
+   "epithets": [
+    "Sarvadamana — the all-subduer",
+    "the chakravartin",
+    "son of Dushyanta and Shakuntala"
+   ],
+   "domains": [
+    "universal sovereignty",
+    "the naming of Bharatavarsha",
+    "succession by merit"
+   ],
+   "symbols": [
+    "the lion cubs",
+    "the chakra of the world-emperor"
+   ],
+   "mount": null,
+   "abode": "Hastinapura",
+   "festivals": [],
+   "worship": "",
+   "bio": "The Republic of India is named for a child who used to count lions' teeth for fun.",
+   "longBio": "Son of Dushyanta and Shakuntala, raised in the forest at Kanva's hermitage, where the standing image of him is a small boy forcing open the jaws of lion cubs to count their teeth — which is how the court recognises him. He became a chakravartin, a wheel-turning universal sovereign, and the land was named Bharatavarsha after him; the Republic of India still carries the name officially as Bharat. He is also remembered for passing over his own sons in favour of an adopted heir he judged more capable, which the Puranas record approvingly and without much elaboration.",
+   "variantTraditions": "Distinct from Bharata the brother of Rama, who is a Solar-dynasty figure in the Ramayana and appears separately in this pack.",
+   "storyIds": [
+    "shakuntala-and-the-ring"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "kuru",
+   "name": "Kuru",
+   "sanskrit": "कुरु",
+   "category": "human",
+   "era": "Puranic",
+   "role": "He ploughed a field for so long that the gods made it the place where dharma is decided",
+   "wikipedia": "Kuru_(Kuru_kingdom)",
+   "portrait": "portraits/hindu/kuru.webp",
+   "epithets": [
+    "founder of the Kurus",
+    "the ploughman of Kurukshetra"
+   ],
+   "domains": [
+    "the Kuru line",
+    "asceticism",
+    "the field of dharma"
+   ],
+   "symbols": [
+    "the golden plough",
+    "the field at Kurukshetra"
+   ],
+   "mount": null,
+   "abode": "Hastinapura, and the field that carries his name",
+   "festivals": [],
+   "worship": "",
+   "bio": "Kurukshetra is called that because he would not stop ploughing it.",
+   "longBio": "A descendant of Puru and the ancestor from whom the Kurus take their name — which makes him the common forefather of the Pandavas and the Kauravas both. His one story is agricultural and strange: he ploughed the plain of Kurukshetra with a golden plough for years on end as an act of austerity, refusing to stop, until Indra asked what he wanted and granted that whoever died there would go to heaven regardless of their deeds. The Bhagavad Gita opens by calling the place dharmakshetra, the field of dharma. This is why.",
+   "variantTraditions": "The Mahabharata gives the ploughing story briefly; later Puranas expand the boon and disagree on its exact terms.",
+   "storyIds": [
+    "kurus-field"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "manu",
+   "name": "Manu",
+   "sanskrit": "मनु",
+   "category": "human",
+   "era": "Puranic",
+   "role": "The one man the flood was allowed to keep, because he was decent to a fish",
+   "wikipedia": "Manu_(Hinduism)",
+   "portrait": "portraits/hindu/manu.webp",
+   "epithets": [
+    "Vaivasvata Manu — son of the sun",
+    "Satyavrata",
+    "the first king",
+    "the lawgiver"
+   ],
+   "domains": [
+    "the flood",
+    "the descent of humanity",
+    "law and right conduct",
+    "the Solar dynasty"
+   ],
+   "symbols": [
+    "the boat tied to the fish's horn",
+    "the seeds and the seven sages",
+    "the law book"
+   ],
+   "mount": null,
+   "abode": "Mount Himavat, where the boat came to rest",
+   "festivals": [],
+   "worship": "",
+   "bio": "A fish in his cupped hands asked not to be thrown back, and kept asking for a bigger vessel.",
+   "longBio": "Washing at the river, Manu caught a small fish that begged not to be returned to the water where larger fish would eat it. He kept it in a jar; it outgrew the jar, then the tank, then the river, and by the time he released it into the sea it was Matsya, Vishnu's first avatar, who told him a flood was coming and to build a boat. Manu loaded it with the seven sages and the seeds of every plant, tied it to the fish's horn, and was towed to the northern mountain. Humanity descends from him, and his sons Ikshvaku and Ila begin the Solar and Lunar lines.",
+   "variantTraditions": "The Shatapatha Brahmana version is the oldest and has no Vishnu in it at all — the fish is simply a fish. The identification with Matsya is Puranic.",
+   "storyIds": [
+    "matsya-pralaya"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler",
+    "sage-seer",
+    "preserver"
+   ]
+  },
+  {
+   "id": "ikshvaku",
+   "name": "Ikshvaku",
+   "sanskrit": "इक्ष्वाकु",
+   "category": "human",
+   "era": "Puranic",
+   "role": "The eldest son of Manu, and the root of the dynasty that produced Rama",
+   "wikipedia": "Ikshvaku",
+   "portrait": "portraits/hindu/ikshvaku.webp",
+   "epithets": [
+    "son of Manu",
+    "first king of Ayodhya",
+    "founder of the Suryavamsha"
+   ],
+   "domains": [
+    "the Solar dynasty",
+    "the throne of Ayodhya",
+    "kingship"
+   ],
+   "symbols": [
+    "the sun",
+    "the city of Ayodhya"
+   ],
+   "mount": null,
+   "abode": "Ayodhya",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every Solar-dynasty king in the Ramayana is counted from him, including Rama.",
+   "longBio": "The eldest of Manu's sons and the first king of Ayodhya, from whom the Suryavamsha — the Solar dynasty — takes its formal name, Ikshvaku-kula. The line runs from him through Harishchandra, Sagara, Bhagiratha and Raghu down to Dasharatha and Rama, and the Ramayana recites the descent whenever it wants to establish that Rama's claim is older than any argument about it. Jain and Buddhist tradition both claim the same lineage: the Buddha is described as an Ikshvaku by clan, and several Jain tirthankaras are placed in the line as well.",
+   "variantTraditions": "The Puranic king lists for the Ikshvakus run to a hundred names and disagree with one another after the first dozen.",
+   "storyIds": [
+    "matsya-pralaya"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "harishchandra",
+   "name": "Harishchandra",
+   "sanskrit": "हरिश्चन्द्र",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Sold his kingdom, then his wife and son, then himself — rather than break one promise",
+   "wikipedia": "Harishchandra",
+   "portrait": "portraits/hindu/harishchandra.webp",
+   "epithets": [
+    "Satyavadi — the truth-teller",
+    "the king who worked the burning ground"
+   ],
+   "domains": [
+    "truth at any cost",
+    "the testing of Vishvamitra",
+    "kingship and its loss"
+   ],
+   "symbols": [
+    "the cremation ground",
+    "the debt unpaid",
+    "the sold family"
+   ],
+   "mount": null,
+   "abode": "Ayodhya, and then the burning ghats of Kashi",
+   "festivals": [],
+   "worship": "",
+   "bio": "He would not lie, so he ended up charging his own wife a fee to cremate their son.",
+   "longBio": "A Solar-dynasty king whose byword is truthfulness, tested by Vishvamitra past the point of cruelty. Having promised the sage his kingdom, he gave it, and was then told a promise of gold remained outstanding. He sold his wife Shaibya and his son Rohitashva into service, then sold himself to an outcaste keeper of the cremation ground. The story reaches its point when his wife arrives carrying their dead son and he cannot let the body burn without the fee, because that is his master's due. He holds; the gods stop it there and restore everything.",
+   "variantTraditions": "The Markandeya Purana and the Aitareya Brahmana tell substantially different versions; the harrowing cremation-ground scene is the Puranic one and is what later drama and film use.",
+   "storyIds": [
+    "harishchandras-trial"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler",
+    "hero-champion"
+   ]
+  },
+  {
+   "id": "sagara",
+   "name": "Sagara",
+   "sanskrit": "सगर",
+   "category": "human",
+   "era": "Puranic",
+   "role": "His sixty thousand sons dug up the whole earth looking for a horse and were burned to ash for it",
+   "wikipedia": "Sagara_(Hinduism)",
+   "portrait": "portraits/hindu/sagara.webp",
+   "epithets": [
+    "king of Ayodhya",
+    "father of the sixty thousand"
+   ],
+   "domains": [
+    "the horse sacrifice",
+    "excavation of the earth",
+    "the ashes awaiting Ganga"
+   ],
+   "symbols": [
+    "the sacrificial horse",
+    "the dug-out ocean",
+    "sixty thousand heaps of ash"
+   ],
+   "mount": null,
+   "abode": "Ayodhya",
+   "festivals": [],
+   "worship": "",
+   "bio": "The ocean is called sagara after him, because his sons are the ones who dug the hole.",
+   "longBio": "Sagara set a horse loose for the ashvamedha and Indra, not wanting the sacrifice completed, hid it in the hermitage of the sage Kapila deep underground. Sagara's sixty thousand sons excavated the earth to find it — which is how the ocean basin was made, and why the sea is sagara — and on finding the horse beside the meditating Kapila accused him of theft. He opened his eyes and they were burnt to ash where they stood. The ash could not receive funeral rites without the waters of the Ganges, which were still in heaven, and so the problem passed down four generations.",
+   "variantTraditions": "The Ramayana and the Vishnu Purana agree on the outline; the number sixty thousand is constant, which is unusual for Puranic figures.",
+   "storyIds": [
+    "ganga-avatarana"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler"
+   ]
+  },
+  {
+   "id": "bhagiratha",
+   "name": "Bhagiratha",
+   "sanskrit": "भगीरथ",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Stood on one leg for a thousand years to bring a river down out of the sky for ancestors he never met",
+   "wikipedia": "Bhagiratha",
+   "portrait": "portraits/hindu/bhagiratha.webp",
+   "epithets": [
+    "the bringer of Ganga",
+    "great-grandson of Sagara"
+   ],
+   "domains": [
+    "austerity",
+    "the descent of the Ganges",
+    "duty to the dead"
+   ],
+   "symbols": [
+    "the single leg",
+    "the river in Shiva's hair",
+    "the ashes at last watered"
+   ],
+   "mount": null,
+   "abode": "Ayodhya, and the bank of the river he brought down",
+   "festivals": [],
+   "worship": "",
+   "bio": "Bhagirath prayatna — a Bhagiratha effort — is still ordinary Hindi for a superhuman undertaking.",
+   "longBio": "Sagara's sixty thousand sons lay as ash that could not be released without the waters of the Ganges, and Ganga was in heaven. Two generations tried and failed. Bhagiratha gave up the throne and performed austerities until Brahma agreed to release her — and then had to petition again, because the fall would have split the earth, until Shiva consented to take the impact on his head and let her out slowly through his hair. Bhagiratha then walked ahead of the river the whole way to the sea so she would follow, and the ashes were finally watered. The Ganges is still called Bhagirathi in her upper course.",
+   "variantTraditions": "The Ramayana, Mahabharata and Bhagavata all carry the descent; they differ over how many ancestors attempted it before him.",
+   "storyIds": [
+    "ganga-avatarana"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "hero-champion",
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "raghu",
+   "name": "Raghu",
+   "sanskrit": "रघु",
+   "category": "human",
+   "era": "Puranic",
+   "role": "So generous he gave away his own treasury and then went to war with a god to refill it",
+   "wikipedia": "Raghu",
+   "portrait": "portraits/hindu/raghu.webp",
+   "epithets": [
+    "the Raghava ancestor",
+    "the world-conqueror"
+   ],
+   "domains": [
+    "conquest",
+    "generosity past the point of sense",
+    "the Raghu line"
+   ],
+   "symbols": [
+    "the emptied treasury",
+    "the rain of gold"
+   ],
+   "mount": null,
+   "abode": "Ayodhya",
+   "festivals": [],
+   "worship": "",
+   "bio": "Rama's patronymic is Raghava. This is the Raghu it points at.",
+   "longBio": "A Solar-dynasty king of Ayodhya, great-grandfather of Rama, and the one the dynasty is usually named after in poetry — Raghuvamsha, the line of Raghu, which is also the title of Kalidasa's great dynastic epic. He is remembered for a conquest of the four quarters and, more characteristically, for giving away everything he owned after a sacrifice, leaving nothing for a student who then came asking for his teacher's fee. Rather than refuse, Raghu prepared to attack Kubera's treasury; Kubera, hearing of it, rained gold on the city instead. Rama is called Raghava after him.",
+   "variantTraditions": "Kalidasa's Raghuvamsha is the fullest treatment and is a literary work of the fifth century, not a Purana.",
+   "storyIds": [
+    "raghu-and-the-fee"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "king-ruler",
+    "wealth-fortune"
+   ]
+  },
+  {
+   "id": "marichi",
+   "name": "Marichi",
+   "sanskrit": "मरीचि",
+   "category": "sage",
+   "era": "Vedic",
+   "role": "Brahma's mind-born son, and the grandfather of essentially everything alive",
+   "wikipedia": "Marichi",
+   "portrait": "portraits/hindu/marichi.webp",
+   "epithets": [
+    "mind-born son of Brahma",
+    "one of the Prajapatis",
+    "father of Kashyapa"
+   ],
+   "domains": [
+    "creation by thought",
+    "the descent of the sages",
+    "the Saptarishi"
+   ],
+   "symbols": [
+    "the ray of light his name means",
+    "the seven stars"
+   ],
+   "mount": null,
+   "abode": "Brahmaloka, and the Great Bear",
+   "festivals": [],
+   "worship": "",
+   "bio": "Almost every deva, asura, naga and beast in this pack descends from his son.",
+   "longBio": "One of the mind-born sons of Brahma and among the first of the Prajapatis, the progenitors. His importance is almost entirely genealogical: his son is Kashyapa, and Kashyapa by his thirteen wives fathers the devas, the asuras, the nagas, the garudas and most of the animal world, so the traffic of the entire pantheon passes through Marichi's household in two generations. He is counted among the Saptarishi, the seven sages fixed in the stars of the Great Bear, and named in the standard invocation lists, but he does very little in his own right.",
+   "variantTraditions": "The lists of Brahma's mind-born sons vary between seven, nine and ten depending on the Purana; Marichi is in all of them.",
+   "storyIds": [
+    "the-seven-sages"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "creator"
+   ]
+  },
+  {
+   "id": "angiras",
+   "name": "Angiras",
+   "sanskrit": "अङ्गिरस्",
+   "category": "sage",
+   "era": "Vedic",
+   "role": "Born from Brahma's own fire, and the father of the teacher of the gods",
+   "wikipedia": "Angiras",
+   "portrait": "portraits/hindu/angiras.webp",
+   "epithets": [
+    "mind-born son of Brahma",
+    "father of Brihaspati",
+    "the fire-born"
+   ],
+   "domains": [
+    "fire and the sacrifice",
+    "the Atharvaveda",
+    "the descent of the priesthood"
+   ],
+   "symbols": [
+    "the sacrificial flame",
+    "the seven stars"
+   ],
+   "mount": null,
+   "abode": "Brahmaloka, and the Great Bear",
+   "festivals": [],
+   "worship": "",
+   "bio": "Brihaspati, the guru of all the gods, had to get it from somewhere.",
+   "longBio": "One of Brahma's mind-born sons, so closely associated with fire that several texts have him born from a coal or from the flame of the first sacrifice, and the Rig Veda sometimes treats the Angirasas as a whole class of fire-priests rather than one man. He is the father of Brihaspati, preceptor of the devas, which places him at the head of the priestly line the way Marichi stands at the head of the creaturely one. Much of the Atharvaveda is attributed to him and his descendants, and the text is still sometimes called the Atharvangirasa for that reason.",
+   "variantTraditions": "The Rig Veda uses Angiras both for an individual sage and for a group of semi-divine fire-priests, and does not always distinguish them.",
+   "storyIds": [
+    "the-seven-sages"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "fire"
+   ]
+  },
+  {
+   "id": "atri",
+   "name": "Atri",
+   "sanskrit": "अत्रि",
+   "category": "sage",
+   "era": "Vedic",
+   "role": "The moon was born out of his eyes after he held a posture for a hundred years",
+   "wikipedia": "Atri",
+   "portrait": "portraits/hindu/atri.webp",
+   "epithets": [
+    "mind-born son of Brahma",
+    "husband of Anasuya",
+    "father of Chandra"
+   ],
+   "domains": [
+    "austerity",
+    "the fifth mandala of the Rig Veda",
+    "the begetting of the moon"
+   ],
+   "symbols": [
+    "the seven stars",
+    "the drop of light from the eye"
+   ],
+   "mount": null,
+   "abode": "Brahmaloka, the Great Bear, and a hermitage in the forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "Chandra the moon has a father, and this is him.",
+   "longBio": "One of the Saptarishi and a mind-born son of Brahma, to whom the fifth mandala of the Rig Veda is attributed. The Puranas say he stood in austerity so long that a light gathered in his eyes and fell as a drop, and the ten directions bore it, and the child was Soma — Chandra, the moon. His wife Anasuya is one of the standard exemplars of a faithful wife and is credited with reducing the Trimurti themselves to infants when they came to test her. Their sons in the fuller lists are Chandra, the irascible Durvasa and Dattatreya.",
+   "variantTraditions": "The Puranas disagree over which of the three sons belongs to which of the Trimurti in the Anasuya episode.",
+   "storyIds": [
+    "the-seven-sages"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "moon"
+   ]
+  },
+  {
+   "id": "bharadvaja",
+   "name": "Bharadvaja",
+   "sanskrit": "भरद्वाज",
+   "category": "sage",
+   "era": "Vedic",
+   "role": "A Saptarishi whose son was born in a pot and grew up to teach both sides of the war",
+   "wikipedia": "Bharadvaja",
+   "portrait": "portraits/hindu/bharadvaja.webp",
+   "epithets": [
+    "one of the Saptarishi",
+    "father of Drona",
+    "the sixth mandala"
+   ],
+   "domains": [
+    "the Rig Veda's sixth book",
+    "medicine and long life",
+    "the hermitage at Prayaga"
+   ],
+   "symbols": [
+    "the seven stars",
+    "the wooden vessel",
+    "the hermitage"
+   ],
+   "mount": null,
+   "abode": "A hermitage at the confluence at Prayaga, and the Great Bear",
+   "festivals": [],
+   "worship": "",
+   "bio": "Drona's name means vessel, because that is literally what he was carried in.",
+   "longBio": "One of the Saptarishi and the seer to whom the sixth mandala of the Rig Veda is attributed. He kept a hermitage at Prayaga, where the Ramayana has Rama stop on the way into exile. His importance to this pack is his son: seeing the apsara Ghritachi, he spilled his seed and caught it in a drona, a wooden trough, and the child born from it was Drona — the archery master who trains the Pandavas and the Kauravas together and then has to command against half of his own students. Bharadvaja is also named in the medical tradition as the one who brought Ayurveda from Indra.",
+   "variantTraditions": "The Rig Vedic Bharadvaja and the Mahabharata's father of Drona are treated as one figure by tradition and as probably distinct by philology.",
+   "storyIds": [
+    "the-seven-sages"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "healer"
+   ]
+  },
+  {
+   "id": "gautama_m",
+   "name": "Gautama Maharishi",
+   "sanskrit": "गौतम",
+   "category": "sage",
+   "era": "Vedic",
+   "role": "Came home, saw what Indra had done, and turned his own wife to stone for it",
+   "wikipedia": "Gautama_Maharishi",
+   "portrait": "portraits/hindu/gautama_m.webp",
+   "epithets": [
+    "one of the Saptarishi",
+    "husband of Ahalya",
+    "the curser of Indra"
+   ],
+   "domains": [
+    "austerity",
+    "the curse of Indra",
+    "the Nyaya tradition"
+   ],
+   "symbols": [
+    "the seven stars",
+    "the hermitage at dawn",
+    "the cock that crowed too early"
+   ],
+   "mount": null,
+   "abode": "A hermitage on the road to Mithila, and the Great Bear",
+   "festivals": [],
+   "worship": "",
+   "bio": "Indra imitated his voice to get him out of the house. The punishment landed on everyone.",
+   "longBio": "One of the Saptarishi, husband of Ahalya. Indra, wanting Ahalya, crowed like a cock before dawn so that Gautama would leave for his morning ablutions, then took the sage's form and went in. Gautama returned too early and understood at once. He cursed Indra — in the older tellings with a thousand marks on his body, later softened to a thousand eyes — and cursed Ahalya to lie invisible, or in the popular version as a stone, until Rama should pass that way. The severity of what he does to a woman he knows was deceived is not defended by the texts; it is simply recorded.",
+   "variantTraditions": "Whether Ahalya knew it was Indra differs by text — the Ramayana implies she did and Gautama's curse follows from that; most later retellings make her wholly deceived.",
+   "storyIds": [
+    "ahalya-and-the-stone",
+    "the-seven-sages"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer"
+   ]
+  },
+  {
+   "id": "jamadagni",
+   "name": "Jamadagni",
+   "sanskrit": "जमदग्नि",
+   "category": "sage",
+   "era": "Puranic",
+   "role": "Ordered his sons to behead their mother, and only the youngest picked up the axe",
+   "wikipedia": "Jamadagni",
+   "portrait": "portraits/hindu/jamadagni.webp",
+   "epithets": [
+    "one of the Saptarishi",
+    "husband of Renuka",
+    "father of Parashurama"
+   ],
+   "domains": [
+    "the sacrificial fire",
+    "rage",
+    "the wish-granting cow"
+   ],
+   "symbols": [
+    "Kamadhenu the cow",
+    "the axe",
+    "the arrows of his sons"
+   ],
+   "mount": null,
+   "abode": "A hermitage in the forest",
+   "festivals": [],
+   "worship": "",
+   "bio": "He asked four sons to kill their mother. Three refused and were burnt for it.",
+   "longBio": "A Saptarishi of the Bhrigu line, married to Renuka, and the owner of Kamadhenu the wish-granting cow — which is what gets him killed. When Renuka's absolute mental fidelity lapsed for a moment, he ordered each son in turn to behead her; the four eldest refused and he reduced them to ash, and the fifth, Parashurama, did it, and was granted a boon with which he asked for his mother's life and his brothers'. Later the sons of King Kartavirya Arjuna came for the cow and killed Jamadagni for it, and Parashurama's twenty-one campaigns against the kshatriyas follow directly from that.",
+   "variantTraditions": "The Mahabharata and the Bhagavata both carry the beheading; neither offers any comment on it, which is itself notable.",
+   "storyIds": [
+    "parashurama-kshatriya",
+    "parashurama-and-renuka",
+    "the-seven-sages"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "sage-seer",
+    "destroyer"
+   ]
+  },
+  {
+   "id": "ahalya",
+   "name": "Ahalya",
+   "sanskrit": "अहल्या",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Made by Brahma as the most beautiful woman alive, and left as a stone at the side of a road",
+   "wikipedia": "Ahalya",
+   "portrait": "portraits/hindu/ahalya.webp",
+   "epithets": [
+    "wife of Gautama",
+    "the stone by the road",
+    "first of the panchakanya"
+   ],
+   "domains": [
+    "deception",
+    "curse and redemption",
+    "the touch of Rama"
+   ],
+   "symbols": [
+    "the stone",
+    "the dust of Rama's foot",
+    "the empty hermitage"
+   ],
+   "mount": null,
+   "abode": "Gautama's abandoned hermitage, on the road to Mithila",
+   "festivals": [],
+   "worship": "",
+   "bio": "Rama's first act on the road to his wedding is stepping on her.",
+   "longBio": "Brahma made her the most beautiful woman in creation and gave her to the sage Gautama. Indra wanted her, imitated Gautama's voice to empty the house before dawn, took his form and went in. Gautama returned early, cursed Indra, and cursed Ahalya to lie unseen — or, in the version everyone now knows, as a stone — until Rama came past. He does, on the road to Mithila and his marriage to Sita; the dust of his foot restores her, and she walks out of the story without saying much. She is counted among the panchakanya, the five women recited daily to dispel sin.",
+   "variantTraditions": "The Ramayana suggests she recognised Indra and consented; every major later retelling removes that and makes her purely deceived. The change is the most-argued single edit in the epic's reception.",
+   "storyIds": [
+    "ahalya-and-the-stone"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "earth-mother",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "renuka",
+   "name": "Renuka",
+   "sanskrit": "रेणुका",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Beheaded by her own son on her husband's orders, and restored by the same son an hour later",
+   "wikipedia": "Renuka",
+   "portrait": "portraits/hindu/renuka.webp",
+   "epithets": [
+    "wife of Jamadagni",
+    "Yellamma",
+    "mother of Parashurama"
+   ],
+   "domains": [
+    "absolute fidelity, and its lapse",
+    "restoration",
+    "village goddess worship"
+   ],
+   "symbols": [
+    "the unfired clay pot",
+    "the axe",
+    "the river at dawn"
+   ],
+   "mount": null,
+   "abode": "Jamadagni's hermitage; and a great many village shrines",
+   "festivals": [],
+   "worship": "",
+   "bio": "Her chastity was so exact she could carry water in an unfired pot. One stray thought and the pot dissolved.",
+   "longBio": "Renuka's discipline was such that she could shape a pot from wet river clay each morning and carry water home in it unfired. One morning she saw a gandharva king reflected in the water, admired him for a moment, and the pot fell apart in her hands. Jamadagni knew immediately and ordered his sons to behead her; only Parashurama obeyed, and then used the boon he was offered to ask for her life back. She is worshipped across the Deccan in her own right as Yellamma or Renuka Devi, quite independently of the story, and her temples are among the busiest village shrines in Karnataka and Maharashtra.",
+   "variantTraditions": "The southern goddess Yellamma and the Puranic Renuka were probably distinct and were identified with each other later; the head-and-body transposition legends belong to the goddess tradition.",
+   "storyIds": [
+    "parashurama-and-renuka"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "earth-mother",
+    "healer"
+   ]
+  },
+  {
+   "id": "nirriti",
+   "name": "Nirriti",
+   "sanskrit": "निरृति",
+   "category": "goddess",
+   "era": "Vedic",
+   "role": "The goddess of everything going wrong, and the only direction-guardian nobody wants to face",
+   "wikipedia": "Nirrti",
+   "portrait": "portraits/hindu/nirriti.webp",
+   "epithets": [
+    "the guardian of the southwest",
+    "goddess of dissolution",
+    "the one asked only to leave"
+   ],
+   "domains": [
+    "decay, misfortune and death",
+    "the southwest quarter",
+    "poverty and dissolution"
+   ],
+   "symbols": [
+    "the southwest",
+    "black cloth",
+    "the sword",
+    "the ass"
+   ],
+   "mount": "An ass, or a corpse",
+   "abode": "The southwest quarter, and the ground where things rot",
+   "festivals": [],
+   "worship": "",
+   "bio": "Every hymn to her is a request that she go somewhere else.",
+   "longBio": "One of the eight Dikpala, the guardians of the directions, holding the southwest — and the only one of them who is a personification of things going badly. The Rig Veda addresses her a handful of times and never in praise: the hymns ask her to pass by, to take her bonds elsewhere, to accept an offering at a distance and leave. She is dissolution, decay, misfortune and the disintegration of things that were whole. Later texts sometimes make her male, a rakshasa rather than a goddess, and the Puranas tend to quietly replace her in the Dikpala list with Rakshasa or Nairrita.",
+   "variantTraditions": "Her sex changes between the Vedic and Puranic material; the Vedic Nirriti is unambiguously a goddess.",
+   "storyIds": [
+    "lokapala"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "destroyer",
+    "death-judge",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "ishana",
+   "name": "Ishana",
+   "sanskrit": "ईशान",
+   "category": "deva",
+   "era": "Puranic",
+   "role": "Shiva's fifth face, the one that points straight up, guarding the corner where temples put their shrines",
+   "wikipedia": "Ishana",
+   "portrait": "portraits/hindu/ishana.webp",
+   "epithets": [
+    "the fifth face of Shiva",
+    "guardian of the northeast",
+    "the upward-facing"
+   ],
+   "domains": [
+    "the northeast quarter",
+    "the sky above",
+    "knowledge and liberation"
+   ],
+   "symbols": [
+    "the northeast",
+    "the trident",
+    "the crescent",
+    "the bull"
+   ],
+   "mount": "Nandi the bull",
+   "abode": "The northeast quarter, and the summit of Kailasa",
+   "festivals": [],
+   "worship": "",
+   "bio": "Four faces look at the horizon. The fifth looks up, and that one is him.",
+   "longBio": "Ishana is the fifth and uppermost of the Panchabrahma, the five faces of Shiva — Sadyojata, Vamadeva, Aghora, Tatpurusha and Ishana — and the one that faces the sky rather than a compass point. As a Dikpala he holds the northeast, the quarter traditionally treated as the most auspicious in a building: the household shrine goes in the northeast corner, and so does the temple's own. He is a form of Shiva rather than a separate deity, which is why he is easy to miss in a list of eight guardians who are otherwise distinct gods.",
+   "variantTraditions": "Because he is an aspect of Shiva rather than an independent god, some Dikpala lists give the northeast to Shiva directly and drop the name.",
+   "storyIds": [
+    "lokapala"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "sky-thunder",
+    "wisdom-craft",
+    "supreme-source"
+   ]
+  },
+  {
+   "id": "yashodhara",
+   "name": "Yashodhara",
+   "sanskrit": "यशोधरा",
+   "category": "human",
+   "era": "Puranic",
+   "role": "Woke up to find her husband had left in the night to solve the problem of suffering",
+   "wikipedia": "Yasodhara",
+   "portrait": "portraits/hindu/yashodhara.webp",
+   "epithets": [
+    "wife of Siddhartha",
+    "mother of Rahula",
+    "Bimba, Bhaddakaccana"
+   ],
+   "domains": [
+    "renunciation, from the side of the person left behind",
+    "the household abandoned",
+    "later ordination"
+   ],
+   "symbols": [
+    "the empty bed",
+    "the sleeping child",
+    "the nun's robe"
+   ],
+   "mount": null,
+   "abode": "Kapilavastu, and afterwards the order of nuns",
+   "festivals": [],
+   "worship": "",
+   "bio": "He left without waking her. She cut her own hair, ate one meal a day, and waited.",
+   "longBio": "Wife of Siddhartha Gautama and mother of his son. On the night he left the palace he looked in at them both and did not wake her, and she woke to an empty room. The accounts say she took on his austerities from a distance — one meal a day, plain robes, no ornament — for the years he was gone. When he returned to Kapilavastu as the Buddha she sent their son to ask for his inheritance. She later joined the order of nuns and is recorded as attaining arhatship. She belongs to Buddhist tradition and is included here only because the Puranas make the Buddha an avatar of Vishnu without ever mentioning that he had a family.",
+   "variantTraditions": "Yashodhara is a Buddhist figure, drawn here from the Buddhacarita and the Pali tradition, not from the Puranas. The Puranic Buddha-as-avatar is a polemical construction with no household at all.",
+   "storyIds": [
+    "buddha-avatara"
+   ],
+   "hierarchyLevel": 6,
+   "archetypes": [
+    "earth-mother"
+   ]
+  },
+  {
+   "id": "rahula",
+   "name": "Rahula",
+   "sanskrit": "राहुल",
+   "category": "human",
+   "era": "Puranic",
+   "role": "His father named him Fetter, then left, then came back and ordained him at seven",
+   "wikipedia": "Rahula",
+   "portrait": "portraits/hindu/rahula.webp",
+   "epithets": [
+    "the fetter",
+    "son of Siddhartha and Yashodhara",
+    "the first novice"
+   ],
+   "domains": [
+    "inheritance",
+    "the youngest ordination",
+    "renunciation across a generation"
+   ],
+   "symbols": [
+    "the child's begging bowl",
+    "the novice's robe"
+   ],
+   "mount": null,
+   "abode": "Kapilavastu, and then the order",
+   "festivals": [],
+   "worship": "",
+   "bio": "Told to ask his father for his inheritance, he was given a begging bowl.",
+   "longBio": "Born to Siddhartha and Yashodhara on or near the night his father left the palace, and named Rahula — fetter, an obstacle — which tells you plainly what his father thought a son was at that moment. Seven years later the Buddha returned to Kapilavastu and Yashodhara sent the boy out to ask for his inheritance. He was given ordination instead, becoming the first samanera, the first novice in the order, and the tradition records that his grandfather Suddhodana was upset enough about it that the rule requiring parental consent for a child's ordination was made on the spot.",
+   "variantTraditions": "Rahula is a Buddhist figure from the Pali tradition and the Buddhacarita, included here for the same reason as Yashodhara — the Puranic Buddha avatar has no family attached to it.",
+   "storyIds": [
+    "buddha-avatara"
    ],
    "hierarchyLevel": 6,
    "archetypes": [
@@ -8048,6 +9743,414 @@
    "to": "ganesha",
    "type": "ally",
    "note": "Ganesha served as scribe of the Mahabharata"
+  },
+  {
+   "from": "shiva",
+   "to": "mangala",
+   "type": "parent",
+   "note": "A drop of his sweat, raised by the earth"
+  },
+  {
+   "from": "mangala",
+   "to": "surya",
+   "type": "ally",
+   "note": "Two of the nine grahas, both burning"
+  },
+  {
+   "from": "chandra",
+   "to": "budha",
+   "type": "parent",
+   "note": "The child of the abduction"
+  },
+  {
+   "from": "tara_b",
+   "to": "budha",
+   "type": "parent",
+   "note": "She would not name the father until Brahma pressed her"
+  },
+  {
+   "from": "brihaspati",
+   "to": "tara_b",
+   "type": "consort",
+   "note": "His wife, taken by his own student"
+  },
+  {
+   "from": "chandra",
+   "to": "tara_b",
+   "type": "enemy",
+   "note": "He took her and would not give her back"
+  },
+  {
+   "from": "brihaspati",
+   "to": "chandra",
+   "type": "enemy",
+   "note": "Teacher and student, over a woman"
+  },
+  {
+   "from": "shukra",
+   "to": "chandra",
+   "type": "ally",
+   "note": "He brought the asuras in on the moon's side"
+  },
+  {
+   "from": "brahma",
+   "to": "tara_b",
+   "type": "ally",
+   "note": "He ended the war and sent her home"
+  },
+  {
+   "from": "rahu",
+   "to": "ketu",
+   "type": "sibling",
+   "note": "Head and body of the same severed asura"
+  },
+  {
+   "from": "vishnu",
+   "to": "ketu",
+   "type": "enemy",
+   "note": "The Sudarshana took the head off; this is what was left"
+  },
+  {
+   "from": "ketu",
+   "to": "surya",
+   "type": "enemy",
+   "note": "The eclipse, from the other end"
+  },
+  {
+   "from": "budha",
+   "to": "ila",
+   "type": "consort",
+   "note": "He found her in the grove where men became women"
+  },
+  {
+   "from": "manu",
+   "to": "ila",
+   "type": "parent",
+   "note": "He asked for a son; a priest mispronounced the word"
+  },
+  {
+   "from": "budha",
+   "to": "pururavas",
+   "type": "parent",
+   "note": "The first king of the Lunar dynasty"
+  },
+  {
+   "from": "ila",
+   "to": "pururavas",
+   "type": "parent",
+   "note": "Borne while she was a woman"
+  },
+  {
+   "from": "pururavas",
+   "to": "urvashi",
+   "type": "consort",
+   "note": "On conditions, one of which was broken"
+  },
+  {
+   "from": "urvashi",
+   "to": "pururavas",
+   "type": "enemy",
+   "note": "She left the instant the lightning showed him"
+  },
+  {
+   "from": "pururavas",
+   "to": "ayu",
+   "type": "parent",
+   "note": "The next name in the list"
+  },
+  {
+   "from": "ayu",
+   "to": "nahusha",
+   "type": "parent",
+   "note": "The son who was given heaven and lost it"
+  },
+  {
+   "from": "nahusha",
+   "to": "indra",
+   "type": "enemy",
+   "note": "He took the vacant throne and then wanted the wife"
+  },
+  {
+   "from": "nahusha",
+   "to": "yudhishthira",
+   "type": "guru",
+   "note": "The python asked questions on dharma and was freed by the answers"
+  },
+  {
+   "from": "nahusha",
+   "to": "yayati",
+   "type": "parent",
+   "note": "Father and son, both undone by wanting more"
+  },
+  {
+   "from": "shukra",
+   "to": "yayati",
+   "type": "enemy",
+   "note": "He cursed him into instant old age"
+  },
+  {
+   "from": "yayati",
+   "to": "puru",
+   "type": "parent",
+   "note": "The only son who said yes"
+  },
+  {
+   "from": "puru",
+   "to": "yayati",
+   "type": "devotee",
+   "note": "He took the thousand years and gave them back"
+  },
+  {
+   "from": "puru",
+   "to": "dushyanta",
+   "type": "parent",
+   "note": "The Paurava line, several generations on"
+  },
+  {
+   "from": "dushyanta",
+   "to": "shakuntala",
+   "type": "consort",
+   "note": "Married in the forest, denied at court"
+  },
+  {
+   "from": "vishvamitra",
+   "to": "shakuntala",
+   "type": "parent",
+   "note": "The daughter he left in the forest"
+  },
+  {
+   "from": "dushyanta",
+   "to": "bharata_k",
+   "type": "parent",
+   "note": "The boy who counted the lion cubs' teeth"
+  },
+  {
+   "from": "shakuntala",
+   "to": "bharata_k",
+   "type": "parent",
+   "note": "She carried him to court to be disowned"
+  },
+  {
+   "from": "bharata_k",
+   "to": "kuru",
+   "type": "parent",
+   "note": "The line runs on to the field that carries his name"
+  },
+  {
+   "from": "kuru",
+   "to": "shantanu",
+   "type": "parent",
+   "note": "And from Shantanu, both sides of the war"
+  },
+  {
+   "from": "kuru",
+   "to": "indra",
+   "type": "devotee",
+   "note": "He ploughed until a boon was granted"
+  },
+  {
+   "from": "urvashi",
+   "to": "arjuna",
+   "type": "enemy",
+   "note": "Refused, she cursed him to a year as a eunuch"
+  },
+  {
+   "from": "surya",
+   "to": "manu",
+   "type": "parent",
+   "note": "Vaivasvata - the son of the sun"
+  },
+  {
+   "from": "matsya",
+   "to": "manu",
+   "type": "ally",
+   "note": "The fish that outgrew every vessel and towed the boat"
+  },
+  {
+   "from": "manu",
+   "to": "ikshvaku",
+   "type": "parent",
+   "note": "The eldest son, and Ayodhya's first king"
+  },
+  {
+   "from": "ikshvaku",
+   "to": "harishchandra",
+   "type": "parent",
+   "note": "The Solar line, several generations on"
+  },
+  {
+   "from": "vishvamitra",
+   "to": "harishchandra",
+   "type": "enemy",
+   "note": "He tested him past the point of cruelty"
+  },
+  {
+   "from": "harishchandra",
+   "to": "sagara",
+   "type": "parent",
+   "note": "The line continues to the digger of the ocean"
+  },
+  {
+   "from": "sagara",
+   "to": "bhagiratha",
+   "type": "parent",
+   "note": "Four generations from the ash to the water"
+  },
+  {
+   "from": "bhagiratha",
+   "to": "ganga",
+   "type": "devotee",
+   "note": "He stood on one leg until she agreed to come down"
+  },
+  {
+   "from": "shiva",
+   "to": "ganga",
+   "type": "ally",
+   "note": "He took the fall of the river on his head"
+  },
+  {
+   "from": "bhagiratha",
+   "to": "raghu",
+   "type": "parent",
+   "note": "And on down the Raghu line"
+  },
+  {
+   "from": "raghu",
+   "to": "dasharatha",
+   "type": "parent",
+   "note": "Grandfather and father of Rama"
+  },
+  {
+   "from": "raghu",
+   "to": "kubera",
+   "type": "enemy",
+   "note": "He prepared to raid the treasury of wealth itself"
+  },
+  {
+   "from": "brahma",
+   "to": "marichi",
+   "type": "parent",
+   "note": "Mind-born"
+  },
+  {
+   "from": "marichi",
+   "to": "kashyapa",
+   "type": "parent",
+   "note": "And from Kashyapa, most of what breathes"
+  },
+  {
+   "from": "brahma",
+   "to": "angiras",
+   "type": "parent",
+   "note": "Mind-born, out of the fire"
+  },
+  {
+   "from": "angiras",
+   "to": "brihaspati",
+   "type": "parent",
+   "note": "The father of the teacher of the gods"
+  },
+  {
+   "from": "brahma",
+   "to": "atri",
+   "type": "parent",
+   "note": "Mind-born"
+  },
+  {
+   "from": "atri",
+   "to": "chandra",
+   "type": "parent",
+   "note": "The moon, from a drop of light out of his eye"
+  },
+  {
+   "from": "bharadvaja",
+   "to": "drona",
+   "type": "parent",
+   "note": "Caught in a wooden trough, which is what the name means"
+  },
+  {
+   "from": "gautama_m",
+   "to": "ahalya",
+   "type": "consort",
+   "note": "Made by Brahma, given to him, and cursed by him"
+  },
+  {
+   "from": "gautama_m",
+   "to": "indra",
+   "type": "enemy",
+   "note": "He crowed like a cock to empty the house"
+  },
+  {
+   "from": "indra",
+   "to": "ahalya",
+   "type": "enemy",
+   "note": "He came in her husband's shape"
+  },
+  {
+   "from": "rama",
+   "to": "ahalya",
+   "type": "ally",
+   "note": "The dust of his foot took the curse off"
+  },
+  {
+   "from": "jamadagni",
+   "to": "renuka",
+   "type": "consort",
+   "note": "He ordered her beheading and accepted her return"
+  },
+  {
+   "from": "jamadagni",
+   "to": "parashurama",
+   "type": "parent",
+   "note": "The son who picked up the axe"
+  },
+  {
+   "from": "renuka",
+   "to": "parashurama",
+   "type": "parent",
+   "note": "He killed her and then asked for her back"
+  },
+  {
+   "from": "bhrigu",
+   "to": "jamadagni",
+   "type": "parent",
+   "note": "The Bhrigu line, of which Jamadagni is the fierce end"
+  },
+  {
+   "from": "nirriti",
+   "to": "yama",
+   "type": "ally",
+   "note": "Two of the eight, holding adjacent quarters of the dead"
+  },
+  {
+   "from": "shiva",
+   "to": "ishana",
+   "type": "form",
+   "note": "The fifth face, the one that looks up"
+  },
+  {
+   "from": "ishana",
+   "to": "kubera",
+   "type": "ally",
+   "note": "The northeast and the north, side by side"
+  },
+  {
+   "from": "buddha",
+   "to": "yashodhara",
+   "type": "consort",
+   "note": "He looked in at her and did not wake her"
+  },
+  {
+   "from": "buddha",
+   "to": "rahula",
+   "type": "parent",
+   "note": "Named fetter, and ordained at seven"
+  },
+  {
+   "from": "yashodhara",
+   "to": "rahula",
+   "type": "parent",
+   "note": "She sent him to ask for his inheritance"
   }
  ],
  "meta": {
@@ -8125,6 +10228,29 @@
    "connectorCaption": "Sages transmit it, heroes enact it, asuras oppose it"
   },
   {
+   "title": "The Two Dynasties — Solar and Lunar",
+   "blurb": "Every mortal king in this pack belongs to one of two lines, and both start with Manu. The Solar line runs through Ikshvaku to Rama; the Lunar line runs through Budha to the field at Kurukshetra. The Ramayana is the first line's story and the Mahabharata is the second's.",
+   "memberIds": [
+    "manu",
+    "ikshvaku",
+    "harishchandra",
+    "sagara",
+    "bhagiratha",
+    "raghu",
+    "ila",
+    "pururavas",
+    "ayu",
+    "nahusha",
+    "yayati",
+    "puru",
+    "dushyanta",
+    "shakuntala",
+    "bharata_k",
+    "kuru"
+   ],
+   "connectorCaption": "And from the two dynasties, the two epics"
+  },
+  {
    "title": "Sages, Heroes & Adversaries",
    "blurb": "The human and near-human level where the epics happen: the seers who carry the texts, the champions who fight in them, and the asura kings whose opposition gives the stories their shape.",
    "memberIds": [
@@ -8182,6 +10308,70 @@
     "arjuna",
     "nakula",
     "sahadeva"
+   ]
+  },
+  {
+   "id": "navagraha",
+   "label": "The Navagraha (Nine Planets)",
+   "memberIds": [
+    "surya",
+    "chandra",
+    "mangala",
+    "budha",
+    "brihaspati",
+    "shukra",
+    "shani",
+    "rahu",
+    "ketu"
+   ]
+  },
+  {
+   "id": "saptarishi",
+   "label": "The Saptarishi (Seven Sages)",
+   "memberIds": [
+    "marichi",
+    "angiras",
+    "atri",
+    "bharadvaja",
+    "gautama_m",
+    "jamadagni",
+    "vasishtha",
+    "vishvamitra",
+    "kashyapa",
+    "bhrigu"
+   ]
+  },
+  {
+   "id": "chandravamsha",
+   "label": "The Lunar Dynasty",
+   "memberIds": [
+    "chandra",
+    "budha",
+    "ila",
+    "pururavas",
+    "ayu",
+    "nahusha",
+    "yayati",
+    "puru",
+    "dushyanta",
+    "bharata_k",
+    "kuru",
+    "shantanu"
+   ]
+  },
+  {
+   "id": "suryavamsha",
+   "label": "The Solar Dynasty",
+   "memberIds": [
+    "surya",
+    "manu",
+    "ikshvaku",
+    "harishchandra",
+    "sagara",
+    "bhagiratha",
+    "raghu",
+    "dasharatha",
+    "rama"
    ]
   }
  ]
