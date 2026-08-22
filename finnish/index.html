@@ -47,6 +47,7 @@
     <a href="/hindu/hierarchy" class="tab" data-view="hierarchy">Hierarchy</a>
     <a href="/hindu/chart" class="tab" data-view="chart">Chart</a>
     <a href="/compare" class="tab" data-view="compare">Compare</a>
+    <a href="/collection" class="tab" data-view="collection" id="tab-collection">Collection<span class="coll-badge" hidden>0</span></a>
     <button type="button" class="tab tab-btn" id="about-btn">About</button>
   </nav>
 
@@ -83,6 +84,7 @@
         <p class="hero-sub" id="hero-sub"></p>
         <div class="hero-cta">
           <a class="cta-primary" id="hero-cta-main" href="/hindu/map">Explore the map</a>
+          <button type="button" class="hero-shuffle" id="hero-shuffle" hidden aria-label="Suggest a different tradition" title="Suggest a different tradition"><span aria-hidden="true">&#8635;</span></button>
           <a class="cta-secondary" href="/compare">Compare traditions</a>
         </div>
       </div>
@@ -383,6 +385,37 @@
   <div id="about-content"></div>
 </dialog>
 
+<!-- ======================= COLLECTION ======================= -->
+<section id="view-collection" class="view scroll-view" hidden aria-label="Your collection">
+  <div class="view-inner">
+    <header class="view-head">
+      <h2 class="view-title">Your Collection</h2>
+      <p class="view-lede">Gather figures and story cycles from any tradition on the site, then take the set away as a PDF, a Word document, Markdown or plain text. Everything is kept on this device only &mdash; nothing is uploaded, and clearing your browser data clears the collection.</p>
+    </header>
+
+    <div class="coll-empty" id="coll-empty" hidden>
+      <p class="coll-empty-glyph" aria-hidden="true">&#10022;</p>
+      <p class="coll-empty-lead">Nothing collected yet.</p>
+      <p>Open any figure and choose <strong>Add to collection</strong>, or add a whole story cycle from the Stories view. Items from different traditions can sit in the same collection.</p>
+      <p><a class="cta-secondary" href="/">Browse the traditions</a></p>
+    </div>
+
+    <div id="coll-live" hidden>
+      <div class="coll-bar">
+        <p class="coll-summary" id="coll-summary"></p>
+        <div class="coll-actions">
+          <button type="button" class="cta-primary small" id="coll-pdf">Print / PDF</button>
+          <button type="button" class="ghost-btn small" id="coll-word">Word</button>
+          <button type="button" class="ghost-btn small" id="coll-md">Markdown</button>
+          <button type="button" class="ghost-btn small" id="coll-txt">Text</button>
+          <button type="button" class="ghost-btn small danger" id="coll-clear">Clear</button>
+        </div>
+      </div>
+      <div id="coll-groups"></div>
+    </div>
+  </div>
+</section>
+
 <!-- ======================= PORTRAIT LIGHTBOX ======================= -->
 <dialog id="lightbox" class="lightbox" aria-label="Expanded portrait">
   <button type="button" class="panel-close icon-btn" id="lightbox-close" aria-label="Close expanded portrait">&times;</button>
@@ -397,5 +430,6 @@
 <script src="/js/diagrams.js" defer></script>
 <script src="/js/chart.js" defer></script>
 <script src="/js/vault.js" defer></script>
+<script src="/js/collections.js" defer></script>
 </body>
 </html>

@@ -265,7 +265,7 @@ function resetForPantheon() {
   document.title = meta.label + " Mythology - Relationship Map";
   $$(".tab[data-view]").forEach(t => {
     const v = t.dataset.view;
-    if (v !== "compare") t.setAttribute("href", "/" + APP.pid + "/" + v);
+    if (v !== "compare" && v !== "collection") t.setAttribute("href", "/" + APP.pid + "/" + v);
   });
   $("#tray-open").setAttribute("href", "/" + APP.pid + "/chart");
 
@@ -277,6 +277,120 @@ function resetForPantheon() {
   Hierarchy.build();
   ChartBuilder.reset();
   restoreChartSelection();
+}
+
+/* ---------------- collection view ---------------- */
+
+/* Renders whatever is in Collections, which may reference traditions this
+   session has never loaded - hence the hydrate() first. Kept here rather than
+   in collections.js because it uses the site's own markup helpers. */
+function renderCollection() {
+  const empty = $("#coll-empty");
+  const live = $("#coll-live");
+  if (!empty || !live || typeof Collections === "undefined") return Promise.resolve();
+
+  Collections.load();
+  if (!Collections.count()) {
+    empty.hidden = false;
+    live.hidden = true;
+    Collections.paintCount();
+    return Promise.resolve();
+  }
+
+  return Collections.hydrate().then(() => {
+    const groups = Collections.grouped();
+    const nFig = groups.reduce((n, g) =>
+      n + g.entries.filter(e => e.kind === "figure").length, 0);
+    const nSt = groups.reduce((n, g) =>
+      n + g.entries.filter(e => e.kind === "story").length, 0);
+
+    /* an item can be unresolvable if its pack is gated and this device has not
+       unlocked it, or if a pack was renamed - say so rather than dropping it */
+    const missing = Collections.count() - groups.reduce((n, g) => n + g.entries.length, 0);
+
+    empty.hidden = true;
+    live.hidden = false;
+
+    /* same sentence the exports carry, so the screen and the file agree */
+    const part = n => n === 1 ? "" : "s";
+    $("#coll-summary").textContent = Collections.doc().summary +
+      (missing ? "  ·  " + missing + " item" + part(missing) +
+                 " unavailable on this device" : "");
+
+    $("#coll-groups").innerHTML = groups.map(g =>
+      '<section class="coll-group">' +
+        '<h3 class="coll-group-h">' + esc(g.meta.label) +
+          (g.meta.sublabel ? '<span class="coll-group-sub">' + esc(g.meta.sublabel) + "</span>" : "") +
+        "</h3>" +
+        '<ul class="coll-list">' + g.entries.map(en => {
+          const isFig = en.kind === "figure";
+          const d = en.data;
+          const name = isFig ? shortName(d) : d.title;
+          const sub = isFig ? (d.role || "") : (d.era ? eraLabel(d.era) + " · story cycle" : "story cycle");
+          const href = isFig ? "/" + en.pack + "/figure/" + d.id
+                             : "/" + en.pack + "/stories#story-" + d.id;
+          return '<li class="coll-item" data-pack="' + esc(en.pack) +
+                 '" data-id="' + esc(d.id) + '" data-kind="' + esc(en.kind) + '">' +
+            (isFig
+              ? '<img class="coll-thumb" src="' + esc(portraitPath(d)) +
+                '" alt="" loading="lazy" width="44" height="44">'
+              : '<span class="coll-thumb coll-thumb-story" aria-hidden="true">&#10087;</span>') +
+            '<span class="coll-item-text">' +
+              '<a class="coll-item-name" href="' + esc(href) + '">' + esc(name) + "</a>" +
+              '<span class="coll-item-sub">' + esc(sub) + "</span>" +
+            "</span>" +
+            '<span class="coll-item-tools">' +
+              '<button type="button" class="icon-btn tiny" data-coll-move="-1" aria-label="Move ' + esc(name) + ' up">&#9650;</button>' +
+              '<button type="button" class="icon-btn tiny" data-coll-move="1" aria-label="Move ' + esc(name) + ' down">&#9660;</button>' +
+              '<button type="button" class="icon-btn tiny danger" data-coll-del="1" aria-label="Remove ' + esc(name) + ' from collection">&times;</button>' +
+            "</span>" +
+          "</li>";
+        }).join("") + "</ul>" +
+      "</section>").join("");
+
+    Collections.paintCount();
+  });
+}
+
+function wireCollectionView() {
+  const root = $("#view-collection");
+  if (!root) return;
+
+  root.addEventListener("click", ev => {
+    const li = ev.target.closest && ev.target.closest(".coll-item");
+    if (li) {
+      const pack = li.dataset.pack, id = li.dataset.id, kind = li.dataset.kind;
+      if (ev.target.closest("[data-coll-del]")) {
+        Collections.remove(pack, id, kind);
+        return renderCollection();
+      }
+      const mv = ev.target.closest("[data-coll-move]");
+      if (mv) {
+        Collections.move(pack, id, kind, Number(mv.dataset.collMove));
+        return renderCollection();
+      }
+    }
+    if (ev.target.closest("#coll-clear")) {
+      if (confirm("Remove everything from your collection? This cannot be undone.")) {
+        Collections.clear();
+        renderCollection();
+      }
+    }
+  });
+
+  const on = (sel, fn) => { const b = $(sel); if (b) b.addEventListener("click", fn); };
+  on("#coll-pdf", () => Collections.hydrate().then(Collections.toPdf));
+  on("#coll-word", () => Collections.hydrate().then(Collections.toWord));
+  on("#coll-md", () => Collections.hydrate().then(() => {
+    const d = Collections.doc();
+    Collections.download(Collections.fileStamp(d) + ".md", "text/markdown;charset=utf-8",
+                         Collections.toMarkdown());
+  }));
+  on("#coll-txt", () => Collections.hydrate().then(() => {
+    const d = Collections.doc();
+    Collections.download(Collections.fileStamp(d) + ".txt", "text/plain;charset=utf-8",
+                         Collections.toText());
+  }));
 }
 
 /* ---------------- routing ---------------- */
@@ -292,6 +406,16 @@ function handleRoute() {
     return loadPantheon(APP.pid || first).then(() => {
       Compare.build();
       showView("compare");
+    });
+  }
+
+  /* The collection spans traditions, so it does not belong to one pack. Load
+     something so the shared chrome has a dataset, then render from storage. */
+  if (parts[0] === "collection") {
+    const first = APP.manifest[0].id;
+    return loadPantheon(APP.pid || first).then(() => {
+      showView("collection");
+      return renderCollection();
     });
   }
 
@@ -366,7 +490,7 @@ function showView(name) {
   /* the portal carries no pantheon, so the pantheon-scoped chrome is hidden */
   document.body.classList.toggle("on-hub", name === "landing" || name === "vault");
   if (name === "landing") resetBrand();
-  ["landing", "vault", "map", "stories", "hierarchy", "chart", "compare"].forEach(v => {
+  ["landing", "vault", "map", "stories", "hierarchy", "chart", "compare", "collection"].forEach(v => {
     const el = $("#view-" + v);
     if (el) el.hidden = v !== name;
   });
@@ -418,10 +542,37 @@ function buildLanding() {
     figures + " figures, " + links + " relationships and " + stories +
     " story cycles across " + live.length + " mapped " + tradWord + ", each traced to the text that carries it. " +
     planned.length + " more traditions in preparation. Runs entirely in your browser.";
-  if (first) {
-    const cta = $("#hero-cta-main");
-    cta.setAttribute("href", "/" + first.id + "/map");
-    cta.textContent = "Explore " + first.label + " mythology";
+  /* The primary CTA used to be hardwired to whichever pack sorted first, which
+     meant Hindu forever and 36 traditions the visitor never saw offered. It now
+     picks a live tradition at random on every load, so the front door shows a
+     different way in each time. Re-rolls on click of the shuffle control
+     without a reload. */
+  const heroCta = $("#hero-cta-main");
+  const heroDice = $("#hero-shuffle");
+  function offerRandom(exclude) {
+    const pool = live.length > 1 && exclude
+      ? live.filter(p => p.id !== exclude) : live;
+    if (!pool.length) return;
+    const p = pool[Math.floor(Math.random() * pool.length)];
+    heroCta.setAttribute("href", "/" + p.id + "/map");
+    heroCta.dataset.pid = p.id;
+    /* Most labels are adjectives - "Explore Norse mythology" - but a few are
+       already noun phrases, and "Explore Raven Cycle mythology" is not English. */
+    heroCta.textContent = /\b(Cycle|Sagas)$/.test(p.label)
+      ? "Explore the " + p.label
+      : "Explore " + p.label + " mythology";
+  }
+  if (live.length) {
+    offerRandom(null);
+    if (heroDice) {
+      heroDice.hidden = live.length < 2;
+      heroDice.addEventListener("click", () => {
+        offerRandom(heroCta.dataset.pid);
+        heroCta.classList.remove("just-rolled");
+        void heroCta.offsetWidth;               // restart the flash
+        heroCta.classList.add("just-rolled");
+      });
+    }
   }
 
   /* Browse by tradition, one shelf per continent. One flat run of cards worked
@@ -544,6 +695,18 @@ function wireChrome() {
     document.documentElement.getAttribute("data-theme") === "light" ? "true" : "false");
 
   $("#about-btn").addEventListener("click", openAbout);
+  /* Guarded: the per-pack pages are generated from index.html by
+     packs/build_pages.py, so a page built before collections.js existed will not
+     load it. Without this guard that single missing script threw at boot and
+     took the whole app down - no pantheon, no map, blank shell. A feature that
+     is absent should degrade, not break everything around it. */
+  if (typeof Collections !== "undefined") {
+    Collections.wire();
+    wireCollectionView();
+  } else {
+    const ct = $("#tab-collection");
+    if (ct) ct.hidden = true;
+  }
   const hubAbout = $("#hub-about-btn");
   if (hubAbout) hubAbout.addEventListener("click", openAbout);
   $("#about-close").addEventListener("click", () => $("#about-dialog").close());
@@ -931,6 +1094,11 @@ function figureHtml(e, opts) {
         '<button type="button" class="ghost-btn small" data-chart-web="' + esc(e.id) + '">' +
           "Add with relations</button>" +
       "</div>" +
+      '<div class="chart-add-row">' +
+        '<button type="button" class="coll-add" data-coll-add="' + esc(e.id) +
+          '" data-coll-pack="' + esc(APP.pid) + '" data-coll-kind="figure" aria-pressed="false">' +
+          "Add to collection</button>" +
+      "</div>" +
       (quickFacts.length
         ? '<dl class="fig-quickfacts">' + quickFacts.map(f =>
             '<div class="qf' + (f[2] ? " qf-wide" : "") + '"><dt>' + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd></div>"
@@ -1131,6 +1299,9 @@ function renderStories() {
       "</div>" +
       '<div class="story-foot">' +
         '<button type="button" class="ghost-btn small" data-cast="' + esc(s.id) + '">Add this cast to the chart</button>' +
+        '<button type="button" class="coll-add small" data-coll-add="' + esc(s.id) +
+          '" data-coll-pack="' + esc(APP.pid) + '" data-coll-kind="story" aria-pressed="false">' +
+          "Add to collection</button>" +
       "</div>" +
       '<div class="story-sources"><h4 class="story-sources-h">Sources</h4><ul>' +
         s.sources.map(src => '<li><a href="' + esc(src.url) + '" target="_blank" rel="noopener">' +
@@ -1179,6 +1350,7 @@ function updateTray() {
   const badge = $("#tray-count");
   badge.hidden = n === 0;
   badge.textContent = n;
+  if (window.Collections) Collections.paintButtons();
   $$("[data-chart-add]").forEach(b => {
     const on = APP.chart.has(b.dataset.chartAdd);
     b.classList.toggle("is-in", on);
