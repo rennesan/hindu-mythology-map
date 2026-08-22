@@ -957,7 +957,9 @@
     "orpheus",
     "heracles",
     "atalanta",
-    "circe"
+    "circe",
+    "castor",
+    "polydeuces"
    ],
    "summary": "Pelias, having usurped Iolcus, sends Jason for the Golden Fleece in Colchis expecting him not to return. Jason gathers the greatest crew in the tradition - Heracles, Orpheus, Castor and Polydeuces, and in some accounts Atalanta - and the Argo sails through the Clashing Rocks by releasing a dove first and rowing hard behind it. Aeetes sets three impossible conditions: yoke the fire-breathing bronze-hoofed bulls, sow the dragon's teeth and survive the armed men that spring up, and take the fleece from a serpent that never sleeps. His daughter Medea, in love with Jason, supplies the fireproof ointment, the trick of throwing a stone among the sown men so they kill each other, and the drug that puts the serpent to sleep. They escape, and Medea delays her father's pursuit by killing her own brother.",
    "sources": [
@@ -5463,6 +5465,86 @@
    ],
    "hierarchyLevel": 6,
    "archetypes": []
+  },
+  {
+   "id": "castor",
+   "name": "Castor",
+   "sanskrit": "Kastor",
+   "category": "hero",
+   "era": "Heroic",
+   "role": "The mortal twin, who died and was given half of his brother's immortality",
+   "wikipedia": "Castor_and_Pollux",
+   "portrait": "portraits/greek/castor.webp",
+   "epithets": [
+    "Kastor",
+    "one of the Dioscuri",
+    "tamer of horses"
+   ],
+   "domains": [
+    "horsemanship",
+    "the protection of sailors",
+    "brotherhood"
+   ],
+   "symbols": [
+    "the pointed cap",
+    "the horse",
+    "the star Castor"
+   ],
+   "mount": null,
+   "abode": "Sparta, and afterwards alternate days in Hades and Olympus",
+   "festivals": [],
+   "worship": "",
+   "bio": "One twin was born mortal and one immortal, and the mortal one died first, which was the whole problem.",
+   "longBio": "Castor and Polydeuces were born to Leda on the same night, Castor to her husband Tyndareus and Polydeuces to Zeus, so one was mortal and one was not. They sailed with the Argo, Castor as the horseman and his brother as the boxer. When Castor was killed in a cattle quarrel with their cousins, Polydeuces asked to die too and Zeus offered a compromise instead: the brothers would share one immortality between them, alternating days above and below. They are the Dioscuri, they appear as St Elmo's fire to sailors in trouble, and they are the constellation Gemini.",
+   "variantTraditions": "Which twin has which father varies; some accounts make both sons of Zeus, which removes the point of the story.",
+   "storyIds": [
+    "argonauts"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "fate-time"
+   ]
+  },
+  {
+   "id": "polydeuces",
+   "name": "Polydeuces",
+   "sanskrit": "Polydeukes",
+   "category": "hero",
+   "era": "Heroic",
+   "role": "The immortal twin, who gave half his immortality away rather than outlive his brother",
+   "wikipedia": "Castor_and_Pollux",
+   "portrait": "portraits/greek/polydeuces.webp",
+   "epithets": [
+    "Pollux in Latin",
+    "one of the Dioscuri",
+    "the boxer"
+   ],
+   "domains": [
+    "boxing",
+    "the protection of sailors",
+    "brotherhood"
+   ],
+   "symbols": [
+    "the pointed cap",
+    "the boxing thongs",
+    "the star Pollux"
+   ],
+   "mount": null,
+   "abode": "Sparta, and afterwards alternate days in Hades and Olympus",
+   "festivals": [],
+   "worship": "",
+   "bio": "Offered eternity on Olympus without his brother, he turned it down.",
+   "longBio": "Son of Zeus by Leda and twin to the mortal Castor, Polydeuces was the boxer of the pair and killed King Amycus of the Bebrycians in a match during the voyage of the Argo. When his brother was killed he refused the immortality he had been born with unless it could be shared, and Zeus divided it: one day among the gods, the next below. The two of them are the patrons of sailors and of guests, and the fire that plays on a ship's rigging in a storm was taken as the pair of them arriving. Their sister was Helen.",
+   "variantTraditions": "Latin sources call him Pollux, which is how the star is named; the Greek is Polydeuces.",
+   "storyIds": [
+    "argonauts"
+   ],
+   "hierarchyLevel": 5,
+   "archetypes": [
+    "hero-champion",
+    "fate-time"
+   ]
   }
  ],
  "links": [
@@ -6953,6 +7035,42 @@
    "to": "eros_son",
    "type": "form",
    "note": "antiquity argued whether the primordial Eros and Aphrodite's son were one power or two"
+  },
+  {
+   "from": "castor",
+   "to": "polydeuces",
+   "type": "sibling",
+   "note": "Twins, one mortal and one not"
+  },
+  {
+   "from": "zeus",
+   "to": "polydeuces",
+   "type": "parent",
+   "note": "The immortal half of the pair"
+  },
+  {
+   "from": "castor",
+   "to": "helen",
+   "type": "sibling",
+   "note": "Born of Leda the same night"
+  },
+  {
+   "from": "polydeuces",
+   "to": "helen",
+   "type": "sibling",
+   "note": "Born of Leda the same night"
+  },
+  {
+   "from": "castor",
+   "to": "jason",
+   "type": "ally",
+   "note": "Both took an oar on the Argo"
+  },
+  {
+   "from": "polydeuces",
+   "to": "jason",
+   "type": "ally",
+   "note": "He boxed for the crew and won"
   }
  ]
 }

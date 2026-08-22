@@ -588,7 +588,8 @@
     "onuris",
     "ra",
     "hathor",
-    "sekhmet"
+    "sekhmet",
+    "mekhit"
    ],
    "summary": "The Eye of Ra quarrels with her father and withdraws into Nubia as a raging lioness. While she is gone the land suffers: no flood, no growth. Two gods go after her. Thoth follows and talks - he tells her fables, flatters her, argues, and slowly draws her home, which is the version that survives most fully. Onuris hunts her instead with lance and rope and brings her back by force as his consort. On her return she is met with music, dancing and drink to cool her from lioness back to Hathor, and her arrival is celebrated as the coming of the inundation. Different temples name the goddess differently - Tefnut, Hathor, Sekhmet, Mekhit - because each preferred its own.",
    "sources": [
@@ -4022,6 +4023,46 @@
     "divine-beast",
     "war"
    ]
+  },
+  {
+   "id": "mekhit",
+   "name": "Mekhit",
+   "sanskrit": "Mḫyt",
+   "category": "deity",
+   "era": "Solar",
+   "role": "The lioness Onuris went south to fetch, and came back married to",
+   "wikipedia": "Mehit",
+   "portrait": "portraits/egyptian/mekhit.webp",
+   "epithets": [
+    "Mehit",
+    "the raging one",
+    "the Distant Goddess in her Thinite form"
+   ],
+   "domains": [
+    "the returning lioness",
+    "protection",
+    "the hunt"
+   ],
+   "symbols": [
+    "the lioness",
+    "three bent poles, the sign of her name"
+   ],
+   "mount": null,
+   "abode": "This, in Upper Egypt, beside Onuris",
+   "festivals": [],
+   "worship": "",
+   "bio": "He was sent to bring the runaway goddess home. He brought her home and then married her.",
+   "longBio": "Mekhit is the lioness form of the Distant Goddess as told at This, where Onuris - whose name means the one who brings back the far-away - goes south into Nubia to fetch her and returns with her as his wife. The pattern is the same one told of Tefnut and Hathor and Sekhmet elsewhere: the Eye of Ra quarrels with her father, withdraws in a rage, the land dries up, and a god has to go and talk her back. Her sign is three bent poles, and she is shown as a lioness or a woman with a lioness head.",
+   "variantTraditions": "Mekhit, Tefnut, Hathor and Sekhmet are local versions of one story rather than four goddesses; which name is used depends on which town is telling it.",
+   "storyIds": [
+    "distant-goddess"
+   ],
+   "hierarchyLevel": 3,
+   "archetypes": [
+    "war",
+    "healer",
+    "sun"
+   ]
   }
  ],
  "links": [
@@ -4894,6 +4935,24 @@
    "to": "khnum",
    "type": "devotee",
    "note": ""
+  },
+  {
+   "from": "onuris",
+   "to": "mekhit",
+   "type": "consort",
+   "note": "He went to Nubia to fetch her and came back married"
+  },
+  {
+   "from": "mekhit",
+   "to": "tefnut",
+   "type": "form",
+   "note": "The same Distant Goddess, told at This instead of Heliopolis"
+  },
+  {
+   "from": "mekhit",
+   "to": "sekhmet",
+   "type": "form",
+   "note": "One lioness among the several she is told as"
   }
  ]
 }

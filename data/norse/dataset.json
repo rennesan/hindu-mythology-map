@@ -159,7 +159,8 @@
     "bragi",
     "idunn",
     "sif",
-    "forseti"
+    "forseti",
+    "hoenir"
    ]
   },
   {
@@ -386,7 +387,8 @@
     "freyr",
     "freyja",
     "mimir",
-    "kvasir"
+    "kvasir",
+    "hoenir"
    ],
    "summary": "The first war in the world is between the Aesir and the Vanir, and neither side wins. The sources are thin on causes - a witch called Gullveig burned three times and reborn, an exchange of insults, Odin casting a spear over a host - and clear on the ending: they trade hostages. Njord and his children Freyr and Freyja go to the Aesir; Hoenir and Mimir go to the Vanir. That arrangement half-fails, because the Vanir decide Hoenir is useless without Mimir prompting him, and behead Mimir and send the head back. Odin preserves it and consults it thereafter. The truce holds regardless, and the Vanir stay in Asgard permanently.",
    "sources": [
@@ -890,7 +892,8 @@
     "odin",
     "andvari",
     "fafnir",
-    "regin"
+    "regin",
+    "hoenir"
    ],
    "summary": "Odin, Loki and Hoenir kill an otter by a waterfall and take its skin, and stop for the night with Hreidmar, who recognises it as his son Otr and demands the skin be stuffed and covered with gold. Loki borrows Ran's net, catches the dwarf Andvari in the shape of a pike, and takes his whole hoard including the ring Andvaranaut, which the dwarf tries to keep back. As Andvari goes he curses the ring and every piece of the gold to destroy whoever owns it. One whisker is left showing on the skin and the ring covers it. Then Fafnir and Regin kill their father for the gold, and the curse begins its work.",
    "sources": [
@@ -3202,6 +3205,47 @@
    "archetypes": [
     "hero-champion"
    ]
+  },
+  {
+   "id": "hoenir",
+   "name": "Hoenir",
+   "sanskrit": "Hœnir",
+   "category": "aesir",
+   "era": "Age of the Aesir",
+   "role": "The third of the three who walk together, who gave the first humans their wits",
+   "wikipedia": "Hœnir",
+   "portrait": "portraits/norse/hoenir.webp",
+   "epithets": [
+    "the long-legged one",
+    "the mud-king",
+    "the indecisive"
+   ],
+   "domains": [
+    "sense and spirit given to humankind",
+    "hostage-exchange with the Vanir",
+    "augury after Ragnarok"
+   ],
+   "symbols": [
+    "the stork or long-legged wading bird",
+    "the lots cast for prophecy"
+   ],
+   "mount": null,
+   "abode": "Asgard, then Vanaheim, and afterwards the world that comes next",
+   "festivals": [],
+   "worship": "",
+   "bio": "He walks everywhere with Odin and Loki, and says almost nothing.",
+   "longBio": "Hoenir is one of the three Aesir who travel together - Odin, Loki and Hoenir - and turn up as a trio in the Otter's Ransom and in the making of the first people, where Odin gives breath, Lodurr gives blood and colour, and Hoenir gives odr, the wit or sense that makes a person. He was handed to the Vanir as a hostage after their war and proved a disappointment: handsome, imposing, and unable to reach a decision without Mimir at his elbow. He is also one of the few named as surviving Ragnarok, casting lots for prophecy in the world that follows.",
+   "variantTraditions": "Snorri and the Poetic Edda disagree over whether the third of the trio is Hoenir or Lodurr, and whether Lodurr is simply Loki under another name.",
+   "storyIds": [
+    "aesir-vanir-war",
+    "otters-ransom"
+   ],
+   "hierarchyLevel": 2,
+   "archetypes": [
+    "wisdom-craft",
+    "creator",
+    "sage-seer"
+   ]
   }
  ],
  "links": [
@@ -3990,6 +4034,24 @@
    "to": "njord",
    "type": "ally",
    "note": "the two powers of the sea, giant and god"
+  },
+  {
+   "from": "hoenir",
+   "to": "odin",
+   "type": "ally",
+   "note": "One of the three who walk together"
+  },
+  {
+   "from": "hoenir",
+   "to": "loki",
+   "type": "ally",
+   "note": "The third of the trio, and the quiet one"
+  },
+  {
+   "from": "hoenir",
+   "to": "mimir",
+   "type": "ally",
+   "note": "He could not decide anything without him"
   }
  ]
 }
